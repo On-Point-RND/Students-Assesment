@@ -1,0 +1,85 @@
+CNN-based model of semantic
+segmentation methods in
+[location] applications
+[name]
+[company]
+Eng System
+Introduction
+topic
+• What is the ?
+CNN-based semantic segmentation in biomedical imaging, with a focus on polyp
+detection in endoscopic images
+.
+• Why is it important?
+Accurate segmentation is crucial for early diagnosis (e.g., colorectal cancer).
+Manual annotation is slow and inconsistent — automation helps improve both speed
+and accuracy.
+Biomedical data is noisy, variable, and often limited → specialized models are needed.
+• Goal of the review
+Compare CNN-based architectures for biomedical segmentation.
+Analyze strengths/weaknesses in context of polyp segmentation.
+Identify trends, limitations, and possible directions (e.g., diffusion, multimodal, etc.).
+Problem statement
+•Polyp segmentation is crucial for early colorectal cancer detection
+•Manual annotation is:
+• Time-consuming
+• Inconsistent
+• Hard to scale
+•High-quality annotated datasets are limited, especially in medical domains
+•Polyps vary in size, shape, texture, and lighting → segmentation is challenging
+•Traditional CV methods struggle with low contrast, occlusion, and noisy
+backgrounds
+•Need for CNN-based models that:
+• Are robust to visual variability
+• Perform well with limited supervision
+• Maintain high precision in real-world clinical use
+Methods
+•Encoder–decoder architecture
+•Lightweight convolutional blocks
+•Residual connections
+•Skip connections (feature reuse)
+•Nearest-neighbor upsampling
+(artifact-free)
+Methods
+• Data & preprocessing
+Pic.1 Example of datas
+test/train/val 20/70/10
+Tab.1 Datasets statistics data
+Results
+Model Data IoU Dice Rrec Rec
+HRNetV2 ETIS- 0.3089 0.4720 0.4645 0.4797
+[name]
+[company]
+PraNet ETIS- 0.7900 0.8827 0.9825 0.8013
+[name]
+[company]
+U-Net ETIS- 0.6969 0.7984 0.8322 0.7724
+[name]
+[company]
+HarDNet-DFUS ETIS- 0.7640 0.8662 0.9708 0.7819
+[name]
+[company]
+MSRF-Net ETIS- 0.6382 0.7791 0.9191 0.6762
+[name]
+[company]
+DUCKNET ETIS- 0.8734 0.9324 0.9539 0.9118
+[name]
+[company]
+Ours ETIS- 0.8779 0.9335 0.9300 0.9456
+[name]
+[company]
+Tab.2 testing results
+Results
+Research gap
+• What’s missing? Identify limitations in current approaches.
+• Performance drops in low-quality or occluded images
+• Models are often data-hungry → struggle with small, annotated biomedical datasets
+• Unresolved challenges: Mention problems that still exist.
+Lack of standardized benchmarks across real-world clinical settings
+• Why it matters? Explain how filling these gaps could improve real-world use.
+• Better generalization = more reliable diagnostics
+• Interpretability = higher clinical adoption and trust
+• Data-efficient models = easier deployment in low-resource settings
+• Future opportunities: Suggest next steps.
+• Leveraging diffusion models for synthetic data generation
+• Exploring multimodal learning (e.g., combining endoscopy images + text reports)

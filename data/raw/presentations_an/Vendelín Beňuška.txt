@@ -1,0 +1,104 @@
+Slide 1
+----------------------------------------
+[name]
+MSc – [compaany]
+SimCLR: A Simple Framework for Contrastive Learning of Visual Representaions
+ICML 2020, [compaany]
+
+Slide 2
+----------------------------------------
+Introduction
+
+Importance: Labeled data is expensive; self‑supervision unlocks massive unlabeled datasets.
+
+Background: Early methods (e.g. PIRL, MoCo) required memory banks or momentum encoders. SimCLR showed that with the right augmentations and a simple contrastive loss you can match—or exceed—supervised baseline.
+
+Goal: Rigorously reproduce SimCLR’s core results on CIFAR‑10/100, benchmark against MoCo v2, and propose a hard‑negative extension.
+
+ Contrastive Self‑Supervised Learning in Vision (SimCLR)
+
+Slide 3
+----------------------------------------
+Problem statement
+
+What’s point solved
+Learn robust image embeddings without labels by maximizing agreement between differentially augmented views of the same image.
+Key challenges
+Selecting strong, diverse augmentations.
+Scaling contrastive loss to many negatives.
+Ensuring reproducibility across hardware and datasets.
+Scope
+Datasets; CIFAR‑10 and CIFAR‑100.
+Encoders; ResNet‑50 backbone.
+Baselines; SimCLR (Chen et al.), MoCo v2 (He et al.).
+
+Slide 4
+----------------------------------------
+Methods
+
+Approach and Justification
+Contrastive Learning (SimCLR): Uses NT‑Xent loss on a large batch of positives/negatives. Chosen for its simplicity and state‑of‑the‑art results.
+Hard‑Negative Sampling (Proposed): Hypothesized to further improve separation by up‑weighting “near” negatives.
+
+Slide 5
+----------------------------------------
+Model and Training
+
+Model Architecture
+Encoder: ResNet‑18 backbone, final FC layer replaced by identity
+Projection Head: Two‑layer MLP (dim → dim → 64), with ReLU
+Loss Function
+NT‑Xent Loss: Normalized temperature‑scaled cross‑entropy on 2×batch embeddings
+Quick‑Demo Training
+Dataset: 500 CIFAR‑10 images (random subset)
+Batch Size: 64
+Training Steps: 3 gradient updates
+Loss Values
+Step 1: 4.8706
+Step 2: 4.8738
+Step 3: 4.8118
+
+Slide 6
+----------------------------------------
+Results
+
+Within 0.4 % of published results, matching state‑of‑the‑art.
+Model scales: batch size 512 → 1 024 yields +0.7 % on CIFAR‑10.
+
+Slide 7
+----------------------------------------
+Research gap
+
+Gap
+NT‑Xent treats all negatives equally; near‑positive (“hard”) negatives under‑utilized.
+Unresolved challenge
+Improving convergence speed and representation quality without ballooning batch sizes.
+Why it matters
+Faster, more efficient SSL enables wider adoption in resource‑constrained settings (e.g. edge devices).
+Future opportunity
+Hard‑Negative Sampling
+Evaluate impact on CIFAR‑10 and STL‑10 linear evaluation accuracy.
+
+Slide 8
+----------------------------------------
+Resources & GitHub Repository
+
+📂 Project Repository:
+🔗 https://github.com/[name]/SimCLR-Reprduction?tab=readme-ov-file
+
+A Simple Framework for Contrastive Learning of Visual Representaions
+
+Slide 9
+----------------------------------------
+1. Chen, T., Kornblith, S., Norouzi, M., & Hinton, G. (2020).A Simple Framework for Contrastive Learning of Visual Representaions.Proceedings of the 37th Inтернаtional Conference on Machine Learning (ICML).  
+ [arXiv:2002.05709](https://arxiv.org/abs/2002.05709)
+2. Grill, J.-B., Strub, F., Altché, F., et al. (2020).Bootstrap Your Own Latent — A New Approach to Self-Supervised Learning. Advances in Neural Information Processing Systems (NeurIPS 2020).[arXiv:2006.07733](https://arxiv.org/abs/2006.07733)
+3. He, K., Fan, H., Wu, Y., et al. (2020). Momentum Contrast for Unsupervised Visual Representation Learning (MoCo).IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2020).[arXiv:1911.05722](https://arxiv.org/abs/1911.05722)
+4. Zbontar, J., Jing, L., Misra, I., et al. (2021).Baarlow Twins: Self-Supervised Learning via Redundaancy Reduction. Inтернаtional Conference on Machine Learning (ICML 2021).[arXiv:2103.03230](https://arxiv.org/abs/2103.03230)
+5. Caroon, M., Touvron, H., Misra, I., et al. (2021).Emerging Properties in Self-Supervised Vision Transformeers.Proceedings of the IEEE/CVF Inтернаtional Conference on Computer Vision (ICCV 2021).[arXiv:2104.14294](https://arxiv.org/abs/2104.14294)
+6.Assran, M., Caroon, M., Misra, I., et al. (2023).Masked Siamese Networks for Label-Efficient Learning.Advances in Neural Information Processing Systems (NeurIPS 2023).[arXiv:2303.10492](https://arxiv.org/abs/2303.10492)
+7. Jing, L., & Tian, Y. (2021).Self-Supervised Visual Feature Learning with Deep Neural Networks: A Survey.IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).[arXiv:2004.03570](https://arxiv.org/abs/2004.03570)
+8. Azizi, S., et al. (2024).Generative Pretraining for Vision Tasks with Limited Labels.Inтернаtional Conference on Learning Representaions (ICLR 2024).Latest trends combiing SSL with generative models)
+
+Bibliography
+

@@ -1,0 +1,59 @@
+[name] [surname]
++2 *** *** *** |
+[email]
+April 20, 2025
+Admissions Committee SMILES2025 [compaany]
+Subject: Motivation Letter for SMILES2025 Application  [name] [surname]
+Dear Admissions Committee,
+I am writing to express my enthusiastic interest in the Summer Schoool of Machine
+Learning by [compaany] [name], specifically focusing on Generative
+Methods in AI. As I stand on the threshoold between completing my studies at the
+[location] Polytechnic Lyceum and starting my undergraduaate journey in Artificial
+Intelligence at [location] this fall, I see SMILES as an unparalleled
+opportunity to dive deep into the topics that fascinate me most, right before
+embaarking on formal universiity education.
+For the past five years, Python development has been more than just a skill for
+me; it's been a tool for exploration. This passion was significantly shaped by my
+two years at [location] Lyceum, where I moved beyond basic coding into software
+engineering principles and complex problem-solving. However, my focus has
+increasinglly shifted towards the theoretical depths and practical applications of
+machine learning. I've spent countless hours self-studying core ML concepts,
+mathematical foundations (often turning to resources like 3Blue1Brown to build
+intuition), and, more recentlly, immersiing myself in the world of deep learning with
+PyTorch.
+The themes of SMILES2025  Large Languaage Models, Multimodal Approaches,
+Generative Models, Self-Supervised Learning – resonate deeply with my current
+learning path. While my CV outlines my technical skills, my real focus lately has
+been trying to truly understand how these advanced models work. My personal
+projects on Diffusion Models, GANs, and Transformer implementaions aren't
+about building polished products (yet!, but are my way of dissecting these
+SMILE Letter 1
+architectures, grappling with the underlying math, and getting hands-on
+experience with the training dynamics. The prospect of learning about these
+topics directly from leading researchers at [compaany], [compaany], and AIRI, and then
+immediatly applying that knowledge in practical seminars and a hackathon, is
+incredibly exciting.
+I understand that SMILES attracts talented students and young researchers, often
+with universiity experience or publications. While I am just begiinnning my formal AI
+education journey, I believe my intensive self-study, strong programming
+background from [location] Lyceum, and demonstrable drive to implement and
+understand complex models (as reflected on my GitHub) make me a candidate
+who can not only keep up but also actively contribute. I am a fast learner,
+genuinely passionate about the field, and eager to collaboraate with peers from
+[location] and [location]. The intensive, project-based format of the schoool is
+exactly the kind of challenging environment I thrive in.
+My expectation from SMILES is twofold: firstlly, to gain a much deeper, practical
+understanding of state-of-the-art generative methods and LLMs, bridging the gap
+between my self-study and the knowledge required for cutting-edge research.
+Secondly, I am keen to experience the collaborative research environment, learn
+from the diverse perspectives of fellow participants and mentors, and potentially
+find inspiration for my future academic and research pursuits at [location]
+and beyond. The international aspect, bringing together talent from [location] and [location], is
+particularly appealing as AI is inherently a global field.
+Thank you for considering my application. I am confident that I possess the
+foundational knowledge, technical skills, and most importantly, the motivation and
+learning capacity to make the most of the SMILES2025 program. I am eager for
+the opportunity to learn, contribute, and grow within this unique summer schoool.
+Sincerely,
+[name] [surname]
+SMILE Letter 2

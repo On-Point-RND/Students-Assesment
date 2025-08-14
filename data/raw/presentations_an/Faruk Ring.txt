@@ -1,0 +1,158 @@
+RIEMANNIAN FLOW MATCHING
+[name]
+Phd student, [compaany]
+Introduction
+How can we generate crystals, proteins, or robot poses that obey physical laws? Euclidean generative
+models often fail—here’s how flow matching on manifolds fixes this.
+o Standard generative models (GANs, diffusion) ignore geometric constraints.
+o Solution: Flow matching + Riemannian geometry = physically plausible generation.
+o Generative modeling on manifolds is crucial for scientific problems where data, such as molecules,
+crystals, proteins, naturally lies on constrained spaces.
+o Euclidean methods often fail to respect physical/geometric constraints, leading to invalid samples.
+o Flow matching offers advantages but needs adaptation for structured domains.
+o Applications, e.g. materials, drug discovery, robotics, benefiit from physically plausible generation.
+Introduction
+Flow Matching
+Flow Matching [1] generally:
+Learn a vector field to map noise into data or more formally
+maps arbitrary distribution 𝑝 to arbitrary distribution 𝑞 ~𝑝
+! " "
+𝑞
+!
+Key Idea: find a time-dependent vector field 𝑣(𝑡,𝑥 )
+#
+𝑝
+which transports distribution 𝑝 to distribution 𝑞 ~𝑝 . !
+! " "
+𝑥 𝑥
+! "
+Train with:
+𝐿 = 𝑣(𝑡,𝑥 ) − (𝑥 −𝑥 ) $,
+# " ! $
+where 𝑥 ~𝑝 ,𝑥 ~𝑝 . I.e. parametrize vector field 𝑣(𝑡,𝑥 ) by neural network.
+" " ! ! #
+Inference (generation):
+$%
+= 𝑣(𝑡,𝑥 ), 𝑥 0 = 𝑥 ,
+# !
+$#
+i.e. Solve ODE to generate sample.
+[1]Lipman,Y.,Chen,R.T.,Ben-Hamu,H.,Nickel,M.,&Le,M.(2022).Flowmatchingforgenerativemodeling.arXivpreprintarXiv:2210.02747.
+• Flow matching
+What is Flow Matching?
+•Definition: Learn a vector field to morph noise into data (like diffusion, but with straihter paths).
+•Advantage: Efficient training, exact likelihood, avoids diffusion’s slow sampling.
+Flow Matching on General Geometries [2]
+o A novel approach to continuous normalizing flows by extending flow
+matching techniques to general Riemannian manifolds.
+o The proposed method is not restricted to specific manifolds, making it
+applicable to a broad class of problems in machine learning where
+data resides on non-Euclidean spaces.
+o Completely simulation-free on simple geometries, where geodesics
+transports all points 𝑥 ≠ 𝑥 to 𝑥 at
+are known in closed form (e.g., Euclidean space, hypersphere, exactly 𝑡 = 1. *(Fig recourse [2])
+torus).
+o On general geometries, it only requires forward simulation of a
+relatively simple ordinary differential equation.
+Flow Matching on General Geometries [2]
+o 𝑣 𝑡,𝑥 - tangent vector belongs to 𝑇 ℳ
+# %
+&
+o Train with:
+𝒯("% ℳ
+𝒯("& ℳ
+𝐿 = 𝑣 𝑡,𝑥 − 𝑥̇ $
+# &
+𝒯(! ℳ
+𝒯(’ ℳ
+o Generation:
+𝑋"$ 𝑋"%
+𝑋"# 𝑋"&
+𝑋’
+If simple geometry:
+𝑋!
+𝑥 = exp(𝑘 𝑡 log (𝑥 ) )
+’
+! 𝒯("$ ℳ ℳ)
+𝒯("# ℳ
+Else:
+’%
+= 𝑣(𝑡,𝑥 ), 𝑥 0 = 𝑥 .
+# !
+’#
+FlowMM: Generating Materials with
+Riemannian Flow Matching [3]
+o By operating directly on the manifold of valid
+material configurations, the method
+inherently avoids unphysical structures—a
+common issue with Euclidean generative
+models.
+o Experiments on crystal and polymer
+generation show marked improvements over
+baseline methods (e.g., diffusion models,
+GANs) in terms of validity, diversity, and
+property optimization. The quantitative and
+qualiative results are compelling.
+o The approach is not limited to specific
+material classes; it can handle a variety of Fig 2. A conceptual representation of the evolution from base distribution to target
+material chemistry and materials science.
+distribution, according the vector field learned by the proposed model. Authors model a
+structured and disordered materials, making
+joint distribution over lattice parameters, periodic fractional coordinates, and a binary
+it broadly applicable in computaational
+representation of atom type. The highlights include symmetry-aware geodesic paths and a
+material science. *(Fig recourse [3])
+FlowLLM: Flow Matching for Material
+Generation with Large Languaage Models as
+Base Distributions [4]
+o The idea of using LLLMs as base distributions for
+flow matching is novel and well-motivated,
+particularly for structured outputs like materials
+where LLLMs can capture high-level compositional
+and geometric patterns.
+o The experiments show that FlowLLM outperforms
+baseline methods in generating physically
+plausible and diverse materials, with quantitative
+improvements in metrics like validity and property
+optimization.
+o By conditioning flows on LLLM embeddings, the
+method allows for intuitive manipulation via
+Fig 3. FlowLLMgenerative process: the fine-tuned LLLM is first prompted with
+prompts or latent space interventions, bridging
+an uncondiitional query to generate an initial material representation. This
+symbolic and continuous generative modeling. material is then iteratively transformed by the Riemannian Flow Matching
+(RFM) model to update its atom positions and lattice parameters. The atom
+types are static in RFM. *(Fig recourse [4])
+Stiefel Flow Matching for Moment-
+Constrained Structure Elucidation [5]
+o A key innovation is the incorporation of
+moment constraints directly into the flow
+matching objective, making the method
+suitable for scientific problems where
+partial structuraal information is available.
+o The approach is applied to molecular
+structure elucidation, where enforcing
+geometric and statistical constraints is
+Research gap
+Unresolved Challenges:
+o Noisy/Partial Constraints. Real-world data often has incomplete or noisy geometric constraints.
+o Theoretical Guarantees. Stability and convergence proofs for flows on complex manifolds.
+Why It Matters?
+o Science Impaact. Valid structures accelerate discovery, e.g., catalysts, drugs.
+o Industrial Use.
+o AI Progress. Bridges geometric deep learning and generative models.
+Future Opportunities:
+o Flows for time-varying structures (e.g., proteiin dynamics).
+o Combine LLLMs, physics simulators, and flow matching.
+o Approxiimate geodesics or use symmetry to reduce compute.
+o Flow Matching on Low rank manifolds (SVD, CPD, TT) to reduce number of parameters.
+Bibliography
+1. Lipman, Y., Chen, R. T., Ben-Hamu, H., Nickel, M., & Le, M. (2022). Flow matching for generative modeling. arXiv preprint
+arXiv:2210.02747. ICLR 2023
+2. Chen, R. T., & Lipman, Y. (2023). Flow matching on general geometries. arXiv preprint arXiv:2302.03660. ICLR 2024
+3. Miller, B. K., Chen, R. T., Sriram, A., & Wood, B. M. (2024, July). Flowmm: Generating materials with riemannian flow
+matching. In Forty-first International Conference on Machine Learning. ICML 2024
+4. Sriram, A., Miller, B., Chen, R. T., & Wood, B. (2024). FlowLLM: Flow matching for material generation with large languaage
+models as base distributions. Advances in Neural Informaation Processing Systems, 37, 46025-46046. Neurips 2025
+5. Cheng, A., Lo, A., Lee, K. L. K., Miret, S., & Aspuru-Guzik, A. (2024). Stiefel Flow Matching for Moment-Constrained Structure
+Elucidation. arXiv preprint arXiv:2412.12540. ICLR 2025

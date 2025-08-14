@@ -1,0 +1,25 @@
+Dear [name],
+I am writing to express my interest in attending your upcoming Summer School on Artificial Intelligence. As a student deeply engaged in the field of machine learning—particularly Natural Language Processing (NLP)—I view this program as a vital opportunity to expand my expertise and apply advanced techniques to real-world challenges.
+My Background and Motivation
+Over the past year, I have been actively involved in a team project focused on the reconstruction of business processes for a large [compaany]. The goal was to identify repeatable workflows across departments that could be standardized and automated. Within the team, I was primarily responsible for exploratory data analysis and machine learning-based process mining. This practical experience reinforced my passion for research and innovation in the NLP domain.
+Selected Projects
+1. Process Classification via Document Forms
+We hypothesized that the types of document forms could reveal underlying process types. I implemented a classification pipeline where document sequences were encoded using LabelEncoder, initial classes were derived through set intersection, and a decision tree was trained to refine groupings. Jaccard similarity was then applied to finalize clusters, resulting in 97% of sequences grouped with an average similarity above 80%.
+2. Modeling Action Transitions Using NLP
+To segment user activity chains, we repurposed the RuBERT model for the Next Sentence Prediction task. I rewrote the model head to predict transition probabilities between actions. A dataset was prepared for time-series cross-validation, and predictions were used to slice sequences based on low-probability transitions. The result: over 70% alignment with expert-made segmentations.
+3. Semantic Clustering of User Actions
+Using Doc2Vec embeddings, UMAP dimensionality reduction, and MeanShift clustering, we explored categorizing user processes. While the hypothesis didn’t hold (due to low intra-cluster similarity), it was a valuable lesson in the limitations of unsupervised methods in this context.
+4. OCR-Based Action Recognition
+I contributed to a pipeline using Tesseract OCR with OTSU binarization to identify user actions from screen captures. I also developed a FastAPI backend for this tool, using ClickHouse for efficient data storage and retrieval.
+5. Data Preprocessing Pipeline
+I worked on a preprocessing module for employee activity data using pandas, regular expressions for anonymization, and customizable user settings to apply different processing rules.
+6. Analytical Insights for Sequence Segmentation
+I analyzed key action patterns to determine segmentation points in user workflows. This led to a major hypothesis focusing on the primary application window and time-based cutting, which was later adopted in the final system design.
+Personal Initiative
+I also led a team at the “Virbus Units 2025” hackathon, where we developed a Retrieval-Augmented Generation (RAG) system for querying data about [location]. We scraped the [compaany] website using Selenium and used the Llama3:8b model. I implemented both Query Translation (RAG-Fusion) and Indexing (RAptor), and built a WebSocket-based chat interface for real-time interaction with the system.
+Why This Summer School?
+My main track in machine learning is NLP, and I find the themes of your school especially relevant to my professional goals. I am particularly interested in how LLMs can be applied in tasks such as retrieval-based generation, summarization, named entity recognition, and text evaluation. These topics are not only fascinating academically but also critical to the socially meaningful applications I aim to build.
+Attending your program would allow me to sharpen my skills, learn from experts, and connect with peers who share my passion for AI. I am eager to contribute to the learning community and apply new knowledge in future research and development projects.
+Thank you for considering my application. I look forward to the possibility of joining your Summer School and continuing my journey in AI.
+Sincerely,
+[name]

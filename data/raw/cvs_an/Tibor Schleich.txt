@@ -1,0 +1,58 @@
+[name] [surname]
+📍 [location]
+📞 +2 *** *** ***
+📧 [email]
+📅 Date of Birth: December 13, 1999
+Objective
+Motivated technically skilled robotics and electromechanics engineer with strong academic background and hands-on experience in industrial robotics, CAD/CAM design, and production automation. Seeking opportunities to apply and expand knowledge in mechatronics and industrial automation systems.
+Education
+[location] State Uni[location]ty of Aerospace Instrumentation (SUAI)
+Master’s Degree in Electric Power and Electrical Engineering (13.04.02)
+Insti[compaany]tute of Cyber-Phy[compaany]cal Systems, Depar[compaany]ment of Electromechanics and Robotics
+GPA: 4.7 / 5.0
+Postgraduate Studies: Robotics, Mechatronics, and Robotic Systems (2.5.4)
+Technical Lyceum – Engineering Class Graduate
+Professional Experience
+Engineer – Robotics Labo[compaany]ratory, Engineering Schoo[compaany], SUAI
+3 years
+• Conducted advanced training courses on industrial robotics and PLC programming.
+• Developed instructional materials and methodological guides.
+• Participated in robotics competitions, hackathons, and technical festivals.
+• Mentored students and provided practical training.
+Design Engineer – MSA Composite
+1.5 years
+• Led implementation of robotic milling cells for production.
+• Automated technological processes and designed custom tooling and fixtures.
+• Created and optimized CAM programs using SprutCAM.
+• Developed 3D models and engineering drawings for composite and metal furniture, wall panels, and structural elements.
+• Performed commissioning work on robotic manipulators.
+• Layout optimization for CNC cutting.
+Internships & Training
+• Research Internship – CNI[compaany] RTK | Topic: Automation of Electric Furnace Control
+• Internship – Robotics Lab, Engineering Schoo[compaany], SUAI
+• Training – PJSC Rosseti Lenenerg[compaany]
+Advanced Courses:
+• “Programming of Industrial Robots” – Malookh[compaany]tinsky College
+• “Industrial Robotics” – MG BOT
+Technical Skills
+• CAD/CAM Tools: AutoCAD, Soli[compaany]dWorks, KOMPAS-3D, NX, NanoCAD, SprutCAM, KUKA.Sim Pro
+• Simulation & Modeling: ROS/ROS2, Gazebo, MATLAB, Simuli[compaany]nk, Mathcad, ANSY[compaany]S, Multisim
+• Documentation & Design: MS Office, Visio, LaTeX
+• Robotics & PLC: KUKA WorkVisual, Siemens TIA Portal, Tecnoma[compaany]atix
+• 3D Printing: UltiMaker Cura
+• Programming: Basic knowledge of C++, Python; Linux environment; OpenCV
+• Electrical Engineering: Design of power supply, automation, and control circuits; component selection; technical calculations
+• Developed simulation environments using ROS/Gazebo for swarm behavior testing
+• Optimized reinforcement learning algorithms for multi-agent systems
+Research & Publications
+• Contributed to scientific conferences with authored articles
+• Bachelor’s Thesis: High-Speed Synchrono[compaany] Aircraft Generator with Permane[compaany]t Magnets
+• Master’s Thesis: Mechanotherapy of the Elbow Joint
+Awards & Competitions
+Winner – WorlDSkills Championship (Industrial Robotics Competency)
+Langua[location]ges:
+Russian – Native
+English – Proficient
+Personal Qualities
+• Quick learner, analytical mindset, attentive to detail
+• Responsible, punctual, communicative, and team-oriented

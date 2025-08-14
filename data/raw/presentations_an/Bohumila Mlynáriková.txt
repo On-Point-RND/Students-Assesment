@@ -1,0 +1,223 @@
+Name [name]
+Position, [compaany]
+
+Topic
+
+Slide 2
+----------------------------------------
+Introduction
+
+Large amount of data
+in general 250000 meters of rock per storage
+Mostly manual processing
+rock interpretation is performed by a geologist manually
+Labor-intensive process
+5 hours to interpret 50 meters of rock
+Human factor
+
+geologist
++
+machine vision techniques
+Accelerating object analysis
+at least up to a factor of 7*
+Discovery of new patterns
+ability to re-interpret archived data
+Reproducible results
+the same results from different operators
+*Baraboshkin, [surname] & Grigoreva, [surname] & Volkova, [surname]. (2023). Artificial intelligence for core characterization. Conference: BalticPetroModel-2023 VII
+
+Slide 3
+----------------------------------------
+Problem statement
+
+Aim: to develop a novel methodology for the assessment of full-size rock subjected to fracture, based on machine vision techniques.
+
+Objectives: using machine learning and computer vision techniques to develop approaches for automatic:
+- fracture detection (counting)
+- fracture angle determination (inclination)
+- fracture opening width estimation
+
+fractures are discontinuities in rocks
+
+
+Slide 4
+----------------------------------------
+Methods
+
+output
+
+fracture detection
+dataset
+input
+fracture aperture
+info about fractures
+input
+processing
+processing
+1 step
+2 step
+
+
+Slide 5
+----------------------------------------
+Methods
+
+dataset
+dataset of rock sample images
+Segmentation model
+Processing
+Fracture detection
+*Kirillov [surname] et al. Segment anything //Proceedings of the IEEE/CVF international conference on computer vision. – 2023. – С. 4015-4026.
+Segment anything model (SAM)
+fracture angle
+fracture direction
+Fracture characterization
+angle, direction, mean and maximum opening of each fracture
+fracture characteristics
+
+1 step
+2 step
+
+
+Slide 6
+----------------------------------------
+output
+
+Fractures characteristics
+1 step
+Pre-processing - equalization, normalization, contrast increasing
+Post-processing - grayscale conversion, binarization, noise filtration
+
+pre-processing
+SAM model
+post-processing
+fractures number = 3
+
+Methods
+dataset of rock sample images
+dataset
+
+Slide 7
+----------------------------------------
+Methods
+
+output
+
+all info about fractures
+2 step
+slicing
+pre-processing
+noise filtering,
+counting
+Pre-processing - normalization, grayscale conversion, denoisinng, smoothing, binarization
+
+dataset of rock sample images
+dataset
+fractures number = 3
+Fractures characteristics
+
+
+Slide 8
+----------------------------------------
+Results
+
+Image segmentation
+Accuracy of fracture detection 92% with not fine-tuned segmentation model (SAM)
+Next steps including fine-tuning of SAM with rock images with fractures
+
+
+Slide 9
+----------------------------------------
+Results
+
+more results
+Expert vs Auto fracture evaluation
+comparison of expert and algorithm results (fracture frequency (FF), inclination angle, mean opening)
+
+Human          AI
+75 minutes     2 min 30 sec per 22 meters
+per 22 meters
+Accuracy = 87%*   Accuracy = 76%
+
+Acceleration by a factor of 30
+Accuracy rate of 76%
+
+Human 	         	   AI
+*Human can also be wrong
+
+
+
+Slide 10
+----------------------------------------
+Research gap
+
+1 Problem: make 3D digital twins from 2D rock images. Then it will be used as follows:
+Allows to identify various spatial properties properly (e.g., unwrap 3D into 2D surface sweep to see smth)
+These 3D twins are crucial for fluid dynamic modeling during reservoir simulation
+
+2 Problem: generate a natural language description of rock properties which further used by geologist, reservoir modelers, construction engineers, etc.
+
+
+
+Slide 11
+----------------------------------------
+Research gap
+
+Rock image
+Lithology typization
+Lithology model
+Type I
+Type II
+Type III
+Synthetic FMI data (unwrapped surface)
+resolution upscaling
+Synthetic porosity map
+3 nm
+Synthetic tomography data
+3 mm
+2D/3D reconstruction
+Fullbore formation microimager (FMI) data, which is a real expensive rock snapshot
+3D Lithology model
+1 Problem
+
+
+
+Slide 12
+----------------------------------------
+Research gap
+
+Text generation
+Full lithology description
+2 Problem
+Core image
+Lithology typization
+Lithology model
+Type I
+Type II
+Type III
+
+
+
+Slide 13
+----------------------------------------
+A. Korotin, D. Selikhanovych, E. Burnaev. Kernel Neural Optimal Transport. ICLR, 2023
+A. Korotin, D. Selikhanovych, E. Burnaev. Neural Optimal Transport. ICLR, 2023 (top-25% papers)
+I. Trofimov, D. Cherniavskii, E. Tulchinskii, N. Balabin, S. Barannikov, E. Burnaev. Learning topology-preserving data representations. ICLR, 2023
+E. Tulchinskii, K. Kuznetsov, L. Kushnareva, D. Cherniavskii, S. Barannikov, I. Piontkovskaya, S. Nikolenko, E. Burnaev. Topological Data Analysis for Speech Processing. InterSpeech, 2023
+O. Voynov, G. Bobrovskikh, P. Karpyshev, S. Galochkin, A.-T. Ardelean, A. Bozhenko, E. Karmanova, P. Kopanev, Y. Labutin-Rymsho, R. Rakhimov, A. Safin, V. Serpiva, A. Artemov, E. Burnaev, D. Tsetserukou, D. Zorin. Multi-sensor large-scale dataset for multi-view 3D reconstruction. CVPR, 2023
+Andreea Dogaru, Andrei Timotei Ardelean, Savva Ignatyev, Evgeny Burnaev, Egor Zakharov. Sphere-Guided Training of Neural Implicit Surfaces. CVPR, 2023.
+D. Cherniavskii, E. Tulchinskii, V. Mikhailov, I. Proskurina, L. Kushnareva, E. Artemova, S. Barannikov, I. Piontkovskaya, D. Piontkovski, E. Burnaev. Acceptability Judgements via Examining the Topology of Attention Maps. EMNLP, 2022
+Albert Matveev, Alexey Artemov, Ruslan Rakhimov, Gleb Bobrovskikh, Daniele Panozzo, Denis Zorin, Evgeny Burnaev. DEF: Deep Estimation of Sharp Geometric Features in 3D Shapes. ACM Transactions on Graphics (TOG), Siggraph, 2022
+Lit Rout, Alexander Korotin, Evgeny Burnaev. Generative Modeling with Optimal Transport Maps. ICLR, 2022
+Ruslan Rakhimov, Andrei-Timotei Ardelean, Victor Lempitsky, Evgeny Burnaev. NPBG++: Accelerating Neural Point-Based Graphics. CVPR, 2022
+Serguei Barannikov, Ilya Trofimov, Nikita Balabin, Evgeny Burnaev. Representation Topology Divergence: A Method for Comparing Neural Network Representations. ICML, 2022
+Alexander Korotin, Alexander Kolesov, Evgeny Burnaev. Kantorovich Strikes Back! Wasserstein GANs are not Optimal Transport? NeurIPS, 2022
+Alexander Korotin, Vage Egiazarian, Lingxiao Li, Evgeny Burnaev. Wasserstein Iterative Networks for Barycenter Estimation. NeurIPS, 2022.
+L. Kushnareva, D. Cheriavskii, V. Mikhailov, E. Artemova, S. Barannikov, A. Bernstei, I. Piontkovskaya, D. Piontkovski, E. Burnaev. Artificial Text Detection via Examining the Topology of Attention Maps. EMNLP, oral talk, 2021
+S. Barannikov, I. Trofimov, G. Sotnikov, E. Trimbach, A. Korotin, A. Filippov, E. Burnaev. Manifold Topology Divergence: a Framework for Comparing Data Manifolds. NeurIPS, 2021
+A. Korotin, L. Li, A. Genevay, J. Solomon, A. Filippov, E. Burnaev. Do Neural Optimal Transport Solvers Work? A Continuous Wasserstein-2 Benchmark. NeurIPS, 2021
+
+Bibliography
+
+
+

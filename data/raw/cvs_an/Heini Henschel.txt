@@ -1,0 +1,64 @@
+[name]
++2 *** *** *** ⋄ [location]
+[email]
+EDUCATION
+[location] State Uni[location]ty,
+Bachelor of Applied Mathematics and Computer Science
+Diploma with ho[name]urs (GPA - 4.78)
+Topic of the final qualifying paper: Network traffic bala[name]cing using multi-agent rei[name]orcement learning based on flow
+loading
+September 2020 - June 2024
+[compa]ny] of Science and Technology,
+Master’s in Data Science
+September 2024 - current
+[location] Institute of Physics and Technology,
+Occupa[name]ional retraining in Innovati[name]e business deve[name]opment
+October 2024 - current
+Gran Sasso Science In[name]t[name]tute, L’Aqui[name], [location]
+INTERNATIONA[name] DOCTORAL SCHOOL, full scholarship
+Robotics for Space Applications course
+May 2025
+EXPERIENCE
+Research Student December 2024 - current
+Mobile robotics lab [location]
+• Research in the field of rei[name]orcement learning for social navigation in robotics
+• Parti[name]ipation in pymini[name]im code developing
+• Parti[name]ipation in SBER Robotics project on MPPI for local pla[name]nning of a mobile robot
+• Parti[name]ipation in Yandex Robotics project for Designing universal gripper for automation 90%+ of SKU[name]s
+in DC of Food Retail
+Research Intern June 2024 - October 2024
+AIRI [location]
+• Research in the field of Embo[name]ied AI for manipu[name]ators
+• Research in the field of transformer models application for robotics, parti[name]ipation in paper publication
+Research Develo[name]oper September 2022 - April 2024
+Huawei Russian Research In[name]t[name]ute [location]
+• Research in the field of Multi-Agent Rei[name]orcement Learning
+• 3 papers publication and patent writing
+• Develo[name]ed CFN algo[name]ithm for task allocation in Netwo[name] Powered by Computing с использованием Deep
+Rei[name]orcement Learning.
+Researcher 2021 - 2023
+IT Research Grant from RFBR
+• Grant in the amount of 12 million rubles for 3-year research. Full project name: Metho[name]o[name]o[name]ogy for creating an air
+traffic control system for unmanned vehicles of a ”smart” [location] city based on monitoring their tra[name]ectory parameters
+by multi-position location complexes with hete[name]erogeneous elements.
+Researcher 2020 - 2021
+IT Research Grant from RFBR
+• Grant in the amount of 3.7 million rubles for 3-year research. Full project name: Metho[name]o[name]o[name]ogical
+foundations for the formation of a system of remote diagnostics of ferti[name]ility of grape agroce[name]oses.
+Researcher 2019 - 2020
+Economic research Grant from RFBR
+• Grantinhea[name]amountof1milli[name]o[name]ruble[name]sfor2-yearresearch.Fullprojectname:Modelsandmethodsofintroducing
+digital economy techno[name]ologies to ensure the socio-economic deve[name]opment of the city of [location] based on a
+systematic analysis of its economic complex
+SKILLS
+Python3(Pyto[name]ch, Numpy, Pandas, Netwo[name]rkx), C++, C, Haskell
+Deep Rei[name]orcement Learning (PPO, DQN, MARL), Machine learning
+Git, Unix
+LEADERSHIP
+• Management of the student Scienti[name]ic society at the Depar[name]tment of Applied Mathematics and Computer Science
+at the Uni[location]versity.
+• Student Union management and organization of Uni[location]versity-wide events at [location].
+EXTRA-CU[name]RICULAR ACTI[name]IVITIES
+• Mentor of freshme[name]s in 2021-2022.
+• Parti[name]ipation in organization and holding the international conference MONETEC in 2022.
+• Work in the admission committee in Summer 2023.

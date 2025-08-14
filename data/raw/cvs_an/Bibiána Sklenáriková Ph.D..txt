@@ -1,0 +1,67 @@
+[name]
++2 *** *** ***
+I am a research engineer and a first-year PhD student passionate about the
+[email] intersection of computer science and artificial intelligence. My experience
+includes CV, NLP, Multimodal learning, and sequential data analysis.
+@[username] Proficient in computer vision, language processing, and pattern recognition,
+I am driven to contribute my skills to cutting-edge advancements in the
+https://github.com/[username] field.
+SKILLS EDUCATION
+[company] 2024 - 2027
+Machine/Deep Learning algorithms
+PhD, "Computational and Data Science and Engineering"
+Python [company] 2022 - 2024
+MSc with distinction, "Data Science"
+Pytorch, OpenCV, Numba, Mpi4py, NumPy,
+TOMSK POLYTELCHNIC UNIVERSITY 2018 - 2022
+Pandas, Scikit-learn, MMDetection3D,
+BSc with distinction, "Electronics and Nanoelectronics"
+Transformers TOMSK POLYTELCHNIC UNIVERSITY 2019 - 2021
+Additional education
+Docker, Git Interpreter in the field of professional communications
+WORK EXPERIENCE
+AIRI
+CV + NLP research engineer (FusionBrain)
+(Apr 2024 - Present)
+MOVE: A Mixture-of-Vision-Encoders Approach for Domain-Focused Vision-Language Processing
+[name], [surname], [surname], [surname]. arXiv preprint (2025).
+UniDet3D: Multi-dataset Indoor 3D Object Detection, AAAI 2025 (A*).
+Maksim [surname], Anna [surname], [name], Danila [surname], Anton [surname]
+OmniFusion Multimodal project
+Train pipeline development
+Tuning with syntheized TeX formulas
+Working with Students
+Projects mentor (Summer with AIRI 2024)
+Teacher Assistant, Modern Methods and Algorithms of Generative Artificial Intelligence, Skoltech 2024
+Samsung AI Center
+Computer Vision (Summer Intern)
+(Jun 2023 - Aug 2023)
+Large Scale Pretraining for 3D Scene Understanding
+Prepared Structured3D dataset for Indoor 3D ObjectDetection and 3D Instance Segmentation for MMDetection3D codebaase
+Pre-trained models on Structured3D dataset and fine-tuned them on the target datasets for the specific tasks
+Achieved SOTA results in mAP@0.25 (+5.92) and mAP@0.5 (+7.39) on S3DIS 3D Object Detection dataset
+ACADEMIC PROJECTS
+MSc project: Application of neural networks for Inverse Lithography Technology
+Achieved SOTA in 3 out of 5 key metrics in the ICCAAD 2013 benchmark
+Adversaial-Attacks-for-Sequential-Data-Models Sep 2023 -
+Implemented pipeline for experiments on PyTorch Oct 2023
+Integrated TimesNet model on PyTorch in pipeline;
+Implemented LSTM-FCN model on PyTorch
+Implemented discriminator regularization procedure for IFGSM on
+Pytorch
+Application of neural networks for topoology optimization. Pytorch, UNet Dec 2022 -
+Applied UNet, UNet with Attention, and models with Residual Blocks to the Jun 2023
+topological optimization problem, enhancing the accuracy reported in the
+paper.
+Image to LaTeX Apr 2023 -
+Developed the main algorithm from scratch Jun 2023
+Stacking neural optimal transport Feb 2023 -
+Code the main algorithm for stacking Apr 2023
+Prepare the GitHub repository
+ACHIEVEMENTS
+Neftecode Hack, 2025
+Developed a molecular generation method using GRPON training to design novel antioxidant
+additives with high oxidation induction time, based on input SMILES and corresponding
+formulation data. –2nd place
+HSE SbermL Hack, 2023
+event sequence classification (gender) –1st place

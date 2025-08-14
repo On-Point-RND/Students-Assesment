@@ -1,0 +1,47 @@
+Papers review and results
+reproduction
+By [name], 2025
+DeepInfoMax: Idea
+- Original paper name: “Learning deep representations by mutual information
+estimation and maximization”. Arxiv - https://arxiv.org/abs/1808.06670
+- Idea is to maximize mutual information between an input and the output of a
+deep neural network encoder
+DeepInfoMax: Architecture
+● Uses both local (image patches) and global
+features insteaad of just global compression
+● Three training objectives: Local MI, Global MI,
+Prior matching (Uniformity Regularization)
+DeepInfoMax: Objective
+● First term (α): global mutual information between input X and encoded
+representation
+● Second term (β): average local mutual information between patches X^(i) and
+encoded representation
+● Third term (γ): prior matching term to constrain representation distribution
+Unsupervised Embedding Quality Evaluation
+- Original paper name: “Unsupervised Embedding Quality Evaluation”. Arxiv -
+https://arxiv.org/abs/2305.16562
+- Idea is to find metric/functional to estimate embedding quality on downstream
+tasks without actually training anything
+Unsupervised Embedding Quality Evaluation: RankME
+Unsupervised Embbedding Quality Evaluation: NESUM
+Unsupervised Embbedding Quality Evaluation: Incoherence
+Results Reproduction
+DeepInfoMax: Result Reproduction
+● Dataset - Cifar10
+● Metric - weighted metric average
+LogReg SVM 1-layer MLP
+Orig Paper (DIM) - 0.5 0.67
+Reprod (DIM) 0.53 0.61 0.6
+AE (own) 0.4 0.55 0.52
+Visualization DIM
+Visualization AE
+Training
+AE DIM
+Embbedding Quality Evaluation
+RankMe NESUM Cond Number Coherence
+DIM 3.69 4.04 39.46 ~1
+AE 4.09 9.99 5.97 ~1
+- Interesting result - despite having regularization that makes embeddings
+uniform - vanilla AutoEncoder has still larger NESUM value
+Github
+- https://github.com/[name]/DeepInfoMax

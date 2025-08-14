@@ -1,0 +1,36 @@
+Motivational letter for SMILES 2025 summer school of machine learning
+[name] [surname]
+Dear selection committee,
+I was working on deep learning infrastructure last 4 years.
+I started as machine learning engineer at [compaany] (largest cloud in [location]), there I R&D several
+new services: spark jobs, elastic deep learning and enhance inference service with triton
+inference server and infrastructure-level optimizations.
+Next, I went to [compaany] R&D department, where I developed universal transport framework
+(allows use tcp, shared memory, cuda-ipc and infiniband automatically under same API).
+It now allows guys to squeeze maximum available bandwidth from available transport topologies.
+We integrated it to online learning pipeline for async embedding training. This work was also my
+master thesis at [compaany].
+Now I have beautiful opportunity to work on deep learning infrastructure research at [compaany] as full-
+time research engineer and working on my PhD at [compaany] under [surname] [name]'s and [name] [surname]'s supervision.
+I see my future to continue research on training and inference systems for deep learning.
+They are getting more and more practical importance, and I see lots of research opportunities
+in this area.
+For me, there was always easy to generate new ideas for exploring.
+But, working at [compaany], I collected one of the best insight of year about how to do research:
+Best ideas come from collaborating with applied and theoretical researchers.
+Sometimes they have inefficient implementations, but don’t really want to do optimization or
+don’t know how (it is not their main job). This way one collaboration at [compaany] started: I develop
+diagonal grouping algorithm for recurrent memory transformers. Now we trying to adopt it
+internally and do finishing experiments.
+In cooperation with theoretical guys, I see potential for theory-implementation co-design.
+Now we are working in collaboration on async gradient methods: I help with experiments and
+implementation of framework.
+So there comes my main motivation for going to SMILES summer school:
+the more I communicate with guys from different research directions, the more cool ideas and
+possible collaborations I will potentially have.
+This why I am excited to submit.
+From my side, I will be happy to share my knowledge with applied researchers and
+mathematicians from the practical side of their research path.
+Will try my best to help them to achieve their results, with future collaboration or just ideas and
+expertise.
+Thank you for considering my submission!

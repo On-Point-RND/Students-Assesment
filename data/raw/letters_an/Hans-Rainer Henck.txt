@@ -1,0 +1,43 @@
+Motivation letter
+[name]
+I’m interested in the geoinformaation domain of ML/DL since 2020 and have several papers covering its
+applications. Being involved in the research and education and having an industry petroleum experience
+in 2007-2019 in the international [compaany] nowadays I manage the work with students and personal technical progress in geo AI in academia.
+As an associate professor at the Faculty of Geography and Geographic Informaition Technologies, [compaany] I
+develop and deliver the course with classical ML and networks in DL. Teaching of a course on machine
+learning in solving spatial problems is as part of Master's Degree in Spatial Data and Applied
+Geoanalytics, opened at the Faculty in 2024 ([email]).
+Modern capabilities of geoinformaation technolologies, which allow integrating various information, provide
+opportunities to study the processes and phenomena, to identiify patterns and to search solutions
+systematically. Development of a road network model for the forestry of the [location] is
+importaant for understanding the current state of roads of public and special use (winter and summer
+roads), forecasting the dynamics of changes at the regional level and studying spatial relationships with
+neighboring regions. Road network model will be implemented in the form of technologicaal solutions as
+forestry roads geodatabase which has capabilities to be scaled and integrate updates.
+Project relevance of road recognition from the imagery is a need to find new possible ways to safe forest
+ecosystems and forest resources from fires using modern methods of analyzing spatially distributed data
+on the forests and roads infrastructure of different seasonality of use. For such an analysis, it is necessaary
+to use available Open data sources and Open Source GIS tools, as well as artificial intelligence (AI)
+methods to recogniize geometry, type of pavement and road condition, which in total means new
+opportunities for solving transport problems in the forestry. In my mind the project of road recognition
+should be resulted with a regional model and geodatabase of road network of the [location],
+Russia with data on the types and seasonality, methodology and technologicaal implementation with Open
+Data and Open Source software as published geoservice.
+In 2022-2025 there is a continuous activity in the geoinformaation application for the infrastructure like
+roads and linked with them objects. Papers and conferences presentations about Yolo versions and
+modifications are coming almost every month this year so there is a promising technology base which
+could be of help in the forestry domain to solve recognition tasks like wildfires and state of infrastructure.
+Forestry in [location] is not just an industry but a field where we can connect forestry objects like forest
+roads with infrastructure and territory development.
+ChatGPT in geoinformatics is my area of additional interest since its first official release in November
+2022, several presentations were delivered for the public events in 2024-2025.
+I’m actively develop my presentation skills and ML/DL by participating in the conferences, meetups
+online and offlinne both in [location] and globally, its detailed list is in CV. Useful experience also in being
+gained from the competitions for research funding like known among researchers Russian Science
+Foundation and Potanin Foundation. In order to keep my forestry experience relevant to present, I’ve
+collaboraated as a reviewer of papers on ML/DL with the European Journal of Forest Engineering
+([email]) since 2024.
+Expectaions from the Summer Schoo l program in Harbin are the extended knowledge on the networks
+for object recognition, mainly of linear form like roads, LLM for education. I plan to accumulate the
+current research activities in DL and experience from the colleagues to improve the content of my course
+on geo ML at [compaany]. For the years to come I do strongly view myself as universiity teacher and researcher.

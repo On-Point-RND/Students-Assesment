@@ -1,0 +1,71 @@
+[name] [surname]
+Student
+[email] (+2 *** *** ***
+https://github.com/[username]
+EDUCATION
+Moscow Institute of Physics and Technology Development:
+Bachelor of Applied Mathematics and Physics • Python,C/C++
+September 2019-July 2023 Moscow,Russia Datascience
+• Python(Numpy,Pandas,Scikit-learn,Pytorch,
+tsfresh),ML/DL
+Master of Data Science • ProbabilityTheory,Fundamentals of
+September 2023-July 2025 Moscow,Russia mathematics statistics
+Languages
+EXPERIENCE
+Institute of Control Sciences RAS
+Research Intern
+DifferentiableFactorGraphOptimization
+November 2022-June 2023 
+• Master’s thesis exploring the integration of
+• Analysis of human movements using machine learning methods factor graph optimization into deep learning
+• Conducted multi-sensor IMU data collection using wearable
+devices for labeled motion datasets • Developed custom optimization modules to
+• Trained classification models using features extracted with enable gradient backpropagation through
+tsfresh, optimizing for time-series activity segmentation SE(3)-based factor graphs
+• Achieved 90%(walking) and 93%(running) classification
+accuracy using tsfresh-based feature extraction and ensemble
+classifiers.
+Skolkovo Institute of Science and Technology,
+Exercise classification
+Research Intern
+June 2024-July 2025 
+• Determination of the correctness of the
+performed physical exercises by machine learning methods
+• Applied RoNIN neural network for multi-IMU sensor fusion
+to reconstruct pedestrian trajectories
+• Collected synchronized IMU data and ground truth trajectories
+using RTAB-MAP, ensuring spatial consistency and temporal
+alignment
+• Boosting approaches for multi-class imbalanced data classification
+• 7 boosting algorithms on 15 imbalanced datasets
+Huawei Russian Research Institute
+Junior engineer
+Lazy collision checking
+June 2024-July 2025 
+• Implementing a asymptotically-optimal
+sampling-based motion planner Lazy-PRM*
+• Designed a deep learning-based trajectory reconstruction
+algorithm for walking/running using dual foot-mounted IMUs
+• Python
+• Performed data collection from Huawei devices, including
+phones and watches
+• Preprocessed sensor data by applying spatial and temporal
+alignment to ensure synchronization across devices
+• Trained neural networks (ResNet, LSTM, TCN) for real-time
+activity recognition and velocity estimation
+• Achieved an RMSE of 4.5 meters with a relative error of 1%
+over the total trajectory length
+• Built a trainable module to estimate yaw misalignment between
+IMU and ground truth frames in 2D space
+• Incorporated a yaw correction as a learnable parameter within
+the model, enabling training the main model and angling
+simultaneously
+COURSES
+Machine Learning basics, MIPTU University
+MachineLearning, Skoltech
+DeepLearning, Skoltech
+Planning algorithms in AI, Skoltech
+Perception in Robotics, Skoltech
+Foundations of Software Engineering,
+Skoltech
+Numerical Linear Algebra, Skoltech

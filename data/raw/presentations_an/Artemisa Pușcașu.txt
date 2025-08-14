@@ -1,0 +1,87 @@
+ICLR 2025 Workshop on World Models: Understanding, Modelling and Scaling
+Object-CeNtric
+Latent Action Learning
+[name] [surname]1, [name] [surname]1,2, [name] [surname]1,3, [name] [surname]1,4, [name] [surname]1,3, [name] [surname]1,5, [name] [surname]1,5
+1: [compaany], 2: [compaany], 3: [compaany], 4: [compaany], 5: [compaany]
+https://a rxiv.org/abs/2502.09680
+Learning from noisy videos
+Learning from large-scale internet video is
+promising for Embodied AI but is hindered by 
+missing action label 
+distracting visual elements.
+Recent Latent Action Policy Optimization (LAPO)
+learn fo rward and inverse dynamics models to
+infer proxy action labels, but struggles with
+distractors.
+Fig. 1. Example observations from Distraction Control Suite. From left to
+right: the distracted observation (background video, color and camera
+position variations), the non-distracted observation, the mixture of slot
+decoder masks, the selected slot decoder mask.
+Object-CeNtric Latent Action Learning
+Step 1: Object-CeNtric RepreSentation Learning: Decompose
+video frames into spatio-temporal object slots with VideoSaur.
+
+
+Step 2: Slot Selection: Select agent-relEvanant slots based on
+mask consis tency; combi ne slots when needed.
+
+
+Step 3: Latent Action Modeling (LAPO): Train fo rward and
+inverse dynamics models on selected slots to learn proxy
+actions 
+images & masks: ResNet-style CNNs 
+slots: 3-layer MLPs with residuals and GeLU
+acti va tions.
+
+
+Step 4: Behavio r Cloning & Fine-Tuning: Use proxy actions
+Fig. 2. Scheme of object-centric latent action
+for behavio r cloning, then fine-tune with a small set of true
+action labels to boost downstream performa nce. learning.
+Evaluation
+We measure episodic retu rn of a behavio r
+cloning agent, trained on the obtained latent
+actions and fine-tuned on a small set of
+ground-truth actions.
+
+
+Fig. 3. Normalized eva lua tion retu rns of the BC agent for varying
+nu mbers of fine-tuning labeled trajec tories.
+The compa re the following approaches: 
+lapo: baseline LAPO trained on the
+Distraction Control Suite (DCS); 
+lapo-no-distractors: LAPO trained on
+non-distracted observations 
+lapo-slots, lapo-masks: follow the
+object-centric latent action learning
+pipeline.
+Table. 1. Normalized eva lua tion retu rns of the BC agent for
+different tasks.
+Results
+LAPO struggle in the presence of distractors. The gap between LAPO trained in distracted and
+non-distracted setting is x3.9 among all tasks.
+Object-slots reduce the gap caused by distractors. Slots and masks outp e rform baseline lapo for
+all 4 tasks: by at least x2.1 for slots (x2.6 on the average), and at least x1.7 for masks (x2.0 on the
+average).
+Slots show higher sample efficiency. Horizontal lines on Fig. 3 denote the eva lua tion scores of a BC
+agent fine tuned on the whole training dataset of trajec tories. The figure shows that for chee ta h-run
+only 32 trajec tories and 128 trajec tories for hopper-hop are e nough to achieve this limit of pos sible
+eva lua tion score.
+Slots are better than masks. Evaluation in the enviro nment shows that slots produce latent actions
+more amenable to pretraining, resulting in 20% better retu rn s, than masks (16 for masks versus 20
+for slots). Also, slots require less memory and pipeline with slots is faster than with masks.
+Conc lusion & Limitations
+Our preliminary results demo nstrate that object-centric representations significa ntly mitigate the i mpact
+of distractors for learning latent actions from videos. By disentangling scene elements into mea ningful,
+interpretable slots, latent actions focus on causal dynamics rather than spuriou s correlations. This could
+provide a strong inductive bias for more effe ctive Latent Action Models in noisy enviro nments.
+
+However, challenges remain. Alt hough object slots reduce noise, the selection of task-relEvanant slots is still
+ambiguous. Without explicit supervision, models may focus on irrelevan t elements. This highlights a
+fundamental limitation in current object-centric methods: the diffi culty in dynami cally attending to the 'right'
+objects in varying tasks and enviro nments. Another limitation is the dependency on the quality of the
+training data. Cleaner, well-cura ted datasets naturally lead to more robus t representations, whereas large-
+scale uncurated video data necessitate addit ional mechanisms for fi ltering out noise. This presents a trade-
+off between data volume, model compl exity, and data cleaning efforts. Alt hough curated data simplifies
+training, it limits generalization and scalability. However, noisier datasets require more sophisticated models,
+but unlock broader generalization capabilities for embo died AI.

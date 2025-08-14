@@ -1,0 +1,18 @@
+[name] [surname]
+Education:
+Student at [compaany], Faculty of Medical Biology, 3rd year.
+Specialization: Bioinformatics
+• [compaany] Summer School (SMILES): Participated in a machine learning project “Approach to Dynamic Systems Using Neural Jump Stochastic Differential Equations”
+• [compaany] Summer School: Participant in the Neurotournament and Hackathon.
+• Neuronal activity mapping with [compaany]. – Constructing neuronal activity maps from calcium imaging and electrophysiological data.
+• Officially working at the [compaany] – Laboratory of Molecular and Genetic Mechanisms of Neurodegeneration - Laboratory assistant. Assisted in data analysis and building response curves for EPR (endoplasmic reticulum) related to drug effects under oxidative stress. Processed long non-coding RNA (lncRNA) expression data: Neat, Malat, other. Applied ML methods to identify the most significant lncRNAs in oxidative stress. Construction of differential gene expression(DEG)
+• Advanced Engineering School Course: Completed the program “AI in Biomedical Data,” participated in ML and DL hackathons.
+• Bioinformatics Student Scientific Circle (SSC): Organized seminars on “Mathematical Modeling.” Developed a mathematical model of a bacterium within SSC activities. “Neuron models“ - LIF, Hodgkin-Huxley, Izikevich model
+• [location] Conference "BIOLOGY – SCIENCE OF THE XXI CENTURY": Speaker
+• [location] conference Neurocampus 2025: interdisciplinary approaches to the study and treatment of diseases of the nervous system": Poster session
+• [location] conference LIFT of the school of young scientists "Medical Neurotechnology": Poster session
+• [name] [surname] Conference (organized by [compaany]): Presented research on “Gaussian Approximation of Place Cell Fields in the Third Layer of the Entorhinal Cortex.”
+• Fundamental Oncology School and Human Biochemistry Conference: Participant.
+• Advanced Engineering School Course: Participated in the project Sequencing Based on Semiconductor Signal Detection.
+• Elective: R in statistics and machine learning
+• Coding on: Python(TensorFlow, PyTorch, SciPy, numpy, scipy.stats, statsmodels, pandas, scipy.integrate, sympy, diffeqpy, torchdiffeq,matplotlib, seaborn, scikit-learn, xgboost, catboost), R(libraries: stats, base, gggplot2, car, MASSl, caret, randomForest, e1071, xgboost, BayesFactor), C#(Базовый уровень + ООП)

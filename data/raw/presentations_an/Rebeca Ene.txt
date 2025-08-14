@@ -1,0 +1,57 @@
+Efficient modeling of spatial extremes on large geographic domains using Neural Bayes estimators (2025)
+• Scientific supervisors: [name] ([compaany]), [name] ([compaany])
+[name]
+Ms @ [compaany] & [compaany]
+ML-developer [compaany].Search
+Introduction
+• Estimation of values and probabilities of extreme events is critical for safety
+• Events such as floods, tsunamis, and wildfires are rare but cause significant damage.
+• Events are rare so there is too little data to use classical machine learning methods.
+• Models in High-Dimensional spaces contain many parameters, so classical statistical methods (MLE) are
+not suitable.
+Problem statement
+• Develop multivariate models for the entire spectrum of distribution tails
+• Prove the theoretical properties of these models
+• Adapt machine learning methods for efficient parameter estimation
+• Apply the developed models to simulate extremes in precipitation prediction
+Statistical Model
+• Gaussian random scale mixture models
+• Random scale is a Weibull-Pareto R(s) random process
+• Gaussian process is well-known standard gaussian process with Matern-covariance function
+• Specific non-identical family of functions
+• A theorem proven by me: This model is capable of modeling all possible behaviors of distribution tails, not
+a subspace of it.
+Neuro Bayes Estimators
+• Key idea: simulate data with synthetic parameters, learn model to predict this parameters from
+data
+• Estimation of parameters via minimazing the following loss function
+Neuro Bayes Estimators
+Neuro Bayes Estimators
+• Architecture for gridded data: CNN + DeepSet ( [name] et al. 2017)
+•
+Results
+• Model is proposed that covers all possible types of distribution
+tails
+• Properties of this model have been proven
+• Architecture for estimating the parameters of the original model
+has been developed
+• Successful experiments were conducted, and the model was
+applied to real data.
+Research gap
+• In the future, it will be taken into account that real data is not independent, so seasonality must be
+considered, and an architecture based on LSTM and CNN should be selected.
+• A prior distribution will be chosen in order to introduce an additional scale parameter, and possibly,
+reparameterization of the model will be conducted.
+• Once the architecture accounts for the temporal structure, it is necessary to measure the results on
+time series.
+• Real data are not on a grid; weather stations are usually located randomly, so there are plans to
+replace the CNN with a GNN architecture.
+Bibliography
+1. [name], [name], [name]. Bridging Asymptotic Independence and Dependence in
+Spatial Extremes Using Gaussian Scale Mixtures, 2017
+2. [name], [name], and [name], Efficient Modeling of Spatial Extremes over Large
+Geographical Domains, 2024
+3. [name], [name], and [name], NEURAL NETWORKS FOR EXTREME QUANTILE REGRESSION WITH AN APPLICATION TO FORECASTING
+OF FLOOD RISK, 2024
+4. [name], [name], [name], and [name], Neural Bayes Estimators for Irregular Spatial Data using
+Graph Neural Networks

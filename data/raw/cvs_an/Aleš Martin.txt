@@ -1,0 +1,145 @@
+[name] [surname]
+[name].[surname]@[email] +2 *** *** ***
+https://www.linkedin.com/in/[name]-[surname]/ https://github.com/[name]
+Profile
+Research scientiist in medical AI skilled in programming Python. Having experience in Pandas, NumPy, Seaborn, Scikit-
+learn, Pytorch. Right now, I am working in Applied AI Center at [compaany]. My research interests are multimodality, data
+fusion, GenAI (VAE, GANs, NOT)
+Skills & Proficiencies
+Software & Tools Languages
+Python(Visualisation/EDA/ETL/PyTorch), git, Docker, Russian (native), English (C1 Advanced)
+LaTeX, HuggingFace, Transformeers
+Work Experience
+2024/06 – present ML RESEARCH ENGINEER
+[location] Applied AI Center
+The project aims to identify pharmacological efficacy biomarkers and model neuron-glial
+cell interactions in both physiological and pathological brain conditions, including rare brain
+diseases and tumor
+Formulated hypotheses based on experimental conditions and biological processes,
+•
+validated through statistical testing.
+Conducted exploratory data analysis (EDA) to identify key trends, guiding feature
+•
+selection.
+Performed feature selection to reduce dimensionality and enhance model
+•
+interpretability.
+Used clustering techniques to segment data by cell behavior and treatment responses.
+•
+Built and evaluaated machine learning models, applying cross-validation for performance
+•
+assessment.
+Integrated statistical analysis and machine learning methods in a complete pipeline for
+•
+model development and evaluation.
+2024/06 – 2024/12 RESEARCHER
+[location] Applied AI Center, Neuroimaging and Cognitive Neuroscience Laboratory
+Project 1. Development of a Framework for Assessing and Monitoring the Psycho-
+Physiological State of UAV Opereators in Intelligent Video Surveillance Systems, in
+collaboration with [university]
+Designed and implemented data processing pipelines for analyzing and visualizing
+•
+physiological signals, and EEG, collected during controlled experiments
+Developed end-to-end data workflows for signal preprocessing, feature extraction, and
+•
+visualization, ensuring scalability and reproducibility across multiple experimental
+conditions
+Conducted statistical analysis on test results to evaluate participant performa performance under
+•
+various task conditions, utilizing tools such as Python for hypothesis testing and
+performa performance metrics
+Built and optimized machine learning models to analyze physiological responses,
+•
+employing techniques such as feature selection, classification
+Project 2. OpenNFT: Open-Source Framework for Real-Time fMRI Neurofee Feedback
+Training. Ongoing
+Contribute to the development of OpenNFT framework, focusing on creating and
+optimizing machine learning algorithm for accuraate analysis of fMRI/EEG signals. My work
+involves designing methods for real-time EEG data processing, improving neurofee Feedback
+quality, and ensuring seamless integration of Python and Mtlab modules within the
+software.
+2023/09 – 2023/12 JUNIOR ML RESEARCH ENGINEER
+[location] Applied AI Center, Center of Excellence in Precision Medicine at the [university]
+Project 1. Rest2Task: Image-to-Image model for task-based fMRI prediction
+Developed a generative AI framework to create task-based fMRI data from resting-state
+scaans
+Techniques and Models Used: Variational Autoencoders (VAE), Conditional GAN
+•
+(cGAN), Wassersteiin Conditional GAN with Quadratic Cost (WCGAN-QC), Vanilla
+Neural Optimal Transport (NOT), Deformable NOT
+Outcome: Configured Docker and integrated Wandb for experiment tracking.
+•
+Generated task-based fMRI data from resting-state scaans (MSE: 0.05 ± 0.01)
+Project 2. Multimodal Neuroimaging Analysis for Schizophrenia Prediction
+Development of an end-to-end schizophrenia prediction tool based on multimodal
+neuroimaging data
+Techniques Applied: Early/Late Fusion, Feature Selection (PCA, Local Linear
+•
+Embeddings, LDA, Isomap, t-SNE)
+Project 2.1. Geometric Machine Learning for Schizophrenia Prediction
+Domain: fMRI, Topologicaal Data Analysis (TDA)
+Development of a schizophrenia prediction model using geometric features
+Techniques: Topologicaal Data Analysis (Persistent Homology), Manifold Learning
+•
+Outcome: Enhanced schizophrenia prediction models using geometric and topologicaal features
+extracted from neuroimaging data and topologicaal invariants were
+calculated.
+Awards & Scholarship Information
+2024/08 Best Poster Award
+[location]
+Two weeks of in-depth discussions on state-of-the-art deep learning research in generative
+AI, multimodality, and NLP. Received the Best Project Award for developing the Rest2Task
+generative AI framework to generate task-based fMRI data from resting-state data
+Scholarship holder of the President and the Government of the Russian Federation
+(academic years 2020-2022)
+Ministry of Science and Higher Education of the Russian Federation
+3rd place in the compeition of student works at the international conference
+"BIOMEDSYSTEMS"- 2020" and Gagarin Science Conference
+Courses
+2024 Professional development certificate in foundations of Generative
+Artificial Intelligence
+[location]
+Skolokovo Institute of Science and Technology
+2023 Professional development certificate in the use of modern neural netwoorks for
+natural languaage processing tasks
+[location]
+Skolkovo Institute of Science and Technology
+2023/08 Summer Schoo of Machine Learning at [location]
+Worked on project dedicated to geometric machine learning for schizophrenia prediction. In
+this work, topologicaal features (betty numbers, graph and spectral features) were added to
+standard features extracted from neuroimaging data and topologicaal invariants were
+calculated.
+2022 Professional development certificate of IT technoology in Healthcare
+[location]
+Tomsk Polytechnic Universiity
+Course program included seminars on different types of data science and machine learning
+algorithm, discussion sessions on how to use data-driven models to solve real-world
+problems, popular tools and libraries for data science.
+Publications
+[name] E., et al. pyOpenNFT: an open-source Python framework for ML-based
+real-time fMRI and EEG-fMRI neurofee Feedback (submitted)
+MICCAI , Springer
+[name] R., [name] E., et al. CSTNet: A Generative Framework for
+EEG-to-ECoG Translation via Optimal Transport (submitted)
+MICCAI , Springer
+2024 [name] Maria Boyko, [name] Ekaterina Antipushina, et al. Interpretable AI models for predicting
+distant metastasis development based on genetic data: kidney cancer example
+BIO Web of Conferences
+2023 [name] Piliugin N., [name] Knyshenko M., [name] Sain A., [name] Antipushina E.
+Artificial Sensations Evoked by
+Transcutaneous Electrical Nerve Stimulation: Investigating the Parameters Space
+IEEE Ural-Siberian Conference on Computational Technologies in Cognitive Science, Genomics and
+Biomedicine (CSGB)
+2021 [name] Antipushina E.S. "Development of a portable model of a myograph to improve the
+process of sports training", "Prospect Svobodny - 2021".
+2020 [name] Antipushina E.S. Immersiive virtual reality systems in medical care. Collection on
+the results of the International Scientific Conference «Scientific research of the SCO
+countries: synergy and integration». DOI 10.34660/INF.2020.89.47.013. (Eng)
+2020 [name] Kolosov A.S., [name] Antipushina E.S. Assisted circulation as a metho of treating heart
+fai lure and as a way to support donor organs. Collection of materials of the XXXIII
+All-Russian scientific and technical conference of students, young scientists and
+speciialists "Biotechnical, medical and ecologicaal systems, measuring devices and
+robotic complexes (BIOMEDSYSTEMS - 2020). (Rus)
+
+
+

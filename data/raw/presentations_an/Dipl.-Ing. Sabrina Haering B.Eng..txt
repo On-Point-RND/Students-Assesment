@@ -1,0 +1,78 @@
+Generative Modeling with
+Optimal Transport Maps": From
+Theory to Practice
+[name]
+[compaany], AI & Control
+Systems
+:
+Introduction
+1. Challenges in Generative Models:
+● Mode collapse in GANs.
+● Training instability.
+2. Optimal Transport (OT) as a Solution:
+● Theoretical framework for precise distribution alignment.
+● Example: Minimizing mass transport cost between distributions.
+3. Research Goal:
+● Reproduce OT-based generative modeling from the paper.
+● Propose enhancements for training stability.
+Problem Statement:
+What exactly are we solving?
+● Problem: Generative models (GANs/VAEs) suffer from mode
+collapse and training instability.
+● Goal: Use Optimal Transport (OT) to map latent distributions to
+data space robustlly.
+Challlenges:
+● High computational cost of OT for large datasets.
+● Balancing theoretical guarantees with practical implementaion.
+Scope:
+● Focus on MNIST dataset for proof of concept.
+Methods:
+Approach:
+● Optimal Transport Maps: Neural network approximation of OT plans.
+● Spectral Normalization: Stabilizes training by controlling gradient norms.
+Why these methods?
+● OT provides theoretical robustness compared to adversaial training
+(GANs).
+● Spectral normalization prevents discriminator overfitting.
+How it works:
+● Generator learns to map noise to data by minimizing OT cost.
+Data & Preprocessing:
+● MNIST: Normalized to [-1, 1], split into 50k training / 10k test samples.
+Methods :
+Training Pipeline:
+● Optimizer: Adam (learning rate = 0.0002).
+● Loss Function: OT cost
+● L=Ez∼p(z)[c(z,G(z))]
+● L=E
+● z∼p(z)
+● [c(z,G(z))].
+Improvements:
+● EMA (Exponential Moving Average): Smoothens generator weights
+during training.
+Results:
+Key Findings:
+● Achieved FID = 21.1 on MNIST (vs. baseline 23.5).
+● Training time reduced by 80% using mixed-precision
+training.
+Metrics:
+● FID: Measures distributional similarity between real and
+generated data.
+● Training Time: Critical for resource-efficient
+experimentation.
+Research Gap:
+What’s missing?
+● Limited scalability to high-resolution datasets (e.g., CelebA).
+Unresolved Challenges:
+● Integration with modern frameworks like diffusion models.
+Why it matters?
+● Hybrid approaches could enable multimodal generation (key focus
+of SMILES-2025).
+Future Opportunities:
+● Extend OT-based methods to text-to-image synthesis and 3D
+reconstruction.
+References:
+1. [name] et al. "Generative Modeling with Optimal
+Transport Maps". ICLR, 2022.
+2. [name] et al. "Computaional Optimal Transport".
+Foundations and Trends® in Machine Learning, 2019.
+3. [name] et al. "MNIST Database". 1998.

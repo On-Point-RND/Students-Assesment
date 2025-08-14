@@ -1,0 +1,144 @@
+Open-Vocabulary
+Semantic Mapping
+[name]
+2nd Year Master’s Student, [compaany]
+Robotics Researcher, [compaany]
+Introduction
+● What is the topic?
+○ Building spatial maps of environments with rich semantic information that can be queried using
+natural language.
+○ Moves beyond fixed object categories to understand and represent diverse concepts.
+● Why is it important?
+○ Enables robots and AI to interact with the world more flexibly.
+○ Supports tasks like navigation, manipulation, and human-robot interaction in unstructured
+environments.
+● Background:
+○ Traditional semantic mapping is limited by predefined vocabularies.
+○ Advances in vision-language models (VLMs) enable open-vocabulary approaches.
+● Goal of the review:
+○ Analyze current open-vocabulary semantic mapping methods.
+○ Understand strengths, limitations, and future directions.
+Problem statement
+• What exactly are we solving?
+○ Creating semantic maps that represent and retrieve arbitrary object and scene concepts described in
+natural language.
+○ Overcoming the constraints of fixed-label semantic maps.
+• Challenges:
+○ Handling open-ended vocabularies without retraining models.
+○ Integrating multimodal data (RGB, depth, spatial) effectively.
+○ Ensuring real-time performance for robotic applications.
+○ Maintaining spatial and temporal consistency in dynamic environments.
+• Scope:
+○ Focus on methods leveraging vision-language models and graph-based representations for indoor
+semantic mapping.
+Data
+Matterport3D Dataset
+Replica Dataset
+ScanNet Dataset
+Methods: ConceptGraphs
+source: “ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning” - ICRA 2024.
+Methods: ConceptGraphs
+● Why this method?
+○ VLMs generalize to novel semantic classes without large 3D datasets.
+○ Object-centric representation enables efficient map maintenance and scalability.
+● How it works:
+○ Builds 3D scene graph from RGB-D frames.
+○ Uses class-agnostic segmentation + VLMs to caption objects and infer relationships.
+● Data & preprocessing:
+○ RGB-D scans of indoor scenes.
+○ Segmentation, feature extraction using pretrained models, alignment of multimodal inputs.
+source: “ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning” - ICRA 2024.
+Methods: BBQ
+source: “Beyond Bare Queries: Open-Vocabulary Object Grounding with 3D Scene Graph” - ICRA 2025.
+Methods: BBQ
+● Why this method?
+○ DINOv2 features for robust object encoding.
+○ Scene graph captures spatial and semantic relationships.
+○ LLM enables complex query understanding.
+● How it works:
+○ Constructs object-centric 3D map + DINOv2 object encoding
+○ Builds 3D scene graph with metric and semantic edges + LLM reasoning.
+● Data & preprocessing:
+○ RGB-D images.
+○ MobileSAMv2 for class-agnostic segmentation
+○ DINOv2 embeddings for visual features.
+source: “Beyond Bare Queries: Open-Vocabulary Object Grounding with 3D Scene Graph” - ICRA 2025.
+Methods: OpenScene
+source: “OpenScene: 3D Scene Understanding with Open Vocabularies” - CVPR 2023.
+Methods: OpenScene
+● Why this method?
+○ Leveraging CLIP enables generalization to a diverse range of queries.
+○ 2D-3D fusion leverages salient patterns in both 2D images and 3D geometry
+● How it works:
+○ Computes dense features for 3D points.
+○ Associates 3D points with pixels from posed images in the 3D scene and trains a 3D network
+to embed points using CLIP pixel features as supervision.
+● Data & preprocessing:
+○ Indoor RGB scans
+○ RGB-D Image Sequences
+source: “OpenScene: 3D Scene Understanding with Open Vocabularies” - CVPR 2023.
+Methods: Open3DIS
+source: “Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance” - CVPR 2024.
+Methods: Open3DIS
+● Why this method?
+○ 2D-Guided-3D Instance Proposal Module captures smaller objects in individual images.
+○ Pointwise feature extraction module enables open-vocabulary classification.
+● How it works:
+○ Processes RGB-D sequence and 3D reconstructed point cloud
+○ Generates 3D object binary instance masks from 3D instance network and 2D guidance.
+● Data & preprocessing:
+○ RGB-D sequences
+○ Utilizes superpoints to enhance robustness and geometric homogeneity
+source: “Open3DIS: Open-Vocabulary 3D Instance Segmentation with 2D Mask Guidance” - CVPR 2024.
+Results
+● Key findings:
+○ Open-vocabulary methods recognize and localize a wide range of objects beyond fixed categories.
+○ Graph-based approaches enhance relational reasoning and complex query understanding.
+○ Methods achieve state-of-the-art on OV-3D segmentation and object grounding tasks.
+● Metrics used:
+○ Accuracy of semantic labeling (mAcc, mIoU, f-mIoU), precision/recall for object detection, and
+retrieval performance for language queries.
+○ Metrics reflect recognition quality and usability in downstream tasks.
+Results: Visuals
+Class Frequency Distribution of the Replica Dataset. Head (blue), common (yellow)
+and tail (green)
+Semantic Segmentation Evaluation on Replica Dataset
+sources: “Open-Vocabulary Online Semantic Mapping for SLAM” - arXiv Preprint 2025,
+“OpenNeRF: Open Set 3D Neural Scene Segmentation with Pixel-Wise Features and Rendered Novel Views” - ICLR 2024.
+Research gap
+• What’s missing?
+○ High computational cost limits real-time deployment.
+○ Limited handling of temporal dynamics and multi-view consistency.
+○ Challenges in scaling to large, cluttered, or outdoor environments.
+• Unresolved challenges:
+○ Robustness to noisy sensor data and occlusions.
+○ Seamless integration of spatial reasoning with language understanding.
+○ Adaptation to new domains without extensive retraining.
+• Why it matters?
+○ Addressing gaps enables more reliable, scalable, and practical semantic mapping systems.
+• Future opportunities:
+○ Incorporate large multimodal models with spatial reasoning.
+○ Develop lightweight architectures for embedded systems.
+○ Explore temporal and multi-view semantic consistency.
+○ Enhance graph neural networks for dynamic scene understanding.
+Bibliography
+1. [name] et al. "Conceptgraphs: Open-vocabulary 3d scene graphs for perception and planning." 2024 IEEE International Conference on
+Robotics and Automation (ICRA). IEEE, 2024.
+2. [name] et al. "Beyond bare queries: Open-vocabulary object retrieval with 3d scene graph." arXiv e-prints (2024): arXiv-2406.
+3. [name] et al. "Openscene: 3d scene understanding with open vocabularies." Proceedinings of the IEEE/CVF conference on
+computer vision and pattern recognition. 2023.
+4. [name] et al. "Open3dis: Open-vocabulary 3d instance segmentation with 2d mask guidance." Proceedinings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition. 2024.
+5. [name] et al. "OpenNeRF: open set 3D neural scene segmentation with pixel-wise features and rendered novel views." International Conference on Learning Representa
+tions
+(ICLR). 2024.
+6. [name] et al. "OpenNerf: Open Set 3D
+Neural Scene Segmentation with Pixel-Wise Features and Rendered Novel Views." International Conference on Learning Representa
+tions
+(ICLR). 2024.
+7. [name] et al. "OVO-SLAM: Open-Vocabulary Online Simultaneous Localization and
+Mapping." arXiv preprint arXiv:2411.15043 (2024).
+8. [name] et al. "The replica dataset: A digital replica of indoor spaces." arXiv preprint arXiv:1906.05797 (2019).
+9. [name] et al. "Matterport3D: Learning from RGB-D Data in Indoor Environments". International Conference on 3D Vision (3DV). (2017).
+10. [name] et al. "Scannet: Richlly-annotated 3d reconstructions of indoor scenes." Proceeding of the IEEE conference on computer
+vision and pattern recognition. 2017.

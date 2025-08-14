@@ -1,0 +1,151 @@
+T-3DGS: Removing Transient Objects for 3D
+SceneReco nstruction
+[name]
+MScStudent,AppliedAICenter
+1/15
+3D Gaussian Splatting
+• 3D points represented as
+Gaussians
+• Each Gaussian has:
+• Position
+• Size/shape
+• Color
+• Opacity
+Benefiits:
+• High-quality rendering
+• Efficient optimization
+• Handles complex geometry
+2/15
+Problem Statement
+Challlenge:Reco nstruct static 3D scenes from uncostrained images with dynamic objects
+Solution: Mask out dynamic objects during optimization
+3/15
+Residuals for mask prediction
+4/15
+Input definitions
+• I - input image
+• Iˆ- image rendered by 3D Gaussian Splatting
+• f - DINO features extracted from input image
+• fˆ- DINO features extracted from rendered image
+• P - predicted transient mask for input image
+• Pˆ - predicted transient mask for rendered image
+• Our primary objective is to accura tely predict P, which we use to mask out dynamic
+objects during reconstruction. Theoretically, Pˆ should be empty since 3D Gaussian
+Splatting can only render static scene elements.
+5/15
+Transient Mask Prediction
+• Probability computa tion:
+Pf = σ(Wf)
+• Loss components:
+L = L +λ L +L
+transient RGB prior reg consist
+• RGB Loss:
+(cid:12)(cid:12) (cid:12)(cid:12)
+L = (cid:12)(cid:12)(1−P)⊙(I −Iˆ)(cid:12)(cid:12)
+RGB (cid:12)(cid:12) (cid:12)(cid:12)
+1
+• Regulala tion Loss:
+L = ||P||
+reg 1
+• Consistency Loss:
+(cid:12)(cid:12) (cid:12)(cid:12)
+L = (cid:12)(cid:12)P ⊙Pˆ(cid:12)(cid:12)
+consist (cid:12)(cid:12) (cid:12)(cid:12)
+1
+6/15
+Impa ct of Consistency Term
+• Optimal solution without consistency:
+(cid:40)
+1 if |I −Iˆ | > λ
+P∗ = i,j i,j prior
+i,j 0 if |I −Iˆ | ≤ λ
+i,j i,j prior
+• Without consistency:
+• False positives in static regions
+• Misclassification of complex geometry
+• With consistency:
+• Precise transient detection
+• Preserves static structures
+• Semantic-aware decisions
+7/15
+Depth-Aware Regulala tion
+• Depth loss (anisotropic total variation), where D is rendered depth:
+L = mean(|∇ D|)+mean(|∇ D|)
+depth x y
+• Benefiits:
+• Suppresses floating artifa cts
+• Preserves sharp depth discontinuities
+• Improves overall reconstruction quality
+8/15
+Quantitative Re sults - On-the-go Dataset
+Mountain Fountain Corner Patio Spot PatioHigh Mean
+PSNR SSIM PSNR SSIM PSNR SSIM PSNR SSIM PSNR SSIM PSNR SSIIM PSNR SSIIM PSNR SSIIM
+NeRFOn-the-go 20.15 0.64 20.11 0.61 24.22 0.81 20.78 0.75 23.33 0.79 21.41 0.72 21.67 0.72
+3DGS 20.09 0.70 20.11 0.69 23.51 0.85 15.87 0.68 20.78 0.80 17.80 0.69 19.69 0.74
+Robust3DGS 16.97 0.61 18.18 0.59 23.47 0.85 21.33 0.85 22.61 0.88 21.81 0.82 20.73 0.77
+WildGaussians 20.77 0.70 20.74 0.67 25.79 0.88 21.77 0.85 24.39 0.88 22.36 0.80 22.64 0.80
+SpotLessSplats 21.25 0.66 20.49 0.63 25.59 0.85 21.13 0.80 24.13 0.78 22.18 0.76 22.46 0.75
+Ours 20.89 0.72 21.01 0.69 26.64 0.90 21.55 0.86 25.96 0.91 23.18 0.84 23.21 0.82
+Key fi ndiings:
+• Consis tent improvement over SOTA (+0.57 dB PSNR, +0.02 SSIM)
+• Best performa nce in scenes with complex geometry (Corner, Spot)
+• Significant improvement in challenging cases with dynamic objects
+9/15
+Qualitative Re sults - On-the-go Dataset
+egamI
+ecnerefeR
+SGD3-T
+stalpSsseLtopS
+SGD3tsuboR
+Mountain Fountain Patio
+Key improvements:
+• Clean removal of dynamic objects
+• Preserved static structure details
+• No floating artifa cts
+• Better handling of complex
+geometry
+10/15
+Ablation Study
+Variant PSNR SSIM
+w/odilation 22.65 0.82
+w/oLc onsist 16.76 0.69
+w/oLdepth 23.02 0.82
+Full 23.21 0.82
+• Consis tency loss crucial
+• Depth regularization helps
+• Dilation improves stability
+11/15
+Limitations
+Feature resolution limitations:
+• Inaccurate masks due to 14×14 px patches
+• May miss objects smaller than patch size
+12/15
+Future Work
+Feature extraction improvements:
+• Higher resolution feature maps
+• Guided upsampling techniques
+• Multi-scale feature fusion
+13/15
+Conclusion
+• Main contributions:
+• Novel consis tency-aware mask prediction
+• Robust mask refi nement pipeline
+• Impa ct:
+• Enables robust 3D reconstruction from uncostrained videos
+• Opens possib ilities for real-world applications
+Project website: https://transient-3dgs.gi thub.io/
+14/15
+Bibliography
+1. Kerbl, B., et al. (2023). 3D Gaussia n Splatting for Real-Time Radiance Field Rendering.
+ACM Trans. Graph., 42(4).
+2. Mildenhall, B., et al. (2021). NeRF: Representing Scenes as Neural Radiance Fields for
+View Synthesis. Communications of the ACM, 65(1), 99-106.
+3. Oqua b, M., et al. (2024). SpotlessSplats: Ignoring Distractors in 3D Gaussia n Splatting.
+arXiv:2406.20055.
+4. Ku lhanek, J., et al. (2024). WildGaussians: 3D Gaussia n Splatting in the Wild.
+arXiv:2407.08447.
+5. Ungermann, P., et al. (2024). Robust 3D Gaussia n Splatting for Novel View Synthesis in
+Presence of Distractors. arXiv:2408.11697.
+6. Martin-Brualla, R., et al. (2021). NeRF in the Wild: Neural Radiance Fields for
+Uncostrained Photo Collections. CVPR, 7210-7219.
+15/15

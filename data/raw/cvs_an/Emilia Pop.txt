@@ -1,0 +1,169 @@
+[location]
+[name] [surname]
+[email]
++2 *** *** ***
+PhD Student, Engineer
+Education Experience
+[compaany] / PhD Chemoinformatics [compaany] / Engineer
+SEP 2024 – PRESENT SEP 2022 – PRESENT
+Thesis Topic: Artificial intelligence for the design of solid crystal forms
+Realisation and guidance of research
+of small molecules
+projects in the field of Chemistry and AI.
+Advisor: [name] [surname] / DSc [location]
+[compaany] / Junior Researcher
+[compaany] / MSc Chemistry with Artificial Intelligence SEP 2020 – MAY 2022
+SEP 2022 – MAY 2024
+Chemical experiments on synthesis of
+graft copolymers for delivery of genetic
+information.
+Thesis Topic: Generative Artificial Intelligence for Co-Crystal Design
+with Property Control
+Advisor: [name] [surname] / professor / DSc
+Skills & Languages
+[compaany] / BSc Chemistry
+SEP 2018 – MAY 2022 Skills:
+Python · ML · NumPy · Pandas ·
+Matplotlib · Scikit-learn · DL · PyTorch ·
+PyTorch Lightning · Flask · LLM ·
+Multi-agent systems · Generative
+models · Server Computing · SQL · R ·
+Git · GitHub
+Advisor: [name] [surname] / associate professor / PhD
+Inorganic synthesis of nanoparticles ·
+Research Projects
+Organic synthesis · Synthesis of
+polymers · Zeta potential analysis · Gel
+electroforesis · HPLC · Infrared and
+[ → ] Hybrid Generative AI for De Novo Design of Co-Crystals with
+Raman spectroscopy · Interpretation
+Enhanced Tabletability
+NMR spectra
+2022 – 2025
+The research project developed a method for automated screening of
+co-crystals based on hybridization of deep generative models and
+evolutionary optimization for broader exploration of the target
+chemical space.
+Areas of Interest:
+Applied artificial intelligence · Computer
+aided drug design · Cheminformatics ·
+Molecular generation · Molecular
+crystals · LLM · Data extraction
+[ → ] Generative Design of Ophthalmic Drugs with Property
+Optimization
+Languages:
+Russian (Native)
+English (Advanced)
+2023 – 2025
+The research project involved the development of a strategy for
+generative design of ophthalmic drugs based on reinforcement learning
+methods (FREED++) with optimization of properties such as
+permeability through the cornea, binding to melanin, and tendency to
+eye irritation.
+1 / 3
+LLM-based Multi-Agent Pipeline for Drug Discovery Academic Achievements
+2024 – PRESENT
+The research project developed a multi-agent approach that combines
+LLMs with specialized generative models and molecular validation tools
+to automate the discovery of therapeutic compounds.
+Winner:
+Russian President Scholarship [2023]
+State Academic Scholarship [2023]
+Data Science Scholarship [2023]
+Predicting Methodologies for the Synthesis of Co-Crystals Engineers Scholarship Program [2022]
+2024 – PRESENT
+2nd Place Winner:
+The research project involved extracting data from scientific articles
+using LLMs and training ML models to predict synthesis parameters by
+molecular pair.
+Hackathon "DataCon" [2022]
+Hackathon "Future Data" [2022]
+Scientific Events
+Courses and Internships
+[compaany] / SBER + PROSTO + [compaany]
+Course / Skoltech
+2025
+2024
+Fundamentals of generative artificial intelligence Expert of the case “Application of
+evolutionary optimization for the design
+Course / Yandex School of Data Analysis of co-crystals with improved
+tabletability properties”
+2023
+GPT Week: Intensive on LLM usage and pre-training
+SCAMT Workshop Week / [compaany]
+2025
+Internship / [compaany]
+2022 Mentor of the case “Artificial Intelligence
+for HIV drug design”
+Energy Efficient Settlement, [location]
+Hackathon "DataCon" / [compaany] / [location]
+Course / [compaany]
+2024
+2022
+Big data: storage technologies and an introduction to machine learning;
+Team mentor and member of the event
+Advanced machine learning and image processing organization team
+SCAMT Workshop Week / [compaany]
+2023
+Teaching Activities
+Mentor of the case “Generative Artificial
+Intelligence for Co-Crystal Design with
+Property Control”
+Lecturer / [compaany]
+2024
+Hackathon "DataCon" / [compaany] / [location]
+Course “Algorithms and Big Data in Chemistry”
+Lecturer / [compaany]
+2023
+Member of the event organization team
+2023
+Online course “Artificial Intelligence in Chemist's Work”
+Mentor / [compaany]
+2023
+Course “Programming of chemical tasks”
+2 / 3
+Publications Latest Conferences
+Conferences A* / Main-track
+The 3rd Annual AAAI Workshop on AI
+to Accelerate Science and
+[ → ] Engineering (AI2ASE) / [location]
+Gubina, N. et al. (2024). Hybrid Generative AI for De Novo Design of Co- 2024
+Crystals with Enhanced Tabletability. 38th Conference on Neural
+Information Processing Systems (NeurIPS).
+Oral presentation “Generative AI for Co-
+Crystal Design with Property Control”
+Conferences A* / Workshops
+Conference on Machine Learning "Fall
+into ML" / HSE, Moscow
+[ → ]
+2024
+Vepreva, A., Gubina, N. et al. (2025). Deep Reinforcement Learning for De
+novo Synthesis of Eye Drops. 5th Annual AAAI Workshop on AI to
+Accelerate Science and Engineering (AI2ASE).
+[ → ]
+II International Youth Scientific
+Conference "Technologies
+of AI Technologies in Science and
+Education" / MSU, Moscow
+2024
+Oral presentation “Hybrid artificial
+intelligence for the development
+of co-crystals with improved
+tabletability”
+[ → ]
+International Scientific
+Practical Conference of Students and
+Young Scientists "Chemistry and
+Chemical Technology in the XXI
+Century" / TPU, Tomsk
+2023
+Igor G. Zenkevich et al. (2022). Decreasing the uncertainty of gas
+chromatographic quantification using the solvent’s signal in the method
+of external standard. Analitika i kontrol’ 26(2), 141-149.
+Design of co-crystals with pre-defined
+properties using a generative deep
+[ → ] learning model
+Gubina, N. V. et al. (2021). Synthesis and Optical Properties of Boehmite
+Nanoparticles Doped with 3d-Metal Ions. Russian Journal of General
+Chemistry, 91(10), 2118-2120.
+3 / 3

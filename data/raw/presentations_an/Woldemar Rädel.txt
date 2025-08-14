@@ -1,0 +1,63 @@
+ARCTIC’S SEA ICE FOREC ASTING
+BASED ON LSTM NEURAL NETWORKS
+[compaany]
+[name]
+[compaany]
+[name]
+SCOPE OF THE WORK
+Introduction
+▪ Problem statement
+Main Part
+▪ Underlying Dataset
+▪ Methodology
+▪ Model
+▪ Results
+Conclusion
+PROBLEM STATEMENT: THE CHALLENGE
+OF RLIABLE SEA ICE FORECASTING
+Existing physics-
+Amount of sea Need for sea based numerical
+AI-based sea
+ice in the Arctic ice forecasting models are
+ice prediction
+decreases models computaionally
+expensive
+DATASET
+Source:
+• National Snow and Ice Data
+Center
+Key parameters:
+• Sea ice extent (SIE)
+• Sea ice concentration(SIC)
+• Year
+METHODOLOGY
+Model ACC
+Sea ice extent
+Sea ice
+concentration
+Dataset ACC
+LONG SHORT-TERM
+MEMORY NETWORK
+WITH ATTENTION
+MODULE
+MODEL’S LOSS FUNCTION
+Advanced
+Model:
+LSTM_Attention
+Improved Model:
+LSTM_MAE
+Baseline Model:
+LSTM_MSE
+RESULTS
+Model Comparison &
+Performance
+Spaatial & Temporal Accuracy
+CONCLUSION
+Superior Performance
+Robust Design
+Next Steps
+THANK YOU FOR YOUR
+ATTENTION
+Contacts
++2 *** *** ***
+[email]

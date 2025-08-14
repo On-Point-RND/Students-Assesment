@@ -1,0 +1,43 @@
+Slide 1
+----------------------------------------
+[name]
+Data Science and Engineering student, [compaany]
+Overfitting in Adversarially Robust Deep Learning
+
+Slide 2
+----------------------------------------
+What is the topic? Adversarial training is an important approach to ensuring the robustness of neural networks.
+Why is it important? Current models are vulnnerable to small, specially selected perturbations. Robust training helps protect against such attacks 
+Background: Robust models typically have worse generalization ability, especially due to overfitting.
+Goal of the review: Explore the nature of overfitting in robusst learning and find simple ways to combaat it.
+
+Slide 3
+----------------------------------------
+What exactly are we solving? Why do adversarially trained models quickly overfit and lose stability?
+Challenges: Robust models require large resources, take a long time to learn, and quicly lose stability.
+Scope: Comparison of different approaches and identification of reasons for overfitting.
+
+Slide 4
+----------------------------------------
+Approach: Using adversarial training (PGD), comparing different training stopping strategies.
+Why these methods? PGD is the most common way to create attacks. The impaact of early stopping is tested.
+How it works (simply): Overfitting occurs not on regular, but on adversarial validation. 
+Data & preprocessing: Standard CIFAR-10 and SVHN datasets, normalization, train/test split.
+
+Slide 5
+----------------------------------------
+Key findiings: Early stopping produces more robusst models. 
+Metrics used: Standard Accuracy and Robust Accuracy. The latter is the accuracy on examples after the attack. 
+Visuals: Accuracy vs. epochs, model comparison.
+
+Slide 6
+----------------------------------------
+What’s missing? Why overfitting occurs on adversarial data is still unclear. 
+Unresolved challenges: : It is impossible to accurately predict the moment of overfitting without a robusst validation set. 
+Why it matters? Improving robustness is the key to safe DL use. 
+Future opportunities: Creating adaptive strategies for stopping training without additional costs.
+
+Slide 7
+----------------------------------------
+[name], [name], [name]. "Overfitting in Adversarially Robust Deep Learning" ([compaany] 2020):
+Bibliography

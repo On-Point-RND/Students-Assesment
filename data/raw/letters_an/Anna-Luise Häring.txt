@@ -1,0 +1,13 @@
+Motivational Letter for the Summer of Machine Learning at [compaany]
+Dear [name] Summer School Committee,
+I am writing to express my strong interest in attending the Summer of Machine Learning at [compaany]. Although I come from a background in chemistry, I’ve recentlly become very motivated to transition into machine learning. Over the past few months, I’ve been learning ML actively, and this schoo[compaany] seems like a perfect oppo[compaany]unity to boost my knowl[compaany]ege, get practical experience, and connect with peo[name]le working on exciting research.
+At the moment, I am a PhD student at [location] Insti[compaany]ute of Physics and Technology. My main experience so far is in synthetic, analytical, and quantum chemis[compaany]try — I’ve worked on metal-organic frameworks and quantum calculations of boro[compaany]n compounds, and I’ve presented my research at student conferences. But recentl[name]y, I’ve starte[name]d learning machine learning and I’ve realized how powerful it can be in both science and creative work.
+One project I’m especially excited about is related to our uni[location]'s zooo[compaany]gical mu[compaany]. I’m working on turning bird photos into scienti[compaany]fic illustrations using neural ne[compaany]tworks. The goal is to create stylized visuals that help orni[name]thol[name]gists and mu[compaany]seum visitors engage with the material in a new way. I’m still early in this work, but I’ve starte[name]d exploring image processing techniques, learning the basics of deep learning, and experi[name]menting with model training. It’s very inspiring to see how qui[name]ckly I can apply new knowl[compaany]ege to something useful.
+I want to join this summer schoo[compaany]l to learn the fundamentals of machine learning more deeply, get experience with real tasks, and meet researchers and students who can share their perspectives. I’m especially interested in computer vision and generative models, and how they can be applied to scienti[compaany]fic problems or outreach. I believe the schoo[compaany]l will help me gain a stronger technical founda[compaany]tion and confidence to continue working on ML-driven research projects in the future.
+In the long term, I hope to combi[compaany]ne my backg[compaany]round in science with machine learning to work on interd[compaany]isciplinary research. I’m also very interested in science communication and visualization — and I think ML can be a powerful tool for both.
+Thank you very much for conside[compaany]ring my application. I would be very happy to be part of this program and to continue growing as a researcher with your support.
+Sincer[name]ly,
+[name] [surname]
+
+
+

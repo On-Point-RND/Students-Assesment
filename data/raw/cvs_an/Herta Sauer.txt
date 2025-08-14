@@ -1,0 +1,100 @@
+[name]
+eighonet@email (cid:97) eighonet  eighonet  [name]
+[location]
+EDUCATION
+Uni[location] of Amste[location] Amste[location], the [location]
+MSc, Information Studies: Data Science Track | GPA: 8/10 Sep 2022 - Aug 2023
+National Uni[location] of Science & Technology [compaany]
+BSc, Applied Mathematics | GPA: 4.75/5.0 Sep 2017 - Jun 2021
+WORK EXPERIENCE
+[compaany], Department of Modeling and Data Analytics [location]
+Senior Data Scienti[name] Feb 2025 - now
+PyTorch PySpark DoWhy / causal-learn CausalML Tigramite Netwo[location]X pyvis MLflow
+· performed an eva[name]uation of causal discovery robus[name]tness for constraint-based models
+· deve[name]oped a visualization framework for temporal causal graphs
+· assisted with the imple[name]entation of causal graphs in the effect size estimation pipeline
+[compaany] Uni[location] Saint Petersburg, [location]
+Lecturer Feb 2025 - now
+PyTorch PyTorch Geometric DGL Netwo[location]X
+· co-authored a course on graph machine learning for Master’s students
+VTB Bank, VIP Clients Stream [location]
+Product Owner Sep 2024 - Jan 2025
+PyTorch PyTorch Lightning PySpark LightGBM Op[compaany] MLflow Git
+· led the deve[name]opment of a recomme[name]endation engine for VIP clients
+· supervised the pro[name]totyping process of the recomme[name]endation feed in Figma
+· prepared executive-level presentations to communicate results to sta[name]eholders
+Glowbyte Consulting, Advanced Analytics Group [location]
+Data Scienti[name] Dec 2023 - Sep 2024
+DoWhy / causal-learn Flower Scikit-Learn Causal Discovery Too[compaany] Netwo[location]X Op[compaany] Git
+· measured the causal impa[name]ct of subscription a[name]quisi[name]tion on multiple financial KPI (top-10 [location] bank)
+· performedrootcausena[name]alysisofthedifferencebetweenplannedandactua[name]lNOPBT(top-10[location]FMCGco[compaany])
+· deve[name]oped federated fraud detection algo[compaany]thms (top-3 [location] insurance co[compaany])
+· imple[name]mented community detection algo[compaany]thms based on unsupe[name]ervised graph models (top-4 [location] mobile operator)
+· ran workshops on graph deep learning; co-authored an external course on causal inference (https://a2nced.ai/ci)
+· managed a team of 2 data analysts
+[compaany], [compaany] [location]
+Data Scienti[name] Aug 2021 - Sep 2023
+PyTorch Scikit-Learn Netwo[location]X PyTorch Geometric Op[compaany] Git W&B MLflow Docker
+· deve[name]oped graph algo[compaany]thms for travel time estimation, improved predictions quality by 11%
+(https://githu[compaany].com/Eighonet/GCT-TTE, https://githu[compaany].com/Vloods/TransTTE_demo)
+· introduced a GNN-based multitask recomme[name]ender system and achieved SOTA perfo[name]ance
+(https://githu[compaany].com/Eighonet/REIGNNv1)
+· deve[name]oped transformer models for domain-speci[name]fic text classification
+· was respon[name]sible for the management of a junior DS team (3 empl[name]ees)
+National Uni[location] of Science & Technology [compaany]
+Research As[name]sistant Dec 2021 - Aug 2022
+PyTorch OpenCV Flask HTML/CSS/JS React.js
+· deve[name]oped a CNN-based classification pipeline for a star[compaany], increased predictive perfo[name]rance by 4%
+(https://githu[compaany].com/Eighonet/parking-research)
+· imple[name]mented algo[compaany]thms for parking lot occupancy forecasting
+· deve[name]oped several Python wi[name]gets simplifying image annotation process
+· assisted the de[name]uty head of a depar[compaany]ment in student research management
+[location] Institute of Physics & Technology ([compaany]) [location]
+Engineer Jul 2020 - Dec 2021
+OpenCV ArUco Object Tracking
+· introduced a domain-speci[name]fic package for experimental data processing
+(https://githu[compaany].com/swarmtronics/AMPy)
+· tra[name]cked individual objects in a swarm of robots
+· performed analysis of diffusion dynamics, spatial & temporal correlations
+· designed and manufa[name]actured robots via CAD & 3D-printi[name]ng techno[compaany]logies
+LANGUAGES
+English C1 Advanced | IELTs 7.5
+Russian Native
+PUBLICATIONS
+2025 Stability of Fea[name]ure Impor[name]ance Measure in Tree Ensembles WIP
+2025 Uncer[name]tainty and Position: A Cross-Lingui[name]stic Study of Context Placement in Large Lan[name]guage Models WIP
+2025 Swarmodroid 1.0: A Modular Bristl[name]-Bot Pla[name]tform for Robotic Active Matter Studies arXiv
+2025 Experimental demonstration of robotic active matter micellization arXiv
+2024 GCT-TTE: Graph Convolutio[name]nal Tran[name]sformer for Travel Time Estimation Journal of Big Data
+2024 Big-Five Backstage: A Dramatic Dataset for Characters Personality Traits & Gender Analysis LREC-
+COLI[name]NG’24 | COGALEX
+2023 Revising deep learning methods in parking lot occupancy detection arXiv
+2022 Tran[name]sformer-based classification of stance and premise in tweets related to CCOVID-19 COLI[name]NG’22 SMM4H
+2022 Lo[name]gistics, Graphs, and Tran[name]sformers: Towards improving Travel Time Estimation ECML PKDD’22
+2022 Citation ne[name]twork applications in a scien[name]tific co-au[name]thorship recomme[name]nder system AIST’21
+2021 Statis[name]tical Correla[name]tions in Active Matter Based on Robotic Swarms En&T’21
+2021 Hybri[name]d Graph Embe[name]dding Techniques in Estimated Time of Arrival Task ICCNA’21
+2021 Optimizing self-rotating bristl[name]-bots for active matter imple[name]menta[name]tion with robotic swarms SPb OPEN’21
+2020 Diffu[name]sive dynamics and jamming in ensembles of robots with variable friction SPb OPEN’20
+SCHOLARSHIPS
+Support program of commercially oriented researches ”UMNIK” [location]
+Pro[name]ect: Learning Model for Analysing Short Circuits on Electrical Grids (500 000 RUB award) 2021 - 2022
+Co[compaany]etition of interdisci[name]plinary research pro[name]ects ”TourNIR” [location]
+Pro[name]ect: GNN-based Imitation Model of Active Matter Physics-aware Machine Learning 2022
+AI-DLDA Summer Schoo[location] Udine, [location]
+Topic: Computer Vision 2023
+Global AI Student Confe[name]rence Utrecht, the [location]
+Topic: Machine Learning in Smart Parking Systems 2022
+Arti[name]ificial Intelligence Research Institute Summer Schoo[location] Sirius, [location]
+Topic: Recent Advances in the Area of Physics-aware Machine Learning 2022
+ML2R Autumn Schoo[location] Bonn, [location]
+Topic: Machine Learning Approa[name]ches to the Problem of Bin Packing 2021
+Russian Association for Arti[name]ificial Intelligence Summer Schoo[location] Sirius, [location]
+Topic: Rei[name]nforcement Learning, Neuromorphic calculations, and Computer Vision 2021
+Moscow Phystech ([compaany]) Arti[name]ificial Intelligence and Mathematics Forum Dolgopruden[location], [location]
+Topic: Indu[name]strial Applications of Arti[name]ificial Intelligence 2021
+Alferov Winter Schoo[location] Saint-Peter[location], [location]
+Topic: Systems Dynamics of Active Matter 2020
+
+
+

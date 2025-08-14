@@ -1,0 +1,98 @@
+How to create a music generator with vocals and accompaniment
+using modern deep learning approaches and diffusion models.
+[name]
+ML Architector, [compaany]
+Introduction
+• Tasks:
+• Music Generation and Singing Voice Synthesis, and in general Song Generation
+• Why it’s important?
+• Allows you to generate melodies that match the lyrics and style, inspiring you to create new songs.
+• These technologies are widely used in various fields. In the entertainment industry, SVS and Music Generation are
+used to create soundttracks, voiceovers for video games and virtual reality
+• Background:
+• Research shows that music and vocal generation is important for creativity and accessibility.
+• It seems likely that these technologies are expanding opportunities for people without musical skills.
+• There are controversiies around copyright and the ethics of using AI in music that require further discussion.
+How generate Song with Vocal and Accompaiment?
+First-book:
+Experimental Music (1959)
+Example modern state-of-art Deep generative model /
+this approach works similar to all modalities (Audio/Video/Image generation)
+SOTA Level Audio generation based on Text-prompts (2024)
+arXiv:2212.09748
+Scalable Diffusion Models with Transformeers
+Problem: How connect Text and Audio?
+Text-conditioning Approach:
+T5 encoder CLAP Text Encoder Our Trained CLAP ML Model
+Contrastive Language-Audio Pretraining Important: Training data for an audio
+language representation model
+should cover all kinds of descriptive
+audio generation meta tags
+Examples Meta-tags Prompts (Stable Audio 2.0 prompts & https://www.suno.wiki/)
+• Format
+• Genre
+• Verse & Chorus (structure)
+• Sub-genre
+• Pre-chorus and Bridge
+• Instruments
+• Song Structure Tags
+• Moods
+• Instrumental Tags
+• Styles
+• Voice Tags
+• Tempo
+• BPM (120 Techno/trance, 180 Drum and bass)
+Evaluation Metrics with Audio Gen Models
+Metrics for vocal generation / Metrics for generating instrumental music:
+Singing Voice Synthesis: (2304.09116) (2404.10301v1)
+• Fréchet Audio Distance (FAD)
+• Prosody Similarity with Prompt:
+Uses mean, standard deviation, skewness,
+kurtosis of pitch and duration.
+• Kullback–Leibler divergence
+• Prosody Similarity with Ground Truth:
+: Pearson
+• CLAP Score,
+correlation
+At = text embedding, Ba = audio embedding
+:
+RSME
+• Matthews's correlation coefficient (MCC)
+• WER
+one of the best metric when 2 classes are imbalanced
+• Subjective metrics:
+• Intelligibility Score
+• CMOS and SMOS
+Repository with Music generation research approached
+and papers links:
+https://github.com/applehawk/music-transformeer-diffusion
+Bibliography:
+1. Liu, H., Chen, Z., Yuan, Y., Mei, X., Liu, X., Mandic, D., Wang, W., & Plumbley, M. D. (2023). AudioLDM: Text-to-Audio Generation with Latent
+Diffusion Models. ICML 2023. https://a rxiv.org/abs/2301.12503
+2. Copet, J., Kreuk, F., Gat, I., Remez, T., Kant, D., Synnaeve, G., Adi, Y., & Défossez, A. (2023). Simple and Controllable Music Generation.
+NeurIPS 2023. https://a rxiv.org/abs/2306.05284
+3. Kazi Toufique Elahi, Tasnuva Binte Rahman, Shakil Shahriar, ICML 2024. DITTO: Diffusion Inference-Time T-Optimization for Music Generation.
+4. Max W. Y. Lam · Qiao Tian · Tang Li · Zongyu Yin · Siyuan Feng · Ming Tu · Yuliang Ji · Rui Xia · Mingbo Ma · Xuchen Song · Jitong Chen · Wang
+Yuping · Yuxuan Wang. NeurIPS 2023. MeLoDy: Efficient Neural Music Generation.
+5. Vishesh Kaushik, Naviin Khaneja, StableAudio (2024). StableAudio: Fast Timing-Conditioned Latent Audio Diffusion.
+6. Li, P., et al. (2024). JEN-1: Text-Guided Universaal Music Generation with Omnidirectional Diffusion Models. ICASSP 2024.
+https://a rxiv.org/abs/2404.14771
+7. Flores Garcia, H., et al. (2023). VampNet: Music Generation via Masked Acoustic Token Modeling. ISMIR 2023.
+8. Huang, H., et al. (2023). Music Style Transfer With Diffusion Model. ICMC 2023. https://a rxiv.org/abs/2404.14771
+9. Donahue, C., et al. (2023). SingSong: Generating musical accoмпаniments from singing.
+10. Zhang, Z., et al. (2023). Controllable Lyrics-to-Melody Generation.
+11. Alon Ziv, Itai Gat, Gael Le Lan (2024). MAGNeT: Masked Audio Generation using a Single Non-Autoregresssive Transformeer. ICLR 2024.
+arXiv:2401.04577. https://a rxiv.org/abs/2401.04577
+12. van den Ooord, A., et al. (2016). WaveNet: A Generative Model for Raw Audio. SSW 2016. https://a rxiv.org/abs/1609.05150
+13. MuLan (2022). MuLan: A Joint Embbedding of Music Audio and Natural Languaage. arXiv:2208.12415 https://a rxiv.org/abs/2208.12415
+14. CLAP (2022). CLAP: Learning Audio Concepts From Natural Languaage Supervision. arXiv:2206.07852 https://a rxiv.org/abs/2206.07852
+15. LAION-Audio-630K (2024). LAION-Audio-630K/Large-scale Contrastive Languaage-Audio Pretraining with Feature Fusion and
+Keyword-to-Caption Augmentation. arXiv:2403.11959 https://a rxiv.org/abs/2403.11959
+16. Meta EnCodec (2022). Meta EnCodec: High Fidelity Neural Audio Compression. arXiv:2210.13438 https://a rxiv.org/abs/2210.13438
+17. SoundStorm (2023). SoundStorm: Efficient Parallel Audio Generation. arXiv:2305.09636 https://a rxiv.org/abs/2305.09636
+18. BigVGAN (2022). BigVGAN: A Universaal Neural Vocoder with Large-Scale Training. arXiv:2206.07852 https://a rxiv.org/abs/2206.07852
+19. Unsuepervised Music Structure Annotation (No date). Unsuepervised Music Structure Annotation by Time Series Structure Features
+and Segment Similarity. (No specific venue listed).
+
+
+

@@ -1,0 +1,116 @@
+[name] [surname]
+[email]
+http://dmivilensky.ru
+20/04/2025
+Table of contents
+01 02 03
+Motivation Activation Topology Diffusion
+Why simplicial complexes represent data more higher dimensions based on spontaneous activation of naturally than vectors activation of lower ones groups of features
+04 05 06
+Persistency Encoding Model Perspectives
+Layers no.3&4 Describing Basic configuration, Diverging paths of the topological invariants gradient based learning, theoretical opportunities manifested on given data and possible tasks opened by LSC
+01 Motivation
+What are the assumptions and the basement of neural networks, and are they outdated?
+● Data belong to the finite-dimensional vector space or to a Riemannian manifold embedded in it
+→ no freedom in algebraic structure of date and trivial topologies
+● Embeddings of the data must be separable in some metric space → lack of interpret- and explainability
+● Structure of model must mimic the biological mind → lack of mathematical studies of neural networks
+What do simplicial complexes can suggest?
+Dynamicity and Hierarchy and Fine mathematical independence complexity control object to study
+Data may have arbitrary The resulting embedding is The behaviour of the model
+structure initially, but we defined on a space with depends on the structure of
+provide them with a structure, structure, which one can the complex, not on the
+noting the patterns explain and modify if needed optimization artifacts
+02 Activation
+Topology
+wh To construct (>0)-skeletons inductively
+To join simultaneously activated objects
+(if the edges were activated with similar intensities connect them with a triangle)
+how (We assume that )
+where w is linear on ,
+03 Diffusion
+why
+To eliminate (>0)-skeletons inductively
+To activate the whole group if any
+member has been activated
+how ↪
+Or its persistent version for nested complexes K L.
+Computational complexity is (Mémoli et al., 2012):
+Heat equation:
+Euler’s scheme:
+04 Persistency
+Encoding
+why
+To transform the complex into its representation in R^n based on homology invariants
+how ● Define a filtration on 0-, 1-skeletons based on weights
+(simplex is in subcomplex if its weight w_ij > θ, parameter)
+● For each clique and non-trivial cycle (being not a boundary)
+define ‘bf’ and ‘df’ (birth and death) θ-s for 0-, 1-skeleton, correspondingly
+● Calculate statistics of [‘bf’, ‘df’] and ‘df’-’bf’ for the sets of cliques and cycles and form a vector
+Mode
+Linear mapping
+between 0-skeletons
+Data
+Activation
+& Filtration
+=
+f(weights from boundaries)
+Weights on (n+1)-skeletons
+w₀(t)
+2 0
+1 3
+t → ∞
+₁ 〈 〉
+H ( ) =
+1.9 1.2
+1.9 1.9
+Diffusion Persistent
+Aggregation
+₁ )
+(daed
+= )
+H(p
+∑ )
+(nrob
+- Calculate persistent intervals for all non-trivial representatives of homologies
+0.1
+₀ ∑ p(H )
+0.4
+₁ ∑ p(H ) 0.2
+0.3
+⋮ ∑ p (Hn)
+th
+A
+e
+ff
+n
+in
+s
+e
+o ft
+m
+m
+apping
+L
+ax/argm
+ax
+Linear
+Classifier
+nereowntoeibtsc
+eenrcuunfsa
+satsesoimDL
+Backpropagation
+then Gradient
+Descent
+∂
+L
+∂
+w
+Learning
+06 Perspectives
+Algebraic Dynamics in Structure of Data Hierarchy modelling
+One can treat each data point separately, even assume that each value belongs to its own group
+● Graph-product of groups
+● Coxeter group if ℤ/2ℤ can replace Laplace operator with any other discrete differential operator
+Study of Practical Emerging topologies Applications
+If maximal complex is general enough, the properties of activated subcomplexes will depend strongly on the dataset. Same time, the generalization ability will depend strongly on properties of maximal complex Besides, any hierarchical data may be modelled using the suggested model

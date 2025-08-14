@@ -1,0 +1,63 @@
+First-Shot Unsupervised
+Anomalous Sound Detection for
+Machine Condition Monitoring
+[name] [surname]
+Outline
+• Problem Statement
+• Proposed Methodology
+•
+•
+Problem Statement: The
+Challenge of Unsupervised
+Anomaly Detection
+Attribute-Agnostic Operation
+Learning from Normal Data Only
+Domain Generalization (Source/Target Shift)
+First-Shot Learning Challenge
+Proposed Methodology: A Multi-
+Stage Pipeline
+Audio Stgram-MFN Embeddings Backend Decision
+Preprocessing Model Detection
+• Dual View • CNN + • Vector • GMM + Score • Normal/Ano
+Features & Transformer representation Normalization alous based on
+Augmentations with CLP + SCF s of sound 0.0 Threshold
+Training
+Data Preprocessing & Dual-
+View Features
+Model Training - Part 1: Contrastive
+Pretraining (CLP)
+Model: Stgram-MFN (CNN + Transformer + Gram) -> Local +
+Global Features
+Stage 1
+• CLP (Contrastive Learning Pretraining)
+Input
+• Dual View Features (A and B)
+Goal
+•Pull embeddings A & B (same sound) together;
+Push apart embeddings from different sounds.
+Loss
+• Contrastive Loss (InfoNCE)
+Result
+• Robust, invariant embeddings of
+normality
+Model Training - Part 2: Self-Controlled
+Fine-tuning (SCF)
+•Initialization: Weights from
+CLP
+•Input: Single feature view
+•Goal: Adapt features to THIS
+machine + Increase normal
+cluster compactness
+•Method: Train on machine
+classification task (Loss:
+CrossEntropy)
+•Result: Embeddings specific
+to THIS machine's normal
+operation.
+Anomaly Detection with Backend &
+Normalization
+Experimental Results: Dev vs.
+Evaluation Performance
+Conclusion
+Contacts:
+[email]

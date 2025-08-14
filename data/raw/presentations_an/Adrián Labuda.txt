@@ -1,0 +1,33 @@
+
+
+[name] [surname]  
+[company]  
+
+An algorithm for [name] [surname]'s task was developed using [company]. The process involved several stages, including data collection, model training, and evaluation.  
+
+**Data Collection**  
+Volunteer participants (19 individuals, 10 women and 9 men aged 20–55) and another group (11 individuals, 7 women and 4 men aged 20–55) contributed to the dataset.  
+
+**Model Training**  
+The [company] Hand Landmarker solution was utilized for feature extraction. Neural networks, including [name] ([name]), [name] ([name]), and [name] ([name]), were implemented.  
+
+**Bibliography**  
+1. [company]. "Optimization of Public Health Strategies." [company] Documentation. [company].  
+2. [surname], [name], [surname], [name], [name] [name], [surname], [name], [surname], [name]. "[name] ([name])." [company], 2022.  
+3. [surname], [name], [surname], [name], [surname], [name], [surname], [name], [surname], [name]. "[name] ([name])." [company], 2021.  
+4. [surname], [name], [surname], [name], [surname], [name], [surname], [name], [surname], [name], [surname], [name]. "[name] ([name])." [company], 2022.  
+5. [surname], [name], [surname], [name], [surname], [name], [surname], [name], [surname], [name]. "[name] ([name])." [company], 2021.  
+6. [surname], [name], [surname], [name], [surname], [name], [surname], [name], [surname], [name]. "[name] ([name])." [company], 2021.  
+7. [company]. [company].  
+8. [name] [name]. [company] Documentation. [company].  
+9. [surname], [name]. "[name] ([name])." [company], 2021.  
+10. [surname], [name], [surname], [name]. "[name] ([name])." [company], 2018.  
+11. [surname], [name], [surname], [name], [surname], [name], [surname], [name]. "[name] ([name])." [company], 2020.  
+12. [surname], [name]. "[name] ([name])." [company], 2020.  
+13. [surname], [name], [surname], [name]. "[name] ([name])." [company], 2017.  
+14. [company]. [company].  
+15. [surname], [name]. "[name] ([name])." [company], 2017.  
+16. [surname], [name], [surname], [name], [surname], [name]. "[name] ([name])." [company], 2023.  
+
+---  
+*Anonymized per user instructions.*

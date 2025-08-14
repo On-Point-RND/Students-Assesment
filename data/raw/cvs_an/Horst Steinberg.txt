@@ -1,0 +1,64 @@
+[name] [surname]
+[email]
+Summary
+[compaany] graduaate ’2024 (with Honors). Has 6+ years of programming experience, 4+ years Data Science &
+Research Experience. Experience: [compaany] , [compaany] , RAS. Finished 3 ML research projects. Has 10+ publications. Interested in Earth sciences and applied
+machine learning.
+Work Experience
+[compaany] Nov 2020 - Nov 2024
+– Design, training, and fine-tuning of deep neural network architectures for computaional performa performance
+prediction tasks (TensorFlow). Evaluation and improvement of regression/ranking metrics.
+– Development and implementation of optimization methods (Evolution Strategy, Genetic Algorithms)
+within a library for solving systems of linear algebraic equations (C++). Continuous code maintenance,
+code review. Active GitLab project.
+– Summarizing large volumes of computaional results, writing papers (including Q1), and participating
+in conferences. Working with multiple supercomputeers.
+– Development of a Python framework for interacting with a C++ library (Python/C++ API).
+[compaany] , RAS Feb 2021 - present
+– Design, training, and optimization of hybrid DL models (CNN, autoencoders) for processing numerical
+simulation results (PyTorch, COMSOL).
+– Working with numerical simulation data (finite-element modeling) of volcanic surface displacements
+caused by magma intrusion. Correlation with satellite interferometry (InSAR) data and analytical
+models. Solving inverse problem to locate the displacement source.
+– Analysis of anomalies in time series of physical parameters before strong earthqquakes.
+– Developed Python libraries for calculating seismicity parameters. Developed Python modules for data
+visualization from geomechanical experiments. Code review.
+– Conducting scientific research, publishing papers, participating in conferences, and contributing to
+grant funded by the Russian Science Foundation (RSF). Registration of software for computers with
+Rospatent
+Education
+2024 - present PhD - in process (Geophysics) at [university], Physical Faculty
+2018 - 2024 Bachelor’s and Master’s Degree at [university], Physical Faculty
+Publications
+[name], [surname] and [surname] (Feb. 2023). “Tuning Soft Mutations of the Evolution Al-
+gorithm for Optimizing the Linear Solver Parameters”. In: Lobachevskii Journal of Mathematics 44.8,
+pp. 3148–3159. url: http://dx.doi.org/10.1134/S1995080223080450.
+[name], [surname] and [surname] (Oct. 2023). “Automated tuning for the parameters of linear
+solvers”. In: Journal of Computational Physics 494.112533. url: http://dx.doi.org/10.1016/j.
+jcp.2023.112533.
+[name] A. [surname], [name] V., [name] V. and [name] S. (Nov. 2024). “Features of Seismicity Anomalies
+before Strong Earthquakes in [location]”. In: Izvestiya, Physics of the Solid Earth 60.5, pp. 857–869.
+url: http://dx.doi.org/10.1134/S1069351324700782.
+For more publications, click here.
+Skills
+Soft Skills Abiility to handle routin routine processes, self-organization, analytical mindset, communication
+skills and ability to articulate ideas effecti effectively, working under tight deadlines
+Hard Skills Specialized knowl edge in geophysics. Programming experience: Python, C++. Machine
+learning experti se: Classical ML models and algo rithm s, Deep Learning. Frameworks -
+TensorFlow, PyTorch. Familiarity with Linux systems, writing Bash scripts. Git, Docker.
+Honors & Awards
+• Winner of the Rector’s Scholarship compe tition at [university] (2024)
+• Laur eat of the BASIS Founda tion Scholarships (2022, 2023, 2024)
+• Diploma for the Best Scientific Report (Young Scienti sts) at the Interna tional Confe rence ”Russian
+Supercomputing Days 2021”
+Continuing education
+• Introduction to Graph Neural Ne tworks, Skoltech (2023)
+• Matrix Methods and Modeling in Life and Earth Sciences 2.0, NTU Sirius (2023)
+• Introduction to Deep Learning, Lomonosov Moscow State Uni versity (2022)
+• NeuralNe tworksandThei rApplicationsinScienti ficResearch, LomonosovMoscowStateUni versity
+(2024 - 2025)
+Teaching experience
+• Russian National Research Medical Uni versity - course “Analysis of biomedical images”(2025)
+- Prepared and delivered lectures on neural ne tworks applied to biomedical data analysis.
+- Mentored 10 students in their projects.
+Last updated: April 19, 2025

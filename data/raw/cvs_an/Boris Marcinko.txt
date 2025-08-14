@@ -1,0 +1,34 @@
+[name] [surname]
+[email] [compaany] Education
+2021 – 2025, [location], Bachelor's in Computer Science, Data Science track
++2 *** *** ***
+https://github.com/[name]
+
+Work Experience Additional Education
+February 2024 – Present: Python Deveveloper at [compaany]
+2025: Studcamp on Generative AI & Robotics, [compaany]
+2024: Studcamp on Software Engineering & Information Security, [compaany]
+2023: Advanced Python, [compaany]
+2020 – 2021: [compaany], [location]
+
+Personal Achievements
+December 2024: [compaany] finalist, [location]
+October 2023 – January 2024: Junior Python «Analytics» track at [compaany]
+October 2024: 3rd place in NLP hackathon hosted by «Ostrovok» hotel aggregator
+August 2024: 6th place in CodeRun competition «Analytics» track hosted by [compaany]
+May 2024: prize-winner at «I Am a Professional» contest, Software Engineering track
+December 2021 – March 2022: Organizer of the National Technology Olympiad for school students. Developed tasks on backend development and blockchain. Implemented an automated testing system. Served as a jury member: reviewed participants' solutions and made decisions on awarding points.
+April 2024: finalist of National Technical Olympiad, Computer Vision track
+May 2023: 2nd place at «I Am a Professional» contest, Software Engineering track
+April 2023: 1st place at National Technical Olympiad, Geospatial Digital Twins track
+April 2023: 1st place at «Trajectory of the Future» international olympiad, Fullsstack Development track
+
+Recent Projects Thesis Topic
+October 2024 - Hotel Room Description Tagger In my thesis titled «Deep-Learning Based Framework for High Resolution Mosaic Generation and Efficient Image Compression of Satellite Data,» I aim to generate high-quality, high-resolution mosaics from publicly available medium-resolution images with a high update frequency, while striving to minimize the volume of stored data. The results of my work will be applicable both in their original form (since high-resolution mosaics are inherently valuable) and as input data for other tasks, such as segmentation.
+April 2024 – Nested NER Study Project
+I have compared two approaches: zero-shot NER using GliNER vs training span categorizer using SpaCy library. As we submitted our works in a competition, I took the 3rd place among all the students.
+Research Interests
+April 2024 - App for Tourist Route Planning
+Other than geospatial & remote sensing data analysis, I am interested in expanding my expertise across disciplines, particularly in the intersection of AI and neuroscience. I want to explore how AI can be used to study and understand the workings of the human brain, gaining knowledge in neurobiology and cognitive science along the way.
+July 2023 - Compound Scanner
+As a part of a team, I build a mobile app to read chemical structural formulas from photos & convert them to common text notations. Since I was primarily responsible for AI part, I experimented with different model architectures, including LSTM & Transformer. I tried training them from scratch, fine-tuning pre-trained ones, converting them in different formats to run on edge devices. I started with using PyTorch, but switched to TensorFlow due to issues with inference on mobile phones.

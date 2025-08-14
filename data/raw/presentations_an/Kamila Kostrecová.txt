@@ -1,0 +1,39 @@
+Mobile Robotic Platform Using Automatic Navigation Systems
+[name]
+Laboratory Assistant, Robotics Laboratory
+of the [location] [university]
+Introduction
+• A mobile robotic platform using automatic navigation systems is a mobile robot needed to
+transport something, such as a load or a robotic arm, which can move both with the help of
+an operator and a remote control, and autonomously.
+• This is important because human labor to carry something is not always reasonable, and
+sometimes too difficult and expensive. A mobile robotic platform allows you to simplify the
+transportation of goods or make any other device mobile.
+• Goal of the review is to show that such a simple device is actually in demand.
+Problem statement
+• Increase the capacity of industrial and hobby robotic arms to operate without adding a conveyor
+• Challenges:
+1. To make the most convenient platform for operators to use
+2. Make autonomous movement possible
+3. High load capacity
+Methods
+• Approach: Classical Teaching with a Teacher
+• We have chosen this method because it has the following advantages:
+1. Prognostic ability. Supervised learning models use data where the correct answers are
+already known to make accurate predictions and identify patterns.
+2. Understandability and interpretability of the results. Some algorithms allow you to
+understand why the model makes a particular prediction. This is important in areas such as medicine
+and finance, where decisions must be transparent and explainable.
+3. Versatility of application. Supervised algorithms are used in a wide range of fields, from
+medicine and finance to entertainment and marketing. Almost anywhere there is data and the need to
+predict, classify, or identify patterns, supervised learning is successful.
+4. Ease of quality assessment. Since the correct answers are already known, you can easily
+assess the accuracy of the model and quickly improve it.
+• How it works (simply): The model looks for patterns between the readings of navigation sensors
+and the choice of type and trajectory of movement. Once trained, the model can predict
+movement types and trajectory based on sensor readings using these patterns.
+Results
+• Key findings: The project is still at the development and testing stage, but there are already the first
+results. The main driving elements are soldered and connected, the web interface for working with the
+camera and controlling the robot is also already yielding results, the work with the sensors is still at the
+calibration stage.

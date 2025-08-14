@@ -1,0 +1,50 @@
+Education
+2003-2007: Computer Engineering Secondary Professional Education (with Honors)
+● Specialization: Networks, Complexes, Systems, and Machine Computing
+● Institution: [compaany]
+Highlights of the curriculum:
+● Systems of Microprocessors and Microprocessors
+● Design, Operation, and Maintenance of Computer Systems
+● Programming Languages and Practice (C++)
+● Basics of Circuit Design and Electronics
+● Applied Statistics and Mathematics
+● Diploma Project: worked on an engineering systems-relatated technical topic
+Hands-on Training:
+● Gain experience in system testing, debugging, and software development (C++)
+● In senior year, practice with microprocessor-based systems and computer hardware for three weeks each
+● Technical and Scientific Translation from English (documentation pertinent to the issue)
+Extra Qualification:
+● Scientific and technical literature translator in English (744 hours of training)
+2014-2016: [location]
+● Studied solid state physics for two complete years at the PhysTech Faculty
+● Changed to the PhysMech Faculty, Biophysics
+Courses That Are Rellevant:
+● Advanced Mathematics (Differential Equations, Linear Algebra, Calculus)
+● Physics of Statistics
+● Biophysics and Biomechanics
+● Electrodynamics and theoretic mechanics
+● Took part in lab sessions that included applied analysis and experiments linked to physics
+ML/DL Proficiency
+● Competent in C# (Unity development) and advanced Python
+Tools and Frameworks:
+● TensorFlow
+● PyTorch
+● Scikit-learn
+● Developed and put into use neural networks for teaching purposes in small-scale educational initiatives
+(data analysis, basic computer vision)
+● Expertise in developing ML projects for research and education that clearly communicate AI ideas (e.g.,
+fundamental natural language processing, picture classification, or AI in gaming)
+Experience in Education and Employment
+● More than ten years of teaching experience, from 2007 to the present
+● English and writing were first taught for scientific purposes
+● Expanded to include teaching Python and Unity programming and machine learning topics
+● Created high schooal introductory classes on data science and neural networks using ML libraries for visual
+demonstrations
+Proofreader and Translator for Science:
+● Proofread and translated books on subjects like IT, physics, and molecular biology
+● Advanced to the position of proofreader at a translation business that specializes in technical and
+scientific documents
+Accomplishments and Works Published
+● Received a diploma from [compaany] with honors
+● Edit scholarly papers that have been published in peer-reviewed journals
+● Regularly acknowledged for contributions to Python and AI education

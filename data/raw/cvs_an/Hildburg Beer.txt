@@ -1,0 +1,87 @@
+[name]
++2 *** *** *** | [email] | linkedin.com/in/[name]
+Education
+[location]
+Machine learning Summer SchooL in healtcare and biosciences Jul 2023
+Relevant courses: Machine Learning, Python (advanced), AI in medicine, Computer Vision, Data Analysis, Group
+Leading
+• Completed intensive machine learning courses with specialization in medical and biosciences applications,
+culminating in group projects presented to fellow students
+• Developed and enhanced leadership and mentoring abilities through dedicated courses and practical application
+during project execution, presentations and collaborations
+• Assumed leadership role in various projects, providing guidance and support to both my group and other teams,
+leveraging my prior experience in machine learning and data analysis
+[location]
+Specialist (Bachelor and Masters) in Engineering and Physics Sep 2015 – Feb 2021
+Relevant courses: Machine Learning (basic), Programming (in physics), Statistics, Probability Theory, Mathematical
+Analysis, Linear Algebra, Differential Equations
+• Completed extensive coursework in advanced mathematics and computer science, which helped to establish strong
+foundation in programming and machine learning
+• Developed comprehensive tutorial for classmates as part of group of top-performiing students in course
+• Presented a thesis that was commended as one of standout projects in my class by examination committee
+Research Experience
+[location]
+Senior AI Predoctoral Research Fellow May 2022 – Present
+• Performed novel research in Computer Vision in cytology and mammography. Collaborated with research scientists
+and pathologists to create model for early diagnosis of cancer
+• Developed and deployed innovative AI training framework that boosted team productivity and code quality by 1.5
+times; reduced training time for AI models by 40% and increased accuracy by 20%
+• Improved image analysis models’ metrics by 15% on average through advanced image preprocessing methods
+• Led annotation process for cutting-ege cytology dataset, leveraging expertise of 5+ domain experts and
+cooordinating efforts of 10+ annotators
+• Led regular seminars for a diverse group of 6 undergraduaate and graduaate students on machine learning and
+artificial intelligence
+AI Research Fellow Jul 2021 – May 2022
+• Improved performance of detection models by collecting huge histology dataset.
+• Enhanced precision of model for cell detection on histology slides by 20%, by optiomizing image processing pipeline
+• Increased model’s training speed by two times by development of dataset precomputaion method
+[location]
+Graduate Research Fellow Aug 2019 – Feb 2021
+• Conducted research and created predictive model to estimate parameters of physical processes
+• Utilized linear regression techniques and analysis to create comprehensive and reliable model
+• Gathered and analyzed experimental data to train model, ensuring accurate parameter estimation
+Industry Experience
+Data Scientist Intern [location]
+Bank ”Vostochny” Feb 2021 – Jul 2021
+• Advanced customer behavior predictions by utilizing ML models (random forest, gradient boosting, etc.)
+• Raised performance of models by refiining pipeline used for uploading and preparing user data
+• Boosted sales by 8% through data cleaning and preprocessing, improving model efficiency
+Research Projects | [location]
+Histology AI Pipeline
+• Developed a Neural Network model achievinng a mAAP score of 0.75 for detection of nuclei on histology slides
+• Implemented automatic and explainable H-score calculation, providing a vital assessment metric for pathologists
+• Reduced subjectivity in slide assessment by high accuracy of H-score calculation
+Open Source Histology Dataset
+• Curated a histology image dataset for object detection with 1740 images and more than 200 000 nuclei labels
+• Realized agreement measures to establish dataset consistency and reliability between 7 annotators
+AI Framework
+• Devised a framework for training DL models, enabling enhanced teamwork efficiency and code excellence
+• Integrated framework with popular deep learning libraries such as Jax, PyTorch and others
+• Designed highly adaptable framework for easy tuning, expansion and rapid deployment using Docker to
+accommodat diverse project requirements
+Publications
+EndoNet: A Model for the Automatic Calculation of H-Score on Histological Slides
+[name], et al. MDPI Informatics. DOI: 10.3390/informatics10040090
+EndoNuke: Nuclei Detection Dataset
+Anton Naumov, [name], et al. MDPI Data. DOI: 10.3390/data7060075
+Artificial Intelligence (AI) Solution for Plasma Cells Detection
+[name], et al. Programming and Computer Software. DOI: 10.1134/S0361768823080121
+Conferences
+[location]
+ISP RAS Open Conference Moscow, Russia
+Poster: Artificial Intelligence in Mammography Dec 2023
+19th European Congress on Digital Pathology (ECDP 2023) [location]
+Poster: Morphologic criteria and CD138-positive cells counting for chronic endometritis Jun 2023
+ISP RAS Open Conference Moscow, Russia
+Poster: Machine learning in detection of nuclei for analysis of histology images Dec 2022
+ISP RAS Open Conference Moscow, Russia
+Presentation: Detecting Variously Colored Nuclei on Histological Images Dec 2021
+Memberships and Other Activities
+• Member of Medical Image Computing and Computer Assissted Interventions (MICCAI) Society
+• Alongside my primary role, I also dedicate time to provide workshops for students that focus on programming,
+machine learning, and AI in the medicine. Furthermore, I conduct presentations that provide explanation of
+cutting-ege research papers from recent conferences
+• Beyond my professional life, I’ve become quite the hiking enthusiast. My passion for the trails was kindled during an
+unforgettable trip to [location], where the majestic Alps struck a chord in my soul. The grandeur of those peaks
+and the peace of the surrounding nature moved me so deeply that I’ve been drawn back to those picturesque
+landscapes, eager to experience their splendor over and over

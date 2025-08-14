@@ -1,0 +1,77 @@
+[name] [surname]
+Date of birth: 31/05/1993 Gender: Female Phone number: +2 *** *** ***
+Email address: [email]
+Website: https://github.com/[name]/portfolio
+ABOUT ME
+I am a Data Analyst with more than 10 years of experience in the film and television industry. Currrentlly, I am
+pursuing a Master's degree in Statistics in Data Science at a leading universiity in [location], which is equipping me with
+the cutting-edge skills necessary to transition fully into the field of Data Science.
+Technical stack:
+•Python: NumPy, Pandas, Matplotlib, Seaborn
+•Machine Learning: Scikit‑Learn (classification, regression, clustering), XGBoost
+•Deep Learning: TensorFlow/Keras
+•R: tidyverse, caret, rcpp, ggplot2
+•Databases: PostgreSQL
+WORK EXPERIENCE
+Senior Data Analyst
+[compaany] [ 05/2021 – 11/2024 ]
+City: [location] | Country: [location]
+•Increased basic audience metrics of a key TV channel by 50% through detailed analysis and strategic overhaul
+of its content strategy, significantly boosting viewer engagement;
+•Developed and optimized data processing pipelines by aggregating raw data from 15 pay-TV channels,
+ensuring precise performa performance tracking and generating actionable insights;
+•Utilized website parsing techniques to extract and analyze targeted data from key market segments, delivering
+actionable insights that informed the compaany’s decision on entering new market opportunities;
+•Conducted thorough investigations into emerging media markets, identifying opportunities for launching new
+TV channels or OTT platforms, thus expanding the compaany’s market presence.
+Data Analyst
+[compaany] [ 05/2018 – 05/2021 ]
+City: [location] | Country: [location]
+•Directed and enhanced data analysis processes for a portfolio of 3 pay-TV channels, ensuring precise
+performa performance measurement and strategic insights;
+•Managed ad barter transactions to promote [compaany] movies, successfully negotiating and securing
+promotional opportunities across the TV channels of the portfolio;
+•Developed compelling seller decks for [compaany] TV shows by analyzing audience data to tailor
+presentaations for potential buyers, optimizing engagement and sales opportunities.
+Data Analyst
+TV Channel "[location] 1" [ 10/2013 – 05/2018 ]
+City: [location] | Country: [location]
+•Analyzed daily performa performance metrics for the TV channel and its competitors, providing insights to enhance
+competitive positioning and strategic decision-making;
+•CoMPILED and presented detailed audience analysis reports for weekly team meetings, facilitating data-driven
+discussions and strategic plaNNING.
+EDUCATION AND TRAINING
+MSc in Statistics for Data Science
+[universidad] [ 09/2024 – Current ]
+City: [location] | Country: [location] | Thesis: Evaluation of the impaact on the quality of life of people with intellectual
+disabilities of the intervention model of the Asprona Albacete training service.
+[universidad] is one of [location]’s leading universities and is ranked 125th in Europe in the QS Europe Universiity Rankings 2024.
+The master's program provides intensive training in the statistical methods that underpin modern data science.
+Coursework includes: Linear Algebra, Probability and Statistics, Optimization and Decision Analytics, Stochastic
+Processes, Nonparametric Statistics, Bayesian Inference, Time Series Analysis, Programming.
+Data ScientiSt: from Zero to Middle
+[compaany] [ 03/2023 – Current ]
+City: [location] | Country: [location]
+[compaany], LLC is one of [location]’s leading online education providers, operating under a state license that ensures full
+compliance with federal regulations and mandatory educational standards. The “Data ScientiSt: From Zero to Middle”
+program spans 20 months and comprises 778 instructional hours. Upon completion, graduaates receive a
+government‑accredited diploma of vocational retraining. The curriculum includes: Mathematics, Statistics, SQL,
+Programming in Python, Deep Learning (Neural Networks, Computer Vision, Natural Language Processing).
+BA in Political Science (concentration in Political Research)
+National Research University Higher SchooL of Economics [ 09/2010 – 07/2014 ]
+City: [location] | Country: [location] | Thesis: Quantitative Assessment of Governmental Effectiveness in the Russian
+Regions in the 2000s
+[universidad] is one of [location]’s leading universities, with its Faculty of Social Sciences & Management ranked 68th in the QS
+World Universiity Rankings 2023. The B.A. in Political Research – a quantitative track modeled on U.S. Political Science
+programs – covered Algebra & Analysis, Probability Theory & Mathematical Statistics, Econometrics, Game Theory,
+and Data Analysis using STATA and SPSS.
+CONFERENCES AND SEMINARS
+[ 05/02/2025 ] [location], [location]
+Advancing Explainable AI through Mathematical Optimization
+Workshop organized by the Department of Statistics of [universidad]
+[ 17/10/2024 – 18/10/2024 ] [location], [location]
+AI Horizons 2024
+Workshop "Navigating the Challenges of Artificial Intelligence"
+SKILLS
+Languages
+Russian (Native) / English (TOEFL C1) / Spanish (DELE B2)

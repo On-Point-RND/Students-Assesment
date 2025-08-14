@@ -1,0 +1,16 @@
+My main research interests are speech technology and natural language processing.
+I am most interested in multilingual research in the field of natural language
+processing and computational linguistics. Currently I'm pursuing a master's degree
+and working on project related to multilingual model, and in the nearest future I plan
+to focus on understanding and processing low-resource languages. Training language models that can support hundreds of languages, including rare and
+sometimes even endangered ones, seems to me as not only a very interesting but also
+very worthwhile and important task. After completing my master's degree, I plan to
+continue my research in graduate school.
+I really want to participate in the Smiles school to meet researchers and students
+from different countries. I only started working on machine learning last year, so I
+would love to talk to specialists and learn from them about the diverse areas of
+research in this field that they work on. I am also very impressed with the list of
+speakers I saw on the website, and I would be beyond happy to attend lectures and
+classes led by such specialists from various major research centers.
+[name] [surname]
+[compaany]

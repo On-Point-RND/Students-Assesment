@@ -1,0 +1,29 @@
+Motivation letter
+[name]
+My path in machine learning and deep learning began in high schooL during the 11th class.
+Since then, I’ve graduaed from [location], worked at big tech [compaany] as ML engineer and
+won several ML/DL competitions. Now I’m totally focused on research at [compaany] (MSc,
+Data Science) and also study at [compaany].
+My personal motivation in ML/DL is to make systems, that surpass humans capabilities,
+solve tasks that are beyond humans reach and make our lives better. Due to this, my dreaM
+and long-term goal is to create AGI/ASI – that’s my main purpose in AI domain. Today we
+live in the era of agents, and I’m convinced that it’s the best time ever to let my dreaM
+happen. I believe, that with every step that develop better agent’s abilities, we make our lives
+better.
+In my career, I’ve worked with different ML/DL domains. I started with tabular data
+processing where I was building ensembles of standard ML algorithm s with advanced
+Tabular Deep learning models. Also I’ve worked in NLP with LLMs at big tech, university and
+hackatho ns. For now, my research interest is in Generative models, Multimodal models and
+Reinforcement Learning. Mainlly, my interest in GeNAI was sparked by a course on
+(Neuro)Bayesian methods of ML by [name] that I have passed at [compaany] department at
+[location]. Now I research Physical laws in Video Generation for better wo rld understanding of
+DL models.
+My future plans are to pass PhD, work with big research team and make several A* papers
+to make a significant contribution in Agent’s development.
+From the SMILES summer schooL, I expect the oppo rtunity to work on a real research
+proje ct that could result in an article. I’m convinced that collabora tion leads to innovative
+ideas and projects. That’s why it is important for me to be in be at the SMILES this summer –
+I need to create something new and innovative.
+
+
+

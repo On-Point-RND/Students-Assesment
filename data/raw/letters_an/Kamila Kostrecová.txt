@@ -1,0 +1,24 @@
+[name] [surname]
+[location], [location]
+[email]
++2 *** *** ***
+Motivation letter for SMILES-2025
+Dear Organizers,
+I am writing to express my enthusiasm for the SMILES-2025 program at [company]. As a dedicated and passionate individual with a background in robotics
+technologies, I am excited about the opportunity to contribute to this program and gain new
+knowledge.
+While I have limited experience in this field, I have participated in team projects in the robotics
+laboratory at the [company]. However, I would be delighted
+to engage in your project. I believe that even without extensive experience, a person can
+contribute meaningfully to a field they are genuinely passionate about.
+I am particularly drawn to the opportunity to communicate with students and professionals
+from [location], as I believe that Chinese robotics technologies are very advanced. I am confident
+that my goals align closely with those of the SMILES-2025 program, and I am eager to
+contribute to such meaningful work.
+Thank you for considering my application. I look forward to the opportunity to participate in
+SMILES-2025.
+Sincerely,
+[name] [surname]
+
+
+

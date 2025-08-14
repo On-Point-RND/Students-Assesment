@@ -1,0 +1,120 @@
+
+
+SMILESS-2025  
+ForecastingF10.7IndexUsingtheVariationalMode  
+DecompositionAlgorithmandtheDeep-Learning  
+Time-seriesDenseEncoderModel  
+[name]  
+Introduction  
+Introduction  
+Accurateforecastingofupperatmosphericconditionscanimprovetheefficiencyofsatellite  
+operationsandreducetherisksassociatedwiththere-entryoflargedebrisobjects.Space-  
+craftsareaffectedbyatmosphericdragwhichisstronglycorrelatedwithsolaractivity.Oneof  
+themostimportantindicesofsolaractivityistheF index.  
+10.7  
+TheF indexisameasurementoftheradiofluxemittedbytheSunatawavelengthof10.7  
+10.7  
+cmandafrequencyof2800MHz.Ithasadailymeasuredlong-termdataseries,whichisex-  
+pressedinsolarfluxunits(1sfu=10−22Wm−2Hz−1).  
+3  
+Introduction  
+Thisstudypresentsadeeplearningmodelasacombinationofthevariationalmodedecom-  
+positionalgorithmandtheTime-seriesDenseEncoderneuralnetwork.Themodelistrained  
+toforecastindividualcomponentsofdecomposeddatagivenfutureandpastcovariatesto  
+improveunderstandingoftrendandseasonality.  
+Comparisonwithothermodelsdemonstratesanimprovementinforecastingaccuracyupto  
+twofoldforF index.Thedailyforecastingservicewasimplementedonlinewithpredicting  
+10.7  
+horizonsof7and27dayshttps://forecasting.[company].[location].ru/.  
+4  
+Data and Methods  
+Data  
+300  
+200  
+100  
+1960 1970 1980 1990 2000 2010 2020  
+6  
+)ufs(  
+7.01F  
+Train Val Test  
+Figure1:SplittingtheF timeseriesintotraining(blue)validation(orange),andtesting  
+10.7  
+(green)datasets  
+DataProcessing  
+[name]etel,2024showedthatonecansignificantlyimprovetheforecastaccuracyoftheF  
+10.7  
+indexbyusingdecomposedtimeseriesinsteadoftheoriginalones.VariationalModedecomposition(VMD)isusedtosplitleadingsignalintoseveralintrinsicmodefunctions(IMFs).  
+5  
+Theprocessinvolvesoptimizingthemodelparameterstomaximizethenonlinearandnon-  
+stationarycharacteristicsofthesignal.TheIMFswithsimilarcharacteristicsaregroupedto-  
+getherforfurtheranalysis.  
+6  
+Inthecontextofthisstudy,theVMDalgorithmisemployedtopreprocessthesolaremission  
+data,therebyenhancingthemodel’sabilitytopredictfuturevalueswithgreaterprecision.  
+7  
+ModelArchitecture  
+TheTime-seriesDenseEncoder(TiDE)modelisutilizedforforecastingtasks.TiDEiscomposed  
+ofanencoder-decoderstructure,withtheencoderresponsibleforlearningtemporaldependen-  
+ciesthroughmultiplelayersofdenseconnections.Thedecoderthenreconstructsthetimeseries  
+basedonthelearnedrepresentations.  
+8  
+TheintegrationofVMDandTiDEallowsfortheextractionofunderlyingpatternsfromthe  
+decomposedsignalcomponents,whicharethensynthesizedtoproduceafinalforecast.  
+9  
+TrainingProcedure  
+Thetrainingprocessinvolvesiterativelyadjustingthemodelparametersusinggradientde-  
+scentoptimizationalgorithms.Theobjectivefunctionminimizesthepredictionerroracross  
+variousleadtimes,ensuringrobustnessagainstnoisydatainputs.  
+10  
+ResultsandDiscussion  
+11  
+Theproposedmodeldemonstratesstate-of-the-artperformanceacrossmultipleevaluation  
+metrics,includingRMSEandMAPE,comparedtoexistingbenchmarkmodels.  
+12  
+ComparisonwithTemporalConvolutionalNetwork  
+Horizon TCN VMD-TiDE-12  
+(days) MAE(sfu) RMSE(sfu) MAE(sfu) RMSE(sfu)  
+1dahead 3.03 5.10 0.43 0.67  
+2dahead 2.78 5.49 0.72 1.08  
+3dahead 3.23 5.52 1.09 1.61  
+Table2:Averageforecastingerrorsfor1-,2-,and3-dayforecastsoftheTCN,andVMD-TiDE-12  
+modelsduring24thSolarCycle.Thebestperformingvaluesineachmetricarehighlightedin  
+bold.  
+13  
+ComparisonwithInformerModel  
+Model RMSE(sfu) MAPE(%)  
+BGS 7.06 5.60  
+Informer 6.28 4.54  
+VMD-TIDE-4 3.68 2.67  
+VMD-TIDE-12 2.79 2.15  
+Table3:Averageforecastingerrorsfor27-dayforecastoftheBGS,Informer,VMD-TiDE-4and  
+VMD-TiDE-12modelsduring2017-2021.Thebestperformingvaluesineachmetricarehigh-  
+lightedinbold  
+14  
+ComparisonwithCLSmodel  
+Model RMSE(sfu) MAPE(%)  
+CLS 10.70 7.70  
+VMD-TIDE-4 7.41 4.42  
+VMD-TIDE-12 4.66 2.89  
+Table4:Averageforecastingerrorsfor27-dayforecastoftheCLS,VMD-TiDE-4andVMD-TiDE-  
+12modelsduring2008-2021.[company],asubsidiaryofthe[location]SpaceAgency([company]),providesF indexforecastsusingamodelbasedonneuralnetworks  
+10.7  
+15  
+Conclusion  
+Conclusion  
+• Thisstudypresentsacombinationofthevariationalmodedecompositionalgorithm  
+(VMD)andadeeplearning-basedTime-seriesDenseEncodermodel(TiDE)forthe  
+predictionoftheF index.  
+10.7  
+• ThismodelcomprisesasetofTiDEmodelsthathavebeentrainedtopredictthe  
+individualcomponentsofthedecomposedoriginalsignal.Themodeloutputisthesum  
+ofthepredictedcomponents.  
+• ThisstudycomparestheperformanceoftheVMD-TiDEmodelwiththatofTheLong  
+short-termmemorymodelwithvariationalmodedecompositionalgorithm,Temporal  
+ConvolutionalNetworkandInformermodels.TheVMD-TiDEmodeldemonstrateshigher  
+forecastaccuracy,outperformingothermodelsbyuptotwotimesfor7-dayand27-day  
+forecasts.  
+• Aregulardailyforecasthasbeendevelopedforthe7-dayand27-dayperiods,andis  
+availableonlineonthewebsitehttps://forecasting.[company].[location].ru.  
+16  
+Thank you for your attention

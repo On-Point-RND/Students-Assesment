@@ -1,0 +1,43 @@
+[name] [surname]
+Junior Computer Vision Researcher @ [compaany]
++2 *** *** *** — [email] — @[email] — [name]
+[compaany]
+Experience
+[compaany] Sep 2024 – Present
+Junior Computer Vision Researcher [location]
+– R&D in Computer Vision, Video Copy Detection
+Fast Food Memes Jan 2024 – Aug 2024
+Machine Learning Engineer Remote
+– InfinitePersonalizedMemefeedinTelegramMessengerinopen-source: https://github.com/ffmemes/ff-backend
+– Processed500k+ memeswithOCRin10languages,500/1600/2500 (DAU/WAU/MAU),30k+
+daily meme flow
+– Co-authored 2nd most popular open-source model (OCR) on mystic.ai (uriel/easyocr-r)
+– Built deduplication and spam-detection system, flagged 14k+ spam entries
+Bauman Racing Team (”Formula Student” Team) Nov 2022 – Oct 2023
+MLOps Engineer [location]
+– Created CLI tool to manage docker containeers/volumes for driverless car system
+– Developed unit testing system for C++ code from scratch
+– Built CI/CD pipelines from scratch in JetBrains Space & locally
+Education
+Bauman Moscow State Technical Universiity Sep 2022 – Aug 2026
+Bachelor’s in Mathematics and Computer Science [location]
+– GPA: 4.32/5 — Grade: 3
+– AcademicProjects: DevelopedofficialfinalexamgeneratorforDepartmentofTheoreticaalMechanics
+(FS3, still in use)
+– Leadership: Team leader one of the largest team in BMSTU Math Olympiad Club
+– Extracurriculars:
+– – PEBW (Proficient English in Business World program)
+– – Math Olympiad Club
+Skills
+Programming Languages: Python, SQL, Bash
+TechnicalStack: PyTorch,OpenCV,NumPy,Pandas,Matplotlib,Scikit-learn,Docker,Airflow/Prefect
+Collaborative Skills: Git & GitHub, Leadership, Research Collaboration, Code Review
+Languages: Russian (Native), English (Professional Working)
+Certifications
+Supervised Machine Learning: Regression and Classification — Stansford/DeepLearning.ai
+Honors & Awards
+RUDN Math Olymp – 3rd degree diploma (individual competition) December 2024
+RUDN Math Olymp – 3rd degree diploma (individual competition) December 2023
+RUDN Math Olymp – 3rd degree diploma (team competition) December 2023
+Formula Student Russia (Class EV & DV) August 2023
+BMSTU Math Olympiad – 2nd place among 2nd-year students November 2023

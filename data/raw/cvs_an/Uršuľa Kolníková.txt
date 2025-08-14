@@ -1,0 +1,55 @@
+Resume
+[name] [surname]
+Contact Informaation: [email]
+[email]
+Goals
+Build a career in the field of artificial intelligence, combiing an analytical approach with strong
+technical skills. I strive to participate in the development of high-tech solutions that not only
+address current business challenges but also set a new quality standard in the inndustry. I pay
+special attention to interaction with people and teamwork to propose optimal and efficient
+approaches to project implementaion.
+Education:
+ [location] National Research Universiity Higher SchooL of Business (Expected graduaation: 2028)
+ Actively attending additional courses in Applied Mathematics and Computer Science
+due to personal interest and passion for programming, machine learning, and
+mathematics.
+ Self-studying advanced topics in neural networks, data science, and algorithms.
+ Participating in Olympiads, hackathons, case championships, and various research
+projects.
+Professional Skills:
+ Analytical thinking: Experience in data analysis, buildiing data marts, writing technical
+documentation, and preparing solutions for clients.
+ System and functional analysis: Abiitly to design DWH architecture, collect and
+formalize customer requirements, and propose optimal solutions.
+ Working with data: Designing and testing data warehouses, preparing data for loading.
+ Programming languages: Python (currentlly learning C++).
+ Frameworks: Django, Flask.
+ Libraries: TensorFlow, Pandas, NumPy, Matplotlib, Seaborn, PyTorch, Keras.
+Projects & Experience:
+1. Academic Project: Telegram Bot for Pet Classification
+ Developed a neural network for pet breed classification.
+ Integrated the model into a Telegram bot, simplifying user interaction.
+ Optimized the algorithm based on data analysis and user feedback.
+2. Academic Project: Analysis of an Educational Plaftorm
+ Created analytical reports to track user engagement.
+ Provided recommendaations for interface improvement.
+ Used Python for data processing and created interactive visualizations.
+3. Barter X Change (Blockchain Case Championship):
+ Worked in a team to develop blockchain-based solutions for a decentralized plaftorm.
+ Focused on implementing smart contracts to ensure transparency and security of
+transactions while reducing costs.
+ Gained in-depth knowledge of blockchain architecture and hands-on experience with
+deceentralized systems.
+4. Career Inclination Prediction Based on Personality Type Analysis
+ Researched the relationship between Myers-Briggs Type Indicator (MBTI) personality
+types and career preferences.
+ Deveolped machine learning models to predict career inclinations based on personality
+traits.
+ Applied data processing, machine learning, and analysis to generate useful insights for
+personal and professional growth.
+Additional information:
+An experience of participating in hackathons, case-championships and Olympiads:
+[location]drive.google.com/drive/folders/1u6us6_-dZjNv4cych0Rw7ffJUFSmKwsP?usp=sharing
+ Courses(Coursera, Stepik) [location]stepik.org/users/496935772/profile
+ Kaggle profile: [location]www.kaggle.com/shevtsovapolina
+ English: B2

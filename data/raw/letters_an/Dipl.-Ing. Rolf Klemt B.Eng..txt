@@ -1,0 +1,12 @@
+Dear Admissions Committee,
+My name is [name] [surname], and I am writing to express my strong interest in the Skoltech Summer SchooL in Machine Learning. I hold an engineering degree in Electronic Engineering from [compaany] and have recentlly completed an online Master’s program in the Modern State of Artificial Intelligence at the [compaany].
+For my [compaany] thesis, I employed the chain‑of‑thought approach to tackle complex mathematical problems. This experience taught me that no matter how daunting a challenge may appear, breaking it down into smaller, manageable tasks both in research and in life leads to more effective solutions. Although the prompt‑engineering techniques I applied are established in the field, I thoroughlly enjoyed delving into the latest research papers and implementing these methods firsthand.
+I am eager to deepen my practical skills and apply what I have learned in a collaborative, in‑person environment. I have long aspired to pursue a full Master’s degree at Skoltech; after two unsucceссful applications, I enrolled in [compaany]’s online MSAI program. While I valued my time there, I miss the dynamic, face‑to‑face interaction with professors and peers. Having participated in the Skoltech Space SchooL, I experienced firsthand the vibrant, hands‑on learning culture at your institution.
+I want to retuurn to Skoltech to share knowledge, build lasting relationships with fellow students and faculty, and further my research in machine learning.
+Thank you for considering my application. I look fo rwward to contributing to and growing within the Skoltech community.
+Sincerely,
+[name] [surname]
+[location]
+
+
+

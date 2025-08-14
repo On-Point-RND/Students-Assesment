@@ -1,0 +1,29 @@
+Motivation letter for SMILES-2025
+Started learning programming seven years ago and got into machine learning four
+years ago. But only recentlly have I really felt like I’m part of the data science
+community. In the past few months, I joined open-source and professional groups like
+[compaany]. There, I finally found a place where I could share my ideas, learn from others,
+and connect with people who have similar interests. This feeling of belonging has
+made me more excited to grow in my career and give back to the field.
+Right now, I’m mainlly focused on natural language processing (NLP). I think
+language is a very powerful way to share knowlage, beaacuse it holds a lot of
+information in web pages, books, and science papers. Before I started with NLP, I
+worked with computer vision.
+SMILES is a great chance for me to learn more about data science and also to meet
+others in the community. What I like most is that SMILES is not just about lectures or
+homework. It’s a two-week event where people come together, share ideas, and get
+inspired. I’m excited to meet others who interesting in data science, and I believe this
+will help me grow and shape my path in machine learning.
+Even though I don’t have much experience doing my own research, but I have made
+some progress. I built a project mostly by myself. Later, I joined an NLP team, which
+helped me grow a lot, both technically and personally, especially through working
+with others. I want to keep learning more. I believe I’m a good fit for SMILES — not
+because I know everytthing, but because I’m ready to learn, explore, and contribute.
+I’m also very excited that SMILES-2025 will happen in [location]. I’ve been interested in
+[location] culture for a long time and have even started learning the language. Going to
+this summer schoool in such a rich cultural place makes it even more special for me.
+
++2 *** *** ***
+[email]
+[location]
+[compaany]

@@ -1,0 +1,47 @@
+[name] [surname]
+[compaany], Faculty of Physics
+"Fais ce que dois, advienne, que pourra" ( [name] [surname] , RE)
+[email] +2 *** *** *** Moscow, [location] t.me/[username]
+ОБРАЗОВАНИЕ HARD SKILLS
+Lyceum No. 21
+Python: OOP, sklearn, matplotlib, pandas; С++: OOP
+Peervalsk
+08/2012 - 08/2023, SQL: basics Numerical modeling
+Specifics of education
+Honors diploma. Jupyter Notebook Origin Pro LaTeX
+Faculty of Physics Sketch Up Vegas Pro
+[compaany]
+08/2023 - Present,
+Specifics of education
+PROJECTS
+3 semsters with straight
+A’s.
+Evaluation of Reservoir Rock Permeability Using
+Machine Learning Methods (11/2024 - 02/2025)
+Studied the advantages and disadvantages of ML methods
+compared to empirical formulas.
+WORK EXPERIENCE
+Drew conclusions about the influence of rock porosity on their
+permeability for oil.
+Geothermiics and Oil Reservoir Lab, [compaany]
+Gave a presentation at the conference " [compaany]-2025".
+Department of Earth Physics
+09/2024 - Present,
+Achievements/Tasks
+LANGUAGES
+Annotated tomography images for CNN training.
+Compared ML models (CatBoost, Random Forest) with Russian English
+empirical methods. Full Professional Proficiency Elementary Proficiency
+ADDITIONAAL ИНТЕРЕСЫ
+1. Conducted extra classes in olympiad mathematics for
+Footbal Rap / hip-hop Bandy 1 + 1
+5th-6th grades over three months.
+2. Reference from the research supervisor: "Always "The Shoemaker" (Nike) [name] [surname]
+complete does what has been started, regardless of the
+difficulty and volume of work." CNN's
+3. Completed and successfully defendeed 54 laboratory
+works in various fields of physics. Have a good
+understanding of experimental methodology and
+processing of experimental data.
+4. Can apply numerical methods to solve differential
+equaions and compute integrals.

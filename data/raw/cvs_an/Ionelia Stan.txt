@@ -1,0 +1,80 @@
+Curriculum Vitae
+Full Name: [name] [surname]
+Date of Birth: May,26,1995
+Address: [location], Energeticheskaya St.,House 6
+Phone: +2 *** *** ***
+Email: [email]
+Objective
+To participate in the SMILES Summer SchooL 2025 organized by [compaany],
+to deepen my expertise in machine learning, artificial intelligence, and
+advanced technoLogies such as generative models, and large-scale language
+models.
+Education
+Ph.D. Candidate, Applied Mathematics and Artificial Intelligence
+[compaany], [location]
+Sept 2022 – Present
+⚫ Research Focus: Intelligent Driving Systems, Deep Learning, Autonomous Systems.
+Master's Degree, Control Science and Engineering
+[compaany], China
+Sept 2018 – Jun 2021
+⚫ Thesis: " Traffic Accident Detection"
+⚫ Key Courses: Deep Learning, Neural Networks, Computer Vision.
+— 1 —
+Bachelor's Degree, Automation
+[compaany], China
+Sept 2014 – Jun 2018
+⚫ Focus on Control Systems and Robotics.
+Skills
+⚫ Machine Learning: Expertise in developing machine learning and deep learning
+models, especially for autonomous driving.
+⚫ Programming: Proficient in Python, TensorFlow.
+⚫ Mathematics: Strong foundation in optimization theory, probability statistics,
+linear algebra, and applied mathematics.
+⚫ Research: Published several papers related to autonomous driving, traffic accident
+prediction, and self-supervised learning.
+Publications
+1. [name] [surname], [name] [surname], [name] [surname], et al. Dada-2000: Can driving accident be
+predicted by driver attention? analyzed by a benchmark[C]//2019 IEEE
+Intelligent Transportation Systems Conference (ITSC). IEEE, 2019:
+4303-4309. (Indexed by Web of Science, Scopus, Cited 64 times)
+https://a rxiv.org/pdf/1904.12634
+2. [name] [surname], [name] [surname], [name] [surname], et al. Driving accident detection by self-
+supervised adversaarial appearance-motion prediction in first-person
+videos[C]//2020 3rd International Conference on Unmanned Systems
+(ICUS). IEEE, 2020: 1083-1088.
+https://ieeexplore.ieee.org/abstract/document/9274911
+3. [name] [surname], [name] [surname], [name] [surname], et al. (Q1, Indexed by Web of Science, Scopus, Cited 91 times) DADA: Driver attention prediction in driving accident
+scenarios[J]. IEEE transactions on intelligent transportaation systems,
+2021, 23(6): 4959-4971. https://a rxiv.org/pdf/1912.12148
+— 2 —
+4. [name] [surname], [name] [surname], [name] [surname], et al. Traffic accident detection via self-supervised consistency learning in
+driving scenarios[J]. IEEE Transactions on Intelligent Transportation
+Systems, 2022, 23(7): 9601-9614.
+https://ieeexplore.iee.org/abstract/document/9733965
+5. [name] [surname], [name] [surname], [name] [surname], et al. (Q1, Indexed by Web of Science, Scopus) Vision-based traffic accident detection and anticipation: A survey[J].
+IEEE Transactions on Circuits and Systems for Video Technology, 2023.
+https://a rxiv.org/pdf/2308.15985
+Datasets
+DADA-2000: Development of a large-scale dataset for the detection and
+prediction of traffic accidents, including multiple categories and driver
+attention data. https://github.com/JWFangit/LOTVS-DADA
+Patents
+Driver Attention Prediction System for Collision Avoidance – Filed 2021
+(Application No: 2021100054764).
+Languages
+⚫ Chinese: Native
+⚫ Russian: Intermediate
+⚫ English: Intermediate
+Additional Information
+Summer Camp Participation – SMILES 2024 (Skoltech Summer
+SchooL)
+— 3 —
+⚫ Duration: August 1, 2024 – August 13, 2024
+⚫ Location: [location], near [location]
+⚫ Participated in the SMILES 2024 Summer SchooL, an intensive
+program focusing on the latest advancements in machine learning,
+artificial intelligence.
+Personal Characteristics
+Strict self-discipline, quick learning ability, strong analytical skills, efficient
+teamwork and organizational skills, strong stress tolereance.
+— 4 —

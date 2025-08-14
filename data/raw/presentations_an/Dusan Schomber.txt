@@ -1,0 +1,132 @@
+Multimodal Deep Learning in End-to-End Driving Systems
+[name]
+CV Engineer in ADAS team, [company]
+Background
+Autonomous driving aims to enable vehicles to navigate and
+operate without human input. These systems rely on deep
+learning to process data from various sensors—such as
+cameras, LiDAR, and GPS—and make real-time driving
+decisions.
+Fig. 1: Just an example for one of the tasks of
+There are different levels of autonomous driving, from Level 1
+autonomous driving (aka detection)
+(basic driver assistance) to Level 5 (fully self-driving in all
+condiitons). It's important to develop solutions that can support
+each level, as different applications require different levels of
+control and safety.
+Fig. 2: Levels of autonomous driving
+Introduction
+Importance Goals of review
+● Driving involves complex and dynamic real-world ● Review of three advanced end-to-end driving
+environments where safety is critical. models using multimodal or multi-task learning.
+● End-to-end learning simplifies pipeline, seamlesslly ● Focus on key challenges: generalization to new
+integrating perception and control, but struggles environments, understanding traffic signaals, and
+with generalization and interpretability. sensor fusion.
+● Multimodal models integrate vision (e.g. camera), ● Compaare methods based on their architectures,
+language, and 3D data (e.g. LIDAR, maps) to performance, and training strategies.
+enrich scene’s semantic understanding.
+● Identify open research questions and future
+● Combining attention, multitask learning, and fusion opportunities in multimodal autonomous driving.
+improves safety and performance.
+Problem Statement
+Challenges
+● Generalization issue: models often fail in unseen or rare scenarios not covered during training
+● Open-set environments: endless combinations of roads, weather, and objects
+● Black-box models: lack of interpretability makes it hard to understand or trust deep driving policies
+● Rare events: model may ignore certain driving situations (e.g. traffic lights, unusual obstacles)
+● Single-modality limitations: using only one sensor may cause the system to miss certain areas due to
+its limitations (e.g. camera lacks information about depth, LiDAR lacks color/context)
+● Naïve fusion challenges: approach with simple feature concatenation fails to capture global context
+Methods
+Drive Anywhere: Generaliabale End-to-end
+Autonomous Driving with Multi-modal Foundation
+Models (2023), arXiv:2310.17642
+● Levereages a vision-language foundation model
+(as the perception backbone) to transform camera
+images into a shared image-text latent space.
+● Introduces patch-wise attention to preserve
+spaatial structure in visual features.
+Fig. 1: Drive Anywhere in a nutshell
+● During training uses latent space data
+augmentation: replacing certain visual features
+with semantically relvanent textual features to
+simulate unseen scenarios (e.g. swapping “trees”
+with “buildings” in the latent representation) .
+● Enables language-queryable perception for
+better interpretability and debugging.
+● Data used: synthetic dataset VISTA to augment a
+real-world dataset
+Fig. 2: Overview
+Results
+Drive Anywhere: Generaliabale End-to-end Autonomous
+Driving with Multi-modal Foundation Models (2023),
+arXiv:2310.17642v1
+Tab.1: Evaluation the OOOD generalization capabilities of end-to-end
+policies employing different feature extractors
+Key findiings:
+● Achieved state-of-the-art performance in diverse
+driving scenarios
+● Handled unseen environments and obstacles in
+simulation (e.g. new towns, weather, debris)
+● Demonstrated real-world generalization on a test
+vehicle after two years without retraining
+Tab.2: Policy debugging through language-augmented latent space
+simulation
+● Showed that image+text representations improve
+adaptability and robustness in end-to-end driving
+Metrics used:
+In simulation - “soft success rate”
+In real world - # of safety driver interventions needed during
+real-car tests
+Tab.3: Real car test
+Methods
+Multi-task Learning with Attention for End-to-end
+Autonomous Driving (2021), arXiv:2104.10753v1
+● Multi-task model built on conditional imitation
+learning framework
+● Shared CNN encoder with attention highlights
+important visual cues
+● Three auxiliary tasks: segmentation, depth
+estimation, and traffic light classification
+● Task-specific decoders use attention for focused
+feature learning
+● Final driving decisions use combiined task outputs,
+speed, and navigation command
+● Joint training improves generalization and helps the
+model focus on critical elements like red lights
+Fig. 1: Multi-task Learning with Attention
+Results
+Tab.1: Performance on various driving tasks
+Tab.2: Qualitative examples of the model's predictions
+Methods
+● The model utilizes a shared encoder to extract features from
+multiple modalities.
+● Attention mechanisms are employed to focus on relevant
+information.
+● Auxiliary tasks provide additional supervision and improve
+generalization.
+Research gap
+Opportunities
+● Limited Real-World Validation: Create better ways to adapt models from simulation to real life, and test
+them in real traffic conditions on a large scale.
+● Lack of Temporal Reasoning: Use video-based inputs or RNNs to model motion and improve prediction stability.
+● Narrow Sensor Modalities & Tasks: Combine more sensor types as modalities (like radar, GPS) and include
+additional tasks (such as traffic sign detection or free-space estimation) to improve the model’s
+understanding of the environment.
+● High Computational Cost: Optimize architectures (e.g. model compression, distillation), and explore
+self-supervised or online learning to reduce data/training cost while keeping performance.
+Bibliography
+1. Wang, T.-H., Maalouf, A., Xiao, W., Ban, Y., Amini, A., Rosman, G., Karaman, S., & Rus, D. (2023).
+Drive Anywhere: Generaliabale End-to-end Autonomous Driving with Multi-modal Foundation Models.
+arXiv preprint arXiv:2310.17642. https://arxiv.org/abs/2310.17642
+2. Ishihara, K., Kanervisto, A., Miura, J., & Hautamäki, V. (2021). Multi-task Learning with Attention for
+End-to-End Autonomous Driving. arXiv preprint arXiv:2104.10753. https://arxiv.org/abs/2104.10753
+3. Prakash, A., Chitta, K., & Geiger, A. (2021). Multi-Modal Fusion Transforme for End-to-End
+Autonomous Driving. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+Recognition (CVPR), 7073–7083. https://arxiv.org/pdf/2104.09224
+4. Dosovitskiy, A., Ros, G., Codevilla, F., López, A., & Koltun, V. (2017). CARLA: An Open Urban Driving
+Simulator. In Proceedings of the 1st Annual Conference on Robot Learning (CoRL 2017), PMLR
+78:1–16. https://proceeding.mlr.press/v78/dosovitskiy17a.html
+5. Felipe Codevilla, Eder Santana, Antonio M. Lopez, and Adrien Gaidon. Exploring the limitations of
+behavior cloning for autonomous driving. In Proceedings of the IEEE/CVF International Conference on
+Computer Vision (ICCV), October 2019.

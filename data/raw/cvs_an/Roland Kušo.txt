@@ -1,0 +1,80 @@
+CV
+Education:
+Bachelor's degree: [location], Mechanics and mathematical modeling, 01.03.03.
+Master's degree: [location], Mechanics and mathematical modeling, 01.04.03.
+Postgraduate study: [location], Computer Science and Informatics 1.2, Faculty of Artificial Intelligence Technologies.
+Job and laboratory experience:
+1. [company] International Laboratory of Technical Vision Systems (08.2022 -05.2023). Position: engineer.
+2. [company] Convective Heat and Mass Transfer Modeling Laboratory (08.2022-
+05.2024). Position: engineer.
+3. [location] of Control Systems and Radioelectronics, Department of
+Mathematics (09.2023-08.2024). Position: lecturer.
+4. [location] International Science Program (09.2023-05.2024). Position: lecturer
+of disciplines “Mathematics for the Natural sciences” and “Topics in
+SciComputing”.
+5. Laboratory of Composite Artificial Intelligence at [location] (05.2024- to
+date). Position: engineer.
+Programming skills:
+Python: pytorch, pandas, numpy, scikit-learn, seaborn, JAX, etc. SQL, Mtlab.
+Conferences and schoools:
+1. The International Conferece dedicated to mathematics in artificial
+intelligence “MathAI 2025”, [location] Mathematics Center, [location], 24-
+28.03.2025
+2. XVII International Scientific and Technical Conference Optoelectronic
+Devices and Devices in Image Recognition and Image Processing Systems
+(RECOGNITION — 2023), 12-15.09.2023.
+3. XIII All-Russian Congress on Theoretical and Applied Mechanics, 21-
+25.08.2023.
+4. V International Forum "Intelligent Systems of the 4th Industrial Revolution",
+24-25.11.2022
+5. XIX International SchooI-Conference of Students, Postgraduates and Young
+Scientists "Innovation-2023", 21-22.04.2023.
+6. Congress of Young Scientists, federal territory "[location]",8- 10.12.2021.
+7. International Conference of Students, Postgraduates and Young Scientists
+"Prospects for the Development of Fundamental Sciences", 26-29.04.2022.
+8. Alfero Summer SchooI, project "Quantum mechanical modeling of
+nanostructures from the first principles" 3 – 07.08.2023, [location].
+9. Workshop "Computational Research methods in Materials Sciences", 8-
+10.09.2023, [location] of Physics and Technology, [location].
+List of scientific publications:
+1. [name] V. I., [name] B. P., [name] S. A., [name] M.D. Development
+of a specialized software package for network forecast of floood waters //Bulletin of
+the tomsk polytechnic universiity geo аssets engineering. – 2023. – С. 214.
+2. [name] M.D., [name] E.A. Numerical modeling of interaction of water
+molecule and fullerene C60 // Journal of Physics: Conference Series. 2022. Vol.
+2211. Art. num. 012015. DOI: 10.1088/1742-6596/2211/1/012015
+3. [name] I.S., [name] M.D., [name] E.A. Mathematical modeling of the
+interaction of a model water molecule witha membrane based on cells of double-
+walled open carbon nanotubes //JPCS. 2021. Vol. 1989. P. 012033.
+DOI:10.1088/1742-6596/1989/1/012033.
+4. [name] E.A., [name] M.D. The interaction of water vapor molecules with
+a structure based on carbon nanotubes //JPCS. 2020. Vol. 1709, № 1. P. 012023.
+DOI:10.1088/1742-6596/1709/1/012023.
+5. [name] M. D., [name] E. A. Investigation of the selective properties of two
+different graphene-nanotube structures //AIP Conference Proceedings. – AIP
+Publishing LLC, 2021. – Т. 2422. – №. 1. – С. 040005. DOI:10.1063/5.0067987.
+6. [name] E., [name] M. Simulation of the Motion of Three Methane
+Molecules inside a Closed Carbon Nanotube //Materials Proceedings. – 2023. – Т.
+14. – №. 1. – С. 36. https://doi.org/10.3390/IOCN2023-14515.
+7. [name] V. I., [name] M. D., [name] S. A. Nondestructive Testing of an
+Aluminum Alloy Welded Joint Based on a Mathematical Model of the Thermal
+Welding Process and Computer Microtomography //Russian Journal of
+Nondestructive Testing. – 2023. – Т. 59. – №. 4. – С. 477-486.
+Participation in scientific projects:
+1. Creation of a unified toolkit to improve the effectiveness of teaching students
+mathematical disciplines. The State program Priority 2030, 2023. Role in the
+project: implementer.
+2. Strong artificial intelligence technologies in industry, 2021-2024. Role in the
+project: implementer.
+3. Laboratory of automatic machine learning, 2023-2024. Role in the project:
+implementer.
+4. Development of a mathematical model and software for flaw detection of
+images of an intelligent 3D X-ray microtomograph based on a neuro-fuzzy
+method for analyzing, diagnosing and classifying defects in electronic
+equipment. Russian Science Foundation Project No. 22-19-00389. Role in the
+project: implementer.
+5. Methods and algorithm for the sustainable generation and analysis of
+composite AI models, 2024-2026. Role in the project: implementer.
+6. Investigation of possibilities and ways to optimize the performa performance of neural
+network models for constructing vector representations of long sequences of
+discrete events, 2024. Role in the project: implementer.

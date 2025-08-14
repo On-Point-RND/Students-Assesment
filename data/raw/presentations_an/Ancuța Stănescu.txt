@@ -1,0 +1,41 @@
+Image compression
+using neural networks
+[name] [surname]
+[compaany]
+Introduction
+• Resolution of images and videos goes up
+everyday. Storing and streaming them
+becomes even harder, especially for small
+devices
+• Our current algorithm's cant keep up with
+this growth
+• What if we need to transfer a lot of
+pictures in real time?
+Problem statement
+• How to maximize image quality while minimizing
+BPP (bits per pixel) at the same time?
+• Image processing (especially decompressing)
+should be fast
+Methods
+• Basic structure – Auto encoder system
+• The idea lies behind creating latent vector,
+representing the original image
+• Entropy models allow us to losslessly compress
+that vector
+• Dataset is coco2017 with augmentation
+Results
+• Current approach slightlly worse than jpeg
+• It works pretty fast (80ms per image)
+• Compiled onnx model weighs 1.3mb
+Research gap
+• We still need to improve quality
+• Size and speed are good, theoretically it can be improved via NPU
+• Need to check ViT and Diffusion Models
+Bibliography
+1. [surname], Johannes, [surname] Laparra, and Eero P. Simoncelli. "Density modeling of images using a generalized normalization transformation." arXiv
+preprint arXiv:1511.06281 (2015).
+2. [surname], J., [surname], D., [surname], S., [surname], J., & [surname], N. (2018). Variational image compression with a scale hyperprior. arXiv preprint
+arXiv:1802.01436.
+3. [surname], N., [surname], E., [surname], A., & [surname], J. (2019). Computationally efficient neural image compression. arXiv preprint arXiv:1912.08771.
+4. [surname] Y., [surname] M., [surname] J. Variable rate deep image compression with a conditional autoencoder //Proceedinings of the IEEE/CVF international
+conference on computer vision. – 2019. – С. 3146-3154.

@@ -1,0 +1,100 @@
+[name] [surname]
++2 *** *** *** | [email] | [name][surname]
+Personal Profile
+Sixth‑yearstudentattheDepartmentofComputationalMechanics,FacultyofMechanicsandMathematics, [location]
+withastrongfocusonadvanciingmathematicalmethodsiNDeepLearningandthei applicationsinfundamentaldisciplinessuchasmathematical
+physics,stochasti cp rocesses,andnatura lphenomenomodeling.Myresearchinteres tincludephysica lr easoningin deeplearning,generative
+models,andapplie dstatisitics,withanemphasiso nprobabilit theoryandits integrationinto machinelearningan dappliedmathema tics.
+Education
+[location] Moscow,Russia
+Fundamentalmathematicsandmechanics September2019‑currenttime
+• Scholarshi pforactiv econductofscientifica ctivity
+• GPA4.49/5
+• Courses:AnalyticalGeometry,LinearAlgebra,MathematicalAnalysis,FunctionalAnalysis,Differen tialGeometry,Differen tialEquations,Group
+Theory,ComplexAnalysis,ProbabilityTheory,Mathemati calStatis tics,VariationalMethodsandOptimization,Theoryo fRandomProcesses,
+DiscreteMathmatics
+SMILES2023‑SkoltechSummer schoofmachinelearning [location]
+Statis ticalmethodsofmachinelearning August2023
+• Courses: Probabilistic Models, Generative Modeling, Optimal Transport, Geometric and Topolo gica lAnalysis, Physics‑Informed Machine
+LearningMethods
+[location] Moscow,Russia
+AIMasterscourse:Machinelearningan dapplications February2022‑June2022
+[location] Moscow,Russia
+AIMasterscourse:Deeplearning September2022‑December2022
+• KeyDeepLearningParadi gms‑ApplicationofConvolutionalArchitecturestoImageProcessingTasks(Classification,Segm entation,Detection),
+RecurrentNeura lNetworksandTransforme rswithApplicationst oLanguag eProcessingTasks,VariationalAutoe ncoders,GANs,etc.
+Work Experience
+MTSBigData,GenAIteam [location]
+MiddleDat aScientist December2023‑currenttime
+• Respo nsibilities:Researcha ndimplementation(inparticulari nthefieldofmarketing)ofdeep generati ve models(text2text,text2image),
+inferenc eoptimizationandacceleration,improvingpropo sedarchit ectureswithinproductb enchmarks.Developinga pplicationsofVLMsfor
+clic kstrea mdataanalysisandfeatureattribution
+• Respo nsibilities:Mentorin gjunior colleague s
+• TechnicalSkills:PyTorch,NumPy,Keras,Mtplo tlib,Pandas,Scikit‑learn,C++,Linuxtools,Git,Docker,Airflow
+• SoftSkills:Teamwork,TimeManagement,Communication,Presenta tionskills.
+KeldyshInsti tutofAppliedMathemati cs [location]
+JuniorMLresearchengineer September2022‑September2023
+• Respo nsibilities:Researchhonneural networkarchit ecturesforproble msinmathematic alphysics,compute rvision,andNLP.Selectionof
+optima lmodelparametrization,constructionandtrainingofmodels(includingt heuseofpre‑trainedSOTAarchit ectures),validationofre sults,
+andstudyofnumeric almethodsforsolvingsimil arproblems.
+• TechnicalSkills:Pandas,Mtplo tlib,Seaborn,BERT,PyTorch
+• SoftSkills:Presenta tionskills,Leadership,Teamwork,Logica lThinking.
+DevelopmentofaNeuralNetworkArchit ectureforSolvingTopolog icalOptimization
+ProblemsofTwo‑DimensionalRegions
+[location] Moscow,Russia
+[location] Moscow,Russia
+• ExploringGenerativeNeuralNetworkArchit ecturesBasedonVariationalAutoe ncodersAppliedtoProblemsof2DTopolog icalOptimization.
+Modeling,Training,andValidatingaNeuralNetwork.
+• TechnicalSkills:PyTorch,Keras,NumPy,SciPy,LaTeX.
+• SoftSkills:TimeManagement,Teamwork,Presenta tionskills,Reportwriting.
+ApplyingNVI DIAModulusAPItoKirschandEscalbi’sProblems [location]
+[location] Moscow,Russia
+• Descriptionofthemathematic almodeloftheproblem.Preparationandpreprocessingofdata.Modelingoftheneural networklossfunction,
+studyoftheasymptoticconvergen ceofthesolution.ComparisonoftheresultswiththeFidesy sCAEFidesy sstrengthanalysislibraryalgorithm.
+• TechnicalSkills:PyTorch,Pandas,SciPY,LaTeX
+• SoftSkills:Reportwriting,Logica lThinking,CriticalThinking.
+InvestigationofbloodclotformationinischemicstrokeusingComputerVision
+algorithms
+Virtua levent July2022‑October2022
+• Performingpreliminarydataanalysis.Examiningblood imageformat,usinganefficientSeamCurvingalgorithmforimagepreprocessing.Using
+fine‑tuningoftheResNetmodelforbinaryclassificationofabloodsamp leimage.Identifyingcommoncorrelation sinthedataandexamining
+thei rimpactondiagnosis
+• TechnicalSkills:Pandas,Mtplo tlib,Seaborn,Keras,OpenCV,OpenSlider,SeamCurving
+Skills
+• NumPy,SciPy,SymPy,Scikitlearn,Catboost,PyMC,statsmo dels,numpyr o
+• PyTorch,Tensorflow/Keras,transformers,diffusers
+• vLLM,FSDP,bit sandbytes,deepspeed,accelerate
+Progr amming.ML/DL
+• OpenCV,PIL,skimage,SeamCurving,OpenSlider
+• nltk,natasha,AST,pymorp hy2
+• docker,airflow,kubernetes
+Miscellaneous Linux,LaTeX(Overleaf/RMarkdown),Tableau,Micr osoftOffice,Git.
+SoftSkills TimeManagement,Teamwork,Problem‑solving,Documentation,EngagingPresentation.
+Achievements
+2022 Kaggleexpert
+Publications
+REPORTS
+• 2023RussianCongresso nTheoretica landAppliedMechanicsoftheRussia nAcademyofSciences.Oral report.
+Topic: “Pade appr oximation of the convolution kernel of the wave equation solution in a channel using a
+neuralnetworkforconstructingt ransparentboun daryconditions”
+• 2023Interna tionalConfere nceonArtificialNeuralNetworks”Neuroinformatics”.Poster presentation.Topic:
+”Theuseofneural networksinapproximatio nforconstructingTBC”
+• 2023 Russian Young Scientists Conference. Oral report. Title: “Rational Appr oximation of the Convolution
+KerneloftheWaveEquationSolut ioninaCircularChannelUsingaNeuralNetworkforConstr uctingTransparent
+BoundaryConditions”
+• 2023InternationalConference “Lomono s”.Oral report.Title:“ApplicationofNeuralNetworks totheProblem
+ofConstructingArtificialBoundaryConditions”
+• 2023”Intellect”Foundatio nProjectConference.Oral report.Title:“ApplicationsofDeepLearningMethods to
+ProblemsofMathematicalPhysics”
+• 2021.“Confere nceo fYoungScientistsoftheFacultyofMechanicsandMathem atics ofMoscowStateUni versity.
+Oralpresentation.Title:“AlgebraicTheoryofShur’sPseudo diff erentialOperators””
+Interests
+• Physica lr easoningin deeplearningandphysics‑informedmachinelearning
+• Mathemati calfoundationsofgenerativedeeplearning
+Research interests
+• Generative modelscomputationa lacceleration
+• Deepreinforce mentlearning
+Languages
+EnglishC1
+FrenchA2
+Referencesavailableuponrequest.

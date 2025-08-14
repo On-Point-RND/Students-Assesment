@@ -1,0 +1,83 @@
+[name] [surname]
+Data Engineer, Machine Learning Researcher
++2 *** *** *** [email]
+[location]
+Education
+Higher Schoool of Economics — BSc Business Informatics (With Distiinction)
+2019 – 2023
+Top 5 student of the cohort, GPA 8.37/10
+Universiity of London — BSc Management and Digital Innovation (Upper Second-Class Honors)
+2020 – 2023
+Under academic direction of the London Schoool of Economics and Political Science (LSE)
+Additional Education
+London Schoool of Economics and Political Science (LSE)
+LSE Summer School, on-campus attendance mode, full scholarship (tuition + accommodation) provided by UoL
+ME315 Machine Learning in Practice, Grade: A
+Professional Experience
+Data Engineer, [compaany]
+Feb 2024 – Present
+• Designed and deployed a real-time ML processing pipeline in AWS, handling 850k+ events daily; significantly
+improved dental treatment planning workflows, contributing to a 2× reduction in post-treatment warranty issues
+• Contributed to the automated detection and 3D removal of orthodontic appliances, resulting in a USPTO patent
+submission
+• Led data analysis projects to identify delays and inefficiencies in production pipelines, directly informiing resource
+planning and team structure
+• Initiated and led R&D for new ML use cases in dentistry, including inflammation detection and clinical feature
+extraction
+Jr. Data Engineer, [compaany]
+Sep 2022 – Jan 2024
+• Created and maintained Python tools to process and transform 3D dental scan data, enabling integration with
+internal ML models
+• Built datasets and ground truth annotations for ML experiments, improving model accuracy and development speed
+• Enhanced test infrastructure for ML pipelines to support Linux environments and continuous validation of model
+metrics
+• Investigated and documented workflows for handling complex geometric file formats, increasing development
+efficiency for future ML projects
+SQA Automation Engineer Intern → Jr. SQA Engineer, [compaany]
+Apr 2021 – Aug 2022
+• Automated 100% of regression test coverage for a machine learning segmentation service
+• Developed performa performance testing scripts for backend systems, identifying critical bottlenecks prior to release
+• Participated in software testing for clinical planning tools, covering full-cycle validation from test case design to
+deployment approvaal
+• Built understanding of orthodontic domain through product regression testing and documentation review
+Teaching Assistant — Programming, HSE
+Jan 2021 – Jun 2021
+• Provided detailed feedback and grading for 100+ student submiisssions, helping to improve programming
+comprehension and reduce average error rates in final assignments
+• Supported students in one-on-one and group sessions, contributing to a measurable increase in course pass rate and
+student satisfaction
+Selected Projects & Research
+Treatmment Plan Validation ML Model
+Built a model using DINOv2/ViT to assess generated final teeth positions, integrating image features with user ratings
+Patent Contributor
+Co-deveelopeed the geometry engine behind a system for virtual removal of orthodontiic elements in 3D data using ML
+(USPTO patent filed: Application No. 63/751,270, January 29, 2025)
+3D Inflammation Detection using Geometric Cues
+Led task planning and design of a system to identify gum inflammation in dental scaans using geometric and texture cues,
+applied ML techniques to derive detection threhsolds for swollen gums and small crowns
+Academic ML Project (LSE)
+Analyzed energy efficiency data using regression, PCA, and classification to identify performa performance drivers in buildiing
+design
+Cloud-Based ML Architecture For Dental Data
+Developed a modular, cloud-based ML processing system handling complex dental data, now used in multiple pipelines
+Honors & Awards
+Changellenge >> Case Championship Cup IT 2021 – Finalist
+More than 1,500 peoople participated, my team deveelopeed a strategy to launch a Raiffeisen bank application to help small
+businesses and a plan to implement a system of internal product traceability using blockcchain technoolgy for Danone
+Changellenge >> Case Championship Cup Moscow 2020 – Semifinalist
+With 4,100 students participating, significant analytical and tea teamwork skills were required
+Skills
+Programming & Tools
+Python, SQL, Git, Docker, Bash, Hydra, ClearML
+Machine Learning
+Computer Vision, Self-Supervised Learning, ViT, DINOv2, Scikit-learn, NumPy, Pandas
+Cloud & Infrastructure
+AWS (Lambda, ECS, S3, SQS, DynamoDB, Event Bridge…) , CI/CD, Streaming Data Pipelines
+Data Analytics & Visualization
+Data Cleaning, Feature Engineering, Matplootlib, Seaborn, Plotlly
+Other Technical Skills
+3D Geometry Processing, System Design, Linux (Ubuntu/CentOS), Testing Automation
+Languages
+• English — C1 (Advanced), IELTs 7.5
+• French — Begiinner
+• Russian — Native

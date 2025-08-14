@@ -1,0 +1,51 @@
+Development and research algorithm camera position definitions relative to the region observations
+[name] [surname]
+[location]
+
+Delivered information
+Task
+Using Markup fields for recognition as features Insteaad of ArUco placemarks
+
+Correction
+Field
+Cameras may be exposed to physical impacts
+Placemarks can be accidentally shifted
+The cameras capture 
+part of the field
+You must recalculate the camera position during the game
+Camera Overview
+
+plan
+Date
+ Write a solution based on placemarks 
+ Write a solution based on field features
+Evaluate various solutions and their compositions
+
+Team
+Working with [compaany]
+Help with metrics and ellipse recognition 
+Recognizing lines and the center of the field
+[name], 2nd year Higher School of Economics
+[name] [surname], Higher School of Economics 2nd year
+[name] [surname], Master's program of FRKT 1st year 
+
+The stack
+ Python
+ OpenCV
+ NumPy
+ Matplotlib
+ Sklearn
+https://github.com/ProgiFrogi/Camera-accuracy-studies/tree/winter_merge
+
+Metric
+
+Demo
+Date
+
+Change the benchmark
+Implement in Starkit
+Write an article
+Make a speech on IEEE 2024
+Future plans
+
+Questions?

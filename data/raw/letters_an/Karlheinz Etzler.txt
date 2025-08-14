@@ -1,0 +1,44 @@
+Motivational Letter for SMILES-2025
+[name] [surname]
+Dear SMILES-2025 Selection Committee,
+I am writing this motivational letter to express my strong desire to attend the Skoltech Summer School of Machine Learning (SMILES-2025). Currently I am a second-year student of [Higher School of Economics] at faculty [International College of Economics and Finance].
+My main motivation is to deepen knowledge in ML and its applications, I am especially interested in studying generative AI. SMILES-2025 is a unique opportunity for me to dive into the ML and DL in order to build foundation for my future career path.
+My academic background involves such courses as linear algebra, advanced statistics and programming, these courses prepared a strong base for future study of ML/DL. I have ranked the 7.66% of the 2-year students at [International College of Economics and Finance], at the same time I managed to take 3 additional courses at university and preparatory tracks for the [Yandex School of Data Analysis]. These extracurricular courses introduced me into supervised and unsupervised learning, metrics of evaluation of effectiveness and consistency of the models. I also started learning algorithms and data structures.
+I have worked extensively with Python and libraries such as pandas, NumPy, scikit-learn, and matplotlib. Here are the list of models and methods that I am familiar with:
+1. Supervised learning
+1.1. Lgistic regression
+1.2. KNN
+1.3. Support vector machines
+1.4. Decision trees
+1.5. Ensembles (Random forest and other linear models)
+1.6. Gradient Boosting
+2. Regressions
+2.1. Linear regression
+2.2. Ridge, Lasso, Elastic net
+2.3. Support Vector regression
+3. Unsupervised learning
+3.1. K-means
+3.2. Hierarchical clustering
+4. Ensembles methods
+4.1. Bagging
+4.2. Bootstrap
+4.3. Boosting
+4.4. Stacking
+5. Reduction of dimensions
+5.1. Principal component analysis
+5.2. t-distributed stochastic neighborh embedding
+6. Deep learning
+6.1. Mini-batch training
+6.2. Batch and data normalization
+6.3. Validation techniques
+6.4. PyTorch
+6.5. Gradient descent
+6.6. MNIST classification
+6.7. RNN
+6.8. CNN
+In my recent coursework I have analyzed the influence of the regularization techniques on optimal portfolio selection. I use such financial models like CAPM, APT to predict expected return on assets on [location]. Afterwards I compute optimal portfolio as an argmin of Sharpe ratio. On top of that I implement regultization (L1, L2, Elastic net) to improve the analysis. Moreover, APT model requires me to work with mismatch of financial and macroeconomic time series. The scope of my course work lies between theoretica finance, econometrics with analysis of time series and machine learning.
+With a help of SMILES-2025 I expect to achieve following goals. I hope to improve further my technical skills to build a strong basis for my future career and education since I am willing to attend Master’s program at data science. Moreover, I am especially interested in working on practical tasks since having guidance from industry experts is the most valuable purpose of the school. Finally, I am looking forward to get in touch with other participants and become a part of a strong community.
+Speaking of my future career plans, I would like my occupation to be quantitative researcher at a hedge fund or mutual fund. I am particularly interested in developing data-driven trading strategies which involves application of mathematical models and artificial intelligence. That is why I already started to build knowledge basis to achieve this goal.
+I would like to thank you for considering my application and motivational letter. I look forward to attend SMILES-2025.
+With appreciation,
+[name] [surname]

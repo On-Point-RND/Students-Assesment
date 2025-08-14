@@ -1,0 +1,47 @@
+Application for SMILES-2025 Summer School
+April 20, 2025
+I am a third-year undergraduate student majoring in “Applied Mathematics and Physics.”
+I am writing to express my strong and sincere interest in attending the SMILES-2025
+Summer School on Machine Learning in person.
+Over the past year, I have become deeply fascinated with machine learning as a relevant
+field that requires a solid mathematical background, which has made ML particularly
+interesting to me. Although my academic program provided me with a good mathematical
+foundation, it currently does not offer systematic training in modern machine learning.
+SMILES-2025 could be a rare and unique opportunity for me to immerse myself in this
+field and gain a solid foundation that will shape my future career.
+Beyond my personal university program, I am actively seeking ways to fill the gap in my
+rigorous academic education in this field. Currently, I am a student at the Deep Learning
+School at [company]. I regularly participate in machine learning hackathons, which help me
+develop practical skills in problem-solving, teamwork, and rapid prototyping of programs,
+and the very process of solving cases stimulates me to delve deeper into or discover some
+new approaches. A good mathematical background, partly confirmed by some of my
+successes in math competitions, allows me to not experience significant difficulties when
+studying new concepts.
+To strengthen my theoretical foundation, I independently studied materials such as
+Evgeny Sokolov’s machine learning course, the CS231n course, and the Deep Reinforcement-
+ment Learning Course from Hugging Face. However, I still lack structured experience in
+the complex and intricate topics that will be covered by SMILES-2025. I believe that
+the format of the school, which includes advanced research, practical seminars, and real
+industrial projects, perfectly aligns with my aspiration to become not just an experienced
+practitioner but also a future AI researcher.
+I am particularly inspired by the school’s international, collaborative environment and
+its mission to facilitate knowledge exchange between young scientists from [location] and
+[location]. I believe that personal participation will allow me to engage in discussions most
+effectively, build meaningful connections, and immerse myself in the experience without
+distractions. I am fully prepared and eager to go to [location], join the cultural program,
+and dedicate myself to the intensive learning process.
+In the future, I am considering obtaining sufficient competencies in my master’s program
+to have the opportunity to work in the field of AI research. In my opinion, SMILES-2025
+perfectly aligns with my aspirations and can be a significant step for my growth in this
+direction. After all, the school offers academic depth, practical experience, mentorship,
+and an active community of like-minded individuals. Being in the company of such
+people, I hope that my studies will become more productive. I am full of enthusiasm,
+motivated, and ready to make the most of this opportunity if you deem it possible to
+grant it to me.
+Thank you very much for considering my application. It will be an honor for me to attend
+SMILES-2025 and contribute to its collaborative and intellectually inspiring atmosphere.
+Sincerely yours,
+[name] [surname]
+[email]
+telegram: @[name]@[surname]
++2 *** *** ***

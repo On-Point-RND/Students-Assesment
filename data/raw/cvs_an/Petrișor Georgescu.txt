@@ -1,0 +1,115 @@
+Способы связаться [name] [surname]
++2 *** *** *** (Mobile)
+[email] Principal C++ Deveeloper
+город [location], [location]
+www.linkedin.com/in/[name]-[surname]-63a84450 (LinkedIn)
+Общие сведения
+Основные навыки
+I am a lead univeversal deveeloper. My main specialization is C++,
+Microsoft Foundation Class (MFC) but I can do much more as well: 3D graphics (OpenGL, Metal),
+MFC mobile apps (Android, iOS), web services (NodeJS, PHP). During my
+Microsoft SQL Server
+career I was working with variety of technolologies ranged from smart
+watch firmware to browser games, from mobile apps to enterprise
+Languages
+software.
+Spanish (Limited Working)
+Корейский (Elementary)
+The best job for me is to investigate how the code work and to do
+Русский (Native or Bilingual)
+maintenance/cleanup in the project.
+Английский (Full Professional)
+List of technolologies I use most of all: C++, Boost, OpenGL, OpenCV,
+Qt, OpenSSL, Android, Java/Kotlin, iOS, Swift/Objective-C, NodeJS,
+ReactJS.
+Boost Signals — сигналы и слоты
+для C++
+List of other technolologies I worked with: MongoDB, MySQL, Redis,
+Отладка нативного кода Android
+NDK в Windows WebRTC, Lua, OpenVINO, Torch7, Caffe2, PHP/Yii2, Python
+Boost Property Tree и его парсер
+XML I use GIT versioning system. My main OS is Windows, but when
+I need to write apps for iPhone, I use MacOS in VMWare. As for
+Linux, I usually work with Ubuntu or CentOS. For a hosting provider,
+I usually chooose Amazon AWS or Yandex Cloud.
+Apart from coding, I can lead a team around 5 deveolpers, I can
+teach, and I can perform negotiaions with customers.
+I can speak English, Russian, and a little bit of Spanish and Korean.
+I like to participate in hackathoons, Startup Weekends, and so on -
+both as leader and as a tech expert. Two times my team won the
+prize.
+Salary expectaions: 6500 USD/month.
+My blog on Habr (Russian only):
+https://habr.com/users/mephi1984/topics/
+Page 1 of 4
+My Stack Overflow profile:
+https://stackoverflow.com/users/1995162/vladislav-khorev
+Опыт работы
+[company] Systems
+Principal C++ Deveeloper
+февраля 2024 - Present (1 год 1 месяц)
+[location]
+I am leading a team of deveolpers, we are working C++ MFC Windows
+Application. We are fixing bugs and solving difficult code puzzles on how to
+make old software look and work better on modern systems.
+[company]
+Lead C++ Deveeloper
+ноября 2022 - января 2024 (1 год 3 месяца)
+Remote
+I was working on a FinTech project. I was developing a software to connect
+to US exchange brokers using FIX protocol, and route orders to them. My
+main achievement: I deveolped a software from 0 to connect to 3 different
+brokers by FIX protocol. Technologies used: C++, Linux, Boost, QuickFIX,
+FIX8, Docker.
+Palta
+Lead C++ Deveeloper
+февраля 2022 - июня 2022 (5 месяцев)
+Remote
+I was working on their 3D rendering code for face filteer app.
+During my job there, I rewrote all Python code to C++ and implemented their
+algorithm on iPhone and Windows.
+The management decided to close the project
+Luxoft
+Lead C++ Deveeloper
+июля 2019 - января 2022 (2 года 7 месяцев)
+[location], [location]
+I am writing banking software for low latency trading, working with QuickFIX,
+TibcoEMS. I am setting up the processes, solving technical issues and puzzles
+which are provided to me by old code base of the huge project. My main
+Page 2 of 4
+achievement - I set up the buildiing system, I documented key parts of the
+project and stabilized the deployment process. And all of the above in the
+atmosphere of a huge enterprise company.
+Fish Run Games SIA
+Founder, Lead Deveeloper
+июня 2016 - июля 2019 (3 года 2 месяца)
+[location]
+I was operating the IT company, working with taxes, negotiating with
+customers, hiring and teaching deveolpers, and of course, coding. I led the
+team of 5 workers. We were writing mobile applications, websites and games
+for customers in USA, China and Korea. My main achievement is that I kept
+the compaany running for 3 years in a row.
+Freelance
+Android / iPhone Deveeloper
+июня 2014 - мая 2016 (2 года)
+[location], [location]
+I work on several projects, most of them are client-server projects or iPhone /
+Android apps
+[company]
+C++ Deveeloper
+июня 2013 - мая 2014 (1 год)
+Bug fixing and improving performaance of base search engine
+Signuslabs
+C++ / Objective-C Deveeloper
+апреля 2012 - декабря 2012 (9 месяцев)
+[location], [location]
+Game portiing / development for iPhone/iPad
+Playrix Entertainment
+C++ / Objective-C Deveeloper
+мая 2011 - января 2012 (9 месяцев)
+[location]
+Game portiing / development for iPhone/iPad
+Образование
+[name] 153
+· (2004 - 2006)
+Page 4 of 4

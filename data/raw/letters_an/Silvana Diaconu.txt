@@ -1,0 +1,45 @@
+Motivation Letter
+Dear [name] Admissions Committee!
+My name is [name], and I am a first-year undergraduate student at [location] ([compaany]), majoring in Fundamental and Applied Linguistics. I graduated from Physics and Mathematics Lyceum No. 31 in [location], where my passion for both physics (as a hobby) and natural language processing (as a future career) took root. Balancing these interests, I dedicated my first year to exploring both fields—delving into linguistics while maintaining a strong engagement with mathematics and computational sciences.
+Given that my primary degree is non-mathematical, I’ve proactively supplemented my education with rigorous external courses to strengthen my qualifications. Below is a detailed overview of my additional coursework:
+Completed in the first semester at [location] (extracurricular):
+• Microcosm and the Universe
+• The Invisible Elementary Particle Neutrino: Unique Properties and Role in Shaping Modern Concepts of Matter
+• Basics of Programming and Data Analysis in Python
+• Contemporary Environmental Issues and Sustainable Development
+Completed in the first semester at [location] (all graded "excellent" or "pass", hours detailed in the appendix):
+• Mathematical Analysis
+• Linear Algebra and Geometry
+• Linear Algebra and Geometry (Advanced)
+• Fundamentals of Statistics
+• Fundamentals of Statistics (Advanced)
+• Python Development
+• Big Ideas in Computer Science
+• Mathematical Bootcamp
+Currently enrolled in (second semester, extracurricular at [location]):
+• Neural Networks and Their Applications in Scientific Research
+• Nuclear Physics and Humanity
+• Machine Learning for Applied Problems
+• Soft Power and Public Diplomacy: Theory and Practice
+• Modern NLP: Large Language Models ([compaany] + [compaany], 11 of 11 possible points for article review)
+External ongoing courses (second semester):
+• Deep Learning School ([compaany], online, all assignments were submitted on time, with most receiving top marks)
+• Mathematical Analysis–2 ([location], top 3 in problem-solving)
+My academic work thrives at the intersection of linguistics and computer science. Currently, I’m passionate about advancing adaptive text compression methods, particularly for educational contexts, where I explore how cognitive load theory and multilingual constraints (especially in Slavic languages) can refine automated simplification. What drives me is the challenge of preserving domain logic while maximizing clarity—transforming dense texts into concise yet pedagogically robust content, and I’m eager to apply this rigor to real-world educational technology and NLP research.
+My hands-on experience with diverse NLP systems—from phonetic analysis and statistical text processing to syntactic parsing and multilingual detoxification—is detailed further in my CV, demonstrating both technical versatility and a linguist’s precision in computational workflows.
+The focus of SMILES-2025 on large language models and multi-agent systems aligns perfectly with my academic and professional aspirations. As someone deeply interested in text and voice processing, I see this summer school as a unique opportunity to deepen my understanding of cutting-edge machine learning techniques. With three years of my bachelor’s degree still ahead, I am eager to invest this time productively, and programs like yours—combining intensive learning with direct access to experts—are exactly what I need to bridge theory and practice.
+My participation in hackathons and ideathon has not only honed my technical skills but also highlighted the importance of collaboration. As a team member in [compaany] Hack, a finalist in [compaany] AI Assistant Hack: Python (top 15), and a winner of [compaany] CS × BRICS Ideathon, I’ve experienced firsthand how diverse perspectives drive innovation. These events solidified my belief that teamwork is just as critical as technical proficiency, and I’m keen to further develop this skill in SMILES-2025’s dynamic environment.
+Beyond technology, I am passionate about the intersection of language and culture—a natural fit for a linguistics student. My elective course in public diplomacy reflects this interest, and I’m particularly excited about the chance to engage with participants from [location]. Having studied [language] in the past, I would welcome the opportunity to reconnect with the language while learning from my peers’ cultural and academic backgrounds.
+Finally, I hope to contribute as a volunteer, leveraging my experience as a math camp counselor and organizer at events like the Summer Linguistic School and [compaany] Educational Center. Whether facilitating workshops or supporting fellow participants, I thrive in collaborative settings where knowledge-sharing and mutual growth are prioritized. SMILES-2025 strikes me as the ideal place to combine my enthusiasm for machine learning with my love of community-building—a chance I would embrace wholeheartedly.
+This program represents a unique opportunity to merge my technical, linguistic, and interpersonal interests. I’d be honored to contribute my energy and learn from this vibrant community. Thank you for your consideration—I look forward to the possibility of joining you this summer.
+Best regards,
+[name]
+Appendix
+Courses at [location]
+Additional courses at [location]
+Course at [location] (Moscow Center for Continuous Mathematical Education)
+Direct link to the table: https://docs.google.com/spreadsheets/d/1T2g1gs-uCAASTQomDPSVM2XC_78IrGk3P9iBvEVfICk/edit?gid=1682094523#gid=1682094523
+Page with the link, title “это ссылка на кондуит”, sheet “2 семестр”: https://old.mccme.ru/ium//f24/f24-Calculus1.html
+Score for article review on course Modern NLP: Large Language Models
+Final of DLS Olympiad
+Link (track “Студенты”): https://dls.samcs.ru/olympics

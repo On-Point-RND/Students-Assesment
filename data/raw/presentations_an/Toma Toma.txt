@@ -1,0 +1,160 @@
+Theoretically
+A + B AB
+100%
+Real life reagents losses reduction
+losses
+A + B AB reactions conditions optimization
+product yield
+product purification improvement
+(%)
+reaction efficiency enhancement
+Reaction yields data
+Specific reaction type Wide reaction space
+(High-throughput experimenta tion data) (ORD1, USPTO2, Reaxys, CAS)
+• high-quality • various types of reactions
+• limited set of reactant combi na tions • sparse and noisy
+models trained on such data models trained on such data
+perform very well, but cannot are more unive rsal, but do not
+generalize to other datasets provide high effi cacy
+[1]Kearnes,[surname]etal."Theopenr eactiondatabase."JournaloftheAmericanChemicalSociety143.45(2021):18820-18826.
+[2]Schwaller [surname]etal.“FoundinTranslation”:predictingoutcomesofcomplex organicchemis tryr eactionsusingneuralsequence-to-sequencemodels//Chemicalscience.–2018.–№.28.–С.6091-6098.
+Reaction yields data
+Specific reaction type Wide reaction space
+(High-throughput experimenta tion data) (ORD1, USPTO2, Reaxys, CAS)
+• high-quality • various types of reactions
+• limited set of reactant combi na tions • sparse and noisy
+models trained on such data models trained on such data
+perform very well, but cannot are more unive rsal, but do not
+generalize to other datasets provide high effi cacy
+[1]Kearnes,[surname]etal."Theopenr eactiondatabase."JournaloftheAmericanChemicalSociety143.45(2021):18820-18826.
+[2]Schwaller [surname]etal.“FoundinTranslation”:predictingoutcomesofcomplex organicchemis tryr eactionsusingneuralsequence-to-sequencemodels//Chemicalscience.–2018.–№.28.–С.6091-6098.
++ =
+The aim of the research is to investigate how LLMs perform in reaction yield prediction task
+without binding to a specific reaction type.
+Objectives
+Prepare Few-shot LLMs Insights and
+datasets classification embeddings discussion
+classification
+Random sampling Fingerprints + UMAP + HDBSCAN
+ORD-С
+ORD-R
+7314 reactions
+5300 reactions
+Figure 2: Visualization of
+clustering results performe d
+on the original ORD dataset
+Figure 3: Visualization of the
+Figure 1: Visualization of the ORD-R dataset ORD-C dataset
+Table 1: Characteristics of the obtained datasets
+Train size Test size Validation size
+USPTO-C 8929 100 300
+USPTO-R 10900 100 300
+ORD-C 6914 100 300
+USPTO-R USPTO-С
+ORD-R 4900 100 300
+11300 reactions 9329 reactions
+Figure 5: Visualization of
+Figure 4: Visualization of the Figure 6: Visualization of the
+clustering results performe d
+USPTO-R dataset USPTO-C dataset
+on the original USPTO dataset
+Table 2: Performa nce of
+baselines and LLMs in precise
+yield values prediction
+Thrashold? Not high-yieldi ng High-yielding
+• all thrasholds show stable
+performance
+• 70% - to reduce classes
+imbalance
+Figure 7: The division of
+datasets into classes (using the
+70% example of the USPTO-R data)
+Data formats Sampling of examples Instruction prompt
+SMILES strings
+Similarity sampler
+You are an expert chemis t. Your
+NN.O=C(Cl)c1c(F)ccc(F)c1F>CCO.C k reactions with Tanimoto similarity
+task is to predict reaction yi elds
+O.ClCCl.O>NNC(=O)c1c(F)ccc(F)c1F ≥ 0.8 (for SMILES)
+based on text descriptions of
+Examples Tanimoto similarity organic reactions. You can onl y
+predict whether the reaction is
+reaction 1 0.95
+'High-yielding' or 'Not high-
+reaction 2 0.91
+yielding'. 'High-yielding' reaction
+reaction 3 0.82
+means the yield rate of the
+Hydrazine and 2,3,6-trifluo robenzoyl
+reaction is above 70%. 'Not high-
+chlore react together in the
+yielding' means the yield rate of
+presence of ethanol, methanol,
+the reaction is below 70%. You will
+dichloromethane, oxidane to produce
+be provided with several examples
+2,3,6-trifluo robenzohydra zide.
+of reactions and correspondi ng
+yield rates. Please answer with onl y
+Examples Category
+'High-yielding' or 'Not high-
+reaction 1 High-yielding
+yielding', no other information can
+reaction 2 Not high-yielding be provided.
+reaction 3 random
+Number of shots
+k={2, 4, 6, 8, 10}
+Table 3: Compara son of prompti ng
+strategi es. For each LLM, onl y
+re sults with the best k (superscript)
+are included.
+The best prompti ng strategy
+is textu al data format +
+Random sampler.
+Claude 3 Haiku and Mistral
+Figure 8: Compara son of Small provide top
+different LLMs with the
+performa nce in terms of
+following prompti ng strategy:
+predictive ability and cost.
+text descriptions, Random
+sampler
+Table 4. Compara son of LLMs performa nce and baseline approa ches in reaction yield prediction.
+*zero-shot results; **deter mini stic models results
+3
+↑ 3% ↑ 2% ↑ 3%
+LLMs provide on par or Standard deviations of LLLMs
+even better performa nce metrics are sometimes lower
+than baselines on complex than those of baselines,
+USPTO-R datasets indicating stability.
+Table 5: Resul ts of classification based on LLLM embeddings of reactions
+4096 D
+3072 D
+4096 D
+Table 6: Compara son with baseline models’ embeddings
+Are LLLMs
+embeddings the
+novel SOTA reaction
+repr esentations?
+LLMs show vast differences in
+repr esentation of chemi cal space
+One forgotten LLM that shows SOTA
+performa nce for domain task
+Once popu lar,
+now forgotten small
+lan gua ge models still
+deliver SOTA performa nce
+New paradigm: training new
+models gets substi tuted
+with selecting
+pretrained ones
+Ocean of consta ntly
+releasing LLMs
+GitHub repo
+Accepte d to AI2ASE
+workshop at
+Next submi t to Multimodal yield
+LLM ensembles for prediction using
+predictive LLLM embeddings
+chemistry as one of the
+modalities

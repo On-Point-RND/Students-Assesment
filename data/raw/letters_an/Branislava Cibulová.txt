@@ -1,0 +1,59 @@
+[name] [surname]
+Engineering Systems
+[location]
+[email]
+Dear [name] Admissions Committee,
+I am writing to express my enthusiastic interest in participating in the SMILES machine learning school. As a first-year Master’s student in Engineering Systems at [location],
+my research and professional experiences align closely with the school’s focus on
+cutting-edge AI methodologies, particularly efficient learning of large language models
+(LLMs) and topological data analysis (TDA). The opportunity to engage with renowned
+experts like [name], [name], and [name]—whose work bridges
+theoretical AI with real-world applications—is a compelling motivator for my application.
+Academic and Research Alignment
+Under the guidance of Professor [name] at [location], I am currently
+developing transformer-based architectures to classify movement patterns in stroke patients
+for motor recovery applications. This work involves adapting models like
+LIMU-BERT—originally designed for multivariate time-series data from IMU/sEMG
+sensors—to operate efficiently on resource-constrained devices through quantization and
+distillation. My hands-on experience with neurophensiological data, coupled with my
+coursework in neuroimaging and reinforcement learning, fuels my ambition to explore
+AI-driven solutions for medical robotics and brain-machine interfaces.
+The SMILES school’s emphasis on topological data analysis resonates deeply with
+my recent project on persistence homology for protein language models. By vectorizing
+barcode derived from amino-acid sequences using persistence landscapes and training
+classifiers with PyBoost and SVM, I demonstrated how TDA can enhance interpretability in
+biological ML systems. Attending lectures by [name], a pioneer in topological
+methods, would provide invaluable insights to advance this work.
+Technical Expertise and Practical Skills
+My professional background further equips me to contribute meaningfully to the
+SMILE community:
+Machine Learning Engineering: Optimized graph neural networks
+(Spektral/TensorFlow) for disease spread prediction and designed RAG systems for DNA
+sequence harmonization using FAI SS and BM25.
+Software Development: Built secure APIs with Spring Boot/JWT and PDF processing
+tools, ensuring scalable and robust ML pipelines.
+Hardware Integration: Programmed ROS2-based navigation systems for robotics
+competitions and soldered custom sensor circuits for real-time data acquisition.
+These experiences reflect my ability to bridge theoretical concepts with engineering
+pragmatism—a skill I aim to refine through SMILES’ interdisciplinary curriculum.
+Global and Collaborative Readiness
+Having completed an exchange semester at [location] and holding IELTS 7.5
+(C1 English) and D A LF C1 French certifications, I thrive in multicultural academic
+environments. My HSK3-level Chinese further positions me to engage productively during
+the school’s residency in China.
+Future Goals
+Post-graduation, I intend to pursue a PhD focused on AI in neuroprosthetics,
+integrating reinforcement learning for surgical robotics and topological analysis of neural
+data. The SMILES school’s workshops on efficient LLM training and advanced TDA
+techniques will directly support this vision, offering tools to optimize model performance and
+interpretability in medical contexts.
+Why SMILES?
+The school’s focus on innovation at the intersection of theory and practice mirrors my
+own approach to research. Learning from [name] and [name] (Trustworthy
+AI) would empower me to tackle challenges like real-time inference on edge devices and
+robust feature extraction from noisy biomedical datasets.
+Thank you for considering my application. I am eager to contribute my technical rigor
+and collaborative spirit to the SMILES community while gaining transformative knowledge
+to advance my research in AI-driven healthcare.
+Sincerely,
+[name] [surname]

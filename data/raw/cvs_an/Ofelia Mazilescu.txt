@@ -1,0 +1,52 @@
+[name] [surname]
+ML-DEVELOPER
+[location] · telegram: @[name]
+[email] · [email] · https://github.com/[name]
+ABOUT ME
+I design tools for automated machine learning tasks. Developed a solution for time series forecasting that combines graph neural networks with recurrent architectures. Additionally, I published a method for generating time series data with spatial dependencies, aimed at improving forecasting performance. Currently, I am expanding my expertise in natural language processing: studying the theory and architecture of existing open-source models, with the goal of contributing original solutions to the field.
+WORK EXPERIENCE
+SEP 2024 – PRESENT
+RESEARCH ASSISTANT
+NATIONAL CENTER FOR COGNITIVE DEVELOPMENT,
+[company] — [location]
+Developing a tool for analyzing and selecting data meta-features, aimed at enhancing automated machine learning (AutoML) pipelines. Researching methods for synthetic tabular benchmark generation. Designing a method to generate tabular datasets with predefined meta-feature properties.
+Project repository: https://github.com/IITMO-NSS-team/MetaSelect
+Tools: Python, NumPy, scikit-learn, PyMFE, Statsmodels, SciPy, Optuna, PyTorch, Git.
+OCT 2023 – AUG 2024
+MACHINE LEARNING INTERN
+[company] — [location]
+Developed neural network models for time series forecasting on both static and dynamic graphs using spatio-temporal graph neural networks (SSTGNNs). Designed architectures combining graph neural networks (for structure-aware embeddings) with recurrent neural networks (for temporal prediction). Conducted a thorough literature review on related approaches; implemented and compared classical and neural forecasting models. Performed experiments with various model architectures and forecasting strategies to assess better performance and generalization.
+Tools: Python, PyTorch, PyTorch Geometric, Git.
+Designed the generation method for synthetic time series with spatial dependencies. Implemented the software and conducted testing of the application. Published a research paper based on the results of this work.
+Project repository: https://github.com/stil-mmo/time-series-generator
+Tools: Python, NumPy, matplotlib, hydra, scikit-learn, pytest, Git.
+APR 2022 – JUN 2023
+COMPUTER VISION DEVELOPER
+COMPUTER VISION SYSTEMS — [location]
+Developed a classical computer vision method in Kotlin for matching duplicate end faces of round timber using JavaCV and the SIFT algorithm. Created optimization methods for 3D reconstruction of road traffic based on images, utilizing COLMAP. Designed an object tracking algorithm for matching tracks from single and multiple cameras using SuperPoint/SuperGlue.
+Tools: Python, OpenCV, NumPy, Git, Docker, Bash, SQL.
+PROJECTS
+OCT 2021 – DEC 2021
+EDUCATIONAL GAME DEVELOPMENT
+TICS LAB — [location]
+Defined the concept, core mechanics, and code architecture for a game. Designed the interaction logic between the player and non-playable characters (NPCs). Implemented the player control logic in the game prototype.
+Tools: C# (scriptiing), Unity (scene creation, object design, script binding).
+JUN 2021 – AUG 2021
+DESKTOP VERSION DEVELOPMENT FOR "AUTOMATA CONSTRUCTOR"
+[location],
+FACULTY OF MATHEMATICS AND MECHANICS
+Developed asynchronous data serialization and created a class for asynchronous commands. Implemented component-based loading and saving of automata.
+Tools: C#, GraphX (graph visualization).
+EDUCATION
+SEP 2020 – PRESENT
+BACHELOR’S STUDENT
+[location],
+FACULTY OF MATHEMATICS AND MECHANICS
+4th year of the Bachelor's program in Programming Technologies.
+SKILLS & TECHNOLOGIES
+ Python  PyTest / Black / Pylint / MyPy
+ PyTorch / PyTorch Geometric  Kotlin / Ktor / Kotest
+ NumPy / Scikit-learn / SciPy / Statsmodels  Git / Gitlab
+ Pandas / Matplotlib  Postman
+ OpenCV / JavaCV  Docker
+ GNND / Time series forecast  Linux / Bash

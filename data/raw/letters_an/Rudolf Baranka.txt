@@ -1,0 +1,18 @@
+Motivation Letter for SMILES
+[name] [surname]
++2 *** *** ***
+tg: @[name]ig
+[email]
+April, 2025
+Dear Admissions Committee,
+I am excited to apply for the SMILES as it presents a unique opportunity to broaden my horizons in AI and collaborate with like-minded individuals. With a strong foundation in ML and DL, I am eager to be a part of this intensive program. Below, I outline my motivation, technical background, expectations from the school, and future aspirations.
+My passion for AI stems from its transformative potential across industries and its ability to reconsider the common way of life. While I have gained substantial theoretical knowledge through my academic studies, I realise the importance of hands-on, project-based learning to bridge theory and real-world applications. This summer school aligns perfectly with my goals as it provides cutting-edge curriculum, practical challenges and collaborative environment
+Through coursework and personal projects, I've completed a lot of ML projects which include data preprocessing, model training, and performance optimization, as well as DL (CNNs (Computer Vision), RNNs/LSTMs, Transformers (NLP applications)), Big Data and Advanced Python projects.
+I am a Research Intern at the [compaany] International Laboratory of Bioinformatics. Currently, I am focusing on the neural network interpretation algorithms. Our team is preparing a publication on the topic “Robust Genomic Feature Selection Pipeline using an Ensemble of XAI Methods”.
+My long-term goal is to become an AI Researcher or AI Engineer, that is why I believe this program will provide the perfect environment to enhance my skills and collaborate with the first class experts.
+I am confident that my technical background, enthusiasm for AI, and collaborative mindset make me a strong candidate for this program. Thank you for considering my application.
+Sincerely,
+[name] [surname]
+
+
+

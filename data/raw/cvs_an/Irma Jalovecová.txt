@@ -1,0 +1,57 @@
+[name] [surname]
+[email] (cid:211) +2 *** *** ***
+(cid:135) https://github.com/[name][surname]/EastChatBot
+[location]
+EDUCATION SKILLS
+Lomonosov [company] Programminglanguage: Python
+ComputationalLinguistics(Master’s)
+Methods: Prompt-engineering LLM fine-tuning RAG
+Keysubjects:MachineLearning,NLP,Theoretical Linguistics Libraries: Numpy Pandas Pytorch Scikit-learn Matplotlib
+(cid:17) 2022-2024
+[company]
+ML RESEARCH
+Linguistics(Bachelor’s)
+Keysubjects:English,TeachingMethodology My master’s thesis AutomaticGenerationofVocabularyExercisesBased
+(cid:17) 2018-2022 onTextsforUseinRussianasaForeignLanguageClasses explores the
+potentialofLLMsbothwithan dwithout fine-tuning for generating
+educationalcontent.
+EXPERIENCE
+Usingada datasetoftextsfrom[location]asaForeignLanguagetextbooks,
+I fine-tunedruBERT-largetoclassifytextsbydiffi cultylevel(A1–C2),
+[company] | Any: Data Scientist
+andalsotrainedYandexGPTandLlama-3togeneratetexts tailoredto
+(cid:17) sinceApril2025 specificprofi cie ncylevels.
+DevelopinginternaLLM-basedtoolsfordata Wonaresearc hpapercompe titio nbypresentinginteri mr esults of
+generationandclassification theresearch(competi tionconducteda spar tof the[compa ny] course Neural
+NetworksandThei rApplicationsinScienti ficResearch)
+[compa ny] | Any: computational lin gui st
+SUMMER SCHOOLS
+(cid:17) August2024–April2025
+• settin gupth e researchsystemfornewclients SMILES-2024 ([location] )
+duringintegrationandmaintainingthesearch
+quali t yforcurrentclients.Communicatingthe A12-dayML coursefrom[location],focusedo nLLMs,multimodal
+produc tvalueandtheworkresultstoclientsin approa ches,multi-agentsystems,etc.
+face-to-facemeetin gs
+As part of the school, therewasahackathon,whereourteamtook3rd
+• consultingt he DataScience teamonsearch placewiththeprojectRAGwithadditional informationon embedding
+qualityand jointlydeveloping pipelines functionalityand jointlydeveloping pipelines
+forAItoolsthatsignific antlyacceleratethe
+linguisticteam’s workandimproved searchq uality.
+HA C KATHONS
+Developingan evaluationsystemtoassess the
+quali t yof the generated content AI Product Hackathon
+• usinga nd adapting existing Python-scriptsf or
+(cid:17) 2024
+routingtasks
+• 2nd placefordevelopinga chatbot to searchfor informationinAsia nmedia
+Language Tutor
+Rolesintheteam:full-stackdeveloper,NLP-engineer Toolsandmethods:YandexCloud(YandexGPT,YandexEmbeddings),
+TeachingEnglish,Russian,Russianasafor eig nlangua geandcreatingeducationalma terials RAG,Gradio
+CERTIFICATION
+LANGUAGES
+• Neural NetworksandTheirApplicationsinScientific
+Russian:native English:B2+ French:A2
+Research([compa ny])
+• DeepLearningSchool,part1([compa ny])
+• BasicsofPython([compa ny],Coursera)
+• TeachingRussia nasaForeig nLanguage([compa ny])

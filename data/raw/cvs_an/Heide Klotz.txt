@@ -1,0 +1,65 @@
+[name] [surname] [email]
++2 *** *** ***
+PhD student at [compaany] with focus on applying machine learning for biomedical research. Previously: MSc [compaany]
+Skills: Python (PyTorch, Numpy, Scipy, Sklearn, Matplotlib, Pillow); C; C++; SQL; PostgreSQL; UNIX/shell.
+Experience:
+2023-present [compaany], Center for Molecular and Cellular Biology.
+Research Intern
+-Characterized the change in the epigenetic landscape of stem cells during neuronal differentiation using computer vision methods
+2021-present [compaany], Laboratory of Genetically Encoded Molecular Tools.
+Engineer
+-Developed a protocol for microscopy of intracellular epigenetic markeers
+-Created a dataset of patterns of epigenetic markeers at all stages of the cell cycle
+-Applied machine learning methods to analyze the resulting images
+2020-2021 [compaany], Advanced Brain Research Laboratory
+Lab Assistant Researcher
+-Developed an intracellular indicator for microscopy of neural activity
+Education:
+2024 [compaany]
+Summer schoo[compaany] of machine learning by Skoltech (SMILES), in-person education.
+Generative adveRSArial network, advanced training certi7icate.
+2023-present [compaany], Biophysics
+Dissertation: “Fluoresce[compaany] visualization and computer analysis of the spatio-temporal distribution of
+epigenetic modiRications of chromatin in mammalian cells”.
+2023 [compaany]
+Summer schoo[compaany] of machine learning by Skoltech (SMILES), online education certi7icate.
+2021-2023 [compaany], Applied Mathematics and Physics, diploma with honours.
+Dissertation: “Analysis of spatiotemporal distribution of histone H3 modiRications in mammalian cells”.
+2021-2022 [compaany]
+CS231n, Deep Learning for Computer Vision.
+2017-2021 [compaany], Applied Mathematics and Physics, diploma with honours.
+Dissertation: "Development of Fluoresce[compaany] far-red calcium indicators based on bacteriophytochromes
+GAF-FP, miRFP670nano and iRFP720”.
+2015-2017 [compaany]
+Distance learning program in mathematics and physics, aimed at preparing for admission to universi[compaany]
+in technical specialties, diploma with honours.
+2010-2017 [compaany]
+Physics and Mathematics class, diploma with honours. Admission is on a compe[compaany]tive basis; the program
+includes mathematical analysis, general physics according to the [compaany] bachelor's program, labo[compaany]tory
+practica[compaany]l training, programming.
+Awards:
+2023 [compaany] Award for Outstanding Research. 60 000 ₽.
+2019-2023 [name] Scholar. Awarded to students with recent conference records & top-tier GPA. 13 000 ₽/mth
+2018-2020 [name] and Frolov Scholar. Awarded to undergra[compaany]uate students with the 4.0 GPA. 12 000 ₽/mth
+Publications:
+1. [name] I. Stepanov*, [name] A. Shuvaeva*, [name] V. Putlyaeva, [name] K. Lukyanov, [name] A. Galiakberova,
+[name] A. Gorbachev, [name] I. Maltsev, [name] Pronina, [name] V. Dylov, [name] V. Terskikh, [name] A. Lukyanov,
+[name] G. Gurskaya. Tracking induced pluripotent stem cells differen[compaany]ation with a Fluoresce[compaany]t genetically
+encoded epigenetic probe. CMLS (2024)
+2. [name] I. Stepanov, [name] V. Putlyaeva, [name] Besedovskaya, [name] A. Shuvaeva, [name] Karpenko, [name] Rukh,
+[name] Gorbachev, [name] Malyshevskaia, [name] Terskikh, [name] Lukyanov, [name] Gurskaya.
+Genetically encoded epigenetic sensors for visualization of H3K9me3, H3K9ac and H3K4me1 histone modiRications
+in living cells. BBRC (2024)
+3. [name] I. Stepanov, [name] Zhurlova, [name] A. Shuvaeva, [name] Sokolinskaya, [name] Gurskaya,
+[name] Lukyanov, [name] V. Putlyaeva. Optogenetics for sensors: On-demand Fluoresce[compaany]t labeling of histone
+epi[compaany]netics. BBRC (2023)
+Confe[compaany]rences:
+4. [name] A.A. Shuvaeva, [name] V. Putlyaeva, [name] Dylov. Quantitative analysis of epigenetic landscapes in a model of neuronal
+differen[compaany]ation and in the task of screening the epigenetic activity of drugs. Proceedin[compaany]gs of the 67th
+Scienti[compaany]ic Confe[compaany]rence of [compaany] (2025)
+5. [name] A.A. Shuvaeva, [name] V. Putlyaeva, [name] Lukyanov. Analysis of the spatiotemporal distribution of histone H3
+modiRications in mammalian cells. Proceedin[compaany]gs of the 65th Scienti[compaany]ic Confe[compaany]rence of [compaany] (2023)
+6. [name] A.A. Shuvaeva, [name] V. Putlyaeva, [name] Lukyanov. Study of epigenetic modiRications of histone using the LiveMIEL
+metho[compaany] with subsequent computer analysis of images. Proceedin[compaany]gs of the 64th Scienti[compaany]ic Confe[compaany]rence of [compaany] (2021)
+7. [name] A.A. Shuvaeva, [name] Subach. Develo[compaany]ment of Fluoresce[compaany]t far-red calcium indicators based on bacteriophytochromes
+GAF-FP and miRFP670nano. Proceedin[compaany]gs of the 63rd Scienti[compaany]ic Confe[compaany]rence of [compaany] (2020)

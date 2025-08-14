@@ -1,0 +1,39 @@
+[name] [surname]
+Work
+Intern researcher in the Cell Signaling of biological Laboratory •
+Development of mathematical models systems, pharmacokinetics
+of drugs • [compaany], [location]
+Junior researcher in the Department of " Criminalistics " •
+Development of PCR based test systems for creating forensic kits
+• [compaany]
+Intern Researcher Center for Molecular and Cellular Biology •
+Development of a mecanistic model of aging based on protein
+aggregates • [compaany]
+Ter.Leninskie gory, 1B
+Higher education
++2 *** *** ***
+[compaany], [location]
+ [compaany], [location] Faculty of Physics, Department of
+[email]physics.[email]
+Medical Physics, GPA-4.4; full-time education, specialty (2026)
+[email]
+Additional education
+IstinaResearcherID (IRID): 655430911
+[compaany], [location]
+ Faculty of Bioengineering and Bioinformatics, course
+"Machine Learning in protein Design", 2023
+ Inter-faculty course "Machine Learning"
+[location], "Applied Bioengineering and Bioinformatics", advanced training program, 56 academic hours (2024), "
+Development of bioinformatics pipelines ", advanced training program, 72 academic hours (2025)
+Conferences and Commercial projects
+ AYSS (best poster presentation)
+ International Scientific Conference of students, postgraduates
+and young scientists "[compaany]-2024" (best oral report in
+the section "Medical Physics")
+ A commercial project with [compaany] to test fillers based on
+high-molecular-weight cross-linked hyaluronic acid.
+Additional information
+Date of birth: 05.12.2002 (22 years old), English (C1)
+
+
+

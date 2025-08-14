@@ -1,0 +1,70 @@
+Trainable Vector Quantization
+for Large Language Models
+[name] [surname], et. all.
+2025
+Large Language Models quantization: Motivation
+Problems:
+● The Memory Wall Problem [1]
+● Inference speed
+Current solution:
+● Quantization
+Extreme LLM compression via Vector Quantization
+● More than 99% of parameters are in linear layers matrices.
+● Compression is achieved by replacing the original vectors with their correspondiing
+cluster indices and storing only indices and the codebook insteaad of the original set.
+● VQ LLM weight compression is much more efficient in case of low-bit quantization (2
+bit/weight and lower) than scalar weight compression.
+Vector Quantization limitations
+● The acceleration is smaller than in scalar quantization.
+● Requires support for fast look-up-table operations for fast inference.
+● Hard to optimize/finetune vector quantized models:
+○ Indices are discrete and can’t be optimized using gradient descent.
+Trainable Vector Quantization (TTVQ): Idea
+Matrix is represented as set of d-dimensional vectors
+VQ matrix representation
+TTVQ
+TTVQ Method Overview
+● During optimization, 3 matrices are updated: indices matrix I containing discrete values, the latent weight
+matrix W and codebook C containing continuous values.
+● After training, only the compressed representation consisting of C and I is stored and used for inference
+insteaad of the original weight matrix W.
+Post Training Quantization pipeline
+1) Block-wise Knowledge distillation
+○ Blocks are trained sequentially, no gradient
+computation through the entire model is
+required
+○ Only original full precision model is used
+2) Parameter-efficient fine-tuning
+○ Trainable parameter number - less than 1% of
+the original model parameters
+○ No resource-intensive pre-training required
+Results
+Results
+[2]
+[3]
+[4]
+[5]
+[6]
+Key advantages of TTVQ
+● State-of-the-art efficient LLM compression.
+● Easy to implement.
+● Complement other vector quantization methods.
+Thank you.
+References
+[1] [name], [surname]. AI and memory wall. IEEE Micro, pp. 1–5,
+2024.
+[2] [name] et al. Efficientqat: Efficient quantization-aware training for large language models // arXiv preprint
+arXiv:2407.11062. – 2024.
+[3] [name] et al. ReALLM: A general framework for LLM compression and fine-tuning //arXiv preprint arXiv:2405.13155.
+– 2024.
+[4] [name] et al. Vptg: Extreme low-bit vector post-training quantization for large language models // arXiv preprint
+arXiv:2409.17066. – 2024.
+[5] [name] et al. Extreme compression of large language models via additive quantization // arXiv preprint
+arXiv:2401.06118. – 2024.
+[6] [name] et al. Quip#: Even better llm quantization with hadamard incoherence and lattice codebooks // arXiv preprint
+arXiv:2402.04396. – 2024.
+Results: Ablation
+● Updating the indices using a trained latent weight significantly
+improve the quality of the indexes.
+● Codebook training can be detrimental to the final quality with
+super low bit compression

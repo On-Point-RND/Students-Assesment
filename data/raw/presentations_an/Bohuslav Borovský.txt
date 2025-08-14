@@ -1,0 +1,64 @@
+[name]
+[compaany]
+Machine learning for breast cancer prediction
+
+Introduction
+
+Breast cancer is the most common malignant disease diagnosed in women worldwide. The prevalence and incidence of breast cancer is increasing every year. Early diagnosis of breast cancer is critically important for improving patient survival. 
+Cytokines are known to play an important role in the processes of immunomodulation, and dysregulation of their levels in blood and tissues is associated with the appearance of various types of tumors. Thus, cytokine analysis can serve as a non-invasive biomarker for cancer detection, complementing traditional methods (such as mammography and biopsy). 
+In recent years, machine learning methods have been increasingly used in medical diagnostics, making it possible to identify complex patterns in biomedical data. 
+ 
+Goal of the work is to compaare different machine learning algorithms to select the best model for classifying patients into groups of breast cancer and benign breast diseases based on data on blood cytokine concentrations.
+
+Problem statement
+
+Problem: Existing diagnostic methods may be expensive, invasive, or not accuraate enough. 
+Scope: Breast cancer is one of the most common cancers in women. Using available biomarkers (cytokines) can simplify screening.
+Machine learning models are widely used to predict breast cancer due to their ability to analyze complex medical data and identify patterns.
+
+Methods
+
+ 104 patients with primary Breast Cancer
+ 47 patients with 
+Benign Breast Disease
+Training data
+n=180
+Testing data
+n=54
+SMOTE - balanced data
+Сoncentration of cytokines in blood serum (ELISA) in pg/ml:
+IL-6; IL-8; IL-10; IL-17; IL-18; IL-1b; TNFa; IFNg; G-CSF; GM-CSF; VEGF; MCP1
+Machine Learning
+patients who had not received chemotherapy/radiotherapy/endocrine therapy 
+Voting
+
+Results
+
+The best models
+
+Results
+
+Feature importances
+The most important feature
+
+Research gap
+
+Further research may be aimed at:
+1. Increasing the sample size of patients
+2. Adding patients' clinical data to the analysis
+3. Study of the temporal dynamics of changes in cytokine concentration
+4. Comparison with DL: Boosting can be inferior to deep neural networks (for example, CNN/Transformer) in detecting complex patterns.
+The results obtained are important for the development of noninvasive breast cancer diagnosis methods and can be used as an additional tool in clinical practice.
+More detailed information and the project implementation code are available at the link:
+https://github.com/[name]/BC-detection-serum-cytokines-/tree/5b0547c252c2ca77a59363eee47aa38baa54a3c6
+
+Y. Zhu, Y. He, C. Chen, J. Zhang, X. Yang, Y. Lu, Y. Chen, W. Zhao. Development of a nomogram based on serum cytokine-related riskscore in breast cancer. Frontiers in Oncology, 2023.  
+A. Demir, H. Sevik, M. Guler, F. Turkoglu, C. Cakir, M. Sevinc, E. Kinaci, U. Idiz. Blood Cytokine Profile in Breast Cancer: Focusing on Differences among Molecular Subtypes. Iranian Journal of Immunology, 2024. 
+D. Zuo, L. Yang, Y. Jin, H. Qi, Y. Liu, L. Ren. Machine learning-based models for the prediction of breast cancer recurrence risk. BMC Medical Informatics and Decision Making, 2023. 
+X. Zhao, C. Jiang. The prediction of distant metastasis risk for male breast cancer patients based on an interpretable machine learning model. BMC Medical Informatics and Decision Making, 2023. 
+X. Xiong, L. Zheng, Y. Ding, Y. Chen, Y. Cai, L. Wang, L. Huang, C. Liu, Z. Shao, K. Yu. Breast cancer: pathogenesis and treatments. Signal Transduction and Targeted Therapy, 2025. 
+P. Sosnowska-Sienkiewicz, D. Januszkiewicz-Lewandowska, P. Mańkowski. Benign and malignant breast lesions in children and adolescents - diagnostic and therapeutic approach. Frontiers in Pediatrics, 2024.  
+H. Arachchi, A. Samarasinghe, H. Pathirana, G. Samarasinghe. Comparative Performance Analysis of machine learning models for Breast Cancer Prediction. IEEE Conference Proceedings, 2024. 
+T. Rajendran, J. Aswini, S. Rajathi, R. Prakash, C. Balakrishnan, S. Subramanian. Risk Prediction Modeling for Breast Cancer using Supervised Machine Learning Approaches. IEEE Conference Proceedinggs, 2023.  
+
+Bibliography

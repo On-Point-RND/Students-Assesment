@@ -1,0 +1,61 @@
+The Power of Scale for
+Parameter-Efficient Prompt Tuning
+[name]
+[compaany]
+Introduction
+• Practical implementation of Prompt Tuning: from theory to code
+• Modern languaage models (LLM) contain billions of parameters, and their complete fine-tuning requires huge computing resources.
+• Prompt Tuning is a method that allows you to adapt a model to a specific task by training only a small set of parameters (prompt), while
+the model itself remaiins frozen.
+• According to the results of the article, it was possible to configure Llama-7B for certain tasks, affecting <1% of weight with limited gpu
+memory (using only [location]!)
+Problem statement
+• We want to use llm to solve specific tasks.
+• But we have limited GPU and time
+• It is also important to maintain the overall competence of the model.
+Main components
+(A) Prompt Tuning
+• Goal: To teach the model to change behavior through learnable "soft promptings" without updating
+its parameters.
+•Implementaion:
+•The WordEmbeddingsWithLearnedPrompts class adds learnable promptings to the embeddings
+of input tokens.
+•The model (Llama-7B) is frozen, only prompta are updated.
+•Example: The model retrains to say that "the fox did not jump over the dog."
+Main components
+(B) LoRA (Low-Rank Adaptation)
+•Goal: To effectively customize the model by adding low-rank
+adapters to
+the linear layer.
+•Implementaion:
+•The LoRALayer class adds adapters to the q_pro, k_pro, and vpro
+layers in Llama.
+Only the adapter_A and adapter_B matrices are updated, not the
+original weights.
+Technical optimizations
+•4-bit quantization: Reduction of suspension memory ( load_in_4
+but=True).
+•Gradient checkpoint: Saves memory when calculating gradients
+( gradient_checkpointiing_enable() ).
+• Automatic task shifting: Multitasking support via peft.
+Results
+(A) Changing the behavior of the model
+• Task: Make the model deny that "the fast brown fox jumped over the lazy dog."
+• Method: Training 16 prompts on frozen Llama-7B.
+Results
+(B) Python code generation
+• Task: Configuring Lama-7B for code generation
+(codeparrot-clean dataset).
+• Method: Applying LoRA to layers of attention +
+optimization (4-bit quantization).
+Bibliography
+1. The Power of Scale for Parameter-Efficient Prompt Tuning paper https://arxiv.org/abs/2104.08691
+2. How post-training quantization works: https://arxiv.org/abs/2208.07339
+3. An overview of running large models:
+https://huggingface.co/docs/accelerate/package_reference/big_modeling
+4. A general library for different adapter types: https://adapterhub.ml/
+repository with article reproduction
+https://github.com/ramzzes13/smiles
+https://colab.research.google.com/drive
+/15r_zxeWP-wCbXmRtbd4QZP3qdMdk
+Och2?usp=sharing

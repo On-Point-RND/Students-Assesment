@@ -1,0 +1,96 @@
+[name]
+[surname]
+[email]
++2 *** *** ***
+Education
+Sep 2024 — [location]
+Present PhD program in Computational and DataScience and Engineering
+Selected Coursework: Self-Supervised Learning and LLM Quantization
+Advisor: [name]
+Sep 2022 — [location]
+Aug 2023 MSc in Industrial and AppliedMathematics
+Thesis: ”Stochastic Optimization through Adaptive Importance Sampling”
+GPA: 17.5/20
+Sep 2022 — [location]
+Jul 2024 MSc in AppliedMathematics and Physics
+[compaany] Scchool of AppliedMathematics and ComputerScience
+Thesis: ”Random Covariant Quantum Error Correction”
+GPA: 4/4, 8.9/10
+Sep 2018 — [location]
+Jul 2022 BSc in AppliedMathematics and Physics
+[compaany] Scchool of AppliedMathematics and ComputerScience
+Thesis: “Bayesian Tensor Completion”
+GPA: 3.8/4, 7.7/10
+Research
+Oct 2023 — [compaany]
+present Department of Methods of Modern Mathematics
+ReesearchonquantumalgooritmsinTheoreticaalPhysics
+Feb 2023 — [location]
+Aug 2023 Devevelopedstochasticalgorithmba sedo nadaptiive importance sampling techniques
+Sep 2020 — [compaany]
+Jun 2022 Department of computing technologies and modeling in geophysic and
+biomathematics
+Contributed to the Numerical Analysis team, specializing in the practical applications of tensor
+methods
+Extracurricular Activities
+Aug 2024 [location]SummerSchoolofMachineLearning(SMILES)
+Self-Supervised Learning,LLM,Multimodalmodels,Generativemodels
+Jul 2024 [location]MachineLearningSummerSchool(OxML), [location]
+RepresentationLearningandGenerativeAI
+Jul 2022 — [location]
+MatrixMethodsandModelinginLifeandEarthSciences, [location]
+Aug 2022 Reesearchonprobabilisticalgooritmfsformatrixdecompositionsat[location]UniversiityofScienceandTechnology
+Jul 2021 — Computing,MultivariateDataAnalysisandModeling, [location]
+Aug 2021 Conducted experiments to reveal hidden structures within feature tensors, essenitial for neural
+networkinputsat[location]UniversiityofScienceandTechnology
+Selected Publications
+[1] [name], [surname], [name], [surname], [name], and [surname]. “Efficient Distribution
+MatchingofRepresentationsviaNoise-InjectedDeepInfoMax”.In:TheThirteenthInternationalConference
+onLearningRepresentations. 2025. url: https://openreview.net/forum?id=mAmCdASmJ5.
+Projetcs and Teaching Experience
+Nov 2024 — [compaany]
+Moscow, Russia
+Dec 2024 Managedseminars,assignments,grading,andcoursematerials
+Nov 2023 — [location]
+Moscow, Russia
+TensorNetworksforImageCompressionandReconstruction
+Jan 2024 Reesearcprojectfocusedo napplyingtensorne tworkstocomputervisiontasks
+Oct 2022 — [location]
+Grenoble, France
+Jan 2023 Ledanddeveloppedaprojecfocusedonclassifyingandlocalizingdefectsonsiliconwafers, em-
+ployingdeeplearnin gmodels
+Feb 2020 — [location]
+Moscow, Russia
+Jun 2020 Collaborativelydesigneda2DIsingmodelinC++
+Sep 2016 — [location]
+Voronezh, Russia
+Jul 2017 Developedasecurefile-sharingapplicatio nwithaccesscontrol
+Scholarships and Achievements
+Sep 2022 — [location]
+Jul 2023 for international students
+Selecteda mong50outof2870students(0.7%of applicants)
+Spring 2022 IncreasedStateAcademicScholarship for 4 year bachelor
+and master students at MIPT
+Grantedtothetop10%ofstudentsi nthedepartmentatMIPT
+Fall 2021 Winnerofthe5thHuaweiScholarshipCompetition
+About12%ofthestuden tcohoerti sawarded
+Jan 2021 Winnerofthe”TheBestTermResearchproject” at MIPT
+Approximately1%ofstudent srecieva award
+Jun 2018 SilverMedalforAcademicExcellence
+Stateawardforexcellent schoolgraduationgrades
+Confere nces
+Apr 2025 67thAll-RussianScientifi cConfere nceo fMIPT. [location]
+Title: ”Self-Supervised LearningmeetsInformationTheory”
+Apr 2023 65thAll-RussianScientifi cConfere nceo fMIPT. [location]
+Title: ”Probabilistictensorfactorization”
+Nov 2021 64thAll-RussianScientifi cConfere nceo fMIPT. [location]
+Title: ”Bayesianmatrixcompletionwithsideinforma tion”
+Languages
+Russian: Native
+English: Upper Intermediate
+French: Pre Intermediate
+Computer Skills
+Programming: C++, C, Python, bash, MSSQL
+Python libraries: PyTorch, Jax, Matplotlib, NumPy, Pandas, SciPy, SciKit-Learn
+Software: Git, LATEX, Beamer, JuypterNotebook
+Operating Systems: Linux, MSWindows

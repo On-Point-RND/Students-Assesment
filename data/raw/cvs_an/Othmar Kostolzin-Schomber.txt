@@ -1,0 +1,44 @@
+[name] [surname] Yanovitsky
+[location] (cid:131) +2 *** *** *** # [email]
+~ @[name] [surname] § github.com/[name]
+Education
+Moscow Institute of Physics and Technology ([compaany]), Dolgoprudny, [location]
+• Program Systems: Applied Mathematics and Computer Science (PSAMCS) 2020 – Present
+Average grade: 7.75
+• SberTech Department [compaany] 2024 – Present
+Average grade: 8.2
+Work Experience
+SbierDevice (R&D, Generative AI), [location] 2024 – Present
+• Developing ML solutions for industrial CAD generation using large language models in 3D contexts.
+• Created and maintained cadpac for real engineering operations (Onshape parsing, PythonOCC).
+• Built pipelines (parsing, training) with models such as Qwen7b, Gigachat for 3D tasks.
+• Designed a framework for generative agents to interact in 3D (FSM, vector DBs, Telegram API integration).
+Telemipt (Startup), [location] 2023 – 2024
+• Developed an ML-based system to analyze company tasks and employee performance in construction.
+• Telegram bot environment for real-time task tracking, reminders, workflow automation.
+• PosgreSQL + Redis for data storage; integrated AI modules to optimize task distribution.
+Selected Projects
+CADPac (Industrial CAD Generation)
+• Automates engineering designs from real 3D operations (Onshape + PythonOCC).
+• Enables generative modeling for industrial use-cases.
+• GitHub Link
+Generative Agent Ecosystem ([compaany])
+• Orchestration of multi-agent dialogues, including 3D interactions.
+• datalchemy: ORM + vector DB for agent “memory”.
+• fsm: OOP-based state management.
+• generative agent: Coordinating multi-user context.
+• SberAgents bot: Telegram interface for model inference.
+Telemipt – AI Task Tracker
+• AI-based automation for construction companies.
+• GitHub Link
+• Presentation Link
+Skills
+• ML/DL: PyTorch, TensorFlow, NumPy, Pandas, Matplotlib, NLP, Computer Vision
+• Languages: Python, C++, SQL
+• Databases: PosgreSQL, Redis, Vector DB
+• DevOps: Docker, Docker Compose, Nginx
+• Fullstack/Web: Django (REST), React, Git, CI/CD
+• Other: Neovim (Lua), Godot Engine, Telegram bots
+Achievements & Interests
+• 4-time Russian Karate Champion, European medalist; member of [compaany] football team.
+• Taught a course on Godot (2D/3D game dev) and summer course on Telegram-bot development.

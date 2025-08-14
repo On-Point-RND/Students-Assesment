@@ -1,0 +1,14 @@
+Dear Sir/Madam,
+I am writing to express my interest in Skoltech Summer School of Machine Learning.
+I am currently top-1 student by academic performance at the 3 course of the bachelor’s program “Applied Mathematics and Informatics” at [location], studying on the track “Machine Learning and its Applications”. There I learn about cutting-edge AI technologies and, what inspires me, its practical applications. I am fascinated by the rapid development of large language models in the last years and their remarkable ability to tackle mundane tasks, providing people with endless opportunities for creativity, experimentation and discovery.
+Participation in SMILES-2025 would be a great opportunity for me to delve deeper into the state-of-the-art approaches and practices in this direction and to substantially enhance my knowledge and skills in LLMs.
+My excitement to solve practically important problems led me to join the Laboratory of Matrix and Tensor Methods in Machine Learning at [location] as an intern. My current research focuses on Kronecker product decomposition, which proved to efficiently approximate LLM layers and to reduce memory usage and inference time of these models. There is proposed a new algorithm for finding Kronecker product approximations which provides a more suitable interpretation of the layer approximation error than the standard compression algorithm.
+If selected for SMILES-2025, I would be delighted to present my project’s results to the specialists, interested in model compression, and to discuss possible ways for the project further development.
+Another reason I am interested in machine learning is because this field is full of research problems which require both creativity and solid mathematical reasoning. I enjoy solving such difficult tasks, and aim to build a researcher career in ML.
+Participation in the school would provide me an opportunity to get acquainted with the recent state-of-the-art developments in such relevant AI topics as generative modelling, multimodal approaches, and others. It will broaden my horizons and inspire me with useful ideas for future projects.
+Additionally, I am excited about the opportunity to work alongside motivated professionals in the AI field and form long-lasting relationships that could lead to future collaborations.
+The participation in the school would be a wonderful opportunity to get acquainted with professionals from the leading artificial intelligence research centers, particularly, Skoltech, the school organizer, and its scientific partner AIRI.
+I would be honored to learn from the opportunity presented by this internship experience at Skoltech Summer School of Machine Learning and look forward to hearing from you.
+Thank you for your time and consideration.
+Best regards,
+[name] [surname]

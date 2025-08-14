@@ -1,0 +1,45 @@
+[name]
+MSc student
+Profile Contact
+I received an Applied Mathematics BSc diploma with distinction from [compaany]. Now, I am a MSc student at [compaany]. I have two periods of internship at the Department of Artificial Intelligence and Machine Learning [compaany] and I currently work there as a Junior DataScientist. I am also interested in continuing my education as a PhD student.
+GoogleScholar
+Work experience g3SWREUAAAAJ
+Phone
+present Junior DataScientist +2 *** *** ***
+Department of Artificial Intelligence and Machine Learning [location]
+30.11.2023 Development, [compaany], [location]
+• Implementation of neural network models, participate in discussions about experiments, offer ideas for improving baselines, suggest research topics. Interests
+24.04.2023 Intern
+Department of Artificial Intelligence and Machine Learning ○ Machine Learning on Graphs
+24.01.2023 Development, [compaany], [location]
+○ Geometric Deep Learning
+• Research 3D-denoisinng models, studying the specifics of 3D DL, preparing materials for research group.
+23.01.2023 Intern Department of Artificial Intelligence and Machine Learning
+25.10.2022 Development, [compaany], [location]
+• Preparing publication text, evaluation of computational experiments.
+Education
+present Federal State Autonomous Educational Institution of Higher Education ”[location] National Research University of Information Technologies, Mechanics and Optics” ([compaany])
+Department of Mathematics, [location]
+Details:
+• Master of Science, System Analysis and Control.
+• Specialization: ”Mathematical Technologies of System Analysis”.
+• Current GPA: 5/5.
+2023 The National University of Science and Technology[location] (NUSTMISIS)
+2019 Department of Engineering Cybernetics, [location]
+Details:
+• Bachelor of Science, Applied Mathematics.
+• Specialization: ”Algorithmizationandmethodsofscience-intensive software”.
+• GPA: 4,85/5.
+Publications
+2025 Noisemaker 3D: Comprehensive Framework forMeshNoiseGeneration
+[name], [name] and [name] and [name] (2025). Noisemaker 3D: Comprehensive Framework for Mesh Noise Generation. In Proceedings of the 20th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 2: VISAPP; ISBN 978-989-758-728-3; ISSN 2184-4321, SciTePress,pages667-674. DOI:10.5220/0013155800003912
+2024 TopoLogical and Node Noise Filtering on 3D MeshesUsingGraphNeuralNetworks(Student
+Abstract)
+[name], [name] (2024). TopoLogical and Node Noise Filtering on 3D Meshes Using Graph Neural Networks (Student Abstract). Proceedings of the AAAI Conference on Artificial Intelligence, 38(21), 23582-23584. https://doi.org/10.1609/aaaai.v38i21.30482
+2024 GCT-TTE: Graph Convolutional Transformer forTravelTimeEstimation
+[name], [name], [name], [name], [name] (2024). Gct-TTE: graph convolutional transformer fortraveltimeestimation. JournalofBigData,11(1), 15. doi:10.1186/s40537-023-00841-1
+Other activities
+2025 Organizationofthefinalroundofthe”National
+TechnologyOlympiad”forschoolstudents
+I helped the participants with their work on the cloud computing platform, as well as advised them on the tasks they
+were solving.

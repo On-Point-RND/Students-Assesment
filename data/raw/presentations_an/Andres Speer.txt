@@ -1,0 +1,276 @@
+Project page
+CasTex: Cascaded Text-to-Texture
+Synthesis via Explicit Texture Maps
+and Physically-Based Shading
+[name], [name], [name]
+[location], 2025
+Introduction
+Relevance
+•
+The creation of 3D assets is a crucial
+component of modern computer
+graphics applications, with demand
+being supported by such industries as
+VR/AR, movie production, industrial
+design, and computer gaming, to
+name a few.
+•
+Possible approaches
+Text-to-3D
+Text-to-Texture
+2
+Introduction
+Text-to-3D
+•
+Input: a prompt (text description)
+•
+Output: a volumetric 3D representation:
+3
+Density field
+σ : ℝ → ℝ
++
+3 2 3
+Radiance field
+C : ℝ × S → ℝ
+•
+Implicit Representaions (NeRF) / Splats
+3
+Introduction
+Disadvantages of Text-to-3D
+Disconnected from 3D graphics tools:
+•
+Complex and unpredictable geometry
+•
+High realism, but static scenes
+Static geometry
+Static lighting
+•
+Difficult to store
+4
+Introduction
+Text-to-Texture
+Fixed mesh
+5
+Introduction
+Text-to-Texture
+«a cow in a retro
+suit»
+Fixed mesh Prompt (text description)
+6
+Introduction
+Text-to-Texture
+«a cow in a retro
+suit»
+Fixed mesh Prompt (text description) Textured mesh
+7
+Problem statement
+Problem
+We want to learn more than just texture
+colors that can suffer from baked-in light
+and cannot be relighted.
+8
+Problem statement
+Just a color
+Problem
+We want to learn more than just texture
+colors that can suffer from baked-in light
+and cannot be relighted.
+Not just a color
+9
+Problem statement
+Solution
+We use Physically Based Rendering (PBR)
+materials, a standard widely adopted in the
+industry from [company]:
+3
+• k ∈ ℝ — diffuse map (base color)
+c
+• k ∈ ℝ — metalness
+m
+• k ∈ ℝ — roughness
+r
+3
+• k ∈ ℝ — normal map
+n
+10
+pam
+esuffiD
+pam
+lamroN
+ssenlateM
+ssenhguoR
+Render
+Burley B., [company] W. D. A. Physically-based shading at disney //Acm Siggraph. – vol. 2012, 2012. – Т. 2012. – С. 1-7.
+Problem statement
+Solution
+diffuse map
+11
+Problem statement
+Solution
+diffuse map
+diffuse map
+normal map
+12
+Problem statement
+Solution
+diffuse map
+diffuse map
+normal map
+diffuse map
+normal map
+metalness
+13
+Problem statement
+Solution
+diffuse map
+diffuse map
+normal map
+diffuse map
+diffuse map
+normal map
+normal map
+metalness
+metalness
+roughness
+14
+Problem statement
+Solution
+Textures are stored as "wrappers"
+over a 3D object.
+Let's learn these "wrappers" using
+neural networks!
+15
+Problem statement
+General Scheme
+Fixed mesh
+16
+Problem statement
+General Scheme
+γ = (k , k , k , k )
+c m r n
+Fixed mesh PBR materials
+17
+Problem statement
+General Scheme
+γ = (k , k , k , k )
+c m r n
+«a cow in a
+ballerina suit»
+Fixed mesh PBR materials Prompt
+18
+Problem statement
+General Scheme
+γ = (k , k , k , k )
+c m r n
+«a cow in a
+ballerina suit»
+Our method
+Fixed mesh PBR materials Prompt Textured mesh
+19
+Preliminaries
+Diffusion Process
+2
+ℒ (ϕ, x) = 𝔼 w(t)∥ϵ̂ z ; y, t − ϵ∥ ,
+( )
+[ ]
+Diff t∼U(0,1), ϵ∼𝒩(0,I) ϕ t 2
+where — diffusion model parameters, — original image, — noise level, —
+ϕ x t w(t)
+weight function, — predicted noise, — noisy image, — text prompt.
+ϵ̂ z ; y, t z y
+( )
+ϕ t t
+20
+Preliminaries
+Pixel-Space and Latent-Space Diffusion Models
+Pixel diffusion model Latent diffusion model
+21
+Preliminaries
+Cascaded Diffusion Models
+Cascaded diffusion models progressively
+improve data resolution through a
+sequence of models, startiing with a
+coarse base and refining textures, colors,
+and details at higher resolutions.
+22
+Preliminaries
+Score Distillation Sampling (SDS)
+• One method that allows 2D diffusion models to be used for any 3D data is known as Score
+Distillation Sampling (SDS):
+∂x
+∇ ℒ (ϕ, x = g(θ)) = 𝔼 w(t) ϵ̂ (z ; y, t) − ϵ ,
+( )
+[ ]
+θ SDS t∼U(0,1), ϵ∼𝒩(0,I) ϕ t
+∂θ
+where x — original image parametrized with θ, ϕ — diffusion model parameters, t — noise level,
+w(t) — weight function, ϵ̂ z ; y, t — predicted noise, z — noisy image, y — text prompt.
+( )
+ϕ t t ϕ t
+∂ϵ̂ (z ; y, t)
+∂x
+∇ L = 2𝔼 w(t) ϵ̂ (z ; y, t) − ϵ
+( )
+• θ Diff t,ε ϕ t
+∂z ∂θ
+[ ]
+t
+ℒ (θ) = 𝔼 KL q(x ∣ t) ∥ p (x ∣ y, t)
+•
+( )
+SDS t t ϕ t
+23
+Method
+Limitations of Score Distillation Sampling for Latent Diffusion Models
+We explore optimization-based image
+generation in a toy diffusion model,
+comparing pixel and latent spaces.
+While pixel-space achieves near-perfect
+reconstruction, standard latent-space
+optiomization struggles. Implicit
+regularization improves latent-space
+results but doesn't match pixel-space or
+decoder performaance, highlightiing the
+challenges of latent-space optiomization.
+24
+Method
+General Scheme
+25
+Method
+Key Points
+•
+PBR
+•
+SDS-based
+•
+DeepFloyd IF — cascaded pixel-space diffusion models
+•
+Two-staged:
+1. Initial Texture Generation
+2. Texture Refiinement
+•
+Explicit texture representation
+Experiments
+Main Results: Quantitive and Qualitative Comparisons
+27
+Experiments
+Main Results: Automated Quality Assesment
+28
+Conclusion
+Our contribution
+•
+We study the limitations of Score Distillation Sampling when applied to latent diffusion
+models. Our analysis indicates that optiomal solutions of the algorithm include images outsiide
+of the natural image domain.
+•
+Motivated by our analysis, we introduce a texture synthesis approach using Score Distillation
+Sampling with cascaded diffusion models. The proposed approach mimicking the diffusion
+model architecture and acts in two stages. The first stage generates a coarse texture, while
+the seconed stage improves overall quality of the texture obtained at the first stage.
+•
+We show that our approach outpferforms state-of-the-art optiomization based texture
+synthesis solutions on the Objaverse dataset. Score Distillation Sampling in pixel space
+allows to omit additional regularizers required in the previous works. Additnally, we report
+the scaling performaance of our metho with the diffusion model size, the impact of lightiing
+condiions used during training, and the role of physically based textures.
+Thank you for your attention!

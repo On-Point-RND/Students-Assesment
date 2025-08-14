@@ -1,0 +1,35 @@
+[name] [surname]
+Gender: Male
+Date of Birth: 28.07.2004 (20 years old)
+Nationality: [location]
+Contacts
++2 *** *** ***
+[email]
+Objective
+To gain practical experience and enhance my knowledge in machine learning through
+participation in the SMILES Summer School. I aim to apply my skills in real-world projects
+and collaborate with experts in the field.
+Education
+Institution: [company]
+Degree: Bachelor’s Degree in Applied Mathematics
+Faculty: Fundamental Sciences
+Specialization: Mathematical Methods of Artificial Intelligence
+Expected graduation: 2026 (3-rd grade)
+Career
+● [company] – technician (seit March 2025)
+Skills & Expertise
+Familiar with following programming languages:
+● Python
+● C/C++
+● Rust
+Have experience with following machine learning problems:
+● Data preprocessing, feature engineering, model training, and evaluation.
+● Experience with libraries: NumPy, Pandas, Polars, SciPy, Scikit-learn.
+● Linear models, ensemble methods, and clustering algorithms.
+● Hyperparameter tuning and cross-validation.
+Additional skills:
+● Tools & Technologies: Git, Bash, MATLAB, LaTeX.
+● Languages: English (B1 Intermediate), Russian (native).
+
+
+

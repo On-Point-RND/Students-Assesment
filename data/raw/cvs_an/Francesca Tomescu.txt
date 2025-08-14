@@ -1,0 +1,55 @@
+[name] [surname] Github: https://github.com/[name]
+Phone: +2 *** *** ***
+e-mail: [email]
+Location: [location]
+Machine Learning Engineer with 1 year of hands-on experience in deep learning, computer vision, and embedded AI systems. Skilled in
+developing and deploying real-time object detection and tracking models using modern neural network architectures. Proficient in
+Python, TensorFlow, PyTorch, and OpenCV, with practical experience optimizing models for edgе devices and working with diverse real-
+world data. Currently pursuing a Master’s degree in Data Science and engaged in research focused on advancing object detection
+architectures. Passionate about solving impaсtful problems through machine learning and committed to continuous learning and
+applied research.
+EDUCATION
+Skolkovo Institute of Science and Technology (Skoltech)
+Master of Science in Data Science (2024 – 2026)
+Relevant courses: Bayesian Machine Learning, Deep Learning, Numerical Linear Algebra, Generative AI, Transformers in CV,
+Trustworthy AI
+Thesis: Improving YOLOv12 architecture using Mamba blocks for global attention and fast inference (in development)
+Saint Petersburg State University
+Bachelor of Science in Applied Computer Science (2020 – 2024)
+Relevant courses: Machine Learning, Algorithms, Data Structures, Probability Theory and Statistics, Calculus, Mathematical
+optimization
+Thesis: Real-time multi-object drone tracking using PTZ cameras
+RESEARCH EXPERIENCE
+Graduate Research (Master's Thesis)
+Investigating improvements to the YOLOv12 architecture for real-time object detection. Developed a model using Mamba blocks
+to enable global attention while maintaining high inference speed. Current results outperform the baseline, with a publication in
+preparation for NeurIPS.
+Undergraduate Research
+Designed and implemented a system for real-time multi-object tracking of drones using PTZ cameras and deep learning. Focused
+on detecting small objects in high-frequency, high-resolution video streams. Presented at the International Conference on Control
+Processes and Stability ([location]).
+Applied Medical AI Project
+Leading the development of an automated syphilis test analysis system using computer vision and deep neural networks.
+Successfully validated in laboratory settings, with the goal of reducing diagnostic errors and improving efficiency in clinical testing
+environments.
+Independent Research Projects
+Applied flow-matching to the super-resolution problem on the CelebA dataset.
+Investigated domain adaptation methods for classifying diabetic retinopathy stages from retinal images.
+Explored the use of neural networks and vision pipelines in various real-worl d scenarios.
+WORK EXPERIENCE
+Machine Learning Engineer
+[company], [location], 04.2024 - 04.2025
+Working in a team on the creation of a software-hardware complex for UAV detection and tracking.
+Responsibilities:
+Training a neural network for UAV detection using YOLO and SSD (mobilenetv2, inception) architectures.
+Evaluation and analysis of object tracking algorithm s in video (MOT) and optiomization of their hyperpameter s to maxi mize
+efficiency.
+Quantization of the neural network using TensorFlow and RKNN-toolkit for deploymen t on Rockchip NPU. Deploymen t of the
+quantized neural network on Orange Pi 5.
+Writing API for PTZ camera control based on Onvif, Dahua, Pelco-D protocols.
+Finding, forming, and processing datasets using OpenCV, Pandas, and Roboflow.
+TECHNICAL SKILLS LANGUAGES:
+Python, Linux, Git, TensorFlow, PyTorch Russian – Native (C2)
+Deep Learning, Computer Vision, Scikit-learn, Blender 3D English – Advanced (B2-C1, working
+gRPC, Selenium, REST API, SQL, Docker, PostgreSQL proficiency)
+NPU, Embedde d SOC, OpenCV

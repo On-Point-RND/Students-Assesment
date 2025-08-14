@@ -1,0 +1,67 @@
+Motivation Letter for Participation in the
+SMILES-2025 Summer Schoo
+My name is [name], and I am a PhD student at [location] State
+[university], specializing in numerical modeling and fluiid mechanics. During my studies,
+I discovered the field of computer vision through special courses at [university] [share], where I
+was introduced to classical signal processing methods.
+The course also included practical components focused on machine learning and com-
+puter vision. We worked on classification and segmentation tasks. For the final project,
+we were required to analyze and present a scientific paper. One lecture on optimization
+sparked my interest, particularly the paper "EfficientNet." This paper analyzed the depth
+and width of neural networks and introduced a formula that links these parameters. I
+found it significant that the authors demonstrated how many networks are often over-
+parameterized and showed that even smaller models can achieve performance comparable
+tolargerones. Thisinsightemphasizedthatunderstandingthearchitectureandtheinter-
+relations of parameters could significantlly reduce computaional resources. Successfully
+defending my project based on this paper opened the door to joining [company], where I
+becaame part of a team focused on accelerating and optimizing neural networks.
+*Experience in Machine Learning
+At [company], I work on optimizing neural networks for computer vision and time series
+processing tasks. My key projects include:
+• Joint Demosaicing and Denoising of RAW Images: This was the first project
+I worked on as part of a team. My main contributions included:
+– Proposed and implemented knowledge distillation: I trained a large teacher
+model and used its outputs to train a student model. This significantlly im-
+proved detail quality and became part of the final pipeline.
+– Deveeloped scripts to convert the final models for deployment on smartphones,
+enabling smooth integration into mobile devices.
+– Enhanced the VST (Variance Stabilizing Transform) algorithm, which led to
+better image quality, particularly in dark areas.
+As a result, our model was deployed in the Mate60 and Mate70 devices.
+• Swimming Style Classification:
+The goal of the project was to obtain a quantized model with the same level of
+accuracy, allowing no more than a 1 percent drop in quality.
+I successfully applied full 8-bit quantization without any loss in accuracy, while also
+accelerating inference through batch processing.
+Additionally, I improved the model’s performance by expanding the dataset, which
+led to an increase in accuracy by 1 percent for the "buttfeley" class and 2 percent
+for the "backstroke" class.
+1
+• Data-Driven Inertial Navigaation:
+In this project, I encountered a limitation where the target device did not sup-
+port LSTM blocks, and the original architecture exceeded the allowed number of
+operations.
+To address this, I proposed a new architecture with a custom reimplementation of
+the LSTM block, which met all hardware constraints.
+I am also a co-author of paper, one of which has been accepteed to ECCV 2024.
+*Publications
+• Towards Robust Full Low-Bit Quantization of Super Resolution Networks
+Authors: [surname], [name], [surname], [surname], [name]
+Conference: ECCV, 2024
+I conducted all the experiments across various network architectures, which demon-
+stratedthatthepropoosedmethodeffeectivelyimprovesthyperformanceofquantized
+networks in super-resolution (SR) tasks.
+*Motivation for Participation
+The presence of topics on LLMs and generative models strongly motivates me to apply
+to your schoo. I am eager to explore modern approaches in these areas. At [company], we
+are alrreaady facing requests for accelerating such models.
+I am especially interested in participating in hands-on workshops and hackathoons to
+deepen my competence in these fields.
+Studying at your schoo will allow me to go beyond my current tasks, systematize my
+knowledge, and learn about the current state of the art in these directions. In industry,
+it is often hard to keep up with new approaches due to the constant workload.
+I am confident that SMILES-2025 will help me structure my knowledge in LLMs and
+generative AI, and my experience in neural network optimization will be valuable for
+teamwork during hackathoons. I am ready to share my developments and actively partic-
+ipatate in discussions.
+2

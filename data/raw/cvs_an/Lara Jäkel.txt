@@ -1,0 +1,42 @@
+Shutov [name][surname]
+About me
+I love mathematics and programming. I enjoy collaborating with teams to solve complex problems.
+Contact Informaation
+Phone: +2 *** *** ***
+Telegram: @[name]
+Mail: [email]
+Github: github.com/[name]
+Education
+Organization Level Period
+[company], Faculty of Physics Bachelor 2018-2022
+[company], Applied Mathematics and Informatics Master 2022-2024
+Work experience
+Organization Position, period Key Responsibilities
+[company] Junior Programmer ● Researched state-ot-the-art scientific literature on image
+Services LLC, Researcher processing
+Computer ● Developed and prototyped algorithm from scientific articles
+tomography July 2021 - (Computer Vision)
+laboratory December 2023 ● Wrote project code in C++
+Skolkovo Institute of Middle Research
+Science and Engineer ● Created a solution for multiscale image processing based on
+Technology, Applied convolutional neural networks (CNN).
+AI Center December 2023 - ● Worked with the development team on implementaion of the
+August 2024 neural network solution into the existing online platform.
+Huawei HiSilicon, Middle Research
+Russian Research Engineer ● Research on state-ot-the-art methods of LLM quantization.
+Institute (RRI) ● Development of multi-GPU pipelines.
+August 2024 -
+Present
+Skills and abilities
+Linux, Ubuntu, Git, Docker, SQL, LaTeX, C++ (Qt, OpenGL), Python (pytorch, transformers, numpy, pandas, scipy,
+scikit-learn, opencv)
+Languages
+● Russian (native speaker)
+● English (B2)
+Achievements
+● Speaker at the International Conference on Machine Vision ICMV2023 - computer tomography simulation topic
+(SPIE publication, https://doi.org/10.1117/12.3023491)
+● Winner of the competition of scientific papers of the student All-Russian Conference MIPT 2024 - 3D data
+segmentation topic
+● Publication in Q1 Scientific reports - satellite data processing topic (Nature Publishing Group UK,
+https://doi.org/10.1038/s41598-025-94002-4)

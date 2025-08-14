@@ -1,0 +1,44 @@
+[name] [surname]
+[email]
+GitHub: [name]-v[surname]
+Education
+Bachelor of Computer Science Sep 2021 - Jun 2025
+[compaany]
+Program: Applied Mathematics and Informatics, Specialization: Machine Learning and Applications
+Total GPA: 8.00
+Relevant Courses: Efficient Deep Learning, Machine Learning, Reinforcement Learning, Fundamentals of Matrix Calculations, Fundamentals of Tensor Calculations, Bayesian Methods for Machine Learning, Applied Statistics in Machine Learning, Algorithms
+Experience
+Modern Machine Learning Technologies and Their Applications Oct 2023
+DL Camp of [compaany] and [compaany]
+Team Project: Asynchronous bot with cashback recommendations in [compaany] based on the EASE model
+Field seminar of Big Data and Information Retrieval School 31 May - 2 June 2024
+Poster session
+Title of Poster: "Semantic Image Editing Using Generative Models"
+Summer Practice June - August 2024
+Controllable Generative AI, [compaany]
+Teaching Assistant Sep 2023 - present
+Bioinformatics, Industrial Development Tools, Deep Learning, Fundamentals of Matrix Calculations
+Projects
+Semantic Image Editing with GANs May 2024
+Coursework, 3rd year
+• Conducted a comparative analysis of the most popular methods for semantic image editing.
+• Proposed enhancements to improve optimization in latent space w based on StyleCLIP method.
+• Explored a novel approach involving optimization in the space of middle feature maps of StyleGAN.
+Computer Analysis of Adaptive Dynamics Biological Model Jun 2023
+Coursework, 2nd year
+• Explored two-dimensional simulations of Dieckmann-Law model
+• Optimized simulations code, pausing calculations upon plateau signs, leading to substantial resource savings.
+• Generated a dataset with 30K of examples
+• Examined the applicability of machine learning models to the dataset
+Compression of Code Language Models Aug 2024
+Team Project
+• Applied SVD LLM and Shortened Llama methods for compressing code language models and explored their combination.
+• Found that compressing middle layers while keeping the first and last layers intact yields better results.
+• The combined approach achieved a better balance between model size and performance.
+Movie Recommendations on the KION Dataset Aug 2023
+• Conducted EDA of data and recommendations
+• Trained and validated baseline models: Implicit, LightFM, ALS
+• Trained a two-step model: LightFM + CatBoost
+Skills
+Tools Python (Pandas, Numpy, Numba, Triton), SQL, Git, LATEX, Matlab, StreamLit
+Languages English (Advanced), German (Elementary), French (Beginner)

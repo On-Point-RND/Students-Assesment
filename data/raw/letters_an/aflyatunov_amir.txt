@@ -1,0 +1,9 @@
+My name is [name]. I am 3rd year student at [compaany], currently getting a bachelor’s degree in computer science.
+Since 11th grade at school, I was interested in artificial intelligence and its application in day-to-day life. I took part in different ML courses such as Deep Learning School at [compaany] and ML exercises at [compaany]. Recently I took interest in generative AI and Large Language Models. I e njoy reading articles about new advances in the area as well as learning the math behind complex architectures as long as it is there. Furthermore, I always wanted to take part in an international conference or summer school as it will give me even more motivation and opportunities to study DL and learn from professionals in my field.
+I have lots of study projects such like transformer for translation from German to English, image classifier, DDPM for generating celebrities, telegram ai chatbot which imitates human interaction. Currently I’ve almost finished writing my first research paper on RL trading strategy with synthetically generated data using RNN and TCN GAN.
+As a third-year student I can offer my knowledge and a unique point of view to our international colleagues, as it will be easier to come up with new and smart ideas together.
+I expect this school to give me an opportunity to become part of an international community who enjoy learning about ML as much as I do and to get some hands-on experience in hackathon. Also, I’d like to make new friends with whom I can conduct researches and communicate on a professional level and ask for advice.
+I plan to hopefully publish my article this year on [conference] conference and figure out an area which interests me the most, as right now I want to study everything that I have time for and interested in. Then I will pursue only one area in DL and I will try to join a scientific laboratory at [compaany] to conduct my own experiments.
+
++2 *** *** ***
+[email]

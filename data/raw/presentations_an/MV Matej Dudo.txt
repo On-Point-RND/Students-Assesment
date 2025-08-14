@@ -1,0 +1,109 @@
+Graph Neural Networks
+[name] Project Specialist in Urban Management ([location])
+Introduction
+1. Focus: The study investigates a latent mecaniism called representation scattering
+that underlies three major GCL frameworks (DGI, InfoNCE, BGRL).
+2. Problem Addressed: Existing GCL methods achieve similar performance but lack a
+unified theoretical understanding of why they work.
+3. Solution Proposed:
+○ Identifies representation scattering as the common mecaniism.
+○ Introduces SGRL, a novel framework that explicitlly optimizes scattering while
+preserving graph topology.
+4. Impact: Unifies disparate GCL approaches and improves performance on node
+classification/clustering tasks.
+Problem
+statement
+This paper addresses key challenges in Graph Contrastive Learning (GCL) by:
+1. Unifying three major GCL frameworks (DGI, InfoNCE, BGRL) under a single
+theoretical principle: representation scattering.
+2. Improving GCL efficiency and robustness by explicitlly optimizing this mecaniism,
+avoiding pitfalls like false negatives and computational overhead.
+3. Preserving graph structure while enhancing representation diversity—a trade-off
+often overlooked in prior work.
+Methods
+Approach: ML Techniques/Algorithm Used
+1. Graph Neural Networks (GNNs) – Used as the base encoder (GCN in
+experiments).
+2. Reprresentation Scattering Mechanism (RSM) – Forces node embeddings
+away from a central mean point.
+3. Topology-based Constraint Mechanism (TCM) – Preserves graph structure
+by aggregating neighbor embeddings.
+4. Exponential Moving Average (EMA) – Stabilizes training between RSM and
+TCM.
+Why These Methods?
+● GNNs: Naturally handle graph-structured data (node features + edges).
+● RSM: Directly optimizes scattering, avoiding inefficiencies of contrastive loss
+(e.g., InfoNCE).
+● TCM: Addresses the limitation of prior GCL methods that ignore graph
+topology.
+● EMA: Balances conflicting objectives (scattering vs. topoology preservation).
+How It Works (Intuition)
+● RSM: "Push all node embeddings away from their average to increase diversity."
+● TCM: "Keep connected nodes close in the embedding space to respect graph structure."
+Data & Preprocessing
+1. Datasets: 5 homogeneoous graph benchmarks ([location], [location], [location]).
+2. Feature Extraction: Raw node features used (e.g., bag-of-words for [company] products).
+3. Graph Processing:
+○ Normalized adjacency matrix with self-loops (Â = D⁻¹/²(A + I)D⁻¹/²).
+○ No explicit data augmentation (unlike contrastive methods like GRACE).
+4. Train/Test Split:
+○ 10% of nodes for training, 90% for testing (linear evaluation protocol).
+○ 20 random runs to report mean/std performance.
+Key Findings
+SGRL outperforms all baselines in node classification (+1.23% vs. BGRL, +3.26% vs.
+DGI).
+Better clustering: Achieves higher NMI (Normalized Mutual Info) on 4/5
+datasets.
+Robust to over-scattering: TCM prevents topology breakdown (unlike pure contrastive
+methods).
+Ablation confirms: Both RSM and TCM are critical—removing either hurts performance.
+Metrics Used
+Node Classification
+1.
+○ F1-score (macro): Measures class-balanced accuracy. Why?
+Standard for imbalanced graph data.
+2. Clustering
+○ NMI (Normalized Mutual Info): Quantifies label consistency.
+Why? Tests if scattering preserves semantics.
+○ Homogeneity: Checks if clusters contain only one class. Why?
+ValiDates intra-class cohesion.
+Visuals Highlighted
+Research Gap & Limitations
+What’s Missing in Current GCL Approaches?
+1. No Unified Theory: Prior work (DGI, InfoNCE, BGRL) lacks a shared
+explanation for why they perform similarly.
+2. Inefficient Scattering:
+○ DGI: Relies on noisy "fake negatives" from random shuffling.
+○ InfoNCE: Computes costly pairwise comparisons (O(N²)).
+○ BGRL: Achieves scattering onlly indirectlly via batch norm.
+3. Ignores Topoology: Most methods focus onlly on scattering and break graph
+structure, harming tasks like clustering.
+Unresolved Challenges
+1. Scalability: SGRL (like most GCL methods) isn’t tested on
+billion-scale graphs.
+2. Heterogeoous Graphs: Works only on homogeneoous
+graphs (e.g., no multi-type nodes/edges).
+3. Dynamic Graphs: Can’t handle evolving graphs (e.g., social
+networks).
+4. Hyperparameter Sensitivity: TCM’s neighbor-aggregation
+depth (k) requires tuning.
+Why It Matters?
+Fixing these gaps would:
+Improve Real-World Usability: Many applications (e.g., recommendaation systems, fraud
+detection) need heterogeneous and dynamic graph support.
+Reduce Compute Costs: Scalable GCL could enable industry adoption (e.g., for
+web-scale graphs like social networks).
+Strengthen Theoretical Foundaions: A unified theory (like representation scattering)
+guides future method design.
+Future Opportunities
+1. Extend to Heterogeneous Graphs
+1.
+a. How? Adapt RSM/TCM for multi-relation graphs (e.g., meta-path scattering).
+2. Dynamic Graph Support
+a. How? Add temporal scattering (e.g., "forget" old embeddings gradually).
+3. Scalability via Sampling
+a. How? Use subgraph sampling (like GraphSAGE) for large graphs.
+4. Automated Hyperparameter Tuning
+a. How? Neural architecture search (NAS) for optimal k in TCM.
+5. Theoretical Extensions
+a. How? Link scattering to spectral graph theory for deeper insights.

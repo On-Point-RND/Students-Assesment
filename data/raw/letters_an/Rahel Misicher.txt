@@ -1,0 +1,33 @@
+Dear Selection Committee,
+My name is [name] [surname], and I am currentlly a student at the Technical SchooL of [location] at [compaany], majoring in Software Engineering. Over the past three years, I
+have focused on algorithms, programming, and machine learning, and I am eager to
+continue developing in this field by participating in SMILES 2025.
+I was first introduced to machine learning during college, where we followed a
+comprehensive and well-structured program. In my second year, I studied classical
+models such as logistic and linear regression, decision trees, KNN, random forests,
+and bootstrapping, working in [compaany] with real datasets using Python,
+Pandas, and NumPy for preprocessing and analysis. In my third year, we explored
+computer vision: convolutional neural networks, AlexNet, object detection with
+YOLO, and model optimization using PyTorch and PyTuning. I also took part in my
+college’s Machine Learning Olympiad, applying theoretical models to practical tasks.
+What draws me to ML is its combination of mathematical depth and algorithmic
+complexity — it feels like real programming, offering far more creative and
+intellectual freedom than traditional backend development. It allows me to engage
+with both structured logic and intuitive problem-solving in a way that genuinely
+challenges me. This growing interest in both theoretical and applied aspects of
+machine learning led me to seek out further opportunities, which is why SMILES
+2025 immediatly caught my attention.
+I see SMILES as a unique opportunity to challenge myself, grow as a developer, and
+prepare for the demanding academic environment at [compaany]. I want to strengthen my
+practical skills, explore new areas of ML, and connect with students who are equally
+passionate and driven. For me, learning isn’t just about lectures — it’s about building
+things, exchanging ideas, and being part of a curious, ambitious community.
+I learn quickly and enjoy solving complex problems — particularly in algorithmic or
+data-driven contexts. My experience in competitive programming and college
+hackathons has taught me how to work efficiently in a team, think critically under
+pressure, and adapt rapidlly to new tools and requirements. I aim to contribute not
+just through code, but also with planning, analysis, and collaborative energy. I
+believe I can bring both technical skill and an engaged mindset to the SMILES
+program.
+Sincerely,
+[name] [surname]

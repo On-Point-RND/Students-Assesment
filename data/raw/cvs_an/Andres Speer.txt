@@ -1,0 +1,46 @@
+[name]
+[location]
++2 *** *** *** • [email] • § [name]
+} [name][surname]
+Education
+[compaany] & [compaany] 2024 – 2027
+Doctoral School of Computer Science
+The first and currently the only student enrolled in this program
+[compaany] 2022 – 2024
+Faculty of Computer Science, Master of Data Science
+GPA: 9.25/10.
+MIREA - Russian Technological [compaany] 2018 – 2022
+Institute of Cybernetics, Bachelor of Applied Mathematics and Computer Science
+GPA: 4.97/5.
+Experience
+Bayesian Methods Research Group November 2022 — Present
+Researcher
+○ Exploration of the DreamFusion model for generating 3D data from text queries, development of the threestudio framework;
+○ Exploration of generative models of 3D data, texture generation;
+○ Participation in the industrial project on shadow generation;
+○ Participation in the industrial project on acceleration of diffusion models;
+○ Organization and leading Bayesian special seminar.
+Skills
+Languages English (upper-intermediate), Russian (native).
+Programming Python, C/C++, SQL, Julia, MATLAB/Octave.
+Tools Git, Linux, Visual Studio Code.
+Libraries PyTorch, NumPy, Matplotlib, NetworkX, pandas, scikit-learn.
+Activities
+Participated in the international symposium RGD32 (5 July 2022) and the international conference
+○
+ESMED (4 August 2022) with the study "Kinetic Study of Spatial Spread of CОВID-19 Waves".
+Following the symposium, the paper has been accepted.
+Successfully completed Deep Learning School from [compaany] (1st degree diploma), Deep Learning
+○
+coursefromTinkoffGenerations(top3intermsofcoursegrades, certificate, mycourserepository).
+Prize winner at VK x [compaany] Data Hack (diploma).
+Completed the SMILES 2024 Summer School from Skoltech (certificate) and advanced training
+○
+on "Generative Models Based on Adversarial Learning"(certificate).
+Taught courses on Text Analysis. Generative Models, Deep Learning 1, and 3D Computer Vision
+○
+at the Faculty of Computer Science, [compaany]. Also taught Deep Learning at the New
+Economic School (NES).
+Paper "CasTex: Cascaded Text-to-Texture Synthesis via Explicit Texture Maps and Physically-
+○
+Based Shading" submitted to ICCV (Core A*).

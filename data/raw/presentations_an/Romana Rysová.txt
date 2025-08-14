@@ -1,0 +1,130 @@
+There is safety in numbers:
+Multi-agent systems SOTA architectures and
+reflection app approaches
+[name]
+ML and DS specialist
+R&D in [compaany]
+Introduction
+In one of the latest interviews [name] [surname], the CEO of [compaany],
+named 5 main steps in AI development:
+Chat bots
+You are here
+Reasoners
+Agentic systems
+Innovators
+AI Organizaions
+Introduction
+Why to use multi-agentiic systems?
+• To solve complex tasks which requires
+multiple steps and roles
+Typical multi-agent system [1]
+• To improve reliability of the system through
+self-corrections with special agents
+• To easily scale the system based on the
+task
+Various agentiic architectures[1]
+Problem statement
+• The larger the system, the more it can be affected by errors
+• Checking with programming tools requires clear measurable output, a self-reflection and
+critic agents can make mistakes
+• Proper custom architecture set up and debugging requires a big effort in case of complex
+tasks
+• How to efficieentl y detect and give the feedback in case of errors?
+• Is there a univeersal, scalable and sustai nable multi-agent architecture?
+Reflective Multi-Agent Collaboration based on Large Languaage
+Models [2]
+Methods
+Supervised reflector Counterfactual reward model
+Reflector reward maximization through PPO
+Reflective Multi-Agent Collaboration based on Large Languaage
+Models
+Results
+• Results was compa red in three
+settin gs: question answering which
+required documents aggregation,
+math questions and best
+checkmate move in chess. Performa nce of COPPER against baselines
+• Improvement of results especially
+in case of GPT 3.5 Turbo agents
+(by 31%, 18.5%, and 86%)
+• Role information and designed
+Generalizability of the COPPER trained for GPT
+counterfactual reward impa ct the
+3.5 and tested on GPT-4
+performance
+Chain of Agents: Large Languaage Models Collaboration on
+Long-Context Tasks [3]
+Methods
+• Linear agentiic architecture to
+process big texts
+• Each agent make summarization
+using the a cquired data and
+tran sfer it fo rward
+• In the end system analyze long
+context data and outputs answer
+Chain of Agents structure
+Chain of Agents: Large Languaage Models Collaboration on
+Long-Context Tasks
+Results
+• Outperforms large context
+models and RAG in Long-
+context datasets
+• Mitigates “Lost-in-the-
+Middle” problem
+• Enables complex reasoning
+over the Long Context
+• Indicates that the linear
+Acquired metrics in compa rison to baselines and other agentiic architectures. QA Metric – F1 score
+pipelines of agents may
+(exact match for QuALITY), summa rization – geometric mean score, code – code similarity score
+solve complex tasks
+efficie ntly
+Scaling Large Languaage Model-Based Multi-Agent
+Collaboration [4]
+Methods
+• Each node is an actor and each e dg e is an instructor/critic
+• Direct Acyclic Graph representation is a native way to improve
+genera lizability and adaptability across contexts
+• Easil y scalable and enables concurre ncy in case of a tree
+structure
+Scaling Large Languaage Model-Based Multi-Agent
+Collaboration
+Results
+• Surpasses all baselines on average
+• Such graph architecture with instructors at
+the e dg es improves self-reflection
+• Automatic topo logy generation and
+eva lua tion shows which topo logy performs
+better in each task
+• Logist ic growt h pattern of performa nce as
+number of agent increases
+Limitations
+Problem
+Why important?
+DAG speed and tokens amount depends
+May be a bottleneck in the proposed
+on the length of the pipeline;
+colla borative scaling law of architectures
+The success of agentiic systems scaling
+may be inefficient in a more complex
+may be inefficient in a more complex
+tasks tasks and may be related to the LLM size
+much more
+Custom reflectors may require high-
+Good self-reflection may significa ntly
+quality data improve the performa nce of agents
+Hard to compa re different architectures
+No standardized benchma rks
+and methods
+Thank you
+[name] [surname]
+[email]
+Bibliography
+1. [surname] [name], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname]. Large Language Model based Multi-Agents: A Survey of Progr ess
+and Challenges. IJCAI, 2024
+2. [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname]. Reflective Multi-Agent Collaboration based on Large Language Models.
+NeurIPS, 2024
+3. [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname]. Chain of Agents: Large Language Models Collaborating on Long-Context Tasks.
+NeurIPS, 2024
+4. [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname]. Scaling large lan guage model-based multi-agent
+colla boration. ICLR, 2025

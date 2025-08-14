@@ -1,0 +1,107 @@
+[name] [surname]
+Male, 22 years, born on 10 June 2002
++2 *** *** *** — whatsapp, telegram
+[email]
+Reside in: [location]
+Citizenship: [location], work permit at: [location]
+Not ready to relocate, ready for business trips
+Data science/ ML engineer
+Specializations:
+— Other
+Employment: full time, part time, project work, work placement
+Work schedule: full day, shift schedule, flexible schedule, remote working
+Desired travel time to work: any
+Work experience — 1 year 8 months
+April 2024 — till [location] National Research University of Information Technologies now Technologies, Mechanics, and Optics (IТMO University)
+1 year 1 month
+Educational Institutions
+• Higher Education Institution, Secondary Specialized College, College, Vocational School
+Laboratory Assistant
+Conducting experiments on the synthesis and analysis of metal-organic frameworks (MOFs).
+Performing physicochemical testing.
+Searching for and analyzing scientific articles.
+Researched new synthesis methods and tested them.
+Development of software for detecting anomalies in acoustic waves in industrial conditions.
+September 2023 Federal State Unitary Enterprise Research Institute of Synthetic Rubber (FSUE NIISK)
+— March 2025
+1 year 7 months
+Educational Institutions
+• Research, Scientific, Academic Activity
+Laboratory Assistant
+Conducting standard physical and mechanical tests of rubbers, elastomers, rubber compounds, and composite materials. Processing and analyzing test results.
+Product certification.
+Investigating the frost resistance of rubbers and elastomers.
+Conducting tests on new types of rubbers and elastomers according to ISO standards for rubbers and their testing methods.
+Analyzing and summarizing the obtained results.
+Resume updated 17 April 2025 at 14:41
+April 2024 — June 2024
+Research Institute of Precision Mechanics and Technology (NIITM)
+Heavy Engineering
+3 months
+• Manufacturing and Repair of Military Machinery, Equipment and Weaponry
+Educational Institutions
+• Research, Scientific, Academic Activity
+Technician-Engineer
+Production of thermocatalytic and semiconductor sensors.
+Development and participation in testing programs for these sensors and related products.
+Participation in experimental research activities.
+Editing technical documentation related to thermocatalytic and semiconductor sensors.
+Education
+Higher
+2026 [location] National Research University IТMO, [location]
+Faculty of Physics, Modern Quantum and Nanophotonic Systems
+2024 Higher School of Technology and Energy, [location]
+Institute of Technologies, Chemical Technology of Fine Organic Synthesis
+Professional development, courses
+2024 Junior PI
+[location] National Research University IТMO, [location], Junior PI
+2023 Additional Professional Program – Programming and Algorithmization in Python
+[location] State University of Industrial Technologies and Design (SPbSUITD), junior python developer
+Skills
+Languages Russian — Native
+English — B2 — Upper Intermediate
+Skills MS PowerPoint Работа с большим объемом информации
+Analytical thinking Risk analysis Mathematical analysis
+Python MS SQL Deep Learning Mathematical statistics
+Anomaly detection PyTorch
+Driving experience
+Driver's license category B
+Further information
+About me Objective
+Aspiring Data Scientist / Machine Learning Engineer with a strong quantitative background from
+[location] Chemical Technology and Quantum Physics studies. Eager to apply analytical skills, programming
+proficiency (Python, PyTorch), and machine learning expertise to solve challenging data-driven
+problems and contribute to innovative projects in a dynamic environment.
+Projects
+Deep Learning for Drug Release Prediction: Key contributor to designing and implementing a
+CNN-LSTM model (PyTorch) predicting drug release kinetics from complex physicochemical data.
+Achieved high accuracy (R²=0.87). (Basis for publication)
+NefteCode Hackathon Finalist (Molecular Generation): Applied Large Language Models (LLMs)
+within a team setting to generate novel molecules for antioxidant additives, focusing on generative
+AI techniques.
+DCASE 2024 Task 2 Implementation (Anomaly Detection): Independently developed a pipeline for
+unsupervised anomaly sound detection using Python (Librosa, Scikit-learn/PyTorch), applying
+techniques like autoencoders to audio data.
+Key Skills
+Programming & Data Science: Python (Intermediate), PyTorch, Scikit-learn, Pandas, NumPy,
+Matplotlib, Basic SQL.
+Machine Learning: Supervised Learning (Regression, Classification), Unsupervised Learning
+(Clustering, Anomaly Detection), Deep Learning (CNN, LSTM, concepts of LLMs/Generative
+Models), Feature Engineering, Model Evaluation & Validation.
+Quantitative Analysis: Statistical Analysis, Data Interpretation, Mathematical Modeling.
+Tools & Platforms: Git (Basic), [Jupyter Notebooks, VS Code, etc.]
+Communication: Effective communicator with strong problem-solving abilities. Comfortable
+discussing complex technical concepts.
+Personal Traits: Highly curious and intellectually driven, self-starter with a constant desire to learn
+and improve, detail-oriented.
+Professional Development
+Completed intensive course by YADRO covering Probabilistic Models, Reinforcement Learning,
+and Deep Learning (2024-2025).
+Invited participant of the HSE Case Club (2025).
+Invited participant of the Summer School as a Product Manager at MIPT (2024).
+Continuously update knowledge through online courses (Coursera, etc.), research papers, and
+relevant technical literature.
+Languages
+English (B2)
+Russian (Native)
+[name] [surname] • Resume updated 17 April 2025 at 14:41

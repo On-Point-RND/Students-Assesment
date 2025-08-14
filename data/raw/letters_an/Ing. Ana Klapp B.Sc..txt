@@ -1,0 +1,17 @@
+I'll be straight — my background isn’t a perfect fit on paper, but I care a lot and I learn fast.
+When I joined [company], I planned to work on inter-satellite communication. Turned out, that
+direction wasn’t really viable for me, so I switched gears. I tried a bunch of things, some worked,
+most didn’t — and eventually, I got into computer vision.
+That’s how I ended up choosing polyp segmentation in endoscopy for my thesis. I had zero
+knowledge about polyps or segmentation at first, but I was curious and ready to put in the work.
+Now, after almost a year in the field, I’ve realized that classic CV alone doesn’t cut it for me
+anymore. I’ve started exploring generative methods and how LLMs are being used in vision
+tasks. I’m especially interested in how diffusion models can be used for medical image synthesis
+and how vision-language models might help improve interpretability in segmentation tasks. It’s
+new, it’s messy, and I love it.
+I’m applying to [company] because I want to go deeper into this direction — not to tick a box, but
+to work with people who are serious about research and actually enjoy it. That’s the kind of
+environment I want to be in. If I get in, I’ll make the most of it.
+
+
+

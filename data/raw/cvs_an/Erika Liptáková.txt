@@ -1,0 +1,56 @@
+Analyst Experience: 4 years [name] [surname]
+Industries: Banking, Audit, [location]
+Date of Birth: 15.10.1998
+Specializa<on:
+Data analysis, project management and presenta<on, Phone: +2 *** *** ***
+wri<ng analy<cal materials and ar<cles Email: [email]
+Programming: Python, SQL, R
+PROFESSIONAL EXPERIENCE
+[company] [location]
+January 2021 – Present
+• Department of Monetary Policy, Communica?ons Development Sector
+• Posi?on: Research Analyst
+• Projects:
+1. Telegram Sen?ment Analysis for the Central Bank
+Led a team of 4 to assess the Central Bank's media presence on Telegram using NLP and machine learning (unsupervised
+and supervised classifica?on for news categoriza?on and sen?ment analysis).
+Results: Unique "Telegram Sen?ment" metric, regular dashboaard for leadership, 80% ?me savings in news analysis, "Project
+of the Year" nomina?on, presenta?ons at economics and AI conferences.
+2. Communica?on Reach Evalua?on System
+Built a regional media database via web scraping, applied sGLDA models to iden?fy monetary policy news, and calculated
+outreach metrics.
+Results: Published research on the Central Bank’s website, quan?ta?ve indicators for communica?on effec?veness.
+3. Telegram Channel Engagement Op?miza?on
+Developed new content formats, increasing user reach and engagement by 15%.
+4. Weekly Infla?ion Report Automa?on
+Streamlined data visualiza?on and analysis, reducing repor?ng ?me by 6x.
+Higher SchooL of Economics [location]
+September 2021 – November 2021
+• Faculty of Economics
+• Posi?on: Macroeconomics Seminar Instructor for 3rd-year students
+• Delivered lectures, structured course materials, and guided problem-solving sessions.
+[company] [location]
+October 2019 – May 2020
+• NDAC (Novosibirsk Data Analysis Center)
+• Posi?on: Data Analyst
+• Conducted financial data analysis (Excel, Alteryx) and audited financial statements.
+EDUCATION
+MASTER’S DEGREE [location],
+September 2020 – June 2022
+• [university]– Applied Economics and Mathema?cal Methods
+• Relevant courses: Econometrics, R/Python programming, Machine Learning in Economics.
+• GPA: 9/10 (Ranked #1 in the cohort).
+BACHELOOR’S DEGREE [location],
+September 2016 – June 2020
+• [university]– Economics
+• Relevant courses: Econometrics, Mathema?cal Sta?s?cs, Data Analysis (Excel, R, SQL, Python).
+• GPA: 4.72/5.
+CERTIFICATIONS
+• Machine Learning for Analysts ([training center], 60 hours).
+• Introduc?on to Data Science and Machine Learning ([platform], Dis?nc?on).
+• Data Analysis in R ([platform], Dis?nc?on).
+• Mathema?cs and Python for Data Analysis ([platform], Coursera).
+• Machine Learning ([university], Coursera).
+SKILLS & INTERESTS
+• Languages: English (Upper-Intermediate).
+• Hobbies: Snowboaarding, diving, ceramics, kninng, dancing.

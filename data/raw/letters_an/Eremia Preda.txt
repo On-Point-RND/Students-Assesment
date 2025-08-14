@@ -1,0 +1,12 @@
+Motivation Letter
+Dear Reviewing Committee,
+I am writing to express my strong interest in participating in the SMILES summer school organized by [company] in collaboration with [company]. As a young researcher in the field of Computational Materials Science with a strong passion for Artificial Intelligence, I am excited by the opportunity to deepen my knowledge of generative models and explore how these powerful tools can be used to solve scientific problems that benefit society.
+My background lies in the study and modeling of low-dimensional materials, especially carbon-based systems. During my academic journey, I have investigated properties of carbon nanotubes, graphene, MXene, and more recently Diamane. I applied advanced modeling techniques including density functional theory (DFT), ab initio molecular dynamics (AIMD), and graph neural networks (GNN) to study their phononic and electronic behavior. I also trained machine-learning potentials to model interatomic forces in these systems. This work has shown me how crucial machine learning has become for accelerating research and discovery in Materials Science.
+At the same time, I have developed a growing interest in the broader field of AI. I completed dedicated coursework in Machine Learning, Deep Learning, and Generative Modeling, and worked on a team project that applied graph-based time-series models (GCN, A3T-GCN, StemGNN) for forecasting — winning second place in our course competition. I also participated in a project at the [company] involving quantum-inspired optimization methods for solving NP-hard problems.
+Through these diverse experiences, I became fascinated by the power of generative methods and now I work with diffusion models to find stable structures, simulate them, and calculate its properties.
+What attracts me most about SMILES is its multidisciplinary approach and international environment. I am excited to learn from leading experts, collaborate with peers from both [location] and [location], and receive mentorship on the cutting edge of AI research. I am particularly interested in exploring how large language models and generative neural architectures can be used in scientific contexts — including material structure generation, design automation, and knowledge extraction from scientific literature. I also look forward to contributing my own background in physical sciences and computational modeling to the discussions and teamwork during the school.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
++2 *** *** ***
+[email]

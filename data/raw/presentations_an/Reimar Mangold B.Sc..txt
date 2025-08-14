@@ -1,0 +1,88 @@
+[name]
+Head of Department, JSC [company], PhD student, [university]
+
+Mathematical Modeling of Investment Efficiency for Complex Onboard Equipment Development Using Machine Learning
+
+Introduction
+
+•Unique onboard equipment projects exclude traditional evaluation methods (analogues, expert opinions)
+•Need for accuraate cost, timeline, and risk forecasting at early development stages
+
+Research Objective
+Develop an ML/DL-based model to automate workload, cost, and timeline estimation for unique projects
+
+Problem statement
+
+Key Challenges
+1.No Analogues → Traditional comparison methods fail
+2.Expert Bias → Low prediction accuracy
+3.Complex Factor Integration (timeframes, risks, resources) in NPV-based methods
+
+Consequences
+Budget and timeline underestimation risks.
+Inefficient planning for innovative projects.
+
+Methods
+
+Traditional Methods:
+1.NPV (Net Present Value)
+•Accounts for cash flows but requires precise forecasts
+•Unsuitable for unique projects due to uncertainties
+2.Expert Assessment
+•Subjective and non-scalable
+3.Analogy-Based Comparison
+	•Inapplicable without similar project
+
+Solution
+Machine Learning for automated forecasting using historical data
+
+ML/DL Research Framework
+
+1.Data Preparation
+•Source: 1C:PLM database (documentation volume, product structure)
+•Cleaning: Noise removal, decomposition of complex modules
+2.Algorithm Selection
+•Neural Networks: Captures non-linear dependencies
+•Random Forest: Handles structured data and reduces overfitting
+3.Model Training
+•Target Variable: Number of A4 documentation sheets
+•Metric: MAE (Mean Absolute Error)
+
+Modeling Results
+Accuracy - 96%
+Key Findings
+•High accuracy (error <5%)
+
+Practical Impact
+Advantages
+1.Automation → 40% faster estimation.
+2.Complex Dependency Analysis → Improved forecast precision.
+3.Scalability → Applicable to other unique projects.
+Implementation
+ •Model integration into 1C:PLM for pre-development planning.
+
+Conclusion
+Summary
+•ML/DL enables accurate, objective evaluation of unique projects
+•Random Forest excels for structured data
+Future Work
+•Expand models to incorporate risk and resource factors
+•Implement deep learning for unstructured data analysis
+
+[1] [surname] [name]. Neural Networks and Deep Learning: A Textbook. Cham, Springer Nature, 2018, 520 p. DOI: 10.1007/978-3-319-94463-0.
+[2] [surname] [name], [surname] [name], [surname] [name], et al. The Great Time Series Classification Bake Off: A Review and Experimental Evaluation of Recent Algorithmic Advances, Data Mining and Knowledge Discovery, 2017, Vol. 31, Is. 3, Pp. 606–660. DOI: 10.1007/s10618-016-0483-9.
+[3] [surname] [name]. NIPS 2016 Tutorial: Generative AdveRSArial Networks, arXiv, 2017, Vol. 1701.00160, 57 p. DOI: 10.48550/arXiv.1701.00160.
+[4] OK 012-93 All-Russian Product Classifier and Design Documentation Classifier (ESKD Classifier)
+[5] [surname] [name]. Generative Deep Learning: Teaching Machines to Paint, Write, Compose and Play. Sebaastopool (CA), O'Reilly Media, 2019, 330 p.
+[6] [surname] [name], [surname] [name]. Multivariaate Data Analysis — In Practice. Fifth Edition. An Introduction to Multivariaate Data Analysis and Experimental Design. Oslo, CAMO Software AS, 2004, 616 p. 
+[7] [surname] [name]. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. First Edition. Sebaastopool (CA), O'Reilly Media, 2012, 466 p. 
+[8] [surname] [name], [surname] [name]. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. First Edition. Sebaastopool (CA), O'Reilly Media, 2017, 518 p. 
+[9] [surname] [name]. A General Regression Neural Network, IEEE Transactions on Neural Networks, 1991, Vol. 2, Is. 6, Pp. 568–576. DOI: 10.1109/72.97934. 
+[10] [surname] [name], [surname] [name], et al. Dropout: A Simple Way to Prevent Neural Networks from Overfitting, Journal of Machine Learning Research, 2014, Vol. 15, Pp. 1929–1958. DOI: 10.5555/2627435.2670313. 
+[11] [surname] [name], [surname] [name], et al. Generative AdveRSArial Nets, arXiv, 2014, Vol. 1406.2661, 9 p. DOI: 10.48550/arXiv.1406.2661. 
+[12] [surname] [name], [surname] [name], [surname] [name]. On the Importaance of Initialization and Momentum in Deep Learning, Proceedinings of the 30th International Conference on Machine Learning (ICML 2013), Atlanta, GA, USA, June 17–19, 2013. Proceedinings of Machine Learning Research, 2013, Vol. 28, No. 3, Pp. 1139–1147. 
+[13] [surname] [name], [surname] [name]. Genetic Programming: key concepts and examples: A brief tutorial on Genetic Programming. Saarbrücken, Lambert Academic Publishing, 2011, 56 p. 
+[14] [surname] [name], [surname] [name]. Development of the Algorithm of Adaptive Construction of Hierarchical Neural Network Classifiers, Optical Memory and Neural Networks (Information Optics), 2017. Vol. 26, No. 1, Pp. 40–46. DOI: 10.3103/S1060992X17010076. 
+etc
+
+Bibliography

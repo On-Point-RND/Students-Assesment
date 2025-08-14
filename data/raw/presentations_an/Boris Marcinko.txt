@@ -1,0 +1,108 @@
+Satellite Image
+Super-Resolution
+[name]
+Student, [compaany]
+Introduction
+1. What is satellite image super-resolution?
+● Up to 10 m per pixel ● 2.5 m per pixel or better
+● Updates every week ● Irrregular & infrequent updates
+● Free ● Costs 20+$ per km^2
+Introduction
+1. What is satellite image super-resolution?
+Approximating with
+SR
+● Up to 10 m per pixel ● 2.5 m per pixel or better
+● Updates every week ● Irrregular & infrequent updates
+● Free ● Costs 20+$ per km^2
+Introduction
+2. What are applications of satellite image super-resolution?
+a) Human consumption: like “satellite overlay” function in
+[location] Maps
+Image source: https://satlas.allen.ai/map, part of [5]
+Introduction
+2. What are applications of satellite image super-resolution?
+b) Machine consumption in downstream tasks like segmentation
+Image source: [4]
+ChalChallenges in Satellite SR
+1. Usually we are interested in cross-sensor SR: upscaling an image from one satellite to
+match the other satellite or aerial image.
+Sentinel-2 vs NAIP aerial image
+Image source: [6]
+ChalChallenges in Satellite SR
+1. Usually we are interested in cross-sensor SR: upscaling an image from one satellite to
+match the other satellite or aerial image.
+Questions:
+● Should we try to preserve spectral characteristics of the input low-res image or stick to be
+as close as HR labels as possible?
+● How do we match pairs of images made from different vehicles at different timestamps?
+Is it okay to have non-perfect matches?
+ChalChallenges in Satellite SR
+2. Large scale of the data: we cannot process it in one pass. For example, one Sentinel-2 tile
+is 10 000 by 10 000 pixels covering roughly 10 000 km^2
+ChalChallenges in Satellite SR
+2. Large scale of the data: we cannot process it in one pass.
+So we have to process our data patch by patch. But then our model would not know about
+neighbor tiles and produce seaming artifacts!
+Image source: [6]
+ChalChallenges in Satellite SR
+3. Satellite images have more than 3 (RGB) channels, and we want to upscale them as well.
+On the other hand, using extra channels as input may improve the quality of predictions.
+Is it a low-res patch of dense forest or a body of water? RGB would not tell, but
+infrared channel will :)
+Methods
+Let us look at recent conference papers on this topic!
+Methods
+1. He et al. [1] proposed to use GAN to generate high-resolution images from low & high
+resolution time series.
+Methods
+1. He et al. [1] proposed to use GAN to generate high-resolution images from low & high
+resolution time series.
+More recent studies [5-6] agree that GANs still quite good for large-scale super resolution,
+especially due to their fast inference & smaller model size.
+But what about more recent methods like diffusion?
+Methods
+2. Wang et al. [2] explored the potential of latent diffusion models in hyperspectral
+super-resolution for different domains, including remote sensing. Authors introduced
+Group-Autoencoder framework to efficiently encode high-dimensional input & improve
+inference time.
+Methods
+Let us go back to the not covered challenges discussed previoulsy
+Methods
+1. Should we try to preserve spectral characteristics of the input low-res image or stick to be
+as close as HR labels as possible?
+While most methods we discussed before just focus on being as close to ground truth
+images as possible, Donike et al. [7] show that it is possible to preserve spectral
+characteristics of input, as well as achieve fast inference with DDIM.
+Methods
+2. What to do with seaming artifacts?
+Panangian et al. [6] reported successful application of seamless texture generation proposed
+by Abdellatif et al. [8] for satellite image super resolution using GANs.
+Example inference of a Satlas model [5] without & with this method
+Research gap
+What can we do to optimize storage requirements of the upscaled data?
+Research gap
+What can we do to optimize storage requirements of the upscaled data?
+Of course, we can apply compression after the upscale, but can we do something on SR
+stage? For example, train a model that will produce more compressible outputs.
+Bonus: Demo
+I run some projects discussed previoulsy on custom region of interest covering [compaany]:
+https://baskinrobbinsman.users.eaertheengine.app/view/sr-demo
+Bibliography
+1. He, Y., Wang, D., Lai, N., Zhang, W., Meng, C., Burke, M., Lobell, D., & Ermon, S. (2021). Spatial-Temporal Super-Resolution of Satellite
+Imagery via Conditional Pixel Synthesis. NeurIPS.
+2. Wang, Z., Li, D., Zhang, M., Luo, H., & Gong, M. (2024). Enhancing Hyperspectral Images via Diffusion Model and Group-Autoencoder
+Super-resolution Network. Proceedings of the AAAI Conference on Artificial Intelligence, 38(6), 5794-5804.
+https://doi.org/10.1609/aaaai.v38i6.28392
+3. Dong, R., Yuan, S., Luo, B., Chen, M., Zhang, J., Zhang, L., Li, W., Zheng, J., & Fu, H. (2024). Buildiing Bridges across Spatial and Temporal
+Resolutions: Refeference-Based Super-Resolution via Change Priors and Conditional Diffusion Model. In Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 27684-27694).
+4. Illarionova, S., Shadrin, D., Shukhratov, I., Evtteeva, K., Popandopulo, G., Sotiriadi, N., Oseledets, I., & Burnaev, E. (2023). Benchmark for
+Buildiing Segmentation on Up-Scaled Sentinel-2 Imagery. Remote Sensing, 15(9), 2347. https://doi.org/10.3390/rs15092347
+5. Wolters, P., Bastani, F., & Kembhavi, A. (2023). Zooming Out on Zooming In: Advancing Super-Resolution for Remote Sensing. ArXiv,
+abs/2311.18082.
+6. Panaangian, D., & Bittner, K. (2025). Can Location Embeddings Enhance Super-Resolution of Satellite Imagery?. In Proceedings of the
+Winter Conference on Applications of Computer Vision (WACV) (pp. 6136-6145).
+7. Donike, S., Aybar, C., Gómez-Chova, L., & Kalaitzis, F. (2025). Trustworthy Super-Resolution of Multispectral Sentinel-2 Imagery With
+Latent Diffusion. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 18, 6940-6952.
+8. Abdellatif, A., Elsheikh, A. H., & Menke, H. (2023). Local Padding in Patch-Based GANs for Seamless Infinite-Sized Texture Synthesis.
+arXiv. https://doi.org/10.48550/arXiv.2309.02340

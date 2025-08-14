@@ -1,0 +1,61 @@
+Fast and memory-efficient implementation of Strassen’s matrix multiplication algorithm on GPUs(FP32/64)
+[name]
+MSc. Student/LLM Researcher, [compaany]
+Introduction
+• Strassen’s algorithm is theoretically faster than standard matrix multiplication, but practical use
+is limited due to high memory demands. This work eliminates extra memory overhead, making
+Strassen viable on memory-constrained GPUs.
+• Goal of the review
+To present and evaluate a GPU implementation
+• Removes extra memory needs using input reuse and stage-wise scheduling
+• Supports arbitrary levels of recursion
+• Outperforms existing methods eg cuBLAS on both performance and memory use
+Problem statement
+• Challenges
+• Workspace Management: Previous implementations required extra memory, reducing efficiency.
+• Memory Constraints: GPU memory limitations hinder the practical application of Strassen’s algorithm.
+• Scope
+•
+Methodology: Using Multi-Stage fused pipelined kernels (Addition/substraction kernels and multiplication).
+• Innovation: Reuses and recovers input matrices to avoid additional memory usage.
+•
+Performance: Demonstrated higher compute performance and lower memory requirements compared to NVIDIA’s cublasDgemm. Similar performance compared to cublassSgemm.
+Results
+• Performance Gains
+• The MSMES (Memory-efficient Strassen’s algorithm) showed significant improvements in both computation
+speed and memory efficiency over standard matrix multiplication implementations.(FP32/64)
+• Obtained, on average , 1.2x speedup across large matrix size (ranging from 1024 to 16384)
+• Zero overhead workspace usage for storing intermediate matrices (Strassen implementations
+typically have significant memory usage)
+• Metric Used
+• Computation time
+• Memory footprint
+• Scalability (across Multiple GPUs)
+Research gap
+• Limitations
+• Optimized for specific matrix sizes and may not generalize well to all matrix dimensions or problem types.
+• Potential numerical instability issues as the recursive layers get deeper
+• The method’s scalability beyond a few GPUs is not fully explored.
+• Unresolved challenges
+• Handling matrices whose dimensions are non-multiples of 32
+• The method was mostly tested on V100 GPUs. May beeed adaptation for different hardware
+• Future opportunities
+• Focus on f16/bf16 as they are more common for deep learning applications
+• Optimizing algorithms specifically for sparse matrices.
+Bibliography
+[name], [name] (2008). Strassen's Matrix Multiplication on GPUs.
+[name], [name] (2023). Strassen’s Matrix Multiplication Algorithm Is Still Faster.
+[name], [name], & [name] (2016). Optimizing Strassen Matrix Multiply on GPUs.
+[name], et al. (2017). Parallel Algorithms for Strassen Matrix Multiplication on Multi-GPU Systems.
+[name], et al. (2020). Efficient Processing of Deep Neural Networks: A Survey.
+[name] (2020). Space-filling Curves for Improved Cache-Locality in Shared Memory Environments.
+[name], et al. (2018). GPU Memory Bottlenecks and Optimizations in High-Performance Computing.
+[name], & [name] (2016). Matrix Multiplication Using Strassen’s Algorithm on CPU & GPU.
+[name], & [name] (2002). A Framework for High-Performance Matrix Multiplication Based on
+Hierarchical Abstractions, Algorithms, and Optimized Low-Level Kernels.
+[name], et al. (2021). Scaling Distributed Matrix Multiplication on GPUs: Techniques and Challenges.
+[name], et al. (2016). TensorFlow: A System for Large-Scale Machine Learning.
+[name] (1996). Strassen's Algorithm and its Extensions.
+[name], et al. (2017). In-Datacenter Performance Analysis of a Tensor Processing Unit.
+[name], et al. (2020). Heterogeneous Accelerators for Large-Scale Scientific Computing: Architectures
+and Applications.

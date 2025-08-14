@@ -1,0 +1,218 @@
+[name]
+Data Scientist, [compaany] (ex. [compaany])
+
+Easy to launch
+Gradient Boosting
+Requires writing all code from scratch
+Slow training (+ needs a GPU)
+Significantly worse performance
+
+Tabular Neural networks
+Fast training
+Delivers high accuracy
+
+Why do we need neural networks?
+
+Tabular neyral networks: why do we need them?
+Tabular + non tabular data
+1
+Flexibility and adaptivity
+2
+Blending with boostings
+3
+
+Big companies
+[name]
+[location]: https://arxiv.org/pdf/2311.11694.pdf
+[location]: https://www.uber.com/blog/deepeta-how-uber-predicts-arrival-times/
+Loved for their scalability and flexibility
+Loved for the incremental quality gains
+https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/discussion/466873
+https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/508337
+
+Best papers
+
+Which architecture to chooose?
+Leaderboard position 
+(lower = better)
+Basic baselines
+Specialized tabular NNs
+Revisiting deep learning models for tabular data – [compaany]
+https://arxiv.org/pdf/2106.11959.pdf
+
+Forget novel architectures - focus on proper benchmarking
+Simple models outperform complex ones
+
+MLP
+ResNet
+ReLU ( )
+n layers
+
+Input data
+
+Final predictions
+
+. . .
+Input Data
+
+ReLU ( )
+Final predictions
+
+. . .
+n blocks
++ at start nn.Linear
++Batchnorm
+
+ResNet
+Transformer
+Final predictions
+
+. . .
+Pooling
+TransformerEncoder
+Embeddings for features
+CLS/Mean/Max
+Positional encoding is not required
+Input data
+
+ReLU ( )
+Final predictions
+
+. . .
+n blocks 
++at start nn.Linear
++Batchnorm
+
+1 < 2.5 ≤ 5
+⇒ 1st bucket 
+
+nn.Embbedding
+Feature-wise linear layer
+1. Bucketization
+2. Linear projection
+Why are embeddings needed?
+They improve quality and speed up training
+Appllicable to any architecture (even MLP)
+
+2. Тригонометрические эмбеддинги
+Товар
+Final 
+embedding
+sin( )
+cos( )
+ReLU ( )
+Concat
+On embeddings for numerical features in tabular deep learning – [compaany]
+https://arxiv.org/abs/2203.05556.pdf
+Different frequencies – accounting for different digits of a number
+Embeddings significalty boost qualityand reduce the difference between architectures to zero
+6098.1234
+
+Proprietary developments
+
+3. SwiGLU
+Товар
+GLU variants improve Transformer– [name]
+https://arxiv.org/pdf/2002.05202.pdf
+Simple modification of architectures
+Used in all LLLMs
+Works for tabular data too
+
+Basic Resnet-block
+Adding SwiGLU
+ReLU ( )
++Batchnorm
++Batchnorm
+SiLU ( ) ⊗
+
+Proper use of dropout
+MLP/Resnet
+nn.Dropout
+nn.Dropout1d
+MLP/Resnet
+Dropout helps neural networks utilize all features
+Correct application prevents numerical issues
+
+4. Source-level dropout
+Droping entire sources
+Brreaking feature correlations
+In-model ensemble
+No equivalent functionaliity in boosting
+Source 1
+Source 2
+nn.Dropout1d
+
+Practical tips
+
+Data preprocessing
+2. Assumptions we make:
+3. Reality:
+What courses teach:
+
+Handles even the most challenging data
+Essencial for tabular neural networks
+QuantileTransformer
+5% quantile
+5% gaussian quantile
+We perform mapping
+from sklearn.preprocessing import QuantileTransformer
+
+ Speedups & optimizations
+Товар
+Lightweight architectures
+Code vectorization
+TensorFloat32 (matmul precision)
+Increase: 
+batch size
+num_workers
+prefetch_factor
+01
+02
+03
+04
+
+Results and insights
+
+Scenario А Tabular data onl only
+Gradient Boosting
+Tabular neural network
++
+0.6
+0.4
+
+1. Tabular NN VS Boosting
+2. Tabular NN + Boosting
+Key Finding 1
+Neural networks match boosting in predictive quality
+Key Finding 2 
+Ensembling neural and boosting models yields suprioir results
+
+Scenario Б Not onl only tabular data
+Images
+Text
+Sequences
+Tabular Data
+
+0.4
+0.3
+0.7
+0.6
++
++
++
+Complex SOTA-neural networks
+Weighteed voting
+Gradient boosting
+
+Embedding
+Tabular NN
+Basic NN
+Embedding
+Basic NN
+Embedding
+Basic NN
+Tabuar features
+
+Model Blendiing VS Neural-Based Fusion
+Insight 3 
+Maximum gains are achieved when unifying all modalities under a single neural architecture

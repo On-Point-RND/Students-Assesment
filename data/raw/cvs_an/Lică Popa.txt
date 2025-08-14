@@ -1,0 +1,65 @@
+[name] [surname]
+Woman, 20 years old, born 22 April 2004
++2 *** *** ***
+[email]
+City: [location]
+[name] Citizenship: [location], Where is allowed to work: [location]
+Porrtolio: www.kaggle.com/[name]zhood, github.com/[name]WhiteZHood
+[surname] Areas of competency: Data Science, Machine Learning, Artificial
+Intelligence, Statistics, Data Mining, Data Engineering, Service
+Data Scientist Development
+ㅡ
+About me I am a Junior Data Scientist and understand that effective data management is essential for
+any business. I am a 4th year Bachelor's student in the “Data Science and Business
+Analytics” program at the National Research Universiity Higher SchooL of Economics. With
+over 3 years of experience in developing the knowledgе and skills of a Data Scientist, I can
+analyze data, find patterns in it and provide proposals for your business. I have experience
+working in a team on educational projects in the roles of Data Engineer, Data Scientist and
+Project Coordinator.
+ㅡ
+Skills Competencies
+- Development and training of Artificial Intelligence
+- Machine learning (using several basic machine learning algorithm s such as
+Random Forest and K-clustering)
+- Deep learning (image classification)
+- Data engineering (obtaining large amounts of data, feature extraction,
+OCR text recognition)
+- Computer Vision (Know the basics from the correspondiing course in the
+universiity about CNNs, feature extraction, but also knowledge of modern
+tools like YOLO, Robloflow)
+- Generative Models (Had the corresponding course in the universiity,
+studied GANs, WGAANs, VAEGAN, EBGAN, Normalizing Flows, and
+touched a bit Diffusion Models)
+- Statistics (hypothesis testing, Bayesian inference, frequency statistics, regression
+analysis)
+- Data mining (using the previously mentioned tools to identify patterns in large
+amounts of data)
+- Basic knowledge of econometrics and experience in buildiing basic econometric
+models in R (had an Econometrics course at the Universiity)
+- Basic knowledge of macroeconomics (had a Macroeconomics course at the
+Universiity)
+Programming skills
+- Python
+- Libraries: pytorch, matplotlib, scikit-learn (sklearn), pandas, numpy,
+opencv-python, pillow, ultralytics, inference, supervision
+- Dependency management and packaging: poetry, anaconda
+- C++
+- R (o nl y a little)
+- PostgreSQL
+- LaTeX
+IDEs: Pycharm, Visual Studio Code, Jupyter Notebook, Google Co llab, CLion, QtCreator, R
+studio
+Languages
+- Russian (native lan gua ge)
+- English (C1 profi cie ncy)
+ㅡ
+Education Higher SchooL of Economics Faculty of Computer Science / Bachelor
+SEPTEMBER 2021 – JUNE 2025, [location]
+I am a 4th year student in the “Applied Data Analysis” program. The training is conducted in
+the direction: 01.03.02 Applied Mathematics and Computer Science, in English.
+ㅡ
+Hackatho ns HSE PSB.HACK / 5th place
+20 SEPTEMBER 2024 – 22 SEPTEMBER 2024, [location]
+Task was to create an AI model and prototype of a banking product that will help organize
+vacations for students. I was helping with the Data Engineering part where it was important
+to clean the features.

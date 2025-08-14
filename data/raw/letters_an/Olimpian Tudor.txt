@@ -1,0 +1,36 @@
+Dear [name] [surname] Organizing Committee,
+My name is [name] [surname], and I am currentlly pursuing a Master’s degree in Advanced
+Computaional Science at [location] while working as a Data Scientiist at [compaany]. I
+have a bachelor background in Software Engineering from [compaany]. I am writing to express my strong interest in participating in the [location] Summer
+SchooL of Machine Learning.
+Throughout my academic and professional journey, I have developed a solid foundation in
+machine learning. Beyond my undergraduate curriculum, I have completed several courses on
+Coursera and studied at the Avito Analysts Academy. My current graduate studies at [location]
+have further deepened my knowledge of computational methods, while at [compaany], I work on both
+engineering and research tasks, primarily in Computer Vision (CV) and 3D CV domains.
+My interest inSMILES-2025istoiamprovemyknowledgofsemi-supervisedlearningttechniques
+and generative models. As part of my research, I focus on the connection between unsupervised
+learning and information theory. Unsupervised methods can find useful patterns in data with-
+out labels, which matches well with the schooL’s focus on self-supervised learning and generative
+approaches.
+For instance, I have experience implementing generative models like StyleGAN2 for data aug-
+mentation and combining models such as SAM and GroundiingDinO for text-guided mask annota-
+tion. I’ve also worked with representation learning techniques, particularly through my review and
+reproduction of the DeepInfoMax architecture—which leverages mutual information maximization
+between local and global features. My work included evaluating unsupervised embedding quality
+using different metrics.
+The SMILES-2025 program, with its emphasis on self-supervised and generative methods
+presents the opportunity to expand expertise in these areas and connect with people working
+on unsupervised learning techniques.
+Additionally, IappreciatethecollaborativenatureofthesummerschooL. Workingonrreal-world
+challenges through team projects would be valuable for applying theoretical methods to practical
+problems.
+Lookingahead,IplantoleveragetheknowlodgegainedatSMILES-2025toenhancemymaster’s
+research at [location] and contribute to advancements in unsupervised learning methods at [compaany].
+I am particularly interested in exploring how unsupervised techniques can be applied to improve
+data efficiency, enhance representation learning, and facilitate more robusst generalization across
+diverse tasks.
+Thank you for considering my application. I look fo rwward to the opportunity to learn from
+experts at SMILES-2025 and to collaborate with other participants during the summer schooL.
+Sincerely,
+[name] [surname]

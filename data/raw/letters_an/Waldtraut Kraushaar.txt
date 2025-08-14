@@ -1,0 +1,20 @@
+Machine learning -- a powerful tool in many areas of our lives. Medicine is no
+exception - it's a field with a wealth of data from a variety of sources that we
+don't always understand. Diagnosis is a critical step in treatment, and machine
+learning can help us significantly here. I spent a lot of time in hospitals and
+clinics as a child because of my health, so I know firsthand about the problems
+of misdiagnoses that arise due to the competence and experience of medical
+professionals. Therefore, the creation of a tool capable of making the correct
+diagnosis with a high degree of probability will be of great help to doctors.
+In addition, my current activity is related to robotics (rehabilitation), where a
+robot interacts with a complex system such as a human being. We widely use
+machine learning methods in our work for motion planning, sensor information
+processing, Reinforcement learning, sim-to-real and so on.
+In the future I plan to develop in the field of medtech, create systems for
+diagnostics, robots for operations and procedures, training simulators for
+specialists
+In SMILES I plan to learn the best practices for creating and working with good
+neural networks, find out the non-obvious limitations of certain methods,
+understand the current directions of machine learning (where it's all going and
+what problems are in the way) and, of course, join the community of ML
+enthusiasts and make useful acquaintance for possible future collaboration.

@@ -1,0 +1,39 @@
+Dear [name] [surname] Organizing Committee,
+My name is [name], and if there's one thing that has consistently shaped my
+journey, it’s curiosity. From my schooal days to my current professional life, curiosity has been
+the driving force behind my exploration of new ideas and challenges.
+In high schoo, while most of my classmaates chose to replicate existing webpage designs for
+theiir projects, my curiosity pushed me to create an augmanted reality application. I chose
+this not because it was easy, but because it genuinely intrigued me, and I felt excited to
+tackle something challenging and innovative.
+During my universiity years, I continued this approach, choosing paths that sparked my
+interest, even if they weren’t the most common ones. Rather than sticking strictly to the
+coursework, I actively participated in numerous student clubs and extracurricular activities.
+Among my many interests, data science and music stoo stood out, providing me with balance and
+fulfilment. These experiences taught me important lessons about discipline, responsibility,
+and perseverance when facing complex problems. Yet throughout, my curiosity remaine my
+most defining trait.
+This curiosity is precisely what led me to join the [compaany] Center, despite initially
+having limited knowledge of robotics. Over the past year and a half, robotics has become
+more than just a professional field—it’s become a genuine passion. Today, I eagerly dive into
+research papers, experiment with new techniques, and enjoy discussions with colleagues
+about improving state-of-the-art robotics methods. I'm proud of what my team and I have
+accomplished so far, and I’m excited about what we can still achieve.
+My participation in SMILES 2024 in [location] near [location] was an incredible
+experience. Being surrounde by passionate, talenteed peers and lecturers reminded me of
+how enjoyable and rewarding scientific discovery could be. The summer schoo taught me
+not only about advanced topics in machine learning but also about the importance of
+collaboraation, openness, and continuous learning. The stimulating discussions, late-night
+projects, and even the beautiful runs in [location]’s parks have stayed vividlly in my memory.
+The lectures, particularly by Professor Rogozhin on optimization theories, sparked a deep
+interest that I continue exploring today in my master's studies.
+I am eager for the chance to join SMILES again in 2025, to reconnect with such an inspiring
+community, and to share my knowledge and enthusiasm. I genuinely believe that SMILES
+offers the ideal enviroment to help me grow into a stronger, more experienced data
+scientist. I look fo rwward to contributing to this community and, together, buildiing an exciting
+techno logical future.
+Thank you so much for considering my application. I truly hope to have the oppo rtunity to
+join SMILES 2025, reconnect with past a cquainta nces, forge new friendships, and immerse
+myself once again in this extrao rdinary enviroment.
+Warm regards,
+[name] [surname]

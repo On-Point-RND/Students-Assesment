@@ -1,0 +1,124 @@
+Slide 1
+----------------------------------------
+[name] [surname]
+Master's student (1st year), [location], Faculty of Applied Mathematics and Computer Science
+
+BLIP-2, Flamingo, MedCLIP, and LLaVA – Multimodal Learning Models
+
+
+Slide 2
+----------------------------------------
+Introduction
+
+Topic: Multimodal Learning Models (BLIP-2, Flamingo, MedCLIP, LLaVA) – Combining Vision and Language
+Importance:
+Enables complex tasks requiring joint understanding of images and text
+Applications: Image Captioning, Medical Diagnostics, Interactive Q&A
+Background:
+Recent advances focus on effectively integrating visual and textual data
+Significant improvements in efficiency, adaptability, and performance
+Goal: Concise overview and compaison of BLIP-2, Flamingo, MedCLIP, and LLaVA—highlightiing key innovaions and strengths.
+
+
+Slide 3
+----------------------------------------
+Problem statement
+
+What exactly are we solving? Key limitations in multimodal (vision-language) AI models:
+High computational cost (large-scale end-to-end training)
+Data scarcity (especially domain-specific data)
+Challlenges with modality integration and alignment
+Challlenges:
+Efficient utilization of pretrained single-modal models
+Handling interleaved image-text data sequences
+Semantic alignment in specialized domains (e.g., medicine)
+Scope: Review solutions provided by BLIP-2, Flamingo, MedCLIP, and LLaVA, highlightiing their unique approahes to these challenges.
+
+
+Slide 4
+----------------------------------------
+BLIP-2
+
+Main Idea: Using frozen encoders with lightweight Q-Former
+Architecture: Vision Encoder → Q-Former → Language Model
+Training: Two-stage strategy
+Advaantage: High performance, significantly fewer parameters
+
+Figure 1: Two-Stage Vision-Language Pretraining Pipeline
+
+
+Slide 5
+----------------------------------------
+Flamingo
+
+Few-shot Multimodal Learner
+Architecture: Perceiver Resampler, gated cross-attention
+Training: Massive image-text sequence datasets
+Strength: Exceptional few-shot in-context learning
+
+
+Figure 2: Visual Language Model for Interleaved Input and Text Generation
+
+
+Slide 6
+----------------------------------------
+MedCLIP
+
+Specialized for Medical Domain
+Approach: Contrastive learning with semantic alignment loss
+Combines unpaired medical image-text data
+Solves: Data scarcity, semantic misalignment
+
+
+Figure 3: Entity-Based Image-Text Pairing Workflow
+
+
+Slide 7
+----------------------------------------
+LLaVA
+
+Vision-Language Assistant
+Training Data: GPT-4 generated multimodal instructions
+Architecture: ViT image encoder, projection layer, Vicuna language model
+Strength: Advanced conversational and instruction-following abilities
+
+
+Figure 4: LLaVA network architecture.
+
+
+Slide 8
+----------------------------------------
+Results
+
+Table 1: Model Comparison
+
+
+Slide 9
+----------------------------------------
+Research gap
+
+Key Gaps
+Spatial grounding – no native masks / boxes
+Long-horizon multimodality – video + audio not fused
+Uncertainty – answeers lack calibrated confidence
+Privacy – potential data leakage, no DP training
+Compute inequality – multi-GPU demand blocks edg use
+Research Directions
+Region-aware tokens – DETR-style queries
+Hierarchical memory – retrieval-augmented context
+Probabilistic decoding – conformal / MC dropout
+Federated training – on-device secure aggregation
+MoE distillation – <1 B active params for edg
+
+
+Slide 10
+----------------------------------------
+Bibliography
+
+[name], [name]. (2023). BLIP‑2: Bootstrapping Language–Image Pre‑training. ICML 2023.
+[name], [name], [name], et al. (2023). Visual Instruction Tuning. NeurIPS 2023.
+[name], [name], [name], [name]. (2022). MedCLIP: Contrastive Learning from Unpaired Medical Images and Text. EMNLP 2022.
+[name], [name], [name], et al. (2022). Flamingo: A Visual Language Model for Few‑Shot Learning. NeurIPS 2022.
+InfoQ: “A Dive into Vision‑Language Models” (2023).
+InfoQ: “DeepMind Trains 80 Billion‑Parameter AI Vision‑Language Model Flamingo” (2022).
+Salesforce Research: “BLIP‑2: Bootstrapping Language‑Image Pre‑training” (2023).

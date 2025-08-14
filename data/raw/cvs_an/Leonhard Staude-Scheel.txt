@@ -1,0 +1,76 @@
+[name] [surname]
+PERSONAL INFO INTERESTS & PROJECTS
+Name: [name] [surname] AI for Robotics
+Date of birth: 31/01/2002 Human-Robot Interaction
+Email: [email] Embbedded Systems
+Telephone: +2 *** *** *** Computer Vision
+Telegram: @[name] Motion Planning
+Sensor Fusion
+SUMMARY Reinforcement Learning
+Scientific Writing & Public
+Robotics and AI engineer with expertise in mobile robotics, perception,
+Speaking
+and real-time control.
+Robotics Simulation
+Skilled in Python, C++, ROS2, OpenCV, and deep learning. Deveveloped
+navigation, motion planning, and human-robot interaction systems,
+integrating sensor fusion and ML for adaptive robotics solutions.
+PERSONAL QUALITIES RELEVANT EDUCATION
+Have well-deveveloped leadership Universiity: [university] (2020-2024)
+skills
+Faculty: Robotics and Integrated Automation
+Remain attentive and focused Department: Computer systems of automation of production | RK9 (15.03.04)
+even when working hard
+The BSc thesis: Mobile manipulation robot based on Omni platform for
+Quickly switch between multi-
+storage rooms.
+directional work tasks
+Universiity: [university] (2024-2026)
+Fast learner with a strong analytical
+Faculty: Mathematics and Computer Science, Data Science (02.04.01)
+mindset
+Department: Mobile Robotics Laboratory
+TECHNICAL SKILLS CAREER SUMMARY
+OOO "[compaany]" (June 2023 - May 2024)
+Programming: Python, C++, Bash
+Junior Programmer
+AI & ML: PyTorch, TensorFlow, RL
+(Deep Q-Learning, Policy Gradient) ACHIEVEMENTS:
+Robotics: ROS2, MPPI, RRT*, SLAM
+Developed CV and depth maps using OpencCV and Open3D
+(Kalman, Monte Carlo)
+Created a simulation of the mobile platform in the Webots simulator
+Computer Vision: OpenCV,
+Open3D, Keypoints (NeSS-ST, DISK,
+Developed an algorithm for synchronous control of multiple drives of
+SIFT, ORB), Depth Maps
+the robot
+Dev Tools: Git, Docker, Linux, Hydra
+Developed mobile and lifting platform control drivers
+SCIENTIFIC ACHIEVEMENTS [compaany], “Mobile Robotics Laboratory” (June 2024 - Present)
+Researcher in AI-driven Robotics
+Certificate “Best project award at
+ACHIEVEMENTS:
+[compaany] Robotics Schoo 2022”
+Implemented MPPI (Model Predictive Path Integral Control) for real-time
+Author of a scientific article
+motion planning and obstacle avoidance, succeessfully integrating it into
+“Dynamics of relative movement of
+the material point taking into account the robot’s control system
+the influence of elastic connection”
+Developed a real-time emotion recognition module for human-robot
+Responsible for CV & perception interaction, integrating ROS2, OpenCV, and deep learning
+system in Eurobot 2024
+Designed a motion planning system based on reinforcement learning,
+The Government of the Russian
+utilizing Deep Q-Learning to optimize trajectory prediction and adaptive
+Federation appointed me on a
+decision-making in dynamic environments
+decision-making scholarship for my
+outsstanding abilities in academic and scientific
+Integrating NeSS-ST (Neural Stability Score with Shi-Tomasi) into the DISK
+activities. reinforcement learning pipeline, enhancing keypoint selection by
+prioritizing stability and repeatability for visual localization and SLAM
+Modiifying the reward function in DISK’s policy gradient framework, replacing
+its original value function with a stability-aware mecaniism, ensuring better
+keypoint reliability under significant rotation and translation

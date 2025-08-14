@@ -1,0 +1,38 @@
+Dear Members of the expert commission,
+My name is [name] [surname], and I would like to join the summer schoo[name] to
+expand my knowl[name]ege in machine learning and apply it to solving problems in
+computer graphi[name]cs for [location] and [location] projects.
+In 2017, I gra[name]uated from [location] State Uni[name]versity with a master's
+degre[name] in Computational Physics. My master's thesis: Impleme[name]ntation of
+methods for constructing three-dimensional models of the human body and
+thei[name] application for solving radiation therapy problems. At this research, I
+created UI for anal[name]yzing DICOM-files and generating 3D models. During my
+studies, I also explored parallel programming techno[name]ologies and CUDA for my
+course-proje[name]cts to opti[name]mize algo[name]rithms.
+Unfortunatel[name], I had to interr[name]upt my gra[name]uate studies, but I starte[name]d my
+profes[name]sional career in the field of 3D graphi[name]cs, working with profes[name]sional
+sof[name]tware such as Houdini FX. In addi[name]tion, I have anal[name]yze[name] scienti[name]fic publications
+on the use of neural ne[name]tworks and machine learning in 3D graphi[name]cs, including
+articles on generative models for object reconstruction and animation.
+My bac[name]kground combi[name]nes academic education in compu[name]tational physics
+(numerical modeling, algo[name]rithmic opti[name]mization) and practical experience with
+sof[name]tware such as Houdini, Maya, Blender, and Nuke. I have basic programming
+skills in Python, Java, and VEX.
+Pa[name]rticipation in the summer schoo[name]l will allow me to learn how to use modern
+machine learning methods to 3D modeling tasks, gain hands-on experience with
+research tools, and enhance my technical skills. I hope to re[name]cei[name]ve fee[name]dback from
+mento[name]rs on my ideas for integrating neural ne[name]tworks into computer graphi[name]cs
+and to colla[name]borate with peers on projects combi[name]ning ML and 3D techno[name]logies.
+After graduating from summer schoo[name]l, I plan to apply my knowl[name]ege to the
+deve[name]lopment of algo[name]rithms combi[name]ning 3D graphi[name]cs and machine learning, for
+example, to automate the creation of anatomi[name]cal models. I also plan to publish a
+research paper on this topic. In the long term, I would like to contribute to
+[location] projects impleme[name]nting ML in scienti[name]fic and commercial fields, such as
+visual effe[name]cts for cinema or medical imaging.
+My goal is to become a specialist who bri[name]dges compu[name]tational physics with
+modern machine learning. I am confident that the summer schoo[name]l will help me
+achieve this by providing the nece[name]ssary knowl[name]ege and profes[name]sional
+conne[name]ctions.
+Thank you for your conside[name]ration.
+Sincer[name]ely,
+[name] [surname]

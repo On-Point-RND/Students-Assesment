@@ -1,0 +1,80 @@
+Improving CNN-based semantic segmentation
+through augmentation
+in biomedical applications
+[name]
+CV engineer, [compaany]
+Introduction
+• Medical field
+• Radiography (mammography) domain
+• Augmentations (classical and generative)
+• Semantic segmentation task with CNN
+Problem statement
+• Evaluate the impact of the classical and generative augmentations on the
+semantic segmentation model
+• Increase the accuracy of the malignant calcification prediction area
+• Assessing the feasibility of generative models for medical data
+• Improve the quality of identifying pathologies at an early stage
+• Improve the quality of human life!
+Dataset
+512
+4
+215
+Pixel array Contour Patches
+Methods
+Methods, Classical: Copy Paste and Seamless Cloning
+Methods
+Methods, Generative: SinGan-Seg
+Experiments structure
+Results
+Studies /
+Metrics Baseline Seamless Copy Paste SGS_C_1 SGS_C_2 SGS_C_5 SGS_C_H_1 SGS_C_H_2 SGS_C_H_5
+60
++ 60C + 120C + 300C + 60C + 60H + 120C + 120H + 300C + 300H
+ROC AUC 0.8861 0.8727 0.8841 0.8689 0.8738 0.8707 0.8880 0.8812 0.8636
+F 0.5162 0.5086 0.5218 0.4957 0.5020 0.5036 0.5181 0.5502 0.4682
+1
+IoU 0.4159 0.4121 0.4383 0.3779 0.3489 0.4455 0.4559 0.4476 0.4473 ↑ 9.62 %
+200
++ 200C + 400C + 1000C + 200C + 200H + 400C + 400H +1000C + 1000H
+ROC AUC 0.8793 0.8756 0.8703 0.8755 0.8911 0.8867 0.8801 0.8939 0.8503
+F 0.4721 0.4818 0.4190 0.4191 0.4378 0.4388 0.4688 0.5389 0.4129
+1
+IoU 0.4906 0.4328 0.4277 0.4614 0.4785 0.4417 0.4453 0.5569 0.4081 ↑ 13.51 %
+400
++ 400C + 800C + 2000C + 400C + 400H + 800C + 800H + 2000C + 2000H
+ROC AUC 0.8880 0.8873 0.8631 0.9029 0.8866 0.8933 0.9051 0.8865 0.8938
+F 0.5622 0.5527 0.5150 0.5598 0.4631 0.4971 0.5460 0.4928 0.4607
+1
+IoU 0.5006 0.4760 0.4140 0.4935 0.4935 0.4841 0.5104 0.4908 0.4636 ↑ 1.96 %
+600
++ 600C + 1200C + 3000C + 600C + 600H + 1200C + 1200H + 3000C + 3000H
+ROC AUC 0.9153 0.8940 0.8861 0.9074 0.9092 0.9033 0.9032 0.9011 0.8985
+F 0.6287 0.5142 0.4605 0.5556 0.5349 0.5390 0.5738 0.5697 0.5334
+1
+IoU 0.5732 0.5220 0.4165 0.5573 0.5330 0.5649 0.5104 0.5457 0.5243 0 %
+826
++ 623C + 1200C + 3000C + 623C + 1200H + 3000H
+R-CC L-CC
+R-MLO L-MLO
+SiNGan-Seg pipeline
+SiNGan-Seg
+SiNGan-Seg pipeline
+IoU evaluation through 5 random seed splits the main
+dataset on original with generate calcifications and
+healthy (SiNGan-Seg) data
+IoU evaluation through 5 random seed splits the main
+dataset on original with generate calcifications
+(SiNGan-Seg) data
+
+
+R-CC L-CC
+R-MLO L-MLO
+SiNGan-Seg pipeline
+SiNGan-Seg
+SiNGan-Seg pipeline
+IoU evaluation through 5 random seed splits the main
+dataset on original with generate calcifications and
+healthy (SiNGan-Seg) data
+IoU evaluation through 5 random seed splits the main
+dataset on original with generate calcifications
+(SiNGan-Seg) data

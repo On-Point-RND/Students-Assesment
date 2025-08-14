@@ -1,0 +1,89 @@
+Reviiewing/rreproducing «Decentralized
+Optimization with Coupled Constraints»
+( [name] et al., ICLR 2025 poster)
+https://github.com/[name]/smiles25task/
+blob/main/redo-docc-clean.ipynb
+[name] [surname]
+[compaany] / [compaany]
+Introduction
+n
+• Federated learning (FL) is commoonly ∑ loss (model) → min among n devices under some
+i
+i=1
+communication restrictions: bad connection, private data, no «center» for All-Gather
+n
+Vertical federated learning (VFL) is commoonly
+loss( ∑ model ( feats )) → min
+i i
+i=1
+• Federated learning allows for horizontal scaling and on-edg e learning, e.g. for large models, and can
+respect private data. Additional restrictions are natural for environments like self-driving cars, etc.
+• The reviewed article utilizes decentralized FL metho d with affine constraint Lx = b and appropriate
+2
+hyperparameters for a LinReg reformulation:
+F × x ≈ x , ∥x − labels∥ → min
+coef pred pred 2
+• The review seeks to analyz e the metho d and reproduce the results
+Problem statement
+2 8192×112
+• We use linear regression to solve ∥Ax − b∥ → min , A ∈ ℝ (nu mbers for clarity)
+2
+Feature matrix ( ) is split onto devices by co lumns: -th has features and
+A n = 14 i A[: , 8i : 8(i + 1)]
+respective part of model vector:
+x[8i : 8(i + 1)]
+Connectivity e dg es form a static connected graph
+We are forbidden from explicitl y gatheri ng on some node («All-Gather» is banned)
+Ax
+• It’s not straigh tfo rward to calculate the loss gradien t (the dual problem will be formulated to solve this)
+Gradient compu ta tion, communication rounds, and multiplications by are mi nimized
+A
+• Some ML algo rithm is needed to provide a fast convergence rate with respect to work mi nimized
+The problem is just a convex linear regression problem and are divided by easily
+A, x n
+Methods
+• Basicall y, a dual variable and a coupling term are introduced to loosen the equation Ax = preds .
+• The problem is reformula ted into FL with affine constraint by putting the «predictions» into the
+2
+model , constraining . Authors divide the constraint
+x F × x ≈ x , ∥x − labels∥ → min
+coef pred pred 2
+r
+2
+into on-device parts, connected by variable : .
+y G(x, y) = loss(x) + ∥Ax + Wy − b∥ → min
+2
+is multiplied by which is alike the graph Laplacian but with limited condition number. A dual
+y W
+variable to is also introduced for optimization. Chebyshev itera tion methods are used to
+(x, y)
+decr ease matrix multiplication and gradien t calls.
+• This is a new result in VF L. Simple models like LinR eg are commo nl y used in VF L due to its
+challenges.
+Results
+• The algo rithm provides linear convergence rate to the opti mal solution with a better constant for
+gradien t call and matrix multiplication count due to Chebyshev iteration
+• Expensive gradien t call and matrix multiplication operations were opti mized. Communication count
+also turned out to be lower on some data, which decr ease s various communication costs.
+• Adding or removing an e dg e did affect the model parameters moderately (steps 100, 150, 200).
+Decentralized Optimization with Coupled
+Constraints, [name] et al. (2025)
+⋆ 2
+Log-scale distance to opti mum ∥x − x ∥ ,
+2
+without/with graph structure change
+Research gap
+• This approa ch does not address s tochastic gradien t de sce nt (SGD) methods
+• Some problems might be related to preserving p rivacy when x is distributed onto devices and to
+pred
+possible feature space recovery from communications
+• Another problem is to address graphs with changing structure
+• Filling these gaps could allow for private federated learning and utilizing ML in communication-
+constrained enviro nments
+• Future oppo rtunities are to utilize these methods with models of SGD, data compression during
+communication, non-convex problems, graphs with changing structure and more complex opti mization
+parameters
+Bibliography
+1. D. [name] et al. Decentralized Optimization with Coupled Constraints (2024). arXiv:2407.02020v1
+2. A. Beznosikov et al. Exploring New Frontiers in Vertical Fede rated Learning: the Role of Saddle Point Reformula tion
+3. A. Salim et al. Dualize, Split, Randomi ze: Toward Fast Nonsm ooth Optimization Algo rithms (2020). arXiv:2004.02635

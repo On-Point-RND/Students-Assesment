@@ -1,0 +1,124 @@
+Moverounahr Street 1,
+[name] [surname]
+[location],
++2 *** *** ***
+Researcher in Quantum information theory
+and Machine learning fields Email:
+[email]
+LinkedIn:
+www.linkedin.com
+/in/[name]-[surname]
+EDUCATION
+GitHub:
+[compaany], [location]— BSc Computer Science, Exchange student
+https://github.com
+JAN 2025 - JUNE 2025 /Fyodor[surname]
+Research on Differential Forms and Geometric Calculus
+Differential equations, Topology, Calculus 3
+Programming
+Algorithmic Robotics, Computer Networks, Databases Languages:
+New [location] Universiity — BSc Computer Science, Research Assistant Python * * * * *
+SEP 2022 - JUNE 2026
+Qi[compaany] * * * *
+Attend master’s courses on Quantum physics and Quantum computing
+Attend PhD seminars on Advanced math (Abstract Algebra, Representation theory) C++ * * * * *
+CirQ * * *
+QxQ ([compaany]), [location] — Introduction to Quantum
+Computing (year-long program)
+C * * * * *
+SEPTEMBER 2023 - APRIL 2024
+Programming in CirQ Javascript * * * *
+Fundamentals of Quantum Computing
+Java * * * * *
+Quantum annealing, VQE
+Harvard Veritas AI, [location] — AI Scholars ( semester program)
+JULY 2023 - SEPTEMBER 2023
+Developed a CNN based on CIFAR10, enhanced by reinforcement learning using ImageNet
+Developed Deep Neural Networks with over 20 million parameters
+Advanced machine learning
+Universiity of Gdansk, [location]— GQI School attendee
+JULY 2023 - AUGUST 2023
+Research on QKD, PQC, Attacks on Quantum devices
+Lectures by professors from ICQT ([compaany]) (International Centre for Theory of Quantum Technologies)
+PUBLICATIONS
+Categorical Quantum computation, poster — presented at SRS
+Noteed by the Conference Committee
+Quantum Physics and Orange, book — Author and editor
+Quantum physics and oranges
+AI and its role in the Second Scientific Revolution, IEEE paper — Author
+Published at the IEEE conference in [location]
+Nominated for the Best-paper award
+https://doi.org/10.1109/ECAI58194.2023.10194056
+EXPERIENCE
+New York Universiity, [location] UAE— NYUAD Quantum Hackathon 2025
+participant
+APRIL 2025
+Quantum computing
+SDGs
+Artificial intelligence and Machine learning
+Yale Universiity, New Haven, [location]— YHack 25 participant
+MARCH 2025
+Qi[compaany]
+Quantum sequencing algorithm
+BlueQubit challenge
+MIT, Cambridg, [location]— iQuHack 25 participant
+JANUARY 2025
+Qi[compaany]
+Quantum optimization algorithm
+IonQ challenge
+SRS Mathematical Physics Winter Schoo[compaany], [location]— Attendee
+JANUARY 2025
+Category theory, representations, quivers
+Topologica[compaany] Quantum Field Theory
+Chaos theory and Quantum gravity
+Yandex, [location]— Intern
+OCTOBER 2024 - DECEMBER 2024
+Research and analysis
+Advanced C++
+Huawei, Seeds for the Future, Innovation program— Finalist
+AUGUST 2024
+Artificial Intelligence and Machine learning
+Modern communication techno[compaany]s
+Skolkovo Universiity, Moscow [location]— SMILES ML summer
+school
+AUGUST 2024
+Multimodal approa[compaany]s
+Advanced regression algo[compaany]thms
+MIT and Cornell Universiity, [location]— Attendee of a Quantum
+Integrable Systems Summer Schoo[compaany]
+JULY 2024
+Category theory
+Reprresentation theory
+Differential equa[compaany]tions
+Abstract Algebra
+New [location] Universiity, [location]— AI research assistant
+APRIL 2024 - JULY 2024
+Research on Convolutional Neural netwo[compaany]s and Deep Neural netwo[compaany]ks in emotion
+detection
+Research Assis[compaany]t for a Regressi[compaany]s in Industry project
+Siegen Universi[compaany], Siegen Germany— PenteQost 24 participant
+MAY 2024
+Quantum compu[compaany]ing
+Quantum founda[compaany]tions
+Post Quantum Cryptography
+Quantum Key Distribution
+MIT, Cambridg, [location]— iQuHack 24 participant
+JANUARY 2024
+Qi[compaany], Python, Jupyte[compaany] lab
+Cla[compaany]s challenge
+The US Emba[compaany], [location]— Educator
+JUNE 2023 - AUGUST 2023
+Teaching introduction to Quantum compu[compaany]ing and Quantum information
+DQ-mat Summer schoo[compaany], Leibniz Universi[compaany] Hannover Germany— Attendee
+AUGUST 2023 - AUGUST 2023
+Quantum compu[compaany]tions with ion trapping
+Ion trapping and interferometry
+Jyväskylä Summer schoo[compaany], Jyväskylä Universi[compaany] Jyväskylä [location]—
+Attendee
+JUNE 2023
+Quantum materials: quantum dots and NV cawities
+Optics for Quantum Computing
+Ion-Plasma Insti[compaany], [location] — Research intern
+FEBRUARY 2023 - JUNE 2023
+Methods of data analysis
+Python for experimental physics

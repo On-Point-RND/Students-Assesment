@@ -1,0 +1,44 @@
+[name] [surname]
+Contact Information
+Email: [email]
+Github: https://github.com/[name][surname]
+Education
+• B.Sc. in Applied Mathematics and Physics, [location] Institute of Physics and Technology ([location], [location])
+• M.Sc. student (1st year), [location] Institute of Physics and Technology ([location], [location])
+• Department of Data Analysis and Artificial Intelligence
+Work Experience
+• Research Assistant, Laboratory of Mathematical Optimization Methods ([location] Institute of Physics and Technology) / [location] RAS / [location] Institute of Physics and Technology AI Lab (2023–present)
+– Published several papers on transport optimization
+– Worked on optimization of DL models for tabular data, including using the [compaany] Research TabM frame-
+work
+– Contributed to [compaany] project: neural network scheduler
+– Participated in [compaany] project on improving alignment in LLMs
+– Currently researching the structure and nature of noise induced by SGD
+– Authored ”Stochastic Correspondence Frank-Wolfe” on transport optimization (to be submitted to TFN-
+2025)
+• Data Analyst Intern, [compaany] (3 months, 2022)
+– Worked with [compaany] queries
+– Created dashboaards with DataLens
+– Developed a plaftorm for daily ticket dispatching via Nirvana and trackeed execution in dashboaards
+Research and Publications
+• Publication in ”Computer Research and Modeling”: Modifications of the Frank-Wolfe Algorithm in the Traffic
+Assignment Problem
+• Scientificpaper: ConjugateFrank-WolfeinMachineLearning. PresentedaatOPTIMAConference. Underreview
+in [compaany] journal
+• Thesis on: ”On the problem of finding an equilibrium distribution of flows”, 66th All-Russian Scientific Confer-
+ence, [location] Institute of Physics and Technology
+• Co-author of a paper submitted to ICLR 2025: Mirror-Prox Algorithm with Linear Convergence Rate and its
+Application for Dynamic Loss Scaling
+• Co-author of Garage: Generative Augmentation Framework for Transformiing Object Representaions in Im-
+ages. Trained FasterRCNN and DETR on generatively augmented data; currently working on improving object
+insertion quality. Submitted to EMNLP 2024 System Demo Track
+Courses
+• Deep Learning
+• Advanced NLP and Reinforcement Learning
+• Deep Generative Models
+• Optimization Methods
+1
+Summer Schoo ls and Hackatho ns
+• [location] 2024 Summer Schoo l on Financial Mathematics
+• 5th Interna tional Summer Schoo l on Financial Mathematics
+2

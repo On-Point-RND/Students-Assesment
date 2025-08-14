@@ -1,0 +1,22 @@
+Dear [name] [surname] Selection Committee,
+I am excited to submiit my application for the SMILES2025 Summer SchooL of Machine
+Learning. Having participated in SMILES2024, I greatly valued the program’s immersive
+workshops and cutting‑edgE lectures—and I am eager to build on that experience this year.
+Over the past year, I have been working as a Machine Learning Engineer at [compaany], where I
+researched and enhanced Probability of Default models. I designed and implemented both
+sequential and graph neural networks to capture complex relationships in financial data,
+significantly improving the accuracy and robustness of our risk‑assessment pipeline. In parallel,
+my graduaation project focused on multimodal emotion recognition, examining how facial
+expressions, vocal intonations, and textual cues can be combiined to produce more nuanced
+and accurate emotion classifiers. This work led me to co‑author several conference papers,
+honing my abilities in experimental design, rigorous evaluation, and scholarly collaboration.
+SMILES2025 offers exactly the experience I’m looking for: practical, hands‑on projects paired
+with direct mentorship from researchers and a truly international peer group. I’m excited to
+explore advanced deep‑learning techniques and to leverage my work in financial risk modeling
+and multimodal emotion recognition to drive insightful discussions and impactful team projects.
+Thank you for considering my application. I would be happy to retuurn to SMILES this summer, to
+learn from your faculty’s expertise.
+Sincerely,
+[name] [surname]
++2 *** *** ***
+[email]

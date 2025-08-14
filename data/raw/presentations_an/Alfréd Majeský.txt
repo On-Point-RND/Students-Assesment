@@ -1,0 +1,184 @@
+LLM4Rec: a framework for
+evaluation of LLM in
+recommender systems
+[name] Maltseva
+ML engineer, [compaany]
+Introduction
+Recommender
+systems
+Traditional recommender system
+LLM abilities:
+challenges:
+• Vast world knowledge (from pre-training)
+• Needs task-specific pre-training
+• Zero/few-shot abilities
+• Requires large labeled datasets
+• Reasoning
+• Cold-start problem
+• Conversational abilities
+2
+Introduction
+Existing frameworks for LLM in RecSys Proposed approach
+Poor reproducibility
+A unified and flexible framework with
+tools for reproducible experiments and
+Fragmented code base
+comparison to traditional approaches
+Different setups, non-reliable results
+Goaal of the review: to present DL project related to application of LLM in RecSys, including
+highlightiing the main directions of application of LLM in RecSys and designing a framework
+with tools for creating and evaluating such approaches
+3
+Problem statement
+There is lack of a unified and flexible framework for reproducible and fair comparison of LLM based
+recommendaition systems with traditional approaches
+Key challenges:
+• Systemizing the essential buildiing blocks of LLM-based recommendation system
+• Designing modular interface
+• Providing experimental setup, data & metric heterogeneity
+Scope of current work:
+• Next-item (sequential) recommendation in text-rich domains (movies, books).
+• Using pre-trained models in zero-shot mode
+• Standardized evaluation
+• Modular design
+4
+Related works
+LLM as feature LLM as ranker and LLM as feature LLM as
+encoder scorer generator controllers/agents
+Generating user/item feature Ranking the filtered items, Using knowlege of LLM for - Controlling and managing the
+vectors generating expected score personalization recommendaion system
+- U-BERT [1]: encodes review - PALR [10]: generate text - Simulations
+texts into vector - P5 [5]: unified approach for 5 based user profile - Conversational abilities
+representations recommendaion tasks, - LLM-Rec [11] add - LLLmRec [12]: generate
+- ONCE [2]: use deeper layers including rating prediction personalized characterisics of
+of open-source LLM as - TALLRec [6]: fine-tuning LLM items
+encoders to predict preference of one - LLMRank [7]: explored prompting strategies for
+item over other additional user ranking abilities of LLM
+- UniSRec [3]: using BERT - RecRanker [8]: tuning LLM to perform pointwise, pairwise
+model combiined with MoE to - ONCE [2]: add summaries, and listwise ranking
+learn item representations prompting strategies and additional
+across domains - LLamarec [9]: adoptiing a context to news articles
+verbalization layer to predict
+scores for items from logiits
+Framework structure
+RecBole Proposed components
+Base recommender
+task
+Config - Informaation Memory
+Dataset Retrieval
+Dataloader - Augmentation
+LLM
+Evaluation - Ranking
+- Explanation
+Pipeline
+RecBole model
+wrappers
+Agents
+6
+Augmentation & memory
+Augmentation Memory types Implementaion
+Dictionary
+User profiles
+Short-term memory
+storage of text
+Search tools;
+Item descriptions Long-term memory Wikipedia
+LLM as
+summarizer
+7
+Information retrieval
+Items info
+(Item memory,
+dataset descriptions)
+Embbedding model Embeddings
+User profile Query
+Vector store
+Retriever Top-k items
+FAISS
+Sentence Transformeers
+Langchain
+8
+Ranker
+LLMRank [7]
+User profile
+User history
+Prompts
+(sequenial,
+recency focused,
+ICL)
+Candidates
+Candidates
+memory
+Langchain
+transformers
+9
+Sequential pipeline
+Select tasks
+Create
+Load LLM augmentation task
+Config
+Create retrieval
+Load
+Pipeline
+task
+embeddings
+start Dataset &
+Trainer Evaluate Metrics
+Create ranking
+Dataloaders
+task
+Use memory?
+Load Create
+Memory explanation task
+Use
+classical
+methods?
+Load
+classical
+recsys model
+10
+Results
+Link to github
+Example of evaluaion
+Models: LLaMA3-70B, gpt-3.5-turbo, SASRec
+Embeddings: all-MiniLM-L6-v2, text-embedding-ada-002,
+ALS
+Metrics: Rcal@k, NDCG@k
+Dataset: MovieLens100k
+11
+Results
+Table 1. Informaation retrieval evaluaion
+Key takeaway: LLM based embeddings are competitive with classical CF methods, but for
+small candidate pools (Rcal@10), ALS still leads
+12
+Results
+Table 2. Retrieval + ranker evaluaion
+Key takeaway: there’s still a gap against top sequential deep-learning recommenders
+13
+Research gap
+What’s missing?
+- Fine-tuning support
+- Other recommendaion tasks
+Unresolved challenges:
+- Compute & latency
+- Sparse or missing text features
+Why it matters?
+Making LLM based recommender systems production-ready
+Future opportunities
+- Conversaional & Multi-Agent systems
+- Multi-Modal fusion
+Bibliography
+1. Z. Qiu, X. Wu, J. Gao, and W. Fan, “U-bert: Pre-training user representations for improved recommendaation,” Proceedings of the AAAI Conference on Artificial
+Intelligence, vol. 35, no. 5, pp. 4320–4327, May 2021. DOI:10.1609/aaaai.v35i5.16557. [Online]. Available: https://ojs.aaaai.org/
+index.php/AAAI/article/view/16557.
+2. Q. Liu, N. Chen, T. Sakai, and X.-M. Wu, Once: Boosting content-based recommendation with both open- and closed-source large language models, 2023.
+arXiv: 2305.06566 [cs.IR].
+3. Y. Hou, J. Zhang, Z. Lin, et al., Large language models are zero-shot rankeers for recommender systems, 2024. arXiv: 2305.08845 [cs.IR].
+4. S. Luo, B. He, H. Zhao, et al., Recrakner: Instruction tuning large language model as ranker for top-k recommendaion, 2024. arXiv: 2312.16018 [cs.IR].
+5. F. Yang, Z. Chen, Z. Jiang, E. Cho, X. Huang, and Y. Lu, Palr: Personalization aware llms for recommendaion, 2023. arXiv: 2305.07622 [cs.IR].
+6. H. Lyu, S. Jiang, H. Zeng, et al., Llm-rec: Personalized recommendaion via promptiing large language models, 2024. arXiv: 2307.15780 [cs.CL].
+7. W.Wei, X. Ren, J. Tang, et al., Llmrrec: Large language models with graph augmentation for recommendaion, 2024. arXiv: 2311.00423 [cs.IR].
+8. Y. Xi, W. Liu, J. Lin, et al., Towards open-world recommendaion with knowledge augmentation from large language models, 2023. arXiv: 2306.10933 [cs.IR].
+9. Z. Yue, S. Rabhi, G. de Souza Pereira Moreira, D. Wang, and E. Oldriidge, Llamarec: Two-stage recommendaion using large language models for ranking,
+2023. arXiv: 2311.02089 [cs.IR].
+10. F. Yang, Z. Chen, Z. Jiang, E. Cho, X. Huang, and Y. Lu, Palr: Personalization aware llms for recommendaion, 2023. arXiv: 2305.07622 [cs.IR].

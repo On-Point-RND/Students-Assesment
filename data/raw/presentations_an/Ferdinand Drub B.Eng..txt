@@ -1,0 +1,91 @@
+Using Personalized Genome for
+LegNet Fine-Tuning
+[name] [surname]
+Student, [location]
+Introduction
+● The topic of the work is to create a tool for annotating VCF files (files, containing information about mutations) by
+training the LegNet CNN model on personalized data.
+● Individual genomic variations can influence gene expression, leading to changes in gene activity and thus
+disease. Current models have difficulty predicting inter-individual effects, limiting their clinical utility for personalized medicine. This work addresses this gap by training LegNet to be more sensitive to personalized
+genomic data.
+https://doi.org/10.1038/s41568-021-00371-z
+● Mutations in enhancers and promoters can disrupt binding to transcription factors, introduce changes in the
+domain organization of chromatin, etc. Among significant mutations, the predominant part is made up of
+mutations in non-coding regions.
+Problem statement
+Problem 1
+● We solve the problem of insensitivity of known models to SNP and the lack of effective VCF annotators
+Problem 2
+● Existing pipelines occupy the 21st place in the mutation effects prediction competition, while the LegNet model is the winner of
+this competition.
+[name], C., [surname], R.W., [surname], P. et al. Personal transcriptome variation is poorly explained by current genomic deep learning models. Nat Genet 55, 2056–2059
+(2023). https://doi.org/10.1038/s41588-023-01574-w
+Problem statement
+Problem 3
+● There is another problem - the large weight and time-consuming
+prediction of known transformer models, examples of multi-task
+models.
+● On the other hand, the more specialized ExPecto model is not
+inferior to the Enformeer model in the task of predicting gene
+expression, which indicates the feasibility of using simpler
+models for this purpose. Single-task models (including Legnet)
+are more convenient for their training, they make predictions
+faster and are much better suited for the user interface
+● Thus, not only the accuracy of the model, but also its resource
+intensity becomes an important criterion.
+[name], Ž., [surname], V., [surname], D., [surname], J.R., [surname], A., [surname], K.R., [surname], Y., [surname], J., [surname], P., [surname], D.R. Effective gene expression
+prediction from sequence by integrating long-range interactions // Nat. Methods.– 2021.– Vol. 18, № 10.– P. 1196–1203.
+Avsec Ž., Agarwal V., Visentin D., Ledsam J.R., Grabska-Barwinska A., Taylor K.R., Assael Y., Jumper J., Kohli P., Kelley D.R. Effective gene expression
+prediction from sequence by integrating long-range interactions // Nat. Methods.– 2021.– Vol. 18, № 10.– P. 1196–1203.
+Methods
+● Our work involves modifying the LegNet architecture to increase its receptive field, training the
+model on personalized data, implementing it in a VCF annotation framework, and testing it on
+well-known databases.
+Methods
+● Legnet is a convolutional neural network that takes a
+one-hot-encoded DNA sequence as input and predicts the
+expression level as output
+● For the work, we added to its architecture additional 2 pooling
+layers and 2 blocks of the effective receptive field, this allowed us to
+expand the receptive field of the model
+https://doi.org/10.1093/bioinformatics/btad457
+Methods
+To train the model, 2 datasets were selected - a dataset from the Enformeer model (CAGE
+data on three cell lines - K452, Hek, HepG2) and raw data from the Clipnet model in the
+format of BigWiG, bedgraph, and PRO-cap LCL libraries, which we processed according to
+the pipeline above.
+Methods
+We selected the bins from the Enformeer data, divided the chromosome data into training, test
+and validation (we used 10-fold cross-validation), then filtered out only data with an expression
+greater than 1 and then worked with the logarithm of the sum of one and expression, this
+allowed us to standardize the data and help the model learn significant features
+Results
+• Then we tested ensembles of models trained on different types of data and cell lines and compared
+them with other models - Enformeer and Clipnet.
+● The picture shows the result of the Pearson correlation and the proportion of correct signs for an
+ensemble of Legnet and Clipnet models trained on LCL PRO-CAP data, on folds on MPRA data and on
+the PRO-CAP test, as well as the Pearson correlation on the bootstrap CAGE test for LegNet models
+trained on different cell lines (K562, Hek, HepG2).
+● As a result, the model showed good quality when trained on Enformeer data, but it was inferior to the
+Clipnet model.
+Research gap
+• The main problem lies in the still small receptive field - Legnet is several orders of magnitude inferior to
+Enformeer and can not account for distal interactions.
+• It is necessary to train LegNet on other types of experimental data and check the quality
+• It is also necessary to refine the model in order to outperform Clipnet on PRO-CAP data
+• The next step will be to test the model on the ADASTRA and UDACCHA databases to assess its
+generalizability
+Bibliography
+1. The International SNP Map Working Group. A map of human genome sequence variation containing 1.42
+million single nucleotide polymorphisms. Nature 409, 928–933 (2001).
+https://doi.org/10.1038/35057149
+2. [name], C., [surname], R.W., [surname], P. et al. Personal transcriptome variation is poorly explained by current
+genomic deep learning models. Nat Genet 55, 2056–2059 (2023).
+https://doi.org/10.1038/s41588-023-01574-w
+3. [name], Ž., [surname], V., [surname], D., [surname], J.R., [surname], A., [surname], K.R., [surname], Y., [surname], J., [surname], P.,
+[surname], D.R. Effective gene expression prediction from sequence by integrating long-range interactions // Nat.
+Methods.– 2021.– Vol. 18, № 10.– P. 1196–1203.
+4. Dmitry Penzar, [name] [surname], Elizaveta Noskova, Arsenii Zinkevich, Georgy Meshcheryakov, Andrey
+Lando, Abdul Muntakim Rafi, Carl de Boer, Ivan V Kulakovskiy, LegNet: a best-in-class deep learning
+model for short DNA regulatory regions, Bioinformatics, Volume 39, Issue 8, August 2023, btad457,
+https://doi.org/10.1093/bioinformatics/btad457

@@ -1,0 +1,62 @@
+Motivation letter [name]
+I have always loved mathematics, but for a long time I could not find any practical application for it that would be interesting enougn for me, until I found programming for myself.
+I like to participat in Olympiads in mathematics and computer science and I am constaantly
+improving in this direction. I am interested in researching and developing algorithm, as well as
+working on projects in the field of artificial intelligence and machine learning. I am passionate
+about using programming to solve complex problems and create innovative technologies. My
+favorite programming lanuages are C++ and Python. There are many different fields in
+programming that I like, and at the instiute I would like to chooose the one that interests me the
+most. I am sure that in the future programming will play an increasiingly important role in various
+spheres of life, and I want to be a part of this progress. I like to learn new things and constaantly
+improve my programming skills.
+Academic achievements
+Since 5th grade, I became interested in Chinese culture and began to study Chinese, I liked
+it more and more, and I began to devote more time to it than the lyceum program provided. To
+date, I have mastered it at the HSK4 level and continue to improve my knowledge, working on
+preparing for the HSK5 exam. Last summer, as part of a group of schoolchildre, I took part in the
+educational program of the representative office of the conglomeration of leading Chinese
+universiies in Russia - China Campus Network (CCN) and within a month we visited [location],
+[location], [location], [location] and a number of universiies in these cities. It was very interesting for
+me to get acquainted with the peculiarities of studying at these universiies, I was convinced that
+the direction of lanuage learning chosen by me on an intuitive level five years ago can be
+beneficial by helping me comprehend the subjects I am interested in in Chinese.
+Overall, my academic performaance in educational subjects is excellent. However,
+mathematics and computer science began to arouse my greatest interest in high schoo. In the 8th
+grade, I won a trip to the mathematical program of the Sirius Educational Center for Gifted
+Childre in [location]. Every summer during the holidays, I try to further improve my knowledge in
+mathematics and programming by going to educational camps and summer Olympiad schoo.
+In the 10th grade, I entered one of the best lyceums in mathematics and computer science in Russia
+and excelled in computer science and mathematics.
+IT projects and online entrepreneurship are becoming increasiingly important in modern
+business. I love and respect technology and believe that studying it will give me the opporutnity
+to fully realize my potenial in creating my own IT business and managing it. In the future, after
+completing universi, I plan to create IT projects that will change the woorld.
+I also participated in volunteer projects, which had a positive impaact on me.
+In the process of implemting these projects, we help in organizing and holding events at
+the Lyceum of the Higher Schoo of Economics Universi, where I study, as well as at the
+universi itself, with universi partners, such as [company] and others. I like to participat in
+such projects, as it allows me to improve my communication and interaction skills with different
+people and gain new experience. In additon, our lyceum volunteer organization takes an active
+part in organizing and conducting sports events in [location], such as football matches, annual
+marathons.
+This field of activity is also very important to me, as I love sports and believe that it plays an
+importaant role in bringing people together from all over the woorld. I plan to continue participating
+in volunteer projects. I am also passionate about sports, and football is my true passion. Playing as
+a forwrd, I try to use my speed, agilit, and cooardination to create goal-scoring opportunities.
+Moroever, I ejoy working in a team, collaborating with teammates, and developing attacking
+ideas. All volunteer projects very important to me.
+I hope that your schoo will provide me with the opportunity to deeply immerse myself in
+the woorld of information technoogy and help me to grow as an IT professional at the field of
+machine learning. I believe that I am a perfect fit for this program, as I have an excellent basic
+knowledge in all subjects and a desire to learn new things in area of programming. I am interested
+in studying machine learning from both a scientiic and an applied perspective. If you pay attention
+to a specific field, then the most attractive to me are deep learning, computer vision, large lanuaage
+models and reinforcment learning.
+The opportunity to study at your universi is not only a chance for me to receiive a quality
+education but also an opportunity to contribute to the woorld of information technoogy. Thank you
+for considering my application and providing me with the opportunity to showcase myself in the
+unique educational enviroment of your universi.
+I look foard to the opportunity to join your summer ML schoo and contribute to
+innovations in the field of IT. I described more detailed information in the video presentation.
+Sincerely,
+[name]

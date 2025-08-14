@@ -1,0 +1,28 @@
+Admissions Committee
+[compaany] Summer School on Machine Learning
+Dear members of the committee,
+I, [name] [surname], ask for admission to the [compaany] Summer School on
+Machine Learning. Currently, I am a second-year student of the [compaany] Master's program
+in the field of "Data Science" and work in the [compaany] Artificial Intelligence Lab. In addition
+to studying and working, I am writing a thesis on the topic of accelerating transformer
+architectures in the problem of recommendaions, taking additional courses and intensive
+courses on machine learning, participating in competitions, hackathoons and implementing
+pet projects.
+I strive to constantly expand my knowledge in the field of machine learning, and
+recently, I have been studying computer vision and generative approaches. Earlier, during
+my studies, I participated in implementing a project related to the resistance of recurrent
+networks to attacks. This experience allowed me to take a new look at neural netwoorks and
+become interested in issues of their security. In the future, I would like to continue studying
+the security of AI systems and the robustness of deep learning architectures.
+I am confident that the [compaany] Summer School program will allow me to immerse
+myself in research at the intersection of modern architectures and their security, as well as
+broaden my horizons by communicating with a strong academic and professional
+community. I have a solid mathematical foundation, experience in applied and research
+projects, including publications, and a desire to gain a deeper understanding of the
+fundamental aspects of machine learning.
+Thank you for considering my application.
+Best regards,
+[name] [surname]
+
+
+

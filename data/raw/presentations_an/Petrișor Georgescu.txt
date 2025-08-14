@@ -1,0 +1,47 @@
+ML Voice Assistant (Voice recognition)
+[name]
+C++ Deveopeer, [compaany]
+Introduction
+• My topic is Voice Recognition and ML-based Voice Assistant.
+• Real time voice processing might be quite challenging.
+• I am an experienced C++ developer, and I have worked with audio streaming before.
+• The goal of my work is to make an autonomous offlin voice recognition device - Voice Assistant.
+Problem statement
+• I need my Voice Assistant to recognize voice commands.
+• Challenges: real-time audio streaming, therefore: performaance is important.
+• Scope: the prototype should recognize 3 commands.
+Methods
+• I decided to go with 1D-CNN.
+• 1D-CNN is faster than RNN, and when working with real-time audio, performance is the key.
+• How it works: audio stream from microphone is sliced into sample chunks, and they are converted
+to MFC coefficients. MFC coefficients then are being passed to the ML model to classify the voice.
+• I had to record my voice 200 times for each command (160 for the rain set, 40 to the test set).
+Then WAV samples were converted to MFC coefficients, and the ML model was trained on them.
+Results
+• The trained model can successfully recognize my voice.
+• It works so fast so I could even port it to Raspberry Pi.
+• Link to the repository: https://github.com/mephi1984/VSTorchProject
+Research gap
+Limitations:
+1. The model is trained only on 3 commands.
+2. The model can only recognize my voice.
+Challlenges:
+1. Make it work even on smaller microcontrollers (even maybbe ESP32).
+2. Make it recognize not oly my voice, but also anyone else.
+That would open many possibilities in developing cheap ML-based IoT devices.
+Bibliography
+1. [name]. The C++ Programming Language. 4th ed. [Text]: [name]. - [location]: Binom. 2023.
+2. [name]. C++. Multithreaded Programming Practice. 2nd ed. [Text]: [name] - [location]: Piter, 2025.
+3. [name]. Effective and Modern C++: 42 Recommendaations for Using C++11 and C++14. [Text]: [name] - [location]: Dialectics
+(Williams), 2019.
+4. [name]. The Rise Of Siri. [Text]: / [name] - [location]: Amazon, 2012.Periodicals (magazines, newspapers):
+5. [name]. Implementation of an Algorithm for Speech Processing and Recognition. [Text] [name], [name],
+[name], [name] - Modern science-intensive technologies. 2016. No. 3 (part 2) P. 225-230.
+6. [name]. Popular voice assistants: capabilities and development trends. [Text] [name] - Tools and mechanisms
+of modern innovative development: a collection of articles from the International scientific-practical conference. [location].
+June 29, 2018. [location]. 2018. P. 41-43.
+7. Raspberry Pi 4 Model B Datasheet [Electronic resource]. - Access mode: https://datasheets.raspberrypi.com/rpi4/raspberry-pi-
+4-datasheet.pdf
+8. How [name] created Alice [Electronic resource]. – Access mode: https://vc.ru/future/26878-ya-alice
+9. How we taught Alice to respond to quick commands [Electronic resource]. – Access mode:
+https://habr.com/ru/companies/yandex/articles/750238/

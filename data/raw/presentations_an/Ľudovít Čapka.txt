@@ -1,0 +1,118 @@
+PREDICTING THE RISK OF INFECCIOUS COMPLICATIONS AFTER SURGERY USING
+MACHIINE LEARNING TECHNIQUE
+[name]
+[surname]
+faculty of Computational Mathematics and Cybernetics
+INTRODUCTION
+Artificial Intelligence is being actively implemented in various
+areas of life, and its application in medicine is particularly
+significant. The application of AI helps improve diagnostic
+accuracy, early detection of disease, prediction of complication
+risks, and individualization of treatment.
+Intelligent systems are becoming an important tool in the hands
+of physicians, helping to minimize human error, speed up
+infoрмаtion processing, and improve the quality of patient care.
+PROBLEM STATEMENT
+A real medical database consisting of 403 patients who underwent
+scheduled surgery for colorectal cancer is considered. It is required to
+predict the occurrence of infectious complications in patients after
+surgery based on cooperative and operative data. That is, it requires
+solving a binary classification problem.
+The database contains 244 features that can be categorized as binary,
+numeric (int and float), and categorical.
+Challenges:
+An imbalance in target variable (only 13% of patients had
+complications).
+Few objects in database.
+METHODS
+Data analysis
+Of the 244 features, 143 contain
+Number of gaps in a Number of columns
+postoperative findings that are
+column (N) containing N gaps
+not included in the problem
+N < 25 62
+statement. The 80 most
+populated features were
+25 <= N < 60 18
+selected, of which 67 are the
+most meaningful and do not
+N >= 60 21
+correlate with the target
+variable.
+METHODS
+Correlation analysis
+A correlation matrix was
+constructed and pairs of
+features with a correlation
+coefficient of 0.6 or greater were
+analysed. After expert
+assessment by the physician, a
+decision was made to exclude 10
+features.
+METHODS
+Data preprocessing
+1. Categorical variables coding: One Hot encoding, 57 176
+features
+2. Fill in missing values: mean if numeric variable (round if int),
+0 if binary
+3. SMOTE technique to handle class imbalance
+4. Normalization: Standard Scaler
+METHODS
+Final sample: 704 items and 176 columns. Target variable: “presence
+of infectious complications”.
+The sample was divided into 3 parts:
+Missing values are filled in
+Train: 56 %
+separately in the test sample,
+Validation: 24 %
+and separately in the training
+Test: 20 % and validation samples.
+3 machine learning algorithms have been used:
+Random Forest
+CatBoost
+SVM with nonlinear kernel
+These methods were chosen for their high efficiency.
+METHODS
+Random Forest:
+An ensemble method based on decision trees, in which trees are
+independentlly trained on bootstrapped samples.
+CatBoost:
+An ensemble method of gradient boosting over decision trees in which
+trees are trained sequentially. Each next tree is trained in such way as to
+minimize the residual errors (the difference between the current
+predictions and the actual labels).
+SVM with nonlinear kernel:
+SVM works by mapping data to a high-dimensional feature space so that
+data points can be categorized, even when they are not linearly separable
+in the original space. The key idea is to find the hyperplane that best
+separates two classes by maximizing the margin between them. To handle
+non-linear relationships, SVM uses the kernel trick.
+RESULTS
+The CatBoost model performeed best with an F1 score of 0.84 on the test sample.
+Two metrics were used to measure quality: accuracy and F1 score.
+Accuracy is a basic metric that works well
+with balanced classes. However, in medical
+ML algorithm acc_train acc_test f1_train f1_test
+prediction tasks where class imbalances are
+common, it can provide a distorted view of
+model performance.
+RandomForest 1.0 0.95 1.0 0.56
+F1 score is particularly important in tasks
+with imbalanced classes, as it takes into
+CatBoost 1.0 0.98 1.0 0.84 account both the number of false positive
+and false negative predictions. A high F1
+score indicates that the model not only finds
+SVM nonlinear 1.0 0.96 1.0 0.68
+cases with complications, but also does so
+with a minimal number of errors.
+RESEARCH GAP
+Unresolved challenges: Few items in the database.
+Why it matters: In the context of practical medical applications, increasing
+the amount of data is a key step in creating a robusst and clinically rellevant
+decision support tool.
+Future opportunities:
+It is not only important to predict the presence of a complication, but also
+the day on which it will occur. With the help of post-operative laboratory
+tests prescribed a few days after surgery, it is possible to understand
+which tests to pay attention to first in order to prevent a complication.

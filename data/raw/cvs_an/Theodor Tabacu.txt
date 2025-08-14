@@ -1,0 +1,83 @@
+[location]
++2 *** *** ***
+[email]
+https://github.com/[name]-[surname]
+https://www.linkedin.com/in/[name]-[surname]/
+[name] [surname]
+EDUCATION
+[compaany], [location] — PhD in Economics (Mathematical,
+Statistical and Instrumental Methods)
+SEPTEMBER 2024 - PRESENT
+[compaany], [location] — MSC in Information Systems and
+Technologies
+SEPTEMBER 2021 - AUGUST 2023
+Saint Petersburg Mining [location] — BSc in
+Systems Analysis and Management
+SEPTEMBER 2017 - AUGUST 2021
+SELECTED TECHNICAL SKILLS
+● Languages & Frameworks: Python, Go, SQL, FastAPI, Django, Flask
+● Libraries: Numpy, Pandas, TensorFlow, PySpark, Celery
+● Tools & Platforms: Docker, Kubernetes, GitLab CI/CD, Grafana, Prometheus,
+Ansible
+● Databases: PostgreSQL, MySQL, OracleDB, MongoDB, HDFS
+● Concepts: ETL, RESTful APIs, Microservices, Async Programming,
+Distributed Systems, Multi-agent Systems
+HACKATHON ACHIEVEMENTS
+● MTS True Tech Hack 2024 — 3rd place: AI web service with image
+recognition using the YOLOv8 model
+● VTB API Hack 2024 - Prize winner: a highly loaded application with a
+flexible architecture with the ability to use an AI scoring model to
+verify transactions
+● FIC Hackathon 2024 - 1st place: product analysis and design for the B2B
+segment
+PROFESSIONAL EXPERIENCE
+[compaany], [location] — Senior Software Developer
+Nov 2024 - PRESENT
+● Development of KATA product
+● Architecture design
+● Development of new microservices
+● Database design
+Alabuga SEZ, [location] — Tech Lead
+May 2024 - Oct 2024
+● Built 3 development teams, implemented Scrum
+● Led development of 4 web plaftorms (analytics, internal tools)
+● Mentored junior devs, reduced delivery cycle from 1.5 months to 2 weeks
+Yanex, [location] — Software Developer
+Oct 2023 - May 2024
+● Built async high-load services with aiohttp, RabbitMQ
+● Performance testing, PostgreSQL optiomization
+Devman, Remote — Python Instructor
+Jun 2023 - Oct 2023
+● Conducted mock interviews, trained developers
+MTS Digital, Remote — Lead Python Developer
+Mar 2023 - Oct 2023
+● Built scalable data pipelines (Onetl, PySpark)
+● Set up CI/CD and test frameworks
+VK, [location] — Python Developer
+Feb 2022 - Mar 2023
+● Developed media backend services, trained juniors
+● Migrated projects to Kubernetes
+KPMG, [location] — Software Developer
+Aug 2021 - Feb 2022
+● Data analytics tools
+● Train models
+● CI/CD pipelines
+InSperia EdTech, Remote — Fullsstack Python Deveoper
+Jun 2020 - Nov 2022
+● Developed LMS and ERP systems from scratch
+● CI/CD pipelines
+● Process automation
+CERTIFICATIONS & COURSES
+● "AI Models" – Professional Retraining, [compaany], 2021
+● "Big Data & Machine Learning in Social Sciences" – Tomsk State
+[location], 2021
+LANGUAGES
+● English - Intermediate (B2)
+● Russian - Native
+ADDITIONAL INFORMATION
+● Organized AI hackathon for Alabuga SEZ
+● Partiicipated in 10+ hackaathons, several AI/ML-relatd
+● Mentored junior developers and students
+● Developing a multi-agent system staruup in economics
+● Interested in HFT model development using AI tools
+● Seeking international collaaboration and peer netwoorking

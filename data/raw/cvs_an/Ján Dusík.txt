@@ -1,0 +1,106 @@
+[name] [surname]
+[location]
++2 *** *** ***
+[email]
+[name] [surname]
+OBJECTIVE
+Certified Computer Engineer and Data Analyst with strong teamwork and communication
+skills, seeking a role in data science/analytics. Aiming to leverage deep learning and computer vision
+expertise to advance innovative solutions in image analysis while fueling my passion for continous
+research and learning in the field.
+WORK HISTORY
+AI ENGINEER | [compaany]
+JOINED IN: 2024
+Working as an AI Engineer in [compaany] lab since July 2024.
+• Deployed AI models into mobile and web applications, ensuring seamless integration and functionaliity.
+• Embedded AI models into various robotics machines to enhance their performaance and capabilities.
+• Developed and optimized algorithms for condition monitoring systems to improve operational efficiency.
+• Collaboraated on research and development projects, contributing to advancements in AI and robotics technology.
+RESEARCH ASSISTANT | [compaany]
+JOINED IN: 2023
+Working as a Research Assistant in [compaany] lab since December 2023.
+• Led and contributed to projects on robotics and image processing, including wirelessly operated and handheld track
+recording vehicles.
+• Developed a traction motor fault detection system using deep learning techniques, enhancing safety and efficiency.
+• Engaged in the development of a train wheelset test station, real time wheel fault detection systems, and actively
+pursued a related patent.
+• Actively sought funding opportunities, partnerships with daycare centers, and organized seminars on robotics and
+machine learning.
+FELLOWSHIP | [compaany]
+ATTENDED IN: 2023
+Attended a three-month fellowship program related to “DATA SCIENCE”.
+INTERNSHIPS
+INTERNSHIP | [compaany]
+ATTENDED IN: 2023
+Attended a one-month internship program related to “MACHINE LEARNING”.
+INTERNSHIP | INFORMATION TECHNOLOGY BRANCH [location]
+ATTENDED IN: 2022
+Attended a one-month internship program related to “DATA CENTER MANA MANAGEMENT”.
+INTERNSHIP | [compaany]
+ATTENDED IN: 2022
+Attended a one-month internship program related to “DATA SCIENCE”.
+EDUCATION
+BE COMPUTER SYST SYSTEMS ENGINEERING | [location]
+GRADUA TED: 2023 3.15 CGPA
+• Title: "Innovatiive Multilingua Image Recognition System for Early Childhood Education" focused on
+bridging educational gaps through technology.
+• Developed an application using Python, CNNs, and Streamlit that supports English, Urdu, and digits,
+incorporating interactive learning tools.
+• Integrated Google's voice library for accuraate pronuunciation and a canvas feature to aid in reading
+and writing skills.
+• The project aims to enhance languaage acquisition and cognitive development in young childre by
+leveraging advanced image recognition techniques.
+HSC-II (PRE-ENGINEERING) | [location]
+GRADUA TED: 2019 A1
+Graduated with flying colors in first division.
+RESEA RC H PUBLICATION
+SCIENTIFIC DATA JOURNAL
+SUBMITTED: 2024
+Submitted a paper titled “FaultSeg: A Dataset for Train Wheel Defect Detection”.
+Link: https://www.nature.com/articles/s41597-025-04557-0
+ZENODO REPOSITORY
+SUBMITTED: 2024
+Submitted a dataset titled “FaultSeg: A Dataset for Train Wheel Defect Detection”.
+Link: https://doi.org/10.5281/ze nodo.13162335
+• A research paper is to be submitted in IEEE conference titled “An Early Childhood Application with Image
+Recognition and Deep Learning“.
+• A comparative analysis-based research paper is to be submitted in IEEE transaction titled “Real-time train wheel
+fault detection with YOLO models”.
+• A research paper is to be submitted in IEEE transaction titled “Real-time object identification and fault detection
+using federated learning”.
+MENDELEY DATA
+SUBMITTED: 2024
+Submitted a dataset titled “PathCare: E-commerce data prediction”
+SKILLS
+TECHNICAL: SOT:
+• Proficiency in MS Office • Verbal and written communication
+• Proficiency in Python Programming • Critical thinking
+• Data Science • Adaptable
+• Machine/Deep Learning • Punctual
+• Leadership
+TRANSFERABLE:
+• Problem-Solving
+• Analytical thinking
+• Adaptability
+• Attention to Detail
+• Innovation
+ACTIVITIES
+PARTI CIPATED IN MANIPULATION & CLEAN DATA USING PYTHON BY MICROSFT
+LEAR S TUDENT AMBASSADOR | ONLINE-BASED
+HELD IN: 2022
+PARTI CIPATED IN A WEBINAR ON INTRODUCTION TO ROBOTICS & ITS PROMISING
+FU TURE BY IEEE IE S [location] CHAPTER| ONLINE-BASED
+HELD IN: 2022
+PARTI CIPATED IN OPEN PAKISTAN VIRTU AL CONFERENCE FOR ENG LISH LANGUAGE LEARNERS| ONLINE-BASED
+HELD IN: 2021
+COMPLETED THE SPECI ALIZED MODULE ON CHILDREN & CLIMATE CHANGE BY UNICE F|
+ONLINE-BASED
+HELD IN: 2021
+INTERESTS
+• Jogging
+• Baskeball
+RECOMMENDATIONS
+1. Dr. Sanam Narejo Associate Professor
+Email » sanam.narejo@teacher.muet.edu.pk
+2. Dr. Irfan Bhacho Assistant Professor
+Email » irfan.ali@faculty.muet.edu.pk

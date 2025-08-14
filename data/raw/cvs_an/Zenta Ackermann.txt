@@ -1,0 +1,76 @@
+[name] [surname]
++2 *** *** *** [email]
+linkedin.com/in/[name][surname] | github.com/[name][surname]
+QUALIFICATIONS SUMMARY
+➢ Experienced with PyTorch, TensorFlow, Pandas, ObsPy, Python, MATLAB, and Unix/Linux
+➢ Skilled in Deep Learning, Generative Modeling (GANs, VAEs), and supervised classification
+methods
+➢ Strong background in seismic and geophysical data analysis, including well log, microseismic, and DAS data
+➢ Fluent in English, Russian, and Tatar; Intermediate in Turkish, Arabic, and Spanish
+MACHINE LEARNING & AI SKILLS
+➢ Deep Learning: PyTorch, TensorFlow, Scikit-learn
+➢ Supervised Classification: logistic regression, decision trees, SVMs, and neural networks
+➢ Generative Models: GANs, VAEs, diffusion models
+➢ Seismic & Geophysical Data Processing: Fourier neural operators, OpenFWI dataset, InSAR
+➢ Optimization & High-Performance Computing: CUDA, parallel processing
+PROFESSIONAL EXPERIENCE
+Graduate Research Assistant
+Smart Earth Exploration and Monitoring Research Group August 2022 – Present
+[location]
+➢ Developed and applied Fourier Neural Operator frameworks for seismic event detection, phase
+picking, and source localization
+➢ Implemented a VAE-based Stable Diffusion model to compress seismic and DAS data,
+improving data storage and transmission efficiency
+➢ Analyzed the OpenFWI dataset for generalization capabilities in predicting complex geological
+structures like Marmousi
+Lead Expert
+Department of Oil and Gas Field Development and Exploration July 2017 – July 2022
+[company]
+➢ Led R&D projects focusing on reservoir development and exploration techniques
+➢ Evaluated and implemented new technologies for sandstone reservoir development
+➢ Successfully secured funding for 12 R&D projects ($280M+ EMV)
+➢ Managed a team of up to 8 engineers working on R&D projects
+Graduate Research Assistant
+Crustal Deformation and InSAR Research Group September 2012 – June 2017
+[location]
+➢ Integrated InSAR satellite data with reservoir monitoring to predict groundwater variations and land
+surface deformation
+➢ Applied data assimilation (EnKF, ES, ES-MDA) and numerical modeling techniques
+➢ Processed and analyzed InSAR satellite data from 10+ geological sites (USA, Turkey, Yemen,
+[location])
+EDUCATION
+PhD Candidate in Geophysics Expected May 2026
+King Fahd University of Petroleum & Minerals [location]
+➢ Relevant Courses: Machine Learning, Deep Learning, Wave Propagation, GPA: 3.9/4.0
+Signal Analysis, Microseismic
+➢ PhD thesis topic: “Towards real-time microseismic monitoring using deep learning”.
+Advisor: Dr. Umair bin Waheed
+Master of Science in Geosciences August 2012
+Colorado State University [location]
+➢ Specialization: Applied Geophysics GPA: 4.0/4.0
+➢ MS thesis topic: “Geophysical constraints on the flexural subsidence of the Denver Basin”.
+Advisor: Dr. Dennis Harry
+Bachelor of Science in Geophysics June 2010
+Kazan Federal University [location]
+➢ Specialization: Well-Log Data Analysis GPA: 4.9/5.0
+➢ BS thesis topic: “Application of well-log data analysis for assessment of porosity types of a
+carbonate reservoir”. Advisor: Ass. Prof. Victor Kosarev
+SELECTED PUBLICATIONS
+➢ Microseismic source localization using Fourier Neural Operator with application to field data from
+Utah FORGE, IEEE Transactions on Geoscience and Remote Sensing, 2025
+➢ Revolutionizing seismic data compression: Unlocking the power of Stable Diffusion neural networks,
+SEG/AAPG International Meeting, 2023
+➢ Generalization capability of data-driven deep learning models for seismic full-waveform inversion:
+An example using the OpenFWI dataset, SEG/AAPG International Meeting, 2023
+RELEVANT TRAINING & CERTIFICATIONS
+➢ Scientific Machine Learning for the E&P (2025)
+➢ SLB AI Academy (2024)
+➢ Geothermal Energy Fundamentals (2024)
+➢ Basic Well Log Analysis (3.5 CEU)
+➢ Microseismic Imaging of Hydraulic Fracturing (0.75 CEU)
+➢ Seismic Structural & Hydrocarbon Entrapment Analysis (1.8 CEU)
+AWARDS
+➢ SEG Chevron Student Leadership Symposium
+➢ SEG ExxonMobil Student Education Program
+➢ Geological Society of America ExxonMobil Bighorn Basin Field Award
+➢ Stone-Hollberg Scholarship: Graduate Student Award for studies in Structural Geology

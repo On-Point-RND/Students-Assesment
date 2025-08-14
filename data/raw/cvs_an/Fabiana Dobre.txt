@@ -1,0 +1,86 @@
+[name] [surname]
+Date of birth: 01/07/2001 Nationality: [location] Gender: Male Phone number: +2 *** *** *** Email address: [email] GitHub: https://github.com/[name] Address: Alpiyskiy Pereulok 15/2, 192239, [location] (Work)
+WORK EXPERIENCE
+09/2024 – CURRENT
+MACHINE LEARNING ENGINEER [compaany]
+•Developed a comprehensive dataset of tourist attractions by integrating multiple data sources, including OpenStreetMap, TripAdvisor API, and Wikipedia, ensuring data diversity and accuracy.
+•Designed and implemented a Retrieval-Augmented Generation (RAG) system to provide personalized recommendations for tourist destinations based on natural language user queries.
+•Optimized the RAG pipeline, improving the relevance and accuracy of generated responses by 20% through fine-tuning language models and enhancing data preprocessing techniques.
+09/2023 – 03/2024 [location]
+JUNIOR MACHINE LEARNING ENGINEER [compaany]
+•Led the development of a benchmarking framework to assess the quality of language models
+•Proposed a new evaluation metric, ”Model Stability,” for the LLM Benchmarking, which assesses model stability across
+different prompts, leading to a 30 % reduction in variability of model performance
+01/2022 – 06/2022 [location]
+MACHINE LEARNING INTERN | SMART BUILDING APPLICATIONS [compaany]
+•Developed and implemented a machine learning model for energy consumption forecasting in smart buildings achieving a
+prediction accuracy improvement of 20%
+•Developed and deployed scripts for real-time consumption monitoring and anomaly detection within existing building
+management systems, resulting in a 15 % reduction in energy waste through early detection of anomalies
+EDUCATION AND TRAINING
+09/2023 – CURRENT
+MASTER'S DEGREE IN BIG DATA AND MACHINE LEARNING [compaany]
+03/2024 – 08/2024
+EXCHANGE PROGRAM: INFORMATION ENGINEERING AND COMPUTER SCIENCE Rhine-Waal Universiity of Applied Sciences
+09/2019 – 08/2023
+BACHELOOR IN NANOTECHNOLOGIES AND MICROSYSTEMS ENGINEERING WITH FIRST-CLASS HONORS Northern Arctic Federal
+University
+ThesisBuilding a smart data center with an automatic warning system in case of malfunctioning air conditioning systems and maintain humidity
+and temperature control
+01/2022 – 06/2022
+EXCHANGE PROGRAM: ENGINEERING SCIENCES AND TECHNOLOGY UiT The Arctic Universiity of Norway
+LANGUAGE SKILLS
+Mother tongue(s): UZBEK
+Other language(s):
+UNDERSTANDING SPEAKING WRITING
+Listening Reading Spoken production Spoken interaction
+RUSSIAN C1 C1 C1 C1 C1
+ENGLISH C1 C1 C1 C1 C1
+Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user
+DIGITAL SKILLS
+Tea teamwork & collaboration Data Gatheriing, Data Visualiisation, Data Analysis Python Jupyter (Jupyter-lab/Jupyter-
+notebook) Visual Studio/ Visual Studio Code R Programming language MySQL Git-GitHub Python DS/ML Libraries
+(Numpy, Pandas, Sklearn, Scipy) Machine learning GeNAI NLP (TensorFlow, Keras, Transformeers, NLTK, Gensim)
+CONFERENCES AND SEMINARS
+04/2024 [location]
+International Conference "Congress of Young Scientists - 2024"
+A research paper on Large Language Model (LLM) robustness and knowledge representation, focusing on stability assessment,
+creativity benchmarking, and ontology extraction.
+01/04/2023 – 06/04/2023 [location]
+All-Russian Scientific Conference of Physics Students and Young Scientists (VNKSF-27)
+A research paper on "Design and Implementation of a Smart Data Center with an Automatic Warning System for Air Condiitioning
+Malfunctiions, and Temperature and Humidity Control"
+PUBLICATIONS
+2024
+Development of the Methods for Measuring Model Stability to Changes in Input Prompts
+This study explores prompt engineering as a targeted interaction technique with machine learning models, a methodology that has
+gained populariity in recent years. The primary goal is to enhance the evaluation of language models by considering their robustness
+to prompt variations. The research introduces a stability coefficient for effectively assessing and interpreting model performance
+based on their responses to changes in input prompts. The study discusses stability evaluation methods and demonstrates their
+application through experiments with different Large Language Models on tasks from the MERA benchmark.
+2023
+Design and Implementation of a Smart Data Center with an Automatic Warning System for Air Condiitioning Malfunctiions,
+and Temperature and Humidity Control
+The research article focuses on developing an intelligent control system that can detect and prevent malfunctiions, while effectively
+maintaining the temperature and humidity levels within the premises. By leveraging computational modeling, simulation, and
+optimization algorithms, the research aims to optimize the energy efficiency and performance of data centers, contributing to the
+sustainable and reliable operation of these critical facilities.
+2021
+The Problem of Microplastics accumulation in the Arctic Ocean
+The escalating accumulation of microplastics in the Arctic Ocean presents a pressing threat to marine ecosystems. This study
+addresses the issue through experiments, simulating Arctic conditions by freezing and thawing snow mixed with plastic. Utilizing
+laboratory equipment to mimic wave actions, the experiments provide valuable insights into the transformation of plastics into
+microplastics at low temperatures.
+HONOURS AND AWARDS
+24/06/2023
+The holder of the special award "The Golden Fund of NARFU" – Northern Arctic Federal Universiity
+This award along with the special recommendaation letter of the universiity's rector given to the top 70 graduates of the Northern
+Arctic Federal Universiity. This recognizes the outstanding academic achievements and commitment to excellence.
+31/01/2021
+The holder of Highest state academic scholarship by the universiity – Northern Arctic Federal Universiity
+The Highest academic scholarship is awarded for outstanding academic performance and great results in sport activities (victories in
+Olympiads, sport competitions, etc.)
+09/12/2022
+Diploma II Outstanding Foreign student of the year – Arkhangelsk Region Youth Affairs
+The award is given for active participating and organizing several national and international events, for achieving outstanding
+success in sports and for the leadership role at universiity.

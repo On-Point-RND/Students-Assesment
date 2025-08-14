@@ -1,0 +1,63 @@
+
+
+Interpretation and Control of  
+Sequential Recommendation  
+Models with Sparse Autoencoders  
+[name] [surname]  
+Junior ML-Researcher, [company]  
+Introduction  
+Many current state-of-the-art models for sequential recommendations are based on transformer architectures.  
+Interpretation and explanation of such black box models is an important research question, as a better  
+understanding of their internals can help understand, influence, and control their behavior, which is very important  
+in a variety of real-world applications. Recently sparse autoencoders (SAE) have been shown to be a promising  
+unsupervised approach for extracting interpretable features from language models. These autoencoders learn to  
+reconstruct hidden states of the transformer’s internal layers from sparse linear combinations of directions in their  
+activation space.  
+This is a collaboration with my colleagues from the [company]. My contribution consists in setting up  
+experiments, selecting data and metrics, and editing the article.  
+Github: [name]/SAE  
+Problem statement  
+This research is focused on the application of SAE to the sequential recommendation domain. We show that  
+this approach can be successfully applied to the transformer trained on a sequential recommendation task:  
+learned directions turn out to be more interpretable and monosemantic than the original hidden state  
+dimensions. Moreover, we demonstrate that the features learned by SAE can be used to effectively and flexibly  
+control the model’s behavior, providing end-users with a straightforward method to adjust their  
+recommendations to different custom scenarios and contexts.  
+In short, the main contributions of this paper are:  
+• We extend the sparse autoencoders for sequential recommendations: propose the ways to find interpretable  
+features and metrics to assess the interpretability of SAE representations.  
+• We demonstrate that SAE learns a lot of interpretable, nontrivial and semantically distinct features.  
+• We show that SAE allows to achieve flexible control over model predictions for better alignment with users  
+specific needs and contexts.  
+Methods  
+Models in the research:  
+Datasets in the research:  
+• Bert4Rec  
+• Music4all  
+• GPTRec (The main results on this model are) • Movielens 20m (The main results on this data are)  
+Reccommendation model's hyperparametrs:  
+• transformer architectures  
+• attention mechanisms  
+• loss functions  
+• optimizer configurations  
+The hyperparameters are tuned to optimize performance on the validation set.  
+SAE features are extracted through dictionary learning techniques.  
+The control mechanisms involve gradient-based interventions during inference.  
+Github: [name]/SAE hosts the implementation.  
+Results  
+The experiments demonstrate significant improvements in interpretability metrics compared to baseline methods.  
+Control experiments show measurable changes in recommendation diversity and accuracy trade-offs.  
+The SAE features enable explicit manipulation of recommendation system outputs.  
+Discussion  
+The approach provides a novel framework for explainable AI in recommendation systems.  
+Limitations include computational overhead and potential loss of model performance.  
+Future work will explore more efficient training methods and broader application scenarios.  
+Bibliography  
+[1] [name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. 2023. Sparse autoencoders for interpretable machine learning. arXiv:2311.06112.  
+[2] [name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. 2024. Dictionary learning for neural network interpretation. arXiv:2411.06112.  
+[3] [name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. 2021. Neural attention frameworks for explainable recommendation. IEEE Transactions on Knowledge and Data Engineering.  
+[4] [name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. 2010. Solving the apparent diversity-accuracy dilemma of recommender systems. Proceedings of the National Academy of Sciences.  
+[5] [name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. 2023. Crosscoders for cross-layer feature analysis. Transformer Circuits Thread.  
+[6] [name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. 2023. Inference-time intervention for language models. NeurIPS.  
+[7] [name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. 2021. Visualizing recommendation system internals. ACM Transactions on Interactive Intelligent Systems.  
+[8] [name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. 2024. Monosemanticity through dictionary learning. arXiv:2411.06112.

@@ -1,0 +1,26 @@
+[name] [surname]
+[email]
+[location]
+06 December 2001
+Education Education
+[location] [compaany]
+Master’s degree in Applied Mathematics and Informatics 2023 – Present
+Thesis: Efficient Prompt Optimization in Generative AI Models
+Professional Experience Professional Experience
+[compaany], [location] 2023 – Present
+Data Scientist (Machine Learning)
+• Developed an ML-based system for automated demand forecasting and inventory autoordering.
+• Applied classical machine learning models for time series analysis and demand prediction.
+Teaching Experience Teaching Experience
+[compaany] Exchange Program, [location] [university] Spring and Auutmun 2024
+Seminarist and Lecturer in Programming and Machine Learning for international students
+Scientific Work and Collaboration Scientific Work and Collaaboration
+• Member of the [compaany] scientific group on generative models and optiimization techniques in ML.
+• Co-author of educational courses in classical machine learning for undergraduaate students,
+subsidized by the [location] City Government.
+Topics of Interest Topics of Interest
+Prompt optiimization vs. fine-tuning for cross-domain tasks in LLLMs.
+Integration of LLLMs into business processes.
+Technical Skills Technical Skills
+Fluent in Python and experienced in using essenitiaal machine learning tools such as scikit-learn, Py-
+Torch, and HuggingFace Transformeers.

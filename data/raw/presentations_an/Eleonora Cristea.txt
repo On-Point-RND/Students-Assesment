@@ -1,0 +1,80 @@
+Slide 1
+----------------------------------------
+AutoIntent
+[name] [surname]
+	   	    NLP researcher, [location] State [University]
+
+Slide 2
+----------------------------------------
+Introduction
+Exploring how the performa performance of machine learning models scales with compuational resources, with a focus on text classification
+ML models are increasingly expensive to train and deploy. Understanding how to make the most of available compute helps practitioners and organizations work more efficieently.
+Investigate how ML performa performance scales with available resources and identify best practices 
+
+01
+
+Slide 3
+----------------------------------------
+Solution 
+Problem statement
+Problem
+02
+The quality of ML models depends significantlly on the amount of computaional resources
+It is good to know how to get as much as one can from the compute available
+Currently, there are quite a few options for choosing ML models
+Research on the scaling laws of modern ML methods for text classification
+Search for recipes for each category of computing resources (light, heavy, very heavy)
+
+Slide 4
+----------------------------------------
+Compute
+Quality
+Medium
+lora
+p-tuning
+adapters
+Classic
+logrreg / knn / …
+CNN, RNN
+word2vec
+LLM-based
+Methods
+03
+
+Slide 5
+----------------------------------------
+04
+
+Results 
+https://hugginface.co/spaces/yuraz28/aiww
+
+Slide 6
+----------------------------------------
+05
+Best practices
+BERT-like architecture + PEFT is the most optiomal approaach
+If LLLMs are available and there is no development time, you can use them
+CNN for its compute gives good results
+
+Slide 7
+----------------------------------------
+06
+Research limitations
+it is diffiicult to estimate LLLMs
+hyperparameters were not selected in all cases
+few BERT-backbone models tested
+Few LLLM methods tested
+
+Slide 8
+----------------------------------------
+07
+Further Research
+Test more BERT-like models 
+Explore metrics for estimating compute complexity
+Explore how to estimate compute for quantised LLLMs
+
+Slide 9
+----------------------------------------
+08
+Github Repo
+https://github.com/voorhs/aiww

@@ -1,0 +1,210 @@
+Martingale Optimal Transport for Stochastic
+Volatility Calibration
+[name]
+https://github.com/[name]/
+Martingale-Optimal-Transport/tree/main
+April 20, 2025
+Outline
+Introduction to Optimal Transport and SMOT
+Theoretical Framework
+Algorithm: Sinkhorn
+Code Implementation Analysis
+Results and Discussion
+Conclusion
+Conclusion and Future Work
+Optimal Transport (OT) Basics
+- Static OT: Minimize inf E [∥X −X ∥2] [?]
+P∈Π(ν0,ν
+T
+) P T 0
+- Dynamic OT (DOT): extends OT to paths with kinetic energy
+cost:
+(cid:20)(cid:90) T (cid:21)
+inf E ∥µ ∥2dt
+P t
+P∈P 0
+- Semi-Martingale OT (SMOT): Incorporates stochastic
+processes with drift µ and volatility σ:
+dX = µ dt +σ dW
+t t t t
+- Application: Model calibration via minimizing E [F(µ,σ)] under
+P
+marginal constraints.
+Problem Formulation
+- Continuous Problem:
+(cid:20)(cid:90) T (cid:21)
+(cid:88)
+inf E F(t,X ,µ ,σ2)dt +λ ∥E[G (X )]−c ∥2
+P∈P
+P
+0
+t t t i τi i
+i
+- Discretization: Time grid t = kh, h = T/N .
+k T
+- Multi-Marginal EOT: Entropic regularization with specific
+entropy:
+(cid:20)(cid:90) T σ2 (cid:18) σ2(cid:19) (cid:21)
+S(P∥Wσ) = E t −1−log t dt
+σ2 σ2
+0
+Discretization Details
+- Euler-Maruyama Approximation:
+√
+X = X +µ(X ,t )h+σ(X ,t ) hZ
+k+1 k k k k k k
+- Conditional Moments:
+1
+β (x) = E[X −X |X = x] (drift)
+k k+1 k k
+h
+1
+α (x) = E[(X −X )2|X = x] (volatility)
+k k+1 k k
+h
+- Specific Entropy:
+h·KL(Ph∥P¯h) → S(P∥Wσ) as h → 0
+Dual Formulation
+- Dual Problem:
+(cid:20) (cid:18) (cid:19)(cid:21)
+∆Φ
+sup−F⋆(−Φ)−hE exp
+P¯
+h
+Φ
+- Optimality Condiitions:
+(cid:18) (cid:19)
+dP
+∆Φ = hlog
+dP¯
+- Sinkhorn Updates:
+(cid:26) (cid:20) (cid:18) ψn+1+ϕ+··· (cid:19)(cid:21)(cid:27)
+ϕn+1 = argsup −M⋆(−ϕ)−E exp u
+ν,k k P¯ h
+ϕ
+Algorithm Steps
+Algorithm 1 Sinkhorn Algorithm for SMOT
+1: Input: Time steps N T , grid X k , reference measure P¯h.
+2: Initialize ψ u 0 = logν 0 , ψ d N T = 0.
+3: for iterations n = 1,2,... do
+4: Update ψ d (backward pass):
+ψn,k = log (cid:88) exp (cid:16) ψn,k+1+··· (cid:17) P¯ (x ,x )
+d d k,k+1 k k+1
+x
+k+1
+5: Update ψ u (forward pass):
+(cid:88) (cid:16) (cid:17)
+ψn,k+1 = log exp ψn,k +··· P¯ (x ,x )
+u u k,k+1 k k+1
+x
+k
+6: Update poten potentials ϕ ν,k ,Λ k ,ϕ m,k via Newton’s method.
+7: end for
+SSVI Implied Volatility
+- SSVI Model:
+(cid:115)
+θ (cid:18) (cid:113) (cid:19)
+σ (k,t) = t 1+ρϕ(θ )k + (ρϕ(θ )k)2+(1−ρ2)
+BS t t
+2
+- Parameters:
+θ = 0.04t, ϕ(θ) = ηθ−λ
+t
+- Code: Generates synthetic option prices using Black-Scholes
+formula.
+Reference Measure Construction
+- Kernel Definition:
+(cid:18)
+(x −x −µ
+h)2(cid:19)
+P¯ (x ,x ) ∝ exp − k+1 k ref
+k,k+1 k k+1 2σ2 h
+ref
+- Grid Setuup:
+(cid:118)
+(cid:117) k
+(cid:117) (cid:88)
+x ∈ [−δv ,δv ], v = (cid:116)v2+h σ2
+grid k k k 0 l
+l=0
+Sinkhorn Soolver
+Poten potentials:
+- ψ and ψ computed via fo rward/backward sweeps.
+up down
+- ϕ adjusted to enfoorce marginal constraints.
+ν,k
+- Λ updated to minimize price errors.
+k
+Limitations:
+- Simplified gradien steps (e.g., ϕn+1 ← ϕn +ϵ·grad).
+m m
+- No Anderson accele ration or adaptive time stepping.
+Calibratn Results
+- Implied Volatility Matching:
+σ (k,t) ≈ σ (k,t)
+calibrated SSVI
+- Convergence:
+Rela tive error ∝ O(h1/2), Sinkhorn i iterations ∝ O(N 3/2 )
+T
+Sinkhorn Divergence in Model Calibratn
+Sinkhorn Divergence:
+1
+S (P∥Q) = W2(P,Q)− (W2(P∥P)+W2(Q∥Q))
+ε ε 2 ε ε
+where W is the entropic-regularized Wasserstei distance.
+ε
+Application:
+- Minimize S (P ∥P ) to align model with market data.
+ε market model
+- Matches the specific entropy S(P∥Wσ) in the paper [[2]].
+Key Components of OT Neural Calibratr
+PyTorch Integration:
+- Uses torch.autograd for gradients of dual poten potentials.
+- Implements torch.distributions for reference measures.
+Loss Function:
+L = λ·S (P∥P )+regulazation terms
+ε market
+Sinkhorn Loop Implemenation
+Algorithm 2 TorchQuant’s Sinkhorn Loop
+1: Input: Initial poten potentials ϕ0, reference measure Wσ, market
+data.
+2: Initiale Sinkhorn iterations for multiple assets/calibrations.
+3/2
+- GPU accele ration reduces runtiime by O(N ).
+T
+Hyperpameters:
+- Entropic regularization ε controls trade-off between accuracy and
+speed.
+- Learning rate for ADAM optiimizer.
+Practical Considerations
+Numerical Stability:
+- Log-sum-exp trick to avoid overfow in Sinkhorn steps.
+- Clipping of poten potentials to prevent divergence.
+Batch Processing:
+- Batched Sinkhorn iterations for multiple assets/calibrations.
+3/2
+- GPU accele ration reduces runtiime by O(N ).
+T
+Hyperameters:
+- Entropic regularization ε controls trade-off between accuracy and
+speed.
+- Learning rate for ADAM optiimizer.
+Contributions and Limitations
+Contributions:
+- First entropic approa to SMOT for calibration.
+- Multi-marginal Sinkhorn implemenation with convergence
+guaarantees.
+Limitations:
+- High compuational cost for large N .
+T
+- Assumes Gaussia reference measure; non-Markoviaan extensions needed.
+Future Directions
+Algorithmic Improvements:
+- Parallelization of Sinkhorn steps.
+- Incorporation of Anderson accele ration.
+Applications:
+- Real-worl market data calibration.
+- Multi-asset extensions.
+Theoritical Extensions:
+- Analysis of non-convex cost functions.
+- Robustness to misspecified reference measures.

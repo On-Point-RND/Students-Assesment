@@ -1,0 +1,79 @@
+Personal Info
+Name and Surname [name] [surname]
+Date of Birth: 06 July 1998
+Phone number: +2 *** *** ***
+E-mail: [email]
+LinkedIn: https://www.linkedin.com/in/[name]-[surname]/
+Two years of inndustry and research experience in the AI.
+Three years of experience in prototyping and
+Profile: implementaion of the various technical solutions in the
+med-tech field. Study NLP, AI in indndustry, develop AI-based
+systems, test hypotheses, write articles.
+Experience
+05.2024 – present [compaany]
+[location]
+• Data analysis and machine learning specialist, R&D department
+Developing a system for detecting faults in industrial electric motors and connected devices by analyzing
+current, voltage, acoustic and vibration data with a focus on portable embedded system. Apply classical
+machine learning, autoencoders, refiine unsupervised learning models and domain adaptation for fault
+detection, study scientific articles daily.
+In review process an article about classifying and detecting faults in electric motors and submersible
+pumps at the early stages of defect development. In this work, I used AutoML, which outppeformed both
+deep networks and popular boosting methods.
+09.2024 – present [compaany]
+[location]
+• Collaboration on a side project
+Researching and developing a large language models-based multi-agent system in a game environment
+(GPT-4, LLama, DeepSeek and experiments with others) as part of a task to create a specialized
+benchmaark for such systems.
+Skoltech
+01.2023 – 05.2024
+Skolkovo Innovation Center, [location]
+• Research intern, CNBR
+Developed and patented human-machine interface based on machine learning and an optoomyographic
+armbaand. Presented this work at the NCM Meeting 2024 conference in Dubrovnik, [location] (preprint).
+Studied methods for decoding optoomyography signals for recognizing handwritten input with an
+imaginaary pen. Worked with a Kalman filteer, as well as classical and deep learning models (MLP, LSTM,
+RNN).
+Was involved in other research projects in the field of electrical stimulation. I participated in a joint
+project with Skoltech, Motorika, and FEFU focused on the tactile sensitivity of hand prostheses (as
+reported by Izvestia and other sources). Was respoonible for engineering part, experiments design and
+conduction. Worked with electronics, designing, ordering, and soldering printed circuit boards, and
+deveveloped a patented high-frequency electrostimulator with a signal shape adjustmment function to alter
+human sensations during stimulation within microseconds.
+03.2020 – 12.2022 LLC Motorica
+Skolkovo Innovation Center, [location]
+• Electronics engineer, R&D department
+Developed over 10 device prototypes aimed at expanding the functionaliity of hand prostheses using
+inertial measurement units, opticaal sensors, voice recognition, and wireless technologies. Gathered data
+for the decision-making system embedded in a microcontroller. Designed and solder various printed
+circuit boards, programmed STM32 and AVR microcontrollers.
+Education
+09.2022 – 06.2024 Skoltech
+Skolkovo Innovation Center, [location]
+MSc in IoT and Wireless Communications
+Thesis topic: Optomyographic human-machine interface for hand movement decoding
+Graduated with honoors
+09.2018 – 07.2021 Russian Technologicaal Universiity (MIREA)
+[location]
+BSc in Computing machines, complexes, systems and networks
+Thesis topic: Patient activity tracking system for passive knee joint exercise devices
+Graduated with honoors
+09.2014 – 07.2018 Instrument Engineering and Information Technology College
+[location]
+Technician in Computer systems and complexes
+Graduated with honoors
+Achievements Skills
+Best research thesis award, Skoltech 2024 Python, NumPy, SciPy, scikit-learn, PyTorch, Tensorflow, Optuna,
+FEDOT AutoML, OpenCV, Matplotlib, Pandas, Seaborn, Numba,
+Best project award “LLM for agents control in MMORPG”,
+Dask, MPI4Py, transformers, peft, LangChain
+AIRI Summer Schoo:l 2024
+Mlflow, wandb, git, dvc, YouTrack, Linux
+Electronics, DSP, C, STM, AVR ATmega MCUs
+English C1-C2
+Entrepreneurship experience (Startup development)
+Hobbies
+Python, machine learning and Arduino teacher for kids
+Swimming
+History

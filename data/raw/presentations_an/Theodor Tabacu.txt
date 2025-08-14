@@ -1,0 +1,120 @@
+            Sergey [name],
+Senior Developer,
+[compaany]
+1. Scalable Multi-Agent
+Model-Based Reinforcement
+Learning
+Review
+Introduction
+• Topic: Multi-Agent Reinforcement Learning (MARL) with a model-based approach.
+• Importance: Enhances sample efficiency and scalability in cooperative multi-agent systems.
+• Background: Traditional model-free MARL methods require extensive environment interactions, limiting
+their practicality.
+• Goal: Introduce MAMBA, a model-based algorithm that leverages agent communication and imaginary
+rollouts to reduce real environment interactions.
+Problem statement
+• Objective: Develop a scalable MARL algorithm that minimizes the need for real environment interactions.
+• Challenges:
+○ High sample complexity in model-free methods.
+○ Difficulty in scaling to numerous agents.
+○ Maintaining decentralized execution with centralized training benefiits.
+• Scope: Focus on cooperative environments using Centralized Training with Decentralized Execution
+(CTDE)
+Methods
+• Approach: MAMBA (Multi-Agent Model-Based Algorithm) utilizes:
+○ Imaginary rollouts for training, reducing real environment interactions.
+○ Agent communication to maintain individual world models during execution.
+• Justification: Combining model-based learning with agent communication enhances sample
+efficiency and scalability.
+• Mechanism: Agents train using simulated experiences and communicate to synchronize their
+world models, enabling effective decentralized execution.
+• Data & Preprocessing: Experiments conducted on SMAC and Flatland benchmark, focusing on
+cooperative tasks.
+Results
+• Key findiings:
+○ MAMBA significantlly reduces the number of required real environment interactions.
+○ Achieves competitive or superior performance compared to model-free state-of-the-art methods.
+• Metrics Used: Performance measured in terms of sample efficiency and task success rates.
+Figure 1: Experiments in Flatland environment. Y axis denotes percentage of arrived trains and X axis
+denotes number of steps taken in the environment.
+Research gap
+• Limitations:
+○ Assumes reliable communication channels between agents.
+○ Primarily tested in fully cooperative settinings.
+• Unresolved Challenges:
+○ Extending to mixed or competitive environments.
+○ Handling communication delays or failures.
+• Significance: Addressing these gaps would broaden the applicability of model-based MARL methods.
+• Future Opportunities:
+○ Incorporate robustness to communication imperfections.
+○ Explore applications in diverse multi-agent scenarios, including adversarial settings.
+2. Emergent Social Learning
+via Multi-Agent Reinforcement
+Learning
+Review
+Introduction
+• Topic: Social learning in Multi-Agent Reinforcement Learning (MARL)
+• Importance: Understanding whether agents can learn from each other like humans do.
+• Background: Traditional RL assumes agents learn only from their own experience; but real systems often
+allow observation of others
+• Goal: Explore whether agents can develop social learning behaviors in MARL settinings
+Problem statement
+• Objective: Discover if standard MARL agents can learn from observing experts
+• Challenges:
+○ Agents tend to ignore expert demonstrations
+○ No built-in mechanism for imitation or influence
+• Scope: Cooperative MARL settinings with expert-novice setups
+Methods
+• Approach:
+○ Design environments where agents co-exist with experts.
+○ Add an auxiliary task: predict expert behavior.
+• Why these methods: To simulate social learning pressure as in humans/animals
+• How it works: Agents receiive rewaards and also minimize prediction loss of expert actions
+• Data & preprocessing: Grid-world environments, cooperative control tasks
+Results
+• Key findiings:
+○ Vanilla agents do not learn from experts.
+○ Socially trained agents develop imitation strategies.
+• Metrics Used: Task success rate; generalization to new environments.
+Research gap
+• Limitations: Applies mostly to small-scale cooperative tasks
+• Unresolved Challenges: Communication between agents not explored deeply
+• Why it matters: Could improve training efficiency and generalization
+• Future opportunities: Use social learning in mixed environments or hierarchical teams
+3. Multi-Agent Reinforcement
+Learning is a Sequence
+Modeling Problem
+Review
+Introduction
+• Topic: Reformulating MARL as sequence modeling using Transformers
+• Importance: Enables more scalable and generaliabale multi-agent policies.
+• Background: Transformeers have revolutionized NLP and are being applied to RL (e.g. Decision
+Transformeer)
+• Goal: Propose MAT (Multi-Agent Transformeer) for cooperative MARL
+Problem statement
+• Objective: Enable efficient multi-agent learning with joint policy modeling
+• Challenges:
+○ Exponential joint action spaces
+○ Non-stationarity due to inter-agent learning
+• Scope: Fully cooperative multi-agent settinings
+Methods
+• Approach:
+○ Encode agent observations as a sequence.
+○ Use Transformer to output joint actions.
+• Why these methods: Levverages strong sequence modeling capacity of Transformeers
+• How it works: Use multi-agent advantage decomposition for stable optimization
+• Data: StarCraft II, MuJoCo, Google Football multi-agent environments
+Results
+• Key findiings:
+○ MAT achieves state-of-the-art performance.
+○ Generalizes to new tasks and agent counts.
+• Metrics Used: Episode reward, win rate, sample efficiency.
+Research gap
+• Limitations: Requires significant compute for training
+• Unresolved Challenges: Communication modeling not integrated
+• Why it matters: Can generalize better across complex multi-agent tasks
+• Future opportunities: Integrate with communication modules, scale to heterogeneous agents
+Bibliography
+1. [name], [surname], "Scalable Multi-Agent Model-Based Reinforcement Learning. arXiv:2205.15023.
+2. [name] et al., "Emergent Social Learning via Multi-Agent Reinforcement Learning", ICML 2021
+3. [name] et al., "Multi-Agent Reinforcement Learning is a Sequence Modeling Problem", NeurIPS 2022

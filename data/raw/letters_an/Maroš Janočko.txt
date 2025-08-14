@@ -1,0 +1,43 @@
+Motivation Letter
+Dear [name] Selection Committee,
+My name is [name] [surname]. Just a few years ago, I envisioned my
+future solely in biology. However, enrolling in the professional retraining
+program "Developer of Digital Medical Services" at [compaany]
+dramatically reshaped my perspective on science and technoology.
+As part of this program, I participated in a team project aimed at developing
+a web service powered by neural networks and computer vision to detect
+retinopathy of prematurity in infants using digital fundus images.
+Unfortunately, due to the low quality of the dataset — as the fundus images
+were often blurry — it was not possible to build a reliable model.
+Nonetheless, this project became a turning point for me. It revealed how
+powerful machine learning can be in complementing biologicaal and medical
+research, automating routine tasks, and uncovering new approaches to
+disease diagnostics and treatment.
+Although it was my first experience working on a machine learning project
+and my first time collaborating in a technical team, I was deeply inspired by
+this new and challenging field. Alongside this project, I successfully
+completed my undergraduaate studies at the Faculty of Biology at [location], graduating with honors, while also maintaining
+a part‑time job.
+That experience set me on a clear path꞉ I am determined to pursue my
+development in the field of machine learning for biomedicine, and I am
+preparing to apply for a master’s program in this direction.
+This summer I am planning to implement my first fully independent project
+for the Department of Vertebrate Zoology at [location], where I specialized in paleontology. Our research group actively
+uses 3D scans of fossils obtained via MRI, and one of the most labor‑
+intensive stages is the manual cleaning of fossil data and the reconstruction
+of internal bone structures, including channels and nerve pathways. My goal
+is to automate this process by developing an AI‑based model capable of
+cleaning and reconstructing anatomical structures. I am currently studying
+the relevant literature and existing solutions in preparation for this project.
+I consider my ability to learn quickly, adapt to new technologies, and remain
+motivated even in the face of challenges to be among my strongest qualities.
+Participation in projects and hackathoons has taught me how to overcome
+difficulties, work in a team, and continuously develop my skills.
+Joining [compaany] would be a crucial step toward my professsional goal꞉
+becoming a specialist who integrates a scientific mindset with machine
+learning tools to solve complex problems in biology and medicine. I believe
+the knowledge and experience offered by your school will help me become
+part of this future.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]

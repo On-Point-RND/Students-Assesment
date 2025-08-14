@@ -1,0 +1,52 @@
+D [name] [surname]
+Details
+• Address: [location]
+• Phone: +2 *** *** ***
+• Email: [email]
+• Date of Birth: 22October2002
+Education
+Period Sep2024—Jul2026
+Degree Master’s Degree in Information Technology and Engineering
+Specialization Internet of Things and Wireless Technologies
+University [university] Skolkovo Institute of Science and Technology(Skoltech)
+Period Sep2020—Jul2024
+Degree Bachelor’s Degree in Economics
+Rank Graduation with honors, Average Score: 94.3/100
+University Plekhanov Russian University of Economics
+Work Experience
+Period Feb2025—Present
+Employer [company], Skoltech AI Center
+Job Title Research Intern
+1. Assisted in research on hidden adversarial attacks using gradient regularization. Conducted experiments and proposed methodology for the paper “Concealed Adversarial Attacks on Neural Networks for Sequential Data”, improving attack concealability based on the double objective optimization, in particular, optimization of the classifier and discriminator models’ loss.
+2. In [university], supported the development of education materials and assisted in conducting training courses for [company] executives on digital technologies, particularly in machine learning and data science.
+Period May2023—Aug2024
+Employer Scientific Laboratory “Research of the Monetary System and Analysis of Financial Markets”
+Job Title Laboratory Assistant-Researcher
+1. Conducted analytical research and tested hypotheses in various laboratory projects, including transparency of Central Bank decisions through market shock analysis in the bond market, developing statistical metrics for evaluating corporate ESG initiatives, and comparative assessment of investment strategies in Russian and U.S. markets.
+2. Worked on an investor risk profiling project in proprietary investment performance metrics.
+3. Managed workflow and supervised project participants, including planning pipelines, distributing technical specifications, and overseeing task completion.
+4. Published scientific papers and presented research at academic conferences.
+Period Nov2022—May2023
+Employer Scientific Laboratory “Research of the Monetary System and Analysis of Financial Markets”
+Job Title Assistant
+1. Developed and implementation of machine learning models in Python for financial analysis, including:
+• Developing classification models for predicting the probability of studied events.
+• Designing image recognition and detection algorithms.
+• Optimizing stock portfolios.
+2. Contributed to academic publications, including:
+• Russian Science Citation Index(RSCI) papers.
+• A Scopus-indexed paper on ESG rating methodologies for Russian companies.
+3. Conducted extensive research using Python documentation and scientific literature from sources like GoogleScholar,Sci-Hub,andScopus.
+Skills
+Programming Python(Juputer,Colab,pandas,numpy,pytorch,scikit-learn,statsmodels,dash)
+Data Science MachineLearning,DeepLearning,Statistical Modeling
+FinancialAnalysis Econometrics,RiskProfiling,InvestmentStrategies
+DevelopmentTools LaTeX,Git,ssh
+Languages
+English(Fluent)
+French(Beginner)
+Russian(Native)
+Achievements
+Research Authored 9 articles(1indexed in Higher Attestation Commission,1in Scopus Q2),participation in State Duma analytics,internal university grants on ESG statistics classes ment.
+Community Organized pet projects at a REU Data Science Club. Graduate of the Summer School on Machine Learning(SMILES) 2024, organized by the Skoltech Center for Applied AI.
+Advanced Successful completion of the course”Generative models based on adversarial training learning”atSkoltech(32 academic hours),studying GAN architectures,VAEs and their practical application.

@@ -1,0 +1,46 @@
+[name] [surname]
++2 *** *** *** | [email] | github.com/[name]-racoon | @[name]_PorPaMMucT
+Education
+[compaany] Saint-Petersburg
+Specialty 01.03.02 (AMI), EP "Applied data analysis and artificial intelligence" 2022 - 2026
+D.K. Faddeev St. Petersburg State [compaany]
+With gold medal 2020-2022
+Work experience
+ML deveveloper, T-bank February 2025 – present time (3 months)
+Intern Saint-Peterburg
+• An AI agent project for generating unit tests
+• Adding support for different programming languages
+• Benchmark expansion and LLM fine-tuning
+• Working with gitlab-ci, transformers, MLCore, Docker
+Product Analyst, T-bank July - October 2024 (4 months)
+Intern Saint-Peterburg
+• Search for new features in rarely used data (Feature Factory project)
+• Creating models and upgrading existing ones
+• Working with Greenplum, Clickhouse, MLCore, tinkoffpy, transformers
+Projects
+Sentiment analysis service (AI Learning Lab Hack, 1st prize) | PyTorch, transformers, librosa February 2024
+• Deploying the service
+• Adding the speech recognition function
+• Judge-model training
+Vocal generation model (XLABS AI Hack, 4th place) | PyTorch, transformers, aeneas November 2024
+• Audio parsing, separating vocals from accompa niment
+• Experiments with TTS models: HiFi-GAN, Bark, Tacotron2, SpeechT5
+• SpeechT5 fine-tuning for Russian vocals, deploymen via docker
+TradeML | Python, Flask, Tinkoff API, Pytorch, Keras, Docker, Redis January 2024 – June 2024
+• Creating a stock quotation parser
+• Training models (RNN, GRU, LSTM, CNN, Transforme r)
+• Writing an automatic trading algo rithm and deploying it on a server with a public IP
+Geomarketing service | Python, Catboost, Pytorch February 2023 – May 2023
+• Data preprocessing and filte ring
+• Training a model to predict the attendance of retail ou tlets
+• Connecting the model to the rental ad parser from Avito
+Skills
+Programming languages: Python, C++, SQL (Postgres), Bash
+Frameworks: Flask, Pytorch, Keras, Redis
+Libraries: pandas, NumPy, Matplo tlib, Catboost, Redis
+Languages: Russian (native), English (upper-intermediat e)
+Achievements
+Student Compe titions: NCUMC (mathe matics, wi nner),
+St. Petersburg Regi onal Olympiad (mathe matics, wi nner), "I-am-a-pro"Olympiad (sof tware engineering, wi nner)
+Schoo l compe titions: "Phystech"(mathe matics, wi nner), St. Petersburg State [compaany] Olympiad (mathe matics, prize-wi nner), "Kurchatov"(mathe matics, prize-wi nner))
+Project activities: Horizon-2100 Interna tional Competi tion (a model for se gm entation of tumors in medical images, wi nner), Sakharov Readings (prize-wi nner)

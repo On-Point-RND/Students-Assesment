@@ -1,0 +1,51 @@
+[name] [surname]
+Male, 20 years old, born January 24, 2005
+Phone: +2 *** *** ***
+Email: [email] (preferred contact method)
+GitHub: https://github.com/[name]24
+Telegram: @[name]r
+Residence: [location]
+Education
+Incomplete Higher Education (2nd year)
+2027 [location] ([location] National Research University), [location]
+Institute of Control Systems, Informatics, and Electric Power Engineering,
+Applied Informatics
+"School 21" — Educational project by [company] for developers
+2026
+Since 2024, I have been a student at School 21 specializing in Data Science and Machine
+Learning.
+Work Experience
+I have no work experience in IT companies, but I have completed many projects:
+1) Pong
+A project focused on creating an interactive Pong game in the terminal using C.
+2) Game Of Life
+A project dedicated to John Conway’s legendary game, developed in C.
+3) Revers Polish notation
+Developed a program for plotting function graphs defined by arbitrary expressions.
+4) My_string.h
+Created my own version of the string.h library in C.
+5) Food and nutrition
+A small pet project aimed at practicing parser development and building a machine learning model
+to help people eat healthier (Python).
+6) Parser avito
+A project focused on creating a parser for the Avito website.
+7) Analyze_movielens
+A pet project aimed at personalizing the MoviLens database.
+Hard skills
+Languages English — A2 level
+Python (Scikit-learn, pandas, Numpy, Seaborn, Matplotlib, SciPy, requests) – Main
+language
+Created many machine learning models for data analysis and developed several parsers using
+Python. C
+Developed games and a library in C as part of the "School 21" program.
+Soft skills
+· Responsibility
+· Communication skills
+· Desire to develop
+· High learning ability
+About Me
+I am a 2nd-year student at [location] majoring in "Applied Informatics." Since 2024, I have been
+studying at [company]'s School 21.
+Six months ago, I chose data collection and analysis with Python (Data Scientist) as my main focus.
+To develop in this field, I work on pet projects, take online courses on Stepik, and study books such
+as "Applied Machine Learning" and "Practical Statistics."

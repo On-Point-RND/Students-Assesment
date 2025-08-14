@@ -1,0 +1,195 @@
+Stochastic Gradient Descent with Heavy-Tailed
+Noise: Theory and Ideas
+[name]
+[location]
+April 2025
+Stochastic Gradient Descent (SGD)
+▶
+Iterative method for optimizing objective:
+n
+1 (cid:88)
+f(x) = f (x) ≈ E [f(ξ,x)]
+i ξ
+n
+i=1
+▶
+We optimize via stochastic approximation:
+x = x −η∇f(ξ ,x )
+t+1 t t t
+▶
+Example: for a mini-batch ξ = {i ,...,i },
+t 1 B
+B
+1 (cid:88)
+∇f(ξ ,x ) = ∇f (x )
+t t B ij t
+j=1
+▶
+Defiine the gradient noise:
+ε = ∇f(x )−∇f(ξ ,x )
+t t t t
+▶
+Properties:
+E [ε | x ] = 0, Cov [ε | x ] = Σ(x )
+ξ t t ξ t t t
+t t
+2/12
+SGD as a Stochastic Differential Equation
+▶
+SGD update with gradient noise:
+x = x −η∇f(x )+ηε
+t+1 t t t
+▶
+In the limit η → 0, the dynamics approximate an SDE:
+√
+dx = −∇f(x )dt + ηΣ1/2(x )dU
+t t t t
+▶
+U : generic stochastic process with independent increments
+t
+and unit covariance
+▶
+Approximation becomes accurate over finite time horizons
+3/12
+Langevin Dynamics and Gaussian SGD Noise
+▶
+SGD step:
+√
+x = x −η∇f(x )+ ηξ(x ,η )
+t+1 t t t t
+▶
+Intermediate SDE (interpolation of SGD step):
+dy = −∇f(y )dt +M(y )dB , t ∈ [kδ,(k +1)δ]
+t kδ kδ t
+▶
+Limiting SDE (continuous Langevin process):
+dx = −∇f(x )dt +M(x )dB
+t t t t
+▶
+Result: the laws Law(x ) of SDE (SGD step or intermediat
+t
+SDE) converge to the invariant distribution of the limiting
+SDE in Wassersteiin-1 distance [1]:
+(cid:40)
+O(η1/8) (SGD vs SDE)
+W 1 (Law(x t ),p∗) = √
+O( η) (intermediat vs SDE)
+▶
+Valid under suitable assumptions on f, step size η, and noise
+structure.
+Source: Stochastic Gradient and Langevin Processes, Cheng et al.
+4/12
+Stationary Distribution for SGD with Gaussian Noise
+▶
+SGD with constant step size η and noise ε :
+t
+√
+x = x −η∇f(x )+ ηε
+t+1 t t t t
+▶ Assuming ε ∼ N(0,σ2I), i.i.d., the correspondiing SDE:
+t
+(cid:112)
+dx = −∇f(x )dt + ησ2dB
+t t t
+▶
+This is a variant of Langevin diffusion; under mild regularity
+assumptions, it admits a stationary distribution:
+(cid:18) (cid:19)
+f(x)
+p (x) ∝ exp −
+∞ ησ2
+▶
+The process is ergodic with this unique invariant measure [2].
+▶ Intuition: parameters tend to concentrate near global minima,
+where f(x) is small.
+▶ The factor ησ2 gives a some scaling law linking batch size and
+learning rate — since σ2 increases for smaller batches.
+Source: Simsekli et al., 2019
+5/12
+Non-Gaussian Noise and Heavy-Tailed Behavior
+▶ Empirical gradient noise in SGD is often non-Gaussian
+▶ Histograms reveal heavy-tailed behavior: rare but large deviations
+▶ Standard Langevin models with Gaussian noise may be insufficient
+▶ Alternaive noise families (e.g., L´evy processes) may be required to model
+SGD noise accuraately
+Image source: Simsekli et al., 2019
+6/12
+α-Stable Noise, Estimation, and Trajectories
+▶ α-stable distributions generalize Gaussians with heavy tails
+▶ No closed-form PDF for most α < 2
+▶ Empirical studies show SGD noise is better modeled as S S
+α
+rather than Gaussian
+▶ Different DNN parameters exhibiit different tail indices α
+i
+▶ Estimation: empirical tail index, quantile methods
+▶ Weight trajectory:
+θ = θ −η∇L (θ)+η1/αξ , ξ ∼ S
+t+1 t it t t t α
+▶ Implies SGD dynamics better captured by L´evy processes
+Source: Revisiting the Noise Model of Stochastic Gradient Descent,
+2023
+7/12
+EmpiricalStudy:SGDNoiseNorminOverfittedCNNonMNIST
+▶ We analyze the stochastic gradient noise (SGN) in an
+overfitted CNN trained on MNIST.
+▶ The model achieves near-zero training loss, allowing us to
+isolate noise properties.
+▶ We collect gradient snapshots across mini-batches and
+compute the norm of noise vectors
+▶ Histogram shows heavy-tailed behavior of SGN even in simple
+CNN.
+8/12
+Implications and Ideas: Heavy-Tailed Noise
+▶ Studying the limiting distribution of SGD is important for
+explaining its generalization ability — e.g., why it tends to
+converg to wide minima
+▶ There is a connection between batch size and learning rate,
+especially when noise variance is related to batch size
+▶ A central open question is to derive the limiting distribution or
+a Fokker–Planck-type equation for SDEs with α-stable noise
+▶ Another direction is to better understand the nature of SGD
+noise and design more accuraate families than α-stable
+distributions
+9/12
+Ideas about Momentum in SGD
+▶ Momentum accumulates gradient history and introduces inertia:
+v = µv −η∇f (x ), x = x +v
+t+1 t it t t+1 t t+1
+▶ Interaction with noise can amplify or dampen variance
+depending on µ
+▶ Under Gaussian noise ε ∼ N(0,σ2I), one may derive a
+t
+limiting distribution using an inertial SDE
+▶ Interesting research direction: characterize the stationary
+distribution of Momentum SGD and study its geometry
+▶ Next step: analyze normalized methods (e.g., Adam) and
+derive limiting behavior under structured or adaptive noise
+10/12
+Conclusion
+▶ SGD noise is often non-Gaussian and heavy-tailed
+▶ Understanding its limiting distribution helps explain generalization
+▶ α-stable processes offer a better fit than Gaussian assumptions
+▶ Open directions:
+▶ Stationary distributions for momentum and Adam
+▶ Improved noise models beyon α-stable
+▶ Analytical tools for heavy-tailed dynamics
+11/12
+References
+X. Cheng, D. Yin, P. Bartlett, and M. Jordan,
+Stochastic Gradient and Langevin Processes,
+arXiv:1907.03215, 2019.
+https://a rxiv.org/pdf/1907.03215
+U. Simsekli, L. Sagun, and G. Baskurt,
+A Tail-Index Analysis of Stochastic Gradient Noise in Deep Neural
+Networks,
+arXiv:1901.06053, 2019.
+https://a rxiv.org/pdf/1901.06053
+G. Baruch, G. Hacohen, A. Yogev, and T. Hazan,
+Revisiting the Noise Model of Stochastic Gradient Descent,
+arXiv:2303.02749, 2023.
+https://a rxiv.org/pdf/2303.02749
+I. Ignashin,
+Repository with our experiments with SGD noise,
+https://gi thub.com/ThunderstormXX/SGDiffusion, 2025.
+12/12

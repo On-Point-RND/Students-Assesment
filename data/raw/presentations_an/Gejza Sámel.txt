@@ -1,0 +1,68 @@
+SMILES 
+2025
+
+Introduction
+
+[name] [surname]
+[compaany], “[compaany]”
+English, Chinese
+Statistics, Data Analysis
+
+Problem statement
+
+budget deficit=>debt financing
+developing countries (the global majority)
+12 indicators
+“External debts of developing countries”
+Current account balance
+GDP
+Current value of external debt
+External debt, long-term
+External debt, short-term
+Share of external debt from exports
+7. Total debt servicing
+8. Total reserves
+9. Concessional debt
+10. Overdue interest, long-term
+11. Unpaid external debt
+12. Use of IMF loan and SDR allocation
+
+Methods 
+Exploratory data analysis
+Correlation analysis
+Regression analysis
+Cluster analysis
+
+Results
+Exploratory data analysis=> 111 countries
+Correlation analysis=>multicollinearity
+
+3) Regression analysis=> share of debt from exports
+concessional, short-term loans=> borrow more money
+
+4) Cluster analysis=> k-means => 4 groups
+
+1 Cluster
+
+East and Central Africa, Middle East – political instability
+y = share of external debt from exports
+
+2 Cluster
+
+European, Central African, South Asian, and South American countries
+agricultural production=> to industrialize
+dollar exchange rate=> the current value of external debt
+
+3 Cluster
+
+Latin America and South Africa
+coronavirus pandemic
+
+4 Cluster
+
+East and West Africa and the Caribbean region
+geographical isolation +hot climate +specialization in agriculture
+
+social problems
+cover the balance of payments deficit
+"debt trap"

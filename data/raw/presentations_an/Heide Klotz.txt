@@ -1,0 +1,141 @@
+Fundamental models of large-scale learning
+in the multimodal task of decoding neural
+activity and behaviour
+[name]
+PhD student (Applied Mathematics and
+Physics), [compaany]
+Introduction
+In neuroscience, there is a growing need for a fundamental model that can bridgge the gaps between
+different datasets, experiments, and individuals, allowing for a more holistic understanding of brain function
+and information processing. Decoding a neural population is a critical aspect of neuroscience, allowing for
+the interpretation of large-scale patterns of neural activity and understanding how the brain processes
+information.
+• Review goal: to examine state-of-the-art fundamental models applied to the multimodal task of neural
+activity decoding.
+Problem statement
+• Problem: neural activity decoding for behavioral prediction
+• Challenges: multimodality: (1) neural activity detection – EEG, fMRI, Ca2+ imaging; (2) behaviour types –
+tasks, reaction types (movement, vision, speech); data variability between individuals and recording
+sessions; large datasets with high-dimensional data
+• Scope: neural decoding is an important tool for systems neuroscience and brain functions studies; is
+critical for brain-computer interfaces (BCIs) as an assistive technology for severely disabled patients
+C
+Different tasks
+(behaviour)
+Neural Inputs, X
+Decoding, Y = f(X)
+(activity recording) D
+Decoding Outputs,Y (behaviour)
+Methods
+• Scaling up to variety of tasks and diverse neural and behavioral recording conditions
+- multimodal approaches
+- transformer architectures, self- and cross-attention (Perceiver, Perceiver IO)
+- encoder-decoder architectures
+- neural tokenizer (POYO)
+• Multi-session training and alignment (neural manifold alignment)
+- generative adversarial approaches
+- unsupervised domain adaptation (SABLE)
+- VAE
+Perceiver: a Transformer-based model for
+multimodal tasks
+The Perceiver scales to high-dimensional inputs such as images, videos, audio, point-clouds, and
+multimodal combinations without making domain-specific assumptions. Cross-attention module to
+project an high-dimensional input byte array to a fixed-dimensional latent bottleneck (N - latent
+indices, M - input indices, N ≪M ) before processing it using a deep stack of Transformer-style self-
+attention blocks in the latent space.
+M = 50176 for 224 × 224 ImageNet images Latent Transformer: GPT-2 architecture
+N ≤ 1024 (comp arable to language models)
+PerceiverIO: a general architecture for
+structured inputs & outputs
+Perceiver IO augments the Perceiver model with a flexible querying mechaniism that enables outputs
+of various sizes and semantics.
+• Attention mechaniism to map from latents to arbitrarily sized and structured outputs using a
+querying system
+• Queries may be hand-designed, learned embeddings, or a simple function of the input
+Queries
+POYO: A Unified, Scalable Framework for
+Neural Population Decoding
+Input spike tokens are compressed into a smaller set of latent tokens which are processeed through
+multiple self-attention blocks, finally time-varying outputs are predicted by querying the latent space.
+All tokens in this model are assigned a timestamp, which are used towaards rotary position encoding.
+• multi-session model across
+multiple individuals and tasks
+• scales up to different task and
+behavioral recording conditions
+• pretrained model can be efficiently
+fine-tuned on new datasets
+POYO: A Unified, Scalable Framework for
+Neural Population Decoding
+Tokenizing: each spike is represented as a token (x , t ) in terms of
+i i
+- which unit it came from (via a lea rnable embedding UnitEmbed(·))
+- t time that the spike event was detected
+i
+Neural tokeneizer:
+A unit fires a sequence of spikes
+in a context window of fixed size: [0, T ]
+Number M of units in population is arbitrary
+All spikes from a specific unit have the same
+unit embedding, and only differ in their timing
+POYO: A Unified, Scalable Framework for
+Neural Population Decoding
+Encoding relative timing information:
+all tokens in the model are assigned a timestamp t , which are used towaards rotary position
+i
+encoding across all attention layers in the architecture.
+Querying the latent space:
+- Perceiver IO querying approach
+- session embeddings
+Perceiver encoder module
+Perceiver IO decoder module
+Manifold alignment of neural activity by
+behaviour
+Recorded neuron signa ls change over time due to probe and neuron drifts, that results in worse
+performa nce of neural decoding and thus requires regular calibration.
+The neural population activity associated with behavior tends to lie within a low-dimensional space –
+neural manifold.
+Causes of session-to-session variability Manifold alignment approaches
+in neural activity recordings
+1) Dime nsion reduction + alignment step
+2) Adve rsaarial:
+Discriminator – autoencoding 0 day
+Generator opti mised to align activity of all other days to 0 day
+Generate synthetic activity data from
+behaviour
+poorly generalised to u nseen data
+Manifold alignment of neural activity by
+behaviour
+SABLE model consis ts of a sequen tia l variational au toe ncoding approa ch comb ined with a
+sequen tia l behaviour decoder.
+• unsupe rvised domain adaptation
+each session is modelled as
+separate domain
+• negative gradien t encourages the
+encoder to generate latent
+variables which are not separated
+by session of data collection
+• accura te behaviour prediction for a
+pr eviously u nseen session without
+re-cali bration
+Conclusions
+Large lan gua ge models and multimodal systems have high poten tial for application beyon d their original
+field of text and image processing.
+Tran sforme r-like architectures appear to be a promising tool in the multimodal task of decoding behaviour
+from neural activity data.
+Bibliography
+1. [name], [name], [name], [name], [name], [name], [name], [name], [name], [name], et al., “Scaling vision
+tran sforme rs to 22 billion parameters,” arXiv preprint arXiv:2302.05442, 2023
+2. [name], [name], and [name], "Aligning latent representations of neural activity," Nature Biomedical Engineering, 2022
+3. [name], [name], [name], [name], [name], [name], and [name], “Attention is all you need,” Advances in
+neural information processing systems, 2017
+4. [name], [name], [name], [name], and [name], "Perceiver: General perception with iterative attention," PMLR, 2021
+5. [name], [name], [name], [name], and [name], "Perceiver io: A general
+ar chitecture for structured inputs & outputs," ICLR, 2022
+6. [name], [name], [name], [name], [name], [name], “A Unified, Scalable Framework for Neural Population Decoding”, NeurIPS, 2023
+7. [name], [name], [name], [name], & [name], “Stabiliza tion of a brain-computer interface via the alignment of
+low-dimensional spaces of neural activity”, Nature biomedical engineering, 2020
+8. [name], [name], [name], and [name], “Targeted neural dynamical modelling”, Advances in Neural
+Informa tion Processing Systems, 2021
+9. [name], [name], [name], “Inferring single- trial neural population dynamics using sequen tia l au toe ncoders”, Nature Methods, 2018.
+10. [name], [name], [name], "Robust alignment of cross-session recordings of neural population activity by
+behaviour via unsupe rvised domain adaptation," PMLR, 2022.

@@ -1,0 +1,85 @@
+[name] [surname]
+PERSONAL DATA: Personal site & portfolio:
+Citizenship: [location]
+Current residence: [location]
+Mobile: +2 *** *** *** |
+WhatsApp, Telegram: +2 *** *** ***
+LinkedIn: [name] [surname]
+GitHUB : PET_projects
+Email: [email]
+GoogleScholar: Articles
+Career Objective:
+Results-driven expert in Petroleum Engineering and Geosc ience with over a decade of experience in the oil and gas
+industry. I have progressed through various roles, from trainee field engineer to manager in R&D departments, and I
+am currentlly engaged in innovative projects at [compaany] to enhance recovery efficiency and increase
+recoverable reserves. Simultaneously, I am pursuing a P hD in Petroleum Engineering at [location] in Saudi Arabia.
+Throughout my career, I have gained extensive experience in various aspects of the petroleum industry, including reservoir engineering,
+geophysics, and drilling operations. I am adept at utilizing advanced technologies and data analysis to optimize oil and gas recovery.
+SCHOLARSHIP, CERTIFICATES AND COURSES
+IT courses:
+Jul. SLB Machine Learning Workshop certificate ([location], [location])
+Oct. Specialist in Data Science, Yandex Practicum, Top Russian IT & technological compaany ([location], [location])
+Dec. Data Analytics – Bauman Moscow State Technical University, in TOP-3 Universities in Russia ([location], [location])
+Dec. Courses of Chief Data Officer – Innopolis University ([location], [location])
+Jul. Python for Data Science fundamentals course – Sber University (online)
+Oct. Java programming school – School 21 ([location], [location])
+Geology, Geophysics, Petroleum Engineering and English courses, certificates & diplomas:
+Oct. Advanced course of 3D geological simulation – Oilteam ([location], [location])
+Oct. Professional English courses – Ace language Academy ([location], [location])
+Nov. Horizontal well completion methods course – Almetyevsk State Oil Institute ([location], [location])
+Oct. Techlog Fundamentals course – Schlumberger Next ([location], [location])
+May TOEFL English proficiency certificate – 86 points (Advanced level)
+Course of 3D geological simulation – Rosneft ([location], [location])
+JSC “Rosneft” Technical-Research conference nominee diploma;
+JSC “Udmurtneft” Technical-Research conference winner diploma;
+2008-2009 Scholarship of JSC ”Tatnift” for outstanding student;
+INTERNATIONAL PROFESSIONAL SCHOOLS AND TRAININGS
+Jul. SLB Machine Learning Workshop ([location], [location])
+Jul. Presentation skills ([location], [location])
+Jun. Research skills ([location], [location])
+Oct. Schlumberger Ecoscope tool schooL - Middle East Learning Centre ([location], [location])
+Sept. Schlumberger Laterolog tools schooL - Sugar Land Learning Centre ([location], [location])
+Jun. Schlumberger PeriScope tool schooL - Middle East Learning Centre ([location], [location])
+Sept. Schlumberger Engineer-1 schooL - Siberian Training Centre ([location], [location])
+Mar. Schlumberger OFS-1 courses - Siberian Training Centre ([location], [location])
+PUBLICATIONS
+• The Integrated Technology of Residual Reserves Localization and Profiit Increase on Brownfields
+SPE Europec featured at 82nd EAGE Conference and Exhibition & EAGE Annual 2021, [location]
+• Field Analysis of the Late Stage Waterflooding of the Voлга-Ural Oil Basin Using Diagnostic Metrics Prime
+SPE-206513-RU
+• Application of controlled radial drilling technology at the facilities of the Tournaisian Stage at PJSC TATNEFT
+EAGE, "Horizontal wells 2021. Problems and prospects" [location], May 24-28, 2021
+• Discovery of New Geological Features of Botuobinskii Formation by Means of Remote Multilayer Mapping Technology
+EAGE, Horizontal wells 2017, http://www.earthdoc.org.
+PATENTS
+• Method and device for lateral coring from the wall of a non-centered section of a casing string in an inclined well
+RU2781975C1 (link: https://patents.google.com/patent/RU2781975C1/en?oq=RU2781975C1 )
+• Method for developing carbonate reservoir in oil field
+RU 2811132C1 (link: https://patents.google.com/patent/RU2811132C1/en?oq=RU2811132C1)
+• Program for the localization of residual oil reserves based on statiscal and neural network methods
+• The program for linking the initial data on the core to the results of geophysical studies of wells (RU 2020665074)
+• A program for searching and highlightiing the stratigraphic boundaries of the Timan and Pashian horizons of the Upper
+Devonian (RU 2020665145)
+LANGUAGES
+English – Advanced Technical (С1); Russian – Native; Tatar – Native; Arabic – Begiinner.
+SOTF SKILLS
+• Strong work ethic
+• Learning & Creativity
+• Time management & Self-management
+• Interpersonal skills & Leadership
+• Adaptability & Flexibility
+ADDITIONAL INFORMATION
+Additional activities:
+• Chairperson of SPE Voлга Section
+Since 2020 till 2023, I had been chairperson of SPE Voлга, one of the very first SPE professional sections opened in
+[location]. Today SPE Voлга is the second largest professional section in the Russian Federation after Moscow section,
+with 250 + active members, which also includes 3 student sections (Kazan Federal Universiity, ASOI, Kazan
+Technological Universiity).
+• Part-time working/doing research at local Universiity ([location])
+Since 2019 till 2024 I’d been doing research on Machine Learning application in Geoscience
+Sport achievements: I have achieved the 1st adult sport grade in acrobatics, which was gained by 7 years of hard
+training.
+International experience: Attending of Geophysics & Directional Drilliing and LWD/MWD courses in [location] and [location];
+Summer work in the USA within the “Work&Travel” program.
+Participation as a delegate and speaker from [compaany] at the international oil and gas exhibiion in [location], ADIPEC 2019.
+Hobby and interests: Skydiving, scuba diving, swimming, skiing, snowboard and business books.

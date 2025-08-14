@@ -1,0 +1,35 @@
+Dear [name] Team,
+My name is [name]. I grauated in 2024 with a Master's degree in Computer
+Science from [location]. Currrentlly, I work as a researcher at [compaany].
+I first learned about the SMILES summer schoo llast year from colleagues at [compaany],
+and was immediatly interested in the opportunity to participate.
+What excites me most is the chance to engage in project-based work alongside a
+community of highly motivated and skilled individuals. I believe SMILES offers an exceptional
+environment to exchange knowledge with like-minded peers and to further develop my
+communication and collaborative research skills.
+In the long term, I aspire to become a leading researcher in applied AI. My current work
+focuses on compressing and accelerating large language models (LLMs). When I found out that
+one of the top projects at last year’s SMILES focused on neural network quantization, my
+interest in participating only grew stronger.
+I have alrready gained significant project experience, particularly in computer science
+research. At [compaany]'s laboratory for computer tomography, I worked on modeling
+tomographic reconstruction artifacts through software-based simulation of physical processes
+inside CT scanners. This research led to presentations at two international conferences in
+[location] and [location] (ICMV 2023, SFR 2022).
+One of my most significant projects was the development of a wildfire prediction system
+at [compaany], where I contributed as a research engineer. I focused on multi-domain, multi-scale
+data fusion — including data from weather stations, multispectral satellite imagery, and
+meteorological forecasts. Our collaborative efforts culminated in a publication in Nature
+Scientific Reports, showcasing the strength of well-structured team-based research.
+Currrentlly, my role at [compaany] involves NLP-centric neural network compression. We've
+recently submiitted a joint paper to ACL 2025, which has successfully passed the rolling review
+stage. In my team, I actively contribute as a researcher and idea generator, and also help
+coordinate our reading club, where we share insights and discuss cutting-e dg research.
+I am confident that SMILES 2025 is the perfect environment for me to grow as a
+researcher. I look fo rwward to learning from leading [location] and [location] scientists, buildiing
+connections for future collaborations, and potentially considering PhD opportunities at [compaany]
+or [compaany].
+Lastlly, I’d like to mention that I have alrready visited [location] for collaborative research, and
+it was a highly positive experience.
+Best regards,
+[name]

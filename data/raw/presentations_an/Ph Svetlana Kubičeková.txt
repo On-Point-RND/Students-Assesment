@@ -1,0 +1,65 @@
+[name]
+PhD Student, Research AI Engineer
+[location]
+CEO, [compaany]
+
+Pepper Ripeness and Size Classification Using ML/DL: Challenges and Future Directions
+
+Introduction
+
+Automated classification of peppers by size (large/small) and ripeness stage (fully/half ripened, green) using ML/DL.
+Critical for precision agriculture optimizes harvesting, reduces waste, and improves yield.
+Manual inspection is labor-intensive and error-prone.
+
+*USA solution [compaany] - [compaany]
+
+Problem statement
+
+In line with global trends toward enhancing production safety and efficiency, the agricultural sector is rapidly adopting digital technologies. A key focus is the automation of monitoring systems for greenhouse complexes, where the cultivation of tall crops demands continuous oversight to minimize risks of yield loss.
+Goal of the Intelligent Control System
+Develop an AI-driven monitoring system using computer vision and machine learning to:
+Automate real-time cultivation tracking.
+Reduce labor dependency, cutting workforce needs by 40-50%.
+Achieve 95% accuracy in anomaly detection (diseases, pests, growth irregularities).
+
+Reducing crop losses by 15-25% will boost greenhouse profitability.
+Early issue identification minimizes pesticide use and resource waste (water, energy).
+Supports global AgriTech digitization trends and lowers environmental footprint.
+
+Methods
+
+YOLOv8 (object detection + classification) pretrained on COCO, fine-tuned on tomato dataset used Kaggle datasets and custom pepper dataset on real data in agroenvironment. YOLo balances speed and accuracy, ideal solution for real-time (online) agricultural applications.
+Detects pepper and classifies them into 6 categories using bounding box regression and convolutional features.
+Pretrain on dataset with 2 classes, fine-tuned on 6 classes (size + ripeness) and augmented
+
+Results
+
+High detection accuracy: mAP50 = 0.83, precision = 0.82
+Classification weakness: Validation cls_loss (0.37) is double the training loss (0.19)
+Recal_l = 0.78: Misses small/occluded pepper
+Intellectual property
+3 software
+2 database
+2 patents
+
+Research gap
+
+Unresolved Challenges:
+Handling lighting variations and occlusions.
+Improving generalization without excessive labeling.
+
+Future Opportunities
+Generate diverse pepper and tomato images for class balancing based on LLM/VLM.
+Separate detection and classification tasks for specialization.
+Optimize for real-time use in agricultural robots.
+
+Bibliography
+
+A. Gupta et al., Deep Learning-Based Approach for Tomato Plant Disease Detection, IEEE Access.
+B. Chen et al., Automatic Pepper Detection in Smart Farms Using YOLoV4, Sensors.
+L. Fernández et al., Advances in Computer Vision for Agricultural Automation: A Focus on Fruit Detection, Computers and Electronics in Agriculture.
+M. Tanaka et al., Real-time Tomato Fruit Detection and Counting in Greenhouses Using Deep Learning, Computers and Electronics in Agriculture.
+S. Patel et al., Challenges in Automated Fruit Detection: A Case Study on Tomatoes and Peppers, Journal of Field Robotics.
+R. Kumar et al., Machine Learning Techniques for Pepper Plant Phenotyping Using RGB Images, Plant Methods.
+Workshop Paper, EfficientDet for Real-Time Tomato Detection in Controlled Environments, arXiv (CVPR Agriculture-Vision).
+Wang, Chien-Yao, Bochkovskiy, Alexey, Liao, Hong-Yuan Mark. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition.

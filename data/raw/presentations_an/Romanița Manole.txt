@@ -1,0 +1,125 @@
+Slide 1
+----------------------------------------
+Quantifying and Understanding Memorization in Neural Networks 
+ 
+Author: [name], [compaany]
+Supervisor: [name]
+
+Slide 2
+----------------------------------------
+Problem Statement
+ 
+Objective: to propose a method for assessing the architecturaal qualities of models and their hyperparameters based on information about the degree of memorization of training sample objects
+Task: to develop a set of memory metrics for different machine learning problem formulations and to investigate their correlation with model quality metrics
+ ‹#›
+ 
+Slide 3
+----------------------------------------
+Relevance
+ ‹#›
+Concerns about copyright infringement
+The propensity of neural networks 
+to memorization
+[surname], [surname]: Understanding deeplearning requires rethiinking generalization (2017)
+ 
+Slide 4
+----------------------------------------
+‹#›
+Training a Deep Neural Network (CNN) on real and fully noisy data
+Investigating the ability of Regularization to interfere with memorization while maintaining generalization
+ 
+Literature Analysis
+CNNs trained on CIFAR-10 with class label randomization
+Arpit, D., Ballas, N., Krueger, D., et al: A Closer Look at Memorization in Deep Networks (2017)
+ 
+Slide 5
+----------------------------------------
+‹#›
+An example of the “positive” effect of memorization
+Literature Analysis
+Analogy between memorization and “generalization gap” (new approach):
+For a performaance metric P,training set S, test set T, and model f, trained on S:
+[surname]: CBMM Seminar Series: Quantifying and Understanding Memorization in Deep Neural Networks (2023)
+ 
+Slide 6
+----------------------------------------
+‹#›
+Practice. Models training
+GTZAN Genrre Collection
+ 
+Accuracy on training sample
+Accuracy on validation sample
+ 
+Slide 7
+----------------------------------------
+‹#›
+Practice. Models training
+GTZAN Genrre Collection
+ 
+Loss on training sample
+Loss on validation sample
+ 
+Slide 8
+----------------------------------------
+Practice. Memorization analysis 
+ 
+Leave-one-out approach
+Subset approach
+‹#›
+ 
+Slide 9
+----------------------------------------
+‹#›
+Practice. Memorization analysis 
+ 
+Classification Correctness Matrix
+Training Sample Usage Matrix
+Модель LSTM
+ 
+Slide 10
+----------------------------------------
+‹#›
+Practice. Memorization analysis 
+ 
+Classification Correctness Matrix
+Training Sample Usage Matrix
+Модель VGG
+ 
+Slide 11
+----------------------------------------
+‹#›
+Practice. Comparing models 
+ 
+General results
+LSTM vs CNN
+ 
+Slide 12
+----------------------------------------
+‹#›
+Practice. Comparing models 
+ 
+LSTM vs VGG
+CNN vs VGG
+Ensemble (LSTM + CNN) vs VGG
+ 
+Slide 13
+----------------------------------------
+Results. Next steps
+‹#›
+Implemented architecture and trained models for classifying audio track genres
+Applied information about memorization of training sample objects to select a model
+Made sure that the quality metric of the models and the degree of memorization metric were consistent
+Supplement the memorization metric used (analogous to the “generalization gap”) with other metrics
+Complicate sample splitting
+ 
+Slide 14
+----------------------------------------
+Thank you for your attention
+ 
+Slide 15
+----------------------------------------
+Sources
+‹#›
+[1] [surname], [surname]: Understanding deep learning requires rethiinking generalization, 2017
+[2] [surname], [surname]: Extracting training data from diffusion models. In 32nd USENIX Security Symposium (USENIX Security 23), 2023
+[3] [surname], [surname]: Protecting artists from style mimicry by {Text-to-Image} models. In 32nd USENIX Security Symposium (USENIX Security 23), 2023

@@ -1,0 +1,139 @@
+[name] [surname]
+[location]
+First year PhD student
+[compaany]
+Email: [email]
+Computer vision developer in Python with experience in software development
+for RGB, RGBD and IR cameras. Interested in projects related to machine learning,
+computer vision and deep learning.
+education additional education
+September 2024 - In progress
+ September 2019 - May 2021
+[compaany], [location]
+Interpreter in the field of professional communications
+PhD in "Engineering Systems"
+September 2014 - August 2018
+Aerospace School named after Hero of Socialist Labor
+[compaany], [location]
+Student in electronics/aircraft engineering
+Master in "Energy Systems"
+September 2018 - June 2022
+[compaany], [location]
+Bachelor's degree with honors
+in "Electronics and Nanoelectronics"
+courses experience
+October 2022 - April 2024
+March 2024 - May 2024
+[compaany]
+Academic mobility (Department of Information Engineering
+Technology, [location]): free mover
+[location]
+Introduction to Data Science
+[location]
+Introduction to Natural Language Processing
+ (351–400th in World University Rankings 2024)
+High Performance Python Lab
+"Eye-tracking through web-camera and computer vision"
+Machine Learning
+-
+ Developed pipeline utilizing ZED 2 RGBD camera for gaze estimation
+Deep Learning
+using ZED SDK, OpenCV and mediapipe. Achieved 18 FPS video
+Deep Learning for Natural Language Processing
+stream from camera during data collection procedure.
+Models of Sequential Data
+Numerical Linear Algebra
+June 2023 - July 2023
+Mathematics for Engineers
+Internship: research intern
+Fundamentals of Power Systems
+[compaany], [location]
+Introduction to IoT
+"Development of droplet generator"
+Power Electronics
+-
+ Developed a hardware part of a droplet generator using 32-bit
+microcontroller with MOFSET drivers and full-bridge configuration
+for piezoinjector control.
+teaching
+July 2021 - October 2021
+Internship: embedded systems developer
+March 2025 [location] (leading manufacturer of
+radio electronics in [location])
+Developed log2 calculation algorithm in VHDL and software
+Seminarist for Introduction to Internet of Things interface design for test equipment.
+course (Introduction to AR using web-camera) - Implemented in the trainee team a digital filter in C to process a
+sigma-delta stream coming from a specialized STPMS2 chip
+manufactured by STM.
+skills projects
+software
+ September 2022 - In progress
+VS Code, Google Collaboratory,
+[compaany], [location]
+Research and academic activities: data analyst / DL Engineer
+Jupyter Notebook,
+[compaany], [location]
+Altium Designer, Mathcad,
+MathLAB, Solidworks, LabView "Eye-tracking through web-camera and computer vision"
+-
+ Implemented a pipeline for gaze estimation based on deep learning
+programming languages
+Python, C, C++, SQL
+with angular error of 1.45 degrees and 45 px, respectively.
+DS libraries and frameworks
+"Predicting the probability of strong winds"
+numpy, pandas, scikit-learn,
+-
+ Performed data exploration analysis within the project that predicts
+the probability of occurrence of extreme winds for [location]
+using the data from its weather stations.
+matplotlib, seaborn, OpenCV,
+PyTorch, ray tune
+additional
+LaTex, Notion, ssh, git, Xcode,
+"Stacking Neural Optimal Transport" (Best project of ML 2023 course)
+-
+ Checked hypothesis in the team of research-developers that neural
+optimal transport in stacking-like manner using FID-metric
+does not give statistically significant result.
+"Image to LaTeX"
+-
+ Performed preprocessing and augmentation of I2L-140K dataset
+for solving problem of Image-to-Text translation using ViT
+architecture.
+knowledge "MSD ADA"
+-
+ Preprocessed FordA, Chinatown, and Wine datasets for concealed
+of languages adversarial attacks on time series models. Implemented FGSM and
+IFGSM attacks in PyTorch, experimenting with various
+hyperparameters on pair TimesNet model - TimesNet discriminator.
+Russian
+ native
+English advanced (C1)
+Italian beginner (A1)
+"ViTyaQua"
+competent speech and writing, -
+Conducted experiments with dynamic and static quantization
+free reading of technical documentation
+techniques in PyTorch for compressing ViT models. Achieved
+optimal compression using dynamic quantization, reducing model
+size by nearly four times while maintaining 62% accuracy.
+contacts publications
++2 *** *** ***
+ Accepted
+[email]
+ IEEE International Instrumentation and Measurement Technology
+https://t.me/notawhalel
+ Conference (I2MTC) (2025)
+https://github.com/[name] [surname]
+Nikita [surname], Nicola Conci, Roberto Passerone
+and Andrey Somov;
+“Real-time Appearance-based Gaze Estimation via Web-Camera”
+Submitted
+IEEE Transactions on Instrumentation and Measurement (Q1)
+Nikita [surname], Nicola Conci, Roberto Passerone
+and Andrey Somov;
+“MultiNet: Leveraging Face-to-camera Distance for Real-time
+Gaze Estimation”
+© 2025 [name] [surname]
+All rights Reserved

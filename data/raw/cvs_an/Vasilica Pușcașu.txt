@@ -1,0 +1,20 @@
+Web Developer
+ Full Name: [name] [surname]
+ Date of birth: 20.06.2005
+ Contact phone: +2 *** *** ***
+ E-mail: [email]
+ Telegram: [name]
+Education
+ Universiity: [company]
+ Faculty: Faculty of Computer Science
+ Educational Program: Software Engineering
+Experience
+ Projects: Website for [company], [company] (Summer school in [location]), Telegram bot written on C#
+ Achievements: Summer school for students on cloud and mobile technologies ([company]), gold medal at school.
+Skills
+ Programming languages: C++, Python, C#, Java, HTML, CSS, JavaScript.
+ Hard Skills: English (B2+), libraries (numpy, sympy, pandas, sklearn matplotlib), data structures, basic algorithms, data bases ([location]), calculus, linear algebra, Probability theory and mathematical statistics, Git, Bash, LaTeX, ability to write documentation, React, Swagger (C#), XUnit (C#).
+ GitHub: [name]-[surname][number]
+
+
+

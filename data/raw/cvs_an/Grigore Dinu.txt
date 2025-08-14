@@ -1,0 +1,45 @@
+Last updated on December 20, 2024
+[name]
+§ github.com/[name] (cid:239) linkedin.com/in/[name] #[email]
+Education
+Higher Schoool of Economics June 2023
+B.S. Theoretical & Applied Linguistics with a major in Neurolinguistics and Neuroscience GPA: 7.87/10.0
+Higher Schoool of Economics June 2025
+M.S. Computational Linguistics | Top 5% of the program Current GPA: 8.92/10.0
+Coursework
+Notable courses: Theoretical Linguistics, Tensor computaions, Topological data analysis, Algorithmic
+optimization, ML/DL, NLP, Neurolinguistics and Neuroimaging, Stochastic processes
+Skills
+Languages: Python, R, SQL, Bash, LATEX
+Stack: Pytorch, Scikit-learn, NLP, Docker, Linux administration, Pandas, Numpy, Git, Redis, MySQL, MongoDB
+Research interests
+Continual and meta-learning, AI alignment, Structural similarities in neural systems, Stochastic algorithms,
+Evolutionary optimization, Optimization on manifolds, Differential geometry and applications
+Experience
+Model risk department, Sberbank | Data scientist July, 2024 – Present
+Validated various NLP and CV models
+Engaged in research project on estimates for dataset and benchmark difficulty
+Engaged in research project for data leakage detection
+Proposed several improvements for code generation models
+Clifford algebra research group, HSE | Research Intern Spring, 2024 – Fall 2024
+HSE | Teaching Assistant September 2022 – April 2023
+Laboratory of Linguistic Conflictology, HSE | Research Intern September, 2021 – Winter 2025
+Social network analysis, web-crawling
+Deep learning for toxicity detection
+Additional Education
+SMILES-2024 | Summer Schoool in Machine Learning August 2024
+Award for the best project: "Extreme optimal transport for voice conversion"
+Deep Learning Schoool Auutmn 2023
+Summer Schoool in Bioinformatics August 2023
+Virtual-NYI-3 | Summer Schoool in Linguistics, Cognitive and Cultural Studies July 2021
+Papers
+The more polypersonal the better - a short look on space geometry of fine-tuned layers |
+International Conference on Neuroinformatics, Springer 2024
+Shrink the longest: improving latent space isotropy with symplicial geometry |
+AIST, LNCS, Springer 2024
+Languages
+English | C1 – near native
+Finnish | B2 – mostly reading
+Talks
+Probing and neighborhood: explanation of language models |
+Workshop, Конкорт-2024 (Concort-2024), [location]

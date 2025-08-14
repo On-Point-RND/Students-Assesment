@@ -1,0 +1,41 @@
+[name] [surname]
++2 *** *** ***
+Portfolio:MathtoData.com
+[location] githuub.com/[name]
+DataScientist/ResearchIntern
+[email] linkedin.com/in/
+EDUCATION
+HigherSchoolofEconomics([location])
+AppliedMathematicsandInformatics
+2022-2026 GPA:8.48,Percentiile:13.74%
+RelevantCourses:LinearAlgebra(9),MathematicalAnalysis(9),AlgorithmsandDataStructures(10),DiscreteMathematics(8),Python(8),C++(9)
+TECHNICALEXPERIENCE
+Intern-DataAnalyst
+InvestmentHolding[location] Summer2023
+• StudiedandimplementedConditionalValueatRisk(CVaR)calculationmethods.
+• OptimizedCVaRcomputationforreal-worldfinancialdata.
+• Developedactivationcriteriaforinvestorprotectionsystems.
+ResearchProject:StochasticAlgorithmsforOperatorNormEstimation June2024-Present
+• Developingstochasticalgorithmsforestimatingmatrixoperatormorms.
+• Analyzingconvergencepropertiesandcomputationalefficiencyofproposedmethods.
+• ImplementingalgorithmsinPythonandtestingonlarge-scalematrices.
+CourseProject:NeuralNetworksinC++ Spring2024
+• Studiedgradientdescentandbackpropagationprinciples.
+• DevelopedaC++libraryforcreatingandtrainingfullyconnectedneuralnetworks.
+• TrainedmodelsonMNISTandsinewavedata.
+Project:ImageProcessorinC++ Spring2023
+• Implementedimageprocessingtoolwithvariousfilters.
+• Designedacommand-lineinterfaceforuserinteraction.
+Project:TelegramBotinPython December2023
+• DevelopedabotintegratingwithTo-doistAPIfortaskmanagement.
+SKILLS
+• Programming:Python,C,C++,Assembly
+• SoftSkills:Teamwork,Determination,Punctuality,Responsibility
+ACHIEVEMENTS
+• PhysicsandTechnologyOlympiad(2022)-Mathematics,PrizeWinner
+• KurchatovOlympiad(2022)-Mathematics,PrizeWinner
+REFERENCES
+[name] [surname] @[name]Trushin
+AssociateProfessor,PhDinMathematics
+[name] [surname] @[name]krasovitsky
+MathematicalandFunctionalAnalysisLecturer

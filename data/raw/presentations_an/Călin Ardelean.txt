@@ -1,0 +1,45 @@
+A P P L I C A T I O N F O R
+SMILES-2025
+SUMMER SCHOOL
+[name]
+ABOUT ME
+Final-year student, [name]
+Specializing in Technology & Information Systems in
+Economics
+Interned at [compaany] as ML Engineer
+Currently an AI Instructor at [compaany]
+Passionate about buildiing things that make peoople's lives
+better through AI
+THE IDEA
+Problem: Many HR departments struggle with inefficiency,
+lack of data insights, and high turnover rates.
+My Goal: Build a complete AI-powered HR system that’s both
+intelligent and practical.
+MY PROJECT
+WHAT IT DOES:
+Includes intuitive
+Predicts employee Helps HR make data- Visualizes trends,
+interface (Python-
+turnover driven decisions risks, and hiring needs
+based backend)
+WHY IT MATTERS
+Helps businesses retain talent
+Saves time on routine HR tasks
+Makes AI approachable for HR managers
+Adaptable for startups or enterprises
+WHY SMILES?
+I’m ready to grow — technically and personally
+I want to collaborate with bright minds
+I believe SMILES can help me polish this project into
+something impactful and scalable
+My goal: continue developing this system and eventually
+launch it as a real product
+“This is a new year. A new begiinning. And
+things will change.” — [name]
+Let’s build something meaningful together.
+[email]
+T H A N K
+Y O U
+
+
+

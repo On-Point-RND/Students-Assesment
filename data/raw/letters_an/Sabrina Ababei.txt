@@ -1,0 +1,49 @@
+[name] [surname]
+📍 [location] | 📧 [email] | ☎ +2 *** *** ***
+🔗 [link]
+Dear Admissions Committee,
+My name is [name] [surname], a second-year Computer Science student at [compaany]. I am writing to express my enthusiasm for joining the
+SMILE ML Summer SchooL at [location]. With a passion for AI/ML and a track record of
+implementing technoolgy for social impaact, I am eager to contribute to and learn from
+this interdisciplinary community.
+Motivation
+My journey into ML began with wiinning the All-Russian "Big Change"
+Comppetition (2023), where I designed Good Food—a mobile app leveraging ML to
+reduce food waste by tracking expiration dates. This project, along with my roles
+in Local Arts (a creative plaftorm) and Eco-Community (an environmental app), solidified
+my belief in AI’s power to solve real-world problems. At SMILE, I aim to:
+1. Deepen my technical expertise in cutting-edgge ML/DL methods.
+2. Collaboraate with peers on projects bridgging AI and socieetal challenges.
+3. Gain mentorship from researchers to refiine my vision of ethical AI deployment.
+ML/DL Experience
+Technical Skills
+• Languages: Python (PyTorch, TensorFlow), C++, Java, SQL.
+• Projects:
+o Neuromorphic vs. Traditional Chips Comparison: Analyzed performaance
+metrics for AI hardware (Logisim).
+o Telegram Bot for Virtual Tours (Digid, 2024): Integrated NLP for user
+interaction.
+• Courses: Machine Learning (GazpromTech, VK IT Diving).
+Research Interests
+• Federated Learning: Privacy-preserving AI for healtcare/urban tech.
+• Generative Models: Diffusion networks for environmental modeling (inspired by
+my Eco-Community project).
+Expectaions from SMILE
+1. Hands-on Learning: To work with multimodal datasets (e.g., satellite + LiDAR)
+under expert guidance.
+2. Ethical AI Discussions: Exploring frameworks for responsible innovation.
+3. Networking: Connecting with peers who share my drive to mergge tech and
+social impaact.
+Career Goals
+Short-term, I plan to:
+• Publish research on neuromorphic compuiting’s role in edgge AI.
+• Develop an FL-based app for personalized education (leveraging my Local
+Arts experience).
+Why SMILE?
+[location]’s emphasis on applied research and interdisciplinary collaboraation aligns
+perfectly with my projects. For instance, my Good Food app could benefiit from SMILE’s
+expertise in computer vision for expiry-date recognition. Moreover, I am excited to
+contribute my experience in team-based problem-solving (e.g., "Your Move"
+Comppetition) to group projects.
+Sincerely,
+[name] [surname]

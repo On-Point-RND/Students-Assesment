@@ -1,0 +1,14 @@
+motivation
+[name] [surname]
+June 2025
+I came to the very significant understanding that knowledge is the best currency. It can give way to all types of opportunity — be it professional development, scientific breakthrough, or enriching interactions with other idea leaders. I nurtured my interest in computer science, particularly in machine learning and discrete optimization, in high school. I began on my own initiative, and it evolved into a lifelong interest in research.
+The last few years were very dynamic and diverse for me. I gained practical experience in developing industrial software, being a backend developer at [compaany] and [compaany]. Then, I switched to learning AI and optimization. My studies at the [compaany] School of Data Analysis (YSDA) were a milestone — there I gained a good grasp of algorithms, statistics, and machine learning. I also take an active role in research conferences and tutorial schools.
+In 2023, I made a poster at [compaany] Optimization School, where I discussed speeding up SAT solvers with the help of AI algorithms. The work was accepted for the ECAI conference. During the same year, I attended [compaany]’s reproducibility in ML research camp — our group successfully reproduced LION, a novel Google optimizer. It was a worthwhile experience, both in learning up-to-date techniques and encountering talented researchers I still stay in contact with.
+In 2024, I joined the [compaany] school at [location] and was working on a research project on Neural ODEs. Such accidents have contributed more to my knowledge of ML and given a good foundation for future research projects. Currently, I collaborate with some of the individuals whom I had met from such schools, and I provide educational workshops for undergraduate students. Currently, I am developing a new recommendation model at [compaany] based on the Mixture of Experts paradigm. I would be delighted to share this experience at the poster session, discuss how we did it, and receive some valuable feedback from successful researchers.
+I’m so motivated by next school staff. I would be wonderful to discuss in person with:
+[name], whose lectures on optimizing ML architectures and model acceleration (from NAS and BO to techniques like quantization and pruning) are of great interest to me;
+[name], an expert in topological data analysis;
+Professor [surname] from [location] Institute of Technology;
+Professor [surname], whose work on theoretical computer science and big data I’ve been following for some time.
+The fact that school will be conducted in [location] makes it all the more special — it’s an opportunity to have a chance at experiencing academic English practice and being exposed to an international research setting.
+For me, this school is a special opportunity to engage with teachers and other participants, share ideas and experiences, and perhaps set the stage for future research collaborations.

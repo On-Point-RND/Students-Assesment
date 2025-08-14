@@ -1,0 +1,44 @@
+Software for determining the
+leukocyte formula of fish
+blood based on CNN model
+[name]
+Student, [compaany]
+Introduction
+Blood analysis provides a rapid and effective way to assess fish health in aquaculture.
+However, traditional methods, such as manual leukocyte counting, are time-consuming, labor-intensive, and
+require highly trained specialists.
+The key challenge is automating fish leukocyte counting, which is currently done manually on microscopic
+images.
+To solve this, I propose a software tool based on CNN.
+Problem statement
+• I needed to build computer vision model that could classify and detect
+cells in microscopic images. After this I should count all predicted cells
+• At first I had to learn how find data
+• Extract data from PASCAL VOC markup.
+• After this I find and train a CV model
+Methods
+• Approach: PyTorch, Torchvision, xml, tkinter
+• Tried ObjectDetection API (out of date), Tensorflow+Keras (don’t work with GPU).
+• I transfer Pascal VOC data to tensors.
+• Augment data to increase train data.
+• Reduce the images size so it fits on the local computer
+• For training I use FastRCNN model from torchvision library.
+• For inference, I load the models and launch the GUI with a choice of photo and fish species.
+Results
+• Key findings: train model for F1=0.7, MAP=0.5.
+• Metrics used: F1 was chosen because in this problem it is more important, we need both precision and
+recall to estimate the overall ratio of cells.
+• MAP is needed to accurately identify the cell in the image so that the veterinarian does not get
+confused.
+• The pipeline is done, but still need more work.
+Research gap
+• There is a lack of well-labeled data, assessors often make mistakes.
+• Need to work on a more powerful machine to handle higher resolution data.
+• Try to improve the augmentation, add changes that occur due to microscopes or due to the blood
+solution.
+• There are a lot of red blood cells, so there is a strong imbalance of classes. I can add weights for the
+classes.
+• Also can try other model architectures like YOLO.
+Links
+Github repo: https://github.com/[name]/Blood-object-detection-torch
+tg: https://t.me/[name]

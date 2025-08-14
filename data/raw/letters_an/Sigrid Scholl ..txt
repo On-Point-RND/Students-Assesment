@@ -1,0 +1,42 @@
+Throughout my career, begiinnin in my senior years at [location] university, I have focused
+on the mathematical modeling of various processes. As an undergraduaate, I
+modeled the warming processes of frozen soil, numerically solving systems of
+differential equations using Pascal and C++.
+Later, startiing to work in the oil and gas industry, I shifted to modeling
+hydrodynamic processes in reservoirs with commercial simulators like [compaany],
+tNavigator, and [compaany]. My work involved data analysis, history matching, production
+forecasting and optimization of oil and gas production. I’d like to emphasize that buildiing
+high-quality 3D reservoir models is exceptionally challenging due to scarce data and
+significant uncertainties.
+Since 2018, I’ve specialized in integrated asset modeling of the “reservoir-wells-
+surface facility” system. This approach treats the production system as a single
+organism, requiring holistic optimization. My models have delivered tangible value for
+the [compaany], such as increasing oil production through gas-lift optimization
+and reducing capital expenditures for gas gathering system upgrades.
+However, detailed models have inherent limitations—their complexity makes them
+impractical for rapid decision-making (e.g., in Digital Oil Field applications). This
+realization drove me to explore simpler models and eventually develop my own tools.
+My contributions include:
+• A C++ simulator for 1D/2D multiphase fluid flow in reservoirs (incorporating
+microbubbles);
+• A Python-based simulator for multiphase fluid flow in “reservoir-wells-surface
+facility” systems using multidimensional tables;
+• An algorithm implemented in Python for model interaction
+(reservoir/wells/gathering system) based on decomposition method;
+• A number of other algorithms to speed up the processes of integrated asset
+modeling.
+Since 2020, I’ve actively studied machine learning through [compaany]
+courses, [compaany] courses, and open-source platforms, competed in hackathoons (e.g., [compaany]
+[winner], [name], [name]). I’m particularly passionate about industrial ML applications,
+both in oil/gas and beyond.
+Currrently, I’m completing my PhD thesis: “ImprImproving the Efficiency of Gas
+Condensatate Field Development Using Integrated Asset Modeling”. My research is
+devoleted to the development of models of various detail (incluiding classical and data-
+driven) for optimizing gas condensate field development. Also I’m going to explore multi-
+agent systems (MAS) for integrated asset modeling support. In this framework, each
+component (reservoir, wells, gathering system) acts as an autonomous agent. I hope,
+that combining my decomposition method with LLLMs and optimization agents could
+enable faster, more adaptive field development solutions.
+The main motivation for participating in [compaany] for me is to deepen my knowledge
+in MAS and cutting-edgge ML techniques, collaboraate with like-minded professionals,
+and refiine my skills to advance my career.

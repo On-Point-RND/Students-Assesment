@@ -1,0 +1,84 @@
+Review of a few articles for summer school of machine learning 2025
+prepared by [name]
+chosen articles:
+★ [name] [surname] et al., Neural ODE processes (ICLR 2021)
+★ [name] [surname] et al., Flow matching for generative modeling (ICLR 2022)
+★ [name] [surname] et al., InstaFlow: One step is enough for high-quality diffusion-based text-to-image generation (ICLR 2024)
+Neural ODE processes, ICLR-2021
+[name] [surname] [surname], [name] [surname], and [name] [surname]
+problem statement
+There are two limitations:
+1. Neural ODEs are deterministic — they can’t quantify uncertainty in their predictions. They’re
+also static; once trained, they can’t adapt to new data streams.
+2. Neural Processes handle uncertainty but treat time as a passive index — they lack explicit
+dynamical modeling.
+NDPs address both: they model stochastic dynamics that evolve continuously in time while
+conditioning on observed data. The goal is to handle tasks like predicting sparse, noisy time-series
+with time-consistent uncertainty.
+Neural ODE processes, ICLR-2021
+method overview
+Neural ODE processes, ICLR-2021
+what makes NDP stand out?
+Latent ODE Modulation: By conditioning the ODE on z, NDPs induce a distribution over trajectories
+— critical for multi-modal predictions.
+Time-Consistent Uncertainty: Unlike NPs, which use a static latent, NDPs propagate uncertainty
+through the ODE solution. This is similar to Bayesian filtering in continuous time.
+Causality: The latent z updates as new data arrives, enabling real-time adaptation without violating
+temporal dependencies.
+Neural ODE processes, ICLR-2021
+reults: 1D regression and predator-prey dynamics
+Neural ODE processes, ICLR-2021
+reults: rotating MNIST
+Neural ODE processes, ICLR-2021
+challenges remaine
+★ computational cost: sampling latent variables adds overhead.
+★ stability: still untested on chaotic systems like turbulent flows.
+conclusion
+NDPs open several avenues: integrating
+physics-based constraints or extending to
+discontinuous dynamics with Jump ODEs
+Neural ODE processes, ICLR-2021
+Flow matching for generative modeling, ICLR-2022
+[name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]
+problem statement
+1. Diffusion models use suboptimal probability path, that requires more sampling steps and
+longer training
+2. Continuous Normalizing Flows (CNFs) can model arbitrary paths but lack scalable training
+methods; existing approaches require costly simulations, involve intractable integrals, or use
+biased gradients.
+3. How can we train general CNFs efficiently and scalably, leveraging more flexible probability
+paths than standard diffusion?
+Flow matching for generative modeling, ICLR-2022
+Preliminaries: Continuous Normalizing Flows
+Flow matching for generative modeling, ICLR-2022
+Method: Intractable Flow-Matching Loss
+Flow matching for generative modeling, ICLR-2022
+Method: Tractable Conditional Flow-Matching Loss
+Flow matching for generative modeling, ICLR-2022
+Method: Optimal Transport Paths (Rectified Flow in future works)
+★ Flow-Matching allows for selection of any map, beyond diffusion
+Flow matching for generative modeling, ICLR-2022
+Method: Benefits of Optimal Transport approach:
+★ Conditional Field can be easily computed ⇒ Loss easily tractable!
+★ Trajectories more straight:
+○ Faster training
+○ Needs less sampling steps
+Flow matching for generative modeling, ICLR-2022
+Results: Trajectories become more straight ⇒ Faster convergence
+Flow matching for generative modeling, ICLR-2022
+Results: Metrics
+Flow matching for generative modeling, ICLR-2022
+InstaFlow: One step is enough for high-quality
+diffusion-based text-to-image generation, ICLR-2024
+[name] [surname], [name] [surname], [name] [surname], and [name] [surname]
+Problem Statement
+1. Diffusion-based text-to-image models require too many steps, limiting real-time use.
+2. Knowledge distillation often fails to preserve quality in one-step models, leading to blurry or
+unusable results
+InstaFlow, ICLR-2024
+Method: Training Rectified Flow Model from Stable Diffusion
+InstaFlow, ICLR-2024
+Method: Distilling Rectified Flow for One-Step Generation
+InstaFlow, ICLR-2024
+Results
+InstaFlow, ICLR-2024

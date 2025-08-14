@@ -1,0 +1,72 @@
+[name] [surname]
+https://github.com/[name][surname]/mup_multimodal
+
+Objective: To investigate how the MUP and muptransfer improve the stability and learning efficiency of multimodal models.
+
+Multimodal and AI: a new word in neural networks
+
+Breaking down barriers: Scalability as a response to growing demands
+
+Infinite Width is the Key to Powerful AI!
+
+NNGP & ntk
+
+Beyond NTK and GPNN: MKUP opens the way to truly powerful neural networks!
+
+The main aspects of the initialization of the MUP:
+Stability of hyperparameters:MUP ensures the stability of hyperparameters when the size of the neural network changes, which avoids problems with explosion or disappearance of gradients.
+Scaling the scales:Weights are initialized taking into account their effect on activaations, which avoids instability when training large models.
+Layer Control: MUP introduces additional hyperparameters that allow for more precise scaling of various network components, such as activaations and learning rates at the layer level.
+Application in large models: MKP is especially useful for training large and complex architectures where traditional initialization methods can lead to problems.
+
+MUPTRANSFER: A Revolution in Hyperparameter Tuning for Scalable Neural Networks!
+
+The researchers conducted an experiment in which they configured a proxy model with 40 million parameters and transferred the best hyperparameters to the GPT-3 version with a size of 6.7 B (168 times larger). The result showed that the improved version of GPT-3 with the help of MupTransfer surpasses the original version of the same size in all tasks.
+
+mup for Multimodal Neural Networks: Discovering Synergy
+
+First, MUP can solve several key problems for multimodal neural networks.First, it improves the compaatibility of different data types, allowing models to efficieently process and integrate information from different sources.
+ Secondly, MUP optimizes learning by reducing computing costs and time, which is especially important when working with large amounts of data.
+
+Problems of Maximal Update Parametrization for multimodal architectures
+
+Hetereogeneity of architecural components
+
+Problem: Multimodal networks combiine different types of layers (text transformers, CNN for images, RNN for audio), which may require individual zoom rules. Example: The optimal learning rate for a transformer can cause instability in a CNN.
+Solution: Custom scaling rules for each layer type
+
+The imbalance of gradients between the modalities
+
+Problem: Gradients of text modules often dominate due to their high variability, suppressing the learning of visual/audio modules. 
+Example: In CLIP, the gradients of the text encoder are 3-5 times larger than those of the visual encoder. 
+Solution: Normalization of gradients by modalities:
+
+Diffiiculties with cross-modal mechanisms
+
+The problem: The mechanisms of attention between the modalities (for example, in Flamingo) are sensitive to the scale of the parameters. 
+Example: Incorrect scaling of query/key matrices in cross-attenuation breaks the balance.
+ Solution: Separate parameterization for attention weights:
+
+Testing the ideas of cross modal generation (VIT+GPT2)The convergence of the muP model starts lower and converges faster, while the model without the muP does not reach convergence yet, at the moment when the muP has reached, therefore the muP improves convergence
+
+The task of multimodal classification (text, image -> boolean)	
+
+Taken model ubiquitously-Apostille 
+1. Trained model 1 on 3 epochs-133 iterations of epochs - 128 batch_size (experiment_raw) 
+2. trained model 2 with muP (simple parameterization - the only difference from the first-floor models) 
+3. trained model bigger (3a and 3b ) by analogy with point 1 and 2 (aposematic_3 aposematic, aposematic_3 aposematic) 
+4. The trained model is a muP + muPtransfer based on models 1 (it is without a muP) (experiment_4a) and 2(it is with a muP) (experiment_4b)
+
+In the course of the work, a series of experiments were conducted aimed at investigating the effect of m-parameterization (muP) and model scaling on the effectiveness of multimodal classification.The following metrics were used to evaluate the quality of the model: F1-score, Precision, Recall, Accuracy and AUROC.
+
+Interpretation- The use of mu-parameterization (muP) in the basic architecture ('raw_mup') provided the most balanced quality: improved F1-score (+13%) and Recall (+6%) compared to the model without the muP (`raw`), with a slight decrease in AUROC.
+
+I also received a grant from Yandex Cloud for further research.
+"1. The task: Imagecaption matching Multimodal classification  VQA
+2. Uploading Datasetsflick30k, vqa/ vqav2, hateful memes 
+3. Models: CLIP/ Multilang CLIPLXMERT, ViLTVisualBERT 
+4. Experiments 
+mup Improving the stability of learning as the model width increases, checking for proper initialization
+muP transfer Transferring hyperparameters from a small model to a large model of additional training increasing the width without compromising the quality of gradients
+
+MUP and MuPTransfer have huge potential to improve the performaance and scalability of multimodal neural networks .However, their successful application requires further research in the field of adaptiing methods to the specifics of multimodality, optimizing computing resources, and developing univeersal techniques. These studies not onlly improve exisiting models, but also open up new possibilities for solving complex problems in various applied fields.

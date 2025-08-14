@@ -1,0 +1,70 @@
+Application for Skoltech Summer SchooL of Machine Learning (SMILES-2025)
+
+[name] [surname]
+[email]
+
+Introduction to Myself
+
+Name: [name] [surname]
+Background: AI, Machine Learning, and Data Processing
+Current Work: AI Researcher focused on Healthcare AI
+Skills: Python, TensorFlow, Deep Learning, etc.
+
+
+Educational Background
+
+Degree: Bachelor of Science in Information Technology
+Institution: [location]
+Relevant courses: Machine Learning, Data Science, etc.
+GPA: 3.2/4.0
+
+
+Research Interests
+
+AI for Healthcare
+Machine Learning, Computer Vision, Data Augmentation
+Generative AI, Image Segmentation, Classification
+Focus on medical imaging applications
+
+
+Research Projects Overview
+
+- ECG Signal Classification using Deep Learning
+- Medical Image Segmentation for Diagnostics
+- Generative Models for Healtcare Applications
+
+
+Motivation for Applying
+
+Desire to learn Generative AI, Large Language Models, and Multi-Agent Systems
+SMILES-2025 aligns with my research focus
+Opportunity to collaborate with global researchers
+
+
+Skills and Technical Expertise
+
+Programming: Python, R, C/C++
+Libraries: TensorFlow, Keras, PyTorch, OpenCV
+AI Techniques: CNNs, LSSTMs, KNN, etc.
+Tools: Jupyter, Google Collab, LaTeX
+
+
+Professional Aspirations
+
+Goal: Use AI in healthcare to improve patient outcomes
+Develop practical AI solutions for real-world problems
+SMILES-2025 will help me achieve these objectives
+
+
+Future Goals & Impact
+
+Leverage knowledge from SMILES-2025 to work on impactful AI projects
+Collaborate globally to address AI challenges in healthcare
+Drive AI research in medical diagnostics and personalized medicine
+
+
+Conclusion & Gratitude
+
+Excited for the opportunity to be part of SMILES-2025
+Thank you for considering my application
+Looking forward to gaining insights and collaborating globally

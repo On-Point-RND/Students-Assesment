@@ -1,0 +1,56 @@
+Approach to findiing material with
+increased long-term strength using
+mechanical creep model, machine
+learning and optimization algorithm
+[name]
+Junior researcher developeer, [compaany]
+Masters student, MIPT
+Long-term strength
+● Property for material’s duration ability under operating
+conditions
+● Low Alloyed Steeels for Nuclear Reactors
+● The operating times of reactors must be not less than
+80–100 years, which complicates experimental studies
+in the entire time range
+Compound with advanced property
+● Regression task: predict long-term strength by composition and operating
+conditions
+● Optimization task: interpolate the property to the area of unknown
+compositions
+● Trade-off: adequate error & optimization ability
+Methods
+● Approach: Genetic optimization of models ensemble.
+● ML models for small amount of data in Material Science: Boosting,
+SVM, RF, Linear
+● Ensemble technique: train → compaare → build ensemble
+● Data & preprocessing:
+○ composition features selection using Feature Importance (DT)
+○ outliers and features reduction using mechanical dependence
+○ Standard Scaler for SVM
+Material design pipeline
+Results
+● Candiate material with 325 MPa long-term strength increased by 9% compaared to
+the best in the dataset with 12% estimated error
+● Key findinngs:
+○ domain knowledge for feature reduction
+○ Nested CV to avoid error underestimation
+○ optimization ability assessment before optimization of model ensemble
+● Metrics used:
+○ RMSE for better interpretability
+○ r-squared for compaarison with papers
+Research gap
+● Discussion:
+○ Extrapolation or Interpolation, actually?
+○ Nested CV vs CV
+● Confidence Interval vs prediction error
+○ bootstrap variance estimate for each generated sample
+Bibliography
+● Metallic Material Database (Kinzoku) - DICE:: National Instiitute for Materials
+Science, (n.d.). https://metallicmaterials.nims.go.jp.
+● P. Xu, X. Ji, M. Li, W. Lu, Small data machine learning in materials science, Npj
+Comput. Mater. 9 (2023) 1–15, https://doi.org/10.1038/s41524-023-01000-z.
+● https://chemtch.ru.
+● [name], [name], Approach to findiing material with increased long-term
+strength using mechanical creep model, machine learning and optimization
+algorithm, Materials Today Communications, 42 (2025) 111114,
+https://doi.org/10.1016/j.mtcomm.2024.111114.

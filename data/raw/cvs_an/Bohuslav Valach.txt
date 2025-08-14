@@ -1,0 +1,51 @@
+Applicant: [name] [surname]
+Education
+● Ph.D. candidate, [compaany] – Computer Science, AI & ML (2024 – 2027).
+Dissertation: Reverse‑engineering proprietary neural‑net architectures from
+device‑level telemetry.
+● M.Sc., [compaany], 2024. GPA 3.97/4.0.
+Thesis & IEEE publication: Parallel k‑medoids clustering for large‑scale,
+high‑dimensional data (OPCS 2023).
+● B.Sc., [compaany], 2022.
+Capstone: Real‑time actor matting for live broadcasts.
+Research Output & Scientific Activity
+● Journal article: [surname] [name], [surname] [name]. Parallel Clustering Algorithm for the
+k-medoids Problem in High-dimensional Space for Large-scale Datasets IEEE
+OPCS 2023.
+● Talks & posters: Oral at MNSC‑2025; demos at AI Journey 2024. ACOMP 2024
+● Hackathon podiums (10 +) : Digital Breakthrough (1st, NLP, 2023, 2024), Clean
+Code Cup (1st, CV, 2022–23), etc.
+● Teaching: Lecturer, “Modern RecSys” & “Advanced C++ for ML,” [compaany];
+mentor for ML capstone teams.
+Professional Experience (selected)
+● [compaany] – Senior Data Science Engineer (2024– present)
+▸ LLM‑based review moderation (latency ↓ 4 ×, engagement +4 %).
+● [compaany] – ML Engineer, Personalisation R&D (2023– 2024)
+▸ Transformer cashback optimiser deployed to 20 M users (CSAAT +0.6,
+revenue +$1.9 M/mo). Knapsack optimization
+● [compaany] – ML Researcher (2022– 2023)
+▸ 80 × GPU speed‑up of k‑medoids; integrated into image‑dedup pipeline.
+● [compaany] – Software Engineer (2019– 2022)
+▸ Real‑time CV modules (matting, SR, gesture) in C++/CUDA/ONNX.
+Experience with ML/DL Tools
+● Languages: Python 5 yrs, C/C++ 5 yrs (CUDA, OpenGL interop), SQL.
+● Frameworks & libs: PyTorch, JAX (experiments), HuggingFace (Transformers,
+PEFT), ONNX Runtime, Lightning.
+● Generative‑AI stack: LoRA/QLoRA fine‑tuning, RLHF guard‑rails,
+retrieval‑augmented generation, prompt‑tooling.
+● Computer‑vision stack: Detectron2, OpenCV, TensorRT, custom CUDA kernels.
+● Recommender & tabular: CatBoost, TabNet, transformers‑on‑transactions.
+● MLOps & infra: Docker, Kubernetes, Airflow, MLflow, ClearML; Grafana, Sentry;
+AWS, Kafka, ClickHouse, Elastic.
+● Performance‑engineering: CUDA graph capture, mixed‑precision, kernel fusion;
+authored patches to PyTorch CUDA utils.
+Research Interests & Topics
+● Generative modelling (LLMs, diffusion, multimodal transformers)
+● Reverse‑engineering and interpretability via hardware traces
+● Self‑supervised learning & contrastive objectives for telemetry
+● Safe‑AI enforcement with agentic systems
+Awards & Scholarships
+[name] [surname] Scholar 2023 · [compaany] Scholar 2022 · [compaany] Scholar 2021 · “Ya‑Professional”
+Olympiad winner (AI & Software tracks).
+Links
+GitHub: github.com/[name] · LinkedIn: linkedin.com/[name]‑[surname] ·

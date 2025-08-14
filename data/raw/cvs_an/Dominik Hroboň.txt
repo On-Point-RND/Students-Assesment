@@ -1,0 +1,52 @@
+[name] [surname]
+contacts languages
+phone: +2 *** *** ***
+ ✓ Russian - Native proficiency
+e-mail: [email]
+ ✓ English - Fluent (C1)
+tg: @[name]
+ ✓ Chinese - Intermediate (HSK 2)
+githab: [name] ✓ German - Basic (A2)
+education skills
+[company]
+ Python
+Department of Information and Communication
+Technologies, Mathematics, and Information C++
+Security
+HTML CSS
+Intelligent Systems in the Humanities
+2022-2026 Docker, Github
+Current Position: Intern at the Center for
+Cognitive Modeling ([compaany])
+competencies
+Experience with Pandas, NumPy, scikit-learn, PyTorch, TensorFlow, and Transformer 
+Strong knowledge of machine learning algorithms and their practical application 
+Natural Language Processing (NLP): text preprocessing, feature extraction, and model
+training 
+Solid foundation in probability theory, linear algebra, and mathematical statistic 
+Experience in academic writing (research papers, technical publications 
+Strong public speaking and presentation skills
+projects
+Travel Guide App for [location] ([compaany], Android Studio, and Python). Featured
+interactive maps and tourist attraction information 
+Tourist Assistant Chatbot for Foreign Visitors ([compaany], Python 
+Movie Recommendation System ([compaany], tqdm, Python 
+Customer Churn Prediction Model (time series, CatBoost, Python) Developed time
+series analysis solution with CatBoost in Python. Analyzed CRM system data to
+predict client attrition 
+Simpsons Character Recognition Model (CV 
+Current Project: Neural Network Model for Swarm Robotics. Developing LLM-based
+centralized control system
+achievements
+Prize winner at the regional hackathon "Digital Breakthrough: Artificial Intelligence
+Season" (2024) for solving a case from [location] ( [company] 
+Speaker at the 6th All-Russian Scientific-Practical Conference "Socio-Technical and
+Humanitarian Aspects of Information Security" (April 2025 
+Laureate of the "Innovative Potential of University Youth" competition in the "Information
+Technologies" category 
+Winner of the 7th International Educational Video Contest "Mathematics and Physics in
+Focus 
+Successfully completed the Middle level of the "AI-ARROW" online intensive on Artificial
+Intelligence with special recognition 
+Participant in the "Entrepreneurship Across Cultures and Continents" hackathon (May
+20-24, 2024)

@@ -1,0 +1,25 @@
+Subject: Application for SMILES-2025 Summer School
+Dear [name],
+I am excited to apply for the SMILES-2025 Summer School at [location], a unique opportunity to deepen my expertise in generative AI and collaborate with talented researchers. As a third-year bachelor’s student at [name] and an intern researcher at [compaany], I am eager to contribute to and learn from this intensive program, particularly in areas like large language models (LLMs), multimodal systems, and safe AI—topics that align closely with my interests.
+Motivation
+Generative AI is transforming industries, from hyperspectral imaging (a focus of my work at [compaany]) to multilingual NLP. However, mastering its advanced applications requires cutting-edge training and cross-disciplinary collaboration. SMILES-2025 stands out for its:
+1. Practical focus: Hands-on workshops and hackathons will bridge my theoretical knowledge with real-world challenges.
+2. International network: Collaborating with [location] peers aligns with my interest in [location] language and culture (I speak [location] at A2-B1 level) and my goal to work on global AI solutions.
+3. Emerging themes: My projects in CV (ViTs, GANs) and NLP (QLoRA fine-tuning) have sparked curiosity about multimodal agents and self-supervised learning—areas I hope to explore further at SMILES.
+Relevant Experience
+While my CV outlines technical skills (Python, PyTorch, Hugging Face), I want to highlight two projects that demonstrate my readiness for SMILES:
+• At [compaany], I researched neural networks for image upscaling and matching, tackling noise in hyperspectral data—a problem where generative models could revolutionize reconstruction accuracy.
+• For the NIR Challenge at CVPR 2025, I co-organized a competition on night photography rendering, gaining insight into the challenges of deploying AI in low-light environments.
+Beyond this, I’ve independently explored LLM fine-tuning (e.g., Qwen for Russian datasets) and implemented flash window attention (Triton/PyTorch), but I want to improve knowledge in LLM pretraining or multi-agent systems—knowledge gaps SMILES can address.
+In addition to all of the above, I have been communicating with scientific teams for a long time, since high school, I have actively participated in Olympiads in astronomy and physics. They are actively involved in the activities of [compaany], they entered there after completing the task of recognizing coins using yolov8.
+Expectations and Career Goals
+I expect SMILES-2025 to:
+• Provide mentorship from industry experts on scaling generative models efficiently.
+• Offer collaborative projects that combine CV/NLP (e.g., multimodal agents for scientific data analysis).
+• Expand my understanding of AI safety, critical for my long-term goal of developing ethical, deployable AI tools in academia or in industry (now participating in an MTS hackathon where adequate responses from LLM agents are very important for the operator).
+Post-school, I plan to pursue a research career focused on generative models for scientific imaging, potentially through a PhD. The school’s emphasis on international cooperation will be invaluable as I am interested in working with leading scientific teams from both [location] and [location].
+My blend of applied research experience, self-driven learning, and cross-cultural adaptability (evidenced by my language skills and scientific participation) makes me a compelling participant.
+I hope that I have mentioned enough, perhaps the CV describes the technical nuances in more detail.
+Thank you for considering my application. I would be honored to join SMILES-2025 and contribute to its mission of advancing AI innovation through global collaboration.
+Sincerely,
+[name]

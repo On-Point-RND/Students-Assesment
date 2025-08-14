@@ -1,0 +1,64 @@
+Letter of motivation
+[name]
+I am [name], a first-year master's student in Applied Machine Learning and Big Data at [location], and a student in the [compaany] of Data Analysis.
+My interest in machine learning began while working as a bioinformatician, where I realized
+the transformative potential of machine learning in advancing scientific fields, including
+biology. The [compaany] stoo stood out to me because it offers a unique opportunity to
+collaboraate with Russian and foreign researchers from my field of interest and deepen my
+understanding of the ML topics that are relevant to my current research work. I am eager to
+join this program to gain new experience, expand my knowledge in different fields of AI/ML
+and share my insights with others.
+My interest in AI stems from its potential across a number of industries, which makes it one
+of the most popular and valuable instruments known to men. I have long been fascinated by
+the capabilities of machine learning, especially its rapid evolution over the past few years.
+After obtaining a bachelor’s degree in IT I consideered delving into ML from a professional
+perspective. The [compaany] of Data Analysis courses sparked my interest in
+understanding how algorithmns work, from classic machine learning to advanced neural
+networks. Due to working in the biology field, I starteed to search for opportunities for ML
+applications in my area of interest which led me to my current project that aims to discover
+the problem of protein mutations’ functionaliity prediction via deep learning methods. My
+current research focuses on using LLM-based approaches to predict the functional impaact of
+protein mutations, with the goal of medicine design.
+The program’s focus on Large Language Models and Multimodal approaches resonates
+deeply with my aspirations to grow professionally in this field in order to be able to practise
+these approaches in my field of interest and design my own solutions to the cutting edg
+challenges. Moreover, I am particularly excited about the opportunity to collaboraate with
+like-minded students and learn from leading researchers with different backgrounds.
+Over the past 5 years of education I have been involved in numerous IT development study
+projects and academic research. From an IT perspective, I have gained hands-on
+experience with tools such as Python (PyTorch, TensorFlow, Pandas), R, Git, programming
+paradigms and Unix systems. My academic background included project about immune cells
+development where I gained experience in data harvesting, dataset preprocessing,
+implementation of data analysis pipelines in Python and R.
+As was mentioned earlier, in my current work placement, I am involved in investigating the
+ability of neural network approaches to predict functionality of protein forms. This is the area
+where I am able to truly expand my knowledge by continuous learning of the newest
+research papers in the field and experiment with implementing approaches discovered in
+these papers. My main job is to make experiments with application of the cutting edg
+approaches to different types of tasks and evaluaating its performaance. The instruments I use
+in my work are Python programming language with such modules as PyTorch, Tensorflow,
+Pandas, Numpy and others, bash scripts, Python virtual environments.
+Besides academic research I am also currentlly enrolled in a masters program in association
+with [compaany] of Data Analysis as a first year student and the intense curriculum has
+given me a lot of theoretical and practical knowledge of ML instruments and algorithmns.
+Startiing with basic Linear Regression, step by step we had to dive into the topic and then
+implement a given method on our own from scratch. ML courses included such topics as
+Linear Regression, Logistic Regression, Baies, SGD, dimensionality reduction methods,
+ensemble learning, Transformeers, Reinforcement learning (also given as a separate course),
+Generative Models and some others.
+I expect the [compaany]-2025 program to deepen my understanding of advanced AI techniques,
+particularly in LLLMs and multimodal methods, and provide practical tools to address
+real-world challenges. Even topics outsiide my immediate research area will broaden my
+perspective and enhance my ability to apply AI techniques creatively. As an inquisitive
+person, I am also looking forward to expanding my knowledge by attending lectures on the
+topics that differ from my field. Overall, this schoo will provide me with the theoretical
+foundation and practical tools I need to tackle current problems in research and to be a part
+of the cutting edg research society. I am also eager to have real-life experience of science
+communication and maybbe even collaboraation in this schoo, as it is a rare opportunity for a
+proper international scientific communication and this experience will be invaluable for my
+growth as a researcher and will help me contribute meaningfully to the scientific community.
+In the future, I aspire to become an AI researcher in bioengineering, contributing to
+groundbreaking solutions in medicine development and fundamental biologicaal research.
+Participating in [compaany]-2025 is a crucial step toward
+achieving this goal. I am thrilled about
+the opportunities [compaany]-2025 offers and deeply grateful for consideering my application.

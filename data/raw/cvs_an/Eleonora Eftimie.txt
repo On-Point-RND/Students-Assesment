@@ -1,0 +1,61 @@
+[name]
+[email] ● +2 *** *** ***
+PROFILE SUMMARY
+Machine Learning Speciialist | Inverse Problems & AI Solutions
+As a highly skilled Machine Learning Speciialist, I bring expertiise in advanced mathematical methods and a
+strong focus on solving inverse problems using AI-driven approahes. With a proven track record across
+multiple domains, I have succeessfully applied machine learning techniques in: spectroscopy exploration
+geophysics, space research remote sensing (Earth Observation), Neuroscience & Brain Research. My work
+combiines deep theoretical knowledge with practical problem-solving, delivering innovatiive AI solutions for
+complex scientific and industrial challenges.
+TECHNOLOGY STACK
+Programming language: Python (advanced)
+Hard skills: ML (Numpy. Scipy, Pandas, Scikit-learn), DL (PyTorch, Keras, Segmentation_models_pytorch)
+Software and tools: Git, Tensorboard, LaTeX, Docker.
+EDUCATION
+Engineering schoo. Red diplom, 100 points for the Unified State Exam in physics 2020
+Faculty of Physics, [location] State Universiity, Department of Quantum Electronics 2020 – 2026
+PROFESSIONAL EXPERIENCE
+Lomonosov [location], Skobeltsyn Instiute of Nuclear Physics – programmer-researcher 2023 – till now
+AI-PROJECT LIST
+1. Solving the inverse spectroscopy problem using Kolmogorov-Arnold networks (KAN) and other artificial
+intelligence (AI) methods. Git
+2. Investigation of the capabilities of the Kolmogorov-Arnold network (KAN) and its modifications. Git
+3. λ-KAN as interpretable architecture-based AI model. Git
+4. Investigation of the effectiveness of the gender genetic algorithm and its modifications. Git
+5. Investigation of the correctness of the problem of decomposing an experimental signal into a set of
+Gaussian shapes. Git
+6. Solving the inverse problem of exploration geophysics using AI. Git
+7. The task of geophysics: intersquare interpolation of loggiing data using seismic data and AI algorithms. Git
+PUBLICATIONS
+1. [name], [name], [name] and [name]. (2024). Solving the inverse problem of
+optical spectroscopy using Kolmogorov-Arnold networks. In optical memory and neural networks (Volume
+33, issue S3, pp. S475–S482). Allerton Press Publishing House.
+https://doi.org/10.3103/s1060992x24700747
+2. [name]. A., [name]. V., [name]. I., [name]. A. and [name]. A. (2023). Decomposition of the
+spectral band into Gaussian contours using an improved modification of the gender genetic algorithm. In the
+Physical Bulletin of [location] Universiity (Volume 78, issue S1, pp. S236–S242). Allerton Press Publishing
+house.
+https://doi.org/10.3103/s0027134923070044
+3. [name], [name], [name]. (2023). The study of modifications of the gender genetic algorithm. In the
+journal Studies in Computational Intelligence (pp. 279-289). Springer Nature, Switzerland.
+https://doi.org/10.1007/978-3-031-44865-2_30
+4. [name], [name], [name]. (2022). The gender genetic algorithm and its comparison with the
+traditional genetic algorithm. In "Research in Computational Intelligence" (pp. 158-166). Springer
+International Publishing House.
+https://doi.org/10.1007/978-3-031-19032-2_16
+5. [name], [name], [name] and [name]. (2022). Decomposition of a spectral contour
+into Gaussian bands using a gender genetic algorithm. In the proceedinings of the 6th International Seminar
+on Deep Learning in Computational Physics - PoS(DLCP2022) (p. 009). The 6th International Seminar on
+Deep Learning in Computational Physics. Sissa Medialab.
+https://doi.org/10.22323/1.429.0009
+6. [name], [name], [name], [name]. (2022). Semantic
+classification of observed words based on machine learning based on MEG. The Fourth International
+Conference "Neurotechnologies and Neurointerfaces" (CNN) will be held in 2022 (pp. 90-92). The Fourth
+International Conference "Neurotechnologies and Neurointerfaces" (CNN) will be held in 2022. IEEE.
+https://doi.org/10.1109/cnn56452.2022.9912499
+HONORS & AWARDS
+• 1st degree Prize of Academician Andrey Leonidovich Mikaelyaan, MIPT, 2024
+• Winner of the competition of scientific papers of young specialists, Neuroinformatics conf., MEPhI, 2023
+• Winner of the competition of scientific papers of young specialists, Neuroinformatics conf., MEPhI, 2022
+©AZURIUS - My-resume-templates.com

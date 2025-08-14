@@ -1,0 +1,64 @@
+[name] [surname]
++2 *** *** ***
+[email]
+Education
+Higher SchooL of Economics [location], June 2026
+Faculty of Computer Science, Faculty of Economics | Economics and Data Science cumulative GPA: 9.21/10.0
+United Arab Emirates UniversiTy Al Ain, August 2024 - December 2024
+College of Business and Economics | Business administration cumulative GPA: 10/10
+Yandex SchooL of Data Science [location], September 2024 - May 2026
+Data Science cumulative GPA: 5/5
+Courses and additional education
+Mathematics for Artificial Intelligence, Yandex & Innopolis Deep Python 5/5
+Algorithms and data structures 10/10 Machine Learning 5/5
+C++ programming language 9/10 ML Trainings, Yandex
+Data analysis in industry, T-Bank Lyceum++ | ML, Yandex
+Reinforcement Learning, YSDA RecSys, YSDA
+Data Fusion, International AI conference, 2025
+Expirience
+T-Bank, ML Engineer [location], January 2025 - Present
+Built sentiment analysis pipeline for internal workplace chats
+•
+Developed NLP models to classify chat messages into topics
+•
+Collaborated with HR/management to optimize workflows based on data-driven findings
+•
+Yandex, Data Scientist [location], September 2023 - January, 2024
+Developed restaurant ranking methodology for Yandex.Eat and the Ultima Guide
+•
+Data processing, executing queries, creating databases, constructing dashboards
+•
+Development and maintenance of industrial scripts with regular operation
+•
+HSE, teaching assistant, Probability Theory and Statistics (advanced level) September, 2024 - Present
+HSE, teaching assistant, Python (advanced level) September, 2024 - December, 2024
+Technovation Girls, mentor January, 2024 - June, 2024
+Private Economics Instructor September, 2021 - March, 2025
+Skills
+Programming languages: Python, C++, SQL, HTML/CSS, JavaScript
+Libraries: NumPy, PyTorch, HuggingFace Transformers, pandas, Requests, Selenium, aiogram, aiohttp, Matplotlib,
+SciPy, Seaborn, Scikit-Learn, Graphviz, Plotly, Streamlit, NLTK, PyMorphy, Yake
+Tools: Git/GitHub/GitLab, Yandex DataSphere, Linux, Arcanum, Datalens, Nirvana, LATEX, Miro, Excel, PowerPoint,
+Redash, Notion
+Languages: English (C1), Russian (native)
+Projects
+ComputeGraph | Python November 2024
+Developed a library for creating computational graphs using MapReduce and Join structures
+•
+Image processor | C++ March 2023
+Created a module that allows to read and generate BMP image
+•
+Implemented filters and developed own filter based on BMP pixel grid matrix transformations
+•
+Synthetic time series generation | Python, PyTorch July 2024
+Developed a diffusion neural network generating synthetic time series
+•
+Tags generation | Python, PyTorch October 2024
+Developed a CNN-model for 2-lavel videos tagging using text description and name of the object
+•
+CinemaBot | Python, Telegram API October 2024
+A Telegram bot designed to search for key information about movies and TV shows
+•
+Achievements
+• All-Russian SchooL Economics Olympiad, 2021, prize-wiwnner Winner of T-Bank Stipend Program, Analytics, 2024
+• National Data Analysis Olympiad DANO, 2022, prize-wiwnner Winner of Yandex Stipend Program, Assistants, 2024

@@ -1,0 +1,169 @@
+Standardized set of results
+from massively parallel
+reporter assays for predicting
+regulatory activity of short
+sequences using machine
+learning
+[name]
+[compaany] - creating a DNA element reporter library
+Massively parallel reporter assays
+(MPRAs) are an approach that allows
+studying the functional activity of DNA
+regulatory elements, such as promoters
+and enhancers, outsiide their native
+genomic context.
+What’s the core idea? Each putative
+enhancer is inserted into a genetic vector,
+and a unique DNA barcode is attached to
+each element.
+These elements are cloned en masse in a reporter construct, with each element
+typically linked to a unique DNA barcode located in the transcription unit
+[surname], [surname], [surname]. Deciphering gene regulation using massively parallel reporter
+2
+assays // Trends Biochem. Sci.– Elsevier BV, 2020.– Vol. 45, № 1.– P. 90–91.
+MPRA - acquiring input DNA from different sources
+[surname], [surname], [surname]. Deciphering gene regulation using massively parallel reporter
+3
+Trends Biochem. Sci.– Elsevier BV, 2020.– Vol. 45, № 1.– P. 90–91.
+MPRA - Measuring DNA element activity
+In some designs, the query elements are part
+of the transcription unit and serve as
+‘barcodes’ themselves.
+The expression level of the reporter gene is
+measured via RNA-seq, and the transcript
+read count is normalized to the read count of
+the reporter sequence containing the
+regulatory element.
+[surname], [surname], [surname]. Deciphering gene regulation using massively parallel reporter
+4
+assays // Trends Biochem. Sci.– Elsevier BV, 2020.– Vol. 45, № 1.– P. 90–91.
+MPRA - Measuring DNA element activity
+Alternatively, the reporter does not carry barcodes
+but encodes a fluorescent protein.
+Cells are then sorted by fluorescence levels and
+the activity of the query elements is inferred from
+theiir abundance in the sorted cell pools
+The sequence's activity is evaluaated based on the
+fluorescence intensity of a reporter protein.
+[surname], [surname], [surname]. Deciphering gene regulation using massively parallel reporter
+5
+assays // Trends Biochem. Sci.– Elsevier BV, 2020.– Vol. 45, № 1.– P. 90–91.
+Generative sequence models
+MPRA data are so robusst and versatile
+that we can even generate
+cell-type-specific sequences using
+models trained on them.
+Critically, generating such precise
+cell-type specificity without this data is
+nearly impossible—MPRAs are
+essential for achieving high-quality,
+cell-type-specific sequence design.
+CODA ([compaany]) designs synthetic elements by iteratively
+updating sequences to improve predicted function. Cell type-specific CRE activity of all 200
+bp DNA oligos induces a topology over a massive sample space.
+[surname] et. al, Machine-guided design of synthetic cell type-specific cis-regulatory elements. bioRxiv Nature. 2024
+6
+Oct; 634(8036):1211-1220. doi: 10.1038/s41586-024-08070-z. PMID: 37609287; PMCID: PMC10441439.
+Variability in Model Performance Across Datasets
+If we take the exact same model in
+different studies but on the same
+data, we may obtain different
+performance metrics.
+Note that the SEI and MPRAnn
+models perform better than
+Enformeer on hepatocyte and
+lymphoblast cell lines in this study.
+B, biochemical; E, EnformerMPRA; L, MPRALegNet; N, MPRAnn; S, SeiMPRA
+[name], [name], [name]. Massively parallel characterization of transcriptional regulatory elements.bioRxiv
+2023.03.05.531189; doi: https://doi.org/10.1101/2023.03.05.531189, updated in Nature (2025).
+7
+https://doi.org/10.1038/s41586-024-08430-9
+Variability in Model Performance Across Datasets
+WTC11
+?
+We observe the exact opposite trend
+?
+in another study:
+?
+?
+?
+Enformeer achieves significantly better
+?
+performance than Sei and Mprann.
+?
+?
+?
+WTC11? ?
+?
+?
+?
+[surname], [surname]. Evaluating the representational power of pre-trained DNA language models for regulatory
+genomics // bioRxiv.– 2024.
+8
+Variability in Model Performance Across Datasets
+So, what is the conclusion?
+Yes, we can accept that absolute values may vary, but their ranking changes - and that’s
+a problem:
+we simply cannot compaare the two models.
+[name] [surname], 2023 [surname] [surname], 2024
+MPRAnn SEI Enformer MPRAnn SEI Enformer
+HepG2 0,77 0.79 0.84 HepG2 0.73 0.75 0.73
+K562 0.8 0.81 0.84 K562 0.74 0.75 0.73
+WTC11 0.76 0.82 0.83
+9
+Data preprocessing
+MPRA data is considered the best option for ML because it is relatively simple: we input a sequence and
+a value and train the model on that.
+But only if the data is properly preprocessed in advance.
+Here’s an example of data released by the authors where they made a mistake: in the file with sequences
+labeled as negative, they duplicated sequences that actually have a positive label.
+Positives Negatives
+10
+MNIST and MedMNIST
+There is a well-established approach to drawing
+the scientific community's attention to a deep
+learning task while ensuring ease of training and
+validation:
+benchmark datasets like MNIST or MedMNIST.
+MNIST for handwritten digit recognition
+MedMNIST for
+medical image
+classification
+11
+MPRA-MNIST
+Following this paradigm, we
+decided to collect and preprocess
+MPRA data to lower the entry
+barrier for newcomers, enabling
+them to compaare their results with
+our provided baselines.
+MPRA-MNIST for MPRA data from
+different studies contains:
+● Human (8 datasets)
+● Bacteries (2 datasets)
+● Yeast (2 datasets)
+● Drosophila (1 datasets)
+12
+Transforms
+"Transforms" mean sequence transformations that users can chooose.
+Reverse Complement(prob) - is the most common augmentation.
+ATGC………… ATGC TACG………… TACG
+AddFlanks(left, right) - we often work with plasmids, and it’s known that their reporter genes are flanked
+ATGC………… ATGC …AGATGC………… ATGCGA…
+Seq2Tensor() - one-hot encoding sequences
+13
+The general workflow
+● We have a large and well-curaated
+collection of datasets, preprocessed so
+you won’t suffer every minute while
+working in this field.
+● We provide transforms that you can
+either customize or use as-is from our
+existing implementaions.
+● Additionally, for each dataset, we include
+a use case example, so you can start
+with that, making the entry barrier even
+lower.
+● Paper and project will be published
+soon!
+14

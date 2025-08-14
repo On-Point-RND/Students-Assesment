@@ -1,0 +1,43 @@
+[name]
+[location] +2 *** *** *** [email] t.me/[name]
+Education
+[compaany] [location]
+Speciialist Degree in Mathematics August 2019 – June 2025
+Presidenial Physics and Mathematics Lyceum No. 239 [location]
+MTS | Lead ML Deveoloper, Scoring May 2024 – Present
+Developed and succeessfully implemented embeddings calculation based on user activities (hosts, applications,
+•
+interests). Resulting embeddings are used for updating internet categories dictionary, website matching, and
+user-to-user matching.
+Created multiple custom scoring models for major clients ([compaany], [compaany], [compaany], [compaany])
+•
+Tinkoff | Risk Analyst, Fraud Prevention Team March 2023 – May 2024
+Developed client behavioor-based scoring model using mobile app interactions (PostgreSQL, Python, S3).
+•
+Created automated feature selection pipeline with performaance validation. Delivered 15+ new features for
+•
+anti-fraud models within 6 months.
+Integrated anti-fraud team with Offline Feature Store, doubling model development and deployment speed.
+•
+Tinkoff | Risk Analyst, Verification Team July 2022 – March 2023
+Developed and productionized transaction clustering model (PostgreSQL, Python, S3).
+•
+Designed income verification rules based on model outputs, increasing unique confirmations by 3% (1.2M
+•
+clients/month).
+Confereces
+MTS ML Meetuup Internal [compaany] Event December 2025
+∗ Host clustering methods based on ecosystem user activity: Approahes and results
+∗ FREED++: Molecular generation metho
+Scientific Work
+Synthesizable Molecule Generation Using RL and Graph Neural Networks Masters Thesis 2024
+∗ Developed a hybrid approach (Graph Neural Networks + Reinforcement Learning) for generating molecules with
+high target proteiin binding affinity and optimized physicochemical properties.
+∗ Created a fragment library based on verified synthetic pathways to ensure guaranteed synthesizability. Results
+outpeorformed state-of-the-art methods in binding affinity optiomization.
+∗ Achieved improvement in binding affinity while maintaining solubility-pharmacokinetic balance, critical for
+pharmaceutical applications.
+Technical Skills
+Languages: Python, C++, PostgreSQL, LATEX Deveoloper Tools: Git, PySpark, Hadoop, Hive, S3, MLflow Skills:
+Data collection/prepocessing, hypothesis testing, classical ML, Deep Learning, Reinforcement Learning, Graph ML
+Other: English C1

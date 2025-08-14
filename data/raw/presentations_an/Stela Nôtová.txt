@@ -1,0 +1,53 @@
+[name] Popov
+[compaany] Student
+Neural Sheaf Diffusion: A Topological Perspective
+on Heterophily and Oversmoothing in GNNs
+1
+Problems
+2
+Sheaf Axioms on a Graph
+Local Spaces Restriction Maps
+Each vertex and edge is assigned a local For each incident edge–vertex pair, a linear
+vector space map (restriction) is defined from the edge
+space to the vertex space
+Structure
+Identity Axiom Compatibility Axiom
+sheaf
+The restriction of an element to itself is the Compositions of restrictions along adjacent
+identity map elements commute
+Locality Axiom Gluing Axiom
+If two sections agree on all individual If a set of local sections agrees on overlaps,
+elements, they are consideered equal there exists a unique global section
+consistent with them
+3
+Sheaves in our model
+Dirichlet Energy
+4
+Diffusion model
+5
+Results
+Final scores
+model\dataset [location] [location] [location] [location] [location] [location] [location] [location] [location]
+Sheaf diffusion 0.789 0.763 0.768 0.778 0.537 0.490 0.331 0.723 0.863
+GAT 0.831 0.701 0.534 0.611 0.498 0.322 0.345 0.774 0.875
+GCN 0.889 0.778 0.680 0.667 0.441 0.327 0.318 0.777 0.881
+MLP 0.782 0.813 0.793 0.737 0.399 0.223 0.332 0.721 0.853
+6
+New ideas
+for this model
+Persistent Spectral
+homology regularization
+7
+Persistent diagrams
+where intervals of persistence
+8
+Results
+https://github.com/PoloskunEnotik/SMILES-2025
+model\dataset [location] [location] [location] [location] [location] [location] [location] [location] [location]
+Spectral 0.793 0.752 0.759 0.762 0.561 0.402 0.311 0.745 0.887
+regularization
+Persistent 0.823 0.841 0.889 0.653 0.691 0.487 0.361 0.801 0.892
+homology
+Regularization + 0.813 0.862 0.887 0.694 0.711 0.554 0.401 0.793 0.891
+homology
+9

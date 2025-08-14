@@ -1,0 +1,90 @@
+
+
+Machine learning for
+topological photonics
+[name] [surname]
+Photonics
+Photonics is a key technology of the 21st century, based on controlling light for data transfer, signal processing,
+and the development of innovative devices. One of its main advantages is high-speed data transmission with
+minimal energy loss.
+Despite their potential, traditional photonic devices face several critical challenges, with sensitivity to defects
+being the most significant. Any defects in their structure cause light scattering, disrupting system operation,
+leading to data loss and reduced performance.
+high-bandwidth
+(800 Gb/s)
+[company], 1-8 (2025) [company] 15, 102-104 (2021)
+Photonic-electronic integrated Photonics for artificial intelligence
+circuit system and neuromorphic computing
+2
+Topological photonics
+Topological photonics is a field of modern physics that offers a solution to this problem
+by using principles of topology to control light.
+Quantum integrated Majorana-based
+On-chip integration Topological lasers
+topological chip ([company])
+photonics
+Topological optical states are robust against defects and ensure ultra-reliable data processing 3
+Is the photonic system topological?
+To answer this question, we need to calculate the topological invariant
+Topological invariant = 1
+Topological edge states
+The complex procedure for determining the topological invariant of a material,
+which is necessary to identify topological states, limits their broad use.
+4
+Deep learning in topological photonics
+We propose an innovative approach to solve this problem: developing a neural network capable of
+determining the topological invariant of a photonic system through a simple, easily implementable
+measurement of intensity.
+5
+Deep learning in topological photonics
+Apply ML to solve the classification of topological phases problem based solely on a single real-space bulk
+intensity image at the output facet of waveguide array.
+Output intensity Topological classes
+Waveguide lattice
+Output
+L
+e
+c
+n
+Input a
+st
+di
+n
+o
+ati
+g
+a
+p
+o
+r
+P
+6
+Unsupervised methods: t-SNE
+We perform the preliminary analysis of the prepared datasets using the t-SNE.
+The topological classes are not clearly separable. Consequently, unsupervised methods are not applicable.
+7
+Deep learning methods
+We conclude that classical machine learning methods show lower accuracy compared to neural networks
+and support vector machine (SVM). One of the two most promising models, the MLP method, was chosen
+for more thorough examination. We thoroughly analyzed the neural network's performance under
+variations in photonic lattice parameters within realistic fabrication tolerances.
+8
+Transfer learning
+We consider the performance of models trained on ideal data in
+classifying data obtained from different model parameters.
+We introduce perturbations into the SSH Hamiltonian coefficients
+of two types: off-diagonal disorder in the inter-site coupling
+strengths and on-site disorder in the propagation constants.
+We specifically studied how manufacturing defects (disorder)
+affect the system's accuracy (see figure). Even with realistic
+disorder levels (<0.01), our method remains precise, proving its
+reliability for real experimental platforms.
+9
+Conclusion
+We have studied the performance of a variety of machine learning techniques at distinguishing different
+topological phases of photonic lattices using measurements of the bulk intensity profile after a fixed
+propagation distance. Our approach for classifying lattices based on incomplete measurements can be further
+developed to solve a more general problem of reconstruction of the lattice Hamiltonian with some a
+priori knowledge of its symmetries in various fields including photonics, condensed matter physics, and
+quantum computing.
+Contact: [name] [surname] ([email]@[company].[location]) 10

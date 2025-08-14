@@ -1,0 +1,42 @@
+[name]
++2 *** *** ***
+[location]
+[email] Telegram: @Another_option
+Skills
+Skills ML, LLM, Python (pandas, numpy), SQL, C++, DataLens, Statistics
+Communication Russian (native), English (C1)
+Job Experience
+[compaany] (Data Science Intern) June 2023 — November 2023
+• Conducted research on developing a new metric for user happiness.
+• Used Python, SQL, ClickHouse, DataLens to analyze user data and NLP for requests in
+natural-language.
+• Applied statistical methods for hypothesis testing and A/B experiments.
+Independent Researcher (LLM): October 2024 — March 2025
+• Project: Solving Q&A Task on Tabular Data Using LLM
+• Developed a complex LLM-pipeline that ranked in the top 13 by accuracy at the international
+SemEval 2025 competition.
+• The paper is accepted for publication at a workshop of the ACL (Association for Computational
+Linguistics) conference.
+• Link to the paper (pre-print)
+Independent Researcher (LLM) at [compaany] March 2025 — Present
+• Project: Evaluation of LLM AI-agent misconduct scenarios
+• Used the inspect-ai library to develop pipeline for automated evaluation of autonomous LLM
+agents’ behavioral alignment during tool use, enabling systematic monitoring, scoring, and anomaly
+detection.
+• Applied evaluation methodologies inspired by METR/evals to design behavioral benchmark
+Education
+Applied Mathematics and Informatics (FCS), Higher Schoo[location] 2022 — 2026
+Computer Science, [location] 2020 — 2022
+Mathematics in AI, In-person student boo[location]; 2024
+Achievements
+ML Hackathon Digital Breakthrough (with nationwide participation) - Winner (1st place) Oct 2024
+• Developed a LLM-based certification compliance verification system using Retrieval-Augmented
+Generation (RAG) for accurate assessment of automotive compliance with standards.
+• Utilized a vector storage based on FAISS for fast retrieval of relevant data.
+Projects
+Project: Classification of Hea[location] Rhythm Ano[location]ies Using DL 2024
+• Used an MLP model to classify heartbreats in long-term ECG recordings.
+• Developed a graphical application for visualizing heart rate and ECG spectrograms.
+Project ([compaany].Student Camp): Classification of Brain Tumors with Mutation Using DL 2024
+• Trained a model to detect tumors with a small sample size and high feature dimensionality.
+• Utilized VGG16 and InceptionV3 with Transfer Learning for fine-tuning on specific data.

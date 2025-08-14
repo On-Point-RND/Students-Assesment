@@ -1,0 +1,37 @@
+[name] [surname]
++2 *** *** ***
+[email]
+Activities and skills
+At the moment, I work as a techlead in information security and head of the hardware and software module development department for accelerating machine learning calculations. If we talk specifically about activities related to working with artificial intelligence:
+1. Working with artificial intelligence hardware, analyzing and designing your own NPU/TPU modules.
+2. Porting popular machine learning libraries to specialized processor architectures, such as porting ONNXRuntime to [location]. Programming low-level machine learning operations, including operations with vectors and matrices.
+3. Inference of artificial intelligence models on the [location] processor.
+4. Introducing artificial intelligence into the processes of detecting suspicious activity on virtual machines.
+5. Introducing artificial intelligence to the process of normalizing SIEM events.
+Work experience
+July 2023 - Present
+[company], [location] – Security Engineer
+● Design and development of SIEM systems.
+● Technical leadership in the threat detection and response team.
+● Implementation of AI in information security processes.
+● Control over network security.
+● Conducting security audits.
+● Reviewing security incidents.
+● TH/TI
+● Alert development for Linux, Windows
+● Connecting event sources
+February 2023 – Present
+[company], [location] – Head Of Development
+● Porting ONNXRuntime to the [location] processor
+● Develoment of a compiler for neural network computing
+● Analysis of existing AI models for detection and segmentation tasks
+● Build your own transformer models
+● Management of the compiler development process, model analysis and development vector formation
+2
+Education
+2022 – 2026
+[university], [location], Faculty Of Computer Science, Bachelor
+2023
+[school], [location]
+2023 – 2025
+[school], Artificial Intelligence Software Workshop, [location]

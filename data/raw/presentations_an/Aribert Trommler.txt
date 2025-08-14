@@ -1,0 +1,111 @@
+Slide 1
+----------------------------------------
+A New Emotion Classification Method Based on JAN-VMD
+
+Presenter: [name]
+
+Slide 2
+----------------------------------------
+Abstract
+
+The research on emotion classification based on electroencephalogram(EEG) signal has been increasingly studied for its applicability in human-computer interaction. However, the effectiveness of EEG emotion classification is often suboptimal due to person, time, and equipment variations in EEG data, and this remains a major challenge in real-world applications. 
+For the purpose of improving the identification of EEG emotion, this paper proposes a new method for classifying emotion, called Joint Adaptation Network-Variational Mode Decomposition (JAN-VMD), which combines the universality and effectiveness of transfer learning in the field of EEG emotion classification.
+First, we optimize the differential mode decomposition based on multiple group differences. Then, we apply the optimized differential mode decomposition combined with transfer learning to various scenarios of EEG-based emotion classification experiments. Finally, experimental results confirmed that the proposed JAN-VMD model in this paper effectively improves the accuracy of EEG-based emotion classification. 
+The experiments demonstrated that the proposed method not only effectively addresses the issue of differential recognition in deep neural networks but also enhances recognition accuracy on the basis of transfer learning algorithms, proving the feasibility and superiority of the proposed approach.
+
+Slide 3
+----------------------------------------
+Introduction
+
+There are generally three methods for emotion classification. 
+(1) The first involves analyzing emotions based on facial expressions or speech. 
+(2) The second method relies on the interpretation of emotions through peripheral physiological signals.
+(3) The third method involves emotion classification based on brain signals obtained from the central nervous system.
+Due to the ability of transfer learning to address the issue of limited samples in the target domain or a lack of abundant labeled data, many researchers have incorporated transfer learning methods into EEG-based emotion recognition. 
+
+Slide 4
+----------------------------------------
+Introduction
+
+Despite the effectiveness of EEG in providing information for emotion recognition, the non-stationarity, randomness, and individual differences in emotional states among subjects lead to significant variations in EEG data collected from different individuals or at different times for the same individual. This is a major reason why using machine learning or deep learning algorithms directly may yield poor results in cross-trial recognition tasks. 
+To address the issues above, this paper proposes a new emotion classification method Joint Adaptation Network-Variational Mode Decomposition (JAN-VMD) with the following main contributions:
+(1) The use of variational mode decomposition to process EEG signals and optimize the mode decomposition method, which can better handle penalty factors and other parameter optimizations.
+(2) Leveraging the characteristics of transfer learning to mitigate differences, a method is proposed to integrate the optimized mode decomposition approach with a transfer learning-based joint adaptive network algorithm for EEG-based emotion recognition. The experiments have demonstrated the effectiveness and superiority of the proposed method in this paper.
+
+Slide 5
+----------------------------------------
+Paper Structures
+
+In Section 2, we introduce JAN-VMD and design the entire system.
+Section 3 provides details about the experimental parameters and other algorithms used for comparison. 
+In Section 4, we present the results and conduct an analysis. 
+Finally, in Section 5, we present our conclusions.
+
+Slide 6
+----------------------------------------
+Method: JAN-VMD Design
+
+Initially, the EEG data is decomposed into k intrinsic mode function (IMF) components using M-VMD. The brainwave data-sensitive components are then extracted through kurtosis rules.
+Subsequently, a wavelet transform is applied to obtain the time-frequency representation in the form of a wavelet spectrogram.
+Finally, the constructed JAN, utilizing transfer learning, is employed to recognize emotional states from the EEG data. 
+
+Slide 7
+----------------------------------------
+Method: M-VMD & Deep Transfer Learning Classification Model
+
+Slide 8
+----------------------------------------
+Experiment
+
+This study utilized the SEED, SEED-IV, and DEAP datasets. The following preprocessing steps were applied to the EEG features in the respective datasets:
+(1) Initially, EEG signals underwent filtering processes such as low-pass band-stop filtering to eliminate artifacts from the EEG signals.
+(2) A down-sampling process was applied to the EEG signals, reducing them to 200 Hz. EEG microsstate features were extracted from the EEG signals within time windows of 1 second.
+(3) Linear dynamical systems were employed to effectively smooth the EEG features. The smoothed features were normalized to obtain relevant features for input into the classification model.
+(4) Classification algorithms were applied to categorize the data.
+To compare the relevant models in this experiment, SVM, TCA, MIDA, DAN, JAN, and JAN-VMD algorithms were employed.
+
+Slide 9
+----------------------------------------
+Results
+
+This paper completed cross-trial, cross-user and cross-device experiments.
+Cross-trial experiments are primarily designed to predict the emotional states of the same user at different times when subjected to the same external video stimuli. Cross-user experiments differ from cross-trial experiments and are primarily conducted to validate the stability of emotion classification models among different users. Cross-device experiments differ from cross-trial experiments and are primarily conducted to validate the stability of emotion classification models across different EEG recording devices.
+The results are shown as follows.
+
+Slide 10
+----------------------------------------
+
+Slide 11
+----------------------------------------
+Results
+
+Through a comprehensive comparison of the experimental results in the above tables and the results related to cross-trial and cross-user experiments, the following observations can be made: 
+(1) The accuracy of transfer learning algorithms still outperforms traditional machine learning classification methods.
+(2) In transfer learning, the JAN-VMD algorithm continues to achieve the highest recognition accuracy. 
+(3) The recognition accuracy of the above algorithms in cross-device experiments is lower than that in cross-user experiments. This also indicates that cross-device tasks are the most challenging in the context of the mentioned transfer learning tasks. 
+
+Slide 12
+----------------------------------------
+Results & Emotion State Analysis
+
+In order to conduct an effective analysis of the accuracy related to emotion classification, we examined the precision of emotion classification.
+Based on the summary and analysis of the overall experiments, the following conclusions can be drawn: 
+(1) The JAN-VMD algorithm exhibits optimal performance among the EEG-based classification methods proposed in this paper, indicating its suitability for applications in emotion classification based on EEG research. 
+(2) Emotion classification across time domains has lower accuracy compared to recognition across subjects. This suggests that individual differences in EEG signals are more significant than temporal variations. 
+(3) Positive emotions are more easily recognized compared to other types of emotional states. This indicates that EEG signals have a stronger discriminative ability for positive emotions.
+The emotion state analysis matrix is shown as follows.
+
+Slide 13
+----------------------------------------
+
+Slide 14
+----------------------------------------
+Conclusion
+
+This paper primarily utilizes an optimized VMD combined with transfer learning to process EEG signals for emotion classification. 
+The optimized VMD is applied to different scenarios of EEG-based emotion classification experiments, and the experimental results are analyzed. The experiments demonstrate the effectiveness of transfer learning in addressing issues such as temporal differences, individual variations, and device discrepancies in EEG signals. 
+The combination of the optimized VMD and transfer learning significantly improves recognition accuracy.
+
+Slide 15
+----------------------------------------
+Thanks a lot!

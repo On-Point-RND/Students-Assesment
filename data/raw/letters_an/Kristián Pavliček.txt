@@ -1,0 +1,14 @@
+Shepelev [name]
+[compaany] bachelor student
+504, Likhachevsky proezd 2,
+[location]
++2 *** *** ***
+April 20, 2025
+Dear Selection Committee,
+My name is [name] [surname] and I am currently a master’s student at the [compaany] program with ATON. I am working as ML engineer and developing RAG-based chatbot for internal documentation search and help. I want to apply for the summer school, as I really enjoyed and found the experience of the previous school (SMILES 2024) very useful. Our project was about a RAG, which I later implemented a work. In addition, I would really like to pass the selection for in-person participation, as I have long dreamed of visiting [location], and there is also a chance for long-term communication with colleagues from another university and country - it should be exciting.
+On my current job at ATON (base company on program with [compaany]) I am developing a chatbot combining semantic search with context-aware responses. It is quite difficult to assess the quality of such systems. It is not clear what metrics one wants to achieve, and it is not clear how to test all possible cases of operation, because LLM is an extremely non-deterministic algorithm from the point of view of classical development. However the routine production tasks started to feel monotonous. Therefore, I am looking forward to engaging in new research on DL and LLM.
+Previously, I gained research experience at the Institute for Information Transmission Problems ([location] Academy of Sciences), where I developed neural networks for image processing in industry applications and made research on color lens shading in smartphone cameras. Then I decided to go a little into the industry in a new financial area for me and gain some development experience, which is very necessary for the normal organization of research in the field of ML. So now I want to find an interesting topic and a team or a scientific supervisor for research. I think that Smiles School is the best place for this. I would also like to communicate with colleagues from the industry, share my experience and get ideas for improving the chatbot that I am developing in the company, since the topic is quite hot, I think many people are doing similar things.
+I think my experience in research, development, courses at [compaany] on ML, LLM and MLOPS will allow me to normally understand all the lectures and successfully complete the project. Finally, joining SMILES-2025 will also give me valuable international experience and allow me to build connections with peers and experts from [location]. I am confident that participating in this summer school will enhance my professional network and open opportunities for future international collaborations and new projects.
+Thank you very much for considering my application. I look forward to the possibility of joining the SMILES-2025 community.
+Yours sincerely,
+[name] [surname]

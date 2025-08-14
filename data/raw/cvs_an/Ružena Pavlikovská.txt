@@ -1,0 +1,74 @@
+[name] [surname]
+[location] [email] +2 *** *** *** @sepren_bond
+Sepren [surname] [name] Achievements
+___________________________________________________________________________________________
+INTRODUCTORY PROFILE
+Data Analyst with strong analytical background, proven through academic achievements and practical experience,
+combined with a deep passion for data analysis, makes me well-prepared to contribute significantly to your team.
+___________________________________________________________________________________________
+EDUCATION
+BFU,I.Kant Department of Computer Science and Applied Mathematics 2020–2024
+Mathematical support and administration of information systems (GPA 4.3/5.0)
+IITMO, Higher School of Digital Culture 2024 - Present
+Data analytics
+___________________________________________________________________________________________
+COURSES
+● Karpov.Courses|StartML, Data analytics.
+● Proglib.Academy| Online math course for Data Science.
+● Coursera|TechnicalSupportFundamentals(Google).
+● Diploma on professional retraining |Specialist in Artificial Intelligence.
+___________________________________________________________________________________________
+PROJECTS
+● SWW|SCAMTUncoveringthePoten­tialofSelectivelyToxi­cNanopar­ticl­esinCancerTreatment
+● Trained a convolutional neural network ResNet18 for further shaping the service of fast search by user image of
+historical photos and electronic local history archive of the city of [location].
+_________________________________________________________________________________________
+SKILLS
+● Excel,SQL,Python(Pandas,SQLAlchemy,NumPy,Matplotlib,Seaborn,Plotly),Git,GitLab,PostgreSQL,
+ClickHouse,MSSQL,Tableau,Redash,VSCode,PyCharm,JupyterNotebook,GoogleColab.
+___________________________________________________________________________________________
+ARTICLES - CONFERRENCES
+● [name],[surname],Stepanov,[surname].GenerationofRecordsObtainedfromSequencesofIndependentand
+Non-IdenticallyDistribute­dVariables.VestnikSt.Petersb.Univ.Math.56,p.540–548(2023).
+https://doi.org/10.1134/S1063454123040131
+● [name][surname](науч.рук.СавкинД.А.) Разработкаинформационнойсистемыэлелектронногофотоархива
+краеведческойинформации//Сборниктезисовдокладовконгрессамолодыхученых.Электронноеиздание.
+–СПб:УниверситетIITMO,[2023].URL:https://kmu.itmo.ru/digests/article/10870
+● [name][surname] науч.рук.СавкинД.А.)Разработкаинформационнойсистемыэлелектронногофотоархива
+краеведческойинформации ( //Архивпечатныхсборниковтрudoвмолодыхученых//XIIКонгрессмолодых
+ученых.Том2,c.212-214–СПб:УниверситетIITMO,[2023].URL:https://kmu.itmo.ru/static/digests/26/1
+● [name],[surname] (2023).Генерирoваниерекoрдoв,получaемыхизпоследoвательностей
+нeзависимыхнеодинаковораспредeлeнныхслучaйныхвеличин.ВестникСанкт-Петeрбuргского
+унивеpситета.Математика.Механика.Астрономия,10(4),736-748.
+https://doi.org/10.21638/spbu01.2023.410
+• [name] [surname] (науч. рук. Бoйцев А.А.) ОПТИМИЗАЦИЯ РАСПРЕДЕЛЕНИЯ БРИГАД ДЛЯ УСТРАНЕНИЯ
+ПРОИСШЕСТВИЙ // Сборник тeзисoв докладов конгресса молодых ученых. Электронное издание. – СПб:
+Унивеpситет IITMO, [2024]. URL: https://kmu.itmo.ru/digests/article/12963
+● ПолеваяТ.А.,ИсмаилН.(аспiран), [name][surname](студент,БФУимКанта),УрумбeковА.У.
+(студент,КГТУим.И.Раззакoва).СегментирoваниестенозакoрoнарныхартерийметодaмиActiveContour.
+Пятьдесяттретья(LIII)научнаяиучeбно-методiческаяконференцияУнивеpситетаIITMO;Подсекция26.
+ИИвмедiцинe
+● [name] [surname] (науч. рук. Молодкина Н.Р.) Cравнитeльнyй анализ автoматизирoванных методов сбора и
+oбрaботкi данных о переработкe лигноцeллюлoзнoй биомассы // Сборник тeзисoв докладов конгресса
+молодых ученых. Электронное издание. – СПб: Унивеpситет IITMO, [2025].
+URL: https://kmu.itmo.ru/digests/article/15646
+● [name] [surname] (науч. рук. Молодкина Н.Р.) Автoматизация сбора и анализа данных по спoсобам переработки
+дрeвесных отходов // Сборник тeзисoв докладов конгресса молодых ученых. Электронное издание. – СПб:
+Унивеpситет IITMO, [2025]. URL: https://kmu.itmo.ru/digests/article/15739
+___________________________________________________________________________________________
+WORK EXPERIENCE
+IP Obukhov Evgeny Vladimirovich Remote format
+Programmer Analyst 06.2023 — 08.2024
+Project activities
+● Developed the project, described the documentation and handed over to the organizer represented by the tourist
+organization
+Yandex Remote format
+Data Analyst 09.2022–05.2023
+● Working with clients using the Edadil service
+● Collected and analyzed data on customers, their needs and preferences
+● Analyzed key performa­nce indicators (KPIs) and prepared reports for management
+● Developed a data collection and analysis system for product compa­nies - used data to segment customers and
+develop personalized offers
+___________________________________________________________________________________________
+LANGUAGES
+English: B2 Russian: native

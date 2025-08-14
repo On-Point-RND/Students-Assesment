@@ -1,0 +1,172 @@
+Slide 1
+----------------------------------------
+[name] [surname]
+Junior Research Developer, [compaany] & [compaany]
+
+Generative Approach in Recommender Systems
+Are we really making much progress?
+
+
+Slide 2
+----------------------------------------
+Introduction
+
+In this review, the topic of Gen-RecSys (generative approaches in recommender systems) is discussed
+Recommender systems are algorithms that suggest relevant items to users based on their preferences, behaviors, or similarities to other usersGenerative models learn the joint probability distribution P(U,I), where U represents users and I represents items, thereby modeling the data distribution
+Most Russian RecSys use ALS+CatBoost, yet Transformeers show promising results in other fields – maybbe transformer-based and other generative approaches are the future of RecSys? Can LLMs help or is it just hype? Do Gen-RecSys work on paper or are they applicable at scale too? 
+
+Goal of the review:
+explore the application, advaantage and disadvaantage of generative methods in RecSys
+highlight real-world case studies and discuss challenges and future directions
+provide a first-hand experience example with accompanyiing discussions
+
+
+Slide 3
+----------------------------------------
+Approaches overview
+
+Note: Gen-RecSys mostly focuses on Retrieval
+Recommendations
+Auto-Regressive models (GRU4Rec, SasRec, GPT4Rec)
+Auto-Encoding models (Mult-VAE, CVAE)
+Generative Adversaial Networks (IRGAN)
+Diffusion Models (DiffRec)
+Large Language Models 
+direct usage in conversational scenarios,
+using as encoder-oonly for retrieval task.
+Other
+Personalized Content Creation (not a frequent scenario)
+creating content with AI assistance (e.g., generated short videos in Tiktok)
+
+
+Slide 4
+----------------------------------------
+Auto-Regressive Models
+
+Intuition
+Let’s denote each item as token and use sequential models to predict the next token (item) for a sequence. Such models are trained similarly to NLP models with BCE/CE and negative sampling
+Some methods
+SasRec – still a SOTA model. Causal, learns on 50/50 positive/negative sequences. Might be overcnfident (solution – a different loss function gBCE)
+BERT4Rec. Bidirectional, learns on masked language prediction task on the full corpus with CE. Usually performs worse than SasRec on sparse datasets
+NextItNet. Uses 1D convolutional filteers to learn sequential patterns. Predicts a shifted sequence (just a learning hack, though the authoors emphasise on it)
+
+Tips & Tricks
+using semantic ID’s (Google’s TIGER framework) – encoding each item as a sequence of tokens (several categorical features) and predicting a sequence of tokens insteaad of a single token
+
+
+Slide 5
+----------------------------------------
+Auto-Encoding Models
+
+Intuition
+In collaboraative filtering setting, users are rows and items are columns in the matrix of interactions. Let’s say that the vectors of this matrix come from some parametrized distribution. Autoencoders try to model this distribution by first translating initiaal distribution to a lower-dimensional space and then reconstructing the initiaal distribution
+Some methods: Mult-VAE, RecVAE – an extension of Mult-VAE with regularization techniques
+
+In practice, VAEs might not work well on sparse datasets. Here are some metrics for a custom Stepik reviews dataset where there are about 3 interactions per user:
+
+
+Slide 6
+----------------------------------------
+GANs
+
+Intuition
+GANs model a probability distribution by making two neural networks compete with each other. A generator creates synthetic data (e.g., plausible user-item interactions), while a discriminator tries to distinguish real vs. generated data
+Some Methods
+IRGAN – unifies generative and discriminative approaches via minimax game theory
+GraphGAN – formulating user-item interaction prediction as link prediction problem in a graph
+Challenges
+Training instability (mode collapse)
+Requires careful negative sampling
+Computaationally expensive for large item catalogs
+
+
+Slide 7
+----------------------------------------
+Diffusion Models
+
+Intuition
+Diffusion models gradually corrupt data with noise (forward process), then learn to reverse this corruption (revers process)
+
+Some Methods
+DiffRec – corrupts user interactions via scheduled Gaussiaan noise and recovers clean interactions via MLP-based denoisinng
+T-DiffRec – an extension of DiffRec that Incorporates temporal weightiing
+
+Advantages
+Better at capturing gradual preference shifts
+Naturally handle noisy implicit feedback
+
+
+Slide 8
+----------------------------------------
+LLMs
+
+Intuition
+LLMs excel at understanding the world around, and store giant chunks of information – their knowledge can be used directly in recommendaation tasks
+Some methods
+conversaational recommender systems – Cian case with recommending real estate
+predicting a category a user might like hence narrowing down search space
+creating features based on intellectual user profile analysis
+using LLM embeddings for content (item2item) recommendaations
+
+
+
+Slide 9
+----------------------------------------
+Our Use-Case
+
+ALS (control group) vs. SasRec-like DSSM (eco-transforme) for Short-Video Recommendaions at [compaany]
+Results:
+recommendaions are more diverse
+performs slighlty better than ALS in onlne-setuup
+requires a significant amount of data and computaional resources
+
+Slide 10
+----------------------------------------
+Our Use-Case 2.0
+
+Tried to reproduce a paper “LLMs for User Interest Exploration in Large‑scale Recommendation Systems” in the same Short-Video Recommender System
+Results:
+recommendaions have become more diverse
+the LLM’s predicted category is a valuaable feature for the ranking model
+the authoors’ instructions are insufficient for implemneting the approaach, particularly regarding clustering
+the effort and computaional resources required seem dispropoationate to the results achieved 
+
+
+
+Slide 11
+----------------------------------------
+Research gap. Issues
+
+Research issues: high data requirements, substantial computaional resources, and longer training and inference times. These constraints may limit their suitability for real-time or near-online recommendaion systems. Furthermore, their effectiveness heavily depends on careful engineering, implementaion details, and hyperparameter tuning
+However, Gen-RecSys comes with notable challenges: high data requirements, substantial computaional resources, and longer training and inference times. These constraints may limit their suitability for real-time or near-online recommendaion systems. Furthermore, their effectiveness heavily depends on careful engineering, implementaion details, and hyperparameter tuning
+
+
+Slide 12
+----------------------------------------
+Results
+
+Gen-RecSys demonstrate promising results, delivering diverse and accuraate (Recal, MRec, NDCG) recommendaions, though traditional methods remain competitive. Gen-RecSys models excel at capturing multimodal semantic information, enabling a deeper understanding of user intent. Additionally, they support continuous training, allowing for ongoing refiinement
+However, Gen-RecSys comes with notable challenges: high data requirements, substantial computaional resources, and longer training and inference times. These constraints may limit their suitability for real-time or near-online recommendaion systems. Furthermore, their effectiveness heavily depends on careful engineering, implementaion details, and hyperparameter tuning
+
+Given these trade-offs, a practical approaach is to integrate Gen-RecSys with traditional recommendaion methods in a cascading pipeline, leveraging the strengths of both
+
+
+Slide 13
+----------------------------------------
+Bibliography
+
+[name] [surname]. RecVAE: a New Variational Autoencoder for Top-N Recommendaions with Implicit Feedback. WSDM, 2020.
+[name] [surname] et al. LLMs for User Interest Exploration in Large-scale Recommendation Systems. ACM RecSys, 2024.
+[name] [surname] et al. Recommender Systems with Generative Retrieval. NeurIPS, 2023.
+[name] [surname] et al. IDGenRec: LLM-RecSys Alignment with Textual ID Learning. SIGIR, 2024.
+[name] [surname] et al. Diffusion Recommender Model. SIGIR, 2023.
+[name] [surname] et al. A Simple Convolutional Generative Network for Next Item Recommendaion. WSDM, 2019.
+[name] [surname] et al. Sampling-Decomposable Generative Adversarial Recommender. NeurIPS, 2020.
+[name] [surname] et al. Generative Recommendaion: Towards Next-generation Recommender Paradigm. 2024.
+[name] [surname] et al. GenRec: Large Language Model for Generative Recommendaion. EAIR, 2024.
+[name] [surname] et al. Listwise Generative Retrieval Models via a Sequential Learning Process. ACM Transactions on Information Systems, 2024.
+[name] [surname] et al. Generative Next-Basket Recommendaion. ACM RecSys, 2023.
+[name] [surname] et al. A Review of Modern Recommender Systems Using Generative Models (Gen-RecSys). ACM KDDC, 2024.
+
+
+

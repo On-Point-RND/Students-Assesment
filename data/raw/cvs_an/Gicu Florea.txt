@@ -1,0 +1,24 @@
+Name: [name] [surname]
+Education level: [compaany], Bachelor september 2023 - July 2027
+ML/DL tool skills and proficiency:
+Proficient in Python and Bash, experienced with SQL and database
+management. Worked with [compaany], [compaany], [compaany] etc. Skilled
+in R.
+Experienced with PyTorch, TensorFlow, BLAST, DeepChem.
+Participation in scientific work, scientific events and
+teaching activities:
+Conducted data analysis with machine learning elements as part of a
+research team at the [compaany] of Bioinformatics, investigating the
+impact of alanine-rich N-termiinal protein sequences on translation
+initiation. Worked with servers, databases, Bash, Python, and R.
+Personal achievements:
+I was admitted to the international SchooL of Molecular and
+TheoreticaL Biology | August 2023. I completed and presented
+the project titled 'Impact of N-Terminal Alanine-Rich (NTAR) Protein
+Sequences on Translation Initiation' at the final conference/poster
+session;
+I was admitted to the [compaany] educational programs “Genome Redaction”,
+where I completed and presented the project titled “Green fluorescent
+protein (GFP) synthesis de novo”;
+I became a prize-wiNNer multiple times in the All-[location] olympiad in
+Biology and Ecology.

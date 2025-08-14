@@ -1,0 +1,2 @@
+John Smith, who works at [company] in [location], can be reached at +7 983 000 000 or [email]. He lives in [location] and his phone number is +7 983 000 000. [name] also works with Jane Doe at [company] in [location]. Jane Doe's email is [email] and her number is +7 916 123 456. They both attended [university] in [location]. [name] can be contacted at +7 983 000 000 or [email]. The meeting will be held at [location] on [date]. The project is managed by [name] at [company] in [location]. Contact [name] at [email] or +7 983 000 000.
+

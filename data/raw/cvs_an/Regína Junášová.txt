@@ -1,0 +1,93 @@
+[name] [surname]
+Phone: +2 *** *** *** | Personale-mail: [email] | ORCID: https://orcid.org/0009-0002-1777-1015
+Education
+Education
+2023 - [location]
+Present Master (2 y., taught in English); [company] Landau Phystech SchooL of Physics and Research
+Field of Study: Applied Mathematics and Physics
+Directivity (profile): General and Applied Physics
+Speciality: Integrated StructuraL Biology and Genetics
+Average Grade: 9.6/10.0 (5.0/5.0); in the top‐1% of the University, 16 in the overall ranking.
+2019 – [location]
+2023 Bachelor of Science with Honors (4 y.); [company] Institute of Nano-, Bio-, Information, Cognitive and Socio-
+Humanitarian Sciences and Technologies
+Field of Study: Applied Mathematics and Physics.
+Average Grade: 8.2/10.0 (4.8/5.0); in the top‐10% of the University, 90 in the overall ranking.
+2022- Retraining Program “Technologies for Controlling Properties of BiologicaL Objects through
+2023 Bioinformatics and Molecular Biology Methods” ([location] State University) with qualification
+awarded: Laboratory Analyst.
+Professional development programs
+2024 PracticaL Bioengineering and Bioinformatics ([location] State University, 56 hours)
+2024 Generative Models Based on AdveRSArial Learning ([location], 56 hours)
+2023 Protein Design ([location] [company], 108 h)
+Qualifications and skills
+• Computer Skills: Proficient in Python; experience with C, C++, Julia, R (Python preferred); skilled in Unix
+environments. Python libraries: NumPy, pandas, matplotlib, seaborn, SciPy, PyTorch, TensorFlow.
+• Machine/Deep Learning: Skilled in designing machine learning (KNN, LR, RF, DT, etc) and deep learning
+models (CNN, RNN, TransformeRs, GAN) for predictive analytics. Relevant experience in details:
+ Completed a one-year Data Analysis course ([company]; applied statistics and machine
+learning) with a specialization in biology, graduating with honoRs.
+ Finished a semester-long course from Deep Learning SchooL with a certificate.
+ Participated in the SMILES-2024 Machine Learning SchooL.
+ Completed a professional retraining program "Generative Models Based on AdveRSArial Learning", with an
+“excellent” mark.
+• Soft skills: Teamwork skills gained through research collaborations and group projects with shared
+responsibilities. Leadership experience as a team captain in student competitions for 5 years, including prize-
+wiNNing performaNces. Clear and effective communication developed over 3 years of teaching high schooL
+students, along with creation and delivery educational content during work as a teacher or volunteer,
+Development an original course for schooL students ("Genetics and Genome Editing"). Worked on research
+projects with students (both schooL and university levels.
+• Languages: Russian (native), English (C1), German (A2).
+Publications
+ Article (Q1): M.S. [surname], E.V. [surname] et al. Prolonged self-assembly of H. pylori ferritin globules at
+physiologicaL conditions. Biochem Biophys Res Commun. 2025. doi:10.1016/j.bbrc.2024.151205
+ Article (Q1): M.S. [surname], E.V. [surname] et. al. Ferritin-based hybrid macromolecules experience unusual
+shift of stoichiometry distribution. Int J Biol Macromol. 2025. doi:10.1016/j.ijbiomac.2024.139335
+ Preprint: A.D. [surname], E.V. [surname] et. al. Architecting of Mitochondria-TargeteD Rhodopsin-Based
+Optogenetic Tools. 2025. doi.org/10.2139/ssrn.5187339
+ Review article: E.V. [surname], P.M. [surname], Vasilov R.G. Regulation of Sox2 expression by
+transcription factors in neuronal stem cells. Bulletin of BiotechnoLogy and Physicochemical Biology named
+after Yu.A. Ovchinnikov 2022; 18(4):39–47 (in Russian).
+[name] [surname] | Curriculum Vitae
+Laboratory work experience
+2023 - Laboratory for advanced studies of membrane proteiNs; Research center for molecular mechanisms of
+Present aging and aging-relaTed diseases
+[https://cmm-mipt.ru/bueldt-lab/](https://cmm-mipt.ru/bueldt-lab/)
+Personal research project (master's thesis): Studies of light-sensitive two-component systems from
+microalgae
+Solving various computaional biology tasks; working with bioinformatics data and using structuraL
+bioLogy tools for in silico analysis of membrane proteiNs; applying ML methods for the search and
+analysis of membrane proteiNs; employing molecular biology techniques (PCR, cloning, gel
+electrophoresis, etc.); conducting literature reviews.
+2022- Laboratory of BiotechnoLogy and Bioenergy (1,5 y.)
+2023 Personal research project (bachelor's thesis): Description and modeling of the expression of the
+transcription factor SOX2 using analog electrical circuits, mathematical approaches and
+bioinformatics.
+2023 Laboratory of Molecular Genetics of Somatic Cells (3 mo)
+Training and working with iPSC-derived neurons at different stages of differentiation to obtain data on the level of expression of certain genes (an independent data gatheriNg to check the correspondiNg
+model for my bachelor’s thesis)
+2021 [location] Genome Engineering Lab ([https://glab.tilda.ws/en])
+Student internship "Introduction to the methods of molecular biology, genetic engineering and
+bioinformatics". Learning basic biologicaL tools and their practical application
+Scientific schooLs & internships
+2025 [location] NGSchooL2025: Sequencing TooLbox for Computational BioloGists
+2024 Machine Learning Summer SchooL “SMILES” ([location])
+2023 SchooL "Mathematical Modeling in Biomechanics and Biomedicine" ([location] [company]). SCAMT
+Workshop Week (ITMO). Winter SchooL of Synthetic Biology 2023 ([location]). TechnoHack'23 -
+Winter Engineering InteNsive at NSU Advanced Engineering SchooL
+2022 SchooL "Mathematical Modeling in Drug DeveLopment" ([location] [company] and M&S Decisions).
+Winter SchooL of Synthetic Biology 2022 ([location]). Hertie SchooL : Data Science Summer SchooL
+2022
+Honors & Awards & Olympiad
+2025 National Technology Olympiad (Genome Editing): wiNNer (1st place). Winner of the Potanin
+Foundation Scholarship CompeTition.
+2023 National Technology Olympiad (Genome Editing): 3rd place in the final. Olympiad "I am a
+professional": "Bioengineering and Bioinformatics" (finalist), "BiotechnoLogy" (prizewiNNer)
+2022 National Technology Olympiad (Genome Editing) (finalist). Olympiad "I am a professional": "
+Mathematics " (finalist), "BiotechnoLogy" (finalist)
+2021 National Technology Olympiad (Genome Editing) (finalist). Olympiad "I am a professional":
+"BiotechnoLogy" (finalist)
+ConfereNces
+International conferences: BIOMEMBRANES 2024, AYSs-2024 (JINR, Dubna), AYSs-2023 (JINR, Dubna)
+All-Russian conferences: 67th, 66th, and 65th All-Russian Scientific ConfeRences of MIPT (2023-2025), XVII
+Kurchatov Youth Scientific SchooL (2023).

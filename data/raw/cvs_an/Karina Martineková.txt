@@ -1,0 +1,37 @@
+[name][surname]
+[email] — +2 *** *** *** — [location]
+Objective
+AspiringMachineLearningResearcher with a strong mathematical background, currently exploring manifold regularization and hyperbolic geometry approaches to recommender systems. Seeking to deepen my expertise through the SMILES Summer School.
+Education
+M.Sc. in Artificial Intelligence and Behavioral Economics
+Faculty of Artificial Intelligence Technologies, [company]
+2024 – 2026 B.Sc. in Mathematics and Computer Science
+Department of Computational Mathematics, Faculty of Mechanics and Mathematics, Novo[location] State University
+2020 – 2024
+Research and Work Experience
+Machine Learning Engineer, National Center for Cognitive Technologies, [company]
+[location], 2024 – Present
+• Research on recommender systems with a focus on manifold regularization and hyperbolic geometry.
+• Participation in applied and theoretical ML projects, implementation of experimental pipelines using PyTorch.
+Research Developer, Institute of Computational Mathematics and Mathematical Geophysics SB RAS
+Novo[location], June 2023 – June 2024
+• Conducted research and implemented Monte Carlo–based algorithms as part of a grant project: Development of stochastic modeling algorithms for solving high-dimensional boundary value problems and their application to chemokinesis and targeted therapy.
+Technical Skills
+• ML/DL: PyTorch, NumPy, scikit-learn, torchvision, matplotlib, pandas
+• Theoretical Foundations: Probability theory, mathematical statistics, computational mathematics, optimization methods
+• Applied Math: PDEs, stochastic optimization, Monte Carlo methods, graph theory, algorithm design
+• Programming: Python, C++, SQL
+Scientific Activities and Teaching
+• Speaker at the International Student Scientific Conference (MNSC-2024)
+• Winner of the Best Talk by a Young Researcher at the XIII Congress of Young Scientists, [company]
+• Co-champion mathematics with multiple student prize winners in the regional stage of the Russian National Olympiad (VSOSH)
+Projects
+Local and Global Algorithms of Walk on Hemispheres and Semicircles
+• Developed algorithms to solve 2D and 3D Dirichlet and mixed boundary problems for Laplace and Poisson equations.
+• Achieved more than 9x speedup compared to existing methods.
+Publications and Thesis Topics
+• Current master’s thesis: Manifold regularization algorithm for top-N recommendation tasks., [company], 2025–2026 (in progress)
+• Bachelor thesis: Random walk on hemisphere algorithm for solving the Laplace equation in domains with flat boundaries, Novo[location] State University, 2023–2024
+Interests
+• Mathematics (over 10 years), olympiad-level problem solving, algorithmic thinking
+• Deep learning, generative models, geometric machine learning

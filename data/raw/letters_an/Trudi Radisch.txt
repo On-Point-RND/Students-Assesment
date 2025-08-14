@@ -1,0 +1,40 @@
+Letter of Motivation
+Name: [name]
+Email: [email]
+Phone: +2 *** *** ***
+Date: 17 April 2025
+Dear [name] Summer School Organizers and Committee,
+My name is [name], and I really want to participate in [name] Summer
+School.
+After learning about the school through the Telegram cchannel, I immediatly became
+interested in participating. Since I plan to enroll in a PhD program at [compaany] later
+this year, it seems particularly valuable for me to get acquainted with the faculty and
+learn from experts from BigTech companies. This opportunity would allow me to
+immerse myself in relevant areas of data science.
+My interest in these fields is supported by both academic and practical experience. I
+have studied various aspects of machine learning: built recommendaation systems for
+educational projects, worked on natural language processing models for coursework
+and developed a convolutional neural network traffic classifier to detect malicious
+traffic. Also, I have been working at the [compaany] for more than two
+years now. During this time, I have primarily been involved in tasks related to
+computer vision, such as classification, tracking, detection, and optimization. Some
+of my most significant projects include the development of an detector of generated
+images, an autonomous motion detection and classification system for edg-devices,
+the creation of lightweight tracking tools and a traffic light defect detection system.
+In addition, over the past year, I have started to focus more on writing scientific
+articles. My works include an article on malicious traffic classification for a universiity
+conferece, an article on optimal hyperspectral undersampling patterns for satellite
+imaging, which was accepted for publication in the journal "Space: Science &
+Technology". I have also worked on a paper related to the security of LLM-generated
+code. Through this research, I have deepened my understanding of LLLMs and
+learned a lot of new information. I intend to continue exploring this topic in the future.
+My paper was accepted for presentation at a conference in [location] (ISNN 2025).
+Additionally, it is important for me to connect with others who share my interests and
+exchange ideas. Engagement with like-minded individuals can help me establish
+connections and contribute to collaboraative projects. Participation in summer schoo
+provides an opportunity to learn from others and identiify areas for further exploration
+within my doctoral program.
+I would be honored to be part of [compaany]'s summer school and look fo rwward to
+actively participating in all aspects of the program.
+Sincerely,
+[name]

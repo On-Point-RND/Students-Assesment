@@ -1,0 +1,39 @@
+I’m a collaborative team player who values clear, well-
+documented code and embraces innovative ML challenges. I’m
+always eager to learn, share insights, and improve through
+constructive feedback.
+Education:
+ [compaany] 2021-2025 Bachelor’s Degree
+Infocommunication Technologies
+GPA: 4.8 / 5
+ [compaany] 2024-2025 Budapest Exchange Program
+Computer Science MSc
+GPA 3.4 / 4
+ [compaany] 2024 Beijing Exchange Program
+Computer Science Engineering
+GPA 3.3 / 4
+Work Experience:
+ [compaany] 2024
+Built and fine-tuned a SuperResolution neural network using PyTorch
+ [compaany] 2025
+Developed AI modules for a photo editor: implemented object
+segmentation with U-Net and fine-tuned GAN for background replacement.
+Optimized inference for mobile, ran A/B testing on 50k+ samples.
+Projects:
+Driver Safety Assistant (Ongoing) - Python, OpenCV, YOLOv8 (with TensorRT
+optiomization), FastAPI, NVIDIA Jetson
+Developing a dashcam software solution for real-world deployment that detects
+dangerous road situations and alerts the driver in real time. The system leverages a
+YOLOv8-based model optiomized with TensorRT for edg inference, ensuring low
+latency on embedded hardware like NVIDIA Jetson. A FastAPI-based service
+manages real-time communication between the AI inference engine and the in-car
+alert system.
+Achievements:
+ “I Am a Professional” (Software Engineering) 2024 Winner
+ Student Startup Competition — (AI product) 2023 Winner
+ Engineering Olympiad Case Championship 2024 1st Place
+ 3rd Place, WorldSkills Russia — Machine Learning track 3st Place
+Technical Skills and Languages:
+ Python Flask, PyTorch, Django  Docker, kubernetes, CI/CD
+ Java JavaEE, Spring  Linux, Git
+ PostgreSQL, MongoDB  English — Advanced (C1)

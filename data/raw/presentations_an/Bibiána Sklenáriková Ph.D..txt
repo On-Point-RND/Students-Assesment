@@ -1,0 +1,119 @@
+Slide 1
+----------------------------------------
+MOVE: A Mixture-of-Vision-Encoders Approach for Domain-Focused Vision-Language Processing. arXiv preprint (Feb 2025)
+[name], [name], [name], [name]
+
+Slide 2
+----------------------------------------
+Challenge: Most multimodal models rely on a single pre-trained vision encoder, which is then followed by an adapter and an LLM. 
+Effective on standard benchmarks, but limited across domains.
+Limitation: Fixed-resolution encoders struggle with high-res images, and no single encoder suits all tasks or domains.
+Existing solutions:
+Slicing techniques for high-res inputs 
+Dual-encoder architectures like LLaVA-HR
+Domain-specific encoders for grounding or medical tasks
+Problem: Combining multiple encoders may add noise or overhead in general-purpose settinings.
+
+Introduction
+https://arxiv.org/pdf/2304.08485
+
+Slide 3
+----------------------------------------
+Related works
+
+MoVA: Adapting Mixture of Vision Experts to Multimodal Context, NIPS 2024
+Eagle: Exploring The Design Space for Multimodal LMs with Mixture of Encoders, ICLR 2025 
+
+Slide 4
+----------------------------------------
+MoVA: Adapting Mixture of Vision Experts to Multimodal Context, NIPS 2024
+
+Model includes a Base Vision Encoder, multiple Vision Experts (DINOv2, Co-DETR, SAM, Pix2Struct, BiomedCLIP), a MoV-Adapter, and a shared LLM.
+Infereference consists of two steps:
+Expert Selection: The image is first encoded by the base encoder. A downsampling layer reduces the number of vision tokens. These compressed embeddings and specific prompt are used to select the most relevant experts based on the task and image.
+Final Reasoning: Visual embeddings from the base encoder and selected experts are fused via the MoV-Adapter and sent to the LLM, along with a user question, to generate the final response.
+One limitation of this approaach is the need for two-stage inference (expert selection and final reasoning), which may introduce additional overhead.
+
+Slide 5
+----------------------------------------
+Eagle: Exploring The Design Space for Multimodal LMs with Mixture of Encoders, ICLR 2025  
+
+The authors of this paper also utilize multiple visual encoders for different domains. Unlike prvious work, their approaach performs a single model inference while activating all encoders simultaneously. They concatenate the embeddings along the cchannel dimension—so the visual context size does not increase
+One limitation of this approaach is that they still need to activate all encoders at once.
+
+Slide 6
+----------------------------------------
+Our method
+
+In the current iiteration, we use three vision encoders: 
+InternViT (base encoder for general domain), 
+Texify (for LaTeX data) 
+UniChart (for charts and graphs data).
+The router is implemented as a lightweight linear layer that selects the most suitable expert based on features from the base encoder. 
+Each vision expert has its own dedicated adapter module.As a result, at most two encoders are activated per sample:
+the base encoder, whose features are used for routing
+the selected expert encoder, whose embeddings are used for reasoning.
+
+Slide 7
+----------------------------------------
+The router is pre-trained on the classification task. InternViT embeddings are used as features for classification
+Router pre-training data:
+Class 0: (General image-text pairs): 
+	-25K samples from LLaVA-ReCap-558K
+Class 1: (LaTeX documents): 
+	-25K samples from TexTeller LaTeX formulas
+Class 2: (Structured data, charts, and diagrams):  
+	- 25K samples from MMC-Instruct.  
+	- 25K samples from ChartQA
+
+Our method
+Trainable parameters
+
+Slide 8
+----------------------------------------
+Trainable parameters
+
+Frozen parameters
+
+Our method
+
+Slide 9
+----------------------------------------
+Experimental Setuup
+
+Slide 10
+----------------------------------------
+Results
+
+Slide 11
+----------------------------------------
+Future Work
+In future research:
+Plan to explore end-to-end training of both the router and the multimodal components. 
+Aim to expand the set of vision encoders to cover additional domains, such as: 
+Document understanding (e.g., Pix2Struct)
+Medical imaging (e.g., CheXpert)
+This will further enhance the domain adaptability and versaatility of our approaach.
+
+
+
+Slide 12
+----------------------------------------
+Latex examples
+
+Slide 13
+----------------------------------------
+Latex examples
+
+Slide 14
+----------------------------------------
+References
+MOVE: A Mixture-of-Vision-Encoders Approach for Domain-Focused Vision-Language Processing . https://arxiv.org/pdf/2502.15381
+MoVA: Adapting Mixture of Vision Experts to Multimodal Context. https://arxiv.org/pdf/2404.13046
+Visual Instruction Tuning. https://arxiv.org/abs/2304.08485
+https://huggingface.co/datasets/lmms-lab/LLaVA-ReCap-558K
+https://huggingface.co/datasets/OleehyO/latex-formulas
+Eagle: Exploring The Design Space for Multimodal LMs with Mixture of Encoders. https://arxiv.org/abs/2408.15998
+
+
+

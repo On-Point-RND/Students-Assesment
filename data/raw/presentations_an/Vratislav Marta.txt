@@ -1,0 +1,77 @@
+Functional model of the
+thalamo-cortiicothalamic loop
+based on the Hodgkin-Huxley model
+[name]
+Senior Educational Projects Coordinator,
+[compaany]
+Spiking Neural Netwoorks
+• mimics biological principals of brain functions
+•use spikes for transmitting signaals
+•asynchronous signaals
+• LIF-neuron – leaky integrate-and-fire neuron
+•change vertex state with up and down spikes
+•when threshoold reached neuron fires and reset to lower level
+•leaky term accounts for natural signal loss
+Project goal:
+• model brain neural connections via computational methods
+Importance
+• Understanding the source of neural loops malfunctions
+• Early diagnosis of neurodegenerative diseases onset
+•Based on Huntington Disease (HD)
+Data collection:
+• Anatomical Pathological Studies
+• Psychiatric and Cognitive Distuurbance
+• Imaging Studies
+• Clinical Manifestation
+• HD Biochemistry
+Hypothesis
+Most active neuron connections are experiencing
+most severe effects from diseases
+Experiment idea:
+1. Model construction
+2. Connections formation
+3. Most active connections disruption
+Juvenile Huntington Disease (JHD) model
+When stable activity in the striatum circuit weaens,
+the cerebellar cortex takes over the functions
+Joint network of cortico-basal ganglia-thalamo-cortiical loop (CBGTC loop) and
+сortico-pontiine-cerebellar-thalamic loop (CPCCT loop)
+Methods
+Network of 9 functional elements and
+teacher/observer
+● half-chain test on excitatoory synapses
+● full-chain test on excitatoory synapses
+● half-chain test on inhibiitory synapses
+● assembly and full-chain test on
+combiinaations of synapses
+Results
+Glu+GABA
+Glu
+Implementaions
+https://colab.research.google.com/drive/1tZ5_eSVnh6GyejywaGaw0bKMTOvd9eOU
+https://colab.research.google.com/drive/1WZTw5OghwJq_2EtHmL49LcKjwcAws6Ma
+Bibliography
+1. [surname], [surname], [surname], [surname], [surname], [surname], &
+[surname]. (2021). BCNNM: A framework for in silico neural tissue development modeling. Frontiers in
+computaational neuroscience, 14, 588224.
+2. [surname], [surname], [surname], [surname], [surname], & [surname]. (2020).
+Abnormal development of cerebellar-striatal circuitry in Huntington disease. Neurology, 94(18),
+e1908-e1915.
+3. [surname], [surname], [surname], [surname], [surname], & [surname]. (2015).
+Dynamiics of the connectome in Huntington's disease: A longitudinal diffusion MRI study. NeuroImage:
+Clinical, 9, 32-43.
+4. [surname], [surname], [surname], [surname], [surname], & [surname]. (2015).
+Dynamiics of the connectome in Huntington's disease: A longitudinal diffusion MRI study. NeuroImage:
+Clinical, 9, 32-43.
+5. [surname], [surname], [surname], [surname], [surname], & [surname]. (2020).
+Abnormal development of cerebellar-striatal circuitry in Huntington disease. Neurology, 94(18),
+e1908-e1915.
+6. [surname], [surname], [surname], [surname], [surname], & [surname]. (2020).
+Abnormal development of cerebellar-striatal circuitry in Huntington disease. Neurology, 94(18),
+e1908-e1915.
+Thank you!
+Github: @[name]
+Tg: @[name]
+[name]
+Senior Educational Projects Coordinator,
+[compaany]

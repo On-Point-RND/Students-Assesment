@@ -1,0 +1,49 @@
+[name]
++2 *** *** *** | @[name]
+Junior ML-Engineer/Researcher
+21 years
+EXPERIENCE
+Junior ML Researcher (Computer Vision Lab, Financial University under the Government of the Russian Federation)
+October 2024 – Present
+▪ Conduct research in computer vision and natural language processing, designing and implementing experimental pipelines.
+▪ Present research findings at national and international conferences.
+Junior ML Research Engineer (T-Bank, T-Fusion Team)
+November 2024 – Present
+▪ Contribute to the T-Fusion team, responsible for end-to-end image generation solutions across the company.
+▪ Research state-of-the-art image generation methodologies and deploy optimized models using Triton Inference Server.
+▪ Research and develop new methods and models in:
+o Text-to-Image generation
+o Image-to-Image translation (e.g., T2I-Adapters, ControlNets, IP-Adapters)
+o Image Restoration (Super Resolution)
+o Image Editing and Inpainting
+o Training LoRA adapters for lightweight fine-tuning
+EDUCATION
+Bachelor of Science in Applied Mathematics & Computer Science
+▪ Financial University under the Government of the Russian Federation
+▪ Specialization: Applied Machine Learning
+▪ GPA: 5.0 / 5.0
+(Expected Graduation: 2026)
+Additional training
+▪ Neural Networks with Transformer Architectures in Computer Vision (MIPT)
+▪ Generative Models for Natural Language Processing (MIPT)
+▪ Tinkoff Deep Learning Course, Fall 2022
+▪ Deep Learning School, Spring 2024
+SKILLS
+Technical skills:
+▪ Programming: Python, C++, CUDA, Git, Docker, SQL
+▪ Libraries & Frameworks: PyTorch, Hugging Face (Transformers, Diffusers, etc.), LangChain, OpenCV
+▪ Tools: Triton Inference Server, TensorBoard, Weights & Biases
+Languages:
+▪ English – Upper-intermediate (B2)
+▪ German – Advanced (C1)
+Areas of Interest:
+▪ Image Generation (Diffusion and Autoregressive)
+▪ LLMs & VLMs, Agents
+▪ Reinforcement Learning
+▪ Self-Supervised Learning in CV and NLP
+ACHIEVEMENTS
+▪ NeurIPS 2025 Applicant
+▪ Alfa x FinU Hackathon 2024 – Prize Winner
+▪ Major League Olympiad (HSE) 2024 – Finalist
+▪ Deep Learning School Olympiad 2024 – Finalist
+▪ MTS KION Hackathon 2023 – Prize Winner

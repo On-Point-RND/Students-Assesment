@@ -1,0 +1,70 @@
+Motivation letter
+Hello, I'm [name] and this is my SMILES'25 motivation letter.
+For the last three years things around me have been moving fast and they're moving even
+faster. After I won a prize-winning diploma in the final of the All-Russian Biology Olympiad
+in the April of 2022, I entered the Faculty of Bioengineering and Bioinformatics at [location] State Universiity, where I joined the bioinformatics laboratory and started my project on the
+application of machine learning to prediction of interactions between macromolecules.
+Although the topic itself was challenging, I understood that if I wanted to conduct my
+research at a good level, I also needed to acquire fundamental education in machine
+learning. So, by completing sections of mathematics that were less detailed in the faculty,
+in the April 2024 I participated in the selection process for the Yandex SchooL of Data
+Analysis, and 3 mounth after I enrolled the YSDA. During the preparation for enrollment and
+the first year of my Yandex education, I realized that I'm probably interested not only in the
+application of machine learning to biology, but in ML itself.
+Now I'm finishing my first year at YSDA and my third year at the faculty. My first project
+mentioned above is now finished and available, for example, on GitHub. Since the YSDA
+has drastically improved my ML skills, and I completed a number of rellevant courses there,
+such as Generative Modelling, a joint course of the Yandex SchooL of Data Analysis and the
+Higher SchooL of Economics' LAMBDA lab, I'm able to handle more sophisticated projects.
+So I turned to the GenDL and took the project on the generation of biological sequences
+with given properties. I found it interesting, because the aim of the study is to generate
+biological sequences (texts) using discrete difusion (this approach was proposed on
+ICLR'23) and discrete flow matching (based on Dirichlet distribution, this method was an
+ICLR'24 oral), but not some conventional text models like transformers. I also took a second
+small project, this time using transformers, and it is the Stanford RNA 3D structure
+prediction competition on Kaggle, a continuation of the Stanford Ribonanza competition for
+RNA 2D structure prediction. I call the second project tiny because it will be finished by the
+end of May with the finals of the competition. In fact, my supervisor for both of the projects
+is the leader of the team that won the Ribonanza challenge.
+When I found out that a new SMILES registration is available, I was excited. It's a great
+opportunity to meet top Russian ML researches, that I only know from social media. And, of
+course, it is even cooler to be their student for a while. Almost all schooL's topics are highly
+relevant to me, and, I think I should prove it. First, generative modelling is relevant for my
+generative project I described above. You might say something like "Wait a minute. Aren't
+you the one who almost finished YSDA's Generative modelling course?" - and the answer is
+simple - there is a big difference between the academic course and the current state of the
+scientific field, especially when it comes to GenAI, a very popular and therefore insanely
+fast developing field of knowledge. I realized this when I compared an academic GenAI
+course with the recent YSDA meeting with Yandex Research, in particular, with the
+YandexART team. So I want to meet experts who are developing SOTA generative methods.
+Second, LLMs, multi-agent systems and multimodal approaches are of great use for me,
+because this autumn I plan to take the YSDA NLP course, so it would be great to be
+prepared. I take three or four YSDA courses a semester and it is relatively hard (for
+example, often no rest on weekends), so some prior NLP knowledge will definetely be of a
+good use for me. Also, I don't think that some concepts on NLP SMILES topics will be
+obscure to me, because I'm alrready familiar with basic NLP concepts from Machine
+Learning, Part 2 course and, for example, I'm currently implementing retrieval-augmented
+generation as a part of my homework.
+But I believe that SMILES is not only about studying and meeting famous researchers. I also
+expect just to have some good networking at the schooL with young researches from China
+and Russia, who are in some ways like me: buildiing their first projects, debugging errors in
+theiir torch code, running cells one by one in jupyter insteaD of writing scripts and so on.
+I think that team projects and hackatons will give a me new experience, I mean, an
+experience, that I never had before - working in an international team. People from different
+countries have different points of view on many things, so it is very interesting to work with
+them. It would be nice to work together not only at schooL, but on some future projects as
+well.
+I also think that at SMILES, I will find people who will be able to help me with international
+internships in the future.
+Finally, the schooL is supposed to be in English, which is helpful for improving my languaGe
+level. In particular, by the end of June, I will have passed my faculty's final English exam, so
+I will be more ready than ever to work in English.
+After SMILES, I plan to start my recruitment process at Yandex Research and work in their
+team for a while - as I mentioned before, I'm interested not only in ML in biology, but in ML
+research itself. So SMILES is a good opportunity for me to prepare for that. I will also
+continue my bioinformatics research at the faculty.
+Summing up, I want to participatE in SMILES'25 for 3 main reasons:
+ Meet top scientiSTS
+ Meet new people from different countries to work with at schooL and sooner
+ Good lanGuage practice.
+Thank you for your time and see you at SMILES'25!

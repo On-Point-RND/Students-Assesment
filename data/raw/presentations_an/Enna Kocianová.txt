@@ -1,0 +1,36 @@
+
+
+Data type and data sources for agricultural big data and machine learning. Sustainability, 14(23), 16131.
+Devlin, J. (2018). BERT: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805. https://doi.org/10.48550/arXiv.1810.04805
+Harrison, F. (2011). Getting started with meta-analysis. Methods in Ecology and Evolution, 2(1), 1–10. https://doi.org/10.1111/j.2041-210X.2010.00056.x
+Lester, B., Al-Rfou, R., & Constant, N. (2021). The power of scale for parameter-efficient prompt tuning. arXiv preprint arXiv:2104.08691. https://doi.org/10.48550/arXiv.2104.08691
+
+Bibliography
+
+
+Slide 18
+----------------------------------------
+Liu, P., Yuan, W., Fu, J., Jiang, Z., Hayashi, H., & Neubig, G. (2023). Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing. ACM Computing Surveys, 55(9), 1-35. 
+Pallotta, N., Lane, J., Locklear, J. M., Ren, X., Robila, V., & Alaeddini, A. (2024). Discovering data sets in unstructured corpora: Discovering use and identifying new opportunities. Harvard Data Science Review. 
+Peng, R., Liu, K., Yang, P., Yuan, Z., & Li, S. (2023). Embedding-based retrieval with LLM for effective agriculture information extracting from unstructured data. arXiv preprint arXiv:2308.03107. https://doi.org/10.48550/arXiv.2308.03107
+Ritchie, H., Rosado, P., & Roser, M. (2023). Agricultural production. Our World in Data. Retrieved November 14, 2024, from https://ourworldindata.org/agricultural-production
+Sambrekar, K., Rajpurohit, V. S., & Joshi, J. (2018, August). A proposed technique for conversion of unstructured Agro-data to semi-structured or structured data. In 2018 Fourth International Conference on Computing Communication Control and Automation (ICCUBEA) (pp. 1-5). IEEE.
+Thirunavukarasu, A. J., Ting, D. S. J., Elangovan, K., Gutierrez, L., Tan, T. F., & Ting, D. S. W. (2023). Large language models in medicine. Nature Medicine, 29(8), 1930–1940. https://doi.org/10.1038/s41591-023-02448-8
+Vaswani, A. (2017). Attention is all you need. In Advances in Neural Information Processing Systems (Vol. 30).
+Yang, S., Yuan, Z., Li, S., Peng, R., Liu, K., & Yang, P. (2024). GPT-4 as evaluator: Evaluating large language models on pest management in agriculture. arXiv preprint arXiv:2403.11858. https://doi.org/10.48550/arXiv.2403.11858
+Yuan, Z., Chen, Y., Zhao, Z., & Eger, S. (2023). Towards Explainable Evaluation Metrics for Machine Translation. arXiv:2306.13041. https://doi.org/10.48550/arXiv.2306.13041
+Zhao, B., Jin, W., Del, J. S., & Yang, G. (2023). ChatAgri: Exploring potentials of ChatGPT on cross-linguistic agricultural text classification. Neurocomputing, 557, 126708. https://doi.org/10.1016/j.neucom.2023.126708
+
+Bibliography
+
+
+Slide 19
+----------------------------------------
+OpenAI Platform. (n.d.). Structured outputs guide. Retrieved November 14, 2024, from https://platform.openai.com/docs/guides/structured-outputs#json-mode
+OpenAI Platform. (n.d.). Text generation. Retrieved November 14, 2024, https://platform.openai.com/docs/guides/text-generation
+Pixley, K. V., Cairns, J. E., Lopez-Ridaura, S., Ojiewo, C. O., Dawud, M. A., Drabo, I., ... & Zepeda-Villarreal, E. A. (2023). Redesigning crop varieties to win the race between climate change and food security. Molecular Plant.
+The State Commission of the [location] Federation for Testing and Protection of Breeding Achievements (Gossortkomissiya). (n.d.). Retrieved September 30, 2024, from https://gossortrf.ru/
+The State Register of breeding achievements approved for use. Volume 1. Plant varieties. (n.d.) Retrieved September 30, 2024, from https://gossortrf.ru/registry/gosudarstvennyy-reestr-selektsionnykh-dostizheniy-dopushchennykh-k-ispolzovaniyu-tom-1-sorta-rasteni/
+Characteristics of plant varieties included in the State Register of Breeding Achievements approved for use. (n.d.) Retrieved September 30, 2024, from https://gossortrf.ru/publication/opisaniya-selektsionnykh-dostizheniy.php
+
+Bibliography

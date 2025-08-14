@@ -1,0 +1,118 @@
+ViEWS: a political violence
+early-warning system
+[name]
+Specialist of the Department of Scientific Work
+of the Oriental Institute, [location]
+Introduction
+What is the topic?
+The ViEWS project introduces a political violence
+Goal of the review
+early-warning system designed to revolutionize
+This presentation aims to introduce the innovative
+conflict prevention efforts.
+methodology behind the ViEWS forecasting
+system, a cutting-edge tool for predicting political
+violence in [location].
+Why is it important?
+Armed conflicts cause thousands of deaths and
+displace millions each year. Predicting and
+preventing these conflicts could save countless
+lives and mitigate humanitarian crises.
+Problem statement
+The task was to accurately predict the risk and localization of three types of organized violence in [location]:
+• State-based conflicts;
+• non-State conflicts;
+• unilateral violence against civilians.
+Challenges: Existing early warning systems often lacked transparency about their methods, had gaps in
+coverage, or were not publicly available, which limited their usefulness to researchers and decision makers.
+Scope of application: ViEWS generates monthly forecasts of the probability and geographical distribution of
+violent events in [location] at both country and subnational levels, calculated 36 months in advance.
+Methods
+Approach
+To tackle the multifaceted nature of conflict prediction, ViEWS employs an ensemble approach,
+combining logistic regression and random forest models. The models consider a range of
+factors, including conflict history, geographic location, socioeconomic indicators, political
+institutions, and the influence of neighboring conflicts, to assess the likelihood of future violence.
+Data Sources
+⦁ Conflicts: UCDP-GED (georeferenced events) and UCDP-Candidate (monthly updates).
+⦁ Socio-economic Data: World Bank (GDP, economic growth), PRIO-GRID (population,
+infrastructure).
+⦁ Political Factors: V-Dem (institutions, democracy), ACLED (protests).
+How it works
+The model operates on two levels of analysis: country (country-months) and subnational (PRIO-
+GRID), combining forecasts from thematic models to improve accuracy. Dynamic modeling and the
+"one step forward" method allow the system to update forecasts on a monthly basis and take into
+account time dependencies.
+Methods
+Data & Preprocessing
+Handling Data Projection
+Missing Data for Forecasting
+• Training period Historical conflict patterns are
+Predicted probabilities are
+(1990-2011/2015) transformed into decay
+Missing predictor values are rescaled to match observed
+functions (e.g., 2^(-m/12) The system employs
+• Calibration period (2012-
+through multiple imputation using the Amelia II conflict) external scheduled events, ensures the final ensemble
+2014/2015-2018)
+package. It prevents bias in predictions are well-
+• Testing/forecasting period
+and constant values for
+forecasting.
+static predictors for future
+Data observations. Feature
+forecasting.
+Partitioning Engineering
+Calibration
+Results
+The ViEWS ensemble models have exhibited exceptional predictive performance, effectively forecasting the
+continuation of ongoing conflicts and the spread of violence to adjacent regions.
+The system's effectiveness is meticulously
+evaluated using a combination of metrics, including
+the area under the receiver operating characteristic
+curve (AUROC), area under the precision-recall
+curve (AUPR), and Brieer score. These metrics
+provide a balanced assessment of the models'
+ability to identify high-risk cases while minimizing
+false alarms.
+A striking visual representation of the system's
+capabilities can be seen in the map of predicted
+probabilities for state-based conflict in October
+2018. This map vividly illustrates ViEWS' capacity to
+pinpoint high-risk regions across [location] by
+intelligently analyzing historical patterns and
+contextual factors.
+AUROC = 0.955 (country level),
+0.948 (subnational level)
+Research gap
+What’s missing? Unresolved challenges:
+1. Data Dependency Limitations 1. Onset of New Conflicts
+The ViEWS system heavily relies on open-source data, which can lead to
+fluctuations in predictive accuracy due to
+data quality or availability.
+2. Geographic Focus
+The ViEWS models are primarily tailored
+for [location], limiting their applicability in
+other regions.
+2. Dynamic Factors and Their Influence
+The complexity of predicting conflicts is
+exacerbated by the ever-changing
+political environments and the emergence
+of new influential actors.
+Why it matters?
+Expanding the system's geographical
+coverage will enhance its use in
+international conflict prevention
+efforts. By identifying potential conflicts
+in various regions, the models can inform
+a broader range of stakeholders and
+enable timely interventions, thus reducing
+risks on a larger scale.
+Future opportunities:
+1. Incorporating Diverse Data Sources
+2. Globalization of the Model
+Bibliography
+Hegre, H., Allaansson, M., Basedau, M., Colaresi, M., Croicu, M., Fjelde, H., ... Vestby, J. (2019). ViEWS: A political violence early-warning
+system. Journal of Peace Research, 56(2), 155-174. https:// doi.org/10.1177/0022343319823860
+Repository:
+GitHub ViEWS – code, data, and documentation.

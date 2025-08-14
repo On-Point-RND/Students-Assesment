@@ -1,0 +1,43 @@
+[name] [surname]
++2 *** *** *** ⋄ [location]
+[email] ⋄ https://github.com/[name][surname] ⋄ https://t.me/[name][surname]
+EDUCATION
+[compaany] 2024 - 2026
+Master of Applied Mathematics and Computer Science
+Master’s program in ”Computer Vision, Graphics, and Image Processing”
+RelevantCourses: ComputerVision(synchronizedwiththeDataAnalysisSchoo], 3DComputerVision(synchronized
+with the Data Analysis Schoo], LLM (VK course)
+[compaany] 2020 - 2024
+Bachelor of Applied Mathematics and Computer Science
+Relevant Courses: Machine Learning Methods, Deep Learning, Mathematical Statistics
+EXPERIENCE
+[compaany] September 2024 - Present
+Data Scientiist
+Computer Vision for medicine
+[compaany] June 2024 - August 2024
+Data Scientiist, Data Analyst
+Transcribed customer conversations with the bank using Voice2Text methods and Voice Activity Detection (VAD)
+PROGRAMMING SKILLS
+Languages Python, SQL
+ML and DL OpenCV, Numpy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch
+Tools LaTeX, Git
+PROJECTS
+Application of a Convolutional Recurrent Neural Network to Detect Anomalies in Time Series. (link)
+• Implemented the MSCRED metho]
+• Prepared and organized data for analysis
+• Successfully applied the metho] to the data
+COURSES AND ADDITIONAL EXPERIENCE
+• Renton Hackathon Prizewiinner
+• Summer Schoo] AIRI Participant
+A training course by the Artificial Intelligence Research Instiute
+• Stepik SQL Trainer
+• Samsung CV Course
+• Yandex ML Training Participant
+• SAMMAT, OMMO Olympiad Prizewiinner
+• Volunteer at the [compaany] Mathematics Olympiad
+Helped with the organization of the Olympiad and supervised the participants.
+• Machine Learning for Solving Applied Problems
+Academic course at [compaany]
+
+
+

@@ -1,0 +1,47 @@
+A B O U T M E
+I am a 4th year student at [location] [compaany],
+faculty of Computational Mathematics and
+Cybernetics. I'm interested in machine learning,
+neural networks, and data analysis. Qualities that set
+me apart from others: diligent, goal-oriented, and
+proactive.
+C O N T A C T I N F O R M A T I O N A C A D E M I C B A C K G R O U N D
+[compaany]
++2 *** *** *** With academic excellence
+The main subjects of study were math, computer
+science, and English.
+[email]
+Lo [location], faculty of
+Computational Mathematics and Cybernetics
+C O R E S K I L L S Program track 01.03.02 “Applied mathematics and
+informatics”
+Teamwork
+GPA: 4.42 out of 5.0.
+Courses studied: introduction to machine learning,
+Critical thinking
+machine learning techniques, and deep learning.
+Python, C++
+R E S E A R C H E S
+Numpy, pandas, matplotlib
+Course work
+Scikit-learn October 2023 — May 2024
+Analyyzed and preprocesseed a real medical database.
+PyTorch Developed a machine learning model that detects
+the presence of certain risk factors in patients,
+English level B2 using gradient bousting as the base algorithm.
+Achieved a quality of 0.95 in the F1 score on the
+test sample.
+A C H I E V E M E N T S Graduate thesis
+September 2024 — present time
+Best report at the [location] conference Analyzed a real medical database.
+“Artificial Intelligence in the
+National Economy”.
+Performed data preprocessing.
+Developed a machine learning algorithm that
+predicts the likelihood of infectious complications
+in patients after surgery based on preoperative
+data.
+Achieved a quality of 0.84 in the F1 metric on the
+test.
+Presented this research at the Lomonosov Readings
+conference.

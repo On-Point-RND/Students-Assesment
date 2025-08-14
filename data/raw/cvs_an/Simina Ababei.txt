@@ -1,0 +1,46 @@
+[name] [surname]
++2 *** *** *** ⋄ [email] ⋄ telegram: tardiss
+WORK EXPERIENCE
+Wildberries ([compaany]) | Data science engineer | Search Team Feb 2024 - now
+• Developed a new product sorting frequency algorithm, conducted A/B testing and deployed the feature to
+production, resulting in a +0.4% A2C
+• Designed a hierarchical framework of key metrics for Search services, created ETL pipelines and dashboards to
+monitor and analyze these metrics
+• Established a comprehensive methodology for conducting A/B tests within the Search system, improving experiment
+reliability and decision-making
+Ozon ([compaany]) | Analyst-developeer | Search Ranking Team Sept 2021 - Jan 2024
+• Responsible for designing datamarts and ETL pipelines, ensuring strict adherence to SLA and DQ
+requirements for production processes. Boosted the speed of the ETL process, resulting in a remarkable 22% improvement
+• Executed infrastructure projects, including seamless migration to new Airflow and continuous CI maintenance
+• Developed interactive Grafana dashboards to provide insightful visualizations for Search products
+• Designed and executed A/B experiments for Search products, evaluated results and conducted analysis for
+making data-driven decisions. Drove feature rollout by identifying positive metric impacts, +0.6% A2C
+• Integrated comprehensive metrics into the A/B platform to enhance performance tracking for various products
+• Conducted user research (CJM), identifying and resolving errors in prediction and typo detection systems
+• Resolved incidents during on-call duty, minimizing downtime and ensuring uninterrupted operations
+• Conducted technical interviews, assessing candidates’ skills to build a capable analytics team
+Moscow Institute of Physics and Technology | Seminar Leader Jan - Jun 2023
+• Delivered seminars on the "Database management system" course to two groups of 28 third-year students
+• Offered mentorship and reviewed homework assignments for student projects, ensuring successful completion
+JetBrains | Intern Analyst | The "Tips of the Day" team Summer 2020
+Samsung Research Center | Intern Developeer Summer 2018
+EDUCATION
+Master of Management | Higher School of Economics University 2024 - 2026
+• Courses: Strategic Management, Operational Efficiency, Business Analytics and AI
+Master of Applied Mathematics and Computer Science | Higher School of Economics University 2021 - 2023
+• Courses: Machine Learning, Big Data, MLOps, Deep Learning, Time Series Analysis
+• Thesis: "Tensor Decoompositions in Application to Recommender Systems"
+Bachelor of Physics | Lomonosov Moscow State University | Department of Quantum Technologies 2017 - 2021
+• Courses: Algorithms and Data Structures, Machine Learning, Neural Networks, Mathematical Analysis, Linear
+Algebra, Mathematical Statistics, Probability Theory
+• Thesis: "Quantum Tomography of Qubits based on Single Atoms"
+SKILLS
+Programming Python, SQL
+Technologies Hadoop, Airflow, PySpark, ClickHouse, Postgres, Vertica, Docker, Git, Grafana, A/B
+Analytics/ML tools Scikit-Learn, Numpy, Pandas, Matplotlib, Plotly, Pytorch, Catboost
+Languages English (upper-intermediate), Russian (native)
+ACHIEVEMENTS
+• ML-hackathon "I’m professional" - top 1 in Russia 2021
+• ML-hackathon "GSB Data battle" - top 3 in Russia 2021
+• Received the "Umnik" grant for achievements in science, specifically in the field of quantum computing 2019
+• Prize-winner in the school Olympiads in mathematics and physics 2017

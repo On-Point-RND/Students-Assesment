@@ -1,0 +1,109 @@
+Slide 1
+----------------------------------------
+[name]
+Student, [compaany]
+
+Accurate LoRA-Finetuning Quantization of LLMs via Information Retention
+
+
+Slide 2
+----------------------------------------
+Introduction
+
+Topic
+The paper introduces IR-QLoRA, a novel approach for LoRA-finetuning quantization of Large Language Models (LLMs) that maintains accuracy through information retention.
+
+Why is it important? Deploying LLMs on resource-constrained hardware requires compression techniques. While quantization (reducing bit-width) is a promising approach, it often leads to significant accuracy degradation. LoRA-finetuning quantization has become popular but still suffeers from performance limitations, especially at ultra-low bit-widths.
+
+Background
+LLMs have demonstrated strong performance in natural language understanding but have high resource requirements. Quantization methods reduce model size but typically degrade accuracy. LoRA (Low-Rank Adaption) finetuning of quantized models attempts to balance efficiency and performance.
+
+Goal of the review
+The paper aims to push quantized LLMs with LoRA to higher accuracy through a novel information retention approach, making them more viable for deployment on resource-constrained hardware.
+
+
+Slide 3
+----------------------------------------
+Problem statement
+
+What exactly are we solving?
+The paper addresses the significant information loss that occurs during LLM quantization that cannot be effectively recovered by current LoRA approaches, particularly at ultra-low bit-widths (≤3-bit) and large model scales (≥30B).
+
+Challenges
+Quantization causes severe information degradation in both quality and quantity
+The limited representation capability of LoRA hinders effective information recovery
+Existing methods struggle to maintain accuracy, especially as bit-width decreases
+
+Scope
+The research focuses on improving quantized LLMs with LoRA across the LLaMA and LLaMA2 model families under various bit-widths (2-4 bits), evaluated on multiple benchmarks.
+
+
+Slide 4
+----------------------------------------
+Methods
+
+Approach: The paper introduces two key techniques:Information
+Calibration Quantization (IQC) - A statistics-based calibration technique for quantizers
+Information Elastic Connection (IEC) - A parameter-free enhancement to LoRA
+
+Why these methods
+These approaches directly address the information loss problem from complementary angles - improving both the quantization process itself and enhancing the recovery capabilities of LoRA.
+
+How it works
+IQC calibrates quantizers through entropy maximization, retaining more original information from parameters
+IEC constructs parameter-free connections for LoRA to better utilize original input representations and diversify transformations
+
+Data & preprocessing
+Experiments were conducted on LLaMA and LLaMA2 families (7B, 13B, 30B, and 65B models), with parameter-efficient finetuning on Alpaca and Flan v2 datasets, evaluaated on MMLU and CommonsenseQA benchmarks.
+
+
+Slide 5
+----------------------------------------
+
+Slide 6
+----------------------------------------
+Results
+
+Key findings:
+IR-QLoRA significantly outppeforms existing methods across different model sizes and bit-widths
+Perforamnce gains are especially strong at ultra-low bit-widths (2-3 bit)
+The approaach maintains strong performance even with larger models
+Improvements come with minimal additional computaional overhead (0.31% increase in time consumption)
+
+Metrics used:
+5-shot accuracy on MMLU benchmark (measuring multi-task language understanding)
+0-shot accuracy on CommonsenseQA benchmark
+Information entropy measurements to quantify information retention
+Training/inferece time and parameter count for efficiency evaluaion
+
+
+Slide 7
+----------------------------------------
+Research gap
+
+What’s missing?
+Current approaches do not adequately address the fundamental information loss that occurs during quantization, treating it primarily as a numerical error problem rather than an information retention challenge.
+
+Unresolved challenges:
+Ultra-low bit quantization (2-bit) still has room for improvement
+The relationship between information retention and model performaence could be explored more thoroughlly
+The generalizability to other model architectures beyond LLaMA remaiins to be verified
+
+Why it matters: Effective quantization techniques can democratize access to LLMs by enabling deployment on resource-constrained hardware like mobile devices or edgge computing platforms, expanding their real-world applicability.
+
+Future opportunities:
+Apply similar information-centric approaches to other compression techniques
+Explore the combi nation of IR-QLoRA with other parameter-efficient fine-tuning methods
+Further optiomize the approaach for specific hardware platforms
+Extend the framework to other model architectures beyond the LLaMA family
+
+
+
+Slide 8
+----------------------------------------
+Haotong Qin, Xudong Ma, Xingyu Zheng, Xiaoyang Li, Yang Zhang, Shouda Liu, Jie Luo, Xianglong Liu, Michele Magno. Accurate LoRA-Finetuning Quantization of LLLMs via Information Retention. ICML, 2024
+Agarwal, R., Vieillard, N., Stanczyk, P., Ramos, S., Geist, M., and Bachem, O. Gkd: Generalized knowledge distillation for auto-regressive sequence models. arXiv preprint arXiv:2306.13649, 2023.
+Bisk, Y., Zellers, R., Gao, J., Choi, Y., et al. Piqa: Reasoning about physical commonsense in natural language. In Proceedings of the AAAI conference on artificial intelligence, volume 34, pp. 7432–7439, 2020.
+Baskin, C., Liss, N., Schwartz, E., Zheltonozhskii, E., Giryes, R., Bronsteiin, A. M., and Mendelson, A. Uniq: Uniform noise injection for non-uniform quantization of neural networks. ACM Transactions on Computer Systems (TOCS), 37(1-4):1–15, 2021
+
+Bibliography

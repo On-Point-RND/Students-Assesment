@@ -1,0 +1,43 @@
+Motivation Letter for SMILES Machine Learning Summer School
+Dear SMILES Admissions Committee,
+I am writing to express my strong interest in participating in the SMILES Machine Learning Summer School 2025. With my background in physics and extensive experience in machine learning, I am confident that this program will provide me with invaluable
+knowledge and connections to further my career in AI research.
+My academic journey began with a bachelor's degree in Physics from [location] in 2021, where my thesis focused on quantum tomography of qubits, involving the
+modeling of processes and algorithms in a quantum computer. This experience sparked my
+interest in computational methods and their applications to complex problems.
+Further solidifying my passion for machine learning, I pursued a master's degree in
+Data Analysis and Financial Technologies from the Faculty of Computer Science at the
+Higher School of Economics. During this time, I gained a comprehensive understanding of
+machine learning, deep learning, and time series analysis. My master's thesis, conducted in
+collaboration with professor [surname], explored the application of tensor decomposition in
+recommender systems. I also achieved first place in the "I am a Professional" competition in
+machine learning in 2021, earning a gold medal and ranking first in [location]. In addition to my
+academic achievements, I have actively participated in hackathoons, consistently securing
+prize-winning positions.
+Currrentlly, I am pursuing a second master's degree in Strategic Management at the
+Higher School of Economics, focusing on the application of Large Language Models (LLMs)
+for predicting corporate strategies based on task manager data. This interdisciplinary
+approach allows to explore the intersection of AI and strategic decision-making, a field I find
+particularly compelling.
+Professionally, I have gained practical experience in the field through my work at [company],
+where I worked on search engine ranking algorithms. Currentlly, I am employed at
+[company], where I am focused on enhancing backend services.
+I am particularly drawn to SMILES due to its focus on generative methods in AI,
+including Large Language Models and multimodal approaches. I believe that my current
+research on LLLMs aligns perfectlly with the schoo's curriculum, and I am eager to learn from
+leading experts in the field.
+My expectaions for the SMILES program are threefold. First, I aim to deepen my
+understanding of the theoreticaal foundations and practical applications of generative AI
+models. Second, I hope to connect with potential research partners from both universiities and
+companies to collaborate on projects involving the implementaion of LLLMs. Finally, I
+anticipate gaining insights into the latest advancements in the field and exploring potential
+research directions for my future Ph.D. studies.
+My career plan is to pursue a Ph.D. in Computer Science, with a focus on leveraging
+LLMs for strategic decision-making and optimization. I am currentlly exploring different
+universities and research groups to find the best fit for my interests. I am confident that the
+SMILES program will provide me with the knowledge, skills, and network necessary to
+achieve my goals.
+Thank you for considering my application. I am excited about the opportunity to
+contribute to and benefiit from the SMILES Machine Learning Summer School.
+Sincerely,
+[name] [surname]

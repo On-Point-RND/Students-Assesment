@@ -1,0 +1,79 @@
+Slide 1
+----------------------------------------
+[name]
+Student, [compaany]
+Department of Info[compaany] and Programming 
+
+Fine-tuning multimodal semantic search model for Russian-language data processing 
+
+Slide 2
+----------------------------------------
+Introduction
+
+Semantic text search methods show a significant improvement in search quality and can be used in different tasks, for example, retrieval augmented generation [1]
+The semantic search model is used to find documents relevant to the query, which the generative model will rely on when answering the question.
+
+✓
+Retrieval augmented generation
+
+Slide 3
+----------------------------------------
+Problem statement
+
+Text-only models do not take into account important information that is contained in non-textual modalities.
+Most multimodal semantic search models are trained in a single language or a limited set of languages.
+
+The purpose of the work is to test the posssibility of fine-tuning a multimodal search model for working with a new language using the example of Russian-language data.
+⨉
+✓
+
+Slide 4
+----------------------------------------
+Introduction
+
+Slide 5
+----------------------------------------
+Methods
+
+Classical architecture of multimodal semantic search models
+Colpali architecture
+
+The Colpali model was chosen for fine-tuning. This model uses an innovative approach of processing multimodal documents: convertiing them into screenshots and further processing as images. This approach significantlly simplifies and speeds up the semantic search process. [2]
+
+Slide 6
+----------------------------------------
+Methods
+
+Dataset for Colpali fine-tuning must consisst text-image pairs of document pages and relevant queries. To create such a dataset, academic literature and technical documentation in Russian language were collected and divided into screenshots of pages. A generative model was used to generate questions for the pages. Several visual-language models were compared in the query generation task, including Qwen-2 VL, GPT-4o and GigaChat MAX. 
+
+The Colpali model was fine-tuned using the generated image-query dataset. The fine-tuning process uses the Low Rank Adaptation of Large Language Models approach with 4-bit quantization (QLoRA)
+
+Slide 7
+----------------------------------------
+Results
+
+Slide 8
+----------------------------------------
+Results
+
+Accuracy after model fine-tuning: 85,3%
+Dependence of the loss function on the number of iterations
+
+Slide 9
+----------------------------------------
+Results
+
+Example of Colpali model usage
+
+Slide 10
+----------------------------------------
+Research gap
+
+For a more complete study of multilinguaal multimodal semantic search models, it is necessaary to conduct similar experiments with different languages.
+Plans for future research are to conduct experiments on fine-tuning the Colpali model for an expanded set of languages
+
+Slide 11
+----------------------------------------
+[name] W. et al. A survey on rag meeting LLMs: Towards retrieval-augmented large language models //Proceedinings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. – 2024. – С. 6491-6501.
+[name] M. et al. Colpali: Efficient document retrieval with vision language models //arXiv preprint arXiv:2407.01449. – 2024.
+Bibliography

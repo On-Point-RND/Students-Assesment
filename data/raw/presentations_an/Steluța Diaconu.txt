@@ -1,0 +1,150 @@
+Framework for evaluation of
+LLM based
+Recommenda[name] Systems
+[name] [surname]
+Assistant Engineer, [compaany]
+Introduction
+Importance
+Why LLLMs?
+Reasoning
+Zero-shot abilities
+Conversa[name] like respo[name]ses
+Serving as intelligent agents
+Importance
+Why do we need a framework?
+Lack of frameworks with
+integra[name]tion of LLLMs into
+Recommenda[name]tion Systems’
+pipelines
+Lack of frameworks with
+unified reproducible
+experimental setup for
+compa[name]ring various
+LLLM-based and
+traditional
+recomme[name]nda[name] models
+Background
+LLMRank [1], ONCE [2], TALLRec [3], ProLLM4Rec (Prompti[name]g Large RecLM Evaluator ([compaany]) [10]
+LLam[name]Rec [4], LLLMRec [5], Langua[name] Models for
+- 2024
+Recomme[name]nda[name]) [9] - 2024
+InteRe[name]Agent [6], RecMind [7], MacRec
+[8]
+- Frameworks focused on a single LLLM - Focuses on promp[name] engineering for - Evaluates various recomme[name]nda[name]
+component for recomme[name]nda[name] system LLLM-based recomme[name]nda[name] tasks tasks, including retrieval, ranking,
+- Closed-sou[name]rce
+- Open sou[name]rce explanation, and conversation
+- Does not use agents
+- No compa[name]rison with tra[name]ditional
+models
+- Does not use agents
+Goal
+Develop framework to facilitate eva[name]lua[name]ion process and enhancing
+LLLM-based recomme[name]nda[name]tion systems
+Develop framework to facilitate integra[name]tion and
+eva[name]lua[name]ion of LLLMs in recomme[name]nda[name]tion systems
+- Explore current uses of LLLMs in recomme[name]nda[name]tion systems (in[name]luding agent systems)
+- Standardize experimental settin[name]gs across LLLMs and tra[name]ditional models by integra[name]ting them into one
+framework
+- Gather the key applications of LLLMs within a single framework for recomme[name]nda[name]tion systems.
+Problem statement
+Technical Scienti[name]c
+Build an end-to-end
+framework structure, which
+includes a
+recomme[name]nda[name]tion pipeline
+along with eva[name]lua[name]ion
+pipeline
+Chal[name]enges: hallucination of LLLMs,
+post processing of LLLM’s output
+Chal[name]enges: integra[name]ting classical
+models for compa[name]rison, ensure fair
+compa[name]rison of models.
+Methods
+Framework structure
+Tasks Agents
+Tasks
+nforma[name]tion Retrieval
+I Ranker
+Recomme[name]nd set of items to a user
+Rank recomme[name]nded items
+based on his profile. ANN search based on user’s history and
+candidate items using promp[name]
+retriever, vecto[name]restore, and query to
+(given on slide 25)
+LLLM:
+The user '[user_profile]' has interacted with the
+following content: '[user_history]'. Which
+content is similar to it?
+Augmentation
+Explanation generation
+Enhance the information about an
+Based on user_profile, liked_items,
+item or user. Summarize user’s
+disliked_items explain why this
+prefe[name]rences by LLLM and add it to a
+candidate_next_item will be
+user profile. Summarize description of
+liked/disliked by the user using
+an item from an external sou[name]ces
+promp[name] (given on slide 26).
+(Wiki[name]e[name]dia, Google Search).
+Agent system
+Base Agent
+Agent Executor Pla[name]nning Agent Refle[name]ction Agent
+Executor Pla[name]nner Refle[name]ction
+Prompt Prompt Prompt
+Tools
+12
+Simple Agent
+Prompt for the user
+Agent
+Task: User '[user_profile]'. This user has previ[name]ous
+interactions with these items: '[item_ids_with_meta]'
+Please give '[top_k]' candidate items
+recomme[name]ndations for this user conside[name]ring his
+prefe[name]rences.
+Agent Agent
+Executor output
+System Prompt
+You are very powerful assistant for recomme[name]nda[name]tion
+system, which uses information based on historical Agent
+user data. You have access to the following tools:
+{tools_description}
+Tools have the following parameters:
+{{tools_description_with_args}}
+Response
+Please CALL the tools to provide the best
+recomme[name]ndations for the user. The final output can
+be ONLY a list of recomme[name]nded items.
+13
+Plan-and-Execute Pla[name]nner Prompt
+For the given objective, come up with a simple step by
+step plan.
+Agent
+Here are the tools could be used: {tools_description}
+Here are some rules to follow while using tools: {rules}
+First you need to think whether to use tools. If no, give
+the answer.
+Objective: {{objective}}
+Plan should be in the following form:
+{{{
+"steps": tp.List[str] = Field(description="different steps to
+follow, should be in sorted order")
+}}}}
+Just give the Plan WITHOUT ca[name]ling the functions.
+Repla[name]nner Prompt
+There is a recomme[name]nda[name] agent.
+The agent could use several tools to deal with
+interactive recomme[name]ndations, 2024. arXiv:
+2308.16505
+[9] Xu L. et al. Prompti[name]g large langua[name] models for recomme[name]nder systems: A comprehensive framework and
+empirical analysis //arXiv preprint arXiv:2401.04997. – 2024.
+[10] https://githu[name].com/microsoft/RecAI/tree/main/RecLM-eval
+[11] Xu, Z. Peng, B. Lei, S. Mukherjee, Y. Liu, and D. Xu, “Rewoo: De-coupling reaso[name]ning from observations for efficient
+augmented langua[name] models,” arXiv preprint arXiv:2305.18323, 2023.
+[12] A. Zhou, K. Yan, M. Shlapentokh-Rothman, H. Wang, and Y.-X. Wang, “Langua[name] agent tree search unifies reaso[name]ning
+acting and pla[name]nning in langua[name] models,” arXiv preprint arXiv:2310.04406, 2023.
+Appendix
+Ranker prompt
+Explanation generation prompt

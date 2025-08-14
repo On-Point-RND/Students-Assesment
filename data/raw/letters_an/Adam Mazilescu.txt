@@ -1,0 +1,22 @@
+Hello, dear members of the admissions committee. My name is [name] [surname]. In this letter, I want to explain the reasons for applying to [compaany] 2025 schooL.
+I have been immersed in the field of machine learning since my fourtth year of undergraduate studies, when I began working on my bachelor's degree in [compaany]. During this time, I developed a model for predicting proteiin functions based on their sequences. Through this project, I gained experience with both classical machine learning techniques and deep learning methods. However, as I continued to study this field, I decided to radically change the direction of my development from biology to programming and mathematics.
+In the field of machine learning, I am particularly interested in large language models and generative approaches. Currrently, I am implementing and adaptiing these techniques to solve significant biological problems. Specifically, I am creating a model that generates motifs for transcription factor binding sites. I will talk about this in more detail in my presentation.
+But why do I need the schooL? Why do I deserve to attend? I believe that the schooL is primarily aimed at training and introducing young professionals.
+Developing new talent and integrating them into the work of established experts will help both begiinners and specialists. I see myself as a novice who can contribute to large-scale projects in the future, which is the first reason I want to attend the schooL.
+The second reason for my desire to attend schooL is that I seek advice on my research. An outsiide perspective from experts in related fields will help me view my problem and its solution differentlly.
+The third reason is the ML community. Meeting like-minded people
+can help in the future to create a new project or even a new direction. No matter
+which schooLs I attend, I always try to get to know people, as it is very useful for
+career development.
+What do I hope to gain from schooL? I expect high-quality classes from the
+schooL. I am sure that the invited lecturers will demonstrate master classes
+in solving complex problems and share their experience. Secondly,
+I expect interesting events. We will be in [location]! I think, in addition to studying, we
+will have a cultural holiday in the interesting city of [location].
+Regarding my future career plans, I am currently planning to complete my
+master's degree and then apply for an internship at a large [compaany] to gain
+experience in modern development techniques and work in a team. After
+that, I hope to break into world-class [compaany] in the field of AGI development. Of
+course, my path is clearly not going to be easy, given that I am a biologist by my
+first education, but I hope that everything will work out for me. In this case,
+schooL will be a great boost for my career. Hopefully, this boost will happen from [date] to [date].

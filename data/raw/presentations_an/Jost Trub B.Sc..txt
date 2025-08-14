@@ -1,0 +1,156 @@
+Slide 1
+----------------------------------------
+[name]
+[compaany]
+[compaany]
+
+Multimodal Emotion Recognition
+
+Slide 2
+----------------------------------------
+Introduction
+
+Topic: Development of a multimodal emotion recognition system based on a unified Valence–Arousal–Dominance (VAD) embedding space.
+Why it’s important:
+Overcomes limitations of single‑modality emotion classifiers (e.g., video‑only or audio‑only).
+Enhances robustness when some input channels (face, voice, text, physiology) are missing or corrupted.
+Critical for reliable human–computer interaction, mental‑health monitoring, and affective robotics.
+Background:
+Traditional MER approaches rely on separate CNN/RNN pipelines per modality and disparate annotation schemes.
+Continuous VAD space offers a common “emotional coordinate system,” enabling seamless integration and transfer learning across datasets.
+Contrastive learning techniques (InfoNCE) align heterogeneous modality embeddings with target VAD coordinates.
+Goal of the review:
+Present the design and implementation of a VAD‑aligned fusion architecture.
+Demonstrate its performance and interpretability on heterogeneous datasets (e.g., SMG, iMiGUE).
+Highlight the system’s robustness to missing modalities and its ability to map micro‑gestures to continuous emotional states.
+
+
+Slide 3
+----------------------------------------
+Problem statement
+
+What exactly are we solving?
+A unified framework for recognizing human emotions from multiple, heterogeneous signals
+Bridging the gap between categorical emotion labels and continuous VAD representations
+Ensuring robust performance even when one or more modalities (video, audio, text, physiology, pose) are missing
+Key Challenges
+Heterogeneous‐modality fusion: Different feature spaces (e.g. CNN for video, Transformer for text) must be aligned into one shared embedding
+Annotation inconsistency: Reconciling categorical datasets with continuous Valence–Arousal–Dominance labels
+Missing‐data resilience: Designing the model to gracefully handle absent or corrupted input channels
+Interpretability: Providing transparent mappings from raw gestures and signals to VAD coordinates
+Computational efficiency: Balancing model complexity with real‑time inference constraints
+
+Scope of This Work
+Architecture design: Contrastive‑learning–based fusion into a VAD‑aligned embedding space
+Modality coverage: Video (MViT‑V2), audio (Wav2Vec2), text (BERT), and skeleton data (ST‑GCN)
+Datasets & evaluation: SMG and iMiGUE (categorical gestures) → VAD mapping; quantitative metrics (CCC, F1) and qualitative embedding‑space analysis
+Outcomes:
+Demonstrated semantic clustering of micro‑gestures in VAD space
+Robust recognition with partial inputs
+A reusable blueprint for future multimodal affective systems
+
+
+Slide 4
+----------------------------------------
+Methods
+
+Approach
+1. Techniques & Algorithms
+Modality‑specific encoders:
+Video → MViT‑V2 (multiscale vision transformer)
+Audio → Wav2Vec2 (self‑supervised speech encoder)
+Text → BERT (bidirectional transformer)
+Skeleton → ST‑GCN (spatio‑temporal graph convolution)
+Contrastive learning (InfoNCE loss): aligns each modality’s embedding with its target VAD vector
+Mid‑level fusion: single linear projection layer maps concatenated embeddings into shared VAD space
+Regression head: predicts continuous (valence, arousal, dominance) coordinates
+2. Why These Methods?
+Pretrained transformers & GCNs capture rich, modality‑specific features with minimal task‑specific training
+Contrastive InfoNCE ensures semantically similar emotional states (across modalities) are pulled together in VAD space
+Linear fusion is lightweight and avoids over‑parametrization, enabling efficient real‑time inference
+Regression to VAD supports both continuous emotion modeling and downstream discretization
+3. How It Works (Intuition)
+Each input (frame sequence, audio clip, text snippet, or pose graph) is encoded into a vector.
+Contrastive loss pulls that vector close to its “ground‑truth” VAD point and pushes apart non‑matching samples.
+The fused embedding directly yields a point in the 3D VAD space, interpretable as an emotional coordinate.
+4. Data & Preprocessing
+Cleaning & normalization: remove low‑quality frames/audio, standardize feature scales per modality
+Feature extraction:
+Video → sample frames + MViT‑V2 backbone
+Audio → compute raw waveform embeddings via Wav2Vec2
+Text → tokenize + BERT embeddings
+Pose → extract OpenPose25 keypoints + ST‑GCN features
+Label conversion: map all categorical annotations to continuous VAD coordinates via published lexicons
+
+
+Repository
+
+
+Slide 5
+----------------------------------------
+Results
+
+Key Findings
+Strong continuous predictions: CCC ≈ 0.72 (Valence), 0.61 (Arousal), 0.68 (Dominance)
+Accurate discretization: F1‑score ≈ 0.79 on six basic emotion categories
+Interpretable embeddings: gestures form tight, semantically meaningful clusters in VAD space
+Robustness: performance drops by < 15 % when any single modality is removed
+
+Metrics Used
+Concordance Correlation Coefficient (CCC): measures agreement between predicted and true continuous VAD values (combines precision and accuracy)
+F1‑Score & Accuracy: evaluate discrete emotion classification after VAD discretization (balances precision & recall)
+
+Visuals
+Table: CCC & F1 across full‑fusion vs. individual‑modality models
+Scatterplot: 3D VAD embedding of micro‑gestures showing semantic clusters
+Bar Chart: Ablation study—impact of missing modalities on overall performance
+
+
+
+Slide 6
+----------------------------------------
+Research gap
+
+What’s Missing?
+Limited cross‑dataset generalization: most models trained on a few benchmarks struggle with unseen domains or cultures
+Static fusion strategies: mid‑level fusion can’t adaptively weigh modalities per sample or context
+Incomplete modality coverage: skeletons and textual context often omitted
+Unresolved Challenges
+Real‑world robustness: handling noisy, asynchronous, or occluded inputs in-the-wild
+Bias & fairness: cultural and demographic biases in pre‑trained encoders and annotation lexicons
+Personalization: one‑size‑fits‑all emotion mapping ignores individual differences in expressivity
+Why It Matters
+Broader applicability: closing these gaps unlocks reliable emotion AI for global audiences and varied settings (telehealth, education, automotive)
+Trust & ethics: bias mitigation and adaptive fusion build more equitable, transparent affective systems
+User engagement: personalized, context‑aware emotion recognition enhances user experience and satisfaction
+Future Opportunities
+Dynamic Fusion: learn attention weights per modality & per sample using meta‑learning or gating networks
+Expanded Modalities: integrate wearables (ECG, GSR), text sentiment, and eye‑tracking for richer affective context
+Self‑Supervised Pretraining: leverage large unlabeled corpora of multimodal interactions to bootstrap emotion embeddings
+Cross‑Cultural Calibration: develop mapping schemes and lexicons tuned to different languages and cultural norms
+Online Adaptation: enable continual learning to personalize the VAD mapping to each user’s unique expression profile
+
+
+
+Slide 7
+----------------------------------------
+Hang, X. et al. Missing Modality Imagination Network for Emotion Recognition with Uncertain Missing Modalities, 2021.
+Girdhar, R. et al. ImageBind: One Embedding Space to Bind Them All, 2023.
+Filali, H. et al. Meaningful Multimodal Emotion Recognition Based on Capsule Graph Transformer Architecture, 2025.
+Liu, H. Emotion Detection through Body Gesture and Face, 2024.
+Li, D. et al. Enhancing Micro Gesture Recognition for Emotion Understanding via Context‑aware Visual‑Text Contrastive Learning, 2024.
+Xu, M. et al. FreeBind: Flexible Multimodal Representation Learning, 2023.
+Vaswani, A. et al. Attention Is All You Need, 2017.
+Soleymani, M. et al. A Survey on Multimodal Emotion Analysis: Methods, Trends, and Challenges, 2021.
+Koelstra, S. et al. DEAP: A Database for Emotion Analysis Using Physiological Signals, 2012.
+Devlin, J. et al. BERT: Pretraining of Deep Bidirectional Transformers for Language Understanding, 2019.
+He, K. et al. Deep Residual Learning for Image Recognition, 2016.
+Li, Y. et al. MViTv2: Improved Multiscale Vision Transformers for Classification and Detection, 2022.
+Li, K. et al. Joint Skeletal and Semantic Embedding Loss for Micro Gesture Classification, 2023.
+Wang, Z. et al. UniBind: Universal Binding for Multimodal Representation Learning, 2024.
+Mohammad, S. M. Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words, 2018.
+Chen, H. et al. SMG: A Micro Gesture Dataset Towards Spontaneous Body Gesture for Emotional Stress State Analysis, 2023.
+
+
+
+Bibliography

@@ -1,0 +1,45 @@
+[name] [surname]  
+[email] | t.me/[surname] | github.com/[surname]  
+
+**Education**  
+Faculty of Bioengineering and Bioinformatics  
+September 2018 – June 2025  
+[company]  
+Specialist Degree, GPA 3.83/4.00 [location]  
+
+**Thesis topic:** "Machine learning for modeling transcribed regulatory elements of the human genome"  
+
+**Related Scientific Work and Research Experience**  
+Laboratory of Systems Biology and Computational Genetics  
+July 2023 – Present  
+[company]  
+Research student [location]  
+- Modeling genome regulatory elements: Developed lightweight transformer-CNN hybrid model for nucleotide-resolution transcriptional activity prediction (CAGE-Seq), aiming to understand transcription rules driven by motifs and SNPs. Integrated various options, such as Flash-Attention, PyTorch SDPA and custom attention backends, DynPos, RoPE, ALiBi, Differential Transformer attention mechanism. Compared it to various architectures, such as xLSTM, biLSTM, U-Net, CNN with MBConv blocks and hybrids.  
+- TF binding sites prediction: Adapted LegNet (EfficientNetV2-like) architecture for genome-wide prediction of TF binding sites using diverse array of in vitro and in vivo data. Improved training convergence by initializing weights of the first layer with PWMs of known motifs.  
+- The IBIS Challenge, Codebook/GRECO-BIT open challenge in Inferring Binding Specificities of human TFs from multiple experimental data types. Contributed to the organization by designing the frontend, backend API, news writing and post-challenge analysis. Validated and reproduced participants’ solutions, including CNNs, CNNs+SE layers, hybrid CNN+GRU/LSTM, CNN+KAN, kmers+gradient boosting, TF-IDF+gradient boosting (TensorFlow, Keras, PyTorch, PyTorch Lightning, Keras TCN, scikit-learn & CatBoost, etc). Website: ibis.autosome.org  
+
+**Publications**  
+The Temporal and Geographical Dynamics of Potato Virus Y Diversity in [location].  
+- [name][surname], [name][surname], [name] [surname], [name][surname], [name][surname], [name][surname], [name][surname], [name][surname], [name][surname], [name][surname].  
+International Journal of Molecular Sciences. 2023; 24(19):14833. doi.org/10.3390/ijms241914833  
+
+Genomes of Alphanucleorhabdovirus Physostegiae Isolates from [location].  
+- [name] [surname], [name][surname], [name][surname], [name][surname], [name][surname], [name][surname], [name][surname], [name][surname].  
+Virology Journal. 2022; 19(1):1-12. doi.org/10.1186/s12985-022-01780-2  
+
+**Conference Presentations**  
+- "Advances in Computational Genomics," [company], [location], 2023  
+- "Machine Learning for Transcriptional Regulation," [company], [location], 2022  
+
+**Scholarships**  
+- [company] Scholarship for Academic Excellence, 2023  
+- [company] Research Grant, 2022  
+
+**Technical Skills**  
+- Programming: Python, R, Bash, SQL  
+- Tools: TensorFlow, PyTorch, Jupyter, Git, Docker, AWS  
+- Analysis: Bioinformatics, NGS data processing, machine learning  
+
+**Languages**  
+- English: Fluent  
+- [language]: Native

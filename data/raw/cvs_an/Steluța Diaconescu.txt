@@ -1,0 +1,52 @@
+[name] [surname]
+Engineer
++2 *** *** *** | [email] | linkedin.com/in/[name] | github.com/[name]
+Education
+[compaany]
+Master, Advanced Computational Science Sep. 2023 – Present
+Research: volumetric fusion of deep RGB and depth features for better multi-view 3D reconstruction
+[compaany]
+Online-course, Data Analysis and Machine Learning Sep. 2022 – Aug. 2023
+Final project: load and process dataset, perform OneHot-encoding, build logistic regression model and analyze
+the accuracy of the method
+[compaany]
+Bachelor, Supercomputer Technologies in Engineering and Physical Modeling Sep. 2019 – July 2023
+Diploma: numerical modeling of laser-induced shock wave processes in metals on multiprocessor computers
+Skills: C++, MPI, hydrodynamics
+Work
+[compaany], Applied AI Lab Aug. 2024 – Present
+Junior Research Engineer | Pytorch, Open3D, Meshlab [location]
+Experience: multi-view stereo, gaussian splatting, monocular depth estimation, depth encoders, transformer-based 3d
+reconstruction. Developing and researching 3D computer vision and 3D reconstruction methods, studying scientific
+papers.
+[compaany] Jun. 2024 – Jul. 2024
+Developer Intern | Python, ROS [location]
+Adaptation and development of frameworks for manipulating robotic arms. Practice objective: study and integration of
+the D3Fields framework.
+[compaany] Mar. 2022 – Aug. 2023
+BI-Developer | QlickView [location]
+Developed dashboaards using QlickView and QlikSense to monitor logistics, revise application statuses, manage Science
+and Technology Center
+[compaany] Jun. 2021 – Mar. 2022
+Reviit Developer [location]
+Developed scripts using Dynamo and IronPython to issue tasks for openinings in single or combiined engineering
+communications, perform a batch detaching from a storage and purging models for residential complexes: Green park,
+Level Streshnevo, River Park
+Projects
+Synthetic Speech Detection | Python, torchaudio, datasets May 2024
+The project is devoted to the development of a comprehensive fake speech detection system based on neural
+network architectures using ASVspoof data. As part of the project, a model based on ResNet and
+transformeers was developed, which was trained on ASVspoof19 data and validated on ASVspoof19 and
+ASVspoof21 data. The performaance of the model was compared with ResNet18.
+Segmentation, Classification of Brain Tumors in MRI Images | Python, PyTorch, PIL, scikit-learn Mar. 2024
+The project is devoted to studying the influence of segmentation on the quality of classification of various
+types of brain tumors.
+Smart Calculator | C, Docker, Makefile, gtest, Bash, GitHub workflow Sep. 2023
+The project is dedicated to the development of a service based on a ready-made backend. The basis is the
+program code of a calculator operating on the basis of the reverse Polish notation algorithm. The calculator is
+launched in a Docker containeer. Created Github Workflow.
+Technical Skills & interests
+Languages: Python, C/C++, SQL
+Developer Tools: Git, Docker, Singulariity, Bash, SSH, SLURM, VS Code, CUDA, Meshlab
+Libraries: NumPy, SciPy, scikit-learn, PyTorch, OpenCV, PIL, Trimesh, Open3D
+Scientific skills: 2D/3D computer vision, LaTeX

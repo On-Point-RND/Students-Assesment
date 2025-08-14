@@ -1,0 +1,17 @@
+Dear [name] [surname] Admissions Committee,
+I am writing to express my strong interest in participating in the Skoltech SMILES SchooL 2025. I am particularly drawn to the program's focus on practical applications of Machine Learning and Deep Learning, as I am eager to integrate these techniques into my ongoing research.
+My primary motivation for applying stems from my master's thesis project, which focuses on developing a "locator for the blind." This project aims to create a wearable device that uses computer vision to provide real-time information about the user's surroundings. Currently, I am using Python to process sensor data, build a prototype of the device's interface, develop algorithms for object recognition. However, I believe that incorporating Machine Learning could significantly enhance the accuracy, robustness, and overall functionality of the locator.
+I have some experience with Machine Learning, primarily through online courses. I am familiar with libraries such as scikit-learn. I recognize that my knowledge in this area is still developing, and I am particularly interested in learning more about real-time object recognition.
+I hope that attending the SMILES SchooL 2025 would allow me to:
+ Gain a comprehensive understanding of the latest Machine Learning and Deep Learning techniques relevant to my research area.
+ Acquire practical skills in using relevant tools and frameworks, such as TensorFlow and PyTorch.
+ Learn how to effectively apply Machine Learning to real-world problems, specifically in the context of assistive technology.
+ Receive guidance from experienced researchers on how to overcome the challenges of implementing Machine Learning on resource-constrained devices.
+ Network with other researchers and professionals working in related fields.
+My long-term career goal is to contribute to the development of innovative assistive technologies that improve the lives of people with disabilities. I believe that Machine Learning has the potential to revolutionize this field, and I am committed to developing my skills and knowledge to become a leader in this area.
+I am confident that the SMILES SchooL would provide me with the ideal environment to learn, grow, and make a meaningful contribution to the field of assistive technology.
+Thank you for considering my application. I am excited about the opportunity to learn from the experts at Skoltech and contribute to the advancement of Machine Learning research. I have attached my resume for your review and welcome the opportunity to discuss my application further.
+Sincerely,
+[name] [surname]
+[email]
++2 *** *** ***

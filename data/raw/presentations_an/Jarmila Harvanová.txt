@@ -1,0 +1,116 @@
+Diffusion
+SASRec
+New approach to Recommender System
+[name],
+[compaany],
+MSc-1 at Data Science
+SASRec
+Transformer-based
+recommenda tion model
+2 inference modes:
+TopK — take topK logits
+for a single predictions
+Autoregressive — predict
+tokens one by one
+1
+Diffusion SASRec
+Diffusion-like training
+2 inference modes:
+TopK — similar to previous
+Diffusion — denoise 10
+added mask tokens
+iteratively
+2
+Datasets
+Dataset / Parameters #Users Preprocessing
+Movielens 1M 6040 Leave-out-out
+Amazon Beauty 883754 Time-split
+Netflix Prize Data 480189 Time-split
+3
+Experiments #1
+Model / Metric HR@10 NDCG@10 MRR@10
+SASRec
+0.1134 0.2445 0.0737
+topK
+Diffusion
+0.0209 0.048 0.0129
+topK
+Poor split Trained on ml-1m
+4
+5
+Baselines - Amazon
+Model / Metric HR@10 NDCG@10 MRR@10 COV@10
+Random-
+based
+0.0004 0.0001 0.0000 0.6116
+Popularity-
+based
+0.0067 0.0028 0.0016 0.0004
+Amazon Beauty
+6
+Experiments #2
+Model / Metric HR@10 NDCG@10 MRR@10 COV@10
+SASRec
+0.0595 0.042 0.0366 0.1985
+topK
+Diffusion
+0.0361 0.0177 0.0124 0.1324
+topK
+Good split Trained on Amazon Beauty
+7
+Experiments #3
+Model / Metric HR@10 NDCG@10 MRR@10 COV@10
+SASRec
+0.0433 0.0296 0.0256 0.1375
+autoregressive
+Diffusion
+0.0115 0.0015 0.0001 0.2331
+with diffusion
+Good split Trained on Amazon Beauty
+8
+Baselines - Netflix
+Model / Metric HR@10 NDCG@10 MRR@10 COV@10
+Random-
+based
+0.0026 0.0011 0.0007 1.0000
+Popularity-
+based
+0.0665 0.0291 0.0183 0.0030
+based
+Netflix
+9
+Experiments #4
+Model / Metric HR@10 NDCG@10 MRR@10 COV@10
+SASRec
+0.1855 0.0973 0.0706 0.7279
+topK
+Diffusion
+0.1659 0.0839 0.0594 0.0594
+topK
+Good split Trained on Netflix Prize
+10
+Experiments #5
+Model / Metric HR@10 NDCG@10 MRR@10 COV@10
+SASRec
+0.175 0.0933 0.0682 0.5611
+autoregressive
+Diffusion
+0.0593 0.0078 0.0003 0.99
+with diffusion
+Good split Trained on Netflix Prize
+11
+Key Takeaways
+DiffSASRec does not solve the task directly => poor performa nce at predicting next item
+In diffusion inference, only in 26.3% cases the highest confidence is in the first token
+Converges slower than v anilla SASRec
+12
+Possible Improvements
+Utilize timestamp embeddings in addition to positional ones
+Employ metadata encoding into embeddings
+Test another inference options from LLaDA
+13
+Poster Part!
+14
+15
+Thank you!
+14

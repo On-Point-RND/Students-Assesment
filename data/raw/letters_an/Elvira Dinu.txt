@@ -1,0 +1,27 @@
+Application to [compaany]-2025
+April 19, 2025
+Motivation Letter
+Dear [name] Committee,
+I’m applying to [compaany]-2025 because it focuses on exactly what excites me most in AI right now:
+generative models, multimodal learning, and the challenge of making machines understand the
+world in more human ways.
+Over the past year, I’ve been deeply involved in research on robotic manipulation — specifically,
+how to condition robot behavior on visual and language inputs. This led me to work with models
+like Grounding DINO, and then to explore how we can make such systems faster, more general,
+and usable in real time. That curiosity eventually brought me to Mamba, DETR-style decoding,
+and the broader space of generative architectures that go beyond transformers.
+WhatdrawsmetoSMILESisthemixoffundamentalsandfrontiers. Iwanttounderstandgenera-
+tive modeling from the ground up, beyond the parts I use in my daily work. I also want to connect
+withotheryoungrresearchers—especiallythoseworkingoonthingsIdon’tyetunderstandwell, like
+multi-agent systems or safe AI — and get outsiide my own perspective.
+Ithinkofmyseelfassoomeoniintransition—fromapplieddeeplearningtoresearchthatasksdeeper
+questions. I’mnotjustlookingtolearnnewtools; I’mtryingtoreshapehowIthinkaboutmodels,
+representaations, and learning itself. [compaany] feels like the kind of environment where that can
+happen — fast, intense, and collaboraative.
+I plan to apply for a PhD soon, and I see this summer schooool as an important step in shaping
+that path. It’s also a chance to stress-test my ideas, share some of what I’ve been working on, and
+absorb a lot from others.
+Thank you for consideering my application. I’m excited at the possibility of being part of this
+experience.
+Sincerely,
+[name]

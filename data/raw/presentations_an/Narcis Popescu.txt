@@ -1,0 +1,54 @@
+[name]
+Master, [compaany]
+Classification of single-cannel ECG signaals using a hybrid transformer archtecture and KAN
+
+Introduction
+
+ECG signal processing can solve many 
+problems related to the heart.
+Modern models have achieved great success, but 
+wearable devices still do not have time to grow 
+behind them and have too few resources to launch.
+
+Problem statement
+
+Are modern models really big?
+Is it possible to reduce the size of the models without
+losing accuracy?
+What new approaches can be applied to
+achieve our goals?
+
+Methods
+
+Auto encoder system → Transformer(MLP) → Transformer(KAN)
+The key idea is that these archtectures work better with context and 
+require fewer parameters. At the same time, 
+the accuracy is many times higher.
+These models pay more attention to the 
+long-range context and adapt better to 
+the data.
+Smote for augmentation dataset +
+MIT-BIH arrhythmia database 
+
+Results
+
+Current solutions have 35 times fewer parameters, than SOTA model at current. 
+It doesn't work much worse than the SOTA model.
+The compiled model can be used even in weaк microcontrollers.
+
+Research gap
+
+In some places, the quality has dropped.
+Data is still scarce, even after augmentation
+Need to use other datasets and a different NN archtecture.
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Poloasukhin, I. (2017). Attention is all you need. Advances in neural information processing systems, 30
+https://a rxiv.org/abs/1706.03762
+Zhou, H., Wang, Y., Li, S., Zhang, D., Xie, Y., & Jin, Y. (2024). Kolmogorov–Arnold Networks. arXiv preprint arXiv:2401.10072.
+https://a rxiv.org/pdf/2404.19756
+Oh, S. L., Ng, E. Y. K., Tan, R. S., Acharya, U. R. (2018). Inter- and intra-patient ECG heartbeat classification for arrhythmia detection: A sequence to sequence deep learning approach. Information Sciences, 422, 543–557.
+https://a rxiv.org/pdf/1812.07421v2
+Zhou, Y., & Koltun, V. (2024). Kolmogorov–Arnold Transformer. arXiv preprint arXiv:2403.03462.
+https://a rxiv.org/pdf/2409.10594
+
+Bibliography

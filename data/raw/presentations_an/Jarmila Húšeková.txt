@@ -1,0 +1,62 @@
+
+
+[name] [surname] ([company]) April 20, 2025  
+
+**Outline**  
+- Introduction to Quantum Deep Neural Networks  
+- Challenges in NISQ Era  
+- Case Studies and Applications  
+- Future Directions and Co-Design  
+
+[name] [surname] ([company]) April 20, 2025  
+
+**Motivation**  
+Quantum computing offers potential advantages for deep learning tasks through enhanced feature spaces and parallelism. Current NISQ devices enable small-scale demonstrations but face scalability challenges.  
+
+[name] [surname] ([company]) April 20, 2025  
+
+**Key Concepts**  
+- **Barren Plateaus**: Training landscapes with vanishing gradients in quantum neural networks.  
+- **Hardware-Efficient Ansätze**: Circuit designs optimized for current quantum hardware.  
+- **Quantum-Enhanced Feature Spaces**: Mapping classical data to quantum states for improved learning.  
+
+[name] [surname] ([company]) April 20, 2025  
+
+**Case Study: MNIST Classification**  
+- Quantum circuit trained on reduced MNIST dataset.  
+- Performance compared to classical models shows marginal gains.  
+- Challenges in noise mitigation and parameter optimization.  
+
+[name] [surname] ([company]) April 20, 2025  
+
+**Challenges**  
+1. **Noise**: NISQ devices introduce errors affecting training stability.  
+2. **Scalability**: Limited qubit count restricts model complexity.  
+3. **Ansatz Design**: Balancing expressibility and trainability.  
+
+[name] [surname] ([company]) April 20, 2025  
+
+**Future Directions**  
+- **Co-Design**: Joint optimization of quantum hardware and algorithms.  
+- **Standardized Evaluation**: Establish benchmarks for quantum machine learning.  
+- **Interdisciplinary Synergy**: Collaboration between quantum computing and AI communities.  
+
+[name] [surname] ([company]) April 20, 2025  
+
+**References I**  
+J. R. [surname] et al., “Barren Plateaus in Quantum Neural Network Training Landscapes,” Nat. Commun., vol. 9, 2018.  
+M. [surname] et al., “Cost-Function-Dependent Barren Plateaus in Shallow Parametrized Quantum Circuits,” Nat. Commun., 2021.  
+A. [surname] et al., “Hardware-Efficient Variational Quantum Eigensolver for Small Molecules and Quantum Magnets,” Nature, vol. 549, pp. 242–246, 2017.  
+M. [surname], I. [surname], and F. [surname], “The Quest for a Quantum Neural Network,” Quantum Inf. Process., 2014.  
+V. [surname] et al., “Supervised Learning with Quantum-Enhanced Feature Spaces,” Nature, vol. 567, pp. 209–212, 2019.  
+A. [surname] et al., “Power of Data in Quantum Machine Learning,” Nat. Phys., 2021.  
+
+[name] [surname] ([company]) April 20, 2025  
+
+**References II**  
+E. [surname], “A Quantum-Inspired Classical Algorithm for Recommendation Systems,” STOC, 2021.  
+D. [surname] et al., “Quantum Circuit Learning for Industrial Big Data Analysis,” Adv. Quantum Technol., 2022.  
+J. [surname] et al., “Quantum Machine Learning,” Nature, 2017.  
+M. [surname] and F. [surname], *Supervised Learning with Quantum Computers*, Springer, 2019.  
+
+[name] [surname] ([company]) April 20, 2025

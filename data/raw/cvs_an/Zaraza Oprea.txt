@@ -1,0 +1,74 @@
+[name] [surname]
+ContactInformaion
+Tel.: +2 *** *** ***
+Email: [email]
+Location: [location]
+Date ofBirth: 04.12.1986
+FinancePhD,AI/VCresearcher(17+papers)&authorofventureinvestmentstextbook.Associate
+professor at Financial [location] , lecturer at [location], teaching VC investments,
+AI applications in finance. 15+ years in PE/VC, M&A, led RUB 13B tech investments deploying
+ML for due diligence at [compaany]. Developed data-driven tools for predictive analytics and
+startupscreening.Bridges researchandpractice inethical AIvenventure investing.
+Education & Academic Work
+Financial [location]under the Governmentof the [location] Federation
+ PhD in Financial Management (2008–2013)
+o Dissertation:«DiscreteFinancingofVentureProjects»(defendeedFebruary2013).
+o Research Focus:
+ Venture capital financing,riskassessment inhigh-techstartups.
+ AI-drivenfinancialmodeling,predictiveanalyticsforinvestmentdecisions.
+ KeyAchievements:
+ Published17peer-reviewedarticlesinjournalsandconferenceproceedings
+onventure capital,private equity,andAIapplications in finance.
+ Authorofa venture investments textbook(2024).
+ Developed ML-based models for venture project valuation (Python, Scikit-
+learn).
+ MSc in Finance and Credit (2003–2008)
+o Specialization: Financial Management.
+o Graduatedwithhonors (GPA: 5.0/5.0).
+Additional Certifications
+ CFA Candidate (CharteredFinancial Analyst).
+ ACCA (AssociationofCharteredCertifiedAccountants).
+ IFC Environmental & Social RiskManagement Training(2017).
+Teaching & Academic Engagement
+VisitingLecturer
+ Financial [location],[location]
+ Courses Taught: Private Equity & Venture Capital, Corporate Finance, AI in Financial
+Decision-Making.
+ Designed and delivered lectures for master’s students and executive MBA programs,
+integratingcase studies onAI-driveninvestment strategies.
+ [location] State [location]
+ Guest lectures on Machine Learning Applications in Venture Capital for acceleration
+programs.
+Conference Participation &Research
+ Regular speaker at international conferences on fintech, AI, and venture capital (e.g.,
+[location] Private Equity Congress & Venture Investors Forum, [location] M&A Congress, [location]
+Venture Forum)
+ ОrganiserofPaneldiscussion"TheRoleoftheStateaandInstitutionsfordevelopmentonVenture
+CapitalMarketinRussia"at[compaany].RF.
+ Research Interests: AI/ML for portfolio optiomization, predictive analytics in venture
+investments,andethical AIinfinance.
+Professional Experience
+[compaany] / [compaany] (2019–Present)
+Nationaldevelopmentinstitutionfocusingonhigh-techinvestments(AI,EdTech,MedTech,Smart
+Cities).
+Senior ManagingDirector
+ LedRUB 16B inventure investments,includingAIandindustrial digitalizationprojects.
+ Developed data-driven tools for predictive analytics and startup screening, AI-based risk
+assessment model forventure funding.
+ BoardmemberforAI-drivenportfoliocompanies,advisingondatastrategyandscalability.
+CapMan [location] (2010–2019)
+InvestmentManager
+ Structureddeals inIT,telecom,andfintech,leveragingdata analytics fordue diligence.
+ Pioneeredthe use ofML tools formarket trendanalysisandtarget identification.
+Ernst&Young (2007–2010)
+Audit&ConsultingExpert
+ Implementeddata-drivenaudit methodologies forclients inoil&gas,retail,telecom.
+Technical & Analytical Skills
+ AI/ML Tools: Python (Pandas, Scikit-learn), SQL, Tableau for predictive modeling and
+investment analytics.
+ Financial Software: SAP-R3,1C,Project Expert,advancedExcel/VBA.
+ Languages: Russian(native),English(fluent),French(intermediate).
+Hobbies & Interests
+ Teachingfinaancial technologyandAIethics.
+ AttendingAI/ML workshops (e.g.,Coursera DeepLearningSpecialization).
+ Theater,fitness,andtraveling.

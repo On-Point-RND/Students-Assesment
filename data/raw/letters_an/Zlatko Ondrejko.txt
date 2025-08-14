@@ -1,0 +1,11 @@
+Dear [name] Committee,
+I am writing to express my enthusiastic interest in attending the SMILES-2025 Summer School at [location]. My name is [name], and I am currently a second-year master's student at [compaany], specializing in Artificial Intelligence Technologies.
+My research primarily focuses on the application of multi-agent systems in competitive programming scenarios, as well as enhancing large language models (LLMs) with expert skills. At the moment, I am particularly engaged in domain adaptation for LLM-based agents. I pursue my research at the Neural Systems and Deep Learning Lab at [compaany], notably recognized for its DeepPavlov project. Additionally, I am involved in practical applications within the e-commerce sector at [compaany], developing encoder-based and LLM-based retrieval systems for B2B services.
+Participating in SMILES-2025 presents an exceptional opportunity to deepen my expertise, particularly in generative models and multi-agent frameworks. I am eager to immerse myself in an intensive academic environment alongside international peers and renowned experts from [location] and [location]. Collaborating closely with diverse researchers, attending cutting-edge lectures, and engaging in hands-on workshops are particularly appealing aspects of this program. Moreover, the prospect of interacting with leading scientists and fellow students from [compaany] and other institutions significantly motivates me, as it aligns with my goal of broadening my professional network and enhancing intercultural research collaboration skills.
+I would also gladly volunteer my assistance in organizing activities during the summer school, contributing actively to its success.
+Thank you very much for considering my application. I look forward to the possibility of contributing to and benefiting from this inspiring academic exchange.
+Sincerely,
+[name]
+
+
+

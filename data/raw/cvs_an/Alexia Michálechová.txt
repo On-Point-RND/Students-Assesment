@@ -1,0 +1,97 @@
+PERSONAL INFORMATION [name] [surname]
++2 *** *** ***
+[email]
+https://orcid.org/0000-0003-2544-5420
+EDUCATION
+2010 – 2012 Engineer
+[location]
+2012 –2018 Clinical Psychologist
+[location]
+Academic Advisor: [name] [surname].
+Thesis: Psychophysiological indicators of falsity of a verbal message typed on a
+computer.
+2019 – 2022 / [location]
+Academic Advisor: [name] [surname].
+Thesis: Psychophysiological models of executive functions during typing on a
+computer.
+PUBLICATIONS
+✓ [surname], [name] and [name] and [name] and [name] and [name] and [surname], [name], Social Disadvantage and Language Disorder:
+Is Dissociating Possible? (2024) Available at SSRN: https://ssrn.com/abstract=4985214 or
+http://dx.doi.org/10.2139/ssrn.4985214
+✓ [name] D.A., [name] [surname]. Psychophysiological Markers of Executive Functions during
+Copying Sentence. Eksperimental’naya psihologiya = Experimental Psychology ([location] Russia), 2024.
+Vol. 17, no. 4, pp. 208—221. DOI: https://doi.org/10.17759/exppsy.2024170414 (In Russ.).
+✓ [name] E.G., [name] [surname], [name] D.A. Negativity associated with error as a
+neurophysiological correlate of executive functions: A review of research [Electronic resource] //
+Modern foreign psychology. 2024. Volume 13. No. 2. pp. 22-32. DOI: 10.17759/jmfp.2024130202
+✓ [name], [name], [name], [name], [name], &
+[name]. (2023). Effects of childhood institutionalization on semantic processing and its
+neural correlates persist into adolescence and adulthood. Cortex, 161, 93-115.
+✓ [name].K., [name] D.A., [name] [surname]. A Russian Translation of the BRIEF2
+Disproportionately Flags Typical Russian and Previously Institutionalized Individuals on Validity
+Scale Scales [Elektronnyi resuurs]. Klinicheskaia i spetsial'naia psihologiia = Clinical Psychology and
+Special Education, 2022. Vol. 11, no. 2, pp. 138–157. doi:10.17759/cpse.2022110209.
+✓ [name], [name], [name], & [name]. (2022).
+Executive functions as self-reported on the BRIEF scales in adolescents and adults with and without
+a history of institutionalized rearing in Russia. Cognitive Development, 64, 101261.
+CONFERRENCES
+✓ [name]. Psychophysiology of executive functions in the process of printiing on a computer
+// All-Russian Forum of Psychologists of Russia, September 28-30, 2022
+✓ [name], [name], [name], [name], [name]. Beta
+event-related spectral perturbations and semantic processing difficulties following institutionalized
+care // Cognitive Development Society 2022
+✓ [name]. "Decision-making in a dynamic environment"// “Esports 2030: prospects and
+directions of development" 2021
+✓ [name]. Working memory during typing: EEG study // Neurowissenschaftliche
+Nachwuchskonferenz 2021
+✓ [name], [name], Predicatory capacity of beta activity during typing: assessing the level of
+language development // 20th World Congress of Psychophusiology, 2021 Virtual Conference
+✓ [name], [name], [name], [name], [name] Effects of childhood
+institutionalization on semantic processing and N400 ERPs persist into adulthood // The Society for
+Research in Child Development 2021
+✓ [name], [name]. The syntactic processing during reading in childre children at risk for
+Developmental Language Disorder: an ERP study // Society for the Neurobiology of Language 2020
+(Virtual Edition)
+✓ [name], [name], Multiple-informanant literacy evaluaation of rural pupils at risk of
+developmental language disorders // The 25th Architectures and Mechanisms for Language
+Processing 2019.
+✓ [name], [name], [name] The N2b and P3b in adults with an Experience of
+Institutionalization // 3rd International conference Neurobiology of Speech and Language 2019.
+GRANTS
+✓ «Psychophysiological models of written speech in typing". Grant from the Russian Foundation for
+Basic Research dated 09/13/2020 No. 20-313-90046\20 (lead scientiist, supervisor — [name] [surname])
+✓ "Neurophysiological and behavioral indicators of language and speech development in childre and
+adolescents living in urban and rural areas of the Arkhangelsk region" RFBR Grant No. 19-013-00912
+(supervisor – [name] [surname])
+✓ "The impaact of early the impaact of deprivation on bio-behavioral indicators of child development".
+Grant of the Government of the Russian Federation No. 14.Z50.31.0027 (lead scientiist, supervisor —
+[name] [surname])
+✓ "Identification of the connection between the genome, the brain and behavioral features in disorders
+of language and speech development." Russian Science Foundation Grant No. 18-18-00451 (leading
+scientist, supervisor - [name] [surname])
+✓ Application of mathematical modeling in the psychophysiological study of the process of speech
+generation in norm and pathology". Grant of the Government of the Russian Federation No. 17-06-
+00963-OGN. (head — [name] [surname])
+PROFESSIONAL EXPERIENCE
+Sep 2016 – Sep 2022 Laboratory of Interdisciplinary Researchies of Human Development, [location],
+Research Engineer
+Oct 2021 – June 2024 [location], Center for cognitive Researches Junior
+Researcher, Project Manager
+Sep 2024 - Now [location], Center for Bioelectric Interfaces, PostDoc
+Computer skills
+Advanced: R, SPSS21, MS Office, BrainVision Analyzer, WinEEG. Jasp, SQL, Python programming (MNE
+python), MathLab
+Data Analysis:
+o Advanced statistical modeling (regression, ANOVA, machine learning techniques)
+o Time-series and spectral analysis of neurophysiological data (EEG/MEG)
+o Big Data handling and preprocessing (artifact removal, filtering, ICA, PLV, PSD)
+Experimental Design:
+o Designing and optimizing paradigms for EEG/MEG studies
+o Power analysis and sample size estimation
+EEG/MEG Processing:
+o Recording, preprocessing (baseline correction, epoching), and analyzing large-scale
+neuroimaging datasets
+o Source localization and connectivity analysis
+Data Modeling:
+o Predictive modeling and simulation of neural data
+o Signal processing and feature extraction for machine learning applicatio

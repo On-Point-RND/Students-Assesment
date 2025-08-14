@@ -1,0 +1,59 @@
+Slide 1
+----------------------------------------
+Automatic search of neural network topology in reinforcement learning problems
+[name], 2024 bachelor’s thesis
+[compaany]
+Slide 2
+----------------------------------------
+Introduction
+Problem:
+Finding a good NN topology takes time and skill
+Solution:
+An algorithm that searches for good topology automatically
+Goal of research:
+Create an algorithm that searches an optimal NN topology in a RL task
+[compaany]
+Slide 3
+----------------------------------------
+Background
+Reinforcement learning is a method of machine learning in which an agent learns by interacting with an environment.
+Q-learning – the agent optimizes the quality function with respect to the state-action parameter pair: Q(s, a).
+In the DQN (Deep Q Network) algorithm, the Q-function is parameterized using an ANN with weights θ: Q(s, a, θ).
+Features of DQN:
+Buffer for storing past experience
+Epsilon-greedy algorithm
+Separate target network for estimating target values
+Reward
+ Deep Neural Network 
+Action
+State
+Agent
+Politics
+Environment
+State S
+[compaany]
+Slide 4
+----------------------------------------
+Methods
+Algorithm:
+DQN for RL
+Technical:
+Python, OpenaI Gym, JupiterNotebook
+NN module created from scratch – allowed to change NN topology in any way during training process
+Created algorithm intuition:
+1) A few neural nets of a basic topology are training to perform in an environment
+2) After a given number of epochs performance is measured for each NN
+3) If performance is good enough, we have found solution
+If not, we change topologies of the networks and train them again, using pretrained weights. Repeat from 1.
+[compaany]
+Slide 5
+----------------------------------------
+Results
+Before training
+After training
+Picture of reward to epoch in enumeration algorithm
+Picture of reward to epoch when using proposed algorithm
+Overview:
+Using proposed algorithm the weights are learning in a more steady manner
+Proposed algorithm showed a higher chance of finding a suitable topology, compared to simple enumeration algorithm
+[compaany]

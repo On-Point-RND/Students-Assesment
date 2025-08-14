@@ -1,0 +1,58 @@
+[name]
++2 *** *** *** | [email] | [email] | [email]
+Education
+[location] Institute of Physics and Technology ([location])
+Bachelor of Applied Mathematics and Informatics Sep. 2021 – Aug. 2025
+• Bachelor Thesis: Federated Reinforcement Learning with Human Feedback
+• CGPA: 4.58/5.0
+• Winner of the scientific paper competition at the 67th All-Russian Scientific Conference of [location] in the section ”Mathematical Foundations of Control”
+Publications
+RLHF and Friends NeurIPS (under review), 2025
+V. [surname], A. [surname], E. [surname], V. [surname], [location], 2025
+A. [surname]
+Accelerated Mirror Descent Method with Markov 67th All-Russian Scientific Conference
+Stochasticity of [location]
+V. [surname], A. [surname], E. [surname], V. [surname], [location], 2025
+A. [surname]
+Experience
+ML engineer April 2024 – March 2025
+[company], [location]
+• Spearheaded development of GPT-based assistant that helps users with recipe suggestions, product recommendations, and basket creation. Fine-tuned the generative model YaGPT using PEFT (Prompt Tuning) and a BERT model for ingredient extraction from generated responses.
+• Fine-tuned BERT for product search by brand. Collected synthetic data using GPT for training. After distillation into DSMM, BERT model performance improved (NDCG: 0.44 → 0.72; relevance share: 45% → 78%).
+• Trained BERT for offline scoring of complementary products (replacing CatBoost). As a result, AUC increased from 0.89 to 0.96.
+• Trained BERT for offline scoring of substitute products, improving NDCG from 0.74 to 0.83 and reducing irrelevant results from 33% to 12%.
+• Optimized the ranking CatBoost model by reducing tree count (3000 vs. 10000) and enhancing feature set, eliminating the candidate generation stage and enabling unified scoring.
+• Streamlined labeling workflow via [company].Tasks and automated recommendation evaluation using Airflow.
+• Developed a universal B2B solution (library) for partner companies and other related products, reducing the time needed to set up a recommendation service and making it ”one-click deployable.”
+• Onboarded and mentored an intern in the recommendation team, overseeing their project to enhance Discovery and Diversity.
+Teaching
+Teaching assistant February – June 2023
+[location]
+• Taught fundamental algorithms and data structures to high school students.
+• Designed and organized thematic programming contests to reinforce algorithmic thinking.
+• Reviewed and provided feedback on student code submissions.
+Volunteering & Mentorship & Leadership
+• Delivered invited talk on AI trends to 100+ high school finalists of the [location] Center for Quality Education competition.
+• Organized the final stage of the Physics Olympiad ”[company]” for schoolchildren from [location] in 2024 and 2025.
+• Mentored an intern in the [company] team.
+• Led a team and delegated responsibilities to maximize productivity in preparation for the 2024 Ministry of Education’s screeplay competition.
+• Organized the Freshman Welcome event for first-year students at [location].
+• Led the Mathematical Battles team as captain for 3 years, coordinating strategies and team preparation.
+Projects
+Screeplay Craft AI | Python, LLM, RAG, OpenAI API, Mistral API, Chat completion
+• Engineered an AI-powered tool to generate scripts for biographical films and series using LLM.
+• Utilized the OpenAI and Mistral AI API for script generation, with support for additional APIs planned for future development.
+Subway detection assistant | PyTorch, OpenCV, Roboflow, FastAPI, React, Docker
+• Built an AI-powered safety monitoring system to detect individuals crossing safety lines on subway platforms.
+• Collected and annotated video data from [location] metro stations using Roboflow to train a segmentation model.
+• Built a single-page web application for testing, allowing users to upload subway videos and receive annotated outputs.
+Social network | Python, Django, React, Redux, Docker, CI/CD
+• Designed and deployed a Django-based social network with features such as site authorization, creation of a personal profile, adding friends, synchronized message exchange, and the ability to leave feedback about the site
+• Dockerized the application for deployment on a virtual machine.
+• Implemented a CI/CD pipeline to automate testing and deployment.
+Desktop client-server messenger | C++, Qt, SQLite
+• Implemented user authentication, registration, and token-based session management.
+• Enabled multi-device login with real-time message synchronization across clients.
+• Built persistent message history storage using SQLite for seamless chat continuity.
+• Designed fault-tolerant architecture to handle server crashes and restore connections.
+• Developed synchronous message editing functionality across connected devices.

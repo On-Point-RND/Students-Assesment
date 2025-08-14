@@ -1,0 +1,72 @@
+[name], 24 y.o,
+[location]
++2 *** *** ***,
+[email],
+https://github.com/[name]
+1. Education
+a. PhD Studies (1st year) (2024-)
+Specialization: 2.3.5 "Mathematical and Software Support for Computer
+Systems, Complexes and Networks", Engineering Sciences.
+Research: Human Pose Estimation and Action Recognition in 3d-space
+using deep learning methods
+[location]
+b. M.Sc. in Mathematical Modeling and Information Technologies (Honors)
+(2022-2024)
+Thesis: HUMAN POSE ESTIMATION IN THE TASK OF LEARNING YOGA
+Institute of Mathematics, Mechanics and Computer Science, [location]
+• English-language program
+c. B.Sc. in Computer Science and Engineering (Honors) (2018-2022)
+Thesis: ANALYSIS OF CURRENT LABOR MARKET REQUIREMENTS FOR
+MODERN IT PROFESSIONS
+Faculty of Physics and Technology
+Donetsk National University ([location]), [location]
+2. Work Experience
+a. Teaching Assistant (Part-time 0.1 FTE) Sep 2022 - Jun 2023
+Educational center of the SchooL of Young Teachers, [location]
+Developed an additional education course "Fundamentals of Mathematics
+and Python for Data Analysis" (Python programming module)
+b. Teaching Assistant (Part-time 0.25 FTE) Jul 2023 - Jun 2024
+Institute of Mathematics, Mechanics and Computer Sciences [location]
+Course "Fundamentals of Algorithms and Programming" (Python)
+c. Teaching Assistant (Part-time 0.5 FTE) Jul 2024 - Present
+Institute of Mathematics, Mechanics and Computer Science, [location]
+Courses taught:
+• CS101 Programming Fundamentals
+• CS211a Programming Languages (C#)
+• CS221 Computer Architecture and Operating Systems
+• CS375 Data Mining: Data Analysis and Processing Methods (Focus:
+Cluster Analysis techniques)
+• First-year students’ tutor
+3. Technical Skills
+a. Programming
+• Python: numpy, pandas, matplotlib, sklearn, OpenCV, TensorFlow (basics)
+• C#: Applied in teaching CS211a course
+• Data Processing: Dataset cleaning, augmentation, SQL
+b. Machine Learning
+• Unsupervised Learning: Clustering, Dimensionality Reduction
+• Computer Vision: Human Pose Estimation (MediaPipe) and Human Action
+Recognition (research focus)
+c. English (B1-B2):
+• Completed English-taught Master's program
+• Regularly consume technical literature (papers, documentation)
+4. Achievements
+• Cisco "Programming Essentials in Python" (Mar 2020)
+Validated Python programming fundamentals
+• Avito Data Analyst Academy (Track: Data Analytics)
+Intensive industry training program in data analysis
+• Publications
+i. [name] K., [name] Y. "Dataset Selection Methodology for
+Human Pose Recognition in Yoga Practice" [Original in Russian]
+Int. Conf. "Informatics: Problems & Technologies", VSU ([location]) (2024)
+ii. [name] K., [name] Y. "Mobile Application for Yoga Pose
+Correction Using Neural Networks" [Original in Russian]
+Conf. on Modern IT Trends, [location] ([location]) (2024)
+iii. [name] K., [name] Y. "Comparative Analysis of Machine
+Learning Models for Yoga Pose Classification" [Original in Russian]
+88th Sci. Tech. Conf., BSTU ([location]) (2024)
+iv. [name] K., [name] Y. "Analysis of the solution development
+based on the AVA dataset for the task of Human Action Recognition"
+[Original in Russian] Conf. on Modern IT Trends, [location] ([location]) (2025)
+5. Fun fact
+Earned 3rd Category Parachuting Certification (3 solo jumps from AN-2
+aircraft at 800m altitude)

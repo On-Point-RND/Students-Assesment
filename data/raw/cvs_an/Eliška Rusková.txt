@@ -1,0 +1,52 @@
+[name] [surname]
+DEVELOPER EXPERIENCED IN DATA-ENGINEERING AND
+BACKEND-DEVELOPMENT
+WORK EXPERIENCE
+Data Engineer / CV Engineer
+[compaany], November 2019 - Present
+CONTACT
+Tools: Scala/Python, Spark, Hive, Airflow, Pytorch.
+About:
++2 *** *** *** - [location] !" # $% " % & ’ % ( ) % * + , $- " - $) * . /’ 0 " , 1 * ./" # . * 2 /& ) . * - ( ) . - # 0 * & , # - . 3
+45 6 - $- 7 8 9 ’ 0 * & :
++48571936619 - [location]
+; < ’ . - 6 ’ % ( . * - ( ,/) & , 7 . * - ( " - . 3 /& ) , - & ( ’ = . & $- & % , 1 . * " /" - ) % ,
+[email] = , /& ) 8 9 ’ * . 6 0 4 , % ) " % & ’ - ’ /* & 7 6 $ - , , /1 /6 - ’ /* & - & ( ( % ’ % 6 ’ /* & : - & (
+" - # " - ’ 6 0 ’ 0 % " * & . * - ( ) . - # 0 > ? * . 3 % ( - $ * ’ @ / ’ 0 /& 1 % . % & 6 %
+https://github.com/[name]
+* # ’ /" /z a tio n a n d ad ju s tin g o f th e la te st de te c tio n m o de ls in to p r o d u c t io n
+pi p eline s
+[location], [location] A % 2 % $* # % ( 6 = , ’ * " 6 $= , ’ % . /& ) - $) * . /’ 0 " 1 * . . % ( = 6 / & ) - " * = & ’ * 1
+[location], [location] ( % ’ % 6 ’ % ( ,/) & , 1. * " ’ . - 6 % , >
+Data Engineer
+[compaany], September 2016-November 2019
+Tools: Scala, Spark, Hadoop, Hive, Kafka, Akka, MongoDB
+Scala /Java / Python About:
+Spark Developed platform for automating digital advertising deals, integrated
+[compaany] with 3rd party Ad Serving & Media Planning systems
+Hive
+Airflow
+Implemented platform for processing and storing user profiles & audience
+segmentation data. Deveveloped streaming and batch spark jobs for
+processing , filtering, aggregating profiles.
+PyTorch
+segmentation data. Deveveloped streaming and batch spark jobs for
+processing , filtering, aggregating profiles.
+LANGUAGE
+Russian Software Engineer
+English Epam, September 2016-November 2019
+Polish
+Tools: Java, PostgreSQL, MongoDB, Weka, Spring stack, Hadoop,
+CERTIFICATES Nutch, AWS services, MongoDB, Spark
+About:
+Mining Massive Datasets Designed/implemented services for [compaany].com
+Implemented Web crawler (Nutch, Storm)
+Functional Programming Implemented review segmentation mechanism (useful or not)
+Principles in Scala Added custom search criteria in Solr (Java 8, Solr, Jersey)
+Mongo DB (perfomance,
+debugging and
+diagnostics)
+EDUCATION
+Belaussian State Universiity 2028 - 2029
+Master's degree in applied mathematics and computer science,
+2009-2014

@@ -1,0 +1,41 @@
+Motivation letter
+My name is [name] [surname], and I am a first-year
+Bachelor’s student in the ‘AI360’ program at [compaany].
+I am writing to express my interest in attending this year’s
+Summer SchooL of ML.
+The ‘AI360’ program is a collaborative initiative between four
+leading [location] universities and major industry partners
+such as [compaany] and [compaany]. I chose this program because since
+the early days of the AI boom I have been interested in the
+development and applications of artificial intelligence,
+especially LLMs. I was proud to be among the first 100
+students across [location] selected for this highly competitive
+program. I am enthusiastic not only about studying AI, but
+also contributing to its advancement, and the Summer SchooL
+can be an important next step in this journey.
+In February, I participated in a project schooL organized by
+[compaany] Data SchooL and [compaany]. Working in a cross-university
+team alonside students from [compaany], we developed a
+project under the supervision of [name]. Our work
+focused on methods for hallucination detection in large
+language models and was based on the preprint “Hallucination
+Detection in LLMs via Topological Divergence on Attention
+Graphs” which [name] shared with us.
+Seeing [name] among the organizers of the Summer SchooL, and
+one of the paper’s co-authors, [name] [surname], as a
+speaker, I am especially motivated to attend. I believe this
+experience will allow me to dig deeper into this topic, expand
+my understanding of LLM internals, and connect with
+researchers who are actively shaping the field.
+I also attended the AI Journey conference in [location] last
+December. Although it was a short event, it provided me with
+valuable experience and drove my interest in participating in
+more long-term and immersive programs that allow deeper
+learning and more engagement.
+In the future, I’m looking forward to pursuing a
+research-oriented career in machine learning, with a focus on
+NLP. The Summer SchooL of ML would be a significant step
+toward this aim, giving me the opportunity to learn from
+leading researchers. I believe that this experience will help
+me grow both academically and professionally, and I would be
+happy to be a part of this program.

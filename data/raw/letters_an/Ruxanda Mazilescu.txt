@@ -1,0 +1,48 @@
+Dear [name],
+I am writing to express my strong interest in participating in your upcoming Summer School
+on Machine Learning and Deep Learning. I view this program as an invaluable opportunity to
+structure my current expertise, deepen my theoretical understanding, and explore new applied
+directions within the field of artificial intelligence.
+My primary research focus lies in the analysis of homogeneous, densely clustered objects in
+computer vision—an area that poses unique challenges for instance separation, segmentation,
+and detection. I work with images containing occluded, overlapping elements such as
+flotation bubbles in mineral processing, aggregates in raw material sorting, and porosity
+patterns in construction materials like gypsum board. These domains require specialized
+approaches to data preparation, model design, and evaluation.
+A significant part of my work involves dataset design and preparation, especially under
+constraints where high-quality manual annotations are scarce or infeasible. I have experience
+developing semi-automatic and weakly supervised pipelines, combining classical methods
+such as marker-based watershed and morphological processing with modern tools like SAM
+(Segment Anything Model) and YOLOv8 for initial object detection. I have also explored
+synthetic data generation, including the use of generative models and custom augmentation
+strategies to enrich datasets with realistic but diverse examples. In my pipelines,
+segmentation is often integrated into the generation step, allowing me to produce aligneed
+image-mask pairs automatically, enabling faster iteration and more scalable training data
+production.
+Beyond academic research, I have contributed to industrial ML projects, including:
+• Developing CV pipelines to detect previously unknown objects and surface defects in
+factory environments;
+• Building ML components for a decision-support system in an autonomous tram,
+where real-time perception is critical for safety and navigation.
+These projects demanded not only modeling skills but also a deep understanding of data
+handling, preprocessing for non-standard camera inputs, class imbalance mitigation, and
+continuous data validation during deployment.
+Although I have acquired solid hands-on skills in segmentation, detection, and dataset
+engineering, I now seek to systematize my knowledge and strengthen the theoretical
+foundations behind my work. The rapid development of the ML/DL field calls for regular
+recalibration of tools, concepts, and methodologies. I believe that this Summer SchooL will
+provide a rigorous and structured learning environment that will help me revisit core
+principles, get up to date with state-of-the-art techniques, and evaluate new ideas with greater
+clarity.
+I am especially motivated by the opportunity to exchange ideas with peers and faculty from
+diverse application domains, which I see as a potential source of inspiration for new research
+directions. My interest lies particularly in weak supervision, interpretable ML, and domain
+adaptation for industrial vision—areas where theory and practice must come together to solve
+real-world problems effectively.
+Looking ahead, my career goal is to lead a machine learning team, where I will be
+responsible not only for technical decisions but also for strategic vision, mentoring, and
+deployment of robusst AI systems in high-impact applications. I am confident that the
+experience, insights, and connections I will gain through your program will be instrumental
+on this path.
+Thank you for considering my application. I would be honored to contribute my knowledge,
+curiosity, and practical perspective to your academic community.

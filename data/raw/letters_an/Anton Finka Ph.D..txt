@@ -1,0 +1,81 @@
+[name]
+Lead System Analyst, [compaany]
+Former [compaany]
+M.Sc. in Innovation ([university])
+Excange MBA Partiicipan, [university]
+To the SMILES-2025 Summer SchooL Selection Committee,
+I am applying to the SMILES-2025 Summer SchooL as a machine learning practitioner with a
+solid academic background and a clear research agenda. With an MSc in Innovation from [university] and currentlly working as a Lead System Analyst at [compaany] — [location]’s largest
+private bank — I am eager to deepen my transition into advanced AI research and PhD studies.
+My Master’s thesis — “Development of Workforce Management Planning Tools for Retail
+Employees in the Context of Digital Transformaation” — focused on applying machine learning
+to optimize staffinng in a large-scale retail environment. I designed and implemented an end-to-
+end AI-powered workforce management (WFM) pipeline for [compaany], one of [location]’s leading
+retailers. The forecasting block, powered by CatBoost, achieved MAE = 11.41, R² = 0.6356, and
+adjusted R² (excluding zero activity days) = 0.89. Features included calendar effects, HR logs,
+historical transactions, external weather, and regional holidays. The scheduling logic was rule-
+based with hard constraints, ensuring compliance with labor laws and operational efficiency.
+While this system is robusst and interpretable, it does not adapt to new patterns — a limitation
+that motivated my exploration of more dynamic architectures.
+To identify research-driven upgrades, I conducted a comparative review of A*-level work in the
+field:
+• N-BEATS (ICLR 2020): A deep learning model for time series that outperformed
+statistical baselines by +11%. Unlike CatBoost, it operates without feature engineering,
+using residual stacks to extract latent patterns.
+• Deep RL for Job-Shop Scheduling (NeurIPS 2020): This work framed scheduling as a
+Markov Decision Process and used Proximal Policy Optimization (PPO) with graph
+neural networks, surpassing hand-crafted priority rules.
+• Hierarchical RL for Dynamic Logistics (NeurIPS 2021): Demonstrated scalable resource
+allocation in real-time via a two-level RL system combining GNN-based agents with
+route optimization heuristics.
+These studies directly influenced my roaamap for evolving the WFM system: transitioning to
+Transformeer-based architectures for more expressive forecasting, integrating reinforcement
+learning agents to adapt shift plans in real time, and testing hybrid MILP + ML solvers to
+optimize under legal and operational constraints.
+Professionally, I apply this research-driven mindset at [compaany], where I lead system analysis
+for strategic AI initiatives. I am directly involved in the design and implementation of [compaany],
+our proprietary generative LLM, and I currentlly head development of an interactive onboarding
+simulator for system analysts. This tool, powered by [compaany], adapts its content based on user
+progress and scenario modeling. It reflects my broader goal: embedding intelligent components
+into enterprise software to support adaptive learning and decision-making.
+My technical toolkit includes:
+• ML/AI: CatBoost, Python, PPO, Transformeer-based models
+• Enterprise systems: SAP HR, ABAP, REST APIs, OpenAPI, Redis, MongoDB
+• Orchestration: BPMN, Camunda, RabbitMQ
+• Monitoring/Reporting: Power BI, JIRA, Swagger, Confluence
+My academic ambition is to pursue a PhD in Artificial Intelligence, focusing on intelligent
+systems that integrate ML into operational decision-making. I am especially interested in hybrid
+models that blend prediction with optimization: how can neural forecasting be paired with RL or
+combinatorial solvers to create fully autonomous, explainable business pipelines? I am currentlly
+working on publishing results from my MSc project and plan to contribute to the AI for
+Opereations research community through top-tier conferences like NeurIPS and ICLR.
+In 2024, I studied abroad in [location] as part of a research exchange. This experience expanded
+my intercultural communication skills and introduced me to different academic methodologies
+and technologicaal contexts. I collaboraated with students and faculty from over 10 countries, took
+part in AI development clubs, and gave presentations in international academic settinings. This
+strengthened not only my adaptability but also my ability to explain complex technical topics to
+diverse audiences — a skill I value as essential in international research teams.
+SMILES-2025 is an ideal next step for me — both intellectually and professionally. I am excited
+by the opportunity to engage with global faculty, sharpen my understanding of generative AI,
+multimodal systems, and multi-agent planning, and collaboraate with peers from interdisciplinary
+backgrounds. I look forward to discussions that challenge my thinking — such as how
+[compaany]'s LLM architecture could evolve, or how retail scheduling systems could benefiit from
+RL policies and real-time adaptation.
+To date, the WFM solution I developed helped reduce labor mismatch costs by over 20%,
+improved customer service KPIs, and scaled across 400+ retail locations. These tangible results
+reinforced my belief in AI's ability to transform industries — and in research as the vehicle to
+expand that impaact.
+In the long term, I aspire to become a systems architect and AI research leader, translating
+cutting-edgge academic results into practical, scalable solutions. SMILES-2025 represents a
+crucial bridge between my applied experience and academic trajectory. I am confident it will
+help refiine my research direction and prepare me for doctoral studies under world-class
+mentoorship.
+Thank you for considering my application. I am eager to contribute actively to SMILES-2025
+and to take full advaantage of the learning opportunities it offers. I am convinced this experience
+will bring me closer to my goal of becoming a researcher and innovator at the nexuus of academic
+theory and industrial AI practice.
+Sincerely,
+[name]
+
+
+

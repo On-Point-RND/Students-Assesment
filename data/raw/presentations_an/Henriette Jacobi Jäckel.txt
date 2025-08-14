@@ -1,0 +1,65 @@
+Bargain Simulation in Videogames:
+Multiagent System Approach
+[name]
+[location], game developer
+Introduction
+• The absence of simulation of realistic bargaining (P. [surname], 2020)(M. [surname], 2022)
+• Most multiagent models of trade focus on ssurpassing humans (Y. [surname], 2024)(Y. [surname], 2024)
+• A few narrow examples of realistic models (M. [surname], 2017)
+• The absence of realistic bargaining in big videogame projects
+Problem Statement
+• No existing model represents real human behavior of
+bargaining
+• Humans interact and comprehend world through language
+which may deform the perception of reality
+• Humans tend to think irrational as well as rational (engineers
+usually aim to rationalize all the agents)
+The dialogue phrase of a merchant in videogame “Skyrim”
+Model Logic
+• Agents exchange information through language
+• Customers need lower price, sellers – higher
+• Demand is regulated by supply, need and mode
+• Every city has unique production (to make sellers
+behavior more complex)
+• Customers might change the behavior due to irritation or
+gossips
+Methods: Cognitive Layer
+• Embedding
+• GRU encoder – cheaper resource cost
+• Memory module
+Initialization of model
+Methods: Agent Layer
+• Proximal Policy optiomization
+• Decision-making layer
+• Exchanging of information
+• Gossips
+Example of working with irrationality
+Methods: LLM Layer
+• TinyLama as a light LLM model
+• Receiving decomposed embeddings form the
+first layer
+• Prompting the speech from decision from the
+second layer
+LLM initialization
+Results
+• To get working realistic bargaining model
+• The limitation – the need to include many
+variables to represent whole complexity of social
+reality
+• The limitation – the need to operationalize social
+reality into machine-reading numbers
+• High potential, with low-cost technology and
+good compaatibility with game engines
+The dialogue phrase of a merchant in videogame “Fallout: New Vegas”
+Bibliography
+1. [name], [name], [name], [name]. A Deep Reinforcement Learning Approach to Concurrent Bilateral Negotiation.
+Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence (IJCAI-20). URL: https://arxiv.org/abs/2001.11785
+2. [name] and [name]. EQUILIBRIUM PRICE FORMATION WITH A MAJOR PLAYER AND ITS MEAN FIELD LIMIT. ESAIM: COCV 28
+(2022) 21 https://doi.org/10.1051/cocv/2022015
+3. [name], [name], [name], [name], [name]. WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task
+Execution with Strategic Exploration. URL: https://arxiv.org/abs/2408.15978
+4. [name] et others. FINCON: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision
+Making. URL: https://arxiv.org/abs/2407.06567
+5. [name], [name], [name], [name], and [name]. 2017. Deal or No Deal? End-to-End Learning of Negotiation Dialogues. In
+Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, pages 2443–2453, Copenhagen, Denmark.
+Association for Computational Linguistics.

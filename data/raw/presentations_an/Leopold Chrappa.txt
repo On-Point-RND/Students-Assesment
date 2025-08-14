@@ -1,0 +1,67 @@
+Deep GNN-Driven Surrogate for Better Meta-Learning in AutoML
+[name]
+[compaany]
+April 2025
+
+Objective & Relevance
+
+Objective:
+Leverage GNN-based surrogate* models to accelerate and improve AutoML pipeline optimization
+AutoML
+Data Preparation
+Feature Engineering
+Model Selection and Optimization
+Evaluation of a large number of different models and configurations
+A complex and time-consuming process
+Example of a Machine Learning Pipeline
+* A surrogate model is a simplified and more cost-effective model used in place of a more complex and accurate one.
+
+Solution:Using previously known information about models trained on similar datasets — MetaAutoML.
+
+2
+
+Slide 3
+
+Overview AutoML Solutions
+
+3
+
+Slide 4
+
+Proposed GNN-Driven Meta-AutoML
+
+Key Components:
+1. Meta-knowledge base of past pipeline results2. Dataset encoder via meta-features3. Pipeline encoder as heterogeneous GNN4. Ranking head (pointwise/pairwise/listwise)
+
+Source: https://openreview.net/pdf?id=1tFZAs7PZp
+
+4
+
+Slide 5
+
+Experimental Setup
+
+5
+
+Slide 6
+
+Results and Future works
+
+Surrogate Performance:
+RankNet early-fusion: Kendall-Tau ≈ 0.53, Precision ≈ 0.25 (pyMFE features)
+Surrogate reduces design time from ~690 min to ~30 min
+
+Future Work:
+Broader evaluation with more datasets and regression tasks.
+Improved pipeline ranking methods.
+Extend to text/image data using feature engineering and LLLMs for pipeline selection/predictions.
+
+6
+
+Slide 7
+
+Thank you!
+
+[name]
+[email]
+Telegram: @m_rostislove

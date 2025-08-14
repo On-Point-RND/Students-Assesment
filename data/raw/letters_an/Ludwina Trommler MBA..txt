@@ -1,0 +1,63 @@
+Motivation letter (To[name])
+Hello dear all! My name is [name], I'm a first year [compaany] PhD student (2024-2027),
+[compaany] BSc graduate (with honors), [compaany] & [compaany] MSc graduate (with honors), [compaany] (2021 - 2023).
+My research interests are mainly concentrated in two areas:
+1) application of methods of information theory to machine learning problems (including analysis of
+the process of learning neural networks); scientific supervisor - [name], Head of Wireless
+[compaany]
+2) Study of optimal partitioning of different spaces and factor-spaces into smaller diameter parts and
+related problems of combinatorial geometry; scientific supervisors: [name], [name]
+(both from [compaany])
+Both of these studies are related to both mathematics and machine learning. I will tell you more about
+this in the presentation devoted to my scientific activities, which is also attached to this application.
+My research interests include applications of information theory to machine learning, combinatorial
+geometry, application of optimization methods and machine learning to problems of combinatorial
+geometry. The latter direction is related to several areas of the SMILES [compaany]: large language
+models, multi-agent systems and generative approaches. In this letter I will try to talk about this in
+more detail.
+I have been taking part in the scientific summer schools on Machine Learning and Optimization for
+young researchers since 2020. Thanks to the acquaintance of [name], Professor of [compaany], at
+the summer project school in [location] in the summer of 2020 (after the 2nd year of bachelor's degree)
+we formed a scientific group. (the team in which we did the project at that science school) in which
+we continued research on the application of information theory to machine learning problems already
+in [compaany]. As part of this activity, our team has written 5 papers, including 3 papers accepted at the
+leading A* conferences (ICLR-2024, NeurIPS-2024, ICLR-2025). The first two papers are devoted to
+the evaluation of mutual information through data compression and normalization streams. The third
+article is devoted to generation of embedding from a given distribution (Distribution Matching) using
+the Deep InfoMax approach.
+Previously I participated in the SMILES [compaany] in 2023, which was held in [location]. At this school, I
+received an award in a poster session for one of the best posters dedicated to our research on
+information theory (these results were later accepted at ICLR-2024). In 2024, my colleague from this
+study, [name], took part in the SMILES [compaany], who also won the award for the best poster
+dedicated to our articles with I This confirms the importance of our research, and we are pleased that
+it was recognized by the scientific committee of the SMILES [compaany].
+Another area of my research is on combinatorial geometry. In the laboratory at [compaany], I study the
+optimal partitioning of different spaces and factor-spaces into smaller parts of diameter. This problem
+is closely related to the famous Borsuk hypothesis and is of particular interest in the partitioning of
+Euclidean spaces. In the framework of this work, an optimization algorithm for searching for optimal
+partitions of flat sets was developed, SAT-solvers were applied, including neural network approaches.
+However, it seems promising to me to apply machine learning methods to find such optimal partitions
+of various sets, to find structures of graphs (including distance graphs) with necessary properties. This
+direction is very promising, and there are many areas for research here: code generation for optimal
+partitions using large language models; multi-agent systems where each agent generates some graph,
+and then using loss functions, an update of agent weights or other interaction between them, where the
+best parts of the graph are used from I consider this summer school as an opportunity to learn more
+about the application of generative modeling and multi-agent systems for such problems, which are
+problems of fundamental mathematics and were previously solved only mathematically, but there is a
+feeling that machine learning methods can significantly help in solving such problems and it will
+be done by someone (hopefully.
+In addition, this year the SMILES Summer School will be held in [country] and I am particularly
+interested to participate in this summer school, including to see how scientific activities are organized
+in Chinese universities, as well as to learn about possible scientific collaborations with researchers
+from China. (I think everyone has heard about Chinese successes in artificial intelligence research). I
+hope that my colleagues from the information theory project from [compaany] will also be selected to
+participate in this school, so that we can present our results together, work on a project, the results of
+which will be published in the future. For example, the idea of our article with ICLR-2025 originated
+from the last SMILES [compaany] , which was attended by my colleagues, and during that school I was at
+the main mathematical conference of Russia - the fourth conference of mathematical centers, which
+was held in [location] at about the same time, where I presented the results on the second area of
+my research - optimization.
+In conclusion, I would like to participate in this summer school and in a wonderful community of
+students with burning eyes and similarly interested teachers to learn about the applications of machine
+learning, listen to new lectures and implement a joint project with others in the framework of the
+summer school.

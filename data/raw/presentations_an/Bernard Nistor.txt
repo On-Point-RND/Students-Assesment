@@ -1,0 +1,148 @@
+Slide 1
+----------------------------------------
+[name]
+[compaany]
+PhD-1, [compaany]
+AI-Driven MD Simulation Platform
+Supervisor: [surname]
+
+Slide 2
+----------------------------------------
+Introduction
+
+LAMMPS software:
+	- atomic and molecular simulations
+	- material science modelling
+	- difficult, time-consuming, requires skill
+Goal is to make assisting AI platform
+Final goal: Physical Reasoning AI
+
+Slide 3
+----------------------------------------
+Current issues
+
+Transforme rs can’t cope with really large sequences (e.g. create 1billion-atoms data file).
+One model for all kind of tasks is not e nough.
+Simulation time is large -> problems with training.
+
+Solutions
+
+Divide the platform into communicating services (e.g. [compaany] infrastructure).
+Each service can be updated with specialized model.
+Some services may utilize special light-weighte d models with o nline learning.
+
+Slide 4
+----------------------------------------
+Basic idea
+
+Slide 5
+----------------------------------------
+(Tune d Llama 2, 7B)
+[{
+	“service”: “scene_creator”,
+	“data”: [
+		{
+		“type”: 1,
+		“lattice”: “fcc”,
+		“latt_par”: 3.615,
+		“mass”: 63.5,
+		“pos_x”: -10
+		…
+	},
+	{
+		“type”: 1,
+		“lattice”: “fcc”,
+		“latt_par”: 3.615,
+		“mass”: 63.5,
+		“pos_x”: 10
+		…
+	},
+},
+{
+	“service”: “stress_measure”,
+	“data”: …
+}]
+Basic idea
+
+Slide 6
+----------------------------------------
+ stress data files
+
+SYSTEM OUTPUT
++
++
+
+Slide 7
+----------------------------------------
+ stress data files
+
+SYSTEM OUTPUT
++
++
+
+Slide 8
+----------------------------------------
+
+Slide 9
+----------------------------------------
+STRUC STRUCTURE OPTI MIZER:
+ONLINE REINFORCE ALGORIthm
+
+Minimizer: ba sinhopping algo rithm
+(MSc thesis)
+
+Slide 10
+----------------------------------------
+STRUC STRUCTURE OPTI MIZER:
+ONLINE REINFORCE ALGORIthm
+
+ERROR <1%
+
+Slide 11
+----------------------------------------
+SCENE CREATOR
+
+How to create a material?
++ Limitations:
+
+Generated
+by AI
+(TinyLlama-1.1B)
+
+Slide 12
+----------------------------------------
+Results
+
+Two platform micro-services have been succe ssfully realized:
+	- creation of scene datafil e.
+	- material properties o ptimization.
+Material properties o ptimization service was tested on new meta-material structure and shew promising results (smooth convergence to an engineering accuracy with <1% deviation).
+
+Slide 13
+----------------------------------------
+Research gap & future steps
+
+The Scene Creator c urrently o nly handles basic lat tic es and strug gles with complex tasks, requires advanced synthetic dataset generation.
+To build a self-learning system, the Experiment Observer service requires a multi-modal agent.
+Each service should be upgraded into a functionally inde pendent agent.
+A Physical Reasoning AI could acce lerate research across the entire field and poten tially provide new insights.
+
+Slide 14
+----------------------------------------
+[surname], K. A., [name], A. A., [surname], A. A., & [name], M. V. (2023). Interpolation of well techno logical mode data gaps using machine learning algo rithms. PRON EFT. Professionally about oil, 8(3), 163-166.
+[name], A., [name], E., [name], A., [name], N. “Development of hybrid models for simu latin g large particles colli sion”. Journal Computational Physics. (revi ewed)
+
+Publications
+
+Slide 15
+----------------------------------------
+[name], Anna, [name], Mirhoseini, Hao Zhou, Irene Cai, and Christopher D. Manning. ‘Synthetic Data Generation & Multi-Step RL for Reasoning & Tool.
+[name], G. R. and [name], A. A. A stochastic radial ba-sis function metho d for the global o ptimization of expensive functions.INFORMS Journal on Computing, 19(4):497–509, 2007.
+[name], Tor Lattimore and [name], Csaba Szepesv´ari. Bandit algo rithms. Cambri dg eUniversi ty Press, 2020.
+[name], M., [name], C. L., [name], R., [name], A., [name], A., [name], N. T., & [name], M. (2025). AI-driven materials design: a mini-revi ew. arXiv preprint arXiv:2502.02905.
+
+Bibliography
+
+Slide 16
+----------------------------------------
+Thanks for your attention!

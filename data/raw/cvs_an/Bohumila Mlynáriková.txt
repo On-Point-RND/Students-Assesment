@@ -1,0 +1,120 @@
+[name]
++2 *** *** *** ⋄ [location]
+[email]
+EDUCATION
+[compaany] 2024 - 2028, [location]
+Ph.D. in Petroleum Engineering
+GPA:4.0/4.0
+Research: Automated reservoir characterization based on fast core data interpretation using machine vision tech-
+niques
+[compaany] 2022 - 2024, [location]
+M.S.c in Petroleum Engineering
+GPA:3.6/4.0
+Research: Full-size core fracturing auto-characterization using machine vision techniques
+[compaany] 2018 - 2022, [location]
+B.S.c in Petroleum Engineering
+GPA:3.9/4.0
+Research: Development of measures to reduce noise levels at control and distribution points of main gas pipelines
+[compaany] 2018 - 2022, [location]
+Additional (to higher) education
+Technical translator
+GPA:3.7/4.0
+Research: Sensing solution for monitoring and defect detection in pipeline systems (Scientific and technical text
+translation)
+SKILLS
+Languages Russian (Native), English (Upper Intermediate)
+Hard Skills Machine Learning, Computer Vision, Deep Learning,
+OpenCV, Pillow, Scikit-image, Matplotlib, Seaborn,
+NumPy, Pandas, Scikit-learn, PyTorch,
+XGBoost, Regression Techniques, K-Nearest Neighbors,
+CNN: TensorFlow, Keras
+Software and Tools GeoDict, Ansys, Inventor, LaTex, MathCad, Kompas 3D, AutoCad,
+Programming languages Python
+WORK EXPERIENCE
+[compaany] July 2024 - Now, [location]
+Engineer
+Tasks: Development of methodology and approaches for typifying submicron pore space based on high-resolution
+scanning electron microscopy (SEM), and to construct petrophysical dependencies of pore space and permeability.
+[compaany] 2023 - April 2024, [location]
+Engineer
+Tasks: Development of training sets for machine learning algorithms, development of digital core models for peren-
+nially frozen rocks, processing and interpretation of the results of computational experiments
+[location] 2023 - May 2024, [location]
+(National Research [University])
+Specialist of the Center for Developtment of Physics and Mathematics Education
+Tasks: Adept in pinpointiing and rectifying errors in theoretical and practical physics materials. Possess specialized
+expertise in crafting physics-focused video lessons, scriptiing animations, and enhancing the artistic quality of educa-
+tional videos. Skilled at collaborating with physics educators and designeers to elevate physics educational content.
+The Centre of Pedagogical Excellence 2023 - May 2024, [location]
+Head of Event Department
+Tasks: Communicating with department heads, planning, coordinating, iplementing and controlliing events, event
+support, budgeting and costing, selecting venue, decorations and personnel
+The Centre of Pedagogical Excellence 2019 - 2023, [location]
+Assistant manager of the Physics Department
+Tasks: Facilitating and leading extracurricular programs for schoolchildren, responsible for creating comprehensive
+methodological resources for physics education. Proficient in conducting quality assessments and ensuring the align-
+ment of video lessons with educational objectives. Passionate about enriching students’ learning experiences through
+engaging activities and innovative teaching materials.
+OOO Gazprom transgaz 2021 [location]
+Industrial immersion
+Tasks: Studying the regulatory documents of OOO Gazprom transgaz [location], developing a method for calculating
+pipe wear and tear.
+PROJECTS
+Submicron pore space classification. Development of methodology and approaches for typifying submicron
+pore space based on high-resolution sscanning electron microscopy (SEM), constructing three-dimensional minicubes
+using two-dimensional masks of varying submicron types, calculating the porosity and permeability of the minicubes,
+and constructing dependencies between these properties. Tools: GeoDict, Python programming: OpenCV, Pillow,
+PoreSpy, OpnPNM, NumPy, Scikit-image.
+Development of the concept of a digital twin model for permafrost cores of the Yamalo-Nenets Au-
+tonomous District. Development of digital core models for permafrost rocks. Tools: GeoDict, Python program-
+ming: NumPy, OpenCV, PoreSpy, Scikit-image.
+Pump It Up. Data Mining the Tanzania Water Table. Coordinated the iplemntaion of a project to
+predict the functionaliity of water pumps in Tanzania by using ML models. Tools: Python programming: Pandas,
+NumPy, Seaborn, Scikit-learn, XGBoost, Logistic Regression, K-Nearest Neighbors,
+Random Forest Regression, GridSeaarchCV.
+Pretrained Coles model quality based on the input data amount. Set the experiments on the Coles method
+with different pretrain dataset sizes, model size and number epochs till neural network saturation in self-supervised
+training. Worked with embedded transaction data. Calculated the quality on downstream task. Tools: Python
+programming: PyTorch, Random Forest Regression, Light Gradient Boosting Machine.
+PUBLICATIONS
+[name] O.A., [name] E.E., [name] D.M., [name] D.A. Application of machine vision methods for automatic
+fracture characterization of core material. V International Scientific and Practical Conference “Actual Issues of Oil
+and Gas Reservoir Systems Research” (SPRS-2024/IPS-2024). October 03-04, 2024 [location]
+[name] O.A., [name] E.E., [name] D.M.Applicationofmachi nevisiontechno logiesforevalua tionoffracturing
+of core material. VIII International Youth Scientific Conference (TATARSTAN UPEXPRO 2024), April 11-14, 2024,
+[location], Collection of Scientific Papers, P. 258-260.
+[name] Olga, [name] Evgeny, [name] Denis, [name] Dmitry (2023). Digital quality control of core material.
+BalticPetroModel-2023 VII Conference
+COMPETITIONS
+Participation in the conference 2024, [location]
+V International Scientific and Practical Conference “Actual Issues of Petroleum Reservoir Systems Research”
+(SPRS-2024)
+Research: Application of machine vision techniques for automatic fracture characterization of core material
+Participation in the conference 2024, [location]
+78th International Youth Scientific Conference ”Oil and Gas -2024”
+Research: Application of machine vision techno logy to evalua te fracturing of core material
+Second degree diploma 2024, [location]
+TATARSTAN UPEXPRO 2024
+Research: Application of machine vision techno logy to evalua te fracturing of core material
+Participation in the conference 2024, [location]
+TATARSTAN UPEXPRO 2024
+Research: Application of machine vision techno logy to evalua te fracturing of core material
+Participation in the conference 2023, [location]
+Experimental methods of reservoir systems research: problems and solutions (IPS-2023)
+Research: Digital quality control of core material
+Travel grant for academic mobility 2023, Sirius, [location]
+Digital Methods in Petroleum Engineering awarded by Sirius [University]
+Research: Mapping of various facies zones according to GIS data
+Second place in star tup projects 2022, [location]
+Skoltech Innovation Workshop 2022
+Research: Conta ctless electrode for ECG
+EXTRA-CURRI CULAR ACTIVITIES
+• Teaching Assis tant at the Digital Core course at [compaany] (developing
+homework assignments, supervising students outsi de of lecture classes, participating in the develo pment of
+assignments for final projects, grading)
+• The Volun teer at [compaany]
+• Creating tasks for the Olympiad ”Museu ms. Parks. Estates” on physics for the museu m Experimentarium
+( [location] (Moscow))
+
+
+

@@ -1,0 +1,39 @@
+Dear Organizing Committee,
+I am excited to apply for the Summer School on Generative
+Intelligence. I am passionate about advancing my knowledge and
+skills at the intersection of robotics and generative AI. During my
+studies, I have always been interested in the idea of combining
+deep learning methods, especially generative models, with robotics.
+I'm interested in your summer school because it's a special chance
+to learn directly from the best researchers and practitioners in this
+very modern field.
+My current research at [compaany]'s Mobile Robotics Laboratory
+is on improving classical algorithms that plan how robots move, like
+the Model Predictive Path Integral (MPPI), by combining modern
+machine learning and generative approaches. I have been trying
+out diffusion models as an alternative to traditional Gaussian
+sampling in MPPI. While the first results showed a lot of promise,
+they also showed some big problems, especially with simple
+methods of learning that led to problems like transition collapse. I
+am excited to attend your program to learn more about how to apply
+generative models to improve real-time robotics control.
+I really value the collaborative and interdisciplinary environment
+your summer school fosters. I'm excited to learn from the other
+participants and instructors, explore new ideas, and better
+understand how generative intelligence can be used in the real
+world. I want to improve my technical skills and meet new people in
+my field. I hope to make connections that will help me in the future.
+In the long term, I want to contribute to the academic
+community and industry by doing research and coming up with new
+ideas that combine AI and robotics. My goal is to design strong
+robotic systems that can adapt to new situations and interact with
+people in different ways. The knowledge and insights I gained from
+your summer school will be very important in determining the
+direction of my research and giving me the advanced tools I need to
+achieve my ambitious career goals.
+Thank you for looking at my application. I am excited to
+contribute to and learn from the lively intellectual community at your
+summer school.
+Sincerely, [name] [surname]
++2 *** *** ***
+[email]

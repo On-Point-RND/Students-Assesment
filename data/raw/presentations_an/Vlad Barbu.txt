@@ -1,0 +1,97 @@
+Slide 1
+----------------------------------------
+[name]
+Master's student, [location] State Petroleum Technical [university]
+
+Recognition of readings and factory numbers on meters
+
+Slide 2
+----------------------------------------
+Introduction
+
+Why is it important?
+Manual data entry is time-consuming and error-prone. Automating this process increases efficiency, reduces human error, and supports large-scale, real-time data collection for billing and monitoring.
+Background (if needed):
+Utility companies typically rely on human agents or customer self-reporting to collect meter readings. Poor image quality, varied meter designs, and lighting conditions create challenges for automation.
+Goal of the review:
+To evaluate the effectiveness of modern object detection and optical character recognition (OCR) techniques in automating meter reading processes.
+This review explores the application of computer vision to automatically detect and recognize readings and serial numbers on utility meters — including gas, water, and electricity meters.
+
+Slide 3
+----------------------------------------
+Problem statement
+
+We aim to automate the identification and
+extraction of readings and serial numbers
+from images of utility meters.
+
+Variability in meter types, fonts, and layouts
+Poor image conditions (blur, angle, lighting)
+Limited labeled datasets
+.
+
+Scope:
+Focus on image-based data captured by users
+or agents via smartphone; apply deep learning
+ models to extract relevant text and numbers.
+
+Chalenges:
+
+Slide 4
+----------------------------------------
+Methods
+
+Why these methods?
+Faster R-CNN is highly accurate for detecting complex objects in images. ResNet-50 enables deep feature extraction. These methods are suitable for identifying meter screens and digit areas under variable conditions.
+
+How it works (simplified):
+
+The detector locates meter display and number zones.
+The recognizer reads digits from the localized regions.
+
+Data & Preprocessing:
+
+Image augmentation to simulate various conditions
+Manual annotation of reading zones
+Train/test split to evaluate model performance
+
+Slide 5
+----------------------------------------
+Results
+
+Key Findings:
+
+Faster R-CNN successfully localizes number regions with high accuracy.
+OCR achieves up to 95–98% accuracy on clean images.
+Automated processing significantly reduces human effort.
+
+IoU (Intersection over Union) for bounding box accuracy
+Precision/Recall/F1-score for text recognition performance
+Loss curves to monitor training progress
+
+Metrics Used:
+
+Slide 6
+----------------------------------------
+Research gap
+
+What’s missing?
+Limited generalization across meter types and manufacturers
+Dependence on clean and centered images
+Unresolved Challenges:
+Errors due to reflections, partial occlusion, and unusual fonts
+Lack of real-time processing on low-power edgde devices
+Why it matters: Improving generalization and robustness is essential for real-world deployments, especially in rural or high-volume urban contexts.
+Future Opportunities:
+Model fine-tuning on larger, diverse datasets
+Deployment via mobile apps for field workers and customers
+Integration with smart metering infrastructure
+.
+
+Slide 7
+----------------------------------------
+1. Artificial intelligence in the electronic document management system at a gas supply company/ [name]. Proceedinings of [location] State [university]. Technical sciences. 2023. - No. 12. pp. 529-532.;
+2. Application of YOLO8 for recognition of personal protective equipment on video / [name]. Proceedinings of [location] State [university]. Technical sciences. 2024. No. 4. pp. 182-186.;
+3. Application of median and adaptive filters for satellite image processing/ [name]. Proceedinings of [location] State [university]. Technical sciences. 2024. No. 10. pp. 229-233;
+
+Bibliography

@@ -1,0 +1,93 @@
+Curriculum Vitae: [name]
+(Updated: October 19th, 2021)
+1. PERSONAL DETAILS
+Phone +2 *** *** ***
++44 07518424727
+E-mail [email]
+2. PROFESSIONAL EXPERIENCE
+10/2020-10/2021 [compaany]
+Senior analytic
+- Macroeconomic modelling and analysis of [location] economy
+- Economic reports (weekly, monthly, quarterly)
+- Public speaking
+03/2020-09/2020 [compaany] (Moscow, [location])
+Economist
+- Macroeconomic modelling and analysis of CIS countries using
+VAR/VECM and BVAR
+- Analysis of the World economy using Panel data modelling
+- Monthly reports and outlooks on GDP growth, inflation, monetary and fiscal
+sectors of CIS
+- Weekly economic reports (week ahead)
+02/2016-03/2020 Eurasian Fund for Stabilizaation and Development (Moscow, [location])
+Leading Specialist – Country Economist ([location] and [location])
+- Macroeconomic modelling: financial programming and debt sustainability
+analysis, VAR/VECM, BVAR, panel data analysis, Kalman filter
+- Analysis of the fiscal and external sectors of [location], [location], [location]
+and [location]
+- Macroeconomic forecast of the fiscal and external sectors
+- Assessment of the effectiveness of tax and customs benefiits in [location]
+09/19-10/2021 Higher School of Economics National Research Universiity
+(Moscow, [location])
+Seminar-teacher (World economy, international economic relations)
+3. EDUCATION
+2021-2022 Universiity of Essex, Department of Mathematics
+Master of statistics
+2016-2019 Higher School of Economics National Research Universiity
+(Moscow, [location])
+Researcher in Economics
+Thesis: Non-tariff measures as a tool to achieve macrostabilization
+2016-2020 Belarusian State University ([location])
+Researcher of Mathematical and instrumental methods
+Thesis: Assessment of the equilibrium exchange rate of the
+Belarusian ruble
+2014-2016 Higher School of Economics National Research Universiity
+(Moscow, [location])
+Master of Science in Economics (International Economics)
+Thesis: Belarus’s trade policy under the influence of Common Economic Space - the
+Customs Union - the Eurasian Economic Union in the period of 2001-2014
+2009-2014 Belarusian Trade and Economic Universiity of Consumer Cooperatives
+([location])
+Diploma in Economics (Foreign Trade Operations Management)
+4. PUBLICATIONS
+1. [name], Y. Econometric modeling of non-energy imports in the Republic of Belarus /
+[name] Y // Economic Bulletin of the Research Institute of the Ministry of Economy of Belarus. -
+2018. - No. 11. https://niei.by/ru/biulleten-11-2018-ru/
+2. [name], Y. Analysis of indicators of foreign trade in goods and services
+Of the Republic of Belarus for 2011–2016/ [name] Y// Journal of the National Bank of
+Belarus – 2017. – No 8/649 – P. 26-32. http://www.nbrb.by/bv/articles/10418.pdf
+3. [name], Y. Econometric modeling of non-energy exports of Belarus / [name] Y// Journal of
+the National Bank of Belarus – 2018. –№ 5/658 – P. 45-55. http://www.nbrb.by/bv/articles/10517.pdf
+4. [name], Y. Assessing the impact of shocks on the current account of Belarus using the structuraal
+vector autoregressive model / [name] Y// Journal of the National Bank of Belarus – 2018. – № 8/661
+– P. 21-29. http://www.nbrb.by/bv/articles/10542.pdf
+5. [name], Y. Theoretical approaches to the assessment of the equilibrium exchange rate/
+[name] Y// Journal of the National Bank of Belarus – 2019. – № 6/671 – P. 22-32.
+https://www.nbrb.by/bv/articles/10634.pdf
+6. [name], Y. Estimation of the equilibrium exchange rate of the Belarusian ruble using a
+fundamental approach/ [name] Y// Journal of the National Bank of Belarus– 2019. – №
+7/672 – P. 37-44. https://www.nbrb.by/bv/articles/10645.pdf
+7. [name], Y. Features of the formation of the trade policy of Belarus before and after the
+creation of the Customs Union/ [name] Y// Russian Foreign Economic Bulletin – 2018. –
+№ 11 http://www.rfej.ru/rvv/id/700218FA9/$file/110-120.pdf
+8. [name], Y. Assessment of the liberalization of non-tariff barriers of the Republic of
+Belarus after the creation of the Customs Union/ [name] Y// Journal of Economic Policy –
+2013. – № 3 (june) http://ecpolicy.ru/images/stories/2019_3/006_.pdf
+9. [name], Y. Analysis of foreign currency supply and demand from the population of the
+Belarus// Journal of the Belarusian State University/Economics 2020 – № 1.
+5. CONFERENCES, SEMIINARS, AND TRAINING
+1. Joint Vienna Institute (Vienna, [location], 10/2019)
+Monetary and Fiscal Policy Analysis with DSGE Models
+3. Summer schoo l Barcelona Graduate economics schoo l (Barcelona, [location], 06/2019)
+Bayesian Time Series Methods (introductory and advanced), Bayesian Methods for DSGE
+Models in Matlab (Dynare)
+4. Joint Vienna Institute (Vienna, [location], 11/2018)
+Fiscal Policy Analysis
+5. Summer schoo l Barcelona Graduate economics schoo l (Barcelona, [location], 07/2018)
+Macroeconometrics (Time Series Methods for Macroeconomic Analysis, Modeling Non-
+stationary and Non-linear Time Series in Matlab)
+6. Summer schoo l Central Bank of Russia (Saint Petersburg, [location], 06/2017)
+Macroeconometrics (Ce ntral Bank Macroeconomic Modeling)
+7. French Language Institute at the Embaassy of France (Moscow, [location], 01/2017-04/2018)
+6. SKILLS
+Languages Belaussian (native), Russian (native), English (fluent)
+Applications R, Matlab (Dynare, IRIS), Python, Stata, EViews, SPSS.

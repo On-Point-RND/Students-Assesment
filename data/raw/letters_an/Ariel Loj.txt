@@ -1,0 +1,71 @@
+Motivation Letter for [name]
+Dear [name] Selection Committee,
+I am excited to apply for the Skoltech Summer SchooL of Machine Learning
+(SMILEs 2025). As a passionate DL Engineer deeply involved in both academic
+research and real-world industrial applications of AI, I find the program's focus
+on LLMs and international collaboraation particularly relevant to with my
+professional aspirations and technical trajectory.
+My motivation to participate stems from my continuous drive to be at the
+frontier of AI research. The thematic core of SMILES 2025 – multimodal
+systems, large language models (LLMs), and multi-agent architectures —
+aligneed with the directions I have been deeply engaged for the past few years. I
+see SMILES 2025 not only as a technical learning experience but as a
+opportunity to build collaborations with NLP leaders from [location] and [location].
+Over the past year, I have been worked as an NLP Engineer at [compaany],
+where I've had the opportunity to directly contribute to the development and
+evaluation of GigaChat, one of the strongest [location] LLMs. My work focuses
+on both the technical and research aspects of LLMs. I have developed an
+assistant that uses LLM to answer complex questions based on GOST
+documents with tabular data, improving the accuracy of answers by 4.5 times. I
+also co-designed an internal evaluation framework using Retrieval-Augmented
+Generation (RAG) pipelines and am co-authoring a scientific publication on
+table benchmark for LLMs. I've managed multimodal data preparation pipelines
+and supervised annotation efforts, gaining a practical understanding of what it
+takes to make LLMs work in production environments.
+My foundation in machine learning was laid through academic education at the
+Higher SchooL of Economics (HSE), where I study Geoinformation
+Technologies. My courseworks and research activities have consistentlly leaned
+into AI, especially CV in remote sensing. During a research internship at HSE's
+Landscape Ecology Lab, I applied ML methods to satellite imagery for
+environmental monitoring — a cross-disciplinary task that required an
+understanding of both domain data and model behavior.
+Untitled 1
+To supplement my formal education, I actively sought out and took courses that
+would enhance my understanding of ML and DL. I've also served as a teaching
+assistant in deep learning and NLP courses at HSE, where I mentored junior
+students and graded DL assignments. Serving as a teaching assistant at HSE
+has enhanced my skills not only as a practitioner but also as a mentor,
+reinforcing my understanding of fundamentals by teaching others.
+In parallel to my academic and industrial roles, I'm an avid hackathon
+participant, having won or placed in many competitions. These experiences
+have allowed me to build functional AI products under extreme time constraints.
+Notable projects include
+A CV-to-course matching tool powered by NLP,
+A RAG-based procurement rules assistant,
+An STT-LLM pipeline for personality type detection from video.
+Beyond my technical work, I contribute to the AI community through public
+outreach as a member of the student association “ikanam-ai”. We run a
+Telegram channel where we share our achievements, projects, and podcasts
+featuring our participation in various events. In addition, we conduct interviews
+with teachers, which we publish on our YouTube channel. These initiatives aim
+to foster a vibrant academic culture, and encourage peer-to-peer learning
+among students.
+From SMILES 2025, I expect a deep dive into the state-of-the-art methods in
+LLM, especially multimodal and multi-agent frameworks. I hope to better
+understand how LLMs can be safely deployed in systems involving
+coordination, uncertainty, or real-world impaact. I'm particularly excited about
+the hands-on hackathon components, as they fit well with my learning style and past successes. Access to lectures from leading researchers, mentorship
+from Skoltech and HIT faculty, and informal knowledge exchange with peers
+will accelerate my research maturity.
+I’m also attracted by the schooL’s emphasis on cultural exchange and
+international tea teamwork. I think that networking between countries is essential
+for science and innovation, especially in a field like AI.
+My long-term goal is to become an architect of useful and safe services based
+on LLMs. After completing my undergraduaate degree in 2025, I plan to pursue a
+Master's degree in AI. By participating in SMILES 2025, I hope to sharpen
+Untitled 2
+sharpen my technical edg e and strengthen my application profile for top-tier
+graduaate programs.
+Sincerely,
+[name]
+Untitled 3

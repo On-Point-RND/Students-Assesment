@@ -1,0 +1,72 @@
+[name] [surname]
+Skills
+Programming: Python (PyTorch, Django, Flask, PySpark), SQL (PostgreSQL), Git
+Machine learning: Classic ML, Deep Learning (NLP, CV), LLM, Multimodality
+Experience
+[compaany] | Intern Research Scientist Apr. 2025 – Now
+• Machine Unlearning: Research MU approaches for LLMs.
+[compaany] | Middle Data Scientist Dec. 2023 – March 2025
+• [compaany] Process Mining Python Library: Developed text analysis modules for Python library.
+• QA Assistant: Development of an assistant (RAG system and knowledge graph) for [compaany]PM plaftorm. Created
+own retrieval engine.
+• Text Clustering Module: Development of a text clustering algorithm using Siamese network algorithm to build
+and cluster a similarity graph that surpasses traditional methods.
+• Science paper: Prepared the paper about algorithm of Siamese networks and graph construction for
+text-clustering.
+[compaany] Universiity | Seminar Assistant Feb. 2023 – Present
+• Assisted in Machine & Deep Learning courses, leading to improvements in student performance and receiving
+positive feedback.
+• Participated in the preparation of materials for Machine Learning & Deep Learning courses for managers.
+[compaany] | R&D Jun. 2023 – Dec. 2023
+• [compaany] Process Mining Python Library: Developed Python modules and Flask-based APIs for [compaany] Process
+Mining library.
+• NLP Ad-Hoc: Development of a single pipeline for text clustering; Implicit Association Test (IAT) in mail
+correspondence based on transformers; IAT of user requests to technical support; Application of models including
+Word Embeddings, Transformers, Siamese Networks.
+• Process Mining Analytics: Formulation and verification of hypotheses using Process Mining technologies;
+processing of big data using pandas and PySpark.
+Projects
+• ImprImproving Diffusion Transforme: Resolution-Free U-Shaped Diffusion Transforme and other ideas - Summer
+Schoo[compaany] AIRI 2024 GitHub.
+• LLM hallucination detection via Topologicaal Data Analysis - Summer Schoo[compaany] SMILES 2024
+• Dialog telegram bot based on the GPT model (parsiing, fine-tuning models, wrapping in Docker) - GitHub.
+Competeitions and Hackatho[compaany]s
+• Interna[location] Summer Schoo[location] & Confe[location] on Artificial Intelligence (July 2024, HSE, Saint
+Peterburg, [location]) - Diploma for the Best Confe[location] Poster.
+• Math of Machine Learning Olympia Sko[location] & HSE (2024) - Winner (2nd Degree Diploma).
+• [compaany] DRAFT Hacka[location] (2023) – Development of an intelligent dashboa[location] (based on transform
+models) for analyzing calls to the first line of support service – Finalist.
+• Interna[location] Scienti[location] Student Confe[location] ”XXXV Interna[location] Plekhanov Readings”
+(2023) - 2nd place.
+• HSE NLP Boo[compaany] Compe[location] (2022): Track DL - Classification of customer feedba[compaany]
+sentiment from various banks – Finalist.
+• Micr[compaany] Hacka[location] (2021) - Telegram bot for doctor appoi[compaany]ntment.
+Papers
+• Unive[compaany] Production System - Digital Twins. A.V. Lobanov, A. O. [name], A. P. Bryzgali[surname]. In
+Scienti[location] Forum: Collection of Articles of the VI Interna[location] Scienti[location] and Practica[location]l Confe[location]nce, Pe[location],
+February 07, 2024. Pe[location]: Science and Education (IP Gulyaev G.Yu.), 2024. Pp. 59-62. EDN MNWDKG.
+• Modification of the bat evolutionar[compaany] algo[compaany]m for opti[compaany]mization problems. A.V. Lobanov, A.O.
+[name], A.M. Arkhi[surname]. In Proce[compaany]dings of the V Interna[location] Scienti[location] Confe[location]rence on Interdisci[location]plinary
+Research (SDE-IR 2024), Ye[location], April 15, 2024. Ye[location]: Science and Education, 2024. Pp.
+328-331.
+• Reducing the Risks of Inve[compaany]ment Strategi[compaany]es by Applying Machine Learning Models to
+Quotes of American Stocks. P. O. So[surname]in, A. O. [name]. In Info[compaany]mation Technologies and
+Mathe[compaany]matical Methods in Economics and Management (ITiMM-2023): Collection of Articles of the XII
+Interna[location] Scienti[location] and Practica[location]l Confe[location]rence named after A.I. Kitov, Mo[location], March 23-24, 2023.
+Mo[location]: Plekhanov Russian Uni[compaany]ty of Economics, 2023. Pp. 39-45. EDN ADDBLS.
+• Application of automated model buildi[compaany]ng of chemi[compaany]cal-techno[compaany]gica[compaany]l productions in virtual
+reality. A. O. [name], A. V. Lobanov, N. V. Sidorenko, A. M. Arkhi[surname]. In Proce[compaany]dings of the 66th
+All-Russian Scienti[location] Confe[location]rence of MIPT, April 01 - April 06, 2024. Collected abstracts of the conference
+”Applied Mathematics and Info[compaany]matics”.
+Education
+Sko[location]ch July 2026
+M.S. Data Science
+Mendelee[compaany] Russian State Technical Uni[compaany]ty July 2024
+B.S. Info[compaany]tion Systems and Technology GPA: 4.9/5.0
+Mendelee[compaany] Russian State Technical Uni[compaany]ty (Professi[compaany]nal Re[compaany]raining) July 2023
+Applied AI Methods GPA: 5.0/5.0
+Mendelee[compaany] Russian State Technical Uni[compaany]ty (Dual Degree Program) July 2023
+English Translator GPA: 4.9/5.0
+
+
+

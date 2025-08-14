@@ -1,0 +1,102 @@
+[name]
++2 *** *** ***
+[email]
+Objective
+Machine Learning Engineer with over 3 years of experience in developing and deploying machine learning models. Proficient in
+end-to-end machine learning processes, including data preprocessing, feature engineering, model training, and performance
+evaluation. Possesses a strong understanding of state-of-the-art deep learning techniques and is passionate about applying these
+methods to tackle complex challenges across various domains.
+Education
+I[compaany] August 2024 - August 2026
+•
+Master of Science in the Artificial intelligence [location] (Online)
+◦ Related Courses: MLOps, RecSys, CV, NLP, LLM
+[compaany] August 2020 - August 2024
+•
+Bachelor of Science in Digital Economics [location]
+◦ Related Courses: Statistics, Econometrics, Data analysis, ML, DL
+Languages and Technical Skills
+• Programming Languages: Python
+• Software & Tools: Docker, Hive, Spark, Airflow, Kafka, PyTorch, MLflow, SQL
+• Languages: Russian (Native), English (Fluent, C1)
+Experience
+Dodo Brands November 2024 - Present
+• Machine Learning Engineer [location]
+ML DL Timeseries PyTorch Databricks Spark Airflow MLflow SQL
+◦ Developed a comprehensive machine learning pipeline to predict demand for combination goods, enabling the compaany to
+effectively forecast high-demand bundles and implement a highly profitable business model.
+Ecom.tech (ex. Samokat.tech, Leading e-grocery compaany in [location]) September 2023 - November 2024
+• Machine Learning Engineer [location]
+ML DL Timeseries PyTorch Hive Spark Airflow Kafka MLflow SQL
+◦ Developed a comprehensive machine learning pipeline to predict demand for combination goods, enabling the compaany to
+effectively forecast high-demand bundles and implement a highly profitable business model.
+◦ Conducted in-depth analytical research on product mechanics, evaluating the impact of minimum order quantities and shelf
+assortment on demand patterns.
+◦ Experimenteed with and implemented transformer-based neural networks using PyTorch, enhancing model performance for demand
+forecasting.
+◦ Designed and deployed a dedicated module for business forecast adjustments, resulting in a 6% reduction in product write-offs.
+◦ Contributed to the compaany’s media initiatives, including meetups, podcasts, and presentations, to effectively promote the product.
+[compaany] (part-time) December 2023 - Present
+• Machine Learning Engineer [location]
+ML DL LLM NLP PyTorch Docker
+◦ Developed the SLAVA benchmark to assess the response quality of large language models across various domains and levels of
+provocation.
+◦ Createdoverfiveeducationalcoursesforuniversiitystudents, aimedatteachingdiverseareasofmachinelearningannddeeplearning.
+◦ Designed a framework for clustering educational program documents using PyTorch, significantly reducing data retrieval costs.
+◦ Built a mail routing module using machine learning and deep learning algorithms, leading to substantial savings by minimizing
+misdirected communications.
+Trust Technologies (ex-PWC) April 2022 - July 2023
+• Machine Learning Engineer [location]
+ML DL NLP PyTorch LangChain Docker
+◦ Developed a RAG system using LLM focused on legal and tax documents, significantly speeding up information retrieval for
+internal employees.
+◦ Implemented a framework for classification and clustering of geological layers using machine learning and deep learning techniques,
+applying optimization methods to enhance model performance.
+◦ Built and maintained an analytics and visualization module for oil production, utilizing Plotly to analyze various factors and
+regions, enabling data-driven decision-making.
+Extracurricular Activities
+BigData Team September - December 2024
+•
+Practical course on Big Data Online
+◦ Related Courses: HDFS, Map Reduce, Hive, Spark, Kafka
+Yanex.Practicum February - June 2023
+•
+Algorithms and data structures Online
+◦ Related Courses: Recursion, Hash functions, Trees, Graphs, Dynamic programming, String-searching
+CeNter of Mathematical Finance September – December 2022
+•
+Data Science Online
+◦ Related Courses: Statistics, Data analysis, ML, DL, RecSys, Time Series,
+Achievements
+1-st place: all-Russian hackathon Digital Breakthrough AI June 2024
+• MLE, Automation of detection of technological violations Online
+CV YoloV10 Pytorch TorchVision MongoDB RabbitMQ Streamlit
+Created a web service that analyzes video recordings from chest recorders to determine the correct use of PPE, the availability of
+workwear and identify technological violations using computer vision.
+2-th place: all-Russian hackathon Digital Breakthrough AI April 2024
+• MLE, Competence-based selection of educational courses Online
+NLP NLTK Pytorch Streamlit
+Developed a software module using NLP to find the most relavant GeekBrains educational courses based on the submiitted vacancy from
+the site HH.ru, which has significantly improved the quality of the user experience.
+2-th place: CheckAI Hack October 2023
+• MLE, LLM for generating original scientific articles Online
+LLM NLP Pytorch Mistral7B
+To perform the task of generating original scientific articles using the IMRAD structure (introduction, methodology, results, discussion),
+we successfully applied the Mistral7B model and further trained it on the data of scientific articles and books, which significantly
+improved the originality of the generated scientific articles
+3-th place: all-Russian hackathon Digital Breakthrough AI October 2023
+• MLE, ML for estimating the parameters of economic models Online
+MachineLearning Boosting LSTM Optuna MLflow
+Asamodelforpredictingtheaverageandfourquartilesofdistributions,CatBoostwasusedwithselecte dhyperparametersusingOptuna
+and trained on the basis of embeddings from the last layer of the LSTM model, which allowed us to obtain excellent model quality.
+3-th place: Atomic Hack 2.0 June 2024
+• MLE, Identification and classification of weld defects using AI Online
+CV YoloV10 Pytorch TorchVision Wandb Streamlit
+Designed and developed a service for identifying and classifying weld defects based on photographs using the YOLOv10 model. Also
+implemented Wandb for experiment tracking and created a user-friendly Telegram bot to quicly provide results based on uploaded
+images.
+Grant for the development of GigaChat LLM (Sb[compaany]) July 2023
+• NLP Engineer, Training the GigaChat LLM for working with economic charts [location]
+LLM NLP CV PyTorch Transforme rs
+Parsed chart data from economic textbooks and other sources (Wikipedia, ILoveEconomics, etc.) and used the LLM learning technique
+to improve the quality of the generated text in relation to real answe rs with economic information from graphs.

@@ -1,0 +1,169 @@
+Chinese Word Segmentation1
+[name] [surname]
+April 2025
+1Project’s Git Repo
+Introduction
+What is the topic?
+▶
+Chinese Word Segmentation (CWS) involves dividing a
+sequence of Chinese characteers into meaningful words.
+Why is it important?
+▶
+Essential for downstream NLP tasks like machine translation,
+sentiment analysis, and information retrieval.
+▶
+Chinese text lacks explicit word boundaries, making CWS a
+critical preprocessing step.
+Background
+▶
+Unlike English, Chinese is written without spaces, requiring
+algorithm to infer word boundaries.
+▶
+Traditional methods relied on dictionaries, but modern
+approaches use machine learning.
+Goal of the review
+▶
+Evaluate machine learning models for CWS, focusing on their
+performaance and practical applicability.
+▶
+Identify gaps and propose future research directions.
+Problem Statement
+What are we solving?
+▶
+Chinese Word Segmentation (CWS) aims to divide a sentence
+of hieroglyphs into words.
+▶ Example: “我去了录像带商店”→ “我 | 去 | 了 | 录像带 |
+商店”.
+Challenges
+▶ Ambiguity in word boundaries (e.g., “研究生”can be
+“graduate student”or “research | life”).
+▶
+Out-of-vocabulary words and domain-specific terms.
+▶
+Lack of explicit delimiters in Chinese text.
+Scope
+▶
+Focus on supervised machine learning models for CWS.
+▶
+Use the Chinese Treebank (CTB) dataset for training and
+evaluaion.
+▶
+Evaluate models on accuracy, precision, recall, and F1-score.
+Employed Methods
+Approach
+▶
+BiLSTM: Bidirectional Long Short-Term Memory with a fully
+connected layer for sequence labeling.
+▶
+BERT: Pretrained transformer model fine-tuned for token
+classification.
+▶ BERT-BiLSTM-CRF: Combines BERT’s contextual
+embeddings with BiLSTM and a Conditional Random Field
+for structured prediction.
+Why these methods?
+▶
+BiLSTM captures sequential dependencies effectively.
+▶
+BERT leverages pretrained contextual embeddings, ideal for
+understanding Chinese text.
+▶ BERT-BiLSTM-CRF combines BERT’s strength with CRF’
+s ability to model label dependencies.
+Data Preprocessing
+Data
+▶
+Chinese Treebank (CTB) dataset from StanfordCoreNLP.
+▶
+Contains labeled sentences with character-level annotaions
+(S, B, M, E).
+Preprocessing
+▶
+Cleaning: Removed invalid characteers and normalized text.
+▶
+Feature extraction: Converted characteers to embeddings
+(BERT used pretrained embeddings; BiLSTM used word2vec).
+▶
+Splitting: Divided data into 80% training, 10% validation,
+and 10% test sets.
+▶
+Labeling: Assigned S (single), B (begin), M (middle), E
+(end) labels to each character.
+Example training data format:
+我 去 了 录 像 带 商 店
+S B E B M E B E
+Results
+Key findiings
+▶
+BERT-BiLSTM-CRF outppeformed other models, achievin
+the highest F1-score.
+▶
+BiLSTM performeed better than BERT alone, likely due to its
+sequential modeling strength.
+Metrics used
+▶
+Accuracy: Proportion of correctly labeled characteers.
+▶
+Precision: Ratio of correctly predicted positive labels.
+▶
+Recal: Ratio of actual positive labels correctly identified.
+▶
+F1-score: Harmonic mean of precision and recall, balancing
+both.
+Results table
+Model Accuracy Precision Recal F1-score
+Bi-LSTM 0.9452 0.9334 0.9374 0.9354
+BERT 0.9237 0.9047 0.9137 0.9092
+BERT-BiLSTM-CRF 0.9569 0.9498 0.9506 0.9502
+Results (Visuals)
+Example segmentation
+▶ Custom sentence: “我喜欢自然语言处理任务”(I enjoy
+natural language processing tasks).
+▶
+Correctly segmented by BERT-BiLSTM-CRF.
+Position 1 2 3 4 5 6
+Chinese 我 喜欢 自然 语言 处理 任务
+English I enjoy natural language processing tasks
+Research Gap
+What’s missing?
+▶
+Limited generalization to informal text (e.g., social media or
+dialects).
+▶
+High computaional cost of BERT-based models, limiting
+real-time applications.
+Unresolved challenges
+▶
+Handling out-of-vocabulary words and rare characters.
+▶
+Adapting models to domain-specific corpora (e.g., medical or
+legal texts).
+▶
+Balancing model complexity with inference speed.
+Why it matters?
+▶
+Improved CWS enhances NLP applications like chatbots,
+translation, and search engines.
+▶
+Addressing gaps enables broader adoption in real-world,
+resourc-constrained settinings.
+Future opportunities
+▶
+Explore lightweight models like DistilBERT or TinyBERT for
+faster inference.
+▶
+Incorporate semi-supervised learning to leverage unlabeled
+data.
+▶
+Develop domain-adaptive pretraining for specialized corpora.
+Bibliography
+Huang, C.-R., & Zhao, H. (2007). Chinese Word
+Segmentation: A Decade Review. Journal of Chinese
+Informaation Processing, 21(3), 8–20.
+Xu, N. (2003). Chinese Word Segmentation as Character
+Tagging. International Journal of Computational Linguistics &
+Chinese Language Processing, 8(1), 29–48.
+Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2019).
+BERT: Pre-training of Deep Bidirectional Transformeers for
+Language Understanding. arXiv preprint arXiv:1810.04805.
+Lample, G., Ballesteros, M., Subramanian, S., Kawakami, K.,
+& Dyer, C. (2016). Neural Architectures for Named Entity
+Recognition. arXiv preprint arXiv:1603.01360.

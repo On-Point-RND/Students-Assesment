@@ -1,0 +1,30 @@
+Dear Admissions Commi.ee,
+I am thrilled to apply for the Skoltech SMILES program, where I aim to bridge my research on
+central bank communicaAon with hands-on AI innovaAon. My work revolves around enhancing
+transparency and public trust in monetary policy—a mission I believe modern technology can
+revoluAonize.
+In my current role, I develop quanAtaAve tools to measure how effecAvely central banks
+connect with the public. For instance, I created a “percepAon” index in Telegram to track real-
+Ame senAment shiNs, helping policymakers gauge the impaact of their messaging. I’m convinced
+AI can take this further by:
+1. QuanAfying communicaAon quality: Advanced metrics pinpoint which messages
+resonate and which need refiinement.
+2. CuUng survey costs: LLM-driven agents automate feedback collecAon, saving Ame and
+resources.
+3. Tailoring complex texts: GeneraAve models transform technical jaargon into clear,
+audience-specific narraAves.
+4. Streamlining workflows: AutomaAon reduces rouAne tasks, freeing experts to focus on
+strategy.
+I want to deepen my experAse in Large Language Models, MulA-Agent Systems, and GeneraAve
+AI to build scalable, impac[ul soluAons. The SMILES program’s blend of theory and labs—
+especially in these areas—is tailor-made for my goals. I’m eager to explore generaAve methods
+for simulaAng public reacAons, design mulA-agent frameworks for real-Ame dialogue, and refiine
+tools that turn dense reports into accessible insights.
+Skoltech’s collaboraAve ethos and focus on real-world impaact resonate deeply with me. I’m
+excited to contribute my pracAcal experience while learning from peers and experts tackling
+similar challenges. With your program, I hope to transform ambiAous ideas into tools that make
+central bank communicaAon more transparent, efficient, and human-centered.
+Thank you for considering my applicaAon. I would be honored to join SMILES and help shape
+the future of public trust in finance.
+Sincerely,
+[name]

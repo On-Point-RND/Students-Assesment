@@ -1,0 +1,37 @@
+RRTNN: Rapid Radiative
+Transfer Neural Network
+for NWP acceleration
+[name], [name], [name], [name], [name]
+Introduction
+Radiance code is a bottleneck of
+Atmosphere NWP models
+Idea: approximate it with neural nets
+Results — promising
+We coupled it with [compaany]!
+Problem statement
+Integro-differential equations of radiance transfer are hard and slow to compute.
+NWPs approximate it with RRTMG — still slow and inaccurate, but works.
+Let’s precompute a dataset and train faster neural networks on it.
+Methods
+Region: [location] and [location]
+Train set: 2016; Test set: 2017
+Baselines: (bi)RNN, (bi)LSTM,
+Neural ODE, CatBoost, CNN
+Proposed architecture: RRTNN —
+a faster version of Neural ODE
+Results
+RRTNN — faster (x27) and better (x2) than
+baseline and results of previous works
+Coupling with [compaany]
+It works!
+It works 1.5 times faster!
+It might even be more accurate
+Further research
+● Geoscientific examination: RRTNN is not ideal, but what it means?
+● Compute a better target: LBLRTM instead of RRTMG
+● Generalization: other regions and global setup
+● Even better architectures?
+● Compare latency in both CPU and GPU
+
++2 *** *** ***
+[email]

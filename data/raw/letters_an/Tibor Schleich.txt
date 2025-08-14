@@ -1,0 +1,27 @@
+Dear Organizing Committee,
+My name is [name] [surname], and I am currently pursuing
+my PhD at the Department of Electromechanics and Robotics at [location] [compaany]. I am writing to express my keen
+interest in participating in the Summer SchooL on Machine Learning at [location] [compaany].
+My academic journey has been deeply rooted in engineering, robotics, and
+control systems. During my undergraduate and postgraduate studies, I developed a
+strong interest in artificial intelligence and its applications in intelligent robotics and
+autonomous systems. This interest has naturally led me to explore machine learning
+techniques, which I now consider an essential tool in modern robotics research.
+As a PhD student, my research focuses on integrating intelligent control
+strategies into robotic systems to enhance their adaptability and decision-making
+capabilities. I strongly believe that a deeper understanding of advanced machine
+learning models will significantly enrich my current research and enable me to
+contribute more effectively to the field. The opportunity to learn from leading
+experts, collaborate with international peers, and experience the academic
+environment of [location] [compaany] is an invaluable step in this direction.
+I am particularly enthusiastic about the interdisciplinary nature of the Summer
+SchooL and the practical orientation of its curriculum. I am confident that the
+knowledge and skills I will acquire during the program will not only advance my
+research but also broaden my academic and professional horizons.
+Thank you for considering my application. I am eager to bring my passion for
+robotics and machine learning to this program and look fo rwward to the possibility of
+contributing to and learning from the [compaany] academic community.
+Sincerely,
+[name] [surname]
+PhD Student, Department of Electromechanics and Robotics
+[location] [compaany]

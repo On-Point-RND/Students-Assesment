@@ -1,0 +1,37 @@
+Introduction
+• Goal is to reproduce Dall-E
+• Dall-E gains human text and generates correspondiing image
+• It consists of VQGan and GPT
+What is VQGan
+• VQGAN = VQVAE + GAN
+• VQVAE = Vector Quantized Variational Autoencoder
+VQGan under hood
+Steps
+• Get trained VQGan
+• Get images and captions to them
+• Train GPT
+• Validate Dall-E, generate images from texts
+VQGan
+How to train GPT
+• We have set of images and related caption (20k)
+• We have trained VQGan
+• We may decode image via VQGan and get tokens
+• We tell to GPT to predict image tokens from caption input
+VQGan encoder
+Caption: nice dog looks to the left
+Ids: [10, 15, 4, 3, 7, 11]
+GPT takes input [10, 15, 4, 3, 7, 11] and learns to predict [1, 42, 3, 3, …]
+Result of training
+Generating
+Promt: on this image we may see cat and dog
+Future steps
+• Need more data (much more)
+• Use word tokeniser (maybbe there were mistakes)
+• Tune hyperparameters of GPT architecture (n_heads, n_layers, …)
+• Increase epochs (now 30)
+• Augmentation
+Bibliography
+1. VQGAn repository: https://github.com/[name]/[surname]
+2. Taming Transformeers for High-Resolution Image Synthesis: https://arxiv.org/pdf/2012.09841
+3. https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/
+4. Habr https://habr.com/ru/companies/[compaany]/articles/687508/

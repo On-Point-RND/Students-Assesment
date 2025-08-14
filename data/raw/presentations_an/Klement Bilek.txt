@@ -1,0 +1,130 @@
+Self-supervised learning and
+object detection
+[name]
+Engineer,
+Research laboratory "[compaany] based on a foundation model",
+1
+[location]
+Introduction
+• What is the topic?
+○ Self-Supervised Learning (SSL) methods for object detection using Convolutional Neural Networks (CNNs)
+and Vision Transformeers (ViTs).
+• Why is it important?
+○ SSL reduces reliance on labeled data, which is costly and time-consuming.
+○ Object detection is vital for applications like autonomous driving, robotics, and biological imaging (e.g., cell
+detection).
+• Background
+○ Traditional object detection requires large labeled datasets.
+○ SSL leverages unlabeled data to learn robusst representations.
+• Goal of the review
+○ Provide an overview of popular SSL methods for object detection.
+○ Compaare their approaches, performance, and applicability.
+2
+Problem statement
+• Challenges
+○ Object detection requires spatial awareness, unlike classification.
+○ SSL methods must capture object-level representations effectively.
+• Scope
+○ Focus on application on biomedical images of six SSL methods: SimCLR, MoCo, BYOL, DINO, MAE, SwAV
+○ Evaluate on benchmaarks like COCO, PASCAL VOC and ImageNet.
+3
+https://app.roboflow.com/cell-qttak/meat-bacteries
+HOW TO USE LESS DATA
+AND STAY AT THE SAME
+LEVEL OF EFFICIENCY?
+4
+The evolution of SSL
+5
+https://link.springer.com/article/10.1186/s12938-024-01299-9/figures/7
+Stage 2 Fine-tuning Strategies
+Stage 1 Pre-training Strategies
+(e) End-to-end fine-tuning – Updates entire model
+(a) Innate relationship SSL – Pre-trains on hand-crafted tasks using data structure.
++ classifier.
+(b) Generative SSL – Learns data distribution to reconstruct input.
+(f) Linear probing – Trains a classifier on frozen
+features.
+(c) Contrastive SSL – Forms positive pairs from augmentaations and minimizes
+distance.
+6
+(d) Self-prediction – Masks/alters parts of input and reconstructs original.
+Self-supervised models on COCO
+dataset
+80
+classes
+* AP50 – Average Precision at IoU=0.5 on VOC 2007 test set
+Results:
+7
+ViT architecture outperforms CNN-based models on COCO dataset.
+https://www.v7labs.com/blog/bounding-box-annotation
+Self-supervised models on VOC
+dataset
+http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html
+* AP50 – Average Precision at IoU=0.5 on VOC 2007 test set
+20
+classes
+8
+ViT architecture outperforms CNN-based models on VOC dataset.
+Self-supervised models on ImageNet
+dataset
+Results:
+Data quality and
+scale may matter
+more than
+algorithmic
+improvements in
+advancing SSL
+Morningstar et al. 2024 "Augmentations vs Algorithm: What Works in Self-Supervised Learning" arXiv:2403.057269
+10
+https://www.nature.com/articles/s41746-023-00811-0/figures/2
+My analysis of article table (https://www.nature.com/articles/s41746-023-00811-0/tables/1)
+11
+Results: SSL does not show such a drastic growth in metrics.
+Augmentaions and SSL
+Results:
+Biomedical task is sensitive to color distortion, it is better to avoid methods
+that strongly depend on Hue Intensit (for example, SimCLR, BYOL).
+Bendidi, I. et al 2023. No Free Lunch in Self Supervised Repre sentation Learning. 2023 12
+fdp.71_repap/sfdp_repap/oi.buhtig.32spiruenlss//:sptth
+13
+My analysis of article table (https://link.springer.com/article/10.1186/s12938-024-01299-9/tables/3)
+14
+Results: Generative SSL type performs better than Contrastive
+Results = HOW TO USE LESS DATA AND
+STAY AT THE SAME LEVEL OF EFFICIENCY?
+• Key findiinings:
+SSL strategies give a boost on performaance 0.1-10%
+○
+Contrastive SSL strategy is more popular now, but generative one shows better performaance on
+○
+biomedical images
+On biomedical images better to use geometrical augmentaations not color ones and avoid SimCLR,
+○
+BYOL
+ViT architecture shows the better performaance 2-7% on natural classes datasets
+○
+15
+Future research
+more study of generative SSL type models
+16
+Bibliography
+1. Chen, T., Kornblith, S., Norouzi, M., & Hinton, G. (2020). A simple framework for contrastive learning of visual representations.
+ICML.
+2. He, K., Fan, H., Wu, Y., Xie, S., & Girshick, R. (2020). Momentum contrast for unsupervised visual representation learning.
+CVPR.
+3. Grill, J. B., Strub, F., Altché, F., Tallec, C., Richemond, P., Buchatskaya, E., ... & Valko, M. (2020). Bootstrap your own latent: A
+new approaach to self-supervised learning. NeurIPS.
+4. Zhang, H., Li, F., Liu, S., Zhang, L., Su, H., Zhu, J., ... & Shum, H. Y. (2022). DINO: DETR with improved denoisinng anchor
+boxes for end-to-end object detection. ICLR.
+5. He, K., Chen, X., Xie, S., Li, Y., Dollár, P., & Girshick, R. (2022). Masked autoencoders are scalable vision learners. CVPR.
+6. Caron, M., Misrra, I., Mairal, J., Goyal, P., Bojanowski, P., & Joulin, A. (2020). Unsupervised learning of visual features by
+contrasting cluster assignments. NeurIPS.
+7. Morningstar, W., Bijamov, A., Duvarney, C., Friedmman, L., Kalibhat, N., Liu, L., Mansfield, P., Rojas-Gomez, R., Singhal, K.,
+Green, B., & Prakash, S. (2024). Augmentaations vs algorithm: What works in self-supervised learning. arXiv preprint.
+arXiv:2403.05726v1 [cs.LG].
+8. Bendidi, I., Bardes, A., Cohen, E., Lamiable, A., Bollot, G., & Genovesio, A. (2023). No Free Lunch in Self Supervised
+Repr sentation Learning. 37th Conference on Neural Info rmation Processing Systems. NeurIPS.
+9. Huang, S. C., Pareek, A., Jensen, M., Lungren, M. P., Yeung, S., & Chaudhari, A. S. (2023). Self-supervised learning for
+medical image classification: a systematic review and implementaion guidelines. NPJ Digital Medicine, 6(1), 74.
+10. Zeng, X., Abdullah, N. & Sumari, P. Self-supervised learning framework application for medical image analysis: a review and
+summary. BioMed Eng OnLine 23, 107 (2024). https://doi.org/10.1186/s12938-024-01299-197

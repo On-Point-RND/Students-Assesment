@@ -1,0 +1,145 @@
+Compression of computed tomography (CT) images in projections domain
+Researcher: [name]
+Research Advisor: [name]
+About me
+Education:
+● Master thesis at [location] [compaany], [compaany] Schoo[compaany] and [compaany], Data Science track
+Work experience:
+● Research [compaany]: Department of Geoinforma[compaany], superre[compaany] and style tran[compaany] for space images
+● [compaany]: medical image compression
+● [compaany]: NN codecs for stereo images and videos, classical standard codecs for 2D video and multiview.
+2
+Contents:
+● Introduction and terminology
+● Problem description and motivation
+● Aim and goals
+● Methods:
+● Image and video compression
+● Semantic compression
+● Re[surname]ts and discussion
+● Conc[surname]ions and outlook
+2
+Introduction and terminology
+Physics of projections formation: From projection space to
+reco[surname]ruction space:
+reco[surname]ruction
+Fig1. One projection a[surname]uisi[surname]tion
+Fig3. Slice re[surname]onstru[surname]tion from
+series of projections
+Fig2. Detector output (sample of one
+proje[surname]ion)
+3
+Motivation and task description
+Problem: CT projections data take lots of storage
+Task: develop an approa[surname]h for compression of
+raw projections with least loss
+Motivation:
+● reduce total storage
+● increase transfer of projections data
+● con[surname]ider data compression in terms of
+Fig1. One projection a[surname]uisi[surname]tion
+applications to specific medical task and
+propo[surname]e a novel semantic compression
+Fig4. Scanning geometry
+approach
+Typical helical sscanning:
+~10⁴-10⁵ images of shape (736,64) of dtype
+uint16 => several Gb storage
+4
+Aim and goals
+Aim: propo[surname]e a me[surname]hod for problem of semantic projection-space CT
+compression, con[surname]idering specific medical task solution for
+reco[surname]onstru[surname]tion domain (on example of semantic lung compression)
+Goa[surname]s:
+● research exis[surname]ting methods for image compression
+● develop an efficient neural pipeline for projections compression
+● propo[surname]e novel me[surname]hod for solution of problem of semantic
+compression
+Poten[surname]ial i[surname]pact: application to clinical use
+5
+Types of datasets
+2D projections 1D projections
+6
+Methods (Image compression)
+Idea: con[surname]ider projections as separate images and create latent representation
+Image compression approa[surname]h: VQ-VAE
+Fig5. VQ-VAE-2 ar[surname]itecture
+7
+Methods (Video compression)
+Idea: con[surname]ider patches of consequent frames
+Ar[surname]itecture: DVC
+8
+Fig 6. DVC ar[surname]itecture
+DVC re[surname]ults
+Experiments description:
+fine[surname]unning (weights trained on RGB
+●
++VQVAE trained)
+training strategy: 30 frames with I
+●
+frames
+I frames compression: VQVAE
+●
+(learnable)
+lambdas: 1024, 2048, 4096, 8192
+BPP ●
+crfs for I frames: 27, 23, 19, 15
+●
+RNSP
+Fig 7. Re[surname]ults of H265, DVC, DVC+VQ-VAE
+9
+Fig 8. Re[surname]ults of H265, DVC, DVC+VQ-VAE and their differences with original frames
+Ideas of improvement for semantic compression
+Idea: while training check not o[surname]ly projections domain but also reconstruction domain
+Rea[surname]ization: reconstruction libraries
+Table 1. Co[surname]parison of reconstruction approa[surname]ches
+Drawback of torch-radon could be avoided by introducing of
+re[surname]inning function (conebeam -> fanbeam)
+Conc[surname]ion: use in experiments torch-radon + re[surname]inning
+10
+Fig 9. Fanbeam and conebeam geometries
+Semantic compression
+Idea: at the same level of compression retu[surname] more qualitative lung reconstruction
+Approa[surname]h: novel pipeline with adding DICE loss to training proce[surname]ure
+Rea[surname]ization:
+11
+Fig 10. Propo[surname]ed scheme of DICE loss incorp[surname]oration
+Semantic compression re[surname]ults (DICE Loss)
+DICE score on unc[surname]ompressed projections: 81.98%
+Baseline compressor propo[surname]ed: DICE*0.2 propo[surname]ed: DICE*0.5+Reco[surname]_MSE*2
+Conc[surname]ion for
+propo[surname]ed loss:
+● better contours
+● higher DICE
+● lost both image
+and projections
+quality
+12
+Semantic compression (mask loss)
+Idea: at the same level of compression retu[surname] more qualitative lung reconstruction
+Approa[surname]h: novel pipeline with adding MSE loss between lungs to training proce[surname]ure
+Rea[surname]ization:
+13
+Fig 11. Propo[surname]ed scheme of MASK loss incorp[surname]oration
+Semantic compression re[surname]ults (mask loss)
+Baseline propo[surname]ed: MASK*0.1 proposed: MASK*0.3
+Baseline re[surname]ults (without additional
+losses):
+Conc[surname]ion for proposed loss:
+● better internal lung reconstruction
+● higher DICE VS baseline, but lower VS Dice Loss
+Mask loss validation
+Training details: 5-fold cross validation on 1744 sinograms dataset
+Conc[surname]ion: for proposed model in trade-o[surname] between DICE and image quality (PSNR) for the same
+image quality our model achieves higher DICE score
+15
+Conc[surname]ions and discussion
+● Con[surname]idered classical and neural methods for image and video
+compression
+● Propo[surname]ed a novel approa[surname]h for projections compression
+● Re[surname]on[surname]sidered compression task in terms of semantic
+compression
+● Suggested loss function (DICE loss, Mask Loss) for semantic compression
+● Re[surname]ults and deve[surname]opment of approa[surname]ch may be interesting from
+both research and clinical use points of view
+16

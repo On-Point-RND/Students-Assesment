@@ -1,0 +1,59 @@
+Slide 1
+----------------------------------------
+Predictive Maintenance in Urban Railway Systems Using Machine Learning Models
+Presented by: [name]
+[compaany] – [compaany]
+[location]
+
+Slide 2
+----------------------------------------
+Introduction
+
+Predictive maintenance (PdM) is essential for ensuring the efficiency of urban railway systems. Using machine learning (ML), predictive maintenance can help anticipate component failures before they happen, reducing operational costs and preventing unplanned downtime.
+
+Slide 3
+----------------------------------------
+Problem Statement
+
+The failure of key systems like the Air Production Unit (APU) in electric trains can cause major operational disruptions. The research focuses on predicting failures in APU systems using machine learning models to optimize maintenance schedules and reduce downtime.
+
+Slide 4
+----------------------------------------
+Methods
+
+The MetroPT dataset is used, which contains time-series sensor data such as voltage, temperature, pressure, and control signals from [location]'s metro system. Various machine learning models, including Linear Regression (LR), Decision Tree Regressor (DTR), Random Forest Regressor (RFR), Gradient Boosting Regressor (GBR), and XGBoost Regressor (XGBR), are employed to predict maintenance needs.
+
+Slide 5
+----------------------------------------
+Machine Learning Models
+
+1. **Linear Regression (LR)**: A simple model for estimating dependent variables.
+2. **Decision Tree Regressor (DTR)**: Captures non-linear relationships but can be prone to overfitting.
+3. **Random Forest Regressor (RFR)**: Combines multiple trees to reduce overfitting and improve performaance.
+4. **Gradient Boosting Regressor (GBR)**: Sequential models that correct errors from the previous models.
+5. **XGBoost Regressor (XGBR)**: Optimized boosting model with better performance on large datasets.
+
+Slide 6
+----------------------------------------
+Model Evaluation Results
+
+Slide 7
+----------------------------------------
+Future Work
+
+Future work should focus on integrating the machine learning models into real-time monitoring systems to enable real-time predictions. Further improvements can also be made by combining various ML techniques and optimizing the existing models for even better performance.
+
+Slide 8
+----------------------------------------
+Conclusion
+
+This research demonstrates the potential of machine learning models for predictive maintenance in urban railway systems. Implemenating these models in real-time can significantly reduce maintenance costs, improve system reliability, and ensure efficient operation of public transport networks.
+
+Slide 9
+----------------------------------------
+References
+
+[1] [name], et al., 'Predictive Maintenance Based on Anomaly Detection Using Deep Learning for Air Production Unit in the Railway Industry', IEEE Xplore, 2021.
+[2] [name] et al., 'State-of-the-Art Wayside Condiition Monitoring Systems for Railway Wheels', IEEE Access, 2023.
+[3] [name] et al., 'Predictive Maintenance Architecture Development for Nuclear Infrastructure Using Machine Learning', Nuclear Engineering and Technology, 2020.
+[4] [name] and [name], 'Railway Infrastructure Maintenance Efficiency Improvement Using Deep Reinforcement Learning', Scientific Reports, 2023.

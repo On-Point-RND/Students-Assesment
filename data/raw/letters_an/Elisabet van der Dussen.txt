@@ -1,0 +1,73 @@
+[name] [surname]
+[location]
++2 *** *** *** # [email]
+[name]
+Middle ML Engineer
+Education
+• [compaany] AI Talent Hub Master’s Program 2024 - 2026
+Artificial Intelligence
+– 1st year student
+• [location] Aviation Institute 2020 - 2024
+Institute №8 "Computer Science and Mathematics"
+– Bachelor of Applied Mathematics
+– Full-time education
+Additional Professional Education
+• [location] Aviation Institute/Innopolis 2022 - 2023
+Digital Department
+– Specialization: Programmer in digital modeling and supercomputer technologies
+• [location] Lyceum 2017 - 2019
+Two-year Python programming program
+Work Experience
+ANTEI September 2024 – January 2025
+AI Research Intern ([compaany] Research Internship), Remote/Hong Kong
+ML Research, Transformer Architecture, Audio Processing, Deep Learning
+• Researched the generalization capability of synthetic speech detectors based on AST audio modality (paper in preparation).
+• Comparative analysis of the HealthGPT multimodal model (https://github.com/DCDmllm/HealthGPT) with Gemma3 and Gemini-2.0-Flash in the medical domain.
+• Testing transformers in fake classification tasks on proprietary dataset and ASVspoof 2019 LA.
+• Development and training of a Transformer Encoder-based model for efficient synthetic speech detection.
+Achievements:
+• Developed an AST (Audio Spectrogram Transformer) based model capable of efficiently detecting synthetic speech.
+• Conducted comparative research on the model’s generalization capability across various synthetic speech generators.
+• Collected and labeled a dataset for model testing, including samples from various TTS systems.
+• Achieved comparable results with existing solutions on the ASVspoof 2019 LA dataset.
+1
+Peetfood LLC April 2023 – present
+Data Analyst, [location]
+ML, NLP, Data Analysis, Web Scraping, Pricing
+• Development and implementation of an automated content generation system for marketplace products.
+• Collection and analysis of sales data and competitor prices.
+• Development of crawlers (based on Crawl4AI), working with marketplace APIs.
+• Analysis of private label product reviews using LLM.
+Achievements:
+• Team lead for training a cross-encoder based on the xlm-roberta-base model for matching competitor products with the company’s assortment by product names as part of a team diploma project in the additional professional education program.
+• Fine-tuned the ms-marco-MiniLM-L-6-v2 encoder model with MultipleNegativesRankingLoss error function for matching products by their names.
+• Created a dynamic pricing model based on gradient boosting algorithm using competitor price history, internal price history, and warehouse stock levels.
+• Developed an application for removing image backgrounds based on the RMBG-1.4 model, providing interaction capabilities via RESTful API and web interface (gradio).
+• Designed and implemented a corporate relational database (100+ GB).
+• Implemented Apache Airflow and Apache Spark.
+Professional Skills and Experience
+• Experience with Python since 2017. Studied Python programming as part of [location] Lyceum’s two-year program (2017-2019).
+• Trained gradient boosting models (scikit-learn) for demand prediction tasks.
+• Experience in training text encoders (Transformers: BERT, Jina; Classical algorithms: TF-IDF, word2vec).
+• Inference with visual LLMs (Qwen2-VL, Aria). Experience in creating QLoRA for Qwen-2-VL using unsloth.
+• Actively working with transformers, PyTorch, PT-lightning, pandas, numpy.
+• API Gemini, Groq: Used LLMs for dataset creation and labeling.
+• Deployment and administration of infrastructure in cloud services (GoogleCloud,Immerse): setting up and managing virtual machines, network security configuration, Docker container orchestration, SSH access organization.
+• Development and support of CI/CD pipelines for automatic testing and deployment of ML models.
+• Experience with Airflow, creating ETL pipelines.
+• Used Apache Spark for dataset processing.
+Projects and Achievements
+• Publication: Article in the journal "Automation and Remote Control", №1, 2024 (included in WoS):
+– Russian version: Russian Version
+– English version: English Version
+• Internationational Conference on Information and Data (Icid-2025): Conference participant with the presentation "Research on the Generalization Capability of AST-based Synthetic Speech Detectors in Audio Modality". Paper accepted for publication in the conference proceedings.
+• AI Talent Hack 2024: Awarded the case from X5 company "Chatbot for technical support". Role in the DeltaX team: ML Engineer. Used the LLM gemma-2-9B model with int 8 quantization and the ruBert-tiny embeddings model in conjunction with chromadb.
+• University Projects:
+2
+– Accident prediction: Research on the effectiveness of models for predicting accident time series using historical and weather data.
+– Hestonequation modeling: Application of the MonteCarlo method and comparison of results with the QuantLib-Python library implementation.
+– Pixel restoration in images: Implementation of pixel drawing using wavelet analysis based on the Haar wavelet.
+– Team diploma project: Team lead for training a cross-encoder based on the xlm-roberta-base model for "Comparative price analysis between competing companies using semantic matching and machine learning".
+– Matching competitor products with the company’s assortment by product names as part of a team diploma project.
+• Lct Hackathon (June 2024): Trained a YOLO v8 neural network for object detection. The mAAP 50-95 metric reached 69%.
+3

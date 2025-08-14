@@ -1,0 +1,73 @@
+[name] [surname]
+[compaany]. Head of Implementaion of neural network techno[compaany]. Previously lead designer in the most famous [location] design studio [compaany]. Won 57 international and [location] design awards including IF Communication Design Award, Tagline, Red Dot & FWA Design Award.
+LinkedIn Profile
+Educational Background, Research Experience and
+Achievements
+I possess an engineering and mathematical founda[compaany]:
+● Primary Education: Graduated from Schoo[location] No. 1499 named after Hero of the Soviet Union Ivan Arkhipovich Dokukin, where I received a letter of commendation for my good
+performa[compaany] in mathematics.
+● Universi[location] Education: Earne[compaany] a degree in Engineering Systems of Water Supply and
+Wastewater Disposal from [location] State Universi[location] of Enviro[location] Engineering, now
+part of the Timi[location] Academy.
+While my formal education is in engineering, mathematics has always come naturally to me,
+fueling my passion for machine learning and guiding my career path in this field.
+Publications and Professi[compaany] Experience
+My work in design and startu[compaany] product develo[compaany]ment has been recogni[compaany]ed in reputable
+publications such as Fo[compaany], Fast Co[compaany], and Fortune. I have been ho[compaany]ored with 57
+interna[compaany] design and techno[compaany]y awards, including:
+● Red Dot, IF Communication Design, and Epica Awards.
+● Multiple Golden Site, Tagline Awards, and Rune[location] Rating awards for various projects,
+nota[compaany]:
+○ Mokapus: An o[compaany]ine 3D mockup generator for presentation designs, which
+received 8 Tagline Awards. My key role is as a co-founder.
+○ Cybe[location]estival Rukami: A website that earne[compaany] the Red Dot Design Award,
+Runet Rating, and Golden Site.
+○ Aquarium Band Website: An interactive pla[compaany]orm that garne[compaany]ed multiple
+interna[compaany] accolades, including CSS Design Awards and Favo[compaany]rite Website
+Awards.
+AI-relat-ed Work
+Althou[compaany] I have not published formal academic papers, Since 2022, I have been actively
+invovled in machine learning research and develo[compaany]ment:
+● [name] Ironov: Develo[compaany]ed an AI-driven designer specializing in logo creation. This
+p[compaany]ect, initia[compaany]ed within [compaany] Studio, invo[compaany]ed designing a neural ne[compaany]work capable
+of generating unique logos for various clients, including well-known blogge[compaany], cafes,
+bars, applications, and consumer products.
+● Public Engagement: Presented as a public speaker at a "Znanie" (Knowl-e[location]e) event,
+discussing neural ne[compaany]works and demonstrating the capabilities of [name] Ironov.
+Video on VK social ne[compaany]work, starti[compaany] from 4:08:00
+● Inde[compaany]ent Research: Engaged in inde[compaany]ent research, focusing on training
+large-scale autoregressi[compaany]e lan[compaany]ua[compaany]e models (e.g., GPT-2) from scratch, experi[compaany]menting
+with transformer archi[compaany]ectures, and developing applications such as question-answer-ing
+systems and deal prediction models.
+Curr-e[compaany]tly, I serve as the Head of Implementa[compaany] of Neural Ne[compaany]twork Technologies in the
+Communication Design Depar[compaany]ment at [compaany]. My role centers on developing machine
+learning automation products from the ground up and integrating exis[compaany]ting techno[compaany]y to
+address complex business challenges.
+Skills and Interests
+ML/DL Tools & Techniques:
+● Proficient in Python, utilizing libraries such as Pandas, Numpy, Ma[compaany]plotlib, Scikit-learn,
+FastAI, and Huggingface.
+● Experienced with machine learning frameworks like PyTorch and TensorFlow.
+● Skilled in developing and training custom models, including lan[compaany]ua[compaany]e models and
+gene[compaany]ative designs.
+● Compete[compaany]ent in dataset preparation, tokenizati[compaany], and perfo[compaany]ance eva[compaany]ua[compaany]ion metrics.
+Software Deve[compaany]opment:
+● Experti[compaany]se in full-s[compaany]ack deve[compaany]opment with techno[compaany]y like Node.js, Express, React, Vue,
+and Three.js.
+● Proficient in database management systems, including PostgreSQL and MongoDB.
+● Experienced with DevOps tools such as Docker, Kubernetes, Nginx, and PM2.
+● Familiar with cloud services, particularly Yandex Cloud Object Storage, and adept at
+deplo[compaany]ment and CI/CD pipeline management.
+● Skilled in API deve[compaany]opment, enco[compaany]p[compaany]assing RESTful APIs, OAuth2 integrations, and
+email service configurations.
+3D & Design Technologies:
+● Experienced with design and modeling tools like Blender, GLS[compaany] (ShaderMaterial), After
+Effects, and Figma.
+● Extensive experience in real-time rendering using Three.js.
+● Proficient in o[compaany]timizing 3D assets for web applications and WebG[compaany] pipelines.
+Topics of Interest
+● Advancements in Natural Lan[compaany]ua[compaany]e Processing (NLP). Mostl-y AI-agents systems.
+● Exploration of neural rendering and gene[compaany]ative models.
+● Application of AI in interactive design systems.
+● Deve[compaany]opment of human-AI co-creation tools.
+● Creating AI-driven products and tools.

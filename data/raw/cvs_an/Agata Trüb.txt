@@ -1,0 +1,96 @@
+[name] [surname]
+[name][surname] | (cid:239) [name]-[surname] | # [name].[surname] | +2 *** *** ***
+Summary
+MIPTandSkoltechmastergraduate, 4yearsofresearchinComputerVision(CV),professionalexperience
+at [compaany], Research Institute Aerospace and [compaany]. Passionate about DL, especially CV
+and RL. Searching for a position in Research and Development department. Open to new areas and to
+any challenging research problems.
+Education
+2021 – 2023 Master thesis at [location] Institute of Physics and Technology, [location] SchooL of Applied Mathematics and Computer Science
+2021 – 2023 Master thesis at [location] Institute of Science and Technology, Data (GPA: 4,92/5)
+2017 – 2021 Bachelor thesis at [location] Institute of Physics and Technology, De- (GPA: 4,42/5)
+partment of Control and Applied Mathematics,
+Work Experience
+Research engineer, [compaany] oct 2023 – present
+Project: Stereo video compression, classical codes standardization
+– stereo video compression based on both classical and neural approaches, depth-based view synthesis
+methods investigation.
+– patent and contribution to internal product, development of tool for compression of high frequencies
+components of image.
+– development of tools on platform of international standard codecs based on VersaTile Video Coding
+VTM model.
+Intern researcher, [compaany] feb 2022 – oct 2022
+Project: Projection-space compression of Computed Tomography
+Mentor: [name] [surname]
+Supervisor: [name] [surname]
+– compared existing compression techniques: classical (JPEG, H265) and neural (VQVAE, DVC, LSTM,
+MLP)
+– worked with raw DICOM CT projections and metadata
+– conducted reconstructions based on 3 libraries: ASTRA, TIGRE, torch-radon
+– conducted lung annotation (CVAT tool) and trained segmentation model
+– trained and finetunned DVC model for projections data
+– suggested to use loss functions in reconstruction domain
+Intern researcher, [compaany] july 2022
+– got acquainted with video sending principles
+– worked with videostream tranfer with gstreamer library
+Intern researcher, Department of Geoinformation Technologies,
+Research Institute “Aerospace” oct 2020 - dec 2021
+supervisor: [name] [surname]
+Project: Unpaired style transfer between two classes of satellite images
+Project: Increasing satellite images spatial resolution using Generative AdveRSArial Neural Networks
+– learned to work with satellite images and their metadata
+– implemented annotation task for objects on the map via ENVI toolbox
+– solved unpaired style transfer task for images of 2 classes taken by 2 different satellites based on
+StyleGAN and CycleGAN papers principles
+– prepared dataset for superreresolution task, trained ESRAN architecture
+– researched for several additional loss functions, resulting in better images quality for this particular
+task (we were focused on seen more clear detailes related to railway infrastructure)
+Selected projects and additional education
+[location] ML summer schooL, [location] august 2023
+Project: RecSys Benchmark for top-N recommendaion task
+– Implemented4existingapproachedformodelrakingCD-diagram, Dolan-Morecurves, Bayesiantesting,
+MCC table, estimated advantages and disadvantages of all methods
+– Implemented new proposed method based on sampling from normal distribution of metric on each pair
+(dataset, method)
+– Implemented a new way to compaare model based on Dolan-More curves and Bayesian tests for results
+significance estimation
+[location] ML summer schooL, [location] july 2023
+Project: Deep successor representations for different environments
+– Worked with gymnasium environments and cleanrl framework
+– Implemented Succesor Reprenataions principle for tabular algorithms (Q-learning and SARSA) and
+compared with classical realization
+– Reimplemeted paper Deep Successor Representaions
+Intensive course “Models of Sequential data”, [location] dec 2022
+Learned about advanced approaches in sequential data processing and prediction
+Project schooL “Modern methods of optiimization”, [location] oct 2022
+Project: Covid-19 modeling and prediction
+– got acquainted mathematical modeling of covid propagation (SEIRC model) under control using mean field game approach
+– conductedpredictionsofdynamicammountofsickpeopleusingneuralnetworksfoртиmeseries(GluonTS
+framework)
+– compared performaance of numerical methods and neural methods
+Skills
+Programming: Python, SQL, basics of C and C++
+Scientific software: LATEX, git, basics of Docker
+Main software and tools: MS SQL, MS Office products, PyCharm, VS, Protege, ENVI, Anaconda,
+Arduino, basics of ROS
+Opereating systems: Windows, Linux, MacOS
+Languages: English (C1), French (A2), Russian (native)
+Relevant courses
+Machine learning, Optimization, Probability, Stochastic Processes, Statistics, Linear Algebra, Calculus
+and Complex Analysis, Algorithms, Computer Science, Database Design, Computational Mathematics,
+Numericallinear algebra, Computer Vision, Foundaionsof software engineering, Robotics, Reinforcement
+learning, Sequential data analysis
+More about me
+Activism: Freshmen adviser, Member of Student Council, counselor schooL, organised Mathe-
+matical holiday 2020 (mccme), [location] Open Doors 2023 volunteer
+Music: honoors degree from a music schooL in piano, learnig to play uke and calimba
+Hobbies: Taking photos and photo processing, drawing and design, customising T-shorts, trav-
+elling
+Teaching: Innovation workshop - 2022 project TA, Independent study period - 2023 course
+instructor at course ”Art of making presentations”, [location] Universiity courses in ML
+for managers 2023 - present
+Extra activities: love aviation: Pilot SchooL ([location] ISP), love robotics: Robot Swarm control with
+ROS ([location] ISP) and pet projects on Arduino
+
+
+

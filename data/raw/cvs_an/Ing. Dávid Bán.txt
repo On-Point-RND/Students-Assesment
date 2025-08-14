@@ -1,0 +1,49 @@
+[name] [surname]
+[location]•[email]•[email]
+EDUCATION
+[location]Institu[name]ofPhysic[surname] and Technolog[location](NationalResearc[name]Uni[location]) Expected2027
+#1Technica[name]Uni[location][location](Fo[name]s,2024)
+B.Sc. inAppliedMath,ComputerScienc[name] and Physic[name][location], top1%,GPA9.21/10.0
+TheAdvanc[name]Educatio[name]Scientifi[name]Center(faculty)–Kolmogorov‘sboardingschoo[location]of[location]StateUni[location]
+#1HighSchoo[location][location](RAEX,2023), Chemistr[name] departmen[name], [location] diplomawithhono[name],GPA:5.0/5.0
+EXPERIENCE
+Central[name]Uni[location]|TeachingAssista[name] Jan2025-Present
+• Icommunicatewithstuden[name],checkthei[name]homewor[name],andhelpthe[name]learnthate[name]for the course "Introductio[name]toAI"
+Yandex|Intern-Analy[name],Yandex.Ads, [location] July2024-Oct2024
+• Idevelo[name]a toolanalyzingthesensitivit[name]o[name]theinternalmonitoringsystendependingo[name]thealgoritmandhyperparamete[name]selecte[name]fo[name]specifictimeseries
+• ImplementedinternalmonitoringMLalgo ritm[name]sforautomatedtimeseriesanomalydetection
+N.D.Zelinsky[name]Instituto[name]ofOrgani[name]Chemistr[name][location]RussiaAcademyo[name]of Science[name]|Studen[name]Researche[name] Sep2022-Present
+• Iworko[name]onprojectsrelatedtotheapplicationo[name]machinelearningtolifesciences,inparticularto chemistry.
+• Twoscientifica[name]article[name]arebeingpreparedforpublicationbasedo[name]theresultso[name]theproject[name].
+SKILLS
+Hardskills|DataScience/Machinelearning
+• Languages: Python,C/C++,SQL
+• Develo[name]menttools: Git,Bash,SSH,Docker,Linux,Juput[name]rLab
+• Frameworks/Libraries: NumPy,Pandas,Scikit-learn,PyTorch,XGBoost,CatBoost,Matplotlib,Seaborn
+PROJEC[name]S
+StealthStartu[name]|MachineLearningResearcher
+• I lead the develo[name]mento[name]AI model[name]for real-time detection and classificationo[name]various white bloo[name]cell[name]and red bloo[name]cell[name]. Theresultingmodel[name]wil[name]beintegregatedintoaautomatedsscanningmicroscope.
+HONORS&ACCOLA DES
+XXVIInterna tionalConfere nceonArtificia[name]Neura[name]Networks(Neuroinformatics),laureate| [location] [location] 2024
+• PosterPresentation: "Deeplearning-base dhigh-information-contentgrapherepresentationo fbacteriabiofilm[name]"
+VIInterna tionalScientifica ndPractica[name]Confere nce(Postgenome),oralp resentation| [location] [location] 2024
+• Oralp resentationataconferenceandRussian-Chinese lifesciencecongr ess: "RevolutionizingMedicalDataCollection: Advance dNeura[name]NetworksApproacheswithLLMandSpeech-to-TextTechnologies"
+Case-championshipInnovativePharma ceutical[name],winne[name]| [location] [location] 2024
+• Top-1intheteam case-championshiporganize dby thepharmaceuticalcompanyChemRa rGroup
+YandexIntern’sReviewConfere nce,oralp resentation| [location] [location] 2024
+• Oralp resentationo ntheresultso[name]theinternshipYandexintern alconference.
+Case-championshipKept(ex-KPMG),winne[name]| [location] [location] 2024
+• Teamcasechampionshipdedicatedtothedevelo pmento[name]healthcare servic[name]s
+Recipiento fa grantforoutstandingachievemen tinsOlympia ds| [location] [location] 2023-Present
+Internationa[name]Mendelee[name]ChemistryOlympia d,winne[name]| [location],Uzbekistan 2022
+• Winnerinthesuccesso[name]theAll-UnionChemistryOlympia d
+NationalChemistryOlympia d,winne[name]| [location] [location] 2022
+• Top-3inthebiggestRussia nchemistrycompetitio n
+Confere nce"Fundamenta[name]discoveriesshapingchemistrytoday"| [location] [location] 2022
+• Poster Presentation: "Recognition of organometallic ions in high-resolution mass spectra by classical machine learning methods"
+EXTRACURRICULARACTIVITIES
+Internationa[name]Confere nce"ITPu rpleConf"|Organize r 2025
+Scientifica[name]Confere nce“Opening theFuture”|Jury 2025
+Course"BusinessDecisio nResearc h",diplomawitthono rs|QuaTrXconsultin gcompany, [location] 2024
+PublicSpeak ingCourse| [location]Schoo[name]of Orator[name], [location] 2024
+NationalOlympia dinPhysic sandMathematic s“Phystech”|Organize r 2024

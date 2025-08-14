@@ -1,0 +1,21 @@
+[name] [surname]
+[location], [location]
+10.04.2025
+To [name] of Admissions Committee of Summer
+Summer School of Machine Learning
+[company], [location]
+Innovation Center, [location],
+[location] 121205, [location]
+Dear [name],
+In this letter, I would like to express my motivation to participate in the Summer School of Machine Learning (SMILES2025) held by the [company] Center for Applied AI.
+I am a first-year student of the joint Master's program of the Higher School of Economics and [company]-Mathematics of Machine Learning. I am a aspiring researcher in the field of generative artificial intelligence and learning theory. Before that, I completed a bachelor's degree at the Department of Systems Analysis, CMC Faculty, [location] State University. For four years, I have been studying higher mathematics, computer science, and mathematical modeling. I successfully wrote a bachelor's thesis on the theory of optimal control. Under the guidance of my supervisor, [name] solved the problem of optimal risk management of a venture capital company.
+Now I am in the process of writing my master's thesis at the International Laboratory of Stochastic Algorithms and High-Dimensional Inference of the Higher School of Economics. Our team is doing research on "Sample complexity of Schrödinger potential estimation" for optimal transport to probability distributions. I am engaged in numerical experiments, and also explore various parameterizations for the model, proposing new options that satisfy various transport conditions.
+Our team, led by [name], [name] and [name], aims to improve modern approaches to the Optimal Schrödinger Bridge problem using the underlying diffusion process not from a fixed class, as is traditional in the literature, but from an arbitrary class, facilitating the sampling process for solving the optimization problem.
+Having a deep interest in the problems of generative modeling and multimodal approaches, I not only perform the tasks of a scientific supervisor in the laboratory but also read articles and take relevant courses in the master's program. I especially like the courses Bayesian Machine Learning from [name] and Generative Artificial Intelligence from [name]. I was attracted by the harmonious combination of a strict statistical basis of the methods and their applied, useful for industry practitioners' nature.
+I would like to attend the Machine Learning Summer School, firstly, to listen to lectures on generative approaches, Self-supervised learning, and Multimodal approaches from such renowned experts as [name], [name] and [name]. The research topics of these experts are of deep interest to me and I hope that the school format will allow me to deepen my knowledge of them and find new directions for experiments in my field.
+Secondly, I also hope that the summer school will allow me to form new connections with the participants, both aspiring researchers and renowned experts. I plan to actively participate in lectures, workshops, and discussions with the school participants to help create an atmosphere of exchange of experience and knowledge. I would be glad to work under the guidance of the lecturers in the future at their research centers, such as [company], [company] Center for Applied AI, and the School of Computer Science and Technology of Harbin Institute of Technology.
+Finally, I am very curious about the team work format of the hackathon during the summer school. I am sure that such a format will allow all participants to get not only theoretical understanding of the topics discussed but also to consolidate their knowledge in practice. I would like to participate in order to contribute to the exchange of practical experience and learn new, cutting-edge algorithms.
+To summarize, I believe that I will be able to make the most of the knowledge gained from the Summer School of Machine Learning (SMILES2025) held by the [company] Center for Applied AI. I hope to contribute my talents and efforts to your school.
+Thank you for considering my request. I look forward to your positive response.
+Sincerely,
+[name] [surname]

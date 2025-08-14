@@ -1,0 +1,73 @@
+Modern [compaany]: Smarter, Faster, Better
+[name]
+Introduction to MoE
+● MoE: Scalable model architecture using many experts
+● Key idea: Activate only a few experts per token
+● Benefit: More parameters without proportional compute cost
+Main Problems:
+1. Load imbalance – some experts overloaded
+2. Unused experts – knowledge lost if not selected
+source: huggingface
+Switch Transformer
+● Replaces Top-2 Routing with Top-1 Routing
+● Reduces communication cost & compute overhead
+● Requires Auxiliary Loss for expert load balancing
+Results:
+● 4x faster than T5-XXL
+● Same quality on SuperGLUE
+Pros: Efficient, scalable, simpler Cons: One expert may be insufficient, balancing still tricky
+paper
+Expert Choice Routing
+● Experts choose tokens (inverted routing)
+● Each expert selects top-k relevant tokens
+Advantages:
+● Perfect load balance
+● No auxiliary loss needed
+Challenges:
+● Less suitable for autoregressive models
+paper
+BTX (Branch-Train-Mix)
+Three-stage approach:
+1. Clone base model into independent experts
+2. Train each on different data
+3. Merge into one MoE
+Benefits:
+● Independent training → faster
+● Avoids catastrophic forgetting
+● Preserves generalization via seed-model
+Limitations:
+● Requires task-specific expert planning
+● Difficult to synchronize performance pre-merge
+paper
+SCMoE (Self-Contrast MoE)
+● Uses non-selected experts during inference
+● Adjusts logits if they disagree with selected experts
+Formula:
+Results:
+● +5.15% accuracy on GSM8K
+● +7.92% on HumanEval
+Tradeoff:
+● Inference cost grows (runs all experts)
+● Decoder-only models only
+paper
+HyperMoE (HyperNetwork MoE)
+● No fixed expert weights
+● Uses HyperNetwork to dynamically generate weights
+Advantages:
+● Adapts experts per input
+● Shares knowledge between experts
+Performance:
+● +0.84% on SuperGLUE
+● +7% improvement in multitask learning
+Downsides:
+● Slower inference (10–15%)
+● Experts are no longer independent
+paper
+Summary & Takeaways
+● MoE scalability hinges on routing & training strategies
+● Switch, Expert Choice, BTX improve routing and training
+● SCMoE, HyperMoE enhance expert utilization
+Future directions:
+● Efficient use of all experts
+● Dynamic, adaptive architectures
+● Balance between performance & compute cost

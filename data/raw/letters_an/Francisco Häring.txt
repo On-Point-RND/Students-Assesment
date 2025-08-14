@@ -1,0 +1,10 @@
+Dear Admissions Board,
+I am excited to apply for SMILES-2025, where the focus on generative AI and multimodal systems directly intersects with my ongoing research projects. The program's unique combination of theoretical depth (lectures on cutting-edge architectures) and practical implementation (seminars and team-based hackathons) offers the ideal environment for international collaboration and knowledge exchange among specialists.
+During my master's studies, I lead the scientific project “Antibody-Inspired Aptamer Generation”, which aims to develop a generative framework for designing aptamers – synthetic antibody analogs with applications in diagnostics, therapy, and biosensing. The attached presentation details of that work.
+Concurrently, I contribute to the interdisciplinary project “Multimodal Modeling Using Knowledge Graphs for Predictive Property Analysis and Conditional Generation of Sensory Biopolymers”. This project aims to solve the challenge of predicting molecular binding using graph-based embeddings. The input data incorporates multimodal molecular representations (SMILES notations, sequences, and text descriptions). Within this work, I have managed biopolymer database operations, conducted literature analysis on binding models for diverse molecular classes, and implemented predictive frameworks such as APIPred (aptamer-protein binding prediction) and MVSF-AB (antibody-protein interaction modeling).
+I have extensive team collaboration experience, including participation in machine learning competitions. I actively compete in hackathons ([company], [location], and Element 119), because such events significantly contribute to my professional development, providing strong motivation for rapid skill acquisition and technical growth.
+I am sure that participation in SMILES-2025 will enhance our aptamer generation framework and Multimodal Modeling project. I believe I am worthy to participate in the summer school given my experience with machine learning models and teamwork skills.
+Yours sincerely,
+[name] [surname]
++2 *** *** ***
+[email]

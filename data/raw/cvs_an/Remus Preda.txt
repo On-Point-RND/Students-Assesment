@@ -1,0 +1,86 @@
+[name] [surname]
+[email]
++2 *** *** ***
+[location]
+[compaany]
+Master of Science in Data Science
+25August,1998
+[compaany]
+Male
+• ThesisTitle: Data‐DrivenApproacheswithExplainableArtificial
+IntelligenceinCancerDiagnosis
+Nationality: [nationality]
+• Supervisor: Dr. [surname],AssistantProfessor
+Master of Science in Mathematics, 3.68/4.00 CGPA
+[compaany]
+2021‐2023
+[location]
+LaTeX
+• ThesisTitle: OnSolvabilityofEquationsOverTorsion‐freeGroups
+• Supervisor: Dr. [surname],AssociateProfessor
+MicrosoftOffice
+Bachelor in Mathematics, 3.77/4.00 CGPA (Distinction)
+InternationalIslamicUniversityIslamabad
+2016‐2020
+[location]
+MATLAB
+C++
+RESEARCH INTERESTS
+Biomedically‐InformedArtificialIntelligenceLaboratory
+September2024‐Present
+[compaany]
+MachineLearning DeepLearning
+Statistics&Probability GenerativeAI
+Research Assistant ExplainableAI AIinHealtcare
+COMSATSUniversiityIslamabad
+January2023‐August2023
+[location]
+Urdu
+English
+CITATIONS(ResearchProfiles: ResearchGate,GoogleScholar,Scopus,
+WebofScience,ORCID,LinkedIn)
+TotalPublications 4(WoS,Scopus)
+GoogleScholar Scopus
+Citations 136 100 • Readingarticles
+H‐Index 3 2 • Playingtabletennis
+• Hiking
+I‐10Index 2
+• Traveling
+PUBLICATIONS
+1. [name][surname];[surname] [name]&[surname]. ”AData‐DrivenApproachwithExplainableArtificialIntelligenceforCustomer
+ChurnPredictionintheTelecommunicationsIndustry”. ResultsiinEngineering2025,104629. (IF:6/Q1‐Top6%)
+2. [name][surname];[surname];[name]. ”ExplainableMachineLearningModelforChronicKidneyDiseasePrediction”.
+Algorithms2024,17(10),443. (IF:1.8/Q2)*correspondingauthor
+3. [name][surname];[surname] & [name]. ”EnhancingtheEarlyDetectionofChronicKidneyDisease: ARobustMachine
+LearningModel”. BigDataCogn. Comput. 2023,7(3),144. (IF:3.7/Q1)
+4. [name][surname];[name];[surname] & [name]. ”EnhancingHeartDiseasePredictionthroughEnsembleLearning
+TechniqueswithHyperparameterOptimization.”Algorithms2023,16,308. (IF:2.3/Q2)
+Accepted
+1. [name][surname];[name]. ”OnSolvabilityofEquationsoversTorsion‐freeGroups”. ContemporaryMathematics(IF:0.6/Q4)
+PROJECTS
+Context‐AwareMedicalQuestionAnsweringwithKnowlageGraph‐EnhancedLargeLangua
+[location]
+February2025‐Ongoing [compaany]
+RoadFit: BlockChain Enabled Alcohol Tester with Face Recognition
+August2024‐December2024 [compaany],Moscow
+Development of Explainable Deep Learning Algorithms for Identifying Pathologies in Fundus Images
+June2024‐August2024 [compaany],Moscow
+Decoding Speech from Neural Activity for Brain‐Computer Interfaces
+April2024‐May2024 [compaany],Moscow
+PROFESSIONAL DEVELOPMENT AND LEARNIN
+A Workshop on ”Recent Trends in Mathematical Analysis”
+AbdusSalamSchoolofMathematicalSciences,GCUniversiityLahore
+22‐23August,2022 [location]
+Undergraduaate Training on Research and Technical Writing
+IslamicResearchInstitute,InternationalIslamicUniversiityIslamabad
+5‐9March,2018 [location]
+ACHIEVEMENTS
+• Receivedthe”ScholarshipforDevelopment,TopPaper”awardtwicefromSkoltechinrcognitionofpublishing
+high‐impactr esearchpapers.
+• Theproject”RoadFit: BlockchainEnabledAlcoholTeste rwithFaceRecognition,”secured1stPlaceaattheSkoltech
+InnovationWorkshop2024,3rdPrize(60,000RUBCashPrize)attheSkoltechTriplePointCompetit ionandalso
+recognizedamongRussia’sTop1000Projects.
+• SelectedforaFullyFundedScholarshipatSkolkovoInstituteofScienceandTechno logy,among280recipientsoutof
+over22,000appli cantsfrommorethan30cou ntries.
+• GraduatedwithDistinction,InternationalIslamicUniversiityIslamabad.
+• MeritScholarshipRecipient,InternationalIslamicUniversiityIslamabad.

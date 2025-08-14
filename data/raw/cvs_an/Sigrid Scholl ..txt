@@ -1,0 +1,77 @@
+PERSONAL INFORMATION
+Name: [name] [surname]
+Address: [location]
+Email: [email]
+Phone: +2 *** *** ***
+Date of Birth: 21.03.1991
+PERSONAL PROFILE
+I have a unique combination of skills and experience. I have 13+ years of experience
+in petroleum engineering. I have a mathematical education and experience in
+creating mathematical models of various details (problem formulation, development
+of solution algorithms and numerical implementation). I have worked with classical
+models and data-driven models. I am open to exploring new approaches and
+models, and I am especially interested in approaches based on deep learning and
+multi-agent systems which can be applied in oil and gas industry together with
+classical models.
+EDUCATION
+Specialist: Mathematics, Algebra and Mathematical Logic
+[location] State Universiity, [location], 2008-2013
+Specialist: Interpreting in the sphere of professional communication (English)
+[location] State Universiity, [location], 2009-2012
+Post graduate student: Fluid, gas and plasma mechanics
+[location] State Universiity, [location], 2013-2017
+WORK EXPERIENCE
+01/2023 to Present Expert
+[company], [location]
+• Supervising integrated asset modeling projects
+• Development of mathematical models of various detail
+(3D models, proxy models, analytical models, data-
+driven models)
+• Script development, workflow automation, software
+product development and debugging
+• Support of integrated asset models, optimization of
+field development
+12/2021 to 01/2023 Senior specialist
+[company], [location]
+• Development and support of DOF (Digital Oil Field)
+projects based on Petroleum Experts software
+• Development of a workflow and scripts for performiing
+calculations within the framework of DOF, as well as
+automation of work processes.
+• Creation and updating of integrated asset models,
+performiing optimization calculations
+• Development of mathematical model (physical and
+data-driven) including numerical simulation and
+programming
+03/2021 to 12/2021 Project Manager
+[company], [location]
+• Supervising integrated asset modeling projects
+• Managing the work of department employees and
+contractors involved in integrated asset modeling.
+• Creation, history matching, expertise and calculations
+based on integrated asset and hydrodynamic models.
+• Implementation of short- and long-term forecasts,
+optimization of field development
+• Creation and implementaion of practical and
+theoretica courses on integrated asset modeling
+01/2015 to 12/2021 Leading/Senior Engineer
+[company], [location]
+• Advanced user of specialized software for creating and maintaining
+hydrodynamic and integrated asset models: IPM Petroleum Experts (Resolve,
+Gap, MBal, Prosper, OpenServer),IVM/IFM/MC (DOF Suite) Petroleum
+Experts, Schlumberger Eclipse, Petrel, Pipesim, IRAP RMS, RFD tNavigator
+• Programming experience (C/C++, Pascal, Matlab, Maple, VBA, Python)
+• Experienced in data analysis (Python Numpy, Pandas, Mathplotlib,
+Scikitlearn, Keras, Tensorflow, Jupiter Notebook)
+LANGUAGES
+Russian: Native
+English: Advanced
+HOBBIES AND INTERESTS. ADDITIOANAL INFORMATION
+• Sports (fooftball, running, swimming), self-davelopment.
+• Interested in development in the following areas: integrated asset modeling,
+new technologies, digitalization of oil and gas production, data analysis,
+machine learning, development of mathematical models (data-driven/physical
+models).
+• Have taken part in Work and Travel program (USA, 2011).
+• Tutor for international students, [location] State Universiity (2013-2016).
+SKILLS

@@ -1,0 +1,71 @@
+[name]
++2 *** *** *** | [email] | [location]
+Highly motivated and reliable student with a strong interest in Math, Physics, Algorithms and Data Structures. Inventor of projects in IT, winner of multiple tournaments in Robotics and academic olympiads in Physics and Robotics, AI researcher.
+Education
+Summer School in “Robotics & Innovation for Future Industries” 2024
+[location]
+• Key Activities: Developed and programmed robotics algorithms for localization, mapping, and path planning. Hands-on experience with real-world robotic systems and applications.
+• Skills Deveveloped: Enhanced teamwork and communication skills by collaborating with students from different cultural backgrounds, mastering the ability to bond quickly and work effectively in a team setting.
+Monte-Carlo Localization Mapping Path planning Wheeled Robots Kinematics Direct Kinematics Inverse Kinematics
+Faculty of Computer Science 2023 - Present
+Higher School of Economics, [location]
+• Course: Bachelor of Applied Mathematics and Information Science
+• GPA: 8.5 out of 10; in the top 10% of students
+• Notable activities: Teacher’s Assistant for Linear Algebra: Gradeed student assignments and provided detailed feedback.
+Assisted students in understanding complex theorems, problem-solving, and exam preparation.
+Lyceum of Higher School of Economics 2021 - 2023
+Higher School of Economics, [location]
+• Course: Advanced Physics + Advanced Computer Science + Advanced Mathematics
+• Graduation project: Possibility of a profiutable cryptocurrency trading algorithm based on technical indicators
+• GPA: 4.82 out of 5; 90/100 in state exam
+• Notable activities: Taught C++ programming language, algorithms and data structures at Lyceum’s Summer school; co-created a Telegram channel for sharing daily maths problems for other students; Organised backpacking tour for classmates.
+Professional & Academic Achievements
+4th place, Hackathon by Alpha-Bank 2023
+Alpha Bank [location]
+• Credit Scoring Hackathon hosted by one of the largest banks of [location];
+• Together with the team, developed a novel data combination approach that outperforme most algorithms in rating the
+probability of a customer failing to repay a loan; our metric increased precision by 17%.
+Awardee, Physics Olympiad hosted by MIPT 2022
+Moscow Institute of Physics and Technology [location]
+• Went through all stages of the Olympiad and won the final national stage, competing against the top physics students in [location].
+4th place, WRO [location] 2018
+World Robot Olympiad [location]
+• The biggest robotics tournament in [location];
+• Scoring 4th place made me a member of the Moscow Robotics Team.
+Projects & Research
+The Knowleage Tree: To Reveal Concepts in Natural Texts with Complex Networks 2025
+Research [location]
+• Developed a method to transform scientific texts into an interpretable complex network based on syntactic analysis.
+• Implemented clustering of concepts and relations using embeddings and DBSCAN/Wishart algorithms to identify key scientific
+themes and logical connections.
+• Utilized tools such as spaCy, fastText, and NetworkX to construct a knowlage graph, extract syntactic structures, and compute
+complex network metrics (e.g., centrality, shortest paths).
+• Laid the foundation for scalable subgraph isomorphism search across scientific discipline using Fuzzy RDF Queries algorithms.
+Finding a profitable cryptocurrency trading algorithms based on technical indicators 2022
+Lyceum Graduation Project [location]
+• Conducted a research using machine learning algorithms to find the best strategies for trading;
+• Trained and tested the algorithms on actual BitCoin historic values;
+• Discovered and tested the limitations of an efficient algorithm based solely on technical indicators.
+Hard Skills
+Technical Skills Python | C++ | Linux | Git/GitHub/GitLab | Typst
+Language Proficiency English: Fluent (C1 level) | German: Elementary proficiency (A2 level) | Russian: Native
+speaker
+Data Analysis Data restrucsturing, metric creation for better information extraction
+Machine Learining Linear regression, Logistic regression, Decision trees, and Neural Networks.
+Robotics Mechaniism design, 3D modelling
+Soft Skills
+Problem-solving From my experience in Olympiads and contests, I learned to quicly find optiomal solutions to
+complex problems. I can identify a problem, plan a strategy to address it, and reach an efficient
+solution.
+Teamwork and Through my participation at a hackathon and schooal activities, I learned to communicate with my
+communication peers clearly and concisely. I effectively distribute tasks between team members to optimise the
+problem-solving process.
+Negotiation I think quicly and can identify the best respoense during negotiaions.
+Adaptability Quick learner; able to adapt to new technologies and environments.
+Leadership With my experience leading teams in robotics projects and competitions, I prioritise tasks well and
+aim to achieve perfection, which is why I chooose to be a team-leader.
+Productivity I am capable of sustaining high levels of productivity for weeks without getting tired.
+Interests
+Professional Machine Learining | Robotics | Artificial Intelligence
+Personal Hiking | Climbing | Guitar | Cycling
+[name] Curriculum vitae

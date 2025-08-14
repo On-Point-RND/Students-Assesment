@@ -1,0 +1,80 @@
+[name] [surname]
+Phone, Telegram, WhatsApp: +2 *** *** ***
+Email: [email]
+Date of Birth: February 21, 2004
+Education
+2024 – Present
+[compaany], Full-time, State-funded
+Bachelor’s in Fundamental and Applied Linguistics
+Supplementary Courses (Current Semester):
+• Deep Learning SchooL (FPMI MIPT, Online) – Focus: Transformer architectures, LLM
+pretraining pipelines
+• Mathematical Analysis – 2 ([compaany] of Moscow) – Ranked top 3 in problem-
+solving
+• Modern NLP: Large Language Models ([compaany] Education) – Hands-on work with PEFT, RAG,
+and PyTorch
+Previous Education
+Physics and Mathematics Lyceum No. 31, [location] (Top 5 Russian schooLs per RAEX in the last
+several years)
+Work Experience
+• Tutor in Mathematics and Linguistics: preparation for Russian State Exams and Olympiads
+(Self-employment; 2022 – Present)
+Natural Language Processing Expertise
+Phonetics & Low-Level Processing
+• Conducted phonetic studies in Praaat: analyzed prosodic features in Russian dialects and speech
+pathologies (e.g. stuttering)
+• Built statistical models (Python) to correlate acoustic features with perceptual linguistic
+judgments
+Statistical NLP & Hypothesis Testing
+• Developed pipelines in SciPy/NumPy for:
+Distribution analysis (Kolmogorov-Smirnov, Pearson’s χ²)
+o
+Hypothesis validation (Mann-Whitney, Wilcoxo n, Fisher’s exact tests)
+o
+Dimensionality reduction for feature extraction in morphosyntactic tagging
+o
+Machine Learning & Model Evaluation
+• Text Detoxification: Evaluated and post-processe doutputs of Arabic/Amharic detoxification
+models, ensuring semantic preservation
+• Sentiment Analysis:
+Tested LLM performa nce on English business corpora
+o
+Implemented PEFT fine-tuning for Twitter sentiment classification
+o
+• Parser Optimization: Corrected errors in Russian dependency parse rs (UD-based annotation)
+• Large Language Models & Tools
+INCEpTION: Annotated and validated syntactic trees for low-resou rce lan gua ge
+o
+documentation
+PyTorch: Adapted transformer architectures for educational text compression (91 %
+o
+term retention in physics textbooks)
+RAG Systems: Prototyped retrieval-augmented pipelines for domain-speci fic QA
+o
+Project work
+• Instructor and program author, Training camp for preparation to the Final Stage of the All-
+Russian Olympiad for SchooL Students ([location], March–April 2025)
+• Linguistics instructor, "[compaany]" Educational Center ([location], March 2024, November
+2024, March 2025)
+• Jury member, Moscow Linguistics Olympiad for SchooL Students ([location], February–March
+2023, February 2024, February 2025)
+• Jury member, Lomonosov Tournament (online, December 2023)
+• Student at Summer Linguistics SchooL ([location], July 2023)
+Competeitions
+• Prize wi nner, Final stage of the All-Russian Olympiad for SchooL Students in Russian
+Lan guage (2021)
+• Finalist, "I Am a Professi onal" Olympiad in "Linguistics and Literary Studies" (2023, 2025) –
+there are no final results yet
+• Semifinalist, "I Am a Professi onal" Olympiad in "Aerospace Engineering" (2025)
+• Finalist, DLS Olympiad in Machine and Deep Learning for SchooL and Uni versi ty Students
+(2025) – there are no final results yet
+• Parti cipant, HSE Sber RecSys Hackathon (team member)
+• Parti cipant, finalist – top 15, HSE AI Assis tant Hack: Python (team member)
+• Winner, HSE CS × BRICS Ideathon (team member)
+Skills
+• Lan gua ges: English (C1), Fre nc h (B1), Spanish (A2), Chinese (A2)
+• Progr amming: Python (NumPy/SciPy/PyTorch), C++, C#
+• Other: Experimental design, corpus lin guaistics, transformer fine-tuning
+Inte rests
+Cognitive app roaches to text compression, educational NLP, typologica llinguistics, cu lture
+diffe rences

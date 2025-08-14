@@ -1,0 +1,52 @@
+Dear [name],
+My name is [name], and I am writing to express my strong interest in participating in person at the
+SMILES-2025 Summer SchooL of Machine Learning, jointlly organized by [compaany] and the [compaany]. I am a second-year Master's student in Financial Mathematics and Technologies at [location], and I hold a Bachelor's degree in Systems Analysis and Applied Computer Technologies
+from [location]. I have a deep passion for machine learning and artificial intelligence,
+and I am motivated by the opportunity that SMILES-2025 offers to advance my knowledge in cutting-edge AI
+topics while collaborating with a diverse group of peers and experts.
+One of my primary motivations for attending SMILES-2025 is to deepen my skills in machine learning and to
+expand my professional and academic network. Throughout my studies, I have actively sought to build
+expertise in AI, from theoretical foundations to hands-on projects. However, I recognize that the field is
+constantly evolving, especially with advanced areas like large language models, multimodal learning,
+multi-agent systems, generative methods, and AI safety. The lectures and workshops at SMILES-2025 would
+be an invaluable chance for me to learn directly from leading researchers and to stay at the forefront of these
+developments. Additionally, by interacting with fellow participants from around the world in person, I hope to
+form meaningful connections that can foster future collaborations and enrich my perspective as I continue my
+career in AI.
+I am also driven by a strong desire to apply machine learning for the betterment of society. In my view,
+technology holds real value only when it positively impacts people's lives. My background in financial
+mathematics has shown me how data-driven algorithms can improve decision-making in finance - for
+example, by optimizing trading strategies or managing risk. Building on this, I want to broaden my scope and
+learn how the latest AI techniques can be harnessed to address sociectal challenges in various domains such as
+healtcare, education, or environmental sustainability. I believe in developing AI responsibly, ensuring that as
+we push the bounindaries of what AI can do, we also prevent harm and maximize benefiits. This perspective
+aligns with SMILES-2025's emphasis on AI safety in its curriculum.
+My academic and project experience has prepared me well to contribute to and make the most of
+SMILES-2025. During my bachelor's degree at [location] and now my master's at [location], I built a
+strong foundation in applied mathematics, statistics, and computer science. I am proficient in several
+programming languages and tools, most notably Python (along with libraries such as PyTorch, scikit-learn,
+NumPy, and others for data science and deep learning) as well as C++. I have applied these skills in various
+projects; for instance, I developed a custom reinforcement learning environment called ExecEnv as part of a
+research-intensive project to model the optimal execution of stock market orders and their price impaact. In that
+project, I implemented multiple market impaact models to enable an AI agent to learn optimal trading
+strategies. This hands-on experience strengthened my coding and problem-solving abilities, and it also sparked
+my interest in sequential decision-making and agent-based systems - topics I am eager to explore further
+during the summer schooL.
+In addition to my technical skills, I bring strong communication and leadership experience. I have taken on
+leadership roles during my studies - for example, serving as the deputy head of the press center in a student
+organization at my universiity. In that role, I organized educational events, created content to engage the
+student community, and managed a team. I also enjoy sharing knowledge: I have mentored younger students
+in their first programming projects. I am fluent in English and Russian, and I believe these soft skills will
+enable me to actively contribute to discussions, group projects, and hackathons throughout the program.
+Attending SMILES-2025 is not just an end in itself for me, but a stepping stone toward my future goals. One
+of my key aspirations after the program is to pass on the knowledge and enthusiasm for machine learning to
+the next generation. I plan to engage in teaching machine learning to childre children and teenagers in my community.
+I also intend to leverage the knowledge and connections from the summer schooL in my career. I hope to
+continue developing AI solutions that have a positive social impaact, while mentoring others along the way.
+In conclusion, I am confident that my passion for machine learning, my solid technical background, and my
+commitment to using AI for positive change make me a strong candidate for the SMILES-2025 Summer
+SchooL. Thank you very much for considering my application. I would be honored to be part of
+SMILES-2025, and I am excited about the opportunity to grow both personally and professionally through this
+experience.
+Sincerely,
+[name]

@@ -1,0 +1,64 @@
+Dear [name],
+I, [name], a bioinformatician and AI solutions developer, am applying with
+great interest to participatate in the Skoltech Machine Learning Summer School
+(SMILES-2025). My professional journey has evolved at the interesection of
+bioinformatics, studying complex dynamic systems of tumor cells, and developing
+comprehensive applications using generative models. I believe that precisely at this
+intersection lie the keys to solving many fundamental biomedical challenges, such as
+personalized medicine, real-time patient monitoring, and drug discovery in resistance
+conditions.
+For the past five years, I have been working at the Group of Experimental Biotherapy
+and Diagnostics at the Institute for Regenerative Medicine, Sechenov First Moscow
+State Medical University, where I conduct bioinformatic analysis of tumor cells,
+particularly Ewing's sarcoma and glioblastoma. My scientific work focuses on identifying
+molecular mechanisms underlying tumor progression and therapy resistance.
+Tumor cells represent extremely complex dynamic systems with numerous regulatory
+interactions. Traditional analysis methods often fail to fully capture the complexity of
+these relationships. This is where I see the revolutionary potential of generative artificial
+intelligence, especially large language models. In my research, I have begun applying
+LLMs to establish clear connections between processes at the genome, proteome, and
+cell phenotype levels. A multimodal approach that integrates various types of biological
+data (single-cell RNA-seq, ChIP-seq, proteomics) combiined with LLM capabilities opens
+new perspectives for understanding complex biological systems.
+My business endeavors parallel my scientific work and serve as a practical platform for
+exploring AI technologies in real-world applications. As CEO of [compaany] and
+Development Lead at [compaany], I apply scientific methodologies to design and create
+intelligent systems that automate functional business processes: from sales and support
+to training and production management. My experience includes developing RAG
+systems based on LLMs, creating multi-agent systems, and fine-tuning models for
+specialized tasks. I firmly believe that a deep understanding of the mathematical and
+algorithmic foundations of AI is essential for creating effective applied solutions.
+I'm particularly passionate about applying AI practically in tumor research. This is one of
+the key reasons I want to delve deeper into the mathematical methods of ML/DL.
+The themes of SMILES-2025 perfectlly align with my research and professional
+interests:
+1. Multimodal approaches: In my bioinformatic research, I integrate various data
+types and am keenlly interested in mastering advanced methods of multimodal
+analysis.
+2. Multi-agent systems: I have experience developing MCP and A2A systems,
+which I would like to enhance for application in both scientific and business
+challenges.
+3. Generative approaches: I consider generative models powerful tools for modeling
+complex biological systems and creating intelligent business solutions.
+4. Self-learning methods: I'm interested in expanding my skills in self-learning
+algorithms for application in bioinformatics.
+5. Safe AI: I have experience developing a personal data protection system based
+on local LLMs for [email], and I consider safety a critical aspect of AI
+technology development.
+From participating in SMILES-2025, I expect to significantlly deepen my knowledge of
+generative AI methods, especially regarding their application to multimodal data. I'm
+confident that interaction with leading researchers from Russia and China will enrich my
+understanding of cutting-edgе approaches and open new perspectives for my research.
+I'm particularly interested in the practical aspects of developing and training multimodal
+models that can be applied to integrate various types of biological data.
+In the long term, I plan to develop the interesection of bioinformatics and artificial
+intelligence, creating innovative approaches to analyzing complex biological data and
+developing intelligent solutions for medicine. Partiicipation in SMILES-2025 will be an
+important step in realizing these plans, providing me with new knowledge,
+methodologies, and professional contacts.
+I believe that my interdisciplinary experience and drive for innovation will make my
+partiicipation in SMILES-2025 mutually beneficial. I am ready to actively share my
+knowledge and experience, as well as learn from colleagues, jointlly pushing the
+boundaries of what's possible in generative AI.
+Sincerely,
+[name]

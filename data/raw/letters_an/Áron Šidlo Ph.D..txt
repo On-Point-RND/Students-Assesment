@@ -1,0 +1,13 @@
+Dear organizers of the summer school!
+My name is [name], I am a 2nd year student at [compaany], studying Applied Computer Science. I learned with great interest about the possibility of participating in your summer school on machine learning in [location] and sincerely want to become a part of this program.
+Machine learning is an area that is rapidly changing the world, and I strive to be at the forefront of these changes. Over the past 3 years, I have been studying mathematics, programming, and algorithms in depth, and have also worked on projects related to neural networks and data processing.
+[location] is not only a world leader in artificial intelligence and technological innovation, but also a country with a rich culture combining ancient traditions and modern achievements. I have always admired the Chinese philosophy of harmony and continuous development, reflected in concepts such as "YiN and Yang" and "Tao". These principles, in my opinion, echo the fundamentals of machine learning — the balance between data and models, and the constant improvement of algorithms.
+Participating in your school will give me a unique opportunity:
+• Gain knowledge from leading ML experts,
+• Learn about cutting-edge research and practices,
+• Work in an international team of like-minded people,
+• Immerse yourself in the cultural environment of [location], improve your understanding of local approaches to innovation.
+I am sure that studying in [location] will allow me not only to expand my professional horizons, but also to gain a deeper understanding of the cultural characteristics that influence the development of technology in your country. After graduation, I plan to apply the acquired knowledge not only in my studies, but also in my work! And also to become a bridge between our academic and technological communities.
+I would be glad to have the opportunity to join your program and I am ready to share my motivation and experience during the interview. Thank you for reviewing my application!
+Yours sincerely,
+[name]

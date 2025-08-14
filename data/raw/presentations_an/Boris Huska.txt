@@ -1,0 +1,83 @@
+Multiple Myeloma Treatment Analyzer
+[name] [surname]
+Assistant Professor, Finance [location]
+ex-[compaany] team lead
+April 2025
+Summary
+Multiple Myeloma Treatment Analyzer research is focused on
+effectiveness of possible treatment options for patients with
+Multiple Myeloma based on a statistical analysis of historical
+data from real clinical practice in treating patients from [location].
+The research was organized under sponsorship of [compaany] in 2020 under my supervision.
+The AI-modelling based on RWD compared with literature analyses to get cross-validated results presented via a
+single interface.
+The aim of modelling:
+• For the various combination of inputs (patient parameters)
+calculate predicted outcomes (TTNT: time to the next
+treatment, TTD: time to death) for all in-scope regimens to
+compare their relative effectiveness.
+1
+Problem
+Multiple myeloma (MM) is a complex and challenging cancer to treat:
+Heterogeneity High Relapse Rates
+Treatments that work for one Even after successful initial treatment, residual
+patient may fail for another. "minimal residual disease" (MRD) often
+persists, leading to relapse.
+Marrow Microenvironment Limited Biomarkers
+This microenvironment fosters drug MM lacks universally reliable biomarkers for early
+resistance and immune evasion detection, prognosis, and treatment response
+prediction.
+Immune Evasion Toxic Side Effects
+MM suppresses the immune Many therapies (e.g., CAR-T cells, bispecific
+system by disabling T cells and antibodies) cause severe side effects (e.g.,
+natural killer cells. cytokine release syndrome), limiting their use.
+2
+Why AI and modeling
+Precision Diagnosis & Cox Regression
+Subtyping
+AI can analyze genomic, transcriptomic,
+and proteomic data to identify distinct MM
+subtypes, enabling tailored therapies.
+Random Forest
+Predicting Treatment
+Response
+Boosted trees
+AI mines electronic health records (EHRs)
+to uncover patterns in treatment
+outcomes across diverse populations.
+Reducing Toxicity
+AI models predict which patients are at
+risk for severe side effects (e.g.,
+neurotoxicity from CAR-T), enabling
+preemptive interventions.
+3
+Results
+Expected increase of
+10+ TTD for patients at
+lines 1-2
+if AI-recommendation
+years
+is used
+Line ofTreatment Target COX Gradient Boosting Random Forest
+L1 TTD 0.540 0.688 0.694
+L1 TTNT 0.527 0.611 0.619
+L2 TTD 0.579 0.667 0.686
+L2 TTNT 0.550 0.626 0.643
+L3 TTD 0.591 0.658 0.690
+L3 TTNT 0.571 0.611 0.625
+L4to7 TTD 0.642 0.719 0.726
+L4to7 TTNT 0.601 0.647 0.653
+4
+Next steps and how SMILE2025
+Steps:
+• I plan to test neural networks to analyze patient response data (e.g.,
+genetic markers, treatment histories) and recommend optimal drug
+sequences.
+• Additional focus on interpretable AI aligns with my goal to avoid "black-
+box" solution which I’ve got with current modeling approach.
+SMILE2025:
+• The summer school’s hackathons or group projects could serve as a
+"proof of concept" for my framework, leveraging peer feedback to refine it.
+• Partnerships with attendees from medical backgrounds could help ground
+my models in real clinical constraints (e.g., toxicity thresholds, cost-
+effectiveness).

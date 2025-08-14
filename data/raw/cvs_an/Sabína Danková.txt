@@ -1,0 +1,48 @@
+Resume
+Personal information:
+[name] [surname]
+Date of birth: 29.09.2001
+E-mail: [email]
+Phone number: +2 *** *** ***
+Location: [location]
+Github: https://github.com/[name]-[surname]
+Education:
+2023 – present – [compaany], Master’s degree in Artificial Intelligence (the second course)
+2023 г.- [location], Bachelor’s degree in Software Engineering, graduated with honors
+Professional Experience:
+September 2022 – Present - [compaany], Data Scientist / ML Developer
+Initially worked as a QT developer (C++, QML). Currently developing a system for clustering players based on behavioral, statistical, and gameplay data.
+July 2021 – April 2022 - [compaany], SOC Analyst
+Deployed NAD, WAF systems, and conducted forensics. Developed a Python script for generating DOCX reports using MaxPatrol SIEM API.
+Research Experience & Academic Projects:
+· Master's Thesis ([compaany])
+“Machine Learning Algorithms for Personalized Heart Models Based on Tomography”
+Conducted in the Laboratory of Experimental and Computational Cardiology. Focus: applying ML to create personalized 3D heart models to assist in pre-surgical planning for arrhythmia treatment.
+· Non-Invasive Diagnosis of Brain Tumors (Ongoing)
+Duties: Data scientist and bioinformatics specialist; also managed project presentation at “Open Microphone” by [compaany] and participated in [compaany] Pre-accelerator.
+Supervisor: [name] [surname]
+· Clinical and Economic Modeling of Endovascular Surgery
+Developed a chatbot predicting radial artery occlusion post-surgery. The system is patented.
+Supervisor: [name] [surname]
+· Bachelor’s Thesis ([location])
+“Development of a Python-Based Package for Processing Hypersppectral Images and Predicting Protein Content in Wheat Kernels”
+Accomplished in collaboration with the company [compaany]. Used PLS-regression, spectral preprocessing, and image processing techniques (binarization, morphology).
+Published in the proceedings of the II All-Russian Scientific and Technical Conference “Modern Digital Technologies.”
+Scientific Activities & Competitions
+· Internship in ML at [compaany] (2022): Performed data clustering for anomaly detection; participated in the XXIV International Conference “Measurement, Control, Informatization (IKI-2023)” and was awarded 2nd place.
+· Student Project ([compaany], 2021): Algorithms for Intelligent Video Surveillance Systems. Worked with optical flow and descriptor-based tracking.
+· Summer School on cryptography and information security ([location], 2020): Developed a Java chat application with end-to-end encryption using a custom protocol based on RSA & AES.
+· CTF Participant (2021–2022): Team “SharLike” – 1st place at [location]CyberCup 2022, participated in YetiCTF, co-organizer of [location]CTF School competitions.
+Additional Training & Courses
+· Advanced A/B testing — [compaany], [name].courses (2025)
+· Recommendation Systems — [compaany], [name].courses (2025)
+· Fast Track Program ([location]) — Grant awarded by [location] University(2024)
+· Open University [location] — “Innovator’s Navigator” Program (2023)
+Teaching Experience
+· Mentor for the course “Tools for Developing Data-Driven Solutions” ([location], 2023). Successfully completed a teaching internship, received excellent evaluation.
+Languages
+· Russian – Native
+· English – Intermediate (B1)
+Publications
+· “Development of a Python-Based Package for Processing Hyperspectral Images and Predicting Protein Content in Wheat Kernels”, II All-Russian Scientific and Technical Conference (2023)
+· “Data Clustering for Anomaly Detection”, IKI-2023 (awarded 2nd place)

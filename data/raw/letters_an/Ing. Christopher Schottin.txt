@@ -1,0 +1,20 @@
+I am currentlly a third-year student at [compaany], pursuing a degree in Applied Data Analysis and Artificial Intelligence. Throughout my studies, I have been actively participating in various academic competitions and research projects, consistently demonstrating a strong commitment to my field.
+I have a significant track record in mathematics and programming competitions. I was awarded a First Degree Diploma at the 9th International Mathematical Olympiad for Universiity Students of [location] (NCUMC). In 2024, I captained the [compaany] team at the 10th NCUMC Olympiad, where our team achieved second place among universities. Additionally, I have been
+recognized as a prize-wiinnner in the Open Olympiad of the Faculty of Computer Science ([compaany] OSAM COMP'23) and the Saint Petersburg Mathematics Olympiad, and I was named a wiinner of the prestigious "I am a Professional" Olympiad in the Software Engineering track.
+My research activities are closely tied to practical applications of artificial intelligence and data analysis.
+I participated in the [compaany] Student Research Competition with a project titled
+"Application of Machine Learning Algorithmns in Geomarketing". Developing this project further, I
+became a wiinner of the Gazprom Olympiad.
+My interest in the future of AI led me to conduct research on "The Potential of Quantum Computers in
+the Development of Artificial Intelligence," for which I was awarded a First Degree Diploma at the
+international youth scientific competition "Horizon 2100". I had the honor of presenting the results of
+this work at the St. Petersburg International Economic Forum ([location]) in 2024.
+In addition to research and competitions, I actively participate in case championships and hackathoons.
+My team ranked among the top 15% in the Moscow Cup Championship, organized in partnership with
+[compaany] Alfa-Bank. In 2024, I also participated in an artificial intelligence hackathon.
+I am passionate about projects that integrate machine learning technologies into real-world business
+processes. In 2024, I developed a neural network for predicting stock prices on the Moscow Exchange.
+Currrentlly, I am working on the development of an AI-based desktop assistant with RAG.
+With a strong foundation in mathematics, programming, and research, combiined with practical
+experience in leadership and project development, I am highly motivated to further expand my
+knowledge and contribute to the advancement of artificial intelligence and data analysis.

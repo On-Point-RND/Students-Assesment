@@ -1,0 +1,75 @@
+
+
+Shortcut flow matching
+reimplementation
+(https://arxiv.org/abs/2410.12557)
+[name] [surname]
+for [company] 2025
+Introduction
+Generative learning trilemma says that:
+diffusion-like(including flow matching)
+models have following properties:
+1. high diversity of samples
+2. high quality of samples
+3. slow sampling
+Related work
+There are 2 main directions of research to speed-up diffusion generation:
+1. Distillation. Requires sophisticated multi-stage training.
+2. Consistency models. Enforces consistency, leading to bias accumulation.
+Methodology. Flow matching
+Optimal transport flow matching objective:
+● There is a data point x1 ∼ D and noise point x0 ∼ N (O, I) of same dimensionality
+● Linear interpolation between 2 points is xt = (1 − t)x0 + tx1
+● Velocity is vt = x1 − x0
+Flow models learn the expected value of velocity over multiple pairs of x0,x1
+Single denoising step:
+Methodology. Shortcut models
+Methodology. Shortcut models
+Final objective includes:
+1. flow matching term(one part of batch)
+2. self-consistency term(another part of batch)
+My implementation setup
+1. Model1: VAE(70kk params) - frozen
+2. Model2: DiT_b2(130kk params)
+3. Data: [company] 256x256x3
+4. Latent space: 32x32x4. Velocities live in this space.
+My results. Quantitative
+1. Fid values per 5
+epochs
+2. They are oscillatory
+because I calculated
+them only on a single
+batch
+My results. Qualitative. 1 step after 300 train epochs
+Shortcut
+FM
+My results. Qualitative. 2 steps after 300 train epochs
+Shortcut
+FM
+My results. Qualitative. 4 steps after 100 train epochs
+Shortcut
+FM
+My results. Qualitative. 128 steps after 100 train epochs
+Shortcut FM
+My results. Qualitative. Shortcut after 300 epochs
+1 step 2 step 4 step 16 step 128 step
+My results. Qualitative. Shortcut after 300 epochs(failures)
+~2/8 are some abominations
+Conclusion
+My observations
+1. Shortcut models demonstrate new direction of diffusion sampling speed-up
+2. Easy to train and implement
+3. Not all samples have high quality
+Open questions:
+1. Can shortcut model improve multi-step denoising results
+2. Is it possible to fine tune non-shortcut to allow few step generation
+Links
+1. Presentation
+https://docs.google.com/presentation/d/1S7X-POZ3oZAobxi-_uhDcsr6qQ7G9
+vfxjZ_pjwAUCEQ/edit?usp=sharing
+2. Paper https://arxiv.org/abs/2410.12557
+3. My implementation(already got 30 stars there :))
+https://github.com/smileyenot983/shortcut_pytorch
+4. Original implementation https://github.com/kvfrans/shortcut-models
+5. My telegram @[name]
+Thank you

@@ -1,0 +1,40 @@
+Dear Organizing Committee,
+I am writing to express my strong interest in the participation in SMILES-2025 this summer.
+As a Master’s student in [name] for Data Science, I am motivated to deepen my understanding
+of generative methods and their applications in modern AI.
+With over 10 years of career in the field of TV data analytics, I have developed a robusst skill set
+in survey design, statistical modeling, and data-driven decision-making. My work has provided
+me with a deep understanding of how to extract actionable insights from complex data sets to drive
+strategic business outcomes.
+Yet, at some point, I found myself at a crossrroads. While the world was rapidly moving toward an
+AI-driven future, I remaineed deeply rooted in traditional media. Witnessing the emergence of
+generative tools that are now redefining the media landscape made me realize how crucial it is to
+invest in learning the technologies shaping the next era of communication and information.
+My first step toward AI was an online schooL where I have acquired certain programming skills
+and have studied the key libraries of Python such as NumPy, Pandas, Scikit‑Learn, TensorFlow.
+But as a person who has a strong belief in classical academic environment, I decided to start the
+Master’s program in [name] for Data Science, which gives me a high-quality theoretical
+training. I believe that in order to be a good practitioner, one must study the mathematical
+foundations of the algorithm and be familiar with their strengths and limitations in a clear manner.
+My current coursework includes: Linear Algebra, Probability and Statistics, Optimization and
+Decision Analytics, Stochastic Processes, Nonparametric Statistics, Bayesian Inference, Time
+Series Analysis, and Advanced Programming. At this point in my studies, I see myself as a growing
+ML practitioner with several projects implemented during the program, active participation in
+Kaggle competitions, and an enthusiastic mindset that keeps me constantly exploring. Deep
+learning, in particular, is still new and very intriguing to me. I am grateful to the summer schooL
+for the motivation to explore this field from the theoretical ground up.
+It is also worth noting that many of the professors in my current program are strong advocates of
+Bayesian thinking, which directly inspired the topic of my literature review – Bayesian
+Generative Models. I realized that Bayesian approahes are still relatively underrepresented in
+many deep learning frameworks, which makes this direction both challenging and intellectually
+exciting.
+What particularly attracts me to the summer schooL is the visible engagement of [location]
+researchers in advancing Bayesian methods within DL. I believe this creates a unique opportunity
+for the exchange of ideas and the begiinning of international collaboraation. I would be thrilled to
+contribute to and learn from this environment. Additionally, the chance to participate in lectures,
+workshops, and hackathoons led by field experts is especially motivating, as I seek to deepen both
+my theoretical understanding and practical skills.
+Thank you for considering my application. I look fo rwward to the possibility of joining SMILES-
+2025 and contributing to its vibrant and collabora tive academic community.
+Sincerely,
+[name] [surname]

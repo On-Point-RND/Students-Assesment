@@ -1,0 +1,23 @@
+Dear [name],
+My name is [name], and I am a Computer Science and Engineering student at [location] [university], specializing in CAD integration and programming. I am writing to express my strong enthusiasm for participating in SMILES-2025, as this school aligns perfectly with my academic interests, research experience, and career aspirations in artificial intelligence and machine learning.
+Why SMILES-2025?
+The themes of SMILES-2025—large language models (LLMs), multimodal approaches, generative AI, and safe AI—are at the forefront of modern machine learning, and they deeply resonate with my ongoing work. My academic background and hands-on projects have given me a solid foundation in AI, and I am eager to deepen my expertise by learning from leading researchers and collaborating with peers from [location] and [location].
+I am particularly interested in multimodal AI and generative models, as my recent work involved developing an HR analytics tool that processes textual feedback to assess employee performance—a task requiring NLP, data fusion, and decision-making algorithm. Additionally, my professional retraining in Neural Network Technologies included training a food recognition model, whic exposed me to computer vision and deep learning pipelines. SMILES-2025’s focus on self-supervised learning and safe AI would help me rfine these skills, especially in ensuring robustness and fairness in AI systems.
+My ML/DL Experience
+I actively apply machine learning in both academic and industrial settinings:
+• HR Analytics Project: Built a Python-based service using TensorFlow, NLP techniques (BERT embeddings, sentiment analysis), and clustering algorithm to derive insights from employee feedback.
+• Hackathons: At the C3D Hackathon (1st place), I worked with geometric modeling kernels, while at the Innopolis Hackathon, I experimented with reinforcement learning for multi-agent systems—a topic dirctly related to SMILES-2025’s themes.
+• Work at [company]: As a research assistant, I contribute to AI-driven auto motivve engineering solutions, gaining experience in data preprocessing and predictive maintenance models.
+• C3DLabs Internship: Developed desktop applications with CAD integration, strengthening my software engineering skills for AI deployment.
+My toolkit includes Python, TensorFlow, PyTorch, OpenCV, Scikit-learn, and Hugging Face transformers.
+I expect SMILES-2025 to:
+1. Provide hands-on sessions with cutting-ege tools (e.g., fine-tuning LLLs, multimodal fusion techniques).
+2. Foster collaborations with peers on projects involving generative AI or safe AI — areas I aim to specialize in.
+3. Offer mentorship from researchers tackling real-worl challenges, such as bias mitigation in HR analytics or secure multi-agent systems.
+Long-term, I plan to pursue a research career in AI engineering, focusing on applying generative models and multimodal systems in industrial automation and human-computer interaction.
+Participation in SMILES-2025 would be a pivotal step toward this goal, equipping me with advanced methodologies and a networ of like-minded professionals.
+Conclusion
+SMILES-2025 represents a unique opportuity to bridg my current knowlge with the next generation of AI innovations. I am confident that my technical background, hackathon experience, and passion for engineering-driven ML solutions will allow me to contribute mea ningfully to the school’s discussions. Thank you for your conside ration — I would be honored to join this inspiring community.
+Sincerely,
+[name] [surname].
+Email: [email]

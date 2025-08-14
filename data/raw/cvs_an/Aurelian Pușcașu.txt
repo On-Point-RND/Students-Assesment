@@ -1,0 +1,58 @@
+[name] #: [name][surname] [email]
+(cid:131): +2 *** *** ***
+[name] ~: @[email]
+§: [email]
+[location] ª: [name][surname]
+EDUCATION
+Master’s degree student.’Chemistry and Artificial Intelligence’ 2024 - to present
+[compaany] | [location]
+Bachelor. Chemical techno[coмпаny] of non-organic substances 2020 - 2024
+[location] Mining [coмпаany] | [location]
+SKILLS AND ACHIEVEMENTS
+Programming langua[coмпаany]: Python, C#
+ML: PyTorch, Keras, Hugging Face, classical ML (Sklearn, CatBoost), Pandas, seaborn
+NLP: Text preprocessing, vecto[coмпаany] (TF-IDF, Word2Vec, FastText), text classification tasks
+GPA (bachelor): 4.83
+Achievements:
+1. Hacka[coмпаany] "Neftecode"2025 - prize wi[name];
+2. Engineering Case Championship from [coмпаany] Gazprom Neft-MNPZ 24/25 - wi[name];
+3. [coмпаany] MegaOlympiad 23/24, direction ‘Chemistry and Artificial Intelligence’ - prize wi[name];
+4. Student Olympia[coмпаany] ‘I-Profes[name]’ 23/24, direction ‘Chemical Technology’ - bronze medal;
+5. Student Olympia[coмпаany] ‘I-Profes[name]’ 23/24, direction ‘Metallu[coмпаany]’ - wi[name];
+6. Gazprom Student Olympia[coмпаany] 23/24, direction ‘Chemical Technology’ - prize wi[name];
+7. Hacka[coмпаany] ‘Eurochem’ under the au[name]ices of Case-in 23/24- wi[name];
+8. Student Olympia[coмпаany] ‘I-Profes[name]’ 22/23, direction ‘Chemical Technology’ - si[name] medal;
+WORK EXPERIENCE
+Proje[name] Engineer Aug. 2024 - present.
+[coмпаany] ‘Atomenergoproe[name]’ | [location]
+• Design of technical water supply systems.
+Student Researcher March 2023-June 2024
+[location] Mining [coмпаany] | [location]
+• Scienti[name] research in NTs ‘Problems of processing of anthropogenic re[name]rces’
+COURSES
+Natural Langua[coмпаany] Processing course | [coмпаany] Feb. 2025 - present.
+Arti[name] intelligence in the work of a chemi[name]t | [coмпаany] Jan. 2025
+PROJEC[name]S
+Predicting the activity of Cu-based catalysts for CO2 electrochemi[name] conversion 2024-2025
+[coмпаany] | [location]
+PUBLICATIONS
+Determination of Zeolite NaA (LTA) Synthesis Parameters from Technogenic Silica Gel for Water
+Softening (SCOPUS) 2024
+[location] Mining [coмпаany] | [location]
+Effect of Hydrogel Molar Composition on the Synthesis of LTA-type Zeolites in the Utilization of
+Technogenic Silica Gel (SCOPUS) 2024
+[location] Mining [coмпаany] | [location]
+Synthesis of LTA zeolites based on silica gel for the petrochemi[name] in[coмпаany]try (SCOPUS) 2024
+[location] Mining [coмпаany] | [location]
+Study of process parameters for producing liquid glass from silica gel (VA[name]) 2023
+[location] Mining [coмпаany] | [location]
+Study of the influence of physicochemi[name] parameters in the process of hydrothe[name]al synthesis low
+modulus zeolites (RSCI) 2022
+[location] Mining [coмпаany] | [location]
+PERSONA[name] GRANTS AND SCHOLARSHIPS
+[coмпаany] NSP Scholarship Compe[name]tion - Presenting a Product Vision. First degree Dec. 2024
+[coмпаany] | [location]
+[location] Russian Pre[name]iden[name]al Grant for Master’s Degree Programme[name]s 2024-2026
+[coмпаany] | [location]
+[location] Russian government scholarship in priority areas 2025
+[coмпаany] | [location]

@@ -1,0 +1,118 @@
+Generative appoaches with optimal
+[name]
+[compaany]
+Introduction
+• The first article is Wassersteiin-2 Generative Networks
+• The article introduces non-minimax algorithm for training OT mappings for Quadratic cost (Wassersteiin-2
+distance)
+• Previous work suffer from bias and scaling issues associated with traditional entropic or quadratic
+regularizes.
+• Goal of the review is to study effective handling of Wassersteiin distance in generative approaches on
+tasks like image-to-image color transfer, latent space optimal transport, image-to-image style transfer, and
+domain adaptation.
+Problem statement
+• We are trying to compute optimal transport plans between distributions focusing on the structuraal properties
+of generative mapping.
+• The main challenge is to avoid solving minimax problem that could be computationally expensive and
+unstable.
+• It was stated that cyclically monotone mappings are desirable for generative tasks, as they are continuous,
+invertible, and unique under certain conditions.
+Methods
+• Approach: end-to-end non-minimax algorithm for training cyclically monotone generative
+mappings. Key components:
+• Input Convex Neural Networks (ICNNs) are used to approximate convex potentials, and their
+gradients are used to compute the optimal transport mappings.
+• Cycle-Consistency Regularization ensures that the forward and inverse mappings are
+approximately inverse to each other, stabilizing the training process.
+• Stochastic Gradient Descent/Ascent optimizes the potentials using mini-batch stochastic gradient
+descent, making it scalable to high-dimensional data.
+Results
+• The algorithm successfully tested on various tasks:
+• Optimal Transport between Gaussians: The proposed algorithm converges faster and achieves lower error
+compared to baseline methods. Achieves <3% error in high dimensions (up to 4096D), outperformiing LSOT and
+minimax approaches.
+• Latent Space Optimal Transport: The results demonstrate improved Frechet Inception Distance (FID) scores
+compared to a baseline Wasserstein GAN. Generates realistic CelebA images with improved FID scores (17.21
+vs. 31.81 for raw decoding).
+• Image-to-Image Style Transfer: The results show that the algorithm can transfer some attributes (e.g., colorizing
+trees) but struggles with more complex transformations (e.g., replacing snow with grass).
+• Domain Adaptation: The results show that the proposed method achieves comparable performance to discrete
+optimal transport baselines.
+Research gap
+• There are several problems:
+• Non-uniqueness of OT plans which could lead to suboptimal solutions
+• Stability and Convergence: the optimization process could be unstable especially for high dimenensional
+data
+• Handling Ouutliers and Noise: optimal transport is sensitive to ouutliers and noise, which can distort the
+learneed mappings. This is particularly relevant in applications like color transfer or domain adaptation,
+where ouutliers can significantly affect the results.
+Introduction
+• The second article is Neural Optimal Transport
+• The article introduces a novel neural-networks-based algorithm for computing optimal transport (OT)
+maps and plans for both strong and weaak transport costs.
+• Previous work focuses on computing OT cost while this trying to compute OT plan themselves.
+• Goal of the review is to understand that neural networks are universaal approximators for transport plans
+for both deterministic (one-to-one) and stochastic (one-to-many) cases
+Problem statement
+• We are trying to compute optimal transport plans with weaaker formulation (Weaak OT) i.e. making
+generalizations of Strong OT by considering costs that depend on distribution not on point-to-point
+mappiings.
+• The main challenge is to avoid current limitations of Monge’s and Kantorovich’s approaches in OT.
+• This outperforms good for more flexible tasks giving more diversity to output.
+Methods
+• Approach: Maximum Reformulation of the dual OT problem. It consists of 2 main components:
+• Potential network which approximates potential function in dual OT formulation
+• Transport map network which is stochastic NN that learns transport map with one-to-many
+mapping by some noise
+• The algorithm uses SGAD (Stochastic Gradient Ascent Descent) to optimize it with the following
+steps:
+• Sampling from input distributions P and Q with noise z.
+• Updating networks alternately using gradients from the dual OT objective
+• Use Monte Carlo methods to estimate OT cost for both strong and weaak
+Results
+• The algorithm successfully recovers OT plans for synthetic examples and practical tasks such as
+unpaired image-to-image translations.
+• This methods has better result in terms of Frechet Inception Distance in comparison with models
+such as CycleGAN, DiscoGAN, MUNIT
+• It demonstrates ability to preserve input image attributes.
+Research gap
+• There are several problems:
+• Non-uniqueness of OT plans which could lead to suboptimal solutions
+• Stability and Convergence: the optimization process could be unstable especially when high gamma
+parameter is used or when we have less disperse input distribution.
+• Task-specific costs. Developing specific costs could lead to better performaance in specific domains
+such as domain adaption or image restoration.
+Introduction
+• The third article is Neural Optimal Transport with General Cost Functionals
+• Traditional OT has the limits to dynamic real word scenarios and diffiiculties with generality of functionals
+• Previous work cannot handle efficieently auxiliary information
+• Goal of the review is to understand modern technique of constructing OT mapping.
+Problem statement
+• We are trying to give theoreticaal guarantees for general cost functionals
+• The main challenge is absence of continuous methods for general cost functionals in high dimensions
+• Existing approaches suffer from limitations such as convex dual potential and cannot leverage specific
+task infoirmaation.
+Methods
+• Approach: Reformulation of the general OT problem as a saddle point optimization
+• Then it’s being solved by neural netwoorks and stochastic gradients.
+• We use also stochastic maps to continuous estimations
+• Use 2 types of cost functionals:
+• Class-guided: We use energy distance regularization to preserve class structure
+• Pair-guided: We use some supervised loss to align paired data
+• We estimate error bounds with duality gaps, which are valid even for non-convex potentials
+• NN aims to parametrize the transport map and dual potenial, trained with Monte Carlo sampling
+and adversarial objectives.
+Results
+• Class-Guided OT achieves 83% accuracy while transferring FMNIST to MNIST. Which is better than
+CycleGAN (8.9%) and discrete OT (10.7%) and also reduces FID scores (5.26 vs 26.35 on CycleGAN)
+which shows great visual quality.
+• Pair-Guided OT achieves FID 35.42 on Comic-Faces vs Pix2Pix (37.02) and Edges-to-Shoes (FID
+49.53 vs 61.55) and handles high-resolution (256x256) image translation such like CelebAMask-
+HQ(FID 21.1)
+• Error bounds holds under weaaker assumptions
+Research gap
+• Prior continuous OT methods were restricted to specific costs, exxisting errors requires convex
+potentials.
+• Scalability for example for 512x512 weren’t thoroughlly analysis. Perfomance reliees on supervised data,
+fully unsupervised scenarios remain challenging. Crafting task-specific functionals requires domain
+expertiise.

@@ -1,0 +1,52 @@
+[name] [surname] Email : [email]
+23 years old, [location] Mobile : +2 *** *** ***
+51 words about me
+I am a cheerful second-year student of a master program at [compaany]. By the age of 23, I have extensive experience
+in both scientific and industrial work. I am passionate about statistics and machine learning, including their
+theoretical and applied aspects. I love teaching mathematics at the universiity and composing songs.
+Scientific interests
+• Probability Theory, Mathematical Statistics: Bayesian Statistics, Limit Theorems
+• Extreme Value Theory: Maximum Likelihood Estimation of tails, other approaches
+• Machine Learning: Regression Analysis, Gradient Boosting
+• Deep Learning: Computer Vision, Nature Language Processing, Audio Processing
+Education
+[location] Institute of Physics and Technology [location]
+•
+Bachelor of Applied Mathematics And Computer Science; GPA: 4.38 / 5.00 Aug. 2019 – July. 2023
+[location] Institute of Physics and Technology [location]
+•
+Master of Computer Science and Computer Technology; current GPA: 4.82 / 5.00 Aug. 2023 – TBA (July. 2025)
+[location] SchooL of Data Analysis [location]
+•
+Professional education: Data analysis in applied sciences; current GPA: 5.00 / 5.00 Aug. 2023 – TBA (July. 2025)
+Scientific and teaching experience
+• Bachelor’s Thesis: Maximum likelihood estimation for tails of distributions with multivariaate parameters (10 / 10).
+• Teaching (2022 - Present) at [compaany]: Conducting seminars on probability theory, mathematical statistics, measure
+theory, and stochastic processes. My workshops are highly rated by students, with an average score of 9.87 out of 10.
+• Visiting Student Internship at [location]: 2-month internship in the Department of Computer
+Engineering, Electrical Engineering and Mathematics Scientific and Technical Department. The scientific supervisor is
+Raphael Huser. Research topic: Effective modeling of spatial extremes on large geographical domains using neural
+Bayesian estimates.
+Work experience
+[compaany]. Search engine [location]
+•
+ML-deveveloper Sep. 2024 - Present
+◦ Model Distillation and Feature Engineering: Developing lightweight production gradient-boosting models by
+distilling insights from powerful large-scale models and incorporating cutting-edge transformer-based features
+◦ Analyzing Competitor Models: Conducting side-by-side comparisons of ranking models through detailed
+statistical analysis
+[compaany]. Voice assistant ”Alice” [location]
+•
+Middle analyst-deveveloper Nov. 2022 - Nov. 2023
+◦ Crowdsourcing Data: Collecting and annotating data for the AI components of ”Alice”
+◦ Developing Metrics: Creating performa performance metrics for ASR (Automatic Speech Recognition), BIO (Biometric
+Identification), and SPOTTER AI components
+◦ Presenting the ”Denormalizer” Metric: Video on YouTube
+[compaany]. Route Q [location]
+•
+Intern analyst-deveveloper Jul. 2022 - Nov. 2022
+◦ Analyzing Financials: Forecasting profiits and computing resource costs
+◦ Solver Optimization: Route analysis and heuristic development to enhance the model
+◦ Proof of Concepts: Coordinating with contractors and executing a test launch of the product
+Programming Skills
+• Languages: Python, C++, SQL Frameworks: Pandas, NumPy, Torch, Sklearn, CatBoost

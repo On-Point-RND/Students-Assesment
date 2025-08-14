@@ -1,0 +1,155 @@
+Scalable Cross-
+[name]
+April, 2025 Entropy Loss for
+Sequential
+Recommendations
+with Large Item
+Catalogs
+[name]
+[compaany], Research Scientist
+Introduction/Problem
+Cross-Entropy in Sequential RecSys
+- Sequential RecSys – use order of user-item interactions to predict next item
+in sequence
+- Similarities with NLP → NLP-inspired architectures in RecSys with CE as loss
+Problem:
+- Adaptation is limited: # of catalogue items can be >> LM vocabulary size
+For i-th item in sequence:
+?
+?
+2
+Introduction/Problem
+Transformeer-based recommender
+z – i-th user interaction in the sequence
+i
+l – length of sequence
+y – catalog embedding
+j
+C = |𝐼| – catalog size
+3
+Introduction/Problem
+CE and GPU memory consumption
+Impaact of different components on peak GPU memory when training SASRec with CE loss
+4
+…
+sequence #1
+… 1M items
+sequence #2
+in catalog
+…
+sequence #n
+… …
+Introduction/Problem
+Extensive memory requirements
+each sequence of 200 items
+batch of 64
+sequences
+-
+Requires more than 100GB
+- Some applications have billions of items in catalogs
+–
+- Current sampling solutions: BCE, gBCE, CE insteaad of CE
+5
+Current solutions
+● Binary Cross-Entropy (ВСЕ+):
+User interacts with item i ∈ 𝐼;
+{logiit } |𝐼 | – scores by the model;
++
+i 1
++ – positive sample;
+𝐼 − = {j −, ..., j −} – k sampled negatives
+𝑘 1 𝑘
+● Generalized Binary Cross-Entropy (gВСЕ)1:
+mitigate overconfidence
+● Sampled Cross-Entropy (CE–)2:
+[1] A. Petrov and C. Macdonald. 2023. gSASRec: Reducing Overconfidence in Sequential Recommendaion Trained with Negative Sampling
+6
+[2] A. Klenitskiy and A. Vasilev. 2023. Turning Dross Into Gold Loss: is BERT4Rec really better than SASRec?
+Full Cross-entropy calculation
+S hd hd |𝐼| S |𝐼|
+✖ ✖ ✖
+YT
+X logits
+X – matrix of sequences embeddings (states) in batch
+S = batch_size · seq_len – # of states in batch
+hd – hidden dimension
+Y – matrix of catalog item embeddings
+|𝐼| = С – # of items in catalog, can be >> 1M in RecSys
+We make prediction for i-th item in sequence, z – ground truth item, then:
+i+1
+7
+Full Cross-entropy calculation
+S hd hd |𝐼| S |𝐼|
+✖ ✖ ✖
+YT i-th
+1 2 3 4
+X logits
+X – matrix of sequences embeddings (states) in batch
+S = batch_size · seq_len – # of states in batch
+hd – hidden dimension
+Y – matrix of catalog item embeddings
+|𝐼| = С – # of items in catalog, can be >> 1M in RecSys
+We make prediction for i-th item in sequence, z – ground truth item, then:
+i+1
+8
+Methodology
+- Evaluating performaance on multiple datasets with different
+structures and sizes of catalogs:
+Food Art E-com Soc. Net. Soc. Net.
+- Temporal data split
+9
+Results: Accuracy-Memory
+BeerAdvocate Behance Kindle Store Yelp Gowalla
+(a)-(e) Pareto front curves with respect to NDCG@10 for a given memory budget.
+(f)-(j) Same points on the NDCG@10 vs. Training time axes, the size of the point corresponds to the Memory value
+from the correspondiing (a)-(e) plots.
+10
+Results: Accuracy-Memory-Time
+BeerAdvocate Behance Kindle Store Yelp Gowalla
+(a)-(e) Pareto front curves with respect to NDCG@10 for a given memory budget.
+(f)-(j) Same points on the NDCG@10 vs. Training time axes, the size of the point corresponds to the Memory value
+from the correspondiing (a)-(e) plots.
+11
+Results: Accuracy-Memory-Time
+BeerAdvocate Behance Kindle Store Yelp Gowalla
+(a)-(e) Pareto front curves with respect to NDCG@10 for a given memory budget.
+(f)-(j) Same points on the NDCG@10 vs. Training time axes, the size of the point corresponds to the Memory value
+from the correspondiing (a)-(e) plots.
+12
+Results – Leave-last-out splitting
+FEARec1 – hybrid attention model that uses both time- and frequency-domain info
+CBiT2, DuoRec3, CL4Rec4 – contrastive approaches
+SASRec-RECE5 – another approach of scaling CE
+[1] X. Du, H. Yuan, P. Zhao, F. Zhuang, G. Liu, and Y. Liu. 2023. Frequuency Enhanced Hybrid Attention Network for Sequential Recommendaion
+[2] H. Du, H. Shi, P. Zhao, D. Wang, V. S. Sheng, Y. Liu, G. Liu, and L. Zhao. 2022. Contrastiive Learning with Bidirectional Transformeers for Sequential Recommendaion
+[3] Ruihong Qiu, Zi Huang, Hongzhi Yin, and Zijian Wang. 2022. Contrastiive Learning for Repreentation Degeneration Problem in Sequential Recommendaion
+[4] Xu Xie, Fei Sun, Zhaoyang Liu, Shiwen Wu, Jinyang Gao, Jiandong Zhang, Bolin Ding, and Bin Cui. 2022. Contrastiive Learning for Sequential Recommendaion
+13
+[5] D. Gusak, G. Mezentsev, I. Oseledets, E. Frolov. 2024. RECE: Reduced Cross-Entropy Loss for Large-Catalogue Sequenrial Recommenders
+https://www.kaggle.com/datasets/alexxl/zvuk-dataset/data
+14
+Results – Production metrics
+15
+Summary
+Smaller intermediat matrix + calculation of reduced CE → decrase in
+●
+GPU memory
+SCE improves efficiency compaared to random or less selective negative
+●
+sampling methods
+SCE demonstrates significant (in terms of metrics and memory) scalability
+●
+Future Plans
+Study applicability of SCE to other research areas, for example, LLLMs
+●
+How to better select bucket centers?
+16
+Thank you!
+Reach out to me:
+[name]
+[name]
+@solisiderae
+Paper:
+https://dl.acm.org/doi/10.1145/3640457.3688140
+https://github.com/AIRI-Institute/Scalable-SASRec
+17

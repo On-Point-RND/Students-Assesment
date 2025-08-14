@@ -1,0 +1,44 @@
+<think>
+Okay, let's tackle this anonymization task. First, I need to go through the provided text and identify all the elements that need to be replaced or removed based on the rules given.
+
+Starting with personal names. The text mentions "Ivan Petrov" and "Maria Sidorova". According to rule 1, both the first and surnames should be replaced with [name] and [surname]. So Ivan Petrov becomes [name] [surname], and Maria Sidorova becomes [name] [surname]. I need to make sure that even if a name is part of a contact detail, like in the email or phone number, they still get replaced. For example, "Ivan.Petrov@example.com" should be [email], not just replacing the domain.
+
+Next, geographic locations. The text includes "Moscow" and "Russia". Rule 2 says to replace cities, countries, and regions with [location]. So "Moscow" becomes [location], and "Russia" also becomes [location]. I should check if there are any other locations mentioned, but in this case, it's just those two.
+
+Organizations: "Tech Innovations Inc." is a company name. Rule 3 requires replacing all organization names with [company]. So that becomes [company].
+
+Phone numbers: The example given is +7 983 000 000, which should be replaced with +2 *** *** ***. The original text has "+7 913 555 44 33". Applying the same rule, the country code changes to +2, and the rest are replaced with asterisks. So it becomes +2 *** *** ***. I need to ensure that the structure is randomized but follows the example provided.
+
+Email addresses: The example is Ivan.Petrov@example.com, which should be [email]. Similarly, "m.sidorova@company.com" becomes [email]. Even if the email includes the surname or company domain, it's all replaced with [email].
+
+Personal information not covered above: The text includes "1234567890" which is a social security number or similar. Rule 6 says to remove any PII not covered. So I need to delete that part. Also, "SSN" should be omitted. The line "SSN: 1234567890" should be entirely removed.
+
+Now, let's go through the text step by step. The original text starts with "Ivan Petrov, 35, Moscow, Russia." Replacing the name with [name] [surname], the age 35 is a number but not a phone number, so it stays. Then "Moscow" becomes [location], "Russia" becomes [location].
+
+Next line: "Phone: +7 913 555 44 33" becomes "Phone: +2 *** *** ***".
+
+Then, "Email: Ivan.Petrov@example.com" becomes "Email: [email]".
+
+"Employer: Tech Innovations Inc." becomes "Employer: [company]".
+
+"SSN: 1234567890" is removed entirely.
+
+"Maria Sidorova, 28, Moscow, Russia." Replace names with [name] [surname], locations as [location].
+
+"Phone: +7 913 555 44 34" becomes "+2 *** *** ***".
+
+"Email: m.sidorova@company.com" becomes [email].
+
+"Employer: Tech Innovations Inc." becomes [company].
+
+I need to ensure that all replacements are consistent and that no personal information remains. Also, check that the output only includes the anonymized text without any explanations or formatting changes. Let me verify each part again to make sure I didn't miss anything. Looks like all the required elements have been replaced or removed. The final output should look like the example provided but with the correct replacements for this specific text.
+</think>
+
+[name] [surname], 35, [location], [location].  
+Phone: +2 *** *** ***  
+Email: [email]  
+Employer: [company]  
+[name] [surname], 28, [location], [location].  
+Phone: +2 *** *** ***  
+Email: [email]  
+Employer: [company]

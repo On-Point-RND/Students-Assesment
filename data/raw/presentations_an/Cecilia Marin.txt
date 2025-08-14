@@ -1,0 +1,118 @@
+Rolling Diffusion for Continuous
+Gesture Prediction
+[name]
+Master Student, [compaany],
+[location]
+Introduction
+• Co-speech gesture generation is the automatic
+audio motions
+creation of natural body movements, especially
+hand and arm gestures, that align with and
+enhance spoken language in virtual agents or
+robots.
+• It’s important because gestures play a key role in
+human communication—they emphasize speech,
+convey emotions, and aid understanding. By
+adding natural gestures to virtual agents or
+robots, interactions become more engaging,
+lifelike, and effective.
+Diffusion models recaap
+This type of generative model operates by progressively adding noise to the original images with a fixed schedule, transformiing them into
+Gaussian noise. The model is then trained to reverse this process, learning to denoise the images step-by-step until they are restored to
+thei original form. This denoising process allows the model to generate high-quality samples from pure noise, effectively "reconstructing"
+new images based on learned patterns. For controlled generation, additional conditions or guidance can be applied to direct the denoising
+process toward desired outcomes. This is achieved by conditioning the model on specific attributes, for example text like “generate cute
+little dog”. [9, 13]
+Diffusion models for
+speech-to-motion task
+Input modality
+● Sequential motion data
+Motion Data Representation
+● 3D Joint Positions & Rotations (BVH format)
+Conditions
+● Sound, Text, Style & Other Controls
+Note that a fixed number of frames are passed to the model, so the question arises of how to
+create long videos of indefinite length.
+Problem statement
+● What exactlly are we solving?
+We are solving the problem of generating realistic, temporally coherent co-speech gestures in real time. Traditional
+diffusion models are slow and not suited for streaming applications.
+● Current solutions
+○ Stitch overlapping clips together using some post processing [4, 5, 11, 14]
+○ Use previous segment frames as additional condition [5]
+○ Double Take technique [8]
+○ Use outpaintiing strategies [10]
+● Drawbacks of current solutions
+○ Transition Challenges: Limited Overlap Between Segments
+○ Efficiency Concerns: Repeated Frame Generation & Resouce Demand
+○ Alignment Issues: Imperfect Mechanical Transformations like interpolation
+○ Not Streamable: These approaches require full or partial future context, making them incompatible with real-time
+or autoregressive streaming generation
+Approach
+This work introduces a framework that enables efficient,
+continuous gesture synthesis by improving sampling speed and
+maintaining gesture quality, making real-time applications like
+virtual avatars and embodied AI more practical. This framework
+could be applied to any diffusion-based approach.
+How it works?
+● We follow an approach similar to the Rolling Diffusion
+model [3].
+● At each step, we maintain a rolling window of frames
+undergoing progressive noising.
+● Once the first frame in the window is fully denoiseed, it is
+finalized, a new frame is sampled from Gaussian noise,
+and the window is shifted forward by one frame.
+● As additional context, we prepend a few fully denoiseed
+frames at the begiinning of the rolling window.
+Experimental setup
+Quantitative analysis
+● Datasets: ZEGGS [1] and BEAAT [2]
+● Baselines: DiffStyleGesture [5], Taming [4], PersonaGestor [6]
+● Metrics: we utilize the metrics introduced by Ng et al. [7]
+○ FD (Frechet Distance) – Measures visual realism (lower is better)
+○ Diversity (Static & Kinetic) – Capture variation in appearance (static) and motion (kinetic)
+across samples
+Qualitative analysis
+● Dataset: ZEGGS
+● Baseline: DiffStyleGesture
+● User Study description: 22 professional assessors compared 60 pairs of 15-second videos, rating
+them on style consistency, naturalness, synchronization, and technical artifacts. Ratings ranged
+from –2 (strong baseline preference) to +2 (strong preference for our model).
+Results
+Figure 1. “Ours” means DSG rolling modification, “Theiirs”
+means original DSG. In total 48.4% of participants preferred
+our model while 36.3% preferred original DSG.
+Research gap
+At present, the rolling window size is tied to the total number of diffusion steps, limiting
+the model's flexibility and adaptability in different deployment scenarios.
+Another significant limitation is the denoising time required to generate each frame.
+Since each frame undergoes an iterative denoising process, this introduces a
+non-negligible delay, which can disrupt smooth real-time generation, especially in
+interactive settinings like virtual avatars or live gesture synthesis.
+This issue is addressed in the full paper, where we propose acceleration techniques
+and step reduction to mitigate latency.
+Bibliography
+1. [name], [name], [name], and [name]. Zeroeggs: Zero-shot example-based gesture generation from speech. In Computer
+Graphics Forum, pages 206–216. Wiley Online Library, 2023.
+2. [name], [name], [name], [name], [name], [name], [name], and [name]. Beat: A large-scale semantic and emotional multi-modal dataset for
+conversaional gestures synthesis. In European conference on computer vision, pages 612–630. Springer, 2022.
+3. [name], [name], [name], and [name]. Rolling diffusion models. arXiv preprint arXiv:2402.09470, 2024
+4. [name], [name], [name], [name], and [name]. Taming diffusion models for audio-driven co-speech gesture generation. In Proceedinings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition, pages 10544–10553, 2023.
+5. [name], [name], [name], [name], [name], [name], and [name]. Diffusestylegesture: Stylized audio-driven co-speech gesture
+generation with diffusion models. In Proceedinings of the Thirty-Second International Joint Conference on Artificial Intelligence, pages 5860–5868, 2023.
+6. [name], [name], [name], [name], [name], [name], [name], and [name]. Speech-driven personalized gesture synthetics:
+Harnessing automatic fuzzy feature inference. IEEE Transactions on Visualization and Computer Graphics, 2024.
+7. [name], [name], [name], [name], [name], [name], and [name]. From audio to photoreal embodiment: Synthesizing humans
+in conversations. In Proceedinings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),
+pages 1144–1154, 2024.
+8. [name], [name], [name], and [name]. Listen, denoise, action! audio-driven motion synthesis with diffusion models. ACM Trans. Graph., 42
+(4), 2023.
+9. [name], [name], [name], and [name]. Denoising diffusion probabilistic models. Advances in neural information processing systems, 33:6840–6851, 2020.
+10. [name], [name], [name], [name], [name], [name], and [name]. Diffsheg: A diffusion-based approach for real-time speech-driven holistic
+3d expression and gesture generation. In Proceedinings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7352– 7361, 2024.
+11. [name], [name], [name], [name], and [name]. Emage: Towards unified holistic co-speech gesture generation via expressive masked audio gesture modeling. In Proceedinings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),
+pages 1144–1154, 2024.
+12. [name], [name]. (2022). Classifier-Free Diffusion Guidance.
+Appendix
+pseudocodes

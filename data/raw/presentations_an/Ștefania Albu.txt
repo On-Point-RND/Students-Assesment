@@ -1,0 +1,146 @@
+Slide 1
+----------------------------------------
+[name]
+AI Systems Speciialist,
+[compaany]
+
+Application of Graph Neural Networks (GNNs) 
+for predicting properties of crystalliine materials 
+
+Slide 2
+----------------------------------------
+Introduction
+
+Application of Graph Neural Networks (GNNs) for predicting properties of crystalliine materials
+
+ Why is it important?
+Traditional methods (DFT, experiments) are expensive and time-consuming
+There is a growing demand for novel materials in energy, electronics, and catalysis
+GNNs can acceelerate materials discovery by 10–100×
+Background
+Crystals can be naturally represented as graphs: atoms → nodes, bonds → edges
+Models like CGCNN automatically learn structure–property relationships
+Common data sources include Materials Project, ICSD, OQMD
+
+Goal of the review
+Explain how GNNs are applied to crystal analysis
+Review model architectures, applications, and key results
+Highlight current limitations and future development directions
+
+Slide 3
+----------------------------------------
+Problem statement
+
+What exactly are we solving?
+We aim to predict the formation energy and other target properties of crystalliine materials based on their atomic structure —without relying on expensive quantum simulations.
+
+Challenges
+
+Complexity of materials: High-dimensional, multi-element systems
+Interpretability: Hard to understand which atomic features influence predictions
+Accuracy: high forecast accuracy is required
+
+Scope of the work
+
+Focus on crystal structures from public databases (e.g., Materials Project)
+Uses GNNs like CGCNN with atomic and geometric features
+Solves regression tasks (e.g., energy prediction)
+Evaluates performaance on real-world datasets and discusses deployment prospects
+
+Slide 4
+----------------------------------------
+Methods
+
+Approaach: 
+Machine Learning Techniques Used
+Crystal Graph Convolutional Neural Network (CGCNN)
+Based on Graph Neural Networks (GNNs) with custom edge and node features
+Implemented using PyTorch Geometric
+
+Why These Methods?
+
+Materials are naturally graphs: atoms = nodes, bonds = edges
+GNNs capture local atomic environments effectively
+CGCNN is state-of-the-art for crystal property prediction
+
+How It Works 
+The model learns to predict properties of materials by passing messages between atoms in a crystal graph, using bond distances and atom types as features.  
+Data & PreprocessingInput: 
+.cif crystal structure files
+Extracted:
+Atom features (from atom_init.json, e.g., electronegativity, group)
+Bond features (41-dimensional vectors encoded in terms of radial basis functions (RBF) of the distances between atoms).
+Constructed crystal graphs using neighbor indices (nbr_fea_idx)
+Split dataset into train / validation / test sets
+Normalized target property values
+
+Slide 5
+----------------------------------------
+Results
+
+Key Findings
+CGCNN succeessfully learned from atomic and bond features
+Achieved high accuracy in predicting material properties
+Model generalized well to unseen crystal structures
+Performance improved with proper normalization and neighbor count tuning
+
+Metrics Used
+Mean Absolute Error (MAE): Measures average prediction error (for Formation Energy - eV/atom)
+R² Score: Indicates goodness of fit
+MAE is preferred for regression tasks like energy or band gap prediction
+R² provides intuitive sense of overall model quality
+
+
+Slide 6
+----------------------------------------
+Results
+
+At this stage, several key steps have alrreaady been taken:
+•	Identified GNNs as a promising research direction,
+•	Studied various existing neural network architectures in the context of predicting formation energy,
+•	Created a GitHub project for ongoing development.
+
+The LLM-assistant has been created to support users. It plays a crucial role in helping users quickly find guidance on solving their specific research problems using the project. This part of the project will also be developed and supplemented. 
+ 
+(In Telegramm:   @[email] or QR-code)
+
+
+Slide 7
+----------------------------------------
+Research gap
+
+ What’s Missing?
+Limited to crystalliine materials with known .cif structures
+Does not incorporate temperature, pressure, or defects
+There are still few solved practical projects
+
+Unresolved Challenges
+Transferability: How well does the model generalize to other material classes?
+Interpretability: Hard to explain why the model predicts a given property
+Data quality: Ouutliers and inconsistencies in material databases
+
+Why It Matters
+Addressing these gaps can improve real-wrld creating of new materials
+Better interpretability = more trust from domain scientists
+More general models could assist in designing materials from scratch
+
+Future Opportunities
+Integrating defect-aware and different type of crystal lattice or amorphous structure handling
+Larger and more diverse datasets
+Combining GNNs with DFT calculations or physics-informe-d models
+Exploring attention mechanisms for explainability
+
+
+
+Slide 8
+----------------------------------------
+Tian Xie, Jeffrey C. Grossman Crystal Graph Convolutional Neural Networks for an Accuraate and Interpretable Prediction of Material Properties Phys. Rev. Lett., 2018
+K. Sidnov, D. Konov, E. Smiirnova, A. Ponomareva, M. Belov Machine Learning-Based Prediction of Elastic Properties Using Reduced Datasets of Accuraate Calculations Results, Metals, 2024
+
+Bibliography
+
+
+
+Slide 9
+----------------------------------------
+Thank you very much for your time and attention!

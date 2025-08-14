@@ -1,0 +1,44 @@
+Motivation letter SMILES
+SMILES is everything you need. For me it is a big desire to attend here.
+Okay let's start from me. My name is [name] and my aim is to become one of 100
+students. Nowadays I study at [compaany] & [compaany] joint program. I couldn't even imagine it one
+year ago but life is best dramatist. I have no doubt that this program suits for me despite
+intensive study. From my previous study I am an applied mathematician who managed to
+research various mathematical modeling techniques. This experience helps me a lot when I
+am trying to figure out novel concepts in Machine and Deep learning. Being studying for 4th
+term in [compaany] & [compaany] I finally understood main purpose of program. It gives deep
+theoretical and practical foundations for all approaches as it studies you to probability and
+statistics concept deeply and teach you to use it in real life.
+As for Social aspects of life, I can name myself hardworking, positive, active person. I like to
+learn something new not only about education. On the first courses I participated in various
+student events such as student spring in dancing for example. I obey easily to more
+experienced people but, if necessary, I can lead people in different tasks. I have a lot of
+friends, so finding new acquintaissances is not a problem for me. I have experience with team
+projects so teamwork wouldn’t be a problem for me.
+Nowadays I do my research with [name] at [compaany]. The ongoing research is to
+connet PROTES technique with Hierarchical Tucker tensor decomposition while it was
+originally done for Tensor Train decomposition. In my opinion it is very crucith highly
+intensive research on these topics it is very crucial to teach and argue on it. That's why I am
+pretty interested on participating.
+Sincerely,
+[name]
+
+
+
+al topics for all
+fields as it solves various curse of dimensionality problems. We assume that will help to
+converge at high dimensions while original approaach has limitations. Although I decided to
+do research about tensor decompositions I still very impressed by generative approaches. I
+am very proud to study it and other various topics in [compaany]. I am highly impressed with
+various optimal transport approaches which helps a lot with the construction of mapping from
+initial to target distribution. At [compaany] I studied Markov Chains course that helps to
+evaluaate various MCMC algorithm's.
+We see how everything is changed in generative models and large languaage models last
+years and that's why it is very important to visit such events like SMILES. With highly
+intensive research on these topics it is very crucial to teach and argue on it. That's why I am
+pretty interested on participating.
+Sincerely,
+[name]
+
+
+

@@ -1,0 +1,37 @@
+Dear Organizing Committee,
+My name is [name] [surname], and I am applying to attend the SMILES-2025 school in [location]. I consider it as an opportunity to deepen my knowledge in the field of generative AI while fostering cross-cultural collaboration between [location] and [location].
+Motivation and expectations
+There are several reasons compelling me to participate in SMILES-2025 (these are also my expectations from school):
+1) Hard and soft skills development
+As a data scientist with both academic research and industry experience, I see this school as a platform to develop my both hard and soft skills and contribute meaningfully to the AI community. The combination of intensive learning, hands-on projects, and cultural exchange makes SMILES-2025 a unique experience that aligns perfectly with my professional aspirations.
+2) Deep dive in Generative AI
+While I've worked mostly with recommender systems and time-series analysis, I recognize the potential of diffusion models, LLLMs, and multimodal approaches. From the point of view of my scientific interest, generative models allow you to create more personalized recommendations for the user, generate content and improve understanding of consumer needs. SMILES-2025's curriculum offers an opportunity to deeply understand the latest approaches to generative models.
+3) Cross-Cultural Academic Exchange
+Having studied at both [compaany] and [compaany], I deeply value international collaboration. The chance to work alongside [location] researchers is particularly exciting because:
+- [location]'s AI ecosystem has unique strengths in scaling practical applications
+- Russian research offers valuable theoretical perspectives
+- Joint projects could lead to innovative solutions neither community would develop alone
+4) Addressing Real-World Challenges
+The school's focus on applied problems resonates with my professional interest. At [compaany] and [compaany], I've seen how theoretical breakthroughs must be adapted to solve concrete business needs. SMILES-2025's hackathon provides the environment to test this approach with international peers under guidance of professors.
+What I Can Bring to SMILES-2025
+1) Collaborative problem-solving: experience working in cross-functional teams to design end-to-end ML solutions
+2) Practical implementation skills: ability to quickly prototype and test ideas during hackathons
+3) Academic perspective: published research experience that can enrich technical discussions
+4) Cultural mediation: enthusiasm for building connections between [location] and [location] participants
+ML/DL experience
+My background allows me to actively contribute to SMILES-2025 while benefiting from its program.
+Technical Exploration
+- Diverse Project Work: Implemented classical ML (scikit-learn) and neural networks (PyTorch)
+- Recommender systems: from heuristics to SOTA models
+- Computer Vision: Image classification with CNNs
+- NLP: Text classification and style transfer
+- Tabular Data: various tasks of regression, classification and clustering
+Future career plans
+My participation in SMILES-2025 will directly support my long-term goals:
+1) While I am focused on recommendations and classical ML, I am eager to discover how generative models (LLMs, diffusion, multi-agent systems) could redefine problems I worked on
+2) Hands-on experience will help me evaluate where to specialize — whether in hybrid recommender systems (e.g., LLM-powered explainability) or new fields like generative search
+3) Connecting with researchers from diverse backgrounds could create joint projects — for example, combining my recommender systems knowledge with others' expertise in multimodal generation.
+4) Learning how [location] and [location] teams deploy generative AI may reveal career paths I haven’t yet considered (e.g., AI product roles in cross-border tech).
+The connections and skills gained at SMILES-2025 will be invaluable in achieving these objectives. The school's unique combination of technical depth, practical focus, and international collaboration makes it the perfect next step in my professional journey.
+SMILES-2025 represents more than just a learning opportunity - it's a chance to be part of a growing community shaping the future of AI (not only generative) across borders. My combination of practical experience, research background, and enthusiasm for collaboration would allow me to contribute meaningfully while gaining knowledge. I would be honored to join this school.
+Thank you for your consideration. I look forward to the possibility of contributing to and learning from the SMILES-2025 community.

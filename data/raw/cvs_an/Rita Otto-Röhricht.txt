@@ -1,0 +1,144 @@
+[name] [surname]
+Researcher of DL / NLP / CV
+Stay in touch with me:
+● [email]
+● https://linkedin.com/in/tech
+Computer Vision / Deep Learning Embedded Systems & Embedded UI
+(DL) Vision
+● Embedded Systems: Experience working with embedded devices
+and low-level integration.
+● 3D Modeling &Reconstruction: 3D modeling
+● UI Frameworks: Qt for embedded systems and UI development.
+(blendshapes, bones, skinning), SfM, SLAM,
+● Languages: Proficient in C and C++ for low-level system and
+embedded development.
+● Video Processing: Segmentation, tracking,
+pose and lighting determination.
+● Generative Models: Stable Diffusion, ViT, CLIP, Technical Proficiency
+SAM 2 for image generation and
+manipulation.
+● Linux & macOS: Advanced knowledge of the Linux termiinal, vim,
+Apple DriverKit for macOS.
+● Libraries & Tools: OpenCV, PyTorch
+Apple DriverKit for macOS.
+(torchvision), experience with embedded
+devices.
+Audio Deep Learning
+Leadership & Management
+● Team Leadership: Leading 10+ ML engineers, cross-functional
+team coordination.
+● Product Management: Managing roadmaps, backlog
+prioritization, and delivery cycles.
+● Latent Space Generation: nanoGPT,
+StableAudio for audio synthesis.
+● Audio Processing: torchaudio for
+speech-to-text, text-to-speech, spectrogram
+analysis.
+● Diffusion Models for Sound: DDPM, Latent
+Diffusion, CLIP/CLAP, DiT. Research & Publications
+● Quantization Techniques: VQ, RVQ for
+encoding continuous sound sequences. ● Research Sources: ArXiv, DeepMind/Meta AI Blog.
+● GitHub Repositories: Contributed to projects like Awesome-LLM.
+Machine Learning / NLP Expertise
+● LLMs: Fine-tuning GPT (3.5, 4), BERT, T5,
+LLaMA 2/3, and Transformeer models. Data Engineering / ML Ops
+● NLP Techniques: Classic methods (n-grams,
+tf-idf, skip-grams), dialogue systems, intent
+recognition, sentiment analysis.
+● Production Integration: Deploying ML models using Python,
+FastAPI, Docker.
+● Prompt Engineering & RAG:
+● Technical Stack: Python, SQL, Bash, JS, NextJS. PyTorch,
+Zero-shot/few-shot learning
+● iOS Engineer / Launched and delivered from scratch two products:
+Project Manager
+at LLC Atominvest
+May 2019 — February
+2021
+Contribution:
+● Developed iPad/iOS app as an iOS Engineer with MVVM/Realm archtecture.
+● The requirements for the REST API were described by me.
+● Collaboration with designers on UI/UX, and requirements gathering.
+● Created chatbot scenarios using Miro to guide users through the interaction flow, resulting in
+a more intuitive and engaging user experience.
+iOS Engineer / Developed two mobile applications with AR and ML features, integrating neural network models, and
+Backend collaboration with CEO, and cross-functional teams to deliver high-quality products.
+Developer / ML
+Software Stack: Python / PyTorch / CoreML and Swift/UIKit/Xcode.
+● The model was converted to CoreML format by me. Also, I wrote the backend on Phalcon.
+Engineer,
+Startup on UpWork
+USA
+Sep 2018 - Apr 2019
+● iOS apps were developed with Swift / AR and ML features and integrated neural network
+models using GitHub, Xcode, TensorFlow, and CoreML.
+● Developed MVP app executes recognition of human pose based on ML models.
+● Train model on available open datasets, and convert model to CoreML models.
+● Checked three hypotheses with ARKit-based apps fetching Reference-images on demand
+● Attracted the new team member Backend developer and WooCommerce plugin developer.
+iOS Engineer / Delivered updated gifting app SwiftGift to UK/EU/USA App Store markets.
+Deliv-ery Manager at Swift
+UK
+London
+swiftgift.com,
+London
+Overcame technical and payment termiinal challenges to deliver a mobile app for multiple markets
+with different user preferences and payment methods Developed innovative strategies to
+encourage user engagement and retention in a highly competitive and constantly evolving
+industry.
+October 2016 —
+August 2018 Contribution:
+● Developed iOS app with Swift/MVVM/ReactiveSwift/URLSession/Alamofiire.
+● Conduct Daily-meetinings with Engineering team
+● Filling backlog and planning roadmap next quartal together with CEO.
+Junior iOS Engineer Develop mobile app "Afisha-Restaurants" for reservation tables in restau-rants.
+at Rambler
+April 2016 -
+September 2016
+Distribution Manager I was an assistant CTO. We made an affiliate distribution program.
+March 2015 - April
+2016
+Tizen Mobile Was developing AnywayAnyday (Airflight / Hotel booking app) applications on Tizen (C++) / iOS (ObjC)
+Developer / Product / watchOS (ObjC). What I have done:
+- Realised concurrency uploadable images from the server, custom view controllers and transitions
+between them.
+- Created custom view controllers with MVVM archtecture.
+C++/Qt 4 System Client-server application was developed that communicates with master hosts via UDP to exchange
+data received from GPS receivers (constructed NMEA parser based on ANTLR). The accuracy of
+the transmitted time data reaches 1 µs (10^-6).
+Employer: Institute of
+fiber optic systems
+and computer
+networks
+April 2011 - July
+2014
+Higher Education: Faculty: Computer science, artificial intelligence and control systems: Information
+Bauman System, Computers, complexes, systems and networks
+Moscow State
+Technical
+University
+July 2008 —June 2014
+Passed Courses:
+● Product Manager School, Skillsetter.io (Online course)
+2019 — 2021
+● How to Start Startup (Horowitz, Moskovitz), Stanford Uni-versity (Online Course)
+2018
+● An Introduction to Project Management: The Basics for Success, Stanford Uni-versity (Online Course)
+2017 — 2017
+● Venture Deals Spring 2021, Techstars (Brad Feld, Jason Mendelson) (Online Course)
+MARCH 2021 — APRIL 2021
+● Market and competitor analysis, Target audience and product positioning, Interaction with
+developers, Unit economy of a growing product (Skillsetter.io)
+JUL 2021 —OCTOBER 2021
+● Professional Scrum Product Owner I & II (Scrum.org)
+Passed Technical Courses:
+● Deep Learning.AI: ChatGPT and Large Lan-guaage Models (LLMs) (inc. Prompt Design,
+Fine-Tuning)
+2023
+● Google Cloud Skills Boost: Introduction to Generative AI / Large Lan-guaage Models
+2023
+● PyTorch: Zero to Mastery (Deep Learning, Tensors, CNN, RNNs, GAN, and etc.)
+2023
+● Machine Learning Crash Course - Google Developers
+○ (Machine Learning, Gradient Descent, Regres-sion, Classification, and etc.)
+2022 — 2023

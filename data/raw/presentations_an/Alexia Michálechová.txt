@@ -1,0 +1,146 @@
+[name] [surname]
+PhD, [location]
+[email]
++2 *** *** ***
+
+**Review of three articles on Multimodal approaches topic**
+
+**Momotenko [surname]**
+PhD, [location]
+
+**Brain Foundation Models: A Survey on Advancements in Neural Signal Processing and Brain Discovery by [surname] et al., 2025**
+
+**Introduction**
+• What is the topic? Brain foundation models (BFMs) have emerged as a transformative paradigm in computational neuroscience, offering a revolutionary framework for processing diverse neural signals across different brain related tasks.
+• Why is it important? BFMs could revolutionize neuroscience by enabling generalizable AI tools for brain data analysis, reducing reliance on task-specific models, and accelerating discoveries in brain disorders, BCIs, and cognitive research.
+• Goal of the review. To systematize recent BFM advancements, highlight their potential for neural signal processing and brain discovery, and identify open challenges.
+
+**Problem statement**
+• What exactly are we solving?
+✓ How to adapt foundation models for high-dimensional, noisy neural data.
+✓ How to leverage self-supervised learning for limited labeled datasets.
+✓ How to bridge modality gaps (e.g., EEG + fMRI).
+
+**Challenges**
+✓ Few large-scale, labeled neural datasets.
+✓ Varied signal types (temporal EEG vs. spatial fMRI).
+✓ Black-box decisions hinder clinical adoption.
+
+**Scope**
+Focuses on BFMs for neural signals (EEG, fMRI, MEG):
+✓ Architectures (transformers, CNNs).
+✓ Pretraining strategies (self-supervision, cross-modal alignment).
+✓ Applications (BCIs, disease detection).
+
+**Methods**
+**Approach:**
+Transformers: Capture long-range dependencies in EEG (handle sequntial neural data better than RNNs)
+Self-supervised learning: Pretrain without labels (Self-supervision mitigates label scarcity)
+Multimodal fusion: Align EEG with fMRI/text (how the brain integrates information)
+
+**Data & Preprocessing**
+Cleaning: Remove artifacts (e.g., muscle noise in EEG) via ICA or filtering.
+Normalization: Standardize signals across subjects.
+Splitting: Train on public datasets (e.g., UK Biobank), test on held-out cohorts.
+
+**Results**
+• Key findings:
+✓ BFMs outperform traditional ML in few-shot learning scenarios.
+✓ Cross-modal pretraining (e.g., EEG-to-fMRI) improves generalizability.
+✓ Interpretability remains a barrier for clinical use.
+
+**Metrics used:**
+Accuracy/F1-score: For classification tasks (e.g., disease diagnosis).
+Pearson correlation: For regression (e.g., predicting cognitive states).
+AUROC: Critical for clinical applications (e.g., epilepsy detection).
+
+**Research gap**
+What’s Missing?
+✓ Most models ignore temporal evolution of brain activity.
+
+**Unresolved Challenges**
+✓ Real-time processing: BFMs are often computationally heavy for BCIs.
+✓ Cross-subject generalization: Models fail on unseen patient groups.
+
+**Future Opportunities**
+✓ Build multimodal BFMs integrating EEG, fMRI, and genetics.
+✓ Develop lightweight BFMs for edge devices (e.g., wearable BCIs).
+✓ Create open-brain benchmarks to foster reproducibility.
+
+**NeuroBind: Towards Unified Multimodal Representations for Neural Signals by [surname] et al., 2023**
+
+**Introduction**
+**Topic**
+Developing unified multimodal representations for neural signals (e.g., EEG, fMRI, MEG) using foundation models to enable cross-modal analysis and downstream applications.
+**Why Important?**
+Neural data is complex and fragmented across modalities. Current models are modality-specific, limiting interoperability.
+Unified representations could revolutionize brain-computer interfaces (BCIs) and cross-modal research (e.g., mapping EEG to fMRI).
+**Goal**
+Propose NeuroBind, a framework to learn universal embeddings for neural signals, enabling: Cross-modal retrieval and Zero-shot transfer to new tasks/modalities.
+
+**Problem statement**
+**What Problem Is Solved?**
+✓ Modality gap: Incompatible representations between EEG/fMRI/MEG.
+✓ Data scarcity: Limited labeled data for each modality.
+✓ Task-specific silos: Avoid training separate models per task/modality.
+
+**Challenges**
+✓ Signals differ in dimensionality (e.g., 1D EEG vs. 3D fMRI).
+✓ Artifacts (e.g., head movements) vary across modalities.
+✓ Aligning high-frequency EEG with slow fMRI.
+
+**Scope**
+✓ Unsupervised/semi-supervised settings.
+✓ Three modalities: EEG, fMRI, MEG (not invasive signals like ECoG).
+
+**Methods**
+**Approach:**
+Multimodal transformers: Process EEG/fMRI/MEG via shared attention mechanisms (handle variable-length sequences (EEG) and grid data (fMRI))
+Contrastive learning: Align embeddings across modalities (e.g., EEG-MEG pairs)
+Masked autoencoding: Pretrain on unlabeled data (reconstruct masked signal segments).
+
+**How It Works (Simply)**
+NeuroBind pretrains on raw neural signals to map them into a shared latent space, where similar brain states cluster together across modalities.
+
+**Data & Preprocessing**
+**Cleaning:**
+EEG: Bandpass filtering (0.5–40 Hz), artifact removal (ICA).
+fMRI: Motion correction, ROI time-series extraction.
+**Visual data:**
+Images: Resizing, normalization (ImageNet stats).
+Videos: Optical flow extraction for temporal alignment.
+**Splitting:** Subject-independent splits to test generalization.
+
+**Results**
+**Key Findings**
+✓ Multimodal training (EEG+images) improves decoding accuracy by ~15% vs. unimodal baselines.
+✓ Attention maps reveal how specific brain regions correlate with image features (e.g., faces → fusiform gyrus).
+✓ Zero-shot transfer: Models pretrained on fMRI generalize to EEG with fine-tuning.
+
+**Metrics Used**
+Classification accuracy: Match brain data to seen/unseen images.
+Reconstruction quality: SSIIM, PSNR for image recovery from neural signals.
+Retrieval rank: Mean reciprocal rank (MRR) for cross-modal search.
+
+**Research gap**
+What’s Missing?
+✓ Most models are offline (high latency).
+✓ Potential misuse for "mind-reading" privacy violations.
+
+**Unresolved Challenges**
+✓ Models often fail on new individuals.
+✓ Decoding continuous video (not just static images).
+
+**Why They Matter?**
+SSIM/PSNR quantify clinical usability of reconstructions (e.g., for locked-in patients).
+MRR evaluates real-world BCI usability.
+
+**Future Opportunities**
+✓ Integration with LLMs: Translate neural activity to language (e.g., "Describe what you’re seeing").
+✓ Adaptive models: Personalize decoders via few-shot learning.
+✓ Public benchmarks: Standardized neural-visual datasets (like ImageNet for BCIs).
+
+**Bibliography**
+1. Palazzo, S., Spampinato, C., Kavasidis, I., Giordano, D., Schmidt, J., & Shah, M. (2020). Decoding brain representations by multimodal learning of neural activity and visual features. IEEE Transactions on Pattern Analysis and Machine Intelligence, 43(11), 3833-3849.
+2. Yang, F., Feng, C., Wang, D., Wang, T., Zeng, Z., Xu, Z., ... & Wong, A. (2024). Neurobind: Towards unified multimodal representations for neural signals. arXiv preprint arXiv:2407.14020.
+3. Zhou, X., Liu, C., Chen, Z., Wang, K., Ding, Y., Jia, Z., & Wen, Q. (2025). Brain Foundation Models: A Survey on Advancements in Neural Signal Processing and Brain Discovery. arXiv preprint arXiv:2503.00580.

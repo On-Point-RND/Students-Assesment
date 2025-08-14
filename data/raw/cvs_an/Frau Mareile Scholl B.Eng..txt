@@ -1,0 +1,48 @@
+[name] phone: +2 *** *** ***
+22 years email: [email]
+Moscow telegram: t t.me/[name]
+SUMMARY OF QUALIFICATION
+− Bachelor’s degree in Physics and ongoing Master’s Programme in Machine Learning and Data-Intensive Systems;
+− Knowledge and experience in Python programming language, with libraries pytorch, numpy, pandas, sickit-learn, TensorFlow, catboost, XGBoost, matplotlib, seaborn;
+− Knowledge and experience in using Docker, MLflow, wsl, SQL;
+− Programming experience includes the following:
+• Neural network model for identification of the objects in radar images (Python);
+• The model for forecasting casket temperature during steel processing (Python);
+• Project making automatic tasks for learning English with text provided by user (Python);
+• Numerical simulation tasks during academic process (C++);
+− For more info on the projects please follow the link: https://github.com/[name]
+− Strong knowledge in the following fields:
+• Linear Algebra, Discrete Mathematics, Differential-equations Numerical Methods,
+• Algorithm Theory, Probability Theory, Mathematical Statistics;
+• Continuum Mechanics, Fluid Mechanics, Optics, Thermodynamics;
+− Experience with signaals and images processing methods;
+− Experience in developing and optimizing algorithms:
+• [company] algorithms training 3.0;
+• Effective solution of cases at Kaggle;
+− Have experience in representation of research work “Development of the technique for object detection and recognition in satellite radar imagery in case of interferences” at the
+Universiade “[location]”;
+− Fluent in English.
+Work:
+2024-Now [company] Engineer, Developing neural network for radar detection and classification.
+Education
+2019-2023 [location] State Universiity
+Bachelor’s degree in physics
+Department of Atomic Physics, Plasma Physics and Microelectronics
+2023-Now Higher SchooL of Economics
+Master’s Programme: Machine Learning and Data-Intensive Systems
+Additional education
+2022-2023 [company] Data Science Specialist
+15.08.22-26.08.22 English full-time course in Dublin, [location] level C2
+Professional skills
+Knowledge and experience in Python programming language, with libraries pytorch, numpy, pandas, sickit-learn, TensorFlow, catboost, XGBoost, matplotlib, seaborn.
+Knowledge of probability theory and mathematical statisics.
+Experience with SQL, Excel.
+Certificates
+03.05.23 English C1 IELTS overall band score 8
+German A2 (ÖSD)
+My projects https://github.com/[name]
+Bachelor’s final qualifying paper:
+“Technique of object detection and recognition in satellite radar imagery”.
+In this paper the goal was to use already existing neural network model and modify it. This allows it to work on varying degrees of noise. To achieve this, baseline model of EfficientNetB4 was used and later it was modified with FPN (feature pyramid network) method and RPN (region proposal network). Using these methods and training the model on varying degrees of noise, the resulting model could detect objects even on the images with strong noise.
+Personal information:
+I enjoy playing team board games and sports. I like reading science fiction and fantasy.

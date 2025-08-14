@@ -1,0 +1,116 @@
+Transformeers for Tabular Data: potential,
+Challenges, and Niche Solutions
+[name]
+Software Deveelopeer, [location]
+What is the topic?
+This presentation reviews recent research (2021-2023) from top-tier conferences (NeurIPS, ICML) on applying
+Deep Learning (DL), particularly Transformeer models, to tabular data.
+Why is it important?
+• Tabular data is ubiquiitous across industries (finance, healthcare, logs, etc.)
+• While tree-based models (like XGBoost, LightGBM) traditionally dominate, DL has shown immense
+success in other domains (vision, NLP). There's significant interest in translating this success to tables.
+Goaal of the review:
+• To understand the current state-of-the-art regarding Transformeer-based models for tabular data.
+• To compaare their performaance and applicability against traditional methods.
+• To identiify key challenges and potential future directions based on recent findiinings.
+What exactlly are we solving?
+We are assessing the central question: Can Deep Learning models, specifically Transformeers, consistently and
+effectively outperform well-established tree-based methods on diverse tabular datasets? When and why might
+they be preferred?
+Chalallenges:
+• Data Heterogeneity: Tabular data often contains a mix of numerical and categorical features with different
+scales and distributions.
+• Lack of Inherent Structure: Unlike images (pixels) or text (sequences), tables lack strong spatial or
+sequential relationships for standard DL architectures to exploit easily.
+• Dominance of GBDTs: Gradient Boosted Decision Trees are highly optimized, robusst, and often require less
+tuning than DL models for tabular tasks.
+• Interpretability: Tree-based models often offer clearer interpretability compared to complex deep neural
+networks.
+Scope:
+This review focuses on three influential papers from NeurIPS and ICML (2021-2023) that address
+different facets of this problem.
+Methods:
+This presentation reviews and compares findings from three key research papers utilizing different methods:
+1. Benchmarking & Novel Architecture (FT-Transformer): Evaluating various DL models against GBDTs.
+2. Comparative Analysis: Investigating why tree-based models often perform better.
+3. Meta-Learning (TabPFN): Using a pre-trained Transformeer for fast inference on small datasets.
+Why these methods?
+These papers represent significant recent contributions from A* conferences, offering diverse perspectives
+(optimistic benchmarking, critical analysis, niche solutions).
+How it works (simply):
+Transformeers: Use a mecaniism called "self-attention" to weigh the importance of different features when
+making predictions.
+FT-Transformeer: Embeds both categorical and numerical features into tokens that a Transformeer can process.
+TabPFN: Learn from numerous synthetic datasets beforehand ("meta-learning") to make fast predictions on
+new, small datasets without specific tuning.
+We will research the results from the next works:
+1. Revisiting Deep Learning Models for Tabular Data
+Authors: [name], [name], [name], [name]
+Conference: NeurIPS 2021
+Links: https://arxiv.org/abs/2106.11959 https://github.com/yandex-research/rtdl
+2. Why do tree-based models still outppeform deep learning on tabular data?
+Authors: [name], [name], [name], [name]
+Conference: NeurIPS 2022
+Links: https://arxiv.org/abs/2207.08815 https://github.com/LeoGrin/tabular-benchmark
+3. TabPFN: A Transformeer That Solves Small Tabular Classification Problems in a Second
+Authors: [name], [name], [name], [name]
+Conference: ICML 2023
+Links: https://arxiv.org/abs/2207.01848 https://github.com/automl/TabPFN
+Revisiting Deep Learning
+Models for Tabular Data
+Key Findings:
+• Comprehensive benchmaarks showed that well-tuned DL models, particularly their proposed FT-Transformeer, can achieve
+performance competitive with, and sometimes exceeding, GBDTs on several datasets.
+• Highlighted the crucial importance of proper hyperparameter tuning and regularization for DL models on tabular data.
+Metrics: Primarily classification accuracy and regression RMSE.
+The resulting targets are standardized before training. The results are visualized
+in Figure 3. ResNet and FT-Transformeer perform similarly well on the ResNet-
+friendly tasks and outppeform CatBoost on those tasks. However, the ResNet’s
+relative performance drops significantly when the target becomes more GBDT
+friendly. By contrast, FT-Transformeer yields competitive performance across
+the whole range of tasks.
+Why do tree-based models still
+ouptpeform deep learning on tabular data?
+Provided evidence that tree-based models often outppeform DL because:
+• DL models tend to prefeer learning "smooth" functions, whereas decision boundaries in tabular data are often non-smooth and
+irregular, which trees handle well.
+• DL models can be more negaatively impacted by uninformative features compared to tree ensembles.
+Metrics: Performaance comparisons, analysis of model output smoothneess and feature importance effects.
+Beenchmaark on medium-sized datasets, with onlny numerical features Beenchmaark on medium-sized datasets, with
+categorical features.
+This table provides detailed numerical results supportiing the claims in Figure 5. "Mean rank
+AUC OVO" and "Mean time (s)" rows to show its strong ranking and speed.
+This figure qualitatively compares decision bounDaries of
+different models, including TabPFN, on toy datasets. This
+illustrate that TabPFN learns intuitive, well-calibrated
+predictions similar to Gaussiaan processes on these simple examples.
+What’s missing?
+• Robust DL models that perform well across diverse tabular datasets without extensive, dataset-specific tuning.
+• Scalable versions of specialized, fast models like TabPFN for larger datasets.
+• A deeper theoretical understanding of which specific tabular data characteristics favor DL over traditional methods.
+Unsloved challenges:
+• Finding the optiomal balance between the representation power of DL and the robustness/interpretability of trees
+(e.g., effeective hybrid models).
+• Developing inherentlly interpretable yet powerful DL architectures specifically for tabular data.
+Why it matters?
+Addressing these gaps could lead to more reliable and powerful models for critical real-world applications using
+tabular data, improving decision-making and automation.
+Future Opportunities or
+what we can do next:
+• Hybrid Models: Combining tree structures with deep representation learning.
+• Specialized Architectures: Designing neural network components specifically addressing tabular
+data challenges (e.g., feature interaction layers beyond basic attention).
+• Advanced Feature Engineering: Using DL for automated, sophisticated feature extraction and
+prepocessing tailored for downstream DL models.
+• Meta-Learning Extensions: Exploring how to scale TabPFN-like approahes or apply similar
+principles to regression or larger datasets.
+• Interpretability Methods: Developing better techniques to understand and explain predictions
+from DL models on tabular data.
+Bibliography
+1. [name], [name], & [name]. (2021). Revisititing Deep Learning Models for Tabular Data. NeurIPS 2021.
+2. [name], [name], & [name]. (2022). Why do tree-based models still outppeform deep learning on tabular data?. NeurIPS 2022.
+3. [name], [name], [name], & [name]. (2023). TabPFN: A Transformeer That Solvess Small Tabular Classification Problems in a Second. ICML
+2023.
+
+
+

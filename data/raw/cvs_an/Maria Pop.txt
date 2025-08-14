@@ -1,0 +1,100 @@
+PERSONAL INFORMATION
+Name [name] [surname]
+Address St [surname] [surname], 23 [location]
+Telephone +2 *** *** ***
+E-mail [email]
+Nationality [location]
+Gender Male
+Date of Birth 01 January 1987
+EDUCATION
+ Sept. 2024
+MSc Internet of Things and Cyber-physical Systems
+[compaany]
+ Sept. 2018 – Jun 2022
+BS Software Engineering
+[compaany]
+ Sept. 2004 – Jun 2006 Secondary Education
+[compaany], [location]
+WORK EXPERIENCE
+ Oct, 2021 – April Technical Support Specialist
+[compaany]
+- Providing Technical support to customers of [compaany] in
+the [location] and the Middle East.
+- Installing the [compaany] software and providing feedback to the customers.
+- Response to an application according to the defined SLA.
+- Help with the queries and incidents on the client’s issues.
+Managing the [compaany] software and providing support to the customers.
+System Administrator
+ April. 2021- present [compaany]
+- Installation, configuration, and maintenance of servers and networks.
+- Network connection servers, design and implementation of
+networks, Systems, devices for biometric time and attendance &
+video surveillance of CCTV connection.
+- Responsible for Web design, programming, and monitoring system
+performance & troubleshoot.
+- Maintaining network integrity, server deployment, file servers &
+intrusion detection systems ensuring a high level of safety and
+efficiency.
+ 2021
+May
+May 2022 Technical Support Specialist
+[compaany] |Software Development
+- Provide remote customer support.
+- Advise clients on the installation and operation of software products.
+- Record requests (tasks) in the request accounting system.
+- Interact with developeers and account managers.
+B [name] [surname] Page 1 | 3
+ April 2012– Jan IT Technician
+2019 [location] National Petroleum Cooperation
+- Responsible for updating and monitoring user systems, managing
+updates, removing and testing spyware, viruses, and backing up
+data files.
+- Providing assistance in purchasing and implementation of new
+IT equipment.
+- Providing technical support to staff for end-users of computers,
+printers etc.
+- Providing support in system maintenance and development.
+- Monitoring the overall network operations.
+TECHNICAL SKILLS AND
+COMPETENCES
+- Designing Network
+- HTML/CSS/Bootstrap/CMS
+- PostgreSQL
+- Crypto currency device maintenance and configuration
+- CCTV camera system configuration
+- Computer Repair & Maintenance
+- Python
+SOCIAL SKILLS AND - Time Management
+- Effective Communication
+COMPETENCES
+- Analytical Skills
+- Problem-Solving
+- Critical Thinking
+- Enthusiasm
+- Organizational Skills
+- Numerical Skills
+- Creative Thinking
+Certifications - Certification in Microsoft program, Solutions Associate Windows Server
+2012
+- Diploma in Computer Hardware & Maintenance
+- Diploma in Networking, IT Essenentials PC hardware & software
+- Advance Diploma Sales and Marketing Management
+ACHIEVEMENTS - Best sales support 2011, [location] Petroleum Corporation [location]
+- CCNA & CCNP Network Seminar Attendance Certificate
+- Graduate National diploma in computer science
+LANGUAGES - ENGLISH
+- RUSSIAN
+HOBBIES AND INTERESTS - Football
+- Swimming
+- Running
+- Gym
+B [name] [surname] Page 2 | 5
+REFRENCES - Name: [name] [surname]
+Designation: Petroleum Engineer
+Email address : [email]
+Contact info: +1 301 803 8650
+- Name: [name] [surname]
+Designation: Well Engineering Manager
+Email address: [email]
+Contact info: +358 468 476 220
+B [name] [surname] Page 3 | 5

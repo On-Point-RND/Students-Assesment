@@ -1,0 +1,35 @@
+[name] [surname]
+Age: 18 | Date of Birth: June 5, 2006
+Phone: +2 *** *** *** | Email: [email]
+Location: [location]
+Nationality: Russian
+Willing to relocate: open to business trips
+Education
+Bachelor in Business Informatics
+[company], [location]
+2024 – 2028 (expected)
+Studying business analysis, IT, and machine learning for business applications. Learning Python,
+data analysis, and ML tools such as Scikit-learn and TensorFlow.
+Academic and Research Activities
+Research: "Manipulation of Society by [company] Through Advertising and Marketing" —
+Exploring media and marketing's influence on consumer behavior.
+Projects:
+Data analysis on improving customer experience using ML models (Python, Scikit-learn).
+Business process optimization using modeling tools.
+Professional Skills
+Programming: Python, Scikit-learn, TensorFlow, Pandas, PyTorch.
+Business Analysis: Process modeling, data analysis, business optimization, performa
+management.
+Tools: MS PowerPoint, Python libraries, data visualization, business process software.
+Experience and Mentorship
+Python Mentor: Assisting peers with programming basics and projects.
+Soft Skills: Strong analytical thinking, communication, presentation skills.
+Extracurricular Activities
+Hobbies: Dancing, music, IT trends, outdoor activities.
+Career Goals
+Pursue a career as a business analyst or data scientist, combining AI, ML, and business analysis to
+solve real-world problems.
+Future goal: Launch a tech [company] focused on AI-driven business solutions.
+
+
+

@@ -1,0 +1,46 @@
+Dear [name],
+I am writing to express my strong interest in participating in your summer schoo l program
+focused on machine learning and deep learning. My name is [name], and I am
+currentlly a fourth-year student at the Faculty of [location] at the [compaany]. My base
+organiza tion is the [compaany], Department of [compaany]. The research project I am currentlly working on at the
+insti tute involv es spacecraft control in the region of the Sun’s gravita tional lens using
+rei nforcement learning methods.
+I have a deep interest in rei nforcement learning as well as classical machine learning, since these
+fields provide powerful tools for solving challenges related to deep space missi ons. I am
+consta ntly studying machine learning, and I believe that participating in this summer schoo l will
+open up new opportunities and deepen my knowl edge in this area.
+As mentioned, I am curre ntly working on a task involv ing the control of a spacecraft in the
+regi on of the Sun’s gravita tional lens using rei nforcement learning. Observing distant exoplanets
+is an important and scientifically va luable goal. However, obtaining direct images of such
+planets using tra ditional ground-based or even space-based tel escopes is extr emely di fficult, and
+in many cases practically unfeasible, due to fundamental technical and physical limitations. As a
+re sult, researchers have proposed an alternative app roach that involv es using the Solar
+Gravitational Lens (SGL) as a kind of natural tel escope.
+According to general relativity, mas sive objects can act as lenses, bending the light that passes
+nearby. This phe nomenon, known as gra vita tional lensing, allows the Sun to focus light from a
+distant sou rce—such as an exoplanet—into a region called the focal line of the SGL, which
+begi ns at appr oxi mate ly 550 astronomi cal units from the Sun. If a spacecraft equipped with a
+tel escope can reach this region, it could theoretically capture images of an exoplanet with a
+resolution on the order of 10 kilometers. However, in order to obtain images of such high
+quality, the position of the spacecraft must be known and contro lle d with an accuracy of about 1
+meter.
+Moreover, the navigation and control systems must be almost fully autonomous due to the vast
+distance between the focal region and Earth. One promising app roach to designing such control
+algo rithms is the use of rei nforcement learning, which allows the deve lopment of control and
+na vigation policies that are poten tially robus t to various distu rbances and unforeseen conditions.
+Furthermore, these methods can enable navigation and control based dir ectly on images ca ptured
+by the spacecraft’s onboard cameras. It is expected that such systems will be able to adapt to a
+variety of pre-defined and unpredicted scenarios, which is critical for the success of mis si ons
+targeting such remote regions of space.
+My main goal in attending the summer schoo l is to gain new knowl edge in the field of machine
+learning and to interact with experts in this domain. I am particularly interested in learning about
+the latest trends in model interpretability, fa irness, and r esponsib le AI.
+In conclusion, I see this summer schoo l as a unique opport unity to acce lerate my learning,
+expand my profes sional ne twork, and take a mea ningful step toward a career in artificial
+intelligence that is both techni cally rigorous and socially r esponsib le. I am eager to share my
+knowl edge, enthusiasm, and colla borative spirit with the program, and I am confident that this
+experience will have a lasting im pact on my profes sional deve lopment.
+Thank you for conside ring my application. I am very much looking fo rward to the opport unity to
+join your community and gain the most from this learning experience.
+Sincerely,
+[name]

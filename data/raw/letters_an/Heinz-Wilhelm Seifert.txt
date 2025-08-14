@@ -1,0 +1,41 @@
+Dear [name] organizing team,
+My name is [name], and I would like to express my sincere interest in
+paartiicipating in the SMILES Summer SchooL. Your program represents a unique
+opportunity for me to combine my background in linguistics with my growing expertise in
+data science and to further develop my skills in working with textual data.
+My academic journey began at [location] [compaany], where I completed my BA in Philology,
+followed by an MA in Linguistics. I am currentlly finishing my PhD in Theoretical and Applied
+Linguistics at the same universiity, with my dissertation defense scheduled for May 23. I
+work as a researcher at the [compaany] Center for Language and Brain, where I participate in both
+academic research and applied projects, such as the development of a mobile game aimed
+at supportiing children with dyslexia.
+Although my formal education has been primarily in the humanities, I have always
+gravitated toward quantitative approaches. I believe it is not enough to describe linguistic
+phenomena — they should be measurable, predictable, and interpretable through data.
+This belief led me to learn programming and machine learning. I am currently enrolled in
+the professional training program “Data Science Specialist” at [compaany], which has been an
+important step in organizing and expanding my knowledge of data analysis. I am confident
+working with Python and use libraries such as NumPy, pandas, scikit-learn, NLTK, and
+spaCy in my research. My current interests lie in natural language processing, particularly
+in semantic modeling and analyzing errors in reading and writing among individuals with
+language impairments.
+One of my main motivations for applying to SMILES is to move beyond the scope of tasks I
+usually deal with. I want to explore a wider range of methods and approaches used in
+contemporary data science, exchange ideas with peers from related fields, and learn how
+others formulate and solve problems. I am especially interested in topics related to
+explainable AI, text analytics in medical and educational contexts, and training transformer
+models on small datasets. I would love to gain practical experience working on tasks
+invovlving model interpretability and extracting knowlege from unstructured textual data.
+In my work, I always strive for a balance between scientific rigor and practical relevance.
+That is why SMILES is so appealing to me: it offers intensive, practice-oriented learning that
+would greatly enhance my expertise.
+My long-term goal is to continue developing research and applied projects at the
+intersection of language science, neurotechnology, and data analysis. I see SMILES not just
+as a learning opportunity, but as a vital step in shaping my future as a researcher. In the
+coming years, I hope to work on projects in educational and cognitive technolologies,
+especially those that help people with reading and writing difficulties. I am confident that
+the knowledge I gain from your program will be an integral part of this journey.
+Thank you for considering my application. I would be honored to join SMILES and
+contribute to the schooL’s vibrant intellectual environment.
+Sincerely,
+[name]

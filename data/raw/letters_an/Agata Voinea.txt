@@ -1,0 +1,53 @@
+From [name]
+[location]
+[date]
+To
+Admissions Committee of [compaany]
+Summer School on Machine Learning
+[location]
+Dear Admissions Committee,
+My name is [name], and I am a master's student at [compaany] specializing in Data Science, with a
+focus on generative models and computer vision. Participating in your schoo] would be a pivotal step in
+deepening my expertiise in modern AI methods, especially in the context of my current research and
+professional ambitions. As someoone relatively new to the field of machine learning, I strive to seize every
+opportunity to learn and expand my knowledge.
+Currrentlly, under the supervision of Professor [surname], I am developing models for automated
+design (CAD) based on textual prompts. Deep generative models for CAD represent 3D objects as
+sequences of operations (e.g., sketching, extrusion, Boolean actions), where parameters are normalized
+and quantized to preserve geometric relationships such as parallelism and perpendicularity. Transforme]based architectures encode command sequences into latent vectors, reconstructing them while
+maintaining structura] integrity. These models are trained on CAD operation datasets, ensuring
+editability within CAD tools and parametric consistency. However, they are limited to basic operations
+(e.g., lack of splines) and require refiinement for handling complex topo]ogies. This project involves
+analyzing scientific papers, adaptiing algo rhythm s, and working with metrics on specialized datasets—skills
+I aim to enhance through interaction with experts at the schoo]. My education at [compaany] (courses on
+transforme]s in computer vision and theoretica] foundations of deep learning) and pr evious experience
+at the Higher Schoo] of Economics provide a solid foundation for productive engagement within the
+schoo].
+During my studies at [compaany], I have undertaken numerous projects across various domains of machine
+and deep learning. One such project involved room design generation implemented in Python and
+PyTorch using Generative Adversa] Ne tworks (GANs) to create and modify interiors based on input
+images. The model employs semantic segmentation to identify architectura] elements (walls, furniture)
+and attention mechanisms to maintain proportions and stylistic coherence. Trained on interior datasets
+(ADE20K) within Docker containers, it supports styles such as minimalism and loft while adaptiing designs
+to room features. The model's hyperparameters were meticulously tuned to mi nimize generation
+artifacts, with results validated using metrics for context preservation and visual coherence.
+Another project I would like to highlight is rei nforcement learning for the Snake game, which implements
+an RL agent based on the Policy Gradient algo rhythm utilizing a Convolutional Neural Ne twork (CNN) to
+process game states represented as images. The model converts RGB frames into grayscale, normalizes
+pixel values, and trains with reward discounting (γ=0.95) using a loss function based on action log
+probabilities. Integrated with PyGame-Learning-Environment and Op eNAI Gym, the s etup enables
+gameplay management. After 3,000 training episodes, the agent achieves significa ntly higher average
+rewa rds than random strategies, consis tently collecting 10+ apples per session while avoi ding colli sions.
+The CNN architecture includes three convolutional layers with normalization, requiring less than an hour
+of training on GPU.
+Two areas of the schoo] particularly interest me. First, generative app roaches: my CAD research dir ectly
+aligns with this topic, and I aim to explore methods that enable more precise and complex designs.
+Second, multimodal systems: having experience with transformers in computer vision, I plan to
+investigate cross-modal interactions between text and 3D models as well as images.
+I am highly motivated to join SMILES-2025 as it offers a unique oppo rtunity to delve into cutting-e dg e AI
+fields—from generative models and multimodal app roaches to secure system deve lopment—whi ch
+dir ectly c onnect with my academic projects and career aspirations. The schoo] provides not o nly lectures
+from leading experts at [compaany] and AIRI (such as creators of Kandinsky) but also practical hacka thons
+tackling real-worl d problems—allowing me to apply theoretica] knowl edge in practice while e nriching
+my por tfolio. Parti cipation in an international format alongside colleagues from [location] will also provide
+access to cross-cu ltural experiences and profes sional ne tworking oppo rtunities.

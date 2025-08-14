@@ -1,0 +1,176 @@
+            
+Pushing the BounDaries of
+Deep Learning for Camera-
+Based Object Recognition:
+Zero-Shot, Efficient, and
+Robust Approaches for
+[compaany]
+Custom presentation for [compaany] employeers and professors on deep
+learning and neural networks. Covering methods, challenges, and future
+opportunities.
+[name]. MIPT/Panocam. 2025
+Gitlab
+-Introduction
+What are Neural Networks?
+Neural networks are computational models inspired by
+biological neural networks.
+They consist of interconnected nodes (neurons) organized
+in layers.
+Neural networks are used to solve complex tasks such as
+classification, regression, and object detection.
+Deep learning has revolutionized object recognition. However, deploying these models in real-world camera applications
+faces significant challenges: Lack of labeled data, especially for novel objects. Limited computational resources on edg
+devices. Sensitivity to varying environmental conditions. This presentation explores recent advancements in zero-shot
+learning, knowledge distillation, and self-supervised feature learning, demonstrating how these techniques can overcome key
+limitations in camera-based object recognition, paving the way for more adaptable, efficient, and robusst systems.
+Problem Statement
+What problems do we Main difficulties Area of application
+solve?
+One of the main problems is the Our developments are used in
+need for a large amount of labeled various fields, including computer
+data for training models. In vision, image analysis,
+addition, it is important to ensure autonomous driving, security and
+high detection accuracy on new, video surveillance systems.
+previously unseen data, which
+requires constant refiinement and
+optiomization of algorithms.
+Methods Used
+Approach: CNN (YOLOv8) Training Method: Supervised Data
+Learning
+CNNs (Convolutional Neural A comprehensive dataset of labeled
+Networks) are utilized for image images was used for training. The
+processing, excelling at feature dataset includes a variety of objects
+extraction from visual data. model. The model learns to map inputs and scenes to enhance the model's
+YOLOv8 is a state-of-the-art generalization capability.
+architecture known for its speed and
+accuracy in object detection tasks. Its The single-stage detection approach used to
+enable real-time performance.
+arhitecture used
+Zero-Shot Object
+Detection: Detecting the
+Unknown
+Motivation Challenges & We use already
+Research Questions marked-up data, but
+Traditional
+based on the article,
+supervised 1. Optimizing text
+learning fails for prompts for
+selection using text-
+unseen objects better accuracy.
+based learning.
+(requires labeled
+2. Balancing LLM
+training data).
+size vs.
+Need for models performance.
+that recognize
+3. Generalization to
+objects based on
+truly unseen
+descriptions, not
+objects/environm
+just predefined
+ents.
+classes.
+Interesting Fact
+Key Article
+Text-based
+DetGPT (CVPR
+detection
+2023): Uses LLMs
+enablels
+for zero-shot
+adaptable,
+detection by
+scalable
+describing
+recognition
+objects in natural
+systems.
+language instea
+of relying on
+labeled examples.
+Project Implication
+Warehouse
+Explanation*
+example: Detect
+DetGPT leverages new package
+types without
+object detection retraining (e.g.,
+via text prompts "blue rectangular
+(e.g., "a red box box with stripes").
+with a handle").
+Eliminates the
+need for
+retraining on new
+object
+categories.
+Bringing Powerful Models to the Edge
+Motivation: Deploying complex deep learning models on resource-constrained devices like cameras. The need for efficiency
+without sacrificing accuracy.
+Key Article: Distilling Vision-Language Pre-training to Object Detection (CVPR 2023). (Cite here) Knowldege distillation
+tranfers knowlge from a large, powerful <teacher= model (e.g., a Vision-Language Pre-trained model like CLIP) to a smaller,
+more efficient <student= model suitable for deployment on edg devices.
+Distillation allows us to harness the power of large pre-trained models on devices with limited computaional resources,
+enabling real-time object recognition in challenging environments. This allows deploying accuraate object detection on low-
+power cameras without the need for expensive GPUs on the edg.
+Self-Supervised Learning:
+Buildiing Robustness from
+Unlabeled Data
+SSL allows us to leverage the vast amounts of unlabeled data captured by
+cameras to build more robusst and adaptable object recognition systems.
+Results
+70-90% 5-15%
+Accuracy on Test Data Performaance Reduction
+on New Data
+70-90% mAAP@0.5 (Mean Average
+Precision at a confidence A 5-15% reduction in accuracy
+threshold of 0.5). This indicates the compared to the test data. This
+model's ability to accuraately detect reflects the model's generalization
+objects in the test dataset under capability when applied to new,
+ideal conditions. previously unseen datasets.
+Adjustable
+Confidence Threshold Summary
+An adjustable confidence Briefly recaap the key findiings:
+threshold for object detection. Zero-shot learning enables
+This allows users to fine-tune the detection of novel objects.
+sensitivity of the object detection, Knowldege distillation allows
+balaancing precision and recall efficient deployment on edg
+based on specific application requirements. devices. Self-supervised learning
+builids robustness from unlabeled
+data. Future research should focus
+on combiing these techniques to
+create truly adaptable, efficient,
+and robusst camera-based object
+recognition systems. Exploring
+novel architectures, improving
+knowldege transfer methods, and
+developing more effective pretext
+tasks are crucial next steps. Let9s
+continue pushing the boundaries
+of deep learning for computer
+vision to unlock the full potential of
+camera-based intelligence
+Areas for Research
+Limitations
+1 Current approaches are limited by the volume and quality of
+data.
+Challenges
+2
+Difficulties with generalization to new data.
+Opportunities
+Improwing learning algorithmns, specifically in areas such as:
+Aircraft recognition in complex sky conditions
+3
+Human facial recognition and classification with varied
+demographics and lighting
+Object detection and tracking in real-time video
+surveillance systems
+Bibliography
+CVPR CVPR NeurIPS
+DetGPT: Detecting Distilling Vision- Masked Feature
+Everything with Language Pre- Prediction for Self-
+Words training to Object Supervised Visual
+Detection Pre-Training
+Articles from A* level conferences. Neural networks in the design and
+image generation format were used to create the presentation.

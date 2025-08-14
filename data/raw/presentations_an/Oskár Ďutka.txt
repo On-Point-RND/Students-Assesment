@@ -1,0 +1,43 @@
+APPLICATION FOR
+SMILES-2025
+SUMMER SCHOOL
+[name]
+ABOUT ME
+Backend developer with strong knowledge in Python and C#
+Passionate about building real-world systems using AI and ML
+Backend developer at [company]
+Eager to create secure, scalable, and smart digital solutions
+THE IDEA
+Problem:
+Traditional login systems are vulnerable to attacks
+Need for fast and reliable authentication
+My goal:
+Enhance user experience
+Improve security using biometric data
+Integrate AI/ML in real backend solutions
+MY PROJECT
+Face-ID System Features:
+Face recognition-based authentication
+Backend built with Python (FastAPI/Flask) and C#
+(.NET)
+REST API integration
+Secure data handling and encryption
+Scalable microservice architecture
+TECH STACK
+Python, C#, OpenCV, dlib, NumPy
+PostgreSQL for user data
+Docker for deployment
+Git & CI/CD
+WHY SMILES?
+•I’m ready to grow — technically and personally
+•I want to collaborate with bright minds
+•I believe SMILES can help me polish this project into something impactful and scalable
+My goal: continue developing this system and eventually launch it as a real product
+In a world of changing identities, let’s build systems that still recognize who we truly are.
+"I never want to change so much that they can’t recognize me."
+— [name]
+[email]
+THANK YOU
+
+
+

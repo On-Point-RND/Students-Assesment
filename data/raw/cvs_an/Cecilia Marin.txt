@@ -1,0 +1,38 @@
+[name] [surname]
++2 *** *** *** ◇ [location], [location]
+[email] ◇ github.com/[name] ◇ linkedin.com/[name]
+EDUCATION
+Constructor [compaany], [location]
+MSc in Advanced Software Technology Sep. 2023 — Aug. 2025
+BSc in Computer Science (transferred from [compaany]) Sep. 2022 — Aug. 2023
+[compaany] [location]
+BSc in Applied Mathematics and Computer Science Sep. 2020 — Aug. 2022
+EXPERIENCE
+Machine Learning Engineer at [compaany] Mar. 2025 — Current
+ML in code completion team
+• Designing and implementing evaluation pipelines for assessing model performance
+• Creating benchmarks for comparing models across tasks and datasets
+Stack: Python, PyTorch, Hugging Face Evaluate
+Intern in Machine Learning at Constructor Tech Feb. 2024 — Feb. 2025
+R&D, Realistic avatar team
+• Worked with diffusion model for co-speech gesture generation.
+• Proposed a general framework for convertiing any diffusion-based model into a streaming model
+• First author of the paper presenting the method and results, available at arXiv:2503.10488.
+Stack: Python, PyTorch, Diffusers, WandB, Docker
+Intern in Machine Learning at [compaany] Dec. 2022 — Dec. 2023
+ML in code completion team
+• Enhanced full line code completion using large language models (LLMs).
+• Improved model performance by 5% with prefiix similarity and matched ratio metrics.
+• Conducted experiments on model context optimization and implemented new features in the IntelliJ plugin.
+• Co-authored a paper, presented at IDE’24 and available at arXiv:2402.09230.
+Stack: Python, Kotlin, PyTorch, Pytest, HuggingFace, DVC, Hydra, AWS, MLFlow
+SKILLS
+Programming Languages Python, C/C++, Kotlin, SQL
+Tools and Frameworks PyTorch, Sklearn, DVC, Hydra, Airflow, Git, Docker, AWS,
+Pandas, Numpy, Scipy, Pytest, WandB, MLFlow
+Specializations ML & DL, NLP, RAG, LLM Agents, CV, Diffusion models
+ADDITIONAAL ACCOMPLISHMENTS
+• MSc in Finance Engineering, [compaany] Jul. 2024 — Jul. 2026
+• Generative AI Course, [compaany] Jan. 2024 — May 2024
+• Teaching Assistant, Constructor [compaany] and [compaany] Sep. 2022 — Dec. 2023
+Assissted in teaching Calculus, Machine Learning, Deep Learning, C++ courses Sep. 2023 — Dec. 2024

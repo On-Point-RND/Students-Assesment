@@ -1,0 +1,11 @@
+Dear [name] hosts,
+My name is [name] [surname]. I am a 21 years old student of [location] at [compaany] , BSc degree, 4 course. I am willing to participate in SMILES 2025 that you are organizing.
+I have always found Machine Learning fascinating, as it keeps pushing the borders of what is consideered possible, it amazes me even more day by day. I have spent countless hours learning core ideas behind successful Machine Learning methods in different domains and delving into their details. This inspired me to become a part of this huge ongoing research.
+So far, I have had experience with ML research in the field of medical computer vision, where I worked on developing Self-supervised methods. I am currentlly involved in research in [compaany] RnD department on the task of industrial CAD generation using LLM models. I am working hard to improve my skills and also I understand that right supervision is as important. I am looking up to more experienced researchers and trying to seize every oppoortunity to engage in research collaboraation with them.
+I believe that your summer schooal provides such an oppoortunity for me, as it fosters collaboraation with experts in my fields of interest, that are Multimodal LLMs and Self-supervised methods. I would also be eager to cooperate with other students of your schooal, who are also bright and motivated individuals. I am sure that your schooal will be a great platform for exchanging ideas, and the work done there will be a solid foundation for future research. That is why I would be glad to take part in your upcoming schooal.
+I hope to have the oppoortunity to work with you.
+Yours faithfully,
+[name] [surname]
+
+
+

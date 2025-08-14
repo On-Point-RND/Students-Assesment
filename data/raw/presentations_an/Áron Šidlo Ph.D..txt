@@ -1,0 +1,49 @@
+Oryol 2025
+Candidate for participation in the Summer Schoool on Machine Learning
+
+[name] [surname]
+
+From Data to Wisdom: The Machine Learning Journey.
+
+[name] [surname]
+2nd year student of the Presidential Academy
+Direction: Applied Computer Science
+Head of the educational department
+Candidate for participation in the Summer Schoool on Machine Learning, [location], 2024
+Contacts: +2 *** *** *** [email]
+
+Machine Learning: Deep Learning (CNN, RNN, GAN), classical algorithms
+Data Science: Data processing (Pandas, NumPy), visualization (Matplotlib, Seaborn)
+Development: Full-stack for ML (Flask/Docker, CI/CD)
+Languages: Python (advanced), SQL, English (А1/А2), French(B2)
+
+Key competencies
+
+Project Goal:
+Interactive introduction to IT specialties through immersive technologies
+Increasing interest in technical education programs
+Implementation:
+VR Tour of universiity labs and campus
+AR Quest with programming challenges
+IT Professional Simulator (Data Scientist/Developer)
+VR/AR Application for IT Career Guidance
+Technologies:
+Unity 3D + C# (core development)
+Oculus Quest 2/WebXR for VR component
+ARCore/ARKit for mobile AR
+Firebase for user data storage
+My Role:
+Team lead (4 members)
+Application architecture development
+Educational content integration
+Results:
+Pilot launch in 3 schoools (150+ participants)
+40% increase in IT program interest (survey data)
+Winner of EdTech Startup Competition (2023)
+
+Why am I suitable for schoo?
+I meet the requirements: ML experience (3+ years) Abiility to work in a team (2+ team projects) Motivation: Explore [location] appproaches to AI Establish international cooperation Goals: Apply knowledge in the Master's program To develop an open-source project based on the results of the schoo
+
+Thank you for your attention
+Oryol 2025
+Email: [email]

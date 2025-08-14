@@ -1,0 +1,168 @@
+
+
+IITP RAS
+Perceived contamination detection for mobile phone cameras
+[name] [surname]1, [name] [surname]1 , [name] [surname]1, [name] [surname]1, [name] [surname]1,
+[name] [surname]1
+1[company]
+The article is at the approval stage, please do not distribute presentation
+Naïve Problem
+• Fingerprints / dust negate modern
+computational photography
+• We need to detect dirtiness and ask
+user to wipe the camera
+• After wiping we capture a clean
+photo
+• Any questions?
+Need cleaning? Yes
+Dirty image Clean image
+Which images were taken with a dirty camera?
+Which images were taken with a dirty camera?
+These look quite
+clean?
+Which images were taken with a dirty camera?
+These ones look
+quite clean?
+All images here
+are dirty
+Problem & Motivation
+• Fingerprints / dust negate modern
+computational photography
+• Users seldom notice slight dirt →
+no cleaning → degraded UX
+• Traditional detectors flag any dirt,
+annoying users
+• Goal: detect noticeably dirty
+lenses, not every speck
+Clean image Slightly dirty image Strongly dirty image
+Contributions at a Glance
+• A New Statement of the Problem
+of Detecting Contaminated Images
+• 6236-pair perceptual dataset
+(clean vs. dirty, crowdsourced
+MOS)
+• Physically-plausible
+contamination simulator
+MOS markup
+(short-focus optics)Traditional
+detectors flag any dirt, annoying
+users
+• Benchmarks: noticeability vs. mere
+presence; fine-tuning recipe
+Dirt simulator
+Prior Work Gaps
+• Existing datasets: DSLR, fisheye, windshields, no phones
+• Most models ignore human perception
+• Simulators overlay 2-D “dirt stamps”; lack HDR, PSF, distortion
+What is a good dataset for this task?
+•Paired: each contaminated image should have a corresponding clean version,
+suitable for MOS markup and model training.
+•Large: for training at the product level, the dataset should typically include
+around 5,000 images.
+•Diverse: the dataset must cover a wide range of types of contamination,
+including rare cases like motion blur.
+•Domain-specific: data should be collected using mobile phone cameras,
+reflecting the same types of contaminants and scene conditions expected in real
+use.
+Perceptual Dirty Image Dataset – Capture Rig
+• Two [company] P50 Pro phones on
+metal rail → near-identical POV
+• Raw (DNG) capture, one lens
+intentionally dirtied
+• Contamination materials: water, oil,
+cream, honey, paprika, fingerprints
+• 6 k+ pairs; raw → simple ISP →
+PNG → 4 crops
+Paprika Handcream
+Fingerprint
+Crowdsourced Visibility Labels
+• 20 annotators/pair on
+[company].[location] (desktop, [location])
+• Question: “Which image is dirty?” +
+“look same” option
+• Control tasks ≈ 14 % to filter spam;
+keep top 20 % workers
+• MOS threshold = 75 % ⇒ “wipe” vs.
+“don’t wipe” label
+• 19 % of dirty photos deemed
+indistinguishable → re-labelled
+clean
+Markers interface
+Crowdsourced Visibility Labels
+• Naïve detector → false alerts →
+user trust drops
+• Our perceptual labels shift 20 % of
+positives to negatives
+• Harder classification task: accuracy
+0.88 (vs 0.98 for “any dirt”)
+Observed Optical Effects
+• Semi-transparent colour veil
+(paprika dust)
+• Desaturation + flares (fingerprints)
+• Radial amoeba & diffraction
+(water/oil drops)
+Image formation models
+1. I = I₀ · (α * k) + Iα * k [Gu 2009]
+2. Handles transparency & glow, but:
+• colourless assumption
+• no PSF/F-flare, HDR, radial
+distortion
+3. Our improved model
+I = ((I₀·(α * k)+Iα * k)ᵍ * pᵍ) ᵍ⁻¹ Clean image with Dirty image with
+oversaturated regions oversaturated regions
+Gu model
+Simulator Data Collection
+To use our model for simulation we need
+• estimation of camera-specific defocus
+blur kernel k;
+• estimation of camera-specific distortion
+parameters β = (β2, β4);
+• collection of dirt-specific PSFs p;
+• collection of dirt-specific α and Iα.
+Measured:
+• defocus disk R, radial β, PSFs
+(6 exposures HDR)
+• α & Iα via tube-glass setup
+• 6 dirt types → 6–18 PSFs each; rotation
+augmentation Setup for dirtylayer parameters collection
+End-to-End Simulation Pipeline
+Simulator Results
+Let’s back to classification task
+Models: AlexNet, ResNeXt-101,
+EfficientNet-V2-M
+Tasks:
+1.Fact detection (any dirt)
+2.Perceptual detection (MOS > 0.75)
+Classification resuluts
+Key results:
+Tasks:
+1.Fact detection: 0.98 accuracy, trivial
+to solve
+2.Perceptual detection: 0.88 accuracy,
+F1 ≈ 0.81
+3.Models trained on one task fail on the
+other
+AlexNet
+Fine-Tuning with Simulator
+‐ Pre-train on 23 k simulated
+fine-tune on 500 real
+• Fact task: F1 0.86
+• Perceptual task: F1 0.71 vs. 0.28
+from scratch
+‐ Simulator cuts real-data need by
+25 times with only 5 % accuracy
+drop
+Key Takeaways & Next Steps
+‐ Redefine the objective: detect only user-noticeable contamination—20 % of “dirty” images are
+actually invisible to users.
+‐ Large + crowdsourced dataset: 6 k paired RAW shots, MOS labels from 1 269 people; public and
+extensible.
+‐ Physics-driven simulator: HDR extrapolation, PSF, radial distortion → cuts real-data needs by 25 ×
+with only 5 % accuracy loss.
+‐ Performance: 0.88 accuracy on perception task, F1 0.71 with just 500 fine-tune images thanks to the
+simulator.
+Thanks you for your attention
+[name] [surname]
+[email]
+[company]
+[company]

@@ -1,0 +1,10 @@
+Dear [name] [surname]s,
+My name is [name] [surname], and I am currentlly a fourth‑year student at [compaany] in [location], and I would be honored to join the SMILES community this summer. Your program offers a great chance to share experiences and take another decisive step toward my dream – finish my car hazard detection project using computer vision.
+I have been deeply engaged in programming from childhood. I competed in the “I – Professional” olympiad under “Software Engineering” and “Big Data & AI,” participated in the Archipelago 2024 forum, and attended the student camp hosted by [compaany] and [compaany]. I’m planning to work in this field, and this year I am applying to a master’s program “Deep learning and neural networks.”
+My major—software engineering—aligns closely with the schooal’s topics. At [compaany], I regularly present at student conferences, work in our laboratory, and lead a research project. I am confident that two weeks at SMILES will help me build a team to drive this project forward.
+As online participants last year, my friend and I gained insights that I continue to apply today. This time, I am eager to immerse myself in SMILES in-person learning environment — after all, it’s through communication and mutual support that we grow and achieve more together.
+Thank you for considering my application. I look forward to the possibility of contributing to — and learning from — the SMILES community.
+Sincerely,
+[name] [surname]
+Email: [email]
+Phone: +2 *** *** ***

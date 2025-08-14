@@ -1,0 +1,57 @@
+Machine Learning for Molecular Design: From
+Force Fields to Drug Discovery
+[name]
+Affiliation: 6th-year student, Sechenov
+[university], [compaany]
+Contact: +7 *** *** *** | [email]
+Introduction
+• Machine learning (ML) is transformiing drug discovery through data-driven modelling of
+molecular interactions.
+• Traditional force fields (FF) are limited in flexibility and accuracy for complex chemical
+systems.
+• ML-based force fields (MLFFs) and generative models offer higher precision and
+generalizability.
+Problem Statement
+• Classical FFs often fail to capture subtle electronic effects and reactivity.
+• High-throughput screening is costly and time-consuming.
+• Need for models that integrate structure, energy, and bioactivity prediction.
+• Challenge: interpretability, generalizability, and data scarcity in ML models.
+Method 1: Machine Learning Force Fields
+(Chen et al., 2024)
+• MLFFs learn interatomic potentials from quantum calculations.
+• Methods: Graph Neural Networks (GNNs), message-passing, equivariant models.
+• Examples: SchNet, PhysNet, ANI, NequIP.
+• Applications: conformaational analysis, protein–ligaand binding, molecular dynamics.
+Method 2: Drug Discovery Pipelines
+(Elbadawi et al., 2021)
+• Use of ML in compound prioritizaion and de novo design.
+• Models: support vector machines, deep neural networks, random forests.
+• Integrated with virtual screening and ADMET prediction.
+• Key: feature engineering and curated datasets.
+Method 3: Generative and GNN Models
+(Selvaraj et al., 2022)
+• GNNs model molecular graphs and learn structure–activity relationships.
+• Generative models (e.g., variational autoencoders, GANs) used for novel molecule
+design.
+• Applications: lead optimization, scaffold hopping, binding affinity prediction.
+Method 4: Structure–Activity Relationship
+(Staszak et al., 2022)
+• AI used to uncover non-obvious correlations in SAR studies.
+• Deep learning applied to predict bioactivity directly from SMILES or graphs.
+• Improvement in hit identification and precision.
+Research Gap & Outlook
+• Limited interpretability of deep models.
+• Generalization across chemical space remaiins a challenge.
+• Future: hybrid models, transfer learning, physics-informe-d ML.
+• Need for standardized benchmarks and open data sharing.
+Research Gap
+1. [name], [name], [name], & [name]. (2024). The emergence of machine learning
+force fields in drug design. Medicinal research reviews, 44(3), 1147–1182. https://doi.org/10.1002/med.22008
+2. [name], [name], & [name]. (2021). Advanced machine-learning techniques in drug discovery. Drug discovery
+today, 26(3), 769–777. https://doi.org/10.1016/j.drudis.2020.12.003
+3. [name], [name] & [name]. Artificial intelligence and machine learning approaches for drug design: challenges and
+opportunities for the pharmaceutical industries. Mol Divers 26, 1893–1913 (2022). https://doi.org/10.1007/s11030-021-10326-
+z
+4. [name], [name], [name], & [name]. (2022). Machine learning in drug
+design: Use of artificial intelligence to explore the chemical structure–biological activity relationship. Wiley Interdisciplinary
+Reviews: Computational Molecular Science, 12(2), e1568.

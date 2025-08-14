@@ -1,0 +1,17 @@
+Dear Selection Committee,
+I am excited to apply for your summer schoo lprogram. As the ML lead of a small team in the
+Communication Design Department at [compaany], I create AI-driven solutions for business
+challenges using Python and ML libraries like PyTorch. Although I did not study machine
+learning at universi ty, my self-taught experti se and passion for the field have driven my success.
+I am eager to deepen my kn owledge of large lan gua ge models, generative app roaches, and
+multimodal techniques to address real-wor ld challenges. The opport unity to work with
+cutting-e dg e technol ogies, participat e in hacka thons, and gain mentorship aligns perf ectly with
+my goals.
+Having alr eady gained experience in buildi ng star tups, I view the deve lopment of my own
+AI-focused start up as a concrete goal, not just a dr eam. I am committed to making this a reality
+alongside my inn ovative work at [compaany].
+I look fo rward to expanding and sharing my kn owledge at SMILES-2025.
+[name] [surname]
+
+
+

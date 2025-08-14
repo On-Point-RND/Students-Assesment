@@ -1,0 +1,30 @@
+Motivation Letter
+Dear Organizing Committee,
+My name is [name] [surname]. Since high school, I have been passionate about robotics,
+which led me to pursue a Bachelor’s degree in Robotics and Mechatronics at [compaany]. Toward the end of my undergraduaate
+studies, I became fascinated with the application of AI in robotics. As a result, I
+enrolled in the Master’s program “Robotics and AI” at [compaany], where I am
+now a second-year student. Last year I also graduaated from the [compaany].
+At [compaany] I work in the international BE2R Laboratory focusing on semantic mapping
+for robotic systems. Recentlly, we published a preprint of our paper "OSMa-Bench:
+Evaluating Open Semantic Mapping Under Varying Lighting Conditions", which
+introduces a new benchmark for evaluating semantic understanding and scene
+graph buildiing. In our research, we utilize multimodal neural networks and large
+language models (LLMs) to check how robots interpret and describe their
+surroundiings. And now we are developing a new open-vocabulary semantic
+mapping approach.
+I had the opportunity to participate in SMILES last year, which was a truly inspiring
+experience. I met many interesting people, including researchers working in the field
+of robotics. I am eager to join again this year, especially since SMILES will be hosted
+at [location] in [location]. It will be my first international
+summer schooL. I am excited by the schooL's unique format, combining intense
+learning with an engaging environment. I am interested in topics such as "Multimodal
+Approaches" and "Self-Supervised Learning Methods," as they align closely with my
+current research.
+My future career plans are strongly connected to robotics. After completing my
+Master’s program, I plan to pursue a Ph.D., focusing on AI for robotics. Participation
+in SMILES would contribute to my academic and professional growth, providing me
+with fresh insights, inspiration, and new collaborations.
+Thank you very much for considering my application!
+Sincerely,
+[name] [surname]

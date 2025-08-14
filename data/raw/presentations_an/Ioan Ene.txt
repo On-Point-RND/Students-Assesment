@@ -1,0 +1,100 @@
+            [name] and [surname]
+[location], [compaany]
++2 *** *** ***
+[email]
+[name] [surname]
+[location]
+[compaany]
+[email]
+
+Llama-Adapter and
+ImageBind-LLM:
+Multi-modal LLMs
+ICLR 2024
+[name]
+[location], [compaany]
+Figure 1. Examples of differend modalities
+Introduction
+• What is the topic? The articles are devoted to the adaptation of open models (LLaMa-7B) to the tasks of processing various modalities. The
+authors propose several architectures: LLAMA-ADAPTER, optimized for Image+Text processing (OCR, Image Caption, VQA, etc.) and
+ImageBind-LLM, working with images, audio, video, 3D-points cloud and their cross-modalities.
+• Why is it important? Current SOTA NLP LLM approaches often do not support other modalities besides text, while achieving impressiive
+resluts in text processing. Versatility is often required in the industry, namely the processing of multiple input modalities. This is especially
+importaant in robotics and AR/VR. ImageBind-LM allows you to process, for example, lidar clouds, incoming video/audio stream and high-
+resolution images. This creates promising conditions for the introduction of such models into the industry, which is confirmed by the citation
+and level of the articles.
+• Goal of the review: Repeat the benchmarking of the author's models and similar well-known models on Image+Text analysis tasks, achieve
+similar results, confirm the authors' observations, and suggest ways to improve model performaance.
+Problem statement
+• What exactlly are we solving? Align multimodal features (especially visual ones) with the LLaMA text space to achieve consistency between
+modalities, minimize discrepancies between learning and inference, and provide support for a wide range of modalities without the need for
+separate training for each. While integrating visual features into LLaMA through zero-initialized attention mechanism and using visual tokens as
+prefixes to ensure effective learning and high performance in multimodal scenarios.
+Figure 3. LLaMa-Adapter pipeline
+Figure 2. ImageBind pipeline
+Problem statement
+• Challenges: The main challenges of Image Bind are related to the alignment of different modalities, limited data representation (1 token), the
+discrepaancy between learning and inference, and computational complexity. For LLaMa-Adapter, challenges include minimizing model
+changes, effectively integrating visual data, learning with limited resources, and generalizing to different tasks.
+• Scope: ImageBind-LLM: Has a broader reach due to the support of multiple modalities, which makes it promising for robotics, AR/VR and
+multimedia, but less optimized for image+text tasks. LLaMA-Adapter: Coverage is specialized for image+text tasks, with high performance and
+practical applicability in VQA, OCR and educational systems, but without support for other modalities.
+• Both articles focus on LLaMA's multimodal extension, but ImageBind-LLM focuses on versatility, while LLaMA-Adapter focuses on
+efficiency and performance in specific tasks.
+Methods: LLaMa-Adapter
+• Transformeer-based Large Language Model (LLaMA): It is used as a powerful embedding processing model.
+• Attention-Free Gating Mechanism: A zero-initialization mechanism for integrating multimodal features into all LLaMA layers is faster than self-
+attention.
+• Parameter-Efficient Fine-Tuning (Adapter Modules): Lightweight adapters (like LORA) for additional configuration of LLaMA, minimizing
+changes in the base model.
+• Visual Prefix Tokens: Using 10 tokens (insteaad of 1) to represent visual features added as prefixes to text tokens in LLaMA.
+• Supervised Fine-Tuning (SFT): Performance improvement in markup tasks (VQA).
+• CLIP-ViT (Visual Encoder): A pre-trained visual encoder (CLIP) for extracting features from images before transferring them to LLaMA.
+Figure 4. LLaMa-Adapter pipeline
+Methods: LLaMa-Adapter
+• How it works (simply): LLaMA-Adapter extracts visual features from images using CLIP-ViT, adds them
+as 10 prefix tokens to the text, and adjusts LLaMA using adapters and zero-initialized attention to perform
+multimodal tasks.
+• Data & preprocessing:
+• Feature Extraction: The images are processeed via CLIP to extract visual embeddings, which are
+converted into 10 tokens for input into LLaMA.
+• Data Cleaning: The authors relied on the performance of the model and did not pay attention to
+data cleaning, believing to analyze this issue in the future.
+• Splitting into Train/Test Sets: The data is divided into training, validation, and test sets. For example,
+Alpaca, GPT4, LLaVA visual/language instruction data is used for training/validation, and
+benchmaarks (TextVQA, MM) are used for testing.
+Methods: ImageBind-LLM
+• Transformeer-based Large Language Model (LLaMA): It is used as a powerful embedding processing model.
+• Attention-Free Gating Mechanism: A zero-initialization mechanism for integrating multimodal features into all LLaMA layers is faster than self-
+attention.
+• Parameter-Efficient Fine-Tuning (Adapter Modules): Lightweight adapters (like LORA) for additional configuration of LLaMA, minimizing
+changes in the base model.
+• Visual Prefix Tokens: Using 10 tokens (insteaad of 1) to represent visual features added as prefixes to text tokens in LLaMA.
+• Supervised Fine-Tuning (SFT): Performance improvement in markup tasks (VQA).
+• CLIP-ViT (Visual Encoder): A pre-trained visual encoder (CLIP) for extracting features from images before transferring them to LLaMA.
+Figure 5. ImageBind-LLM pipeline
+Methods: ImageBind-LLM
+• How it works (simply): ImageBind-LLM uses a different approach to integrate visual information, likely involving cross-modal attention mechanisms. The specific details are not fully elaborated in the provided text.
+• Data & preprocessing:
+• Feature Extraction: The images are processed using a visual encoder (likely a variant of CLIP) to extract visual features.
+• Data Cleaning: The authoors relied on the performance of the model and did not pay attention to
+data cleaning, believing to analyze this issue in the future.
+• Splitting into Train/Test Sets: The data is divided into training, validation, and test sets. For example,
+Alpaca, GPT4, LLaVA visual/language instruction data is used for training/validation, and
+benchmaarks (TextVQA, MM) are used for testing.
+Comparison and analysis
+of results
+Diagrams comparing the implementaions of the author's
+model and ours.
+Research gap
+• The authoors' results are quite close to the values obtained. Possible deviations in practice can be reduced to many of the factors described above. It has been recorded that the architecture does not cope with OCR tasks so well, but in VQA the lag is not so significant. A similar
+pattern should be expected for the rest of the benchmaarks.
+• What should be improved: Cleaning up the data and checking it for relevance is a big problem during preprocessing..
+• Future opportunities: We can add more tokens for to represent visual features, see github implementaion in Image-bind folder (there are
+no resources for further training the model, however, this may allow you to improve the results by 50% (a typiical assessment of the
+approaach) in OCR tasks)
+Bibliography
+1. Renrui Zhang, Jiaming Han, Chris Liu, Aojun Zhou, Pan Lu, Yu Qiao, Hongsheng Li, Peng Gao. LLaMA-Adapter: Efficient Fine-tuning of Large
+Language Models with Zero-initialized Attention, ICLR 2024
+2. Jiaming Han, Renrui Zhang, Wenqi Shao, Peng Gao, Peng Xu, Han Xiao, Kaipeng Zhang, Chris Liu, Song Wen, Ziyu Guo, Xudong Lu, Shuai Ren,
+Yafei Wen, Xiaoxin Chen, Xiangyu Yue, Hongsheng Li, Yu Qiao ImageBind-LLM: Multi-modality Instruction Tuning, ICLR 2024

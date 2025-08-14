@@ -1,0 +1,31 @@
+[name] [surname]
+To: [email]
++2 *** *** ***
+SMILES 2025
+[location]
+Applicant for the summer school of machine learning
+SMILES 2025
+Dear organizers of the SMILES-2025 Summer School,
+My name is [name] [surname], a first-year Master's student in Fundamental Informatics and Information Technologies at [university]. As a research intern at the [company], I am currently developing my Master's thesis focused on using advanced artificial intelligence techniques to reconstruct particle trajectories in high-energy physics experiments.
+My academic journey has been marked by a commitment to excellence and a strong interest in cutting-edge technology. I have been honored to represent my university at various prestigious events, including the IT Autumn School at [company], where my team won second place in the Big Data hackathon. Furthermore, I participated in a scientific Bootcamp at [company], where I applied Graph Neural Networks (GNNs) to predict quantum properties of organic molecules. This project not only laid the groundwork for my thesis but also highlighted my capacity to contribute to innovative scientific endeavors.
+Beyond academics, I am actively expanding my knowledge through the 2025 cohorts of the Machine Learning 3.0 and Algorithms 7.0 programs offered by the YOUNG&YANDEX project. These programs have deepened my understanding of key topics like Natural Language Processing, Computer Vision and Convolutional Neural Networks. I am eager to apply these skills in practical settings and learn from experts in the field.
+I am also interested in volunteering during the school. My experience as an international student in [location] has equipped me with skills in organizing activities and solving logistical challenges, enriching my ability to support multicultural events effectively. I have actively participated in various IT schools, honing skills in producing multimedia content and solving unforeseen challenges.
+The SMILES-2025 Summer School is an exceptional opportunity to further my academic training and sharpen my research capabilities. Given my background in applying AI techniques to high-energy physics experiments, I believe I can bring a unique perspective to discussions and collaborative projects. Choosing me for the SMILES-2025 Summer School would enrich the program with my unique blend of skills and experiences, empowering me to contribute meaningfully while learning from my peers and mentors.
+Thank you sincerely for your consideration. I look forward to the possibility of contributing to and growing through the enriching experience at the SMILES-2025 Summer School.
+Sincerely,
+[name] [surname]
+Professor [surname] [name]
+Doctor of Science in Physics and Mathematics
+Principal Researcher, [company]
+Laboratory of Information Technologies
+[company]
+[location], [location], 141980, [location]
+To whom it may concern,
+I met [name] [surname], an [location] student of the People's Friendship University of Russia, during his participation in the Fall IT School in October 2024 organized by the [company] in [location]. Then, I was also his supervisor during his two-week pre-degree internship held at the [company] Information Technology Laboratory. During our cooperation he showed an independent and purposeful approach to the task given to him, the successful results of which he reported at the ITTMM-25 conference in March this year.
+His work during the internship, especially in the task on the use of graph neural networks to predict molecular properties of organic compounds, showed a clear understanding of both theoretical and practical aspects of the topic. At my request, he also assisted another student working on a similar assignment, helping him to understand and complete the task.
+Due to [name]'s success in solving the test problem given to him and his obvious interest in the subject, I suggested him to continue our collaboration on the current task of applying graph neural networks to reconstruct particle tracks in the SPD experiment at the NICA collider.
+Based on his demonstrated potential in machine learning, I recommend [name] as a worthy candidate for full-time participation in the SMILES 2025 Summer School.
+Sincerely,
+Prof. [surname] [name]
+Principal Researcher, [company]
+12 .04.2025

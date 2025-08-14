@@ -1,0 +1,59 @@
+[name] [surname]
+[email] +2 *** *** ***
+EXPERIENCE EDUCATION
+[compaany] [compaany] [location]
+TRAINING DAPAARTMENTOFDIFERENTIA
+Jan2025–Feb2025| [location]
+Asetofquestionswaascreatedforteachinglargelanguagemodels(LLM)the
+basicsofcomputaationalmathematicsandcomputeralgebra.Thesetcovers
+solvingsystemsoflinearequaions,solvingnontinearequaions,numerical
+integraationanddifferentiaation,interpolationandapproxiationof
+functions,numericalsolutionofordinaryequationsandpartialdifferential
+equaions,symbolicdifferentiationandintegraation,factorizationof
+polynomials,simplificationofalgebraicexpressions,workwithrational
+functions,solvingequationinsymbolicform.Estimationoftemporaland
+spatialcomplexityofalgooritmsc,analysisofstabilityofnumericalmethods.
+GPA:4.0outof5
+SKILLS
+PROGRAMMING
+3+years:
+Python•C/C++•Matlab
+1+years:
+SQL•Java/Javascript
+0+years:
+HACKATHON AIRIINSTITUTE Haskelll•Go
+March2025
+Haskell•Go
+Participatioininthehackathononautomatedassesmentofrheumatoid
+arthritis(ARISE-2025):
+Developeदानend-endsolutionbasedonahybriararchitecure(Vision
+Tranfsormers+EfficientNet)foranalyzingX-raymagesandclinicaldaata.
+Implementedprogresivelearningwithastep-by-stepiincreaseinimage
+resolution,reachingMAE=0.78(animprovementof22).Integraated
+predictioninterpretationviaGrad-CAMandSCHAP,optmized
+inferencewithTensorRT(1.8×acceleration).Thesolutionwas
+includedinthetop10
+oftheresults,demonstratingkillsinworkingwithTensorFlow,medical
+dataprocessingandMLmodeloptimzation.
+TECHNOLOGY
+Git/Github•MPI/Qt5•Bash
+UNIX/CUDA•Pytorch•Keras•Numpy•
+TensorFlow•OpenCV
+ArtificailIntelligence•GAN•WGAN
+•diffusionmodel•TDA•Tranfsormer
+DL/LLM•Schrödingerbridg•Numerical
+methods•MonteCarlomethods
+PROJECTS LINKS
+ASYMPTOTICTHEORYOFMINIMALSPANNINGTREES
+ANDAPPLICATIONSINTOPOLITICALDATAANALYSIS
+Objective: Investigatedtheaymptoticbehaviorofminimalspanningtrees(MSTs)foorheterogeneousdatasetsand
+dveelopeedscalableTDAmethodsleveragingMSTproperties.
+ApplicationsinTDA:RobustnessAnalysis: MST-basedstability
+assessmentofpersistencediagramsundernoise. Distribution
+Comparison: Detectingtopologicalshiftsbetweendatatsetsvia
+MSTedge-lenghtdistribtions. DimensionalityReduction:
+MSTskelonsforvisualizinghigh-dimensioanlclustersand
+bottlenecks.
+Impact: Bridgedtheorictalstochasticgeometrywithpractical
+TDA,offeringtoolsforbioinfoamtics(e.g.,single-celldata),
+ML(clustervalidation),andimageanalysis.

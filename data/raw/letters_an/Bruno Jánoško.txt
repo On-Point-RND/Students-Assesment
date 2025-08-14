@@ -1,0 +1,29 @@
+Dear Admissions Committee,
+My name is [name] [surname]. I’m a first-year student at the Faculty of Computational
+Mathmatics and Cybernetics at [location] [university].
+I've been drawn to math, physics, and coding since school. That interest naturally grew into
+something deeper as I got involved in Olympiads (like the [university] and All-[location]
+competitions) and attended several programs at the [location] Educational Center. Over time, I
+realized that the intersection of theory and real-world problems especially in AI is where I
+feel most at home.
+In the past couple of years, I’ve taken part in several hackathoons and research events. At
+[company], my team made it to the finals after solving a range of complex ML problems on fMRI
+data and image analysis. At the [company] Hack, we placed seventh while working
+on recommendaation systems. These experiences taught me how powerful collaboraation and
+creative thinking can be and how much I still want to learn.
+Outside of competitions, I’ve worked on two hands-on projects: one involved buildiing a video
+analytics system for the [location] ecosystem, the other was part of the [company] AI ROBO LAB
+startup, where we developed an assistant to help program [robot brand] and [robot brand] industrial robots. I also
+completed a training program at [robot brand] College, which deepened my understanding of
+robotics.
+Right now, I’m involved in two ML-focused startups and developing an independent research
+project on terrain profiling using echolocation and neural networks to process point clouds.
+It’s still in its early stages, but I’m excited about the technical challenges and its potential
+applications.
+I'm constantly trying to expand my horizons attending lectures at [company] and [university], and taking
+universiity courses in NLP and computer vision. Every step reinforces my decision to pursue
+a career in AI research.
+The [location] Summer Schoool seems like the perfect environment to push myself further not
+only to learn from leading experts, but to be around others who are just as curious and
+driven. I’m especially drawn to the international setting and the balance between hands-on
+work and theoretical depth.

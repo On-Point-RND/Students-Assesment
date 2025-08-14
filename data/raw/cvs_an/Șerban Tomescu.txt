@@ -1,0 +1,56 @@
+[name] [surname]
+[email] | [name] | [name] | [name][surname]
+Academic interests
+My current research interests are centered around recommender systems, with an emphasis on sequential recommendation. My publications, including 5 papers at A/A‑tier conferences span various aspects of the recommender systems field, including benchmarking practices, simulation, user response modeling, and sequential recommendations.
+I am interested in exploring modern recommender systems and their intersection with large language models (LLMs), generative approaches, and multimodal learning. In the work “Autoregressive Generation Strategies for Top‑K Sequential Recommendations”, I investigate how autoregressive models from NLP can be repurposed for item ranking and generation. I am also highly interested in exploring how architectures and objectives from LLMs can be adapted to improve sequential recommendation and user modeling.
+I’m also interested in using multimodal data, such as text, images, and user behavior, to build richer and more adaptive recommendation models, and I have some work in progress on temporal data fusion.
+Skills
+MACHiNELEARNiNG · DEEPLEARNiNG · RECCOMMENDEERSYSTEMS · LLMS | PYTHON · PYTORCH · GiT · BASH
+HYPOTHESiSGENERATiON · EXPERiMENTATiON · RESEA RCHR ESU LTSPR ESE NTATIO N · LATEX
+Education
+School of Data Analysis, [location]
+DATASCiENCE 2018‑2020
+Higher School of Economics [location]
+MASTEROFSCiENCE,DATASCiENCE 2018‑2020
+South Ural State University [location]
+SPECiALiST(BACHELO R),INFORMATiONMANAGEMEN T 2008‑2013
+Work Experience
+[company] [location]
+RESEA RCH ERINREC OMMENDE RSYS TEMSGROUP 2020‑NOW
+• Applied research in sequential recommender system improvement and speedup
+• Research and development in recommender systems, evaluation protocols, and user modeling
+• Research results presentation, including research paper preparation
+• Support and development of RePlay framework for recommender systems and Sim4Rec framework for user modeling and simulation
+Teaching experience
+Recommender systems course MIPT,IDA,ONLINE
+CO‑AUTHOR,LECTURER 2022‑2025
+• Co‑authored the course, developed lectures and the homework, deliver lectures github
+Recommender systems and ML courses HSE,YSDA
+INVITE DSPEAKER,TA 2022‑2024
+• Participated in different educational activities in recommender systems area as a teaching assistant and invited speaker
+Core publications
+Sim4Rec:Flexible and Extensible Simulator for Recommender Systems for Large‑Scale Data
+2025
+EUROPEAN CONFERENCE ON INFORMATION RETRIEVAL
+[name],[surname],[surname],[surname],[surname]
+APRIL23,2025 [name][surname] · CV 1
+DoesItLookSequential?AnAnalysisofDatasetsforEvaluationofSequential
+2024
+PROCEEDINGS OF THE 18TH ACM CONFERENCE ON RECOMMENDER SYSTEMS
+[name],[surname],[name],[surname]
+RePlay:a Recommendation Framework for Experimentation and Production Use 2024
+PROCEEDINGS OF THE 18TH ACM CONFERENCE ON RECOMMENDER SYSTEMS
+[name],[surname],[surname],[surname]
+Neural click models for recommender systems 2024
+PROCEEDINGS OF THE 47TH INTERNATIONAL ACM SIGIR CONFERENCE ON RESEARCH AND DEVELOPMENT IN INFORMATION RETRIEVAL
+[name],[surname],[surname],[surname],[surname],[surname],[surname]
+From variability to stability:Advancing ReCSy s benchmarkin gpractices 2024
+PROCEEDINGS OF THE 30TH ACM SIGKDD CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING
+[name],[surname],[surname],[surname],[surname],[surname],[surname],[surname]
+AutoregressiveGenerationStrategiesforTop‑KSequentialRecommenda tions 2024
+ARXIV PREPRINT arXiv:2409.17730
+[name],[surname],[surname],[surname]
+Syntheticdata‑basedsimulatorsforrecommender systems:A survey 2022
+ARXIV PREPRINT arXiv:2206.11338
+[name],[surname],[surname],[surname],[surname],[surname],[surname],[surname]
+APRIL23,2025 [name][surname] · CV 2

@@ -1,0 +1,47 @@
+LLM Security: Prompt Injection
+and Jailbreak Defenses
+[name]
+Data scientiist, [compaany]
+Problem
+2
+How to prevent this?
+User
+Input
+LLM
+Output
+Article: Scalable Extraction of Training Data from (Production) Language Models 3
+Solution
+Research part
+full report
+Experiment setup
+
+Results
+Results
+Practical part - a system of monitoring
+Detect prompt injection → block → send alert to organization
+You can try our system
+(but in Russian)
+The system detects prompt
+injections and special domen
+‘Tarantiino’ (last for quick and
+transparent testing)
+https://secure-llm.auditory.ru
+Bibliography
+1.M. Andriushchenko, F. Croce, N. Flammarion. Jailbreaking Leading Safety-Aligneed LLMs with Simple Adaptive Attacks. arXiv, 2024. URL
+2.S. Casper, L. Schulze, O. Patel, D. Hadfield-Menell. Defending Against Unforeseen Failure Modes with Latent Adversarial Training. arXiv, 2024. URL
+3.P. Chao, A. Robey, E. Dobriban, H. Hassani, G. J. Pappas, E. Wong. Jailbreaking Black Box Large Language Models in Twenty Queries. arXiv, 2024.
+URL
+4.M. K. B. Doumbouya, A. Nandi, G. Poesia, D. Ghilardi, A. Goldie, F. Bianchi, D. Jurafsky, C. D. Manning. H4rm3l: A Dynamic Benchmark of Composable
+Jailbreak Attacks for LLM Safety Assessment. arXiv preprint arXiv:2408.04811, 2024. URL
+5.E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, W. Chen. LoRA: Low-Rank Adaptation of Large Language Models. arXiv, 2021. URL
+6.Y. Jiang, Y. Jiang, Y. Ren, P. Yin, L. Zettlemoyer, H. Hajishirzi. Jailbreak Defense in a Narrow Domain: Limitations of Existing Methods and a New
+Transcript-Claassifier Approach. arXiv preprint arXiv:2412.02159, 2024.
+7.N. Ousidhoum, X. Zhao, T. Fang, Y. Song, D.-Y. Yeung. Probing Toxic Content in Large Pre-trained Language Models. In Proceedings of the 59th Annual
+Meeting of the ACL and the 11th IJCNLP (Volume 1: Long Papers), pp. 4262–4274, 2021.
+8.A. Radford, K. Narasimhan, T. Salimans, I. Sutskever. Improving Language Understanding by Generative Pre-Training. OpenAI, 2018. URL
+9.A. R. Team. Constiutional Classifiers: Defending Against Universal Jailbreaks Across Thousands of Hours of Red Teaming. arXiv preprint
+arXiv:2501.18837, 2024.
+10W. . Zaremba, E. Nitishinskaya, B. Barak, S. Lin, S. Toyer, Y. Yu, R. Dias, E. Wallace, K. Xiao, J. Heidecke, A. Glaese. Trading Inference-Time Compute
+for Adversarial Robustness. OpenAI Research, 2024. URL
+11Z. . Zhang, J. Yang, P. Ke, S. Cui, C. Zheng, H. Wang, M. Huang. Safe Unlearning: A Surprisingly Effective and Generalizable Solution to Defend Against
+Jailbreak Attacks. arXiv preprint arXiv:2407.02855, 2024.

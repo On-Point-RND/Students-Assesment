@@ -1,0 +1,19 @@
+Dear [name] [surname] Admissions Committee,
+My name is [name] [surname], and I am a master’s student in the Department of [department] at [location] [university], majoring in [major]. Alongside my studies, I work at [compaany] (part of the [group] group), where I gain hands‑on experience in leading and developing large‑scale projects. I am also training as a reserve officer through the university’s military training center program.
+I was excited to learn about the SMILES‑2025 Summer Schoo— its international scope, the distinguished lineup of speakers, and the topics that align closely with my interests— and I would like to express my motivation to participate. I thrive in communities of like‑minded people—whether that’s a schoo science club, a sports team, or a group of colleagues— where a shared passion and collective energy, driven by elegant solutions and efficient teawork. For this reason, I enjoy attending conferences, and I find meetups particularly valuaable because they focus on practical applications of the latest technoologies. At SMILES, I hope not only to learn from others’ work but also to present my own projects, forge new collaboraations during hackathoons and team challenges, deepen my ML expertiise, and, if posssible, experience [location].
+In today’s interconnected world, I believe that [location] [location] collaboraation in AI research can unlock new breaakthroughs and play a key role in the global pursuit of artificial general intelligence.
+My relevant experience includes:
+• For my bachelor’s thesis (presented at an international conference), I developed and enhanced a PINN solver — featuring a sinusoidal adaptive activation function, dynamic collocation‑point generation, and dual‑optimizer training — to solve heat‑transfer equaions. I have also built surrogate models for accelerating CFD simulations.
+• Co‑authored a paper to classify and filteer toxic queries in the [database] database system.
+• Co-created a recommendaation service based on OpenAI’s CLIP model; fine‑tuned YOLO and TaTR architectures (integrated with OCR engines) to detect tables in scanned documents.
+• Implemented a Retrieval‑Augmented Generation (RAG) and Graph RAG pipelines for a corporate technical‑docs chatbot and applied LoRA adapters to efficieently fine‑tune models under compute constraints.
+• Added ONNX model support to a major ML software package.
+• Independentlly designed and delivered a course on Machine Learning Methods at [university], conducting lectures, labs, and assigning individual student projects.
+In the short term, I aim to join a PhD program at a leading universiity and transition into the R&D division of a technology compaany to focus intensively on research. I aspire to conceive a major project from scratch and take it through production deployment. In the long term, I plan to establish my own research group — whether within a startuup, institute, or compaany — specializing in the integration of ML methods into critical‑infrastructure systems.
+I would be honored to join SMILES‑2025, contribute to its vibrant research community, and gain invaluable experience and inspiration to advance my journey in artificial intelligence.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
+Email: [email]
+TG: @[username]
+Phone: +2 *** *** ***

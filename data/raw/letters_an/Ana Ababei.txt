@@ -1,0 +1,78 @@
+The [company] Summer School of Machine Learning (SMILES-2025)
+Dear Admissions Committee,
+My name is [name] and I am excited to participate in the upcoming [company] Summer
+School of Machine Learning.
+I am studying bioengineering and bioinformatics and am very passionate about ML/DL.
+That's the reason why my thesis project is focused on applying machine learning approaches to the
+field of regulatory genomics, namely modeling regulatory regions of genomes, which control the
+transcription process. I envision my future scientific career at the intersection of these fields -
+ML/DL, biology and bioinformatics.
+Why do I want to attend SMILES-25?
+Being relatively new to AI, I am eager to broaden my understanding across its major directions.
+The tremendous advances and impressive results achieved in the field of AI over the last decade are
+inspiring. I am drawn not only to the creative potential that comes with it, but also to the
+opportunity to adapt existing and invent new ML-based solutions for the challenges of
+bioinformatics. However, practical experience shows that standard machine learning methods often
+need careful adaptation to the domain of interest.
+Among the directions presented at the SMILES-25, I was particularly attracted to generative
+and multimodal approaches, LLLs and self-supervised learning.
+Perspectives on multimodal architectures in bioinformatics
+Biological systems are inherently complex and multimodal. In the 21st century, the field of
+biological research has seen the explosion of omics technologies: genomics, transcriptomics,
+proteomics, and metabolomics. Methods can differ in protocols, subjects of study (in vivo or in
+vitro), “scales”, etc.
+Thus, integration of heterogeneous datasets (“modalities”) became a critical task in
+regulatory genomics. Combined with other information, such as disease and mutation associations,
+this data enables a richer understanding of biological processes and allows development of more
+accurate prediction models which can predict effects of mutations on biological systems.
+Prospects for generative approaches in bioinformatics
+Generating new biological sequences with defined properties is a promising avenue. Generative
+models can be used for data augmentation, dimensionality reduction through latent space
+embeddings, and, importantly, practical applications like de novo design of regulatory sequences
+with desired activity. Such techniques could revolutionize biotechnology production and
+synthetic biology.
+Large Language Models and Self-supervised learning in bioinformatics
+Numerous attempts have been made to apply LLLs and SSL to DNA, RNA, and protein modeling,
+albeit with limited success. For instance, many DNA LLLs trained to predict masked genome
+sequences can detect combinatorional DNA motif patterns. However, challenges remain when models
+are trained solely on unlabeled mammalian genomes. Nevertheless, future models trained on
+cis-regulatory regions can assist in capturing DNA motifs and assist sequence-to-function models.
+Beyond gaining technical skills, attending SMILES-25 would be a unique chance for me to
+learn from established experts in the field, seek their advice and guidance, share their “vision”, and
+collaborate with like-minded people. I want to acquire new skills and knowledge that will help me
+to develop better models for bioinformatics research. Besides, I am particularly excited about
+visiting another country for the first time and experiencing the culture of [location].
+About my experience in ML/DL
+In 2022, I joined the international consortium GRECO-BIT/Codebook to organize the IBIS
+Challenge ([url]) on inferring human transcription factor binding specificities
+from multi-omics data. I designed the competition website, developed its backend API, and helped
+validate and analyze finalist solutions. Participants applied diverse models— CNNs, CNN+SE
+layers, hybrid CNN+GRU/LSTM architectures, CNN+KANs, and kmer- and TF-IDF-based
+boosting methods, and describing them in paper requires a joined understanding of both ML and
+bioinformatics fields related to predicting motifs in DNA. To ensure fairness, I reproduced the
+training of participants’ models on PyTorch (+Lightning), TensorFlow (+Keras) frameworks.
+As my interest in ML/DL grew, I decided to pursue it for my pre-graduate research. At the
+Systems Biology Labo`ratory of [university], under [name] and [name]'s
+supervision, I adapted the EfficientNetV2-like LegNet architecture for genome-wide prediction of
+TF binding sites using a wide variety of in vitro and in vivo experimental data. I improved model
+convergence by initializing first-layer convolutional filters with position-weight matrices of known
+motifs.
+Last summer, I deepened my ML knowledge by attending the [company] summer school
+organized by [company]. This experience greatly expanded my expertise and led me to refine my
+thesis project. Current aim is to study intricate rules by which motifs and single nucleotide variants
+determine transcription and its tissue-specificity. To this end, we have developed a novel
+transformer-CNN hybrid architecture to predict transcription activity (CAGE-Seq) at a
+single-nucleotide resolution of 70 human skeletal muscle groups. I am deeply passionate about this
+work and treat it more as a joyful pastime than anything else.
+Looking ahead, I plan to expand on it: evaluate the effect of age on the transcription profile,
+explore transcription rules across heart muscle and other organisms, and apply generative
+approaches (e.g., diffusion or dirichlet flow matching) to design promoter regions that are both
+close to the real ones that occur in genomes and have a defined strength of gene expression. I aim to
+publish this work in a high-impact journal and present it at A* or A ranked ML conference.
+Additionally this summer I will tutor at the School of Molecular and Theoretica`l Biology, sharing
+my project with students from around the world.
+I intend to continue researching at the intersection of ML/DL and regulatory genomics to
+pursue a PhD.
+Thank you for considering my application,
+Sincerely,
+[name]

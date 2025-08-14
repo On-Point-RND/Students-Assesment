@@ -1,0 +1,83 @@
+[name] [surname]
+[location], [compaany]
+
+Multimodal Approaches for Automated Mapping in Sports Orienteering
+
+Introduction
+
+Using multimodal data (satellite imagery, LiDAR, text) to generate maps.
+Why is it important?
+Manual map creation is labor-intensive and subjective.
+Automation improves accuracy and adaptability.
+Review goal:
+Analyze state-of-the-art methods (CVPR, NeurIPS, ICML) for orienteering applications.
+
+
+
+Problem statement
+
+What are we solving?
+Low detail in trails and terrain.
+Dynamic environmental changes (seasons, obstacles).
+Route personalization.
+Challenges:
+Modality gap (satellite ↔ ground-level data).
+Lack of annotated datasets.
+
+
+
+Cross-modal Map Learning for Vision and Language Navigation
+Approach:
+Transformer with cross-modal attention (ResNet + BERT).
+Training on egocentric maps.
+Data: Matterport3D, VLN-CE.
+(CVPR 2022)
+GitHub: https://github.com/ggeorgak11/CM2 
+
+
+
+Coming Down to Earth: Satellite-to-Street View Synthesis (NeurIPS 2021)
+Approach:
+GAN + polar transformations for street-view synthesis.
+Joint training of synthesis and geolocalization.
+Results: PSNR ↑ 15% on CVUSA/CVACT.
+Code: https://github.com/aysiim/comingdowntoearth 
+
+
+
+Terrain Diffusion Network (ICML 2023)
+Approach:
+Diffusion model + geological sketches.
+Multi-scale noise suppression.
+Data: NASA topography.
+Code: https://github.com/DmitryRyumin/AAAI-2024-Papers/blob/main/sections/2024/main/601_800.md 
+
+
+
+Results
+
+Key findiings:
+Cross-modal Learning: Navigation accuracy ↑ 20% (VLN-CE).
+Satellite-to-Street: Photorealistic synthesis (SSIIM > 0.8).
+TDN: Superior terrain quality vs. GAN (FID ↓ 30%).
+Metrics:
+Accuracy (R@k), PSNR, FID.
+
+
+
+Research gap
+
+Limitations:
+Limited real-time processing.
+Weak adaptation to extreme conditions.
+Future opportunities:
+Federated learning for privacy.
+Integration with AR navigation.
+
+
+
+Cross-modal Map Learning for Vision and Language Navigation [name], [surname], [name], [surname], [name], [surname], [name], [surname] Universiity of Pennsylvania CVPR 2022
+Coming Down to Earth: Satellite-to-Street View Synthesis for Geo-Localization [name], [surname], [name], [surname], [name], [surname] Technical Universiity of Munich NeurIPS 2021
+Terrain Diffusion Network: Climatic-Aware Terrain Generation with Geological Sketch Guidance Zexin Hu1 , Kun Hu1 , Clinton Mo1 , Lei Pan2 , Zhiyong Wang1 1The Universiity of Sydney 2Civil Aviation Flight Universiity of China ICML 2023
+
+Bibliography

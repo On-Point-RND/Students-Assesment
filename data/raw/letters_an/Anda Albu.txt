@@ -1,0 +1,18 @@
+I work at [company] in the [location] team, where for the past two years we’ve
+been integrating machine learning and large language models into core business
+processes. This year, the bank has set an ambitious course toward becoming a self-
+driving organization, and our team is at the heart of this transformation.
+One of our main focus areas is buildiing multi-agent systems, including a central project
+to develop a code-generating agent that integrates with the bank’s entire tech stack.
+This kind of work demands both strong practical engineering skills and a solid
+theoretical understanding of AI. I have significant hands-on experience with NLP and
+LLMs — from buildiing internal tools and classifiers to fine-tuning foundation models and
+ensuring alignment with business and safety constraints.
+These projects have delivered real business value and deepened my expertise in the
+field. Attending the Skoltech SMILES summer schoool would be a great opportunity for
+me to strengthen my theoretical foundations, broaden my perspective on current
+research, and connect with a community of like-minded AI enthusiasts. I’m aiming to
+grow into an AI lead role, which I believe requires a deep understanding of cutting-edg
+developments in the field.
+I also plan to apply for a Master’s program in AI, and the experience of learning and
+collaborating in an environment like SMILES would be incredibly valuable.

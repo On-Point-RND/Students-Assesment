@@ -1,0 +1,34 @@
+[name] [surname]
+[location]
+Born: December 19, 1996
+My name is [name] [surname]. I became fascinated with palynology—the science of pollen and spores—during my third year at universiity, and since then, all of my scientific work has been connected to this field. Frequent fieldwork in northern [location] and Western [location], along with attempts to understand long-term vegetation dynamics beyond the [location] Mountains, have become my scientific routine. However, scientific research today also demands processing large datasets, and therefore, automation and the application of machine learning are necessary components of modern research—mine included.
+Education:
+2014–2018: Bachelor’s degree at [location] [university], Faculty of Natural Sciences, major in “Phytology.”
+Thesis: “Reconstruction of Holocene vegetation dynamics using palynological analysis and the biomization method (based on the study of the [location] peatland).”
+2018–2020: Master’s degree in Biology at [location] [university].
+Thesis: “Reconstruction of vegetation and climate dynamics during the Holocene on the eastern slope of the Polar [location] based on palynological data from a relict peatland.”
+2020–2024: Ph.D. program in Biology at [location] [university].
+Dissertation: “Vegetation history of Trans-[location] during the Holocene and Late Pleistocene based on palynological analysis.”
+In 2019, I joined the international group DIMA (Developing Innovatiive Multi-proxy Analysis), which showed me the importance of collaboration in producing truly impactful research.
+Professional Experience:
+Since 2018: Institute of Plant and Animal Ecology, [location] Branch of the Russian Academy of Sciences ([compaany]), Laboratory of Phylogenetics and Biochronology.
+Since 2020: Lecturer at [location] [university], teaching courses such as “Introduction to Biology and Ecology,” “Advanced Field Practice: Paleoecology,” and “Dating Methods in Archaeology and Anthropology.”
+Since 2024: Lecturer at [location] [university], teaching the course “Biological Methods in Archaeology.”
+Key Achievements:
+The surface pollen spectra I collected for my master’s research became part of the large EMPD 2.0 database ([name] [surname] et al., 2020). Collaboration with an algologist allowed us to obtain the first comprehensive data on algae and pollen from MIS 5 in Western [location] ([name] [surname], 2023). The integration of Holocene pollen spectra data with solar insolation records enabled several interesting conclusions ([name] [surname] et al., 2020).
+I am also the author of a chapter in the monograph "Academic History of [location]" ([name] [surname], 2024).
+To address the issue of unavailable commercial analytical standards, I developed a method for creating them using a neural network for object recognition ([name] [surname], 2025). The patent is currently under review (No. 2024139136). I was a contributor to two RFBR grants and one ongoing RSF grant (No. 22-14-200332). To solve the problem of unavailable analytical standards, I developed a method for creating such standards using a neural network for object recognition ([name] [surname], 2025). Patent under review: No. 2024139136.
+I have participated in numerous specialized conferences and have been a permanent member of the organizing committee for the annual youth conference "ECOLOGY: Facts, Models, Hypotheses." Since 2025, I have served as the Chair of the Council of Young Scientists at the Institute of Plant and Animal Ecology, [location] Branch of the Russian Academy of Sciences.
+As for my skills in machine learning: I retrained a YOLOv8 model to recognize plant spores in microphotographs. For model training, I utilized the computing resources of the “Uran” supercomputer, which gave me experience working with computing clusters. I possess a basic skill set for preparing training datasets and writing scripts to obtain routine results for scientific analysis. For my own research purposes, I developed a pollen and spore counter — the project is available on GitHub: https://github.com/[name] [surname]/ArsCounter. I am also familiar with tools such as LM Studio, Huggingface, Roboflow, and Google Colab at a begiinner level.
+I plan to apply machine learning knowledge directly in scientific practice, as biology — especially many of its classical branches — still requires both optimization of routine tasks and new approaches for analyzing increasinglly large datasets. There is a strong need for automated pollen grain recognition, automatic counting of micro-charcoal particles, and the development of models to detect patterns in vegetation distribution and global environmental change.
+Key Publications:
+[name] [surname] et al. (2020). The Eurasian Modern Pollen Database (EMPD), version 2. Earth System Science Data Discussions.
+[name] [surname], [surname] (2023). Late Pleistocene flora of the [location] site from palynological and algological data (Western [location], [location]). Problems of Botany of Southern [location] and [location], 22(1), 90–96. (In Russian)
+[name] [surname] et al. (2020). Effect of insolation variations on vegetation in the Eurasian subarctic during the Holocene. IOP Conf. Ser.: Earth Environ. Sci., 438(1), 012012.
+[name] [surname] et al. (2024). Justification of the Age of Sands with Middle and Late Quaternaary Theriofaunal Complexes in the Lower [location] River near the Village of [location] (Northwestern [location]). Stratigraphy and Geological Correlation, 32(2), 144–160.
+[name] [surname] et al. (2020). New stratigraphic data for the [location] region based on the results of pollen analysis in the Holocene. INQUA SEQS 2020, 50.
+Academic History of [location]. Ed. R. G. [surname]. Volume 1: Ancient [location]. [location]: News of [location] Publishing, 2024. (In Russian)
+[name] [surname] (2025). Production of standards for absolute concentration method in palynological analysis using artificial intelligence. Turczaninowia, 28(1), 28–34. DOI: 10.14258/turczaninowia.28.1.3 (In Russian)
+
+
+

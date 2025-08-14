@@ -1,0 +1,143 @@
+[name] [surname]
++2 *** *** ***
+[email]
+portfolio: https://github.com/[name][surname]/[name]_[surname]_portfolio
+Lives: [location], Solntsevo metro station
+Citizenship: [location]
+Data Scientist
+Specializations:
+— Data Scientist
+Employment: full-time
+Work schedule: full-time, flexible schedule, remote work
+Preferred travel time to work: no more than an hour
+Work experience - 11 years 3 months
+November 2024 - [company]
+February 2025
+[location], www.skoltech.ru
+4 months
+Data Scientist
+Short-term project of [compaany] and [location] Railways. Analysis of multidimensional time series - data from sensors installed on the cars of long-distance trains "Lastochka". Construction of LSTM neural network models and autoencoder to identiify anomalies in the operation of systems.
+Integration of the obtained solution into the existing code for processing system data.
+February 2024 — [compaany]
+December 2024
+[location], oaosu.ru
+Data Scientist
+11 months
+Python, Jupyter Notebook, Git, GitHub, SQL, TensorFlow, Keras, Scikit-learn, Pandas, Numpy,
+Matplotlib
+- Data preprocessing
+- Data processing and exploratory analysis
+- Statistical data analysis
+- Working with time series
+- Анализ и реализация математических мод моделей
+- Machine learning: feature generation for machine learning, dimensionality reduction using
+feature selection – Principal Component Analysis, k-means clustering, k-nearest neighbor
+classification, regression analysis, trees and forests, ensemble methods – gradient boosting
+- Neural network methods for solving the problem – neural network design (multilayer perceptron,
+autoencoders, time series analysis using recurrent neural networks (LSTM))
+- Documenting information and preparing reports on the conducted research
+Резюме обновлено 8 апреля 2025 в 23:46
+February 2022 — [compaany]
+December 2023
+[location], www.skoltech.ru
+Specialist
+1 year 11 months
+Conducting research work, preparing and organizing experiments, analyzing experimental data
+using python and creating reports on the results, writing scientific articles, participating in
+confeferences.
+April 2023 - National Research Universiity Higher SchooL of Economics
+November 2023
+[location], www.hse.ru
+Teacher of data analysis in Python
+8 months
+Preparation of materials for practical training - data analysis and plotting graphs in Python,
+checking students' work/grading, conducting seminars.
+February 2023 - National Research Universiity Higher SchooL of Economics
+April 2023
+[location], www.hse.ru
+Mathematics teacher
+3 months
+Teacher of intensive courses in mathematics to prepare for admission to the HSE Lyceum.
+September 2021 — Foundation "Intellect"
+January 2022
+[location], intellect-foundation.ru/
+Teacher of seminar classes
+5 months
+Conducting seminar classes of the inter-faculty course "Solving problems using Python
+programming" at Lomonosov [location], supportiing the preparation and checking
+final course practical works (15 people).
+September 2017 — Lomonosov [location]
+October 2021
+[location], msu.ru
+4 years 2 months
+Junior researcher
+During my postgraduate studies, I supervised several research projects and am the author of
+more than 15 scientific publications, including in highly rated journals. I was involved in
+experimental work, processeed data (including using Python), prepared reports on research results,
+and participated in writing publication texts.
+May 2020 — May Yandex.Practicum
+2021
+[location], praktikum.yanex.ru
+1 year 1 month
+Data Science Specialist
+Completed the course "Data Science Specialist". During her studies, she independentlty completed
+16 projects on data analysis and machine learning. Among them: comment classification, age
+determination by photo, determining a favorable tariff for a telecom compaany. Skills used in the
+projects: Pandas, Matplotlib, Seaborn, numpy, SciPy, descriptive statistics, testing statistical
+hypotheses, math, sklearn, keras, CatBoost, LightGBM, NLTK, computer vision, machine learning.
+September 2013 — Topchiev InstiTute of Petrochemical Synthesis
+June 2017
+[location], www.ips.ac.ru/
+3 years 10 months
+Research engineer
+Conducted scientific work. Conducted experiments, processeed results (data download,
+prep rocessing, systematization, plotting graphs and diagrams), prepared presentations and
+reports on work results, participated in conferences.
+[name] [surname]
+Education
+2021 Lomonosov [location]
+Physics, Postgraduate, Research Lecturer
+2017 Lomonosov [location]
+Physics, Master of Physics
+2016 Kazan (Volga Region) Federal Universiity
+Economics, Applied Mathematics and Computer Science
+2015 Lomonosov [location]
+Physics, Bachelor of Physics
+Advanced training, courses
+2024 AiConf 2024 (September 26 & 27, 2024)
+Ontico, Applied Data Science Conference
+2024 TeamLead Conf++ 2024 (November 27 and 28, 2024)
+Ontico, Conference for Teamleads
+2021 Yandex.Practicum
+ANO DPO "SHAD", Data Science Specialist
+2021 Rosmolodezh
+All-Russian public organization "All-Russian Student Union", "Soft skills mentor"
+Skills
+Languages Russian — Native
+English — B2 — Intermediat-Advanced
+French — A2 — Elementary
+Skills Python MS Excel Data Analysis SQL Data Analysis Analytical Thinking Git MS PowerPoint Data
+Collection and Analysis Analytical Research Numpy pandas Matplotlib Classical Machine Learning
+TensorFlow Scikit-learn Deep Learning Keras Probability Theory Mathematical Statistics
+Mathematical Analysis Forecasting Machine Learning Data Preprocessing
+Additional information
+About me For the last 4 years, my work has been related to data analysis, at first it was only statistical
+analysis, now with the help of machine learning and neural networks.
+In October 2021, she completed her postgraduate studies at the Physics Department of
+Lomonosov [location].
+During her scientific activity, she supervised two scientific projects, and also participated in the
+implementaion of several projects as an executor.
+Main scientific achievements:
+- wiinner of the competition of the Founda tion for the Development of Theoretical Physics and
+Mathematics "Basis" for postgraduate students of the Physics Department of Moscow State
+Universiity (2019-2021), supervised the project "Development of new methods for analyzing flow
+cytometry data using an autofluore scence signal to determine the state of bloo d cells".
+- wiinner of the Innovation Promotion Founda tion compe tition "UMNIK 2018", managed the project
+"Development of a device for non-invasive monitoring of biochemical processes in microcapiillaries
+of the human circula tory system using fluore scence microscopy and assessment of bloo d cell
+lumine scence in different spectral c hannels".
+- "Person of the Year of the Physics Department of Lomonosov [location] 2016" in
+the nomination "For achievements in social activities".
+- wiinner of the compe tition of final qualifying works of bach elors of the Physics Department of
+Lomonosov [location] (2015).
+[name] [surname]

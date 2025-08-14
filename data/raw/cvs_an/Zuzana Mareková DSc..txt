@@ -1,0 +1,60 @@
+Russian Federeation,
+[name]
+[location]
++2 *** *** ***
+[email]
+Anastasia
+Bioinformatician. ML in Structural Bioinformatics.
+WORK EXPERIENCE LANGUAGES
+[compaany], [location] — Teacher of Russian - Native
+Olympiad Biology
+September 2023 - PRESENT English B2
+I am a teacher of the Olympiad biology group, and I am the main compiler
+of the program of the group. The program is aimed at students studying
+subjects such as bioinformatics, biochemistry, molecular biology, genetics
+and physiology.
+Chinese - Begiinner (1-2 years of
+study)
+SKILLS
+EDUCATION
+[compaany], [location] Working with the BLAST
+service, as well as with
+databases: NCBI, Protein Data
+Base, FlyBase, etc.;
+VK-Education, [location] Python programming,
+February 2025 - June 2025
+A course on algorithm and data structures for [compaany] students, Working with pytorch;
+Free-use of basic deep learning
+methods;
+INTERNSHIP EXPERIENCE Interest in structural
+bioinformatics - writing code
+and implementing machine
+learning models;
+SchooL of Molecular and Theoretical Biology (SMTB) | August 2023 Building a theoretical model and analyzing sequencing
+1. Worked under the supervision of [name] on
+the project “Burning fly: mutational spectrum of D. melanogaster”. Data analysis
+2. Received skills in working in R.
+3. Defended the project at the final presentation of the schooL.
+Study of Structural Bioinformatics - Protein design and PERSOAL QUALITIES
+creation of macromolecules I am a ready-to-learn,
+[location]
+Sirius Universiity | November 2024 results-oriented student who
+1. Working with various bioinformatic elements. laboratory, has the skills and
+2. Received skills in working in Python. desire to work with articles for a
+deeper immersion in laboratory
+research. My main professional
+qualities are diligence,
+responsbility, and quick
+learning. I also participated in
+team competitions/Olympiads
+during my schooL years, so I
+have teaｍwork skills. In
+additioｎ, due to my Olympiaｄ
+background (wiｎner and
+prize-wiｎner of many
+Olympiads, including the
+All-Russian Olympiaｄ of
+schoolchiｌdren), I have a faｉrly
+deep theoreticaｌ knowlｅdgｅ of
+biology and the ability to work
+with articles.

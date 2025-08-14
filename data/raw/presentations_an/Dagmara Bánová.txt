@@ -1,0 +1,37 @@
+
+
+•
+•
+•
+•
+•
+•
+•
+•
+
+Factor Analysis for Loan Demand Prediction
+
+minimizes via sequential minimizes
+conjugate direction search via simplex deformations
+•
+•
+•
+•
+
+− −
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+•
+•
+• →
+•
+•
+•

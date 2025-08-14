@@ -1,0 +1,137 @@
+[name] [surname]
+Student, [location] [university]
+Junior Software Development Engineer, [compaany]
+
+Reproduction of the results of the article
+“FINCON: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making”
+
+Introduction
+
+A Synthesized LLM Multi-Agent Framework
+Conceptual verbal reinforcement
+Financial tasks
+
+Introduction
+
+Why is it important?
+High volatility and complexity of markets
+Need for intelligent risk management
+Maximize profit while managing present market risks
+Enhance investment returns and address the limitations of human decision-making
+Achieve optimal decision-making performance
+
+Introduction
+
+Why is it important?
+Mimicking real-world firm structures
+Efficient teamwork among agents
+Risk management
+Generalizing across financial tasks
+
+Introduction
+
+Goal of the review:
+
+Reproduce the results of the article
+
+
+
+Problem statement
+
+What exactly are we solving?
+Improving the quality of sequential investment decisions in financial markets.
+Enhancing risk management in volatile market conditions.
+Optimizing teamwork and communication among agents in financial decision-making systems.
+Adapting financial decision-making systems to handle multi-asset portfolios.
+
+
+Challenges:
+Inefficient teamwork of agents
+Inadequate risk control
+Limited adaptability of multi-agent systems
+Information overload of agents
+Absence of a clear optimization objective
+
+Scope:
+Single stock trading
+Portfolio management
+Enhancing risk management using CVaR and verbal reinforcement mechanisms
+Improving the integration of multi-modal market data to make informed trading decisions
+
+Methods
+
+Approach:
+Large Language Models (LLMs)
+Multi-Agent System (MAS)
+Conceptual verbal reinforcement
+Conditional Value at Risk (CVaR)
+Textual gradient descent
+Mean-variance optimization
+
+Methods
+
+LLMs: reasoning, planning, and decision-making capabilities, human-like communication and flexible structures
+MAS: real-world investment firms' hierarchical structure
+Conceptual verbal reinforcement: iteratively improving reasoning and decision-making
+CVaR: quantification of investment risks
+Textual gradient descent: optimization of policies in a verbal reinforcement manner
+Mean-variance optimization: determination of the portfolio weights for all stocks by considering the statistical correlations between stock returns
+
+Methods
+
+How it works:
+LLMs: use pre-trained knowledge to understand and generate human-like text for reasoning and decision-making;
+MAS: multiple agents with specific roles collaborate to solve complex tasks, improving efficiency and reducing workload;
+Conceptual verbal reinforcement: translates experiences and outcomes into actionable insights that reinforce future decisions;
+CVaR: measures the expected loss in the worst-case scenarios, helping to manage and mitigate risk;
+Textual gradient descent: Fine-tunes the LLM prompts based on performance feedback to optimize decision-making;
+Mean-variance optimization: balances expected returns with risk to determine optimal portfolio weights.
+
+Methods
+
+Data & preprocessing:
+Data collection: multi-modal market data, textual news, financial reports, audio from earnings calls, and tabular time series data
+
+Cleaning data: filtering out market noise to extract key insights
+
+Feature extraction: analyst agents extract insights and sentiments from textual data, interpret investment signals from audio data, and compute financial metrics from tabular data
+
+Results
+
+Key findings of the article:
+FINCON enhances performance in both single stock trading and portfolio management tasks;
+The dual-level risk control mechanism effectively manages market risk and improves trading performance;
+The manager-analyst hierarchical structure improves the quality of decision-making while reducing communication costs;
+Conceptual verbal reinforcement contributes to the efficiency and effectiveness of the framework.
+
+Results
+
+Metrics used:
+Daily Profit & Loss (PnL) as the reward function (indicates the immediate profitability of the trading decisions)
+Conditional Value at Risk (CVaR) for risk management (quantifies the expected loss during adverse scenarios)
+Cumulative trading reward to measure the overall performance of the system (balancing profit with risk)
+Sharpe Ratio (measures risk-adjusted return, a higher Sharpe ratio suggests better performance)
+
+
+Results
+
+https://github.com/AnnaW21/FINCON
+
+Results
+
+January 3, 2022 - June 10, 2022
+March 23, 2025 - April 23, 2025
+
+Results
+
+January 3, 2022 - June 10, 2022
+2025-03-23 - 2025-04-23 None
+January 3, 2022 - June 10, 2022
+
+Slide 18
+
+[name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] W. Suchow, [name] [surname], [name] [surname], [name] [surname], [name] Zhang, [name] [surname], [name] [surname], [name] Xiong, [name] He, [name] Huang, [name] Li, [name] [surname]. FINCON: A Syntheized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Makin. NeurIPS, 2024
+
+*f7ae4fe91d96f50abc2211f09b6a7e49-Paper-Conference.pdf
+
+Bibliography

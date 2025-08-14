@@ -1,0 +1,99 @@
+MATHEMATICAL MODELING AND
+PROCESSSING OF OBSERVATIONAAL DATA OF
+THE LAKE [location] PLANKTON COMMUNITY
+[name]
+[compaany]
+1
+Relevance
+It has been establiished that the planktonic community produces up to 50% of all oxygen
+in the Earth's atmosphere.
+Szulejko J.E., Kumar P. «Global warming projections to 2100 using simple CO2 greenhouse gas modeling and
+comments on CO2 climate sensitivity factor.» // Atmospheric Pollution Research, 8(1). 2017. pp.136-140. 2
+The purpose of the work
+1) To conduct a study of the time series of the plankton community based on chaos
+theory.
+2) Identification of the best model for predicting the volume of the plankton community
+in the future (Holt-Winters model, ARMA, ARIMA, SARIMAX, LSTM).
+3) To identify the relationship between different types of plankton and to build food
+relationships between different species of the plankton community of [location].
+4) To study the mathematical model of the pelagic community of the Lake [location]
+ecosystem.
+3
+2 types of plankton were selected for the study
+4
+Chaos theory and data Analysis (Lyapunov Exponent)
+Alan Wolf, Jack Swift, Harry L. Swiinney, John Vastano. «Determining Lyapunov exponents from a time» series //
+Physica D: Nonlinear Phenomena. 1985. 16 (3), pp.285– 317.
+5
+Chaos theory and data analysis (Numerical calculations)
+The number of
+max eigenvalue
+View Hearst indicator Sample entropy points that can be
+Lyapunov
+predicted
+KOD 6 VER_GR_0 0.064 0.87 0.040 24.45
+KOD 2 VER_GR_50 0.008 0.85 0.018 53.78
+6
+Forecasting the volume of the plankton community in the
+future.
+7
+Forecasting the volume of the plankton community in the
+future (ARMA, ARIMA, SARIMAX)
+8
+Forecasting the volume of the plankton community in the
+future (LSTM)
+9
+Forecasting the volume of the plankton community in the
+future (Holt-Winters model)
+10
+Forecasting the volume of the plankton community in the
+future
+We will use the relative error as an assessment of the quality of the model.
+11
+Forecasting the volume of the plankton community in the
+future COD 6 (depth 0-10 m)
+Comparison of errors of different COD 6 models (depth 0-10 m)
+Model Relative error
+ARMA 0.896
+SARIMAX 0.908
+ARIMA 0.913
+LSTM 1.108
+Holt-Winters 1.151
+12
+Forecasting the volume of the plankton community in the
+future KOD 2 (depth 50-100m)
+Comparison of errors of different KOD 2 models (depth 50-100m)
+Model Relative error
+Holt-Winters 0.537
+SARIMAX 0.553
+ARIMA 0.579
+LSTM 0.603
+ARMA 0.632
+13
+Identification of the relationship between different species of
+plaankton and the construction of food relationships between
+different species of the plankton community of [location]
+14
+Identification of the relationship between different species of
+plaankton and the construction of food relationships between
+different species of the plankton community of [location]
+15
+Modeling of the pelagic community of the Lake [location]
+ecosystem
+[name], [surname], [surname].
+«Моделирование пелагического сообщества экосистемы озера байкал» // ЖВТ. 2011. №1
+16
+Conclusion of the work
+1) A study of the time series of the plankton community based on chaos theory has been
+conducted.
+2) The volume of the plankton community was predicted for 24 and 53 weeks ahead for
+the two plankton species under consideration and a model was identified that gives a
+minimum error in forecasting for each plankton species under consideration.
+3) Correlaations between different types of plankton are revealed and the nutritional
+relationships between different species of the Lake [location] plankton community are
+consideered.
+4) A mathematical model of the pelagic community of the Lake [location] ecosystem is
+consideered.
+17
+Thanks for your attention!
+18

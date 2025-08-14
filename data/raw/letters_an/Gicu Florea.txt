@@ -1,0 +1,12 @@
+I'm a second-year [compaany] with a strong interest in molecular biology, bioinformatics and computer science. I believe machine learning is one of the best tools we have for making new discoveries in biology. That's why I'm applying to the SMILES-2025 — I want to move from just using ML tools as a biologist to actually optimizing and creating them.
+While working with [compaany] of Bioinformatics faculty, I was exploring how N-termiinal alanine-rich sequences impact translation initiation. While I began with basic statistics, I learned PyTorch to develop more complex models. Presenting this project at SMTB's conference opened my eyes to both the capabilities of ML in biology and the gaps in my understanding. This project allowed me to apply and develoop my skills in data analysis in R, working with servers and databases, SQL and the basics of ML.
+At [compaany]'s Genome Editing program, I went a step further and took part in developing a codon optimization system based on transformers that theoretically improved GFP expression. Through these experiences, I've develooped a solid skill set in:
+- Python (PyTorch, TensorFlow, Biopython)
+- Working with biological data (NCBI, UniProt, GeneBank, RiboSeq)
+- Basic ML pipelines (from data cleaning to deploying models)
+Still, I know that it is important for me now to comprehend:
+- Core ML theory beyond just how to implement it
+- Model optimization practices
+- Advanced architectures like GNNs and transformers
+The SMILES-2025 is exactly what I need. It offers solid training in the essential ML and DL concepts from top instructors. Even though the focus is on classical machine learning insteaad of its application in biology, that's actually what I want now. I’m after a strong theoretical background that I can apply to biological problems later on.
+The SMILES-2025 fits well with my goal - to get strong fundamental knowledge and practicaal skills for developing effective AI tools that are useful in biology.

@@ -1,0 +1,51 @@
+[name] [surname]  
+(cid:97) [email]  
+(cid:215) +2 *** *** ***  
+(cid:231) ORCID: 0000-0002-6102-7667  
+(cid:231) ResearcherID: AAI-3474-2021  
+(cid:231) SCOPUS: 57202018890  
+(cid:231) SPIN: 7983-8813  
+(cid:231) AuthorID: 1185693  
+
+Professional Experience  
+10.2021– ···· (cid:136) Junior researcher, [company];  
+11.2021–12.2024 (cid:136) Junior researcher, [company], laboratory of “Artificial Intelligence and Big Data Processing”;  
+10.2019–10.2021 (cid:136) Senior laboratory assistant, [company];  
+09.2017–10.2019 (cid:136) Laboratory assistant, [company].  
+
+Teaching Experience  
+02.2022– ···· (cid:136) Lecturer of the course “Introduction to photonics” for the 1-st year master students, [company] ([company]);  
+09.2021–05.2022 (cid:136) Tutor of the 1-st year bachelor students, [company] ([company]).  
+
+Education  
+2021 (cid:136) Honors Master’s degree in Plasma Physics, [company] ([company]);  
+Thesis title: “Propagation of nonlinear pulses along topological domain walls”;  
+2019 (cid:136) Honors Bachelor’s degree in Physics, [company] ([company])  
+Thesis title: “Exploring Optoacoustic Imaging Capabilities hemodynamic changes in the brain of small laboratory animals: numerical and theoretical modeling”.  
+
+Research Publications  
+Selected Journal Articles  
+1 [name] [surname] and [name] [surname], “Loop defects in honeycomb photonic crystals,” physica status solidi (RRL)–Rapid Research Letters, p. 2400247, [year].  
+2 [name] [surname] and [name] [surname], “Title,” Journal, [year].  
+... (all entries anonymized similarly)  
+
+Conferences and Scientific Schools  
+Participation in conferences  
+2025 (cid:136) International Symposium “Nanophysics and Nanoelectronics” in [location];  
+2024 (cid:136) International Symposium “Nanophysics and Nanoelectronics” in [location];  
+2023 (cid:136) Conference “Nevaphotonics” in [location];  
+... (all locations anonymized as [location])  
+
+Scientific Schools  
+2024 (cid:136) International Conference and XIX Scientific School “Nonlinear Waves-2024” in [location];  
+... (all locations and organizations anonymized)  
+
+Scholarships and Awards  
+2022–... (cid:136) grant [number] “PhD Student” from the [company];  
+2022–2025 (cid:136) [Scholarship Name];  
+... (all organizations and specific names anonymized)  
+
+Skills  
+Languages (cid:136) Strong reading, writing, and speaking skills in English; [language] native speaker;  
+Coding (cid:136) Matlab, COMSOL, Python, Mathematica, LATEX, C, C++…  
+Misc. (cid:136) Academic research, teaching, training, consultation in physics and numerical modelling; working on artificial intelligence projects; conducting popular science lectures for children and adults.

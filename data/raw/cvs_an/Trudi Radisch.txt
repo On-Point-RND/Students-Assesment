@@ -1,0 +1,41 @@
+[name] [surname]
+[email]
++2 *** *** ***
+[location]
+[name]
+[location]
+[compaany]
+[email]
+
+EXPERIENCE LIFE PHILOSOPHY
+Developer of machine learning systems “Thereisonlyonethingthatmakesa dream impossible to achieve: the fear of failure.”
+NanosemanticsLaboratory
+[location]
+July 2023–Ongoing
+• Training various models for CVtasks(ML,DL), developing neural network architectures(TensorFlow,Keras,PyTorch,scikit-learn);
+• Developing software applications using neural networks and ML Python ML PyTorch DL CV algorithms;
+• Backend and frontend development(Django,FastAPI);
+• Working with edge devices(OrangePi,RaspberryPi), model quantization and conversion for edge deployment, developing lightweight model architectures and pipelines;
+• ContainerizationusingDocker; Spark SQL BigData REST
+• Research tasks and exploratory work;
+• Mentoring junior specialists;
+• Data work: analysis, collection, preprocessing, and some experience with BigData(Hadoop,Spark).
+English
+Korean
+French
+EDUCATION
+Graduated with honors from the Digital Department of RTU MIREA with a specialization in "Software Solutions for Applied Artificial Intelligence Problems". Completed theoreti cal and practical training courses "Algorithm Training" 2.0 and 3.0 at RTU MIREA Yandex. Served as one of the organizers for the "Leaders of Digital Transformation" hackathon.
+Myskills:
+• Development and training of models for detection, classification, and tracking tasks in computer vision;
+• Full-stack development(webservices, application development and containerization);
+• Building systems using classical machine learning algorithms(scikit-learn);
+• BigData analysis(Spark,Hadoop,Hive);
+• Experience working with LLMs, including their training(RL,SFT);
+• Using Git for version control and Jira for workflow organization;
+• Experience building recommendation systems and working with NLP models;
+• Programming experience in C++ and Java for academic projects.
+
+PAPERS
+• 2024:"Application of Artificial Intelligence Technologies for Network Traffic Analysis" /Proceedings of the 3rd Scientific-Practical Conference of RTU MIREA
+• 2025:"Tuning LLMs in Secure Code Generation" /International Symposium on Neural Networks (ISNN)
+• 2025:"Optimal Hyperspectral Undersampling Patterns for Satellite Imaging" /Space: Science&Technology (American Association for the Advancement of Science, AAAS)

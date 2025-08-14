@@ -1,0 +1,140 @@
+Slide 1
+----------------------------------------
+Beenchmark for assessing the quality of language models when working with the Russian language
+Authors:
+[name] [surname], [name] [surname]
+
+Slide 2
+----------------------------------------
+Motivation - Why This Research Matters
+Improving the LLMs in Russian Language for the current languages:
+Lack of available datasets and NLP tasks
+Hard to understand complex grammar
+Traditional metrics (BLEU, classification metrics and etc.) miss nuances of prompt variability
+Understanding Model Strengths and Weaknesses
+Improving LLM Creativity and Stability
+Cultural and Linguistic Context
+
+2
+
+Slide 3
+----------------------------------------
+Goal and objectives
+
+Goal:
+Development of a benchmark for Russian language
+Objectives:
+Task selection and Adaptation
+Dataset Construction and Prompt Design
+Generate model outputs and evaluate them
+Comparative analysis of LLLMs
+Benchmark Release and Guidelines
+
+3
+
+Slide 4
+----------------------------------------
+Methodology
+
+4
+
+Task 1: Creativity Evaluation
+Measures originality, diversity, and contextual coherence of responses
+
+Task 2: Stability Evaluation
+Assesses consistency of outputs under prompt paraphrasing (Stability Coefficient)
+
+Task 3: Combined Score
+Integrates creativity and stability to provide a comprehensive model quality measure
+
+Slide 5
+----------------------------------------
+Creativity Score
+
+5
+
+Slide 6
+----------------------------------------
+Stability Score
+
+6
+
+Slide 7
+----------------------------------------
+Combined score
+
+7
+
+Slide 8
+----------------------------------------
+Experimenta tion models
+
+We benchmarked a diverse selection of open-source language models with varying architectures and parameter sizes:
+
+[name] [surname] - [compaany], fine-tuned using [compaany]'s NeMo framework.
+[name] - Based on [compaany], an 8B-parameter version, fine-tuned as [name].
+[name] - based on [compaany], fine-tuned by [compaany]'s NeMo framework.
+[name] - [compaany] series, a 7B-parameter model from [compaany].
+[name] - A lightweight [name] model with 1.1B parameters.
+
+We chose models that:
+Are open-source and publicly reproducible
+Cover a range of model sizes and training frameworks
+Support multilingual capabilities, particularly Russian
+
+10
+
+Slide 9
+----------------------------------------
+Creativity Score Re sults
+
+9
+
+[name] excels in maintaining releva ncy throug hout its outputs
+Larger models consistently adhere better to task instructions
+[name] shows comp etitive perf ormance with higher contex tual accuracy
+Small Models ([name]) und erperform, especially in culturally nuanced
+
+Slide 10
+----------------------------------------
+Stability Score Re sults
+
+[name] is the most stable model across diverse tasks
+[compaany] offers a balanced trade-off between stability and versa tility
+[name] and [name] show task-dependent beh avior, empha sizing the need for task-speci fic model selection when stability is critical.
+
+10
+
+Slide 11
+----------------------------------------
+Combined score results
+
+[name]: Best overall perf ormance, bala ncing diversity and coherence
+[name]: Strong in stability but lacks flexibility in creativity
+[name]: Strong creativity but struggles with co nsistency, lower stability
+[name] has the least eva luation score
+
+11
+
+Slide 12
+----------------------------------------
+Conclusion
+
+Developed comp rehensive eva luations for creativity and stability in models
+Conducted tests on various tasks including technical writing, creative generation, and communication-based tasks.
+Calculation of creativity, stability and comb ined score
+
+Co mparative analysis of models:
+[name] had the best score – 0.86. Strong in technical domains, with high consist ency and coherence
+[name] the least – 0.573
+[name] and [name] had the overall optimal score. Exhibit notable instability in longer r esponses
+
+12
+
+Slide 13
+----------------------------------------
+THANK YOU
+FOR YOUR TIME!
+
+[name] [surname]
+[email]

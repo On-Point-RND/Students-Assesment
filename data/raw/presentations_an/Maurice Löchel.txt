@@ -1,0 +1,65 @@
+USING RECCOMMENDATION
+SYSTEMS FOR CROSS-DOMAIN
+DATA
+Background
+Problem
+Low correlation between two domains will impact the performance of
+recommendaation system models.
+Main Goal
+Conduct a study to mathematically calculate the metrics of the CDIMF model
+on two completely different domains.
+Novelty
+Demonstrate that even the most advanced models will have low metrics on
+domains with low correlation, using the example of the CDIMF model
+deweveloped by [compaany] researchers.
+Methods
+Problems:
+Cold start problem (lack of data on new users/items)
+Data sparsiity (few user interactions)
+Domain inconsistency (different rating scales, user behavior patterns)
+Solution:
+Knowledge transfer between domains to improve predictions
+Methods
+In cross-domain implicit matrix factorization models, the overall
+loss function includes three components:
+- reconstruction error for each domain
+- Regulraization of latent factors
+- Penalty for deviation of local factors from global
+ensures consistency across domains.
+Methods
+With thematic proximity of domains, matrices P (1) and P (2) are
+correlated, which affects the latent factors X (k) and Y (k) to be more
+easily matched through Z.
+Thus, the overall error is reduced. Accordiingly, we hypothesize that
+with low covariance of latent features, the loss function will increase.
+Results
+Let's consider hypothetical domains D1 and D2 with latent space dimension d=2, as well as 2
+scenarios of different covariance - high and low.
+With high covariance 0.7 in domain Xu(1) = [0.8,0.2] and domain Xu(2) = [0.75,0.25], the penalty ρ =
+0.0025 (where ρ is a hyperparameter), and the loss function is 0.0025. With low covariance 0.1, the
+penalty ρ = 0.25, and the loss function is 0.2824.
+• High covariance (0.7):
+Covariance Level Error
+Error: 0.0025
+High (0.7) 0.0025
+• Low covariance (0.1):
+Low E(0rr.1o)r: 0.2824 0.2824
+Conclusion:
+Recommendaation quality depends on domain similarity
+Accordiingly, the hypothesis about low-correlating domains is confirmed by the increase in error.
+Results
+The practical application of this hypothesis is that the domains
+[location] - [location]
+[location] - [location]
+will show more relevant products to the user than the domains
+[location] - Cooking
+Conclusions
+Models that perform well in one domain may show poor performaance in
+another due to differences in latent factors.
+Low feature correlation between domains leads to an increase in prediction
+error (reconstruction error).
+Experiments with the CDIMF model confirmed that with high covariance
+(0.7), the error is minimal (0.0025), whereas with low covariance (0.1), it
+increases to 0.2824.
+The best results are achieved on thematically related domains ([location] –
+[location], Phones – Electronics).

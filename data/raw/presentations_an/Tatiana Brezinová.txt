@@ -1,0 +1,134 @@
+            
+Problem Statement
+Dynamic Environments:
+Rapidly evolving user preferences
+Continuous catalog expansion (new items)
+Challenges:
+Full retraining is computationally expensive
+Transformers (e.g., SASRec [5]) cannot handle catalog growth
+Cold-start degrades performance
+Time
+Model SASRec update, full model retraining Model
+1 t
+ISASRec dynamic adaptation,
+Model Model more frequent updates Model Model
+1 2 t − 1 t
+Figure: Comparison of incremental and full retraining approaches for the SASRec model.
+A is a user-item interaction matrix.
+MariaRozaeva MTMLLab,AIRI April20,2025 2/11
+Background: Sequential Recommendaions for Quality
+Core Problem
+Predict the next item in sequence s = (i ,i ,...,i )∗ where:
+u 1 2 t
+i ∈ I (catalog of items)
+k
+|I| grows dynamically (unlike NLP’s fixed vocabularies)
+Transformer Adaptation
+Key Limitation:
+(SASRec):
+E cannot expand for new items
+Self-attention over item
+embeddings Full retraining needed when
+I → I′
+Positional encoding for temporal
+order Naive approach (random
+embeddings for new items)
+Fixed embedding table
+E ∈ R|I|×d causes NDCG drop
+∗Canbeinterpretedasanexttokenpredictiontaaskinlanguagemodeling
+MariaRozaeva MTMLLab,AIRI April20,2025 3/11
+Background: Matrix Factorization for Dynamic Updates
+SVD-Based Embeddings [8, 2] Incremental Update Methods
+Factorize interaction matrix: PSI Algorithm [6, 9]:
+Fast updates for new interactions
+A = USV⊤
+Maintains low-rank structure
+Item embeddings: VSp
+Col-Row Adder [1]:
+Fixed latent dimension Adds new users/items
+d ≪ |I| Avoids full SVD recomputaion
+Key Advantages Over Standard Embeddings
+Computational Efficiency: Updates in one pass compared to multiple
+epochs in full retraining
+Stability: Built-in regularization prevents overfitting
+Adaptability: Seamless handling of catalog growth
+Our Solution
+Replace embeddings in SASRec with dynamically updatable SVD factors
+MariaRozaeva MTMLLab,AIRI April20,2025 4/11
+Key Idea: Decoupled Learning
+Separation of Concerns
+Reprresentation Learning
+(b)Proposed embeddings
+(SVD): Input User History with adaptable size
+(a)Original SASRec 4 11 1 7 9 Matrix factorization
+Lightweight embedding layer model
+incremental updates lo L o e k a u r p n a ta b b le Embedding Layer
+Handles new
+users/items
+Stable latent space
+Logits
+Prediction (SASRec): SASRec' Transforme
+Fixed architecture Embedding Layer
+Processes stable
+embeddings
+No retraining needed
+⇒ Faster updates compared
+to full retraining
+...
+Input Embeddings:
+Model Outputs:
+Figure: Embbedding variants: (a) Standard
+fixed-size (SASRec); (b) Adaptive-size (ISASRec).
+MariaRozaeva MTMLLab,AIRI April20,2025 5/11
+Data Preparation & Experimental Setuup
+Datasets:
+Train Test
+ML-1M: 1M movie ratings [3] Sub-Train
+B re e v e ie rA w d s v [ o 7 c ] ate: 1.4M beer u u u u 1 2 3 4 ValidP O T e e r n i s o e t d - Incre Te m s e t ntal
+Behance: 546K art likes [4]
+u5
+P1 P2 P3 P4
+global Time
+timepoint p periods
+Figure: Data splitting methodology incremental testing pipeline
+Quality progression under different time budgets comparing ISASRec against full SASRec retraining on ML-1M (left) and BeerAdvocate (right) datasets.
+MariaRozaeva MTMLLab,AIRI April20,2025 9/11
+Conclusion & Future Directions
+Key Contributions:
+ISASRec Architecture:
+Decouples representation learning (SVD) from prediction (SASRec)
+Enables faster updates compared to full retraining
+Theoretical Insights:
+Low-rank embeddings provide free regularization
+Stable performaance in overparameterized regimes
+Evaluation Framework:
+Time-based incremental testing pipeline
+Future Work:
+Extend to other sequential architectures
+Quality improvement
+Tensor models support
+MariaRozaeva MTMLLab,AIRI April20,2025 10/11
+References I
+[1] Brand,M.(2002). Incrementalsingularvaluedecompositionofuncertaindatawithmissingvalues. In
+Heyden,A.,Spaarr,G.,Nielsen,M.,andJohansen,P.,editors,ComputerVision—ECCV2002,pages
+707–720,Berlin,Heidelberg.SpringerBerlinHeidelberg.
+[2] Frolov,E.andOseledets,I.(2019). Hybridsvd: Whencollaborativeinformationisnotenough. In
+Proceedings of the 13th ACM conference on recommender systems,pages331–339.
+[3] Harper,F.M.andKonstan,J.A.(2015). Themovielen datasets: Historyandcontext. Acm
+transactionsoninteractiveintelligentsystems(tiis),5(4):1–19.
+[4] He,R.,Fang,C.,Wang,Z.,andMcAuley,J.(2016). Vista: A visually,socially,andtemporally-aware
+modelforartisticrecommendation. InProceedings of the 10th ACM Conference on Recommender
+Systems,RecSys’16.ACM.
+[5] Kang,W.-C.andMcAuley,J.(2018). Self-attentivesequenentialrecommendation. In2018IEEE
+internationalconferenceondatamining(ICDM),pages197–206.IEEE.
+[6] Lubich,C.andOseledets,I.V.(2014). Aprojector-splittingintegratorfordynamicallow-rank
+approximation. BITNumericalMathematics,54(1):171–188.
+[7] McAuley,J.,Leskovec,J.,andJurafsky,D.(2012). Learningattitudesandattributesfrommulti-aspect
+reviews. In2012IEEE12thInternationalConferenceonDataMining,pages1020–1025.IEEE.
+[8] Nikolakopoulos,A.N.,Kalantzis,V.,Gallopoulos,E.,andGarofalakis,J.D.(2019). Eigenerc:
+generalizingpuresvdforeffectiveandefficienttop-nrecommendations. KnowledgeandInformation
+Systems,58:59–81.
+[9] Olaleke,O.,Oseledets,I.,andFrolov,E.(2021). Dynamicmodelingofuserpreferencesforstable
+recommendations. InProceedings of the 29th ACM Conference on User Modeling,Adaptation and
+Personalization,pages262–266.
+MariaRozaeva MTMLLab,AIRI April20,2025 11/11

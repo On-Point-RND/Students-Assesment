@@ -1,0 +1,132 @@
+Autoregressive Generation Strategies for Top-K Sequential
+Recommendations
+[name]
+ML Researcher / [company]
+Introduction
+Timeline
+[name]
+Recommendations
+?
+Timeline
+[name]
+• Sequential recommendations: an order of interactions matters
+Problem statement
+From next-item to Top-K for offlinne/nearline recommendation pipeline with a
+single model
+Standard next-item recommendation task
+?
+Timeline
+Top-K with autoregressive prediction
+? ? ?
+Timeline Top-K future items
+Scope: propose new strategies of autoregressive
+generation for Top-K Sequential Recommendaions
+Method: Backbone
+Transformer decoders such SASRec are SOTA for production
+recommender systems and a backbone for a various modern
+generative recommendation models.
+SASRec:
+SASRec (Self-Attentive Sequential Recommendation)
+● GPT-like
+● Transformer Decoder
+● item = token
+● Next token prediction task
+GPT-2 (our backbone):
+● Only architecture (no
+language pre-training, item
+= token)
+● Architecturally close to
+SASRec
+● Generation approaches
+from HuggingFace
+Transformers out of the box
+Kang, Wang-Cheng, and Julian McAuley. "Self-attentive sequential recommendation." 2018 IEEE
+international conference on data mining (ICDM). IEEE, 2018.
+Methods:
+simple strategies
+Top-K prediction approach: To apply the model to a known user’s interactions
+sequence, get the model scores for next-item and recommend the Top-K items
+Autoregressive generation
+Greedy decoding: Greedy decoding, or greedy search, selects the
+most probable item as the next item of a sequence
+Beam search: Beam search with B beams, where B is known as
+the beam width, leaves top-B most probable sequence continuations
+at each generation step.
+Temperature sampling:The next item is randomly chosen according to its conditional probability
+distribution. Softmax temperature tuning may be used to modify probability
+distribution
+Methods:
+applying “ensembling”
+Problems:
+- error accumulation during generation
+- standard approaches do not outperform baseline for a significant part of datasets
+Solution: apply multi-sequence aggregation
+- train a single model
+- generate N sequence continuations with this model
+- aggregate somehow to reduce generation error on a longer prediction horizon and improve
+quality
+Methods:
+multi-sequence aggregation (RRA)
+Reciprocal Rank Aggregation strategy
+(RRA):
+(1) Generate sequence continuations
+of length 𝐾 with temperature
+sampling. Repetition of already
+generated items at subsequent
+generation steps is prohibiited.
+(2) Each item in the generated
+sequence is assigned relevance
+equal to an item’s reciprocal
+position. The relevance of the
+remaining items is 0
+(3) Aggregate by summing up scores
+Methods:
+multi-sequence aggregation (RA)
+Relevance Aggregation strategy (RA):
+(1) Generate sequence continuations
+of length 𝐾 with temperature
+sampling. This time we allow the
+model to predict already generated
+items and keep predicted
+relevances for all items on each
+generation step 𝑘.
+(2) Each item in the catalog is
+assigned relevance equal to the
+sum of its relevances at each
+generation step.
+(3) Aggregate by summing up scores
+Experimental settinings
+Data & preprocessing: We filter out users with fewer than 20 interaction records, we also
+discaard unpopuular items with less than five interactions.
+Split: We hold the last 𝑁 items of each user interaction sequence for validation and testing
+with 𝑁 = 10. All previous interactions are used for training. Data with the last 𝑁 items is further
+split into validation and test set randomly by users.
+Metrics: For performa performance evaluaion, we use three commoonly used ranking metrics:
+Normalized Discounted Cumulative Gain (NDCG@10), Recall@10, and Mean Average
+Precision (MAP@10)
+Results
+Key findiinings:
+- We found that commoonly used single-sequence autoregressive generation
+strategiies such as greedy, beam search, and temperature sampling do not
+usually outperform the baseline, Top-K prediction approach. However, the
+autoregressive generation strategies show higher performa performance in predicting
+longer-term user preferences.
+-
+- Next, we found that contradictory to NLP tasks, greedy decoding outperforms
+temperature sampling and beam search.
+Results
+- Proposed multi-sequence aggregation approaches, Reciprocal Rank
+Aggregation strategy and Relevance Aggregation strategy, outperform
+single-sequence generation and Top-K prediction approaches.
+Results
+- Obtained results are statistically significant
+Research gap
+Limitations in current approaches:
+• Multi sequence aggregation lead to increased computaional costs
+• Proposed approaches are not sufficientlly theoretically substantiated
+Future opportunities:
+Development of novel aggregation strategies, including modification of beam search to outperform
+greedy approach, speculaive decoding application
+Links
+Paper (under review in User Modeling and User-Adapted Interaction journal, Q1)
+Code

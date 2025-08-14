@@ -1,0 +1,108 @@
+[name]
+ Practical experience in the development and application of artificial neural network models for processing large amounts of data, in classification, segmentation, regression and generation tasks
+ 2 years of work experience
+ I have a high level of empathy and communication skills
++2 *** *** ***
+[email]
+My GitHub
+[location]
+KEY COMPETENCIES:
+ Extensive knowledge in ML, DL, mathematical statistics  Experience in the development, testing and implementation
+ Experience working with PyTorch, OpenCV, Sklearn, of proprietary architectures of artificial neural network Numpy Pandas frameworks models
+ High proficiency in the Python programming language  Experience in working with generative and diffusion models
+ Proven B2 English language proficiency  Experience working with Git
+ Good knowledge of C++, SQL, HTML, CSS programming  Experience in markup and data preparation languages
+WORK EXPERIENCE:
+September 2022 – August 2024.
+Scientific and educational center NEVOD
+National Research Nuclear University "MEPhi"
+http://www.nevod.mephi.ru/ru/
+Lab assistant
+Optimization of the process of processing experimental data from scientific and physical installations.
+AREAS OF RESPONSIBILITY:
+ Markup and preparation of data and datasets
+ Development of neural network architectures for the task of classification of events registered by a scientific-
+physical installation
+ Development of neural network architectures for regression tasks (determination of the number of quasi-
+parallel muon tracks in an elementary particle detector)
+ Analysis and quality control of implemented neural network models
+ACHIEVEMENTS:
+ The method of processing experimental data of the scientific and physical installation has been optimized.
+Human input is completely excluded, previously all data was processed by operators.
+ A classification accuracy of 95% has been achieved.
+ The accuracy of determining the multiplicity of particles in the events of the scientific and physical installation
+was achieved FWHM = 1 particle, STD = 0.81
+ A scientific article was published in the journal "Nuclear Physics and Engineering" on the topic "Determination
+of the multiplicity of muons in DECOR events using deep machine learning methods"
+ Winner of the XI International Youth Scientific School-Conference "Modern Problems of Physics and
+Technology"
+ Participation in 2 scientific conferences with the publication of abstracts.
+Lab assistant
+Database design.
+AREAS OF RESPONSIBILITY:
+ Construction of ETL processes for the allocation and formation of databases that have worked simultaneously
+with scientific and physical installations.
+ Development of Database architectures
+ACHIEVEMENTS:
+ A new database based on the MongoDB database management system has been created
+ Combined data from 3 large-scale scientific and physical installations
+ It is possible to conduct research of elementary particles simultaneously at several installations
+ Participation in a scientific conference with the publication of abstracts
+Lab assistant
+Native application development.
+AREAS OF RESPONSIBILITY:
+ Development of a native application with an interface for calculating the thermodynamic properties of liquid and
+steam.
+ACHIEVEMENTS:
+ The application has facilitated the learning process for students of the National Research Nuclear University
+“MEPhi”
+ Automated method for calculating thermodynamic properties of water and steam for calculations of nuclear
+power plant reactors
+STARTOUP:
+ Founder of the startup “GEKTA Laboratory Technologies”, which is a Skolkovo resident
+PROJECTS:
+ Discrete space Flow Matching for Image Restoration. Implementation of Discrete flow matching of image-to-
+image generation on super resolution task. https://github.com/Chenkomirosh/Discrete_Flow_Matching
+ Path finding for two wheeled robot https://github.com/CorporalCleg/RobotQ
+ VEHICLE SPEED ESTIMATION USING TRANSFORMERS IN COMPUTER VISION
+https://github.com/Chenkomirosh/VEHICLE-SPEED-ESTIMATION-USING-TRANSFORMERS-IN-
+COMPUTER-VISION
+ Investigating the Impact of Adversarial Attacks on AI-Based Image Compression Models
+https://github.com/bernkastel-bio/nic-adv-attacks
+ Scientific supervisor of three 11th grade students of Lyceum 1511 at the All-Russian
+competition of scientific works of schoolchildren UNIOR. One student became the winner, and the other two became 2nd degree
+winners.
+PUBLICATIONS:
+ [name] [surname]. Determination of Muons Multipliciity in Decor Events using Deep Machine Learning
+Methods. Nuclear Physics and Engineering. V. 16 №1 p. 1-6. 2025 DOI: 10.1134/S1063778824100326
+ [surname] [name] et al. Stand for Studying the Characteristics of Multiwire Drift Chambers. Nuclear Physics and
+Engineering. V. 15 №1 p. 1-6. 2024 DOI: 10.1134/S1063778824090473
+ [name] [surname] et al. Event classification and muon multiplicity determination from DÉCOR data using
+machine learning. XXXI International Conference of Students, Postgraduate and Young Scientists "Lomonosov-2024". Section "Physics“: collection of abstracts. p. 677-678. 2024.
+ [name] [surname] et al. Selection of joint events in the installations of the experimental complex NEVOD. X
+International Youth Scientific School-Conference : collection of abstracts. p. 70-71. 2023. Link to elibrary:
+https://www.elibrary.ru/item.asp?id=54368065
+ [name] [surname] et al. Software complex for calculation of thermodynamic properties of water and water
+vapour. IX International Youth Scientific School-Conference: collection of abstracts. p. 37-39. 2022. Link to
+elibrary: https://www.elibrary.ru/item.asp?id=49715504"
+CONFERENCES:
+ XI International Youth Scientific School-Conference ‘Modern Problems of Physics and Technologies’. Date:
+April 2024. Oral presentation on the topic: ‘Classification of events and determination of muon multiplicity from
+DECOR data using machine learning’.
+ International Scientific Conference of Students, Postgraduate and Young Scientists ‘Lomonosov-2024’. Date:
+April 2024. Oral report on the theme: ‘Classification of events and determination of muon multiplicity from
+DECOR data using machine learning’.
+ X International Youth Scientific School-Conference ‘Modern Problems of Physics and Technology’. Date: 25-
+27 April 2023. Oral report on the theme: ‘Selection of joint events in the installations of the experimental
+complex NEVOD’.
+ IX International Youth Scientific School-Conference ‘Modern Problems of Physics and Technologies’ -
+Laureate. Date: 26-28 April 2022. Oral report on the theme: ‘Software complex for calculation of
+thermodynamic properties of water and water vapour’.
+EDUCATION:
+ 2024г. - present. 02.04.01 Mathematics and Computer, Science Data Science. Skolkovo Institute of Science
+and Technology.
+ - 2020г. - 2024г. 14.03.02 Bachelor of Nuclear Physics and Technology. National Research Nuclear
+University MEPhI"
+PERSONAL QUALITIES:
+ Leadership. Results-oriented. Ability to work in multitasking mode
+ System approach. Ability to make independent decisions and take responsibility

@@ -1,0 +1,31 @@
+Hi, my name is [name] [surname] and I'm a student at [compaany],
+Faculty of Computer Science. Since I entered the [compaany], I decided for myself that I was
+interested in machine learning and everything related to it, so already in junior years, my
+team and I started looking for artificial intelligence applications in real projects. We wanted
+not only to put our knowledge to use, but also to develop our team skills and gain experience
+in fully launching the project from start to finish.
+Our first ML project was to create a chatbot and a web chat with LLM, which, thanks to
+promptness, behaves like a real person and is not distracted by extraneous topics other than
+dating and regular communication, there was industrial engineering under the hood with the
+GPT API. In general, the project turned out to be quite good at protecting it. The test was to
+check the bot for the inability to achieve deviations from the prompt and preset parameters.
+Next, I became interested in generative models and I found a supervisor from a large
+artificial intelligence laboratory, and together with the team we began to study the
+applications of generative adversarial network models and reinforcement learning in
+high-frequency financial time series. At the moment, we are writing a demonstration article
+that we plan to publish in an international journal. The main idea of the study is whether an
+RL trained on synthetic GAN model data can affect the final profit of a scalping strategy
+(1-minute timeframes). Specifically, my part is to provide the best representation of synthetic
+data using different GAN models.
+The [compaany] will allow me to look at this topic in a new way, through the eyes of those people
+who will visit it with me. It is important for me to get acquainted with new ideas and areas of
+artificial intelligence. [compaany] is a great option for me to dive in and take a closer look at
+multi-agent systems, a fairly popular topic right now. I chose multi-agent systems because I
+am interested in using neural networks for more general and complex tasks where classical
+models fail. During the trip, I can also improve not only my hard skills but also my soft skills.
+All these factors will certainly be of good help to me in the future.
+
+
+
++2 *** *** ***
+[email]

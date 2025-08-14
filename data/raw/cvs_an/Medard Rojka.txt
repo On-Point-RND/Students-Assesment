@@ -1,0 +1,50 @@
+[name] [surname]
+October 26, 2000
++2 *** *** *** | [location] | [email]
+Education
+[compaany]
+Financial Mathematics and Financial Technologies, Master’s Degree | 2023–2025
+[compaany]
+System Analysis and Applied Computer Technologies, Bachelor’s Degree | 2018–2022
+Lyceum of Information Technologies No. 1533, [location] | 2013–2018
+Relevant Courses
+• System and Application Software / Management in Social and Economic Systems
+• Business Process Automation and Management / System Analysis, Optimization, and Decision-
+Making
+• Applied Digital System Design / IT Project Management
+• Algorithmic Trading Strategies / Reinforcement Learning in Finance
+Experience
+CJSC “Consist - OS”, [location]
+Leading Specialist | June 2021
+- Administered a Microsoft SharePoint-based corporate website.
+- Managed creative content creation and website maintenance.
+- Provided user support and platform troubleshooting.
+- Developed technical specifications for import substitution projects.
+Olymp Clinic, [location]
+Procurement Manager | June 2021 – July 2021
+- Built a centralized database of medical materials and pharmaceuticals.
+- Categorized products based on clinic department requirements.
+- Streamlined inventory tracking using the “Honest Sign” system.
+Performia, [location]
+Secretary with Personal Assistant Functions | March 2021 – May 2021
+- Organized customer training workshops and corporate events.
+- Managed compaany documentation and procurement of office supplies.
+- Coordinated cleaning services and vendor communications.
+Additional Information
+Languages: Russian (Native), English (Advanced)
+Technical Skills: MS Office, Adobe Photoshop, 1C:Enterprise, Microsoft Project, Python (Pandas, NumPy,
+SciPy, Seaborn, Matplotlib, Plotly, Scikit-learn, PyTorch), Git, Figma, Agile, C++, Haskell, AstraLinux,
+LibreOffice.
+Academic Projects
+Reinforcement Learning for Optimal Stock Order Execution (Yanex Scientific Intensive)
+- Designed ExecEnv, a reinforcement learning environment for simulating stock order execution.
+- Implemented three market impaact models (ImpaactModel, ImpaactModellin, ImpaactModeldiff) to
+analyze price dynamics.
+- Enabled step-by-step order execution management, updating asset states and rewards for RL agents.
+Financial Mathematics Projects
+- Developed infrastructure for backtesting algorithmic trading strategies (Binance, [location]).
+- Processed historical financial data (cleaning, feature engineering).
+- Built and tested ML-driven trading models and Markowitz-optimized portfolios.
+- Researched stochastic processes in finance and designed option trading strategies.
+- Conducted Lean Canvas and CJM (Customer Journey Map) analysis for digital currency adoption.
+- Designed payment architecture for digital ruble transactions, including smart contract logic.

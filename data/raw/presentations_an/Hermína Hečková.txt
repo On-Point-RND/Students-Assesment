@@ -1,0 +1,114 @@
+
+
+Prediction of Interleukin-Inducing Epitopes  
+For Vaccine Development Pipeline Acceleration  
+
+Expected results and their significance for the target area  
+Key restrictions and conditions  
+To develop an algorithm for predicting the immune response of epitopes based on their ability to induce the production of interleukins in a human model  
+Limited amount of available experimental data  
+Difficulties in the representation of peptides  
+High cost and duration of obtaining experimental data  
+Class imbalance  
+
+Goal  
+To develop an algorithm that approximates or exceeds the current SOTA solutions  
+Accelerate the pipeline of vaccine development by implementing our algorithm  
+
+The epitope  
+IL-2  
+IL-4  
+IL-10  
+Setting the task  
+
+Analysis of the current state of the subject area  
+Using data on all organisms in which interleukin production occurs  
+Predictions are limited to the production of only one specific interleukin  
+Limited amount of experimental data  
+Problems:  
+A variety of interleukin classes  
+Applicability to the human model  
+Our solution  
+Other solutions  
+
+Analysis of the current state of the subject area  
+In a 2017 paper, random forest was used to classify IL-10  
+MCC: 0.59  
+AUC: 0.88  
+Early research:  
+doi.org/10.1038/srep42851  
+
+Analysis of the current state of the subject area  
+The Meta-IL4 paper used model composition to classify IL-4  
+MCC: 0.79  
+doi.org/10.1016/j.ymeth.2023.07.002  
+
+Analysis of the current state of the subject area  
+The article by Hindawi analyzes the pairs of amino acids for IL-4 and uses SVM  
+Accuracy: 75.76  
+MCC: 0.51  
+doi.org/10.1155/2013/263952  
+Positional conservation of amino acids  
+
+Solution concept, architecture  
+
+Solution concept, architecture  
+
+Solution concept, architecture  
+Data  
+Information from the [company] database, a free [company] resource with experimental data on epitopes  
+
+Solution concept, architecture  
+Data  
+Optimizing the human-only model  
+Working with missing values  
+Solving the problem of the amount of available experimental data  
+Deleting repetitions; Conducting analysis only on data where the carrier is a human  
+
+Solution concept, architecture  
+Feature extraction  
+Descriptors:  
+PAAC: the proportion of each type of amino acid in the sequence + information about the order of their sequence  
+APAAC: PAAC based on hydrophobicity and hydrophilicity  
+QSO: a matrix of distances between 20 amino acids  
+Autocorrelation (MBAuto, GAuto, CTD...) is a class of descriptors that describe the level of correlation between two sequences based on their structural or physico-chemical properties.  
+Embeddings  
+ESM - 2  
+proteinBERT  
+Descriptors  
+physico-chemical properties (hydrophilicity, isoelectric point, etc.)  
+properties depending on amino acid composition and order  
+One-hot encoding, TF-IDF  
+
+Solution concept, architecture  
+Data processing  
+Data filtering  
+Feature variance selection  
+Removing highly correlated features  
+Selecting the generated confidence data  
+Feature importance  
+Data enrichment  
+SMOTE + ENN  
+Pseudo-labeling  
+Augmentations over embeddings  
+
+Solution concept, architecture  
+
+Solution concept, architecture  
+
+Solution concept, architecture  
+
+Solution concept, architecture  
+ML-model  
+MLP  
+Light AutoML  
+
+Solution concept, architecture  
+Metric learning  
+
+The result of the work  
+Anch, ESM-2, ESM-3, protBERT  
+
+The result of the work  
+
+The result of the work

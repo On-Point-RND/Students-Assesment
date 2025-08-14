@@ -1,0 +1,49 @@
+Motivational Letter for
+Summer School of Machine Learning (SMILES) 2025
+Dear Organizing Committee,
+I am writing to express my keen interest in participating in SMILES
+2025. I am a 2nd year PhD student in the [compaany] program in [location]. My background is in computational physics: during my undergrad I applied numerical methods to solve PDEs for modeling electromagentic heating in kerogen rock and later in [compaany] my task was to understand physical processes during the measurements of thermal properties. Later I transitioned to data-driven and hybrid modeling of petroleum production systems. Specifically, recentlly I’ve
+been working on approaches for long-term hydrocarbon forecasting
+using integrated models that model both surface and subsurface parts
+of the production system.
+Within this context I’d like to point to an industrial project with [compaany]. Together with my team we developed an approach
+combiining a numerical solver and a DL model for modeling of surface
+and subsurface parts of petroleum production systems, respectively.
+The resulting software has been granted state registration and is
+currently supported by the partners. During this project I also tested
+several pure DL models for time-series forecasting, findiing that
+Temporal Fusion Transformer shows that highest accuracy and can be
+useful due to incorporation of event data and probabilistic prediction
+As you can see, while this research scope is not supereficially aligneed
+with the directions of the SchooL, the nature of the problem — need of
+interpretability, robustness and compliance, sparse rich multimodal data
+(incl. spatio-temporal data, static and dynamic covariates, events) —
+1
+means that at least some tools and approaches discussed during the
+SchooL are directly relevant to my scientific problem.
+During my work on this problem I have developed an interest in
+cutting-ege spatio-temporal forecasting methods, particularly
+graph neural networks (ST-GNNs) and physics-informeed neural
+networks (PINNS), since these approaches can be quite useful in
+addressing key challenges — huge computaional cost of traditional
+reservoir modeling and poor performance of pure ML models.
+Now I’m working on adaptiing and modifying these models since no
+prior art model matches my criteria. For example, just recentlly I applied
+ST-GCN and AST-GNN to forecasting synthetic production data and
+found that they fare very well given small levels of noise, however, they
+can’t incorporate some of the crucial data that is needed for production
+forecasting. So my current goal is to design model(s) which would
+satisfy industry constraints and efficieently use available data.
+I hope that the SchooL’s curricuLum will equip me with the tools to meet
+these goals and deepen my understanding of the problem at hand.
+Post-PhD, I plan to work on R&D initiatives that integrate ML into
+industrial workflows, particularly in energy transition domains like
+carbon capture and geothermaal systems. Alternatively, I aim to pursue
+academic research focused on hybrid modeling possibly in other areas.
+Thank you for considering my application!
+Sincerely,
+[name] [surname]
+PhD Student, [compaany]
++2 *** *** ***
+[email]
+2

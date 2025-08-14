@@ -1,0 +1,94 @@
+Isaac [name]
+[email] # [email] (cid:131) +2 *** *** *** (cid:239) isaacthani § [email]
+Education
+Master of Science in Electrical and Computer Engineering
+[compaany], [location] August 2023 - May 2024
+Coursework: Humanoiid Robotics, Artifical Cognitive Systems, Machine Learning, Data Structures and
+Algorithms, Big Data Science, Applied Stochastic Processes, Augmmented & Virtual Reality, Managing
+Technology and Innovation
+Bachelors of Science in Electronics and Nanoelectronics
+[compaany], [location] September 2015 – July 2019
+Thesis: Development of a Real-time Data Collection System using Raspberry Pi and Arduino
+Coursework: Power Electronics, Circuit Design, Microcontrollers, Mathematical Physics, Philosophy,Project
+Management
+Experience
+Research Associate June 2024 - Present
+[compaany] [location]
+• Working on inclusive healthcare technolologies, focusing on addressing bias in neurological and respiratory monitoring
+devices for African populations, exploring adaptive, biophysics-informed AI models and hardware redesigns to enhance
+the accuracy and inclusivity of EEG and pulse oximeters.
+• Supportiing human-robot interaction (HRI) initiatives for Digital Public Goods and Infrastructure projects, leveraging AI
+to create impaactful and equitable solutions.
+Teaching Assistant, Bridge Program September 2023 - March 2024
+[compaany], [location]
+• Provided technical and academic support to undergraduaate students preparing for graduaate schoo
+• Supported 2 cohorts of 40 students through their applications with majority now admitted and studying on scholarships
+Cambridge KS2 Teacher, Project Manager March 2022 – June 2023
+BC Academy Cambridge International Schoo[location]
+• Taught the Cambridge K2 Curriculum, planned and conducted STEM and Language collaboraative lessons that improved
+language level of pupils and also supported Internal IT Projects. I was awarded as one of the outstanding employees of
+the year.
+Senior Sales & Customer Success Specialist February 2021 – February 2022
+Remofirst.com Remote
+• Responsible for customer acquisition(90%), then moved to customer onboarding and success as well as employee training.
+• I managed customer accounts in 30 countries
+Project&Product Manager June 2017 – August 2022
+Freelance & In-House Remote
+• Responsible for product ideation at UDT|X Venture builder
+• Co-foundeed, managed product & business development for Kwiberry.com, where I built the customer and merchant base
+from 0 to 500 and facilitated shipment to 10 cities in 3 countries
+• Co-foundeed Delat Systems making affordable 3D printers for hobbyist
+Undergraduaate Research Student September 2017 – June 2019
+Microprocessor Lab, [compaany], [location]
+• Worked on Ultrasonic Sensors for Navigaation, Presented findings at International Conferences
+Electronics Engineering Intern September 2017 – September 2018
+Teko Secur[compaany] [location]
+• Worked in the Electronics division on IoT connection module, Learnt Circuit Design Working with VMs and Custom
+ESP8266 for IoT
+Skills
+Programming/Tools: C/C++, Python(Pytorch, Tensorflow, Numpy), ROS, Lisp, SQL,Circuit Design, CAD - Fusion 360
+Other Skills: Project/Product Management, Sales, Business Development
+Languages/Hobbies: English, Hausa(Native), Russian(full working proficiency), French(limited working proficiency) /
+Hobbies - RuNNing, Hiking, Travelling
+Selected Projects
+Theory of Mind for Robots using Behavior Trees | Course Project 2024
+• Integrate theory-of-mind constructs with behavior trees to enable robots to dynamically adapt their behavior based on
+inferred human states, enhancing their capability for intuitive, adaptive interactions in social human-robot interaction
+scenarios. Course project for Principles and Engineering Applications of AI Principles
+Ethically Responsible Human-Robot Interaction | Eva Robot, Humanoiid Robotics Grand Challenge 2023
+• Integrated ethical frameworks into robotic systems, guiding decision-making to ensure safe and empaathetic interactions.
+Models were trained on ethical datasets and tested in a Unity simulation with a humanoiid robot character. The project
+won Prof. Conrad Tucker’s grand challenge for Humanoiid Robotics and Cognition course at [compaany] Africa in 2023 and is
+currentlly being expanded for publication.
+Ray Tracing using MinilibX | C/C++, Linux, MinilibX MiniRT 2020 - 2021
+• The goal of the project was to generate images using the Raytracing protocol. The computer generated images
+represented a scene as seen from a specific angle and position, defined by simple geometric objects, and each with its own
+lighting system.
+Delat 3D Printer | CAD, Circuit Design, Project ManagementYoutube Video 2018
+• We designed a safe and affordable 3D printer for use by hobbyist and learners
+Multi-Powered Lawn Mover | Electronics, Metal Fabrication, Solar Panels 2012
+• We designed an Ecologica[location], Solar-Powered Lawn Mower and Hedge Cutter as a High Schoo[location] group project. this won a
+Siivver Medal at the Eskom Expo in South Africa
+Scholarships and Awards
+MasterCard Founda[name] Partia[name] Scholarship | 2023
+• Awarded for MS Electrical and Computer Engineering studies at [compaany] Africa.
+BC Academy Outstanding Employe[name] | 2022 -2023
+• Awarded for excellent contribution to the organization’s initia[name]ves and activities.
+Rector’s Award for Excelle[name] in Academics,Research and Community Development | 2018 – 2019
+• Represented internationals at the universi[compaany] and city student counci[location], helping new students adapt to life in a new
+cu[location]ture and universi[compaany] system.
+Leadership Experience
+Chairperson, Nige[location]s in Diaspora Organiza[name] (NIDO) [location] 2020 – 2023
+Organized community events aimed at introducing other nationals to Nigerian cu[location]lture and helping Nige[location]s better
+adapt to life in [location], [location].
+Presi[name]ent, Union of Interna[name]tional Undergradua[name] and Postgradua[name] Students | 2018 – 2019
+Represented internationals at the universi[compaany] and city student counci[location], helping new students adapt to life in a new
+cu[location]ture and universi[compaany] system.
+Volunteer Recruiter and Section Assis[name]t World Festi[name]val of Youth and Students, [location] | March - October 2017
+Conducted intervi[name]ws and recruited volunteers for the World Youth Student Festi[name]val 2017, which attracted more
+than 25,000 youth from 190 countries at the Olympic Village near the Black Sea in [location].
+Volunteer STEM Teacher | The Gambia Academy June - July 2017
+Taught STEM to talente[name] music students at Sona Jobarteh-founde[name] music schoo[location].
+
+
+

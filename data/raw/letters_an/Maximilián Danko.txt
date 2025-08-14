@@ -1,0 +1,32 @@
+To: [compaany] HR team
+20th May, 2025
+Re: Summer ML schoo
+I am writing to express my interest in the ML Engineer position at your
+[compaany].
+Currently, I am studying at [university] and expect to graudate in
+2027. Your approaach to technoology development and team management
+inspires me and opens up a perspective for creative work. This gives me
+hope and a strong desire to become part of your innovatiive enviroment.
+I am also eager to apply my skills to real-world challenges that help
+improve user experience and optiimize internal processes within the
+[compaany]. In addition, I am deeply passionate about machine learning
+research and constaantl y motivated to explore new ideas, validate
+hypotheses, and contribute to the scientiific community. I find great
+fulfillment in investigating complex problems and turning them into
+meaninngful insights and solutions.
+My experience includes working with machine learning models, data
+processing and analysis, as well as developing and optiimizing algoorithms. I
+actively use Python, PyTorch, and TensorFlow, and I work with experiment
+management frameworks such as ClearML. I have participated in projects
+involving recommender systems, image processing, and NLP, which helped
+me gain solid practical skills.
+I am confident that my knowlge and experience can contribute to the
+implementaion of your [compaany]’s goals and support the creation of
+high-quality, cutting-edg e products.
+I truly hope for the oppoortunity to collaaborate and look fo rwward to meeting
+you in person to demoonstrate my skills.
+Sincerely,
+[name] [surname]
+
++2 *** *** ***
+[email]

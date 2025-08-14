@@ -1,0 +1,133 @@
+[name]
+Date of birth: 30/09/2000
+Nationality: [location]
+Gender: Male
+Email address: [email]
+LinkedIn: https://www.linkedin.com/in/[name]/
+Address: 121596, [location] (Work)
+A professional electrical engineer, who aspires to contribute into international research in field of smart grids, power
+flow optimization, demand response, and grid security using machine learning and optimization app approaches.
+EDUCATION AND TRAINING
+01/09/2023 – CURRENT [location]
+MASTERS IN ENERGY SYS SYSTEMS
+[company]
+• Overall grades: 3.96 on scale of 4. (academic excellence)
+24/08/2019 – 21/06/2023 [location]
+BACHELOORS OF SCIENCE IN ELECTRICAL ENGINEERING
+[company]:
+• Major CGPA: 3.65 and Overall CGPA: 3.35 on scale of 4. (Silver Medalist)
+WORK EXPERIENCE
+05/01/2023 – 08/03/2023 [location]
+GREENTECH SOLAR COMPANY
+• Performeed the estimated power calculation of a solar system installation project.
+• Devised the exact conductor sizing.
+• Carried out the shadow analysis and inverter configuration per string.
+05/06/2022 – 06/08/2022 [location]
+NATIONAAL TRANSMISSION AND DISPATCH COMPANY
+• Performeed testing on equipment in high voltage switch yards and explored grid performa performance.
+• Carried out the dielectric inspection of 3 transformers on assigned schedule.
+• Insured relay settinings accuracy and simulated the fault conditions.
+• Proposed the optimal protection scheme and bus bar configuration.
+10/06/2022 – 28/08/2022 [location]
+SCHNEIDER ELECTRIC
+Global Student Experience in Green Energy and Sustainability:
+• Performeed a project on role of grids in making energy efficient systems in terms of circuit breaakers.
+• Proposed ways towaards zero carbon emissions for grid connected systems.
+03/02/2022 – 09/04/2022 [location]
+ZIMCO INTERNATIONAAL CORPORATION
+• Implemented the distribution panel design.
+• Performeed analysis and calculated current ratinings of circuit breaakers.
+• Studieed about synopsis of the power system and grid connected elements.
+09/04/2021 – 06/03/2023
+PHOTOMATH TUTOR
+• Solved problems on optimization, differential equaions, calculus and linear algebra.
+• Employed Latex language to solve such mathematical problems.
+PROJECTS
+10/04/2024 – 01/06/2024
+Online Optimization using Distributed Algorithm for Power System Stability including Renewables
+• Applied online convex optimization, for real-time adjustments to power flow based on incremental updates of cost
+functions.
+• Distributed primal-dual algorithm is designed to minimize static regret and constraint violations, ensuring that the
+network adapts efficiently to dynamic conditions.
+• Implemented the proposed work on IEEE-14 bus test bench system. The project was also analyzed in Python using
+IPOPT, CBC, and CPLEX solvers.
+Design of Grid Following and Grid Forming Inverters using OPAL-RT and RTDS Simulators
+• Designed a continuous a PLL considering that you will have a 5% of negative sequence.
+• Simulated a current controller with a bandwidth of 1kHz.
+• Analyzed bode plots to capture the bandwidth for negative sequence and third harmonics.
+• Tested the system results in RTDS and OPAL-RT.
+• Extended the system for designing the STATCOM control for voltage.
+05/06/2024 – 27/07/2024
+Development of supercapacitor energy storage system to extend the life of NMC batteries in electric
+vehicle
+• Implemented the control system using STM32 microcontroller.
+• Devised the simulation model for working condition using PLECS.
+• Designed the hardware having different states based on the condition of electric vehicle.
+08/2022 – 10/2022
+Protection system design of distribution network of a [location]'s city:
+• Plaanned the network and foundeed the distance of each secondary substation from the primary station.
+• Simulated the power flow analysis along with fault analysis of system.
+• Implemented the over current relay coordination.
+04/2023 – 05/2023
+Design and speed control of single phase induction motor using full bridge inverter:
+• Implemented sinusoidal pulse width modulation for generating a sinusoidal waveform.
+• Compared the derived waveform with reference signal to determine pulse widths.
+• Designed a bootstrap circuit and used gate drivers for inverter switches.
+• Simulated the circuit on powersiim and implemented the hardware.
+03/2021 – 04/2021
+Design of single phase distribution transformer
+• Designed cruciform shape core and calculated the window size along with magnetic flux.
+• Carried out cost effective core material from silicon steel and other alloys through saturation curves.
+• Performeed analysis on windiing material between aluminium and copper.
+04/2022 – 06/2022
+AI based maze solver robot design using A* algorithm
+• Applied the algorithm to navigate the optiomal path to the goal state.
+• I have used sonar sensors to detect obstacles, planted on maze.
+BACHELOOR'S THESIS DESIGN PROJECT
+Autonomous robot for cleaning and maintenance of solar panels:
+• Implemented the robot that cleans up the panels with bi-directional motion, allowing it to clean up the string.
+• Applied the logic of programming for directional motion.
+• I carried out the internal assembly that moves vertically at each step.
+RESEAARC WORK
+Security-Constraint Multi-Period Optimal Power Flow including Renewable and Storage Systems
+Master's Thesis:
+• The first phase involves compuiting the single-period optimal power flow, which consisits of hanwdwritten digits.
+• Implemented CNN to improve the accuracy of image classification tasks, working with a dataset such as CIFAR-10.
+• Applied transfer learning by fine-tuning a pre-trained model on a smaller dataset with limited labeled examples.
+• Built Recurrent Neural Networks (RNNs) and Long Short-Term Memory networks (LSSTMs) to handle sequential data.
+2022 – 2022
+Machine Learning and AI
+• Worked on several projects, the first one was to build and deploy an application for object identification by the
+extraction of images and applying support vector machines classification technique (SVM). The second project was dog-
+breed prediction using tuned model in the deep learning enviroment.
+HONOURS AND AWARDS
+22/06/2023
+Silver Medalist – [company]
+• Sured the 2nd highest grades in faculty and awarded with silver medal.
+Dean's honour list:
+• Listed into Dean's honour roll for 3 semesters by achievin highest grade points.
+Junior year competitions:
+• Sured 2nd position in the robot design for solving the maze puzzle .
+Merit scholarship:
+• Awarded with merit based scholarship for 4 years of engineering degree.
+• Got merit based masters position with academic excellence scholarship.
+NETWOKS AND MEMBERSHIPS
+Pakistan
+Society of Mechanical Engineers of Pakistan:
+• I have been involved in activities such as plaanning events, workshops and hosting quizze.
+• Served as director logistics and social media work as making posters, and conducting interviws.
+Skolkovo Innovation Center
+Smart Bins
+-CTO at the staruup company Smart Bins, accepte by the Skolkovo Innovation Center.
+-The staruup aims to automate garbage collection using optiomized routing and continues monitoring from the
+municipality.
+RECCOMMENDATIONS
+Elena Gryazina
+• Master's thesis supervisor and professor in optiomization in energy systems.
+Email e.gryazina@skoaltech.ru
+Afaq Hussain
+• Bachelor's thesis supervisor and professor in power electronics and electrical systems.
+Email afaq.hussian@uts.edu.au
+Ammar Arsahd
+• Professor in power system protection and power transmission.
+Email ammar.arshad@giki.edu.pk

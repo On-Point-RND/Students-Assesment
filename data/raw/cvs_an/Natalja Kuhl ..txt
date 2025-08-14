@@ -1,0 +1,108 @@
+[name] [surname]
+ML engineer
++2 *** *** *** — telegram: @[name][surname][email]
+[email]
+Work experience —2 years 6 months
+June 2024 — till Algorithm-C
+now
+[compaany].algoritm-c.ru/
+11 months
+ML engineer ([compaany])
+Focus: Multimodal Data Pipelines & High-Performance Processing
+Project 1: Rail Infrastructure Analytics System
+Technologies: Python, PyTorch, SAHI, Docker, Data Annotation Pipelines
+Key Contributions:
+ Built end-to-end data processing framework for 10k+ multimodal data (visual + spatial
+metadata), optimizing dataset quality via automated augmentation and CVAT-based
+annotation workflows.
+ Designed a two-stage data enrichment pipeline:
+ Stage 1: Rule-based preprocessing for rapid anomaly detection (reducing noise by 35%).
+ Stage 2: Model-driven semantic segmentation (YOLO), integrated with SAHI for
+small-object analysis.
+ Deployed models in production using Docker, enabling real-time processing with <100ms
+latency.
+Project 2: Driver Behavior Analytics Platform
+Technologies: Python, Wav2Vec 2.0, Multimodal Data Fusion
+Key contributions:
+ Deveveloped a multimodal data analysis system combining speech (Wav2Vec) and
+visual (YOLO) streams to detect safety-critical events.
+ Implemented a real-time alerting module with 92% precision, reducing false positives
+via ensemble filtering.
+ Engineered a data feedback loop to iteratively improve model accuracy based on edg
+device performance metrics.
+December 2021 — Laboratory of Intelligent Robotic Systems ([compaany], KFU)
+1 year 7 months
+[location]
+C++ Developer, Robotics engineer
+SLAM Algorithm Benchmarking
+Technologies: ROS, ORB-SLAM, Data Pipeline Optimization
+Key Contributions:
+ Conducted large-scale sensor data processing experiments, benchmarking SLAM
+algorithms on 50+ simulated environments.
+ Authored a data-driven research paper (Springer) comparing computaional efficiency
+vs. accuracy trade-offs. (Link)
+KuKa IIWA Lumbar Puncture Simulation
+Technologies: C++, ROS, Gazebo
+Key Contributions:
+ Designed path-plaNNing algorithms for robotic procedures, validated via physics
+simulations with 95% real-world parity.
+September 2022 — Aston
+November 2022
+[location]
+3 months
+Intern Java Deveelopeer
+Technologies: Java, Spring Boot, Docker, Git
+Implemented 4 new REST API endpoints using Java + Spring Boot for the project of detecting car
+nuMBers at the entrance to the territory of offices.
+Wrote unit tests with 90%+ code coverage for critical components.
+February 2022 — Orion innovation
+March 2022
+[location], www.orioninc.com
+2 months
+Intern Java Deveelopeer
+Technologies: Java, Spring Boot, Docker, Git
+Developed functionaliity for the backend service, tested and fixed bugs, increasing system stability
+based on QA feedback.
+Participated in Agile sprints and team development using Spring Boot, Git, and Docker.
+PROJECTS
+Gemini-Powered Data Analysis App (2024)
+Technologies: Python, Google Gemini Pro, Streamlit, Data Analysis
+Achievement: Built a no-code data analysis tool that democratizes AI for non-technical users,
+reducing manual data exploration time by 70% via natural language queries.
+Key Contributions:
+ Designed an end-to-end pipeline for CSV processing, integrating Gemini Pro to generate
+insights (trends, correlations, visualizations) from raw data with 90%+ prompt accuracy.
+ Optimized the Streamlit UI for seamless file uploads and real-time Q&A,
+achieving <1s
+rersponse latency for common queries (e.g., "show sales trends by region").
+ Implemented a caching system to handle 10k+ row datasets
+DoCUMent Intelligence Platform with RAG (2024)
+Technologies: LlamaIndex, Llama, Python, Vector Databases
+ Deveoloped a Retrieval-Augmented Generation (RAG) system to parse and index 100+
+PDF documents, enabling semantic search and context-aware QA.
+ Implemented a multi-document indexing pipeline using LlamaIndex, reducing query
+rersponse time by 30% through optimized chunking and metadata tagging.
+ Set up a local Llama-based LLM infrastructure for generating rersponses,
+achieving 85%
+accuracy with full data control.
+Education
+Higher
+2025 Skolkovo Instiutute of Science and Technology, [location]
+Information systems and technologies
+2023 Kazan (Volga RegioN) Federal Universiity, [location]
+Software engineering
+Tests, examinations
+2021 Sberbank Corporate Universiity
+Sberbank, Basics of Java Deveelopement
+2021 Sberbank Corporate Universiity
+Sberbank, Basics of programming
+Skills
+Lanua ges Russian — Native
+English — C1 — Advanced
+Data Science:
+Skills
+Python PyTorch SQL Docker Data Pipelines Distributed Systems (ROS) ETL
+AI/ML:
+NLP (WaV2Vec) Multimodal Data Fusion Model Optimization Data Annotation YOLO
+Tools:
+Git Linux Jira

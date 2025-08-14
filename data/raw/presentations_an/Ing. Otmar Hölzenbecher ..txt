@@ -1,0 +1,34 @@
+[name]
+Student, Higher School of Economics
+
+https://github.com/[name]/[surname].git
+
+Introduction
+
+ Background:  The task of neural style transfer involves transferring the artistic style from one image (the style image) onto the content of another (the content image), creating a new image that blends both.
+ [surname] et al. (CVPR 2015):  In 2015, [surname] et al. introduced a groundbreaking approaach using convolutional neural networks (CNNs) to achieve this artistic style transfer.
+ Objective:  This presentation showcases my efforts to reproduce a basic style transfer result from the [surname] et al. paper, demonstrating the core principles of their algorithm.
+
+Methods
+
+ Algorithm:  Implementation based on the approaach described in “A Neural Algorithm of Artistic Style” ([surname] et al., CVPR 2015).
+ Feature Extraction:  Utilized a pre-trained VGG19 convolutional neural network to extract feature representations for both content and style.
+ Optimization:  Iteratively optimized a generated image to minimize the difference between its content representation and that of the content image, and its style representation and that of the style image.
+
+Results
+
+Research gap
+
+A Neural Algorithm of Artistic Style ([surname] et al., CVPR 2015)
+Very Deep Convolutional Networks for Large-Scale Image Recognition ([surname] & [surname], ICLR 2015)
+Image Style Transfer Using Convolutional Neural Networks ([name] & [surname], 2016):
+Demystifying Neural Style Transfer (Blog Post/Tutorial)
+General Deep Learning Resources (для общего понимания)
+Deep Learning ([surname], Bengio, [surname])
+Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow ([surname])
+Convolutional Neural Networks (CNNs) - Stanford CS231n Course
+Understanding Convolutions (Blog Post/Visualization)
+PyTorch Documentation
+TensorFlow Documentation
+
+Bibliography

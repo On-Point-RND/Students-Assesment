@@ -1,0 +1,90 @@
+[name]
+[compaany]
++2 *** *** ***
+[email]
+[location]
+[compaany]
+[name]
+[location]
+Education:
+Specialist Degree, [location]
+Faculty of Mechanics and Mathematics MachineLearningEngineer|FilmRecommendations
+2014—2020 [location]
+2023May—Now [location]
+• ImplementaDssm4Recmodeltotherankiingpipeline
+• ImplementedaBert4Recmodeltotherankiingpipeline
+• Testedandaddedfeaturestothecaiboostrankiingmodel
+Achievements
+Yanex CodeRun | ML • Refactored a legacy code
+Top5% Bert Python Catboost Airflow Spark Git
+2023 [location]
+Ozono
+Yandex Cup ML Challenge MachineLearningEngineer|ProductRecommendations
+2021Dec—2023May [location]
+Top30%
+• Addedafeaturetoa produciton model which led to
+recommendation metrics growth with p-value <1%
+• Supported a whole ranking model lifecycle: data collection,
+feature selection, testing and tuning models, conducting A/B
+experiments
+Courses
+YanexSchoolofDataAnalysis • Made edits to a recommendation server using Go:bootitem
+in widgets, change configs for A/B tests, adding features to
+server
+Very competitive courses about CS, DA and ML.
+ML Algorithms C++
+Python Catboost DS Spark Golang Git
+MLFlow Airflow
+DeepLearningSchool
+AnMIPT course about Python, machine learning and deep
+learning in particular.
+Huawei
+Python Numpy Pytorch ML DL CV Engineer|MLLab
+2021Jul—Oct [location]
+Computer Skills
+• Looked for neural quantification algorithms in articles
+• Implemented the methods on Python via PyTorch
+Languages
+DeepLearning CV Python Pytorch
+Python, Golang, SQL, C/C++
+Publications
+Technologies
+Hadoop, Spark, Git, Airflow, Mlflow, Unix, T X
+Tools
+GitLab, Bitbucket, Jira, Confluence, A/B testing
+Python Libraries
+Torch, Numpy, Pandas, Sklearn, MatPlotLib
+Teaching Experience Projects
+“Letovo" School Pet project: Sinus approximation via neural
+networks
+MathsTeacher
+2017—present [location] https://github.com/MEXMAT208/nn_sinus
+Sirius Graduate thesis
+MathsTeacher On multiple Fourier coefficients of functions of
+2018—2020 [location] generalize bounded variation
+2020 [location]
+Maths School “Sygma”
+Creator and admin of a mathematical telegram-
+channel
+2020,2021 [location]
+https://t.me/ezhidze_channel
+Sharygin Geometrical Olympiad
+Jury
+2018,2019 [location] Contemporary Mathematics
+Participant
+Summer Maths School 2014,2015 [location]
+MathsTeacher
+Languages
+2019 [location]
+English
+Russian
+Summer Maths School
+Preferable Spheres
+2017 [location]
+Mathematics Algorithms MachineLearning
+DeepLearning ComputerVision
+IT-teacher
+Interests
+2016 [location]
+QuestRooms Chess Piano Swimming
+Dancing DetectiveStories

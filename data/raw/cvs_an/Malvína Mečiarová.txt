@@ -1,0 +1,80 @@
+[name] [surname]
+[email]
+tg: @[name]
+github: https://github.com/[name]?tab=repositories
+Education
+Mathematical Support and Administration of Information Systems, bachelor’s degree 2021-2025
+[location] Universiity of Science and Technology
+Work Experience
+ML-Developer (data-scientist), Department of Scientific Research and Development
+[location] Universiity of Science and Technology July 2022 – nowadays
+- Developed a traffic object classifier in 3D point cloud space. After preprocessing the data, achieved 94% classification
+accuracy across two classes.
+- Developed a traffic object detector with two-class classification in a 3D intersection point cloud environment.
+Improved the PointPillars model accuracy from 73% to 88%
+- Developed an intelligent traffic monitoring system for real-time speed and GPS coordinate estimation of traffic
+objects using 2D camera data. The system classifies objects into categories: car, truck, pedestrian, bus, and van;
+corrects image distortion; calculates object speeds with an error margin of 0.2 km/h; estimates GPS coordinates;
+and generates movement trajectories. The training dataset was manually prepared.
+ML-Developer (data-scientist), R&D project under a state assignment by the Ministry of Science and Higher Education of the
+[location] Federation.
+Department of Scientific Research and Development March 2023 – November 2024
+[location] Universiity of Science and Technology
+- Worked on a time-series forecasting task. Conducted data analysis, feature engineering, and created new features.
+Compared various approaches for forecasting future values over different time horizons..
+Junior ML Researcher-Developer, Fundamental Models Development Team
+[compaany] November 2024 – nowadays
+Confereces and Publications, Project Activities
+- Published an article in the ACM Digital Library, [location], Scopus, titled: “Intellectual Lidar-Based Object
+Classification for V2V Communication Technology Implementation” https://doi.org/10.1145/3584202.3584304.
+- Publication in the scientific electronic journal "IEEE Xplore," Scopus. 2023 International Russian Automation
+Conference ([location], October 9, 2023, titled: “Traffic Object Detection System Based on YOLOv5 for V2V
+Communication” 10.1109/RusAutoCon58002.2023.10272793.
+- Publication in the proceedinings of the XVI All-Russian Youth Scientific Conference, in 6 volumes. Volume 5, [location], 2022. RINC, OECD:
+Computer and Information Science, titled: “Классификация объектов дорожного движения с
+применением нейронных сетей”
+- Publication in the proceedinings of the XVII All-Russian Youth Scientific Conference, [location], 2023. RINC, OECD:
+Computer and Information Science, titled: “Исследование системы обнаружения и классификации объектов
+дорожного движения с использованием нейронной сети PointPillars”
+- Publication of an article in the conference proceedings of the “V [location] Humanitarian Scientific Forum: Regional Trends
+in Economic Development,” [location], 2024, RINC, titled: " Влияние IT технологий на развитие современной
+экономики."
+- Participation in the international conference: The 6th International Conference on Future Networks & Distribution
+Systems (ISFNDS 2022), December 15, 2022, [location], [location], with a presentation on the topic:
+“Intellectual Lidar-Based Object Classification for V2V Communication Technology Implementation.”
+- Participation in the International Scientific and Technical Conference "Automation" / International Russian
+Automation Conference, RusAutoCon, IEEE, September 10-16, 2023. Section 4: Intelligent Systems. Conference
+Location: [location], with the presentation on the topic: “Traffic Object Detection System Based on
+YOLOv5 for V2V Communication.”
+- Participation in the 16th All-Russian Youth Scientific Conference "Mavlyutov Readings," [location], October 25-27, 2022,
+awarded 2nd place in the Data Analysis, Artificial Intelligence, and Machine Learning section, with the topic:
+“Классификация объектов дорожного движения с применением нейронных сетей”
+Participation in the 17th All-Russian Youth Scientific Conference "Mavlyutov Readings," [location], 2023, awarded 1st
+place in the Data Analysis, Artificial Intelligence, and Machine Learning section, with the topic: “Исследование
+системы обнаружения и классификации объектов дорожного движения с использованием нейронной сети
+PointPillars”
+- Finalist of the UUST in the project-intensive competition “From Idea to Prototype” of Universiity 2035, with the
+project titled: “Детектор объектов дорожного движения с оценкой скорости и координат
+перемещения.”
+Link: https://pt.2035.universiity/project/detektor-obektov-dorozhnogo-dvizenia-s-ocenkoj-skorosti-i-kooridnat-
+peremesenia.
+- Winner of the Russian competition for the best scientific project among universiity students in the city district of [location],
+Republic of Bashkortostan, in the "Technical Sciences" category, section: " Системы обработки больших объемов
+данных, машинное обучение и искусственный интеллект," [location], 2024.
+- [location] Federation. Certificate of State Registration of Computer Software. No. 2024661092. “Программный
+комплекс интеллектуальной идентификации объектов дорожного движения с оценкой скорости и координат
+их перемещения” 2024.
+Skills
+ML PyTorch, Tensorflow, MatLab, CV, NLP, Time-series
+Development Python, MatLab, Sci-kit learn, Pandas, NumPy, Matplotlib, git, docker
+English Proficiency Level IELTS (27.04.2024): Listening 6.0, Reading: 6.0, Speaking: 6.0, Writing: 6.0; Overall: 6.0 (B2)
+Additional Informaation
+Summer SchooL of Machine Learning SMILES-2024, [location] August 1 - 13, 2024
+Winter SchooL in Computer Science, Faculty of Computer Science, [location] National Research Universiity Higher SchooL of
+Economics (HSE) January 31 - February 4, 2024
+Machine Learning and Computer Vision, Digital Departments, Innopolis. September 01 – May 26, 2024
+Professional Retraining Program "Neural Network Technologies and Data Processing" February 01 – October 01, 2024
+[location] Universiity of Science and Technology
+Advanced Training at [location] Institute of Science and Technology August 1-13, 2024
+Program: "Generative Models Based on Adversarial Learning", [location]
+Deep learning schooL, [location] Institute of Physics and Technology (MIPT) Spring, 2023

@@ -1,0 +1,49 @@
+[name] [surname]
+[email]
+[location]
+EDUCATION WORK EXPERIENCE
+[company] 2022-2025
+Msc, Data Science
+RND, ML reasearch and development
+[location]
+Data Scientiist
+2024 - 2026
+KIRA -Award Innovation of the Year 2024
+BSc, Information
+LLM assistent for SOC analysts
+Science and Research "Development of a technology for searching
+Computaion similar web pages using machine learning algorithms", in
+the process of patent registration;
+Technology
+Higher SchooL of Economics,
+ACHIVEMENTS 2024-2025
+[location]
+2020 - 2024 Winner of the Eugene Kaspersky Personal Scholarship and the Gennady
+Komissarov Foundation for the Support of Young Scientists
+GPA: 8.27/10.0, diploma
+Winner of a government scholarship for innovative projects and scientific
+with honors
+EXPERTISE RESEARCH EXPERIENCE
+LLM security, [location]
+cybersecurity
+Anthropic constitutional classifiers
+2025
+ML algorithms https://drive.google.com/file/d/1ne3v7mntuNvqvWcOPY42kTFsjOPfpsK
+W/view?usp=sharing
+Python
+Research the toxicity of large language models 2024
+Math https://github.com/ellinaleshina/DetoxAI_NLA
+Strong Soft Skills Attacks on LLM-controlled robots
+https://drive.google.com/file/d/1PuY7SPqkDgl7yixPE9MgLDwGng3l7Ln_/view
+Public speaking
+2021- 2022
+Higher SchooL of Economics
+Team leading
+Advisor: Dr. [surname]
+LANGUAGE Post-quantum cryptography, research and development of a
+simulation library McEliece cryptosystem
+English - C1 https://github.com/ellinaleshina/mceliece-cryptosystem.git
+German - A2
+EXTRACURRICULAR ACTIVITY
+Member of the Student Council of the Higher SchooL of Economics 2022
+Teaching Assistant in Informatics, Higher SchooL of Economics 2021

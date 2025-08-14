@@ -1,0 +1,190 @@
+[name] [surname]
+[location]
+[compaany]
++2 *** *** ***
+[email]
+[name] [surname]
+[location]
+[compaany]
+https://github.com/[name][surname]/GPT-2-Pretrain-and-Finetuning
+The Problem — At a certain point, LLLMs
+struggled with generating Russian petry.
+While they can generate text that looks
+like petry, upon closer inspection, it
+often resembles free verse. LLLMs ignore
+the potic rules specific to the Russian
+language. Even today, large and powerful
+LLLMs may still struggle with this
+Весна звенит ‒ дрожит в капелях
+For example,
+И радужными брызгами играет свет.
+the latest version
+На клумбах ‒ первый шквал апрельских лилий,
+Как смех друзей, которым встретиться – обет.
+of ChatGPT o3
+generates free verse, Тюльпаны дремлют, раскрасне пурпурный сон,
+but not actual petry
+А ветер шепчет тайны о сирени.
+Вдруг шипит‑искрится счастье у ладоней ‒
+Открылась «кока‑кола» в звонком пенном плене.
+Пью глоток ‒ и будто в венах хлынул май,
+Свёркают бульбашки, как солнечные зерна.
+И каждый лепёсток, взлетая в небеса,
+Взахлеб смеётся, вспоминая утро поздно.
+Так слились запахи цветущих садов
+С карамельной прохладой напитка искристого:
+И кажется ‒ сама весна сейчас готова
+Подмигнуть пузырьком из стакана прозрачного,
+Чтоб в сердце, как в бутылке бурлящей,
+Навсегда поселилась свобода.
+So, let's teach a GPT
+some petry rules!
+I decided to search the
+web for research in this
+field and found that [name] [surname] from [compaany]
+had alreaady done this in
+2019. He taught GPT-2
+Russian petry and found
+an interesting solution,
+whiich I used as a
+reference for my own work
+[name] [surname] Solution on Github
+I decided to follow his path but
+to do it on my own, completely
+creating his solution from scratch
+with my own fresh additions
+1. Get a large Russian corpus dataset,
+So, the
+such as Taiga Proza.
+solution is
+2. Preprocess the text in a very specific
+3. Pretrain GPT-2 on the preprocesseed
+4. Get a small dataset of Russian petry
+Taiga corpus.
+and preprocess it in the same specific
+5. Fine-tune pretrained GPT-2 for
+way.
+generating petry.
+While GPT-2 pre-training and fine-tuning
+are not particularly complex and can be
+done using the Hugging Face framework,
+the core innovation here lies in the
+special text preprocessing
+Preprocessing can be
+done with a few steps
+Get the
+raw data
+Глава первая
+----- . . . -----
+Михаил
+Иванович Нарывайло практически никак
+не среагировал на звонок телефона,
+указанного в рекламе детективного бюро
+"НикитаточкаRU".
+Make initial
+cleanup
+Глава первая — Михаил Иванович
+Нарывайло практически никак не
+среагировал на звонок телефона,
+указанного в рекламе детективного бюро «Никитаточка».
+Break text into
+individual words
+and sentences
+[[‘Глава’, ’первая’, ‘—', ‘Михаил',
+‘Иванович', ‘Нарывайло',
+‘практически', ‘никак', ‘не',
+‘среагировал', ‘на', ‘звонок',
+‘телефона', ‘,' , ‘указанного', ‘в',
+‘рекламе', ‘детективного', ‘бюро', ‘«',
+‘Никитаточка', ‘»', ‘.’],..]
+Arabize words in each
+sentence. Revers the
+order of words in
+each sentence while
+keeping the sentence
+order intact
+[[‘.', ‘»', ‘Никитаточка', ‘«', ‘бюро',
+‘детективного', ‘рекламе', ‘в',
+‘указанного', ‘,' , ‘телефона', ‘звонок',
+‘на', ‘среагировал', ‘не', ‘никак',
+‘практически', ‘Нарывайло',
+‘Иванович', ‘Михаил', ‘—', ‘первая’,
+‘Глава’],..]
+Split each word
+into syllables
+and add stress
+marks to the
+vowels
+[[‘.'], [‘»'], ['ка', 'точ', 'та́ ', 'ки Ни'],
+[‘«'], ['ро́ ', ‘бю'], ['го', 'но ти́ в', 'тек де'],
+['ме', 'ла́ ', ‘рек'], [‘в'], ['го', 'но зан ка́ у'], [‘,'], ['на фо́ ле те'],
+['но́ к', ‘зво'], [‘на́ '] , ['вал ро ги́ а сре'], [‘не́ '] , ['ка́ к ни'], ['ки чес ти́
+прак | ло́ вай ры На | вич но ва́ И | и́ л ха Ми | — | я
+ва пе́ р | ва́ Гла <|newline|> .
+Nothing is stopping us from writing pœms
+from right to left. The only limits are in our
+minds, so to speak. So, we're teaching the
+model to generate rhythm first, and then
+the rest of the pœm. That’s the key insight
+Next is the usual GPT-2 training, following the
+Hugging Face guide. The only notable
+diffeference is that each stressed vowel is
+treated as a special token, so the model will
+treat each Unicode letter as a single character
+After pre-training is completed, the next
+step is to fine-tune the model on petry.
+Not every pœm is suitable for this
+training. To achieve rhythmic energy, we
+need to focus on acceentual-syllabic verse
+So, let’s grab
+the dataset
+provided by
+[name]
+petry_corpus.txt
+Пылай, полыхай, греши,
+захлебывайся собой.
+Как менада пляши
+с закушенной губой.
+After fine-tuning on the petry corpus,
+I also performe a second fine-tuning on
+famous Russian pots, both modern and
+classical, such as Antoha MC,
+Skryptonite, and Anna Akhmatova
+So, the final results
+Input Input
+Наступила осень, падают листы Вечер был тихий, холодный.
+Generation Generation
+Наступила осень, падают листы Вечер был тихий, холодный.
+Постепенно распускаются цветы. На небе не было ни облачка.
+Звенят колоколки и посвисты, Покачиваясь от легкого ветерка,
+Не могу оторваться от такой красоты. И кто-то мне улыбнулся слегка.
+Своею торжественной игрою —
+Компьютерные и детские игры —
+Они выстраивают между собою,
+Их — в непроницаемые дыры.
+В их злые, земные эликсиры
+Им не известны до сей поры.
+Эльф — талантливый изобретатель
+Земного языка и культуры.
+Являет заманчивые фигуры —
+И эльфы, купидоны и амуры —
+На них добрые обращают взоры:
+Пестрые цветы и светлые ковры.
+1. For GPT to better grasp the lanuaage and
+Key insights
+its rules, there must be more information
+on the future
+and thoughts
+of this idea
+than just the words themselves, including
+phonetics, syllables, and stresses.
+2. There is no difference between generating
+of this idea
+words backwards or in the usual
+direction. However, generating words
+backwards could offer some benefits,
+especially in petry.
+3. This special text preprocessing could be
+used in tasks where lanuaage rules are a
+crucial part of success.
+That’s it! Thank you!

@@ -1,0 +1,59 @@
+Smart Meal Pla Planning with
+[compaany] and RAG:
+A Nutrition-Aware AI System
+[name]
+Why Meal Pla Planning? Why AI?
+• Food cnoice affects health, lifestyle, and budget.
+• Users want personalized, healthy, affordable meals.
+• Supermarkets offer vast product data, but it’s hard to use manually.
+• Can we automate meal pla planning using real-time product availability?
+Architecture Overview
+• Product Data Parsing – Extract products from a retailer’s website.
+• Text Processing and Embedding – Clean and index product names.
+• RAG System – Retrieve relevannt products and generate meal plans.
+• LLM Integration – [compaany] generates natural language menus.
+• User Query – Ask for personalized menus (e.g., vegetarian, keto, 3-
+meal/day).
+Step 1: Product Extraction
+• CSV file of ~380 grocery items parsed from retailer.
+• Columns: name, category, price.
+• Cleaned and converted to raw text.
+Step 2: Embedding Product Texts
+• RecursiveCharacterTextSplitter: splits data into 713 chunks.
+• Model: paraphrase-multilingual-mpnet-base-v2.
+• Embeddings stored in FAISS index for fast retrieval.
+Step 3: Contextual Product Retrieval
+• Use FAISS retriever (k=100) to find top relevannt products.
+• Integrate with LangChain retriever interface.
+• Works seamlesslly with any user query.
+Step 4: Prompted Menu Generation
+• Used [compaany] LLM via LangChain integration.
+• Custom prompt: Only use products from context.
+• If context insufficient → reply honestlly.
+Sample Output: Vegetarian Menu
+• Query: “Vegetarian 3-day menu. Fish and animal fat allowed.”
+• Generated Ouput:
+(highlight key meals: frittata, soup, quinoa salad, etc.)
+Final Output: JSON Export
+• System outputs a JSON with:
+• original query
+• used product context
+• generated answer
+• Easy integration into frontend or
+chatbot interface.
+Why It Matters?
+• Personalized nutrition advisors.
+• Grocery store chatbots or smart apps.
+• Integration into dietary and fitness platforms.
+• Scalable for multilingual use.
+Future Improvements
+• Add nutritional data and price optimization.
+• Multilingual queries and outputs.
+• Recipe generation using structured formats.
+• UI for non-technical users.
+Thank you
+• Github: https://github.com/oleeejka/access_food
+• Contact:
+• +2 *** *** ***
+• [email]
+• Project available on request.

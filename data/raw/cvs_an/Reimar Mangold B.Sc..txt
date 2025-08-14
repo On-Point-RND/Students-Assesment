@@ -1,0 +1,66 @@
+[name] [surname]
+Personal Info
+Gender: Female
+Date of Birth: October 3, 1993
+Contact: +2 *** *** ***, [email]
+Location: [location]
+Languages: Russian (Native), English (C1), Chinese (A1)
+Education
+[location] Institute of Electronic Technology ([location])
+PhD (2021–2025)
+Institute of Microdevices and Control Systems named after [name] [surname]
+Specialization: Automation and Control of Technological Processes
+Dissertation "Automation of Design-Technological Preparation of Production" (ongoing).
+Master’s Degree (2019–2022)
+Faculty of Intelligent Technical Systems
+Thesis: "Optimization of Electronic Systems Design Using Automated Workflows."
+Bachelor’s Degree (2012–2016)
+Faculty of Electronic Technologies, Materials, and Equipment
+Thesis: "Design and Standardization of Electronic Components in Manufacturing."
+Additional Certifications
+Data Analysis with Machine Learning Technologies ([location], 2023)
+Digital Transformation in Business Management ([location], 2024)
+Introduction to Artificial Intelligence ([location], 2023)
+Machine Learning Basics (self-paced courses, Coursera).
+Research & Scientific Activities
+Publications:
+20+ publications in peer-reviewed journals (Scopus, VAK)
+Co-author of a registered computer program: "1C-PLM Module for Standardization Compliance."
+Conferences & Awards:
+Winner, Young Researcher 2024 Competition ([location]).
+Participant, XIV International Conference on IT (2023), presented on "AI-
+Driven Process Automation."
+Regular speaker at industry seminars on automation and digital transformation.
+Teaching & Mentorship:
+Supervised 10+ students in thesis writing (topics: automation, PLM systems).
+Guest lecturer at [location] workshops on "Business Process Modeling in Digital
+Economy."
+Professional Experience
+JSC NRI [compaany] (2017–Present)
+Head of Department (Feb 2025–Present)
+Led a team of 20+ engineers in automating documentation workflows using 1C:PLM.
+Spearheaded ML-driven quality assessment models for technical documentation.
+Head of Laboratory (Mar 2023–Feb 2025)
+Redesigned business processes (AS IS/TO BE analysis) to integrate AI tools for
+component lifecycle management.
+Collaborated with IT teams to develop ML-based predictive maintenance algorithms.
+Lead Design Engineer (2019–2023)
+Implemented Python scripts for automating data extraction from CAD systems
+(AutoCAD, SolidWorks).
+Authored organizational standards for digital transformation, adopted across 5
+departments.
+Technical Skills
+ML/DL Tools: Python (NumPy, Pandas, Scikit-learn), TensorFlow (basic), data
+preprocessing.
+Automation & Engineering: 1C:PLM, AutoCAD, SolidWorks, Altium Designer,
+MATLAB.
+Data Analysis: MS Excel, SQL, business process modeling (MS Visio).
+Languages: Python, SQL.
+Key Achievements
+Reduced documentation processing time by 40% via ML-driven anomaly detection.
+Trained 50+ employees on AI tools for process optimization.
+Authored 12 organizational standards adopted by [compaany].
+Research Interests
+Application of ML/DL in industrial automation and predictive maintenance.
+AI-driven standardization and compliance in manufacturing.
+Integration of IoT and AI for smart production systems.

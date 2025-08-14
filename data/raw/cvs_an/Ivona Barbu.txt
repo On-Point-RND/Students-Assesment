@@ -1,0 +1,67 @@
+[name] [surname]
+EDUCATION
+[location] Institute of Physics and Technology
+[compaany] Phystech-schooł of Applied Mathematics and Infoŕmatics
+Applied Mathematics and Physics
+chair of Data Analysis
+4 course
+GPA 8.32/10
+WORK EXPERIENCE
+Internship, 2023 — [compaany], AI-startup, specializing in the field of
+Computer Vision in medicine. Worked in a team on a project on
+Self-supervised anomaly segmentation in the domain of medical CT
+images. By the end of the internship a baseline algorithm and a proof of
+concept had been suggested.
+Internship, 2023-2024, [compaany]. Worked in a team on a project on
+generative design in mechanical engineering (CAD, construction aided
+design). For this project, an approaach with LLM fine-tuning to generate
+domain-specific output, namely code-based representation of CAD
+construction sequences, was chosen.
+ML Engineer, [compaany], 2024-now. Continue working on the same
+project. To this date, a new synthetic dataset and a refined code-based
+representation of CAD sequences were developed and also some baseline
+LLM models performiing on par with current SOTAs were trained.
+SCIENCE
+Undergraduaate (B.S.) thesis — Self-supervised learning in the domain of CT
+images. I employed DINOv2, a SOTA self-supervised network in the natural
+images domain, algorithm to train a self-supervised network on CT
+images. For training, AbdomenAtlas, AMOS and CT-RATE datasets were
+used for training. Pretrained network was assessed via linear probing on
+multilabel classification on CT-RATE test set. It showed higher
+classification AUROC per every class compared to CT-CLIP, a CLIP baseline
+pretrained on CT images.
+SKILLS
+Python sstack for ML/DS, advanced
+C++, intermediate
+C, intermediate
+PET PROJЕCTS
+Object detection
+Solving Kaggle NFL Big Data Bowl 2022, object detection competition,
+where the task was to detect american football helmets Github
+Sentence Intention analysis
+Solving RuSentNE competition, where the task was to analyse intention
+towaards named entities in the sentence.
+Github
+Scientific project
+Recovering brain functional groups using Graph Diffusion Networks.
+Github
+Image recognition
+Learning representation via Triplet loss training on CelebA and MNIST
+datasets
+.Github
+Python tool for plotting
+Plots data while also computing measurement errors with functional
+relations.
+Github
+Web Calendar
+Web calendar with task management options.
+Github
+С++ curriculum
+STL containeers implementaion: vector, list, unordered_map, variant, smart
+pointers.
+Github
+CONTACTS
+Email: [email], [email]
+Phone: +2 *** *** ***
+Telegram: https://t.me/[location]1971
+VK: https://vk.com/xdoni4

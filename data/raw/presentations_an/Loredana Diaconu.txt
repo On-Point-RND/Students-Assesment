@@ -1,0 +1,101 @@
+
+
+Slide 1  
+----------------------------------------  
+[name] [surname]  
+1st year Master's degree, [company]  
+
+A selective generative model for the design of small organic molecules  
+
+Slide 2  
+----------------------------------------  
+Introduction  
+
+Slide 3  
+----------------------------------------  
+What is the topic?  
+
+Using generative models can help to:  
+
+Reduce the costs of drug development  
+Speed up the drug development process  
+Set the desired properties for generated molecules  
+
+The issues we aim to address  
+
+RL model  
+
+Slide 4  
+----------------------------------------  
+Server aichem (192.168.63.12)  
+GPU a6000, hardware specifications...  
+
+Slide 5  
+----------------------------------------  
+...  
+
+Slide 6  
+----------------------------------------  
+...  
+
+Slide 7  
+----------------------------------------  
+...  
+
+Slide 8  
+----------------------------------------  
+...  
+
+Slide 9  
+----------------------------------------  
+...  
+
+Slide 10  
+----------------------------------------  
+...  
+
+Slide 11  
+----------------------------------------  
+...  
+
+Slide 12  
+----------------------------------------  
+...  
+
+Slide 13  
+----------------------------------------  
+...  
+
+Slide 14  
+----------------------------------------  
+...  
+
+Slide 15  
+----------------------------------------  
+...  
+
+Slide 16  
+----------------------------------------  
+...  
+
+Slide 17  
+----------------------------------------  
+...  
+
+Slide 18  
+----------------------------------------  
+...  
+
+Slide 19  
+----------------------------------------  
+...  
+
+Slide 20  
+----------------------------------------  
+Bibliography  
+
+1. [name] [surname] et al. Fast, accurate, and reliable molecular docking with QuickVina2. [company] (Oxford, [location]) vol. 31,13 (2015): 2214-6. doi:10.1093/bioinformatics/btv082  
+2. [name] [surname], [name] [surname], [name] [surname]. Estimation of synthetic accessibility score of drug-like molecules based on molecular complexity and fragment contributions. [company] 1, 8 (2009). https://doi.org/10.1186/1758-2946-1-8  
+3. [name] [surname] et al. Redocking the [location]. [company] 2023. DOI: https://doi.org/10.1021/acs.jcim.3c01573  
+4. [name] [surname], [name] [surname], [name] [surname]. Structure-based discovery of opioid analgesics with reduced side effects. [company], 2016, doi: 10.1038/nature19112  
+... (similar replacements for remaining entries)

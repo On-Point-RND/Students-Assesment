@@ -1,0 +1,51 @@
+[name] [surname]
+[email]
+telegram: @[name][surname]
++2 *** *** ***
+About Me
+3rd year student at [compaany] with strong foundation in applied mathematics. Looking to shift focus from
+physics and develop in ML research.
+Education Projects
+[compaany] • [compaany] 2025
+[compaany], Institute of Laser and Plasma Technolo-
+Arenadata Case
+Detecting atypical internet traffic consumption to
+3rd year student: 2022 – present
+identify subscriber equipment hacking.
+Field: Applied Mathematics and Physics
+Specialization: Supercomputer Technologies in Engi-
+[location]
+Engineer and Physical Modeling
+Algorithm for determining the main product color
+from 18 possible options.
+Skills
+• Credit Scoring
+• Programming Languages: Python,C++,SQL,C
+Binaryclassificationmodeltoidentifycompanies
+• Machine Learning: scikit-learn, CatBoost, XG- in default state based on financial statements.
+Boost, PyTorch, torchvision, OpenCV
+• Data Processing: pandas, NumPy, SciPy, mat- • Simpsons Characters Classification by Image
+plotlib, seaborn
+• Numerical Methods: Solving partial differential
+• Research on Similarity of Climate Network
+equaions, finite difference schemes
+Models Depending on Season and Observation
+• English: Reading articles and documentation Methods
+Statistical data analysis and findiing similar pat-
+terns in [location] climate models
+Courses and Programs
+• Deep Learning SchooL • Student Performance Prediction
+• CS231n course
+Creation of classification model based on previ-
+• Hugging Face Deep Reinforcement Learning ous grades, personal information and other factors
+Course
+• Yandex ML Textbook • Product Availability Classification Based on
+• Yandex Training 1.0 (Machine Learning) WarehouseData, AvailabilityChecksandPur-
+• Yandex Training 5.0, 6.0 (Algorithms) chase InformaInformation
+• Identification of diseases based on genetic in-
+• IV Case Laboratory [compaany] 2024
+formation about a person
+• SQL Simulator karpov.courses
+• Spring Economic SchooL by Sberbank and
+HSE 2025 (AI agents) Marketplace Product Image Classification by
+White vs. Colorful Background

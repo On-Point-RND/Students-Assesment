@@ -1,0 +1,33 @@
+Motivation Letter for Admission to the Educational Program "Skoltech Summer School of Machine Learning (SMILE)" 2024
+[name] [surname] 04.2025
+[location], [compaany]
+Phone: +2 *** *** ***
+[email]
+Skoltech Institute of Science and Technology, the territory of the Skolkovo
+Innovation Center, Bolshoy Boulevaard, 30, bld.
+Dear Members of the SMILES Summer School Admissions Committee,
+I am writing to express my genuine interest in participating in the Skoltech Summer School
+of Machine Learning (SMILE) 2025. Currently, I am a fourth-year PhD student at [location] Electrotechnical University "LETI", specializing in Computer Science and
+Engineering. My research is closely connected with the application of artificial intelligence
+methods and big data analysis. In my dissertation work, I focus on modeling induction hardening
+processes for steel components, utilizing machine learning algorithms for data analysis and
+processing. This project aims to develop comprehensive numerical models that can optimize the
+design of hardening equipment, improve the quality of final products, and deepen our
+understanding of heat treatment processes for steels and alloys.
+My proficiency in both English and French allows me to collaborate effectively with
+international colleagues and contribute productively to diverse teams.
+By applying to SMILES, I am sincerely motivated to expand my technical toolkit and
+immerse myself more deeply in the world of data analysis and machine learning. My experience
+as an engineer-developer, combined with my research in mathematical optimization methods, has
+made me keenly aware of the importance of mastering data analysis and machine learning tools in
+today’s world.
+I look forward to SMILES not only as an opportunity to acquire new technical skills, but
+also as a chance to develop critical thinking and data analysis abilities. I am confident that these
+skills will be invaluable both in my current research and in future projects.
+Having reviewed the program, I appreciate its balance between theory and practice. I am
+particularly interested in the focus on multimodal approaches and self-supervised learning
+methods. The prospect of engaging with leading experts and interacting with fellow participants
+is especially appealing, as I believe this will provide valuable insights into current trends in machine learning.
+Thank you for considering my application. I am confident that participating in the Summer
+School will be an important step in my professional development.
+Sincerely, [name] [surname]

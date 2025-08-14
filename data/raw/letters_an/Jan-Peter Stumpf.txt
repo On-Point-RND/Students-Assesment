@@ -1,0 +1,33 @@
+Dear Admissions Committee
+My name is [name], I am a 1st year student of the Master's program in Petroleum Engineering at [compaany]. I graduated with a bachelor's degree from [university], specializing in oil field development with a red diploma (average grade 4.8/5).
+During my studies, I actively participated in scientific conferences (Oil and Gas, Oil and Gas Horizons), where I won prizes and solved technical cases from [company], [company] and [company]. Many of these tasks were related to digitalization, which sparked my interest in machine learning (ML) and artificial intelligence (AI).
+After joining [compaany], I had the opportunity to study Data Science and ML in depth. In the first module, I took the Introduction to Data Science course, which opened up new perspectives for me on the application of AI in the oil and gas industry. Now I am working on my master's thesis under the supervision of Professor [surname], investigating the application of ML to
+accelerate hydrodynamic modeling and forecasting the effectiveness of geological and technical
+measures. I am also quite successfully taking courses at [compaany], such as Machine and Deep
+Learning, HPPL and others, to expand my skills in this dynamic field.
+Why I want to participate in SMILES?
+1. Practical application of ML
+The SMILES summer school is an opportunity to work on real projects under the
+guidance of experts. I am particularly interested in applying machine learning to
+engineering problems, and I am sure that the schooal will help me gain valuable practical
+experience. Participating in projects and applying my knowledge to real-world problems
+is an invaluable opportunity for me to grow in this incredible field
+2. Training from leading specialists.
+I aim to learn from [compaany] researchers and international experts to gain a deeper
+understanding of modern ML methods and their application in knowlege-intensive
+industries.
+3. International cooperation.
+Participation in SMILES is a chance to meet like-minded people from different countries,
+exchange ideas and create a basis for future collaborations.
+4. Development towaards AI for energy.
+My long-term goal is to become a specialist at the interface between petroleum
+engineering and Data Science. SMILES will be an important step in this direction, as
+the schooal's program focuses on innovative approaches that I will be able to apply in my
+research.
+I am sure that my academic background, interest in ML and desire to develop in this field
+make me a strong candidate. Participation in SMILES will give me not only new knowledge but
+also inspiration for further work. I would welcome the opportunity to contribute to the schooal and
+learn from world-class best practices.
+Thank you for considering my application!
+Best regards,
+[name], +2 *** *** ***

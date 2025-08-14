@@ -1,0 +1,45 @@
+[name] [surname] 
+MSc/Intern Researcher, [compaany]
+Hebbian Spaarse Autoencoder
+
+Introduction
+
+Hebbian learning rules for representation learning.
+
+[name]'s rule for 1-component online PCA.
+
+“Neurons that fire together, wire together.”
+
+Introduction
+
+Algorithmic manner -> Optimization manner = Linear Symmetric PCA
+
+Motivation
+
+High selectivity of neurons to inputs.
+
+Problem statement
+
+Dictionary Learning - get sparse representation of the input.
+
+Methods
+
+SoftHebb is chosen for the bio-inspired learning rule.
+
+Compare 4 setups:
+
+Data - activaations of a tiny LM on a tiny stories dataset of synthetic texts.
+EVR is 
+
+Results
+
+All setups optiize the objectives, but BP is the best. Hebbian rules are approximations merely.
+
+Manual interpretations
+
+Hebbian updates optimize MSE, and anti-Hebbian optimize L1/L2 (sparsity/orthogonality) losses.
+
+Research gap
+
+Further directions: scale SAE for bigger LM, scale interpretability evaluations, provide more ablaations. 
+Such connection can improve bio-inspired rules and help constructing methods for neuromorphic dictionary learning.

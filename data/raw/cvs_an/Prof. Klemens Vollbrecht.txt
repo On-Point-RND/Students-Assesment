@@ -1,0 +1,98 @@
+[name] [surname]
++2 *** *** ***, + Moscow
+[name].[surname]@compaany.ru
+[email]
+About me
+I am currentlly pursuing a PhD at [compaany], focusing on the development of defense methods and
+enhancing the robustness of Deep Neural Networks. I have experience in the fields of Natural Language
+Processing (NLP) and Computer Vision (CV).
+Skills
+Programming Languages Python (Advanced), C/C++ (Intermediate), R (Intermediate)
+Hard Skills ML (Numpy, Pandas, Scikit-learn), DL (PyTorch, ONNX, RKNN,
+Transformeers), NLP (NLTK, Spicy, Natasha, BeautifulSoup), RL
+(Q-Learning, PPO)
+Software and Tools Docker, Git, MLflow, Airflow, LaTeX, Linux/bash, PostgreSQL,
+FastAPI
+Languages Russian (native), English (C1)
+Working Experience
+Middle+ Data Scientiist ([compaany]) - Full Time Feb 2025 – cur
+Training the multimodal models for categorization platform and implementing Moscow, [location]
+the AI Assistant. Team: DS SWAT.
+DL Engineer ([compaany]) - Full Time Jan 2024 – Feb 2025
+Developing deep learning models for solving computer vision tasks using SOTA
+architectures.
+• Trainedamodelforefficientanalysis,improvingprocessingspeedbyeliminating
+complex matching algorithms.
+• Devevelopedasimilarityevaluationmodelusingtripletloss,enhanciingpositioning
+accuracy.
+• Designed the project architecture, ensuring a robust and scalable solution, and
+wrote production-ready code.
+Cybersecurity Analyst ([compaany] - Consular Department of MFA) - Contract
+Detecting bots on the platform is essential to prevent queue manipulation and
+Mar 2024 – Apr 2025
+ensure fair access for users.
+Moscow, [location]
+• Implemented an effective CAPTCHA to protect against bots.
+• Analyzed outliers in web server logs and suggested protective measures; used
+regex and NLP to identify bot behavior.
+Junior Data Scientiist ([compaany]) - Contract
+Leveraged SOTA methods in Machine Transliteration, enhancing accuracy by
+Sep 2022 – Dec 2023
+20%.
+Moscow, [location]
+• Modified the architecture; deployed the model on FastAPI.
+• Engaged in various NLP tasks (NER, POS Tagging, Text Classification)
+Data Research Analyst ([compaany] - Institute of Automation and Electrometry)
+Jul 2021 – Sep 2022
+Automated experiments and accelerated data processing with Python;
+Novo[location], [location]
+implemented laser control code and published a paper.
+Competeitions and Achievements
+1. I took the first place in the competition NLP RUSSE-2018 (Word Sense Induction).
+2. The best project “Robot Control Using Pre-trained Large Language Models” among 30 teams at the
+AIRI summer schoo l on Artificial Intelligence, 2023 ([location]).
+3. Participan of the SMILES Summer Schoo l dedicated to Large Language Models, 2024.
+4. Successfully completed the «Fundamentals of Deep Learning» course by Nvidia.
+1
+Education
+PhD, [compaany]. Computational and Data Science and Engineering, Sep 2024 – Jun 2027
+Laboratory of Intelligent Signal and Image Processing. Moscow, [location]
+Thesis topic: “Robust AI Data Compression”. Supervisor: PhD in Physics and
+Mathematics, Full Professor Anh-Huy Phan.
+Master’s Degree, [compaany]. Data Science, Computational Intelligence Sep 2022 – Jun 2024
+Group. Moscow, [location]
+Thesistopic:“SuppressingModulationInstabilitywithReinforcementLearning”.
+Supervisor: PhD in Physics and Mathematics, Oleg Rogov.
+Bachelor’s Degree, NSU. Faculty of Physics, Quantum Optics. Sep 2017 – Jul 2021
+Thesistopic:“EffectofSpontaneousNoiseiNDistributedFibreSensingSystems”. Novo[location], [location]
+Supervisor: PhD in Physics and Mathematics, Ivan Lobach.
+Publications and Conference Participation
+Peer-Reviewed Journals
+1. [name] [surname],RishatZagidullin,OlegRogov,SergeyRykovanov,DmitryDylov.“Suppressing
+Modulation Instability with Reinforcement Learning”, Chaos, Solitons and Fractals, Q1 (ArXiv).
+2. [name] N.I., [surname] D.A., Lobach I.A., Kablukov S.I. Reflectogram shape deformation in
+distributed fibre systems in the presence of spontaneous noise in the probe radiation Quantum
+Electronics, Q2 (2021) 51 (12):1107 (doi:10.1070/QE L17661).
+Conferences
+1. Alexey Zhavoronkin, Mikhail Pautov, [name] [surname], Egor Sevriugov, Dmitry Kovalev, Oleg
+Rogov, Ivan Oseledets. “UnGAN: Machine Unlearning Strategiies through Membership Inference”.
+WAIT: Workshop on Artificial Intelligence Trustworthiness at conference AINL 2024, Q2.
+2. [name] N.I.,[surname] D.A.,LobachI.A.“Theeffectofsponaneousnoiseintheproberadiation
+on the reflectogram form in distributed fibre sensing systems”. 20th International Conference Laser
+Optics (ICLO 2022). June 20-24, 2022.
+Courses
+Neural Networks and Computer Vision, Neural Networks and Text Jul 2023 – Sep 2023
+Processing Moscow, [location]
+Organized by Samsung Research.
+Intro to Data Science, Intro to Natural Language Processing (NLP), 2022 – 2024
+Introduction to Computer Vision (CV), Machine Learning, Numerical Moscow, [location]
+Modeling, Deep Learning, Deep Learning for NLP, Numerical Linear
+Algebra
+Organized by [compaany].
+Hobbies and Social Life
+CrossFit. Numerous prizewinner in competitions. Participan in the all-Russian 2022 – cur
+tournament “Siberian Showdown.” Moscow, [location]
+Community Engagement 2023 – cur
+Organizer of Science Days at [compaany], volunteer at VK-Fest 2023, and organizer Moscow, [location]
+of weekend runs in collabora tion with colleagues from [compaany].
+2

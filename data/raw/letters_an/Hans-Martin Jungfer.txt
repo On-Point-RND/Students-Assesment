@@ -1,0 +1,32 @@
+Dear [name] selection committee,
+I first got into machine learning during my bachelor’s at [compaany], in a
+place and on a program unrelated to machine learning. In fact, my BSc university seems to have been
+one of the few common [location] universities without an explicit connection to the data science
+industry at the time. I didn't have any connections in data science or a name, only the unique
+opportunities provided by the undergraduate olympiads. Nevertheless, I hoped to work in the top AI
+research lab one day. Through online courses, the successful experience of ML competitions, DS
+internships, master's degree in the top [location] university, many personal and team ML projects, and
+collaborations, it became eventually possible.
+Today, I’m an intern research scientist at the Artificial Intelligence Research Institute (AIRI), where I
+work on machine unlearning for diffusion models using sparse autoencoders. In simple terms, I help
+text-to-image models “forget” certain concepts or styles - so they won’t generate harmful, biased, or
+copyrighted images. Ultimately, this helps the model’s owner to not lose money. The difficulty is that
+one cannot simply retrain the diffusion model from zero, it is just too expensive, excluding the
+inappropriate content from training data. Furthermore, talking about adult content in the diffusion
+model’s training data, filtering it out has been associated, by community, with the impaired model’s
+ability to generate human anatomy (link).
+My work project sits at the intersection of AI safety, multimodal learning, generative AI and
+interpretability. This is why I want to hear lectures and communicate with, specifically, [name] on
+safe AI, and [name] on multimodality, which are the topics I am working on. It is especially
+conducive for growing as a research scientist to have such materials from the top people in research
+and industry. Additionally, I am seeking international experience and a good time working on a small
+hypothesis during the hackathon with the best people, you are carefully selecting. In any case, it is
+great luck to meet professor [name] in person and ask him a question. Seriously, one rarely sees
+him anywhere, even in [location] or AIRI.
+Looking ahead, I plan to continue my work in AI research over the next three years as I pursue my
+PhD, deepening my contributions to safety, interpretability, and generative models. Participation in
+SMILES-2025 would be an invaluable step toward these goals - offering world-class instruction,
+international collaboration, and inspiration from leaders in the field and passionate young researchers.
+Thank you for your time and consideration.
+With regards,
+[name]

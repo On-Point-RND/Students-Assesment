@@ -1,0 +1,66 @@
+[name] [surname]
+[location]
+Email: [email]
+Phone: +2 *** *** ***
+GitHub: https://github.com/[name]
+EDUCATION
+MSc in Robotics (in progress)
+[location]
+Expected Graduation: 2025
+Thesis: “Research of Neural Network Methods of Human Identification in Intelligent Vision
+Systems”
+BSc in Robotics
+[location]
+Graduated: 2023
+Thesis: “Development of a Neural Network Algorithm for Visual Defectoscopy of Metal
+Structures”
+RESEARCH ACTIVITIES & PUBLICATIONS
+ [name], [surname], & [surname]. (2023, May). Research of Neural
+Network Methods of Visual Defectoscopy of Metal Structures. In 2023 International
+Conference on Industrial Engineering, Applications and Manufacturing (ICIEAM) (pp.
+809–814). IEEE.
+Presented at the conference. The paper discusses enhancing defect detection using
+polarized imaging.
+ [name], [surname], & [surname]. (2024). Development of a
+Prototyping System for Intelligent Video Analytics in Industrial Environments. In
+Proceedings of the XVI All-Russian Scientific and Technical Conference with
+International Participation “Robotics and Artificial Intelligence”, Zheleznogorsk,
+November 30, 2024. Krasnoyarsk: LITERA-Print. pp. 246–253. EDN RZEJSM. (In
+Russian)
+ Working on a forthcoming article: “Tile-Based Multi-Scale Detection: Designing a
+Simple and Effective Pipeline” (in preparation)
+This article discusses effective ways of designing tile-based detection
+RELRelevant EXPERIENCE
+ML Engineer
+[compaany], [location] — 2022 – Present
+ Automated defect detection in metal pipes:
+Developed a system for detecting defects in metal pipes using image data.
+ Trained and deployed object detection and segmentation models using PyTorch
+ Designed a custom training pipeline with automatic generation of synthetic samples and
+leveraging polarization camera data for enhanced performance
+ Urban infrastructure monitoring system:
+Created a monitoring pipeline based on satellite images, panoramic photos, and LiDAR point
+clouds.
+ Trained segmentation models using PyTorch
+ Deployed models using Triton Inference Server
+ Localized 3D objects in point clouds using 2D detections from panoramic images
+ Processed geographic data using ArcGIS
+ Built an automated training system for deep learning models using MLflow, FastAPI, and
+Celery
+ Retrieval-Augmented Generation (RAG) system for technical documentation:
+ Analyzed performance and suitability of various language models
+ Built a custom domain-specific dataset
+ Developed evaluation metrics and benchmark
+ Designed and deployed the pipeline using Docker, Elasticsearch, Triton Inference Server,
+MLflow, and PostgreSQL
+TECHNICAL SKILLS
+ Programming Languages: Python, C++, Bash, SQL
+ ML/DL Frameworks: PyTorch, TensorFlow, Scikit-learn
+ Tools & Libraries: Git, Docker, MLflow, ClearML, OpenCV, HuggingFace, NumPy,
+Pandas
+ Other: End-to-end experience in model training, evaluation, and deploymen; dataset
+preprocessing and augmentation; hyperparameter tuning; metric evaluation.
+RESEAARCH INTERESTS
+ Robotics perception
+ Computer vision tasks
+ Large language models

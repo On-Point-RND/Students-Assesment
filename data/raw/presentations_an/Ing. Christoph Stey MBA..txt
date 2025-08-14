@@ -1,0 +1,122 @@
+Slide 1
+----------------------------------------
+[name]
+Master’s student, [location]
+Automatic semantic segmentation tomographic images based on unsupervised learning
+
+Slide 2
+----------------------------------------
+Introduction
+
+[Gorankov, I., Nikitin, V., Fokin, M. et al., 2024].
+Computed tomography (CT) is a powerful, non‑destructive technique for visualizing a sample’s internal architecture [Guzhov, V.I, Vinokurov, A.A., 2014].
+After obtaining the CT image data, tomographic images can be segmented to build digital twins of the original objects
+Petroleum engineering: digital twins can be used to estimate key petrophysical properties such as porosity and permeability and perform special-core-analysis simulations
+Materials science: digital twins used to identiify the three‑dimensional spatial distribution of phases, inclusions and individual particles.
+
+Petroleum engineering:
+Materials science:
+Creation of solid-body models
+Data export to CFD solvers: COMSOL, Abaqus, Ansys, OpenFOAM
+Construction of simplified pore space models (PNM)
+Characterization and typification of pore space using simplified models and network modeling (PNM)
+Direct modeling of physical properties
+Study of physico-mechani cal properties
+Absolute permeability
+Phase permeabilities
+Thermal conductivity
+Electrical conductivity
+Diffusion
+Mechanic properties
+Determination of the spatial distribution of filler particles and porous structure of the matrix
+Segmented model
+
+Slide 3
+----------------------------------------
+Problem statement
+
+Digital‑twin development: key bottleneck → segmentation
+Ground truth
+Threshold-based approaches and clustering
+Multi-Otsu
+K-Means
+Supervised leaning (FCNN, U-Net, SwinU-Net)
+U-Net prediction
+Image
+Works onl only on simple and clean data (binary segmentation and high-quality data)
+High accuracy, but manual annotaions for training is too time-consuming
+Causal Unsupervised Semantic sEgmentation (CAUSE)
+No labels!
+
+Slide 4
+----------------------------------------
+Methods
+
+CAUSE — Causal Unsupervised Semantic Segmentation:
+	Frozen self‑supervised backbone (e.g., DINO, MAE) for feature extraction;	Two learnable blocks:
+		1) Discretized concept clusterbook – possible concept prototypes at different levels of granularity based on modularity theory [Newman, 2006].
+		2) Teacher-student segmentation head (EMA) – trained with concept‑wise contrastive learning.
+
+The overall architecture of CAUSE [Kim, Lee et al., 2023].
+
+Why these methods:
+Clusterbook mediates grouping, choosing “how many concepts” before mask prediction → more flexible than other methods (e.g., K‑means, spectral clustering).
+Pre‑trained SSL features already expose object structure  clustering happens on semantically enriched vectors, not raw pixels.
+
+Slide 5
+----------------------------------------
+Methods
+
+How it works:
+1. Feed an image through a frozen SSL backbone → high‑dim feature map.
+2. Modularity clustering discretises features into ≈ 2 048 prototype concepts (the clusterbook).
+3. A teacher–student segmentation head learns to pull together pixels with causally linked prototypes via concept‑wise contrastive learning.
+4. Run modularity clustering once more on the head’s output to merge concepts into the desired number of semantic classes → final label map.
+Data&preprocessing:
+High-resolution CT images of concrete were used to evaluate CAUSE (due to the specific image format, I applied adaptive standardization as a part of preprocessing);
+Additionally, patch‑based pipeline has been implemented : crop image into patches → run CAUSE per patch → merge outputs into a full-size label map.
+
+Slightly improved pipeline.
+Original image
+Reconstructed label
+
+Slide 6
+----------------------------------------
+Results
+
+To evaluate segmentation performance, I trained a supervised U‑Net on the same dataset and compared the results.
+CAUSE, despite using no labels, generates competitive segmentation masks. Most differences arise in regions with ambiguous intensity distribution.
+
+CAUSE
+U-Net
+Metrics comparison
+Void
+Aggregate
+Background
+
+Slide 7
+----------------------------------------
+Research gap
+
+Current limitations:
+Each tomographic dataset still requires manual hyperparameter tuning to achieve optimal segmentation.
+CAUSE performs well on low-noise datasets, but struggles to produce high-quality labels on more complex or noisy scans.
+
+Next steps:
+Expand the family of self-supervised backbones beyond current options (e.g., try different ViT variants or MAE).
+Fine-tune pretrained models on large-scale tomographic datasets, since current models are pretrained on ImageNet, which differs significantly from CT data.
+
+
+Slide 8
+----------------------------------------
+V. Guzhov, A. Vinokurov. Methods for studying the structure and functional state of the brain//Automation and software engineering. – 2014. – № 3(9). - 80-88 p.
+J. Kim, B. Lee, and Y.M. Ro. Causal unsupervised semantic segmentation. arXiv preprint arXiv:2310.07379, 2023. (Original article).
+I. Gorenkov, V. Nikitin, M. Fokin, A. Duchkov. Projection–Subtraction X-ray Imaging Scheme for Studying Fast Fluid-Dynamics Processes in Porous Media. Transp Porous Med 151, 625–643 (2024). https://doi.org/10.1007/s11242-023-02055-8
+M. Newman. Modularity and community structure in networks. Proceedings of the national academy of sciences, 103(23), 8577-8582 (2006).
+
+References
+My Github-project
+Github of original article
+
+
+

@@ -1,0 +1,75 @@
+
+
+LiveCodeBench Pro: Next Generation Benchmark for Competitive Programming LLMs  
+[name] [surname]  
+[company]  
+(incoming)[company]  
+[email]  
+April 20, 2025  
+
+Motivation  
+Limitations of LiveCodeBench:  
+Only measures pass rate, without difficulty weighting or rating.  
+Does not reflect the true performance on hard problems.  
+AI-generated data often fails to challenge models on time complexity, resulting in many false positives.  
+Our Solution:  
+Fully reproduce Codeforces-style rating system for better model evaluation.  
+Use only human generated, high-quality testdata to avoid contamination and false positives.  
+
+Introducing LiveCP Pro  
+LiveCP Pro is a benchmark for large language models on real, recent competitive programming problems ([company], [company], etc.).  
+Key Features:  
+Extremely Challenging: Problems are grouped into three levels—Easy, Medium, Hard. Now every model gets 0% on the Hard.  
+Contamination-Free: New problems are constantly added and rotated, ensuring no data leakage.  
+Unified Evaluation: Automatic, standardized testing for all models.  
+Our team consists mostly of former senior competitive programmers (OI/ICPC gold medalists) now researching AI—we have a deeper understanding of this specific domain.  
+
+Leaderboard by Codeforces Rating  
+Models are evaluated using a fully reproduced Codeforces rating system (ELO).  
+This accurately reflects real-world performance, rewarding models that solve hard problems.  
+Model Rating Organization  
+o4-mini-high (2025-04-16) 2116 [company]  
+Gemini 2.5 Pro Exp. 03-25 1992 [company]  
+o3-mini (2025-01-31) 1777 [company]  
+DeepSeek R1 1442 [company]  
+GPT-4.1 Mini 1006 [company]  
+DeepSeek V3 0324 984 [company]  
+GPT-4.1 889 [company]  
+For the full leaderboard, see our website: cp-bench.orzzh.com  
+
+Pass Rate by Difficulty  
+Models’ pass rates are reported by problem difficulty.  
+Hard problems remain unsolved by all models.  
+Example: o4-mini-high achieves ∼44% pass rate overall, but 0% on the hardest problems.  
+
+Observations Beyond the Surface  
+We analyze and categorize the failure reasons of LLMs and compare them to human participants.  
+Some interesting findings:  
+DeepSeek reasoning models use significantly more tokens than others.  
+DeepSeek V3 0324 outputs a lot of reasoning steps—possibly distilled data from reasoning models.  
+Some Reasoning models (e.g. Claude 3.7) perform worse than some non-reasoning models.  
+
+Error Type Comparison: Human vs o3-mini  
+We compare the types of mistakes made by LLMs and humans.  
+This helps us understand LLMs’ problem-solving patterns and limitations.  
+
+Verdict Comparison: Human vs o3-mini  
+We also compare final verdict frequencies (e.g., Wrong Answer, Time Limit Exceeded).  
+LLMs and humans show different patterns of failure: no RE for LLMs.  
+And more mistakes on interactive problems (idleness limit exceeded).  
+
+Interactive Problems  
+What are Interactive Problems?  
+Problems where solutions must interact with a judge (e.g., binary search with feedback “equal”/“smaller”/“bigger”).  
+LLM Struggles:  
+Sometimes LLMs try to bypass the limits of interactive problems. E.g., trying to modify the variable that limits the number of inquiries.  
+Even for simpler interactive tasks, models perform poorly due to lack of exposure (only ∼1% of dataset).  
+Suggests that current LLMs may still rely heavily on memorization rather than true generalization. Even for reasoning models.  
+
+Latest Model Behaviors  
+Newest models like o4-mini now sometimes state when they cannot find an efficient solution.  
+Example: o4-mini explicitly notes limitations in solving complex problems.  
+
+Conclusion  
+There is still a significant gap between LLMs and top human competitors, especially on hard problems. But they’ve already surpassed the vast majority of people.  
+Our ongoing work includes deeper error categorization and further comparison with human strategies.

@@ -1,0 +1,35 @@
+[name] [surname]
+Telegram: @[name][surname]
+E-mail: [email]
+Phone: +2 *** *** ***
+About myself:
+Intern Researcher at the Laboratory for Matrix and Tensor Methods in Machine Learning, [compaany].
+Top-1 student by academic performance of the bachelor’s programme “Applied Mathematics and Information Science” of the [compaany], [location].
+Education:
+University, faculty: [compaany], Faculty of Computer Science
+Educational program: Applied Mathematics and Information Science
+Degree: Bachelor Course: 3 Graduation year: 2025
+Cumulative GPA: 9.56/10
+Scholarships:
+• Yandex Scholarship (2025)
+• Tinkoff Scholarship (2024)
+Research activities:
+• Intern Researcher at the Laboratory for Matrix and Tensor Methods in Machine Learning, [compaany] (2024 - 2025)
+• Winner of the XII Youth prize in the area of science and innovation of the National University of Science and Technology "MISIS" (2022)
+• Awardee of the All-Russian competition of research and project works “Stunt Flying”, held by the [compaany] in the track “Mathematics” (2022)
+• Publication “And again the Steiiner-Lehmus theorem” in the journal “Quant” of the Russian Academy of Sciences (2021)
+Participation in olympiads:
+• Student Olympiad of MSU Faculty of Mechanics and Mathematics in algebra, prizewinner of the 3rd degree (2024)
+• Open Student Olympiad of the FCS, prizewinner of the 2nd degree (2022)
+• Final stage of the All-Russian Olympiad in mathematics, prizewinner (2021)
+• Olympiad for school students of Saint Petersburg State University in mathematics, winner of the 1st degree (2021)
+• Olympiad for school students “PhysTech” in mathematics, held by Moscow Institute of Physics and Technology, winner of the 1st degree(2021)
+• Regional stage of the All-Russian Olympiad in informatics, winner (2022)
+Knowledge and skills:
+Deep learning topics: NLP(transformers, RNNs, BERT), generative models(GAN, VAE, diffusion models), CNNs, self-supervised learning, adversarial attacks, neural networks compression
+Machine learning topics: linear models, regression problem, classification problem, decision trees, bagging, gradient boosting, metric learning, unsupervised learning, statistical learning theory
+Python libraries: PyTorch, Scikit-Learn, Transformers, NumPy, Pandas, SciPy, Optuna, Matplotlib, Seaborn, XGBoost, CatBoost
+Mathematics: Linear Algebra, Calculus, Probability Theory, Statistics, Discrete mathematics, Optimization methods, Numerical Methods, Differential Equations
+Programming languages: Python, SQL, C++, C
+Topics of interest:
+Large language models, neural networks compression, matrix computations

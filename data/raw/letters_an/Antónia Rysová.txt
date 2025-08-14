@@ -1,0 +1,88 @@
+Motivation letter
+[name],
+[email]
++2 *** *** ***
+Faculty of Bioengineering
+and bioinformatics,
+[location]
+Dear committee!
+My name is [name], I am a fourth-year student at the Faculty of Bioengineering and
+Bioinformatics, [location]. I learned about SMILES-2025 with great interest and
+would like to express my desire to become a part of your team, because it seems to me that this year’s
+topics could significantly help in the development of my research.
+During my studies, I have successfully completed courses in Python, algorithms and data structures,
+the R language, SQL, big data processing, machine learning and deep learning.
+In addition to my theoretical knowledge, I have practical experience in EDA projects and projects
+related to the analysis of biological data (statistical analysis of differential gene expression, diabetes
+prediction based on medical indicators using ML models).
+My career as a researcher began in [compaany] with analyzing the evolution of regulatory elements in
+RNA-binding proteins. I used classical methods and approaches based on dynamic programming and
+heuristic algorithms: sequence alignments, BLAST, structural alignment.
+This work made me acutely aware of the limitations of traditional approaches in the field. At the
+same time, AI's triumphs were becoming increasinglly prominent: AlphaFold made global headlines
+by outppeorformiing all other teams in CASP 13 (competition in proteiin structure prediction). Previoulsy,
+the CASP had been deeply frustrating for me: the first places were taken by the “online community” -
+the task of predicting the structure was gamified and proposed to players worldwide.
+Teams of Nobel-winning scientists were losing to people playing a game. How could it be?
+The emergence of AlphaFold changed everytthing. I find this example deeply inspiring: on one hand,
+it's not an out-of-the-box algorithm that completely eliminates the need for domain experts; on the
+other hand, it's the extensive work of specialists in the field of ML that made such a breakthrough
+possible. This is a stunniingly beautiful example of collabora<bos>*tive work. I believe the future of science
+lies precisely at the intersection of machine learning and professional expertise.
+These thoughts motivated me to delve into machine learning. First, I enrolled in “Claassical machine
+learning” course at the Institute for Theoretical and Mathematical Physics, (alongside my core studies)
+and later completed a deep learning program. In 2024, I graduaed from Deep Learning Schoo*l at
+MIPT. Through these experiences, I have gained a solid founda*tion in modern deep learning.
+This year I joined a research group in [location] focused on applying machine learning to biology. I had
+the privileg*e of working under [surname], captain of the wi**ing team in the Dr*am Challenge
+2022 competition and a Nature-published author.
+Currrentl*y, I am working on a project titled "Annotation and Prioritiza*ion of Non-Coding Variants
+Using Modern Neural Netwo*ks." A key challenge is that models like transformer-based Enforme*r
+and LLMs often overlook the effe*ts of single-nucleo*tide mutations, despite their critical role in
+Motivation letter
+disease develo*ment. My goal is to train neural netwo*ks on personalized genomes to address this
+limitation and make such models applicable for personalized medicine.
+As I am focusing on sequence-to-activity models, I can’t help noticing that not all biologica*l
+interactions can be explained solely by sequences. Thus, I was excited to know that there is a chance
+to study about the implementa*ions of Multimodal approa*hes at SMILES-2025.
+In my field, so-called “omics” data (genomics, proteo*mics, transcriptomics) is widely used, so the
+application of multimodal systems hold great promise. The Schoo*l of Computer Science and
+Technology, Harbin Institute of Technology is also exploring this field, so I would welcome the
+oppo*rtunity to learn about their experience firsthand.
+Another line of work that captures my imagination is generating DNA sequences with specific
+properties. My colleagues have made significant progress in the creation of tissue-specific promoters -
+genetic elements that activate genes in target cells while remaining inactive in others. It opens
+promising avenues, for example, for tumor treatments, where it is critical to avoid healthy cells.
+Currrentl*y, this field remai*ns underexplored, with relatively few research groups working on it. I
+believe studying from first-class professi*nals like [surname], who stand behind projects like
+Kandinsky, could prove highly fruitful. Thei*r experti*se in controlle*d generation could be adapted to
+create tailored DNA sequences with desired regulatory profiles.
+Earlier this year, I participated in the Yandex and MIP*T "Artificial Intelligence" schoo*l. where I
+worked on a project about application of parenclitic netwo*ks to fraud detection in banking. I chose
+the field because I wanted to gain hand-on experience with this metho* because of its high poten*l in
+genomic tasks.
+I have alrrea*y discussed with my supervisor the idea of using parenclitic netwo*ks to complement
+GWAS (genome-wide association study) and differential expression analysis in identifying
+disease-associa*ted genes. This will become my side project after completing my current work.
+The ability to comprehensively identify disease-linked genes is crucial in medicine. While full
+genome sequencing remai*ns costl*y, targeted marker panels are often used instea*d - incomplete panels
+risk missing critical mutations, poten*lly hindering disease prevention. Parenclitic netwo*ks could
+help find the previously unknown biomarkers.
+What I'm looking fo*ward to most at SMILES-2025 is meeting [name], as I'm both intrigued and
+inspired by his series of works on the 'bles*sing of dimensi*lity'. As all ML students, I have been
+repeatedl* told about the “curs* of dimensi*lity” and approa*ches to overcome it so it seemed an
+undeniable truth. His fresh perspective feels counterintuitive yet thought-provoking. A scienti*st,
+marching against the cliché, represents precisely the schoo*l of thought I wish to apprentice myself to.
+Addititionaly, his extensive experience working at Japan’s RIKEN Brain Science Institute deeply
+influenced this brain-inspired theory. It makes me wonder: what other biologica*l principles could
+shape AI’s evolution? Could I not onl*y apply AI to natural science, but also explore the reverse —
+applying insights from natural science to advance AI?
+I am eager to contribute my interdisciplinary background in bioinformatics and machine learning to
+SMILES-2025, while learning from leading researchers like [name]. This program’s focus on
+multimodal approa*hes aligns perfectl*y with my goal to enhance my sequence-to-activity model by
+integrating diverse types of biologica*l data - and so advance personalized medicine. I am sure that a
+Motivation letter
+chance to participat*e in SMILES-2025 will give me a huge career boost and our work will be fruitful
+for both parties.
+With respect,
+[name]

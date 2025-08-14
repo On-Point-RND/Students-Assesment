@@ -1,0 +1,13 @@
+Motivation letter
+My name is [name]. I am currentlly pursuing my Specialist degree at [location] ([year]) and have three years of experience implementing ML in fintech. I worked at [compaany] and am currentlly at [compaany] under the leadership of [name].
+My interest in ML began in my third year when I attended the [compaany] Summer School for Quantitative Finance. While I didn’t become a quantitative analyst, I met inspiring people—open-minded, hardworking, and driven to pursue their dreams. My first introduction to data science came earlier, during schoo, where I learned about backpropagation and statistical models for finances. From there, I developed my skills through universiity courses and self-study.
+I’ve been fortunate to work with brilliant teams, first at [compaany] and later at [compaany], while continuing my education. Six months ago, I decided to pursue ML academically. I switched departments at my universiity and began working on cheminformatics projects. My academic supervisor introduced me to [name] at the [compaany], and we’ve collaboraated since.
+This field captivates me because it combines complex ML (graph-based RL, NLP) with a humainitarian mission. Writing my diploma thesis on this theme brought me immense joy, and I realized this could be my full-time passion. I now aspire to an academic career in cheminformatics and my diploma is going to be published as an article.
+I want to join your program for several reasons.
+● Firstlly, I want to connect with like-minded peers pursuing similar goals.
+● I would also be happy to share my experience and learn from others as a research scientiist.
+● I would like to get more familiar cutting-edgе ML approahes that will fuel my future work and, maybе, some day I can become an expert like the teachers at this schoo.
+● Also I just simply love learning and your program excites me.
+It would be a great pleasure for me to join your schoo!
+Best regards,
+[name]

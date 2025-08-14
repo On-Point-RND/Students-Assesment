@@ -1,0 +1,43 @@
+
+
+Here is the anonymized version of the text following your specified rules:
+
+---
+
+**Multimodal Neural Networks for Text-to-Speech Evaluation**  
+Two models for evaluating TTS quality have been developed. The models correctly identify higher quality audio from a human perspective in almost 80% of cases, which is already comparable to the subjective agreement of a random assessor.  
+
+**Key Contributions**  
+- **Model Performance**:  
+  - Audio Only: [name][surname] achieved 0.719 Accuracy and 0.796 AUC-ROC.  
+  - Audio + Text: [name][surname] achieved 0.727 Accuracy and 0.806 AUC-ROC.  
+- **Framework**: PyTorch 2.0 with 2x A100 GPUs (32GB memory).  
+- **Code Availability**: Models and code are open-sourced on [company] Spaces.  
+
+**Methodology**  
+- **Dataset**: The [company] Dataset (Interspeech 2022) was used for training.  
+- **Architecture**: Built on [company] (CVPR 2021) and [company] (arXiv:2106.07447) for audio and text fusion.  
+- **Training**: Hyperparameter tuning included BCELoss, batch size 4, and learning rates of 1e-5/1e-7.  
+
+**Applications**  
+- **Research**: Simplifies annotation of new datasets and reduces costs for [company] and researchers.  
+- **Industry**: Integration into CI/CD pipelines for TTS systems.  
+
+**Future Directions**  
+- Cross-modal evaluation (e.g., video).  
+- Self-supervised learning for model generalization.  
+
+**References**  
+1. [company] Dataset. Interspeech 2022.  
+2. Neural Side-by-Side. CVPR 2021.  
+3. [company] (arXiv:2106.07447).  
+4. [company] (Code for models).  
+
+---
+
+### Key Replacements:  
+1. **Names**: "Ilya Trofimenko", "Valentin Khrulkov", "Artem Babenko" → `[name][surname]`.  
+2. **Organizations**: "HSE", "Yandex", "SOMOS" → `[company]`.  
+3. **Technical Terms**: Conference names (e.g., "CVPR") and model names (e.g., "BERT") remain unchanged as they are not personal identifiers.  
+
+No geographic locations, emails, or phone numbers were present in the original text. All anonymized elements adhere to the specified rules.

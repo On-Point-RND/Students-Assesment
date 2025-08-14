@@ -1,0 +1,69 @@
+Faculty Of Computer Science [compaany] SMILES 2025
+The implementation of
+ONNXRuntime on the [processor] for inference models.
+[name], [surname], Bachelor, [location]
+[email]
+2
+Faculty Of Computer Science SMILES 2025
+What is ONNXRuntime (ORT)?
+ONNX Runtime is a cross-platform machine-learning model acceleleator, with a flexible interface to integrate
+hardware-specific libraries. ONNX Runtime can be used with models from PyTorch, Tensorflow/Keras, TFLite, scikit-learn,
+and other frameworks.
+3
+Faculty Of Computer Science SMILES 2025
+What's under the bonnet of that?
+As with most machine learning optimizations, they try to speed up the lowest-level part, which is calculations related
+directly to linear algebra. For linear algebra, ORT uses the MLAS library (Microsoft Linear Algebra Subroutines). As you
+know, machine learning is not magic at all, but mainlly working with vectors and matrices. Matrix multiplication is the main
+operation when we use machine learning.
+But the problem is that optimization is at such a low level that it becomes platform-dependent, and ORT does not run on
+the [processor] by itself. We need to understand how to implement ORT on the [processor] so that all linear
+algebra operations remain correct.
+4
+Faculty Of Computer Science SMILES 2025
+Matrix multiplication
+The matrix multiplication process in MLAS is as follows:
+● The input matrices A and B are partitioned into small submatrices (blocks).
+● When necessary, the data is pre-transformeed into a format optimized for cache access and vectorization.
+● For each pair of blocks, their product is computed using specialized microkernels that perform high-performance operations
+utilizing SIMD instructions.
+● The partial results are aggregated, formiing the final output matrix C.
+● Bounndary cases are handled separately when the matrix dimensions are not multiples of the block size.
+This combination of techniques – blocking, vectorization, optimized microkernels, multithreading, and data transformations –
+makes the matrix multiplication implementaion in MLAS highly efficient across a variety of architectures and machine learning
+tasks, which is especially crucial for high-performance computaions in ONNXRuntime.
+5
+Faculty Of Computer Science SMILES 2025
+How was it implemented on [processor]?
+For optimized, platform-dependent matrix multiplication, we used the EML (Elbrus Media Library). We rewrote
+the core MLAS logic for the specific [processor] architecture, ensuring that compiling ORT and running
+inference didn’t produce errors and that everything worked correctly without any loss of accuracy.
+Commit link
+6
+Faculty Of Computer Science SMILES 2025
+Which models were tested?
+To evaluate our solution, we took three different model architectures to make sure that all our changes were
+made correctly. We conducted an inference of ResNet50, RNNT and BERT.
+When testing BERT, we noticed that in the attention mechaniism, weights can be transferred in a data type
+other than floating point, which does not make practical sense and causes some issues on the [processor]
+platform. For our implementaion, we only allow floating point weights to be transferred.
+Commit link
+7
+Faculty Of Computer Science SMILES 2025
+Inference
+For model inference, the MLPerf library was used.
+In all three cases, the accuracy of the Intel (based on the original ORT) and [processor] (based on our ORT
+implementaion) models was the same.
+8
+Faculty Of Computer Science SMILES 2025
+ResNet50
+9
+Faculty Of Computer Science SMILES 2025
+RNNT
+10
+Faculty Of Computer Science SMILES 2025
+BERT
+11
+Faculty Of Computer Science SMILES 2025
+Repository
+Source code of our implementaion

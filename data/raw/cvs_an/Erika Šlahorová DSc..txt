@@ -1,0 +1,88 @@
+[name]
++2 *** *** ***
+[email]
+[location]
+[location]
+[compaany]
+[location]
+March 28, 2000
+Work Experience:
+02.2023 — present [compaany]
+Junior Research Engineer
+• Improved a neural network model for estimating significant wave height based on
+spaatial distributions of backscatter intensity from shipborne navigation radar
+• Reworked the data splitting strategy for more objective evaluation
+• Contributed to the preparation of the paper [4]: generated plots, computed and pro-
+cesseed research results, evaluaated model performance, conducted ablaition studies
+• Provided consulting on pretraining a neural network using synthetic radar images of
+sea surface [5]
+11.2021 — 01.2023 [compaany]
+Developer
+• Developed and implemented a neural network-based method to correct atmospheric
+model wind forecasts (speed and direction) at meteorological station locations
+• Supported integration of the trained model into the [compaany] application (data pre-
+processing, model inference)
+• Presented the results at the DLCP-2022 conference
+(https://indico.jinr.ru/event/3084/book-of-abstracts.pdf)
+2020 — 2023 Thesis Research
+• Implementedaclusteringalgorithmforsedimentgrainsusingvariousmachinelearning
+techniques
+• Individual particles were detected on images and clustered using a SOTA model
+• Developed a web-based application for automatic classification of sediment grains in
+microscope images of prepared geological samples
+• Work led to a defendeed bachelor’s thesis and two published papers; defendeed master’s
+thesis [1] [2]
+08.2023 — present [compaany]
+Junior Research Engineer
+• Conductedareviewanddevelopeda methodologyfo rstatisiticalcorrectionofgeophys-
+ical field forecasts
+• Implemented a machine learning-based algorithm to correct WRF atmospheric fore-
+castsusingERA5reanalysis,scatterometers,andground-basedmeteoroologicalstations
+• Work presented at international conferences: DLCP-2024, Enviromis 2024, [location]
+Tools and Skills: Python, Matplotlib, NumPy, Pandas, scikit-learn, PyTorch, openCV, Flask, SSH, tmux
+Education:
+2017 — 2021 [location] Moscow Institute of Physics and Applied Mathematics and Physics, Oceanology B.Sc.
+Technology
+2021 — 2023 [location] Moscow Institute of Physics and Dept. of Oceanic Thermohydromechanics M.Sc.
+Technology
+2023 — 2027 [location] Shirshov Institute of Oceanology Oceanology PhD student
+Publications
+[1] [name], [name], & [name]. (2022). Visual clustering of marine sediment particles using a
+combination of unsupervised machine learning methods. In Proceedinings of The 6th International Workshop on
+Deep Learning in Computational Physics — PoS(DLCP2022) (pp. 020).
+[2] [name], [name], [name] et al. Client-Server Application for Automated Estimation of
+Bottom Sediment Composition in the Fraction >0.1 mm from Microphotography Using Modern Deep Learning
+Methods. [location] Univ. Phys. 78 (Suppl 1), S104–S114 (2023). https://doi.org/10.3103/S0027134923070093
+[3] [name], [name], и [name]. «MEAN WIND WAVE PERIOD ESTIMATION FROM
+INDIVIIDUAL SHIP NAVIGATION RADAR IMAGES USING DEEP LEARNING METHODS». Journal of
+Oceanological Research 52, вып. 4 (29 декабрь 2024 г.): 20–38. https://doi.org/10.29006/1564-2291.JOR-
+2024.52(4).2.
+[4] [name], [name], [name] et al. Estimating Significant Wave Height from X-Band Nav-
+igation Radar Using Convolutional Neural Networks. [location] Univ. Phys. 78 (Suppl 1), S128–S137 (2023).
+https://doi.org/10.3103/S0027134923070159
+[5] [name], Vadim, Mikhail Krinitskiy, Alexander Gavrikov, [name], Mikhail Borisov, Alexander Suslov, и
+Natalia Tilinina. «Improving data-driven estimation of significant wave height through preliminary training on
+synthetic X-band radar sea clutter imagery». Frontiers in Marine Science 11 (27 сентябрь 2024 г.): 1363135.
+https://doi.org/10.3389/fmars.2024.1363135.
+[6] [name], M. A., и др. «Estimating Significant Wave Height from X-Band Naviga-
+tion Radar Using Convo-
+lutional Neural Networks». Moscow University Physics Bulletin, т. 78, вып. S1, декабрь 2023 г., сс. S128–37.
+DOI.org (Crossrref), https://doi.org/10.3103/S0027134923070159.
+Conference Participation
+[1] [name], [name], and [name]: Artificial neural networks for clustering sediment
+grains in microphotographs., EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-14262,
+https://doi.org/10.5194/egusphere-egu21-14262, 2021.
+[2] [name] V.A., [name] M.A., [name] D.G. АЛГОРИТМ АВТОМАТИЗИРОВАННОЙ
+ОЦЕ оценки ВЕЩЕСТВЕННОГО СОСТАВА ДОННЫХ ОСАДКОВ ВО ФРАКЦИИ>0.1 ММ ПО
+МИКРОФОТОГРАФИЯМ С ПРИМЕНЕНИЕМ СОВРЕМЕННЫХ МЕТОДОВ ГЛУБОКОГО
+ОБУЧЕНИЯ. In: "Современные методы и средства океанологических исследований" (MSOI-2023),
+Proceedinings of the 18th International Scientific and Technical Conference. Vol II.
+[3] [name], [name], Vanovsky, V. Towards the Statistical Correction of High-Resolution Weather Fore-
+casts from the WRF Model employing Deep Learning., The 8th International Conference on Deep Learning in
+Computaional Physics, offline, 19-21 June 2024, https://dlcp2024.sinp.msu.ru
+among others.
+Other RelRelevant Experience
+• Participant of the international hackathon "Цифровой прррыв. Сезон: Искусственный интеллект" in the
+case "Коррекция прогн прогноза геофизических полей" from [compaany] as case owner and expert
+• 1 year of experience teaching Python programming to high schoo students at the international schoo
+"Алгоритмика"

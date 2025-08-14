@@ -1,0 +1,139 @@
+Enhancing RAG
+[name]
+ML Engineer, [compaany]
+Introduction
+Topic: Retrieval-Augmented Generation (RAG) in LLLMs
+Why it matters:
+Mitigates hallucinations in LLLMs
+•
+Grounds outputs in factual, retrieved content
+•
+Crucial for sensitive domains like healthcare and industry
+•
+Goal of the review:
+to synthesize recent advancements in Retrieval-Augmented Generation (RAG)
+•
+highlighting areas for future research in the development and application of
+•
+RAG systems
+Problem statement
+overview
+- Paper 1: Enhancing factual accuracy in Medical Vision Language Models (Med-
+LVLMs) by addressing issues arising from over-reliance on retrieved contexts in
+RAG systems.
+- Paper 2: Determining optimal strategies for integrating multimodal inputs (text
+and images) into RAG systems for industrial applications.
+- Paper 3: Identifying best practices in RAG workflows to balance performance
+and efficiency, particularly in complex, multimodal settings.
+- Paper 4: Comparing the effectiveness of base versus instruction-tuned LLLMs
+within RAG frameworks, challenging assumptions about model alignment and
+performance
+Key Challenges and Scope
+Challenges:
+Balancing retrieval quantity and relevance
+•
+Handling multimodal input
+•
+Complexity of pipeline choices
+•
+Model alignment and instruction tuning
+•
+Scope:
+Medical, industrial, general QA, and foundational evaluation
+Methods - Approaches
+Paper 1: RULE strategy + preference fine-tuning
+Paper 2: Compare image-to-text vs. multimodal embeddings
+Paper 3: Exhaustive config testing + retrieval-as-generation
+Paper 4: Empirical evaluation of base vs tuned models
+Intuition:
+Paper 1: RULE == Calibrate context size
+•
+Paper 2: Best modality for QA
+•
+Paper 3: Best RAG configs
+•
+Paper 4: Real-world model comparison
+•
+Data & Preprocessing
+Paper 1: Medical VQA, preference dataset creation
+Paper 2: Industrial docs, image-to-text summaries
+Paper 3: Standard datasets, consistent preprocessing
+Paper 4: RAG benchmarks, fairness across models
+Results
+Paper 1: RULE significantly improved factual accuracy in medical RAG tasks—up to 47.4% across
+datasets—by optimizing context quantity and model fine-tuning.
+Paper 2: Textual summaries of images outperformed multimodal embeddings in industrial RAG tasks,
+highlighting the strength of text-based visual grounding.
+Paper 3: Demonstrated that RAG performance depends heavily on fine-grained design choices, and that
+“retrieval as generation” can be surprisingly effective.
+Paper 4: Showed that base LLLMs, when supported by high-quality retrieval, can outperform instruction-
+tuned models—challenging common assumptions.
+Common metrics across papers:
+- Accuracy and factual correctness (e.g., via human evaluation or automatic fact-checking)
+- BLEU, ROUGE, METEOR for generation tasks
+- Retrieval precision/recall and Top-k accuracy
+- Trustworthiness and hallucination rate (Paper 4)
+These metrics matter because:
+- They capture how factually correct and useful the generated content is.
+- They help assess how well the model grounds its generation in retrieved knowledge (a key RAG goal).
+Research gap
+Paper Limitations
+Paper - Tailored to the medical domain; generalizability is untested.
+1 - Relies on curated preference datasets, limiting scalability.
+- Assumes access to high-quality image-to-text models; lacks analysis under noisy
+Paper
+image conditions.
+2
+- Focuses only on industrial QA, not broader multimodal RAG use cases.
+Paper - No automated tools for RAG pipeline optimization; manual tuning still needed.
+3 - High computational cost for evaluating all design choices.
+- Limited to general-domain QA; doesn’t address performance in domain-specific
+Paper
+settings.
+4
+- Ignores multi-turn interactions common in real-world RAG scenarios.
+Research gap
+Unresolved Challenges
+Adapting retrieval to query complexity and user intent
+•
+Reducing hallucinations without limiting model creativity
+•
+Scaling RAG to noisy, real-world multimodal data
+•
+Lack of benchmarks for multimodal/domain-specific tasks
+•
+Why It Matters
+Factual errors erode trust in critical domains
+•
+Robust retrieval boosts reliability and generalization
+•
+Multimodal support unlocks new, high-impact applications
+•
+Future opportunities
+- Unified frameworks for automated RAG pipeline tuning and
+evaluation.
+- Domain-adaptive training for RAG systems to perform well across
+specialized fields.
+- Multimodal benchmarking to test how visual, auditory, and textual
+inputs influence generation quality.
+- Continual RAG learning, where the model updates its retrieval
+strategy over time based on feedback.
+- Human-in-the-loop systems that refine retrieval/generation using
+expert feedback, especially in sensitive domains.
+Bibliography
+1.Li, [surname], [surname], [surname], and [surname]. 2024. “RULE: Reward Tuning
+for Medical Vision-Language Models.” arXivpreprintaarXiv:2410.21943.
+2.Ye, [surname], [surname], [surname], [surname], [surname], and [surname]. 2024.
+“RAGBench-MM: Benchmarking Multimodal Retrieval-Augmented Generation.” arXiv
+prepintaarXiv:2407.01219.
+3.Chen, [surname], [surname], [surname], and [surname]. 2024. “Revisiting Design
+Choices in Retrieval-Augmented Language Models.” arXivpreprint
+arXiv:2407.05131.
+4.Liu, [surname], [surname], [surname], and [surname]. 2024. “Instruction-Tuned vs. Base
+LLMs: A Case Study on Retrieval-Augmented Generation.” arXivpreprint
+arXiv:2406.14972.
+5.Would you like me to add these citations to the final slide or create a separate
+references slide in your presentation?
+PS: I decided to take initiative and to review impactful RAG
+papers that propose for improving the efficiency and
+effectiveness of the RAG pipeline:)

@@ -1,0 +1,33 @@
+[name] [surname]
+[email]
+Employment History
+2021–... ] [compaany]
+2024–... ] [compaany]
+Education
+2018–2024 ] SpecialistDegreeinMedicalBiochemistry, [compaany]
+2024–2028 ] Postgraduate Studies in Bioinformatics and Mathematical Biology, [compaany]
+Research Publications
+JournalArticles
+1
+V.V. [surname], D.S. [surname], N.V. [surname],etal.,“Approachesto drugrepurposingfor covid-19therapy:Insilico,invitro,invivoaandclinicalstudies,”Experimental and Clinical Pharmacology,vol.86,p.126,Oct.2023.
+doi:10.30906/ekf-2023-86s-126.
+ConferenceProceedings
+1
+R.R. [surname], A.V. [surname], N.Y. [surname],andO.A. [surname],“RetrievalAugmented Generation(RAG)forCoherentKnowledgeandRelationExtractionfromArticleAbstractsonAntiviralCompounds,”inProceedings of the II School for Young Scientists “ModernChallengesinMolecularBiology”,Sheregesh, [location],2025.
+url:https://disk.yandex.ru/i/SbtgCGc-UUl0ug.
+2
+R.R[surname], A.V. [surname],andD.A. [surname],“Drug-DrugInteractionPredictionandClassificationUsingBayesianMethodsinMachineLearning,”inProceedings of the ACS Spring 2024 Meeting,NewOrleans,LA,USA,2024,p.3991298.
+url:https://scimeetings.acs.org/exhibiit/Drug-drug-interaction-prediction-classification/3991298.
+3
+R.R[surname], A.V. [surname],andD.A. [surname],“Drug-DrugInteractionMechanismPredictionUsingBayesianMethodsinMachineLearning,”inProceedings of the XXI International Symposium “BioinformaticsandComputer-AidedDrugDiscovery”,[location],Russia,2024,p.129.
+doi: 10.18097/BCADD2024.
+4
+O.A. [surname], N.Y. [surname],R.R. [surname],etal.,,“Automatictextanalysisforbuildiinga knowledgebaseonvirus-humanhostinteractions,”inProceedings of the VII International Conference “POSTGENOM-2024”andXIRussianSymposium“ProteinsandPeptides”,PatriotExpo,[location]:PeroPublishing,2024,p.195. url:
+https://postgnome.org/uploads/pages/49/f90469bcaf317a5e9d30eaa70bfae86c.pdf.
+Skills
+Languages ] Strongreading,writingandspeakingcompetenciesforEnglishandRussian.
+Coding ] Python,R,sql,LATEX.
+Databases ] Postgresql,sqliite.
+Interests
+ScientificTopics ] Machine Learning/Deep Learning, Natural Language Processing, Large Language Models,CausalInference,GraphTheory.
+ThesisTopics ] Drug-DrugInteractionPrediction,RetrievalAugmentedGeneration(RAG),EnsembleLearningMethods.

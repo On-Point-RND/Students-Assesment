@@ -1,0 +1,97 @@
+Machine learning for identifying
+patterns of internal speech
+[name]
+[location], [compaany]
+Introduction
+• Goal - to identify the classical machine learning algorithm, which, in combination with the
+genetic method of feature selection, will give the best result in predicting the linguistic
+operation based on EEG data, and will also identify the areas of the brain involved
+• Relevance of the study:
+• Development of projects related to internal speech decoding
+• Search for optimal speed and accuracy solutions for neural interfaces
+• Interdisciplinary vector of modern research (combining computer science, neuroscience
+and linguistics)
+Problem statement
+• Problem - the task of classifying linguistic operations based on electroencephalogram data
+• Challenges:
+• «Abstractness» of the correlation between data and the target value
+• Large number of electrodes - features
+• Limited number of recordings
+• Possible data noise due to the pecuilarities of their recording
+• Practical application - development of neural interfaces for decoding internal speech
+Existing research
+• Coughlin C.E. Sensitivity to Inflectional Morphology in a Non-native Language: Evidence From ERPs
+• Use of statistical methods to determine similarities and differences in native and non-native language
+processing
+• Huth A.G. Natural speech reveals the semantic maps that tile human cerebral cortex
+• Definition of semantic fields through voxel representation of fMRI recordings
+• Salankar N. Emotion recognition from EEG signals using empirical mode decomposition and second-order
+difference plot
+• SVM and MLP for classifying emotional states according to EEG data
+• Wei C. EEG-based emotion recognition using simple recurrent units network and ensemble learning
+• Deep learning and recurrent networks for decoding emotions from EEG data
+Data
+• Dataset [Coughlin,
+Electrode N250 N400 Condition Relation
+Fiorentino, Royle and
+others 2019: electronic C3 3,8647 2,3124 Identification Related
+resource]
+C4 1,5056 0,88775 Identification Related
+CZ 2,8472 0,89617 Identification Related
+F3 3,002 -1,3863 Identification Related
+F4 3,3571 -0,36114 Identification Related
+Data processing and methods
+Data transformation Converting individual values into features, train/test split (2:1) for each condition
+Data synthesis Gaussian copulas
+Model selection based on
+KNN, MLP, Decision tree, HMM, SVC
+accuracy
+First generation - 20 «beings», the preservation of 90%
+of the best in each generation, the criterion for reaching
+Genetic feature selection
+the «plateau» is the accuracy difference of 10
+consecuutive generations <0.05
+Brain-language patterns Based on the location of 20 electrodes and 2
+peak values of the N250 and N400 signals
+creation
+Results (accuracy)
+Condition KNN Decision MLP SVC HMM
+tree
+Identification 0,802 0,802 0,821 0,802 0,472
+Morphology 0,764 0,821 0,84 0,802 0,274
+Orthography 0,745 0,811 0,802 0,83 0,491
+Semantics 0,802 0,821 0,802 0,811 0,623
+Identification Morphology
+Mean: 0,77825 0,81375 0,81625 0,81125 0,465
+• Red – N400
+• Blue – N250
+• Purple – N400 и N250
+Orthography Semantics
+Research gap
+• Limitations:
+• Requires serious data preprocessing, which takes time
+• No outliers control
+• Limited number of classes
+• Unresolved challenges:
+• Clearing data from noise
+• Identifying sequences rather than individual operations
+• Future steps:
+• Using recurrent neural networks to work with sequences
+• Applying AI to filteer noise
+Bibliography
+1. [name] // [compaany]. 2016. pp. 45-57.
+2. [name], [name], [name] // Frontiers in Communication. 2019. №4. URL: https://www.frontiersiin.org/articles/10.3389/fcomm.2019.00021/full
+3. [name], [name], [name] // Current Biology. 2012. URL: https://www.cell.com/current-biology/fulltext/S0960-9822(12)01074-3#%20
+4. [name], [name], [name] // Nature. 2016. №532. URL: https://www.nature.com/articles/nature17637 (дата обращения: 20.04.2024)
+5. [name], [name], [name] // Biomedical Signal Processing and Control. 2021. №65. URL: https://www.sciencedirect.com/science/article/abs/pii/S174680942030495X
+6. [name] // Mechanical engineering and computer technologies. 2015. No. 06. pp. 217-234.
+7. [name] // Moscow, 2013. 142 p.
+8. [name], [name], [name] // Biomedical Signal Processing and Control. 2020. №58. URL: https://www.sciencedirect.com/science/article/abs/pii/S1746809419303374
+Data sources:
+1. «Datasheet 4: EEG mean voltage» URL: https://frontiersiin.figshare.com/articles/dataset/Data_Sheet_4_Sensitivity_to_Inflectional_Morphology_in_a_Non-
+native_Language_Evidence_From_ERPs_xlsx/8153153/1
+2. «International EEG 10-20 system» URL: https://www.researchgate.net/figure/The-figure-is-based-on-International-EEG-10-20-system-
+Schematic-drawing-of-electrode_fig1_333355100
+3. «Real Word Stimuli» URL: https://frontiersiin.figshare.com/articles/dataset/Data_Sheet_6_Sensitivity_to_Inflectional_Morphology_in_a_Non-
+native_Language_Evidence_From_ERPs_PDF/8159810/1
+Repository - https://gitverse.ru/veta_el/brain_language_patterns

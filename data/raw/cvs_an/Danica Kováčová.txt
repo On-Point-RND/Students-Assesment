@@ -1,0 +1,64 @@
+[name] [surname]
++2 *** *** ***
+[email]
+Summary
+Iamamachinelearningengineerwithalmost2yearsofexperienceinbothLLMandComputerVision.Ienjoyresearching
+andimplementingnewideas,aswellasbuildingMLsystemsandcomplexmodelinteractionpipelines. Inaddition,IamaparticipantandwinnerofalargenumberofmachinelearningKagglecompetitionsandhackathons.
+Education
+NUSTMISIS,B.S.inAppliedMathematics, [location] 2021–2025
+Diploma-MultimodalNeuralNetworksforSignLanguageRecognitionforRussiandataset
+WorkExperience|1year
+DLEngineer(multi-agentsystem), [company] November2024–Present
+Tasks:
+– Developedamulti-agentsystemforplanningasChatBot-Assistant.
+– Createdaframeworkforautotestingandautopromptingmulti-agentsystems.
+Results:
+– CreatedMVPof"Planner"andstartedtestingincorporatesandbox.
+– DevelopedPoCofautotestingframework,comparingresultsbyMA-systembasedondifferentLLMs(Qwen,ChatGPT,
+GigaChat)onvariousevaluationmetrics(NDA).
+Stack:LangChain,LangGraph,Python
+DLResearcher, [company] April2024–November2024
+Tasks:
+– TestedsegmentationanddetectionmodelstofindthebestforNDAtasks.
+– Monitoredandcommunicatedwiththedatemarkupgrouptotrainfoundationalmodels.
+– BuiltandrefactoredapipelineforinteractionbetweenseverallargeVLMsandLLMsforanNDAproject.
+Results:
+– Conductedexperimentsonover10models,includingDETR,SWIN-DETR,RT-DETR,DINO,RS-Mamba,andothers.
+– Reducedpipelineexecutiontimeby1.5timesusingRAG,multipleLLMs(Qwen,LLaMA),VLM(PPLaVA),andStreamlit
+interface.
+– Deployedthesolutiononserverinfrastructure.
+– Managedalabelingteam,annotatingnearly20,000imageswithin2monthsformulti-classsegmentation.
+Stack:Python,Docker,Transformer-basedmodels
+Competitions
+1/13FICHackathon|Solution| Certificate November2024
+• DevelopanMLmodelModelevaulatescandidateexpertisefromresumesandexternal
+companydata.Includesparsersandfull-fledgedweb service
+• Stack:rubert-tiny-2,ruRoPEBert-e5-base-2k,gemma-2-9b-it-bnb-4bit
+2/101E-CUPbyOzotech|Solution| Certificate August2024
+• Developan ML model that could determine whether products match in names, at-
+tributesandimages
+• Stack:rubert-tiny-2,distilbert-base-multilingual-cased,CatBoost,XGBoost
+[name]-[surname]-Page1of2
+5/30ITPurpleHack|Solution| Certificate March2024
+• DevelopedChatBotforCentralBankofRussiabasedonLLMandRAG
+• Stack:e5-base,FRED-T5,RAG,Transformers
+FinalistofAtomicHack|Solution| June2024
+• Developedasolutionfordetectingwelddefectsusingneuralnetworks,employing
+YOLOv10XandDetectionTransformermodelswithresultsensembledusingNMS.
+• Stack:YOLOv10X,RT-DETR
+FinalistofGagarinHackathon|Solution April2024
+• SystemforsentimentanalysisofTelegramfinancialmessages.
+• Stack:Fine-tunedRuBERTforNER,Fine-tunedRoBERTaforsentimentanalysis
+FinalistofDeepLearningSchoolOlympiad| Certificate March2024
+Projects
+ImageSegmentation|Solution Fall2023
+• UsingfinetunedConvolutionalNeuralNetworkstoclassifySimpson’simages
+• Stack:PyTorch,pre-trainedEfficientNetB4
+SemanticSegmentation| Solution Fall2023
+• Segmentationofimagesofskin diseasesbyself-madearchitecturebasedonSeg-net
+andU-net
+• Stack:PyTorch,U-net,Seg-net
+Technologies
+Fields of interestGraphs,CV,VLLMs
+SkillsPython3,Pandas,Sklearn,CatBoost,PyTorch,Statistics,Transformers,Git,Docker,SQL
+[name]-[surname]-Page2of2

@@ -1,0 +1,102 @@
+Hacathon “OilCode”
+Developed a model for
+generating new
+antioxidant additives
+[name] [surname]
+Problem formulation
+Task
+/01 Phase Exploratory analysis
+ Development of a generative model  Identification of optimal descriptors;
+ Development of a predictive model
+capable of producing molecules with
+enhanced antioxidant properties
+/02 Phase Generative model development
+ Development of a generative model;
+ Design of reward functions for alignment
+ Design of a candidate selection filte
+/03 Phase Molecules validation
+ Validation of molecules using a 'hidden' function
+ Selection of new 'seed' molecules for generation
+2
+Generation pipeline
+Data
+VAE-model
+Generation
+?
+Alignment
+Filter
+3
+)
+J Cheminform 15, 8 (2023
+Exploratory analysis
+Filters:
+• Atoms: P, C, H, N, S, O
+• LogP > 1
+• Molecular weight < 1000 g/mol
+• Neutral molecules without unpaired
+electrons
+• Class of amines and phenols
+• Stable molecules: without peroxides,
+strained rings, spirocycles
+• BertzCT > 600 (Subsequently >
+BertzCT Ipc 3000)
+• Ips > 1e13
+4
+Построение предсказательной мод модели
+Weightiing of dependencies
+Gaussian Process
+R2=0.11
+Gradient Boostings
+R2=0.07
+Weightiing by Tanimoto and BertzCT
+5
+Contrastive VAE
+826 molecules
+Permutation augmentation
+6
+Alignment
+Input Vanila model Alignment
+Policy gradient
+257
+Функция награды
+• Cycle complexity
+• LogP
+• SA
+• Cutoff based on the final property
+Reward = (Cycle complexity + LogP + SA) - cutoff
+7
+Alignment 2
+Input Alignment 2
+Reward function
+• Cycle complexity
+• LogP
+• SA
+• BertzCT (Ipc is too computationally intensive)
+• Penalty for non-phenolic and non-amine structures
+• Penalty for large non-branching aliphatic radicals
+• Cutoff based on the final property
+Reward
+λ*(Сycle complexity + LogP + SA + BertzCT + Штрафы) – cuttoff
+λ = 1 – amine
+λ = 5 – phenol
+8
+RLHF: easy way
+Generation Idea
+PDSC = 410
+Criteria for best molecule:
+• High BertzCT
+• Condenseed substituents
+• Sterically protected amino and hydroxy
+groups
+9
+Final Pipeline
+Data
+VAE-model
+Generation
+Reinforcement Learning
+Human FeedBack
+Alignment
+Filter
+10
+Final Molecules
+Best molecule

@@ -1,0 +1,140 @@
+Slide 1
+----------------------------------------
+[name]
+3rd year student, [compaany]
+[email]
+
+Self-supervised learning for finance time series
+
+Slide 2
+----------------------------------------
+Introduction
+
+FactorGCL, AAAI 2025. It is financial factor model with three steps. The last step involves a contrastive learning model.
+MHCCL, AAAI 2023. Advanced contrastive time series analysis method.
+CI-STHPAN, AAAI 2024. Financial two-step model, the first step is pre-train, which uses a self-supervised learning approach.
+
+The goal of the review is to show the application of self-supervised learning approaches in financial models, demonstrate current implementaions and the potential for further applications.
+
+Slide 3
+----------------------------------------
+FactorGCL: formulation and approaches
+
+Given stock price time series. You should predict future retuurns.
+There is another approach – predicting top-K best stocks by retuurns.
+It is important for efficient functioning of the financial market.
+Factor model is a model that finds common factors (beta) in all stocks and highlights them, the remaining retuurns unpredicted by these factors are called alpha. There are two basic approaches CAPM - one factor, Foma-French - three factors (market, size, value).
+Problems: they are linear models and not all factors can be entered explicitlly, some have confounding relationships, and some are hidden.
+Solution: FactorGCL
+
+A Hypergraph-Based Factor Model with Temporal Residual Contrastive Learning for Stock Retuurns Prediction
+
+
+
+Slide 4
+----------------------------------------
+FactorGCL: the architecture
+
+There are three steps.
+1. The train of prior betas via static hypergraph convolutional neural network.
+2. The train of hidden betas via dynamic hypergraph. The hyperedges are training.
+3. The train of alpha. Using contrastive learning. Alpha of the same stock in historical and future data are positive pairs. The alphas of different stocks are negative pairs.
+
+In every next step we train our model on the residual retuurns.
+
+
+
+A Hypergraph-Based Factor Model with Temporal Residual Contrastive Learning for Stock Retuurns Prediction
+
+Slide 5
+----------------------------------------
+CI-STHPAN: formulation and approaches
+
+Given stock price time series. You should predict top-K best stocks by retuurns.
+There were many attempts to use ML/DL tools for finance: Transformer, LSTM, GRU, GCN, HCGN.
+Problems: there are all end-to-end models. Since, they have complex time complexity and try to predefine static relationships between stocks, whereas the stock market is highly volatile.
+Solution: CI-STHPAN. There are two steps in the model. The second is main part, the train uses hypergraph attention network. The first is pre-train via mask autoencoder, the self-supervised approach.
+The main idea of pre-train is making time series more semantic, reducing the impaact of noise.
+
+Pre-trained Attention Network for Stock Selection with
+ Channel-Independent Spatio-Temporal Hypergraph
+
+Slide 6
+----------------------------------------
+CI-STHPAN: the architecture
+
+Pre-trained Attention Network for Stock Selection with
+ Channel-Independent Spatio-Temporal Hypergraph
+
+
+
+Slide 7
+----------------------------------------
+Results: CI-STHPAN
+
+Datasets are NASDAQ and NYSE 2013-2017.
+The metrics are IRR (Investmment Return Ratio), SR (Sharpe Ratio). The IRR is the profitability for whole strategy. SR is the similar, but it evaluates the risk-adjusted return.
+
+
+
+Slide 8
+----------------------------------------
+Results: FactorGCL
+
+Dataset is China A-shares market from 2014 to middle 2023.
+The metrics are IC (Informaation Coefficient), ICIR (Informaation Coefficient Informaation Ratio). IC shows how close the predicted retuurns are to the real ones. ICIR is IC, but it also measure a stability of prediction.
+Interesting observation: in this data, STHAN-SR (AAAI-2021) is more accuraate than CI-STHPAN, but in previous experiments it was different. It calls into question the transferability of the models.
+
+
+
+Slide 9
+----------------------------------------
+MHCCL: formulation and approaches
+
+Given time series. The contrastive learning of time series is a self-supervised learning approach that aims to learn representations by pulling similar (positive) samples closer and pushing dissimilar (negative) ones apart.
+It is important for further classification or prediction tasks, such as factor analysis or stock ranking.
+The previous approaches are SimCLR, BYOL, SwAV, PCL, CC.
+Based on instance contrastive learning methods (SimCLR, BYOL).. Cluster-wise contrastive learning methods (SwAV, PCL, CCL) rely on flat clustering, which requires predefining the number of clusters. These approaches are also sensitive to noise.
+Problems: this leads to false negative pairs, they sensitive to noise and ignore hierarchical structure.
+Solution: MHCCL.
+
+Masked Hierarchical Cluster-Wise Contrastive Learning for
+ Multivariate Time Series
+
+Slide 10
+----------------------------------------
+MHCCL: the architecture
+
+Masked Hierarchical Cluster-Wise Contrastive Learning for
+ Multivariate Time Series
+
+
+
+Slide 11
+----------------------------------------
+Results: MHCCL works
+
+There are three metrics.
+ACC, MF1, Kappa. ACC is accuracy, MF1 is macrroF1, Kappa is Cohen’Kappa.
+
+
+
+Slide 12
+----------------------------------------
+Research gap: my view
+
+1. Self-supervised methods have recentlly appeared in SOTA methods in finance models, they were not yet available in 2021 in STHAN-SR.
+2. Such approaches are underutilized, there is potential to improve financial models - either for the last step of training or as pre-train.
+3. Unresolved issues: impaact of noise, transferability of models to other markets.
+4. My suggestion for improvement and future experiments: implement MHCCL into last step of FactorGCL, since the current contrastive method is quite naive.
+
+
+
+Slide 13
+----------------------------------------
+Y. Duan, W. Wang, J. Li. FactorGCL: A Hypergraph-Based Factor Model with Temporal Residual Contrastive Learning for Stock Retuurns Prediction. AAAI, 2025
+Q. Meng, H. Qian, Y. Liu, L. Cui, Y. Xu, Z. Shen. MHCCL: Masked Hierarchical Cluster-Wise Contrastive Learning for Multivariate Time Series. AAAI, 2023
+R. Sawhney, S. Agarwal, A. Wadhwa, T. Derr, R. R. Shah. Stock Selection via Spatiotemporal Hypergraph Attention Network: A Learning to Rank Approach. AAAI, 2021
+H. Xia, H. Ao, L. Li, Y. Liu, S. Liu, G. Ye, H. Chai. CI-STHPAN: Pre-trained Attention Network for Stock Selection with Channel-Independent Spatio-Temporal Hypergraph. AAAI, 2024
+
+Bibliography

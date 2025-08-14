@@ -1,0 +1,45 @@
+Evdokiia [name]
+Ph. D. Student
+Dedicated Soil Science graduate with a strong foundation in natural sciences and specialized expertise in Soil Physics from [location]. Experienced in quantitative research and practical applications, including hydrogel materials for improving crop yields in arid regions. Proficient in geoinformation systems (QGIS, ArcGIS) and programming (Python, R) for spatial modeling of soil properties. Passionate about physical modeling of natural processes, focusing on substance and energy exchange within the hydrological cycle and atmospheric interactions. Seeking opportunities for applying skills in soil physics and environmental modeling.
+[email] +2 *** *** *** [location]
+WORK EXPERIENCE SKILLS
+Junior research associate Python programming for Open data aquisition
+[company] data processing and through API (Google Earth modelling Engine, HLS)
+11/2022 - Present,
+Tasks Laboratory and field Hydrological modelling
+Classification Machine Learning algorithms experiments of hydrophysical (MODFlow Flex, Hydrus, GIS data processing and gas soil properties etc.)
+Big Data processing and optimization
+Remote sensing data GIS processing and mapping
+Open data aquisition processing (LIDAR, UAV) (QGIS, ArcGIS, SAGA)
+Digital soil mapping
+Machine Learning in Code parallel computing
+classification tasks optimization
+Data analyst
+ENV-CONSULTING [company] programming Statistics and geostatistics
+05/2024 - Present,
+Time-Series Analysis Morphometric Analysis
+Tasks
+Open data aquisition, processing and visualisation
+Big Data Processing Digital Soil Mapping
+Statistical reports of environmental impact of negative
+impact of the facility
+Assessment of the impact of negative impact of the facility
+on the environment (groundwater) using hydrological PARTICIPATING IN RESEARCH
+modeling
+PROJECTS
+Intelligent soil design and composites for agriculture
+with controlled carbon sequestration
+EDUCATION
+(06/2023 - Present)
+Conducted field measurements of carbon dioxide in gas exchange
+Bachelor Degree in Soil Science (Soil
+of "soil-plant-atmosphere" on soil constructions with hydrogel
+Physics)
+Moscow State University
+08/2018 - 06/2022, LANGUAGES
+Master Degree in Soil Science (Soil Physics) Russian English
+Moscow State University Native or Bilingual Proficiency Full Professional Proficiency
+08/2022 - 06/2024,
+Ph. D. in Biological Sciences
+Moscow State University
+10/2024 - Present,

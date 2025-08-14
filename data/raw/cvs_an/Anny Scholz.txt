@@ -1,0 +1,75 @@
+Curriculum Vitae
+Education
+[compaany]
+Faculty of Computer Science, BSc in Applied Mathematics and Informatics
+2024–present, [location]
+Scientific and Research Activities
+Project: Training Corvids to Collect Waste (2019–present)
+•
+Independent, long-term research project on corvid cognition and human-
+wildlife collaboration. Developed multiple training devices and neural-
+network-based systems for object classification and bird species
+identification. Current focus on contactless recognition of corvids (video1 - https://t.me/[compaany]/298, video 2 - https://t.me/[compaany]/364)
+and studying intelligence and evolutionary behavior in birds. Together with
+the laboratories of my faculty, we have started a large study in several areas
+at once, which we plan to submiit at the conference.
+Project: Smart Pedestrian Crossing
+•
+Designed and implemented a prototype system using computer vision and
+neural networks to detect pedestrians and illuminate crossings in low-
+visibility conditions. Aimed at reducing nighttime accidents at unregulated
+pedestrian crossings.
+Project: Schooal Safety System
+•
+Co-developing an AI-driven video analytics system for early detection of
+potential threats in schools. Utilizes multiple neural networks for behavior
+analysis and person detection.
+Sirius Center for Talent Development – “Big Challenges” Program
+•
+(2023)
+Collaborated with [compaany] to build a machine learning model that
+automatically estimates car value based on technical specifications. Focused
+on model accuracy, interpretability, and scalability.
+Public Engagement and Scientific Events
+Speaker at national youth forums and conferences, including:
+•
+o [location] Expo (VDNH) (https://vkvideo.ru/playlist/-135454514_-
+2/video-135454514_456246396), Znanie Society Forums, Youth Day
+(Red Square) (https://vk.com/video-
+135454514_456243915?t=3h10m40s)
+o School-level conferences: Baltic Science and Engineering
+Competition (Grand Prize), ROST-ISEF (2nd Place + American
+Psychological Association Award), Junior MEPhI (3rd Place), HSE
+Higher Pilotage (1st Place), Big Challenges (1st Place)
+Multiple appearances on national TV channels ([location] Channel One [location],
+•
+[location]-1, etc.)
+Numerous features in major media outlets and educational platforms
+•
+Teaching and Mentoring Experience
+Electronics Club Instructor (Grade 11)
+•
+Led a year-long practical course in basic electronics for ~20 schoolchildren
+Project Mentor for Young Students
+•
+Supervises several junior research teams, assisting with idea development,
+scientific writing, project presentation, and result analysis. Example: an egg
+incubator with AI inside, Russian sign language recognition, gas leak
+analysis system, etc
+Technical Skills
+Programming: Python (advanced), experience with C/C++ and ROS (basic
+•
+robotics)
+Machine Learning / Deep Learning Frameworks:
+•
+o PyTorch, TensorFlow, Keras, Scikit-learn
+o YOLO (object detection), OpenCV (computer vision)
+Other Tools: Microsoft Kinect, Intel RealSense, camera depth systems, Git
+•
+Topics of Interest
+Application of AI in Ecology, Evolutionary Biology, and Environmental
+•
+Science
+Computer Vision, Auto nomous Systems, and Robotics
+•
+Practical, interdisciplinary innovation using machine learning

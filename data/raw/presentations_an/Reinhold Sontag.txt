@@ -1,0 +1,38 @@
+Creating a virtual assistant
+(chaтbot) for oil companies
+(I'm thinking about developing this
+project now)
+[name] [surname]
+Specialist, [compaany]
+Introduction
+• According to statistics, in large companies, employees spend up to 8 hours a week searching for the
+necessary information. If we take into account that the working week is 40 hours, then in fact 1 working
+day is spent on "playing hide and seek" with data. The development of a chaтbot will allow people to save
+time and focus on more important strategic tasks.
+• It is believed that the first chaтbots appeared more than half a century ago and were used in psychiatry for
+the purpose of artificial live communication (dialogue) for patients. In the next year, based on keywords,
+the program "communicated", asked questions, relying on its given scenes of scenario attacks. Years go
+by, and the capabilities of chaтbots have expanded significantly, while maintaining their basic original task
+- communication with the user and provide the necessary information.
+Problem statement
+• The goal of the project is to create a chaтbot for the purposes of large oil and gas companies.
+• During the project implementaion, a virtual assistant for oil and gas companies will be designed and
+programmed, which will optimize work with large amounts of data. Foreign companies are gradually
+introducing artificial intelligence to solve certain problems.
+Methods
+• 1) Creating a technical specification with a detailed description of the project for creating achaтbot (product
+characteristics and capabilities, requirements for the result,critical assessments of the product quality).
+• 2) Preparing data for uploading. Collecting and structuring materials forbot training.
+• 3) Analyzing the current approach to writing a chaтbot. Selecting an enviroment forprogramming.
+• 4) Creating a demo version of the chaтbot. Description of the testing report (use of different types of
+testing).
+Results
+• The goal of this project is to create a chaтbot for oil companies, a communication program that
+communicates with the user according to a given scenario, a way to obtain information and optimize
+work.
+Research gap
+Today, there is an increased interest in new technologies. There are many works devoted to studying the
+possibilities of artificialintelligence, but there are fewer practically implemented ideas. The first chaтbots
+were conceived of communicating with patients at a psychiatric appoinmtent. Communication with the
+user is the key function of chaтbots. Technologies based on artificial intelligence are being introduced into
+the work of large enterprize corporations.

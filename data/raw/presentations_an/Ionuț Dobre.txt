@@ -1,0 +1,209 @@
+
+
+Slide 1  
+----------------------------------------  
+Guide The Diffusion Or Generate Cringe  
+or  
+How to steer the diffusion model for better quality  
+
+[name] [surname], [company]  
+
+
+Slide 2  
+----------------------------------------  
+Overview  
+
+Agenda  
+
+Diffusion intuition  
+Motivation  
+What is Guidance?  
+Methods:  
+Classifier-Free Guidance (CFG)  
+Perturbed Attention Guidance (PAG)  
+Autoguidance  
+Sliding Window Guidance  
+Conclusion  
+
+
+Slide 3  
+----------------------------------------  
+Diffusion intuition  
+
+
+
+Sampling distribution: N(0,1)  
+Target distribution: images*  
+Translation:  
+determine the velocity field  
+train the model predicting it  
+	or  
+train the model to determine the velocity field  
+
+
+
+* usually, but not limited with  
+
+Flow Matching Guide and Code  
+https://arxiv.org/pdf/2412.06264  
+
+One of the most intuitive approaches to the diffusion: Flow-Matching  
+
+
+Slide 4  
+----------------------------------------  
+Motivation  
+
+Motivation:  
+
+Diffusion covers all modes 				→ good diversity  
+Drifts away from prompt  
+Results can be blurry or off‑topic  
+Results can look strange or even disgusting  
+
+
+
+So the idea:  
+Trade a bit of diversity for sharper, on‑target results  
+
+Guiding a Diffusion Model with a Bad Version of Itself  
+https://arxiv.org/abs/2406.02507  
+
+
+Slide 5  
+----------------------------------------  
+Guidance Concept  
+
+What Is Guidance?  
+
+Run model twice per step  
+to obtain ‘better’ prediction  
+to obtain ‘worse’ prediction  
+Compare predictions and amplify the difference  
+
+Result leans towards the better trajectory!  
+
+
+Slide 6  
+----------------------------------------  
+CFG Intuition  
+
+Classifier‑Free Guidance (CFG)  
+
+Diffusion runs with and without prompt  
+The difference is being amplified  
+Guidance scale tunes strength  
+
+
+
+Self-Rectifying Diffusion Sampling with Perturbed-Attention Guidancehttps://arxiv.org/abs/2403.17377  
+
+
+Slide 7  
+----------------------------------------  
+CFG Undersides  
+
+CFG – Typical Pitfalls  
+
+Cuts off rare modes → low diversity  
+Very high scale can overshoot  
+Same scale for all steps can destabilize  
+No per‑concept control  
+
+Guiding a Diffusion Model with a Bad Version of Itself  
+https://arxiv.org/abs/2406.02507  
+
+
+Slide 8  
+----------------------------------------  
+PAG Idea  
+
+Perturbed Attention Guidance (PAG)  
+
+Self‑attention maps → identity  
+Degrades structure → negative sample  
+
+
+
+Same idea, but only for the structure  
+
+
+Slide 9  
+----------------------------------------  
+PAG Benefits  
+
+PAG Pros:  
+
+Works w/o condition  
+Great for inpainting and deblurring  
+
+Yet works only for structure  
+
+
+Slide 10  
+----------------------------------------  
+Auto Concept  
+
+Autoguidance  
+
+Use a weaker mini‑model as the guide  
+Its systematic errors reveal fixes  
+Main model corrects and refines  
+
+Weaker model  
+
+
+Slide 11  
+----------------------------------------  
+Auto Details  
+
+Autoguidance Pros:  
+Separates quality vs diversity knobs  
+Record FID on ImageNet (1.01 @64²)  
+
+Autoguidance Cons:  
+Requires both models in memory  
+Assumes single‑stage training  
+
+Guiding a Diffusion Model with a Bad Version of Itself  
+https://arxiv.org/abs/2406.02507  
+
+
+Slide 12  
+----------------------------------------  
+SWG Mechanism  
+
+Sliding Window Guidance (SWG)  
+
+Split image into overlapping patches  
+Run full image: ‘better’ prediction  
+Run patches: ‘worse’ prediction  
+(locally better, globally mess)  
+
+
+Slide 13  
+----------------------------------------  
+SWG Benefits  
+
+    Summarize why SWG is appealing in practice.  
+
+SWG – Highlights  
+
+Purely spatial, no labels needed  
+Plug‑and‑play with any diffusion backbone  
+Users prefer its outputs in A/B tests  
+
+
+Slide 14  
+----------------------------------------  
+Takeaways  
+
+    Conclude with guidelines for choosing guidance methods.  
+
+Take‑Away Messages  
+Guidance = small overhead, big quality jump  
+Many flavors – pick by resources & task  
+
+CFG: 				baseline, simple  
+PAG/SWG: 		no labels, zero‑train  
+Autoguidance: 	best scores, more RAM

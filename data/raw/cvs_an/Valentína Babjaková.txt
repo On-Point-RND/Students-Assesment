@@ -1,0 +1,37 @@
+[name]
+§ [name] • #[name] • [email] • [name]
+About Me
+My research interests are mostly focused on Large Language Models (LLMs), especially alignment, instruction tuning, tool-use and AI agents. I regularly engage in self-study by following lectures from [location] and [company] on machine learning, computer science, and mathematics, as well as reading scientific papers, attending conferences, and participating in hackathons and Kaggle competitions.
+Work Experience
+NLP Engineer, [company] March 2025 – Present
+• Developing a multi-agent system (LLM-based) for [company] designed to register user incidents, assist with methodology, and provide user support related to databases.
+NLP Engineer Intern, [company] November 2024 – March 2025
+• Studied and implemented state-of-the-art research papers on Text2SQL and Retrieval-Augmented Generation (RAG).
+• Optimized databases to enhance compatibility with Text2SQL systems.
+• Developed and expanded a Text2SQL workflow into an agent AI Agent capable of handling complex and ambiguous queries.
+• Worked on deployment of Text2SQL agent in production.
+Student Project, [company] October 2024 – Present
+• Ran experiments on applicability of different MOS-models for TTS dataset filtering for TTS pretraining.
+• Ran experiments with fine-tuning TorToiSe model for the same task.
+• Improved ROC-AUC from 0.88 (previously used model) to 0.93 (new model).
+Projects
+Database Agent § GitHub
+• A system for answering questions about Postgres databases using Text2SQL workflow with web interface.
+DeepLib § GitHub
+• Deep learning library featuring a custom autograd implementation.
+ETL & BI § GitHub
+• ETL pipeline using Apache Airflow and DBT with visualization via Apache Superset.
+Paperweights § GitHub
+• Implementations of NLP research papers using PyTorch.
+Education
+2026 BSc, Higher School of Economics (HSE)
+(expected) Faculty of Computer Science, Software Engineering, Data Engineering Track
+GPA: 9.17/10
+2018–2020 Course "Industrial Programming in Python," [location] Lyceum
+Technical Skills
+Machine Learning Natural Language Processing (NLP), Transformer Models, Large Language Models (LLMs), AI Agents, Model Context Protocol (MCP)
+Frameworks PyTorch, Transformers, langchain, langgraph, numpy, pandas, scikit-learn
+Programming Python (Pydantic, asyncio, FastAPI, SQLAlchemy, Poetry), C++
+DevOps Tools Linux, Docker, Git, Vim, Cursor
+Data Engineering SQL (PostgreSQL), Hadoop, Hive, Spark, Airflow, Superset
+Languages Russian (Native), English (C1)

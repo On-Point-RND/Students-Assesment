@@ -1,0 +1,66 @@
+[name] [surname]
+Email: [email]
+Porrtolio: [email] Mobile: +2 *** *** ***
+Github: [email]
+Kaggle: [email]
+Education
+[compaany]
+•
+Bachelor - Software Engineering (GPA: 4.27/5) Sep 2020 - Aug 2024
+[compaany]
+•
+Master - Advanced Computational Science Sep 2024 - Present
+Skills Summary
+• Languages: Python, C, C++
+• ML stacck: PyTorch, PyTorch3D, Keras, OpenCV, Scikit, CatBoost, HuggingFace
+• Backend: FastAPI, Flask, Celery, RabbitMQ, Redis, PostgreSQL, TorchServe
+• Tools: Docker, GIT, Jupyter, Bash, Wandb
+Experience
+[compaany]
+•
+Data Scientist Aug 2023 — Currrently
+◦ 3D Deep Learning: Developed point cloud completion models, worked with 3D avatars generation and shape
+reconstruction pipelines
+◦ ServeFacialAttributes: Developed a service for facial attribute analysis using the torchserve library
+◦ New Materials Design: Participated in projects predicting properties of new materials with the New Materials Design
+AIRI group
+[compaany]
+•
+Research Intern Nov 2022 — May 2023
+◦ CV Project: Participated in development of ‘Revisiing deep learning methods in parking lot occupancy detection‘
+project
+Copter Express
+•
+Junior Software Engineer Sep 2018 — Jun 2019
+◦ Software Development: Developed software for ”C LoveR” drone educational toolkit and industrial drone
+”PELICAN”
+◦ Compaany Promotion: Repr esented compaany at conferences, promoted compaany products
+◦ Main Project: Face Recognition System for Clover demo at PX4DevSummit in [location]
+Publications
+• Syntax Error Search Using Parser Combinators: 2021 IEEE Conference of Russian Young Researchers in Electrical and
+Electronic Engineering (ElConRus) (Jan ’21)
+• Revising deep learning methods in parking lot occupancy detection: On peer-review
+• Improving Point Cloud Completion via Images and Segmentation: VISIGRAPP 2024
+Honors and Awards
+Scholarships
+• [compaany] Scholarship recipient - September, 2022
+Hackathons
+• BEST Hack 2021, Data Science track: 1st place in final, 2nd place in semifinal - May, 2021
+• Projector 2021 Hackathon 2nd place - February, 2021
+Competeitions
+• National Technological Initiaive AI Competition, 4th place - March, 2020
+Courses
+• Neural Networks and Deep Learning, Course, Coursera Feb 2021
+• Improving Deep Neural Networks, Course, Coursera Mar 2021
+• Generative Adversaial Networks (GANs), Specialization, Coursera Aug 2021
+(Certificate)
+• Avito Analytics Academy, DS Engineering track Sep 2022 - Jun 2023
+(Certificate)
+◦ Project Achievement: My final project was rated by the jury as the best on track.
+Teaching Experience
+Tutor at [compaany] boo tcamp ”Digital Centaurs” [location]
+•
+Support and assistance to students, advice on projects, homework checking Jul 2021 - Aug 2021
+Problem Setter for Deep Learning Schoo l 2025 Olympiad [location]
+•
+Designed and created olympiad problems on math and machine learning Jan 2025 - Apr 2025

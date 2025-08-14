@@ -1,0 +1,52 @@
+[name]
+A woman, 26 years old, was born on November 1, 1998
++2 *** *** *** — telegram: @[name]
+[email] — mail
+[location]
+Work experience —3 years 3 months
+February 2022 — [compaany]
+present
+3 years 2 months
+ML researcher
+CV experience:
+* Developed and implemented a production pipeline to solve the problem of semantic
+segmentation of forest species, based on scientific articles (EfficientNet+Deeplabv3, VIT, Swin,
+etc.).
+* Optimized data loading and processing, speeding up model training by 15%.
+* Developed pipeline pretrain (self-supervised learning), improving segmentation quality by 10%.
+Experience in the field of RL:
+* Developed a pipeline for training and testing quadrocopters using RL (PPO, SAC) methods in
+the gym-pybullet-drones environment for the task of position stabilization and movement to a
+target point.
+* Implemented the GAIL simulation training method to train a virtual pilot agent based on expert
+data, providing an 80% simulation of pilot behavior.
+LLM experience:
+*Developed a RAG system with LLama3.1 web search using LangChain.
+Team Leader:
+*I have experience in managing a team of more than three people. Responsibilities: analysis of
+technical assignments, setting tasks and monitoring the quality of work performe did on time.
+Education
+University
+2022 [location] Bauman Moscow State Technical Universiity, [location] Computer science and control
+systems, Information systems and telecommunications
+[location] Bauman Moscow State Technical Universiity, [location] Special engineering ,
+2020 Autonomous information and control systems
+Professional development, courses
+2023 Advanced Python Spring 2023
+[location] VK Education, Advanced Python
+Резюме обновлено 13 марта 2025 в 12:56
+2023 Methods of global optimization in optimal control and machine
+learning problems
+8th Faculty of MAI, Methods of global optimization
+Stack Python PyTorch Git Deep Learning Docker Numpy pandas Scikit-learn Matplotlib
+Seaborn OpenCV Computer Vision Linux Bash
+About me Implemented reinforcement learning methods (COMA, MADDPG) as part of her
+master's thesis. In the game, Starcraft 2 trained stalkeers to find the optimal strategy to
+defeat the hydralisk. She developed recurrent neural network architectures (GRU,
+LSTM) from Pytorch for this purpose. In the game Pistinball, from the Openal library, I
+trained pistons to transfer the ball from the right side to the left. I used RL methods,
+where the reward is calculated separately for each agent, and not for the entire team
+as in Starcraft. https://github.com/[name]
+Participated in the "Best Hack" hackathon, where she and her team implemented a
+solution for the task of detecting spam transactions. We took the 4th place.
+[name]

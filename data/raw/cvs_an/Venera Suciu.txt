@@ -1,0 +1,48 @@
+Hello, my name is [name] [surname]!
+Telephone: +2 *** *** ***
+E-mail: [email]
+City: [location]
+Scientific supervisor:
+Engineer of the [compaany]
+[surname] [name]
+Email of the scientific supervisor: [email]
+Target
+I strive to develop my skills in the field of robotics and mechatronics by participating in
+innovatiive projects aimed at creating accessible technologies for people with disabilities.
+Education
+[University]
+Student, direction 15.03.06 Mechatronics and robotics
+Specialization: Drives of robotic and mechatronic systems
+2021 – present
+Work experience and projects
+[Project Mentor]
+[University]
+2023 – present
+Guiding a group of 3rd year students in developing a robot that responds to hand movements and
+gestures, and also tracks the face of a specific person.
+Participation in competitions and development of devices
+• Creation of an autonomous rotating platform and an automated robotic manipulator within the
+framework of universiity competitions.
+Participation in the XVI youth scientific and innovative competition “UMNIK”, where a grant
+was received for the development of a low-cost bionic prosthesis for people with disabilities.
+Skills
+• Programming and development: Python, MATLAB, Codesys, Protues, Arduino IDE,
+STM32CUBE IDE.
+• 3D modeling: Blender, KOMPAS-3D.
+• Automation: WinProladder
+• Electronics: Experience in soldering microcircuits, selection of components, integration of
+software with hardware.
+Additional information
+• Plans for the future: admission to the master's program at [University] in the direction of
+"Mathematical robotics" or "Applied robotics" to deepen knowledge in modern methods and
+control theory.
+• At the moment, I am finishing a project under the "UMNIK" program and startiing a new project
+based on the STM32 programming kit, which offers schoolchildreen and schoolchildren an
+exciting way to learn the basics of electronics and programming, developing their creativity and
+practical skills.
+• Striving for scientific and inventive activity, desire to implement new projects.
+Contacts
+Phone: +2 *** *** ***
+Telegram: @[name]_electronics
+E-mail: [email]
+City: [location]

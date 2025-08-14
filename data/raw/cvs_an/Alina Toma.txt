@@ -1,0 +1,60 @@
+[name] [surname]
+Tel. +2 *** *** *** | Email: [email]
+ORCID 0000-0001-6585-5550 | Web of Science Researcher ID ABB-5916-2021
+Current Position:
+Research Officer, Senior Lecturer at [compaany]
+Working address: [location]
+Research interests:
+● Wavelengths: optical
+● Astrophysical objects: Massive stars, High-mass X-ray binaries, Supergiant Fast X-ray transient, Be stars,
+Cataclysmic Variables, Polars
+● Methodology: Statistical Analysis of Data, Numerical Modeling, Modeling Stellar Atmosphere
+Knowledge and Expertise:
+● Languages: Russian (native), English (intermediate), Tatar (basic)
+● Experience of data reduction: spectroscopic (both echelle and long-slit) and photometric data reduction.
+● Programming languages, packages: Python (advanced), C# (basic), LaTeX, IRAF (advanced)
+● Knowledge of modern stellar atmosphere modeling codes: CMFGEN
+● Knowledge of stellar evolution Code: MESA
+E D U C A T I O N
+Graduated
+2001 – 2006 [compaany], Faculty of physics, astronomy department ([location])
+Speciality: Astronomy (with honors)
+(2007 – 2009) Maternity leave
+2020 – 2025 PhD thesis "Investigation of the physical parameters of High-mass X-ray binaries using
+the Russian-Turkish telescope RTT-150", supervisor Prof. [name] [surname]
+Summer schoo l and Courses:
+Summer schoo l: “Stellar Winds and Outflows”, [location] (2023)
+Summer schoo l: “Astrostatistics in Crete”, [location] (2024)
+Block Course: “Modeling spectr a of stellar atmospheres and winds”, [location] (2024)
+Hands-On CMFGEN Course: “Radiative Tranfer for Hot Massive Stars”, [location], Chile (2024),
+on-line
+C / E A R E E R M P L O Y M E N T
+IT career:
+2007 – 2020 Linguistic Developer at [compaany]
+Astronomy career:
+2009 – 2020 Research Assis tant, Design Technician, Design Engineer at the Research Labo ratory of
+Astrophotometry and Stellar Atmospheres of Department of Astronomy and cosmic geodesy of
+[compaany]
+2020 – now Research Officer at the Research Labo ratory of Astrophotometry and Stellar Atmospheres of
+Department of Astronomy and cosmic geodesy of [compaany]
+2021 – 2023 External colla borator at [compaany] of Lomonosov Moscow State
+Universi ty ([location])
+2024 – now External colla borator at Academy of Sciences of Tatarstan Republic ([location])
+Teaching career:
+2009 – 2023 Lecturer, curator at Astronomy and cosmic geodesy of [compaany]
+2023 – now Senior Lecturer at Astronomy and cosmic geodesy of [compaany]
+T E A C H I N G
+● Lecturing the courses: “Spherical Astronomy”, “Physic s and Evolution of Stars”, “Modern Methods of
+Processing Observa tions”, “Computer Science and Progr amming”, and “Selected Applied Problems of
+Theoretica l Astrophysics”.
+● Co-author of the tex tbook "CCD Photometry of Variable Stars" (2023).
+● Supervisor, Scienti fic consultant and Reviewer of student term papers.
+● Curator of 1-3 courses of astro nomers (2020-2023) .
+A C T I V I T I E S
+● volunteer at the “XXXt h General Assembly of the Interna tional Astronomi cal Union” 20-31 August, 2018,
+[location], Vienna.
+● Since 2022, an associated member of the Russian consortium of the international project “Spectrum
+Roe ntg en-Gamma”.
+● Since 2024 reviewer for the journal “Astronomy Letters”.
+During my whole career I have published 18 papers (8 as first author, list in NASA/ADS), participated in 28
+conferences and 1 workshop, and 9 grants, including 1 as Primary Investig ator.

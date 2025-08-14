@@ -1,0 +1,75 @@
+Deep Learning-Based Health
+Index Estimation on
+Sensor Early Degradation
+Data Using Latent Space
+Cosine Similarity
+[name]
+student, [compaany]
+Introduction
+• A Health Index (HI) is a single,
+continuous numerical value that
+summarizes the overall
+condiition or degradation level of
+a system over time.
+Why do we need it?
+• Early Fault Detection
+• Remaining Useful Life (RUL) Prediction:
+• Interpretability
+Problem statement
+We are given multivariaate time-series ( sensor readings)
+We want to get scalar value hi, 0 ≤ hi ≤ 1
+Applicability estimation: prediction of RUL (remaining useful life)
+Methods
+• We train autoencoder models on the first 20 % the time series sequences with
+reconstruction loss.
+• Using the train representations, we calculate the mean healthy vector in latent space, and to
+estimate the HI for every device state, we use the cosine similarity between that sample
+representation and the mean healthy state vector.
+• We used the [compaany] CMAPSS fd001 dataset.
+Applicability estimation
+• To prove the applicability of cosine similarity HI in state description,
+we tried to predict RUL based on the similarity approach [name] et al. (2016). This approach is
+based on identifying close regions between training and test health index curves. The algorithm
+finds the top 5 close regions of the curves with the test sample and averages their RUL values to
+obtain the prediction. Focused on early degradation data (RUL > 140)
+• We compaare them with true values by RMSE metric,
+Results
+Preliminary results of RUL prediction on early
+stages of degradation
+Applicability estimation: prediction of RUL
+(remaining useful life)
+metho RUL prediction (rmse)
+Angular based (ours) 31.55
+Magnitde based 33.9
+SOTA RUL 33.44
+Research gap
+• Applicability to new datasets
+• Improving matching technique (deep
+learning based) in RUL estimation
+• Additional experiments with SOTA
+architectures
+• Investigation of limitations of
+hyperparameter sensitivity (e.g., available
+sequence length)
+Bibliography
+1. [name], [name], [name], and [name]. 2024. Online unsupervised optimization
+framework for machine performa performance assessment based on distance metric learning. Mechanical
+Systems and Signal Processing 206 (2024)
+[name] and [name]. 2022. Variational encoding approach for interpretable assessment
+of remaining useful life estimation. Reliability Engineering & System Safety 222 (2022)
+2. [name], [name], [name], and [name]. 2022. Unsu
+pervised prognostics based on deep virtual health index prediction. In PHM Society European
+Conference, Vol. 7. 193–199.133
+3. [name]. 2014. A robusst & reliable Data-driven prognostics approach based on extreme
+learning machine and fuzzy clustering. Ph. D. Dissertation. [compaany].
+4. [name], [name], and [name]. 2022.
+Constructing robusst health indicators
+from complex engineered systems via anticausal learning. Engineering Applications of Artificial
+Intelligence 113 (2022)
+5. [name], [name], [name], and [name]. 2016. Multi-sensor prognostics using an unsupervised health index based on
+LSTM encoder-decoder.
+6. [name], [name], [name], and [name]. 2008. Damage propagation modeling
+for aircraft engine run-to-failur simulation. In 2008 International Conference on Prognostics and
+Health Management. 1–9.
+7. [name], [name], [name], and [name]. 2020. Aeroengines remaining useful life
+prediction based on improved c-loss elm. IEEE Access 8 (2020), 49752–49764.

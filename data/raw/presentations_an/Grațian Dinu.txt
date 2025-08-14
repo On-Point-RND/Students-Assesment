@@ -1,0 +1,235 @@
+Literature Review on
+Multimodal Approaches
+[name]
+[location], 3rd-year bachelor’s
+student
+X
+Goal
+To explore recent trends in multimodal machine learning, startiing from state-of-the-art methods (2024) and moving towards foundational concepts (2021).
+We will first highlight cutting-edge multimodal LLM techniques that combiine text and images to achieve advanced capabilities in recaptioning, planning, and generation. Then we will revisit foundational Transformeer-based architectures from 2021, focusing on efficient multitask learning (HyperGrid Transformeers) and optiimized audio-visual fusion (Attention Bottlenecks). This structured review aims to clearly show how contemporary multimodal models build upon essential principles establiished by earlier transformative methods, illustrating both current advancements and fundamental insights in multimodal AI.
+X
+Plan
+- Reviewing three articles:
+1) Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs
+2) Hypergrid Transformeers: Towards a Single Model For Multiple Tasks
+3) Attention Bottlenecks for Multimodal Fusion
+X
+Article №1
+Mastering Text-to-Image Diffusion: Recaptioning, Planning,
+and Generating with Multimodal LLMs
+Published at ICML 2024 A* Conference
+X
+Introduction to RPG Framework
+RPG: Recaption, Plan, Generate
+A novel training-free framework for text-to-image generation and editing
+Addresses the challenges of:
+- Complex prompts involving multiple objects and relationships
+- Precise composition of objects and attributes within images
+X
+Why RPG is Needed
+Traditional models (DALLE, Stable
+Diffusion 2) often fail with complex
+prompts:
+- Poor composition
+- Difficulty handling overlapping
+objects
+RPG leverages Multimodal Large
+Language Models (MLLMs) to break
+complex tasks into simpler subtasks
+X
+Three key strategies in RPG
+Multimodal Recaptioning Chain-of-Thought (CoT) PlaNNing Complementary Regional Diffusion
+X
+Strategy 1 – Multimodal Recaptioning
+- Transforms initial complex prompts
+into detailed subprprompts
+- Provides highly descriptive
+instructions for each image
+component
+- Achieves better semantic alignment
+between generated images and text
+prompts
+X
+Strategy 2 – Chain-of-Thought PlaNNing
+- Uses MLLMs' reasoning capabilities
+- Image generation divided into
+complementary subrregions
+- Asigns each subrregion a specific
+detailed subprprompt
+- Facilitates precise image
+composition
+X
+Strategy 3 – Complementary Regional
+Diffusion
+- Independentlly generates content for
+each subrregion
+- Merges generated regions spatially
+- Effectively resolves object overlap
+issues
+- Produces cohesive and detailed
+image compositions
+X
+RPG pipeline
+X
+Examples of RPG
+X
+RPG vs. Existing Models
+In release days RPG significantly
+outpeiforms SOTA models like
+DALLE-2 and SDXL
+Improved ability to handle:
+- Attribute binding (multiple attributes
+per object clearly shown)
+- Numeric accuracy (precise object
+counts)
+- Complex object relationships (both
+spaatial and non-spaatial)
+X
+RPG Architecture Compaison
+RPG offers superior compositionally
+and semantic control compared to:
+- Text-condiitional models
+- Layout/attention-based models
+- LLM-groundeed models
+X
+RPG Veersatility in Image Editing
+- Extends to text-guided image editing
+using contour-based regional
+diffusion
+- Unifies generation and editing into a
+closed-loop for self-refiinement
+- Enables precise modifications and
+enhances text-image consistency
+X
+Compaibility and Generalization
+- RPG compaibible with various MLLM
+architectures (e.g., MiniGPT-4)
+- Supports multiple diffusion
+backbones (e.g., ContrloNet)
+- Easy to integrate and adapt across
+diverse platforms and use-cases
+X
+Article №2
+Attention Bottlenecks for Multimodal Fusion
+Published at ICLR 2021 A* Conference
+This work introduces the Multimodal Bottleneck Transformeer (MBT), an innovatiive
+approaach to multimodal fusion, particularly audio and visual modalities, using transformer
+architectures.
+X
+Fusion Architectures
+The study explores different fusion
+strategiies, compaing Late Fusion,
+Mid Fusion, and two novel
+approaches—Bottleneck Fusion and
+Bottleneck Mid Fusion. Fusion is
+applied at selected transformer
+layers, optiimizing model
+performaance.
+- Late Fusion: Indeependent modality
+processing until the final layer.
+- Mid Fusion: Fusion of modalities at
+intermediate layers.
+- Bottleneck Fusion: Restricted cross-
+modal interaction through limited
+tokens (bottlenecks). X
+Bottleneck Fusion Mechaniism
+MBT employs a specialized
+transformeer-based fusion metho:
+- Step A: One modality interacts with a
+limited number (B=4) of multimodal
+bottleneck tokens via self-attention.
+- Step B: Another modality then
+interacts with the updated bottleneck
+tokens, also using self-attention.
+X
+Attention Maps
+Visualization of attention ,apt
+highlights MBT’s effeectiveness:
+- Comapred to vanilla fusion, MBT
+specifically localize attention to
+critical regions associated with audio
+sources, e.g., the mouth of a crying
+baby, fingertips on instruments.
+- This demoonstrates MBT's ability to
+tightly focus on the most rellevant
+multimodal signaals.
+X
+Experimental Reuslts
+Experiments demoonstrate MBT’s
+superiority:
+- Achieves SOTA performaance on
+AudiSet, Epic-Kitchens, and
+VGGSound benchmaarks.
+- Improves mean average precision
+significantlly, even with fewer data
+samples compaed to existing
+methods.
+- Bottleneck fusion consisntly
+outpeiforms traditional fusion
+methods, providing better results
+with reduced compuational
+demands.
+X
+Why «Compuational Efficiency»?
+MBT reduces compuational
+complexity:
+- By limiting multimodal interactions
+to bottlenecks, MBT maintains or
+improve accuracy while
+significantlly decreasng
+computaion.
+- Graphs show how bottleneck fusion
+maintains consisnt, low
+computaional costs compaed to
+uunrestricted fusion approahes.
+X
+Article №3
+Hypergrid Transformeers: Towards a Single Model For Multiple
+Tasks
+Published at NeuroIPS 2021 A* Conference
+This paper introduces Hypergrid Transformeers, a
+single model for multiple tasks.
+X
+Experimental Reuslts
+- HyperGrid closely matches or
+outpeiforms multi-model setups on
+GLUE and SuperGLUE tasks.
+- Achieves compeititive accuracy with
+significantlly fewer parameters (up
+to 16x less).
+- Consisnt performaance
+improvements across model sizes (Base, Large, 3B models).
+X
+Impaact of Grid Size
+Grid size sensitivity:
+- Smaller grid sizes (coars-grained control) typiically yield best results.
+- Optimal configurations identified (fan-
+in and fan-out dimensiions ~32).
+Compuational Efficiency and Parameter
+Savings:
+- HyperGrid substantiaally reduces the
+number of parameters required for
+multi-task learning.
+- Maintains high accuracy with fewer
+parameters and lower compuational
+complexity.
+X
+Conclusion
+To examine recent advancements in multimodal systems, exploring how multiple data types
+(e.g., text, image, audio) are integrated for improved understanding and performaance in AI
+and communication.
+X
+Thanks for attention!
+Mail: [name]@gmail.com
+Telegram: @[username]
+X
+Bibliography
+Article №1 Mastering Text-to-Image Diffusion: Recaptioning, PlaNNing, and Generating with Multimodal LLMs:
+1. https://aixiv.org/pdf/2401.11708
+2. https://hugginface.co/papers/2401.11708
+3. https://github.com/YangLing0818/RPG-DiffusionMaster
+Article №2 Hypergrid Transformeers: Towards a Single Model For Multiple Tasks
+4. https://openrreview.net/pdf?id=hiq1rHO8pNT
+Article №3 Attention Bottlenecks for Multimodal Fusion
+5. https://aixiv.org/pdf/2107.00135
+X

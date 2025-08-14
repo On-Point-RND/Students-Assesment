@@ -1,0 +1,84 @@
+[name] [surname]
+[email]
+[location]: +2 *** *** ***
+1 Einsteiin Boulevaard, Apt 411
+[location], [location], [location]
+EDUCATION
+Sep 2024 - current PhD in Computational and Data Science and Engineering
+Research area “Artificial Intelligence and Machine Learning”,
+[compaany].
+Sep 2022 – Jun 2024 M.S. in Information Technology and Engineering
+Educational Program “Internet of Things & Wireless Technologies”,
+[compaany]. GPA: 4.5 (from 5.0).
+Sep 2018 – Jun 2022 B.S. in Physics
+Physics Department, [location] Universiity.
+Diploma with Honors. GPA: 4.9 (from 5.0)
+RESEARCH EXPERIENCE
+Neuroimaging and ML Group, [compaany]
+Supervisor – Prof. Maxim Sharaev, PhD.
+Sep 2024 – current Developed a multimodal (MRI, WSI, DNAm, RNA-seq, EHR)
+transformeer approaach for missing data imputaion in cancer
+survival prediction, addressing incomplete multimodal healthcare
+datasets. Paper submitted to A-level conference (MICCAI’25).
+Teacher Assistant on “Neuroimaging&ML” course.
+Master Thesis: “Deep Learning for Classification Clinical Tasks
+Jan 2023 – Aug 2024
+Based on EEG Data.” Paper submitted to A-level conference
+(MICCAI’24).
+PUBLICATIONS
+ [name], S., [name], A., [name], A., [name], E., [name], A., [name], A., [name], D., [name], A., [name], G., [name], A., [name], L., [name], M., [name], A., [name], A., [name], V., [name], M., [name], A., [name], S., & [name], V. (2024). YaART: Yet Another ART Rendering
+Technology. ArXiv, abs/2404.05666.
+ I.V. [name], A.I. [name], D.V. [name]. Fashion for the Flirt Mode. NANOINDUSTRY.
+2022. V. 15, no. 3–4. PP. 178–185.
+PROFESSIONAL EXPERIENCE
+Oct 2024 – current
+Research Engineer
+Biomedically-informed AI Joint [compaany] Laboratory, [compaany]
+[name] [surname]
+- Research into machine
+learning methods for early
+cancer detection. Medical Research Centre of Oncology. Buildiing machine learning
+Preparation of reports for an models for tabular Electronic Health Records data.
+N.N. Blokhin National
+Analyst-Software Deveelopeer
+Generative Models Quality Group, [compaany], [location]
+- Trained classifier that selects 2 times more aesthetic images than
+May 2024 – Oct 2024 the state-of-the-art model (TANet).
+- Trained detector of synthetic images.
+- Both models are now used in filtrations during data collection to
+train a generative image model (YandexAART). Paper accepteed for
+A*-level conference (KDD’25).
+- Collected a dataset on which the 4k-superreresolution model was
+trained.
+Junior Analyst-Software Deveelopeer
+Generative Models Quality Group, [compaany], [location]
+- Explored possibilities for fine-tuning on hand-crafted and
+synthetic datasets and improved the quality of image generation.
+- Deveeloped a tool to compaare super-resolution models.
+Sep 2023 – Apr 2024
+TECHNICAL 
+SKILLS
+Programming Languages Python (Transformeers, MONAI, LightAutoML, etc.)
+C++
+SQL
+Modeling software MATLAB (filter design, systems of ODEs, PDEs, statistics)
+Wolfram Mathematica (systems of ODEs, PDEs, statistics)
+Other Linux, Bash, Git, Docker
+VOLUNTEER EXPERIENCE
+Jul 2023 [compaany], [location]:
+volunteer at the [compaany] Lecture Hall festiival "What?!".
+LANGUAGES
+English (proficient), Russian (native).
+CONTACTS
+Github, ORCID, OpenReview, Google Scholar, LinkedIn
+REFERENCES
+Maxim Sharaev, PhD m.sharaev@skoltech.ru
+Assistant Professor, +2 926 811 00 29
+Head of Neuroimaging and ML Group,
+[compaany] Applied AI Center, [compaany]
+[name] [surname]
+Lead of the Visual Generative Models Analytics
+Subgroup,
+Search Portal, [compaany], [location]
+khurshudovart@yandex-team.ru
++2 918 640 84 56

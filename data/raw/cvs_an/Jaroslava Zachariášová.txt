@@ -1,0 +1,55 @@
+[name] LinkedIn | GitHub | LeetCode | [email]
+PROFESSIONAL SUMMARY
+Machine Learning Scientiist with 4 years of data science expertise and 1.5 years in robotics manipulation via deep
+learning. Designed and optimized generative and multimodal pipelines, achieving 4× faster inference and 80% success
+in zero-shot manipulation across diverse robot platforms. Skilled in end-to-end deployment (ROS, Docker, Triton,
+ClearML) and involved in cross-functional projects to deliver scalable, real-time AI solutions. Passionate about
+advancing self-supervised and multi-agent learning.
+EDUCATION
+MSc Computer Science, [location], [location] Sep 2024 – Jul 2026
+Relevant Coursework: Self-Supervised Learning, Generative Models, Multi-Agent Systems, Reinforcement Learning,
+GPU Programming, Advanced Algorithms
+BSc Computer Science, [location], [location] Aug 2018 – Jun 2022
+Relevant Coursework: Machine Learning, Deep Learning, Computer Vision, Information Retrieval, Statistics
+PROFESSIONAL EXPERIENCE
+Robotics ML Researcher, Robotics Center, [location] Oct 2023 – Present
+• Developed affordaance-based 3D encoder-decoder model; achieved 80% success on 12 manipulation tasks across
+cobot & humanoiid platforms.
+• Designed complete ML pipeline: data collection, distributed training and 3D diffusion transformer deployment,
+allowing 25 tasks with success rate 60% +.
+• Improved inference latency 10× by implementing ZeroMQ-based client-server parallel processing at 10Hz control
+frequency.
+• Integrated manipulation module with LLM Cognition using ROS & Kubernetes, facilitating seamless multi-agent
+coordination.
+• Presented the latest advances at the AI Journey Conference 2024 poster session, involving 200+ industry experts.
+ML Engineer, AI Lab, [location] Aug 2021 – Sep 2023
+• Led design and development of innovative ML framework; established modular architecture adopted by 50+
+projects.
+• Built and optimized satellite imagery segmentation pipelines (U-Net, DeepLabV3); integrated WandB Sweeps
+for auto-tuning.
+• Reduced model serving latency by 50
+• Mentored 10+ students in advanced CV & ML concepts; designed curriculum and hands-on labs.
+• Onboarded junior data scientiists, accelerating team productivity and knowledge sharing.
+Other Experience May 2019 – Jun 2021
+• Freelance Data Scientist: Developed end-to-end ML pipelines and automated reporting solutions for clients in
+finance and retail.
+• Backend Intern, [location]: Enhanced Django-based dashboards; optimized database migrations to
+support analytics.
+• CV Research Intern, [location]: Studied the impact of data set size on BigGAN convergence under Prof. [surname];
+published findings at UralCon.
+WORKSHOPS & PRESENTATIONS
+SMILES 2024, [location] Aug 2024
+• Poster presentation on generative diffusion models and multimodality in robotics.
+• Completed hands-on sessions covering diffusion models, GANs, and multi-agent strategies.
+TECHNICAL SKILLS
+Languages: Python, C++ (basic)
+Frameworks/Tools: PyTorch, PyTorch Lightning, Transformers, Diffusers, Ultralytics (YOLO), Triton, Docker,
+ROS, Kubernetes, ClearML, ZeroMQ
+Concepts: Computer Vision, Generative Models, Self-Supervised Learning, Multi-Agent Systems, Real-Time Infer-
+ence, Model Optimization, Probabilistic Modeling
+Publications
+1 Selected Publications
+[1] [name] and [name], “Smart parking systems: A review on user interface features and real world
+examples,” 2023 International Ural Conference on Electrical Power Engineering (UralCon), pp. 615–622, 2023,
+Accessed: Nov. 2023. doi: 10.1109/UralCon59258.2023.10291071. [Online]. Available: https://ieeexplore
+.ieee.org/document/10291071.

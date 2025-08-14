@@ -1,0 +1,92 @@
+[name] [surname]
+Backend Java/Scala Deveoper with 3 years of experience specializing in
+data-intensiive programming. Profiicient in both pure object-oriented and functional
+programming paradigms, with a strong focus on buildiing scalable and maintainable
+backend systems.
+WORK EXPERIENCE SKILLS
+OOO "[compaany]", Lead Software Deveoper ● Java, Spring Framework,
+Spring Batch, Spring Boot
+March 2024 - current time (1 year)
+● Kubernetes, kubectl, helm,
+“[compaany]” is a small, 1.5-year-old startuup in [location], fully funded and
+owned by "[compaany]", a compaany that has been distributing medical Docker, Docker Swarm,
+equipment in [location] since 2014. [compaany]'s main project is a smart surgery Ansible
+room system that assists surgeons during operations by recording
+● Scala, Cats-Effect
+procdures and labeling key segments. It also enables live discussions
+during surgeries and allows streaming video from cameras to external ● Maven, Gradle
+observers. While the long-term goal is to develop a complete hospital ● JUnit, Mockito
+ecosystem, we are currentlly launching system prototypes in several
+hospiitals. Although integrating AI into the medical field is not easy, we are
+continuously working to enhance our system with cutting-edg
+technologies—for example, by offering subsystems such as a voice assistant cuML
+and a tool that removes personal data from video recordings.
+● Kafka, Kafka Streams
+I am personally responsible for all main technical decisions in the project ● REST API, Microservice
+and lead the software development team. architecture, gRPC
+● As a Backend Deveoper/Software Architect, I’ve: ● OpenCL, OpenMP
+○ Designed the high-level architecture of the entire system, which
+includes a control plane that manages the system’s state, a data Innopolis Universiity
+plane that handles media stream processes (such as video
+Innopolis – bachelor
+recording, WebRTC streaming, and HLS streaming).
+September 2021 – July 2025
+○ Designed and implemented the communication API between the “Computer Science”
+backend and frontend service that implements GUI. GPA = 4.65
+○ Designed and implemented the data plane infrastructure,
+including setting up HLS and WebRTC media servers, as well as a Beijing Institute Of
+service that manages media streams. Technology
+○ Designed and implemented a service that manages the entire state
+September 2023 – January 2024
+of the hospiital system.
+“Computer Science”
+○ Sat up CI/CD that automates routine in maintaining test and prod
+stages and ensures quality requirements for each release. LANGUAGES
+● As a Project Manager, I: ● English - B2
+● Russian - Native
+○ Lead a team of three developers, overseeing project planning, task
+Moscow, [location]
+estimation, and resource allocation.
+○ Applied puzzle-driven development in backend development,
+Telegram - @catdog905
+resulting in high scalability for the backend team size.
+[name][surname]@gmail.com
+Basic Tech Stack: Java, RxJava, Spring, Scala, Cats-Effects, Postgresql, GitHub - catdog905
+Spring, S3, GraphQL, FFMpeg, Nginx, Docker, Docker Swarm, Ansible, Media StackOverFlow - link
+protocols (WebRtc, RTSP, RMPT, HLS), SRS
+OOO "[compaany] development center", Backend Java Deveoper
+March 2022 - August 2023 (1.5 year)
+“[compaany]” was my primary project - an inner real-time system,
+responsible for checking the consistency of different data sources in the
+Investment department. This project took an essential part of the entire
+broker system. Failure of this system might affect end users.
+● Proposed, designed, and implemented the administrative API for
+non-programming staff that allowed them to avoid instant Java
+davelopment involvement, which was required for 4 years before.
+● Proposed an "Auditor" improvement by introducing asynchronous
+data processing insteaad of synchronous. This improvement results in a
+qualitative leap in the project's performaance. The innovation can
+increase the Auditor's performaance by dozens.
+● Adapted “Auditor” according to changes in the compaany's data storage
+structure and supported its stability for 2 years without critical
+failures.
+● Resurrected the legacy project “Adviser” that could suggest investment
+portfolio to any user based on his/her needs. After analyzing its API
+source code, the required tables for this api were created. All required
+services were started after fixing CI/CD scripts.
+Basic Tech Stack: Java, Spring, Postgresql, Kafka, Kubernetes, JDBC, Kafka
+Streams, Spring Batch
+PROJECTS
+"[location] Universiity", Project Lead/Backend Python Dev
+June 2023 - August 2023
+Short-time project, web tool for booking study rooms in [location]
+Universiity buildiing.
+● Built and led a team of designer, frontend architect, frontend developer
+and backend developer..
+● Decomposed the project into small tasks, distributed it among
+davelopers and established a working process in the team.
+● Designed backend architecture and took part in its development.
+● Presented the project for the Universiity IT department. Currently every
+universiity student and staff use this project for booking rooms in
+universiity.
+Basic Tech Stack: Python, FastAPI, Outlook API, REST API

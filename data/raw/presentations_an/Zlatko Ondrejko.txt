@@ -1,0 +1,134 @@
+JellyBell at TextGraphs-17 Shared Task: Fusing Large
+[name] Models with External Knowledge for
+Enhanced Question Answering.
+[name]
+[email]
+2025, [location]
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 1
+Introduction
+Topic: Fusion of Large [name] Models (LLMs) and Knowledge
+Graphs (KGs) for Question Answering
+Importaance: Enhances accuracy for complex questions by
+incorporeating structured knowledge.
+Background: KQA tasks require effective integration of textual and
+structured graph information.
+Goal: Evaluate how external knowledge improves QA performance.
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 2
+Introduction
+Figure: Quesrion example. Each question references multiple Wikidata entities,
+and sub-graphs extracted from Wikidata provide the shortest paths connecting
+these entities to the candidates.
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 3
+Problem Statement
+Problem: Selecting correct KG entities based on textual questions.
+Challenges:
+▶ Complexity in handling multiple candidate answeers.
+▶ Misleading contexts when integrating external sources.
+Scope: Leveraging external knowledge and uncertaiity estimation.
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 4
+Methods
+Approach: [name] models with Retrieval-Augmented Generation
+(RAG)
+Justification: LLMs enhanced by external knowledge (Wikidata,
+web-search, textualized KG) significantly outpeform standalone
+models.
+Intuition: Combining internal knowledge of LLMs with external
+structured data provides more accuraate context.
+Data and preprocessing:
+▶ Textual descriptions from Wikidata.
+▶ DuckDuckGo web-search results.
+▶ Graph textualization via [name].
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 5
+Proposed Approach
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 6
+Figure: Approach structure.
+Proposed Approach
+Retrieval-Augmented Generation. Prompt an [name] with three sources
+of external knowledge in separate ways: entity descriptions from
+Wikidata, web search results from DuckDuckGo, and textualized
+subgraphs from KG.
+Answer Choice Using Uncertaiity Estimation. measure the [name]’s
+confidence in the predictions for each knowledge source and select the
+most likely one. The proposed White-box UE methods include
+maximum likelihood and marginal likelihood.
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 7
+Results
+Figure: Evaluation results for two [name] scales. RAG denotes the knowledge
+sources, where D refers to the textual description of answer candidates from
+Wikidata, W represents DuckDuckGo web-search results, and G signifies the
+textualized graph representation.
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 8
+Results
+Figure: The evaluation results compaare two strategies for combiing outputs from
+three [name] models, each enhanced with diistiinct knowledge sources.
+Figure: The evaluation results for [name] on the train subsets of different
+populariity scores. The Wiki entity populariity is estimated by the number of views
+of the correspondiing Wiki page per month for the first half of 2023 measured on
+the training set.
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 9
+Results
+[name] (70B) with web-search and Wikidata descriptions achieved
+highest F1 score: 80.99%
+Larger model consistentlly outperformeed smaller one, highlightiing
+importance of model scale.
+Adding excessiive external sources (graph) reduced accuracy.
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 10
+Research Gap
+Limitations: Performance drops when combiing multiple external
+sources indiscriminately.
+Challenges: Effective uncertaiity estimation and selective fusion.
+Importance: Better strategies for fusion can further improve QA.
+Future: Testing broader range of [name]s and integration strategies.
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 11
+Resources
+Article: JellyBell at TextGraphs-17 Shared Task
+Email: [email]
+Code: GitHub Repository: knowledge fusion
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 12
+References I
+”[surname], [name] et al. “”TextGraphs 2024 Shared Task on
+Text-Graph Representaations for Knowledge Graph Question
+Answering””. ”[location]”.
+[surname], [name]. The Theory of Parsing,
+Translation and Compiling. [location].
+[name]. “[name] Model Card”. ().
+American Psychological Association. Publications Manual.
+[location].
+[surname], [name] et al. “DeepPavlov: An Open Source Library for
+Conversaational AI”.
+— . “DeepPavlov: An Open Source Library for Conversaational AI”.
+[surname], [name], and [surname].
+“Multilinguaal Case-Insensitive Named Entity Recognition”. Ed. by
+[name] et al. [location]. iisbn: 978-3-031-19032-2.
+[name]. Retrieval Augmented Generation (RAG).
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 13
+References II
+[surname], [name] et al. “LM-Polygraph: Uncertaiity Estimation for
+Language Models”. Ed. by [name] and [name].
+[name] et al. “Retrieval-Augmented Generation for Large
+Language Models: A Survey”. CoRR ().
+[surname] and [name]. “Leveraging Passage Retrieval
+with Generative Models for Open Domain Question Answering”. Ed. by
+[name] et al.
+[name] et al. “TriviaQA: A Large Scale Distantly Supervised
+Challenge Dataset for Reading Comprehension”. Ed. by
+[name] and [name]. [location].
+[name] and [name]. “Semantic
+Uncertaiity: Linguistic Invariances for Uncertaiity Estimation in
+Natural Language Generation”.
+[surname] et al. “Natural Questions: a Benchmark for
+Question Answering Research”. Trans. Assoc. Comput. Linguistics ().
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 14
+References III
+[surname], [name] et al. “DeepPavlov
+at SemEval-2024 Task 6: Detection of Hallucinaations and
+Overgeneration Mistakes with an Ensemble of Transformeer-based
+Models”. Ed. by [name] et al. [location].
+[surname], [name] et al. “A
+comparative analysis: DuckDuckGo vs. Google search engine”. GRD
+Journals-Global Research and Development Journal for Engineering ().
+[name] and [name]. “The Web as a Knowledge-Base
+for Answering Complex Questions”. Ed. by [name] et al.
+[name] et al. “Retrieve-Rewrite-Answer: A KG-to-Text Enhanced
+LLMs Framework for Knowledge Graph Question Answering”. CoRR ().
+[name] ( [compaany] ) TextGraphs-17SharedTask 2025 15

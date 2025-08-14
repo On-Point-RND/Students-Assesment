@@ -1,0 +1,9 @@
+Dear [name] [surname] Admissions Committee,
+I am writing to express my enthusiastic interest in participating in the Skoltech Summer School of Machine Learning as an offline attendee. My CV, attached for your review, details my work experience in artificial intelligence, published papers, and my technical experience. I am deeply passionate about advancing my expertise in generative AI and contributing to cross-border collaboration in machine learning.
+I am currently a first-year Master student at [company] Uni­versity, pursuing a degree in Artificial Intelligence Development. During my studies, I have gained a solid foundation in machine learning, neural networks, and algorithms optimization. Additionally, I have personal projects in font generation algorithms, NURBS surface approximation and Text2CAD systems, which have strengthened my problem-solving and analytical skills.
+As someone who is passionate about bridging the gap between technology and culture, I am excited to engage with researchers from [location] and [location]. We can share insights on generative AI and multimodal systems, which will not only enhance my technical skills but also expand my perspective on how AI can solve universal problems. By learning from pioneers in generative techniques and applying what I have learned to my master's thesis on transparent AI systems, I will be able to develop solutions that are at the forefront of technology and have a positive social impact. I am dedicated to fully immersing myself in this opportunity that will shape my future career.
+I would be honored to participate in SMILES-2025 to immerse myself in its cutting-edge curriculum. Thank you for your time and consideration.
+Sincerely,
+[name] [surname]
++2 *** *** ***
+[email]

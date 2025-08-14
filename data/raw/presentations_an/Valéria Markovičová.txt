@@ -1,0 +1,95 @@
+Analysis of electricity
+consumption by
+regions of the Russian
+Federation
+Research Team:
+[name],
+[name],
+[name],
+[name],
+[name]
+Scientific Supervisor: [name]
+Introduction
+Research context Objective
+To analyze the electricity consumption
+In the context of a rapidly evolving
+market across different regions of the
+economy and shifting consumer
+Russian Federation ([location],
+preferences, [company] in the electric
+Irkutsk [location], Chelyabinsk [location], and
+power sector face the growing need for
+the Republic of Tatarstan) and develop
+accuraate electricity demand
+a predictive model for electricity prices
+forecasting.
+and demand volumes.
+2
+Research Question
+What are the key factors influencing
+electricity consumption across different
+regions of the Russian Federation?
+Project Tech Stack
+• Python: For parsing additional data, cleaning data, designing
+machine learning models, feature importance analysis (SHAP), and
+visualization (matplotlib);
+• Yandex Datalense: For data visualization when generating
+descriptive statistics;
+• R: For building econometric models. (In progress...)
+4
+Chelyabinsk [location]
+5
+Chelyabinsk [location]
+SHAP (SHapley Additive
+exPlanations) is a game theoretic
+approach to explain the output of
+any machine learning model. It
+connetcs optiomal credit allocation
+with local explanaions using the
+classic Shapley values from game
+theory and their related extensions.
+SHAP value for month - Impact
+of the indicator on the
+electricity price in RUB/MWh
+6
+Republic of Tatarstan
+Chelyabinsk [location]
+7
+Republic of Tatarstan
+Chelyabinsk [location]
+8
+Irkutsk [location]
+TPS: Thermal
+Power Plants
+HPS:
+Hydroelectric
+Power Plants
+9
+Republic of Tatarstan
+10
+Republic of Tatarstan Chelyabinsk [location]
+11
+Moscow [location]
+12
+Comparison by regions
+Summary of Key Patterns in All Regions
+(Russia):
+1.Electricity prices show low sensitivity to volume,
+typically ranging 500–2,000 RUB/Mwh.
+2.Nighttime consumption (10 PM–6 AM) is
+significantly lower, with the lowest demand at ~3
+AM.
+3.Winter demand is 1.2–1.5× higher than summer.
+4.Colder temperatures directly increase
+consumption.
+13
+Chelyabinsk [location]
+14
+Irkutsk [location]
+15
+Republic of Tatarstan
+16
+Moscow [location]
+17
+Thank you for
+your attention!

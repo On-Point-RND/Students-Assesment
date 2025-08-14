@@ -1,0 +1,118 @@
+Slide 1
+----------------------------------------
+Applications of Large Language Models in Satellite Imagery
+[name]
+
+Slide 2
+----------------------------------------
+Outline
+Overview of Challenges in satellite image analysis
+Review of recent solutions integrating LLMs for:
+Automatic image captioning
+Object-level attribute description
+Image-text retrieval
+Examples of approaches:
+ARSIC (captioning with LLMs)
+EagleVision (fine-grained attribute analysis)
+RS-CapRet (retrieval with minimal tuning)
+
+Slide 3
+----------------------------------------
+Motivation and Scope
+Challenges in Satellite Imagery Analysis
+High‑dimensional, multispectral data with complex spatial patterns
+Limited annotated datasets for downstream tasks (captioning, retrieval, VQA)
+Opportunities with Large Language Models
+Semantic reasoning and world knowledge beyond pixel‑o-nlly models
+Flexible interfaces: natural‑language queries, zero‑/few‑shot adaptation
+Scope of This Review
+Review of different architectures and solutions
+
+Slide 4
+----------------------------------------
+Automatic Remote Sensing Image Captioning (ARSIC)
+
+Satellite Image + BBoxes
+Structured Spatial Facts
+LLM Promptiing
+Generated Captions
+Ranking & Selection 
+Spatial‑Analysis APIs
+
+Slide 5
+----------------------------------------
+ARSIC results [He, Sun, 2023]
+
+ARSIC’s LLM‑based captions consistentlly capture spatial relations and object groupiings
+
+Slide 6
+----------------------------------------
+EagleVision Object-Level Attribute Multimodal LLM
+
+Remote sensing images are high-resolution and contain small, densely packed objects.
+Existing vision–language models either excel at coarse image-level captions or object detection with fixed categories, but fail at fine-grained, object-level attribute understanding in remote sensing.
+Need for a model that can both localize objects precisely and describe their attributes in detail.
+
+
+Slide 7
+----------------------------------------
+EagleVision Architecture
+
+Baseline Detector
+Object Level Description
+Attribute Disentangle Module
+
+Slide 8
+----------------------------------------
+Datasets and Results
+
+Datasets:
+EVAttrs‑95K: First large‑scale object attribute dataset (95K objects) covering airplane and ships, annotated via a two‑stage MLLM + human refiinement pipeline.
+EVBench: Benchmark for evaluaating object‑attribute understanding (rcall & GPT‑assisted score).
+Results:
+Recall 90%+; attribute accuracy ~70–90%.
+Outpeorforms classical detectors (e.g., Oriented R‑CNN) and general MLMMs (e.g., Qwen2‑VL, GeoChat).
+Overall demonstrates mutual benefiits between detection and attribute understanding, enabling richer remote sensing analysis.
+
+Slide 9
+----------------------------------------
+EagleVision compaison to other approaches [Jiang et al., 2025]
+
+Slide 10
+----------------------------------------
+RS-CapRet
+
+RS-CapRet
+Leverage a frozen, powerful decoder LLM (LLaMA V2-7B) and a CLIP vision encoder adapted to remote sensing ​
+Train onlly lightweight linear layers to bridgge modalities and a special retrieval token [RET], minimizing memory and tuning cost ​
+Problems solved by RS-CapRet
+Remote sensing image datasets are small and domain-specific, limiting complex Vision & Language models ​
+Existing methods rely on intricate attention mechanisms and LSSTMs, with mixed generalization ​
+
+Slide 11
+----------------------------------------
+RS-CapRet Architecture
+
+Pre-trained language model (LLamav2-7B)
+Projections between modalities
+Visual Encoder based on CLIP architecture
+
+Slide 12
+----------------------------------------
+RS-CapRet results [Silva et al., 2024]
+
+Slide 13
+----------------------------------------
+Conclusion
+
+Large Language Models (LLMs) significantlly improve the automated analysis of satellite imagery by enabling higher-level semantic understanding that goes beyond traditional pixel-based methods.
+The revieweed approahes demonstrate notable advancements in generating descriptive captions for remote sensing images and in extracting detailed object-level attributes, helping bridgge the gap between visual data and human interpretation.
+
+
+Slide 14
+----------------------------------------
+References
+
+[name], [name]. (2023). Towards automatic satellite images captions generation using large language models. arXiv preprint arXiv:2310.11392.
+[surname], [name], [surname], & [surname]. (2024). Large language models for captioning and retrieving remote sensing images. arXiv preprint arXiv:2402.06475.
+[name], [name], [surname], [name], & [surname]. (2025). EagleVision: Object-level Attribute Multimodal LLM for Remote Sensing. arXiv preprint arXiv:2503.23330.

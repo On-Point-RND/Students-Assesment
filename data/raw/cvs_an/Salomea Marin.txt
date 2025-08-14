@@ -1,0 +1,39 @@
++2 *** *** *** | [email] | [name][surname] | [email]
+Education
+[company]
+BACHELOOR’SiN”APPLiEDMATHEMATiCSANDINFORMATiCS” September2022–June2026
+• ComputerScienceCourses:IntroductiontoPython,AlgorithmsandDataStructures,AdvancedPython,ComputerArchitectureandOperating
+Systems
+• MathematicsCourses:LinearAlgebraaandGeometry,MathematicalAnalysis,DiscreteMathematics,Algebra,NumberTheory,ProbabilityThe‑
+ory,MathematicalStatistics
+• MachineLearningCourses:MachineLearning‑1,MachineLearning‑2,DeepLearning‑1,AppliedStatisticsinMachineLearning
+• Other:Economics,Law
+Skills
+ProgrammingLanguages C++(23,20,17,11),Python(3.8)
+Software&Tools Git,Bash,GoogleColab,CLion,PyCharm,LaTeX,Jupyter
+ML/DLArchitectures ClassicML,CNN,GAN,RL,Transformeers,DDPM,VAE
+Projects
+COCOGOTravelPlanner [location]
+2023–2024
+• Courseproject
+• Technologies:web(HTML5,SCSS),PythoNDjango,MySQL
+• Tripselectionbasedonuuser‑definedparameters
+AI‑girlfriend [location]
+2023–2024
+• Technologies:LLM,web(HTML5,SCSS),PythonFlask
+• Cha twitharealisticcharaacte rselectedba sedonuuser preferences
+MRIImageClassification [location]
+2022–2023
+RLStrategyforScalpTradingusingTimeSeriesGeneratio nwithGANsonMosco Stock
+[location]
+Exchange
+2024–2025
+• Technologies:GAN,RL,Bootstrap
+• Tradingstrategytrainedo nsyntheticdata generate dwithaGAN
+Olympiads
+All‑RussianSchoo lOlympiad”PhysTech” [location]
+PRiZEWiNNER 2021–2022
+• 3rdDegreePrizeWinneri n2022.
+Additional Info
+Languages
+• Russian(Native),English(Fluent),Chinese(Begi nner)

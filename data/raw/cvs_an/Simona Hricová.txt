@@ -1,0 +1,41 @@
+[name] [surname]
+[location] • +2 *** *** *** • [email] • linkedin.com/in/[name]-[surname]-399822239
+Experienced data annotation pipeline specialist with 3+ years of experience in crowdsourcing for machine learning.
+Currently transitioning into machine learning engineering, while studying at the [company] and teaching crowdsourcing techniques there.
+PROFESSIONAL EXPERIENCE
+[company], [location] 2021 – Present
+Crowd Solutions Architect
+● Architected and implemented crowdsourcing data labeling pipelines for GPT model training and evaluation for [company] Alice
+○ Side-by-side comparison of generative responses in fact-creative data flow
+○ Ethical evaluation of voice assistant responses
+○ UE2E evaluation of voice assistant's responses
+○ Gathering potential user requests for a new scenario in the voice assistant and etc
+● Architected and implemented crowdsourcing data annotation pipelines for external clients including [company], [company], [company] and others
+● Research
+○ Pioneered methods for response aggregation in crowdsourced data
+○ Built a quality control system of creative texts for 70 AI-trainers in [company] Alice
+○ Conducted research on dialog quality metrics and subjective factors in evaluator assessment
+Finance-tech lab in [company], [location] 2020 – 2022
+Research Laboratory Technician
+● Worked in the group of the project “Development of a software library in Python for risk profiling Python-based library for risk profiling of private investors’
+● Conducted clustering and regression models in fin-tech field
+[University], [location] 2020
+Research Intern (4 months internship)
+● Worked in an international group of students on data analysis project “CCOVID-19 Advocatus Diaboli: a Responsible AI Perspective for Reliability Ranking of Data Resources Relevant to CCOVID-19 Pandemic”.
+EDUCATION
+[company] of Data Analysis (ШАД), [location] 2024 – Present
+Currently studying in the first year of A Data Science program
+[University] of Economics, [location] 2023
+Bachelor’s degree in Business Informatics
+● Thesis: "Development of a machine learning model to improve the efficiency of data annotation processes".
+TEACHING
+Crowdsourcing
+● Teacher at Practical Crowdsourcing for Machine Learning course at YSDA (ШАД)
+● Speaker of student camp of machine learning at Faculty of Computer Science in [University], lecture about data labeling and crowdsourcing
+Data Science
+● Lecturer at ML school in REU Data science club: https://stepik.org/course/133957
+● Lecturer in ML quality metrics and data analysis basics at Skoltech course for Sber executives.
+● Seminar Assistant at Skoltech courses on data analysis and machine learning for Sber university
+SKILLS
+Languages: Python, Groovy; Python libraries: numpy, pandas, matplotlib, seaborn, scikit-learn, pytorch, optuna
+Experience: Exploratory data analysis, AB-testing, training linear models from scratch and with scikit-learn package, training MLP, RNN-like, CNN-like models with Pytorch, finetuning transformers, made a demo with streamlit

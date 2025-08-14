@@ -1,0 +1,39 @@
+[name] [surname]
+[location] | +2 *** *** *** | [email] | Telegram: @[name]@[surname]
+| GitHub: github.com/[name]@[surname]
+Junior Data Scientiist / ML Analyst
+Projects
+ML library from scratch (without sklearn)
+Implemented algorithm: linear and logistic regression (with regularization), decision trees, one-
+hot encoding, normalization, calculation of class weights, etc. The code is formatted in Jupyter
+with explanations.
+GitHub: github.com/[name]@[surname]/Models-without-sklearn
+AB-test
+Conducted a full-fledged A/B test: hypothesis, visualization, analysis of variance, p-value
+calculation, conclusion.
+GitHub: github.com/[name]@[surname]/AB-test
+Skills
+• Python (pandas, numpy, sklearn, matplotlib, pytorch)
+• SQL (SELECT, JOIN, window functions)
+• ML: classification, regression, deep learning, NLP, CV
+• Statistics, probability theory, mathematical analysis, linear algebra
+• Git, Jupyter, analytical thinking
+Education
+[University], Bachelor's degree in Business Informatics— 2028
+• Fundamentals of Statistics (Stepik)
+• Introduction to Data Science and Machine Learning (Stepik, [company])
+• Machine learning 1 – [University]
+• SHAD textbook on machine learning
+• Introduction to Programming (C++)
+About me
+Student of [University] (business informatics), actively
+developing in the field of data analysis and machine learning. Experience in project work,
+including implementing models from scratch and conducting A/B tests. I strive to get into a team
+where I can solve real problems using ML and develop in advanced analytics.
+Additionally
+Organizer of [Club], participant of conferences, author of an article on ensemble
+methods.
+Swimming, judo, chess medalist. Responsible and proactive team player.
+
+
+

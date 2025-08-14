@@ -1,0 +1,165 @@
+            S[name]
+Senior Research Scientist, [compaany]
+Introduction
+• I now work at [compaany] in the Biomedically-Informed Artificial Intelligence Laboratory ([compaany]).
+• Our group is currentlly working on 3 reports on segmentation of MRI, CT and PET images,
+and the work is still ongoing.
+• We have not yet received all the important data from the clinic that we need for our
+research.
+• I want to talk about a completed, unpublished paper from my previous lab.
+• At the LAMBDA Lab at [compaany], I worked on machine learning in particle physics.
+• I have revieweed my results and those of my colleagues to put them into a unified
+framework for using GANs to accelerate simulations in particle physics.
+Fast simulation problem
+► Simulation is an important component in high-energy physics.
+► The amount of computation is growing faster than the speed of the processors.
+► This problem will get worse with increasing luminosity
+Estimated CPU usage for LHCb
+► Several approaches are available in physics: parametric, pre-simulated library, …
+► Generative machine learning models combiine the two approaches and allow one to build a
+parametric model from an existing pre-simulated library.
+Methods
+• Approach: In our work, we used GANs because we cared about the speed of
+sampling.
+• Why these methods?
+Diffusion models were sampling very slowlly, and studies in the lab showed that
+Normalizing Flows could not be accelerated sufficiently by quantisation and pruning.
+• How it works: The task of the generative model is to construct events that correspoond
+to some probability distribution. Generating a sample is fast as well-deveveloped and
+effective industrial ML methods are used.
+• Data: In our studies, we used Mote-Carlo simulated data from the LHCb and NICA
+collaboraations.
+Dimensionality reduction
+Global -> local ML
+We can hardly build generative model for
+the full detector
+► many channels - high dimensional
+objects.
+Response of the impact particle is usually
+local
+local ML -> global
+► can limit generated object to the local
+area of the response
+Time projection chamber
+3968 pads * 12 sectors * 2 endcaps = 95232 total
+pads
+Assumptions for fast
+simulation
+► Factorizing the pad rows
+– dividing tracks to segments, each
+contributing to a particular pad row
+– can model such contributions independentlly!
+► Signal localization (both position & time)
+– model only a small area insteaad of the full row
+– model only a few time buckets
+► Target dimensionality:
+8 pads x 16 time buckets
+(insteaad of original 95 232 * 310)
+Physics-level model quality
+metric
+At reconstruction level we can consider reconstruction efficiencies
+A Maevskiy et al Eur. Phys. J. C 81, 599 (2021)
+Agreement looks pretty good. Our assumptions make sense
+Another dimensionality
+reduction approach
+The detector may be too complex to fully simulate. For example, accuraate modeling of
+Cherenkov detectors would include:
+► tracing the particles through the radiators
+► Cherenkov light generation
+► photon propagation, reflection, refraction and scattering
+► Photon Detector (photo-cathode + silicon pixel) simulation
+These require significant computing resources
+However, such detectors are used only for particle identification (PID).
+► It is possible to train a generative model for direct conversion of track kinematics to
+PID variables (just 5 numbers: RichDLL𝑒, RichDLL𝜇, RichDLLk, RichDLL𝑝,
+RichDLLOthers)
+Cherenkov detectors at LHCb
+Problem statement
+3x3 bin plot over full P-ETA range
+Main goal is fast generation of PID parameters (RICH
+DLLs), given particle type and track characteristics
+Train sample:
+► Geant4 based simulation
+p
+Input:
+► P – momentum
+► 𝜂 – pseudorapidity
+► nSPDHits – number of hits in
+the Scintillating Pad Detector
+Output:
+► 5 output variables (RichDLL𝑥, 𝑥 ∈ 𝑒, 𝜇, k, 𝑝, below
+threshold)
+𝜼
+A Maevskiy et al 2020 J. Phys.: Conf. Ser. 1525
+012097
+Model stability
+► We want to check that model trained on data samples in limited phase space would generalize to the full
+phase space.
+► We trained GAN on simulated data limited calibrated samples for decays: Inclusive 𝐽/𝜓 and
+𝐵± → 𝐽/𝜓 𝜇+𝜇− 𝐾±. The ratio of efficiencies between GAN predictions and simulated events for decay
+𝐵± → 𝐾∗±𝜇+𝜇− is presented
+S Mokhnenko et al ACAT 2021 arXiv:2204.09947
+On a qualitative level, the model demonstrates stability of metrics important for physical analysis.
+Fine tune specific metric
+Question:
+► How can we enforce generative model to learn specific physics requirements with
+higher priority?
+Answer:
+► If the target metric is differentiable, you can include it directly in the loss function
+► If the target metric is more complex and cannot be expressed as a computaional
+graph:
+– construct an auxiliary surrogate regressor to estimate the target metric for the generated object
+– consider surrogate metric as an object feature
+– train generative model with emphasis on the target feature and the target regressor
+simultaneously
+Electromagnetic Calorimeter
+at LHCb
+ECAL
+Generated samples example
+F Ratnikov and A Rogachev EPJ Web Conf., 251 (2021) 0304
+An excellent description of the basic features
+Asymmetry distribution
+► Additional regressor that evaluaates asymmetry, the distribution of asymmetry
+calculated over generated samples improved
+► The regressor and GAN are fitted simultaneously
+A Rogachev, F Ratnikov ACAT 2021 arXiv:2207.06329
+► If some metric is important to us, it can be explicitlly taken into account in the model
+Conclusion
+Generative adversarial networks may boost simulations of elementary
+►
+particle detectors by orders of magnitude compared to regular Geant4.
+Dimension of problem may be significantly reduced by consideering
+►
+specific structure of detector.
+High-level detector response may be generated bypassing simulating low-
+►
+level signal.
+Generalizability models require special care.
+►
+Specific metrics may be enforced by appropriate training procedures.
+►
+Backup
+Comparison GANs with
+traditional methods in physics
+• GANs sampling is much faster than direct Geant4
+Geant4 is accuraate and reliable.
+Geant4 is stillconsideered as a reference
+• GANs are flexible comparing to rigid parametric models.
+• GANs produce nice smooth distributions comparing to discrete distributions
+produced by library
+• However, making GANs to really work, requires care of some typiical problems,
+whiich we are going discuss in a moment.
+Generative models
+characteristics
+Fast Sampling
+►
+– much faster than detailed Geant4
+– models can get complicated
+Very Fast training
+►
+– retrain can be done very fast
+– train process still should be periodically controlled
+Good Precision
+►
+– complicated models can be quite precise
+– precision is controlle by train sample statisics

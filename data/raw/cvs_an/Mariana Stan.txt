@@ -1,0 +1,97 @@
+[name] [surname]
+ELLIS PhD Student ([location] & [location]) | Computer Graphics
+and Human Avatars Researcher
+Employmenent History
+Details
+Software Engineer at [compaany] of Automation and
+Genova, [location],
+Electrometry,
+2015 — 2016 (+2 *** *** ***)
+david.[email]
+Computer vision research and algorithms implementation.
+Development of computer vision algorithms for detecting
+Links
+anomalies in X-ray images.
+Personal page
+Computer Vision Engineer at SmartDive
+LinkedIn
+Technologies,
+2015 — 2017 Google Scholar
+Research and development of computer vision algorithms
+for the detection and recognition of road signs for self-
+driving cars.
+Senior Computer Vision Engineer at Expasoft, CUDA
+2016 — 2022
+Research and development of computer vision algorithms
+for image enhancement on mobile phones. Such as Image
+Developer Super Resolution and Image Denoising for Huawei phones.
+Research Engineer at Samsung AI Center
+2022 — 2023
+Research and development of methods for obtaining 3D
+photorealistic avatars by few photos of a person.
+Languages
+English
+Русский
+Education
+Bachelor's degree, Novo[location] State Uni[location]ty
+(NSU)
+2012 — 2016
+Thesis: “Detection of suspicious objects on the basis of
+analysis of human X-ray images”. Scientific adviser: Dr.
+Kulikov
+Master of Computer Science, Novo[location] State
+Uni[location]ty (NSU)
+2016 — 2018
+Thesis: “Applying deep learning techniques to detect local
+anomalies in X-ray images”. Scientific adviser: Dr. Kulikov
+First Ph.D., [compaany] of Automation and
+Electrometry of the Siberian Branc[location]h of the
+Russian Academy of Sciences
+2019 — 2023
+Thesis: “Performance optimization of convolutional neural
+networks in a face recognition system”.
+Scientific adviser: Dr. Nezhevenko. Co-adviser: Dr.
+Alyamkin.
+Second Ph.D., Università di Genova & Uni[location]versity
+College London (ELLIS Ph.D.)
+2023 — Present
+Research topic: Fast feed-forward video avatars with
+diffusion prior
+https://ellis.eu/projects/fast-feed-forward-video-avatars-
+with-diffusion-prior
+Scientific adviser: Dr. Alessio Del Bue. Co-adviser: Dr.
+Lourdes Agapito.
+Publications
+1) [name] [surname] et al. Dinar: Diffusion inpaintiing of neural
+textures for one-shot human avatars //ICCV – 2023
+2) [name] [surname] et al. Haha: Highly articulated gaussian human
+avatars with textured mesh prior //ACCV – 2024.
+3) [name] [surname] et al. BillBoard Splatting (BBSplat): Learnable
+Textured Primitives for Novel View Synthesis //arXiv
+preprint – 2024 (Under review)
+4) [name] [surname], [surname] Kulikov, and [surname] Kosykh. "Detection
+of suspicious objects on the basis of analysis of human X-
+ray images." Optoelectronics, Instrumentation and Data
+Processing 53.2 (2017).
+5) [name] [surname], and [name] Alyamkin. "Optimizing the Neural
+Network Detector of Moving Objects." Optoelectronics,
+Instrumentation and Data Processing 57.1 (2021): 18-26.
+6) [name] [surname], and [name] Alyamkin. "MarginDistillation:
+Distillation for Face Recognition Neural Networks with
+Margin-Based Softmax." International Journal of Computer
+and Info[location]rmation Engineering 15.3 (2021): 206-210.
+7) [name] [surname] et al. NTIRE 2021 challenge on image
+deblurring //CVPR – 2021
+8) [name] [surname] et al. Morf: Mobile realistic fullbody avatars
+from a monocular video //WACV – 2024
+9) [name] Alyamkin et al. "Low-power computer vision:
+Status, challenges, and opportunities." IEEE Journal on
+Emerging and Selected Topics in Circuits and Systems 9.2
+(2019): 411-421.
+Awards
+First prize at IEEE International Low-Power Image
+Recognition Challenge
+https://rebootingcompu[location].iee[location].org/lpirc/2018
+Second prize at IEEE Low-Power Image
+Recognition Challenge.
+https://rebootingcompu[location].iee[location].org/lpirc/2019

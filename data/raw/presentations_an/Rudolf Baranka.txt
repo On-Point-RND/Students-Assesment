@@ -1,0 +1,204 @@
+1
+Robust Genomic Feature Selection Pipeline
+using an Ensemble of XAI Methods
+[name]
+[compaany], Applied Mathematics and Computer Science
+& [compaany]
+Confidential Copyright ©
+2
+Outline
+● Topic overview
+● ZDNA problem overview
+● Goals of the research
+● The strong Models
+● XAI methods
+● Interpretation Pipeline
+● Feature Extraction Process
+● Results
+● Conclusion
+● References
+Confidential Copyright ©
+3
+Explainable AI
+Reasoning behind the predictions:
+● understandable
+● transparent
+Main terms: Explainability and Interpretability
+Confidential Copyright ©
+4
+ZDNA
+● Was first found in 1979
+● Left-handed double helical structure
+(the helix winds to the left in a zigzag pattern)
+● Was linked to both cancer and Alzheimerʼs
+Disease
+● Still remaiins a mystery
+Insufficient biologicaal data →
+→ need for DL model
+Confidential Copyright ©
+5
+Goals
+GGlloobbaall ZDNA Case
+● Create an interpretation framework ● Develop a strong DL model for ZDNA
+which may be applied in different fields of identification
+study
+● Extract the relevant omics features
+(biologicaal significance)
+Confidential Copyright ©
+6
+Strong Models
+● Indicate the presence of ZDNA in genome interval
+● high quality metrics and strong prediction power
+GraphMZC ConvMZC
+ROCAUC  0.958
+ROCAUC  0.979
+F1  0.81
+F1  0.88
+Confidential Copyright ©
+7
+Strong Models
+● Indicate the presence of ZDNA in genome interval
+● high quality metrics and strong prediction power
+GraphMZC ConvMZC
+ROCAUC  0.958
+ROCAUC  0.979
+F1  0.81
+F1  0.88
+Confidential Copyright ©
+8
+XAI Methods
+● Gradient methods and other closely connected techniques -
+theoretical robustness
+● Accuracy and faithfulness required for research in
+genomics.
+Integrated Guided
+InputXGradients Deconvolution
+Gradients Backpropagation
+GNNExplainer Saliency
+Confidential Copyright ©
+9
+Interpretation
+Pipeline
+1. Chooose an input tensor from the interval which
+contains target
+2. Get a prediction from well-pretrained model
+3. Focus on True Positive regions only
+Confidential Copyright ©
+10
+Interpretation
+Pipeline
+4. Performiing interpretation using XAI methods
+[number_of_features, 1
+5. Get an average interpretation score for a
+single algorithm
+[number_of_features, 1
+average importance score of each feature
+6. Gather results for several XAI methods
+Confidential Copyright ©
+11
+Interpretation
+Pipeline
+Confidential Copyright ©
+12
+Feature Extraction
+StatisGtilcoabla blased Naive Approach
+● Ranking Stage ● Sort & intersect
+● Extract
+Robust, statistical based
+Problem: No control
+Confidential Copyright ©
+13
+Ranking Stage
+1. Get the average value of an interpretation tensor for each XAI method.
+2. For each item in tensor, compute the percentage deviation of its interpretation score from the
+correspondiing mean for each XAI algorithm. So, the interpretation values are transformed into
+percent deviation scores now.
+3. Compute the mean percentage deviation of each feature across all XAI methods. As a result, each
+feature has itʼs own ranking value.
+4. Sort the list of ranking values in descending order to get the most important features in the first
+place.
+Confidential Copyright ©
+14
+Ranking Stage
+1. Get the average value of an interpretation tensor for each XAI method.
+2. For each item in tensor, compute the percentage deviation of its interpretation score from the
+correspondiing mean for each XAI algorithm. So, the interpretation values are transformed into
+percent deviation scores now.
+3. Compute the mean perage deviation of each feature across all XAI methods. As a result, each
+feature has itʼs own ranking value.
+4. Sort the list of ranking values in descending order to get the most important features in the first
+place.
+Confidential Copyright ©
+15
+The Whole
+Research
+Currrently we are preparing the paper
+to publish
+Confidential Copyright ©
+16
+Results
+Biological
+Global Training Set
+Meaning
+● The 20 of 1000 top-extracted omics ● The set suitable for training a high-quality
+features model
+Confidential Copyright ©
+17
+Results
+Training Set
+Confidential Copyright ©
+18
+Software
+Implementation
+As a software outcome of our project, we maintain the repository on Github where several folders
+are available.
+1. CNN model framework folder
+(runned notebook via link)
+2. GNN model framework folder
+(runned notebook via link)
+3. Interpretation folder
+Confidential Copyright ©
+19
+Conclusion
+In this project we :
+1. Created the powerful CNN- and GNN-based models ConvMZC and GraphMZC for
+ZDNA identification
+2. Developed a framework, which includes an interpretation pipeline and ranking stage,
+for the feature importance evaluation
+3. Applied framework to ZDNA problem and extracted the relevant omics features
+However, there are still more questions to be solved in the explainability of neural networks
+related to bioinformatics, in particular. We will continue our research on the topic.
+Confidential Copyright ©
+20
+References
+● [name] [surname]. “Deep learning approach for predicting
+functional ZDNA regions using omics dataˮ. In:
+Scientific reportes 10 2020.
+● [name] [surname]; [name] [surname]; [name] [surname]. ZDNA formation in
+promoters conserved between human and mouse are associated with increased transcription
+reinitiation rates. 2024. url: https://www.nature.com/articles/s4159802468439-y#Sec19.
+● [name] [surname]. “A Disintegrin and Metalloproteases
+(ADAMs) in Cardiovascular, Metabolic and Inflammatory Diseases: Aspects for Theranostic
+Approachesˮ. In: Thrombosis and Haemostasis 2018.
+● Captum: an open source library. Algorithm Descriptions. url:
+https://captum.ai/docs/attribution_algorithms.
+● [name] [surname]; [name] [surname]; [name] [surname]. Axiomatic
+Attribution for Deep Networks. 2017. url: https://a rxiv.org/abs/1703.01365.
+● [name] [surname]; [name] [surname]; [name] [surname]. GNNExplainer: Generating Explanations for Graph Neural
+Nettworks. 2019. url: https://a rxiv.org/abs/1903.03894.
+● [name] [surname]; [name] [surname]; [name] [surname]. Deep Inside Convolutional Networks: Visualising
+Image Classification Models and Saliency Maps. 2014. url: https://a rxiv. org/abs/1312.6034.
+● [name] [surname]; [name] [surname]. Striving for Simplicity: The All Convolutional Net. 2015.
+url: https://a rxiv.org/abs/1412.6806.
+● [name] [surname]; [name] [surname]. Visualizing and Understanding Convolutional Networks. 2013. url:
+https://a rxiv.org/abs/1311.2901.
+Confidential Copyright ©
+21
+Thank you!
+[name] [surname] & [compaany]
+[a.ameli.ig@gmail.com]
+https://github.com/[name] [surname]
+Confidential Copyright ©
+
+
+

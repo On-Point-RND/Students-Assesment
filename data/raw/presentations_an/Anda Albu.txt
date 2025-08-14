@@ -1,0 +1,181 @@
+
+
+Slide 1
+----------------------------------------
+[name] [surname][company][company]
+
+Reproducing QLoRA - Efficient Finetuning of Quantized LLMs (NeurIPS 2023)
+
+
+Slide 2
+----------------------------------------
+Introduction
+
+QLoRA is a method for finetuning large language models (LLMs) using 4-bit quantized weights with minimal memory.
+
+What is the topic?
+
+
+Why is it important?
+
+
+Background
+
+ 
+Goal of the review  
+ 
+  
+  
+
+Finetuning large LLMs (e.g., LLaMA-65B) requires massive compute. QLoRA enables finetuning on a single GPU with no loss in performance.
+
+LoRA allows efficient finetuning by training small low-rank adapters. QLoRA extends this by quantizing the base model to 4 bits.
+
+To reproduce QLoRA using pretrained models and evaluate its performance and memory benefits.
+
+
+Slide 3
+----------------------------------------
+Problem Statement
+
+How can we reduce GPU memory for LLM finetuning while maintaining full model performance?
+
+What exactly are we solving?  
+
+
+Challenges  
+
+
+
+Scope  
+
+- Quantizing weights without hurting performance
+- Training stability with low precision
+- Limited GPU memory for very large models
+
+Focus on LLaMA family models using QLoRA on instruction tuning tasks with open weights and Colab-compatible settings.
+
+
+Slide 4
+----------------------------------------
+Methods
+
+- Quantize base LLM to 4-bit (NF4 format)
+- Add trainable LoRA adapters
+- Use paged optimizer to offload memory
+
+
+Approach  
+
+
+Why these methods?  
+  
+
+How it works  
+
+
+Data & preprocessing  
+
+
+
+
+They combine memory savings and performance retention, with minimal hardware requirements.
+
+Backpropagate only through LoRA layers. Base model is frozen and quantized. CPU paging keeps GPU memory low.
+
+- Use Alpaca/Guanaco dataset
+- Tokenization via [company]
+- Train/val split 90/10
+
+
+Slide 5
+----------------------------------------
+Results
+
+- QLoRA finetunes LLaMA-65B on a single 48GB GPU
+- Achieves 99.3% of ChatGPT’s performance (Vicuna benchmark)
+
+Key findings  
+  
+
+
+  
+
+
+ 
+
+
+
+
+
+- Vicuna eval scores (GPT-4-based)
+- Instruction-following quality (manual and LLM-graded)
+
+Memory usage chart, Guanaco leaderboard
+
+Visuals
+
+Metrics used  
+
+
+Slide 6
+----------------------------------------
+Repository Link
+
+Official QLoRA Repo  
+  
+
+
+  
+
+
+ 
+
+
+
+
+
+My Reproduction GitHub
+
+Demo notebook
+
+
+Slide 7
+----------------------------------------
+Research Gap
+
+- Slight speed degradation vs full precision
+- No quantization of activations
+
+What’s missing?  
+  
+
+Unresolved challenges
+  
+
+Why it matters?
+
+Future opportunities  
+
+
+
+
+- Optimal quantization below 4-bit
+- Generalizing to multimodal models
+
+Lower quantization = broader accessibility + lower costs
+
+- 2-bit or mixed precision quantization
+- Finetuning vision-language models (e.g. Flamingo)
+- Activation quantization
+
+
+Slide 8
+----------------------------------------
+Summary & Impact
+
+- QLoRA unlocks efficient LLM finetuning with limited resources
+- Open-source tools make reproduction easy
+- Huge potential for democratizing AI and improving safe LLMs
+
+Thank you!

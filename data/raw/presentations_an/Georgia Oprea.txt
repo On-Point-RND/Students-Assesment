@@ -1,0 +1,77 @@
+[name] [surname] 
+ML-researcher, [compaany]
+SMILES2NMR
+Chemical-informeed 13C-NMR spectrum prediction
+
+NMR
+NMR
+CHEMISTRY
+MATERIAL SCIENCE
+BIOLOGY
+DFT
+
+NMR
+DFT
+NMR
+CHEMISTRY
+MATERIAL SCIENCE
+BIOLOGY
+
+NMR
+GNN
+Transformers
+
+GNN
+Transformer
+FEATURES
+SHIFTED
+TARGET
+Transformers
+NMR
+Model
+
+Model
+FEATURES
+SHIFTED
+TARGET
+Transformers
+
+Dataset preprocessing
+Initial
+dataset
+SMILES
+SIGNALS
+Dscretization 
+with subsequent 
+tokenization
+TARGET
+Chemical-informeed 
+fragmentation
+FRAGMENTS
+Tokenization
+FEATURES
+
+Dataset preprocessing
+Input dictionary dimensionality control
+Rare fragments
+Common fragments
+24
+
+Custom Cross-Entropy Loss
+
+Custom Cross-Entropy Loss
+
+GIT
+Results
+Overall MAE
+0.675
+
+Future prospects
+
+Future prospects
+FRAGMENTS
+
+[name] [surname] 
+ML-researcher, [compaany]
+SMILES2NMR
+Chemical-informeed 13C-NMR spectrum prediction

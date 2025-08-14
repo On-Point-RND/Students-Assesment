@@ -1,0 +1,77 @@
+Slide 1
+----------------------------------------
+[name]
+Student, [compaany]
+Creation of a voice sales service for fast food restaurants using LLM/RAG on partially synthesized datasets
+
+Slide 2
+----------------------------------------
+Introduction
+Chatbots reduce call center costs but small businesses struggle to implement AI solutions using their customer data. We’re developing a voice-only fast-food ordering assistant that handles diverse customer profiles across locations. The system uses two LMs: one simulating a cashier (processing orders naturally with menu knowledge) and another mimicking customer behavior (asking questions, customizing orders). Built using Kaggle’s open dialogue datasets, this screen-free solution enables natural voice interactions for quick-service environments. McDonald’s dataset
+
+Slide 3
+----------------------------------------
+Problem statement
+Traditional voice assistants rely on conventional language models, while large language models (LLMs) enhance interactions [1]. Research explores LLM-based VA [2], synthetic data [3], and reviews methods like LLMs and GANs [4]. Dialogue state tracking is studied in DSTC competitions [5], with focus on end-to-end challenges [6]. LUCID generates complex dialogues [7], while NLSI incorporates preferences [8]. Confidence estimation [9], synthetic dialogues [10], and persona-based datasets [11] improve reliability. Auto-RAG optiimizes retrieval [12], small models reduce costs [13], and CHESS enhances text-to-SQL [14].
+The most important problem is about preventing model from hallucinations. That’s why we use RAG database (McDonalds dataset from Kaggle) and simulate not only cashier behavior, but customers behavior too.
+
+Slide 4
+----------------------------------------
+Methods
+The simplest way to generate many orders is to draw a Markov chain, the movement along which forms a random but meaningful sequence of orders. An example of such a network is shown in picture. The Markov network implements a sequential selection of categories. Next, within each category, we simply toss a coin to determine the distribution of menu positions within that category.
+
+Slide 5
+----------------------------------------
+Methods
+The principle “Burger - fries - drink - pie” describes a client’s sequential progression through all categories. All positions, ingredients, allergens, and categories must be assigned IDs that remain unchanged later on. We construct position numbers based on the format XX.YY, where XX represents the category ID and YY represents the position ID. The source data for the generator consists of a set of files that describe the statistical distribution of positions across orders. Markov generator network is presented in Table 1.
+
+5
+5.0 0.5
+5.1 0.1
+5.2 0.1
+5.3 0.05
+5.4 0.05
+5.5 0.2
+
+Slide 6
+----------------------------------------
+Methods
+During the implementaion of dialogues two vector bases have been used for client and cashier turns. For the client, we determine the age, the number of people in the order, whether they have allergies, and whether they have an approximate estimate of lunch in calories. Each psycho personality type determines the client’s communication style and the likelihood of asking questions. The description of the personality type is passed to the LLaMa model as a contextual message marked system.
+
+Slide 7
+----------------------------------------
+Results
+The result of the developed solution is a database of 10,000 dialogues and a structured order database formed on their basis. We have got the set of 10,000 dialogs for different types of client profiles.
+
+As a result of the work carried out, we have obtained the following results: the direct use of LM or the connection of RAG does not lead to an accuraate implementaion of the voice service for generating orders. This is complicated by the lack of a marked-up high-quality data array on the basis of which you can build a vector database or carry out further training on RAG. Buildiing a customer model allowed us to obtain a database of dialogues of the required size, taking into account various customer profiles. The modeling of customer profiles was carried out centrally, and the service implementaion itself was carried out on edgе computing modules located in restaurants.
+
+Slide 8
+----------------------------------------
+Results
+The example of a dialog:
+
+Slide 9
+----------------------------------------
+Research gap
+An unresolved challenge remaiins the issue of presenting metrics for our chatbot's performa performance. Since the project is aimed at a specific outcome - generating an order without hallucinations based on the customer's free-form description - the primary evaluation metric for the language model is the alignment between the final list of items in the order and the customer's original request. In the future, we plan to expand the number of metrics to further demonstrate the model's quality.
+
+A further direction of research will be to build a multilinguaal service, as well as generation of universaal customer profiles for their use in creating voice services for small cafes and restaurants.
+
+Slide 10
+----------------------------------------
+Mahmood, Amama, et al. “User Interaction Patterns and Breakdowns in Conversing with LLM-Powered Voice Assistants.” arXiv.Org, 28 Nov. 2024, arxiv.org/abs/2309.13879.
+Chan, Szeyi, et al. “Human and LLM-Based Voice Assistant Interaction: An Analytical Framework for User Verbal and Nonverbals Behaviors.” arXiv.Org, 3 Sept. 2024, arxiv.org/abs/2408.16465.
+Lu, Yingzhou, et al. “Machine Learning for Synthetic Data Generation: A Review.” arXiv.Org, 30 June 2024, arxiv.org/abs/2302.04062.
+Goyal, Mandeep, and Qusay H. Mahmoud. “A Systematic Review of Synthetic Data Generation Techniques Using Generative AI.” MDPI, Multidisciplinary Digital Publishing Institute, 4 Sept. 2024, www.mdpi.com/2079 9292/13/17/3509.
+Henderson, Matthew, et al. “The Second Dialog State Tracking Challenge.” ACL Anthology, aclanthology.org/W14-4337/. Accessed 7 Apr. 2025.
+Gunasekara, Chulaka, et al. “Overview of the Ninth Dialog System Technology Challenge: DSTC9.” arXiv.Org, 12 Nov. 2020, arxiv.org/abs/2011.06486.
+Stacey, Joe, et al. “Lucid: LLM-Generated Utterances for Complex and Interesting Dialogues.” arXiv.Org, 3 May 2024, arxiv.org/abs/2403.00462.
+Moghe, Nikita, et al. “Interpreting User Requests in the Context of Natural Language Standing Instructions.” arXiv.Org, 7 Mar. 2024, arxiv.org/abs/2311.09796.
+Sun, Yi-Jyun, et al. “Confidence Estimation for LLM-Based Dialogue State Tracking.” arXiv.Org, 21 Sept 2024, arxiv.org/abs/2409.09629.
+Abdullin, Yelaman, et al. “Synthetic Dialogue Dataset Generation Using LLM Agents.” arXiv.Org, 30 Jan. 2024, arxiv.org/abs/2410.10813.
+Jandaghi, Pegah, et al. “Faithful persona-based conversational dataset generation with large language models.” Proceedinings of the 6th Workshop on NLP for Conversaional AI (NLP4ConvAI 2024), 2024, pp. 114–139, https://doi.org/10.18653/v1/2024.nlp4convai-1.8.
+Wu, Di, et al. “Longmemeval: Benchmarking Chat Assistants on Long-Term Interactive Memory. arXiv.Org, 4 Mar. 2025, arxiv.org/abs/2410.10813.
+Tang, Liyan, et al. “MiniCheck: Efficient Fact-Checking of LLMS on Groundiing Documents.” arXiv.Org, 1 Oct. 2024, arxiv.org/abs/2404.10774.
+Talai, Shayan, et al. “Chess: Contextual Harnessing for Efficient SQL Synthesis.” arXiv.Org, 25 Nov. 2024, arxiv.org/abs/2405.16755
+
+Bibliography

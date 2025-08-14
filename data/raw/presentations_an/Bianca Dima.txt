@@ -1,0 +1,42 @@
+Generative Retrieval: New Paradigm
+in Recommender Systems
+[name]
+Intern, [compaany]
+[compaany]
+Task formulation: Given a sequence of a user’s interactions with
+items, the goal is to predict the next item.
+Limitations of Classical Models (e.g. SASRec):
+• Unlike in NLP, each item requires its own trainable
+embedding, which significantly increases memory
+usage and computational cost.
+• These models cannot handle new (previously
+unseen) items, as no pre-trained embeddings are
+available — this leads to the cold start problem.
+From Does It Look Sequential? An Analysis of Datasets
+for Evaluation of Sequential Recommendaions
+https://arxiv.org/pdf/2408.12008
+IDGenRec
+ID Generator converts item metadata into unique textual identifiers using a T5-based
+model.
+ID uniqueness is ensured using Diverse
+Beam Search
+From IDGenRec: LLM-RecSys Alignment with Textual ID Learning
+https://arxiv.org/pdf/2403.19021
+IDGenRec
+LLM-based Recommender predicts the next item using prompts filled with generated textual IDs.
+Prompt example: User has purchased items [item_ID ], [item_ID ], ..., [item_ID ]; predict the next item.
+1 2 N
+Safe generation: Due to constrained decoding with a prefixt tree, the recommender only generates valid
+item IDs.
+From IDGenRec: LLM-RecSys Alignment with Textual ID Learning
+https://arxiv.org/pdf/2403.19021
+TIGER
+Semantic ID generation is performeed using a pretrained RQ-VAE.
+Due to Residual Quantization, the resulting IDs have a hierarchical structure.
+From Recommender Systems with Generative Retrieval
+https://arxiv.org/abs/2305.05065
+TIGER
+Generative retrieval is performeed using an encoder–decoder transformer, which autoregressively
+generates the next item’s code, token by token.
+From Recommender Systems with Generative Retrieval
+https://arxiv.org/abs/2305.05065

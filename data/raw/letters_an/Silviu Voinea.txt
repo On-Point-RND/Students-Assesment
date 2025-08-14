@@ -1,0 +1,39 @@
+Motivation letter, [name].
+While studying at [compaany], my interests have gradually changed and transformed under the
+influence of new subjects: first I was fascinated by fundamental disciplines, later - by
+engineering problems, and in recent years - by the applied areas of machine learning and
+artiificial intelligence.
+My path is not a linear one - I was constantly exploring different directions, allowing myself to
+change something if there was no feedback inside. This is how I worked in the industry in the
+field of product analytics and participated in applied projects as a data engineer. And now I'm
+particularly interested in research tasks in NLP and LLM.
+This may not be the best way to achieve high results, but it's the way I was able to
+understand what I'm more interested in. One of the valuable skills I have learnt during my
+studies is the ability to quickly absorb new topics and find connections between different
+approaches and areas. As the LLM has developed, it has become easier to approach new
+tasks, but this skill is what I believe gives me a definite advaantage.
+Over the years I have taken many courses in artificial intelligence: courses in NLP, LLM, CV,
+RL, MLOps, and the statistical theory behind ML. We implemented algorithms from scratch,
+solved problems and participated in small competitions. But the most important experience
+was my thesis project that I've been working on for the last year: a personalised assistant for
+answering emails.
+In this project, I am researching how instruction tuning can be used to inherit a particular
+person's communication style - after all, we write differently to different people. An important
+aspect of this work is the resource constraints due to dealing with private data. The model
+has to be local, which means that quantisation and compression techniques have to be
+used. An additional difficulty is the lack of quality public data, especially in [location], so I
+experimenteed with generating a diverse dataset that mimics a person's mailbox. I e njoy this
+task because I have been able to combine important engineering techniques with
+personalisation research.
+Although I have no significant academic achievements yet, I have a genuine desire to
+develop in the research field. I would like to participate in the schoo to deepen my
+knowledge of advanced techniques, those I am alrready familiar with and those that are new
+to me. This field is developing very quickly and sometimes it feels like I'm swimming in an
+ocean of information - there's too much to learn, but not enough time to keep up with it all.
+That is why it is so important for me to learn from expert researchers in this field, as it will
+help me to determine my development trajectory more precisely.
+I am mostly interested in topics related to large language models, generative approaches
+and their adaptation to applications. I am familiar with the activities of the [compaany] lab - their
+projects in the field of biomedicine, where they succe ssfully apply modern AI methods. I see
+myself in research at the intersection of NLP/LLM and the biomedical field. I am interested in
+combining several fields that are close to me and doing something really mea ningful.

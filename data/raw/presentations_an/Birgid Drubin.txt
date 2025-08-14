@@ -1,0 +1,115 @@
+LLM
+M I TIGATING HALLUCINATIONS &
+IMPROVING FACTUAL ACCURACY
+IN LLMs: A REVIEW OF RECENT
+APPROACHES
+[name]
+SMILES Summer School Application
+POWER FUL
+C APABILITIES,
+PER SISTENT
+C HA LLENGE
+• Remarkable abilities in content creation,
+QA and much more!
+• Prone to Hallucination (generating
+incorrect/nonsensical/unfaithful content)
+• Undermines Trust & Reliability
+• Goal: Review recent mitigation
+strategies (2021-2024)
+WHAT IS LLM HALLUCINATION?
+• Nonsensical
+• Factually Incorrect (vs. World Knowledge)
+• Unfaithful (vs. Source/Input/Context)
+• Ungrounded, confident assertion without basis
+3
+WHY DO LLMs HALLUCINATE?
+• Data: Biases, knowledge gaps, outdated info
+• Training: Modeling language patterns ≠ factual accuracy, over-
+reliance on stats
+• Inference: Overconfidence, decoding issues (softmax bottleneck),
+reasoning failures, limited context
+4
+M IT IG AT ION OVERVIEW:
+TWO MAIN PATHS
+5
+PATH 1: RE TRI EVA L -
+A U GM EN TED
+G EN ERA TI ON (RAG )
+L E V E R A G E
+E X T E R N A L
+K N O W L E D G E
+6
+PATH 2: M O D EL - C EN TRI C
+A PPR OAC H ES
+I M P R O V E
+I N T E R N A L M O D E L
+C A P A B I L I T I E S
+( T R A I N I N G / I N F E R
+E N C E )
+7
+STRATEGY 1 :
+RETR IE VAL - AU GM ENTED GE NER ATI ON
+(R AG)
+RAG: GROUNDING IN EXTERNAL
+KNOWLEdge
+• Goal: Reduce reliance on internal
+(potentially flawed) knowledge
+• Provide up-to-date, specific info
+9
+RAG TECHNIQUES &
+COMPONENTS
+• Retrieval: Sparse (Keywords, BM25),
+Dense (Embeddings, Semantic
+Search), Hybrid
+• Ranking: Ensuring best context is
+used (e.g., RankRAG)
+• Integration: Fusing query + context for
+generation
+10
+RAG LIMITATIONS
+• Retriever Quality (garbage in = garbage out)
+• Knowledge Cutoff
+• Conflicting Info (Internal vs. External, Multiple sources)
+• Faithfulness (ensuring output truly uses context)
+• Efficiency (latency/cost)
+• Context Issues ("Middle Curse")
+11
+STRATEGY 2 :
+MODEL- CENTRIC AP PR OACHES -
+TRA IN ING
+IMPROVING THE MODEL ITSELF: TRAINING/FINE-
+TUNING
+• Instruction Tuning: Training on factuality-focused datasets
+• Reinforcement Learning (RL)
+o From Human Feedback (RLHF)
+o From AI/Knowledge Feedback (RLAIF/RLKF)
+• Contrastive Learning: Teach model to distinguish factual vs. Hallucinated
+• Other: Augmenting pre-training, Synthetic data (Prereq-Tune)
+13
+MODEL-CENTRIC APPROACHES - INFERENCE
+• Prompt Engineering: Guiding output via input design
+• Decoding Strategies: Self-Consistency (multiple samples)
+• Abstention: Saying "I don't know" when uncertain
+• Self-Correction/Reflection: Model identifies/fixes own errors
+• Internal State Manipulation: Directly activating "truthful" representations (e.g., TruthX)
+14
+SYNTHESIS:
+COMPARING
+APPROACHES
+Comparison of Mitigation Approaches
+OPEN CHALLENGES & FUTURE DIRECTIONS
+• RAG Efficiency & Scalability
+• Handling Conflicting Information Robustly
+• Better Automatic Evaluation Metrics
+• Understanding LLM Knowledge Boundaries
+• Specialized Domains & Long-Form Generation
+• Combining Strategies (Hybrid RAG + Inference)
+• Deeper Understanding of Why Hallucinations Occur
+16
+C ONCLUSION
+• Hallucination is a major barrier to reliable LLMs
+• Diverse mitigation strategies exist (RAG, Model-
+Centric - Training/Inference)
+• Significant progress, but key challenges remain
+• Continued research is vital for safe & beneficial AI
+deployment

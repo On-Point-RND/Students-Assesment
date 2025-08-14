@@ -1,0 +1,76 @@
+Slide 1
+----------------------------------------
+[name]
+Junior research associate
+[compaany]
+Crop detection from satellite images
+
+
+Slide 2
+----------------------------------------
+Introduction
+
+The tasks of Earth surface classification using remotely sensed data are quite often solved using machine learning algorithm. Machine learning methods are based on the detection of statistical regularities of the training sample, so they require careful selection of data for training. To avoid overtraining of models, it is necessary to select the optimal amount of input data, which is often a non-trivial task. And, if the task requires the use of big data, it may require large computational resources to use it. Thus, the task of obtaining a machine learning model is reduced to processing a large data set and selecting a representative sample for training the model.
+
+
+Slide 3
+----------------------------------------
+Problem statement
+
+There is no open access map of agricultural crops in [location] which is essential for harvest forecasting
+There is no open crop data for [location] that can be used as a training sample
+The aim of this investigation to make an algorithm that will detect the crops on the base of satellite imagery
+
+Solving the problem with the lack of training data: make a dataset using crop data from the datasets all over the world
+
+Slide 4
+----------------------------------------
+Methods
+
+Approach: for task of classification we used algorithm of gradient boosting (Catboost).
+Similar works use classical classification methods such as decision trees, random forest, k-means, etc. 
+Gradient boosting is a method that resistant to retraining, 
+Data & preprocessing: 
+Extraction of point data from map information 
+Extraction time-series of vegetation index (WRDVI) using [compaany] API
+Lowess-smoothing of input data and data approximation with double logistic function (to clean from noise highlightiing culture deviation only)
+Filtration data on the base of curve form and R2
+Calculating of phenological characteristics for features
+
+
+Slide 5
+----------------------------------------
+Results
+
+Key findiings: 
+The algorithm of processing data is applied
+Overall accuracy – 59%
+The worser classificated classes - cereals
+Metrics used: accuracy, precision, recall, F-score. Our aim – to make the map that can be used
+
+
+Slide 6
+----------------------------------------
+Research gap
+
+What’s missing? The sample we have – random choosing from big amount of data. Because of limitations of [compaany] Platform. We have no possibility to check all the data – it’s too long and resource-intensive
+Unresolved challenges: the accuracy of our product is too small to use it on the territory of [location], because some crops is too difficult to divide on the base of satellite imagery
+Why it matters? 
+Future opportunities: 
+To add some spatial or meteorological data to features
+To try Neural networks for classification
+
+
+Slide 7
+----------------------------------------
+[name] et al. Improved monitoring of vegetation dynamics at very high latitudes: A new method using MODIS NDVI. Remote Sensing of Environment, 2006
+[name], M.C., [name] et al. Massive soybbean expansion in South America since 2000 and implications for conservation. Nat Sustain 4, 784–792 (2021). https://doi.org/10.1038/s41893-021-00729-z
+[name], Н.В., [name]. Аппроксимация временных рядов NDVI в задаче раннего распознавания видов сельскохозяйственных культур по космическим снимкам. Информационные техннологии и нанотехнологии – 2017
+[name], [name], [name] & [name] (2021) An operational automated mapping algorithm for in-seasonestimation of wheat area for Punjab, Pakistan, International Journal of Remote Sensing, 42:10,3833-3849
+[name] Fischer. A Model for the Seasonal Variations ofVegetation Indices in Coarse Resolution Dataand Its Inversion to Extract Crop Parameters. REMOTE SENS. ENVIRON. 48:220-230 (1994)
+[name], [name], [name] Dynamic monitoring of NDVI in wheat agronomy and breeding trials using an unmanned aerial vehicle. Field Crops Research, Volume 210, 15 August 2017, Pages 71-80
+
+Bibliography
+
+
+

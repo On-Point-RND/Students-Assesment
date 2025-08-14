@@ -1,0 +1,23 @@
+I’m [name] [surname], a lecturer at [compaany], and I’m super excited about your summer schoo l. I’ve been tinkering with making big ML models run faster—messing with CUDA graphs, squeezing out extra speed in PyTorch, even re‑writing bits to cut down on compute time. Right now I’m digging into that PyGraph paper on compiler support for CUDA Graphs in PyTorch
+(https://www.researchgate.net/publication/390176402_PyGraph
+_Robust_Compiiler_Support_for_CUDA_Graphs_in_PyTorch), and
+it really got me thinking about how we can build more
+reliable, faster GPU pipelines.
+Large language models are my jam. I love playing with
+infrastructure twea ks—optimizing data pipelines, reducing
+memory overhead, twea king kernels. Sometimes I forget to
+have lu nch because I’m chasing down a few milliseconds
+gain! But I also love to have conversations about ideas:
+I’ve organized hacka thons, mentored students on crazy
+side‑projects, and organised science club in [location] with
+cycling events where we discuss about scienti fic articles
+after sport.
+I’m not great at writing perfectl y. I want to learn new
+generative tricks, bounce ideas on multi‑agent systems, and
+meet peers from [location] and [location] who also get jazzed about
+code and har dware.
+Also I am interesting give some lectures in Python and
+calculs opti mi sation process in the Smiles 2025.
+
+
+

@@ -1,0 +1,59 @@
+Parameter-Efficient Fine-Tuning for Large Language Models:
+A Review of Recent Approaches
+[name]
+Aspiring AI Researcher, Incoming Student at [location] AI Program
+Introduction
+What is the topic? Why is it important? Background Goal of the review
+This presentation reviews LLLMs are powerful but huge. Alternatives like full fine- To outline the core efficiency
+Parameter-Efficient Fine- Tuning (PEFT) – techniques impractical due to compute, Context Learning (prompting
+for adapting massive pre- memory, and storage costs. without weight updates) have to outline the core efficiency
+trained language models (LLMs) to new tasks PEFT offers a way to leverage storage, inference expense). challenges in adapting LLMs.
+efficiently. LLLMs effectively by training PEFT aims for a better trade- from different angles:
+only a small fraction of off. minimizing
+trainable parameters, reducing few-shot learning costs, and optimizing training memory.
+As someone preparing to understand how to work efficiently with these powerful models seems crucial for democratizing their use.
+Problem Statement
+What exactly are we solving? Scope
+Add a quick description of each thing, with enough context to understand what’s up. If you’ve got a bunch, add another row, or use multiple copies of this slide.
+Challenges: We need methods that address:
+Parameter Inefficiency: Reducing the number of task-specific parameters needing storage and deployment.
+High Computational Costs: Minimizing GPU time and energy for both training adaptation and inference.
+Training Memory Bottlenecks: Specifically, reducing the large memory footprint caused by storing activations during backpropagation, even when few parameters are trained.
+Maintaining Performance: Ensuring the adapted model remains highly accurate, close to full fine-tuning results.
+Methods
+LoRA (Low-Rank Adaptation)
+(Hu et al., ICLR 2022)
+Technique: Uses (IA)³ which rescales activations using learned vectors (l). Integrated into a specific recipe (T-Few) for few-shot learning.
+Intuition: Adapts model behavior by modulating information flow. As someone preparing to study AI, understanding how to work efficiently with these powerful models seems crucial for democratizing their use.
+Technique: Freezes pre-trained weights (W₀), injects trainable low-rank matrices (A, B) so the network update ΔW = BA. Intuition: Reversible blocks allow for computing activations during backpropagation instead of storing them all, trading some computation for significant memory savings.
+Focus: Directly targets the activation number of trainable parameters.
+Focus: Achieve high few-shot accuracy and lower inference cost compared to In-Context Learning.
+Transition 2: Both LoRA and (IA)³ improve parameter or inference efficiency, but training still requires significant memory for activations.
+Transition 1: While LoRA significantly reduces the parameter count...
+Addressing this...
+Results
+Key findings: These diverse approaches yield complementary benefits, confirming the value of PEFT.
+Parameter & Inference Efficiency (LoRA): Matched full fine-tuning performance with ~10,000x fewer parameters and crucially, no added inference latency. Reduced training VRAM needs significantly.
+Few-Shot & Cost Efficiency (T-Few / (IA)³): Outperformed even much larger models using In-Context Learning on few-shot benchmarks (RAFT), with inference costs orders of magnitude lower than ICL.
+Training Memory Efficiency (MEFT): Achieved accuracy comparable to standard fine-tuning/PEFT while reducing activation memory requirements during training by up to 84%.
+PEFT offers a toolbox of solutions; the best method depends on the specific bottleneck (storage, inference cost, training memory).
+Overall Implication
+Limitations Highlighted
+How to optimally configure PEFT methods (e.g., rank in LoRA)
+Generalizability of some methods beyond specific base models ((IA)³ on T0)
+Potential trade-offs in complex methods (MEFT's compute vs. memory, stability).
+Unresolved challenges: These limitations point to broader needs:
+A deeper theoretical grasp of why adaptation is often low-rank
+Systematic ways to combine PEFT with other efficiency techniques like quantization (e.g., QLoRA) or pruning
+A unified framework or better heuristics for selecting the most suitable PEFT method for a given task and constraint.
+Research Gap
+Why it matters?
+Solving these enables wider, more reliable, and resource-aware application of powerful LLLMs.
+Future opportunities
+Developing adaptive PEFT methods
+Exploring PEFT in multimodal contexts
+Investigating synergistic combinations, like integrating LoRA's parameter count reduction with MEFT's training memory savings, seems particularly promising and is an area I'd be excited to learn more about.
+Bibliography
+Hu, Edward J., et al. Liu, Haokun, et al. Liao, Baohao, et al.
+"LoRA: Low-Rank Adaptation of "Few-Shot Parameter-Efficient Fine- "Make Pre-trained Model Reversible:
+Large Language Models." ICLR, Tuning is Better and Cheaper than Fine-Tuning." NeurIPS, 2022. In-Context Learning." NeurIPS, 2022.

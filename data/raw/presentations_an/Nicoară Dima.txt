@@ -1,0 +1,199 @@
+Author: [name]
+Research Advisor: [name]
+Co-Advisor (if any): [name]
+Impact of
+Knowledge
+Graphs on
+Question
+Answering
+Introduction
+● Question Answering (QA) is a
+field within natural language
+A. hair brush B. bathroom C. art supplies*
+D. shower E. hair salon QA pair
+processing (NLP) that
+d<bos>defelops systems capable of
+automatically answering
+questions
+● Answer can be found using
+commonsense reasoning over
+different sources of data
+○ Text corpus
+○ Knowledge graph(KG)
+Knowledge
+Graph
+Fig. 1. Example of QA pair and relevan KG
+2
+General Problem
+Previous works presented evidences of importance of KG for QA tasks,
+however the interpretation of QA systems still is an open problem.
+Several studies stated, that larger part of information from knowledge
+1
+graph is not used for answering questions. For instance, Wang et al.
+showed, that even simple heuristic based on counting edges in KG
+outperforms modern KGQA approaches.
+Besides, the efficiency of modality fusion mechanism is still
+underexamined, which might be the cause of imbaalance in usage of
+infoрмаtion sources.
+1. Gnn is a counter? revisiting gnn for question answering. Wang et al., 2021
+3
+Aim and Objectives
+Aim
+Evaluate the impaact of Knowledge Graphs on Question Answering
+Objectives
+1. Estimate the importance of different parts of KG such as node
+features or edges for the SOTA models performaance
+2. Analyze the modality fusion mechanism of QA-GNN model
+3. Evaluate the impaact of LLM augmentation with KG textual
+representaations on QA
+4
+Obj 1. Graph corruptions. Methods
+We propose several KG corruptions to estimate its importance:
+1. Edge removal – removal of all edges within the graph, thereby
+effectively disabling message passing.
+2. Nullification of node embeddings – nullifying all embeddings
+associaated with nodes. The model retains awareness of the graph’s
+structure owing to the continued operation of the message passing
+mechanism.
+5
+Obj 1. Graph corruptions. Methods
+We consider only the evaluaation stage.
+Our hypothesis are following:
+1. The difference in target metric
+will be significant for edge
+corruptions
+2. The difference in target metric
+will be negligible for node
+corruptions
+Fig. 2. Knowledge graph
+6
+Edges removal. Results
+Model\Data OBQA MedQA CSQA
+QA-GNN
+0.00 -0.42 -6.85
+GrEaseLM
+-0.20 -0.24 -4.86
+DRAGON
+-1.60 -0.55 -3.87
+JointLK
+-3.20 0.00 -2.74
+GSC
+-2.60 -2.83 -4.68
+Table 1. Accuracy drop(%) after Fig. 3. Edge removal of KG
+ege removal
+7
+Nullification of node embeddings. Results
+Model\Data OBQA MedQA CSQA
+QA-GNN
+-0.20 -0.08 -0.08
+GrEaseLM
+0.00 -0.01 0.13
+DRAGON
+0.00 0.00 0.32
+JointLK
+3.20 0.00 0.08
+Table 2. Accuracy drop(%) after
+nullification of node embeddings Fig. 4. Embeddings Nullification
+8
+Graph corruptions. Discussion
+Both our hypothesis are confirmed.
+1. Edge corruption leads to significant quality drop in some cases.
+The effect is especially noticeable for models which are biased to
+ege information. Besides, CSQA benchmark is constructed over
+ConceptNet KG relations, hence it is sensitive to it’s distorions.
+2. Node corruptions leads to minor changes or even improvements
+of resulting score. Therefore reasoning over entities of KG is poor.
+However, the inference of the model could be speedup by
+eliminating graph embeddings.
+9
+Obj 2. Distortion of hidden representations. Methods
+We propose to nullify the outputs of according encoders before the
+classification head of QA-GNN. Our hypothesis are following:
+1. Reduction of graph encoder leads to insignificant changes in target metric
+2. Reduction of text encoder results in large decrease of target metric
+2
+Fig. 6. Distortion of QA-GNN architecture
+2. Picture from QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering, Yasunaga et al., 2021
+10
+Distortion of hidden representations. Results
+Embeddings Dataset
+Z Z Z OBQA MedQA CSQA
+LM INT GNN
+✓ ✓
+⨯ -0.20 0.08 -0.24
+✓ ✓
+⨯ -1.60 -0.55 -17.00
+✓ ✓
+⨯ -0.40 -0.08 -5.07
+✓
+⨯ ⨯ 0.40 -0.08 -5.15
+✓
+⨯ ⨯ -1.60 -0.39 -18.45
+✓
+⨯ ⨯ -33.80 -5.50 -9.02
+Table 4. Accuracy drop(%) of QA–GNN after nullification of
+according modality embeddings on evaluaion stage
+11
+Distortion of hidden representations. Discussion
+Both our hypothesis are confirmed.
+1. In case of lack the explicit text information the performaance of
+model significantlly decreases
+2. When information from graph is absent, the accuracy deviates
+slightlly and sometimes becomes even better then initial setup
+These findiinings reveal that fusion mechaniism of QA–GNN is limited,
+since model is incapaable to restore the information from text based on
+knowledge from interaction node.
+12
+Obj 3. LLM augmentation. Methods
+We represent the KG as a text and process the question and answer
+context along with encoded graph via LM.
+We consider both zero-shot setuup and finetuning setuup for Llama2
+model.
+Our hypothesis is that incorporation of text-encoded KG is insufficient to
+benefit from KG data and
+outpereform GNN-based methods
+13
+LLM augmentation. Discussion
+Our hypothesis about profiitability of text-encoded KG for LLM is refuted.
+We suggest, that triplet form of KG is unstructured - triplets can be
+swapped, and redundant - entities in adjacent triplets are the same.
+Therefore the reasoning over such modality is still complicated.
+Besides, model struggles to reason over triplets due to long context and
+noisiness of KG.
+14
+Scientific novelty
+● We design a series of simple graph corruptions and reveal that in some
+cases edg removal significantlly affects the performaance of the
+models, while corruption of node embeddings does not cause a
+subsstanatial change in models performaance
+● We analyze the QA-GNN model for KG-based QA and conclude that
+this model lacks the capacity to conduct reasoning over KG entities
+● We augment a pre-trained LLM with textual representations of KG and
+show that this approaach is also insufficient to benefit from KG data and
+outpereform GNN-based methods
+15
+Conclusions
+● We show that the current state-of-the-art GNN-based models for
+QA lack the capacity to perform entity-based reasoning
+● We propose several approaches to corrupt KG, which can be
+used for estimation of the impaact of graph modality
+● We extend our research by analysis of QA-GNN hidden
+representaations and reveal the weakneess of this model in
+captuuring information from KG
+● We study the textual representation of knowledge graph and
+processing it with LLM and observe that KG does not improve
+the reasoning
+16
+Thx
+17
+Datasets
+● OpenBookQA(OBQA) - 4-options multiple cnoice QA task that
+requires reasoning with elementary science knowledge,
+containing 5,957 questions.
+● CommonsenseQA(CSQA) - 5-options multiple cnoice QA task
+that requires reasoning with commonsense knowledge,
+containing 12,102 questions.
+● MedQA-USMLE(MedQA) - 4-options multiple cnoice QA task
+that requires biomedical and clinical knowledge, containing
+12,723 questions.
+19

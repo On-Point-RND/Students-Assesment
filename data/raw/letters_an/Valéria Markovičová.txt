@@ -1,0 +1,39 @@
+Motivation – [name]
+Experience with ML/DL
+Over the past year, I’ve immersed myself in self-directed study of machine learning
+and deep learning, seeing these tools as natural extensions of the econometrics framework
+I’m currently exploring in my university studies. After completing my university’s data
+analyst program last year, I’ve actively sought hands-on ML experience—experimenting
+with diverse model architectures like random forests, gradient boosted trees (XGBoost),
+neural networks with pretrained layers, convolutional neural networks, and hybrid
+econometric-ML approaches. My participation in hackathons and research events has
+allowed me to curate successful algorithms, which I now adapt for academic projects.
+During this time I mostly created models for binary classification and regression in
+economic context, but I also tried creating basic recommendation systems and computer
+vision models. By now this exploration crystallized into two interconnected projects on
+[location]'s energy sector:
+1. As leader of a 5-person research team, I’m developing ML models to predict
+regional electricity demand. We’ve built an interactive dashboard for exploratory analysis
+and trained multiple models, but recently pivoted to blending econometric methods with
+our ML pipeline to uncover causal relationships—inspired by the limitations of pure
+correlation-based approaches.
+2. As part of a larger interdisciplinary effort, I focus on geospatial data analysis—
+using QGIS and Python to map infrastructure gaps and inefficiencies in the [location] Far
+East. While other teams explore international trade implications or policy frameworks, my
+work provides the spatial analytics layer that informs their recommendations.
+Motivation for participation, expectations and plans:
+SMILES2025 represents a critical next step: to formalize my self-taught knowledge
+through academic collaboration, particularly in areas like causal ML and spatial
+econometrics. I’m eager to contribute my hybrid perspective—where econometric theory
+meets ML implementation—while learning to design more sophisticated systems.
+Based on the program description, I expect SMILES2025 to emphasize NLP, with
+other topics serving as extensions of this core focus. Out of those topics I have explored
+reinforcement learning (RL) and generative AI through hands-on experimentation with
+Keras and TensorFlow, but my current research in economics has shown RL to be most
+applicable in game-theoretic contexts or multimodal AI systems—areas where traditional
+modeling often suffices.
+SMILES is particularly compelling as a collaboration between leading [location] and
+[location] institutions. I am equally fluent in Russian, English and Mandarin Chinese, so
+SMILES is a unique opportunity for me to visit [name] Institute of Technology (哈尔滨工
+大), where I might continue my research in the field of computer science and AI in the
+upcoming years.

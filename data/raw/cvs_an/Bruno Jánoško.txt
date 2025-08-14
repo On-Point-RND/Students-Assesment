@@ -1,0 +1,45 @@
+[name] [surname]
+ML-engineer
+[email]
+Video analytics system development
++2 *** *** ***
+for the [location] [compaany] ecosystem
+
+https://github.com/[name]-[surname]-coder
+01-05.202 
+https://huggingface.co/[name]-[surname]-06
+Development of an intelligent
+assistant for coding industrial robots
+[compaany], [compaany]. As part of the AI
+Structural division of [location] [compaany]
+University - Specialized Educational and
+Scientific Center of the University
+02.2025 -present
+Graduated in 2024 г Hackathons
+[compaany] College - Industrial robot
+AIDAO - 2024 (09-12.2024)
+programming training
+
+Key tasks of the qualifying round:
+Graduated in 2025 году 
+- Processing fMRI time series of the brain - Brain atlas
+annotation - Feature extraction and dependency analysis -
+Faculty of Computational Mathematics and
+Cybernetics, [location] Moscow State
+University
+Key tasks of the final round::
+- Processing labeled images provided by [organization] - Fraud
+prevention task solution - Model selection considering limited
+computing power Result: 6th place in the qualifying round,
+reached the final
+
+Навыки
+[organization] [organization] Hack 2024 (11.2024)
+
+Result: 7th place
+Classical ML, RecSys, CV, NLP, RL, GenAI
+Others: [organization] RecSys Challenge 2024, [organization] ML cup 2024,
+C, C++, Python
+XLABS AI HACK 2024, AI Career Lab, NLP интенсив (DLS x
+Sklearn, PyTorch, OpenCV, Tenserflow, RePlay
+eco.tech)

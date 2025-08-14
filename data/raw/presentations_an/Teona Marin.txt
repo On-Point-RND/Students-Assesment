@@ -1,0 +1,123 @@
+Fourier Neural Operator for
+reduced-order modelling of thermaal
+processes in Li-Ion batteries
+[name]
+Junior Research Engineer, Applied AI
+[compaany]
+Introduction
+Topic: This study demonstrates the application of Fourier Neural Network (FNO) as an innovative ML
+appproach for reduced-order modelling (ROM) of thermaal processes in Li-Ion batteries and its comparison
+with traditional method of Proper Orthogonal Decomposition (POD)
+Background: Simulation of full-order models in various fields, such as computational fluid dynamics and
+electronics, although it guarantees the accuracy of the results, requires computaional resources. Battery
+models incorporated in advanced battery management systems (BMS) for monitoring Li-Ion batteries are
+also no exception in this regard [10]. As a solution, ROM techniques like POD have been widely used to
+create computationally inexpensive representations of higher order dynamical systems
+Introduction
+Importance: The key goal of this work is to test whether deep learning algorithms can be applied to ROM
+tasks without loss of accuracy in comparison with basic methods
+Goal of the study: The main objectives of this work include:
+- describe the problem and test case
+- briefly explain concept of POD and FNO
+- apply both POD and FNO to the test case and compaare them using metrics
+- make conclusions on performaance of FNO and directions for further development
+Problem statement
+• Problem: A battery consisting of 12 series-connected prismatic cells on a plate with active water cooliing is given (around 1.7 million points in the system)
+• Task: Calculate the battery temperature distribution when switching to stationary mode
+Simulation was performeed using ANSYS model. All data has been saved and is stored in h5 fromat
+Fig. 1. Contact of the battery cells with the cooliing plate Fig. 2. Results of simulation
+Problem statement
+Experiment conditions:
+• Workshop conditions (5W heat source, 100 A current etc.)
+• Initial conditions - 300K
+• 60 timesteps = 1800 s (1 time step = 30 s)
+• The governing heat PDE:
+Fig. 3. Matrix of snapshots
+Methods - POD
+POD is a reduced order technique which finds an approximation 𝑇 (𝑥, 𝑡) to the full order solution
+𝑟
+𝑇(𝑥, 𝑡) that can be expressed as linear combination of orthogonal spatial coefficients 𝜑 (𝑥) multiplied
+𝑖
+by temporal modes 𝑎 (𝑡) [10]:
+𝑖
+𝑁
+𝑇 𝑥, 𝑡 ≈ 𝑇 𝑥, 𝑡 = σ 𝑟 𝜑 (𝑥)𝑎 (𝑡)
+𝑟 𝑖=1 𝑖 𝑖
+Detailed description and implementaion of POD are given in [10] and [4]
+Advaantages:
+• Easy to implement
+• Computationally inexpensive
+• No knowledgge of the underlying PDE is required
+Methods - FNO
+Concept of FNO [1]:
+• FNO learns mappings between infinite-dimensional spaces of
+functions
+• Neural operator includes the P and Q transformation network,
+integral operator K, linear operators W and Fourier transform F
+Advaantages of FNO:
+• Mesh-independent and resolution-invariant – main reason for
+usage
+• Needs to be trained only once
+• No knowledgge of the underlying PDE is required
+Fig. 4. FNO framework
+• Data preprocessing
+1. Data loading and normalization
+2. Randomly selecting 100000 points for model training (test on full model)
+3. Input features – snapshots from 3 previous timesteps (Moving Time Window), output – future snapshot (inspired by [11], [9])
+4. Train/test split by timesteps (33 training, 10 validation, 14 for testing)
+5. Model – FNO with 4 Fourier layers from neuralop library [8]
+6. Optimizer – AdamW
+7. Loss function – Lp norm loss (L2 loss) from neuralop library [8]
+8. Metrics for error calculation and comparison [3]:
+• Summed MSE:
+• Normalized MSE
+All calculation were conducted using NVIDIA RTX A6000 GPU
+Results – POD
+Optimal number of POD modes for the task – 3
+Metrics:
+o Summed MSE: 0.0279
+o Normalized MSE: 3.032e-07
+Fig. 5. Results of prediction for POD
+Results – FNO
+Features – 3 previous timesteps for prediction
+Metrics:
+o Summed MSE: 0.5513
+o Normalized MSE: 5.977e-06
+Fig. 6. Results of prediction for FNO
+Results – FNO optimized
+Modifications:
+• Features – 3 previous timesteps for prediction + 3 spatial coordinates (as in [5])
+• Optimization of model’s and optimizer’s hyperparameters, batch size and number of epochs using optuna
+Fig. 7. Training plot Fig. 8. Hyperparameter importances
+Results – FNO optimized
+Optimization yieldeed to 10 times drop in metrics
+Model name Summed MSE Normalized MSE
+Metrics:
+POD 0.0279 3.032e-07
+o Summed MSE: 0.0902 FNO 0.5513 5.977e-06
+o Normalized MSE: 9.808e-07
+FNO optimized 0.0902 9.808e-07
+Table 1. Metrics for all experiments
+Fig. 9. Results of prediction for FNO
+Research gap
+• Limitations:
+- GPU is required for fast training
+- May perform poorly when applied to complex geometry system; maybbe resolved by this approaach [7]
+• Further development:
+- Test FNO for various window sizes [2] and number of randomly selected points
+- Apply FNO which was trained on one test case to other test case and analyze its performaance
+Thanks
+Bibliography
+1. Weiss, Julien (2019). A Tutorial on the Proper Orthogonal Decomposition. In: 2019 AIAA Aviation Forum. 17–21 June 2019, Dallas, Texas,
+United States. https://doi.org/10.14279/depositonce-8512
+2. Li, Y., Karunathilake, D., Vilathgamuwa, D. et al (2022). Model Order Reduction Techniques for Physics-Based Lithium-ion Battery
+Management: A Survey. IEEE Industrial Electronics Magazine, 16(3): 36-51. http://dx.doi.org/10.1109/MIE.2021.3100318
+3. Li, Z. et el (2024). Fourier Neural Operator with Learneed Deformations for PDEs on General Geometries. Retrieved from
+https://a rxiv.org/pdf/2207.05209
+4. Neural Operator Development Team (2023). Neural Operator: A Python Library for Learning Solution Operators of PDEs. GitHub
+repository. Retrieved from https://gi thub.com/neuraloperator/neuraloperator
+5. Qin, S. et al (2025). Modeling multivariable high-resolution 3D urban microclimate using localized Fourier neural operator. Buildiing and
+Environment,, Volume 273,112668, ISSN 0360-1323, https://doi.org/10.1016/j.buildenv.2025.112668
+6. Zhang, T., Li, L., López‐Marrero, V., Lin,M., Liu, Y., Yang, F., et al. (2024). Emulator of PR‐DNS: Accelerating dynamical fields with
+neural operators in particle‐resolved direct numerical simulation. Journal of Advances in Modeling Earth Systems, 16,e2023MS003898.
+https://doi.org/10.1029/2023MS003898

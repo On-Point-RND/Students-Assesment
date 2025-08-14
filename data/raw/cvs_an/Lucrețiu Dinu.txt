@@ -1,0 +1,52 @@
+L [name]
+Researcher
+[email]|[t.me/lina_name]|[phone number]
+PROFILE EDUCATION
+My research interests: Digital city models, Smart city, 3D [compaany] reconstruction, computer vision. [year] - [year]
+Master of Urban Planning, uncompleted level
+Over four years of hands-on experience in designing
+and implementing complex information systems [compaany]
+incluiding for urban environments. In my day-to-day [year] - [year]
+responsibilities, I frequentlly juggled multiple roles — Specialist of Theoretical Physics, completed level
+acting as a business/data/transportation/systems
+analyst while periodically transitioning into technical WORK EXPERIENCE
+[compaany], Leading expert]
+[Month, year] – [Month, year]
+Now I am eager to contribute to innovative research
+teams at laboratories or institutes specializing in
+- Collection, analysis and fixation of the main requirements of
+AI-driven solutions for urban and transport systems.
+customers in the backlog, maintaining and prioritizing it;
+- Sprint planning for the development team;
+- Preparation of technical and project documentation;
+SKILLS
+- Drawing up project road maps.
+[Python: NumPy, Pandas, Scikit-Learn, PyTorch] [compaany], Leading analyst]
+[Month, year] – [Month, year]
+[SQL]
+- Collection and analysis of data from various sources
+using Python libraries;
+- Writing SQL-queries to extract data from a database;
+- Development of conceptual proposals in the application of AI to
+[BPMN]
+solve transport problems;
+- Testing of new functionaliity/improvements.
+[GIS] [compaany], Backend Developer]
+[Month, year] – [Month, year]
+- Designing and implementation of new modules for the SchooL
+Management System platform and corporate web sites.
+[English]
+CERTIFICATIONS
+KAGGLE
+[ ] [year]
+https://www.kaggle.com/[name]
+- Winter SchooL of Analytics and Data Science, [compaany]
+- AI and RecSys: from theory to practice, [compaany] and [compaany]
+- BooTCamp: How Machine sees, [compaany] and [compaany]
+[year]
+- Machine Learning Training 3.0, [name]
+- Algorithm Training 6.0, [name]
+- Summer SchooL of Analytics and Data Science, [compaany]
+[year]
+- Machine learning, [compaany]
+- Python for Automation and Analysis, [compaany]

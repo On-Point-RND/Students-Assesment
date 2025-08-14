@@ -1,0 +1,36 @@
+My name is [name], and I would like to share why I am eager to join this program.
+From a young age, I have been passionate about mathematics, which led me to
+enroll in one of [location]'s top math schools, [company], where I immersed myself in
+rigorous study and personal growth. Over time, my interest only deepened: by the
+end of high school, I not only maintained my motivation but also won several
+competitions, solidifying my focus on mathematics and computer science. This
+made my choice of university and program obvious: Applied Mathematics and
+Informatics at [company].
+During my first two years, I fell in love with the beauty of fundamental mathematics
+and dedicated myself tirelessly to mastering it. By the end of my second year, I
+ranked 16th out of 300 students in the program. Later, I chose the specialization
+“Machine Learning and Applications”, where I applied my mathematical intuition to
+artificial intelligence, earning top grades in all core courses. Today, I firmly believe
+that while not every aspect of machine learning can be strictly proven, it remains a
+form of art—both mathematically elegant and ingeniously engineered. I was
+particularly captivated by generative models, which leverage subtle statistical
+techniques to map distributions of objects efficiently. Such courses have inspired me
+to pursue further breakthroughs.
+I thrive on generating ideas and implementing them, supported by years of honed
+intuition. For example, after my second year, I joined the [company] Lab, where I am
+finalizing a project on a novel statistical algorithm for estimating the operator norm
+of matrices (improving the accuracy of gradient clipping). This project reaffirmed my
+belief that rigorous mathematical thinking can drive meaningful contributions to
+engineering challenges.
+Currently, I am exploring potential research topics and have yet to settle on one. I
+sincerely believe this program will help me broaden my horizons, exchange ideas
+with respected professionals, and sharpen my intellectual toolkit. I hope it will guide
+me toward a relevant research direction and potentially connect me with a future
+academic advisor. Science is the cornerstone of my life, and I am committed to
+excelling in it. While my hands-on experience is still growing, I am highly diligent,
+driven, and a quick learner—complex concepts come naturally to me, and my
+colleagues consistently praise my innovative ideas. The academic supervisor at the
+[company] Artificial Intelligence, Center [name], and the program director of [company]
+AMI, [name], can attest to this.
+I am ready to dedicate myself fully to this opportunity and contribute my passion for
+bridging mathematical rigor with real-world impact.

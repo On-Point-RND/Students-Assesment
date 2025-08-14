@@ -1,0 +1,28 @@
+Slide 1
+----------------------------------------
+[surname], [name]
+Self-taught in the field of machine learning
+
+Slide 2
+----------------------------------------
+Hello, a little bit about myself
+My name is [name], and I have been interested in programming since I was 14 years old. At first, I was looking for my vocation in the field of game design, then I moved on to application development. And by the age of 16, I realized that my true vocation is to create artificial intelligence.
+
+Slide 3
+----------------------------------------
+My achievements
+I took part in the "Professionals 2025" championship in the field of "Machine Learning and big Data", where I took second place.
+I also participated twice in a scientific conference on artificial intelligence(AI) - in my first and fourth years. In both cases, I presented my project dedicated to creating a strong artificial intelligence, and received prizes.
+
+Slide 4
+----------------------------------------
+My project
+My project is dedicated to creating a strong artificial intelligence. I have not yet achieved this goal, but I can proudly say that I have alrready developed my own model of the programming language.
+
+Slide 5
+----------------------------------------
+Where can I find out about my project?
+[location]
+[location]
+[location]
+

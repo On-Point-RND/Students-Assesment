@@ -1,0 +1,38 @@
+[name] [surname]
++2 *** *** *** | [email] | https://t.me/[name]
+Education
+[compaany] [location]
+Postgraduaate student, Automation of technological processes and production 2024 – 2027
+[compaany] [location]
+MSc, Electronics and nanoelectronics 2022 – 2024
+[compaany] [location]
+BSc, Electronics and nanoelectronics 2018 – 2022
+Experience
+Middle Design engineer, Department of control and protect systems August 2024 – present
+[compaany] [location]
+• Took part in development prototype of self-validating temperature monitoring system
+• Developed secondary converter for technical project of stranded thermoelectric indicator of coolaant level
+• Took part in the development of technical project of the high temperature pressure sensor
+• Took part in the development of technical project of the rotary plug monitoring and control systems
+• Took part in the development of draft project the control and protection system for solid blanket of hybrid fusion
+plant
+• Developed technical project of the liquid metal coolaant leakage control system
+Design engineer, Department of control and protect systems August 2022 – July 2024
+[compaany] [location]
+≪ ≫
+Additional education
+Stepik.org, AI Education Online
+Practical DL 2025
+Stepik.org, AI Education Online
+Practical ML 2024
+Karpov.Courses Online
+DS Simulator 2024
+Skoltech [location]
+Introduction to graph neural networks 2023
+[compaany] [location]
+New technolologies to search for new phenomena in particle physics 2022 – 2023
+Technical Skills
+PyTorch, scikit-learn, Prophet, Statsmodels, English B2
+
+
+

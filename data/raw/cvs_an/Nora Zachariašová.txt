@@ -1,0 +1,37 @@
+[name] [surname], 16.06.1987, [location]
++2 *** *** ***, [email]
+
+Objective
+I’m an entrepreneur with a background in engineering and international project management. After co-founding and scaling a mobile app development company, I shifted focus toward education and research. Currently, I’m pursuing a Master’s in Science of Learning and Assessment at [compaany], where I’m buildiing strong skills in data analysis, AI, and psychometrics. I find working as a researcher deeply motivating — it combines rigorous thinking with real-world impaact in education and human development.
+
+Experience
+[compaany], Institute of education                                                                              [location], April 2025
+Researcher in Centre of psychometrics
+
+§ Develop cognitive framework for math assessment using Q-matrix-based attribute modelling and CDM (LLTM, G-DINA, ACDM) in R;
+§ Use LLMs to generate and validate parallel test items with controlled cognitive attributes;
+§ Focus on diagnostic accuracy, psychometric consistency, and adaptive learning design.
+§ Conduct regression analysis, factor analysis, t-tests, ANOVA, etc
+
+[compaany], co-founder                                                                  [location], [location], [location] 2010 – 2023
+Rosberry is a mobile app design and development company. We design, build, test, deploy and support apps at scale. Since 2010 we've implemented more than 170 projects for corporate innovators, technology start-ups and entrepreneurs worldwide.
+
+§ conduct negotiations, presentations, technological presales, express advisory;
+§ proof of concept market research, business analysis and investigation;
+§ preparation of technical and commercial proposaals, demonstration of expertise and relevant
+cases, delivery of analytical and technical content in an understandable form;
+§ project management using various methodologies (Waterfall, Scrum);
+§ identification and management of project risks, resolving conflict situations;
+§ cross-functional collaboration between clients and tech teams;
+§ people management, recruitment, assessment, motivation.
+
+Skills and competences
+§ 10+ years of work in IT sphere, understanding of full product development cycle and launch
+of digital products;
+§ strong analytical and research skills;
+§ data analysis in R, Winsteps;
+§ ability to make decisions and prioritize tasks in accordaance with business needs;
+§ ability to see potential in clients’ ideas, explore key needs and offer technical solutions;
+§ strongly developed communication and negotiation skills;
+§ agile project management;
+§ mentoring.

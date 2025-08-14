@@ -1,0 +1,85 @@
+Efficient LLM Adaptation with Limited
+Resources
+[name] [surname]
+[compaany]
+Introduction
+• Topic: Methods to fine-tune LLM with limited computaional resources
+• Domain-specific adaptations for critical areas like healthcare and education. Could enable fine-tuning on
+edge devices
+• Background: Parameter-efficient fine-tuning (PEFT), Low-Rank Adaptation (LoRA), QLoRA (Quantized
+LoRA)
+• Goal of the review: Identify common principles behind efficient fine-tuning for different scenarios.
+Problem statement
+• What exactly are we solving?
+Modern LLLMs have grown exponenntially in size and fully fine-tuning them becomes expensive in terms of
+memory, storage, and computaion time. Some tasks require local models due to privacy constraints.
+• Challenges:
+○ Reducing all memory constraints
+○ For LoRA tuning findiing balance between rank, parameter count, and performance for diverse tasks
+• Scope:
+○ Transformeer-based decoder-only LLLMs
+○ Reducing the number of trainable parameters, GPU memory, adapted model size
+○ Quantization, low-rank decomposition strategies
+Methods
+• Quantized Side Tuning[1] (4-bit Quantizaion + Side
+Network)
+• This approaach addresses all three major sources of memory
+consumption: model weights, optimizer states and activation
+memory
+• QSST quantizes an LLLM to 4-bit precision, then trains a small
+side network that takes hidden states from the frozen
+quantized model to make predictions, avoiiding the need to
+backpropagate through the main model.
+Results
+• Experiments on [compaany] and [compaany], sizes from 1.3B to 70B and NLU benchmarks and generation tasks
+• Key findiings:
+○ reduces memory footprint by up to 2.3× commpared to FFT
+○ speeds up fine-tuning by up to 3×
+• Metrics used: accuracy, F1 scores, memory consumption, training time
+Methods
+• MELoRA[2] (Mini-Ensemble Low-Rank Adapters)
+• This approaach increases the effective rank of LoRA without
+proportionally increasng parameter count
+• MELoRA implement a high-rank adaptation using multiple
+independent mini-LoRAs arranged in a block diagonal
+structure. Each mini-LoRA learns different dimensions of the
+hidden state.
+Results
+• Experiments on NLU and instruction-following datasets
+• Key findiings: 8× fewer parameters on NLU tasks, 36× fewer parameters on instruction-following tasks
+• Metrics used: accuracy, F1, parameter count
+results on NLU
+results on instructeval
+Methods
+• HydraLoRA[3] (Expert-based LoRA architecture)
+• HydraLoRA improves adaptation to heterogeneous data by
+separating different "intrinsic components" of the data using
+multiple B matrices
+• Data processing: K-means clustering to identiify intrinsic
+components
+• Multiple LoRA modules ("experts"), each specializes in one
+of the intrinsic components. During training, a "router" (MoE)
+decides which expert is most relevant for each training
+sample.
+Results
+• Key findiings:
+○ shows better performaance on complex, multi-domain datasets
+○ multiple smaller LoRA heads are more efficient than one large one
+• Metrics used: accuracy, F1 scores, parameter count, memory consumption
+Research gap
+• Limitations:
+○ Methods don’t explore other PEFT methods (p-tuning, adapters, prefix-tuning, etc.) in combinations
+○ Some introduce additional hyperparameters
+○ Different benchmarks and metrics (parameter count or memory consumption)
+• Why it matters? Fine-tuning LLLMs in domain-specific adaptations on devices with limited computing
+resources
+• Future opportunities:
+○ Combine all methods and their strengths considering different adaptation scenarios
+○ Add federated fine-tuning to preserve privacy
+Bibliography
+1. Zhengxin Zhang, Dan Zhao, Xupeng Miao, Gabriele Oliaro, Zhihao Zhang, Qing Li, Yong Jiang, and Zhihao Jia. Quantized Side Tuning: Fast and
+Memory-Efficient Tuning of Quantized Large Languaage Models. ACL, 2024
+2. Pengjie Ren, Chengshuun Shi, Shiguaang Wu, Mengqi Zhang, Zhaochun Ren, Maarten de Rijke, Zhumin Chen, Jiahuan Pei. MELoRA: Mini-Ensemble
+Low-Rank Adapters for Parameter-Efficient Fine-Tuning. ACL, 2024
+3. Tian, Chunlin and Shi, Zhan and Guo, Zhijiang and Li, Li and Xu, Chengzhong. HydraLoRA: An Asymmetric LoRA Architecture for Efficient
+Fine-Tuning. NeurIPS, 2024

@@ -1,0 +1,59 @@
+[name]
+[compaany]
+
+Introduction
+
+Multimodal outperforms unimodal on its native task
+Best unimodal model
+Test on 20 image datasets
+
+Two properties of successful multimodal learning: 
+Heterogeneity: multimodal data is easier to learn than unimodal data.
+Connection: a mapping between multiple modalities is learnable.
+
+Theory of multimodal learning
+minimal loss in “mapping between modality” task 
+
+Theory of multimodal learning
+
+The Role of Heterogeneity:
+
+Practical recommendaion:
+1. Collect numerous unlabeled multimodal data. Learn a connection via generative models.
+2. Learn a predictor based on a modest amount of labeled multimodal data.
+
+Unimodal 
+Multimodal 
+
+
+Early fusion and late fusion
+
+Contrastive Language-Image Pre-training (CLIP)
+
+LLaVA: Large Language and Vision Assistant
+Training procedure:
+Training of projecrion (LLM and ViT frozen)
+LLM and projection instruction fune-tuning (ViT frozen)
+
+Chamaleon
+
+Chamaleon: arkitecture insight
+Each modality will try to “compete” with the other
+by increasing its norms => training divergence
+
+Scaling low of multimodal model
+
+Conclusion
+Multimodal learning is not just an enhancement—it’s a necessity for AI systems aiming for human-like understanding.
+Theoretical foundations support that multimodal training leads to more robusst and generalizable models.
+Future research should focus on scalable architectures (like MoE) and better ways to handle missing or noisy modalities.
+
+
+
+Zhou Lu. Theory of multimodal learning. NeurlPS, 2023
+Alec Radford, Jong Wook Kim, Chris Hallacy, Adiitya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever. Learning transferable visual models from natural language supervision. PMLR, 2021
+Haotian Liu, Chunyuan L, Qingyang Wu, Yong Jae Lee. Visual instruction tuning. NeurlPS, 2023
+ Chamaleon Team. Chamaleon: Mixed-Modal Early-Fusion Foundation Models. arXiv, 2024
+ Mustafa Shukor, Enrico Fini, Victor Guilherme Turrisi da Costa, Matthieu Cord, Joshua Susskind, Alaaeldiin El-Nouby, Scaling     Laws for Native Multimodal Models. arXiv, 2025
+
+Bibliography

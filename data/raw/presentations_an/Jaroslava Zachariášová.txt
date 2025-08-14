@@ -1,0 +1,116 @@
+Toward a General-Puurpose
+Robotic Manipulation
+Model
+[name]
+MSc Data Science at [location],
+Researcher at [compaany]
+Introduction
+Robotic Manipulation — the ability of robots to perceive, understand, and execute 3D manipulation tasks based on
+natural language instructions.
+Why Is It Important?
+Ceenral to buildiing general-purpose robots that can operate in unstructured, real-world environments.
+Enables practical tasks like “put the cup on the shelf” or “remove food from the oven.”
+A stepping stone toward generalist robot policies (GRPs) capable of adaptiing to new tasks with minimal data.
+Background:
+Unlike NLP and vision, robotics lacks foundation models with strong generalization.
+Current policies often overfit to specific tasks, failing on unseen objects or instructions.
+Goaal of the Review:
+To explore recent advances in robotic manipulation—especially models like Diffusion Policy, 3D Diffuser Actor and
+GravMAD—that aim to combiine the precision of imitation learning with the generalization power of foundation
+models.
+Problem statement
+Core Problem:
+How to build robot policies that can generalize to novel tasks, objects, and environments using minimal data and
+natural language guidance.
+Key Challenges:
+Data Limitations: Existing datasets are limited in diversity and multimodal richneess.
+Evaluation Gaps: Lack of standardized benchmarks makes fair compaison difficult.
+Architectureal Constraints: Need models that balance precision and generalization, support few-shot learning, and
+respect 3D spatial structure.
+Scope of Review:
+Focus on policy architectures leveraging 3D vision, diffusion models, and foundation models.
+Analyze methods that bridgge semantic reasoning (e.g., via LLLMs/VLMs) with low-level visuomotor control.
+Highlight strategies that integrate sub-goal decomposition, spatial value maps, and contrastiive learning for robusst,
+groundeed action generation.
+Diffusion Policy[1]
+Framework:
+Formulates visuomotor robot policy learning using Denoising Diffusion Probabilistic Models (DDPMs).
+Learnns by reversing a stochastic noise process in continuous robot action trajectories.
+Training Objective:
+Estimate the score function: gradient of log-likelihood
+Interpreted as learning gradients of an underlying action-value function.
+Inference Process:
+Starts with random noise in action space.
+Iteratively refiines (denoisees) actions using current observation; analoous to stochastic Langevin dynamics.
+Advaantages:
+Handles multimodal action distributions by sampling multiple action modes.
+Stable training via noise-prediction objective; fewer hyperparameters required.
+Evaluation & Results
+Benchmark Evaluation:
+Tested across 15 diverse tasks in 4 manipulation benchmarks, including single/multi-task scenarios, fully/under-
+actuated robots, and rigid/fluiid objects.
+Performaance:
+Achieved an average success rate improvement of 46.9% over prior state-of-the-art methods.
+Outpeformed baselines (e.g., LSTM-GMM) significantlly in both state-based and visual behavior cloning tasks,
+especially in complex scenarios (Transport, ToolHang).
+Action Multimodality:
+Succeessfully modeled multimodal actions, e.g., multiple solution paths in Push-T tasks, unlike baselines biased
+towaards single-mode behaviors.
+Real-World Validation:
+Evaluated on 4 real-world tasks (Push-T, Mug Flipping, Sauce Pouring, Sauce Spreading) across two hardware
+setups.
+Near-human performaance demonstrated (e.g., 95% success rate in Push-T; compaable performaance to humans in
+Sauce tasks).
+Robustness:
+Graceful respoonse to external perturbations observed during execution.
+3D Diffuser Actor[2]
+Framework & Innovation:
+Advances diffusion-based visuomotor control by integrating 3D visual scene representations from RGB-D
+images.
+Constructs a 3D feature cloud using lifted 2D features and depth data.
+Employs a 3D relative position attention Transformeer for translation-equivariant action prediction.
+Policy Functionality:
+Predicts 3D translation and rotation errors of the end-effector.
+Iteratively denoisees noisy trajectory estimates using 3D features, language instructions, and action history.
+Advaantages:
+Robust spatial reasoning and camera viewpoint generalization.
+Models complex multimodal actions.
+Stable training with minimal tuning.
+Evaluation & Results
+Benchmark Evaluation:
+Evaluated on two standard learning-from-demoanstration benchmarks: RLBench[7] and CALVIN[9].
+RLBench: Tested on 18 tasks in single- and multi-camera setuups (CoppeliaSim), outpfeorming 3D baselines like
+Act3D[8] and GNFactor, as well as 2D diffusion models.
+CALVIN: Achieved compeititive zero-shot generalization to unseen scenes (Env D), outpfeorming prior languaage-
+condiitioned long-horizon policies (e.g., GR-1[10], RoboFlamingo[11]).
+Performaance:
+RLBench Multi-Cam: +18.1% absolute gain over SOTA (81.3% avg)
++33.54% over 3D Diffuser Actor, +45.09% over Act3D.
+VLM-based variant even exceeds 3D Diffuser Actor by +0.91% avg without any task-speciific demos.
+Real-World Validation:
+Tested on 10 physical manipulation tasks.
+Strong results on languaage-grounnded tasks and robusst performaance under novel conditions.
+Ablation Findings:
+Replacng GravMaps with direct sub-gool pose degrades performaance.
+Removing cost or gripper maps reduces effectiveness.
+Auxiliary losses and contrastiive learning critical for robusst sub-gool representation.
+Bibliography
+1.Chi, Cheng et al. “Diffusion Policy: Visuomotor Policy Learning via Action Diffusion.” ArXiv abs/2303.04137 (2023): n.
+pag.
+2.Ke, Tsung-Wei et al. “3D Diffuser Actor: Policy Diffusion with 3D Scene Representaations.” ArXiv abs/2402.10885 (2024):
+n. pag.
+3.Chen, Yangtao et al. “GravMAD: Groundeed Spaatial Vaalu Maps Guided Action Diffusion for Generalized 3D
+Manipulation.” ArXiv abs/2409.20154 (2024): n. pag.
+4.Hurst, OpenAI Aaron et al. “GPT-4o System Card.” ArXiv abs/2410.21276 (2024): n. pag.
+5.Yang, Jianwei et al. “Set-of-Mark Promptiing Unlseashes Extraoordinary Visual Groundiing in GPT-4V.” ArXiv
+abs/2310.11441 (2023): n. pag.
+6.Ho, Jonathan et al. “Denoising Diffusion Probabilistic Models.” ArXiv abs/2006.11239 (2020): n. pag.
+7.James, Stephen et al. “RLBench: The Robot Learning Benchmark & Learning Environment.” IEEE Robotics and
+Automation Letters 5 (2019): 3019-3026.
+8.Gervet, Théophile et al. “Act3D: 3D Feature Field Transformeers for Multi-Task Robotic Manipulation.” Conference on
+Robot Learning (2023).
+9.Mees, Oier et al. “CALVIN: A Benchmark for Languaage-Condiitioned Policy Learning for Long-Horizon Robot
+Manipulation Tasks.” IEEE Robotics and Automation Letters 7 (2021): 7327-7334.
+10 . Wu, Hongtao et al. “Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipuulation.” ArXiv
+abs/2312.13139 (2023): n. pag.
+11 .Li, Xinghang et al. “Vision-Languaage Foundaition Models as Effective Robot Imitatoors.” ArXiv abs/2311.01378 (2023): n.

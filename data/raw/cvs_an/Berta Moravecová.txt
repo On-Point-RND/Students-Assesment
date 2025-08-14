@@ -1,0 +1,132 @@
+[name]
+📚
+Research Engineer Education
+Master's student in Computer Science at [location]
+I am a first year MSc student at
+[location] based in [location] with 2 years of industrial Track Artificial Intelligence and data engineering. experience in software
+September 2024 (Expected) August 2026
+development and product creation.
+Graduate of [location] with a Bachelor’s degree
+I have been doing research in the
+in Computer Science (with honors)
+field of NLP and LLM for more than
+a year. Startups and technologies GPA 4.9/5. Key disciplines: Algorithms and Data Structures,
+lover. Interested in growth in RnD Mathematical Analysis, Analytical Geometry and Linear
+AI-focused team. Algebra, Discrete Mathematics, Probability Theory and
+Statistics, Computer Architecture and Networks, 📱 t.me/sm1rk
+Programming and Fundamentals of Software Engineering,
+LinkedIn: linkedin.com/in/[name]-7b7b20251
+OS, DB, Information Retrieval, Big Data, Generative AI,
+Applied ML and DL, Optimization Methods.
+Thesis: Code summarization beyond function-level
+(accepted at LLM4Code Workshop at ICSE 2025).
+💼
+Work Experience September 2020 August 2024
+📝
+AIRI Institute (Learnable Intelligence Group)
+Research Engineer. Engineering pipelines with LLMs, Code Summarization Beyond Function Level | arXiv
+incorporating RAG, and exploring Agent systems. Writing
+Done the first comprehensive evaluation of Python code
+papers to A/A* conferences or Q1 journals. Contributed to
+summarization models at class and repository levels,
+showing improvements in summarization quality with
+additional context and few-shot learning, and comparing
+various models using benchmarks and automatic metrics.
+Implemented the complex pipeline on ICD coding in Russian with 5 LLMs and RAG and
+LLM4Code Workshop at ICSE 2025
+described the experiment setup. Built and run a pipeline for
+fine-tuning and doing inference of a meta-model for [name],
+V. [surname]. I tuned the meta-model using
+AutoGluon and aggregated engineered 18 features which
+includes inference of multiple LLMs, applying RAG, and
+computing classical NLP features.
+Pipeline on ICD coding in Russian with 5 LLMs and RAG. Described the experiment
+November 2024 Present | Python LLM RAG Agents NLP ML
+setup and results in the paper.
+AutoML Gradio
+Innopolis University (Industrial Robotics Lab)
+Software Engineer. I involved in ML and front-end
+dewevelopment of projects on robotics and AI. I single-handedly
+deweveloped the interface design of a robotic laboratory
+complex. I am a product designer: predictive analytics for
+industrial manipulators ([location], Fanuc, Siasun, Eidos) and a
+system for golf club and fleet management. I negotia ted with
+the customer about the product. Now implementing, testing,
+and deploying for production the front-end of the predictive
+analytics for industrial manipulators.
+G. Andryushchenko, V. [surname], V. [surname], E. Tukhtina,
+August 2023 Present | Python Figma React TypeScript
+Marker Tech Ltd. (Marker is a Russian AI writing
+assistant)
+Co-founder & Front-end Developer. Implemented responsive
+pages’ layout and components according to introduced
+design system. Produced and maintained new project MMTT
+features while standardizing, documenting, and testing code.
+Asisted and participated in business questions.
+May 2022 July 2023 | React TypeScript Redux Next.js
+Vladimir [surname]
+🧩 🧗
+Projects Achievements
+Code Q&A at Advanced Engineering Schoo l AIRI Summer Schoo l 2024 (Machine Learning
+(Innopolis University) Schoo l) | report
+NLP Data Scienti st (Researcher). Conducted experiments on Research Engineer. Pitched about myself. Implemented the
+language models, fine-tuning for the Code Summarization experiments on LLMs that go beyon d RAG by incorpo rating
+task. Used the Cleaned Funcom (Java) dataset, tested the knowl edge graphs into the retrieval pipeline. Designed the
+UniXcoder, CodeT5 models, etc., evaluated the results using final presentation and defende d the team's results.
+the calculation of BLEU, Rouge, METEO metrics. Additionally, single-hande dlly prepared a struc tural report to
+Code QA task.
+August 2024 | Python Llama 3 GPT 4 RAG GraphRAG AriGraph
+June 2023 June 2024 | Python NLP Transforme rs HuggingFace
+pandas PyTorch LLM CodeLLM
+Yanex & CS HSE (Machine Learning Studcamp) |
+repository
+NLP: Information Extraction — task solution of
+fragment text extraction from docs | repository ML Engineer, Team Lead. Implemmented the ML part of the A
+level exam question classification project by conducting
+several experiments with BERT type models. Managed and
+implemented several solutions through Index, NER, Spancat,
+and QA. Trained different transformers, the best — fine
+tuning ruBert-large for the QA task. Documented all work in a
+technical report and presented it as a semster NLP project.
+FastAPI MongoDB.
+April May 2021 | Python NLP Transforme rs BERT QA NER
+SpaNcat spaCy natasha
+April 2024 | NLP Classification Transforme rs YandexGPT HuggingFace
+Python MLOps
+Internship at Artificial Intelligence Institute —
+Number Plate Recognition |
+Number Plate Recognition | repository
+Data Engineer Intern. Collected a dataset, annotated 1.1K
+images, realized an interface for existing solution and API.
+Data Scienti st (Researcher). Worked on reproducing LoRA
+method for NLP problems. Reproduced results of NLG task,
+June July 2021 | Python pandas PyTorch implemented eva lua tion function using HuggingFace,
+managed team progress in Notion, prepared final presentaio n
+visu alising team results.
+Innosport+ (sport.innopolis.universi ty) |
+repository
+November 2022 | Research NLP Transforme r GPT 2 PyTorch
+Team Lead, Front-end Developer. Gath ered and led a
+dewevelopers team of 4 peo ple, systemized the project
+info rmation and tasks, upgraded and maintained exis ting
+interfac e and back-end communication. Organized and
+prepared over haul of the front-end transition to React &
+Next.js.
+June 2021 June 2023 | HTML CSS JavaScript React django
+grefana aiogram
+August 2022 August 2023 | C Algorithm s Combinatorics Probability
+Trigonometry Geometry
+💻
+Hard Skills
+Python, NLP, LLM, React, Figma
+Data Science (AI) RAG, LangChain, NumPy, pandas,
+PyTorch, SQL, AutoML, gradio, streamlit, matplolib,
+seaborn, scikit-learn, opencv, Tensorflow
+Web: React, TypeScript, FastAPI, HTML, CSS, JavaScript,
+Django, PostgreSQL, MongoDB, aiogram
+󾓬 Russian (Native speaker)
+English (Upper-intermediat e)
+UX/UI Design: Figma, Miro, AI
+Other: LaTeX, Git, Docker Compose, Linux, YouTrack, Jira
+󾓝 Confluence, Notion
+Vladimir [surname]

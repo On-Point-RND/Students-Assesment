@@ -1,0 +1,99 @@
+
+
+Determining the most representative subset of software metrics using dimensionality reduction techniques  
+Authors  
+[name] [surname] ([company])  
+Associated authors: [name] [surname] ([company]), [name] [surname] ([company])  
+
+Software metric  
+A software metric is a quantitative measure used to assess various attributes of software development and software products. These metrics help developers, managers, and teams evaluate software quality, productivity, performance, and progress.  
+
+Variety of Software Metrics  
+Complexity Size & Structure Maintainability Coupling & Documentation Halstead Change & Churn Defect-Pronene  
+Metrics Metrics Metrics Cohesion Metrics Metrics Metrics ss Indicators  
+Metrics  
+Cyclomatic Lines of Code Maintainability Coupling Comment Halstead Code Churn Bug Density  
+Complexity (LOC) Index Between Density Volume  
+Objects (CBO)  
+Cognitive Source Lines of Technical Debt Lack of Comment-to-Co Halstead Change Hotspots  
+Complexity Code (SLOC) Ratio Cohesion in de Ratio Difficulty Frequency  
+Methods  
+(LCOM)  
+NPath Logical LOC Code Smells Afferent Comments per Halstead Effort Code Defect Density  
+Complexity (LLOC) Count Coupling (Ca) Function Ownership  
+Essential Comment Lines Dead Code Efferent Percentage of Halstead Time Modification Number of  
+Complexity of Code (CLOC) Ratio Coupling (Ce) Documented Frequency Defects  
+APIs  
+Branching Number of Duplicate Code Instability API Halstead Bugs Time Since Last Defect Leakage  
+Factor Functions/Meth Ratio Documentation Change Rate  
+ods Coverage  
+Average Nesting Number of Complexity Depth of Function Author Churn Defect  
+Depth Classes Over Time Inheritance Tree Header Resolution Time  
+(DIT) Documentation  
+
+Dimensionality Reduction Techniques  
+Main goal: Reduce the number of input features (dimensions) in a dataset while retaining as much meaningful information as possible.  
+We had to use feature extraction to be able to interpret results at the end  
+We have applied DR algorithm to each repository separately  
+
+Dataset  
+We used the CAM dataset provided by [name] [surname] [1], which consists of 1,000 GitHub Java repositories, each containing 48 calculated metrics for every class within a repository.  
+• Tagged with the Java language;  
+• Have between 1,000 and 10,000 stars;  
+• The size of the source code is 200 KB or more.  
+• The class file must have a .java extension;  
+• The Java code must be syntactically correct;  
+• Files named package-info.java and module-info.java are excluded;  
+• Files containing lines longer than 1,024 characters are excluded;  
+• Unit test files are excluded.  
+
+Identify the most representative metrics set  
+Input Data  
+Class metrics from repository with target metric set size.  
+Apply Particle Swarm Optimization (PSO)  
+Each particle specifies which metrics should be included.  
+• Population size = 100;  
+• Inertia of the swarm movement = 0.8;  
+• Cognitive parameter = 0.5;  
+• Social parameter = 0.5.  
+
+Example:  
+Metrics full set: [ACoCo, AHF, AoCiH, BugNum, CAMC, CAMC-cvc, CC]  
+Target metric set size: 3  
+A particle: [0.83, 0.63, 0.11, 0.72, 0.13, 0.05, 0.23]  
+Chosen subset: [ACoCo, BugNum, AHF]  
+
+Objective Function  
+Estimates representatives of the subset of metrics.  
+We use loss function from UMAP algorithm.  
+1) Construct graphs. 2) Compare graphs using cross entropy  
+Obtain Metrics  
+Get the most representative set of metrics for the repository.  
+
+Optimization Result Structure  
+Matrix:  
+• Rows: Target size (10 values)  
+• Columns: Repository (1000 values)  
+• Each cell contains the most representative metrics set  
+Aggregated results per each set size  
+Metrics set Train dataset (800 repositories) Test dataset (200 repositories)  
+size  
+1 ACoCo ACoCo  
+2 ACoCo AHF ACoCo AoCiH  
+3 ACoCo AHF AoCiH ACoCo AHF BugNum  
+4 ACoCo CoCo CoCoMn CoCoMx ACoCo CoCo CoCoMn CoCoMx  
+5 CC CoCo CoCoMn CoCoMx DOER ACoCo CAMC CoCo CoCoMn CoCoMx  
+6 CAMC-cvc CC CoCo CoCoMn CoCoMx DOER AoCiH CC CoCo CoCoMn CoCoMx DOER  
+7 AHF AoCiH CoCo CoCoMn CoCoMx DOER Getters ACoCo BugNum CC CoCo CoCoMx DOER Final  
+8 CAMC CC CoCo CoCoMn CoCoMx DOER Getters HSE ACoCo BugNum CAMC CoCoMn CoCoMx DOER Getters HSE  
+9 AoCiH CAMC CAMC-cvc CC CoCoMn CoCoMx DOER Getters HSE ACoCo CAMC-cvc CoCo CoCoMn CoCoMx DOER Final HSD HSE  
+10 AHF CAMC-cvc CoCo CoCoMn CoCoMx DOER Getters HSD HSE IRC AoCiH CAMC-cvc CC CoCo DOER Final Getters HSD HSE IRCA  
+
+Limitations & Future works  
+• As noted by [name] [surname] [1], a sample of 1,000 repositories is insufficient to represent the entire population of Java code available on the Internet; consequently, the findings cannot be reliably generalized.  
+• In our research, we assumed that a certain subset of software metrics performs better than others across all repositories. However, this assumption may not hold true in practice. If this is the case, an alternative approach would be to cluster repositories and identify the most effective set of metrics for each cluster individually.  
+• Throughout all experiments, we employed fixed hyperparameters for PSO learning and UMAP graph construction. In the future, these hyperparameters could be fine-tuned to identify the optimal set of metrics that performs well across a broader range of repositories.  
+• In our research, we analyzed only 48 software metrics. Expanding the set of metrics may enhance the robustness and applicability of our results.  
+
+Bibliography  
+[1] [surname], [name]. "CAM: A Collection of Snapshots of GitHub Java Repositories Together with Metrics." arXiv preprint arXiv:2403.08488 (2024).

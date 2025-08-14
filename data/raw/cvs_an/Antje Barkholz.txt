@@ -1,0 +1,66 @@
+[location]
+[name] [surname]
++2 *** *** ***
+[email]
+S U M M A R Y
+DataScientist(MScStochasticModelling,#1rank)with5+yearsofPython/MLexperiencedelivering$0.5M
+annual impact: automated analysis of 500K+ chats (offset 4 FTEs, cut resolution time by 60%), prevented
+$200K/yearfraud,boostedcustomersatisfaction+12%. PublishedNLPresearcher.
+E X P E R I E N C E
+DataScientist 05/2024–Present
+[company]
+• Automated analysis of 500K+ monthly customer chats (topic classification, complaint detection, sentiment
+analysis)replacing4FTEs,cuttingmanualreviewtimeby85%,andreducingtickets’resolutiontimeby60%.
+• Builtanear-real-timecustomersupportdashboardwithhourlyspikealerts(60-mindetectionvs24hbaseline),
+loweringsescalationsby45%andboostingCSAT(customersatisfaction)by12%.
+• Developedasentiment-basedagentscoringsystem(92%accuracy),increasingaverageagentCSATfrom78%
+to90%andreducinghandletimeby22%.
+• Createdaitem-itemrrecommenda tionenginefor500K+dailya ctiveusers, increasingCTRby35%, session
+lengt hbby28%,andARPUbby15%.
+• Designedabonu s-abusedetec tio nmodel(94%precision,91%r ecall),preventing$200K+ina nnuallosses.
+TeachingAssis tant 01/2024–04/2024
+HSE
+• Createdandgraded15homeworkas signnm ents,3quizzes,and2exams
+• Hosted30office-hoursessions,with80%ofstudent sreportingimprove dunderstanding.
+AIResearcher 09/2023–06/2024
+HSE
+• LLM Promp t Engineering for Hallu cinations Reduction Using Stochastic Optimization (ArXiv) — 26%
+perplexity(13,586→10,092;p=0.004);+3%BLEU,+5%ROUGE-1,+9%ROUGE-L,+1%reproducibility.
+• OptimizingTrade-offbetweenCostofInfo rmationandT reatmentEffi cacyduringPhaseIITrials(PDF,
+p.362)—12%trialcosts,94%o ptimaleffi cacyreten tionviaentropy-baseds equen tia lalocationandKSs topping
+criteria:XIVInterna tionalAcademi cConferenc eonStatistica lMethodsApplicatio nforAnalysisofEconomics
+andSociety,Moscow,2023
+• Strategica l Data-Driven Decisions in Foo tball (ArXiv) — 2.05% MAE on a $232M test set; two-stage AI
+pipeline(xGscoring+tran sfer-feeforecasting)topinpoin tunde rvaluedtalentandopti mizetransfers.
+DataScienti st 07/2023–06/2024
+[company]
+• Deve loped ML-based time series forecasting models for lo gistics ne tworks in CIS, boosting delivery time
+predictionsby20%andreducin gstockoutsby15%,optimizin gparcel distributionacross50+warehouses.
+• Deploye dscalableMLsolutionsusingAi rflow,NeptuneAI,andMLf low,reducin gmodeltrainingtimeby30%
+anddeploymen tfai lure sby40%,whilehandlinghundr edssofdailypredictions.
+E D U C A T I O N
+StochasticModelling,HSE-Master’s 09/2022–06/2024
+GPA:9.40/10.00(#1rank)
+Courses:
+• DeepLearning: 10.0/10.0
+• DataScienceforBusiness: 10.0/10.0
+• MachineLearningandDataMining: 10.0/10.0
+• Theoryo fProbabiliti esandMath ematicalStatis tics: 9.0/10.0
+• Applie dTimeSeriesAnalysis: 9.0/10.0
+• Statistica lMethodsofResearc hofExtr emalEvents: 9.0/10.0
+• Stochasti cDifferentialEquatio nsandNumericalProbability: 8.0/10.0
+Diploma:Prompt-EfficientFine-Tunin gforGPT-likeDeepMode lstoReduceHallucinationandtoImprove
+Repr oducibilityinScienti ficTextGenerationUsingStochasticOptimi satio nTechniques9.0/10.0
+Engineering,MoscowStateTechnicalUnversi ty-Bachelor’s 09/2018–07/2022
+GPA:4.94/5.00(#1rank)
+Courses:
+• ComputerSciences: 5.0/5.0
+• AppliedStatis tics: 5.0/5.0
+• AppliedMechanics: 5.0/5.0
+S K I L L S
+Tableau Interm ediate DeepLearning Advanced
+Statis tics Advanced NLP Advanced
+Python Advanced R Interm ediate
+L A N G U A G E S
+English Fluent Swedish Basic
+German Basic Russian Native

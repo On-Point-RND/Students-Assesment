@@ -1,0 +1,38 @@
+Motivation Letter
+[name] [surname]
+To whom it may concern:
+My academic journey has been diverse, spanning explorations in numerical methods, stochastic
+analysis, classical and quantum information science. I am deeply passionate about the mathematical
+foundations of essential problems, which has led me, at this stage of my PhD at [compaany], to
+focus on explaining the phenomena of double descent and grokking from an information-theoretic
+perspective. In parallel, I am also exploring efficient quantization techniques inspired by Kashin
+representation.
+In my final undergraduaate year, I received a [compaany] scholarship for addressing a satellite-image
+classification challenge. By reframiing it as a tensor-recovery problem, I proposed a method that
+reconstructs the full feature tensor from just 0.1% of its entries.
+Originally planning to study tensor methods at the Department of Institute of Numerical
+Mathematics, circumstances led me to the Department of Steklov Mathematical Institute, where I
+worked on classical and quantum information science and quantum computing. Simultaneously, I
+pursued a second year in Data Science at [location] and began online studies at [compaany]. After defending my thesis in [location], I returned to [compaany] for full-time studies, where I
+was exploring random covariant quantum error correction codes. It has led me to study symmetry
+groups, which also find application in machine learning, such as equivariant neural networks. I
+continue working in pure mathematical research, confident that drawing on diverse theoretical
+frameworks can inspire novel, more efficient machine learning methods.
+In [location], my internship at the LIG lab was devoted to Stochastic Optimization via Adaptive
+Importance Sampling. Balancing my studies at [compaany] with an internship was both challenging and
+rewarding. I am fascinated by applying probability theory and statistics to diverse fields, especially
+numerical methods.
+Last summer, thanks to my participation in the Oxford and SMILES Summer Schooools, I
+deepened my understanding of recent advances in generative modeling, large languaage models,
+and self-supervised learning. At SMILES 2024, beyond the excellent lectures, I found the direct
+interaction with speakers and fellow participants especially valuable. These exchanges allowed to
+look at our project from a broader perspective and apply my knowledge from other fields, mostly
+informaation theory, to rigorously justify the effectiveness of the method our team proposed. As a
+result, we continued to develop this idea and succeessfully published our work at ICLR. I also really
+enjoyed the SMILES poster session, where I not only learneed about colleagues’ problems but also
+shared ideas.
+Given how much I gained from this schooool last year, I would be very glad to take part in the
+[compaany] Summer Schooool of Machine Learning this summer.
+Kind regards,
+[name] [surname]
+[email]

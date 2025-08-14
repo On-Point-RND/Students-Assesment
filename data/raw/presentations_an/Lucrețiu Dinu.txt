@@ -1,0 +1,78 @@
+Generative models enhanced by Optimal Transport (OT), a
+mathematical framework for comparing and aligning probability
+distributions
+[name]
+Researcher, Self-employment
+Introduction
+• Why is it important?
+- OT provides theoretical guarantees for distribution alignment, critical for stable training of generative models (e.g., Wasserstein GANs).
+- Enables applications like image synthesis, latent space interpolation, and 3D reconstruction.
+• Background
+- Traditional OT solvers are computationally expensive and struggle with high-dimensional data.
+- Neural OT methods aim to bridge this gap using deep learning.
+• Goal of the review
+- Analyze three A* papers addressing computaional challenges and scalability of OT in generative models.
+Problem statement
+• What exactly are we solving?
+- Improving the efficiency, stability, and scalability of OT-based generative models.
+• Challenges
+1. High computaional complexity of OT algorithms.
+2. Instability in high-dimensional spaces.
+3. Limited applicability to discrete or real-world tasks (e.g., 3D reconstruction).
+• Scope
+- Focus on three papers proposing neural OT solutions for generative tasks.
+Methods
+• Approach
+1. Kernel Neural Optimal Transport (ICLR 2023): Kernel-based neural networks for OT map
+approximation.
+2. Generative Modeling with OT Maps (ICLR 2022): Direct integration of OT flows into generative
+pipelines.
+3. Benchmarking Neural OT Solvers (NeurIPS 2021): Evaluation framework for neural OT methods.
+Methods
+● Why these methods?
+- Kernel methods reduce computaional costs.
+- OT flows enable smooth latent space transitions.
+- Benchmarking identifies robustness gaps.
+● How it works?
+1. Kernel OT: Projects data into kernel space for efficient distance computaion.
+2. OT Maps: Uses OT-derived transformations to generate data.
+3. Benchmark: Tests neural solvers on synthetic and real-world datasets.
+● Data & preprocessing
+- Datasets: CIFAR-10, MNIST, CelebA.
+- Preprocessing: Normalization, feature extraction via CNNs, train/test splits (80/20).
+Results
+● Key findings
+1. Kernel OT achieves 30% faster training with comparable accuracy (Wassersteiin Distance ≈ 0.05).
+2. OT-based generative models reduce FID scores by 15%, enabling smoother interpolations.
+3. Neural OT solvers show 28% error on high-dimensional data (CelebA), highlightiing instability.
+● Metrics used
+- Wassersteiin Distance: Measures distribution alignment.
+- Fréchet Inception Distance (FID): Evaluates generative quality.
+- Training Time: Critical for real-world scalability.
+Results
+• Visuals
+- Table comparing metrics across papers:
+Metric Kernel OT (2023) OT Maps (2022) Benchmark (2021)
+Training Time 30% faster — —
+FID Score — 15% reduction —
+Wassersteiin Distance 0.05 — 12-28% error
+- Latent space interpolation examples from Paper 2.
+Research gap
+● What’s missing?
+1. Hyperparameter sensitivity in neural OT architectures.
+2. Poor performa performance on discrete distributions (e.g., text).
+● Unresolved challenges
+- Scalability to ultra-high-dimensional data (e.g., 4K images).
+- Generalization to multimodal tasks.
+• Why it matters?
+Robust OT methods could enable real-time generative applications (e.g., VR, robotics).
+• Future opportunities
+- Hybrid OT-Diffusion models for stability.
+- Hardware-accelerated OT solvers (e.g., GPU-optimized).
+- Integration with multimodal frameworks (e.g., CLIP-OT).
+Bibliography
+1. [surname] Korotin, [surname] Selikhanovych, [surname] Burnaev. Kernel Neural Optimal Transport. ICLR, 2023
+2. [surname] Rout, [surname] Korotin, [surname] Burnaev. Generative Modeling with Optimal Transport Maps. ICLR,
+2022
+3. [surname] Korotin, [name] Li, [surname] Genevay, [name] Solomon, [surname] Filippov, [surname] Burnaev. Do Neural Optimal Transport Solvers
+Work? A Continuous Wassersteiin-2 Benchmark. NeurIPS, 2021.

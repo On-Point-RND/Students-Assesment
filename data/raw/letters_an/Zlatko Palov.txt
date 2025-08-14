@@ -1,0 +1,33 @@
+Application for Skoltech SMILES Competition
+To the SMILES Selection Committee,
+Dear Selection Committee,
+I am writing to express my enthusiastic application for the Skoltech SMILES competition, as it presents an exceptional opportunity to contribute to and grow within [location]’s premier scientific community. My academic background in Applied Mathematics and Computer Science, combined with my research experience in mathematical modeling, aligns perfectly with SMILES’ mission to foster innovation at the intersection of mathematics, machine learning, and engineering sciences.
+Academic Background and Research Focus
+I recently graduated with honors from [location] University of Science and Technology, where I developed a strong foundation in mathematical modeling with applications ranging from SCADA systems to fluid dynamics. My bachelor’s thesis focused on applying topological data analysis techniques to experimental chemistry data, specifically:
+• Developed a novel approach combining Takens’ embedding theorem with PCA for dimensionality reduction in reaction-diffusion systems
+• Demonstrated the applicability of topological methods to infinite-dimensional dynamical systems
+• Implemented computational pipelines using Python’s scientific stack (NumPy, SciPy, Scikit-learn)
+This work ignited my passion for developing mathematical frameworks to extract meaningful patterns from complex, high-dimensional data - a core focus area of the SMILES competition.
+Competitive Achievements and Technical Skills
+My competitive mathematics experience has honed my problem-solving abilities:
+• Winner of the "I am a Professional" Olympiad in Mathematical Modeling (2023)
+• Participant in multiple ITMO and HSE mathematics competitions
+• Strong programming skills in Python (including Pandas, TensorFlow, PyTorch)
+These experiences have equipped me with both theoretical knowledge and practical skills to tackle challenging problems in machine learning and mathematical modeling.
+Alignment with SMILES Objectives
+I am particularly drawn to SMILES because:
+• The competition’s emphasis on innovative mathematical approaches to real-world problems resonates with my research philosophy
+• [compaany]’s interdisciplinary environment would allow me to collaborate across mathematics, CS, and engineering domains
+• The challenge format aligns perfectly with my competitive academic background
+Future Goals
+Participating in SMILES would represent a significant step toward my long-term goal of developing novel mathematical methods for machine learning applications. I am particularly interested in exploring:
+• Advanced dimensionality reduction techniques
+• Tensor-based methods for high-dimensional data
+• Applications of topological data analysis in ML
+The competition’s structure provides an ideal platform to test and develop these ideas while learning from leading researchers.
+I am excited by the prospect of contributing my mathematical modeling expertise to the SMILES competition while growing through collaboration with [location]’s brightest young researchers. Thank you for your consideration - I would welcome the opportunity to discuss how my skills and research interests align with SMILES’ objectives.
+Sincerely,
+[name] [surname]
+[email]
+18.04.2025
+2

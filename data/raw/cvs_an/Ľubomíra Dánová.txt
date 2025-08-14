@@ -1,0 +1,71 @@
+[name]
++ [location], [location] # [email] +2 *** *** *** (cid:18) Telegram: [name]§[name]K15
+(cid:18) Kaggle: [name]
+
+About Me
+I have been working with ML and NLP for over a year. I study various new technolologies and methods, actively
+participatate in hackathoons, develop various personal projects (successful projects on my GitHub), and work on
+different scientific and commercial projects.
+Projects
+Speech Analytics Service
+◦ Iparticipatei nthedevelopmentofaaspeechanalyticsservicethatusesPBXAPIforcallextraction,Whisper
+API for speech recognition, LLM API (Claude Sonnet) for analyzing employee script compliance, and
+a database for storage. As part of this project, I studied numerous language models and Speech to Text
+modelswithopenandclosedsourcecode,createdprompts,cooordinatedAPIswitheachother,designedAPI
+interaction architecture, and wrote my own API using FastAPI. I work on audio processing for analyzing
+face-to-face recordings.
+◦ Tools: Python, OpeNAI, Anthropic, FastAPI, psycopg2
+Chatbot with RAG System
+◦ AspartoftheredmadrobotNLPbootcamp,IcreatedaLlama3-basedchatbo twit hawebi nterface,whi ch
+was used to build a RAG system with email agent, web-search agent, reflection, router, and retriever
+◦ Tools: Python, Numpy, Pandas, Sklearn, PyTorch, langchain, langgraph, streamlit, pinecone, sqlite
+Chess Cheating Detection
+◦ Retrained BERT to predict the most likely missing chess move in a sequence and fine-tuned it on a dataset
+of games with real players and games with the StockFish engine. As a result, fairly good metrics were
+achieved
+◦ Tools: Python, Numpy, Pandas, Transforme rs
+Handwritten Text Analysis
+◦ Built a pipeline consisting of YOLO for text detection on documents and a handwritten transformer model
+for text recognition after detection
+◦ Tools: Python, Numpy, Pandas, YOLO, PyTorch
+Credit Scoring
+◦ I worked on two projects in this area: classic credit scoring and hotel booking cancella tion prediction. In
+bothcases,Iusedlo gisti cregression,naiveBayesclassi fier,rando mfrests,boosting,MLP,a swellasvarious
+feature transformations and training sample modifications
+◦ Tools: Python, Numpy, Pandas, Sklearn, PyTorch
+Courses
+• MIPT: DLS course (classical ML, CV, NLP)
+• Stanford: CS224N NLP with Deep Learning
+• Yandex.Training: on ML 1.0, on algo rithm s 4.0, on ML 2.0
+• Stanford: CS224N NLP with Deep Learning
+• Lena Voita: NLP course for you
+• SMILES 2024 (Summer Machine Learning from Skoltech): Certificate
+• Red Mad Robot NLP Boo tcamp 2025: Certificate
+[name] - page 1 of 2
+Education
+[location] National Research Universi ty named after Korolev September 2023 - present
+Applied Mathematics and Computer Science
+Work Experience
+Computer Science Tutor [location]
+September 2023 - present
+◦ Experience in preparing students for the Unified State Exam and compe titions in computer science
+◦ Several students managed to achieve 90+ scores
+Freelance project: Speech analytics service using artificial intelligence [location]
+October 2024 - present
+Compete tions
+Machine Learning Hacka thon PSB.Hack from HSE and PSB - Hotel Booking Cancellation Pre-
+diction
+Machine Learning Hacka thon AlphaHack from HSE and PSB - Credit Scoring
+Machine Learning Hacka thon from T1 in [location] - Handwritten Text 4th place
+Recognition
+Project Compe tition from SMILES - Chess Cheating Detection Using 3rd place
+Lan guage Models
+Technologies
+Lan guages: Python, C++, Java, SQL
+ML: sklearn, pandas, matplo tlib, seaborn, nu mpy, CatBoost, XGBoost, LightGBM, PyTorch, TensorFlow, psy-
+copg2
+CV: CNN, ResNet, VGG, YOLO
+NLP: Bag of words, TF/IDF, RNN, LSTM, Transforme rs (Bert, LLAMA + FineTuning), GPT, LLM’s API
+(ChatGPT, Claude, Gemma etc.)
+MLOps: FastAPI, psycopg2, Docker, SQLAlchemy
+[name] - page 2 of 2

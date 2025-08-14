@@ -1,0 +1,180 @@
+Review Presentation
+For [name]
+Appllicant:
+[name] [surname] Multimodal LLM
+1. Connecting Text and Images
+with CLIP
+2. Flamingo: a Visual Language Model
+for Few-Shot Learning
+3. LLaVA: Visual Instruction Tuning
+1. Connecting Text and Images with CLIP
+Current major challenges in computer vision:
+● High training costs and slow model development
+● Expensive and imperfect data labeling
+● Limited generalization of most models
+Solving these issues is critical for advancing CV applications
+1. Connecting Text and Images with CLIP
+Objective
+The authors aimed to develop a model capable of learning from
+text-image pairs without manual labeling, enabling it to perform well
+on various computer vision tasks without additional fine-tuning.
+The model should generalize effectively in a zero-shot setting.
+Solution:
+CLIP (Contrastive Language–Image Pre-training) – a model
+designed for zero-shot image classification.
+Zero-shot prediction means the model can make accuraate
+predictions for unseen classes it was never explicitlly trained on.
+1. Connecting Text and Images with CLIP
+Architecture
+1. Connecting Text and Images with CLIP
+Architecture
+CLIP consists of two main components:
+- A visual encoder based on either ResNet or Vision Transformer (ViT).
+- A text encoder built on a transformer architecture similar to GPT.
+Aligning visual and text representations in the model:
+- It is trained on batches of N image-text pairs, predicting which of the
+N×N possible pairings actually match.
+- The model maximizes cosine similarity for correct pairs while
+minimizing it for incorrect ones.
+- Both encoders are optimized using cross-entropy loss.
+- CLIP treats dataset classes as text prompts and predicts the most
+likely matches via softmax-normalized cosine similarities.
+1. Connecting Text and Images with CLIP
+Cross Entropy
+1. Connecting Text and Images with CLIP
+Training
+Dataset:
+● 400 million text-image pairs scraped from publicly available internet
+sources (e.g., Instagram posts with captions).
+Model Training:
+● 5 ResNet variants trained for 18 days on 592 V100 GPUs.
+● 3 Vision Transformeers (ViT) trained for 12 days on 256 V100 GPUs.
+● 32 training epochs per model.
+Optimization:
+● Adam optimizer with cosine learning rate schedule.
+● Batch size: 32,768.
+1. Connecting Text and Images with CLIP
+Experiments
+Zero-shot CLIP demonstrates greater robustness to distribution
+shifts compared to standard ImageNet-trained models.
+1. Connecting Text and Images with CLIP
+Experiments
+Beatts other models even with
+fine-tuning
+1. Connecting Text and Images with CLIP
+Prompt engineering
+Due to the specifics of the dataset,
+the following experiments were
+conducted:
+● "A photo of a {label}" (improved
+accuracy by 1.3%)
+● For specialized datasets: "A photo
+of a {label}, a type of pet."
+● Combining 80 different prompts
+using ensemble methods
+boosted accuracy by 5%.
+1. Connecting Text and Images with CLIP
+Limitations
+Prompt Sensitivity
+1. Connecting Text and Images with CLIP
+Limitations
+Limitations:
+Not suitable for
+complex/specialized tasks like:
+- Car brands
+- Handwriting
+- Medical data
+- Flower species
+1. Connecting Text and Images with CLIP
+Conclusions
+- CLIP differs from traditional methods by eliminating the need for
+explicit class labels.
+- Learns to associate text descriptions with visual objects through
+language supervision.
+- Enables image classification without training on target datasets
+(zero-shot).
+- Demonstrates strong robustness to data distribution shifts.
+- Highly dependent on prompt engineering.
+- Important limitation: Poor performaance on specialized/nich
+datasets.
+Paper: "Learning Transferable Visual Models From Natural Language Supervision"
+1. Connecting Text and Images with CLIP
+2. Flamingo: a Visual Language
+Model for Few-Shot Learning
+3. LLaVA: Visual Instruction Tuning
+2. Flamingo: a Visual Language Model
+for Few-Shot Learning
+Flamingo is a state-of-the-art visual language
+model that bridges images and text, designed to
+excel in few-shot learning scenarios.
+Unlike traditional models requiring massive
+labeled datasets, Flamingo can quickly adapt to
+new tasks with just a handful of examples, making
+it higly versatile for real-world applications.
+2. Flamingo: a Visual Language Model
+for Few-Shot Learning
+Architecture
+2. Flamingo: a Visual Language Model
+for Few-Shot Learning
+Architecture
+Flamingo integrates:
+1. Pre-trained vision encoder (like NFNet or Vision Transformer)
+2. Frozen language model (e.g. Chinchilla)
+Core Components:
+● Perceiver Resampler- Converts variable-length visual inputs into
+fixed-size representations for the language model
+● Gated Cross-Attention - Lets the language model dynamiically
+focus on visual features while preserving its text understanding
+● Interleaved Processing - Handles mixed sequences of images
+and text seamlessly.
+2. Flamingo: a Visual Language Model
+for Few-Shot Learning
+Data Generation:
+- GPT-4 creates 198K diverse VQA
+pairs from images
+- Covers: reasoning, OCR,
+detailed description
+Two-Stage Training:
+- Phase 1: Frozen models + linear
+projection (align image features
+to text space)
+- Phase 2: Full end-to-end
+fine-tuning
+2. Flamingo: a Visual Language Model
+for Few-Shot Learning
+Results
+Results:
+● ScienceQA - 92.5% accuracy (matches GPT-4)
+● Image Chat - 85.3% human preference
+● Efficiency - 10x faster than GPT-4 Vision
+Critical Insight
+"Flamingo demonstrates that synthetic visual instructions can replace
+human-annotated data for multimodal alignment."
+2. Flamingo: a Visual Language Model
+for Few-Shot Learning
+Limitations
+Struggles with medical/nich
+images (no GPT-4 supervision)
+Inherits GPT-4's biases in
+generated instructions
+2. Flamingo: a Visual Language Model
+for Few-Shot Learning
+Conclusions
+Why This Matters?
+● First model matching GPT-4V's multimodal ability with public
+tools
+● Proves GPT-4-generated instructions can replace human
+annotations
+● Framework for future vision-language models
+Final Takeaways:
+1. Success: 92.5% on ScienceQA with 10x efficiency
+2. Limit: Struggles on medical/fine-grained tasks (-32% accuracy)
+"Flamingo democratizes multimodal AI while highlightiing the
+need for better domain adaptation."
+Paper: "Flamingo: a Visual Language Model for Few-Shot Learning"
+1. Connecting Text and Images
+with CLIP
+2. Flamingo: a Visual Language
+Model for Few-Shot Learning
+3. LLaVA: Visual
+Instruction Tuning

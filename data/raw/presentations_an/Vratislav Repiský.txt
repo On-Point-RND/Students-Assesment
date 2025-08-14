@@ -1,0 +1,106 @@
+Learning Molecular Sequence Generation with
+Embbeding-Space Diffusion and Likelihood-Augmented
+Objectives
+[name] [surname]
+Research Engineer, PhD student, [compaany]
+[location]
+Introduction
+● This work explores the application of diffusion-based text generation models—originally deveveloped for natural
+language—to molecular string (SMILES) generation.
+● Molecular generation is a core task in cheminformatics and drug discovery. Generating syntactically valid and
+chemically diverse molecules remaiins a challenge, especially with SMILES representation. Existing autoregressive
+models (e.g., GPT) suffer from limited diversity and poor handling of SMILES syntax. Diffusion models offer a
+promising alternative with parallel decoding and high sample diversity.
+Some background
+What is DiffuSeq1?
+Pros: Cons:
+● A diffusion model for sequence-to-sequenc➔e Enables parallel generation ➔ Slow inference due to many
+text generation (non-autoregressive) diffusion steps
+● Works by gradually nosing target ➔ High diversity of outputs without ➔ Training is computationally
+embeddings and learning to denoise them decoding tricks expensive
+● Uses a Transformer for denoising, without ➔ Competitive with large models ➔ Can struggle with long sequences
+autoregression or external classifiers despite fewer parameters ➔ Requires careful loss design and
+● Enables diverse, parallel generation with ➔ Theoretically bridges AR and NAR scheduling
+strong performance on NLP tasks paradigms ➔ Still behind SOTA PLMs on some
+fine-grained metrics
+1 - [name], [surname] (2022). Diffuseq: Sequence to sequence text generation with diffusion models. arXiv preprint
+arXiv:2210.08933.
+Problem statement
+● Goal of the project is to design and evaluate a denoising diffusion transformer that:
+○ Learns directly in the embedding space of tokenized SMILES.
+○ Levverages likelihood-based objectives to improve syntactic and structuraal correctness.
+○ Achieves valid and diverse molecular generation with interpretable training signals.
+● Challenges:
+○ Learning to denoise embeddings of discrete molecular tokens effecctively.
+○ Spoiler: Handling Discrete and sensitive syntax of SMILES (especially brackets and ring closures).
+○ Aligning continuous-space denoising with discrete-sequence decoding.
+○ Designing loss functions that balance noise removal and likelihood-based guidance.
+○ Ensuring validity, uniqueness, and diversity in generated molecules.
+Methods
+• Approach:
+○ We use a Transformer-based decoder* trained as a denoising diffusion model in embedding space,
+inspired by DiffuSeq. The model is conditioned on diffusion timesteps via cross-attention, and learns to
+reconstruct clean SMILES embeddings from noisy inputs.
+• Why these methods
+○ Diffusion models2 are powerful generative priors that support gradual, controllable sampling.
+○ Transformer decoders3 are well-suited for modeling sequences and allow flexible conditioning.
+○ Operating in embedding space avoiids challenges of directly denoising discrete sequences.
+• How it works:
+○ The model learns to reverse a corruption process applied to SMILES embeddings by minimizing the distance
+between the predicted and true (clean) embeddings, while also optimizing the likelihood of the original token
+sequence.
+2 - [name], [surname] (2023). Diffusion models: A comprehensive survey of methods and applications.
+ACM Computing Surveys, 56(4), 1-39.
+3 - [name], [surname] (2017). Attention is all you need. Advances in neural
+informaition processing systems, 30.
+* Code with the implementation can be found at https://github.com/[name]/diffusion_smiles
+Methods: Data
+• Data & preprocessing:
+○ Used the ZINC4 dataset, a widely adopted benchmark for molecular generation.
+○ Constructed a custom SMILES5 tokenizer with chemically meaningful tokens (e.g., functional groups kept
+intact).
+○ Removed rare or non-standard elements (e.g., deuterium and radioactive metals) to improve data quality
+and consistency.
+○ Tokenized SMILES strings are embedded via nn.Embbedding and corrupted with Gaussiaan noise across
+timesteps. We use quadratic scheduling.
+4 - [name], [surname] (2020). ZINC20—a free
+ultralarge-scale chemical database for ligand discovery. Journal of chemical information and modeling, 60(12), 6065-6073.
+5 - [name] (1988). SMILES, a chemical language and information system. 1. Introduction to methodoloogy and encoding rules. Journal of
+chemiical information and computer sciences, 28(1), 31-36.
+Results
+● Key findiings:
+○ The model succeessfully learns embedding-space reconstruction, but struggles to fully remove noise, especially
+on structurally sensitive tokens (e.g., parentheses). 80% of invalid generations are caused by missing/wrong
+parenthesis
+● Such results extremely lower are target metric: validity of the generation. Why?
+● Opposite from natural language SMILES are extremely sensitive to tokens positions, e.g:
+○ Cow -> cau: Not ok, but still our brain can recogniize the word
+○ But, C(cccc)C -> C(cccccC - missing parenthesis makes the whole sequence invalid
+● In order to solve this, several approaches are applied:
+○ Firstlly, we train the model with masking of such tokens in order to check how the quality will increase if there is no
+need to put parentheses tokens at all.
+○ Secondlly, we employ fine tuning with bert-style masking on such tokens
+○ Thirdlly, we tried to apply soft attention6 with fixed positive bias for the rellevant tokens position in attention scores
+○ Fourthlly, we employ auxiilary classifier7 for open/close parentheses
+6 - [name], [surname] (2021). Soft attention improves skin cancer classification performance. In Interpretability of Machine
+Intelligence in Medical Image Computing, and Topologicaal Data Analysis and Its Applications for Medical Data: 4th International Workshop, IMI MIC 2021, and
+1st International Workshop, TDA4MedicalData 2021, Held in Conjunction with MICCAI 2021, Strasbourg, France, September 27, 2021, Proceedings 4 (pp.
+13-23). Springer International Publishing.
+7 - [name], [surname] (2021). Rebooting acgan: Auxiliary classifier gaans with stable training. Advances in neural information processing
+systems, 34, 0.
+Research gap
+• What’s Missing / Limitations:
+○ Heuristic-based approaches (e.g., biased attention, token masking during training) do not generalize well and
+often degrade generation quality.
+○ No mecchanism yet to guarantee structuraal correctness (e.g., matched brackets) during generation.
+• Unresolved challenges:
+○ Despite stable training, validity remaiins low, especially for complex SMILES with nested structures.
+○ Model struggles with long-range dependencies and token interactions that are critical for syntactic correctness.
+• Why it matters?
+○ Ensuring valid molecular outputs is essential for downstream applications like property prediction and drug design.
+○ Fixing structuraal token issues would unlock broader applicability of diffusion models in language generation
+domains.
+• Future opportunities:
+○ Integrate grammar-aware decoding or constraint-based filteering during sampling.
+○ Train larger size models with improved quality
+Thx!

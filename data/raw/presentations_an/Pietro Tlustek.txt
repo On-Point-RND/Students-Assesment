@@ -1,0 +1,92 @@
+## SLAVA Framework: A Comprehensive Evaluation Tool for Large Language Models
+
+This document provides a detailed overview of the SLAVA framework, an innovative tool designed for evaluating and comparing Large Language Models (LLMs). It highlights the framework's importance in addressing the limitations of traditional evaluation benchmarks, particularly concerning linguistic and cultural nuances, and outlines its methodology, findings, and future directions.
+
+### Introduction
+
+The SLAVA framework is a significant advancement in LLM evaluation. It aims to enhance the reliability, transparency, and performance assessment of these models by specifically considering language-specific features. This framework offers a comprehensive solution for developers and researchers seeking to rigorously test, optimize, and improve their AI systems.
+
+### Why is it Important?
+
+Traditional evaluation benchmarks often fall short by overlooking linguistic and cultural nuances that can significantly impact LLM performance. SLAVA addresses this critical gap by emphasizing the importance of evaluating models across diverse linguistic contexts. This is particularly crucial for languages like Russian, where specific challenges and characteristics exist.
+
+### Findings: Knowledge Domain and Provocativeness
+
+The analysis conducted using the SLAVA framework yielded several key findings:
+
+**1. Overall Leaderboard:**
+
+* **Foreign models consistently outperform domestic models:** Foreign LLMs like Claude 3.5 Sonnet, Mistral-123B, and GPT-4o consistently achieve higher scores than domestic models such as Gigachat_Pro and YandexGPT_Pro.
+* **Stable and high-performing models:** The top 6 models (Claude 3.5 Sonnet, Mistral-123B, GPT-4o, Qwen2:72b-instruct-q4_0, Gigachat_Pro, YandexGPT_Pro) demonstrate consistent and strong results across various evaluation aspects.
+* **Most challenging tasks:** Matching, open-ended questions, and sequence ordering proved to be the most difficult question types for LLMs.
+* **Reasons for low scores:** Common issues contributing to lower scores include failure to follow instructions, factual inaccuracies, and difficulties with complex reasoning.
+
+**2. Knowledge Domain and Provocativeness:**
+
+* **Political science as the most challenging domain for domestic models:** Domestic LLMs generally struggled with questions related to political science.
+* **Geography and sociology as the most accessible domains:** Models performed relatively better on questions related to geography and sociology.
+* **Performance decline with increasing provocativeness:** Evaluation scores consistently decreased as the level of provocativeness in the questions increased. This suggests a challenge for LLMs in handling nuanced or potentially sensitive topics.
+
+### SLAVA Benchmark Features
+
+The SLAVA framework incorporates several key features to ensure robust and comprehensive evaluation:
+
+* **Official and expert-curated question corpus:** The question set is compiled from official databases, approved question lists, and contributions from experts. A portion of the dataset is publicly available.
+* **Provocativeness annotation:** Each question is annotated with a specific level of provocativeness, allowing for a nuanced assessment of model performance under different contexts.
+* **Dedicated evaluation pipeline:** A comprehensive pipeline has been developed specifically for evaluating LLMs using the SLAVA benchmark.
+* **Regular updates:** The benchmark content is reviewed and updated quarterly to include new topics and remove outdated items.
+* **Robustness testing:** The framework includes tests to assess the robustness of models across different instruction types and question formats.
+
+### Analytical Platform
+
+A dedicated analytical platform has been developed to facilitate interaction with the SLAVA dataset and analyze LLM outputs. This platform offers:
+
+* **Data Explorer:** Allows users to explore the dataset and filter results based on various criteria.
+* **Model Leaderboard:** Presents a comparative ranking of different LLMs based on their performance on the SLAVA benchmark.
+* **Visualization and Dashboarding:** Provides visual representations of evaluation results and key performance indicators.
+* **Research-friendly environment:** Offers tools for qualitative and quantitative analysis of model outputs.
+
+### Achievements
+
+The development of the SLAVA framework has been recognized through the following achievements:
+
+* **Winner of the ITMO Advanced Engineering School competition:** The project was selected as a top interdisciplinary initiative for AI-driven LLM evaluation in the humanities and received development support.
+
+### Future Directions
+
+The SLAVA framework is continuously evolving, with planned future directions including:
+
+* **Expansion of the question corpus:** Incorporating more diverse sources like official publications, legal documents, encyclopedias, and dictionaries.
+* **Inclusion of human responses as a baseline:** Utilizing human-generated responses to provide a reference point for evaluating model performance.
+* **Development of evaluation metrics for specific linguistic phenomena:** Incorporating metrics to assess the handling of idioms, cultural references, and other language-specific aspects.
+* **Further research into the relationship between provocativeness and model performance.**
+
+### Links
+
+* **SLAVA Framework Public Dataset (GitHub):** [Insert GitHub Link Here]
+* **SLAVA Framework Public Dataset (HF):** [Insert Hugging Face Link Here]
+
+### Team
+
+The SLAVA framework was developed by a team of researchers and engineers:
+
+* **Andrey Chetvergov**
+* **Rinat Sharafeetdioonov**
+* **Daniil Sazanakov**
+* **Ekaterina Bezuglova**
+
+### Bibliography
+
+The following list includes relevant academic papers that have informed the development of the SLAVA framework:
+
+1. Alena Fenogenova et al. (2024). MERA: A Comprehensive LLM Evaluation in Russian. ACL.
+2. Cunxiang Wang et al. (2023). Survey on Factuality in Large Language Models: Knowledge, Retrieval and Domain-Specificity. arXiv preprint, arXiv:2310.07521.
+3. Dan Hendrycks et al. (2021). Measuring Massive Multitask Language Understanding. arXiv preprint, arXiv:2009.03300.
+4. Ekaterina Taktasheva et al. (2022). TAPE: Assessing Few-shot Russian Language Understanding. Findings of EMNLP.
+5. Stephanie Lin et al. (2022). TruthfulQA: Measuring How Models Mimic Human Falsehoods. ACL.
+6. Tatiana Shavrina et al. (2020). RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark. EMNLP.
+7. Xueming Hu et al. (2023). Do Large Language Models Know about Facts? arXiv preprint, arXiv:2310.05177.
+8. Yuzhen Huang et al. (2023). C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models. arXiv preprint, arXiv:2305.08322.
+9. Shervin Minaee et al. (2024). Large Language Models: A Survey. arXiv preprint, arXiv:2402.06196.
+
+This document provides a comprehensive overview of the SLAVA framework. For further details, please refer to the publicly available dataset and the associated research publications.

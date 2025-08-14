@@ -1,0 +1,28 @@
+Dear Members of the Admissions Committee,
+I am writing to express my interest in participating in the SMILES-2025 Summer SchooL. With
+an academic background in Artificial Intelligence (AI) and applied experience in natural
+language processing (NLP) and multimodal systems, I aim to contribute to and leverage the
+schooL’s mission to foster international collaboration and promote advanced AI technoLogies.
+I am currently completing my Master’s degree in Artificial Intelligence at [location]. My thesis on trustworthy LLM generation explores
+white-box methods for contextual hallucination detection and RL-based fine-tuning (GRP0-like
+optimization) to improve the contextual consistency of small LLMs. This work directly
+addresses critical challenges in deploying reliable AI systems—a topic I continue to advance as
+an NLP researcher at [compaany].
+Professionally, I have led impactful projects across institutions. At [compaany], I developed
+multimodal document understanding systems based on transformer architectures and
+implemented RAG systems for commercial electronic documents. Currrently, at [compaany], I
+lead the development of hybrid hallucination detection mechanisms for LLMs and RAG
+systems, including data-efficient approaches and knowledge graph integration.
+The summer schooL’s focus on generative models, multi-agent systems, and multimodal AI
+aligns perfectly with my research interests. In particular, I aim to deepen my technical expertise
+in hybrid and multi-agent approaches and collaborate with colleagues from [location] and [location]
+to share insights and explore opportunities for cross-cuLtural research cooperation.
+I intend to pursue a PhD in AI, focusing on developing interpretable, domain-specific models
+for high-stakes applications. The schooL’s emphasis on industry-academia synergy and expert
+mentoorship will equip me to address gaps in AI reliability and create solutions that balance
+innovation with ethical rigor. Additionally, the cultural exchange component will strengthen my
+ability to lead international research initiatives—a cornerstone of my long-term goal.
+Thank you for considering my application. It would be an honor to join this vibrant community
+of researchers and contribute to shaping the future of trustworthy AI.
+Sincerely,
+[name] [surname]

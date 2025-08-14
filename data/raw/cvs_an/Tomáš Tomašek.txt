@@ -1,0 +1,85 @@
+Roev [name]
+[location]
+[email]
+HTTPS://SCHOLAR.GOOGLE.COM/CITATIONS?USER=[name]&HL=EN
+HTTPS://GITHUB.COM/[name]
+Bioinformatician with expertise in analyzing various genomic data. I have a strong interest in
+machine learning and deep learning, including application of CNNs and protein LLMs in
+genomics.
+Professional Experience
+LABO **[compaany]** FOR GENOMIC **[compaany]**, Central Research **[compaany]** of Epidemiology,
+[location]
+Bioinformatician, June 2021 – Present
+● Used protein language models for searching of novel viruses in meta genomic data
+● Parti cipated in developing of VGARus database (Virus Genome Aggregator of [location]) - the
+biggest [location] database of pathogen genomic sequences
+● Performed epide miolo gical analytics of SARS-CoV-2
+● Deve loped several pipelines in Python and Bash for viral genomes assembly and geno typing
+● Performed mol ecu lar dynamics simulations in GROMACS for estimating the effect of
+mutations on stability of viral pro teins
+● Performed meta genomic analyses of samples from bats for searching novel viral and
+bacteria l pathogens
+● Performed bayesian ev olutionary analysis of Human immuno defi cie ncy virus
+● Prepared reports, presentations, articles and theses for conferences
+● Conducted educational trainings on bioinfo rmatics for biol ogists from various [location] organizations
+O **[compaany]** COURSES DEPARTMENT, [location]
+Technician, July 2016 – March 2017
+● As sistance in developing and managing on line courses
+Education
+● [location] **[compaany]** — 2022 - Present
+PhD in Bioinfo rmatics
+Dissertation: Deve lopment and application of com pu tational biology app roaches to study
+genomes of viruses (in progress)
+● [location] **[compaany]** — 2019
+M.Sc. and B.Sc. of Applied Physics and Mathematics
+Master thesis: Functional annotation of genes of Beta vulgaris
+In my Master thesis I conducted RNA-seq analysis and helped to develop machine learning
+pipeline
+● [location] **[compaany]** — 2016
+Diploma on profes sional retraining, Interpreter in the field of profes sional communication
+Additional Achievements
+● In 2024 my convolutio nal neural ne twork took 2nd place in IBIS comp etition -
+interna tional on line challenge on the application of deep learning to regulatory
+ge nomics problems (manuscript in preparation).
+● In 2022, as part of the jury, took part in the 21st [location] Youth Delphic Games in the
+“Bioinfo rmatics and Epide miology” disc ipline.
+Skills
+● Progr amming: Python (main lan gua ge), bash, pandas, Jupy ter Notebook, Docker,
+SnakeMake
+● ML & DL: Scikit-learn, PyTorch, PyTorch Lightning, XGBoost, CatBoost, Optuna
+● Molecular modelling: GROMACS, FoldX, Rosetta
+● Bioinfo rmatics: GATK, HISAT2, SPAdes, BEAST, Diamond, Kraken2, MAFFT
+● English: Flue ntly
+Online certificates
+● Mathematics and Python for Data Science
+https://coursera.org/share/0baa9da5fc8fec75ccc6752976b8bfde
+● Supervised learning
+https://coursera.org/share/6b82f4d06c67910cb3450ddc6fd6c772
+Publications
+1. [name], G. V., [surname], N. I., [surname], N. V., [surname], M. R., & [surname], K. (2023,
+October 10). Unlocking the Viral Universe: Meta genomic Analysis of Bat Samples Using
+Next-Generation Sequencing. Microo rganisms, 11(10), 2532.
+https://doi.org/10.3390/microorganisms11102532
+2. [name], G. V., [surname], N. I., [surname], N. V., [surname], A. V., & [surname], K. F.
+(2023). Bastroviruses (astroviridae): Genetic diversity and poten tial im pact on human and Animal
+Health. Problems of Virology, 68(6), 505–512. https://doi.org/10.36233/0507-4088-192
+3. [surname], I. A., [surname], M. R., [name], G. V., [surname], E. V., [surname], M. I., [surname], A. V.,
+[surname], V. G., [surname], N. I., [surname], V. G., [surname], D. N. O., [surname], V. V., [surname],
+A. S., [surname], T. A., [surname], D. V., [surname], K. F., & [surname], V. G. (2024). Genomic surveillance of SARS-CoV-2 in
+[location]: insights from the VGARus pla tform. Journal of Micro biol ogy Epide mio logy Immuno bio logy,
+101(4), 435–447. https://doi.org/10.36233/0372-9311-554
+4. [surname], M. F., [surname], K. K., [surname], Y. A., [surname], N. S., [surname], G. F., [surname], L. V.,
+[surname], E. S., [name], G. G., & [surname], L. S. (2024). An inac ti vated West Nile virus vaccine candidate based on the
+Linea ge 2 strain. Vaccines, 12(12), 1398. https://doi.org/10.3390/vaccines12121398
+5. [surname], M. D., [surname], N. V., [name], G. V., [surname], I. A., [surname], V. V., [surname], K. F., & [surname], V. G.
+(2024). NGS amplification panel for HBV (Hepadnaviridae:
+orthohepadnavirus) sequencing. Problems of Virology, 69(1), 65–75.
+https://doi.org/10.36233/0507-4088-212
+6. [surname], E. A., [surname], M. T., [surname], E. S., [surname], O. B., [surname], [name], [surname],
+K. F., & [surname], L. S. (2023, September 21). Genetic features of the Puumala virus
+(Han taviridae: Orthohan tavirus) identified in the [location] region. Problems of Virology, 68(4), 283–290.
+https://doi.org/10.36233/0507-4088-177
+7. [name], A., [surname], D., [surname], [name], G., [surname], [surname], [surname], [surname], [surname],
+[surname], [surname], [surname], & [surname], V. (2023, June 2).
+Deve lopment and Application of Real-Time PCR-Based Screening for Identification of Omicron
+SARS-CoV-2 Variant Sublineages. Genes, 14(6), 1218. https://doi.org/10.3390/genes14061218

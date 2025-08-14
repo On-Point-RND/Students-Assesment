@@ -1,0 +1,90 @@
+[name] [surname]
+Project manager in IT
+[email] [location]
++2 *** *** ***
+Work Experience about me
+Tech team lead and Project manager with experience
+2022 - 2025
+
+managing teams of up to 17 people in IT startups.
+• Project management in IT & Data science
+Specialize in launching and scaling projects, building
+Managed IT projects and startups, focusing on data-driven solutions and machine learning applications. Oversaw the full
+efficient business processes, and delivering
+project lifecycle, from ideation to execution, ensuring smooth operations and timely delivery of results. Coordinated cross-
+measurable results within tight deadlines. Oversee
+functional teams and aligneed technical goals with business objectives.
+
+software development, data science, and machine
+learning initiatives, ensuring seamless collaboraation
+• Data processing & Benchmarking
+between developers, data specialists, and
+Led efforts in data collection, labeling, and preparation for training ML models. Designed and implemented benchmarking
+stakeholders.
+processes to evaluate model performance, ensuring high-quality outputs. Collaborated closely with data scientists and
+engineers to streamline workflows and improve accuracy.
+
+ Skills and Personal
+Characteristics
+• Team leadership & Process optimization
+Built and managed teams of up to 15 data specialists, fostering collaboration and maintaining high team morale. Introduced Personal Characteristics
+efficient workflows and tools to enhance productivity, enabling teams to meet tight deadlines while maintaining quality
+Emotional intelligence
+standards.
+
+Responsibility Adaptability
+• Market research & Investor engagement
+Conducted market research to identify trends and opportunties in AI/ML technologies. Played a key role in attracting Stress tolerance Creative problem-solving
+investors and clients by translating complex technical concepts into clear, compelling narratives. Prepared presentations
+and strong decision-making skills Strong
+and documentation to support fundrasing and partnership efforts.
+communication skills
+• Promotion of AI/ML solutions
+Programming and Data analysis
+Contributed to marketing and promoting AI/ML-based products by creating technical content and case studies for target
+audience. Organized participation in industry events such as conferences and hackathons, enhancing the visibility of SQL Excel Docker Google Sheets
+projects and building connections within the tech community.
+Python(libraries: Pandas, NumPy, Matplotlib,
+Academic Background
+Seaborn e.c.t.) Docker Git Power BI
+
+2012 - 2023
+ Design
+School №2054 (awarded a gold medal for academic excellence)
+ Adobe Photoshop Canva Figma
+2024 - present
+ Project management
+Student at the Presidential Academy, Economics Program
+Additional Education Jira Scrum Agile
+Certified computer operator
+Notion Miro
+Music school (graduated with honors)
+
+Languages
+English (B2)
+
+Skills
+AI strategy & Data-driven analysis: Identify strengths and weaknesses of projects in the AI and data science
+domains, developing strategies to drive business growth and achieve key objectives. Leverage insights from Spanish (A2)
+data analysis and machine learning models to optiimze decision-making and improve project oucomes
+Presentations & Technical negotiations: Experienced in presenting complex AI/ML projects to diverse
+audiences, including technical experts and non-technical stakeholders. Skilled in negotating partnerships
+and securing agreements that align with business goals, particularly in the tech and data-driven sectors
+Additional Information
+Resident of the "Academy of Innovators"
+
+Crisis management in tech projects: Proven ability to manage high-pressure situations in IT and data
+PaRticipant of the "Skolkovo" Pre-
+science projects. Develop actionable solutions to navigate teams and projects through challenges,
+Accelerator Program
+minimizing risks and ensuring continuity in AI and ML initiatives
+Team leadership & Process optimization in Tech: Set clear objectives for cross-functional teams, including
+data scientiists, developers, and analysts. Streamline workflows and oптиmize processes to ensure efficient
+collaboraation, timely delivery of results, and successful implementaion of AI and data-driven solutions.
+Finalist as part of the Sber Student project
+team (Top 10 out of 50 000)
+
+Hobbies and Interests
+PaRticipant of "Tech Leaders of Moscow"
+Volunteering Hackathons, scientific Conferences, accelerators
+Sports, travel, and an active lifestyle Psychology

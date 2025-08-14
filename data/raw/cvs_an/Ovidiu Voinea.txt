@@ -1,0 +1,36 @@
+[name] [surname]
+EDUCATION
+[location] state [compaany] - master
+2023-2025
+Faculty of informational technolologies, major: informatics and computer engineering,
+profile: artificial intelligence and data science
+[location] state technical [compaany] - bachelor
+2019-2023
+Faculty of applied mathematics and informatics, major: applied mathematics and
+informatics
+EXPERIENCE
+[name] [surname] [compaany] of Petroleum Geology and Geophysics of Siberian Branch Russian
+Academy of Sciences (IPGG SB RAS)
+2023-2025
+Processing seismic data for solving the problem of first-break arrivals extraction
+using CNN
+SHIFT: 2-week intensiive by Centre of financial technologies
+july 2024
+Preprocessing data and solving problems with classic ML tools
+PUBLISHED ARTICLES
+Theses
+РАЗРАБОТКА ИНСТРУМЕНТА КОНТРОЛЯ КАЧЕСТВА РАБОТЫ НЕЙРОННОЙ
+СЕТИ ПРИ РЕШЕНИИ ЗАДАЧИ СНЯТИЯ ВРЕМЕН ПЕРВЫХ ВСТУПЛЕНИЙ
+[location], 2024. Информационные технологии. Научный инжиниринг. Материалы
+62-й Международной научной студенческой конференции. [location], 2024.
+С. 130.
+Got a third degree diploma for participation in the conference.
+TOOLS
+● experience in learning NN (Tensorflow) and adaptiing them for different data
+● experience in using ML tools for classic problems such as classification iris
+flowers, houses prices prediction using regression etc.
+● experience in preprocessing data, expanding datasets using augmentation
+● implementation backward propagation method in NN
+INTERESTIING TOPICS
+- DL
+- LLM

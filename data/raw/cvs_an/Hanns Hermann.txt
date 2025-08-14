@@ -1,0 +1,64 @@
+CV Updated March 2025
+[name] [surname]
+CONTACT DETAILS
+HSE page: https://www.hse.ru/org/persons/401653628/
+Phone: +2 *** *** ***
+Email: [email]
+PERSONAL INFORMATION
+Born in 2002
+EDUCATION
+Bachelor's in Economics (Research Track), [compaany], Faculty of
+Economic Sciences, [location], 2020 - 2024
+Master’s in Modern Computer Science, [compaany] and [compaany] (joint programme), Faculty of Computer Science, [location], 2024-2026
+(in progress)
+RELEVANT COURSES
+[compaany], Machine Learning Engineering track, [location]:
+Algorithms and Data Structures 1 - 10, Machine Learning 1 - 10, Python Language - 10, C++
+Language 1 - 10, C++ Language 2 - in progress, Go Language - in progress, Statistical
+foundations of machine learning - in progress
+[compaany], Faculty of Computer Sciences, [location]: Large-Scale
+Machine Learning - 10, Reinforcement Learning - 10, SQL Language - 10, Applied Data
+Analysis Problems - 10, Machine Learning 2 - 10, Time Series Modeling - 10, Introduction to
+Discrete Mathematics - 9, Introduction to Deep Learning - 9, Foundations of machine
+learning - 10, Introduction to Programming - 10
+[compaany], Faculty of Economic Sciences, [location]: Stochastic
+Processes - 9, Econometrics 2 (advanced course) - 9, Econometrics 1 (advanced course) - 10,
+Economic Applications of Machine Learning - 10, Probability Theory and Statistics - 9,
+Differential and Difference Equations - 10, Data Analysis in Python - 10, Mathematics for
+Economists (advanced course) - 10, Calculus (Advanced course) - 10, Linear Algebra
+(Advanced course) - 9
+RESEARCH PROJECTS
+Nov 2024 – present: Research Intern, Engineering and Mathematics School of [compaany] and [compaany],
+Workshop on Applied Artificial Intelligence, TTS Metrics Evaluation Model, [location]
+Feb 2024 – present: Research Intern, [compaany], Institute of Social Policy,
+[location]
+[compaany] Strategic Project “Life Choices & Decision Making in Times of Instability”, advisor E.
+S. [surname] [name]
+“The Impact of High-Frequency Trading Strategies on Liquidity of Tradable Financial
+Instruments” with D. [surname], A. [surname] [name] and D. [surname], advisor S. N. [surname]
+“Mergers and acquisitions: key factors influencing post-deal price behavior” with A.
+[surname] [name], P. [surname] [name], N. [surname] [name], A. [surname] [name] and D. [surname], advisor A. I.
+[surname]
+“Anti-fraud and anti-corruption compliance in the corporate governance system” with A.
+[surname] [name], V. [surname] [name], advisor O. A. [surname]
+TEACHING ASSISTANTSHIP
+Jan 2025 – present: Seminarian of the course Time Series Analysis 1, [compaany], Faculty of Economic Sciences, [location]
+2024: TA of Applied Data Analysis Problems, Machine Learning 2, [compaany], Faculty of Computer Sciences, [location]
+2023: TA of Econometrics (Advanced course), [compaany], Faculty of Economic Sciences, TA of Foundations of Machine Learning, [compaany], Faculty of Computer Sciences, [location]
+2022: TA of Introduction to Programming 2, [compaany], Faculty of Computer Sciences; TA of Mathematics for Economists (Advanced course), [compaany], Faculty of Economic Sciences, [location]
+2021: TA of Calculus (Advanced course), [compaany], Faculty of Economic Sciences, [location]
+RESEARCH INTERESTS
+Machine Learning, Deep Learning, LSML, Reinforcement Learning, Econometrics
+WORKING PAPERS
+“The Role of Subjective Factors in The Reprοductive Decisions in [location] 2022-2023.” with
+E.S. [surname] [name], D. [surname] and V. [surname] [name], 2024, Voprosy Ekonomiki, issue 9.
+“Periods of High Uncertainty: How The Fertility Intenions in [location] Changed During
+2022-2023” with E.S. [surname] [name], D. [surname] and V. [surname] [name], 2023, submitted.
+CONFERENCE PRESENTATIONS
+October 2023 X International Conference “Modern Econometric Tools and Applications” -
+META 2023, “Reprοductive Intenions of Russians in Times of Instability”, [location]
+October 2023 46th Meeting of The International Scientific SchooL-Seminar “System
+Modeling of Socio-Economic Processes”, “Factors of Reprοductive Intenions of Russians
+2022-2023”, [location]
+LANGUAGES
+Russian (native), English (fluent)

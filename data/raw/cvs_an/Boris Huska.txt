@@ -1,0 +1,57 @@
+[name], MBA, PHD, CFA, ACCA
++2 *** *** ***, [email]
+Education:
+[compaany] [location] | MBA (2019) GMAT: 720 | GPA: 3.6
+o Research/Teaching:
+o Managed Big Red Venture Fund (AI/tech investments).
+o Teaching Assistant: Data Science and High-Tech in the 21st Cenntury.
+o 3rd place in National Deloitte Tech Compeetition, Tech solution for [location]’s cocoa industry
+o
+[compaany] [location] | Ph.D. in Economics (2012)
+Dissertation: Implementaion of Automated Control Systems in Construction (applied ML for process
+optiimization).
+Research & Teaching Experience
+[compaany] [location] | Lecturer & Curriculum Deveelopeer
+Academy B1 (former Ernst & Young), [location] | Lecturer & Curriculum Deveelopeer
+ Courses: Financial Management, AI in Business, High-Tech Project Financing.
+ Research interests: AI applications in business, predictive analytics, automation.
+Professional Experience
+Private Equity Fund [location] / [location] / [location] | Executive Director (2023–Present)
+Led AI-driven financial forecasting models (Python, BigQuery) for porrtfolio projects (30% annual ROI).
+ Speaheaded IT product development for subsidiary companies, integrating ML tools.
+
+Johnson & Johnson [location] | Analytics & Innovaitions Team Lead (2019–2023)
+ Built AI solutions (Python, Dataiku, RapidMiner) to optiimze sales forecasting (30% error reduction).
+ Designed a recommendaation system for business process automation (deep learning/NLP).
+ Automated reportiing (Qlik Sense, Tableau), improving operational efficiency.
+
+Xallent [location] | Executive Director (2018–2019)
+ Commercialized nanotech probing for semiconductors; secured $10M funding for R&D.
+
+Black Earth Farming Ltd [location] | Strategy Lead (2012–2017)
+ Implemented ERP/big data analytics for agricultuure business, turning 44 mlnUSD loss into 15 mlnUSD
+profiit.
+
+State Corporation Rosatom [location] | Investments Director (2009–2012)
+Managed porrtfolio of investments projects in Machinery division on 1+ bln USD , including
+implementaion of corporate level IT-systems.
+Technical Skills
+ ML/DL Tools: Python (Pandas, Scikit-learn), Dataiku, RapidMiner, BigQuery, Tableau.
+Development: JavaScript, React, Node.js, Postgresql
+ Research Methods: Quantitative analysis, predictive modeling, and automation systems.
+ Domains: AI, recommendaation systems, process optiimization.
+
+Selected Projects
+1. Toptal: KPI control system (BigQuery + Tableau).
+2. Rosatom: AI-powered documentation management for nuclear plants.
+3. Citibank ([location]): Analyzed shared economy effects on treasury operations.
+Achievements
+ Published research on AI in venture business & pharmaceuicals:
+ “Venture Financing (focus on AI startups)”
+“Predicting outcomes (TTNT) for MM patients using Machine Learning approaches trained on RWD data”
+ “Country differences in treatment of multiple myeloma”
+
+ Speaker at academic/industry events (AI, digital transformation).
+
+ Languages: English (fluent), Russian (native).
+

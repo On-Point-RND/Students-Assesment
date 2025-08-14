@@ -1,0 +1,72 @@
+An Explainable and Interpretable Data-Driven Approach
+for Lung Cancer Detection Using CT Scan Images
+Research Project
+[name]
+MSc Data Science, [compaany] Lab, [location]
+Introduction
+Lung cancer is one of the fatal cancers worldwide, making early and reliable diagnosis critical.
+Traditional diagnostic methods are effective but require significant time, cost, and
+expert interpretation.
+Deep learning has emerged as a powerful tool for medical image analysis,
+capable of detecting patterns beyond human perception.
+However, Deep learning models lack transparency, which is a major barrier to
+their trust and adoption in clinical practice.
+Problem statement
+Despite their accuracy, black-box AI systems provide no insight into their
+predictions, limiting clinical acceptance
+Medical professionals require transparency to trust and rely on AI-assisted
+diagnostic decisions.
+There is a gap between high-performing AI technologies and their real-world
+usability in healthcare.
+To bridge this gap, there is a need for explainable systems that can highlight
+tumor regions and provide interpretable outputs to support clinical decision-
+making.
+Methods
+Flow diagram of the model for lung cancer detection using CT scan
+Results
+The IQ-OTH/NCCD lung cancer dataset contains 1,097 CT scan slices
+from 110 cases, categorized into three classes: normal, benign, and
+malignant. Collected from specialized hospitals in [location], the scans were
+annotated by oncologists and radiologist to ensure clinical accuracy [1].
+Table: Hyperparameter Setting of Model
+Hyperparameter Configuration
+Activation Function - Layer 1 ReLU with dropout probability 0.323
+Activation Function - Layer 2 Tanh with dropout probability 0.471
+Activation Function - Layer 3 ELU with dropout probability 0.247
+Loss Function Cross Entropy Loss
+Optimizer Adam
+Learning Rate 0.00013
+Scheduler Step LR - Step size: 4
+Weight Decay 0.0095
+Gamma 0.834
+Number of Epochs 30
+Batch Size 16
+Checkpoint Best model saved based on validation Kappa score
+Table 1: Comparison of model with state of the art models
+Model Accuracy Precision Recall F1-Score Kappa
+Resnet-50 [2] 86 58 64 60 74.76
+Densenet-121 [3] 96.74 95.20 96.03 95.60 94.12
+Efficientnet-b0 [4] 95.93 93.20 91.47 92.28 92.97
+Proposed Model 99.55 99.61 98.57 99.09 99.09
+Visual explanations
+Limitations & Future Work
+• The current model is based on a single dataset, which may limit the model’s robustness
+across diverse clinical settings.
+• The model classifies lung CT images into benign, malignant, and normal, but future work
+could include more detailed classification across cancer subtypes or multiple cancer types.
+• Integration with large language models could enable the generation of human-readable
+diagnostic explanations, improving transparency.
+• The system can be extended into a multimodal framework by incorporating clinical data such
+as patient history, blood tests, and tumor markers to enhance diagnostic accuracy.
+Bibliography
+1. [surname], [name] (2020), “The IQ-OTHNCCD lung cancer dataset”, Mendeley Data, V1, doi: 10.17632/bhmdr45bh2.1
+2. [name], [name]. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition.
+2016.
+3. [name], [name], et al. "Densely connected convolutional networks." Proceedings of the IEEE conference on computer vision and pattern recognition.
+2017.
+4. [name], [name], and [name]. "Efficientnet: Rethinking model scaling for convolutional neural networks." International conference on machine
+learning. PMLR, 2019.
+5. [name], et al. "Optuna: A next-generation hyperparameter optimization framework." Proceedings of the 25th ACM SIGKDD international
+conference on knowledge discovery & data mining. 2019.
+6. [name], et al. "Score-CAM: Score-weighted visual explanations for convolutional neural networks." Proceedings of the IEEE/CVF conference
+on computer vision and pattern recognition workshops. 2020.

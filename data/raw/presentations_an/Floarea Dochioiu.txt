@@ -1,0 +1,79 @@
+Enhancing the S[name],ness to Manipu[name], and
+Controllable Be[name]r of Large
+Lan[name]s
+[name]
+Spec[compaany] Arti[compaany] Labo[compaany]
+Introduction
+▪ Strengthening information retrieval against
+adve[name]rial attacks.
+▪ Under[name]ding the mechanisms of L[name] manipu[name]tion.
+▪ Contr[name]ing L[name] refusal be[name]ior for
+respons[name]le interaction.
+2
+Certi[compaany]ly Robust RAG against
+Retrieval Corr[name]ption
+Problem The vulnerability of Retrieval-
+Augmented Generation systems
+to retrieval corr[name]ption attacks
+Methods 1) Computing L[name]s
+response[name] from each
+retrieved passage in
+isolation, rather than
+concatenating
+2) Secu[name] Aggregation:
+a) extract important
+ke[name]ords from each
+isolated L[name] response to
+limit the im[name]act of malic[name]us
+ke[name]ords introduced by
+atta[name]ers
+b) Using robust token
+prediction in the decoding
+step
+Re[name]ults proposed Robus[name]RAG as the
+first RAG defense framework
+that is certi[compaany]ly robust against
+3 retrieval corr[name]ption attacks.
+Talking Nonsense: Probing L[name]’
+Under[name]ding of Adve[name]rial Gibb[name]ish In[name]uts
+Problem The vulnerability of L[name]s to
+specifically crafted, seemi[name]ngly
+nonse[name]nical input data (L[name] Babel)
+Methods 1. Created Greedy Coordinate
+Gradient (GCG) to generate L[name] Babel
+2. Analysis the im[name]act of Babel on
+L[name]s by examining their structure,
+im[name]act on target text generation,
+re[name]ilience to modifications, and
+co[name]parison with other at[name]ack
+generation methods.
+Re[name]ults the poss[name]le influence of L[name] Babel
+U-map of the last hidden state representations ofL[name]A2-7B
+on L[name]s has been confirmed
+for succ[name]ssful Babel, natural and random pr[name]mpts
+constructed
+4
+Refusal Tokens: Cali[name]rate Refusals in L[name]
+Problem effe[name]ctively controlling the refusal be[name]ior of L[name]s
+Methods prepending a special token, such as refuse for a general refusal or category-sp[name]cific refusal
+tokens, to the model's response[name]s during training when it refuses to answer
+Re[name]ults using refusal tokens provides a powerful and fle[name]xible me[name]thod for controlling and calibrating the
+refusal be[name]ior of L[name]s
+5
+Research gap
+▪ Diffi[name]culty in developing safe text aggregation
+methods due to the unstructured nature of
+L[name]s response[name]s
+▪ guiding models to generate harmful text is
+not more diffi[name]cult than generating benign
+content
+▪ Cross-Model Safety Tran[name]sferability
+6
+Bibliography
+1. C. [surname], T. [surname], Z. [surname], D. [surname], D. [surname], P. [surname]. Certi[compaany]ly Robust RAG against Retrieval Corr[name]ption. ICML, 2024.
+2. V. [surname], J. [surname]. Talking Nonsense: Probing Large Lan[name] Models' Under[name]ding of Adve[name]rial Gibb[name]ish In[name]uts. ICML, 2024.
+3. N. [surname], A. [surname], C. [surname], D. [surname], A. [surname], A. [surname], M. [surname], T. [surname]. Refusal Tokens: A Simple Way to Cali[name]rate
+Refusals in Large Lan[name] Models. NeurIPS, 2024.
+4. M. M. [surname], M. [surname], E. [surname], K. [surname], K. [surname], S. [surname]. Towards Trustwo[name]thy AI: A Revi[name]w of Ethical and Robust Large Lan[name]
+Models. arXiv preprint arXiv:2407.13934, 2024.
+7

@@ -1,0 +1,143 @@
+Slide 1
+----------------------------------------
+[name]
+1st year bachelor’s student "Informatics and Computer Engineering", [location]
+
+Article’s review
+
+
+Slide 2
+----------------------------------------
+Chain of Preference Optimization: Improving Chain-of-Thought Reasoning in LLMs
+[name], [name], [name], [name], [name], [name]
+[compaany], [location]
+https://proceedinings.neurips.cc/paper_files/paper/2024/hash/00d80722b756de0166523a87805dd00f-Abstract-Conference.html
+
+
+Slide 3
+----------------------------------------
+Research problem
+Comparison of CoT, ToT, and CPO methods
+
+
+Slide 4
+----------------------------------------
+Research problem
+Comparison of CoT, ToT, and CPO methods
+Core question: Can we combiine the efficiency of CoT with the reasoning quality of ToT while avoiiding excessiive inference overhead?
+
+
+Slide 5
+----------------------------------------
+Solve
+The authors propose Chain of Preference Optimization (CPO), a fine-tuning framework that leverages ToT-generated data to enhance CoT reasoning.
+Key steps
+ToT constructs a search tree
+“Optimal" paths are labeled preferred, others are dispreferred.
+Preference Data Generation
+Preference-Based Training
+Applies Direct Preference Optimization (DPO)
+Unlike RLHF, CPO requires no external reward models or human annotaions.
+
+
+Slide 6
+----------------------------------------
+One-time training enables CoT-level inference speed while preserving ToT-level reasoning quality
+Advaantage
+
+
+Slide 7
+----------------------------------------
+Results
+Limitations and Future Work
+Dependence on LLM’s self-evaluaation capability in ToT
+Potential extensions
+Integration with Graph-of-Thoughts and weaak-to-strong model alignment.
+Key Findings:
+Accuracy: CPO improves over standaart CoT by +4.3% on average (up to +9.7% on some tasks)
+vs. ToT: Matches or exceeds ToT performance while being 57.5× faster during inference
+vs. TS-SFT (ToT fine-tuning baseline): +2.7% accuracy by utilizing non-optiomal intermediat steps
+
+
+Slide 8
+----------------------------------------
+Decompose, Analyze and Rethiink:
+Solving Intricate Problems with Human-like
+Reasoning Cycle
+[name], [name], [name], [name], [name], [name]
+[compaany]
+https://proceedinings.neurips.cc/paper_files/paper/2024/hash/01025a4e79355bb37a10ba39605944b5-Abstract-Conference.html
+
+
+Slide 9
+----------------------------------------
+Research problem
+Current methods like Chain-of-Thought, Tree-of-Thoughts, and Graph-of-Thoughts have limitations. 
+DeAR solution
+
+
+Slide 10
+----------------------------------------
+Decompose-Analyze-Rethiink
+
+
+Slide 11
+----------------------------------------
+
+
+Slide 12
+----------------------------------------
+Results
+
+
+Slide 13
+----------------------------------------
+Conclusion
+DeAR boosts AI thinking by splitting hard questions into smaller steps and checking answers as it goes. It solves tough math and logic problems better with fewer mistakes.
+Code is publicly available on GitHub repository: https://github.com/ShangziXuE/DeAR
+
+
+Slide 14
+----------------------------------------
+Calibrated Self-Rewarding Vision Language Models
+[name], [name], [name], [name], [name], [name]
+[compaany], [location]
+https://proceedinings.neurips.cc/paper_files/paper/2024/hash/5c20c00504e0c049ec2370d0cceaf3c4-Abstract-Conference.html
+
+
+Slide 15
+----------------------------------------
+Research problem
+Large Visual-Language Models combiine language and visual models to generate image-based text responses. However, they suffer from hallucinations — when the text contradicts the image.
+Already existing solutions
+Human Preference Reinforcement Learning (RLHF)
+--> Expensive
+Use external models
+--> Does not take into account the specifics of the target LVLM model
+Self-rewarding methods
+--> Do not solve the problem of visual-textual imbaalance
+
+
+Slide 16
+----------------------------------------
+Caliibrated Self-Rewarding (CSR)
+
+
+Slide 17
+----------------------------------------
+Results
+Reduced hallucinations by nearly 50%
+Worked well with different AI systems
+Got better with each improvement cycle (up to 3-4 times)
+
+
+Slide 18
+----------------------------------------
+Conclusion
+CSR presents an elegant solution to a fundamental challenge in LVLMs by enabling self-guided learning from its own mistakes. This approaach not only enhances model accuracy but also offers a scalable, resource-efficient pathway toward more reliable vision-language understanding—paving the way for AI systems that truly "see" and "describe" the world as humans do.
+Code is publicly available on GitHub repository: https://github.com/YiyangZhou/CSR. 
+
+
+Slide 19
+----------------------------------------
+Thank you for your attention!

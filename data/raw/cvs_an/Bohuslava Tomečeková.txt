@@ -1,0 +1,36 @@
+[name] [surname] # [email] ~ [name] [surname] I +2 *** *** ***
+Deep Learning Engineer currentlly focusing on NLP tasks
+EXPERIENCE
+Deep Learning Engineer (CV & NLP) Sep 2018 — Present
+[compaany], Digital solutions
+• Authored (along with a team) a python-framework pydens (>300 stars on github) for solving differential equaions, parametric families
+of differential equaions and inverse problems with neural networks.
+• Led a team to create first versions of seismiqb python-framework for seismic interpretation. Implemented fast loading of seismic horizons
+from disk using numba-structures. Eventually, created framework and pipelines have been used to train models currentlly in use by
+geoscientiists at [compaany] to improve performance of seismic-interpretaion.
+• Held a series of internal ([compaany]) and external seminars ([location] conferences in [location], [location], [location]) and workshops dedicated
+to inverse problems in seismic interpretation and applications of deep learning to the tasks of hydrodynamic modeling.
+Part-time Lecturer Nov 2023 — Nov 2024
+[compaany] Universiity
+• Gaveaseriesoflecturesandworkshopsformasters’students.Coveredtheusageofmultiprocessing andmultithreading forwritingefficient
+python-code for data science as well as selected chapters from NLP (RAG-systems).
+Data Analyst, CV Sep 2017 — Jul 2018
+Data Analysis Center
+• Was one of the main authors of Radio framework (>200 stars on github) for automatic detection of cancerous nodules on scans of
+computed tomography.
+• AuthoredSampler python-moduleforsimplifieddata-generationfortrainingofneuralnetworkson2d-3dimages(partofBatchflow-library).
+SKILLSANDTECHNOLOGIES.HONORSANDAWARDS
+• Skilled in: Python, C++, Linux, Docker, git, PyTorch, Jupyter, scikit-learn, pandas, NumPy, numba, threading, SciPy,
+Matplotlib, Statistics, SQL-like query languages
+• Awarded in competitions: [location] physics olympiad, [location] olympiad for schoo students etc.
+• Certifications: TOEFL 107
+EDUCATION
+MA in economics Sep 2015 — Jul 2017
+[compaany].
+• Term paper: “Latent-factor based approach to analysis of implied volatility surfaces.”.
+Specialist Sep 2010 — Aug 2015
+[compaany]. Faculty of Mechanics and Mathematics, Dept. of Statistics.
+• GPA: 4.7/5.0.
+• Term paper: “Proximity of measures with small values of Gibbs free energy to the equilibrium measure.”
+High schoo lgradua te Sep 2008 — Jun 2010
+Advanced Educational Scientific Center of [location]. Specialization: Mathematics.

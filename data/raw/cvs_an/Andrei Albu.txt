@@ -1,0 +1,33 @@
+[name] [surname]
+[location] | [email] | +2 *** *** ***
+github.com/[username]
+About Me
+Interested in ML(DeepLearning,NLP), it’s applications and tasks, that connect many layers of knowledge.
+Looking for internship/participation in project on ML.
+Education
+Presidential Physics and Mathematics Lyceum No. 239, 10-11 grades Sept2020–May2022
+• GPA:4/5
+Moscow Institute of Physics and Technology, BSc in Software Engineering Sept2022–May2027
+• GPA:8/10
+Experience
+MLEngineerIntern, [company]–[location] July2024–October2024
+• Engineered candidate generation features, create pipeline, which computes that features and then add them into production, which gave 7% increase in metric.
+Publications
+It is believed that "Camera accuracy studies" will eventually (approximately 20xx 2025 fall) become one.
+[name] [surname], [name] [surname]
+Projects
+Current project: Camera accuracy studies github/Camera-studies
+• We study existing ways of controlling camera position against some labels, presented in its view. Labels could be blocked or camera could be moved. It’s one of MIPT’s RoboFootball team’s task to improve their game.
+• Tools Used: Python,OpenCV,Jupyter notebook
+HSSE.tech github/hsse-tech
+• Web application which simplifies room and instruments booking in our dormitory.
+• Tools Used: Java,Spring
+News chatbot github/NewsBot
+• News chatbot is a comprehensive solution for collecting, analyzing and delivering the most relevant and important news in the fintech field personally to each user.
+• Tools Used: Python
+OGLEngine github/OGLEngine
+• Graphic Engine that was inspired by games like Superliminal, which played with its space and physics. This engine in particular could create non-flat portals. That of course in addition to basic capabilities as rendering basic geometric and polygonal shapes with textures on it.
+• Tools Used: C++,GLSL
+Technologies
+Languages:Python,C++,SQL,Java,C#
+Technologies: Torch,Pandas,PostgreSQL,OpenCV,Docker

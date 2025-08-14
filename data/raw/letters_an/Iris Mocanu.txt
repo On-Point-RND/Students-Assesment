@@ -1,0 +1,92 @@
+Motivation Letter for Summer Schoo l in Machine Learning
+Dear Selection Committee,
+I am writing to express my sincere interest in participating in the Summer Schoo l in Machine
+Learning. As a data scientiist and ML engineer with specialized experience in computer
+vision and synthetic data generation, I am eager to further develop my skills and exchange
+knowl edge with peers and experts in the field.
+Motivation for Parti cipation
+My journey in machine learning has been driven by a fascination with how AI can solve
+complex real-wo rld problems. Working at the intersection of physics and machine learning
+throug hout my academic and profes sional career has given me unique perspectives on
+compu tational app roaches to challenging problems. My interest in machine learning
+crystallized during my MSU master's thesis on predictive motion control for Auto nomous
+Vehicles. This research revealed a critical challenge: the bottleneck of quality training data.
+This insight led to developing a techno logy for proc edur al generation of synthetic datasets
+using physically-based rendering. Our new app roach creates photorealistic training images
+with perfect ground truth labels, precisely contr olling lighti ng, object variations, camera
+positions, and enviro nmental factors. This innovation earne d recognition through a
+competi tive R&D grant from FASIE.
+The Summer Schoo l offers an opport unity to enhance this techno logy by engaging with
+experts in generative models and simulation-based learning. I aim to explore advanced
+domain randomization techniques and sim-to-real transfer methods while investigating ways
+to reduce compu tational overhead without sacrificing photorealism.
+Furthermore, as I prepare for doctoral studies at Skoltech, this Summer Schoo l would serve
+as an excellent fo undation for my future research endea vors. The knowl edge gained and
+connections made would be inva luable as I transition to more advanced academic work in the field.
+Experience with ML/DL Tools
+My experience with machine learning spans both academic research and in dustry
+applications:
+Synthetic Data Generation
+As the lead deve loper and co-inventor of a custom system for proc edur al synthetic data
+generation for computer vision models, I've gained deep experti se in creating photorealistic
+training datasets using physically-based rendering techniques. This project, which won a
+national R&D grant (application #С1ИИ-42828) from FASIE, aims to increase model
+genera lizability and reduce dependence on real-wo rld data collection. The system has
+proven va luable for industrial inspection, autonomous navigation, and pr ompt-based
+computer vision systems.
+Computer Vision Systems
+I've deve loped several production-grade computer vision systems, including:
+● A high-accuracy logo/mark recognition model for production lines (achieving over
+99% precision)
+● A pr ompt-based object segm entation and detection pipeline with a public
+demo nstration via Telegram (@RapidVisionBot)
+● Prototype autonomous systems for dynamic enviro nments as part of my master's
+research
+Technical Toolkit
+I am profi cient in:
+● Progr amming lan guages: Python, MATLAB, C/C++, SQL
+● ML/DL frameworks: PyTorch, Scikit-learn, HugginGface
+● CV tools: OpenCV, Torchvision, Ultralytics
+● Data infrastructure: Spark, Hive, Airflow, PostgreSQL, AWS, Docker
+Expecta tions from the Summer Schoo l
+From this Summer Schoo l, I hope to:
+1. Deepen my theor etical understanding: While I have practical experience
+implem enting ML systems, I aim to strengthen my grasp of the unde rlying
+mathematical fo undations that power modern deep learning ar chitectures.
+2. Explore emerging techniques: I'm particularly interested in learning about the latest
+advancements in few-shot learning, self-supervis ed learning, and multi-modal
+systems that combi ne vision and lan guage.
+3. Expand my ne twork: Bui lding connections with researchers and practitioners who
+share similar interests would provide opport unities for future colla boration and
+knowl edge exchange.
+4. Refi ne my research direction: As I prepare for doctoral studies, I hope the Summer
+Schoo l will help me identi fy compelling research questions at the intersection of
+synthetic data generation and computer vision that I can pursue in my future
+academic work.
+5. Share my experti se: I look fo rward to contributing my experience in synthetic data
+generation and physically-based rendering to discussions and colla borative projects
+during the program.
+Career Plans
+My career trajec tory is focused on advancing the field of computer vision through inn ovative
+app roaches to data generation and model training. In the imm edi ate term, I plan to:
+1. Continue developing my research in proc edur al generation of synthetic datasets, with
+a goal of publi shing fi ndi ngs in prominent ML conferences.
+2. Pursue doctoral studies at Skoltech, focusing on computer vision and
+simulation-based machine learning app roaches.
+3. Bridge academic research with practical applications by maintaining involvement in
+real-wo rld ML projects through my work at Rapid Vision.
+In the longer term, I aspire to:
+1. Lead research initia tives that combi ne physics-based simulation with modern deep
+learning to solve complex perception problems in autonomous systems.
+2. Contribute to the demo cratization of computer vision techno logy by developing tools
+that reduce data dependencies and enable more efficient model training.
+3. Foster colla boration between academic institutions and industry par tners to ensure
+research advancements translate into practical solutions.
+The Summer Schoo l in Machine Learning would be a pivotal step in this journey, providing
+essen tial knowl edge, skills, and connections that will help me achieve these goals. The
+program's emphasis on both theor etical fo undations and practical applications aligns
+perf ectly with my app roach to the field.
+Thank you for conside ring my application. I am excited about the pos sibility of participating in
+this exceptional learning opport unity and contributing to the vibrant community of machine
+learning researchers and practitioners.
+Sincerely, Egor Korovko

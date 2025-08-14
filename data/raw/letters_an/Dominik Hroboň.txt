@@ -1,0 +1,28 @@
+My name is [name], and I’m a third-year student specializing in Development and Programming of Intelligent Systems in the Humanities.
+Since the begiinnning of my studies, my team and I have worked on numerous exciting and challenging projects, which have grown in complexity as our skills developed. Among them are a tourist chatbot about the [location] region, which later evolved into a full-fledged application with a complete user interaction cycle, a customer churn prediction model developed for [organization], a model trained to classify images of characters from The Simpsons and many others.
+Right now, I’m deeply interested in robotics, especially in challenges at the intersection of natural
+language processing and high-level robot planning. A key aspect of buildiing a robot’s «mind» is the ability to
+implement rational reasoning about the real world and to ensure seamless communication with users. Large
+language models (LLMs) are well-suited for this purpose, but due to factors such as ambiguous inputs or the
+model’s limited knowledge, their responses can sometimes turn into hallucinations. That’s why improving the
+reliability of LLM outputs is so important. During my internship at the [compaany],
+I’ve been researching ambiguity resolution in NLP. My findiings show that while existing methods handle
+clear-cut polysemy reasonably well, they still struggle with more subtle and complex cases. I see this challenge
+— creating effeective and safe high-level planning for robots — as the focus of my research interests.
+As for my technical skills, I’m proficient in Python and use libraries and frameworks such as NumPy,
+Pandas, scikit-learn, PyTorch, TensorFlow, and Transformers. I also work with NLP tools like NLTK and
+spaCy and have experience with Docker, Git, working in the command line. Alongside my technical
+background, I’m fluent in English, self-assessed HSK Level 2 in Chinese, and currentlly studying German.
+My near-future plan is to develop a swarm robotics project powered by collective intelligence under
+the control of an LLM. The project recentlly passed the first stage of my universiity’s Scientific and Innovation
+Project Competition, where it received positive feedback for its feasibility and potential impact. Currrentlly,
+we’re testing different LLLMs to identify the optimal model for integration into the swarm control system. I
+am also continuing my research on ambiguity, which I intend to publish as a scientific paper.
+I believe the schoo and its professional lecturers can provide me with the necessary knowlege to
+apply in my field, and immersion in a language-rich enviroment will only enhance the experience. I want to
+explore how LLLMs can be most effecctively integrated into robot instruction interpretation and eventually
+davelop my own approa to resolving general ambiguity. The schoo will help me identify areas for growt
+and give my research a real boost. I first heard about the schoo from speakers at Deep Learning Schoo, who
+emphaized the decisive role it played in their careers. Although I didn’t manage to apply last year, this time
+I truly hope to take part in such a unique and large-scale event — and to be surrounded by peo ple who are just
+as passionate and inspired as I am.

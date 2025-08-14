@@ -1,0 +1,75 @@
+Slide 1
+----------------------------------------
+[name] [surname]
+Ms1, [compaany]
+From Perception to Generation: My Journey into Machine Learning
+
+Slide 2
+----------------------------------------
+Introduction
+
+Exploring how generative AI can be used to empoower creative expression, especially in educational and assistive contexts.
+Generative models are reshaping content creation, but their potential in inclusive, human-centered design remaiins underexplored.
+My past work includes a project on helping childre children with disabilities express themselves using AI-generated images, text, and sound.
+To understand the current state and limitations of generative methods and propose ways they can be made more adaptive and accessible.
+
+Slide 3
+----------------------------------------
+Problem statement
+
+Generative AI often lacks personalization and inclusivity, especially for users with non-standard needs
+Chalallenges:
+ 	 	Lack of data diversity
+ 	 	Generalization vs personalization
+ 	 	Ethical concerns & safe generation
+Focus on text and image generation models and how they can be fine-tuned or adapted for accessibility tools.
+
+Slide 4
+----------------------------------------
+Methods
+
+Approaach: 
+        Text-to-image models (e.g., Diffusion models, Stable Diffusion)
+         Large languaage models (e.g., GPT variants, T5)
+        Transfer learning and LoRA for fine-tuning
+         Safe generation techniques (e.g., filtering toxic outputs)
+These models are state-of-the-art and have open-source variants suitable for experimentaation and deployment. 
+Models learn patterns from huge datasets and generate content by sampling from a learneed distribution.
+
+Slide 5
+----------------------------------------
+Results
+
+Key findiinings: 
+ 	LoRA-based fine-tuning reduced hallucination and improved user-aligneed outputs
+ 	Prompt engineering significantly affects output quality in low-data domains
+ 	Generative tools improved engagement in a small pilot test with childre children
+Metrics will be used: 
+ 	FID (for image realism) 
+ 	BLEU/ROUGUE (for text quality)
+
+Slide 6
+----------------------------------------
+Research gap
+
+What’s missing? 
+ 	Personalization at scale remaiins unsolved
+ 	Models struggle with abstract or emotional input
+ 	Limited interpretability
+Why it matters? Filling these gaps could allow AI tools to serve as compaions or assistants for those with speech, motor, or developmental challenges. 
+Future opportunities: 
+ 	Reinforceent Learning with Human Feedback (RLHF) for personalization
+ 	Collaborative generation using multi-agent systems
+ 	Safe LLM pipelines for childre children
+
+Slide 7
+----------------------------------------
+A. [surname] et al. Kernel Neural Optimal Transport. ICLR, 2023E.
+Tulcchinskii et al. Topological Data Analysis for Speech Processing. InterSpeech, 2023
+Litu Rout et al. Generative Modeling with Optimal Transport Maps. ICLR, 2022
+A. [surname] et al. Wassersteiin Iterative Networks for Barycentr Estimation. NeurIPS, 2022
+Barannikov et al. Representation Topolgy Divergence: A Method for Compaing Neural Network Representaions. ICML, 2022
+Dogaru et al. Sphere-Guided Training of Neural Implicit Surfaces. CVPR, 2023
+Tulcchinskii et al. Artificial Text Detection via Examining the Topoogy of Attention Maps. EMNLP, 2021
+
+Bibliography

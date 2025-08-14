@@ -1,0 +1,113 @@
+Semi-supervised Cooperative Learning for
+Multiomics Data Fusion
+[name] [surname], [name] [surname], [name] [surname], [name] [surname]
+https://arxiv.org/abs/2308.01458
+Goal of the work
+Goal: utilize different omics modalities on the
+same set of observations to model an outcome
+of interest
+Why multiomics data fusion?:
+Potential for making discoveries that are hidden
+in a single modality, and achieving more
+accuraate predictions of outcome.
+Two types of existing approaches
+Proposed cooperative learning
+Cooperative learning
+y – target, X and Z – data from different modalities, p – hyperparameter
+p = 0: Early fusion
+p = 1: Late fusion
+Semi-supervised cooperative learning
+The challenge of acquiring large-scale labeled
+data remaiins, and there are cases where
+multiomics data available but in absence of
+annotated labels.
+That's why semi-supervised cooperative learning
+was proposed.
+Semi-supervised cooperative learning
+J – objective in the regularized regression setting.
+Rewrited problem
+Experiment
+100 people: train / test = 75/25
+The proteomics data contained measurements for 302 proteins and the
+transcriptomics data contained measurements for 8,556 genes.
+The goal of the analysis is to predict age using proteomics and transcriptomics
+data and uncover molecular signatures associated with the aging process.
+The researches artificially masked the labels for half of the training samples to
+create a mix of labeled and unlabeled data.
+Results
+AUTOSPEED: A LINKED AUTOENCODER APPROACH FOR
+PULSE-ECHO SPEED-OF-SOUND IMAGING FOR MEDICAL
+ULTRA SOUND
+[name] [surname], [name] [surname], [name] [surname], [name] [surname]
+https://arxiv.org/abs/2207.02392
+Problem statement
+Recent studies showed the possibility of extracting
+SoS information from pulse-echo ultrasound raw data
+(a.k.a. RF data) using deep neural networks that are
+fully trained on simulated data.
+But existing networks (default encoder-decoder) are
+prone to overfitting to simulated data which results in
+poor performance and instability when tested on
+measured data.
+Approach
+Train 3 models simultaneously
+with common loss function
+Approach
+And then combiine them into
+one Encoder-Decoder network
+Results, simulated data
+AutoSpeed En-De Net
+MAE, m/s 37,26 17,32
+MAPE, % 2.39 1.11
+RMSE, m/s 47,98 23,64
+The error ranges of both networks are in the typical range of SoS errors (1 − 2%).
+However, on the simulated data the En-De-Net has a lower error rate.
+Results, measured data
+Data was obtained with LightA BV S system
+Since there is no ground truth value, the
+researches relied on manufacturer’s
+specifications.
+However, if En-De-Net finds the area with
+SoS contrast often the predictions have
+clearer margins. AutoSpeed shows more
+stable SoS predictions inside the inclusion
+area but it is sensitive to highly reflective
+scatterers
+Exploiting Partial Common Informaation Microstructure for
+Multi-Modal Brain Tumor Segmentation
+[name] [surname], [name] [surname], [name] [surname]
+https://arxiv.org/abs/2302.02521
+Problem statement
+Existing approaches are oblivious to partial common
+information shared by subsets of the modalities
+A new framework can leverage the partial common
+information microstructure of multiple modalities in
+brain tumor segmentation tasks
+Main contributions
+The main contributions of the work are as follows:
+– The novel PCI-mask and its online optimization to identiify partial common information microstructures in
+multi-modal data during learning was introduced.
+– U-Net-based framework utilizing PCI-masks and the self-attention mechanism to exploit the partial common
+information thoroughly were proposed.
+– Experimental results of the design demonstrate its effectiveness in handling brain tumor segmentation tasks
+outperformiing state-of-the-art baselines.
+Soft-HGR loss
+Soft-HGR objective has been shown to extract hidden common information features among multiple
+modalities more efficientlly
+Masked Correlation Maximization
+Authors modified Soft-HGR with adding s – selective mask vector, which elements in range [0,1] and s satisfy the
+condiition:
+which allow focus on at most c dimensions with the most valuable common information in feature representations.
+Partial common information mask
+Definition: PCI-mask as a m × m diagonal matrix diag(λ1, . . . , λi) with diagonal values denoted by λi, where i = 1, . . . , m
+Previous problem can be rewritten in terms of PCI-mask as follow:
+PCI-mask Update
+Authors also update PCI-mask with GDP method
+Projection subset
+Algorithm
+System Design
+Results
+Dataset: Multimodal Brain Tumor Segmentation Challenge (BraTS)
+WT, TC, ET – whole tumor, tumor core , and enhancing tumor regions
+DSC – Dice Similarity Coefficient
+PPV – Positive Predictive Value

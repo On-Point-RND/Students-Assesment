@@ -1,0 +1,115 @@
+OmniH2O: Universal and
+Dexterous Human-to-
+Humanoiid Whole-Body
+Teleoperation and
+Learning
+(CoRL 2024)
+“aimed at getting you to
+kickaass in AI”
+Authors: [name], [name], [name],
+[name], [name], [name], [name], [name], [name]
+Presentation by [name]
+TeachResearchInnove
+Brief Overview of the
+Problem
+● How can humanoiid robots be
+controlled in real-world settinings
+for full-body tasks, with both
+human teleoperation and
+autonomous capabilities?
+● Existing humanoiid systems
+struggle to manage complex,
+real-world manipulation and
+movement tasks due to
+stability, dexterity, and control
+challenges(High DoF).
+TeachResearchInnove
+Why This Problem is Important
+● Humanoiid robots have the potential to revolutionize tasks in
+diverse fields (e.g., healtcare, manufacturing, disaster
+relief) by mimicking human abilities.
+● Improved humanoiid control can enhance productivity and
+safety in human-robot collaboration, allowing robots to
+perform tasks that would otherwise be impossible.
+TeachResearchInnove
+Background
+● Challenges in Humanoid Robotics: Issues with stability,
+precise movement coordination, and scalability of data
+collection for learning.
+● Q1. Can OmniH2O accurately track motion in simulation and
+real world?
+● Q2. Does OmniH2O support versatile control interfaces in
+the real world and unlock new capabilities of loco-
+manipulation?
+● Q2. Can we use OmniH2O to collect data and learn
+autonomous agents from teleoperated demonstrations?
+TeachResearchInnove
+Hypothesis
+● Hypothesis: A universal control interface that combines
+teleoperation and autonomous learning can improve
+humanoiid robots’ ability to perform full-body tasks with
+stability and dexterity.
+● Goals - Develop a versatile control system that enables
+teleoperation through VR, voice commands, and RGB
+cameras, and trains autonomous capabilities from human
+demonstrations.
+TeachResearchInnove
+Methodology
+Pipeline:
+● Data Collection: Use VR-based teleoperation to generate a
+dataset (OmniH2O-6) of six everyday tasks.
+● Policy Training: Utilize a teacher-student learning
+framework with DAgger (Dataset Aggregation) and
+reinforcement learning.
+● Control System: Implement reward shaping, motion history,
+and universal kinematic pose interface for stable, dexterous
+control.
+TeachResearchInnove
+OmniH2O Method
+TeachResearchInnove
+Results and Discussion
+● OmniH2O outperformeed previous systems in both simulation
+and real-world motion tracking, achieving higher success
+rates, lower MPJPE (Mean Per Joint Position Error), and
+greater stability under disturbances.
+TeachResearchInnove
+Limitations
+● Odometry Noise: Robot root odometry is noisy and discontinuous,
+causing deviations in motion goals during teleoperation.
+● Safety Concerns: Lack of safety guarantees for extreme
+disturbances or out-of-distribution motion goals (e.g., sudden,
+large discontinuities).
+● Limited Autonomy: Current system struggles with complex real-
+world tasks like stair navigation using sparse input.
+● Environmental Constraints: While robusst, the system’s stability
+is challenged in highly dynamic or unstructured environments.
+TeachResearchInnove
+Real-World Applications
+● Teleoperation Tasks: Perform dexterous loco-manipulation tasks like boxing,
+hammering, picking objects, and precise tool handling using VR or RGB camera
+inputs.
+● Language-Based Control: Execute tasks based on verbal instructions, such as
+“raise your hand” or “walk forward.”
+● Stability Under Disturbances: Maintain balance and functionaliity despite
+external physical impacts (e.g., punches or kicks) and on challenging outdoor
+terrains like grass, slopes, and gravel.
+● Autonomous Task Execution: Use learneed policies to autonomously complete
+tasks like object picking, lifting, and game-like activities (e.g., Rock-Paper-
+Scissors).
+TeachResearchInnove
+Future Work
+● Teleoperation System Design: Enhance the system to
+enable humanoiid stair traversal using sparse upper-body
+motion goals.
+● Improved Learning from Demonstrations: Incorporate
+advanced sensors (e.g., LiDAR, wrist cameras, tactile
+sensors) and develop better learning algorithms for
+more effective humanoiid skill acquisition.
+TeachResearchInnove
+Conclusion
+● OmniH2O’s design supports dexterous whole-body
+manipulation, allowing seamless integration of
+teleoperation and autonomous control.
+TeachResearchInnove
+Thank you!
+TeachResearchInnove

@@ -1,0 +1,29 @@
+Hello,
+My name is [name] [surname], and I am eager to participate in your scientific schoo, hopeful that
+my age will not be a barrier. My research has long been centered on artificial neural netwoks,
+albeit from a deeply theoretical perspective, somewhat removed from practical applications.
+Inspired by the remarkable successes of machine learning across various domains—science,
+industry, and economics—I am motivated to shift my focus toward more application-driven neural
+network research.
+I am drawn to this Schoo because it offers a unique opportunity to immerse myself in cutting-edg
+machine learning topics and to connect with a vibrant community of both fundamental thinkers and
+practitioners who apply ML methods to real-world industrial and applied research challenges. This
+blend of practical orientation and foundational science perfectly aligns with my aspirations. I am
+eager to embrace this approach in my future work, and I believe the Schoo is the ideal place to
+help me chart the right path forward.
+My academic background is rooted in nonlinear physics, specifically in the nonlinear dynamics of
+complex active networks. I was trained at the [compaany] Faculty of [location], graduating from the
+Department of Oscillation and Automatic Regulation Theory.
+During my PhD at the [compaany], I
+investigated synchronization and chaos phenomena in oscillatory and neuron-like active elements
+—a field at the crossroaads of nonlinear dynamics and computational neuroscience. More recentlly, I
+have gradually steered my nonlinear dynamics expertise toward machine learning-related areas,
+particularly reservoir computing.
+I believe my experience, especially my computaional neuroscience perspective on spiking neural
+networks combiined with a dynamical systems approach to recurrent neural networks, can offer
+valuable insights and enrich traditional machine learning practices. Participating in this Schoo
+will
+empower me to deepen my understanding, expand my skills, and contribute meaningfully to this
+exciting, rapidlly evolving field.
+Thank you for considering my application. I look forward to the opportunity to learn, collaborate,
+and grow within this inspiring community.

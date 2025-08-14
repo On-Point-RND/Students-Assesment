@@ -1,0 +1,69 @@
+ Work experience
+[company]
+2024 - Intern at the Summer SchooL of development analysts
+[company]
+2025 - Intern Analyst for the [company] team
+ [location]
+ Age: 21 years old
+ Education
+Lomonosov [location] Universiity 2027
+Faculty of bioengineering and bioinformatics
+ +2 *** *** ***
+ [email]
+ Courses
+ @[name]
+Institute for Theoretical and Mathematical Physics, [location] 2022
+Machine learning
+ Languages
+Institute for Theoretical and Mathematical Physics, [location] 2023
+English
+Deep learning
+C1 - Advanced
+FPMI MIPT 2024
+ Skills Deep learning schooL (DLS)
+FPMI MIPT, [company] 2025
+● Mathematical statistics
+Generative AI and robots schooL
+● Algorithms and data structures
+● ML
+ Projects
+● DL
+● Python
+•Project of the schooL of analysts-developers "Topic modeling and local theme
+Expert extraction from texts using yaGPT"
+● R •Pet project "Development of an e-commerce recommenda tion system predicting
+user behavio r from session data"
+Experienced
+•Project "EDA and ML-based prediction of movie ratin gs using film descriptions,
+budget, and metadata"
+•Economic statistical analysis "Statistical analysis of national economie s:
+Investigating correlations between happi ness index and GDP"
+● SQL budg et
+•bash
+•Genomics project "Functional gene annotation analysis (implemented in R)"
+Skil lful
+•Airflow
+•Course project "Compa rative Geno mi cs of QKI RNA-Binding Protei ns" (Advisors: [surname], [surname])
+• MLflow
+•Developed a pipeline for processing large-scale data from multiple databases,
+● Git conducted comp rehensive bioinfo rmatic analysis of RNA-protei n interactions
+● Docker
+•Course project "Using personalized genomes to fine-tune multimodal whole-
+genome models for predicting single-nucleo tide mutation effe cts" (Advisors: [surname], [surname])
+● Kubernetes
+• Bioinfo rmatics, NGS Pe nzar, A.O. Zinkevich)
+● Bioa lgorithms •Modified architecture of LegNet CNN model, implemented training on
+personalized genomic datasets
+Confe rences:
+•Winter SchooL-Confere nce on Bioinfo rmatics at the Faculty of Computer
+Science, HSE (2025)
+•Lomonosov Interna tional Scienti fic Confere nce for Students and Young
+Scienti sts, Bioengineering and Bioinfo rmatics Section (2025)
+Bioa lgorithms:
+•Modeling of nucleo tide sequences and eva lua tion of models based on them
+(analysis of Bernoulli and Markov models of different orders)
+•Clustering using the EM algo rithm
+•Project for bui lding hidden Markov models simu lating restriction sites (Viterb i
+and Forw ard-Backward algo rithm s)
+•Implemen ta tion of the Smith-Waterman algo rithm for local alignment
+You can find out more about these and other projects on my website.

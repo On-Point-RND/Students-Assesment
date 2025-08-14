@@ -1,0 +1,10 @@
+[name] [surname], SMILES 2025
+My motivation for joining the SMILES school is quite straightforward. Artificial intelligence is increasingly permeating not only people’s lives but also my own, so I want to learn everything I can about how it works and the latest innovations in the field.
+My first job as a security engineer at [company] involves using artificial intelligence in many processes for automation and gaining a competitive edge. As a technical leader, I see it as my professional duty to bring innovations to the table.
+My second role in [company], where we are developing our own module for neural network computations (NPU/TPU), requires not only advanced low-level programming skills – knowledge of compiler theory, and programming languages such as C, C++, and Assembly – but also a deep understanding of machine learning algorithms to deconstruct them and optimize specific components.
+I also can’t overlook the location of the school. I have a genuine appreciation for the East and its culture; I have traveled to various provinces in [location] and would be thrilled to return there for educational purposes.
+Finally, while I could study all of the school’s materials and understand everything the speakers have to say, doing so in an environment with hundreds of like-minded individuals in person is far more valuable. In particular, it would be especially interesting for me to listen and ask questions about Self-supervised learning and Safe AI.
+For all these reasons, I am eager to attend SMILES 2025.
+
+
+

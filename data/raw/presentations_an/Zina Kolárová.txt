@@ -1,0 +1,52 @@
+Craftax Walkthrough
+with [name]
+about
+Craftax - what is it?
+Craftax is a game about exploring dungeons, mining,
+crafting, and fightiing enemies. The player can move in four
+directions and interact with the environment.
+The player has 5 internal attributes: health, hunger, thirst,
+energy, and mana.
+To complete the game, the player needs to find the stairs on
+each floor to descend to the next level. Each floor has unique
+tasks and creatures, the difficulty of which increases up to
+the last level with the boss.
+Why Craftax? RL Baseline
+“Existing tests for open-ended learning are either too slow or too simple. Craftax is both fast
+and complex. We hope that this will allow researchers without access to industrial-scale computing
+to explore open-ended learning with an ease that was previously impossible.”
+1. Craftax was originally designed for RL solutions; all
+existing algorithms are based on reinforcement learning.
+2. There are many Baselines and a leaderboard.
+3. The game has achievements of varying difficulty and a
+convenient reward system.
+Goals
+For this, the project must implement four main structures:
+Endless generation of new tasks for the character
+● Generation of working code by the neural network to solve this task
+● Analysis of the written code, identifying errors
+● In the case of generating good code that performs the task, memorizing it for further reuse in
+similar situations, or for creating other code that solves a more complex task
+Structure
+Curriculum agent
+Curriculum agent
+Skill manager
+Skill manager
+Action agent and critic agent
+Prompts
+System prompts:
+[email] GPT
+Different versions of [email] GPT for resource optimization:
+[email] GPT lite - For simple tasks:
+Skill manager: Creating code descriptions
+[email] GPT pro - For more complex tasks that do not require a lot of context:
+Curriculum agent: Generating tasks for the player
+Critique agent: Checking task completion
+[email] GPT pro 32k - For complex tasks with a lot of context
+Action agent: Generating code
+[compaany]
+runs
+task: task: task: Task:
+Drink water Create a crafting Create furnace Subtask by [email]
+table
+Best run: Reward (% max) - 5.89

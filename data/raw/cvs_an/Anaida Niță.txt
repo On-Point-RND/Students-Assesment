@@ -1,0 +1,70 @@
+[name] [surname]
++2 *** *** ***
+[email] @mail.ru } [email] * [location]
+EDUCATION HARD SKILLS
+[company], master Python 
+sklearn 
+Datascience
+xgboost 
+z Sep.2021-June2023 * [location]
+torch 
+GPA:5.00(outof5)
+PUBLICATIONS
+[company], master
+FinancialTechnologiesandDataAnalysis, Portfolio selection via topological data analysis
+Facultyofcomputeerscience
+ICMV2023
+z Sep.2021-June2023 * [location]
+TopologicalDataAnalysi sforTimeSeriesRepresentationin
+GPA:8.95(outof10)
+StockPortfolioDiversification
+Make your next item recommenda tion model time
+[company], bachelor
+sensitive
+Economics,researchtrack
+UMA P’23
+z Sep.2017-June2021 * [location]
+Minor:DataScience Master’sthesisat[company]:Temporaladapterfornextitem
+recommendersystemstoincludetimeasacontext
+EXPERIENCE
+Collaborative Filtering with Smooth Ratings Scale
+arXiv
+Data Scienti st
+Introductionofratin gs’similari tymatrixtomi tigateproblemof
+di screpancysin signalsfromtheratingbehavi ortoincrease the
+qualityofrecomme ndations
+Yan dex
+z Feb2024-present * [location]
+Developmentofg amemechanic sinthe product
+PROJECTS
+Data Scienti st
+Master Thesis at [company]: Structured Autoencoders
+Tinkoff
+for Rating-aware Recomme ndations
+z Oct2022-Feb2024 * [location]
+Rating-aware autoencoderfor improve drecomme ndations
+Analysisofusers’beh aviour,qualitativ eanalysis quality
+Data Scienti st Dot To Dot Puzzle s
+Completing the taskof connecting dotsin DotToD otpuzzle
+Ma fin,summerinternship
+usin gmethodsofclassical computervision
+z June2022-July2022 * [location]
+Project:Carpriceprediction
+Boosting for Fairness-Aware Classification
+Reviewoffairness-aware boostingmethodstoreduce
+discriminationbysensitivefeatures
+[company]
+Detoxification of Texts
+z Sept.2018–Dec.2020 * [location]
+Usinga dapter sforcross-lingua lstyletran sfermo deltosolve
+thedetoxificat iontask
+Subjects:
+• Mathematicalstatis tics(Jan.–June2020)
+• DataScience(Jan.–June2020) Local Private Hypothesis Testing: Chi-Square Tests
+• IntrotoDataScience(Jan.–Mar.2020)
+• WebMining(Nov.–Dec.2019)
+• Probabilitythe ory(Sep.–Dec.2019)
+• Calculus(Sep.2018–June2019)
+Mini Shazam
+Searc hforsim ilarsoundsusing spectrogramsvi aparallel
+computationsi nPython

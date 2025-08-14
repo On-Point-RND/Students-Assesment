@@ -1,0 +1,69 @@
+Dear Selection Committee of [compaany],
+I am writing to you to express my great interest in the [compaany] on Generative Methods in
+Artificial Intelligence. With more than three years of experience in complex machine learning in
+industry and a parallel academic focus on artificial intelligence (LLM/Safe AI), I am convinced
+that [compaany] is the perfect place for the next step in my professional and research activities. I
+was very surprised when I heard about your school from my friend at [location] and immediately
+realized that this was my chance to interact with people from another country in the field of AI.
+I am currently pursuing an M.Sc. in Artificial Intelligence at [compaany] (2024 – 2026),
+building on a B.Sc. in Digital Economics from [compaany]. Twice I have won competitive
+scholarships from [compaany]’s Advanced Engineering School: first for my Safe‑AI research project
+the SLAVA benchmark and later, for my SalesCore AI startup, which uses LLM agents to
+analize customer reviews (we are already testing it in one of the best restaurants in [location]).
+At [compaany] I received the university’s academic scholarship four times for outstanding research
+in economics and a GPA of 4.9/5.0.
+My master’s programme covers MLOps, computer vision, NLP, recommender systems and
+large‑language‑model engineering, matching [compaany] themes such as multimodality and
+secure AI. In parallel, I work in the [compaany] Artificial Intelligence Laboratory, where I launched
+SLAVA (Sociopolitical Landscape and Value Analysis) a benchmark that evaluates both factual
+reliability and sociopolitical stance of LLMs in the Russian domain, including sensitive or
+controversial topics, thereby spotlightiing robustness and safety concerns. This experience fuels
+my passion for cutting‑edgе research and international knowledge exchange, and our team is
+already planning to extend similar studies to the Chinese context.
+As a Machine Learning Engineer at [compaany] and previously at [compaany], the CIS
+e‑grocery leader I designed and led the deployment of high‑throughput pipelines for demand
+forecasting, promotional‑bundle optimisation and transformer‑based time‑series modelling. I
+owned the entire forecasting track for combo and promotional products, covering more than 50
+000 SKUs across [location]. (My presentation at the [compaany] meetup, where I talk about our models
+in [compaany])
+Earlier, at [compaany] (formerly [compaany] Russia), I built a retrieval‑augmented system for
+drafting legal and tax documents, developed production‑forecasting models for oil fields and
+created a geological‑deposit classification framework. These projects demanded deep expertise
+in PyTorch, Hadoop/Spark and MLflow, plus close collaboration with domain experts—skills I will
+bring to [compaany] team projects and hackathoons.
+My commitment to innovation is reflected in more than 20 hackathoons, including main results:
+(My presentation on the DLS podcast as an expert on participating in hackathoons)
+• 1st place, Digital Brreakthrough AI (June 2024) for a YOLOv10 PPE‑violation detection
+service;
+• Grant wiinner, GigaChat LLM fine‑tuning for economic‑chart reasoning (SbberDevices, July
+2023);
+• Top‑three finiishes in tasks spanning LLM‑driven article generation, weld‑defect classification
+and economic‑model parameter estimation.
+• 4th place, Tender Hack (March 2025) for buildiing an AI‑assistant powered by Yandex GPT‑5
+that classifies user search queries, retrieves knowledge‑base content and generates
+context‑groundeed answeers in real time
+These successes demonstrate my ability to translate generative and multimodal research
+into robusst, usable products precisely in the spirit of [compaany].
+Why [compaany] matters to me?
+1. Deepening expertise in generative AI: I am actively specialising in generative methods
+and want to master diffusion models, multi‑agent LLM systems and safety‑assessment
+techniques. Learning directly from the international faculty of [compaany] and the Harbin
+Institute of Technology will accelerate this trajectory.
+2. Cross‑cultural collaboration: My long‑term goal is to earn a top‑tier degree abroad and
+build an international research network. [compaany] offers a unique chance to
+collaborate with peers and mentors from China, bringing me closer to that ambition.
+3. Mutual contribution: I will not only absorb knowledge but also give back. I plan to present
+a poster on the SLAVA benchmark, share my expertise in demand forecasting and
+time‑series modelling (and sometimes using a tools like TimeGPT :) ), mentor
+less‑experienced participants and support media coverage through my AI‑community
+Telegram channel and YouTube channel where we are making useful videos (interviews)
+with people in AI.
+After [compaany] I plan to translate what I learn directly into practice at [compaany],
+integrating LLMs across our production pipeline to deliver consistentlly hot, high‑quality pizza to
+customers :D. Over the longer term, I aim to pursue a Ph.D. abroad and continue bridging
+academic research with industrial applications.
+Thank you for considering my application. I hope this letter conveys my strong motivation to join
+[compaany].
+Sincerely,
+[name] [surname]
+Machine Learning Engineer | M.Sc. AI candidate, [compaany]

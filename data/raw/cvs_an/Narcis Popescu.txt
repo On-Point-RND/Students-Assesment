@@ -1,0 +1,40 @@
+[name] [surname]
+[location] | [email]
+Education
+[location] Power Engineering Institute ([compaany])
+Bachelor’s and Master’s degrees in Artificial Intelligence & Deep Learning
+Graduation Year: 2025 | GPA: 4.78 / 5 (Bachelor), 4.75 / 5 (Master)
+• Master’s Thesis: ECG Signal Classification Using Transformeers and KAN
+Models — focused on designing a compact deep learning pipeline for
+electrocardiogram analysis. Achieved a 30x reduction in model size, enabling
+deployment on resource-constrained microcontrollers.
+• Bachelor’s Thesis: Development of a Multifactor Authentication System for
+Safe Access — created a secure access system combiining various
+authentication factors for enhanced safety.
+Research & Projects
+Intelligent Cooling Control in Data Centers
+Research Initiative, [location]
+Built a prototype of a smart temperature regulation system using machine learning
+and Reinforcment learning for real-time forecasting and dynamic control. Integrated
+sensor data processing and tested multiple predictive models.
+AI Competitions & Hackathoons
+• Wildlife Detection Challenge: Applied image recognition techniques for
+identifying animals in images from camera traps in natural environments.
+• Ozon Product Moderation Hackathon: Participated in a computer vision
+challenge focused on detecting restricted items (e.g., cigarettes and alcohol) in
+product photos. Built and trained classification models to identify and flag such
+items for moderation.
+Hackathon Organizer — Autonomous Driving in a City Mockup
+Personal Initiaive, [location]
+Hackathon Organizer: Autonomous Driving — [location]
+Organized AI hackathon with model cars in a miniature city. Built hardware &
+infra, developed firmware, created baseline driving model.
+Technical Proficiencies
+• Deep Learning & ML Frameworks: PyTorch.
+• Data Science Tools: NumPy, Pandas, SciPy, Scikit-learn
+• Versioning & Collaboration: Git, GitHub, GitLab, Jupyter, Google Colab
+Research Interests
+• Medical Signal Processing & ECG Analysis
+• Computer Vision and Perception Systems
+• Generative AI (GANs, Diffusion Models)
+• Retrieval-Augmented Generation (RAG)

@@ -1,0 +1,102 @@
+[name] [surname]
+[email] +2 *** *** ***
+Profile
+Researcher with expertise in Deep Learning and Machine Learning for biomedical applications and general
+Computer Vision. Strong focus on medical data analysis but also experienced in broader CV applications,
+including object detection, segmentation, and multimodal AI. Specialized in Computer Vision, Natural Language
+Processing, and classical machine learning techniques applied to various domains. Extensive experience in
+research-driven development, deploying AI models into production, and optimizing deep learning pipelines. Strong
+proficiency in Unix, Bash scripting, containerization (Docker), and database management (SQL). Passionate about
+building robust scientific AI solutions for real-world challenges.
+Languages
+English — C1 Advanced Russian — Native
+Education
+[compaany] of Science and Technologies Sep 2023 – present
+M.Sc. in Information Systems and Technologies [location]
+Research focused on advanced deep learning techniques for real-time ultrasound
+•
+diagnostics with imbalance data.
+The Bauman Moscow State Technical University Sep 2022 – Jul 2023
+M.Sc. in Biotechnical Systems and Technologies (Not Finished) [location]
+Investigated applications of carbon nanotube sensors for measuring plantar
+•
+pressure in microgravity.
+Moscow Aviation Institute (National Research University) Sep 2018 – Jun 2022
+B.Sc. in Biotechnical Systems and Technologies [location]
+Developed a vibration-sensor-based pressure measurement device to analyze the
+•
+viscoelastic properties of cosmonaut muscle tissue.
+Skills
+Programming: Python (PyTorch, TensorFlow, OpenCV, Sklearn), SQL, Bash, MATLAB
+Deep Learning: CNNs, Transformers, Attention Mechanisms, GANs, Transfer Learning
+Computer Vision: Object Detection, Image Segmentation, Image Classification, Multimodal Learning
+Medical AI: Ultrasound Image Analysis, Segmentation, Classification, Radiology AI
+Data Engineering: Data Preprocessing, Feature Engineering, Model Optimization
+Software Engineering: Docker, Git, UNIX/Linux
+Work Experience
+[compaany] of Science and Technologies Jun 2024 – present
+Research Intern [location]
+Designed and implemented a state-of-the-art ultrasound detection and classification
+•
+model deployed in clinical settings.
+Explored and analyzed PET/CT imaging data to quantify metabolic volumes and
+•
+exclude physiological radiotracer uptake, preparing high-quality datasets for an
+upcoming deep learning computer vision model.
+Worked on general Computer Vision tasks, including object detection and
+•
+segmentation beyond medical applications.
+AIRI Institute Jun 2024 – Jul 2024
+Research Intern [location]
+Developed novel ensemble-based deep learning models for medical image
+•
+segmentation and classification
+Implemented a Trimap Attention Network to enhance accuracy in ultrasound image
+•
+analysis with limited labeled data
+Explored applications of Computer Vision in industrial and security domains
+•
+State Scientific Center of the Russian Federation - Institute of Biomédical Problems
+of the Russian Academy of Sciences Jul 2021 – Jan 2024
+Research Scientist [location]
+Led research on microgravity-induced physiological effects and countermeasures
+•
+for astronauts
+Developed a machine learning model predicting muscle atrophy progression in
+•
+prolonged space missions
+Projects
+Computer Vision for Medical Ultrasound Diagnostics
+Applied AI Center, Skoltech
+Developed deep learning-based models for automated fetal ultrasound image analysis, improving perinatal
+•
+diagnostic capabilities
+Multimodal LLMs for Medical Applications
+BIMAI-Lab
+Enhancing the interpretability and safety of LLaVA-Med, ensuring reliable deployment in medical research
+•
+AI-Powered Quadruped Robot Control
+Intelligent Space Robotics Laboratory, Skoltech
+Designed high-level movement functions and implemented an AI-based gripper control system for the Unitree
+•
+GO1 robot
+Applied general Computer Vision methods for object recognition and robotic navigation
+•
+Biomechanical Analysis of Lower Extremity Responses to Varied Electrical Stimulation Training Programs
+IMBP RAS
+Led the project management efforts, organizing research timelines, delegating responsibilities, and ensuring
+•
+smooth execution of the study
+Analyzed the biomechanical impact of various electrical stimulation training protocols on human lower
+•
+extremity performance
+Coordinated data collection and analysis efforts among multiple research teams
+•
+Publications
+CognitiveDog: Large Multimodal Model Based System to Translate Vision and 2024
+Language into Action of Quadruped Robot
+Influence of 21-Day Antiorthostatic Hypokinesia on Fast Strength Production 2023
+Comparison of Two Programs of Electrical Stimulation Training on the Mechanical 2023
+Efficiency of Muscles During Vertical Jumps 2023
+Exploring the Effects of 21 Days of Strict Bed Rest on Human Explosive Power 2022
+Production

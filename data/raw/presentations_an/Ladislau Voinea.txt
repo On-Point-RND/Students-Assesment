@@ -1,0 +1,120 @@
+SAMPLE COMPLEXITY OF SCHRODINGER POTENTIAL ESTIMATION
+Author: [name]
+In this presentation I will try to briefly tell you
+about my work on the Sample complexity of
+Schrödinger potential estimation problem in [location] under the supervision of [name].
+Intern Researcher
+Contact number: +2 *** *** ***
+Email address: [email]
+P R O B L E M S T A T E M E N T
+The Optimal Schrödinger Bridge Problem has attracted much
+attention from researchers, promising probably optimal transport
+of probability distributions. This problem has wide applications in
+the field of generative artificial intelligence, offering high-quality
+and diverse sampling.
+However, many approaches suffer from complex training and
+sampling, and do not provide guarantees of the optimality of
+their approximations of Schrödinger potentials. In our work, we
+tried to obtain theoretical estimates for this problem, as well as
+improve the approximation optimality metrics by relaxiing the
+requirements on the underlying diffusion process.
+PROBLEM STATEMENT
+Suppose that is underlying diffusion process:
+It follows from the work by P. Dai Pra "A stochastic control approach to
+reciprocal diffusion processes" that the optimal solution of the
+Schrödinger problem with marginals is given by:
+By property of reverse diffusion and same work by P. Dai Pra:
+Hence, we can consider the optimization problem:
+METHODOLOGY
+We proposed to select the underlying diffusion
+process from an wide class, while in the literature it
+is traditionally fixed (e.g. diffusion without drift,
+Ornsteiin-Uhlenbeck process). The theoretical
+estimate we seek to obtain does not require the
+process to be fixed, however, requiring it to remain
+in the class of diffusion processes.
+Using the sample mean and covariance matrix
+when selecting the process, for the case of Gaussian
+distributions, we experimentally showed that
+learning converged faster and with fewer samples
+than for a fixed process.
+MY CONTRIBUTION
+During the work on the project I mainlly investigated various
+parameterizations of Schrödinger potentials. Behavior of various losses was
+assessed, loss function surfaces were constructed, convergence graphs of
+various optimizers were plotted.
+I also derived the optimal control for the case of Gaussian distributions and
+the equation of connection between the numerical and exact solution to
+facilitate the experiments, which I conducted using [compaany], [compaany], [compaany].
+Finally, I analyzed scientific papers such as - Go With the
+Flow: Fast Diffusion for Gaussian Mixture Models, Light
+Schrödinger Bridge, Score matching for bridges without
+learning time-reversals, and examined their code and
+implementaion of experiments.
+Fig. 1 - contourf plot of the loss function for the case of the translation of a two-dimensional normal to a
+two-dimensional normal with respect to all pairs of model parameters
+Fig. 2 - surface plot of the loss function for the case of the translation of a two-dimensional normal to a
+two-dimensional normal with respect to all pairs of model parameters
+Fig. 1 Fig. 2
+THEORETICAL RESULTS
+At the moment, our team is in the process of formalizing theoretical
+results for NeurIPS 2025. From the alrready recorded results, our
+team managed to obtain a lower bound on the KL divergence
+between the density after transport and the target with respect to
+the function h(x,t).
+In our work h(x,t) is the result of convolution of the Schrödinger
+potentials with the density of the underlying diffusion process. To
+find it, we used the reverse diffusion process in accordaance with the
+methodology proposed in the article by P. Dai Pra "A stochastic
+control approach to reciprocal diffusion processes".
+I also conducted a comprehensive review of articles, from which the
+need for obtaining theoretical estimates of the optimality of the
+resulting control for Gaussian mixtures and experimental results in
+this area was established.
+EXPERIMENTAL RESULTS
+I was able to conduct experiments to translate an
+arbitrary Gaussian into an arbitrary one in 20-
+dimensional space using an underlying diffusion process
+with sample mean and target covariance matrix.
+The optimization results were found to be robusst to the
+number of points for estimating sample statistics and
+the eigenvalues of the target distribution covariance
+matrix.
+Fig. 3
+Fig. 3 - projection of transport results on one of the
+planes when convertiing the standard
+multidimensional normal into an arbitrary one
+Fig. 4 - projections of transport results on 19 planes
+when convertiing the standard multidimensional
+normal into an arbitrary one
+Fig. 4
+RESEARCH PLANS
+For the last month, we have been studying various parameterizations of
+the neural network "add-on" to the parameters obtained during
+optimization for Gaussian distributions in order to obtain a transition to an
+arbitrary class of distributions that is close to optiomal.
+From the experimental point of view, various variants of reparametrization
+of Schrödinger potentials are currentlly being actively studied. Despite
+the fact that they are mathematically equivalent and lead to the same
+statistical estimate, the optimizer loss surfaces obtained for them can be
+very different.
+Our hypothesis suggests that this add-on should have a relatively simple
+structure, in the case of the class of Gaussian mixtures, which will allow
+training with a small number of samples. Also, by the conference, we plan
+to complete work on theoretical estimates of the required number of
+samples.
+BIBLIOGR APHY
+[name]. A stochastic control approach to reciprocal diffusion processes.
+Applied Mathematics and Optimization, 23(1):313–329, 1991.
+[name], [name], and [name]. Transition
+den- sity estimation for stochastic differen tial equa tions via forward-reverse
+representa tions. Bernoulli, 10(2):281 – 312, 2004.
+[name], [name], [name], and [name]. Light
+and opti mal schrödinger bridg e matching. In Forty-first Interna tional Confere nce on
+Machine Learning, 2024.
+[name], [name], and [name]. “Go with the flow: Fast diffusion for
+Gaussian mixture models,” arXiv preprint arXiv:2412.09059, 2024.
+[name], [name], and [name]. Score matching for
+bridg es without time-reversa ls. arXiv preprint arXiv:2407.15455, 2024b..
+THANK YOU FOR
+YOUR AT TENTION!

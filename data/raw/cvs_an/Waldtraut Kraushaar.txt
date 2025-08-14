@@ -1,0 +1,65 @@
+Education
+2019-2023 DepartmentofGeneralandAppliiedPhysics Bachelor
+[location]InstiTutofPhysicsandTechnology([compaany])
+2021-2023 BogoliubovLaboratoryofTheoreticaalPhysics Bachelor
+[compaany]JointInstiTuteforNuclearResearch([compaany])
+2023 SystemEngineering(trackRobotics) Master
+[location]InstiTuteofScienceandTechnology([compaany])
+2023 Modernmechanicsandrobotics Master
+DepartmentofTheoreticaalMechanics([compaany])
+[name]
+Relevanant Education Courses
+Smetankin
+Calculus
+(cid:105) Differentialgeometry
+28May2001
+AlgorithmsandcontainersiinC++
+(cid:66) Machinelearning,[location]
+MoscowRussia
+Deeplearning,[location]
+(cid:84)
++2 *** *** *** Reinforcement learning,[location],Coursera
+Pythonlibraries: numpy,torch,keras,opencv,jax
+[email]
+[email]
+NOTABLE PROJECTS
+languages Title: Calculationofdivergenceingeneralgaugetheory(Bachelor’sthesis).
+Supervisor: [surname]([compaany])(https://inspirehep.net/authors/1274217)
+RUSSIAN:Native
+Description: Usingdimensionalregularization,thedivergencecalculationsinthe
+ENGLISH:B2
+massiive scalar theory ϕ4 in four dimensions for three-loop four-point divergence
+diagramsinclusive.
+Skills
+C,C#,JS Title: Numericalmetho dsinthet heoryoftopological solitons.
+Supervisor: [surname]([compaany])(https://inspirehep.net/autho rs/1020113)
+C++,Python Description: Solutionofpartialdifferentialequationsarisiinginsolitoth eory.The
+Runge-Kuttamethodofthe4tho rdewasused. ThecodiswritteninC++.
+(*)Theskillscaleisfrom0(FundamentalAwareness)to6(Expert).] Title: Designofanoptima lcontrolsystemforaircraft.
+Description: Our team develope dthecontrol system for the airship model (controlofaltitude,directionanddevelopmentofanalgorithmforwindadaptati onthat
+saves energy), proven performance. In addition to participating in the presentat ionoftheproject,mytaskwas todesignthemechanic alpartsoftheprototyp ein
+3DCADp rograms(IusedOnshapeandAutodesk)andhelpwiththeconnectionof electronics(sensorsa ndmotors).
+Title: Developmentofth econtrolalgorithmforuniversa lrobotsUR5withdynamic
+obstacleavoidancefunctioninteleope rationmode.
+Description: Theworkwasconducteda spar tof theNeuroroborp roject-arobot-
+assiste dna navigationdeviceforbrainTMSinneurorehabilitationafterischemic strokes
+andpre-radiationpreparationofbraincancerpatients. Inthecours ofthi s work,
+the standard MoveIt servo package for manipulators was modernized. On the basis ofOOP,classes implementingdifferent algorithmsforcalculatingminimumdistancesbetweentrobotpartsandbetweentherobotandtheenvironmentwereintro-
+duced. TheBulletinlibrarywasintroduced,whi chshowedahigherspeedcomparedto the standardFCL, allowingto avoidobstaclesandpossib lecollisionswiththerobotinthejoystickcontrolmode. AllproblemsrelatedtoBulletinperformancewereidentifiedandsuccessfullyhandled.
+Title: RoboticSystemforUpperLimbRehabilitationbasedonLLMandEyeTracking
+(Master’sthesisinprogress).
+Description: Basedon thecollaborativerobotofUniversalRobots,asystemwillbe
+createdthatallowsauserwithamusculoskeletaldisorder(orparalysis)to perform
+everydayactivities. UserrequestswillbeprocessedusingLLMorenteredusingeye
+movements. Therobot’s movementtrajectorywilltakeintoaccounthumanbiomechanics,basedonsimulationinOpenSim.
+Title: Developmentandanalysisoftheequationsofmotionofatwo-linkpendulumwithextendedrangesofrotationanglesbasedon theapproachofG.V. Korenev
+(Master’sthesisinprogress).
+Description:BasedonKorenev’sapproach,Frolov’s worksandtheconceptofnatural synergies,which the human nervous system presumably relies on when controllingmovement,totestthepossibilityoftransferringthecontrolmethodstotwo-linkinvertedpendulumwiththeaimoffurtherimplementingtheobtainedresultsincontrollingexoskeletonsandhumanoidrobots.
+Conferences
+2024MedicalRoboticssection
+35th InternationalScientificandTechnicalConference "ExtremeRobotics", [location]
+Communication skills
+2022teacherofQF T
+2021-2024helpwithorganization"theOpendoorda y"inMIPT
+2025helpwithorganization"theRoboday"in[location]
+2025teacherofengineeringMIPT

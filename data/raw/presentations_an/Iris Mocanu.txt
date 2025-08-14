@@ -1,0 +1,89 @@
+[name]
+Master's Student,
+Faculty of Physics, [location]
+
+Automated Synthetic Data Generation and Annotation for Computer Vision Models
+[compaany]
+
+Introduction
+
+Synthetic Data
+
+Parallel Domain, "Beating the State of the Art in Object Tracking with Synthetic Data", 2021
+
+Problem statement
+
+Creating CV Models Is Difficult:
+Expensive image collection
+Labor-intensive dataset annotation
+Low data diversity
+Some data cannot be manually annotated
+Project Scope:
+Automated synthetic data generation system
+
+
+[7] Lin, Tsung-Yi, et al. "Microsoft coco: Common objects in context."
+Ranftl, René, et al. "Towards robusst monocular depth estimation: Mixing datasets for zero-shot cross-dataset transfer."
+
+Physically based rendering (PBR)
+
+Model source:
+CAD
+Photogrammetry
+Model construction from depth maps [3]
+Procedural model generation
+Texture generation with diffusion models
+PBR texture generation from albedo
+Gaussian splatting
+
+Example of how the method works
+
+
+Rendering with neural network
+
+Scene
+Render passes
+Final result
+cycles
+SD
+controlNet [4]
+Hybrid method combining classical and neural generation
+Advantages:
+Simplicity
+Controllability
+High quality
+
+Results
+
+Segmentation and detection of upper bone faces for generating cryptographically strong keys (procedurally generated dataset used)
+
+
+Synthetic frame
+Real frame
+
+Research gap
+
+Limited investigation of synthetic-to-real transfer learning effectiveness in industrial settinings
+Lack of standardized metrics for synthetic data quality assessment
+Insufficient research on optimal mixing ratios between synthetic and real data
+Gap in understanding how procedural generation parameters affect model performance
+
+Research Direction
+
+Effect of real/synthetic data ratio on model quality
+Testing methods for automatic generation of 3D scene based on a single image
+Development of zero-shot segmentation methods
+Development of methods for combining different rendering techniques
+
+B. Zhao, L. Meng, W. Yin et al. Learning to Generate Synthetic Data via Gradient Matching. ICLR, 2023 (top-25% papers)
+S. Liu, Y. Zhang, J. Ostermann. Differentiable Signed Distance Function Rendering for Synthetic Data. CVPR, 2022 (oral presentation)
+Y. Zhang, R. Zhang, P. Li et al. DatasetGAN: Efficient Labeled Data Factory with Minimal Human Effort. CVPR, 2021 (best paper candidate)
+L. Wang, X. Chen, V. Koltun et al. Physics-Based Rendering for Synthetic Data in Autonomous Driving. ECCV, 2022 (spotlight paper)
+J. Munkberg, J. Hasselgren, T. Shen et al. Neural Illumination: Lighting Prediction for Synthetic Data. SIGGRAPH, 2023 (journal track)
+T. Müller, A. Evans, C. Schied et al. Instant Neural Graphics Primitives. SIGGRAPH, 2022 (best paper award)
+Lin, Tsung-Yi, et al. Microsoft coco: Common objects in context. ECCV,  2014 
+K. Schwarz, Y. Liao, M. Niemeyer et al. Generative Radiance Fields for 3D-Aware Image Synthesis. NeurIPS, 2021 (top-15% papers)
+S. Yang, Y. Wang, J. van de Weijer et al. Fourier Domain Adaptation for Synthetic-to-Real Translation. CVPR, 2023 (oral presentation)
+A. Kar, A. Prakash, M.-Y. Liu et al. AutoSimulate: Fast Synthetic Data Generation with Reinforcement Learning. ICML, 2022 (long talk)
+
+Bibliography

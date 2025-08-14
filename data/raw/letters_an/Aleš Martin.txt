@@ -1,0 +1,12 @@
+Dear [name],
+I am writing to express my interest in attending the SMILES 2025 Summer School. As a first-year PhD student at [compaany] specializing in Applied AI, my academic and research journey has been driven by a strong focus on the development of interpretable, multimodal AI systems for biomedical applications. The interdisciplinary team and advanced training sessions offered by SMILES perfectly provide the envirnoment needed for continuous skills improvement.
+My current research at [compaany] lies at the intersection of generative AI and neuroimaging. I work on developing models for real-time fMRI neurofeedback by addressing the complex problem of reconstructing EEG to fMRI. My projects have also involved predicting task-based fMRI from resting-state data and generating ECoG from EEG using generative architectures such as VAE, cGAN, and Neural Optimal Transport. These experiences have not only solidified my expertise in machine learning and signal processing but have also deepened my understanding of the neural and physiological underpinnings of human behavior.
+Previously, my master’s research focused on multimodal data analysis for schizophrenia prediction using data fusion techniques, where I applied manifold learning, topological data analysis, and geometric feature extraction to enhance model interpretability. Additionally, I have worked on integrating omics and imaging data to identify biomarkers in neuropsychiatric and oncological disorders.
+Moreover, I am eager to broaden my expertise in multimodal domain and currently further by exploring tasks such as speech reconstruction, enhancement, multimodal once like text-to-speech, text-to-video tasks. I believe that gaining deeper insights into these areas will help later to become adaptive and work with different data domains.
+Attending SMILES would provide me with a unique opportunity to immerse myself in state-of-the-art approaches, extend my professional network, and benefit from the mentorship of world-leading experts.
+Thank you for considering my application. I look forward to the opportunity to join and contribute to the vibrant SMILES 2025 community.
+Warm regards,
+[name]
+PhD-1 Student
+[compaany]
+[email]

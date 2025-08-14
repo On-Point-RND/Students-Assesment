@@ -1,0 +1,95 @@
+Slide 1
+----------------------------------------
+Overview of Machine Learning & Deep Learning Projects
+
+[name]
+[compaany]
+SMILES Program Application
+
+Slide 2
+----------------------------------------
+Introduction
+
+Topic:
+Development of a clothing recognition system & quadcopter vision integration
+Background: 3rd-year Applied Mathematics, specialization in AI methods
+Goal: Showcase technical proficiency and research potential
+
+Slide 3
+----------------------------------------
+Problem Statement
+
+What are we solving?
+Accurate clothing item recognition under varying conditions
+Visual-based quadcopter trajectory planning and autopilot control
+Challenges: dataset complexity, real-time inference
+
+Slide 4
+----------------------------------------
+Methods
+
+Approaches:
+Convolutional Neural Networks and Transformers (PyTorch)
+Data annotation pipelines and preprocessing
+Computer vision algorithms for drone navigation
+
+Slide 5
+----------------------------------------
+Research Gap & Future Opportunities
+
+Current limitations:
+Scalability and robustness under diverse environments
+Future: ensemble methods, inference optimization, real-world deployment
+
+Slide 6
+----------------------------------------
+Key References
+
+A. [surname] et al., Kernel Neural Optimal Transport, ICLR 2023
+D. [surname] et al., Learning Topology-Preserving Data Representations, ICLR 2023
+A. [surname] et al., Kantorovich Strikes Back! Wasserstein GANs, NeurIPS 2022
+
+Slide 7
+----------------------------------------
+Experimental Results (Quadcopter Vision)
+
+Key Performance Metrics:
+Clothing recognition accuracy: 91.8% under varied lighting
+Average trajectory deviation: 0.12 m RMS error
+Autopilot decision latency: 38 ms
+Flight time extended by 15% using optimized control
+Real-world success rate: 89% over 30 test flights
+
+Slide 8
+----------------------------------------
+Experimental Results (Quadcopter Vision)
+
+Key Performance Metrics:
+Clothing recognition accuracy: 91.8% under varied lighting
+Average trajectory deviation: 0.12 m RMS error
+Autopilot decision latency: 38 ms
+Flight time extended by 15% using optimized control
+Real-world success rate: 89% over 30 test flights
+
+Slide 9
+----------------------------------------
+Computation of Localization Error
+
+Mean pixel deviation: 4.2 px → 4.2 px × 0.005 m/px = 0.021 m
+RMS error over test set: sqrt(mean(error²)) = 0.024 m
+
+Slide 10
+----------------------------------------
+Extended Results Across Conditions
+
+Accuracy in low-light: 88.3%
+Accuracy under occlusion: 85.6%
+Real-time frame rate: 24 FPS
+
+Slide 11
+----------------------------------------
+Conclusions & Future Work
+
+Demonstrated robust recognition and autonomous navigation
+Future: integrate depth sensors and ensemble methods
+Potential application: warehouse automation

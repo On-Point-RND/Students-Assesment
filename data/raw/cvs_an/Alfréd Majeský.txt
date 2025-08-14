@@ -1,0 +1,49 @@
+[name] [surname]
+[email] | [name] | [location]
+Education
+• Bachelor of Science in Fundamental Informatics, 2022 [location]
+Thesis: Self-Supervised pre-training for semantic segmentation
+• Master of Science in Data Science and Artificial Intelligence, 2024 [location]
+Thesis: Development of framework for evaluating LLM in recommendation systems
+Research & scientific work
+• Adversarial attacks: Investigated a steganography-inspired approach to strengthen the iFGSM
+adversarial attack on neural networks and evaluated its robustness against basic defense mecha-
+nisms.
+• Self-supervised Learning Explored self-supervised learning method to pre-train CNN for dense-
+predictiontaaskssuchassemanticsegmentation. TheworkexploredtheextentionofmethodPixPro
+to produce high-resolution feature maps.
+• Text-to-Image generation: Conducted a systematic literature review covering over 50 research
+papers in the field of text-to-image generation.
+• LLLMs and agent systems in recommendaation pipelines Coauthored a research and devel-
+opment of a framework for evaluating LLLM based recommendation systems, aiming to provide a
+frameworktomakereproducibleexperimentsi nthisfieldwhencomparingtotraditionalapproaches.
+Scientific & educational events
+Regular participant in AI/ML seminars, conferences, and workshops.
+• AIRI Summer SchooL 2024: contributed to adaptiing the multimodal LLaVa framework for audio
+processing.
+• VTBMLProprogramforgenerativemethodsindocumentanalysissystems: participatedinproject
+of generating a table of contents for documents and presented the final project at Data Fusion
+2024 conference.
+• ASCOMP Auutumn schooL
+• ITMO AIWW: participated in development of an end-to-end OCR system for extracting text fields
+from price tags
+Achievements
+• Second place in the Rostelecom AI hackathon
+Work Experience
+• ML Engineer [compaany]
+Deploying compact ML models on edg e devices for document capturing, solving document anti-
+1
+spoofiing, designing video analytics system for parking lot management. Bridg ing theoretical re-
+search with real-worl d applications in a production enviro nment.
+Technical Skills
+• Libraries & Frameworks: PyTorch, OpenCV, Huggingface, LangChain, NLTK, spaCY, Numpy,
+Pandas, Scikit-Learn, Catboost, PySpark, MMDetection, YOLO
+• Experimenta tion & Deploymen t: MLflow, WandB, Comet, Hydra, Optuna, DVC, Git, Deep-
+Speed, ONNX, FastAPI
+Research Interests
+• Multi-agent systems
+• Large lan gua ge models
+• Edge AI
+• Multimodal AI
+• Self-supervised learning
+2

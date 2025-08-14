@@ -1,0 +1,82 @@
+Q&A over Tabular Data
+Research project
+Project author: [name] [surname]
+Project leader: [name] [surname],
+Doctor of Science, [location]
+Domain
+Relevance
+Progress of models
+LLMs, including open (e.g., LLaMA3-8B + ARR), show accuracies up to ~70% in zero-shot QA
+(Dubey et al., 2024).
+In medicine, Med-PaLM 2 level models achieve up to 86.5% at USMLE (2025), comparable to
+experts.
+Narrowing the gap
+The gap between proprietary and open-source systems narrows, increasing access to strong
+models (2023-2025).
+Current weaknesses of models
+Difficulties with:
+- multi-step reasoning
+- fuzzy/ambiguous queries
+- Correct estimation of own confidence
+Key research areas:
+Methods for improving the robustness and confidence of models in response
+Цель и задачи
+The goal is to dive into the domain, conduct experiments,
+implement the best test-driven approaches to improve accuracy
+and robustness into a single pipeline and test it, find the limitations
+of the constructed solution.
+Objectives:
+1) Selecting the main approach (E2E and Text2SQL, Text2Code)
+2) Conducting ablation experiments
+3) System construction
+4) Testing in the framework of SemEval 2025 Task 8 competition
+5) Identify system limitations of the approach
+4
+Data
+из статьи Databench, [surname]
+5
+Choosing the final approach
+из статьи Databench, [surname]
+Experiments
+Query Reformulation:
+Predicting Useful Columns: Для E2E и решении задачи
+need in the haystack
+7
+Experiments
+Column Name Explanation:
+Orchestrator →
+8
+Final Pipeline
+9
+Testing and results
+1
+0
+Limitations of the approach
+and future work
+• Retrieval systems have difficulty when terms in a query do not match
+well with terms in tabular data. Embedders do not solve this problem
+completely.
+• If all candidates presented to the orchestrator are incorrect, then the
+system by design lacks a mechanism to independently retrieve the
+correct answer. This scenario represents a known problem (Bradley,
+2024) in which tasks prove difficult for entire groups of LLMs.
+11
+Results of competition
+CODE:
+https://github.com/[name]-[surname]/
+QA_on_Tabular_Data_SemEval20
+25_Task8
+12
+References
+Abraham, A. N., Rahman, F., Kaur, D. TableQuery: Querying tabular data with natural
+language [Electronic resource] // arXiv preprint. 2022. — URL:
+https://a rxiv.org/abs/2202.00454
+Bradley, W. F. LLMs and the madness of crowds [Electronic resource] // arXiv preprint.
+2024. — URL: https://a rxiv.org/abs/2411.01539
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A.,
+Shyam, P., Sastry, G., Askell, A., и др. Language models are few-shot learners // Advances in
+Neural Information Processing Systems. 2020. — Т. 33. — С. 1877–1901.
+Cook, J., Rocktäschel, T., Foerster, J., Aumiller, D., Wang, A. Ticking all the boxes:
+Generated checklists improve LLM evaluation and generation [Electronic resource] // arXiv
+preprint. 2024. — URL: https://a rxiv.org/abs/2410.03608
+13

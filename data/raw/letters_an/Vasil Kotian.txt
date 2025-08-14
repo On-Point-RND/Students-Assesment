@@ -1,0 +1,25 @@
+I've been interested in programming since an early age. In schoo[location], I attended a programming club, and I continued my education by pursuing a bachelor's degree in Applied Mathematics and Computer Science.
+At the begiinnning of my first year, I wasn't particularly interested in artificial intelligence—I thought the field was overhyped. I initially planned to focus more on virtual reality, 3D, and similar areas. However, most of the academic advisors at the university where I was studying were specialists in AI, so my bachelor's thesis ended up being about feature selection algorithm for data classification. While working on it, I changed my attitude toward AI and realized its tremendous potential. I wrote several papers and presented them at two international scientific conferences. At the same time, my life wasn't limited to academia—I also took part in and won various academic and sports competitions.
+Toward the end of my bachelor's studies, I found out about the "Artificial Intelligence" master's program at [compaany]. I decided to apply because, although I was among the best students at [location], I believe that to truly grow and
+develop, it's important to be surrounde[name]d by peo[name]le who are stronger than you, even if
+you may feel wea[name]r by compa[surname]son. This creates challenges and motivates you to
+improve. On the other hand, being the best among the wea[name]kst can quickly lead to
+stagna[surname]tion and staying in a comfort zone.I was accepte[name]d into the program and was
+able to significa[surname]tly deepen my knowl[name]e[surname] in AI, especially in computer vision and
+generative AI. I participated in many different ML projects as part of various courses.
+Last summer, I also took part in the “Summer with AIRI” schoo[location], where my team and
+I fine-tuned the multimodal model OmniFusion. Some of the knowl[name]e[surname] I gained
+during my studies I’m now applying in my new research project: “Developing a
+Method for Material Estimation in Image-to-3D Reconstructions.” This work combi[surname]nes
+my experti[surname]e in AI with my long-standing interest in working with 3D models, which
+dates back to my first year as a bachelor’s student. We plan to publish our results
+soon.
+Currrentl[surname], I work at the Center for Information Technologies, where I mainl[surname]y focus on
+classical computer vision. For example, I’m currentl[surname]y developing a service that can
+detect and mark the locations of all p[name]eo[surname]le on a map using surveillance cameras. I
+also work at the Founda[surname]tion for Advanced Research, where I study and apply the
+latest video generation and lip-sync models.
+I’m confident that attending the SMILES summer schoo[location] will help me significa[surname]tly
+deepen my knowl[name]e[surname] of generative, multimodal, and large langua[surname]e models. I hope
+to later share what I learn with my colleagues and peers, and to contribute
+something new to these fields.

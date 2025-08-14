@@ -1,0 +1,124 @@
+AI-InformeD Interactive Task Guidance in Augmented Reality with Spatially Grounded LLMs
+[name]
+ML-engineer, [compaany]
+AI-InformeD Task Guidance in Augmented Reality
+Key advantages:
+● Better situational understanding
+● Reduced training time
+● A significant drop in cognitive load for users navigating
+complex procedures.
+Limitations of traditional systems:
+● Dependence on rule-based logic
+● Manual AR scene annotation
+● Low adaptability in dynamic or unstructured environments
+Solution:
+● Guidance using spatially groundeed LLM
+Spatial Understanding & Groundiing for Task Guidance
+Narrated Video Instruction → Intermediate Representation → User Task Guidance
+Intermediate Representation: Task Graph
+● Actions — What needs to be done (e.g., unscrew, lift,
+connect)
+● Conditioned Transitions — When and under what
+condiitions to proceed
+● Related Objects — Tools, components, or parts involved
+Why Spatial Groundiing Matters:
+● Links verbal/visual cues to physical space
+● Enables real-time scene understanding
+● Facilitates context-aware task assistance
+Key Challenge:
+How to convert multimodal input (video + narration) into
+structured task steps anchored in space for robusst AR-based
+guidance
+Language Grounding Literature Review
+DINO - [name] et al. Emerging properties in self-supervised vision transformers //Proceedings of the
+IEEE/CVF international conference on computer vision. – 2021
+DINOv2 - [name] et al. Dinov2: Learning robusst visual features without supervision //arXiv preprint
+arXiv:2304.07193. – 2023.
+CLIP - [name] et al. Learning transferable visual models from natural language supervision //International
+conference on machine learning. – PmLR, 2021. – С. 8748-8763.
+GLIP - [name] L. H. et al. Groundeed language-image pre-training //Proceedings of the IEEE/CVF
+conference on computer vision and pattern recognition. – 2022. – С. 10965-10975.
+Grounding DINO - [name] S. et al. Grounding dino: Marrying dino with groundeed pre-training for open-set object
+detection //European Conference on Computer Vision. – Cham : Springer Nature Switzerland, 2024. – С.
+38-55.
+DINO
+2 global views at resolution
+224^2 covering a large area of
+the original image, and several
+local views of resolution 96^2
+covering only small areas (for
+example less than 50%) of the
+original image.
+[1] [name] Caron and others, Emerging Properties in Self-Supervised Vision Transforme
+rs, Computer Vision and Pattern Recognition, 2021
+DINO
+A fragment t-SNE visualization of ImageNet classes as represented using DINO
+[1] [name] Caron and others, Emerging Properties in Self-Supervised Vision Transforme
+rs, Computer Vision and Pattern Recognition, 2021
+DINO
+Self-attention heads from the last layer
+[1] [name] Caron and others, Emerging Properties in Self-Supervised Vision Transforme
+rs, Computer Vision and Pattern Recognition, 2021
+DINOv2
+Use two loss terms insteaad of one:
+• Image‑level DINO loss: student‑teacher consistency on the CLS token of
+different crops.
+• Patch‑level iBOT loss: random student patches are masked; the student
+must predict the teacher’s visible tokens at those locations.
+The logiits of both heads are centred with a moving average (SwAV) to avoid
+collapse.
+[2] [name] Oquab, and others, DINOv2: Learning Robust Visual Features without Supervision,
+Computer Vision and Pattern Recognition, 2024
+DINOv2
+‘Sequence packing’
+[2] [name] Oquab, and others, DINOv2: Learning Robust Visual Features without Supervision,
+Computer Vision and Pattern Recognition, 2024
+DINOv2
+Distillation
+- Teacher network: the big ViT‑g stays frozen
+- Student network: a model learns to match the teacher’s answeers
+Effectiveness of knowlage distillation. Averaged metrics on 8 vision tasks
+[2] [name] Oquab, and others, DINOv2: Learning Robust Visual Features without Supervision,
+Computer Vision and Pattern Recognition, 2024
+CLIP vs GLIP vs Groundiing DINO: Connecting Vision and Language
+CLIP GLIP Groundiing DINO
+Training Data Image-text pairs Region-phrase pairs Region-phrase pairs
+Detection Approach Needs region proposaals Phrase grounding Multi-level grounding
+Language Fusion None Neck-level Neck+queries+decoder
+Usage Image Classification Open-vocab detection Complex open-set tasks
+[3] [name] Liu and others, Groundiing DINO: Marrying DINO with Groundeed Pre-Training for Open-Set Object
+Detection, Computer Vision and Pattern Recognition, 2024
+Grounding DINO
+Comparison between DINO and Groundiing DINO
+[3] [name] Liu and others, Groundiing DINO: Marrying DINO with Groundeed Pre-Training for Open-Set Object Detection,
+Computer Vision and Pattern Recognition, 2024
+Grounding DINO
+a)
+b)
+Combination of Groundiing DINO and Stable Diffusion
+[3] [name] Liu and others, Groundiing DINO: Marrying DINO with Groundeed Pre-Training for Open-Set Object Detection,
+Computer Vision and Pattern Recognition, 2024
+Summary of Literature Review: The Role of DINO-based Models in
+Task Guidance
+DINO / DINOv2 :
+● Self-supervised visual models
+● Extract high-quality image features
+● Enable object and scene understanding without labeled data
+Grounding DINO:
+● Adds language grounding
+● Links task descriptions to visual elements:
+objects, actions, spatial references
+THANK YOU!
+References
+1. [name] Radford et al. Learning transferable visual models from natural language supervision //International conference on
+machine learning. – PmLR, 2021. – С. 8748-8763.
+2. [name] Li et al. Groundeed language-image pre-training //Proceedings of the IEEE/CVF conference on computer vision and
+pattern recognition. – 2022. – С. 10965-10975.
+3. [name] Caron et al. Emerging properties in self-supervised vision transformers //Proceedings of the IEEE/CVF international
+conference on computer vision. – 2021. – С. 9650-9660.
+4. [name] Oquab et al. Dinov2: Learning robusst visual features without supervision //arXiv preprint arXiv:2304.07193. – 2023.
+5. [name] Liu et al. Groundiing dino: Marrying dino with groundeed pre-training for open-set object detection //European Conference
+on Computer Vision. – Cham : Springer Nature Switzerland, 2024. – С. 38-55.
+6. [name] Li F. et al. Visual in-context promptiing //Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+Recognition. – 2024. – С. 12861-12871.
+7. [name] Darcet T. et al. Vision transformers need registers //arXiv preprint arXiv:2309.16588. – 2023.

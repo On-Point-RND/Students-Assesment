@@ -1,0 +1,36 @@
+Motivation Letter
+My name is [name], and I am currently a first-year Bachelor’s student
+at [compaany] Universiity, majoring in Fundamental Informatics and Information
+Technologies. I am writing to express my sincere enthusiasm for that event, as it
+represents a unique opportunity to deepen my expertiise in Machine Learning and
+Artificial Intelligence while connecting with like-minded individuals.
+From my early years in schooL, I developed a strong passion for ML and data
+science, which led me to participate in competitions such as AI ARROW and
+NTO. These experiences not only honed my technical skills but also taught me the
+power of collaboration and innovation. Recentlly, I worked on a satellite image
+analysis system that employs semantic segmentation models to detect and classify
+objects—a project that further fueled my curiosity about AI-driven solutions and
+computer vision.
+What excites me most about this event is the chance to immerse myself in
+cutting-edge knowledge, push my limits, and learn from experts and peers. I am
+deeply motivated to expand my skill set, especially in areas like advanced ML
+algorithms, data processing, and neural networks. Over the past year, I dedicated
+significant effort to learning Chinese to adapt to my academic environment, and
+while this temporarily shifted my focus from advanced mathematics and
+programming, I am now fully committed to intensive study to strengthen these
+areas. I thrive in challenging environments and am eager to prove my dedication.
+Beyond technical growth, I am equally excited about the opportunity to
+network with passionate individuals who share my interests. I believe that great
+ideas emerge through collaboration, and I look forward to
+exchanging
+perspectives, working on team projects, and building lasting connections within the
+ML/DL community.
+If my application is not accepted, I would be honored to contribute as a
+volunteer. With my background in IT and problem-solving, I can help ensure a
+smooth and engaging experience for all participants.
+Thank you for considering my application. I am truly passionate about
+advancing in ML/DL, and I would cherish the chance to be part of this event. I am
+ready to learn, contribute, and grow—both as a professional and as a proactive
+member of this community.
+Sincerely,
+[name]

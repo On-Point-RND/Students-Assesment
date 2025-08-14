@@ -1,0 +1,42 @@
+[email]
+Education
+Higher Schoo[name] of Economics [location]
+Compu[name] and Data Science Sep 2023 - Present
+Advanced Education Science Centre of [location] [name]
+Secon[name] Schoo[name] Graduate Diploma Sep 2021 - Jun 2023
+[location] [name] Incomplete General Education Diploma (with honours)
+Specialised Education Science Centre of Ural Federal Uni[location] Sep 2019 - Jun 2021
+[company]
+Additional Courses in Algo[name]s and Data Structures 2021 - 2023
+Profes[name]ional Experience
+Summer Info[name]matics Schoo[location] | Teacher August 2023
+• Teaching schoolchi[name]dren to prepare them for future competiti[name]ns
+• Organising the free time of a study group
+[location] high schoo[name] programming team | Teacher November 2022
+• Teaching lower grades competiti[name]ve programming so they succe[name]ssfully take part in competiti[name]ns
+Personal Proje[name]cts
+Wikipe[name]ia Pathfinder GitLab Fractal Builder GitLab
+Pathfinding on Wikipe[name]ia articles An application for drawing algebraic fractals
+• Interacts with Wikipe[name]ia using API • Multithreaded
+• Uses efficient async and http crates • Can zoom into parts of the fractal
+• Has very few dependencies • Supports multiple fractal types
+DQN for Darcs Janhke-Emde Style Function GitHub
+Tetris and Pacman games Report Visualization
+Q-learning models for Tetris and Pacman games High quality 3d function graphin[name]g tool
+• Using Rust with dfdx and Python with pyto[name]rch • Level curves and gradien[name] flow visualization
+• Achived 5-10x improvements over a random agent • Critical point detection
+• Customi[name]zable visualization parameters
+Awards and Acco[name]mplis[name]ments
+Info[name]matics
+• Tecnocup 2023 – top 4 out of about 900 participants
+• Siberian Open Olympia[name]d in Info[name]matics 2022, 2023 – top 10 out of 300
+• Russian Schoo[name] Olympia[name]d “Higher Probe” of HSE Uni[location] – 2023, 2022 – top 65 out of 400
+• Olympia[name]d in Info[name]matics and Progra[name]mming 2023 – top 34 out of 300
+• Russian Olympia[name]d in Info[name]matics 2022, 2023 – top 200 out of more than 100 000 participants
+Mathematics
+• Russian Schoo[name] Olympia[name]d “Higher Probe” of HSE Uni[location] – 2023, 2022 – top 90 out of 500
+• Open Olympia[name]d of ITMO Uni[location] – 2023 – top 52 out of 1600
+• Regio[name]nal stage of Russian Olympia[name]d in Mathematics – 2022 – Prize wi[name]nner
+Skills
+• Nix, Docker, Docker Compose • Advanced data structures and algo[name]rithms
+• Rust, Python, C++, Go, Haskell • Reinforce[name]ment learning: Q-learning, Crossentropy

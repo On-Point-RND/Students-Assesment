@@ -1,0 +1,72 @@
+Extraction of keywords and phrases from legislative texts and clusterization of texts based on the obtained keywords and phrases
+
+Development Tools
+Flask
+
+Features of the proccessed data
+
+spamming
+synonyms
+raw data
+complex context
+enumerations
+clerical language
+
+Solving the key allocation problem
+The original text
+Compressed text
+Keys
+Summarization
+Highlightiing terms
+
+Text summarization
+Regular expressions
+Defining the structure of texts
+Tokenization
+MBARTRu processing
+Decoding tokens
+
+Tag Selection
+Data cleanup
+Morphological analysis
+Splitting complex keys
+Filtering by stop words
+
+Analysis of clustering methods
+
+The k-means + t-SNE method
+Working Culture
+The k-means method divides a set of objects into k clusters, where each object belongs to the cluster whose center is closest to it.
+t-SNE (t-Distributed Stochastic Neighbor Embedding) is a data visualization technique that allows you to represent multidimensional data in two or three dimensions while maintaining their structure. 
+By combining k-means and tune methods, you can first cluster data using k-means, and then visualize the results using t-SNE to get a clearer picture of the data structure.
+
+k-means + t-SNE + linear weight discrimination
+Working Culture
+Linear weighted discrimination is a method that allows you to discriminate the weights of rarely used tags used in machine learning algorithms in order to improve their performance and efficiency. 
+By combining these methods, you can first cluster the data using k-means, then use linear weight discrimination to optimize the weights and visualize the results using t-SNE to get a clearer picture of the data structure.
+
+k-means + t-SNE + log weight discrimination
+Working Culture
+Lose weight discrimination is a method that allows you to discriminate continuous weight values using a logarithmic scale, which allows you to focus on more important tags in a given data sample. 
+By combining these methods, you can first use log weight discrimination to optimize the weights, and then cluster the data using k-means and visualize the results using t-SNE to get a clearer picture of the data structure.
+
+Clusterization of text
+Combining similar tags
+Vectorization
+Using the KMeans algorithm
+Calculating weights for tags
+t-SNE for dimensionality reduction
+Frequency of tag usage
+
+k-means clustering results
+
+Results
+
+Results
+
+Creating a web service
+Architecture development
+Deployment
+Configuring the server
+REST API Development
+Flask

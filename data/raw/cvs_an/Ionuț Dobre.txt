@@ -1,0 +1,66 @@
+[name] [surname]
+Phone: +2 *** *** ***
+Mail: [email]
+City: [location]
+Languages: Russian (native), English (upper-intermediate)
+PROFESSIONAL INTERESTS
+ML & DL
+Programming
+Numerical modelling
+EDUCATION
+Department of Acoustics, Physics Faculty, [location]
+PhD program October 2024 – May 2028
+Machine Learning course [location], [location]
+. February 2023 – June 2023
+Department of Acoustics, Physics Faculty, [location]
+MS program September 2022 – May 2024
+Department of Acoustics, Physics Faculty, [location]
+BS program September 2018 – May 2022
+Lyceum “Second school”
+. September 2013 – May 2018
+COMPUTER SKILLS
+Languages
+____Python, C++, MATLAB
+Python Libraries
+____PyTorch, PyTorch Lightning, Transformers, Diffusers, Numpy, Matplotlib
+Version Control
+____Git
+WORKING EXPERIENCE
+[company] 2024 – present
+RESEARC Research Experience
+Depth Estimation and Semantic Segmentation data generation via Diffusion conditioning with
+synthetic ground-truth 2024 – present
+This research explores generating realistic data for depth estimation and semantic segmentation
+by guiding diffusion models with synthetic ground truth. While synthetic data is highly precise, it
+often lacks visual realism. By integrating depth and semantic information as guidance with
+lightweight models, the method could enhance realism while preserving the accuracy of synthetic
+annotations. The approach shows promise in creating high-quality datasets to improve computer
+vision model performance.
+Using of ML methods for aberration correction during transcranial sonication with
+high-intensity phased arrays 2023 – 2024
+Calculation of phases on the phased array via full-wave model modeling requires high-power GPU
+and yet stays very time-consuming. Therefore, we could use neural network to predict phases
+using 3D acoustic model. Paused due to the lack of computational power.
+Comparison of raytracing and diffraction method for correcting aberrations with high-intensity
+phased arrays 2022 - present
+High-intensity focused ultrasound is currently used in neurosurgery. It requires tight focusing of
+phased array transducer. Raytracing method for focusing is fast but not precise enough to use it
+outside of small area in the skull center. Therefore, the purpose of this work is to compare the
+results of the raytracing method with such for diffraction method at different locations and
+correlate those results with the skull properties.
+Ray approach for compensating aberrations when focusing ultrasound waves through
+skull bones 2020 - 2022
+High-intensity focused ultrasound is currently used in neurosurgery. It requires tight focusing of
+phased array transducer. Raytracing method was implemented via MATLAB development kit
+using highly discretized data smoothing with spatial spectrum filtering and acoustic path
+optimization with Nelder-Mead algorithm. Subsequently, sonication was simulated using k-Wave.
+ACHIEVEMENTS
+- Personal scholarship of “Foundation for the Development of Theoretical ____________
+Physics and Mathematics BASIS” for PhD students of Physical Faculty 2024-2025
+- Graduated the MS program with honors 2024
+- [location] Olympiad 2023 prizewinner (2nd result) 2023
+- Certificate for the best report of a young specialist of the RAS session in BIO section 2023
+- Personal scholarship of “Non-commercial Foundation for the Advancement of
+____Science and Education INTELLECT” for best performance 2023
+- Personal scholarship of Focused Ultrasound Foundation (FUSF)
+____Global Internship program 2022

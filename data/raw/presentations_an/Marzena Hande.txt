@@ -1,0 +1,25 @@
+Slide 1
+----------------------------------------
+The competition on [compaany]: https://github.com/[name]-[surname]/confident-predictions-challenge
+The challenge was to create a model (or an algorithm) – model X, that can select top 10% predictions from the main model – model M.
+
+Slide 2
+----------------------------------------
+The task’s input data:
+The model M was trained to predict one of 3000 labels based on text data (twitter messages).
+A model X can use text data and/or on model M’s raw predictions (any form of transformation of them) as input features, also it can use a distance (numerical error) between a predicted label and a true one as the output data.
+
+Slide 3
+----------------------------------------
+Solution
+My best solution was adding to the list of input features (which included numerical features of text data, the model M’s raw predictions, the model M’s confidence when choosing a prediction) the approximate distances (numerical errors) between:
+the 1st best prediction of a label (with highest confidence) and the 2nd one (based on the 2nd confidence)
+the 1st best prediction and the 3rd one
+and so on…
+the 1st best prediction and the 10th one
+https://github.com/[name]-[surname]/confident-predictions-challenge/commit/5248f8650ea344eae99482b072b1f1d76eecd659
+As the result my model X’s mean error decreased from about 335 to about 270 (if tested on the samples where the approximate error between a predicted label and the next best 10 predicted labels was known).
+
+Slide 4
+----------------------------------------
+Also the approximate predicted cooordinate were added to the input features (if known), since they have a numerical value. And the list of 10 errors was sorted in the descendeed order, though it contributed just a little bit to the model’s X performa performance.

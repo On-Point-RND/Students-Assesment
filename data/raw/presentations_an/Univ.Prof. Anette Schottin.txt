@@ -1,0 +1,83 @@
+Investigating the Impaact of Adversarial Attacks
+on AI-Based Image Compression Models
+Made by:
+[name]
+[surname]
+Supervised by:
+[name]
+Do not adjust the width of this textbox, just type within it
+PROBLEM STATEMENT
+ML based image compression proved to be
+more efficient than industry standard JPG.
+Focus of Analysis: examines how adversarial
+attacks impact the compression-decompression
+process of neural image compression (NIC).
+[name], [surname] & [surname] & [surname] & [surname] & [surname] & [surname] & [surname] & [surname]. (2024). Exploring adversarial robustness of JPEG AI: methodology, comparison and new methods. 10.48550/arXiv.2411.11795.
+Project Goals
+1. Understand how AI compression models work;
+2. Test AI compression models on a dataset like Kodak to compress and reconstruct images.
+3. Compaare performance with traditional compression methods like JPEG. Evaluate results using
+PSNR, SSIM, bit rate BPP metrics;
+4. Apply Adversarial Attacks: Generate adversarial examples (e.g., FGSM, PGD) for all kodak
+images (24 images);
+5. Analyze Robustness: Evaluate attack effectiveness at 3+ compression levels, measuring the
+difference between the output of AI compression model before and after the attack.
+Do not adjust the width of this textbox, just type within it
+Models architecture
+[name] 2020 Anchor architecture
+[name], [surname] & [surname] & [surname] & [surname]. (2020). Learned Image Compression with Discretized Gaussian Mixture Likelihoods
+and Attention Modules. 10.48550/arXiv.2001.01568. https://doi.org/10.48550/arXiv.2001.01568
+Do not adjust the width of this textbox, just type within it
+Adversarial attack methods
+Fast Gradient Sign Method (FGSM) Projected Gradient Descent (PGD)
+Single-step perturbation in gradient direction: Iterative refiinement with projection:
+[name] & [surname] & [surname]. (2014). Explaining and Harnessing Adversarial Examples. arXiv 1412.6572.
+Do not adjust the width of this textbox, just type within it
+Adversarial attack methods
+Fast Gradient Sign Method (FGSM) Iterative Fast Gradient Sign Method (I-FGSM)
+Projected Gradient Descent (PGD)
+Momentum Iterative Fast Gradient Sign Method (M-FGSM)
+https://doi.org/10.48550/arXiv.1710.06081
+Do not adjust the width of this textbox, just type within it
+Metrics
+[name]-2020 Anchor
+(Anchor Variant)
+● Input Image → Encoder → Entropy Model
+→ Decoder → Reconstructed Image
+[name]-2020 Attn
+with D and R respectively the mean
+(Attention Variant)
+distortion and the mean estimated bit-rate.
+● Input Image → Encoder (with Self-Attention) →
+Entropy Model → Decoder (with Self-Attention)
+→ Reconstructed Image
+2
+where MAX is a maximum pixel value
+i
+Do not adjust the width of this textbox, just type within it
+Experiments and Results
+FGSM has the greatest impaact on compression quality
+Do not adjust the width of this textbox, just type within it
+Experiments and Results
+better
+better
+Our team
+[name] [surname] [surname]
+[compaany]
+MS-2 IoT MS-1 LS
+- Coding main algorithm - Preparing the GitHub
+- Post Processing Repo
+- Writing Report
+10
+Reference
+● [surname], [surname], [surname] & [surname]. arXiv preprint arXiv:1802.01436, 2018.
+● [surname], [surname], [surname] & [surname]. a pytorch library and
+evaluaation platform for end-to-end compression research. arXiv preprint arXiv:2011.03029, 2020.
+● [name], [surname], [surname] & [surname].Learned image compression with discretized gaussian
+mixture likelihoods and attention modules. In Proceedings of the IEEE/CVF conference on computer
+vision and pattern recognition, pp. 7939–7948, 2020.
+● [surname], [surname], [surname], [surname] & [surname]. Improving transferability of adversarial
+examples with input diversity. https://doi.org/10.48550/arXiv.1803.06978, 2019.
+● [surname], [surname] & [surname]. Variable-rate learned image compression with multi-objective
+optimization and quantization-reconstruction offsets. 2024.
+Thx

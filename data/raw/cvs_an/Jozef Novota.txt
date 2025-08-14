@@ -1,0 +1,79 @@
+Talyzin [name]
+Address: [location] | Phone: +2 *** *** *** | Email: [email]
+Education
+[location] Universiity of Medicine [location]
+● Faculty of Medicine, 3rd year (Expected year of graduaation: 2028)
+● Additional professional training “Data science: Fundamentals of data analysis” (Expected year of graduaation: 2025,
+(250 hours) June )
+State Budgetary Educational Institution SchooL No. 1284 [location]
+● General secondary education Year of completion: 2022
+PROFESSIONAL EXPERIENCE
+Practical training on obtaining primary skills in research and development [location]
+● Title: "The Impact of Cognitive Status on Compliance in Elderly Patients Duration: Sep 2023 – Apr 2025 (1
+Undergoing Outpatient Treatment for Arterial Hypertension" year 8 months)
+o Conducted an analysis of over 100 outpatient medical
+records of patients aged 65 and older.
+o Investigated the relationship between cognitive decline
+(assessed by the MMSE scale) and adhеrence to
+antihypertensive therapy.
+o Presented the research at a student conference and
+received a recommendaation for participation in the All-
+Russian Scientific Research Competition. Actively applied
+skills in critical literature analysis and statistical data
+processing (Excel, Python, SPSS).
+Private English Tutor [location]
+● Focus: Preparation for OGE and General English Language Development Duration: Jan 2022 – Apr 2025 (3+ years)
+o Provided individual tutoring to schooL students preparing for the OGE (Russian State Exam in English), focusing
+on grammar, vocabulary, reading comprehension, and speaking skills
+o Helped students improve their English proficiency from begiinner and elementary levels to confident B1 level
+and beyond.
+o Designed personalized study plans based on students’ goals, strengths, and areas for improvement.
+o Conducted regular progress assessments and adapted teaching strategies to ensure consistent improvement
+o Developed engaging lesson materials, including interactive exercises, speaking prompts, and listening tasks
+tailored to students’ interests.
+НАВЫКИ
+I. English: Upper-Intermediate (B2+): Graduated from a high schooL with an advanced English curriculum,
+participated in two exchange programs to the UK; lived with English-speaking host families, gained
+hands-on conversational experience in immersiive environments, confident in spoken and written
+English, including academic and professional.
+II. TECHNICAL SKILLS:
+Programming & Data Analysis:
+ Python (NumPy, pandas, matplotlib, seaborn, scikit-learn), SQL (basic), Excel (advanced), SPSS,
+confident in data preprocessing, transformation, and exploratory data analysis (EDA),
+experience with real-world datasets and healtcare-related data projects, proficient in Jupyter
+Notebook and Google Colab environments.
+ Machine Learning: Solid understanding of supervised learning: linear/logistic regression,
+decision trees, random forest, practical experience with scikit-learn: model training,
+hyperparameter tuning, evaluation (cross-validation, accuracy, ROC-AUC), familiar with basic
+pipelines and feature engineering techniques.
+Data Visualization & Reporting:
+● Creating clear, interpretable visualizations using Python and Excel
+Communicating findiings through structured presentations and academic reports
+Basic skills in Power BI and data storytelling
+ADDITIONAL SKILLS & COMPETENCIES
+1. Scientific literature review and critical analysis
+2. Academic writing and structured research reporting
+3. Public speaking and oral presentation at conferences
+4. Teaching and mentoring (English language and academic subjects)
+5. BilinguaL communication: Russian (native), English (fluent)
+6. Teaｍwork in research and interdiciplinary projects
+7. Time management and ability to multitask under academic pressure
+8. Cultural adaptability and international experience (UK student exchange programs)
+9. Strong interpersonal and educational communication skills
+PERSONAL QUALITIES
+1. Experienced in conducting and contributing to research projects
+2. Strong team player with excellent communication skills
+3. Responsible, detail-oriented, and goal-focused
+4. Quick learneｒ with the ability to grasp new concepts rapidlly and effectively
+FURTHER DETAILS
+● Interests: Oncology, Genetics, modern research in the field of genetic engineering and bioinformatics.
+● Volunteer activities: I have been involved in volunteer activities in health care, as well as being a blooｄ
+donor, and participating in blooｄ donation events.
+● At the moment I am attending the SSC of General and Medical Genetics of [location], SSC of Bioinformatics of [location] of RNIMU, I continue to study Data science and ML.
+● In parallel with my studies at the universiity, I am studying at the Digital Chair of ROSUNIMED and
+INNOPOLIS, in the program “Data science: Fundamentals of data analysis”.
+● In 2024 and early 2025 I had time to attend 2 medical conferences:
+1. II All-Russian Conference with international participation “Medical Genomics and
+Cytogenomics”
+2. 14th International Multi-Conference “Bioinformatics of Genome Regulation and
+Structure/Systems Biology”

@@ -1,0 +1,12 @@
+Motivation Letter
+My main area of interest is optimization methods in deep learning and deep learning in general. From the SMILES Summer School on Machine Learning, I expect to gain practical experience in fields that I have not had the opportunity to explore deeply during my university studies.
+In particular, I am interested in areas such as the development and training of NLP models, building training pipelines for them, as well as studying diffusion models and the nuances associated with their application. These topics are interesting to me both theoretically and practically: they provide an opportunity to broaden my scientific horizons and to learn how to design and run experiments with different modalities quickly and efficiently.
+I plan to apply the knowledge gained both in my academic research (I am currently a Master’s student actively engaged in scientific work) and in applied deep learning projects.
+I have taken various courses at the university. The most relevant ones include: Deep Learning Methods, Advanced Machine Learning (NLP and RL), Recommender Systems, and Deep Generative Models. These courses allow me to develop general skills in working with deep learning models, their application, and building training pipelines.
+In one of my projects, I worked with Faster R-CNN and DETR models, training them on generatively augmented datasets.
+In my research lab, I have participated in the following projects:
+1. A publication in the journal Computer Research and Modeling: ”Modifications of the Frank-Wolfe Algorithm in the Traffic Assignment Problem”.
+2. A scientific paper titled ”Conjugate Frank-Wolfe in Machine Learning”, presented at the OPTIMA conference. It is scheduled to be published in the CCIS journal this year.
+3. A conference thesis: ”On the problem of finding an equilibrium distribution of flows”, presented at the 66th All-Russian Scientific Conference at [location].
+4. Co-authorship of a paper on variational inequalities and saddle-point problems: ”Mirror-Prox Algorithm with Linear Convergence Rate and its Application for Dynamic Loss Scaling”.
+My career plans include joining a research lab focused on transportation modeling where artificial intelligence technologies are integrated. I also plan to apply to the [company] School of Data Analysis.

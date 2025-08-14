@@ -1,0 +1,20 @@
+Dear Sir,
+My name is [name] [surname], and I would like to apply for the SMILES 2025
+program.
+Currently, I work as a C++ developer, where I apply my skills in performance
+critical software development. Recognizing the potential of machine learning, in
+2022 I started formal education in ML at [company] in [location]. And now I want to learn more about the modern ML landscape.
+In the program, I see the opportunity to merge my C++ proficiency with modern
+ML techniques. Many ML applications, particularly in mobile and embedded
+systems, require optimization for efficiency and speed - and that is where I am
+good.
+I am studying ML not only for my career growth. I also see potential for
+entrepreneurial ventures, on the edge where ML papers are actually getting
+wrapped as products or services.
+I look forward to the chance to participate in the SMILES Summer School.
+I also can speak a little bit Chinese. Xie xie!
+Best regards,
+[name] [surname]
+
+
+

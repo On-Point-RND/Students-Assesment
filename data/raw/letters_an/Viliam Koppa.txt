@@ -1,0 +1,30 @@
+Motivation Letter — SMILES 2025
+[name] [surname]
+Dear SMILES Selection Committee,
+I still remember the first time I trained a neural network that worked — it was messy, I barely
+understood what was going on, but it worked. Since then, I've been drawn to the world of
+machine learning not just for its power, but for the ideas behind it — how we can build
+systems that learn, adapt, and even create.
+I’m currently a Master’s student at [compaany], where I’m focusing on machine learning and data
+science. What makes this field exciting to me is its evolving nature — there’s always
+something new, whether it’s in how we process language, generate images, or train agents
+to collaborate. Lately, I’ve been especially interested in generative models and how they can
+be used for more than just text or art — like improving accessibility, communication, and
+education. I’m working on a project that aims to help childre children with disabilities express
+themselves using AI tools, and it’s been an eye-opener in terms of real-world impaact.
+What drew me to SMILES is not just the technical content, which is obviously top-notch, but
+the focus on collaboration between [location] and [location] researchers. I believe that when you
+bring together people from different places and perspectives, especially in a field like AI, you
+end up with ideas that wouldn’t exist otherwise. That’s the kind of environment I want to be
+in — one where people challenge and inspire each other.
+I’d love to attend SMILES in person, not just to deepen my understanding of large language
+models, multimodal systems, or generative approaches, but to work with people who are just
+as excited (and probably much better at math) than I am. I’m not trying to present myself as
+some prodigy. I’m someoone who shows up, stays curious, learns fast, and keeps going even
+when things break — because they usually do.
+If given the chance, I’ll bring my energy, ideas, and eagerness to learn — and hopefully leave
+with a few new friends, insights, and a better understanding of how to build safe, powerful AI
+systems.
+Thank you for considering my application.
+Warm regards,
+[name] [surname]

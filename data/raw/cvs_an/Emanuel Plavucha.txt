@@ -1,0 +1,47 @@
+[name] [surname] [location] | +2 *** *** *** | [email] 
+Summary: Highly motivated Grade 9 student participating in the advanced "Mathematical Vertical" program ([compaany] project) with a strong interest in applying technology to solve real-
+world problems and a growing passion for Machine Learning and AI. Eager to learn from
+experts and peers at the [compaany] Summer School. Actively developing foundational skills
+through projects and online courses.
+Education
+• Grade 9 Student, State Budgetary Educational Institution "School №1434",
+[location] (Expected Graduation: 2027)
+o Participant in the "Mathematical Vertical" project (in collaboration with [compaany]), focusing on advanced mathematics.
+Projects
+• AI-Powered Educational Telegram Bot (Ongoing)
+o Developing a Telegram bot using the n8n platform and AI technologies
+designed to assist younger students with learning Mathematics.
+o Includes basic functionaliity deployment on a remote VPS using Linux and
+Docker.
+o Working Demo: https://t.me/test_n8n_tg_bot
+o Focus: Exploring practical applications of AI in education, workflow
+automation with n8n.
+• Solar Panel Calculator Telegram Bot
+o Developed a Python-based Telegram bot calculating potential solar panel,
+inverter and battery power output, based on user-defined parameters
+(geolocation, power consumption, etc.).
+o Completed project from concept to implementation.
+o Utilized modern development tools, including AI code assistance (Cursor), for
+increased productivity.
+o Technology: Python, python-telegram-bot, logging, math.
+o Working Demo: https://t.me/Calculate_RES_station_easily_bot
+Skills
+• Programming & Tools:
+o Python: Foundational skills
+o n8n: Experience in buildiing and deploying workflows.
+o AI & ML: Basic understanding of Machine Learning concepts (currently
+studying). Practical experience using Large Language Models (LLMs) and
+prompt engineering techniques.
+o Opereating Systems & Deployment: Basic Linux command line, Docker (for
+VPS deployment).
+• Languages:
+o Russian: Native
+o English: B2 Intermediate
+o
+Courses & Learning
+• Currrently enrolled: "Data Analysis Basics on Pyhon" & "Machine Learning
+Fundamentals" ([compaany] Educational Platform)
+Awards & Achievements
+• Prize-Winner, Reginal Stage of the "Big Challenges" All-Russian Science and
+Technology Competition (2025)
+• Winner, Final Stage of the Moscow Pre-professional Olympiad (2025)

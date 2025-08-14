@@ -1,0 +1,119 @@
+[name] [surname]
+Second year Computer Science student at Faculty of Computer Science of [location]
+(«Applied Mathematics and Computer Science») (GPA 8.21/10); AESC [location] grauaate
+[email] (cid:131)+2 *** *** *** §[surname][name] Tg[surname][name]629570
+• Discussingmulti-languageRetrieval-Augmented
+EXPERIENCE
+Generationbotarchitecture,compaринgethodsfor
+PDFtotextconversion,analyzingRAGASlibrarycodeto
+adaptforbenchmaｒkinganduseof[company]GPT
+EMS Student
+Analyzing the results of a poll on higher
+EngineeｒingandMathｅmaticsSchoolof[location]education students attitude to online learning
+z October2024–December2024
+«DANO»HSEolympiad
+• «HardwareforAI»workshop
+z December2024
+• Workwithopen-souｒcelibraries,deviceprofiling
+• Dataanalysis(JupyterNotebook,LibreOfficeCalc)
+Junior C++/Go deveｌoper
+• Hypothesiｓbuilｄingandbasicstatisｔicaltests,working
+T-Bank,Searchtechnologies,Codesearch ontheprojectpresentation
+z Julｅ2024–Currenttime • Havegotapersonalprizewinner’splacebasｅdonthe
+averagｅofprojectevaluationandindividualcontests
+Team university project «AIGame. A game utilizing
+dataanalysis machine learning»
+SCHOOL OLYMPIADS
+[location]
+z October2024-Currenttime
+• RussianOlympｉadinInfoｒmatiｃsprizewinner(2024);
+• AgaｍainUnrealEngineexpectｅdtointegrateML.
+non-winnerwithhighestresultin2024
+• UtilizedtheLearningAgentsplugintocontrolcharacters ...
+withRLandanalyzedthepluginarchitectureforin-level
+integration,modelinferenceandtraining
+Student assistant at Calculus (advanced group) for first year students
+z 2024/2025studyyear • 2256ratingonCodeforces,25thplaceinKotlinHeroes
+10th round
+SKILLS
+• PrizewinnerofDANolympiadof[location]indataanalysis
+thatincludeｓacompetitionofprojects
+C++ Python PyTorch NumPy Tkinter • MoscowScholchildrenTeamOlympｉadmedalist,All-
+RussianScholchildrenTeamOlympiaｄparticipant
+Linearalgebra Calculus EnglishB2+
+• HonorableｍentionatRussianOlympｉadinMaths2024
+beginnerKotlin beginnerinRuby git Go
+(theawardthatislessprestigiousthanaprizewinner’s
+award)
+PROJECTS
+• Thesinglefullsolutionofataskonmessage
+reconstructiononSPbSUolympiad2024
+Read, write, and apply filters to .bmp images (C++) • Thebestpartialsolutionofataskonminimizingthe
+maximmatchinga graphonthelongtourof
+Numerical integration and plot building (C#,
+SPbSUolympiad2023(score86/100,nextsolutions
+WinForms) exceptthejudges’are40-60/100)
+Visualization of Julia and Mandelbrot fractals
+(Python 3, nuｍpy, ｔkinter) • ParticipantinfinalstageofRussianOlympｉadin
+InformationSecurity
+Chat bot to answer questions based on a • ParticipantofregionalstagesofRussianOlympｉadin
+knowledge database Economics,English,SocialSciencesin[location]
+• Prizewinnerof«Vishayaprobａ»HSEolympiadinEnglish
+andofKazanSUolympiadｉnRussian
+«MachineLearningPRO»course
+z April2024
+INTERESTS
+• WorkwithAI(Python)
+• ProjectpresentedatDataFusion2024
+C++ Python AI graphtheory education
+ADDITIONAL EDUCATION ACHIEVEMENTS
+GraduateofTinkoffGenerationCompetitiveProgramming (cid:155) MoscowRegionalContestQualification(1/4ICPC)
+coursesingroupsA’(2024)andA(2024) Thirdprize;alsosecondprizeat1/8ICPC
+(cid:140) TecharenaMIPT
+3thplaceaton-siteolympiadforhighereducation
+«MachinelearningPRO»courseauthoredbyCentralBank
+studentsonaprogrammingoptimizationtask
+ofRussiaｎdVTB
+(2024)
+(cid:155) FCSHSEOpenOlympｉadinMath
+Mayprojectcampioninmath«Sirius»EducationalCentre 12thplace,secondprizeatfirstyear;thirdprizeat
+secondyear
+Januaryscientificschoolinmathandprogrammingin«Sirius»EducationalCentre (cid:155) FCSHSECompetitioninInformatics
+29thplace,thirdprizeatfirstyear;prizewinnerat
+secondyear
+3sessionsincompetitiveprogramming,2sessionsinmath
+in«Sirius»EducationalCentre † On-sitepresentationofsuggestionsforthe
+improvementofthe”AllCups”systemofVKfor
+Participated5timesinSummer/WinterInformaticsSchool
+contestsinprogramming&AI
+Winner(asateammember)
+– [location]EducationScholarshiprecipient
+«Combalg»onlineschool
+(cid:155) RussiaCupincompetitiveprogramming
+ITProductmanagementcoursebyVK 17thplace(2024)
+(cid:239) PJSC«Rosseti»Olympiad
+Prizewinner,visitoftheYouthDayofRussian
+EnergyWeek
+[ «Vishayaliga»HSEolympiadforhighereducation
+students,graduates,andMaster’sprogram
+applicants
+Prizewinnerin«Analyticsandmanagement
+education»,«Psychometricsandeducational
+neuroscience»(2024)
+[ [company]gamificationhackathon
+Participant,proposｅdgamificationtechniquesforthe
+[location]Educationecosystem(2025)
+RELEVANТ STUDY
+• HSEcourses:9/10averagegradeforAlgorithmｓandDatastructures,8/10averagegradeforC++
+• ProgramminginPythonandC++inolympiads,YandexLyceum,on-sitecampｓforschoolstudentssince2018
+• Experiencｅinmathcompetitions
+ARTICLES
+• ArticleonAIGame,describingthecontext,thegamearchitecture,thesimpleMLarchitecture,theUnrealEngineML
+integrationtoolarchitecture,andfuturedirectionsofworksubmittedtoSYRCOSЕ-2025.Co-authorshipwithOlegGaranin
+(HSE).https://disk.yandex.ru/i/Sx5llQ5hHAwJaw
+CODE
+• GitHuｐhttps://githuｂ.com/[surname][name]324
+• Codeforceshttps://codeforces.com/[surname][name]Var
+• Plotbuilderhttps://githuｂ.com/[surname][name]/plot-integration
+• Mandelbrotfractalvisualizerhttps://githuｂ.com/[surname][name]/fractal-building
+• HomeworkforC++courseatFCSHSE(includingprojects)https://disk.yandex.ru/d/X-CoreDUYOG9mA

@@ -1,0 +1,75 @@
+Motivation Letter for [name]
+Dear Selection Committee,
+My name is [name], a first‑year master’s student in Applied Mathematics and
+Information Science at [university] and a Machine Learning Engineer at [company]
+in [location]. I am writing to express my strong interest in attending SMILES‑2025. The
+schoo’s unique mission—uniting Russian and Chinese early‑career researchers to advance
+modern machine learning through innovative research and real‑world applications—perfectly
+aligns with my academic trajec­tory, profes­sional work, and long‑term career aspirations.
+Motivation
+I view SMILES‑2025 as an exceptional opportu­nity to accelerate my transition from
+indus­try‑focused ML engineering to academi­cally‑o­riented, im­pact‑driven AI research.
+Working on production‑grade models in banking and computer‑vision start‑ups has provided
+me with practical insights into scaling ML systems, but it has also highlighted the urge­ncy of
+rigorous research into model robus­tness, fair­ness, and interpretability—topics stro­ngly
+repres­ented in the SMILES cur­ricu­lum. Immersi­ng myself in an inter­national cohort will
+expose me to diverse research questions and inspire colla­borations that transcend borders.
+Experience with ML and DL Tools
+Indus­try projects. At [company] I built and deployed two core microservices: an o­nline
+Risk Scoring Model and a Probability of Default Model for mid‑sized and large corporate
+clients. Both services are con­tainerized with Docker, orchestrated via Kubernetes, and
+inte­grated into the bank’s credit‑de­cision pipeline as REST APIs, ensuring millisec­ond‑level
+late­ncy and bank‑grade reliability. I also pro­totyped an LLM‑powered microservice that
+parse­s real‑time news streams to generate in­dus­try ov­erviews, broaden­ing my familiarity with
+transformer ar­chi­tec­tures and prompt engineering.
+Earlier, at [company], I delivered proof‑of‑concept solutions on a wo­rld‑class face‑recognition
+pla­tform. I adapted convolutio­nal‑net­work ensembles to new domains, o­ptimized inference
+on edge devices, and implemented addit­ional API func­tion­ality in Python and Bash
+citetuurn0file0.
+Research‑style projects. To strengthen my theor­etical foun­da­tion I completed several
+Kar­pov Courses (StartML, HardML) and built open‑sou­rce projects such as SmartEye, a
+FastAPI face‑recognition service, and Pimp My DS, a Telegram bot that leverages LLMs to
+re­com­mend data‑science content. My C/C++ background allowed me to implement custom
+data structures (vector, map) and mathe­matical libraries, deepen­ing my apprec­i­ation for
+efficient memory‑safe code.
+Collec­tively, these experiences have honed my pro­fi­cie­ncy with Python, PyTorch, Docker,
+Kubernetes, SQL, and Aiirflow; yet they have also shown me the limits of self‑study and the
+value of formal research mentorship.
+Expecta­tions from SMILES‑2025
+1. Advanced theory workshops. I seek rigorous exposure to cutting‑e­dg­e topics such
+as self‑supervis­ed repre­sentation learning, diffusion models, and federated
+learning—areas dir­ectly rel­evant to pri­va­cy‑sen­sitive financial data and cross‑border
+colla­borations.
+2. Research mentorship. Interacting with leading facul­ty from Russian and Chinese
+uni­versities will help re­fine my exis­ting research idea: employ­ing domain‑adaptive
+foun­da­tion models to improve credit‑risk estimates under distri­bu­tion shift.
+3. Cross‑cu­ltural exchange. Sharing perspectives with Chinese peers working on
+large‑scale indus­trial AI systems will broaden my under­stand­ing of deplo­yment
+con­straints and data‑gov­er­nance frameworks ou­tside of Europe.
+4. Publication pipeline insight. Hands‑on ses­sions in writ­ing and re­viewing will
+demystify the submis­sion process to top venues—a skill set I am eager to cul­ti­vate
+while pre­par­ing my first conference paper.
+Career Plans
+My long‑term goal is to become a research‑driven ML engineer who bri­dges academia and
+indus­try. In the next two years I plan to:
+● Publish at least one peer‑re­viewed paper on ex­plai­nable credit‑risk modeling under
+covar­iate shift.
+● Contribute to open‑sou­rce libraries that facili­tate the deplo­yment of trustwo­rthy AI in
+regu­lated sectors.
+● Pursue a PhD joint­ly su­pervised by [university] and an inter­national par­tner,
+fo­cus­ing on proba­bilis­tic deep learning for financial decision‑making.
+Parti­cipation in SMILES‑2025 will be pivotal to these goals: it will equip me with advanced
+metho­do­lo­gical tools, introduce me to prospec­tive colla­borators, and provide a pla­tform to
+val­i­date my research ideas through poster ses­sions and fee­dback from sen­ior scien­tists.
+Conclusion
+With a solid foun­da­tion in deplo­ying ML systems at scale and a grow­ing appe­tite for rigorous
+research, I am confident that I will both ben­e­fit from and mean­ing­fully con­tribute to
+SMILES‑2025. I bring hands‑on ex­perti­se in financial and computer‑vision applications, a
+track record of rapid pro­to­typing, and a pas­sion for knowl­edge sharing—as evidenced by my
+open‑sou­rce projects and mentorship of junior colleagues. I am eager to ex­change ideas,
+tackle chal­len­ging prob­lems, and help foster the colla­bo­ra­tive spirit that makes
+SMILES‑2025 a cat­alyst for in­no­va­tion in the AI community.
+Thank you for con­sid­er­ing my ap­pli­ca­tion. I look fo­rward to the pos­sib­il­ity of con­tribu­ting to
+and learn­ing from this vibrant inter­disci­plin­ary gat­hering.
+Sincerely,
+[name]

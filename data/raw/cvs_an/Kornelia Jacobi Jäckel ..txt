@@ -1,0 +1,26 @@
+[name] [surname]
+Address: [location]
+Email: [email]
+Phone number: +2 *** *** *** / +2 *** *** ***
+GitHub: https://github.com/Vampa-ru
+Talant id: https://talent.kruzhok.org/user/231
+EDUCATION
+[compaany]
+*Bachelor’s in Fundamental Informatics & Information Technologies* | 2024–Present
+- Relevant coursework: Machine Learning, Data Structures, Algorithms, Computer Vision
+- Focus: AI/ML applications in satellite image analysis
+TECHNICAL SKILLS
+- Programming: Python (NumPy, Pandas, OpenCV), C
+- ML/AI: Semantic Segmentation, Neural Networks, Data Processing
+- Tools: PyTorch, TensorFlow (basic), Git
+- Languages: English (B2-C1), Russian (native), Chinese (HSK4)
+PROJECTS
+Satellite Image Analysis System | *Personal Project*
+- Built a semantic segmentation model to detect objects in satellite imagery
+- Processed geospatial data using Python and OpenCV
+COMPETITIONS
+- AI ARROW, NTO – Applied ML models in hackathon-style challenges
+EXPERIENCE
+Self-Learning & Skill Development | 2022–Present
+- Dedicated 6+ months to intensive Chinese language study while maintaining technical self-study
+- Regularly participate in online courses (Coursera, Sirius courses and Stepick) on advanced mathematics for ML

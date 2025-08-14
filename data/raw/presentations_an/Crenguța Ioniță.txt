@@ -1,0 +1,104 @@
+DocAgent: A multi-agent system for
+automated code documentation generation
+Motivation & Documentation Levels
+Why automated docs?
+• Reduce developeer overhead, improve code maintainability.
+Documentation Granularity:
+• High-level: System structure, main components, interactions
+• Low-level: Module/algorithm details, internal APIs
+Audience & Visibility:
+• Public (external users)
+• Cross-team (other dev groups)
+• Intra-team (local developers)
+What Is an “Agent”?
+An autonomous program/process that:
+• Perceives its environment (e.g. analyzes code)
+• Decides based on perception
+• Acts toward goals without constant external control
+Key Agent Traits:
+• Autonomy
+• Environment interaction
+• Goal-oriented behavior
+• Learning & adaptation
+Multi-Agent Systems
+• Agents can exchange requests
+• Distributed deployment
+• Parallel or interdependent workflows
+• Tackle tasks too complex for a single agent
+• Modular & extensible (add or upgrade agents easily
+What do we document?
+Technical Process Support and Usage
+• Architecture description • Environment deployment and • Monitoring and logging guide
+• API documentation configuration • Troubleshooting instructions
+• Details of algorithms and • Development, review, and • Maintenance tips
+critical parts of the code release regulations
+• Description of tests and CI/CD
+DocAgent
+[name] [surname] et al. github 2025
+Agent Workflow & Roles
+Agent Role Key Actions
+Reader Analyzes code, decides needed context • Checks complexity & visibility
+• Generates XML queries for internal (dependencies) or external (algorithm) info
+• Iterates if context insufficient
+Searcher Fetches context per Reader’s queries • Uses code-analyzer to find repo components, examples
+• Calls external APIs for algorithm/library descriptions
+Writer Drafts documentation based on code + context • Applies templates (Summary, Args, Returns, Raises, Examples, Attributes)
+• Strives for completeness & clarity
+Verifier Validates doc quality & completeness • Scores information value, level of detail, completeness
+• Triggers rewrite if minor issues, or loops Reader/Searcher if major gaps
+Orchestrator Coordinates the entire cycle • Enforces Reader→Searcher→Writer→Verifier order
+• Prunes context when hitting LLM token limits
+• Stops on acceptaance or max iterations
+DocAgent
+• CL – CodeLlama-34B-instruct
+• GPT – GPT-4o-mini
+• FIM - fill-in-the-middle
+Completeness
+Helpfulness
+Truthtulness
+[name] [surname] et al. github 2025
+DocAgent
+Rand – random order
+Helpfulness
+Truthtulness
+[name] [surname] et al. github 2025
+Advantages and disadvantages
+• Generation from scratch
+• Comprehensive evaluation system
+• Full-featured web interface
+• Supports external requests
+• Currrentlly supports only Python
+Currrentlly supports only Python
+• Requires a lot of resources
+Requires a lot of resources
+[name] [surname] et al. github 2025
+Original article & Repo
+GitHub: https://github.com/facebookresearch/DocAgent
+Article: https://arxiv.org/pdf/2504.08725
+[name] [surname] et al. github 2025
+My Java/Kotlin Agent at T-Bank
+● Python-only support
+The current prototype generator works exclusively on Python code, which limits its
+applicability to other languages used at T-Bank (e.g., Java, Kotlin).
+● High resource consumption
+End-to-end fine-tuning and inference with large LLMs (GPT-4o, YaGPT, GigaChat)
+demands substantial compute and memory, making it difficult to scale across multiple
+repositories or integrate into CI/CD pipelines.
+My Proposed Solution
+● Lightweight Models & Experiments
+To address both challenges, I’m experimenting with smaller, more efficient models
+(distilled or quantized variants) alongside our existing fine-tuned LLMs, measuring the
+trade-off between resource use and documentation quality.
+● Parser
+Continue using javalang (insteaad of a full AST) to build dependency graphs for
+Java/Kotlin, minimizing parsing overhead.
+● LLM Backends
+Combine fine-tuned GPT-4o, YaGPT, and GigaChat with lightweight alternatives to
+handle different code sizes and latency requirements.
+● Integration
+Mirror the DocAgent multi-agent workflow but tailor each component to T-Bank’s coding
+standards, security policies, and resource constraints, with automated fallbacks to lighteer
+models when usage spikes or token limits are exceeded.
+
+
+

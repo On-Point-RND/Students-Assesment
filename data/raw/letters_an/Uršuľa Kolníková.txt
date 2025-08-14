@@ -1,0 +1,65 @@
+Motivation Letter
+[name] [surname]
+[location]
+Telegram: [+2 *** *** ***]
+Email: [email]
+Aspiring AI Researcher & Interdisciplinary explorer
+Dear SMILES-2025 Committee,
+I am writing to express my strong interest in participating in the SMILES-2025
+Summer School. As a deeply curious and analytically-minded student with a strong
+passion for machine learning and interdisciplinary research, I see this program as a
+rare opportunity to expand both my technical expertise and global perspective.
+Although I am currently enrolled in a Business Administration program at the
+[compaany], my academic trajectory has never been linear. From the age of sixteen, I have
+pursued ambitious goals in mathematics and economics, winning Olympiads
+through self-preparation. Now I continue this spirit of self-driven learning by
+actively studying applied mathematics, machine learning, and neural networks
+through online platforms, academic projects and practical development work.
+My exploration of artificial intelligence began with curiosity and quickly evolved
+into a commitment. Over the past year, I have taken part in multiple research and
+engineering projects, ranging from building deep learning models to deploying
+intelligent systems in real-world applications. One such project involved
+developing a Telegram bot integrated with a convolutional neural network to
+identify pet breeds and match lost animals with found reports using image and
+location data. It combined my love for technology with a deep concern for social
+impact — a combination that now defines much of my work.
+In parallel, I’ve completed several projects at the intersection of psychology and
+data science. I researched correlations between [organization] personality types and career
+preferences, building ML models to predict professional inclinations based on
+language descriptors. These projects reinforced my desire to explore AI not just as
+code, but as a lens through which to understand behavior and create meaning.
+Recently, I’ve been captivated by the Kaggle platform. Its ecosystem of
+competitive ML challenges has pushed me to think deeply about model
+optimization, data preprocessing strategies and creative feature engineering.
+Kaggle helped me realize that machine learning isn’t only about theory — it’s
+about experimentation, iteration and the joy of figuring things out!
+Another area I’m actively exploring is blockchain technology. I participated in the
+[organization] Blockchain Championship, where my team designed
+decentralized smart contract solutions for efficient and transparent digital
+exchanges. This sparked my fascination with decentralized AI, secure model
+collaboration and the ethical distribution of generative technologies, all of which I
+believe will play a key role in the future of safe, trustworthy AI.
+What draws me most to SMILES-2025 is its focus on generative models, LLMs,
+multimodal and multi-agent systems and self-supervised learning — areas I’m
+intensely curious about and currently building projects around. I am especially
+interested in how these models can learn internal world representations and serve
+as foundations for agents capable of autonomous reasoning and collaboration. I am
+eager to go beyond pre-trained solutions and engage with architectures and training
+paradigms that shape emergent behavior.
+Beyond technical content, SMILES-2025 also offers a human layer — the
+opportunity to interact with other driven individuals from across [location],
+to receive mentorship from leading scientists, and to participate in a community
+that values ambition, inquiry, and meaningful innovation. I truly believe that
+breakthroughs happen at the intersection of people and ideas — and I’m excited to
+be part of that dynamic exchange.
+My dream is to combine rigorous technical skills with high-level thinking across
+disciplines to work on foundational problems in AI. I want to contribute to a future
+where intelligent systems don’t just replicate patterns, but inspire new ways of
+seeing and building our world. SMILES-2025 is not only a perfect next step — it’s
+the kind of environment where I believe I would grow the most, give the most and
+find the people and problems that will shape my future as a researcher.
+Thank you very much for considering my application. I would be honored to join
+the SMILES-2025 community and contribute my passion, ideas and energy to this
+incredible initiative!
+Best regards,
+[name] [surname]

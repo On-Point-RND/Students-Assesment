@@ -1,0 +1,66 @@
+[name]
++2 *** *** ***
+[email]
+Education
+[compaany] Sep 2021 – Jun 2025
+Master of Arts in Fundamental and Computational Linguistics [location]
+• RelevantCourses:DeepLearninginNLP,FormalLanguages,Ontologies,SocialNetworks
+[compaany] Sep 2023 – Jul 2024
+Master of Science in Language Science and Technology [location]
+• RelevantCourses:ComputationalLinguistics,NLPinLow-ResourceSettings,DialogueSystems
+[compaany] Sep 2022 – Aug 2023
+Master of Science in Natural Language Processing [location]
+• RelevantCourses:ProbabilityandStatistics,ML,SemanticWeb,DataAnalysis,LinguisticsforNLP
+[compaany] Sep 2017 – Aug 2021
+Bachelor of Arts in Fundamental and Computational Linguistics [location]
+• RelevantCourses:NLP,Python,R,Databases,NeuralNetworks,LinearAlgebra,Calculus,Linguistics
+Experience
+Transcrime Jul 2023 – Jan 2025
+NLPEngineer [location](remote)
+• Contributed to three EU-funded projects focused on fake news detection, illicit firearms trafficking, and terrorist content detection online, applying NLP methodologies across multiple languages.
+• In a team, developed a real-time terrorist content assessment system achieving high accuracy, implementing processing multilingual pipeline with API integrations, Kafka, Python, and Docker for efficient data handling.
+[compaany] Sep 2019 – Jul 2022
+NLPResearcher [location]
+• Conducted statistical analysis on large-scale text corpora, applied ML algorithms including regression, clustering, and classification for predictive modeling of textual features using Python and R.
+• Co-led a team project to gather, annotate, and analyze 1.5 million lines of Python code. Experimented with Python code generation using seq2s seq networks and applied code classification techniques (BERT, logistic regression, etc).
+MegaputerIntelligenceInc Jan 2019 – Dec 2019
+AnalyticaLLinguist [location]
+• Developed and optimized sentiment analysis classification tool for Italian hotel reviews, improving preprocessing and reducing time complexity by 50% while creating custom datasets, enhancing the booking site’s feedback analysis.
+Projects
+HateSpeechAI-generatedDialogues|Python,API,PyTorch,Pandas,NLTK,BeautifulSoup
+• Led development of a Russian language dialogue system benchmark, testing BERT- and GPT-based models and compiling datasets via API and web scraping to measure models’ propensity for generating unacceptable content.
+AI-generatedTextsDetection|Python,HugginFace,PyTorch,Pandas
+• Fine-tuned several ML models (RoBERTa,ELECTRA) to detect AI-generated medical texts, utilizing linguistic and statistical features, and conducted comparative analysis to identify the most effective approach for detection.
+MultilingualFactVerificationwithLLMs(ongoing)|Python,HugginFace,OpenAIAPI,PyTorch
+• Implemented diverse training methodologies for multilingual fact verification task, including full fine-tuning of XLM-R and mT5, alongside prompt-based and LoRA fine-tuning for Llama3.1, Qwen2.5, and MistralNemo.Evaluated model performance across 25 languages while investigating cross-lingual transfer between languages with different degrees of typological relatedness and augmenting data through machine translation.
+HallucinationDetectioninLLMOutputs|Python,OpenAIAPI
+• Participated in SemEval-2025Mu-SHROOMsaredtask to detect hallucinations in multilingual LLM outputs, using XLM-R model, Wikipedia-based RAG and summarization approaches. The developed approach achieved the top 10 across 9 language tracks for hallucination detection, including 2nd place for Mandarin Chinese.
+Skills
+Programminglanguagesandtools:Python,R,SQL,NoSQL,Kafka,Git
+Concepts:AI,DataScience,MachineLearning,NeuralNetworks,API,Database,Linguistics
+Languages:RussianC2,BelarusianC2,EnglishC1,ItalianC1,FrenchB1,DutchA2,GermanA1
+Publications
+JoseMaldonadoRodrˊıguez,RomanKovalev, [name], ArayaKirosHailemariam,andEzgiBasar.2025.
+LCTeamatSemEval-2025task3:Multilingualdetectionofhallucinationsandovergenerationmistakesusing
+XLM-Roberta.InProceedingsofthe19thInternationalWorkshoponSemanticEvaluation(SemEval-2025).
+LyashevskayaO.,VinogradovaO.I.,[name].(2022).Accuracy,syntacticcomplexityandtasktypeatplaying
+inexaminationwriting:Acorpus-basedstudy.InComplexity,AccuracyandFluencyinLearnerCorpusResearch,Agnieszka
+Lenˊko-SzymanˊskaandSandraGo¨tz(eds.),241-272.Amsteerdam:JohnBennjaminsPublishingCompany.
+https://doi.org/10.1075/scl.104.10lya.
+Guseva,P.,Drozdova,A.,Denisenko,N.,Sapozzhnikova,D.,Pyaternev,I.,[name],Ustuzhanin,A.(2022).Semantic
+CodeClassificationforAutomatedMachineLearning.NeurIPS2021,NewML
+workshop.https://arxiv.org/abs/2201.11252.
+[name].(2021).DataClustering,KeywordExtractionandLexicalDiversityinEssaysfromLearnerCorpus.In
+Cross-culturalSpace:LinguisticsandDidacticAspect2,ElenaVorotilina(ed.),183–189.Petrozavodsk:PetrozavodskState
+University(inRussian).
+[name](2020).ComparativeStudyofDataClusteringAlgorithmsandAnalysisofTheKeywordsExtractionEfficiency:
+LearnerCorpusCase.[compaany]ResearchPaperNo.WPBRP97/LNG/2020.
+https://ssrn.com/abstract=3740497.
+Awards and Scientific Events
+ReceivedErasmusMundusscholarshippromEUforMasterstudiesinFranceandGermany. 2022-2024
+Attended the Athens NLP 2024 Summer School organized jointly by NCSR ”Demokritos”, the Sep2024
+AthensUniversityofEconomicsandBusiness,RC”Athena”,andHeriot-WattUniversity.
+Participatedinthe14thLisbonMachineLearningSchool(LxMLS2024),organizedjointlybyInsti- Jul2024
+tuto Superiortecnico (IST), Instituto de Telecomunicações, INESC-ID, the Lisbon ELLIS Unit for
+LearningandIntelligentSystems(LUMLIS),Unbabel,Zendesk,andIBMResearch.
+AttendedALPS2024(AdvancedLanguageProcessingSchool),co-organizedbyUniversityGrenobleAlpes,NaverLabsEurope,andCohere. Apr2024

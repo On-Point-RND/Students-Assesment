@@ -1,0 +1,54 @@
+[name] [surname]
+E-MAIL: [email]
+EDUCATION
+[location] Peter the Great [location] Polytechnic [compaany] | 2021- currently (4 course), Bachelor of Science degree
+Major: 12.03.04 Biomedical systems and technologies
+GPA: 5.0, Badge of Honour “Exceptional Student” of I degree
+Minor: Software development in Python
+Final project: Neuronlab – educational software for studying
+neurophysiology (https://github.com/[compaany]/neuronlab)
+INTERNSHIPS AND WORK EXPERIENCE
+Laboratory of Biomedical Image and Data Analysis, [location] Peter the Great St.
+[location] Polytechnic [compaany]| June 2024 - current | Laborant
+researcher
+Laboratory of Molecular Neurodegeneration, Centre of Science &
+Education “Fundamental foundations of medical and biomedical
+technologies”| July 2023 – current | Intern
+Department of Additive Technologies, [compaany] of Prosthetics and Orthotics,
+Federal Scientific and Educational Center of Medical and Social Expertise
+and Rehabilitation named after G.A.[surname]| September 2023 – April
+2023 | Intern
+Laboratory of Molecular Genetics at the 31st Clinical Hospital of [location] | April 2023 – July 2023 | Intern
+PARTICIPATION
+Publications:
+1. [name] A., [name] E., [name] A., [name] D., [name] O.,
+[name] E. Generate and Analyze 3D Dendritic Spine Morphology
+Datasets with SpineTool software // Current Protocols, 2024; 4(12), e70061.
+DOI: 10.1002/cpz1.70061
+2. [name] A., [name] E., [name] I., [name] E. Hippocampaal
+dendritic spines store-operated calcium entry and endoplasmic reticulum
+content is dynamic microtubule dependent // Sci Rep, 2025; 15, 1314. DOI:
+10.1038/s41598-024-85024-5
+3. [name] A.,,* [name] E.,,* [name] [surname], [name] V., [name] [surname]
+NeuroDecon: A Neural Network-Based Method for three-dimensional
+Deconvolution of fluorescent microscopic Images // in preparation
+Conferences:
+1. All-Russian Scientific and Practical Conference with international
+participation “The placement of I.P. Pavlov’s doctrine in modern system of
+neurosciences”, 2024
+2. IX Youth SchooL-Conference on Molecular and Cellular Biology [compaany]
+of Cytology RAS [location] , October 15–18, 2024
+3. All-Russian Scientific and Practical Conference for Students, Graduates
+and Young Scientists “Life Science Polytech 2024” Molecular biology
+section
+4. All-Russian Scientific and Practical Conference for Students, Graduates
+and Young Scientists “Life Science Polytech 2023” Molecular biology
+section thesis co-author
+Courses:
+Quantum Mechanics and Quantum Chemistry course co-author
+https://msdegroup.com/main
+ADDITIONAAL EDUCATION
+ML Bootcamp by OpenBio (2025)
+LANGUAGES
+English – С2
+French – В2

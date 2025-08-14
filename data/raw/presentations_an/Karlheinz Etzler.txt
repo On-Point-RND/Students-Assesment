@@ -1,0 +1,70 @@
+overview of Articles
+Factor Models
+[name] [surname]
+[compaany]
+[email]
+for SMILES-2025
+Challenges of
+factor models
+Traditional models (CAPM, Fama-French) Low Signal-to-Noise Ratio:
+assume: Financial markets are inherently noisy.
+Linearity in factor relationships. True signals are weak and difficult to
+Stationary market conditions. isolate.
+Machine Learning (ML) introduces: Regime Shifts:
+Nonlinear modeling capacity. Market behavior changes over time.
+Data-driven factor discovery. Static models fail to adapt to new
+Potential for higher predictive accuracy. regimes.
+Interpretability and Robustness:
+Deep models are often black boxes.
+How can we build adaptive, interpretable,
+and accurate factor models that survive
+noise and adjust to market shifts?
+FACTORVAE FACTORGCL HIREVAE
+Goal: Learn latent factors Goal: Predict returns in Goal: Improve predictive
+from noisy market data. dynamic, shifting markets. power by discovering hidden
+Approach: Probabilistic Approach: Hierarchical VAE nonlinear factor
+model using Variational with regime-switching relationships.
+Autoencoder (VAE). decoders. Approach: Uses hypergraph
+Motivation: Capture Motivation: Adaptively convolution and contrastive
+uncertainty in factor switch factor regimes based learning.
+estimation and model noise on real-time market state. Motivation: Mine high-order
+explicitly. dependencies beyond linear
+or pairwise features.
+FACTORVAE – MODEL
+ARCHITECTURE
+FACTORGCL – MODEL
+ARCHITECTURE
+HIREVAE – MODEL
+ARCHITECTURE
+EXPERIMENTAL RESULTS
+FactorVAE FactorGCL HireVAE
+Rank IC 0.055 0.066 0.066
+Rank ICIR 0.568 0.734 0.734
+Sharpe Ratio 1.92 1.68 2.1
+Annualized return 15.32% 18.91% 30.89%
+Robustness to unseen
+Moderate Good Excellent
+stocks
+Conclusion
+Future possible extensions:
+Modern factor models combine deep
+learning with financial theory to improve
+stock return prediction
+Combine FactorVAE’s uncertainty
+estimation with HireVAE’s regime
+switching.
+Each model targets specific challenges:
+Noise in financial data → FactorVAE
+Hidden nonlinear relationships → FactorGCL
+Changing market regimes → HireVAE
+REFERENCES
+[name], [name], [name], & [name]. (2022).
+FactorVAE: A Probabilistic Dynamic Factor Model Based on Variational Autoencoder for Predicting
+Cross-Sectional Stock Returns.
+AAAI Conference on Artificial Intelligence (2022)
+[name], [name], [name], [name], [name], & [name]. (2023).
+Hypergraph-Based Factor Model with Temporal Residual Contrastive Learning.
+In Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI 2023).
+[name], [name], [name], [name], & [name]. (2023).
+HireVAE: An Online and Adaptive Factor Model Based on Hierarchical and Regime-Switching VAE.
+International Joint Conference on Artificial Intelligence (IJCAI 2023)

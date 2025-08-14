@@ -1,0 +1,96 @@
+Make your next item recommendaion model time sensitive
+Authors: [name], [surname], [surname], [name], [surname]
+UMAP '23 (the 31st ACM Conference on User Modeling, Adaptation and Personalization)
+Recommender systems have become increasingly popular for providing personalized recommendations to
+users. Recent studies have shown that transformer-based approaches can enhance the performance of
+these systems. However, these models usually consider the sequence of past user interactions and do not
+take into account the time of prediction.
+Problem statement
+1
+Visits of Train Station according to 4Square dataset
+1 https://sites.google.com/site/yangdingqi/home/foursquare-dataset
+Problem statement
+Time in recommendations
+Sequențial models Time-aware models
+● [compaany] ● [compaany]
+● GRU4Rec ● TimeSVD++
+● SASRec ● TransFM
+● BERT4Rec ● CoSeRNN
+● etc. ● etc.
+Methods
+Time context adapter for neural networks
+Concatenation of item and time embeddings +
+double the size of the next layers
+Methods
+Models: GRU4Rec and TiSASRec
+Python library: Rechorus
+Split strategy: leave-one-out
+Results
+Results
+Results
+Results
+Results
+• Time context helps to improve quality of recommendations
+• We have introduced a simple-yet-effective approach to incorporating time-context into
+many next-item recommendations
+• Our method has been shown to be effective on various datasets
+https://github.com/[name]/Make-your-next-item-recommendaion-model-time-sensitive
+Bibliography
+1. [name], [surname], [name], and [surname]. 2011. The Million Song Dataset. In Proceedings of the 12th Internațional
+Conference on Music Information Retrieval (ISMIR 2011)
+2. [name], [surname], and [surname]. 2014. Time-aware recommender systems: a comprehensive survey and analysis of
+exisiting
+evaluaation protocols. User Modeling and User-Adapted Interaction 24 (2014), 67–119
+3. [name], [surname], [name], and [surname]. 2021. Learning heterogenous temporal patterns of user preference for timely
+recommendation. In Proceedings of the Web Conference 2021. 1274–1283
+4. [name], [surname], [name], [surname], [name], and [surname]. 2020. Contextual and
+sequențial user embeddings for large-scale music recommendation. In Proceedings of the 14th ACM Conference on
+Recommender Systems.
+53–62
+5. [name], [surname]. 2015. The movielens datasets: History and context. Acm transactions on interactive intelligent systems
+(tiis) 5, 4 (2015), 1–19
+6. [name], [surname], [name], and [surname]. 2021. TTRS: Tinkoff Transactions Recommender System benchmark.
+arXiv preprint arXiv:2110.05589 (2021)
+7. [name], [surname]. 2015. Session-based recommendations with recurrent neural
+networks. arXiv preprint arXiv:1511.06939 (2015)
+8. [name] and [surname]. 2018. Self-attentive sequențial recommendation. In 2018 IEEE international conference on data mining
+(ICDM). IEEE, 197–206
+9. [surname], [name], [surname], and [surname]. 2021. Translation-based factorization machines for sequențial recommendation.
+In Proceedings of the 12th
+ACM Conference on Recommender Systems. 63–71
+10. [name], [surname], [name], [surname], and [surname]. 2022. RecSys Challenge 2022:
+Fashion Purchase Prediction. In Proceedings of the 16th ACM Conference on Recommender Systems. 694–697.
+11. [name], [surname], and [surname]. 2015. Hawkes processes. arXiv preprint arXiv:1507.02822 (2015)
+12. [name], [surname], and [surname]. 2020. Time interval aware self-attention for sequențial recommendation. In
+Proceedings of the 13th
+internațional conference on web search and data mining. 322–330
+Bibliography
+15. [name] and [surname]. 2018. Translation-based factorization machines for sequențial recommendation. In
+Proceedings of the 12th
+ACM Conference on Recommender Systems. 63–71
+16. [name] and [surname]. 2022. A Systematic Review and Replicability Study of BERT4Rec for Sequențial Recommendation. In
+Proceedings of the 16th ACM Conference on Recommender Systems. 436–447
+17. [name], [surname], [name], and [surname]. 2019. BERT4Rec: Sequențial recommendation with bidirectional
+encoder representations from transformer. In Proceedings of the 28th ACM international conference on information and knowledge
+management. 1441–1450
+18. [name], [surname], [name], [surname], and [surname]. 2021. Sparse-interest network for sequențial
+recommendation. In Proceedings of the 14th ACM Internațional Conference on Web Search and Data Mining. 598–606
+19. [name], [surname], [name], [surname], [name], and [surname]. 2017. Attention is
+all you need. Advances in neural information processing systems 30 (2017)
+20. [name], [surname], [name], and [surname]. 2019. Modeling item-specific temporal dynamics of repeat consumption for
+recommender systems. In The World Wide Web Conference. 1977–1987
+21. [name], [surname], [name], and [surname]. 2020. Make it a chorus: knowledge-and time-aware item modeling for
+sequențial recommendation. In Proceedings of the 43rd Inтернаțional ACM SIGIR Conference on Research and
+Development in Information
+Retrieval. 109–118
+22. [name], [surname], and [surname]. 2017. Recurrent recommender networks. In Proceedings of the tenth
+ACM international conference on web search and data mining. 495–503
+23. [name], [surname], [name], and [surname]. 2020. SSE-PT: Sequențial recommendation via personalized transformer. In
+Proceedings of the 14th ACM Conference on Recommender Systems. 328–337
+24. [name], [surname], [name], and [surname]. 2020. Time matters: Sequențial recommendation with
+complex temporal information. In Proceedings of the 43rd international ACM SIGIR conference on research and
+development in information
+retrieval. 1459–1468
+
+
+

@@ -1,0 +1,69 @@
+Slide 1
+----------------------------------------
+Generative Models in Self-Supervised Learning
+[name]
+4th Year BS [compaany]
+1
+
+Slide 2
+----------------------------------------
+ Agenda
+Introduction to self-supervised learning
+"[compaany]DiffAug: Enhance Unsupervised Contrastive Learning with Domain-Knowledge-Free Diffusion-based Data Augmentation." ( [surname] et al., ICML 2024)
+"[compaany]StableRep: Synthetic Images from Text-to-Image Models Make Strong Visual Representation Learners." ( [surname] et al., NeurIPS 2023)
+"Can Generative Models Improve Self-Supervised Representation Learning?" ( [surname] et al., AAAI 2025)
+"Self-Consuming Generative Models Go MAD." ( [surname] et al., ICLR 2024)
+Biases and Artifacts
+Further Perspectives
+2
+Slide 3
+----------------------------------------
+ Introduction
+3
+Slide 4
+----------------------------------------
+ [compaany]DiffAug
+Semantic Encoder + Latent Diffusion
+Results as on the supervised conditions
+4
+Slide 5
+----------------------------------------
+ [compaany]StableRep
+Latent diffusion
+1 prompt -> 6 positive images 
+Training only on synthetic data
+Worse results on CLIP (- 2.5% on ImageNet)
+Slow
+5
+Slide 6
+----------------------------------------
+ Can Gen. Models improve SSL?
+ICGAN and Latent Diffusion (better results)
+SSL embeddings are different from CLIP ones
+Better to use gen. augmentation in a fraction of the cases
+6
+Slide 7
+----------------------------------------
+ Gen. Models Go MAD
+Synthetic and synthetic aug. loops lead to wrong results
+With enough real data generative models improve the results
+7
+Slide 8
+----------------------------------------
+ Biases and Artifacts
+Generative models may produce artifacts
+Better to preserve common augmentaions 
+8
+Slide 9
+----------------------------------------
+ Further Perspectives
+Evaluate other downstream tasks (beyond linear probing)
+Check the robustness (domain shift)
+Compare the distributions of real data and synthetic images dataset
+9
+Slide 10
+----------------------------------------
+Generative Models in Self-Supervised Learning
+[name]
+4th Year BS [compaany]
+10

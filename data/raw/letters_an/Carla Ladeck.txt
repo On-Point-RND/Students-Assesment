@@ -1,0 +1,19 @@
+Motivation Letter
+Dear Admissions Committee,
+I am writing to express my enthusiasm for the Skoltech SMILES program, which aligns perfectly with my academic trajectory and aspirations in artificial intelligence. As a third-year Applied Mathematics student at [university], specializing in Mathematical Methods of AI, I bring a unique blend of theoretical knowledge and hands-on experience in machine learning.
+Competitive Excellence
+In [company]'s recent Kaggle image classification competition, I and my team secured 9th place out of 38 teams, demonstrating my ability to design efficient neural architectures. The challenge involved optimizing hyperparameters, implementing ensemble techniques, and preprocessing complex datasets using PyTorch and Scikit-learn. This achievement reflects my commitment to solving real-world problems under tight deadlines while maintaining analytical rigor.
+Technical Proficiency
+My projects span both academic and practical domains:
+• Developed a clothing recognition system using diverse neural networks (CNNs, Transformers) and streamlined data annotation pipelines.
+• Currently leading a quadcopter drone project at [university], integrating computer vision for trajectory planning and autopilot systems.
+• Proficient in Python, SQL, PyTorch, and the full ML stack (NumPy, Pandas, etc.), with expertise in collaborative tools like Git and Jira.
+Alignment with SMILES
+The interdisciplinary nature of SMILES excites me, as it mirrors my own approach to blending mathematics with engineering. My experience as a mathematics tutor and chess player has honed my ability to communicate complex ideas and strategize under pressure—skills I aim to contribute to your program.
+Conclusion
+I am eager to collaborate with Skoltech’s vibrant community on cutting-edge AI research. My technical background, competitive drive, and passion for innovation position me to thrive in SMILES and contribute meaningfully to its goals. Thank you for considering my application.
+Sincerely,
+[name]
+[university]
+GitHub: github.com/[name]
+Phone: +2 *** *** ***

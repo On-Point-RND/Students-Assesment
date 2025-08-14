@@ -1,0 +1,20 @@
+Motivational Letter for SMILES
+Dear SMILES-2025 Admissions Committee,
+I am writing to express my keen interest in participating in the Skoltech Summer Schoool of Machine
+Learning(SMILES-2025). As a student deeply immersed in the field of artificial intelligence, I am excited
+by the opportunity to engage with cutting-edge research in generative methods, collaborate with like-
+minded peers from around the world, and contribute to a vibrant exchange of knowledge between [location] and [location].
+My academic and research journey has revolved around machine learning and its advanced paradigms.
+I have pursued in-depth studies in deep learning, natural language processing, and generative modeling, including experience with transformers, diffusion models, and self-supervised learning. Through course-
+work and hands-on projects, I have developed a solid understanding of the theoretical principles and
+practical applications of modern AI systems.
+I am particularly drawn to the structure and mission of SMILES-2025. The program’s combination of
+lectures, workshops, and hackathons provides a unique setting for gaining practical skills and exploring
+innovative ideas. I am eager to challenge myself with real-world problems, learn from leading experts in
+the field, and take part in collaborative projects that extend beyond academic boundaries.
+What also excites me is the emphasis on international cooperation and cultural exchange. I strongly
+believe that progress in AI is accelerated when diverse perspectives come together — and SMILES-2025
+is a perfect platform for such synergy.
+Thank you for considering my application. I would be honored to join this year’s cohort and bring
+my curiosity, dedication, and collaborative spirit to the SMILES-2025 experience.
+Sincerely, [name] [surname]

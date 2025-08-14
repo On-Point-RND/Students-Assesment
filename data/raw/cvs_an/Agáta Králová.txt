@@ -1,0 +1,29 @@
+[name] [surname] Profile
+Roboticseenengineer with expertise in humanoid and mobile robots systems, specializing in kinematics, AI-powered navigation algorithms, and digital twin development. Proficient in Python, ROS, TensorFlow, and PyTorch with hands-on experience from Applied Robotics and [compaany]. Seeking challenging opportunities to advance intelligent autonomous systems that operate effectively in dynamic human environments.
+Experience
+Junior Programmer at Applied Robotics ([location]).
+2023.05–2024.05
+Contact details
+⋄ Worked with microcontrollers and occasionally addressed mechanical tasks. Utilized experience in IMU sensors and fundamental kinematics to develop a mathematical model for the forward and inverse kinematics of a humanoid robot, significantly advancing its autonomous walking capabilities.
+⋄ Leveraged programming skills and expertise in Docker to test various neural networks for use in navigation systems of mobile autonomous robots, focusing on their application in socially dynamic environments.
+Research Technician at [compaany] ([location]). 2024.06–present
+⋄ [name] [surname] Developed a digital twin of a six-link manipulator using ROS and Gazebo. Created a control system ensuring accurate reproduction of real robot behavior and simultaneous movement mode. The project resulted in reduced risks during new algorithm testing and optimized development time through parallel work with the digital model.
+⋄ Localization System for Fire-fighting Robot Developed a control system for a fire-fighting robot, focusing on navigation capabilities in low-visibility conditions. Created a specialized navigation module that enables autonomous movement in confined, smoke-filled spaces. Utilized Webots simulator to reconstruct and test the system in a virtual warehouse environment, ensuring reliable performance in challenging operational conditions.
+Personal information
+Citizenship: [location]
+Family: Single without children
+Languages: English(C1)
+Academic & Personal Projects
+Education ⋄ Digital Twin Developed a digital twin of a six-link manipulator using ROS and Gazebo. Created a control system ensuring accurate reproduction of real robot behavior and simultaneous movement mode. The project resulted in reduced risks during new algorithm testing and optimized development time through parallel work with the digital model.
+Bachelor of Science and Robotics. [University] ([location]). 2020–2024
+Faculty of Control Systems and Robotics.
+Master of Data Science [Institute] ([location]). 2024–2026 (expected)
+Skolkovo Institute of Science and Technology ([location]).
+Skolkovo AI Center.
+Skills
+• Python, PyTorch, Sklearn, ClearML
+• ROS framework, Ubuntu/Unix systems
+• Unitree G1 Humanoid Hands Control Developed a sophisticated control module for Unitree Humanoid robot hands, leveraging Pinocchio library for kinematics solutions and CasADi for automatic differentiation. Created and tested the module using a digital twin in Mujoco simulator, ensuring precise and natural hand movements. Successfully integrated the module into the robot’s control system, enhancing manipulation capabilities.
+
+
+

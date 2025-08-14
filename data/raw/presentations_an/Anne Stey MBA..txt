@@ -1,0 +1,14 @@
+[name] [surname]
+SMILES-2025
+[compaany]
+Chinese language
+Middle school
+High school
+
+Volunteering
+Machine learning
+Competitions
+Trip to [location]
+
+[compaany]
+[email]

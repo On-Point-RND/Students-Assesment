@@ -1,0 +1,20 @@
+Motivation Letter for SMILES
+My name is [name], and I am actively involved in machine learning and NLP,
+particularly large language models. My interest in this field stems not only from
+ideological considerations, as I believe these models have the potential to
+significantly improve human life, but also from professional motivations. All of my
+projects (work-related, academic, and scientific) are in some way connected to
+machine learning models, which is why I see this school as an opportunity for
+both personal and career growth.
+I am currently writing a scientific paper on the use of RAG for searching scientific
+articles. I am also developing a RAG system to simplify information retrieval in
+scientific papers. Furthermore, I have completed a bootcamp on RAG, so I am
+particularly keen to enhance my skills in the areas of knowledge storage and
+decision-making for large language models. The topic of logical reasoning in
+language models also interests me.
+In addition, I am interested in audio processing models (which are also relevant to
+some of my projects), and I would like to develop my expertise in this area as well.
+The field of safe AI is also of interest to me for ideological reasons.
+Last year, I participated in SMILES 2024 and won third place in the project
+competition. This experience provided a significant boost to my development in
+the field of ML, and I am eager to repeat it.

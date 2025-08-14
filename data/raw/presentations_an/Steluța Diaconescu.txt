@@ -1,0 +1,127 @@
+[name],
+MSc-2 student in Advanced Computational Science, [location],
+Junior Research Engineer in [company], [location]
+General problem
+The current work addresses the problem of multi-view RGB / RGB-D based dense 3D surface reconstruction of
+real-world objects using images from multiple viewpoints or RGB-D data (RGB images and depth maps from
+depth sensors).
+Manipulation Autonomous driving
+[location], 2024, [name] et. al. SplatAD, 2024, [name] et. al.
+2 [name], Volumetric fusion of deep RGB and depth features for better multi-view 3D reconstruction
+yssolG
+sselerutaeF
+Green flower pot [1]
+Noise,
+ripples
+White fox figurine [1]
+RGB-based multi-view 3D surface
+Dent
+reconstruction methods produce high-quality
+results of 3D reconstruction, but may miss
+featureless and glossy surfaces.
+[1] [name], [name], [name] et. al. Multi-sensor large-scale dataset
+for multi-view 3d reconstruction. In Proceedinings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition (CVPR), June 2023.
+Identifying the area of the research.
+Identifying gaps in the current knowlage, technological and scientific
+baarriers.
+Specifying the area of the research in light of the project.
+NB!
+In the series of slides ‘General Problem/Introduction/Background’ you are
+supposed to express motivation of the project (this criterion is going to be
+evaluaated by the Reviewers).
+Aim
+I hypothesize that incorporating the depth modality (e.g., data from depth sensors) as an input to
+RGB-based 3D reconstruction model can refiine 3D surface reconstruction and enhance accuracy and
+completeness.
+By leveraging spatial information extracted from depth sensors, which remaiins invariant to lightiing
+condiitions, this approaach may address challenges posed by featureless or glossy surfaces and improve
+reconstruction in such object domains.
+The primary objective of this project is to propose a novel RGB-D-based architecture for dense 3D surface
+reconstruction, addressing key challenges in existing RGB-D methods.
+3 [name], Volumetric fusion of deep RGB and depth features for better multi-view 3D reconstruction
+]1[
+nogarD
+]1[
+xoB
+etihW
+Reconstruction from Recoinstruction from
+RGB - incomplete depth - inaccuraate for multi-view 3d reconstruction.
+Related Work
+The existing RGB-D-based methods exhibiit performaance similar to that of RGB-based and depth-based 3D
+reconstruction methods.
+Neural RGB-D Surface Recoinstruction [1] SPSG [2]
+Neural RGB-D Surface Recoinstruction method produces SPSG performs well with texture-less, metallic, highly
+the surface of a significant lower quality in compaison reflective, and transparent objects, while over-smooths
+with existing RGB-based 3D reconstruction methods well-textured and partially textured objects.
+according to experiments in [3].
+[1] [surname], [name], [name] et. al. Neural rgb-d surface reconstruction, 2022.
+[2] [name], [name], [name] et. al. Large-scale data for multiple-view stereopsis. International Journal of Computer Vision, 120, 11 2016.
+[3] [name], [name], [name] et. al. Multi-sensor large-scale dataset for multi-view 3d reconstruction. In Proceedinings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition (CVPR), June 2023.
+8 [name], Volumetric fusion of deep RGB and depth features for better multi-view 3D reconstruction
+Baselines
+The experiments show that the
+BNV-Fusion reconstruction misses
+detailing and the MVSFormer++
+reconstruction suffeers from dents.
+Reference
+BNV-Fusion MVSFormer++
+scan (GT)
+9 [name], Volumetric fusion of deep RGB and depth features for better multi-view 3D reconstruction
+]1[
+enirugif
+xof
+etihW
+]1[
+xoB
+etihW
+[name], [name], [name] et. al. Multi-sensor large-scale dataset
+for multi-view 3d reconstruction. In Proceedinings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition (CVPR), June 2023.
+Experiments
+According to the new architecture, a challenge arises from the dimension
+mismatch between the augmented feature volume and the decoder’s
+expected input dimension.
+2 solutions were proposed to handle this mismatch:
+● Add linear adapter. ● Train the decoder from scratch.
+10 [name], Volumetric fusion of deep RGB and depth features for better multi-view 3D reconstruction
+Experiments
+Number Name of experiment Model Dataset GPU Epochs Result
+1 Overfit on particular scene The backbone is [location], 1 A100 1000 The model is able to overfit on
+(+different learning rates) freezed, only train scene, 1 val particular scene
+linear adapter is scene
+unfreezeed
+2 Train and validate adapter The backbone is [location], 76 4 A100 10 The linear adapter solution
+on 1 light type freezed, only train scenes x 1 demoonstrates subooptimal
+linear adapter is light type, 17 val performance, likely due to its
+uunfreezeed limited capacity in modeling the
+complex relationships required for
+this task
+3 Train and validate the The backbone is [location], 76 4 A100 4 The model was successfully
+decoder from scratch, freezed, except train scenes x 14 trained, loss converged
+using ground truth depth decoder. No light types, 17 val
+type
+4 Test the model 3 The model is in [location] at 1 A100 - Accuracy decraseed, while
+sanity check scenes (total - 29) completeness increased.
+11 [name], Volumetric fusion of deep RGB and depth features for better multi-view 3D reconstruction
+Fig. 1. Train loss and validation error (green is MVSFormer++ baseline).
+Experiments
+This slide presents Experiment 3-4 from the results table, where I first trained the decoder on ground truth depth maps to
+establiish the upper performance boundary, then evaluaated the model's performance through both qualitative and quantitative
+measures. Figure 1 visualizes the training and validation results, while Figure 2 demoonstrates the testing metrics for accuracy
+and completeness, showing a trade-off where accuracy slightly decreaseed while completeness improved. Despite this trade-off,
+the overall reconstruction quality viisibly surpasses the baseline results.
+Fig. 2. Test results on [location].
+12 [name], Volumetric fusion of deep RGB and depth features for better multi-view 3D reconstruction
+Discussion of results
+In this presentation, I introduced my work on 3D surface reconstruction, focusing on the specific challenge of
+incorporeating a depth modality into RGB-based method. Moving foorward, I plan to: (1) calculate the F-score as a
+unified metric combiining accuracy and completeness, and (2) perform targeted experiments by training the
+model on low-quality sensor depth maps to evaluaate its robusstness. If these experiments yield positive
+outcomes, the results will be compiled into a research article for publication
+13 [name], Volumetric fusion of deep RGB and depth features for better multi-view 3D reconstruction
+Thank you for attention!
+The video material is sourced from the MVSFormer project page
+(https://maybex.github.io/MVSFormer.github.io/)
+14 [name], Volumetric fusion of deep RGB and depth features for better multi-view 3D reconstruction

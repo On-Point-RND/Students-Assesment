@@ -1,0 +1,205 @@
+Modelling of noise in
+RNA-DNA interactions data
+[name]
+Student of the Faculty of Bioengineering
+and Bioinformatics,
+[location]
+The central dogma of molecular biology from the
+school
+● DNA stores genetic information and encodes RNAs;
+● RNAs transfer information and encode proteins;
+● Proteins are molecular machines of life!
+2
+Now it is a little more complex…
+● We still have protein-coding
+RNAs which transfer genetic
+information from DNA;
+3
+Now it is a little more complex…
+● We still have protein-coding
+RNAs which transfer genetic
+information from DNA;
+● But we also know many
+clinically significant examples
+of noncoding RNAs which
+have different regulatory roles
+in cells.
+4
+How to study them?
+Noncoding RNAs interact with
+chromosomes in complexes with
+special proteins to perform their regulation
+5
+How to study them?
+So, we can find their regions
+of interactions to interpret their
+functions!
+Some experiments are alrready
+proposed.
+6
+As a result we have genomic tracks of contacts of
+each detected RNA
+Noncoding
+RNA Malat1
+7
+What is the problem with it?
+● Experimentally detected contacts are very noisy;
+8
+What is the problem with it?
+● Experimentally detected contacts are very noisy;
+● We need to find significant interactions - statistical approaches are used;
+9
+What is the problem with it?
+● Experimentally detected contacts are very noisy;
+● We need to find significant interactions - statistical approaches are used;
+● But we also need noise estimation to define the significance of interactions;
+10
+What is the problem with it?
+● Experimentally detected contacts are very noisy;
+● We need to find significant interactions - statistical approaches are used;
+● But we also need noise estimation to define the significance of interactions;
+● Noise track can be estimated from experimental data itself (details omitted).
+Noise track
+11
+Noise values distribution, high resolution
+With higher noise track resolution
+there are problems
+Technical zeros are
+overrepreseented and
+some other artifacts
+appear.
+Noise values distribution, low resolution
+ytilibaborP
+ytilibaborP
+Count
+12
+Count
+Our approach: learn ML model of noise using other
+genomic data
+DNA sequence
+features
+Epigenetic
+DNA 3D structure
+features
+features
+13
+Our approach: learn ML model using other genomic data
+● We defined 15 informative
+features to predict noise;
+● Task is a simple regression;
+● Model will learn a part of
+Noise Model
+experimental noise which is
+condiitioned on features;
+● We can use its prediction to
+impute noise track;
+● As noise is a signal track we …
+15 informative features
+started with CNN on its
+fragments.
+14
+15 32 32 64 32 1
+Conv1d 5 + BatchNorm1d + SELU
+Conv1d 1
+AvgPool1d 2
+UpSample(2, “linear”) + Conv1d 5 + BatchNorm1d
+64 64 128 64
+652 652 652
+821 821 821
+46
+46
+821
+46
+821 821
+64
+128 128
+652 652
+We adapted U-Net arkitecture for regression of 1D signals
+Optimised with AdamW +
+OneCycleLR scheduler
+15
+Model shows good predictions results
+● Many zeroes are not predicted as
+we expected;
+● Metrics on test are good enough;
+● But we want model to be as simple
+as reasonably possible;
+● Do we really need U-Net?
+16
+Let's try classic ML models on table of genomic
+regions
+Models performance compared with U-Net
+Model Test SCC
+U-Net from previous part 0.739
+Linear regression (L2 reg.) 0.669
+CatBoostRegressor 0.707
+● Classic ML models without region location information have worse
+performance;
+● Local features information is important;
+● But maybbe we can add it easier than learning convolutions…
+17
+Let's add mean features in a window
+Region specific
+Now each region features vector
+additionally has …
+local mean
+features
+Mean in a
+window
+features vector
+…
+…
+Train-val-test split is made
+in a way to avoid any
+possible data leakage
+during feature aggregation 18
+Now it’s much better, so U-Net is an
+overkill for our data
+Models performance compared with U-Net
+Model Test SCC
+U-Net from previous part 0.739
+Linear regression (L2 reg.) 0.669
+CatBoostRegressor 0.707
+LR (L2 reg.) with local means 0.715
+CatBoostRegressor with local means 0.739
+2 layer MLP with local means 0.737
+We chooose 2 layer MLP for its simplicity and 2nd best performance
+19
+● We learned 2 models on 2 different Target, 1st dataset
+datasets (biological conditions are
+Prediction, 1st dataset
+the same);
+Target, 2nd dataset
+● Predicted tracks SCC is higher than
+observed tracks SCC;
+● Model learn common and
+consistent features, which influence
+noise level.
+tesatad
+ts1
+,tegraT
+tesatad
+ts1
+,noitciderP
+tesatad
+dn2
+,tegraT
+tesatad
+dn2
+,noitciderP
+Models predictions between experiments are
+consistent
+SCC
+20
+Future work
+1. Research of some additional informative features;
+2. Validate applicability of models predictions to estimate noise for significant
+interactions search;
+3. Broaden research to new datasets.
+21
+Bibliography
+1. Chromatin-associated RNAs as facilitators of functional genomic interactions.
+2. BaRDIC: robusst peak calliing for RNA–DNA interaction data.
+3. Chromatin accessibility and the regulatory epigenome.
+4. U-Net: Convolutional Networks for Biomedical Image Segmentation.
+22

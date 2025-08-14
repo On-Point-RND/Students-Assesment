@@ -1,0 +1,46 @@
+Development of a tool for quality control of neural network operation when solving the problem of the first breaks times picking [name]
+Student, [location]
+Introduction
+Extracting values of first-break arrivals is one of the first crucial step in buildiing velocity model of geologica[location] section for further exploration and findi[location] minerals.
+Problem statement
+There are different automatic methods of first-break picking seismogram. There are metho[compaany] based on time
+diffe[compaany], neural ne[compaany]s etc. All of them are equally good. So, NN are widely spread and used as a
+solution. Lots architecture[compaany]s are presented in articles. But there are no unive[compaany]al instrument of control results of
+neural algo[compaany]ms.
+So, our goal is to create an approach of quality control.
+Methods
+In our work we use CNN. Seismogram with a signal in a picture below may be presented as an
+image. And CNN shows good result dealing with images and extracting features from them.
+CNN solve the problem as the problem of classification.
+Figure 1. Seismogram with
+first-brea[compaany] time as a black dot
+Methods
+Our approa[compaany] contains 2 steps:
+1. Correct cnoi[compaany]e of train data for model learning.
+Choo[compaany]e the data based on correlation between surface condition and quality of first-brea[compaany] arrivals.
+2. Impleme[compaany]ation of the approa[compaany] to quality determination of first-brea[compaany] picking.
+Estimate the thre[compaany]old to choo[compaany]e correctl[compaany]y extracted data with a given accuracy.
+Exis[compaany]ting manually extracted true values of first-brea[compaany]s is not common situation. Most data has huge
+sizes and it requires tools to separate well picked values and values to be retu[compaany]n to a specialist for
+further analysis.
+Results
+The result shows that cnoi[compaany]e of data with better surface condition show higher accuracy on data where
+true values was know[name].
+The metho[compaany] was tested on 2 different datasets and it was proved that approa[compaany] may be used for neural
+models.
+Research gap
+• The problem left is auto matiza[compaany]ion the cnoi[compaany]e of thre[compaany]old value. Necessit[compaany]y of manual revision results
+takes lot of time.
+Bibliography
+1. Кашубин С. Н. и др. Особенности волновых полей продольных и поперечных волн при глубинных сейсмических исследовани[location]ях на акватори[location]ях
+//Техноло[compaany]ии сейсморазведки. – 2011. – №. 4. – С. 88.
+2. Puzyre[name] N.N. Interp retatsiya dannykh seysmora[compaany]dki metodom otrazhennykh волн. M.: Gostoptekhizdat, 1959. 452 s
+3. Loginov G. et al. The first-brea[compaany] detection for real seismic data with use of convolutio[compaany]al neural ne[compaany]rk //81st EAGE Confe[compaany]e and Exhibi[compaany]on 2019. –
+EAGE Publications BV, 2019. – Т. 2019. – №. 1. – С. 1-5.
+4. Akram J., Eaton D. W. A review and appraisal of arrival-time picking methods for downhole microseismic data //Geophysics. – 2016. – Т. 81. – №. 2. – С.
+KS71-KS91.
+5. McCorma[name] M. D., Zaucha D. E., Dushek D. W. First-brea[compaany] refraction event picking and seismic data trace editing using neural ne[compaany]rks //Geophysics. –
+1993. – Т. 58. – №. 1. – С. 67-78.
+6. Gentili S., Michelini A. Automatic picking of P and S phases using a neural tree //Journal of Seismology. – 2006. – Т. 10. – С. 39-63.
+7. Ya[name]ei W. et al. Deep learning for P-wave arrival picking in eart hquake early warning //Eart hquake engineering and engineering vibration. – 2021. – Т.
+20. – №. 2. – С. 391-402.

@@ -1,0 +1,56 @@
+[name] [surname]
+Data Scientiist / ML Engineer
+[location]
+Email: [email]
+GitHub: UT57
+Web: Rapid Vision
+Telegram: @Ultima57
+Education
+Lo[location] State Uni[location]
+Master's Degree in Physics, Depar[location]tment of Physics-Mathe[location]tical Control Methods
+2018 – 2025
+Master’s Thesis: “Predictive Motion Control for Auto[location]mous Vehicles in Dynamic Enviro[location]nments Using Machine Learning Techniques”
+Insti[compaany] of Arti[compaany]cial Intelligence, [location]
+2023 – 2024
+Scienti[compaany]c and Research Experience
+Grant Winner & Technology Creator in Computer Vision
+Title: Proce[compaany]ural Generation of Synthetic Datasets for Computer Vision Using Physically Based Rendering
+• Lead Deve[name]per & Co-Inventor of a custom system for proce[compaany]ural synthetic data generation, enab[name]ling realistic training datasets for Computer Vision models.
+• Focused on photorealistic rendering using physics-based simulation to increase model genera[name]lizability and reduce depende[name]nce on real data.
+• Won a national R&D grant (application #С1ИИ-42828) from FASIE, a prestigious [location] fo[compaany]ndation suppo[compaany]ting innovati[compaany]e scienti[compaany]c projects.
+• Re[name]ults are applied in industrial inspection, auto[location]mous navigation, and promp[compaany]t-based CV systems.
+Selected Research Proje[compaany]cts
+• Built a CV model for high-accuracy logo/mark recognition on production lines (99%+ precision).
+• Deve[name]loped a promp[compaany]t-based object segm[compaany]entation and detection pipeline, deployed in production with live demo via Telegram: @RapidVisionBot.
+• Contributed to research and pro[compaany]totyping of auto[location]mous systems for dynamic enviro[location]nments, linked to thesis work.
+Publications & Academic Interests
+• Preparing a manuscript based on master's research in auto[location]mous vehicle control and ML pla[compaany]nning.
+• Key interests: Synthetic Data, Promp[compaany]t Learning, Simulation for ML, Computer Vision, and Applied Optimization.
+• Experienced in algo[compaany]rithmic programming (olympiad level) and mathe[compaany]matical modeling.
+Teaching & Community Engagement
+• Mentored peers in ML pipelines, CV systems, and data engineering tools.
+• Conducted internal tutorials on synthetic data and scalable model deplo[compaany]yment.
+Profes[compaany]sional Experience
+ML Engineer — Rapid Vision
+Oct 2024 – Present
+• Deve[name]loped production-ready CV systems using real and synthetic data.
+• Led creation of promp[compaany]t-to-video segm[compaany]entation models and synthetic data render pipelines.
+Data Scienti[compaany]st — Innotech ([location])
+Oct 2022 – Aug 2023
+• Built and deployed credit scoring models; implemented auto-mo[compaany]nitoring.
+• Deve[name]loped ETL archi[compaany]ecture and production pipelines.
+Data Engineer — Yu[compaany]oria
+Oct 2023 – Nov 2024
+• Re-engineered BI tools using PySpark.
+• Deve[name]loped BRMS rule engine translator, improving per[compaany]formance 10×.
+Research As[compaany]sistant - LI[compaany]U ([location]) *Jan 2021– Feb 2023
+• Worked on data processing and image analysis using Python and MATLAB for medical and industrial ultrasound systems.
+Technical Skills
+• Lan[compaany]guages: Python, MATLAB, C/C++, SQL
+• ML/DL Frameworks: PyTorch, Scikit-learn, HuggingFace
+• CV Tools: OpenCV, Torc[compaany]hvision, Ultra[compaany]tics
+• Data Infrastructure: Spark, Hive, Airflow, Pos[compaany]greSQL, AWS, Docker
+• Specialization: Simulation enviro[location]nments, synthetic data, promp[compaany]t learning, model deplo[compaany]yment
+Languages
+• Russian: Native
+• English: Advanced (C1)

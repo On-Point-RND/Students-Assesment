@@ -1,0 +1,58 @@
+[name] [surname]
+[email]
+[location]
+EDUCATION WORK EXPERIENCE
+[compaany] [compaany],MACHINELEARNINGLAB&STATANLY |
+PHD IN COMPUTER SCIENCE COMPUTER VISION ENGINEER
+DISSERTATION: METHODS OF AUTOMATIC PROCESSING OF IMAGES Jan2020–Present| [location]
+Nornikel ore distribution project:
+• Activity: detect contours of forerocks on the conveyor belt from video, prepare datasets.
+Dec2025(planned)| [location]
+• Method: weakly and self-supervised learning, synthetic data generation, detecting movement, optical flow, foundation models.
+[compaany] MASTER OF COMPUTER SCIENCE • Instruments:OpenCV;Unet;watershed;SAM;SD.
+June2020| [location] Moving arm(Raskat) project:
+• Activity: detect an endo robotic arm and connect to the socket.
+• Method: data collection, supervised learning, tracking.
+[compaany]
+• Instruments:OpenCV,YOLO,DeepSort,manually developed weakly marker tools;
+May2019| [location]
+Breadcounting(Karavai) project:
+• Activity: detect and count different kinds of bread on conveyor; realized frontend, backend and auto labeling system.
+• Method: data collection, supervised learning, weakly-supervised leaning, tracking.
+[compaany]
+• Instruments:OpenCV,YOLO,Autolabel,Distillation,Streamlit,FastAPI, Docker.
+EXCHANGES STUDENT
+Dec2019| [location]
+BACHELOR OF COMPUTER SCIENCE
+June2018| [location]
+GPA: 4.86 S.-PETERSBURG STATE CENTER OF CHILDRENS TECHNICAL EDUCATION TEACHER OF ADDITIONAL EDUCATION
+LINKS
+Sep2016-Aug2023| [location]
+• Developed program “Programming basics”.
+• Teaching programming languages Scratch and Python, mentoring projects, conducting hackathons, preparing scientific papers about how to teach children programming..
+• Winner of the 3city teaching contest and 2all-Russian contest. Best young additional education teacher of [location] (2021), best additional education teacher of [location] (2022).
+[email]
+• Programming
+Over5000lines: Python•LATEX
+Over1000lines: C•HTML•CSS•Assembly
+Familiar: All-russianStudentOlympiad”I am professional”
+PROGRAMMING
+AWARDS
+2024 Goldmedal SoftwareEngineering
+2024 Silvermedal(Top-2) BusinessInformatics
+2022 Bronzemedal(Top-3) SoftwareEngineering
+2020 Silvermedal(Top-2) SoftwareEngineering
+2019 Silvermedal(Top-3) SoftwareEngineering
+LANGUAGE
+Russian-Native
+English-C1(IEELTS2022)
+Finnish-B1
+Other
+EDUCATION 2021 AbsoluteWinner Pedagogicaldebut(All-russian)
+2019 Top-500/6000 Potaninfoundationscholarshipprogram
+Teaching
+2024 Top-500/6000 Potaninfoundationscholarshipprogram
+DevelopCourses
+Conferences
+Competitions
+Mentoring

@@ -1,0 +1,88 @@
+What is a SAE?
+Basically, it allows to
+decompose LLM neurons into
+interpretable “features”
+What is a SAE?
+GRP
+RL algorithm to incentivise reasoning from LLMs.
+Hypothesis
+Can we find reward features in the reward models?
+Setup
+● Model : [name]-[surname]-[location]-7B
+● Layers: 17-24
+● Dataset: open-r1/OpeneR1-Math-220k – traces
+from DeepSeek-[compaany]
+Step 1: train SAEs
+● Trained 7 SAEs: on 17, 18, 19, 20, 21,24 and
+27th layers
+● Each on 800k tokens, with dictionary size of
+32k
+Step 2: predict the scores
+● I took the SAE
+activations of the
+reward model along with assigned
+scores.
+● For each layer trained a linear
+regression on top of the
+activations to
+predict reward score
+● Interestingly, some layers are better
+predictor of the scores.
+● Select features with high weights.
+Step 3: interpret the important features
+● I took the features with biggest weights and
+tried to interpret them.
+(just run over a bunch of data and check the
+tokens with high activation)
+● Here are some dashboaards
+Step 3: interpret the important features
+Variables feature?
+Step 3: interpret the important features
+Planning feature?
+Step 3: interpret the important features
+When\each\if feature
+Step 4: find them in the base model
+● If these features are good predictors of the
+reward, can we find them in the base model?
+● Model - [name]-[surname]-[location]-Instruct
+● Trained SAEs on 21, 24 layers
+Step 4: find them in the base model
+● Take
+activations from the base model and
+reward from the PRM
+● Try to predict this reward from base model’s
+activations
+Step 4: find them in the base model
+● Take
+activations from the base model and
+reward from the PRM
+● Try to predict this reward from base model’s
+activations
+● It worked! The R2 is ~0.9.
+Takeaways
+1. You can throw out the last third of the
+layers from the RM and use the SAE
+features insteaad. The reward will remain
+same.
+2. There are some features that are much
+more responsible for the reward than
+others.
+3. These features are also present in the
+base model, so maybbe we can even
+use them as a reward
+Next
+1. Fix the RL pipeline to appropriate
+usage of Process RM
+2. Find the reward features in the base
+LLMs, like [name]-[surname]-[location]-Math
+3. Research how to find the features
+without SAE
+Resources
+1. [compaany]-[compaany]-R1: Incentivizing Reasoning Capability in LLMs via
+Reinforcement, url: https://a rxiv.org/abs/2501.12948
+2. Automatically Interpreting Millions of Features in Large Language Models, url:
+https://a rxiv.org/abs/2410.13928
+3. [name]-[surname]-Math Technical Report: Toward Mathematical Expert Model via
+Self-Improwement, url: https://a rxiv.org/abs/2409.12122
+4. Scaling Monosemanticity: Extracting Interpretable Features from [compaany] Sonnet,
+url: https://transforme r-circuits.pub/2024/scaling-monosemanticity/index.html

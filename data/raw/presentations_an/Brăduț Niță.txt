@@ -1,0 +1,26 @@
+[name] [surname], MSc Data Science, [compaany].
+Diffusion process
+There are 2 distributions: and which is a normal distribution.
+We want to transfer from prior to data distributions.
+the process is the solution to this SDE
+Reverse SDE process
+Equivalent ODE
+Denoising score-matching loss
+Problem statement
+• Problems occurs if we want to transfer data not from normal distribution but from other domains of
+data. For example, from image to video.
+Lack of cyclic consistency — basic diffusion models do not provide reversibility of
+○
+transformations, which is logically expected in Image2Image problems.
+Ideological problems — existing diffusion formulas are difficult to adapt to problems with
+○
+meaningful data (not noise), indicating theoretical incompleteness.
+Heavyness of methods — alternative approaches, such as Schrödinger bridges, are
+○
+computationally intensive, which encourages the search for easier solutions.
+Method
+Links
+Github [url]
+Full presentation [url]
+Bibliography
+1. Linqi [surname], Aaron Lou, Samar Khanna, Stefano Ermon. Denoising Diffusion Bridge Models. ICLR, 2024

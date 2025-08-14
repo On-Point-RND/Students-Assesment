@@ -1,0 +1,201 @@
+4.20.2025
+Hyperbolic RecSys
+[name] [surname]
+Agenda Hyperbolic RecSys
+1. Prior work
+2. Research Questions
+3. Experiment Results
+4. Drawing a Conclusion
+5. Future work
+2
+Agenda Hyperbolic RecSys
+1. Prior work
+2. Research Questions
+3. Experiment Results
+4. Drawing a Conclusion
+5. Future work
+3
+Prior work Hyperbolic RecSys
+Sequential recommendaions
+Predicts a user's next interaction by analyzing the chronological order and dependencies in their
+historical behavior (e.g., clicks, purchases) to capture evolving preferences over time.
+Fusing Similarity Models with Markov Chains for Spaarse Sequential
+Recommendation
+4
+Prior work Hyperbolic RecSys
+Sequential recommendations
+Basic Sequential Models - Use RNNs, CNNs, or Markov chains to capture temporal patterns in
+user interactions. Examples: GRU4Rec, Caser, NARM.
+Transformer-Based Models - Leverage self-attention to model long-range dependencies in
+interaction sequences. Examples: SASRec, BERT4Rec, TiSASRec
+LLM-Based Models - Fine-tune large language models (LLMs) to generate recommendations
+via natural language prompts. Examples: P5, Recformer, M6-Rec.
+Multimodal Models - Fuse text, images, graphs, or time to enhance user/item representations.
+Examples: SURGE, M6-Rec, VBPR.
+Efficiency-Focused Models - Prioritize speed and scalability for long sequences via linear
+architectures. Examples: S4Rec, TASRec, LightSANs.
+5
+Prior work Hyperbolic RecSys
+Sequential recommendaions:
+proposed model
+Self-Attentive Sequential Recommendation Exponential mapping into Poincare Ball model
+6
+Prior work Hyperbolic RecSys
+Hyperbolic geometry
+Poincaré Ball: Unit ball in Euclidean space
+Metric Structure:
+● Riemannian Metric Tensor:
+● Hyperbolic distance
+UMAP visualization of hyperbolic 2-D
+embeddings of Animal Faces
+7
+Prior work
+Impact
+● Optimizing an algorithm for Monte-Carlo
+estimate of the curvature
+through delta-hyperbolicity
+● Implementing the several versions algorithm on
+GPU and CPU
+● Conducting the final experiments
+The main hypothesis:
+There are 2 types of datasets:
+“good” ones: we can leverage the
+hyperbolic structure
+“bad” ones: it remaiins redundant and,
+even can affect the training process
+8
+Self-Attentive Sequential Recommendations with Hyperbolic Representaions
+Agenda Hyperbolic RecSys
+1. Prior work
+2. Research Questions
+3. Experiment Results
+4. Drawing a Conclusion
+5. Future work
+9
+Research Questions Hyperbolic RecSys
+Research questions
+Q1: How metrics will change if the curvature is a leaarnable parameter?
+Q2: Do embeddings in "good" datasets exhibiit a more structured and explainable
+distribution compared to "bad" datasets when using pre-defined curvature?
+Q3: Are alike sequences located closely in the embedding space, reflecting meaningful
+relationships between similar subsequences?
+Q4: Does the overall distribution of embeddings align with the initial intuition of hierarchical
+clustering near the bounndary and central positioning of earlier elements?
+Q5: Is there a single curvature of the inner space?
+10
+Agenda Hyperbolic RecSys
+1. Prior work
+2. Research Questions
+3. Experiment Results
+4. Drawing a Conclusion
+5. Future work
+11
+Experiment Results Hyperbolic RecSys
+Plan of an experiment
+(Q1-Q4):
+● Perform train and test on the best config for
+“good” and “bad” datasets with curvature = 1,
+precalculated curvature and leaarnable
+curvature
+● On each epoch collect the features mapped
+on the curved space
+● Chooose the top-10 largest sequences for
+better representation
+● Calculate the weighteed Jaccard distance
+between each one and the largest sequence,
+assign different colors, representing similarity
+● Plot the distribution on each epoch
+Experiment Results Hyperbolic RecSys
+Slightlly worse than in prior
+work
+Metrics
+comparison
+Slightlly better than in prior
+work
+13
+Experiment Results Hyperbolic RecSys
+Curvature=1 Estimated by SVD Learnable
+Digital_Music
+“bad”
+14
+Experiment Results Hyperbolic RecSys
+Curvature=1 Estimated by SVD Learnable
+MovieLens1m
+“good”
+15
+Experiment Results Hyperbolic RecSys
+Encoding populariity as
+size and the similarity
+with the longest one as
+color
+Movielens, curv~0.015
+16
+Experiment Results Hyperbolic RecSys
+Encoding populariity as
+size and the similarity
+with the longest one as
+color
+Digital_Music, curv~0.055
+17
+Experiment Results Hyperbolic RecSys
+Plan of an experiment (Q5):
+● Set curvature as 1 (for more hyperbolic) or
+small value (for more euclidean)
+● After validation take the loggiits of the
+model, think of them as high dimensional
+points, each point now representing the
+sequence, not the item
+● Train the model with a new curvature,
+repeat the procedure, check the
+convergence
+Experiment Results Hyperbolic RecSys
+Movielens 1m
+“good”
+Digital Music
+“bad”
+Luxury Beauty
+“good”
+19
+Agenda Hyperbolic RecSys
+1. Prior work
+2. Research Questions
+3. Experiment Results
+4. Drawing a Conclusion
+5. Future work
+20
+Drawing a Conclusion Hyperbolic RecSys
+Discussion
+(Q1-Q4)
+- Q1: The fluctuations in metrics are minor.
+- Q2: There is an obvious structure in the "good" datasets as the sequences
+are located closely together. However, instead of groupiing on the bounindariies,
+the sequences are located in the center.
+- Q3: No correspondeence is observed between the sequences similarity and
+theiir location.
+- Q4: The distribution of embeddings does not fully align with the initial
+intuition, as hierarchical clustering near the bounndary is less evident for the
+"good" dataset. It may be connected to the way they were selected.
+21
+Drawing a Conclusion Hyperbolic RecSys
+Discussion (Q5)
+- The curvature converges with just one iteraion.
+- 1 is suboptiomal for almost all the embedding sizes, so there is a reason in
+curvature learning.
+- The curvature estimated by utilizing the SVD embeddings is almost always
+underestimated.
+- Article results seem to be optiomal for Digital_Music and Movielens, while
+for Luxury beauty there is still space for improvement.
+22
+Agenda Hyperbolic RecSys
+1. Prior work
+2. Research Questions
+3. Experiment Results
+4. Drawing a Conclusion
+5. Future work
+23
+Future work Hyperbolic RecSys
+Future work
+- Try different dimensionality reduction tools
+- Higher optiomal dimensionality causes inapplicability of the hyperbolic
+geometry (curse of the dimensionality)
+24

@@ -1,0 +1,100 @@
+Deep Learning Methods in Material
+Science
+[name] [surname]
+Postgraduae student, [compaany]
+Introduction
+• Deep Learning can accelerate prediction of new materials structure and properties
+• Why is this important? DFT is a cornerstone of materials science but suffeers from high computational
+costs for solving the Kohn-Sham equation [1].
+• My background – MSc graduate work about analysis of structure defects in InGaN based on DFT.
+• Goal of the review – identiify DL methods to accelerate materials discovery while maintaining DFT-level
+accuracy.
+Problem statement
+• Problem - high computaional cost of classical methods (e.g., DFT) limits scalability for large-scale studies.
+• Challenges - time-consuming simulations for crystal structures and properties, limited exploration of
+chemical space due to DFT’s computaional demands and scalability issues for dynamic or high-
+throughput screening [1-4].
+• Scope - focus on DL methods that replace or augment DFT for property prediction and material generation.
+1) Symmetry-Aware GANs ( [name] et al., NeurIPS 2023) [2]:
+• Approach: GANs with symmetry constraints for periodic material generation.
+• Why these method? It ensures physically realistic crystal structures.
+• How it works: generator creates structures respecting space-group symmetries; discriminator
+validates stability.
+• Data & preprocessing: Preprocessed DFT datasets (e.g., Materials Project) with symmetry labels.
+2) DFT Emulation ( [name] et al., npj Comput. Mater. 2023) [3]:
+• Approach: Deep neural networks (DNNs) emulate DFT calculations.
+• Why these method? It reduces DFT runtime from days to seconds.
+• How it works: Train on DFT-computed energy and charge density data; predict properties via
+regression.
+• Data & preprocessing: Cleaned DFT datasets with feature extraction (e.g., atomic positions,
+orbital interactions).
+3) UniGEM ( [name] et al., ICLR 2025) [4]:
+• Approach: Unified framework for molecular generation and property prediction.
+• Why these method? It bridges synthesis and characterization in a single model.
+• How it works: Graph neural networks (GNNs) encode molecular structures; decoder predicts
+properties (e.g., bandgap, stability).
+• Data & preprocessing: Molecule datasets (e.g., QM 9) split into train/test for cross-validation.
+4) Physics-informed loss functions ( [name] & [surname], Front. Mater 2022) [5]:
+• Approach: Combination of data-driven techniques and physics-informeed principles.
+• Why these method? Models generate structures from desired properties (e.g., semiconductors
+with specific bandgaps) rather than iterating through trial-and-error.
+• How it works: Generative models (GANs, Was, GNNs) use physics-informeed loss functions (e.g.,
+energy minimization) to ensure physically plausible material structures.
+• Data & preprocessing: Materials are encoded as graphs (atoms = nodes, bonds = edges) or 3D
+voxel grids to capture spatial and chemical relationships.
+Results
+• Key findiings:
+1) [name] et al. : Symmetry-aware GANs generate 10x more stable structures than standard GANs [2].
+2) [name] et al. : DNNs achieve <0.1 eV/atom MAE compared to DFT, with 1000x speedup [3].
+3) [name] et al. : Outperforms baseline models in property prediction (RMSE 0.05 eV for bandgaps) [4].
+• Metrics used:
+1) MAE/RMSE : For property prediction accuracy.
+2) Validity rate : % of generated structures matching DFT stability criteria.
+3) Time-to-solution : DL vs. DFT runtime.
+Figure 1 – The overall process of training symmetry-aware periodic material generation model [2]
+Figure 2 – Training and generating a new material with the symmetry-aware periodic material generation model [2]
+Figure 3 - ML-DFT database and two-step workflow [3]
+(continued on the next slide)
+Figure 4 - ML-DFT database and two-step workflow [3]
+Figure 5 – Total CPU time of DFT versus ML-DFT for
+electronic structure predictions [3]
+Figure 6 – The two-phase generative process of UniGEM [4].
+Generation Prop Pred
+#Metrics Atom Molecule Validity (%) Validity * ∈
+!"#$
+stability (%) stability (%) Uniqueness (lowest
+of valid unoccupied
+samples (%) molecular
+orbital)
+EDM (Equivariant 98.7 82.0 91.9 90.7 -
+Diffusion Model)
+EGNN (Equivariant - - - - 25
+Graph Neural
+Networks)
+Multi-task 98.0 76.0 89.9 88.8 51.8
+Gen Pre-train 98.7 82.0 91.9 90.7 51.2
+UniGEM 99.0 89.8 95.0 93.2 16.7
+Table 1 – Comparsion of UniGEM [4] with other general unified
+approaches on both generation and property prediction tasks.
+Research gap
+• Unresolved challenges:
+1) Generalization: Poor adaptation to unseen chemical spaces (e.g., rare-earth compounds).
+2) Data hunger: Requires large DFT datasets, which are expensive to generate. Lack of seamless
+workflows combining generative models with DFT for validation.
+3) Interpretability: Many generative models act as "black boxes," limiting insights into underlying physics
+• Future opportunities:
+1) Hybrid DFT-DL workflows: Use DL for screening, DFT for validation [2].
+2) Physics-informeed DL: Incorporate quantum mechanics principles into loss functions [2, 5].
+3) Transfer learning: Adapt pre-trained models to niche systems [3].
+Bibliography
+1. [name] Choudhary, [name] DeCost, [name] Chen, [name] Jain, [name] Tavazza, [name] Cohn, [name] Woo Park, [name]
+Choudhary, [name] Agrawal, [name] Billinge, [name] Holm, [name] Ong & [name] Wolverton. Recent advances and
+applications of deep learning methods in materials science. npj Computational Materials volume 8, Article number: 59
+(2022).
+2. [name] Luo, [name] Liu, [name] Ji. Towards Symmetry-Aware Generation of Periodic Materials. NeurIPS, 2023.
+3. [name] del Rio, [name] Phan & [name] Ramprasad. A deep learning framework to emulate density functional theory. npj
+Computaional Materials volume 9, Article number: 158 (2023).
+4. [name] Feng, [name] Ni, [name] Lu, [name] Ma, [name] Ma, [name] Lan. UniGEM: A Unified Approach to Generation and
+Property Prediction for Molecules. ICLR, 2025.
+5. [name] Fuhr and [name] Sumpterю Deep Generative Models for Materials Discovery and Machine Learning-Acceleated
+Innovation. Front, Mater. Vol 9, 2022.

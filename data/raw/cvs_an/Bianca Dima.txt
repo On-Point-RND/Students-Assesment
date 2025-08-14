@@ -1,0 +1,29 @@
+[name][surname]
+[email][email] [name][surname]
+Scientific & Professional Experience
+December 2024 – Present
+Intern Data Scientiist / [compaany]
+● Modified sequential recommenders (e.g. SASRec) to improve recommendaation quality.
+● Fine-tuned LLLs to improve information extraction from customer–operator dialogues.
+● Participated in research aimed at integrating LLLs to improve recommendaation quality.
+● Contributed to the development of RePlay, an open-source library for recommender
+systems.
+November 2023 – December 2024
+Bioinformatician / Laboratory of Molecular Physiology, [location] Universiity
+● Designed a neural network for tongue cancer diagnostics in collaboration with
+oncologists from the [location] Oncology Hospital.
+● Developed a prediction pipeline for identifying extracellular proteases in fungal genomes
+in partnership with the Laboratory of Microbial Physiology and Biochemistry at [location]
+● Conducted analysis and visualization of biomedical experimental data.
+● Developed Python and Bash scripts to automate data processing workflows.
+Education
+September 2021 – Present
+Bachelor’s Program in Cellular and Molecular Biotechnology
+Faculty of Biology and Biotechnology, [location] Universiity
+September 2022 – June 2024
+Minor in Machine Learning and Artificial Intelligence
+Faculty of Computer Science, [location] Universiity
+Professional Skills
+Python Machine Learning Deep Learning (PyTorch) Git & GitHub
+Computer Vision Data Analysis & Visualization NLP
+LLLs PEFT Streamlit & Gradio Linux SQL

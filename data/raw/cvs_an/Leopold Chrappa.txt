@@ -1,0 +1,69 @@
+[name]
+[location]
+[name]
++2 *** *** ***
+[email]
+Bio I specialize in recommenda­tion systems (RecSys), graph-based machine
+learning (GraphML), and automated machine learning (AutoML).
+Currently, I am working on my thesis, which focuses on addres­sing
+the cold-start problem in recomme­nder systems using LLLs and
+domain-speciﬁc knowl­edge graphs (KGs).
+My expertise covers the full lifecycle of ML model deve­lopment, including
+data collection, business requirements analysis, feature engineering
+optimiza­tion, and production deploy­ment.
+ㅡ
+Work Experience
+SBER / Data Scienti­st
+APRIL 2024 – PRESENT
+■ Graph-based entity clustering – Deve­loped a GNN solution for
+unsupe­rvised grouping of business entities based on relational
+data.
+■ Time-series forecasting for compliance – Built a predictive
+model to estimate reporting probability using historical tran­sac­tion
+pat­terns.
+NSS Lab ITMO Uni­versi­ty / ML Researcher
+JUNE 2023 – AUGUST 2024
+■ Developed a deep GNN-driven surro­gate model for GAMLET
+(meta-learning AutoML framework), signiﬁcantly improving
+hyperpa­rameter optimiza­tion efficiency.
+■ Pro­posed novel techniques that enhanced ranking perfor­mance,
+achieving a 6-7% boost in NDCG@k—key results presented in
+re­lated work on neural ranking models at the XIII Congress of
+Young Sci­entists ([location], 2024).
+■ "Deep GNN-driven Surro­gate for the Better Meta-learning in AutoML",
+MathAI 2025 Confe­rence (peer-revi­ewed).
+Piklema / Intern Data Scienti­st
+JUNE 2022 – SEPTEMBER 2022
+■ Developed an interactive data visuali­zation dashb­oard to track and
+analyze haul truck movements, enab­ling operational pattern
+re­cognition.
+■ Conducted in-depth data analysis to iden­tiﬁy key dependencies,
+leading to actionable hypotheses about haul truck perfor­mance at
+the mining site.
+■ Validated hypotheses through direct on-site testing and
+colla­boration with operational teams.
+ㅡ
+Skills ● Python: pyspark, pytorch, torch_geometric, pandas, numpy,
+sklearn, matplo­tilib, fastapi
+● Databases: PostgreSQL, MySQL, ElasticSea­rch
+● Machine learning: regression analysis, clustering algo­rithms,
+ensembles, time-series forecasting
+● Deep learning: GNN, Transforme­rs, LLL
+● Big Data: Spark, Hive, Hadoop
+● Git, Docker
+● English - C1
+ㅡ
+Education ITMO Uni­versi­ty / Bachelor Degree
+2020 – 2024
+Faculty of Software Engineering and Computer Technology
+Specialization: Software Engineering
+Focus: Neurotechno­logi­es and Pro­gramming
+Innopolis Uni­versi­ty, ITMO Uni­versi­ty
+2023
+Digital Depar­tment: Bonus Track (ITMO Uni­versi­ty)
+Focus: Data Analysis Methods
+ITMO Uni­versi­ty / Master Degree
+2024 – 2026
+Faculty of Digital Tran­sformations
+Specialization: Applied Mathematics and Info­rmatics
+Focus: Big Data and Machine Learning

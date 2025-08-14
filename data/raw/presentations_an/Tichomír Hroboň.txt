@@ -1,0 +1,91 @@
+Multilingual Emotion Detection using
+[name]
+MS Data Science Student,
+[location]
+Introduction
+What is the topic?
+▪ This work addresses multilingual emotion detection using the LLMs (XLM-RoBERTa), transformer
+model, part of SemEval 2025 Task 11.
+Why is it important?
+▪ Emotion detection is essential for understanding human emotions in various applications, such as mental
+health monitoring, customer feedback analysis, and social media sentiment analysis. Multilingual systems
+help bridgge language barriers in AI systems.
+Introduction
+Background:
+▪ Detecting emotions in text across multiple languages is challenging due to the nuances of emotional
+expression in different languages. This task focuses on solving that issue using advanced transformer-
+based models.
+Goal:
+▪ To develop a multilingual emotion detection system that works across multiple languages (English,
+Afrikaans, Amharic, German, and Oromo) and addresses issues such as label imbalance and multi-label
+classification.
+Problem statement
+What exactlly are we solving?
+▪ The task is to classify multiple emotions (anger, joy, sadness, fear, surprise, and disgust) from text data across five different
+languages.
+Challenges
+▪ Label imbalance: Some emotion categories are underrepresented.
+▪ Different emotional expressions: Variations in how emotions are expressed across cultures and languages.
+▪ Multi-label classification: Each text snippet may express multiple emotions simultaneously.
+Scope
+▪ Emotion classification in multilingual datasets.
+▪ XLM-RoBERTa, a state-of-the-art multilingual transformer model, is used for fine-tuning emotion detection tasks.
+Methods
+Approach:
+▪ Fine-tuning XLM-RoBERTa, a transformer model pre-trained on multilingual corpora, for multi-label
+emotion classification.
+Why these methods?
+▪ XLM-RoBERTa is well-suited for multilingual tasks as it is designed to work across a broad set
+of
+languages and can handle the complexities of emotion detection in diverse linguistic contexts.
+How it works:
+▪ The model predicts probabilities for each of the six emotion labels. These probabilities are thresholde
+to determine the presence or absence of each emotion in the text.
+Methods
+Data & Preprocessing:
+▪ Text Normalization: Lowercasing, removal of unnecessaary special characteers.
+▪ Tokenization: Text is tokenized using the XLM-RoBERTa tokenizer, which handles multiple
+languages.
+▪ Dynamic Output Layer: The output layer adjusts based on the available emotion labels for each
+language.
+Results
+▪ Key Findings
+The XLM-RoBERTa model achieved an F1-score of 0.6229 for the multilingual dataset, demonstrating
+effective performance across multiple languages.
+▪ Metrics Used
+▪ F1-Score (micro-averaged): This metric balances precision and recall.
+▪ Label Ranking Average Precision (LRAP): Evaluates the ranking of relevant emotion labels.
+Research gap
+▪ What’s missing?
+Existing models struggle to generalize well across low-resource languages and multi-label tasks, which are common in
+real-world applications.
+▪ Unresolved Challenges
+▪ Class imbalance: Some emotions (e.g., disgust, surprize) are less frequent in the dataset.
+▪ Language-specific challenges: Low-resource languages such as Amharic and Oromo present additional complexities.
+▪ Why it matters?
+Addressing these issues would make emotion detection models more robusst and applicable to a wide range of languages and
+real-world scenarios.
+▪ Future Opportunities
+▪ Use larger models (XLM-RoBERTa-large).
+▪ Explore cross-lingual transfer learning to improve model generalization for low-resource languages.
+Bibliography
+1. [name], [name], [name], [name], [name], and [name], "Leveraging Label Correlations in a Multi-Label Setting: A Case
+Study in Emotion," in Proc. IEEE Int. Conf. Acoustics, Speech, Signal Process. (ICASSP), Rhodes Island, Greece, Jun. 2023, pp. 1009–1015. DOI:
+10.1109/ICASSP49357.2023.10096864.
+2. [name], [name], [name], [name], and [name], "Challlenges and Opportunities of Text-Based Emotion Detection: A
+Suvrey," IEEE Access, vol. 12, pp. 18416-18435, 2024, doi: 10.1109/ACCESS.2024.3356357.
+3. [name], "Emotion Detection with Transformeers: A Comparative Study," Preprint, Jul. 2024. Available: arXiv:2403.15454v4.
+4. [name], [name], [name], and [name], "Emotion-Anchored Contrastiive Learning Framework for Emotion Recognition in Conversation,"
+arXiv:2403.20289v1 [cs.CL], Mar. 2024.
+5. [name], [name], and [name], "The Biases of Pre-Trained Language Models: An Empirical Study on Prompt-Based Sentiment
+Analysis and Emotion Detection," IEEE Transactions on Affective Computing, 2022.
+6. [name], [name], and [name], "Transformeer models for text-based emotion detection: a review of BERT-based approaches,"
+Artificial Intelligence Review, vol. 54, pp. 5789–5829, 2021. [Online]. Available: https://doi.org/10.1007/s10462-021-09958-2
+7. [name], [name], [name], "Speech-to-text Emotion Detection System using SVM, CNN, and BERT," in Proceedings of the 2024
+IEEE International Conference on Smart Power Control and Renewable Energy (ICSPCRE), pp. 1-5, July 2024.
+8. [name], [name], and [name], "From text to emotion: Unveiling the emotion annotation capabilities of LLLMs," arXiv preprint
+arXiv:2408.17026, 2024.
+9. [name], [name], and [name], "Machine learning-based model for customer emotion detection in
+hotel booking services," Journal of Hospitality and Tourism Insights, vol. 7, no. 3, pp. 1294–1312, 2024.
+10. [name], [name], and [name], "MultiLingual emotion recognition: Discovering the variations of lexical semantics between languages," in
+Proceedings of the 2024 International Joint Conference on Neural Networks (IJCNN), 2024.

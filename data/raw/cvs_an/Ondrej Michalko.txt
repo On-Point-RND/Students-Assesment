@@ -1,0 +1,53 @@
+[name] [surname]
+LastUpdatedoon23rdApril2025
+[email]
+EDUCATION RELEVANT EXPERIENCE
+PhD,PetroleumEngineering 2024-|[compaany]
+Ongoing|[compaany] • WrotehbridintegratedassettodeusingCRMandsurfacenetwork
+solver
+MSc,PetroleumEngineering
+• DevelopedsyntheticproductiondatagenerationandappliedST-GNNs
+2023|[compaany]
+forforecasting(ST-GCN,AST-GNN,etc.)
+Thesis”Improvementofasurface network algorithmforuseinintegratedmodeling”
+2019-2024|[compaany]
+Bc,AppliedPhysics • ContributedsurfacenetworksolvertodeepfieldPythonpackage
+2019|[compaany] • Testedproductionforecastingmodelsinindustrialapplication
+Thesis”Investigationofthedynamicsofthe (torch/tf/darts/statsmodels)
+temperaturefieldinresourcedepositssunder • Developedapproachtosurface-subsurfacecouplinginhybrid
+electromagneticinfluence” integratedmodel(surfacenetworksolver+DLreservoirmodel)
+2015–2019|[compaany]
+INTERESTS
+• NumericalsolutionsofODEs/PDEs(Matlab, Delphi, C++)
+ComputationalPhysics•GraphNeuralNetworks• Modeledelectromagneticheatinginsaturatedcore(COMSOL
+Data-drivenHCProductionforecasting Multiphysics,OpenFOAM,C++)
+ML/DL TOOLS
+BACKGROUND
+Basicomputation(numpy/pandas/scipy/sympy)
+5/5•MLtoolkit(sklearn/statsmodels)4/5• [compaany] |PhDStudent,SeniorResearchEngineer
+DLtoolkit(torch/tensorflow/darts)4/5• 2024-|[location]
+LATEX4/5•Git4/5•Docker3/5
+• IndustrialprojectcollaborationwithROSPAN ApplicationofMLto
+RELEVANT EDUCATION surface networkandfacilitiesmodeling
+2020- RL•GMML•NLA•DSP•ML• [compaany] 2021–2024|[location]
+Adv.SolversforNumericalPDEs•etc. 2018 AndrewNg’scourseinML(usingMatlab)
+• IndustrialprojectcollaborationwithGazPromnft-STC
+• Developedsurfacenetworksolverbasedonmaterial-balancemodels
+SIDE PROJECTS
+2019–2021|[location]
+• Workedonmodelingofnon-destructivemeasurementofcorethermal
+gracula(w/ [name]) usinglaserheating(COMSOL Multiphysics)
+RLagentforextractingscientificinformationfrom
+MaterialSciencepapers(Gigachat,langchain)
+GAZPROMNEFTSTC |Trainee
+2020|[location](remote)
+• WaveGANforbeatgeneration • Directcomputationofeffectivethermalconductivityin
+(tensorflow) (OpenFOAM,Docker,Python)
+RN-UFANIPINEFTSTC |Trainee
+2016|[location]
+• Hydraulicfracturehistorymatching(optimization)onproxymodels
+(Python,Rosneft’sRN-KIN,RN-KIM)
+BSU |BcStudent
+2015–2019|[location]
+• Modeledelectromagneticheatinginsaturatedcore(OpenFOAM,C++)
+1

@@ -1,0 +1,49 @@
+[name]
+Phone: +2 *** *** ***
+Email: [email]
+Telegram: @[name]_282
+ISTINA: istina.msu.ru/workers/407672786/
+Research Interests
+Data Analysis, Machine Learning, Biophotonics, Laser Spectroscopy, Cytometry
+Education & Additional Courses
+Specialist Degree, Fundamental and Applied Physics (2020–2026)
+[location], Faculty of Physics
+Average mark (GPA): 4.63/5.0
+Additional Courses
+• Machine Learning for Applied Problems
+• Introduction to Deep Learning
+• Neural networks and their application in scientific research (MSU AI)
+Research Experience
+Data analysis of biomedical optical data
+• Macrophages state diagnostics via flow cytometry
+– Analyzed changes in optical parameters of macrophages in different functional states using statistical
+methods
+– Developed data-driven diagnostic approach for atherosclerosis by training multiple classificationmod-
+els (Extra Trees, Random Forest, etc.) on macrophage response profiles.
+• Clustering of functional tissue areas from spectrally-resolved fluorescence microscopy data
+• Porphyrin fluorescence analysis for microbial profiling
+– Preprocessed and analyzed spectral data; extracted informative features
+– Applied machine learning methods (NMF, t-SNE, DBSCAN) for clustering and pattern discovery
+– Performed statistical evaluation of the relationship between spectral characteristics and bacterial taxonomy
+Skills
+• Professional: Proficient in interpreting complex experimental data and statistical analysis; experienced in
+classical machine learning methods including supervised and unsupervised techniques; strong background
+in fluorescence spectroscopy and photophysics; skilled in critically reading and synthesizing scientific lit-
+erature.
+• Programming: Python (NumPy, Pandas, Scikit-Learn, Seaborn, PyTorch, XGBoost)
+• Mathematical Foundations: Strong knowledge of linear algebra, analysis, probability, and statistics
+Conference Presentations
+• AI Project Conference by [company] (2023), oral report, [location]
+"Clustering of spectral-resolved fluorescence microscopy data for the separation of functional areas of the
+thyroid gland"
+• International Lomonosov Conference (2024), [location], oral report – Best Report Award
+"Flow cytometry with endogenous fluorescent contrast to diagnose the state of macrophages"
+• International School on Biophotonics (2024), poster report, [location] – Best Poster
+Award
+"Endogenous Fluorescence for Macrophage State Diagnostics via Flow Cytometry"
+• International Lomonosov Conference (2025), [location], oral report
+"Endogenous fluorescence of tetrapyrrolic compounds in the taxonomic identification of microorganisms"
+Publications
+• [name] U.Y., [name] B.P., [name] E.A., [name] P.A., [name] E.A. Endogenous Fluores-
+cence for Macrophage State Diagnostics via Flow Cytometry In: Proceedings of the International School
+on Biophotonics. ITMO University, 2024. Indexed in the Russian Science Citation Index (RSCI).

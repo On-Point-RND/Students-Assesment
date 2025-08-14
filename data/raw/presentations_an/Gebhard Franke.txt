@@ -1,0 +1,104 @@
+Automating Counting
+with AI: Practical
+10 or 1000?
+Solutions and
+Insights
+[name]
+Senior Engineer, Laboratory of Phylogenetics and Biochronology, [compaany]
+Lecturer, Department of Biology and Fundamental Medicine, [location]
+Visiting Lecturer, [location]
+Introduction
+Metric Overview Global Standards Goal of Research
+The absolute number of Currrently, standards for such The key aim of this research
+microfossiils allows us to analyses include tablets is to propose alternative,
+evaluaate pollen produced at [location] and aluminosilicate spheres microfossil analysis, making
+productivity in plants and and aluminosilicate spheres the methodology feasible for
+detect whether there has made in the UK. researchers everywhere.
+been sorting of pollen
+While effective, these
+grains during burial—an
+solutions are hindered by
+approaach noted since the
+logistical challenges,
+1960s
+especially concerning their
+(Devis, 1966; Bonny, a
+acquisition cost and
+1972; Faegri, Iversen,
+availability.
+1975).
+Problem statement
+Staining and Suspension Protocols
+A significant issue was selecting suitable dyes and protocols for
+staining and suspending particles. Although this challenge was
+addressed in a different part of the research, it laid the
+groundwork for subsequent analytical steps.
+Quantification Need
+For practical use of any microfossil suspension, accuraate
+counting of spores in each test tube is essential—a task
+commonlly done with a Coulter counter, which not every
+laboratory possesses.
+AI and Digital Imaging Solution
+The proposed solution is to use any digital microscope camera
+in combination with a neural network to automate spore
+counting, providing a cost-effective and accessible alternative.
+Methods
+YOLOv8:
+• Maintaining accuracy at high speed
+• The task of classifying objects is not addressed, so heavier models are redundant.
+Get image of Identify spores Сounts spores Data set for
+spores determining the
+average number
+of spores in a
+Eliminates debris accuracy of counting
+sample
+in clusters is
+especially important
+Data Collection & Training
+The dataset comprised 100 images for training and 20 for validation, without augmentation. Manual annotation
+was performed using Roboflow, ensuring reliable data labeling for model training.
+Results
+• After training for 150 epochs, the mAP50 values ​​are close to 1, indicating that the model is stable under
+different confidence thresholds and has high prediction accuracy on different images. Comparison with
+manual counting showed the advaantage of automatic indications.
+Research gap
+Overspecialization and Sensitivity
+The model is arguably more sophisticated than needed for
+such a straightfo rward problem and is prone to errors with
+lighting changes or unusually high spore concentrations,
+leading to miscounts.
+Proposals for Improvement
+To address these issues, future work will involve
+enhancing the model to detect not just spores, but also
+pollen grains, thereby improving versa tility and robustness
+to variable conditions.
+My code: https://github.com/BarsikArsik/LyCounter
+Bibliography
+Author's publication:
+[name]. 2025. Изготовление стандарта для метода абсолютных концентраций в спорово-пыльцевом анализе с использованием
+искусственного интеллекта. Turczaninowia 28(1): 28–34.
+Benninghoff W. S. 1962. Calculation of pollen and spore density in sediments by addition of exotic pollen in known quantities. Pollen et Spores
+4(2): 332–333.
+Bonny A. P. 1972. A method for determining absolute pollen frequencies in lake sediments. New Phytol. 71: 393– 405.
+https://doi.org/10.1111/j.1469-8137.1972.tb04086.x
+Campbell J. F. E., Fletcher W. J., Hughes P. D. 2016. A comparison of pollen extraction methods confirms dense media separation as a
+reliable method of pollen preparation. J. Quat. Sci. 31(6): 631–640. https://doi.org/10.1002/ jqs.2905
+‐
+Davis M. B. 1966. Determination of absolute pollen frequency. Ecology 47(2): 310–311.
+Faegri K., Iversen J. 1975. Textbook of pollen analysis. Copenhagen: Munksgaard. 237 pp.
+Gardner G. D., Gray R. E. 1976. Tracing subsurface flow in karst regions using artificially colored spores. Bulletin of the Association of
+Engineering Geologists 13: 177–197.
+Grichuk V. P., Zaklinskaya E. D. 1948. Analiz iskopaemykh pyltsy i spor i ego primeneniye v paleogeography [Foossil pollen and spore analysis
+and its application in paleogeography]. Moscow: OGIZ. 217 pp. [In Russian] (Гричук В. П., Заклинская Е. Д. Анализ ископаемых пыльцы и
+спор и его применение в палеогеографии. М.: ОГИЗ, 1948. 217 с.).
+Jocher G., Chaurasia A., Qiu J. 2023. Ultralytics YOLO (Version 8.0.0). URL: https://github.com/ultralytics/ultralytics (Accessed 18 November
+2024).
+Kitaba I., Nakagawa T. 2017. Black ceramic spheres as marker grains for microfossil analyses, with improved chemical, physical, and optical
+properties. Quat. Int. 455: 166–169. https://doi.org/10.1016/j.quaint.2017.08.052
+Nakagawa T., Hayashi R., Yokoyama Y. 1998. Dense media separation as a more efficient pollen extraction method for use with organic
+sediment/deposit samples: comparison with the conventional method. Boreas 27(1): 15–24. https://doi.org/10.1111/j.1502-3885.1998.tb00864.x
+‐
+Pascal VOC Challenge [2007]. The PASCAL Visual Object Classes Challenge 2007 (VOC2007) Results. URL: http://
+host.robots.ox.ac.uk/pascal/VOC/voc2007/ (Accessed 18 November 2024).
+Stockmarr J. 1971. Tablets with spores used in absolute pollen analysis. Pollen et Spores 13: 615–621.
+Stockmarr J. 1973. Determination of spore concentration with an electronic particle counter. Danmarks Geol. Undersøgelse, Raekke 15: 87–89.

@@ -1,0 +1,160 @@
+Development of a bionic prosthesis with feedback features
+[name] [surname]
+Fourth-year student at [university]
+phone: +2 *** *** ***
+[email]
+1
+The relevance of the problem
+•
+The number of people in need of upper limb prosthetics worldwide is approximately 4 million annually. 80% of them do not use prosthetics, while the remaining 20% primarily use cosmetic or body-powered ones.
+•
+The problem lies in the inability to adjust grip strength and anticipate the parameters for hand opening for specific objects. TAM •200 thousand people per year need prosthetics for hands and SAM feet.
+•
+Existing bionic upper limb prosthetics available on the [location] market do not allow for the compensation of the lost limb due to limitations related to the kinematic and functional characteristics of these devices.
+2
+Market assessment of bionic manipulators
+Currently, there has been a sharp increase in the demand for prosthetics for both upper and lower limbs, since 51% of all Technical Means of Rehabilitation in [location] were imported.
+The global market size for The projected market size
+bionic prosthetics is 1.5 for bionic prosthetics is
+billion dollars. 2.8 billion dollars.
+3
+Target Audience
+The end consumer is individuals who have lost an upper limb due to disease, infection, or injury (including deep burns, frostbite, or wounds).
+Potential buyers include:
+•
+Private medical institutions and state prosthetic-ortopedic enterprises;
+•
+Insurance companies;
+•
+Individuals.
+4
+Description of the Proposed Solution
+Pressing Mechaniism – tactilely transmits Feedback Drive – converts rotational
+force to the user from the feedback drive motion into linear motion, enabling the
+through the pressure lever. user to feel the hand’s gripping force.
+Pressure Lever
+Camera – identifies the object to adjust
+the hand’s gripping
+force limit.
+Main Microchip
+Flexible Links
+Main Compression Drive – two flexible
+links are attached to the shaft, acting as
+near-antagonists to the finger, allowing
+precise finger positioning in various states.
+5
+.
+Scientific Novelty
+The scientific novelty lies in obtaining a feedback signal from the compression drives using current sensors, as the torque of a DC motor is directly proportional to the armature circuit current. This enables the regulation of the gripping force.
+6
+.
+Comparison with analogues
+Bionic Prosthesis OrtoKosmos Max Bionic Motoreka (Open Indicator with Feedback (Bionic (Bionic
+Source) Prosthesis) Prosthesis)
+Muscle Activity + + + +
+Sensor Level
+Ability to Adjust Grip - - -
+Strength and Hand +
+Opening for Specific
+Objects
+- - -
++
+Built-in Computer - - -
+Grip Strength
+From 1 million From 700,000 From 1.5
+RUB RUB million RUB
+7
+Scientific Novelty
+1. Conducting research in the field of electronics
+2. Development of software
+3. Debugging the software code, fixing system errors
+4. Modeling the mechanical part of the bionic prosthesis
+5. Testing the mechanism (software), followed by adjustments
+6. Preparation of design documentation
+7. Obtaining intellectual property rights for the developed system
+8. Launching the developed system to manufacturers of mobile devices
+8
+Financial plan of the project
+№ Cost Item Amount, RUB
+1 Training 30,000
+2 Payment for Specialist Services 242,000
+3 Material Costs 130,000
+Software Support (Procurement of Licensed
+4 98,000
+Software)
+Total 500,000
+9
+Project development prospects
+Upon successful completion of the research, the project will proceed to the next grant stage, after which a working model will be created. This will lead to the development of a small independent enterprise.
+Participation in thematic conferences, exhibitions, presentations, and competitions will serve as a means to attract investments.
+10
+Partners, interested organizations
+11
+Research
+12
+Investigation of Muscle Activity Sensors
+In this project, a single muscle activity sensor will be used to determine the position of the hand. In the future, it will be easy to integrate multiple sensors to capture impulses for all five fingers, enabling individual control of each finger.
+For further research, a sensor will be ordered from the company "Elemio" in [location].
+13
+Connecting the EMG Sensor to the Computer
+After connecting the sensor to the muscle responsible for the little finger, the signal data can be analyzed. The blue graph represents the signal from the sensor without filtering, the orange graph shows the signal with filtering, while the yellow and green graphs are used for scaling the chart to better capture changes in the sensor values.
+The muscle is tense (the finger is clenched). The muscle is relaxed (the finger is loosened)
+14
+Research on the use of the camera in prosthetics
+To install a camera in the bionic manipulator, it is necessary to study libraries responsible for object recognition.
+Modern object recognition methods need to be used, which is why the YOLO library was chosen.
+15
+Library YOLO
+YO
+Training on Object Image Field
+objects segmentation classification assessment
+16
+Choosing the operating mode of the YOLO library
+Object Image Field
+Name Object Training
+Segmentation Classification Assessment
++ + + -
+Object
+Recognition
++ + - +
+Local Object
+- + - -
+Object Shape
+For tasks related to the bionic manipulator, the YOLO library is suitable for object detection. Next, it is necessary to determine which objects can be gripped firmly and which should be gripped lightly.
+17
+Classification of objects
+To assign a specific gripping force to each object, they need to be classified based on the degree of compression.
+Bottle, wine glass, cup, bowl, banana, sandwich,
+Tight Grip orange, broccoli, hot dog, pizza, donut, cake,
+vase, teddy bear.
+People, bird, cat, Dog, horse, sheep, Cow,
+Elephant, Bear, zebra, giraffe, tie, frisbee, kite,
+baseball glove, fork, knife, spoon, Carrot, chair,
+Confident Grip
+potted plant, toilet, TV, Laptop, mouse, remote
+control, keyboard, cell phone, microwave, oven,
+book, watch, scissors, hair dryer, toothbrush.
+Bicycle, car, motorcycle, airpplane, Bus, Train,
+Truck, boat, traffic light, fire hydrant, Stop sign,
+Parking meter, bench, backpack, umbrella,
+Loose Grip handbag, suitcase, skis, snowboard, sports ball,
+baseball bat, skateboard, surfboar, tennis
+racket, sofa, plant in a pot, a bed, a dining table,
+a toilet, a toaster, a sink, a refrigerator
+18
+Conclusion
+•
+The camera installed on the prototype demonstrates good performance in object classification and assigning each object its own compression coefficient.
+•
+The signals received from the muscle activity sensor have been studied and connected to the human user.
+•
+For further research, it is necessary to explore machine learning to integrate it into this prototype, enabling it to learn independently.
+19
+Development of a bionic prosthesis with
+feedback features
+[name] [surname]
+Fourth-year student at [university]
+phone: +2 *** *** ***
+[email]
+Thank you for your attention!
+20

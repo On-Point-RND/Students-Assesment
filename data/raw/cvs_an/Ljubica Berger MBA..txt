@@ -1,0 +1,68 @@
+[name] [surname]
+Date of Birth: 20.06.1999
+Nationality: [location]
+Contacts:
+○ Mobile: +2 *** *** ***
+○ Email: [email]
+○ Telegram: @[name]
+○ GitHub: [name]
+○ ResearchGate: https://www.researchgate.net/[name]-[surname]
+Languages: Russian, English
+Education:
+● Since 2017 (finished 2022): [company] Ministry of Health of the [location]
+Bioengineering and Bioinformatics (Specialty 5 years)
+Professional Experience:
+Since 2023:
+● Co-founder and CEO at [compaany]
+● Development Lead at [compaany]
+Since Jun 2022:
+● [compaany]
+Technology Consultant
+Since Aug 2021:
+● "[compaany]"
+Fullsstack Web Developer
+Since 2019:
+● Group of Experimental Biotherapy and Diagnostic, [compaany], [location], 119991, [location]
+Laboratory Assistant, Bioinformatician
+Since 2018:
+● Freelance
+Google Apps Script Developer
+Fullsstack Web Developer
+Programming Skills: JS, TS, Python, R, Bash
+Software Skills:
+● GraphPad Prism, Stata, MOE
+● string-db.org, biit.cs.ut.ee, www.ncbi.nlm.nih.gov, genome.ucsc.edu
+● Git, Jira, Zapier, Replicate, Vercel, Railway.app
+● LLM: openai, mistral, llama, anthropic, deepseek, gemini
+● ML/DL: DeepLabv3-PyTorch
+AI Engineering Skills:
+Large Language Models: Fine-tuning Mistral/Llama, RAG pipeline
+Multiagent Systems: MCP, A2A
+Examples of using Generative AI in Projects:
+https://void0.notion.site/cases?v=165d12d7267e80d5b518000c72e7734e
+ML/DL: Computer Vision (DeepLabv3-PyTorch), YOLO
+Safe AI: Development of a personal data protection system for the avilion.ru – a proxy service based on local LLM for detection and replacement of personal data during cross-border information transfer
+Bioinformatics Skills:
+● Data Science: Regression analysis, clustering, basic machine learning and neural networks
+● Bioinformatics Analysis: Sequence alignment, computational gene discovery, mass spec, LDA, PPI networks, SNPs, microarray, DEGs, MDS dimensionality, RNA-seq, ChIP-seq, scRNA-seq (10X Genomics and others)
+Achievements:
+● Finalists of the RSHB Accelerator 2024 https://rshbdigital.ru/akselerator
+● Participant of the VII Youth School-Conference of the INC RAS
+● Winner of the competition for a personalized incentive university grant in 2020
+● Participant of School of Bioinformatics (data analysis of ChIP-seq) of [compaany] (2021)
+● Speaker at the SCIENCE4HEALTH21 conference
+● Participant of the NGS Data Analysis School MGNGS School '21
+● Participant of Vtth [compaany] International Biomedicine Summit (SIB-2021)
+● Winner of [compaany] Hackathon of Bioinformatics and Clinical Oncology
+● Red Diploma (honors degree) from [compaany] Faculty of Bioengineering and Bioinformatics
+Publications:
+1. A. A. Laevskaya, V. V. Kosenchuk, [name], Peter Timashev, Ilya Ulasov. "VIRAL DELIVERY USING SCAFFOLDS." Russian Journal of Biotherapy. 2021;20(2):19-30. (In Russ.)
+https://doi.org/10.17650/1726-9784-2021-20-2-19-30
+2. Ilya Ulasov, Anton Borovjagin, Jawad Fares, [name], Peter Timashev, Maciej S. Lesniak. "MicroRNA 345 (miR345) regulates KISS1-E-cadherin functional interaction in breast cancer brain metastases." Cancer Letters, Volume 481, 2020, Pages 24-31, ISSN 0304-3835
+3. [name]; Maxim Menyailo; Evgeny Denisov; Irina Karlina; Viktoria Zainullina; Kirill Kirgizov; Olga Romantsova; Peter Timashev; Ilya Ulasov. "Identification of Factors Driving Doxorubicin-Resistant Ewing Tumor Cells to Survival." Cancers 2022, Volume 14, Issue 22, 5498
+4. Zakharova G, Modestov A, Pugacheva P, Mekic R, Savina E, Guryanova A, Rachkova A, [name], AliMov A, Kulaeva E, Fedoseeva E, Kleyman A, Vasin K, Tkachev V, Garazha A, Sekacheva M, Suntsova M, Sorokin M, Buzdin A, Zolotovskaia MA. "Distinct Traits of Structural and Regulatory Evolutional Conservation of Human Genes with Specific Focus on Major Cancer Molecular Pathways." Cells. 2023 May 2;12(9):1299. doi: 10.3390/cells12091299. PMID: 37174700; PMCID: PMC10177184.
+5. Fayzullina D, [name], Kantserova K, Belyaeva E, Aniskin D, Tsibulnikov S, Fayzullina N, Kalinin S, Romantsova O, Timashev PS, Schroeder BA, Ulasov IV. "Carbonic Anhydrase Inhibitors Induce Ferroptosis through Inhibition of AKT/FTH1 Signaling in Ewing Sarcoma Tumor Cells." Cancers (Basel). 2023 Oct 31;15(21):5225.
+Abstracts of the XIII Congress of Oncologists and Radiologist of the CIS and Eurasia Countries
+6. [name], Sergiej Tsibulnikov, Salome Tskhovrebova, Anastasia Laevskaya, Irina Karlina, Daria Faizullina, Kirill Kirgizov, Peter Timashev, Stanislav Kalinin, Mikhail Krasavin, Viktoriya Zainullina, Maxim Menyailo, Evgeny Denisov, Ilya Ulasov (2021). "FEASIBILITY OF USING CARBONIIC ANHYDRASES FOR PREDICTING DISEASE PROGRESSION IN PATIENTS WITH EWING'S SARCOMA." Vtth SECHENOV INTERNATIONAL BIOMEDICAL SUMMIT (SIBS2021)
+Personality:
+Responsible, disciplined, communicative

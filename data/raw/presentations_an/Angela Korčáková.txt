@@ -1,0 +1,86 @@
+Use of Cramer’s V to reduce
+data dimensionality
+[name]
+3rd grade student of [company]
+Introduction
+Analyzing customer churn in [compaany]
+Problem
+using Cramér's V for feature selection.
+● Churn prediction directly impacts revenue
+retention.
+Relevance
+● Traditional dimensionality reduction (e.g., PCA)
+lose interpretability, while Cramér's V preserves
+feature meaning.
+Reduce features dimensionality and do
+Goal
+not lose interpretability.
+Cramer’s V
+Problem statement
+Predict by identifying key drivers
+• Mixed data types
+(e.g., contract type, tenure, support
+• Statistical rigor
+interactions) using interpretable
+• Interpretability vs. Performance
+feature selection.
+goals challenges
+Feature selection with Cramer’s V
+Methods
+● Cramer’s V and Welch’s T-test to analyze
+data.
+Techniques
+● Logistic Regression, cross-validation to
+train model, GridSeaarch to find optimal
+hyperparameters.
+Data ⇒ Categorical Data ⇒ Cramer’s V ⇒ Dim.
+Pipeline
+Reduce
+● With this approach we utilizing not only
+linear connections.
+Reasoning
+● Dimensionality reduced without other
+transtransformations.
+Results
+Used metrics:
+Goaal achieved:
+● F1-score
+On example data set it
+● precision
+was possible to
+● recall
+reduce dimensionality:
+to train model
+It was possible to
+is reduced.
+21 ⇒ 10
+keep F1-score after
+without losing
+performance.
+features.
+Results
+Results of
+applying Cramer’s
+V to get get
+connections
+between churn
+and other data.
+The bigger
+Cramer’s V, bigger
+correlation
+Research gap
+Further Opportunities:
+Limitations of current
+● Unsupervised approach to use
+approach:
+Cramer’s V
+● Utilizing only linear models
+● Hybrid and non-linear models
+● Static Analysis
+● Potential use on time series
+data
+Bibliography
+1. [name] – Cramér’s V
+2. [name] – Mathematical Methods of Statistics.
+3. [name] and [name], "A linear model based on principal component analysis for
+disease prediction", 2019

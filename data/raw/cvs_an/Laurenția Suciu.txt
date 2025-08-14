@@ -1,0 +1,105 @@
+[name] [surname]
+Postal address: [location], 121467
+Phone: +2 *** *** ***
+Email: [email]
+GitHub: https://github.com/Ronningen
+Work Experience
+Intern Researcher, [company], AI Center
+Jan 2024 – Present
+Completed two research projects as a primary contributor:
+● video prediction models for uncertainty-aware sea ice forecasting, achieved 1.5x RMSE improvement over persistent baseline;
+Honors & awards ● neural ode inspired model for atmospheric radiation parametrization, achieved 2x RMSE enhancement and 3x speed up versus successor.
+SMILES Research Contest
+Both papers are under review. Gave a poster presentation on intermediate “AI for Sustainable
+results at the conference CIWO-2024, received a diploma for the best poster
+presentation.
+prise winner, twice, CV
+Currently working on uncertainty quantification, both numerical with HPC
+and NLP cases and data-driven, for the sea ice forecasting model.
+Aug 2023, Aug 2024
+Software Developer, [compaany]
+International contest Apr 2024 – Aug 2024
+“Digital Breakthrough” Developed an optimization algorithm for solving a flexible job shop scheduling
+prise winner, triple, CV problem with ordering constraints. Achieved 95% scheduling efficacy and 5x
+cases for national parks speed up.
+and RL case for industry
+Course Developer, [compaany]
+May 2023, Sep 2023,
+Nov 2023 – Feb 2024
+Nov 2023
+Developed a course on Machine Learning for Recommender Systems.
+IT Contest “Atomic Hack”
+R&D Intern, [compaany]
+winner, ml in chemistry
+Jun 2023 – Dec 2023
+Oct 2023
+Completed a research project on taylor-map polynomial neural networks for
+[compaany] scholarship tabular tasks; have approved the universal approximation theorem for a
+data analytics track proposed model and evaluated the model on 34 real-world datasets. I developed
+an open-source library for the approach.
+Aug 2023 — May 2024
+The developed model achieved first place at [location] Challenge 2023. The research
+Advanced Honor paper is published at AAAI-2024.
+Program,
+Teacher Assistant, [location] Institute of Physics and Technology
+[location] Institute of Physics
+Sep 2022 – Jan 2023
+Teacher Assistant in Python Programming and Data Analysis freshmen
+June 2022
+course.
+Abramov’s scholarship
+for outstanding GPA
+Oct 2021 — May 2023 BSc in Applied Mathematics and Physics,
+[location] Institute of Physics and Technology
+Presidential Grant
+Sep 2021 – Expected to graduate in Aug 2025
+Sep 2021 — May 2025
+Specialization: Fundamental Forces Theory and Quantum Gravity
+All-Russian School
+Thesis: Quantization of Gauge Fields via Unfolded Approach
+Olympiad in Physics
+GPA: 3.81/4.0 (8.73/10)
+runner up
+Projects: modelling magnetic films, visible absorption spectrum of bromine
+Apr 2021
+vapor (experiment and analysis, won first place at physics research contest),
+[location] School Olympia
+modelling crystallization process, ODE solvers implementation and
+in Physics comparison, textual role play game, Standard Model phenomenology from its
+winner lagrangian.
+Mar 2021
+Extracurricular
+All-Russian youth
+competition “Cosmos”
+Summer school of Machine Learning (SMILES), [compaany],
+prize-winner in section
+Aug 2023, Aug 2024
+“Algorithms, software,
+Won first and second places in research contests with projects on data-driven
+architectural and
+satellite radar images forecasting via neural ode and language models
+infrastructure solutions” hallucinations detections via topological and graph analysis of attention maps.
+Nov 2020 Twice gave poster presentations.
+Microsoft Technology Summer school of Astronomy,
+Associate Lebedev Physical Institute, Astro Space Center
+Software Development Jul 2024
+Fundamentals Project: large scale structure of the universe under different dark matter models;
+Jun 2019 adopted galactic jet simulating code for apple silicone.
+IT Industry Deep Learning Course, Neuromatch Academy
+championship Jun 2023
+DigitalSkills on Project: ADA GAN for music generation through spectrograms. NMA Artist
+Worldskills standards Contest winner in sections “music” and “ai art”.
+winner in section
+Publications
+“Software solutions for
+business” TMPNN: High-Order Polynomial Regression Based on Taylor
+Dec 2018
+Map Factorization
+Proceedings on the 38th AAAI Conference on Artificial Intelligence:
+https://doi.org/10.1609/aaaiv38i11.29168
+Data-Driven Uncertainty-Aware Forecasting of Sea Ice
+Conditions in the Gulf of Ob Based on Satellite Radar Imagery
+Under review. Preprint: arXiv:2410.19782
+RRTNN: Rapid Radiative Transfer Neural Network for Weather
+Forecasting Acceleration
+Under review.

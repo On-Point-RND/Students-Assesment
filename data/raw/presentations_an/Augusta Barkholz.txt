@@ -1,0 +1,128 @@
+Diffusion Probabilistic Models and
+AudioX: Diffusion Transformeer for
+Anything-to-Audio Generation
+[name] [surname]
+Introduction
+Denoisinng diffusion models (DDMs) are generative models that iteratively refiine data
+by learning to reverse a gradual noisinng process.
+Advaantages over GANs/VAEs: stable training, mode coverage, and theoretical
+grounding.
+Unifies ideas from score matching, variational inference, and autoregressive models.
+Introduction
+What is the topic?
+● AudioX: A Diffusion Transformeer (DiT) model
+for anything-to-audio generation (text, video,
+image, music → audio).
+● Unifies multi-modal inputs via masked
+training and diffusion.
+Why is it important?
+● Breaks modality barriers (e.g., text + video →
+synchronized audio).
+● Achieves SOTA on benchmaarks (Inception
+score: 20.27 on VGGSound).
+Problem statement
+Chalallenges:
+● Existing models are modality-specific (text-onlly or video-onlly).
+● Scarcity of high-quality multi-modal datasets.
+Scope:
+● AudioX’s unified architecture + curated datasets (V2M-caps: 6M
+music captions).
+Diffusion probability model
+method
+Diffusion models are based on the idea of gradually adding noise to data
+(forward process) and then reconstructing the data from the noise (reverse
+process).
+The forward process is modeled as a Markov chain, where at each step,
+noise is added to the data according to the equation:
+Diffusion probability model
+method
+The reverse process is trained to gradually remove noise from corrupted data,
+step by step. It learns to predict and reverse the diffusion (noise addition)
+performeed in the forward process.
+Diffusion probability model
+method
+, optiimized using a simplified loss:
+Why Diffusion Models outppeform
+other approaches
+vs GANs:
+● More stable training (no mode collapse).
+● Produces diverse outputs without artifacts.
+vs Autoregressiive Models:
+● Parallel generation (faster than sequential).
+● Better long-range coherence (e.g., in
+music/audio).
+Pictures are made with diffusion model
+AudioX method
+AudioX is the same diffusion model (like DDPM or
+Stable Diffusion), but:
+1. For audio: Generates sound/music from
+noise.
+2. Univeersal: Accepts any input type (text,
+video, images, audio).
+3. Key trick: Uses input-level masking (not
+feature masking) for cross-modal learning.
+Like Stable Diffusion for images, but for sound +
+understands mixed inputs (video/text/images).
+Datasets
+1. General Diffusion Models (e.g., 2. AudioX’s Datasets
+Stable Diffusion). Image Datasets:
+● VGGSound-Caps: 190K video-audio pairs +
+text captions, covers diverse sounds (e.g.,
+● LAION-5B (5.85B image-text
+instruments, nature)
+pairs)
+● V2M-Caps: 6M music clips with
+● COCO (330K images with
+genrre/mood/tempo labels, enables
+captions)
+fine-grained music generation
+● FFHQ (70K high-res faces)
+● Augmentation: Uses Qwen2-Audio to
+Key Features: auto-generate captions for video-onlly data
+● Large-scale, web-crawled
+(LAION)
+● Curated for quality (FFHQ)
+● Text-aligneed (COCO)
+AudioX Evaluation Metrics
+Explained
+IS (Incption Score): Measures audio quality and diversity (higher is better).
+FAD (Fréchet Audio Distance): Evaluates similarity to real recordings (lower is better).
+KL (KL Divergence): Quantifies acoustic similarity to ground truth (lower is more
+accuraate).
+CLAP Score: Assesses text-audio alignment (higher is better).
+IB (ImageBind AV Score): Rates video-audio synchronizaation (higher is better).
+PC (Production Complexity): Scores musical arrangement complexity (1-10 scale).
+PQ (Production Quality): Evaluates music production quality (1-10 scale).
+OVL (Overall Quality): User-rated output quality (1-100 scale).
+REL (Relevance): Judges input-output matching (1-100 scale).
+Results
+AudioX, key Metrics:
+Text-to-Audio (T2A):
+● IS: 20.27 (VGGSound) – beats AudioGen (11.09) & AudioLDM-2 (13.86).
+● FAD: 1.31 – better quality than compeitors (AudioGen: 2.48).
+Video-to-Audio (V2A):
+● KL: 2.5, outppeforms FoleyCrafter (2.39), strong video-audio alignment (IB: 0.26).
+Text-to-Music (T2M):
+● IS: 3.54 (MusicCaps) – higher than MusiGen (2.24).
+● FAD: 1.53 – more natural output than MAGNET (4.24).
+Multi-Modal (TV2A/TV2M):
+● IS: 17.89 (TV2A), 1.51 (TV2M) – excels with combiined inputs.
+User Ratings: top scores in quality (OVL) & relevance (REL).
+Conclusion
+1. First model to unify diverse audio generation
+tasks
+2. Addresses critical data scarcity through
+novel dataset creation
+3. Demonstrates superior performaance across
+all metrics
+4. Enables new creative applications in media
+production
+Bibliography
+1. [name] [surname]. Deep unsupervised learning using nonequilibrium
+thermodynamics. In International Conference on Machine Learning,
+2015.
+2. [name] [surname], [name] [surname], and [name] [surname]. Denoising diffusion
+probabilistic models. Advances in neural information processing
+systems, 2020.
+3. [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. AudioX: Diffusion Transformeer for
+Anything-to-Audio Generation, 2024.

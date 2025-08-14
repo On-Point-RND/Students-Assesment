@@ -1,0 +1,132 @@
+On The Feature Transferability of Concept Bottleneck Models
+[name] et al.
+2024
+Introduction
+▶
+Tremendous Success in numerous Visual tasks
+▶
+Image classification, Object Detection, Face Recognition
+▶
+However, numerous challenges are yet to be fully overcome:
+▶
+The Domain Shift Problem
+▶
+The Black Box nature of Deep Learning models
+Different Distributions: Consequences
+Models have to be retrained on the new data; an alarmiing limitation of Supervised DL
+Black-Box models: Consequences
+hinders their widespread adoption in high-stakes fields; medicine, law...
+UDA and CBMs
+Unsupervised Domain Adaptation Concept Bottleneck Models
+bridges the discrepancy between the An interpretable-by-design architecture.
+training data; source domain and the Only one sparse linear layer is trained on
+unlabeled new data; target domain top of a feature extractor to predict human
+concepts.
+Methodology: Hypothesis
+Hypothesis
+Concept Bottleneck Models, and concepts as a form of additional supervision in
+general, lead to features with enhanced transferability across domains, thereby
+improving domain adaptation.
+Methodology: Extended CBMs
+We extend the CBM architecture to include
+any number n of linear blocks. Hence:
+▶ Figure: Standard Models
+training the feature extractor: a
+fundamental part of any Domain
+Adaptation approach
+▶
+sufficient capacity for concepts and
+labels prediction
+Figure: Concept Bottleneck Models
+Methodology: Concept Annotations
+Concepts annotation generated: ▶ T: the CLIP text encoder
+1. Automatic textual concepts generation ▶ I: the CLIP image encoder
+2. Language Vision Models to quantify ▶ C: the generated concepts
+similarity ▶
+x : the i -th sample
+i
+▶
+y : the i-th sample class label
+i
+▶
+Q: the set of class labels
+▶
+M: the number of class labels.
+Methodology: Global Similarity Annotation
+Figure: GSA generation mechanism
+Methodology: Class-Specific Similarity Annotation
+Figure: CSSA generation mechanism
+Methodology: Binary Threshold Similarity Annotation
+Given a sample x , its concept annotation is the binary vector:
+i
+ 
+sim(I(x ),T(c )) ≥ α
+i 1 c1
+
+
+sim(I(x i ),T(c 2 )) ≥ α c2 
+
+ .. 
+ 
+ .. 
+sim(I(x ),T(c )) ≥ α
+i N c N
+where α is the similarity threshold for the k -th concept.
+Methodology: BTSA similarity thresholds
+Figure: BTSA: computation of similarity threhsolds
+Experiment Results: GSA and CSSA
+Table: Experiment results with Resnet50-based CBMs, GSA and CSSA on the Office31 dataset.
+The performa performance is the accuracy on the target domain aggregated across 6 source-target
+combi na tions.
+annotations
+GSA CSSA
+cbm standard cbm standard
+0.6708 0.7734 0.6681 0.7734
+Experimental Results: BTSA
+Table: Experiment results with Resnet50-based CBMs and BTSA on the Office31 and
+cifar10-STL10 datasets.
+dataset cbm standard
+Office31 0.7928 0.7734
+Ci far10-Stl10 0.6142 0.5817
+Mutual Informa tion Analysis
+According to Informa tion Bottleneck For a CBM with n1 and n2 layers in the
+Theory concept predictor and classifier, the
+correspondi ng extended standard model
+generalization error ≤ min(Q l ) has the same feature extractor and n1+n2
+layers in the classifier
+▶
+Q is proportional to
+l
+MI(X;Z |Y)+MI(S;θS|S)
+l l
+▶
+Z the latent representation at the l-th
+l
+layer
+▶
+θ the parameters up to the l -th layer
+l
+Generation Error Bound: standard models
+Table: Generalization error bounds estimations for extended standard models across different
+source domains. Lower values indicate better generalization and robustness of the learne d
+features.
+Extended Standard CBM
+source domain min(MI(X;Z|Y)+MI(S;θS|S)) min(MI(X;Z|Y)+MI(S;θS|S))
+l l l l
+AMAZON 23858 29421
+DSLR 46971 137494
+WEB CAM 4622 4735
+CIFAR10 2222684 1915371
+STL10 63945 113624
+Study Contributions
+1. introduces a novel hypothesis: Concept Bottleneck Models learn more
+domain-invariant features than standard models.
+2. introduces a deeper Concept Bottleneck Model architecture. The design choi ces
+are crucial for CBMs’ higher transferability and are motivated by the Transf er
+Learning literature.
+3. introduces the Binary Thresho ld Similarity Annotation (BTSA), a novel automatic
+mechani sm to produce binary concept annota tions.
+4. empi ricall y studies our hypothesis. The results stro ngly suggest that CBMs
+trained with BTSA achieve higher transferability. validates the fi ndi ngs with
+mutu al information analysis
+Link to the paper preprint

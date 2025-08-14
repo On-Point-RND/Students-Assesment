@@ -1,0 +1,8 @@
+Dear [name] [surname] Selection Committee,
+My name is [name] [surname], a first-year PhD student at the Faculty of Mechanics and Mathematics, [location] State [location], where I investigate the mechanical properties of aluminum reinforced with ultrathin diamond films (diamane) by means of ab initio density-functional theory (DFT) and Machine Learning Interatomic Potentials (MLIPs). In parallel, I teach core mathematics courses to first- through third-year students at [university] and am completing the [company] course “Neural Networks and Their Application in Scientific Research.”
+The upcoming SMILES-2025 summer school format are ideally matched to the challenges I face:
+Bridging scales. Generative diffusion models and graph neural networks taught at SMILES can be adapted to propose stable nanocomposite geometries before costly DFT screening.
+Data efficiency & safety. Modules on safe AI will help me quantify uncertainties when MLIPs are used outside their training domain.
+Interdisciplinary exchange. Working side-by-side with experts in computer vision, language modelling, and physics-informed ML will broaden my methodological toolkit and provide collaboration channels beyond my current materials-science circle.
+Conversely, I will contribute to SMILES :
+I bring hands-on experience with VASP, high-performance computing, and the complete MLIP workflow—from active learning to validation—useful for peers unfamiliar with atomistic modelling.

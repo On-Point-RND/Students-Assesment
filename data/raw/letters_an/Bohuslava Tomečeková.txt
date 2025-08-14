@@ -1,0 +1,18 @@
+Dear [name] committee!
+My name is [name], and for the past 6.5 years I have been designing deep‑learning models for the oil&gas sector, with primary focus was on CV-models on seismic data (horizon and geobody detection)
+and inverse problems such as well‑log seismic tie and post‑stack inversion. In doing so, I contributed to
+the open‑source library PyDEns, while researching the applications of PINNs to industrial data.
+With this background, I am now eager to learn more about a new domain of Deep Learning-applications,
+that involves AI-agents and leveraging the capabilities of LLMs in general.
+In this manner, I have recentlly built a lightweight financial assistant that couples exa‑search with the
+[compaany] API. The agent converts a natural‑language question (e.g., “Why did [compaany]’s stock fall in
+November 2023?”) into structured search parameters, retrieves news, uses the news to answer the
+question, and, when requested, queries the MOEX API to plot stock price series/macrro indicators like key
+interest rate. This prototype illustrates how LLM‑powered agents can help its user to better understand
+the interplay of geopolitics and macroeconomics with stock prices, hence helping him to become better at
+investing skills.
+My goal at the conference is to share my industry experience and discuss other avenues of how
+AI-agents can be used to build useful and reliable personal assistants.
+Thank you for consideering my application!
+Best,
+[name] [surname]

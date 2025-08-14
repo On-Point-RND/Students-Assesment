@@ -1,0 +1,43 @@
+[name] [surname]  
+[company] [location] Near [company] [location] [location], [location], [location]  
+Email: [email] Phone: +2 *** *** *** LinkedIn Google Scholar  
+RESEARCH INTERESTS  
+• AI for Healthcare • Machine Learning • Medical Imaging • Computer Vision • Data Augmentation • Image Segmentation/Classification • Generative AI  
+EDUCATION  
+[company] [location] [location] [location] Jan 2020 – Feb 2024  
+• Bachelor of Science in Information Technology  
+• Project: IoT-Based Industrial Water Pollution Evaluation System  
+• GPA: 3.2/4.0  
+[company] [location], [location] Jun 2017 – Aug 2019  
+• Intermediate in Pre-Engineering  
+• Grade: A  
+WORK EXPERIENCE  
+AI Researcher March 2024 – Present  
+@[company]  
+• Working as an intermediate level researcher conducting AI research to develop new methodologies in deep learning, medical imaging, generative AI and developed algorithms and models training for projects.  
+• Enhance image analysis using deep learning and computer vision techniques and collaborate on research publications.  
+Research Assistant Feb 2023 – Sept 2023  
+@[company] [location], [company].  
+• Worked under the supervision of [name] [surname] on an academic project focused on "Industrial Water Quality Classifications" project based on Internet of Things (IoT) and Machine Learning.  
+• Trained KNN model, collected and analyzed real-time sensor data, organized datasets, optimized model accuracy, and assisted in preparing research reports.  
+SELECTED PUBLICATIONS  
+[Journal] CardioMix: A Multimodal Image-Based Classification Pipeline for Enhance ECG Diagnosis. [name], [name], [name], & [name]*. (2025). CardioMix: a multimodal image-based classification pipeline for enhanced ECG diagnosis. Medical Data Mining. DOI: 10.53388/mdm202508006  
+[Journal] NMRGen: A Generative Modeling Framework for Molecular Structure Prediction from NMR Spectra. [name]. (2025). NMRGen: A Generative Modeling Framework for Molecular Structure Prediction from NMR Spectra. IECE Transactions on Emerging Topics in Artificial Intelligence. DOI: 10.62762/TETAI...  
+[Journal] [name] [surname]: Large Language Model for Medical Diagnosis and Report Generation from Images. [name] [surname] [location] Symposium 2025  
+... (additional publications follow the same anonymization pattern)  
+CO-CURRICULAR ACTIVITIES  
+• Student Member | [company] May 2024 - Present  
+• Youth Volunteer |[company] [location] July 2020 – Nov 2023  
+• Student Member | [company] [location] Oct 2020 – Nov 2022  
+... (additional activities follow the same anonymization pattern)  
+AWARDS AND HONORS  
+• Young Scientist | [company]  
+- Recognized as a Young Scientist for contributions to research in the field of medical imaging.  
+• Best Project Awards | [company] [location], [company].  
+- [name] final year project, '[name]' was selected as one of the top 5 best projects.  
+... (additional honors follow the same anonymization pattern)  
+PRESENTATION  
+Title: [name]: Large Language Model for Medical Diagnosis and Report Generation from Images.  
+[name] [location] Symposium 2025  
+Title: [name] through E-Commerce Platform  
+[name] [location] Conference

@@ -1,0 +1,87 @@
+Font generation based on style and
+character structure analysis using
+diffusion models
+[name]
+ML Engineer, [compaany]
+Introduction
+What is the topic?
+The topic of this research is the generation of fonts using diffusion models, focusing on creating missing
+glyphs for various languages and maintaining stylistic consistency in font design.
+Why is it important?
+Font development plays a crucial role in creating aesthetically pleasing and functional designs. However, the
+field faces challenges due to licensing restrictions and limited availability of fonts for different world
+languages. Many digital fonts primarily support English, lacking characters for extended Cyrillic, Latin, and
+other writing systems. This creates difficulties for designers working on multilingual projects or with non-
+standard alphabets.
+Problem statement
+What exactly are we solving?
+Challenge of automating font creation, particularly focusing on generating missing glyphs for various
+languages and maintaining stylistic consistency across different characters. The goal is to develop a system
+that can create high-quality fonts for languages with limited digital support, such as extended Cyrillic and Latin
+character sets, while overcoming limitations imposed by traditional font licensing restrictions.
+Problem statement
+Challenges
+• Limited availability of fonts for many world languages, especially those using non-Latin alphabets or
+extended character sets.
+• Licensing restrictions that limit font usage and modification, creating barriers for designers working on
+multilingual projects.
+• Handling complex characters and decorative elements while preserving visual quality and readability.
+• Managing kerning and tracking issues, particularly for challenging character pairs.
+Problem statement
+Scope
+• The study focuses on developing a diffusion model-based solution for font generation that:
+• Can work with limited input data (few-shot learning capabilities).
+• Generates high-quality vector fonts with consistent styling across all characters.
+• Supports multiple languages and character sets beyond standard English.
+• Provides tools for automatic generation of missing glyphs while maintaining original font characteristics.
+Methods
+• Approach: The study utilizes diffusion models, specifically a modified UNet architecture with added
+attention layers and sinusoidal positional embeddings.
+• Why these methods? Diffusion models were chosen as they excel at generating high-quality images while
+maintaining stylistic consistency. The UNet architecture allows for effective noise reduction and feature
+extraction.
+• How it works: The model progressively denoises input images while using style and class encoders to
+maintain font characteristics, generating new glyphs that match the original font's style.
+• Data & preprocessing: 32x32 pixel raster images of 11,756 Latin alphabet fonts. The dataset was split into
+80% training, 10% validation, and 10% testing sets.
+Methods
+Results
+Criteria Average score (out of 10)
+Stylistic consistency 7.7
+Kerning/tracking 7.3
+Text density 7.0
+Results
+Reference
+Result
+Results
+Latin
+Cyrillic
+Bibliography
+1. [name], [name], [name]. U-net: Convolutional networks for biomedical image segmentation // Medical Image Computing and Computer-Assisted
+Intervention–MICCAI 2015: 18th International Conference, Munich, Germany, October 5-9, 2015, Proceedings, Part III 18. – Springer International
+Publishing, 2015. P. 234-241.
+2. [name], [name]. DeePVecFont: Synthesizing high-quality vector fonts via dual-modality learning // ACM Transactions on Graphics (TOG). 2021. V. 40. Issue
+6. P. 1-15.
+3. [name] et al. DeePVecFont-v2: Exploiting Transformers to Synthesize Vector Fonts with Higher Quality // Proceedings of the IEEE / CVF Conference on
+Computer Vision and Pattern Recognition. 2023. P. 18320-18328.
+4. [name]: FontDiffuser: One-shot font generation via denoising diffusion with multi-scale content aggregation and style contrastive learning // Proceedings of
+the AAAI Conference on Artificial Intelligence. 2024. V. 38. №. 7. P. 6603-6611.
+5. [name], [name]. GeNTech: Unsupervised artistic text generation via decoupled font and texture manipulation // arXiv preprint
+arXiv:2207.09649. [name], [name], [name]. StrokeGAN: Reducing mode collapse in Chinese font generation via stroke encoding // arXiv
+preprint arXiv:2012.08687. 2020.
+6. [name] et al.: Few-shot font generation with localized style representations and factorization // Proceedings of the AAAI
+Conference on Artificial Intelligence. 2021. V. 35. №. 3. P. 2393-2402.
+7. [name]: VQ-Font: Few-shot font generation with structure-aware enhancement and quantization // Proceedings of the AAAI Conference on Artificial
+Intelligence. 2024. V. 38. №. 15. P. 16407-16415.
+8. [name]: An edge-directed diffusion equation-based image restoration approach for font generation // IEEE Access. 2023. V. 11. P. 141435-141444.
+9. [name] et al.: Super-resolution restoration of single vehicle image based on ESPCN-VISR model // IOP Conference Series: Materials Science and
+Engineering. – IOP Publishing, 2020. V. 790. №. 1. P. 012107.
+10. [name] et al.: Attention is all you need //Advances in neural information processing systems / [name], [name], [name], [name], [name],
+[name], [name], [name]. 2017. V. 30Voronov G. et al. Multi-scale sinusoidal embeddings enable learning on high resolution mass spectrometry
+data / G. Voronov, R. Lightheart, J. Davison, C. A. Krettler, D. Healey, T. Butler //arXiv preprint arXiv:2207.02980. 2022.
+11. [name], [name]: Diffusion models beat GANs on image synthesis // Advances in Neural Information Processing Systems. 2021. V. 34. P. 8780-8794.
+12. Convolutional Layer— Building Block of CNNs // TOWARDSDATASCIENCE [name], [name]: Super-resolution restoration of single vehicle image
+based on ESPCN-VISR model //IOP Conference Series: Materials Science and Engineering. – IOP Publishing, 2020. V. 790
+13. [name], [name]: Diffusion models beat gaNs on image synthesis //Advances in neural information processing systems. 2021. V. 34. P. 8780-8794.
+14. [name]. Improved denoising diffusion probabilistic models //International conference on machine learning. PMLR, 2021. P. 8162-8171.
+15. [name], [name]: Diffusion Model with Perceptual Loss // arXiv:2401.00110v6 [cs.CV] 15 Nov 2024.

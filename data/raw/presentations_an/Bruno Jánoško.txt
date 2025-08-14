@@ -1,0 +1,315 @@
+Slide 1
+----------------------------------------
+Обзор статей по NLP
+[name]
+
+Slide 2
+----------------------------------------
+First part
+Hi! my name is [name]. I am a student at the Faculty of Mechanical Engineering at [location] and I am passionately studying machine learning. Today I will tell you about the newest articles in the NLP world.
+https://arxiv.org/pdf/2501.12948
+
+
+Slide 3
+----------------------------------------
+Problem statement
+Limitations of the traditional approach
+Most models are trained on labeled data or using predefined chains of reasoning (Chain-of-Thought). This limits scalability and versatility.
+An ambitious goal
+"Is it possible to develop an LLM's reasoning ability using only reinforcement learning—without manual markup and instructions?"
+
+
+Slide 4
+----------------------------------------
+Methodology
+DeepSeek-R1-Zero
+Pure RL-model training without prior SFT
+DeepSeek-R1
+Cold start and multi-stage training model: SFT + RL + distillation
+
+
+Slide 5
+----------------------------------------
+Learning algorithm
+GRP
+Group Relative Policy Optimization is used, a cost—effective alternative to PPO
+Accuracy
+Reward for the correct answer in math problems
+Format
+Reward for a structured response
+
+
+Slide 6
+----------------------------------------
+Example of a training template
+Setting the task
+The model gets a mathematical problem
+The reasoning process
+First, I'll check if the number is divisible by 3. It's not divisible. Then...
+Wording of the response
+Answer: 17
+
+
+Slide 7
+----------------------------------------
+Results
+79.8%
+AIME 2024
+better OpEnal o1-1217
+97.3%
+MATH-500
+High accuracy of the solution
+96
+Codeforces
+96th percentile among people
+It also shows a high level on MMLU, GPQA, SWE-Bench and others.
+
+
+Slide 8
+----------------------------------------
+Distillation — acceleration without loss
+DeepSeek-R1
+The initial large model
+Distillation
+Tranfer of knowledge to smaller models
+Effective models
+1.5B – 70B parameters
+The team trained lighteer models (1.5B – 70B parameters) on data from DeepSeek-R1. The 14B parameter model bypasses the Qwen-32B. This is an important step for bringing reasoning models into production.
+
+
+Slide 9
+----------------------------------------
+Repository and reproduction
+GitHub
+🔗 GitHub: github.com/deepseek-ai/DeepSeek-RL
+Playback code
+Demonstration of RL on toy problems (arithmetic)
+We use the open-source model (LLaMA or Qwen)
+Metric: pass@1 for simple logic tasks
+code
+https://colab.research.google.com/drive/1q01N21jE-w-3WnQtV3d1YpKV7ijRNxrF?usp=sharing
+
+
+Slide 10
+----------------------------------------
+Conclusions
+Effectiveness RL
+RL without marked up data really enhances reasoning
+Independence
+There are chains of reflections, self-examination, "aha-moments"
+Applicability
+An excellent candidate for research and applied projects
+paper
+https://arxiv.org/pdf/2501.12948
+
+
+Slide 11
+----------------------------------------
+Second part
+In the s econd part of the presentation, we will analyze the latest article Thinking LLLMs: General Instruction Following with Thought Generation. This work offers an unusual but very effective way: to force the LLLM to generate internal reflections before it gives a definitive answer.
+https://arxiv.org/pdf/2412.06769v2
+
+
+Slide 12
+----------------------------------------
+Problem
+The standard approach
+LLM usually responds immediatly after the instruction, spending the same resources on a simple and complex query.
+The real need
+However, in reality, like a human, the model must first "think", especially if the task requires pla nning or logic.
+Data restriction
+But how can we teach a model to think if we don't have labeled data with thoughts?
+
+
+Slide 13
+----------------------------------------
+Idea
+TPO (Thought Preference Optimization)
+The autho rs introduce a new learning scheme
+Pair generation
+First, LLLM is taught to generate a pair: reflection + response
+Selecting the best examples
+From these pairs, the best and the worst are selected — in terms of the quality of the answer, not the reflection.
+Optimization
+Then the model is opti mized using DP O (Direct Preference Optimization)
+In this way, the model learns to think in a way that improves the r espons e, even if the thoughts are not eva lua ted dir ectly.
+
+
+Slide 14
+----------------------------------------
+Architecture and pipeline
+Model
+The standard autoregressi ve LLLM (Llama-3-8B-Instruct) is used
+Generation
+Evaluation
+Evaluation Metric: comparing accuracy vs output length
+States are indicated as and (begin/end of thought)
+Alterna ting modes
+The model alternates between "language mode" and "latenc y mode"
+
+
+Slide 15
+----------------------------------------
+Experiments
+Math
+GSM8k — accuracy is higher than CoT
+Logic
+ProntoQA and the new ProsQA benchmark
+Result
+Coconut = better quality + fewer tokens
+
+
+Slide 16
+----------------------------------------
+The teaching metho d
+Base Model: GPT-2
+Stage 1
+The model learns from the usual CoT examples
+Stage 2
+Gradually replaces the chains with latent thoughts
+Stage 3
+The final stage is reasoning completely in a hidden space
+Training
+All hidden states are differen tia ble, backprop works
+
+
+Slide 17
+----------------------------------------
+Playback
+Torch-pipeline
+Based on GPT2
+Tokens
+support / tokens
+Embedding
+Inserti ng hidden states into input-embedding
+Evaluation
+Metric: compa ring accuracy vs output length
+🔗 There is no official code yet — we are implem enting our own mini-Coconut:
+https://colab.research.google.com/drive/1I6s9qF4y9kQX5gHe1Wdmy6WwcY71BPRq?usp=sharing
+
+
+Slide 18
+----------------------------------------
+Conclusions
+A new idea
+Coconut shows that CoT is not the only way
+Potential
+Latent reasoning is possible and promising
+Future
+A new look at the reasoning LLLM architecture
+
+
+
+Slide 19
+----------------------------------------
+In this part, I will talk about, perhaps, the most non—standard work - Coconut: Training Large Lan gua ge Models to Reas on in a Continuous Late nt Space. In it, the au thors pose the question:
+Are lan gua ge models required to reason with the help of words?
+They propose an architecture where reasoning takes place not in the text, but in the hidden states of the model — the so-called "continuous thoughts".
+https://arxiv.org/pdf/2410.10630
+
+
+Slide 20
+----------------------------------------
+Problem
+Chain-of-Thought (CoT) is a powerful approa ch, but it is linear and limited by lan gua ge format:
+All reasoning has to be encoded in words
+Even unimporta nt tokens require resou rce-inten sive withdrawal
+It is impossible to encode multiple variants of reasoning at the same time
+
+
+Slide 21
+----------------------------------------
+Decision
+Coconut (Chain of Continuous Thought)
+Instead of words, "continuous thoughts":
+Generating hidden states
+LLM generates a hidden state as an intermediat e result
+Direct substi tution
+This state is substi tuted directly as the next input.
+Special tokens
+States are indicated as and (begin/end of thought)
+Alterna ting modes
+The model alternates between "lan gua ge mode" and "late nc y mode"
+
+
+Slide 22
+----------------------------------------
+Why does it work?
+More features
+Conti nuous thoughts keep more choi ces available.
+Parallel search
+It is possible to implement brea dth-first search in the reasoning
+Effe ctiveness
+It is possible to effe cti vely "extend the reasoning" without overloading the decoder.
+
+
+Slide 23
+----------------------------------------
+Experiments
+Math
+GSM8k — accuracy is higher than CoT
+Logic
+ProntoQA and the new ProsQA benchmark
+Result
+Coconut = better quality + fewer tokens
+
+
+Slide 24
+----------------------------------------
+The teaching metho d
+Base Model: GPT-2
+Stage 1
+The model learns from the usual CoT examples
+Stage 2
+Gradually replaces the chains with latent thoughts
+Stage 3
+The final stage is reasoning completely in a hidden space
+Training
+All hidden states are differen tia ble, backprop works
+
+
+Slide 25
+----------------------------------------
+Playback
+Torch-pipeline
+Based on GPT2
+Tokens
+support / tokens
+Embedding
+Inserti ng hidden states into input-embedding
+Evaluation
+Metric: compa ring accuracy vs output length
+🔗 There is no official code yet — we are implem enting our own mini-Coconut:
+https://colab.research.google.com/drive/1I6s9qF4y9kQX5gHe1Wdmy6WwcY71BPRq?usp=sharing
+
+
+Slide 26
+----------------------------------------
+Conclusions
+A new idea
+Coconut shows that CoT is not the only way
+Potential
+Latent reasoning is possible and promising
+Future
+A new look at the reasoning LLLM architecture
+
+
+
+Slide 27
+----------------------------------------
+In this part, I will talk about, perhaps, the most non—standard work - Coconut: Training Large Lan gua ge Models to Reas on in a Continuous Late nt Space. In it, the au thors pose the question:
+Are lan gua ge models required to reason with the help of words?
+They propose an architecture where reasoning takes place not in the text, but in the hidden states of the model — the so-called "continuous thoughts".
+https://a rxiv.org/pdf/2410.10630
+
+
+
+Slide 28
+----------------------------------------
+Conclusions
+A new idea
+Coconut shows that CoT is not the only way
+Potential
+Latent reasoning is possible and promising
+Future
+A new look at the reasoning LLLM architecture

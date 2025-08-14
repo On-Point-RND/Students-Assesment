@@ -1,0 +1,27 @@
+Topological
+Neural Networks
+by [name],
+[compaany] Student
+1
+Problems
+GNN often fails to They struggle with deep
+distinguish between information aggregation —
+different structures data from distant nodes can
+if those structures "collapse" or be lost. This
+share certain simple leads to effects known as
+features over-smoothing and over-
+squashing
+2
+Persistent homology
+3
+Persistent homology
+4
+Results
+model\dataset MUTAG PROTENS IMDB-BINARY NC1
+MLP 0.803 0.688 0.722 0.721
+GCN 0.823 0.763 0.730 0.791
+TNN 0.842 0.744 0.765 0.793
+5
+
+
+

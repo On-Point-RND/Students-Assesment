@@ -1,0 +1,66 @@
+[name] [surname]
+COMPUTER SCIENCE
+I am a Computer Science student at [compaany]
+with a strong focus on machine learning. My journey in ML began with
+the [compaany] ML Handbook, and I have since developed expertise in
+NLP and automatic speech recognition (ASR). I am proficient in tools
+like Jupyter Notebook, Google Colab, Git, and Docker, which I have
+actively utilized in practical projects involving generative models and
+audio processing.
+EDUCATION
+Bachelor’s in Applied Mathematics and Computer Science
+CONTACT [compaany], Faculty of Computer Science
+Expected Graduation: 2028
+Secondary Education
++2 *** *** *** State Budgetary Institution “Fifty-Seventh School” of [location]
+Graduated: 2024
+ACHIEVEMENTS
+[email]
+Competitive Programming
+Codeforces: [name] [surname] (max. International master, 2349)
+@vc319
+Prize wiinner of the All-Russian Olympiad for Schoolchildren in
+Informatics (2023, 2024)
+Participant of the All-Russian Olympiad for Schoolchildren i
+Informatics (2022)
+SKILLS
+Prize wiinner of the Open Olympiad in Programming (2024)
+Vice-champion of the [location] Team Olympiad for
+Machine Learning
+Schoolchildren in Informatics (2024)
+Deep Learning (PyTorch,
+Medalist of the All-Russian Team Olympiad for Schoolchildren in
+TensorFlow) Informatics (2024)
+Winner of the [location] Olympiad for Schoolchildren in
+NLP / ASR (Whisper,
+Informatics (2022)
+Transformeers)
+Winner of the regional stage in Informatics (2023) prize wiinner of
+Generative Models (Diffusion, the regional stage in Informatics (2020-2022, 2024)
+GANs) Mathematics Olympiads
+Programming
+Prize wiinner of the regional stage in Mathematics (2022)
+Python (Advanced), C++, Go, Prize wiinner of the regional stage of Euler Olympiad in
+JaVaScript Mathematics (2021)
+Participant of the final of Euler Olympiad in Mathematics (2021)
+Web: HTML/CSS, Flask
+Winner of the Tournament of Cities “Turnir Gorodov” Olympiad in
+Mathematics (2018-2021)
+Mathematical Analysis
+PROJECTS
+Algorithmic Problem Solving
+Audio Denoising & ASR – Deveelopeed noise reduction and speech-
+LANGUAGE
+to-text pipeline (PyTorch + Whisper)
+Generative Audio – Implemented diffusion models for synthetic
+English - C1 voice generation
+Chess AI Plaftorm – Built web app with neural network opponent
+EXTRACURRIULAR EDUCATION
+Algorithms and Data Structures course “Tiinkoff Generation” (2021-
+2024)
+[compaany] Academy Go development course (2024)
+[compaany] Academy machine learning course (2024)
+Sirius Camp “Informatics.Juniors” program (2020)
+Sirius Camp Educational Program in Informatics (2022)
+Sirius Camp Project Program in Mathematics and Informatics
+(2023, 2024)

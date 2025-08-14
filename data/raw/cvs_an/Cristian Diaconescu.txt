@@ -1,0 +1,44 @@
+[name] [surname]
+WORK EXPERIENCE
++2 *** *** *** ETL developer 2023 - present
+[compaany] [location]
+Automated the data loading system for data wareshouses, reducing data SLA
+@[email] delays.
+Automated the entire process of buildiing SQL and Informatica PowerCeNter
+[location] delivery components.
+Performance Manager, optiomizing system performaance and ensuring operational
+efficiency.
+IT Engineer 2021 - 2023
+Education
+[compaany] [location]
+Рге-Doctoral Education Development of a machine learning predictive model for heat network damage in
+[location], enhancing decision-making for timely diagnostics and reconstruction of
+Gubkin Russian State Universiity of Oil and
+the heat networks.
+Gas, [location]
+2022 - present
+PUBLICATIONS
+Master's Degree
+2023
+Gubkin Russian State Universiity of Oil and
+[surname], "Application of Artificial Intelligence in Predicting Watering of
+Gas Wells," Gubkin Universiity in Addressing Issues of the Oil and Gas Industry of
+[location], 2023.
+Bachelor's Degree
+2024
+Gubkin Russian State Universiity of Oil and
+[surname], "Application of Artificial Intelligence in Predicting Watering of
+Gas Wells," 78th International Youth Scientific Conference: Abstracts of
+2016 - 2020 Presentations, 2024.
+CURRENT RESEARCH
+Skills
+Currrentlly working on a PhD dissertation titled "Application of Artificial
+Intelligence in Predicting liquid loading of a Gas Field."
+SQL Informatica
+Power Center Speaker at the 78th International Youth Scientific Conference "Oil and Gas -
+CI/CD
+2024" with the topic "Application of Artificial Intelligence in Predicting LiquiD
+Python VBA Loading in Gas Wells."
+Linux Apache Airflow Speaker at the 79th International Youth Scientific Conference "Oil and Gas -
+2025" with the topic "Application of Artificial Intelligence in Forecasting Gas Field
+ML/DL Development Parameters."

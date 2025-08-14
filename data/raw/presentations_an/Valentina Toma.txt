@@ -1,0 +1,153 @@
+[name] [surname] [email]
+[location]
+[compaany]
++2 *** *** ***
+[email]
+Problem statement
+Image registration is the transformation of one of the two images that the position and form of the objects in them
+are aligneed
+Formal problem statement:
+𝜙 = 𝑎𝑟𝑔 minℒ 𝑓, 𝑚, 𝜙
+𝜙
+𝑓 – fixed image; 𝑚 – moving image;
+𝜙 – deformation field; ℒ − loss function.
+An example of registration of two
+brain images.
+In the left image:
+Fixed image in red
+Non-rigid
+Moving image in blue
+Registration
+In the right image:
+Fixed image in red
+Registered (moved) image in blue
+Variational form of the image registration problem
+• The common loss functional for image registration task in discrete case can be written as:
+1 1
+2
+ℒ 𝜙 = ෍ 𝐷 𝒑 + ෍ ∇𝜙 𝒑 ,
+𝑓,𝑚 𝑓,𝑚 𝑖 𝑖
+|Ω| 𝜙 |Ω |
+𝑝
+𝒑 ∈Ω 𝒑 ∈Ω
+𝑖 𝑝 𝑖 𝑝
+where 𝑓 is the fixed image, 𝑚 is the moving image, 𝑚 is the moved image, 𝜙 𝒙 = (𝜙 𝒙 , 𝜙 𝒙 ) is the
+𝜙 1 2
+2
+deformation field, 𝐷 is the discrepancy, e.g. 𝐷 𝒑 = 𝑓 𝒑 − 𝑚 𝒑 , the second term is the
+𝑓,𝑚 𝑓,𝑚 𝑖 𝑖 𝜙 𝑖
+𝜙 𝜙
+regularization term, and 𝜆 is the regularization parameter.
+• In continuous case, we can rewrite the loss functional in an integral form as
+2 2 2 2
+𝜕𝜙 𝜕𝜙 𝜕𝜙 𝜕𝜙
+መ 1 1 2 2
+ℒ 𝜙 = න 𝐷 + 𝜆 + + + 𝑑𝑥 𝑑𝑥 .
+𝑓,𝑚 𝑓,𝑚 1 2
+𝜙 𝜕𝑥 𝜕𝑥 𝜕𝑥 𝜕𝑥
+Ω 1 2 1 2
+መ
+• The Euler-Lagrange equations of the ℒ 𝜙 ՜min minimization problem reduce to:
+𝑓,𝑚
+𝜙
+The optimal deformation field is the solution of this PDE system. → we can
+𝜕𝐷 𝜕𝐷
+𝑓,𝑚 𝑓,𝑚 apply neural operators to approximate the solution operator of this
+𝜙 𝜙
+− 2𝜆 ⋅ Δ𝜙 = 0; − 2𝜆 ⋅ Δ𝜙 = 0
+1 2 equation.
+𝜕𝜙 𝜕𝜙
+1 2
+Neural network-based image registration
+In neural network-based image registration the model
+predicts the deformation field – the difference of
+coordinates of each pixel in the initial and registered
+image.
+Typical CNN-based registration model architecture
+Usually, the neural network is the CNN or
+transformer model.
+Problem – CNN or transformers can efficiently
+work only on the resolution at which the model
+was trained.
+VoxelMorph model architecture
+Fourier Neural Operator (FNO)
+FNO model is a deep learning model for
+approximation of continuous non-linear
+differential operators.
+Above, we have reduced the image
+registration problem to solving the parametric
+system of PDEs → we can apply FNO.
+FNO model architecture
+All operations in the FNO are applied to the fixed sub-domain in the Fourier space → the model is robusst to the
+input data resolution.
+The main idea of the work: enhance the FNO model and evaluate it on the image registration at different
+reresolutions.
+Proposed model: FNOReg
+Improvements of FNOReg compared to FNO:
+• Additional skip-connectionsafter each Fourier block;
+• Spectral Transform layers in the begiinnig and end of the model.
+Spectral Transform is a non-local convolutional operator,
+which is used to extract the features.
+Spectral Transform Layer
+FNOReg model Fourier Layer
+OASIS-1 2D/3D dataset
+OASIS 2D: 414 2D slices and their segmentation masks from
+correspondiing 3D volumes.
+Train: 201 images, 40200 pairs; Validation: 12 images, 22 pairs;
+Test: 201 images, 400 pairs
+OASIS 3D: 414 brain MRI with segmentation masks of important
+anatomical areas.
+Train: 384 images, 766 pairs; Validation: 10 images, 9 pairs; Test:
+20 images, 19 pairs
+2D OASIS-1 image examples
+Evaluation metrics:
+1. Average Dice score;
+2. The percentage of voxels with a negative value of the Jacobian
+determinant of the deformation field (so-called "folded voxels")
+Vertical slices of OASIS-1 3D images with segmentation masks
+Results
+OA 2D DSC OASIS 3D DSC
+All models were trained at original resolution and at half-resolution.
+And evaluated at original resolution.
+Results summary:
+● FNO-based registration models lose not more than 3% when training on half-resolution data. CNNs and
+transformeers lose from 6% to 25%.
+Results
+OA 2D “Folded voxels” OA 3D “Folded voxels”
+Results summary:
+● FNOReg model has the best absolute values for the “folded voxels” metric
+among the methods that do not show significant degradaion in the
+deformation field smoothneess at halved resolution;
+● FNOReg performs better than original FNO and learns faster and more stable.
+Results
+Fixed and moved images
+Deformaation fields
+Deformaation fields spectr
+Spectra of deformation fields (DF) of VoxelMorph and TransMorph contain high-frequence components (cross-like)
+Fourier-Net has explicit low-pass filtering in frequency domain which leads to aliasing.
+DF produced by FNO-based models do not contain significant high frequency components → the models give
+smoother DF and are better in practice.
+Conclusion
+• We proposed a resolution-robusst metho for 2D and 3D image registration based on the Fourier Neural Operator.
+• Assume we have an equation 𝐿𝑢 𝑥 = 𝑓 𝑥 , where 𝐿 is a linear differențial operator and 𝑥 ∈ Ω ⊂ ℝ 𝑛, then
+the solution can be found using the Green’s function 𝐺 𝑥, 𝑠 :
+𝑢 𝒙 = න 𝐺 𝒙, 𝒔 𝑓 𝒔 𝑑𝑠 .
+𝺞
+• The idea of FNO is that 𝑢 𝑥 can be approxiated using the following iterative process:
+𝑢 𝒙 ∶= 𝜎 𝑊 𝑢 𝒙 + 𝐾𝑢 𝒙 , 𝑡 = 0, …𝑁 − 1,
+𝑡+1 𝑡 𝑡 𝑡
+𝐾𝑢 𝑥 = න 𝜅 𝑥 − 𝑠 𝑓 𝑠 𝑑𝑠
+𝑡 𝑡
+Ω
+where 𝑢 𝑥 ∈ ℝ 𝑢𝑡 is the function of 𝑥, 𝑊 ∈ ℝ 𝑢𝑡+1 𝑢𝑡 is a learnable linear transformation, 𝜎 ⋅ is the
+𝑡 𝑡
+activation function, and 𝜅 𝑥 − 𝑠 is a learnable kernel function of convolutional operator 𝐾. So 𝑢 𝑥 is a kind of
+𝑡 𝑡
+a network hidden layer output with 𝑑 data channels.
+• We can apply convolution theorem and parametrize 𝐾 in Fourier space:
+−1 −1
+𝐾𝑢 𝒙 = ℱ ℱ 𝑢 ∙ ℱ 𝜅 = ℱ ℱ 𝑢 ∙ 𝑅 .
+𝑡 𝑡 𝑡 𝑡 𝑡
+where 𝑅 𝒌 ∈ ℂ 𝑑 𝑢𝑡+1 ×𝑑 𝑢𝑡 is a learnable function in spectral domain and 𝒌 = 𝑘 , …, 𝑘 ∈ ℕ 𝒏 corresponds to non-
+1 𝑛
+negative frequencies.

@@ -1,0 +1,42 @@
+Hello, [name] [surname] organization team,
+My name is [name] [surname], and I’m a first-year PhD student in Cheminformatics at [location] [compaany]. My background is in chemical technology, but I made the
+conscious decision to transition into the AI-for-chemistry field because I wanted to be at the
+cutting edge of science. For me, this area offers not only a chance to work on transformative
+problems, but also a daily challenge to grow as a researcher, a learner, and a thinker. Now
+my key interests are data-driven drug discovery and application of generative approaches for
+molecule design as well as exploring LLMs in chemical tasks. I’m excited to apply for
+SMILES 2025, and in this letter, I’d love to briefly share both why I’m eager to take part in the
+program and why I believe I’d be a great addition to it.
+Why SMILES?
+1) The topics of SMILES 2025 perfectly align with my research interests and tackle
+problems that I’ve been working on in my projects recentlly. My main wish for the
+schooal is to get inspiration for further projects and identiify new and unusual
+combinations of methods and applications I can explore further in my works.
+2) As an interdisciplinary researcher, I mostly collaborate with chemists and
+AI-for-chemistry specialists. I’m really looking forward to connecting with researchers
+from the core ML community - something I don’t often get to do, but deeply value.
+3) I’m keen to strengthen my skills in ML and advanced AI techniques. The knowlage I
+gain at SMILES will directly contribute to the quality and innovation of my current and
+future research. One of my biggest dreams is to one day publish at an A* conference
+and I see SMILES 2025 as a crucial step on that journey.
+4) I’m especially curious to hear from the speakers from [location] - I’d love to gain insight
+into how researchers there approach problems in this field, and broaden my global
+perspective.
+Why me?
+1) Bridging machine learning with chemistry isn't just an academic interest for me - it’s a
+challenge I’m really excited about. I am an interdisciplinary researcher and I have a
+broad outlook not only on the novel ML methods, but also on their real world
+applications. I hope sharing my experience will motivate other people and broaden
+their horizons.
+2) I have hands-on experience leading and contributing to a variety of research projects.
+My project management skills and collaborative mindset are assets I’m ready to bring
+to hackathoons and workshops.
+3) I’ve also organized and curated educational events and hackathoons myself, so I
+understand what it takes to make them engaging and impactful. And with strong
+communication skills and a high level of English, I’m confident I can contribute
+meaningfully to volunteering at SMILES.
+Thanks for your time and consideration. I’m eager to dive into the discussions, ask
+questions, and walk away from SMILES with ideas I hadn’t even imagined before. I’m ready
+to participate actively and I hope to bring that energy to the program.
+Warm regards,
+[name] [surname]

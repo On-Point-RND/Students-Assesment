@@ -1,0 +1,70 @@
+[name] [surname]
+City: [location]
+Email: [email]
+Phone: +2 *** *** ***
+GitHub: github.com/[name]
+Telegram: t.me/[name]
+LinkedIn: linkedin.com/in/[name] ([cid:239])
+Work Experience
+Total Work Experience: 1 year, 9 months
+[compaany] (1 year, 9 months)
+Junior Researcher July 2023 – Present
+Tasks:
+– Conducting literature reviews, research, and scientific seminars
+– Programming modules for a cloud-based quantum computing platform
+– Developing neural network based decoder for Quantum Error Correction
+Achievements:
+– Developed and tested a new optimization approach for Variational Quantum Algorithms
+– Proposed an architecture based on graph neural networks for decoder that improves scalability
+Sberbank, Center of Quantum Technologies (1 month)
+ML Intern Engineer March 2025 – Present
+Tasks:
+– Conducting literature reviews and research
+– Programming and debugging of optical layers for ML models
+Education & Additional Courses
+Specialist Degree, Fundamental and Applied Physics (2020 – 2026)
+Lomonosov [location] Universiity, [location]
+Department of Quantum Electronics, GPA - 4.96/5.0
+Additional Courses
+• Introduction to the SQL Programming Language
+• Introduction to Deep Learning
+• Neural networks and their application in scientific research ([compaany] AI)
+1
+Awards & Achievements
+• The first All-Russian Quantum Hackathon - 2nd Place Winner (2023)
+• All-Russian Student Olympiad ’I am a Professional’ – Silver Medalist in Quantum Technologies
+(2023/2024)
+• The second All-Russian Quantum Hackathon - 2nd Place Winner (2024)
+• CodeRun Machine Learning Competition - Top 37 in Machine Learning Track (2024)
+• Diploma for the 2nd place in the competition of reports in the section "AI in exact and
+technical sciences" - the second International Youth Scientific Conference "AI Technologies in Science
+and Education" (2024)
+• Best Report Award in quantum technologies section - International Lomonosov Conference (2025)
+Conferences & Presentations
+• AI Project Conference by [compaany] (2023), oral report, [location]
+"ML based Plagiarism Detector for Python Scripts"
+• The second International Youth Scientific Conference "AI Technologies in Science and Edu-
+cation" (2024), oral report, [location]
+"Simulation and Training of Variational Quantum Algorithms"
+• TII Quantum Technology Symposium (2025), poster report, [location]
+"Graduated Optimization of Variational Quantum Algorithms by Noise Injection"
+• International Lomonosov Conference (2025), oral report, [location]
+"Graduated Optimization of Variational Quantum Algorithms by Noise Injection"
+Projects
+• Graduated Optimization of Variational Quantum Algorithms by Noise Injection - Course
+Project (Year 4)
+Analyzed the learnability of variational quantum algorithms and developed a promising optimization
+technique with noise injection
+• Python Script Plagiarism Detector - Independent pet-project
+ImplementedamachinelearningmodelfordetectiningsiilaaritiesacrossPythonscriptstopreventplagiarism
+and deployed it on GitHub Page.
+Skills
+• Professional: Proficientinrreadingandanalyzingscientificliterature; adeptatlearniingnewprogramming
+languages and tools; strong grasp of classical and quantum algorithms; indepth knowledge of machine
+learning, mathematics and quantum computing.
+2
+• Programming Languages: Python (NumPy, Pandas, JAX, Qiskit, PennyLane, Scikit-Learn, Seaborn,
+PyTorch), C++, Julia
+• Tools: Git, Bash
+• Languages: English (B2), Russian (C2)
+3

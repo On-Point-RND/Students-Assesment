@@ -1,0 +1,104 @@
+Determining the mechanical and thermaal properties of
+high-entropy carbide based on ML-potential [name], the first year PhD-student
+Supervisor – prof. [surname]
+Part related to generative modeling is carried out under the guidance
+of [name] and [name].
+Problems
+The high-entropy alloys represent a class of substances with specific
+properties including significant values of thermostability that can be used in
+some cases. Over the past few years, both theoretical and experimental
+development of refractory high-entropy materials has been actively pursued,
+including high-entropy carbides (HEC). Thus the synthesis of such
+substances is a currently central task for scientists in the field of material
+science.
+Speed Accuracy
+Dataset MLIP Predictions Predictions First principles Target system
+Machine learning approaches Quantum chemistry methods
+2
+Methods Overview
+local atomic environment
+i
+(contributionofiatomicenviromnemt)
+(functionalformfortheenergyofthelocalenvironment(fully-connectedNN)
+NEP (neuroevolution potential) uses a simple feedforward neural network (NN) to represent the site energy of atom as a function of a
+descriptor vector with components:
+Radial descriptors
+radial angular
+Angular descriptors
+Forming a descriptor
+Aggregation of information Using NN
+representation
+through radial and angular functions
+3
+https://gpumd.org/
+Training the NEP model
+Training the potential
+Receiving the hysteresis and defining boundary temperatures
+R = 1.2 Å
+2
+(T and T ) into the loop. NEP
+- +
+Rough investigation of hysteresis loop from T to T using R = 0.6 Å
+- + 1
+ZBL linkage
+sandwich structures, constructed from liquid and solid
+range
+substractures, correspondiing to upper and lower branches
+at the same temperature.
+Strict investigation of the hysteresis loop within the
+temperature range where the break point occurs
+4
+Modeling the phase transition
+T = 3560∓20 K
+m
+Hysteresis loop modeling
+Receiving the hysteresis and defining boundary temperatures
+(T and T ) into the loop.
+- +
+Rough investigation of hysteresis loop from T to T using
+- +
+sandwich structures, constructed from liquid and solid
+substractures, correspondiing to upper and lower branches
+at the same temperature.
+Strict investigation of the hysteresis loop within the
+temperature range where the break point occurs
+5
+Calculation of mechanical properties
+Tensile strain
+Temperature, Tensile Shear
+K deformation deformation
+(ultimate (ultimate
+strain(%)/ strain(%)/
+maximum maximum
+stress(GPa)) stress(GPa))
+300 8.83/18.41 25.67/12.14
+500 8.96/25.09 25.66/11.68
+Sheaar strain
+1000 9.29/22.11 24.18/10.82
+1500 9.79/20.60 22.32/6.19
+2000 10.11/12.12 20.01/6.90
+6
+Calculation of mechanical properties
+Generative models
+Inorganic materials design with [compaany]. (a) [compaany] generates stable materials by reversing a corruption process through iteratively denoising an initially
+random structure. The forward diffusion process is designed to independently
+corrupt atom types A, coordinates X, and the lattice L to approach a physically
+motivated distribution of random materials. (b) An equivariant score network is
+pretrained on a large dataset of stable material structures to jointly denoise atom
+types, coordinates, and the lattice. The score network is then fine-tuned with a
+labeled dataset through an adapter module that alters the model using the
+Training the potential by one step
+encoded property c. (c) [compaany] can be fine-tuned to steer the generation to
+7
+[1]https://doi.org/10.48550/arXiv.2312.03687
+Main Conclusions and Further Steps
+To train a potential at a good level (with high accuracy), we need to use a big dataset
+covering most of the configurational space. One can apply some techniques to include
+diverse structures to dataset for training a potential:
+Further steps of this work will include these approaches, and the best choice for training a
+potential will be implemented to [compaany] package (with colleagues from [location]).
+During the modelling of hysteresis loop the melting point correspondiing to the breaak point was predicted (3560∓20 K) (for example,
+the melting point for [compaany] is equal to 3673 K1).
+Tensile and shear strains were determined using NEP potential trained on solid and liquid structures obtained before.
+8
+[1]Berg,G.,Friedrich,C.,Broszeit,E.&Berger,C.Datacollectionofpropertiesofhardmaterial.InHandbookofCeramicHardMaterials965–995

@@ -1,0 +1,107 @@
+Personal data
+Full name: [name] [surname]
+Date of birth: June 21, 1995
+Citizenship: [location]
+Accommodaation: [location]
+Phone: +2 *** *** ***
+Telegram: @[name]
+Email: [email]
+Github: github.com/[name]
+
+Education
+2019-2021 – [compaany]
+Faculty of Fundamental Medicine, Residency (Cum laude)
+2013-2019 – [compaany]
+Faculty of Medicine and Prevention, specialty (diploma with honors)
+Additional education
+2024-2025 – SchooL 21 (educational project from [compaany] for developeers) –
+programming, Data Science, machine learning
+2024 – Deep Learning SchooL ([compaany]), machine and deep learning
+2024 – Machine Learning Trainings ([compaany])
+2024 – MTS True Tech Champ, Algorithmic Track
+
+Professional experience
+September 2024 - present
+Startup “Access Food startup” (project from [compaany], [location])
+ML/AI Deveelopeer
+Development of a personalized nutrition system based on AI for
+generating food rations for 5-7 days at the user's request
+Technologies: Python, NLP, LLM, GigaChat, RAG, LangChain
+May 2024 - present
+[compaany] ([location])
+Python deveelopeer
+Development and support of corporate web portals
+Deploying Business Intelligence in Yandex DataLens
+Development of Telegram bots
+January 2022 - May 2024
+[compaany] (PMI Science)
+Scientific Medical Advisor (MSL)
+Organization of scientific conferences
+Preparation of scientific publications
+Data analysis in medical research
+
+Scientific achievements and publications
+I have 48 published scientific papers, including articles in international
+journals, RSCI and Higher Attestation Commission.
+Some of the most significant publications are:
+1. "Using small samples in machine learning as an example of limited
+genetic data in medicine", 2025 (abstracts sent to the conference)
+2. "Modern methods of processing and analyzing genetic data using
+machine learning", 2025 (abstracts sent to the conference)
+3. "Technological risks of using artificial intelligence in medicine", 2025
+4. "Using the concept of harm reduction and cognitive behavioral
+therapy in the treatment of psychological tobacco addiction", 2024 (International
+Journal, Tokyo)
+5. "The effect of testosterone deficiency on the severity of complications
+of type 2 diabetes in men", 2018
+6. "The effect of povidone-iodine on the eradication of highly oncogenic
+HPV types in women with cervi cal lesions", 2018
+7. "Optimization of assessment of metabolic status in obese men with
+different levels of endo ge nous testosterone", 2018
+8. "Clinical and morphological characteristics of recurrent parasagittal
+menin giomas", 2016 (Russian Academy of Medical Sciences)
+
+PETprojects
+• Development of a machine learning model for logo detection and
+classification in video | AI, DL, CV, Python, PyTorch
+• Development of a food ration generation system | AI, DL, NLP,
+Python, LLM, GigaChat, RAG, LangChain
+• Development of a chatbot in Telegram for competitions | Python, SQL
+• Machine learning training projects on MNIST, CIFAR-10, ImageNet
+datasets| DL, CV, Python, Pandas, and PyTorch datasets
+
+Technical skills
+Programming: Python (NumPy, Pandas, Matplotlib, PyTorch),
+SQL, C
+Data Science: Machine Learning, Deep Learning, NLP, RAG, LangChain
+Databases, analytics: SQL, Big Data, Yandex DataLens
+
+Achievements and awards
+•
+Letter of thanks from the Mayor of [location] for the work at CОВID
+the CОВID-19 Hospital of the [location] State Medical Center (2021)
+•
+Diploma of the II degree internationalой scientific and practical
+confere nce of students and young scientists under 35 years of age
+"#SCIENCE4HEALTH" on the basis of the [compaany] Medical Insti tute (2019)
+•
+Diploma of the II degree at the XVII All-Russian Student Olympiad
+in surgery. acad. Perelma n (2018)
+•
+Diploma of the II degree in the conference "Perioperative training as
+an interdisciplinary problem" (2018)
+•
+First degree diploma in the Interregional Scientific Confere nce
+"Neuroendocrine Pathology" (2016, 2017)
+•
+Diploma of the first degree for wi nning the intra-universi ty Surgery
+Olympiad (2017)
+•
+Diploma of the II degree in the regional compe tition of leaders of youth
+organiza tions "Leader of the Year" in [location]
+
+Language proficiency
+Russian-native lan gua ge
+English-C1
+German-B1
+French-A2

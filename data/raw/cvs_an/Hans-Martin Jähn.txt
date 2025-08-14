@@ -1,0 +1,39 @@
+[name] [surname]
++ [location] # [email] +2 *** *** ***
+Education
+[location] [compaany] Sept 2021 – May 2025
+BS in Computer Science
+◦ The Department of Game Theory and Mathematical Statistics
+Experience
+Machine Learning Engineer [compaany]
+Tools: Catboost, Python, Pytorch, C++, ResSys April 2025 – Present
+◦ Implemented new functionaliity in the recommendation system’s feed
+◦ Optimized ranking algorithms, achieving a 2% increase in key metrics
+Machine Learning Engineer Intern [compaany]
+Tools: Catboost, Python, AB tests, data analitcs, Bert Dec 2024 – March 2025
+◦ Developed a metric to improve the sensitivity of A/B tests
+◦ Trained query classifiers
+Publications
+Multi-output Regression for Travel Demand Estimation in an Urban Jan 2004
+Road Network
+[surname] [surname], [name] [name]
+Paper 2
+Scientific research
+Scientific and practical intensive on reproducing SoTA results github 2
+◦ Implementation and reproduction of the results of an article on a new approaach to information retrieval for
+recommendaation systems
+◦ Tools: Pytorch, RecSys
+Pre-graduate kaggle 2
+◦ Analysis of the application of machine learning methods to solve a Travel Demand Estimation
+◦ Tools: Python, GBDT, Math
+Application of the diffusion model for conditional generation of a multi- github 2
+dimensional time series
+◦ Application of the diffusion model for conditional generation of a multidimensional time series
+◦ Tools: CV, Pytorch, Hugging Face, diffusion
+Technologies
+Languages: Python, SQL, C++, Unix scriptiing
+Technologies: PyTorch, TensorFlow, Transformers, CUDA, pandas, numpy, CatBoost, WandB, Git, MapReduce over YT, Nirvana (ML AirFlow)
+[name] [surname] - Page 1 of 1
+
+
+

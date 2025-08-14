@@ -1,0 +1,67 @@
+[name]
+PhD Candidate, [compaany]
+Senior AI Engineer at [compaany]
+Lecturer at Moscow Aviation Institute (MAI)
+Email: [email]
+Phone: +2 *** *** ***
+Education
+PhD in Technical Sciences (expected July 2025)
+[compaany]
+Thesis Topic: Artificial Intelligence Methods for Target Detection in Radar Systems
+Master's Degree in Applied Mathematics and Physics
+Moscow Institute of Physics and Technology (MIPT), [location]
+Bachelor's Degree in Applied Mathematics and Physics
+Moscow Institute of Physics and Technology (MIPT), [location]
+Professional Development Course in AI
+Academician A.A. Efremov Scientific and Educational Center for Aerospace Defense
+"Almaz – Antey"
+Qualification Upgrade in Python and MATLAB
+Academician A.A. Efremov Scientific and Educational Center for Aerospace Defense
+"Almaz – Antey"
+Teaching Experience
+Private Tutor in Physics and Mathematics
+(2007 – Present)
+Providing one-on-one tutoring in physics and mathematics for high schoo[location] students.
+Helping students prepare for exams, improving understanding of core concepts, and
+fostering critical thinking.
+Guiding students in solving complex problems in algebra, calculus, mechanics,
+electromagnetism, and thermodynamics.
+Adapting lessons to the individual needs of students to enhance their academic
+performa[location] and interest in science.
+Lecturer
+Moscow Aviation Institute (MAI) (2020 – Present)
+Teaching courses on Machine Learning and Artificial Intelligence in engineering contexts.
+Mentoring student projects related to neural netwo[location]s and radar signal interpretation.
+Research and Professional Experience
+Senior AI Engineer
+[compaany] (2012 – Present)
+Development of AI-based solutions for real-time target detection and classification in radar
+systems.
+Leading integration of machine learning techniques into mission-critical defense
+applications.
+Initia[compaany]tor of internal R&D projects applying generative models for sensor data simulation and
+signal enhancement.
+Contributor to 4 major government-funded research initia[compaany]ves (NIRs) focused on intelligent
+signal processing.
+Designed and implemented ERP and decision support systems using 1C and custom
+modules for aerospace applications.
+Software Deveope[compaany]r
+Central Aerohydrodynamic Institute (TsAGI) (2009 – 2012)
+Flight dynamics and aircraft control systems
+Achievements & Research Ou[compaany]ut
+Over 10 published articles in national conferences and journals (majority under security
+classification, related to radar and AI systems). Topics include generative methods in radar
+data augmmentation, target recognition, adve[compaany]rial robustness in sensor fusion, and hyb[compaany]d
+neural-symbolic appo[compaany]ches.
+Contributor to 4 major government-funded research initia[compaany]ves (NIRs) focused on intelligent
+signal processing.
+Awarded the V.V. Tikhomirov Prize for outs[compaany]anding achievements in research and project
+activities.
+Key Skills and Tools
+Machine Learning & Deep Learning: PyTorch, TensorFlow, scikit-learn
+Generative Models: GANs, VAEs, diffusion models (applied to radar and synthetic data
+generation)
+Computer Vision & Signal Processing: OpenCV, NumPy, SciPy
+MLOps & Deployme[compaany]nt: Docker, MLflow, REST APIs, ONNX
+Langua[location]es: Python, C++, MATLAB, 1C Enterp[compaany]se
+Other: LATEX, Git, Ju[compaany]ter, Linux

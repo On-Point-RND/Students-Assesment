@@ -1,0 +1,14 @@
+Hello, dear readers.
+My motivation for studying ML and DL is simple: I dream of creating and building, and for that, I need knowledge.
+That’s why I became a Software Developer. I thought neural networks would simplify product development, but I naturally dove deeper—beyond APIs and deployments—into how things work, why vectors matter, etc. This also supports related fields, like the emerging Model Context Protocol (MCP). I’m already learning independently, watching English lectures, driven by curiosity.
+My goals:
+(cid:127) Learn alongside others.
+(cid:127) Find like-minded people in ML/DL.
+(cid:127) Support my university studies and career.
+Fun facts:
+(cid:127) I trained a diffusion model using my face and learned how to generate images of myself with Stable Diffusion and ComfyUI.
+And my favorite story:
+My first job was at a company named [company]. I got there by a [company] taxi, driven by [company]. The department head who interviewed me? Also [company]. Feels like The Matrix.
+
+
+

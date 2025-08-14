@@ -1,0 +1,55 @@
+[name]
+[email]
+[location]
+April 20, 2025
+Dear [name] Organizers,
+My journey into the world of machine learning (ML) started in 2021 when I attended
+my first basic ML course, and since then, it has grown into both academic interest and
+a full-time job. Now, I am a final-year master’s student at [compaany] and a researcher at the
+[compaany] Lab, where I work on advancing the natural language processing (NLP). I am
+eagertoimprovemy skillsandcollabo ratewithleadingMLexpertsat theSMILEs summer
+schoo l.
+My career as a NLP researcher started when I was accepte dfor an internship program
+at the [compaany] Lab. During the past three years, I have been actively working on
+many different ML projects including developing NLP tools for an open-source [compaany]
+library, participat ingin ML compe titions and publishin gthe results of my research.
+My first research topic was on few-shot intent classification. I designed a novel
+metho dology based on a discriminative nearest n eigbor classification system, integrated
+it into a [compaany] library and later presented it on international conference AIST.
+As a master’s student in an ML-focused program I continue to increase my specializa-
+tion in NLP, CV and RL, and deve loped an optical character recognition (OCR) system for
+Russian lan gua ge as a part of the CV course project.
+Over the last year I significa ntly accele rated my research efforts and published mul-
+tiple papers on both A and A* conferences. First, I deve loped a robust metho dology for
+generating a synthetic NER dataset, and then used this dataset to increase the diversity of
+texts and entity types in the [compaany] NER model, which you can try on the demo page.
+As a continuation of this work, I deve loped a metho dology for generating a fully synthetic
+dataset for detection of personal identifiable information (PII). The paper, which summa-
+rizes this work, was rece ntly accepte dto the N AACL S RW workshop. Finally, I participated
+in solving two tasks at SemEval-2025 compe tition. My teams secured 3rd place in the
+hallucination detection task in several lan gua ges and 7th place in the tabular question an-
+swering. The papers for both tasks have been accepte dto a SemEval workshop alongside
+ACL-2025.
+In the long term,my goa listopu rsueaPhDi ncomputerscience,workingonAisafety
+and explainability, as these areas are crucial for buildi ngmodels which we can trust. I am
+especially interested in explainability as the ability to understand the model’s decision-
+making process of the model will not o nl yensure alignment with human goals, but also
+helpusundertandthereasonsfordecision,wh ichIthinkmayeev enmorevaluab lethan
+the decision itself.
+As for the schoo litself, I am looking fo rw ardto an intensi ve research experience,
+where I could consume tons of information every day and accele rate my growt has a re-
+searcher. I e njoy working in a team, and I am confident that my background and collabo-
+rative skills will allow me to get along with everyone and make a mea ningful contribution
+to the final project.
+The topics of this year’s summer schoo l, particularly large lan gua ge models, align
+perfectl ywith my current research and future plans. This program is a great oppo rtunity
+to learn from top-tier researchers and collabo rate with other participants. I hope to es-
+tabli sh research colla borations, which may lead to future joint research projects with the
+pa rticipan ts and possib ly even the organizers.
+Attending the SMILES summer schoo l is a unique oppo rtunity for me to grow as a
+researcher and gather new conne ctions. I would be honore dto participat eand colla borate
+oncutting-e dgeMLp rojects wit hp eersandleadingMLexperts. Thankyouforconside ring
+my application.
+Kind Regards,
+[name]
+Applicant

@@ -1,0 +1,32 @@
+[name] [surname]
++2 *** *** *** | [email] | tg:[name]
+EDUCATION
+[location] State Marine Technical [University]
+Design and construction of ships and ocean engineering facilities [location]
+(26.05.01.02) Underwater Shipbuilding Sept. 2020 – Present
+[location] Federal [University]
+Pacific Floating [University]: Planning Expeditionary Research in Marine Science [location] 2022
+[location] [University] [name]
+Data Analyst [name] 2023
+[compaany] [name] [location]
+Product Life Cycle Management (Educational Intensive Course) 2023
+[location] [University] [name] [location]
+Modern methods of robotics and control theory [name] 2024
+EXPERIENCE
+International Summer School “Naval Architecture and Ocean Engineering” 2023
+[location] State Marine Technical [University] in collaboration with [location] Polytechnical [University] (Xi'an)
+The course program was dedicated to marine robotics.
+Open industry championship «Projectorium 2023» of the corporate [university]
+[compaany] 2023
+The championship was dedicated to the development of an unmanned ship for tourist transport on the rivers and canals of [location].
+ARTICLES
+SCIENCE WEEK OF SMTU-2023 All-Russian Science Festival "Nauka 0+", "Unmanned system of a boat-carrier of a remotely operated underwater vehicle: a new perspective in marine scientific research", [name] [surname], [surname], [surname], [surname], [surname], 2023.
+EXPERIENCE OF IMPLEMENTATION AND PROSPECTS FOR DEVELOPMENT OF MODERN INFORMATION
+TECHNOLOGIES FOR THE NAVY AND ENTERPRISES OF [location] (scientific and practical conference),
+"Analysis of the prospects for creating an unmanned complex boat-carrier ROV for marine scientific research", [name] [surname], [surname], [surname], [surname]
+SKILLS
+Languages: Python, SQL (Postgres)
+Developer Tools: Git, Visual Studio, PyCharm, MS Azure
+Libraries: NumPy, Mathplotlib, pandas
+Foreign languages: English (B1), Chinese (HSK4)
+Others: AutoCAD, CATIA, MS Office (Word, Excel)

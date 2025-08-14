@@ -1,0 +1,193 @@
+Project and Research Work :
+«Development of a Device for Training Corvids to Collect Waste and Sorting It Using a Neural Network»
+Author: [name]
+Project Supervisor: [name]
+Supplementary Education Teacher
+2025
+CORVIDS – THE SMARTEST BIRDS ON THE PLANET
+CAN COUNT UP TO 10
+INTELLIGENCE EQUIVALENT TO 4-YEAR-OLD CHILDREN
+RECOGNIZE THEMSELVES IN MIRRORS
+CREATE AND USE TOOLS
+RELEVANCE OF THE PROJECT
+Relationship of people to separate waste collection
+LANDFILL AREA IN [location] AND [location] REGION PUBLIC ATTITUDE TOWARD WASTE SORTING
+[location] (MILLION HECTARES)
+20%
+26%
+LANDFILLS IN
+[location]
+4
+10%
+44%
+[location]
+4,6
+FULLY SUPPORT FULLY NOT SUPPORT
+RATHER SUPPORT RATHER NOT SUPPORT
+4.5 TRILLION CIGARETTE BUTTS ≈ 2,500 OLYMPIC-SIZED SWIMMING POOLS
+ENVIRONMENTAL HARM OF CIGARETTE BUTTS
+98%
+CIGARETTE SALES IN [location] (BILLION PCS)
+OF CIGARETTE
+279
+IS MADE OF
+259
+CIGARETTES ARE
+238 PLASTIC
+217
+204 70%
+192
+189
+CIGARETTES ARE THROWN INTO
+NATURE
+10years
+DISCARDED
+CIGARETTE
+DECOMPOSE
+2016 2017 2018 2019 2020 2021 2022
+GOALS TASKS
+• Study methods of communication with crows
+Create ways for humans and crows to interact • Determine a method for training crows
+• Conduct an experiment based on this method
+and evaluate results
+• Develop a method to train crows to collect
+different items
+• Learn image analysis using a neural network
+• Train crows to collect cigarette butts
+DEVICE FOR TRAINING CROWS TO COLLECT COINS
+COIN FEEDING HOLE ON
+COIN LID THE LID
+MICROSWITCH
+PROTECTION
+PLATFORM
+CROSSBAR
+SERVOMOTOR
+ELECTRONICS
+MICROSWITCH
+COIN CLOSE THE CONTACTS
+TRAINING CROWS TO COLLECT COINS
+1st stage of training
+Crows are getting used to the device
+2nd stage of training
+Crows get used to the sound of the lid opening
+3rd stage of training
+Crows learn how to push coins into a device
+4th stage of training
+Crows exchange coins for peanuts
+DEVICE FOR TRAINING CROWS TO COLLECT CIGARETTE BUTTS
+PLATFORM CAMERA
+FEEDING SYSTEM
+SORTING TABLE
+ELECTRONICS CONTAINER
+CONTAINER FOR CIGARETTE BUTTS CONTAINER FOR TRASH
+TRAINING CROWS TO COLLECT CIGARETTE BUTTS
+1st stage of training
+Crows are getting used to the device
+2nd stage of training
+Crows get used to the sound of turning the table and handing out peanuts
+3rd stage of training
+Crows learn how to push cigarette butts into a device
+4th stage of training
+Crows exchange cigarette butts for peanuts
+RESULTS OF TRAINING CROWS TO COLLECT CIGARETTE BUTTS
+• Crows mastered 3 stages of training
+• Many birds visited: jackdaws (>10), magpies (~7), crows (~3)
+• Remote access system implemented
+• Software and neural networks improved
+• Feeding system and object sorting system
+upgraded
+• Device structure improved
+IMPROVEMENTS TO THE LATEST PROTOTYPE
+IMPACT OF CIGARETTE BUTTS ON PLANT GROWTH AND DEVELOPMENT
+BOUND WATER PRESENCE, gr FREE WATER PRESENCE, gr
+0,2
+18
+16
+0,16
+14
+12
+0,12
+10
+8
+0,08
+6
+0,04 4
+2
+0 0
+Leaves Roots Stems Leaves Roots Stems
+Base Electronic cigarettes Cigarettes
+Base Electronic cigarettes Cigarettes
+IMPACT OF CIGARETTE BUTTS ON PLANT GROWTH AND DEVELOPMENT
+Presence Pb, mg/l Presence Bi, mg/l Presence Fe, mg/l
+E. Cigarettes Cigarettes
+E. Cigarettes Cigarettes E. Cigarettes
+0,1 0,1
+0,1 0,1 0,1
+0,05 0,05 0,05
+Cigarettes
+Base Base
+0,02
+Base
+0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01
+0,005
+0,0010,0020,002
+0 0 0 0 0 0
+Roots Stems Leaves Roots Stems Leaves Roots Stems Leaves
+NEURAL NETWORK DEVELOPMENT
+HARDWARE PLATFORM SELECTION
+SPECIFICATIONS JETSON NANO RASPBERRY PI 4
+PROCESSOR ARM Cortex-A57 ARM Cortex-A72
+PROCESSOR FREQUENCY 1.42 GHz 1.5 GHz
+RAM 4 GB 1.2,4,8 GB
+VIDEO CARD NVidia Maxwell w/ 128 NVidia CUDA cores Broadcom VideoCore VI
+VIDEO CARD PERFORMANCE 472 GFLOPS !!! 30 GFLOPS
+PRICE ~9400 RUB. ~7800 RUB.
+NEURAL NETWORK DEVELOPMENT
+Stages of creating a neural network
+Collecting photos for Dataset
+Neural network training based on
+Dataset
+NO
+Neural Network Testing
+The accuracy of the neural network YES Neural network implementation in the
+based on the test result is >90% project
+WORKING 1 NEURAL NETWORK
+The accuracy of the neural network
+100
+90
+80
+%
+70
+60
+50
+40
+30
+20
+10
+0
+5 15 25 35 45
+Epocs
+Background Trash Cigarette butts
+CIGARETTE BUTTS
+WORKING 2 NEURAL NETWORK
+Neural network trained on Jetson Nano, 45 epochs of
+learning
+MAGPIE
+JAckDAW
+CROW
+HOW CORVIDS TRICKED NEURAL NETWORKS
+HOW CORVIDS TRICKED NEURAL NETWORKS
+MAGPIE BREAKS THE DEVICE
+CONTACTLESS BIRD IDENTIFICATION
+BIRD BANDING FULL-SPECTRUM CAMERA
+NEURAL NETWORK OPERATION
+CONCLUSIONS
+• Crows trained through 3 of 4 learning stages
+• 4 prototypes of training devices developed and tested
+• Impact of cigarette butts on plant growth studied
+• Neural networks developed for video stream analysis
+FUTURE WORK
+• Create a contactless identification system for corvids
+• Develop a fifth prototype of the device
+• Continue research on the impact of cigarette butts on plant growth
+• Train crows to collect cigarette butts using a neural-network-powered device

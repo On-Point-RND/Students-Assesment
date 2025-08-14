@@ -1,0 +1,82 @@
+Face, hair, etc. swapping with Generative
+Adversarial Networks (GANs)
+[name] Viacheslav
+[location] National Research Institute “Higher School
+of Economics”,
+Mentor: [name]
+Introduction
+Face swapping has wide-ranging applications in entertainment, privacy protection, and digital content
+creation. With the rise of social media and virtual environments, the demand for realistic and controllable
+facial image editing tools has grown significantly.
+Goal of the review
+This review explores and evaluates the current state-of-the-art face swapping methods, focusing primarily
+on GAN-based approaches. It aims to:
+• Explain key concepts like GAN inversion and latent space manipulation, which are central to successful
+face swaps.
+• Highlight strengths of GAN-based models (e.g., StyleGAN2) in preserving identity, background, and
+expression.
+• Compare with existing GAN-based baselines, discussing their potential and current drawbacks.
+• Identify challenges and opportunities for future improvements in this evolving field.
+Problem statement
+The general goal of face swapping methods is to replace the face of the source image with the target one
+while maintain the features of the former, like face structure, type, background, facial expression, hairs and
+so on. To address this problem, GANs models were leveraged for this task. The most suitable and stable
+model for this is StyleGAN2 that shows qualitatively good results for high-resolution image generation and
+style transfer tasks.
+Problem statement
+Traditional methods relied on 3D Morphable Models (3DMMs), which often produced low-resolution and
+less realistic results. The emergence of GANs, especially StyleGAN2, marked a major advancement,
+allowing for high-fidelity, photorealistic swaps. Recentlly, diffusion models have also entered the scene,
+showing strong potential, though they currently face limitations in real-time applications.
+Methods
+a) Source-oriented pipeline uses 3D fitting or
+reenactment to generate inner face region and blend
+it into the target image
+b) Target-oriented pipeline uses a face recognition
+network to exact identity and combines encoder
+feature with identity in the decoder.
+MegaFS
+MegaFS proposes a one-shot, high-resolution face swapping method using a hierarchical encoder and a Face
+Transfer Module to manipuulate facial features without explicit disentanglement. It leverages StyleGAN2 as a
+decoder for efficient, realistic generation, outperformiing traditional methods in identity preservation and visual
+consistency. However, it still struggles with fine-grained control over identity and appearance separation.
+[name], et al., One Shot Face Swapping on Megapixels, CVPR 2021; arXiv:2105.04932 [cs.CV]
+GHOST1.0
+GHOST (Generative High-fidelity One-Shot Transfer) is a powerful face swapping method that works
+for both images and videos. It builds on the FaceShifter framework and uses the AEI-Net model,
+with several improvements aimed at preserving identity, maintaining stability in video frames, and
+enhancing visual quality.
+[name], et al., GHOST—A New Face Swap Approach for Image and Video Domains; IEEE Xplore 2022, DOI: 10.1109/ACCESS.2022.3196668
+SimSwap
+SimSwap works by extracting identity features from the source image and injecting them into the target's latent
+representation, keeping non-identity features unchanged. The modified latent code is then decoded to produce
+the swapped face using a pretrained generator. Method uses several loss functions—identity, reconstruction,
+adversarial, and multi-scale feature matching—to ensure realism and identity preservation. Its efficient one-
+shot approach and robusst design make it a strong baseline for face swapping tasks.
+SimSwap: An Efficient Framework For High Fidelity Face Swapping, 28th ACM International Conference on Multimedia, 2021; arXiv:2106.06340 [cs.CV]
+Visual comparison
+Some ideas
+We aim to replace the latent code manipulation with our novel fusion technique, drawing inspiration from
+the widespread success of attention-based mechanisms in diffusion models. The rising popularity of
+diffusion-based face swapping methods—both for static images and real-time video—highlights the
+effectiveness of these approaches in blendiing identity and attribute features. Our proposed fusion strategy
+builds on this idea, seeking to achieve more robusst and coherent integration of embeddings while
+maintaining identity consistency, without relying on traditional cross-attention.
+Quantitative results
+We employ a Rotate Encoder as the fusion mechanism to obtain the swapped latent representation, which
+is subsequently fed into StyleGAN2 to generate the final face image. The current model was trained for
+approximately 7,000 steps on the FFHQ dataset, and evaluation was conducted on the CelebA-HQ-1k
+benchmark. While the results are not yet optimal across all evaluation metrics, they demonstrate
+promising potential, suggesting that further improvements can be achieved with extended training.
+Qualitative results
+Research
+• Limitations: Current latent mixing yields artifacts, identity drift, and weak control over head shape,
+lighting, and expressions (frankly, it doesn’t directly include this information, only throughout the e4e
+encoder).
+• Unresolved Challenges: Disentangling identity from face pose, illumination, and background; ensuring
+temporal and spatial stability.
+• Why It Matters: High-fidelity, reliable swaps are critical for virtual production, avatars, and
+privacy-preserving conferencing.
+• Future Ideas: Augment the Rotate Encoder with a multi-head cross-attention module to selectively fuse
+geometry, lighting, and expression features.
+Bibliography

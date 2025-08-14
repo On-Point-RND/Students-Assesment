@@ -1,0 +1,42 @@
+Dear Organizing Committee of [compaany],
+My name is [name] [surname], and I am a student in the Applied
+Mathmatics and Computer Science program at the [compaany]. My passion for machine learning began during my school
+years, where I actively participated in competitive programming and
+mathematics Olympiads, achieving notable successes such as
+wiinning prizes in the [location] National Olympiad in Informatics and
+other prestigious competitions.
+I have a strong foundation in machine learning, including hands-on
+experience with generative models, NLP, and audio signal processing.
+My projects include:
+● Developing a denoisinng application for voice messages with
+subsequent text transcription.
+● Exploring generative models for audio synthesis, which sparked
+my interest in multimodal AI systems.
+● Creating a chess game website with integrated AI components,
+showcasing my ability to combiine theoretical knowledge with
+practical implementation.
+I am proficient in tools like Jupyter Notebook, Google Colab, Docker,
+and Git, and I have worked with modern ML frameworks such as
+PyTorch and TensorFlow. My coursework and self-study have covered
+key topics in deep learning, reinforcement learning, and large
+language models (LLMs), aligning perfectly with the themes of
+SMILES-2025.
+Why SMILES-2025? The schoo’s focus on generative AI, multimodal
+approaches, and LLMs resonates deeply with my interests and career
+aspirations. I am particularly excited about:
+● Collaborating with international peers to tackle real-world
+challenges in AI.
+● Learning from industry experts about cutting-edge
+advancements in safe AI and self-supervised learning.
+● Gaining hands-on experience through hackathoons and
+workshops, which will bridge the gap between theory and
+practice.
+I aim to pursue a research career in ML, specializing in generative
+models and their applications in multimedia. SMILES-2025 offers a
+unique opportunity to deepen my expertise, expand my professional
+network, and contribute to cross-border AI innovation.
+Thank you for considering my application. I would be honored to join
+SMILES-2025 and contribute my skills, enthusiasm, and dedication to
+this vibrant community.
+Best regards,
+[name] [surname]

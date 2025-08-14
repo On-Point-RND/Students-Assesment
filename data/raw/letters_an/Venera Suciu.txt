@@ -1,0 +1,31 @@
+Good afternoon, this is [name][surname]'s motivation letter!
+Since early childhood, I have been passionate about robotics. Startiing from the 5th grade
+of secondary schoo, I attended the "[name] robotics club, and in the 7th grade, I joined the
+"[compaany] for Mechatronics and Robotics" at [location] State [location].
+After graduating from schoo, I enrolled at [location] State [location] in the program 15.03.06
+Mechatronics and Robotics, specializing in "Drives of Robotic and Mechatronic Systems."
+Currrentlly, I have an understanding of the global technical challenges facing the country in
+achieving technological sovereignty, as well as expertiise in the development and design of flexible
+automated production systems tailored to the needs of industrial partners. I have created smart
+devices such as an autonomous rotating platform and an automated robotic manipulator as part of
+my active participation in various competitions organized by my universiity. I am also currentlly
+mentoring a group of 3rd-year students in project activities, where they are developing a robot
+capable of responding to movements and hand gestures, as well as tracking the face of a specific
+person.
+This experience led me to the idea that my knowledge could be applied to the development
+of a bionic prosthesis. Currentlly, people who face the challenge of limb loss often cannot afford
+such devices due to their high cost. However, my technical analysis of these devices, along with
+my programming skills and experience in designing mechatronic modules, enables me to develop
+a budget-friendly alternative with comparable characteristics to replace a human hand. Therefore,
+I decided to participate in the XVI Youth Scientific and Innovation Competition "UMNIK," which
+would provide me with the opportunity to implement my project. My current area of interest is the
+development of a prosthesis to assist in the adaptation of people with disabilities. I have been
+working toward this idea for a long time, and within the framework of the "UMNIK" competition,
+I successfully secured a grant to realize my project.
+I also plan to apply to the [location] Institute of Technology ([compaany]). From the program, I expect
+to enhance my competencies in the field of artificial intelligence in robotics and to explore the
+application of machine learning in robotics. I aim to deepen my knowledge in the area of machine
+learning. In the future, I plan to pursue a career in scientific research and invention.
+
+
+

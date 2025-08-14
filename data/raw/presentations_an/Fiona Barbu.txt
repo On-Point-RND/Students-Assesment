@@ -1,0 +1,31 @@
+Slide 1
+----------------------------------------
+[location] State [university] named after [name] Lomonosov
+Faculty of psychology
+Psychophysiological mechanisms imagination and memory on movement (EEG method)
+Rapporteur: [name] [surname]
+Scientific director: [name] [surname]
+
+Slide 2
+----------------------------------------
+The topic addresses the fundamental aspects of how our brain processes and stores information related to movement, as well as the mechanisms by which we are able to imagine and plan movements without physically executing them.
+Objective. To identify the most significant brain structures involved in the processes of visual memory and visual imagination.
+Hypothesis. The act of imagining movement activates similar brain regions and the connections between them as does the retrieval of that movement from memory.
+Sample. A cohort of 11 subjects, aged 20 ± 2 years, was selected for this study. The participants were healthy individuals with no history of neurological disorders.
+Methodology and Methods. Participants were presented with 30-second video clips depicting motor activities from a first-person perspective across three scenarios: a cat's journey with a GoPro camera, sliding down an ice hill from a first-person perspective, and riding a bicycle from a first-person perspective. The study consisted of three phases: watching the video clip; mentally replaying the movement from memory with closed eyes; and imagining the movement in reverse along the same path, from the end to the start, with closed eyes.
+To identify the functional connectivity of brain structures based on the analysis of correlation coefficients, a novel method of localizing brain activity, "virtually implanted electrode," was employed. This method involved calculating the correlation coefficients between the activities of brain structures across all scenarios for the "Memory" and "Imagination" series.
+
+Slide 3
+----------------------------------------
+Результаты:
+The data reveals significant correlations between the left Globus Pallidus Medialis and the left Middle Frontal Gyrus (BA10) during both imagined and real motor tasks, suggesting a shared neural pathway for these processes.
+The right Globus Pallidus Medialis and Broca's area (BA44) show a notable correlation, indicating a potential role in language and motor coordination.
+The Caudate Nucleus and Insula (BA13) exhibiit a strong connection, underscoring their involvement in emotional and cognitive processing.
+
+Slide 4
+----------------------------------------
+Thank you for attention!
+For further inquiries or to discuss potential collaborations, please feel free to reach out to me at: [email]
+
+
+

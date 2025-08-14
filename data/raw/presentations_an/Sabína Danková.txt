@@ -1,0 +1,99 @@
+Investigation of Machine Learning Algorithm for
+Personalized Heart Modeling Based on Tomographic
+Data
+[name] [surname]
+[compaany], Institute of Applied Computer Science
+[email]
+Why Do We Need Personalized Heart Models?
+Personalized Medicine:
+Testing New Drugs and Therapies on
+Studying the conditions under which Human Models Instead of Animals:
+arrhythmias occur in a specific patient
+Not all drugs can be tested on animals
+Creating high-quality 3D models to
+improve ablation procedures and reduce It is difficult to accurately predict the
+recurrence in cardiac surgery effects of medications on the human
+heart using animal models
+Traditional algorithms without neural
+networks either perform poorly or fail to
+solve the task at all
+Proposed Solution:
+The solution will be a part of a personalized 3D model of the human heart.
+1. Dataset Acquisition
+The dataset was obtained from the [location] Regional Research and Clinical
+Institute (MONIKI).
+2. Interpolation Task
+The dataset allows us to construct a
+3D model, but initially it looks like this: Reason – large spacing between slices
+Solution – applying interpolation using the
+RIFE neural network
+Why RIFE?
+● The alternative neural network DAIN is now considered outdated; RIFE was introduced
+only in 2020
+● RIFE was trained on two massive high-quality video datasets
+● Like traditional interpolation networks, RIFE builds a depth map and identifies individual
+objects. However, it only reconstructs parts of the frames where object motion occurs
+Result: According to the developers, RIFE is 4 times faster than its predecessors
+3. Validate Interpolation Quality on the Training Dataset
+Remove original MRI slices, keep
+only those obtained via
+interpolation
+Run the interpolation algorithm on
+them
+Compare the results with the
+original slices
+Average Dice Coefficient: 0.8773
+What is DICE?
+A similarity measure between two sets, often used to assess the quality of binary
+segmentation, for example, in object detection tasks in images (including medical
+ones).
+∣A∣ — the number of pixels in the predicted mask that correspond to the object (ones).
+∣B∣ — the number of pixels in the ground truth mask that correspond to the object
+(ones).
+∣A∩B∣ — the number of matching pixels (where both the prediction and the ground truth
+have a value of 1).
+4. Check the interpolation quality on another dataset.
+A high-quality training dataset
+has already been found* — over
+9 Tesla MRI of fixed explanted
+hearts.
+*(https://zenodo.org/records/3764917)
+5. Future work: calibration of the electrophysiologicaal model.
+MGA – Multiobjective Genetic Algorithm* is planned The base model Courtemanche
+to be used for model calibration.
+The values of sodium, calcium, and other channels in
+the model will be adjusted — this will help us
+understand whether the model is functioning
+correctly.
+Resting membrane potential Experimental recording
+dx=0.2 μm, dt=0.007 ms
+*https://elifesciences.org/articles/48890
+6. Simulations in OpenCarp and Refralon.
+OpenCARP is an open-source simulator of cardiac
+electrophysiology for virtual experiments.
+Refralon is a next-generation antiarrhythmic drug. Its
+mechanism of action is planned to be demonstrated on a 3D model of the heart.
+Architecture and novelty of the proposed solution:
+The journal Nature published an article in
+2024* addressing a similar interpolation
+problem for brain MRI.
+We have obtained the same solution for
+atrial MRI independently of theirs.
+Currently, we have no competitors in [location]
+who have entered the market.
+*https://doi.org/10.1038/s41467-024-52260-2
+The laboratory team:
+PhD Computer modeling team:
+[name] [surname] [name] [surname] Karnaukhova Viktoria
+Project Leader [name] [surname] Sinitsyna Anastasia
+[name] [surname] Selivanov Antoniy
+[name] [surname] Kalinine Alexey
+Wet work: [name] [surname] Slotvitskiy Mikhail
+[name] [surname] Turchaninova Elena
+[name] [surname] Dzhabrailov Vitaliy
+[name] [surname] Bakumenko Sergey Doctors:
+[name] [surname] Kovalenko Sandaara Syrovnev Vladimir
+[name] [surname] Shaidullina Regina Kirillova Valentina
+The detailed information about our laboratory can be found here:
+Thank you for your
+attention!

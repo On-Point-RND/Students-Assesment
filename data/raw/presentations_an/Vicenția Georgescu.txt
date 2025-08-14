@@ -1,0 +1,22 @@
+Application for SMILES-2025
+Name: [name] [surname]
+Email: [email]
+Phone: +2 *** *** ***
+Motivation:
+I am a graduaate of [university] with a strong background
+in economics and mathematical methods. My academic path included rigorous
+training in quantitative analysis, modeling, and statistics.
+Recentlly, I have focused on developing skills in machine learning and AI.
+I studied Python, neural networks, and generative models, and I am fascinated
+by the power of large language models and multi-agent systems.
+SMILES-2025 represents a unique opportunity for me to gain hands-on experience
+and collaborate with international researchers. I believe my mathematical
+foundation and growing ML experience will allow me to contribute meaningfully.
+I am especially interested in the practical application of generative methods
+and the chance to participate in real-world challenges and industry-level projects.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
+
+
+

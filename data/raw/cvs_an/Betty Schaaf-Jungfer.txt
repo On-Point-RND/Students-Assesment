@@ -1,0 +1,39 @@
+[name] [surname]
+[location] | +2 *** *** *** | [email]
+Education
+The London School of Economics and Political Science (LSE),
+BS Data Science and Business Analytics 2021 – 2024
+Higher School of Economics (HSE), BS Applied Mathematics and Informatics 2020 – 2024
+Computer Science Faculty
+Work Experience
+[company] | Data Scientist Aug 2024 – present
+• Built a medical accreditation benchmark by processing 5+ GB (>5,000 unique MCQs) across 20+ medical
+specialties
+• Customized a proprietary LLM to solve medical residency-level clinical cases, optimizing for specialty exams
+and increasing pass rates by ~6–7%
+• Secured 5+ accreditations in 4 leading Russian medical universities
+• Developed and deployed two dialogue classifiers in production, each achieving F1 > 0.97
+National Research Universiity "Higher School of Economics" | Teaching Assistant for “Probability Theory and Statistics” course Dec 2022 - Mar 2023
+• Facilitated weekly study sessions (30+ students), guided on course material, and assisted with universiity life
+integration
+• Administered and proctored course examinations
+OOO “Algoritmicheskie Sistemy” (Algorithmic Systems LLC) | Data Engineer Intern Jul 2022
+• Developed a Python/asyncio/WebSocket pipeline for real-time market data extraction from the [company]
+cryptocurrency exchange API
+• Implemented MongoDB for efficient storage and management of extracted high-frequency trading data
+• Performeed data labeling on news fragments for neural network training preparation
+Projects
+Price-tracking website for Wildberries platform Mar 2022
+Keywords: Django, Redis, parsing, HTML, CSS, Bootstrap5
+• Created a website with front-end design implemented in HTML, CSS, and Bootstrap 5
+• Built and deployed a data parser for the Wildberries platform in Python
+• Integrated Redis services to enable efficient offlinne updates and caching of website features
+Key Skills
+Programming Languages: Python, C++, SQL, Assembler, C, R
+Other: Git, Bash, Docker
+Languages: English (C1) - IELTS, German (А1-А2) - Goethe Certificate, Russian (native)
+Relevant Activities and Awards
+2025: Advanced to the Final Round (Upcoming), Deep Learning SchooL (DLS) Olympiad in Machine and Deep
+Learning
+2024 – 2025: DLS course “Natural Language Processing”, by MIPT
+2024: [company] President's Recognition Award, [company]

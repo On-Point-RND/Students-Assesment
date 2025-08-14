@@ -1,0 +1,11 @@
+Dear [name] [surname] Organizing Committee,
+I am excited to apply for the machine learning summer school at [compaany]. As a graduate student of Fundamental and Applied Linguistics at [location], machine learning has been my main scientific interest in the Bachelor’s program, and I hope my skills and passion for ML can contribute to the [compaany] cause.
+During my undergraduate studies, I have had the opportunity to work with several professionals in the ML community, such as [name] [surname], who was an invited speaker at the summer school of the Humanities faculty at [location] when I was volunteering there in my second year of studies. His lecture inspired me to enter the field, and since my third year at [location] most of my scientific endeavors have been focused on machine learning. The SMILES summer school symbolizes a new stage in my journey in ML: after graduating the Bachelor’s program, I look forward to working with fellow participants on various projects and working alongside experts in the field.
+My previous experience has been mostly focused on NLP-adjacent projects, and I want to expand my expertise into other modalities.
+My skills in ML include: proficiency in Python and experience with SQL, experience with such frameworks as Scikit-learn,Kaggle,HugginFace,etc.,and experience with fine-tuning BERT-like models. Most recently, I have had an opportunity to work on a project for my Bachelor’s thesis: I have trained the RuMathBERT model for mathematical formula interpretation in Russian-language contexts. The model achieved the acc@5 metric of 0.22 on the test split compared to the baseline of 0.03–0.06 of comparable BERT-based models on the same task. I presented the developed model with a speech at the AINL 2025 conference, which took place on the 18th of April.
+Although my experience has been centered on NLP, I am eager to expand to other ML modalities. As such, participation in the SMILES summer school will be a great opportunity for me to broaden my horizon and develop new skills while working on real industrial tasks with fellow participants, contributing to my goal of furthering my education later this year and getting into a Master’s program in ML.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
+[location]
+[email]

@@ -1,0 +1,10 @@
+[name] [surname]
+Education
+[compaany]
+[compaany]
+Employment
+CEO of LLC “[name]”
+Curator of the " [project]"
+Skills
+Honors and awards
+Academic projects

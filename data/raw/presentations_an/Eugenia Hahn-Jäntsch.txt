@@ -1,0 +1,141 @@
+RuMathBERT: A
+Russian-Language Model for
+Mathematical Formula
+Interpretation
+[name]
+4th year student at [location]
+Introduction
+Information crucial to understanding scientific papers is commonly
+structured as mathematical formulae.
+This modality differs significantly from plain text in both structure and
+semantics, therefore posing a challenge to vanilla text processing methods.
+The RuMathBERT model proposed in this study is aimed at interpreting the
+inherent hierarchical structure of formulae, as well as the interaction between
+formula semantics and natural language semantics in Russian.
+Problem Statement
+The problem this study is aimed at solving is a lack of automatic processing
+methods aimed at mathematical formulae, which is a crucial part of most
+scientific texts.
+The main challenges include:
+● Choosing a strategy for representing formulae in the dataset.
+● Collecting a large dataset of Russian texts including formulae.
+● Designing ways of evaluating the modelʼs performance.
+Overview
+Existing instruments for the English language:
+1) MathBERT [Peng et al., 2021];
+2) BERT-based formula embedding model [Dadure et al., 2021];
+3) Math-aware BERT [Reusch et al., 2022].
+For the Russian language there is a model for scientific document
+interpretation: ruSciBERT [Gerasimenko et al., 2022], however, mathematical
+formulae arenʼt the main goal of this study.
+Methods
+The main methods of this study are:
+● Automatic data extraction (for forming the dataset).
+● Training BERT-based models.
+● Customizing a WordPiece tokenizer (to account for special LaTeX
+tokens that the formulae are comprised of).
+● Evaluation strategy: cosine similarity between vectors of formulae
+and their names for 100 well-known formulae.
+Data Source
+Russian Wikipedia articles in the Math domain and its sub domains:
+https://ru.wikipedia.org/wiki/Катeгория:Математика
+We extract:
+1. Formulae — mathematical expressions in the LaTeX encoding, in
+categories such as: algebra and calculus; mathematical logic and set
+theory; probability theory and mathematical statistics; matrix theory.
+2. Left context — the part from the paragraph beginning to the formula.
+3. Right context — the part from the end of the formula, up to 2
+sentence end points, or up to the paragraph end point otherwise.
+Example of a Formula in Context
+Определenie
+[ править | править код ]
+Пусть [name],[surname] — две слuchаinыe величины,
+опредelenные на одном и том же Left context
+вероятностном пространстве. Тогда их
+ковариация опредelяется следующим обрazom:
+cov([name],[surname])=E[([name]−[name]E)( [surname]−[name]E)], Formula
+где E — математическое ожidание (в
+русскоязычной литературе также испольzuется
+обозначение M). Предполагается, что все Right context
+математические ожidания E в правой части
+данного вырaжения опредelены.
+Dataset Statistics
+Total articles Total formulae Unique
+processed & contexts formulae
+19.869 190.898 117.582
+Model Training
+We trained the RuMathBERT model from scratch using the collected
+dataset, as well as a custom WordPiece tokenizer:
+1) trained on the same dataset;
+2) with a vocabulary size of 30000;
+3) with additional special tokens [BOF] and [EOF] for marking the
+begiNNing and the end of formulae.
+We applied both MLM (15% masking probability) and NSP objectives to
+train the model.
+Metrics
+1. Ratio of correct “formula–name” pairs in top 5 closest name vectors for
+each formula.
+2. Mean rank of the correct names in a sorted list based on cosine similarity.
+Results
+acc@5 ↑ R̄ (max 100) ↓
+correct
+0.99 1.44
+Deepseek
+0.89 3.92
+GPT-4o-mini
+0.74 7.02
+GigaChat
+0.22 31.95
+RuMathBERT
+0.06 49.12
+ruSciBERT
+0.04 50.02
+rubert-base-cased
+0.03 49.78
+MathBERT
+0.06 50.5
+bert-base-cased
+Results
+The presented RuMathBERT model shows a significant improvement
+compared to other BERT-based modelsʼ performance on the testing task
+designed in this study.
+There is room for further improvement as shown by the results achieved by
+LLMs used in the comparison. Certain improvements can be achieved by
+augmenting the dataset with slightly changed formulae for even better
+understanding of formula semantics.
+Research Gap
+● The current approach implemented in this study processes formulae in
+the LaTeX encoding as part of the plain text, however, using embeddings
+based on operator trees (OPTs) would better represent the structure of
+formulae.
+● Augmenting the dataset by replacing certain sub-formulae with
+equivalent expressions could be a great way of better representing
+formulae semantics.
+Personal Input
+● Dataset (both train and test) collection
+● Metrics design
+● Model training
+● Evaluation of the modelʼs quality
+Bibliography
+1. Walid Ahmad, Elana Simon, Seyone Chithrananda, Gabriel Grand, and Bharath Ramsundar, ChemBERTa-2: Towards chemical foundation
+models, arXiv preprint arXiv:2209.01712, 2022. https://a rxiv.org/abs/2209.01712.
+2. Iz Beltagy, Kyle Lo, and Arman Cohan, SciBERT: A pretrained language model for scientific text, arXiv preprint arXiv:1903.10676, 2019.
+https://a rxiv.org/abs/1903.10676.
+3. Kenny Davila and Richard Zanibbi, Layout and semantics: Combining representations for mathematical formula search, Proceedinings of the
+ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2017, pp. 1165–1168.
+4. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova, BERT: Pre-training of deep bidirectional transformers for language
+understanding, arXiv preprint arXiv:1810.04805, 2018.
+5. Zhangyiin Feng, Liangcai Gao, Ke Yuan, Zheng Gao, Zhi Tang, and Xiaozhong Liu, Mathematics content understanding for cyberlearning via
+formula evolution map, Proceedinings of the ACM International Conference on Information and Knowledge Management (CIKM), 2018, pp. 37–46.
+6. Yuri Kuratov and Mikhail Arkhipov, Adaptation of deep bidirectional multilinguaI transformers for Russian language, arXiv preprint
+arXiv:1905.07213, 2019.
+7. Sheng Wang, Yuzhi Guo, Yuhong Wang, Hongmao Sun, and Junzhou Huang, SMILES-BERT: Large-scale unsupervised pre-training for
+molecular property prediction, Proceeding of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health
+Informatics, 2019, pp. 429–436.
+8. Ke Yuan, Liangcai Gao, Yuehan Wang, Xiaohan Yi, and Zhi Tang, A mathematical information retrieval system based on rankboost,
+Proceeding of the Joint Conference on Digital Libraries (JCDL), 2016, pp. 259–260.
+You can access the
+RuMathBERT model
+repository using this link:
+https://hugginf ace.co/iis-res earch-team/RuMathBERT
+[name]

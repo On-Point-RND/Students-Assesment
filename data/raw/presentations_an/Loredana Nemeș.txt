@@ -1,0 +1,73 @@
+Transformers with
+Causal-Aware Embeddings
+[name]
+Student, [location]
+Introduction
+This research investigates how modifying the embedding layer of a language model — specifically replacing
+the standard pre-trained embeddings with causal-aware embeddings — affects performance, learning
+dynamics, and embedding geometry in transformer-based language models.
+Here, I refer to causal-aware embeddings as to embeddings, that are post-trained for higher similarity being
+between entities, one of which is a cause, and the other one is an effect.
+Embedding layers form the foundation of all representation in transformer models. Despite this, they are often
+inherited from pretraining without modification. Understanding how alternative embedding strategies affect
+learning could spotlight new directions to improving model interpretability, and generalization.
+The goal of this research is to evaluate and compaare the impaact of causal-aware embeddings on a
+Transformer model training behavioor and interpret the differences between vector distributions in the
+embedding space.
+Problem statement
+I aim to determine whether introducing causal structure at the embedding level leads to better alignment
+with tasks involving semantic directionality (e.g., cause → effect) and whether it improves language modeling
+in general.
+Challenges
+1. Usually, embeddings are learned via a semi-supervised approaach with the model itself. However, they
+require additional training on labelled data, such as cause → effect pairs in my case, to introduce special
+properties.
+2. This leads to a quite unusual training setup, where the model it being trained from scratch with frozen pre-
+and post-trained embedding layer.
+3. Specifically for my setuup, the challenge was getting something meaningful out of M1 MacBook compute
+capacity.
+Methods
+Models
+I used pre-trained embedding layer directly from [compaany] with 124M parameters and
+dimentionality of 786.
+Datasets
+I utilized e-CARE dataset, totally obtaining 44784 negative and positive causal pairs.
+The model training was on Wikitext 2 dataset, which presumably utilizes model’s causal abilities.
+Training
+1. Post-trained embedding layer with triplet contrastiive InfoNSE loss – increasing AUC score
+from 0.57 to 0.82.
+2. Trained GPT-2 with frozen pre-trained and causal/post-trained embedding layers on 20% of
+Wikitext for 8 epochs, with LR scheduling, weight decay, and small LR of 1e-6.
+Metrics & Interpretation
+I then compaared training process of both models with attention to top-5 accuracy, validation
+perplexity and loss.
+I then employed PCA and t-SNE methods to visualiize the embedding distribution.
+Results
+Regular GPT-2 “Causal” GPT-2
+val top-5 acc: 0.52 val top-5 acc: 0.52
+val ppl: 662 val ppl: 644
+val loss: 6.5 val loss: 6.47
+Small perplexity and loss improvement – on small
+scale and intervention. As was hypothesized.
+Results
+Interpretation Intuition
+While causal-aware embeddings don’t change This shows that ”fine-tuning” embeddings to
+landscape much overall (due to limitations of favor certain “directions”, like the “causality
+extensive training), when looking at more direction”, leads to better generalization on tasks
+representative picture of t-SNE, which does requiring correspondiing “intellectual
+better job at differentiaating local and global capabilities”.
+manifolds, the difference seems much notable.
+Research gap
+The most occurring problem, which limits this method to be applied at scale, is the necessity to use
+supervised learning on labelled data, compared to utilizing raw text corporaas.
+Defining in which directions to emphasize embeddings and how successfully does it correspoond with
+model’s latent interpretations is an open question.
+Future opportunities
+1. Post-train embeddings jointlly with the model;
+2. Use other human-interpretable features of language to maximize these directions;
+3. Integrate NER and Causal patterns identification in large amounts of text;
+4. Of course, enlarge model size, number of training examples, training time.
+Bibliography
+1. cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+2. https://arxiv.org/pdf/2310.20307
+github.com/[compaany]/the-work

@@ -1,0 +1,52 @@
+[name]
+[email] telegram: @[name]_chuba
+Education
+Applied Models of Artificial Intelligence, Master’s degree 2024 – present
+[university]
+Granted by full tuition scholarship and merit-based scholarship for the full period of study.
+Fundamental and Computational Linguistics, Bachelor's degree 2019 – 2023
+[university]
+NLP major, Math minor
+Dissertation topic: Detecting and reducing bias in comparative question-answering systems
+Granted by full tuition scholarship and merit-based scholarship for the full period of study.
+Practical experience
+Research Engineer, [compaany], LARRS Jan 2025 – present
+Part-time managing a project focused on developing specialized training datasets in computer science for [compaany]. I coordinate expert teams,
+optimize SFT and pretrain collection and create verification processes to ensure high-quality AI training data.
+Data Scientist, [compaany], R&D team Aug 2023 – present
+My work essentially mirrors what you'd find in the "Datasets and Benchmarks" section at NeurIPS – this serves as a good metaphor for what I do
+daily. I began in a text-to-image team, where I built supervised fine-tuning datasets, improved and analyzed pre-training data, created systems to
+compaare our models against competitors, and developed high-quality specialized datasets. Later, I moved to the Visual Language Model (VLM)
+team, where I built our internal metrics system for model evaluation. My current focus is on enhancing our model's performance across OCR-related
+tasks through additional training and by incorporating high-quality data at different stages of the learning process.
+ML developer, [compaany] Feb 2022 – Aug 2023
+As part of a Russian spell checker development team, I specialized in real-word error detection algorithms while also contributing to text-to-speech
+normalization research. My responsibilities included collecting and preparing data for seq2seq models and developing comprehensive testing
+frameworks. Additionally, I conducted work in speech synthesis and voice cloning technolologies. I utilized various data science tools and natural
+language processing frameworks throughout this project before transitioning to my current position.
+Research Assistant, Laboratory for Formal Models in Linguistics, HSE Sep 2020 – Dec 2022
+My research at the laboratory addressed word order patterns in Russian. Unlike previous studies that relied on isolated examples, our team
+collected extensive corpus data and conducted quantitative experiments with statistical analysis over a two-year period. This work yielded several
+publications and conference presentations listed below. While I've since moved on from this laboratory, these research contributions remain a
+significant part of my academic background
+Teaching & supervising experience
+Data Analysis and Machine Learning Elective Course Teacher Jan 2024 – present
+[university] Lyceum
+Machine Learning Project Lead Apr 26 – May 5, 2024
+All-Russian Educational Center "Sirius", "Sirius.AI" Program
+Natural Language Processing Project Lead Dec 10-25, 2023
+All-Russian Educational Center "Sirius", "Algorithms and Data Analysis" Program
+Computaional Linguistics Project Lead Oct 12-24, 2022
+All-Russian Educational Center "Sirius", “Linguistics” Program
+Oral presentations & publications
+Morozov, K., [name], [name] & [name]. (2025). Think Node by Node: non-linear thought structure for LLM reasoning.
+Currently under ACL Rolling Review.
+Kastryulin, S. et al (2024). YaART: Yet Another ART Rendering Technology. arXiv preprint arXiv:2404.05666. – will be presented at KDD 2025
+[name], [name], (2023, June). Neural spell checker for the Tajik language. Workshop "Linguistic Diversity of Tajikistan", Institute of
+Linguistics of the Russian Academy of Sciences, [location].
+[name], [name], [name] (2022, October). Relative position of Dative objects in Russian: Argumental vs.
+non-argumental Datives. Quantitative methods. Typology of morphosyntactic parameters, Moscow
+[name] (2022, September). Real-word errors correcting. Field seminar on machine learning of the HSE Faculty of Computer Science,
+Moscow.
+[name], [name], [name] (2021). The order of objects in Russian: a corpus study. In Computational Linguistics and
+Intellectual Technologies: Papers from the Annual International Conference “Dialogue”(2021). Issue 20. Russian State Universiity for the Humanities.

@@ -1,0 +1,79 @@
+            
+            The diploma work is devoted to customer traffic analysis. The problems of video analytics are considered. A publicly available model for counting visitors is planned to be developed with available user interface. This will allow optimizing the work of the store, libraries and all other facilities.
+Presented by: [name] [surname], DSBA213, FCS
+Code: https://github.com/[name]/CustomerTrafficCV
+Actuality of the research
+The growth of the video Application examples Focus on store location
+market efficiency
+🏪 Evaluation of advertising and
+The video analytics market size was Most scientific articles focus on
+location effectiveness.
+valued at USD 8.3 billion in 2023 checking customer behavior inside
+and is expected to grow at a CAGR the store. However, starting
+of 22.3% from 2023 to 2028. businesses often also check
+ability to detect overcrowding effecitiveness of location choice.
+problem in stores.
+Goal: to research available cameras in the market, the current existing solutions and create open source application showing customer traffic count with help of CNN model
+Methodology
+Market research
+Researching the available video cameras and the available services for videoanalytics
+Data collection
+Getting available data from the Net and the available Surveillance cameras for testing the models.
+Model choice
+Choosing a visitor counting model among the available ones.
+Accuracy assessment
+Accuracy and performance analysis.
+Creating an API
+Making a platform and API to access the chosen model.
+Market research
+Video Cameras Available Paid Analytics Services
+Analysis of available video cameras and their specifications. Comprehensive analysis of various video analytics services.
+Type of cameras researched: Available services:
+• IP • Beeline (one ecosystem for checking the various business processes including counting visitors)
+• >= 4 MP including counting visitors
+• Ivideon (detection of visitors with visualizations)
+• with RTSP protocol
+• ITV (detection of poses)
+Data for analysis
+Data sources Data volume
+Video from store surveillance cameras. Resolution 30 videos with people moving in and out the shop 1920x1080, 30 fps. + 100 frames with people labels in any place + 20 custom frames from the surveillance camera = 150 photos
+Mathematical model
+• Deep convolutional neural network
+Convolution layer formula:
+• YOLO - ImageNet
+• YOLOv5 - EffectiveNet
+Object detection: non-maximum suppression (NMS)
+Goal: F1-score >= 80%
+Tried models
+Review of approaches Model selection Architecture
+• Feature extraction Tried: Backbone, Neck, Head (YOLO Layer).
+• Object detection
+• Yolov8n-640
+• Deep Learning
+• YOLOv5
+• Convolutional Neural Networks
+• Person-detection-yucm9/1
+Model metrics
+YOLOv5 Person-detection-yucm9/1
+Confidence level ~= 0.87 Confidence level ~= 0.6
+Yolov8n-640
+Confidence level = ~0.6
+Chosen: YOLOv5, because has highest metrics
+Interface for model
+Transferring video files Web interface with API Visitor Counter
+Transferring video files from a local computer to a server. Development of a web interface with basic APIs. for viewing a visitor counter.
+To create a system that connects a local PC to a server, it was necessary to organize the transfer of video files from the local computer, where they are stored, to the server. Then a web interface was developed, where the main APIs are located, as well as a visitor counter using FastAPI.
+Application
+API Web interface
+1 Integration into video surveillance systems. Data visualization and traffic analysis.
+2 Personnel optimization Peak Load
+3 Reduction of labor costs if there is not high customer traffic. Preparing for increased flow.
+4
+Conclusions and Prospects
+Contribution to the field
+Focus on customer traffic analysis Applied effective visitor counting model Open source API
+Researched the market of the customer traffic analysis, not only the customer behavior analysis inside the shop.
+F1-score (0.86) is pretty much high and is as good as other solutions.
+Limitations & Further research
+Distorted images Does not able to work with distorted images, like Fisheye.
+Does not focus much on data privacy. Focus on counting visitors entering the building from the inside. It is possible to try to count visitors from outside instead.

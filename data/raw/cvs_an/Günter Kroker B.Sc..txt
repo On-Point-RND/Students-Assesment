@@ -1,0 +1,55 @@
+[name][email]
+Master student in Engineering Systems @[name]
+Post-graduate with experience in CV and NLP and basic knowledge [compaany].
+Focused on a systems approach to designing solutions using artificial intelligence technologies to increase productivity and labor efficiency.
+EDUCATION SKILLS
+Engineering Systems
+PyTorch Scikit-Learn Optuna Numpy
+[compaany]
+Git Pandas Transformeers PEFT Docker
+09/2023 - 08/2025, GPA 5.0
+Relevant Courses
+Datasets Pytorch-Lightning Python
+Deep Learning Machine Learning
+Reinforcement Learning Deep Learning for NLP High Performance Computing OpenCV
+Models of Sequential MSc Thesis: "Computer Data vision model for automatic coin grading"
+PERSONAL PROJECTS
+Control in Technical Systems
+Texts Detoxification using LLMs
+Bauman Moscow State Technical University
+Finetuned T5 model for multilingual text detoxification.
+09/2019 - 08/2023, GPA 5.0
+Finetuned BERT for toxic content detection.
+Relevant Courses
+Applied GRU and LSTM for texts sentiment analysis.
+Neural Networks
+Reinforcement Learning projects series
+Speed up the PPO training for 10% by using energy-based reward.
+Developed a multi-thread REINFORCE algorithm from a scratch.
+WORK EXPERIENCE / INTERNSHIPS
+Designed a Q-Learning agent for Dice Blackjack game with win rate of 57% (it can literally make the casino bankrupt).
+ML Engineer (outsstaff)
+Was a team lead for all three projects.
+[compaany]
+ATM load time series classification with meta-learning
+06/2024 - 12/2024,
+Designed a pipeline for the data preprocessing
+Accomplished tasks
+Designed a Fourier-based features for time series classification
+Collected 1.3M samples datasets from the open sources using GetML library
+Accelerate the CNN training by using GPU-based image Increase accuracy from 15% to 25% with hyperparamaters augmentations and NVIDIA DALI data loading tuning
+Increased the accuracy of Captcha solver from 78% to 94% using the Bayesian tuning of the hyperparamaters
+ACHIEVEMENTS
+Intern LLM agent developer
+Golden medalist (06/2024)
+IT-ONE
+National contest "I am a Professional" - Electronics, Radiotechnics and Communications systems section
+The company provides software and IT infrastructure development for companies Golden medalist (06/2023)
+Accomplished tasks National contest "I am a Professional" - Electronics, Radiotechnics and Communications systems section
+Made a bot for creating the business process diagrams in BPMN notation by textual descriptions Best-introduced paper (03/2023)
+Designed a framework for XML files preprocessing that allowed to compress them up to 8 times before passing to LLM
+Automated the bots benchmarking with GigaChat Pro and YandexGPT 3.0 LANGUAGES
+Russian English
+Native speaker Advanced (C1)
+INTERESTS
+Computer Vision Reinforcement Learning NLP

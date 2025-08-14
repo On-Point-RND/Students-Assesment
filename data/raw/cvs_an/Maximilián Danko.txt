@@ -1,0 +1,38 @@
+[name] [surname]
+Intern ML Engineer
++2 *** *** *** tg: @[name][surname] [location] GitHub
+Summary
+ML Engineer buildiing ML models, integrating models and algorithms in collaborative environments. Experienced in
+Tensorflow, Keras, Scikit-learn, Pandas, Agile/SCRUM. Successfully built ML models for educational and product
+perposes. Passionate about delivering stable and optimized software to enhance user experience.
+Hard Skills
+● Pandas ● Tensorflow, Keras
+● Scikit-learn ● Docker
+● Upper-intermediate english ● Git, CI/CD, Git flow
+Soft Skills
+● Team worker ● Organized
+● Excited to learn ● Responsible
+Work Experience
+Projects:
+ML Engineer
+2025
+[company] AI Workshop Week prediction of release of interleukins using sequential data
+● Conducted experiments with consistent data and ranked features (Feature importance).
+● Built Multiclass and Multilabel Model to predict target
+● Put experiments using transformers, GRU, boostings and tuning parameters (Ligthautoml).
+ML Engineer, Backend Deveveloper
+2024 – Present
+Automatic furniture layout app
+● Developed 3D objects management system. Worked with NumPy, SymPy, Flask, Redis.
+● Implementing a reinforcement learning algorithm generates furniture layout.
+ML Engineer
+2024
+[compaany] Taxi game algorithm
+● Implemented DQN to solve Taxi game problem
+Education
+[location] Universiity 2023-2027
+Computer science
+Key courses:
+● Software system analysis and design ● Data structures and algorithms
+● Analytical geometry and linear algebra ● Introduction to machine learning
+● Probability and statistics

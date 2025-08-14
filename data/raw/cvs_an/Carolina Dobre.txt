@@ -1,0 +1,53 @@
+[name] [surname]
+[compaany]
++2 *** *** ***
+29.06.2002
+Education
+[compaany]
+MSci Machine Learning & Big Data 2024 - 2026
+In collaboration with [compaany]
+Key topics: Classic ML, Algorithms, Python, Statistics, Analytics, CV, NLP, RL, AI in biology.
+Dissertation: Predicting protein mutation effects using deep learning language-models-based approaches, focusing on non-linear mutation interactions.
+[compaany]
+BSc Computer science and System design 2020 - 2024
+Courses included: Classic ML, Probability, Mathematical Analysis, OOP, theory of AI,
+Neural Networks, System Design and others.
+Research project: Developed a plugin for visualizing gene interaction networks, integrating evolutionary data.
+Scientific experience
+Conferences
+- International Student Scientific Conference (ISSC) 2024, [location]
+Third prize
+“Implementation and integration of algorithms for combining data on gene interactions and their molecular evolution”
+- ISSC 2025, [location]
+“Comparison of performance of deep learning models in the task of predicting the effects of multiple protein mutations”
+Relevant work experience
+[compaany] (Institute of Cytology and Genetics) 2022 - 2024
+Bioinformatics researcher
+Team project on immune cell research supported by the Russian Science Foundation.
+Personal impact involved collecting and statisytically processing immune cell datasets, developing data analysis pipelines in Python and R.
+[compaany] ML in biology laboratory 2024 - …
+ML/DL researcher
+Applying machine learning to computational biology; focusing on predictive modeling for protein mutations.
+[compaany] School of Systems Biology 2020 - …
+Organizer / lecturer / researcher
+Project is aimed to create a close cooperation between high school and universiity students, young scientists and skilled professionals. Led workshops and took part in organization of 1-2 weeks events in 8+ cities, which gave me experience in a lot of scientific communication, organisation of science-related events, educational and research project activities
+SESC [location] (Specialized Educational Scientific Center) 2022 - …
+Teacher / mentor
+Project activity teacher in IT and microcontroller programming for high school students. I perform such tasks as theoreticaal studies, practical lessons, project supervision and preparation for the conference. Also participate as a teacher in SESC Summer School, where pupils have to learn coding almost from scratch and design their own project in 1-2 weeks.
+Other
+CompTech Winter School, [location] 2025
+One-week school and hackathon, where, as a part of a team, I worked on a CV-relat ed project: Porcelain Stamps Recognizer. During this project we had to go through the whole lifecycle of the project, from data collection to model deployment. My area of responsibility was data annotation, preparation of the dataset, implemenation of one of the models (Siamese network) and its integration into the web service.
+Skills
+IT
+- Git - R
+- Python - Java
+- C/C++
+ML/DL
+- Classic ML, Reinforcement Learning - implementaion of algorithm s from scratch
+- NLP, CV - implementing and training simple models (PyTorch), running and experimenting with deep learning models popular in my work field
+- Statistics
+Soft skills and other
+- Fluent English (C1, CAE-certified)
+- Teamwork experience
+- Scientific reports
+- Work in scientific laboratories

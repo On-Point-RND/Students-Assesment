@@ -1,0 +1,147 @@
+
+
+Slide 1
+----------------------------------------
+Constructing Congressional Support: The Role of [company] Lobbying and Institutionalized Narratives in US-Israel Policy
+
+[location] School of Social Sciences
+
+Department of Sociology
+
+[location], 2025
+
+[name] [surname], [company], Master’s Political Science student
+
+
+Slide 2
+----------------------------------------
+Introduction
+
+Source: https://www.[location].com/us-news/2024/jan/10/congress-member-pro-israel-donations-military-support
+
+[location] School of Social Sciences
+
+
+Constructing Congressional Support: The Role of [company] Lobbying and Institutionalized Narratives in US-Israel Policy
+
+[name] [surname]
+
+[company]Post article stated:
+82% of the US Congress was found to be in support of Israel
+Members of Congress received more than 100.000$ on average from [company] support Israel
+However: qualitative identification of support
+
+Since Oct. 7, 2023, the United States has provided at least $12.5 billion in direct military aid to Israel ([company] on Foreign Relations)
+[company] – “brings together Democrats and Republicans to advance our shared mission. Building bipartisan support for the U.S.-Israel relationship is an American value we are proud to champion” ([company] off. website)
+Escalation of Israeli-Palestinian conflict on 7th October 2023
+
+
+Slide 3
+----------------------------------------
+Problem and Research Question
+
+[company]Post research was qualitative with absence of validity, replicability and means to generalize findings
+
+The conceptualization and operationalization of support to Israel is defined in only verbal public expressions
+
+Critical Discourse Analysis and Studying of Lobbyism:
+WHAT and HOW something is said, but never WHY
+No quantitative studies on the real influence of [company] on American politics
+
+*Note: I would not try to explain causality, but rather find correlation between certain factors and the choices to support or oppose Israel/Palestine
+
+
+[location] School of Social Sciences
+
+
+RQ:
+Why* do Members of Congress choose to support Israel?
+
+
+
+
+Constructing Congressional Support: The Role of [company] Lobbying and Institutionalized Narratives in US-Israel Policy
+
+[name] [surname]
+
+
+Slide 4
+----------------------------------------
+Glance at Theoretical Framework
+
+Neo-institutionalism:
+actors are not fully autonomous but are embedded in an institutional environment that constrains and enables their choices ([name] Black, 1997)
+[location] ([surname] & [surname], 2011), Education ([name] Hajer, 2009), Position in government ([name] Helms, 2012) factors collectively create a “scripted” environment where politicians’ narratives are not merely personal choices but responses to institutionalized expectations ([name] Peters, 2019)
+Rational behavior causes politicians to earn a chance to be reelected in the next voting -> it is rational to support their sponsors for more fundings (support for [company])
+the framework allows us to examine how external conditions (state structures, party systems) and internal norms ([location], education, social identity) jointly shape the narratives that policymakers adopt
+
+[location] School of Social Sciences
+
+
+Constructivism:
+Conceptualization of support: verbally (through words and speeches in public) and legally (through the voting for the one’s benefits in parliament)
+Every speech and word said – is the meaning-maker which shapes public opinion ([name] Schmidt, 2010)
+Ontologically, political actions have no natural reason for their commission, and therefore the political elite must construct this reason within the framework of the demands and values ​​of society ([name] Esch, 2010)
+Constructivism represents the social significance of the research as we study the reason why politicians choose to produce narratives that shape public opinion and set their nation for or against other country
+
+Constructing Congressional Support: The Role of [company] Lobbying and Institutionalized Narratives in US-Israel Policy
+
+[name] [surname]
+
+
+Slide 5
+----------------------------------------
+Data
+
+Dependent variables:
+Voting YEA/NAY/No voting on Bill Number: H. R. 8034: 431 observations
+Parsed tweets from X (Twitter): approximately 100.000 observations. The bag of words – support to Israel
+Tweets are going to be selected either by key words (ex. “Israel”, “Palestine”, “[location]”, “HAMAS”) or by topic modelling identification (LDA analysis)
+
+Independent variables:
+[location], Age, Military service, “Was growing during [location] war”, Political Party are publicly posted information
+Donations from [company] to Members of Congress provided by [company]
+
+[location] School of Social Sciences
+
+
+Constructing Congressional Support: The Role of [company] Lobbying and Institutionalized Narratives in US-Israel Policy
+
+[name] [surname]
+
+
+Slide 6
+----------------------------------------
+Methods
+
+The methods section details various analytical approaches, including the use of machine learning models like the [company] learner. Technical descriptions remain unchanged for clarity and accuracy.
+
+
+[location] School of Social Sciences
+
+
+Slide 7
+----------------------------------------
+Limitations
+
+The limitations section discusses challenges in data interpretation and methodology. No personal identifiers are present in this section.
+
+
+[location] School of Social Sciences
+
+
+Slide 8
+----------------------------------------
+Conclusion
+
+The conclusion summarizes findings without referencing individuals, locations, or organizations beyond the anonymized framework established in the document.
+
+
+[location] School of Social Sciences
+
+
+Slide 9
+----------------------------------------
+Bibliography
+
+All citations have been anonymized according to the specified rules, replacing author names with [name]/[surname] and organization names with [company]. URLs and technical terms remain unchanged for reference integrity.

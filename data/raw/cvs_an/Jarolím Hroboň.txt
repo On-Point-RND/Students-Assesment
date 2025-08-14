@@ -1,0 +1,94 @@
+[name] [surname]
+[email] (cid:97) [name] (cid:294) +2 *** *** *** (cid:231) [location]
+Education
+PhD degree [compaany] [location]
+Engineering systems September 2024 - now
+Master degree
+[compaany] [location]
+Engineering systems track Robotics GPA:4.9 September 2022 - June 2024
+Supervisor: [name] [surname], PhD
+Bachelor degree
+[compaany] [location]
+Instrumentation engineering March 2020 - June 2022
+Mechatronics and robotics September 2018 - March 2020
+Additional courses
+Fundamentals of C programming. Tasks. April 2022
+Radio Electronics and Instrumentation Technician April 2021 - now
+№3424610133506
+Work experience
+Robotics Center, [compaany] [location]
+Chief Robotics Engineer Sept 2023 - Present
+Led Cobot Magic platform modernization: increased mechanical stability, design & implemented autonomous power management system (4h+ uptime), and established ML-ready data pipelines;
+Integrated camera drivers part in universal manipulation framework (Intel RealSense/Stereolabs ZED/Orbbec), reducing sensor setup time by 35%, framedropping, latency, etc.;
+Managed full-cycle production of 60 computing units: optimized assembly workflows (25% faster cycle time) and implemented automated QC (98% yield rate).
+[compaany] [location]
+Research Technician October 2021 - May 2022
+Projects
+An Intelligent AI-Driven Decision Support System for Agronomists Using Computer Vision and Robotic Automation in Protected Soil Vegetable Production ( [compaany] )
+Development of the teleoperational system for collaborative manipulator using IMU sensors
+Participant of the Eurobot robotics competition of the ReSet team ”ReSet”(6-time winners [location]) as an electronics engineer
+Carried out the calculation and design development of intelligent battery control and monitoring system (BMS)
+Simulation of the scene of an industrial enterprise in the Gazebo environment for the study of methods for optimal planning of the path of a mobile logistics robot in a dynamically loaded environment
+Developed a program for calculating the parameters of the electromagnetic system of an electromagnetic inductive converter
+Developed an experimental prototype of automated solder in a bath with PCB immersion soldering method
+Produced a medical prototype of silicone strap technology to provide optimal parameters for measuring lung volume by electroimpedance tomography
+Achievements
+Program ”UMNIK-2021” [location]
+Grant winner April 2022 - April 2024
+Development of a mobile logistics robot with intelligent control
+Scientific Conference ”Summer School of Robotics in Sirius - 2022” [location]
+Participant June 2022
+Full differential drive kinematics of a mobile logistics robot with intelligent control
+Russian National Student Olympiad ”I am a Professional” [location]
+Bachelor’s Degree Section winner in Robotics (Top 0.2% from 6000) May 2021
+University level Olympiad [compaany] [location]
+Secured a first place in the field of theoretical mechanics December 2019
+Robotics Expertise
+Full-cycle robotics development: from concept to functional system (mechanics, electronics, low-level firmware & drivers)
+Advanced sensor systems:
+- Professional vision systems (Stereolabs ZED, Intel RealSense, Orbbec, Azure Kinect, Hikrobot, Mocap systems )
+- Sensor synchronization & calibration:
+· Hardware-level sync (PTP, trigger signals)
+· Temporal alignment of multi-modal data streams
+· Intrinsic/extrinsic calibration of camera arrays
+· IMU-camera calibration (Kalman filtering approaches)
+High-end actuators & manipulators:
+- Precision drives (Maxon, Dynamixel)
+- Industrial and grippers (Universal Robots, xArm, Robotiq)
+- Mobile platforms (Unitree, AgileX)
+Technical Skills
+Hardware:
+- Rapid prototyping (3D printing, CNC machining)
+- Circuit design (PCB, soldering)
+- Custom sensor synchronization solutions
+Software:
+- Languages: Python (SciPy/NumPy/OpenCV), C/C++, MATLAB, Bash
+- 3D Vision: Open3D, PCL, ROS camera drivers
+- Calibration tools: OpenCV, MoveIt! plugins, custom solutions
+- Embedded: PlatformIO, STM32 HAL, motor control
+Development: ROS, ROS2, PyQT/PySimpleGUI, LATEX, Git
+Tools:
+Basic: Git, MS Office
+Math-calculation packages: Matlab, Simuliink, Matcad 15, LabView, Scilab
+2D and 3D packages: Inventor, Fusion 360, AutoCAD, Kompas 3D, CorelDraw, Solidworks, Cura,
+Adobe Photoshop
+Design and simulating packages: Altium designer, Micro-Cap 12, Protues 8, Easy EDA
+OS and VM packages: VM VirtualBox, Vmware workstation, Linux, Docker, ROS, ROS2 (incl.
+Gazebo, RVIZ)
+Hardware packages: µVision IDE, STM32CubeMX, Rd-works, Gbl controller
+Language: English (B2), Russian (native)
+Publications
+Conferences:
+[name]; [name]; [name]; [name]; [name]; [name]. IROS 2025, TOCALib: Optimal Control Library with Interpolation for Bimanual Manipulation and Static Obstacles Avoidance, submitted
+[name]; [name]; [name]; [name]; [name]; [name]; [name]; [name]. IEEE Access 2025, On the RANSA C performance for quadric surfaces in noisy, submitted
+[name]; [name]; [name]; [name]; [name]; [name]; [name]; [name]. Zavalishinsky Readings 2025, The Impact of Noise on the Quality of the Second-order Curve Recognition by Random Sample Consensus algorithm, accepted.
+[name]; [name]; [name]; [name]; [name]. ”AirTouch: Towards Safe Human-Robot Interaction Using Air Pressure Feedback and IR Mocap System,”in Proc. IEEE Int. Conf. Systems, Man, and Cybernetics (SMC 2023), Maui, Hawaii, 1-4 Oct., 2023, accepted. (Scopus and WoS, H-index (SJR)=63).
+Registered Computer Programs:
+[name] [surname]; [name] [surname]; [name] [surname]; [name] [surname]; [name] [surname]. Making basic arithmetic operations for a 16 bit microcontroller (MK 16) №2021660330, June 24, 2021
+[name] [surname]; [name] [surname]; [name] [surname]; [name] [surname]. PWM signal control using a PID controller for robot system motion along a given trajectory (RT-PID) №2021663298, Aug. 14, 2021
+Leadership
+Assistant of the Department of Engineering Cybernetics [compaany]
+(self-supervised courses: Electrotechnics, Mechatronics)
+Teamlead of mobile logistics robot development and design team at [compaany] with DONSTU cooperation
+Hobbies
+Road cycling, running, tourism, science fiction reading, drawing, music writing

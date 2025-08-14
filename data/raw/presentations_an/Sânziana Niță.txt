@@ -1,0 +1,188 @@
+Slide 1
+----------------------------------------
+Deep-learning aided bacteria diagnostics using multimodal optical spectroscopy
+[name], [name], [name], [name]
+Faculty of Physics, [compaany], [location]
+[location], 2025
+
+Slide 2
+----------------------------------------
+MICROORGANIISM IDENTIFICATION IN CLINICAL PRACTICE
+[name], [name], [name], [name], JFDA 27(2), 404-414 (2019)
+Image of
+a growth medium with
+a microorganism in it
+Motivation: fast and precise microorganism identification is crucial for assigning the correct diagnosis and appropriate treatment for the patient
+Main stages of pathogen identification process:
+Biomaterial collection
+Cultivation inside growth medium (24-36 hours)
+Sample preparation (1 hour and more depending on the method)
+Identification: 
+Time-of-flight mass-spectrometery (+1 hour, bigger laboratories)
+Biochemical identification (+24 hours)
+
+
+Slide 3
+----------------------------------------
+3
+RESEARCH objective AND TASKS for achieving it
+Objective: to develop a model that classifies microorganisms into 25 key clinically relevant species based on fluorescence spectroscopy and optical imaging.
+Tasks:
+To conduct an exploratory analysis of the experimental data obtained, to select a metric for assessing the quality of classification
+To develop models and input preprocessing methods for classification from fluorescence spectroscopy, optical imaging, and combined optical data from both modalities, and compare the models with each other
+Analyze the importance of different spectral components on classification accuracy and how number of excitation wavelengths for fluorescence spectroscopy data affects the score
+Optimize the architectures of the developed models to maximize classification accuracy
+
+Croce, A. C., & Bottiroli, G., Histochemistry of Single Molecules, 15-43 (2017)
+A – Staphylococcus.ludgunensis, B – Candida.albicans
+2 cm
+
+Slide 4
+----------------------------------------
+4
+Fluorescence spectroscopy for samples with microorganisms
+Image of an experimental setup for obtaining fluorescence spectra of samples with microorganisms
+monochromator
+spectrometer
+sample
+source
+Excitation and detection parameters:
+Excitation: 280-460 nm, 20 nm step
+Detection: 300-800 nm, resolution ~3 nm
+Light intensity on the sample: 150-250 mcW/mm2
+Irradiation time ~40-140 ms
+Example of fluorescence emission spectra obtained from a single colony in a sample:
+
+Excitation wavelengths nm
+Emission wavelength [nm]
+Normalized intensity [arb. unit]
+EEM Measurement
+
+Slide 5
+----------------------------------------
+5
+OPTICAL IMAGING OF SAMPLES WITH MICROORGAINISMS
+A
+B
+Examples of images obtained on the photomodule in reflected light for samples containing microorganisms belonging to the species:
+A – Staphylococcus.ludgunensis
+B - Klebsiella-pnuemoniae
+Manufactured photomodule mock-up
+sample
+illumination
+camera
+2 cm
+
+Slide 6
+----------------------------------------
+6
+ACCUMULATED OPTICAL RESPONSE DATASET
+Clinically important (CI) species are the key categories of microorganisms in identification, identified by the microbiologists of the [location] City Clinical Hospital No67
+Distribution of the number of samples by clinically important (CI) species in the collected optical dataset for classification
+The classification task is further complicated by:
+High number of predicted classes
+A sharp imbalance in the number of representatives among different classes in the collected dataset
+
+Slide 7
+----------------------------------------
+7
+Classification on fluorescence spectroscopy data
+[1] [name], [name], et al., IEEE, 2261-2269 (2017)
+Classification accuracy on test dataset
+Data preprocessing flowchart
+DenseNet Architecture
+flowchart
+F-score
+Macro-averaged F-score = 0.822 ± 0.003
+Principal Component Analysis
+Principal Component Analysis
+Classifier
+model
+
+Slide 8
+----------------------------------------
+8
+PREDICTION OF HIGHER HIERARCHY CLASSES
+…
+Predicted taxon
+Species
+…
+Genus
+…
+ panel
+Gram
+Neural network
+
+Preprocessing (PCA)
+Classifier
+model
+
+Slide 9
+----------------------------------------
+9
+TRAINING A MODEL WITH HIERARCHICAL REGULARIZATION
+Penalty for incorrect recognition of higher hierarchies:
+Hierarchical regularization
+Macro-averaged F-score = 0.833 ± 0.008
+Model predicting clinically important species
+Model with hierarchical regularization
+F-scores for model predicting clinically important species
+F-scores for model trained with hierarchical regularization
+
+Slide 10
+----------------------------------------
+10
+EXCITATION WAVELENGTHS AMOUNT EFFECT ON CLASSIFICATION METRIC
+Classification quality on a test dataset for models trained on emission spectra excited at a single wavelength
+Excitation wavelength [nm]
+F-score
+
+Slide 11
+----------------------------------------
+11
+CLASSIFICATION ON OPTICAL IMAGING DATA
+5120 px 
+384 px 
+Round mask +
+resolution reduction
+Image preprocessing
+[name], [name], et al., IEEE, 11966-11976 (2022)
+Optical imaging (ConvNeXt)
+Fluorescence spectroscopy (NeuralNet+hier-reg)
+Macro-averaged F-score 0.7751 ± 0.0012
+F-score
+
+Slide 12
+----------------------------------------
+12
+CLASSIFICATION ON DATA OF BOTH MODALITIES
+с
+Preprocessing (ConvNext)
+с
+Preprocessing (PCA)
+Selected approach: 
+Trainable data aggregation based on a neural network
+Neural network 1
+Neural network 2
+concatenate
+Neural network 3
+Probabilities
+Excitation wavelength 360 nm
+Emission wavelength [nm]
+Normalized intensity [arb. unit]
+Macro-averaged F-score = 0.8511 ± 0.0026
+F-score
+Optical imaging
+0.7751 ± 0.0012
+Fluorescence spectroscopy
+0.833 ± 0.008
+Merge
+0.8511 ± 0.0026
+
+Slide 13
+----------------------------------------
+13
+CONCLUSION
+
+
+

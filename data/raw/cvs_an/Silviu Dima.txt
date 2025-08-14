@@ -1,0 +1,77 @@
+To[name]
+Data Scientist
+23 years, 14.05.2001
++2 *** *** *** — preferred means of communication • Telegram: @[name]
+[email]
+Work experience —1 year
+November 2024 — [compaany]
+till now
+[location], www.[compaany].ru
+5 months
+Research Intern
+-Developed a Retrieval Augmented Generation (RAG) system for robotic visual navigation using LLMs.
+-Built a topological graph-based database from video data, including key frame selection and
+scene/object extraction.
+-Integrated segmented object graphs to improve query-based navigation.
+-Implemented query processing methods for pathfinding in visual topological graphs.
+November 2024 — [compaany]
+January 2025
+[location], www.[compaany].ru
+3 months
+Junior ML Engineer
+-Developed an anomaly detection system for rolling stock, reducing equipment failure probability.
+-Automated data processing workflows.
+-Optimized the model, improving anomaly detection accuracy by 40%.
+-Ensured seamless system integration into the client’s infrastructure.
+July 2024 — [compaany]
+August 2024
+[location], rabota.[compaany].ru/
+2 months
+Intern ML Engineer
+-Developed an LLM-powered assistant for retrieving information from corporate documents in Russian.
+-Created a pipeline for automatic data labeling, accelerating training set preparation.
+-Achieved 96% recall and 81% precision, ensuring high-quality search results.
+-Fine-tuned LLM and cross-encoder models for relevance assessment of retrieved documents.
+June 2022 — Payment and Financial Technologies Development Center of the
+August 2022 National Bank of Kazakhstan
+3 months
+[location], www.nationalbank.kz/en
+Data Analyst
+-Analyzed transactional data to identify patterns and potential risk factors.
+-Formulated and tested hypotheses on relationships between financial metrics, improving risk
+assessment models.
+-Conducted A/B testing of anomaly detection strategies, increasing the accuracy of fraudulent
+transaction filtering.
+-Segmented customers based on transactional behavior, providing insights for product
+optimization.
+-Developed reports and dashboards for financial analytics.
+CV updated 5 March 2025 at 12:37
+Education
+Master’s degree
+2025 [compaany], [location]
+Master’s degree, Data Science, Machine Learning and Artificial Intelligence
+2023 [compaany], MIPT
+Bachelor’s degree, Problems of Physics and Power Engineering, Space Physics
+Professional development, courses
+2023 Deep Learning on neural network technologies
+Deep Learning School
+2022 Specialization "Applied Data Science with Python"
+University of Michigan
+2021 Specialization "Python for Everybody"
+University of Michigan
+2020 Math and Python for data analysis
+[compaany], Yandex, E-Learning Development Fund
+2020 Basics of statistics
+Institute of Bioinformatics, Stepik
+Skills
+Languages Kazakh — Native
+English — C1 — Advanced
+Russian — C2 — Proficiency
+Skills Python SQL LLM Git Linux C++ Docker Data Analysis Machine Learning
+Deep Learning NLP
+About me
+ML Engineer with strong analytical and problem-solving skills. Passionate about developing
+cutting-edge AI solutions. Seeking a company where I can grow and enhance my expertise. Open
+to networking and collaboration!
+Projects: https://github.com/[name]
+CV updated 5 March 2025 at 12:37

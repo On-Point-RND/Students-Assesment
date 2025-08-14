@@ -1,0 +1,41 @@
+Samatov [name]
+ABOUT ME EDUCATION
+I am a Data Science and Machine Learning specialist with 4+ years of experience and a solid Master's Degree, Applied Mathematics and Computer Science 2024 – present and Bachelor's Degree, Applied Mathematics and Computer Science 2020 – 2024. My expertise lies in developing applied AI systems, particularly in medical diagnostics, image segmentation, radiomics, and scientific computing. I have end-to-end experience across the machine learning pipeline and a strong focus on combining Python, NumPy, Pandas, Optuna, OpenCV, TensorLy, algorithmic methods with domain knowledge to deliver reliable and impactful solutions in both independent and team settings.
+ML / DL TOOLS & FRAMEWORKS
+Llm & Rag: LangChain, LlamaIndex, SentenceTransformers
+Classical ML: scikit-learn, XGBoost, LightGBM, CatBoost
+DL: PyTorch, TensorFlow, Hugging Face Transformers
+Works MLOps: MLflow, Weights & Biases, Hydra, Docker
+Deployment: FastAPI, Flask, Docker, TensorRT
+TOPICS OF QUALIFICATION
+Automatic Segmentation of Epicardiaal Fat
+Working with Unbalance Data
+and Quantitative Assessment of Radiomic
+Parameters in Cardiac Computed
+Tomography
+WORK EXPERIENCE
+Machine Learning Methods in Radiomics for
+Analysing Cardiovascular Images
+Recognition of Russian-Language Text in [location] | [compaany] | 06.2023 - 12.2023
+Financial Reports Using Neural Networks Participated in a project to develop recommendaation Beam Parameter Restoration at the [compaany] for the Cardiology Research Institute using machine learning methods in radiology.
+Monitor Data Responsible for the collection, cleaning, and analysis of medical data, ensuring its accuracy and reliability for subsequent analysis. Reduced processing time by 30% through data cleaning process automation.
+Tensor-Based Modal Decomposition for Reduced-Order Modeling of High- Dimensional Spatiotemporal Systems
+Optimal Sparse Sensor Placement via Tensor QR Decoomposition with Column Selection in High-Dimensional Forecasting Tasks
+Fintech Association | 08.2023 - 11.2023
+Publicatons
+Actively participated in the development of a prompt generator presented at Finopolis 2023.
+Samatov [name]. Methods of Machine Learning in Radiomics for Cardiovascular Image Analysis. // Modern Problems of Mathematics and Its Applications: Proceedings of the Inтернаtional (54th All-Russian) Youth School-Conferece. — February 2023
+Samatov [name], Mochul [name]. Methods of Machine Learning in Radiomics for Cardiovascular Image Analysis. // Perspectives of Fundamental Sciences Development: Proceedings of the Inтернаtional XX Conference of Students, Postgraduates, and Young Scientiists. — April 2023
+Samatov [name], Shandov [name]. Beam Parameters Restoration at the [compaany] Accelerator Complex – Based on the Beam Position Monitor Data. // START, Joint Institute for Nuclear Research, Dubna, 2023
+Automatic Segmentation of Epicardiaal Fat and Quantitative Evaluation of Radiomic Parameters in Cardiac Computed Tomography. // Perspectives of Fundamental Sciences Development: Proceedings of the Inтернаtional XXI Conference of Students, Postgraduates, and Young Scientiists. — April 2024
+Samatov [name], [name]. Capabilities of Radiomic Analysis of Cardiac MRI Images in Cine Mode for Identiifying Post-Infarction Areas of the Left Ventricular Myocardium. // Digital Diagnostics.
+Zavadovsky [name], Samaatov [name], [name]. EPIFAT – Module for Automatic Segmentation of Epicardiaal Adiose Tissue on Cardiac CT Images // Certificate of State segmentation. Regiistered by the Federal Service for Intellectual Property (Rospatent).
+Achiements
+Special Nomination Winner of the National Technology Olympia (Student Track) in Analytics and Machine Learning Department at MSUU | 04.2024 - now
+Prize Winner of the Hackathon at the MIPT Educational Forum in Artificial Intelligence, Mathematics, and Physics
+Winner of the "Artificial Intelligence and Machine Learning" Track at the FINOdays Hackathon
+Second-degree Diploma for the Presentation titled "Automatic Segmentation of Epicardiaal Fat and Quantitative Assesment of Radiomic Parameters in Cardiac Computed Tomography" at the "Prospects for the Development of Fundamental Sciences: Proceedings of the XXI Inтернаtional Conference for Students, Postgraduates, and Young Scientiists," held in Heriot-Watt TPU Center | 09.2024 - now
+Participan in the ASCOMP School, Innopolis, October 2024.
+Participan in the ICOMP Conference (Inтернаtional Conference on Computational Optimization), Innopolis, 2024.
+Presenter at the Congress of the Russian Society of Radiologist and Radiologist, Moscow, November 2024. Presented a report titled "Development of Methods for Segmentation of Epicardiaal Adiose Tissu Using Artificial Intelligence".
+Participan in the School-Conferece on Tensor Methods in Mathematics and Problems of Artificial Intelligence, China, November 2024.

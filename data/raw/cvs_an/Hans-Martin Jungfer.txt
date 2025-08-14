@@ -1,0 +1,63 @@
+[name] [surname]
+[location]
+[email]
+WORKEXPERIENCE
+[compaany],FusionBrain 02/2025-Present
+InternRResearchScientiist
+ WorkonSparseAutoencodersforDiffusionTransformerUnlearning.Publisheda paper on the connection between Competitive Hebbian learning and training a symmetric SAE on New Frontiers in Associative Memories@ICLR’25.
+[compaany],Neural Symbolic Integration group 06/2024-07/2024
+InternRResearchScientiist
+ Formulated and validated the hypothesis of applying Hebbian Winner-Take-All(WTA) learning to train a Sparse Autoencoder(SAE) for feature disentanglement in Language Models, demonstrating feasibility and potential advantages.
+[compaany],Risk Modeling&Research department 09/2022-12/2022
+InternDataScientiist
+ Rewrote data gathering process for scoring model and validated results for a new model.
+Skoltech,Innovation Workshop 06/2024-09/2024
+Creating and teaching a fast prototyping class on Generative AI and diffusion models. Skoltech Digital Teams program,ML&DLcourse 2023-present
+Teaching Assistant [compaany]
+EDUCATION
+Skoltech,MScinInformation Technology and Engineering 2023-2025
+Internet of Things and Wireless Technologies ScientificSupervisors: [surname], [surname]
+ Relevant coursework:Numerical Linear Algebra,Optimization,MachineLearning,DeepLearning,DL for NLP,GenAI
+ CurrentGPA:3.86/4
+[location],Bachelor in Electronics and Nanoelectronics 2019-2023
+ Relevant coursework:Probability,Linear Algebra,Calculus
+ GPA:4.62/5.00
+PUBLICATIONS
+ Hebbian Sparse Autoencoder
+[name] [surname], [surname]
+ICLR,New Frontiers in Associative MemoriesWorkshop,2025
+ TextGraphs-17SharedTask:Text-GraphRepresentations for KnowledgeGraphQuestionAnsweringusingall-MPNet
+[name] [surname], [name], [name], [name]
+ACL,TextGraphs-17:Graph-basedMethods for Natural Language ProcessingWorkshop,2024
+COMPETITIONS
+ NeurIPS2024Competition,“ErasingtheInvisible” Winner
+Adversarial attacks on invisible image watermarks(StableSignature,StegaStamp,Tree-Ring). 11/2024
+ Hackathon,“FindyourplaceatMIPT”, EducationalForum on AI and mathematics Winner
+PlaceRecognitiongivenmultimodaldata. 04/2023
+ Hackathon,“Thedigitalbreakthrough”,CentralFederalDistrict Winner
+“MachineLearningonGraphs”-Predictingtendencyforcharitygivingmultimodaldata. 09/2022
+ Championship,“Thedigitalbreakthrough”,Netology Winner
+Predictionofusers’choiceofeducationalcourses. 08/2022
+TECHNICAL SKILLS
+ProgrammingLanguages:Python,SQL Databases:PySpark,Hadoop,PostgreSQL
+ML:PyTorch,Transformers,Diffusers,sklearn,pandas,numpy Tools:Docker,Git,Wand,hydra
+IDE:VSCode,JupyterNotebook,GoogleColab
+SCIENTIFIC CONFERENCES
+ScientificConferences
+ “FallintoML2024”,ConferenceonML,poster presentation, [location], HSE 10/2024
+ “ACL2024”,A*,poster presentation,Online 08/2024
+SCIENTIFIC INTERESTS
+ NLP,UnsupervisedLearning,AISafety,MechanisticInterpretability,InformationTheory
+PROJECTS
+DiffuserDictionaryLearning[Presentationlink] 10/2024
+Thecourse research project-exploringSAEfeaturesinimg2imgpixel-spaceDiffusionModel
+ Showed that SemanticSegmentationperformanceofBaranchuketal.2022’sprobingrelieson specific features within the dense 2D maps of the DM’sUnet model.
+ADDITIONAL COURSES
+ “DeepLearning-2ndpart”,DeepLearningSchool
+ “DeepLearning-1stpartAdvancedStream”,1stdegree,DeepLearningSchool
+ “NeuralNetworksandComputerVision”,Stepik,SamsungResearchRussiaOpenEducation
+ “InteractiveSQLSimulator”,Stepik,FarEasternFederalUniversity
+ “BasicStatistics”,Stepik,BioinformaticsInstitute
+ “OpenMachineLearningCourse”,OpenDataScience
+LANGUAGES
+Russian(Native),English(Fluent),German(B1-DeutschesSprachdiplom)

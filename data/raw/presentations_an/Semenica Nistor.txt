@@ -1,0 +1,92 @@
+Moscow
+[compaany]
+2025
+Application of NN in Stock Analysis and Forecasting
+[name]
+[compaany]
+2
+CNN model
+Chart Analysis Using CNN
+Data Preparation:
+• Time period: 10.03.2014 – 10.03.2024
+• Training performed on 10 foreign company tickers
+• Data interval: 1 day
+Training Dataset Construction:
+1.Download historical data for open, close, high, and low prices for each stock
+2.Calculate two moving averages: SMA Fast and SMA Slow
+3. Create sliding windows of 30-day length Assign labels:
+-Class 1 (UP) — if the next day's close > the last price in the window
+-Class 0 (DOWN) — otherwise
+Higher SchooL of Economics Faculty of Computer Science 3
+CNN model
+Archtecture, Results, and Accuracy Evaluation
+Model Archtecture:
+Input (100 × 100 × 3) → CNN blocks → Flatten → Dense → Class (UP/DOWN)
+Model Evaluation on Test Set: Results:
+According to the confusion matrix, the model
+shows a strong bias toward predicting the UP
+class.
+Overall classification accuracy — 52%
+The model tends to overestimate the probability of
+price growth, while underdetecting signals for
+downward movement.
+Higher SchooL of Economics Faculty of Computer Science 4
+LSTM model
+Price Prediction Using LSTM
+Data Preparation: Simple Model Training:
+• Time period: 10.03.2014 – 10.03.2024 1. Input to the model: [Open, High, Low, Close] values.
+• Training performed on 10 foreign company tickers 2. Sliding window method: 5 consecutive trading days as input, target — next day’s
+Close price.
+• Data interval: 1 day
+3. As a result, the model learns to predict the future value based on the previous 5
+days.
+Model Evaluation on Test Set:
+The prediction looks poor — we will try to improve it.
+Possibly, using only four input features is insufficient for
+the model to train effectively.
+Higher SchooL of Economics Faculty of Computer Science 5
+LSTM model
+Training and Evaluation of the LSTM Model
+Model Archtecture:
+Adding Technical Indicators to the Model:
+1.The input to the model is a tensor of shape 5×n, where 5 is the
+• In initially, I examined the correlation between technical indicators and the Close price
+number of known past days, and n is the number of features (now 8:
+for [compaany] during the first year of training data.
+[Open, High, Low, Close, ma7, MACD, upper_band, lower_band])
+2.The sequence is passed through three LSTM layers with Dropout
+layers, followed by a fully connected layer.
+Input (5 × n) → LSTM layers → Dense → Close Price
+Evaluation on the Test Set:
+Higher SchooL of Economics Faculty of Computer Science 6
+LSTM model
+Model Testing on Tickers of Foreign and Russian Companies
+Higher SchooL of Economics Faculty of Computer Science 7
+Fusion model
+Fusion Model: LSTM + CNN
+Evaluation on the Test Set:
+Model Training Process:
+1.Extracted visual features from
+previously trained CNN using chart
+images.
+2.Simultaneously extracted time-series
+features from the trained LSTM
+model on the same input data.
+3.Features from CNN and LSTM were
+passed through separate dense
+layers and then merged via a
+Concatenate layer.
+4.Final output: UP/DOWN class
+Results:
+The fusion model demonstrated much
+more balanced behavior compared to the
+CNN-only model.
+Overall classification accuracy — 72%
+Higher SchooL of Economics Faculty of Computer Science 7
+Fusion model
+Conclusions
+1.CNN alone was insufficient for accurate prediction — despite its visual learning power, it lacked the temporal depth needed for price
+forecasting.
+2.LSTM with technical indicators showed much better performance than the naive version, proving the importance of feature engineering.
+3.Fusion of CNN and LSTM was more effective than base CNN: combining visual and sequential data enabled the model to make more
+accurate and stable predictions.

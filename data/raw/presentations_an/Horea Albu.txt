@@ -1,0 +1,107 @@
+Mechanical properties of an [name]-matrix composite reinforced with bilayer diamond ribbons (diamane): ab initio study
+Mechanical properties of an
+[name]-matrix composite reinforced
+with bilayer diamond ribbons
+(diamane): ab initio study
+[name] [surname]
+[name] [surname]
+[name] [surname]
+Mechanical properties of an [name]-matrix composite reinforced with bilayer
+diamond ribbons (diamane): ab initio study
+Introduction
+The purpose of this work is to train the machine
+learning potential (Molip) for diamane/[name] composite
+and calculate the mechanical properties of our
+system such that elastic constant, critical shear
+stress, binding energy, etc using trained potential.
+Also with the help of Molip we want to recalculate the
+points that we throw away from our plot and make a
+prediction about why these points doesn't follow the
+mixture rule. After comparing DFT method with Molip
+we hope to get more data for our plot to improve our
+results.
+Mechanical properties of an [name]-matrix composite reinforced with bilayer
+diamond ribbons (diamane): ab initio study
+Data
+The values of the one‑dimensional and bulk
+elastic constants for diamane nanoribbons of various
+widths have been tabulated.
+The data were obtained independently via DFT
+calculations using the VASP package. The dataset
+currently comprises about 30 structures. This is due
+to the difficulty of obtaining structures that do not
+decompose into simpler ones during calculation (a
+simpler structure is an aluminum/bigraphene‑ribbon
+composite) and to the long computational time
+(3-5 days per structure).
+Mechanical properties of an [name]-matrix composite reinforced with bilayer
+diamond ribbons (diamane): ab initio study
+Data
+Fig. 2. Critical shear stress of the ribbon
+Fig. 1. Binding energy between aluminum
+in the aluminum matrix versus the
+and a bilayer diamond ribbon versus its
+inverse ribbon width.
+inverse width.
+Mechanical properties of an [name]-matrix composite reinforced with bilayer
+diamond ribbons (diamane): ab initio study
+Data (continued)
+Fig. 3. Elastic constant of the diamane‑ribbon/Al composite
+versus ribbon width and the rule of mixtures for this composite.
+Mechanical properties of an [name]-matrix composite reinforced with bilayer
+diamond ribbons (diamane): ab initio study
+Model
+● Machine Learning Potential (Mlp) – is a machine‑learning method that allows modeling
+interatomic interaction potentials based on Density Functional Theory (DFT) data:
+Machine Learning Interatomic Potentials (Mlip for short) is a software package being
+developed by the group of [name] [surname] ([name]).
+Mechanical properties of an [name]-matrix composite reinforced with bilayer
+diamond ribbons (diamane): ab initio study
+Metrics
+● Mean Squared Error (Mse)
+● Mean Absolute Error (Mae)
+● Coefficient of Determination (R²)
+● Mean Absolute Percentage Error (Mape)
+A good result is characterized by low Mse and Mae values, an R² approaching 1, and a low
+Mape.
+Mechanical properties of an [name]-matrix composite reinforced with bilayer
+diamond ribbons (diamane): ab initio study
+Metrics
+Amount of Maximal Average RMS Max(Force RMS(Force
+conigurat./ absolute absolute absolute Diff) / Diff) /
+atoms difference difference difference Max(Force) RMS(Force)
+Energy 88 0.47 0.26 0.3 - -
+Energy per 88 0.0028 0.0016 0.0019 - -
+atom
+Forces 14784 0.47 0.022 0.047 1.18 2.063
+Stresses (in 88 53.21 2.85 10.27 0.56 0.52
+eV)
+Stresses (in 88 3.55 0.19 0.69 0.56 0.51
+GPa)
+Mechanical properties of an [name]-matrix composite reinforced with bilayer
+diamond ribbons (diamane): ab initio study
+Обзор существующих решений
+Machine Learning Interatomic Potentials (Mlip for short) is a software package
+being developed by the group of [name] [surname] ([name]).
+Interatomic potentials (or force-fields) are models predicting potential energy
+(together with its derivatives) of interaction of a variable-size atomic system as a
+function of atomic positions and types.
+https://mlip.skoltech.ru/
+Mechanical properties of an [name]-matrix composite reinforced with bilayer
+diamond ribbons (diamane): ab initio study
+Plan
+1. Further increase of the data
+volume.
+2. Compare calculation accuracy with
+similar works and identify the key
+differences between the studies
+being compared.
+Mechanical properties of an [name]-matrix composite reinforced with bilayer
+diamond ribbons (diamane): ab initio study
+Conclusion
+Reference:
+● [name] D.G. et al. Mechanical properties and current-carrying capacity of [name]
+reinforced with graphene/BN nanoribbons: a computational study //
+Nanoscale. 2016. Vol. 8, № 48. P. 20080-20089.
+● [name] L.A. et al. Diamond-like C2H nanolayer, diamane: Simulation
+of the structure and properties // JETP Lett. 2009. Vol. 90, № 2. P. 134-138.

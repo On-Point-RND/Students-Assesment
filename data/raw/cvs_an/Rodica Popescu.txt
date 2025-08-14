@@ -1,0 +1,47 @@
+[name]
+11.05.1984
++2 *** *** ***
+[email]
+[location]
+OBJECTIVE
+The goal of participating in the SMILES Machine Learning Summer SchooL is to deepen the knowledge of
+algorithm and existing methods of machine learning and deep learning, as well as to acquire practical
+skills in these discipline.
+ML/DL/AI KNOWLEDGE AND SKILLS
+Knowledge of the basics of neural network construction and training. Understanding of gradient descent,
+back propagaation of error, cost functions.
+Skills in buildiing and training MLP/CNN neural network.
+Knowledge of calculus, linear algebra, probability theory.
+Fundamentals of Python, C++, PyTorch. Understanding and ability to make sense of code.
+Knowledge of basic concepts of machine learning techniques in CV (Computer Vision).
+Knowledge of brain biochemistry and understanding of natural neural network.
+Over two years of experience and very confident with generative neural network Stable Diffusion
+1.5/SDXL/Flux.
+Proficient in modern LLM at user level, promt engineering. Experience in writing a Python application
+using ChatGPT.
+EDUCATION
+2006 – 2008 Master of Engineering and Technology in «Radio Engineering», honors
+degree
+[location] Power Engineering Instiute (Technical Universiity)
+2002 – 2006 Bachelor of Engineering and Technology in «Radio Engineering»,
+honors degree
+[location] Power Engineering Instiute (Technical Universiity)
+WORK EXPERIENCE
+No ML/DL work experience.
+OTHER SKILLS
+Abiility to independentlly plan work, confirmed by many years of self-employment experience. Strong
+time management.
+Good communication skills, soft skills.
+Quick learning ability, ability to find solutions to new problems.
+Wide range of interests and broad outlook.
+Excellent knowledge of PC hardware, knowledge of Windows OS family.
+Experience in 3D visualization and animation, as well as creating extensions of Blender 3D environment.
+English: Upper Intermediate. Fluent reading of technical literature and documentation.
+ADDITIONAL INFORMATION
+Compled Soft Skills course at [location] Psychological Laboratory in 2021.
+Completed «I regali business come monetizzazione del prestigio del brand» course in [location], Italy, 2016.
+Completed a lot of trainings, courses and classes on psychology and self-dewelopment.
+I am a co-author of a number of scientific publications during my postgraduate studies on the topic of
+Radio engineering.
+During my studies at the universiity I was a wiinner of the All-Russian Olympiad in Radio Engineering,
+wiinner of scholarships of the President of the Russian Federation, RAO UES of Russia.

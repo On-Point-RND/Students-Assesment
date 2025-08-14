@@ -1,0 +1,48 @@
+[name]
+• [location] • [email] • +2 *** *** ***
+Education
+[location] Institutute of Physics and Technology
+Applied Mathematics and Physics [GPA 8.1/10] 2022-2026
+[location] SchooL of Management SКОLKOVO
+Business innovation management 2022-2026
+Work experience
+LARSS, Skoltech-Sberbank lab
+Research intern March 2025 – now
+• Conducting research on macroeconomic forecasting using embeddings from anonymized bank transaction data
+• Applying NLP-inspired techniques (Word2Vec) for feature extraction
+• Experimenting with boosting models (XGBoost) and economic indicators like IMOEX and MOEXCN
+Tom Tailor
+Analyst July 2024 – now
+• Implemented a store clustering algorithm using KNN
+• Designed data warehouse SQL and Power BI to support strategic merchandising decisions
+• Automated product assortment choice based on life cycle, seasonality, and pricing analysis.
+Department of radiophotonics, MIPT
+Research intern February 2024 – June 2024
+• Engineered features from RS11 signal arrays by sampling data into logarithmic/linear intervals and computing
+statistical summaries; trained a Random Forest model to predict sub-millimeter gap widths, achievinng an
+average error 0.003 mm across test samples.
+• Applied transfer learning with a pre-trained ResNet-18 to classify transformed RS11 data as 2D images,
+reaching 96% prediction accuracy within a 0.5 mm precision range.
+• Compared classical ML and CNN approaches for gap width detection.
+Publications:
+• [surname], [name], [surname]. (2024). Application of ML methods in subsurface sensing. [compaany]
+Scientific Conf.
+• [name], [surname], [surname], [name]. (2024). Gap width estimation with ML. XV Sci-Tech
+Conf.
+Sbier.Health
+Intern product analyst June 2023 – August 2023
+• Conducted market research and MVP testing for partnership with pharmaceutical firms
+• Processed and analyzed product usage data, identiifying weak points in product-market fit
+Confereces
+Winner in the 66th Scientific Conference of MIPT in the section of radiophysics, wave processes, radioelectronic
+information systems with the report "Application of machine learning methods in subsurface near-field sensing tasks."
+2024. Publication of this report in the collection.
+XV Scientific and technical conference "Short- and ultra-short-range radar systems" with the report "Determination of
+gap widths with millimeter resolution using machine learning in probing tasks."
+Winner of the 65th Scientific Conference of MIPT in the high-tech business section with a report "Logistics of tramways
+in [location]" 2023. Publication of this report in the collection.
+Skills
+• English/Russian language
+• Python, SQL, GIt
+• Pandas, Numpy, Matplotlib, Pytorch, Scipy libraries
+• Experience in organizing events

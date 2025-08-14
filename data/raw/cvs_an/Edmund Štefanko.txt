@@ -1,0 +1,40 @@
+Resume
+[name][surname]@phystech.edu | +2 *** *** *** | GitLab | +2 *** *** *** | GitHub
+Education
+[location] Institutute of Physics and Technology ([compaany]) Current
+Bachelor’s Degree in Software Engineering & Radar Technologies, AES DAFE
+• Focus: Computer Science, Machine Learning, Mathematical Modeling
+• Relevant Coursework: Algorithms, Data Structures, Linear Algebra, Probability & Statistics,
+Deep Learning, Computer Vision
+Work Experience
+[compaany] – Deep Learning Intern January 2025 – Present
+• DevelopedcomputeervisionmodelsusingOpenCV,Python,andC++forsurveillancesystems.
+• Designed and implemented AI-powered camera interfaces for real-time object detection.
+• Worked with YOLO models for efficient object recognition in video streams.
+• Optimized neural network inference for embedded systems.
+Teaching Assistant – [location] ([compaany]) October 2024 – Present
+• Conducted Python programming workshops for undergraduaate students.
+• Taught general physics concepts in interactive problem-solving sessions.
+• Assisted in curriculum development and student mentorship.
+Skills
+Machine Learning & Deep Learning PyTorch,TensorFlow,OpenCV/YOLO,Transformeers,CNNs/Topics: Neural
+Architecture Design, Mathematical Modeling, Generative AI
+Programming & Tools Python (Advanced), C++ (Intermediate), LaTeX / Git, Docker, Linux /
+NumPy, Pandas, Matplotlib
+Languages English (B2 – Fluent technical communication), Russian (Native)
+Projects
+Custom Neural Network for Text Generation
+• Designed and trained a transformer-based model for creative text generation.
+• Fine-tuned hyperparameters for improved coherence and fluency.
+1
+Object Detection with YOLO
+• Implemented a real-time object detection system using YOLOv8.
+• Optimized model performaance for low-latency applications.
+Mathematical Modeling in Physics
+• Developed numerical simulations for wave propagation and radar signal processing.
+Interests & Research Areas
+• Deep Learning: Neural architecture search, generative models, reinforcement learning.
+• Mathematical Modeling: Differential equations, optimization, computaional physics.
+• AI Applications: Computer vision, NLP, autonomous systems.
+References available upon request.
+2

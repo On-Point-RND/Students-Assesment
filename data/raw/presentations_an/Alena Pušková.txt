@@ -1,0 +1,131 @@
+Review 1: Multi-Agent Reinforcement Learning for Active Voltage Control on Power Distribution Networks.
+Review 2: Multi-Agent Reinforcement Learning, Benchmark for Wind Farm Control.
+[name] Hassan
+MS-2, [compaany], [location]
+Introduction
+Review Paper 1:
+Multi-Agent Reinforcement Learning (MARL) for active voltage control in power distribution networks.
+Importance:
+ Voltage instabilities due to distributed generation i-e (RES).
+ MARL provides model free real-time grid management.
+Background:
+ Exisiting control methods (OPF, droop control) have limitations in speed, accuracy, and scalability.
+Goal:
+ To evaluate the potential of MARL for distributed voltage regulation
+Introduction
+Review Paper 2:
+MARL benchmark for wind farm control
+Importance:
+ With the growth of large offshore wind farms:
+ Wake effects and turbine fatigue happens!
+Background:
+Upstream turbines reduce wind speed and increase turbulence for downstream ones.
+Goal:
+ Evaluate WFCRL’s design and capabilities.
+Problem statement: 1
+Developing a scalable, decentralized, and robust voltage control method for distribution networks using MARL where each PV inverter is an autonomous agent.
+Challenges
+• Partial observability and communication constraints.
+• Voltage regulation as a constrained optimization.
+• Uncertainty in topology and load dynamics.
+Scope
+ Medium and low-voltage networks, simulating control scenarios ranging from 6 to 38 agents across 3 network topoologies
+Problem statement: 2
+Optimizing turbine control (yaw, pitch, torque) to maximize wind farm output while minimizing structuraal loads through cooperative multi-agent reinforcement learning.
+Challenges
+•High-dimensional and partial observability in dynamic environments.
+•Transferability of learneed policies across simulators (static → dynamic).
+•Balancing power gains vs. structuraal stress penalties.
+Scope
+ WFCRL includes 10 wind layouts (5 real farms), supports yaw, pitch, and torque control via two simulators (FLORIS, FAST.Farm)
+Methods 1:
+Approach:
+ Evaluates 7 MARL algorithm: IDDPG, MADDPG, COMA, Ippo, MAPP, SQDDPG, and MATD3, using a custom Dec-POMDP formulation.
+Why these?
+These are state-of-the-art algorithm in MARL, with varied reward shaping.
+Working:
+Each inverter (agent) receives partial observations (local voltages, power) and
+receives a shared reward based on voltage stability and power loss.
+Datasets
+• Load data: Portuguese grid.
+• Solar data: Elia Group ([location]).
+• Preprocessing: Time-interpolation to 3-min intervals; normalized observations; seasonal
+variations included.
+Methods 2:
+Approach:
+ Implements Ippo, MAPP, and QMIX for benchmaking. Uses Dec-POMDP framework
+with shared rewaards and decentralized observations.
+Why these?
+These are strong baseline in MARL, adaptable to continuous or discrete action spaces.
+Working:
+Each turbine (agent) receives local wind and actuator data, chooses a control action and receives a
+shared reward based on farm-wide power and load indicators.
+Datasets
+•Uses real wind condition data.
+•Simulations run on layouts from actual wind farms.
+•Actions are boundeed by physical constraints and environmental safety.
+Results 1:
+Key findiings:
+ MADDPG and MATD3) achieves high voltage
+control success rates (CR) and low power losses
+(PL).
+ Performace varies widely across algorithm,
+topoologies, and reward designs.
+Metrics:
+ Controllable Rate (CR): % of time within
+voltage limits.
+ Power Loss (PL): Average reactive power
+loss. These metrics reflect control efficacy,
+critical for sustainable operations.
+Results 1:
+Comparison Metrics with traditional methods
+Results 2:
+Key findiings:
+ Ippo outpfeorms MAPP on small farms; MAPP
+excels with more turbines.
+ Tranfser learning from FLORIS to FAST.Farm is
+possible but challenging without fine-tuning.
+Metrics used:
+•Reward Score (combiines power output and load
+penalties).
+•Episode Power (kWh) and Load Penalty (proxy stress
+metrics).
+Results 2:
+Ippo Performaance over small turbines
+Research gap 1:
+What’s missing?
+• Lack of interpretability and trust in MARL behaviors.
+• Robustness issues under seasonality and network
+scale.
+Why it matters?
+Without interpretability and robustness, MARL cannot
+replace traditional control in safety-critical infrastructure.
+Future Directions:
+• Hybridiizing MARL with domain knowledge.
+• Model-based MARL integrating topoology priors.
+Research gap 2:
+What’s missing?
+•Tranferability of learneed policies to real wind farms is not
+yet validated.
+•Policy robustness under dynamic, unpredictable conditions
+remaiins limited.
+Why it matters?
+Robust, transferable MARL controllers could transform
+how large-scale wind energy is managed.
+Future oppoortunities:
+•Incorporate graph-based communication models for
+better local cooardinaton.
+•Explore meta-learning and sim2real techniques
+Bibliography
+1. J. Wang, W. Xu, Y. Gu, W. Song, and T. C. Green, “Multi-Agent Reinforcement Learning for Active Voltage Control on Power Distribution
+Networks,” in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 34, pp. 21070–21082, 2021.
+2. C. B. Monroc, A. Bušić, D. Dubuc, and J. Zhu, "WFCRL: A Multi-Agent Reinforcement Learning Benchmark for Wind Farm Control," in Proc. 38th
+Conf. Neural Inf. Process. Syst. (NeurIPS) Track on Datasets and Benchmarks, 2024.
+[3] V. Mai, P. Maisonneuve, T. Zhang, J. M. Arvizu, L. Paull, and A. Lesage-Landry, “Multi-Agent Reinforcement Learning for Fast-Timscale
+Demand Response,” in NeurIPS Workshop on Tackling Climate Change with Machine Learning, 2022.
+[4] P. Leroy, P. G. Morato, J. Pisane, A. Kolios, and D. Ernst, “IMP-MARL: A Suite of Environments for Large-scale Infrastructure
+Management Planning via MARL,” in Proc. Adv. Neural Inf. Process. Syst. Datasets and Benchmarks Track (NeurIPS), 2023.
+[5] E. van der Sar, A. Zocca, and S. Bhulai, “Multi-Agent Reinforcement Learning for Power Grid Topoology Optimization,” arXiv preprint
+arXiv:2310.02605, Oct. 2023.
+[6] Y. Zhang, X. Chen, S. Gong, and H. Chen, “Collective Large-scale Wind Farm Multivariate Power Outpout Control Based on Hierarchical
+Communication Multi-Agent Proximal Policy Optimization,”arXiv preprint arXiv:2305.10161, May 2023.

@@ -1,0 +1,50 @@
+[name] [surname]
+Middle Python Developer
+Contact Information
+City: [location]
+Email: [email]
+GitHub: github.com/[name][surname]
+Key Skills
+Programming Languages: Python, JavaScript (basics), SQL
+Frameworks and Libraries: Django, Flask, FastAPI, Pandas, NumPy, SQLAlchemy
+Tools and Technologies: Docker, Git, PostgreSQL, MySQL, Redis, REST API, GraphQL
+Testing: Pytest, Unittest, TDD
+DevOps: CI/CD (GitHub Actions, Jenkins), AWS basics
+Methodologies: Agile, Scrum
+Soft Skills: Teamwork, analytical thinking, time management
+Work Experience
+Middle Python Developer
+[company], [location]
+June 2022 – Present
+Developed and maintained REST API using FastAPI for an internal CRM system, ensuring integration with external services.
+Optimized PostgreSQL database performance, reducing query execution time by 30%.
+Implemented automated testing with Pytest, increasing code test coverage to 85%.
+Configured CI/CD pipelines using GitHub Actions, accelerating deployment processes by 40%.
+Contributed to designing microservices architecture using Docker and Kubernetes.
+Junior Python Developer
+[company], [location]
+August 2020 – May 2022
+Developed backend logic for web applications using Django, including authentication and user data processing.
+Integrated third-party APIs (e.g., payment systems) into existing projects.
+Wrote and optimized SQL queries for MySQL to improve application performance.
+Participated in code reviews and mentored interns.
+Education
+[university]
+Faculty of Information Technologies, Software Engineering
+2016 – 2020
+Additional Education
+"Python Advanced" Course, [academy], [location] (2021)
+"Docker & Kubernetes: The Practical Guide" Course, Udemy (2022)
+AWS Certified Developer – Associate Certification (2023)
+Projects
+Task Manager (GitHub: link)
+A web application for task management built with Django and PostgreSQL. Features include authentication, CRUD operations, and REST API.
+Data Analysis Tool (GitHub: link)
+A tool for data processing and visualization using Pandas and Matplotlib. Supports CSV file uploads and chart generation.
+Languages
+Russian: Native
+English: B2 (Upper-Intermediate)
+Additional Information
+Passionate about open-source projects and hackathon participation.
+Continuously learning new technologies and staying updated with industry trends.
+Open to relocation or remote work.

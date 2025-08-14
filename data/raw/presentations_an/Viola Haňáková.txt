@@ -1,0 +1,146 @@
+EXPLORING CONVOLDUTIONAL KAN
+ARCHITECTURES
+WITH [name]
+[surname]
+[compaany]
+NSS Lab
+[location]
+Novel architectures
+● Neural networks: innumerable applications across various fields.
+● Not always possible to boost performaance by increasing
+computaional volume.
+● Given that, small improvement in quality in the fundament of NNs
+would lead to significant economic benefiits.
+● Hence, the pursuit of novel neural architectures has gained traction in
+recent years, especially with the emergence of Kolmogorov-Arnold
+networks (KANs).
+2
+Outline
+● New architecture efforts overview
+● Address methodological challenges with NAS
+● NAS implementaion
+● Experiments: CNNs vs convolutional KANs using NAS for image classification
+datasets and a practical task of sea ice concentration prediction
+3
+Convolutional KANs
+Bodner et. al (2024)
+For one channel:
+— spline.
+ConvKAN (sparse):
+Proposed (dense):
+Proposed (transposed):
+4
+Prior work on KAN architectures
+Work ML tasks Optimal configuration search KAN architectures
+KAN or MLP: A Fairer Comparison Table datasets, Grid search with a fixed MLP MLP
+images classification structure
+Fair comparison of PDE solving, Manual search MLP and DeepONet
+PIKANs&DeepOKANs operator learning
+ConvKAN (Bodner, 2024) Image classification Manual search ConvKAN for classification
+with spline basis
+ConvKAN (Dronkin, 2024) Image classification Manual search ConvKANs for classification
+with various bases
+This work Image classification Evolutionary search ConvKANs (for classification
+and spatial time and time series) with
+series forecasting. various bases.
+Spaerse, dense and
+transposed layers.
+5
+Approaches to best configuration selection
+Manual search and grid search may be unsuitable:
+Human factor or academic dishonesty
+●
+(for grid search) narrow search space, inefficient algorithm
+●
+Lack of guidelines for new architectures (such as KAN)
+●
+→ An unbiased NAS algorithm with a sufficiently rich search space treating
+different architectures uniformly would address this issue.
+This would enable us to get closer to evaluating the potentials of architectures
+themselves, not the configurations unreliably chosen to represent them.
+6
+NAS (Neural Architecture Search)
+○ Full NAS: each configuration is evaluated from scratch
+❌ Bayesian optimization — fixed
+❌ Reinforcement learning (RL) — unreliable
+✔ Evolutionary optimization
+○ One-shot: Common model is learned, its layer combinations are searched
+○ Few-shot: some information reuse — fine-tuning, surrogate models…
+○ Nas from scratch: minimal assumptions (e.g. neuron-level search)
+7
+Solution: Evolutionary NAS
+overall scheme
+8
+Evolutionary NAS
+Encoding
+DAG encodes the dataflow, hyperparameters and
+supplementary operations in nodes
+● Image classification
+○ Supplemenntary operations in nodes:
+BatchNorm, Pooling, activation
+● Time series forecasting
+○ n_channels = history size
+○ Encoder-decoder (transposed convolutions)
+○ Lagged transformation
+Computational volume constraint promotes
+architectural diversity enabling „thin“ models 9
+Experimental setup
+The following combinations have been stidued:
+● «CNN» (classical convolutions + MLP),
+● «CNN+KAN» (classical convolutions + KAN),
+● KAN (KAN convolutions + KAN).
+○ «KAN» — original, ConvKAN
+○ «denseConvKAN» — dense geometry
+○ «TorchKAN» — Efficient KAN (summaation order change) based
+○ «FastKAN» — RBF based
+10
+Experimental results
+, Pareto frontiers
+MNIST FashionMNIST
+11
+Experimental results
+, Pareto frontiers
+EuroSAT
+CIFAR10
+12
+Experimental results
+, comparison tables
+● Comparison with ConvKAN: MNIST
+and FashionMNIST
+● With [name] Dronkin: CIFAR10
+● Pareto dominated the competitors
+for all 3 datasets and 3 architectures
+apart from one pair (KAN&MNIST)
+● For the more complex CIFAR10 the
+difference is significant
+13
+Experimental results
+, sea ice concentrations
+Laptev Sea
+SEA5 —physical model
+[surname] et. al — Expert designed
+CNN
+14
+Limitations
+● Still some bias at choosing parameter ranges and NAS algorithm
+○ But the choices are carefully explained in the paper (that it’s
+unreasonable to search for optiomal solution outsiide this range).
+● Mostlly applicable to fundamental modifications — of buildiing blocks (such as
+KAN). Sometimes the most thorough comparison is with SOTA models.
+○ High effort, can make early judgements with evolutionary NAS.
+● To investigate bigger models and datasets: opt out of exhaustive search
+○ Few-shot NAS (surrogate models), indirect encodings
+○ Require priors about model structure — undeirsable
+● Alrready: practice to have sections for the list of hyperparameter setups tried.
+15
+Key takeaways
+● The fairest conclusion: KANs have compaable quality, higher
+computaional resources.
+● Automating architecture discovery
+○ removes human bias,
+○ finds overlooked designs,
+○ highlights scenarios where a new architecture shines for choosing
+research directions.
+16
+Thanks for your
+attention!

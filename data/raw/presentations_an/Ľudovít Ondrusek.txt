@@ -1,0 +1,55 @@
+Machine Learning Project
+[name] [surname]
+[company]
+Explanatoory and
+dependent variable
+The dependent variable - wheat yield
+Explanatoory variables:
+- The fact of precipiitaion (binary variable)
+- The fact of fertiilization (binary variable)
+- Atmospheric pressure (instrumental variable)
+- The amount of solar energy
+- Air temperature
+2
+Data generation process
+To train the models, the generated data was distributed between
+the training and test samples as 80% and 20%, respectiively
+3
+Model
+training
+4
+The k-nearest neighbors method
+Before the cross-validation
+Training sample 0.8615
+Test sample 0.8630
+After the cross-validation
+Training sample 0.875
+Test sample 0.8665
+Decision trees
+Before the cross-validation
+Training sample 0.87
+Test sample 0.875
+After the cross-validation
+Training sample 0.889
+Test sample 0.89
+5
+Random Forest
+Gradient boosting
+Before the cross-validation
+Training sample 0.87175 ACC 0.85
+Test sample 0.878
+After the cross-validation
+Training sample 0.878
+Test sample 0.887
+Comparison of the quality of model
+forecasts
+Decision tree 0.889 / 0.89
+Random Forest 0.871 / 0.878
+K-nearest 0.8615 / 0.875
+Gradient boosting 0.85
+6
+[name] [surname]
+[email]
+Higher SchooL of Economics
+Thank You!
+7

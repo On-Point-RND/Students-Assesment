@@ -1,0 +1,98 @@
+Lightweight CNN for DNA
+sequences analysis
+[name] [surname]
+Bioinformatician, [compaany]
+Introduction
+• In 2024 I took 2nd place in IBIS - international online challenge for transcription factor binding site
+recognition.
+• This task is important both for fundamental research in genomics and for development of
+personalized medicine
+• In this presentation I will tell about model, that I’ve developed.
+What are transcription factors?
+Transcription factors (TFs) - are special proteins that control activity of genes, via binding to a specific
+DNA sequences.
+DNA in all cells of our body is the same - but cells and tissues are different. Why?
+Because activity of genes is different in different tissues.
+TFs are important in medicine because errors in their function can lead to diseases like cancer or
+develoopmental disorders.
+Transcription factors recognize specific DNA sequences, called motifs, allowing them to bind
+precisely to genes they regulate and control their activity.
+Competition
+5 different experimental techniques to determine motifs
+● 5 experiment types
+● 15 different TFs
+● For each TF - positives
+dataset is given
+● Task - to make cross
+experiment prediction
+Training data Test data
+Data
+● Train data contains only positives - sequences with specific TF binding site motif (pattern)
+● For each TF - thousands of DNA sequences
+● For ChiP-seq and Genomic HT-SELEX we have train data
+● For PBM, HT-SELEX, SMILE-seq - test data
+Challenges
+● Data is noisy
+● No negatives in the training dataset
+● Cross-experiment prediction
+● Different lengths of sequences for training dataset (301 letters) and for test dataset (35 or 40
+letters)
+● Different proportion of positives-to-negative samples in test dataset:
+○ 1:10 for HT-SELEX
+○ 1:5 for SMILE-seq
+○ 1:1 for PBM
+Solutions
+● We should generate negatives by ourselves - sample random sequences from the human genome
+● Let’s make proportion of positives-to-negative in the training data the same as in test data
+● Since sequences in the training dataset are too long - cut only middle part (to mimic length of
+sequences in the test data). From 301 letters -> to 40 (or 35) letters
+● Since we have two training dataset (from Genomic HT-SELEX and ChiP-seq) - we chooose the best
+method for each TF by train-test-split.
+Model
+● 1d CNNs are good for recognizing
+short patterns in a text
+● Fully convolutional NN - no Linear
+layers - onlly 3402 parameters
+● Parallel convolutions in stem
+● MobileNetV3-inspired main block
+(CNN_Block_Sep)
+● SE block - attention mechaniism for
+channels. Cheap and fast
+● Adding an additional Embedding
+layer or adding LSTM layers didn’t
+give any advantage
+Training
+• 2 types of augmentaions:
+○ Cyclic shift augmentation during training - with 50% probability shift sequence to left or right
+(10% of length)
+○ Reverse complement augmentation (50% probability), which is specific for biologicaal sequences
+• Learning rate - 0.009
+• Optimizer - AdamW
+• Batch size - 32
+• Scheduler - LinearLR (start = 1.0, end = 0.05)
+• Amount of epochs chosen manually (from 4 to 10)
+• OneCycleLR scheduler was tested, but showed worse results than LinearLR
+Final results
+Ranking for different TFs across 3 experiment types
+2nd place!!
+My CNN is lightweight (3402 trainable
+parameters) comparing to NNs of other
+participants (~500,000 trainable parameters)
+Ranking for HT-SELEX (HTS) is much better
+than for other experimental methods
+I had plans to train a multihead model, and
+interpret different methods (SMS, HTS etc) as
+different modalities, then use techniques like
+Domain Adaptation, but unfortunately didn’t
+have enough time.
+Manuscript in preparation…
+https://github.com/[name][surname]/IBIS_challenge
+Bibliography
+1. Penzar, D., [surname], [surname], [surname], [surname], [surname], [surname], [surname],
+[surname], & [surname]. (2023). LegNet: a best-in-class deep learning model for short DNA
+regulatory regions. Bioinformatics, 39(8). https://doi.org/10.1093/bioinformatics/btad457
+2. Liu, Z., Mao, H., Wu, C., Feichtenhofer, C., Darrell, T., & Xie, S. (2022, January 10). A ConvNet for the
+2020s. arXiv.org. https://arxiv.org/abs/2201.03545
+3. Ganin, Y., & Lempitsky, V. (2014, September 26). Unsupervised domain adaptation by
+backpropagation. arXiv.org. https://arxiv.org/abs/1409.7495
+Thank you!

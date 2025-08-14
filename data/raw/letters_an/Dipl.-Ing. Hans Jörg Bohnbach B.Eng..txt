@@ -1,0 +1,26 @@
+[location]
+Saturday, 19th April 2025.
+[name] - [compaany] Summer School of Machine Learning 2025 Motivation
+Dear Organisers of the [compaany]–[compaany] Summer School in Machine Learning (SMILES‑2025),
+I am writing to express my interest in participating in SMILES‑2025, to be held July 14–27, 2025.
+Having recently graduated with an M.S. in Electrical and Computer Engineering from [university] and now working as a Research Associate at The [compaany] at [location], I am eager to deepen my expertise in generative AI methods, explore practical applications in healthcare, robotics and beyond and to collaborate with leading researchers and fellow participants from [location], [location], and beyond.
+Motivation to Participate
+SMILES‑2025’s twelve‑day intensive format—combining cutting‑edge lectures, hands‑on workshops, hackathons addressing real‑world industry challenges, and a cultural excursion—perfectly aligns with my goal of bridging theory and practice in an accelerated format. I am especially drawn to its emphasis on generative approaches, self‑supervised learning, and safe AI: areas that I believe will define the next wave of intelligent, trustworthy systems. Moreover, the opportunity to forge international collaborations with 100 on‑site and up to 300 online participants from diverse backgrounds is an invaluable chance to exchange ideas and cultivate a global perspective on machine learning.
+Relevant Experience in ML/DL
+During my M.S. program at [university], I completed coursework in Machine Learning, Artificial Cognitive Systems, Big Data Science, and Humanoid Robotics. I applied these techniques in several projects, below are some selected ones:
+● Inclusive Healthcare Technologies (2024–Present): In my current role, I design adaptive, biophysics‑informed AI models and hardware modifications to address bias in EEG and pulse‑oximetry devices for African populations, advancing equitable diagnostic tools.
+● Theory of Mind for Robots using Behaviour Trees (2024): As part of my AI Principles course, I integrated theory‑of‑mind constructs with behaviour trees to enable robots to infer human mental states and adapt their behaviour dynamically in social HRI scenarios.
+● Ethically Responsible Human–Robot Interaction (2023): Winner of [university]’s Humanoid Robotics Grand Challenge, this project embedded ethical decision‑making frameworks into a Unity‑simulated humanoid robot, ensuring safe and empathetic interactions. We are currently preparing these methods for publication.
+Together, these experiences have given me hands‑on expertise in large language models (for human–robot dialogue), currently learning multimodal data fusion (combining EEG, vision, and behavioural cues), multi‑agent coordination (through simulated robot teams), and safety constraints in AI systems.
+Program Expectations
+At SMILES‑2025, I aim to:
+1. Deepen Generative Modeling Skills: Gain practical experience with the latest generative architectures (e.g., diffusion models, GANs) and self‑supervised pretraining methods.
+2. Advance Multimodal and Multi‑Agent Research: Collaborate on hackathon challenges that require fusing vision, language, and sensor data, and coordinating autonomous agents in shared environments.
+3. Strengthen Safe AI Practices: Learn formal and empirical techniques for ensuring robustness, fairness, and ethical alignment in generative systems.
+4. Expand Professional Network: Connect with [compaany] and [compaany] faculty, industry mentors, and international peers to explore future PhD opportunities and joint research.
+Future Career Plans
+My long‑term ambition is to lead research at the intersection of healthcare, robotics and AI, creating ethically responsible, generalist robotic agents capable of multimodal perception and collaboration. I plan to pursue a PhD after SMILES‑2025 - exploring potential [compaany], [compaany] and other leading universities’ faculty and laboratories working on areas I have highlighted above, focusing on generative and self‑supervised methods for safe, multi‑agent robotic systems. In the near term, I will continue developing inclusive healthcare technologies at The [compaany] and mentor the next generation of African ML researchers through workshops and hackathons.
+I have attached my résumé for your review, which details my academic background, selected projects, publications, and leadership roles . Thank you for considering my application. I look forward to the possibility of contributing to—and learning from—the vibrant SMILES‑2025 community.
+Sincerely,
+[name] [surname] MOSES
+([email])

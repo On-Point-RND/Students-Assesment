@@ -1,0 +1,159 @@
+Slide 1
+----------------------------------------
+Development of an algorithm for detection and classification of cardiovascular system pathologies using machine learning methods
+
+[name]
+[name]
+
+Slide 2
+----------------------------------------
+Problem
+Problems: Time-consuming, requires high qualification of the doctor
+
+Problems: 
+Low interpretability
+Individul architectures analyze only a subcass of signal properties
+2/19
+
+
+Slide 3
+----------------------------------------
+1d-CNN
+Transformer
+Embedding
+Probabilities of ECG belonging to different diseases
+Bi-LSTM
+Signal preprocessing
+Twelve-point ECG
+Preprocessing
+Encoder
+Classifier
+Visualizing the scales of attention
+[name], et al.Cardiologist-level interpretable knowledge-fused deep neural network for automatic arrhythmia diagnosis //Communications Medicine. 2024 Vol 4. Article number: 31. DOI: 10.1038/s43856-024-00464-4 
+Solution:
+General architecture
+3/19
+
+
+Slide 4
+----------------------------------------
+4/19
+
+Convolutional neural network (CNN)
+Figure 1 – Mechaniism of ResBlock k
+Figure 2 – Architecture of 1d-ResNet Model
+
+
+Slide 5
+----------------------------------------
+5/19
+
+Recurrent Neural Network (RNN)
+Figure 2 – LSTM bidirectional layer device (Bi-LSTM)
+Figure 3 – Architecture of Bi-LSTM Model
+Figure 1 – Design of the long short-term memory unit (LSTM)
+
+
+Slide 6
+----------------------------------------
+6/19
+
+Transformer
+Figure 2 – Architecture of Transformer model
+Figure 1 –Attention mechanism (left) and Multi-Head Attention (right)
+[name]. V., et al. Attention Is All You Need //31st Conference on Neural Information Processing Systems. 2017. DOI:  10.48550/1706.03762
+
+
+Slide 7
+----------------------------------------
+7/19
+
+Classifier
+Figure 1 – Architecture of Classifier
+
+
+Slide 8
+----------------------------------------
+8/19
+
+Results.
+Base Models
+F1-score:  0.719
+Accuracy: 0.813
+1d-ResNet
+Bi-LSTM
+Transformer
+F1-score:  0.680
+Accuracy: 0.762
+F1-score:  0.685
+Accuracy: 0.760
+Figure 1 – Confusion matrices on a test sample for 1d-ResNet (left), 
+ Bi-LSTM (middle) and Transformer (right)
+
+
+Slide 9
+----------------------------------------
+9/19
+
+Results.
+Visualization of Attention
+Figure 1 – Visualization of Attention for ECG with STTS disease 
+         The attention weights indicate which parts of the ECG signal the model considers most significant for decision making - for example, R peaks, ST depressions or other patterns characteristic of a particular class of arrhythmias. 
+        The higher the weight, the greater the influence of that segment on classification.
+Figure 2 - Schematic representation of ECG
+
+
+Slide 10
+----------------------------------------
+10/19
+
+Results.
+Multimodal system
+1. [name], et al. IM-ECG: an interpretable framework for arrhythmia detection using multi-lead ECG //Expert Syst. Appl. 2024. Vol.  237. Article number: 121497. DOI: 10.1016/j.eswa.2023.121497
+2. [name] Z., et al.  A coordinated adaptive multiscale enhanced spatio-temporal fusion network for multi-lead electrocardiogram arrhythmia detection //Scientific reports. 2024. Vol. 14. Article number: 20828. 
+      DOI: 10.1038/s41598-024-71700-z
+3. [name] H. et al.  Automatic multilabel electrocardiogram diagnosis of heart rhythm or conduction abnormalities with deep learning: a cohort study //Lancet Digit Health. 2020. DOI:  10.1016/S2589-7500(20)30107-2
+4. [name] K. H. et al. LightX3ECG: A Lightweight and explainable Deep Learning System for 3-lead Electrocardiogram Classification // Biomedical Signal Processing and Control. 2020. Vol 85. 
+      Article number: 104963. DOI: 10.1016/j.bspc.2023.104963.
+
+Table 1 - Comparison of the accuracy of different models on the PTB-XL dataset
+Figure 1 – Confusion matrix for 
+multimodal system
+
+
+Slide 11
+----------------------------------------
+11/19
+
+R peak detection
+a)
+b)
+
+Algorithm requirements:
+Immunity to noise
+Versatility
+Ability to operate over a wide range of HR
+High speed of operation
+Detection of ungenerated R peaks
+Picture 1 – The algorithm runs on data from the Bisense cardisensor under development at [compaany] (a) and from the PLB-XL dataset (b)
+
+
+Slide 12
+----------------------------------------
+12/19
+
+R peak detection
+a)
+b)
+
+Picture 1 – The algorithm runs on synthesised data 
+[compaany] cardiac sensor data at HR 15 beats/min (a) and 250 beats/min (b)
+Algorithm characteristics:
+Detection of R peaks only
+Works on real data from two different sensors and on synthesised data
+Stable over the whole possible HR range
+Speed of operation: 6 ms / 1 s of recording 
+Detection of ungenerated R peaks
+
+
+

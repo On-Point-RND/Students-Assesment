@@ -1,0 +1,47 @@
+[name] [surname]
+[location], [location] | +2 *** *** *** | [email] | @[email] | [compaany]
+WORKEXPERIENCE
+[compaany] [location]
+C++ October2024-Present
+Developed efficient user scheduling algorithms for 5G base-stations that account for channel estimation and user fair traffic sharing.
+[compaany] [location]
+Python June2024-August2024
+Improved the deep learning model by ≈10% for the PIM reduction in MIMO channel. Worked on new approaches for the channel FIR filter approximation in MIMO systems.
+Computational scheduling in wireless networks [location]
+Python May2023-October2023
+Implemented multi-processor preemptive scheduling algorithms, that can be applied for task scheduling in wireless networks. Developed non-deterministic heuristic algorithms based on ant colony optimization and simulate annealing.
+Diagnosing PTSD with NIRS [location]
+Python June2023-December2023
+Explored potential of NIRS technology for detecting PTSD manifestation and numeric psychological health measurement on people that were in the areas of military action.
+Single processor non-preemptive tasks scheduling algorithms based on greedy heuristics [location]
+C++/BoostGraph February2022-April2023
+Developed a greedy heuristic algorithm for the minimization of peak memory usage. Worked in a faculty R&D team. The goal is to minimize peak memory usage throughout the whole schedule. Learned Boost Graph for the project.
+School №179 and School "Center of Pedagogical Mastery" [location]
+Algorithms, Informatics September2023-present
+Teaches scholars of the 9th, 10th and 11th grade four courses. Two year long courses: Algorithms, Introduction & Advanced Python. Two short introductory courses on Git and SQL.
+RESEARCH
+Universal Deep Learning Model for Channel Decoding IoT, [compaany]
+Python September2024-May2025
+Implemented foundations syndrome decoder based on transformer architecture;
+∙ Optimized code matrix for the model;
+∙ Evaluate results and compare with classic decoders.
+∙ Autoencoder Deep Neural Networks for Joint Code Construction and Decoding IoT, [compaany]
+Python January2024-May2024
+Researched state of the art error correcting codes;
+∙ Utilized the deep learning approach for the development of encoder-decoder model;
+∙ Compared the TPc code with trained model and achieved lower BER values for some SNR’s.
+Scheduling algorithm for minimization of peak resource usage in single processor system CMC, MSU
+C++/BoostGraph September2022-May2023
+Developed and implemented deterministic algorithm;
+∙ Completed a pilot study and evaluated algorithm efficiency on different classes of input data.
+EDUCATION
+[compaany] Institute of Science and Technology [location]
+InternetOfThings&WirelessTechnologies September2023-present
+Courses: wireless communications, coding theory, machine & deep learning, optimization methods.
+∙ Research: neural syndrome decoder, foundation models, transformer architecture.
+[compaany] Moscow State University [location]
+Applied mathematics and computer science program September2019-May2023
+GPA:4.74/5;
+∙ Major subjects: Calculus, Linear algebra, OS architecture, Network architecture, C/C++, Python3, Assembly,
+∙ Parallel programming
+1. [name] [surname] demonstrates strong expertise in coding theory, deep learning, and their applications for syndrome decoding, particularly evident in their work with [compaany] and [compaany]. Their experience in computational scheduling at [compaany] further highlights their ability to develop and implement efficient algorithms. The work at [compaany] in the field of wireless networks is particularly relevant to their skills.

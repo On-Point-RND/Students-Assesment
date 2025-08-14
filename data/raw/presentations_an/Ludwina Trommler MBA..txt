@@ -1,0 +1,49 @@
+This is a comprehensive overview of Aleksandr Tolmachev's recent research, covering a diverse range of topics within mathematical optimization and combinatorial geometry. Here's a breakdown of the key areas and findings:
+
+**1. Generative Modeling for Combinatorial Geometry:**
+
+* **Focus:** Applying Machine Learning, particularly Large Language Models (LLMs) and generative models like GFlowNet, to solve problems in combinatorial geometry, specifically related to optimal and sub-optimal partitions and distance graphs.
+* **Future Directions:**
+    * Code generation for optimal partitions.
+    * Multi-agent systems for graph generation and optimization.
+    * Treating the problem as a generative modeling paradigm.
+    * Combining various ML approaches.
+* **Motivation:** Believes ML can drive mathematical discoveries in this challenging area.
+
+**2. Partitioning of the Flat Torus:**
+
+* **Problem:** Investigating the problem of partitioning a flat torus (R²/Z²) into parts of smaller diameter. This is a generalization of planar set partitioning.
+* **Key Findings:**
+    * Calculated upper bounds for the diameter of optimal partitions for n parts (2 to 7), showing increasing complexity.
+    * The optimal partitions are represented in non-trivial ways.
+    * The problem has connections to other classical combinatorial geometry problems.
+* **Methods:** Utilized SAT solvers for coloring the graph representation of the torus partition.
+
+**3. Lower Bounds on Density of Planar Periodic Sets:**
+
+* **Research:** Exploring lower bounds on the density of planar periodic sets without unit distances.
+* **Publication:** A paper on this topic was published in Discrete Mathematics, Algorithms and Applications (2025).
+
+**4. Optimal Partitions of the Flat Torus:**
+
+* **Research:** Investigating optimal partitions of the flat torus into parts of smaller diameter.
+* **Publication:** A paper on this was submitted to Discrete Optimization (2024).
+
+**5. Distance Graph Embeddings and Optimal Partitions:**
+
+* **Research:** Exploring methods for searching for distance graph embeddings and finding optimal partitions of compact sets in Euclidean space.
+* **Publication:** A paper on this was presented at MOTOR 2023.
+
+**6. Coverings of Planar and Three-Dimensional Sets:**
+
+* **Research:** Studying coverings of planar and three-dimensional sets with subsets of smaller diameter.
+* **Publications:** Several papers on this topic were published in Discrete Applied Mathematics (2022) and Doklady Mathematics (2021).
+
+**7. Coverings of Planar Sets:**
+
+* **Research:** Focused on the fundamental problem of covering planar sets.
+* **Publication:** A paper on this was published in Doklady Mathematics (2021).
+
+**Overall:**
+
+Aleksandr Tolmachev's research is highly interdisciplinary, combining techniques from combinatorial geometry, graph theory, and increasingly, machine learning. His work tackles fundamental problems in partitioning and covering sets, with a recent focus on leveraging the power of AI for mathematical discovery. The research appears to be at the forefront of combining these fields to solve challenging problems.

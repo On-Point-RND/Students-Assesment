@@ -1,0 +1,73 @@
+PERSONAL DETAILS
+[name] [surname], 29 years old
+Candidate of Physical and Mathematical Sciences in the specialty 1.1.9. Mechanics of
+liquid, gas and plasma
+Dissertation: https://vak.minobrnauki.gov.ru/advert/100076694
+I have experience in public speaking, writing scientific articles and organizing
+conferences/webinars. I have a good speech. I am goal-oriented, responsible, with a great
+desire to develop in the chosen direction. I know how to work in a team.
+I have been working in an oil company for 8 years. During this time, I have paid attention
+to what could be improved with the help of modern technologies. At university we studied
+ML/DL. Now I am starting a project related to the development of a chatbot assistant for
+oil companies. I am interested in the topic of artificial intelligence. This year I hope to win
+a grant.
+EDUCATION
+2013-2017, Bachelor's degree
+[university], [location], General Science Faculty
+Course: 01.03.04 Applied Mathematics
+Topic of the diploma thesis: «Integration of systems of two ordinary differential equations
+of the third order admitting six-dimensional Lie algebras with a three-dimensional
+subalgebra»
+2017-2019, Master's degree
+[university], [location], Faculty of Mathematics and Information Technology
+Course: 01.04.02 Applied Mathematics and Information Science
+Topic of the diploma thesis: «Numerical modeling of filtration in media with a complex
+structure of void space»
+2019-2023, Postgraduate study
+R.R. Mavlyutov Institute of Mechanics, [center], [location]
+Course: 01.06.01 Mathematics and Mechanics
+Topic of the diploma thesis: « Modeling the dynamics of pressure and flow rate of a well
+with a hydraulic fracture»
+WORK EXPERIENCE
+2017 - nowadays, [company]
+Tasks performed: scientific support of geomechanical projects; analysis of drilling mud
+leaks, application of geomechanical modeling to establish the causes of absorption during
+drilling; analysis of tracer studies; monitoring of field development; construction of 1D
+geomechanical models of wellbore stability, analysis of initial data, construction of
+petrophysical dependencies; creation of static and dynamic models of fracture systems for
+further use in hydodynamic modeling and development monitoring; adaptation of DFN
+models to dynamic well testing data and development data; preparation of reporting
+documentation, presentation materials and defense at the Scientific and Technical Council.
+PUBLICATIONS
+Some of publications were published in journals of the VAK/Scopus/RSCI level:
+1. Evolution of Filtration Pressure Waves in a Hydraulic Fracture during Transient-
+Well-Operation Modes / [name] [surname], [name], [surname], [name] // Mathematics. – 2023. – Vol. 11, No. 1. – P. 98. – DOI
+10.3390/math11010098. – EDN EPSKXS.
+2. Fluid filtration in reservoirs subjected to hydraulic fracturing during transient well
+operation / [name] [surname], [name], [surname] // Journal of Applied
+Mechanics and Technical Physics. – 2022. – Vol. 63, No. 3. – P. 474-483. – DOI
+10.1134/s0021894422030129. – EDN LEHFSN.
+3. Some Features of Fluid Filtration in a Hydraulic Fracture under Transient Well
+Operation Conditions / [name] [surname], [name], [surname] //
+Mechanics of Solids. – 2022. – Vol. 57, No. 8. – P. 1923-1935. – DOI
+10.3103/s0025654422080040. – EDN GTQQXC.
+4. The fluid pressure in a hydraulic fracture perpendicular to the horizontal well / [name] [surname], [name], [surname] //
+Problems of collection,
+preparation and transport of oil and petroleum products. – 2023. – No. 4(144). – P.
+43-53. – DOI 10.17122/ntj-oil-2023-4-43-53. – EDN LSJQRU.
+5. Modeling the operation of a well with a hydraulic fracture / [name] [surname], [name] // Bulletin of the Bashkir Universiity. – 2023. – T. 28, No. 1. – P. 10-
+14. – DOI 10.33184/bulletin-bsu-2023.1.2. – EDN ANAJPL.
+All publications: https://elibrary.ru/author_profile.asp?authorid=1172469
+CONFERENCES
+I have participated in a large number of scientific and practical conferences. Some of them
+are listed below: International Scientific and Practical Conference named after D.I.
+Mendeleev, [location], November 24-26, 2022, 3rd degree diploma; XVI All-Russian Youth
+Scientific Conference Mavlyutov Readings, [location], October 25-27, 2022, 2nd degree
+diploma; XXIII All-Russian Conference of Young Scientists on Mathematical Modeling
+and Information Technology (YM-2022), [location], October 24-28, 2022, winner's
+diploma; All-Russian Conference of Young Scientists in Mechanics (YSM-2022), [location],
+September 4-14, 2022; Competition of Scientific Reports of Young Scientists of the
+Institute of Mechanics of the [center] of the Russian Academy of
+Sciences, [location], April 25, 2022, 1st degree diploma; 23rd Conference on Geological
+Exploration and Development of Oil and Gas Fields "Geomodel 2021", [location],
+September 6-10, 2021, the report was marked as the best in the section.

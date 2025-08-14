@@ -1,0 +1,32 @@
+[name] [surname]
+Computer Vision Researcher
+Date of birth: 19.07.2000
+Phone: +2 *** *** ***
+E-mail: [email]
+GitHub: @[name]
+Education:
+• 2018 – 2022 [compaany] D.F. Ustinov (BACHELOR'S DEGREE), specialty: 12.03.05 – Laser engineering and laser technolologies, honors degree
+• 2022 – 2024 [compaany] (MASTER'S DEGREE), specialty: 12.04.02 – Optical technology ("Technical Vision")
+Professional development:
+• 2023 Diploma of professional retraining at [compaany] under the program "Data Analysis Technologies", qualification: big data specialist
+• 2023 Advanced training at [compaany] under the program "Principal Rising Star" (PI/PE schoo)
+• 2024 Participation in the summer schoo on artificial intelligence "Summer with AIRI" githu
+• 2024 Diploma of the Python AI Researcher course on the website mimo.org githu
+Work experience:
+• November 2022 – June 2023 Engineer
+[location], [compaany],
+Faculty of Physics and Technology
+– Development of DL algorithm for a charcoal sketch segmentation of IR image (digital image processing algorithms, SegFormer), publication
+• January 2024 – April 2025 Junior researcher
+[location], [compaany],
+– Implementaion of neural networks and machine learning methods into the developed algorithms
+for solving problems of segmentation of small objects in the sky (detection, recognition, tracking YOLOv7, segmentation – Unet, SegFormer)
+– Publication "Investigation of segmentation methods for small-sized objects against the sky" publication
+– Prize-winning second place in the hackathon "AEROTON-2024", [location]. The task was to develop
+an obstacle detector. Our solution was realized using algorithms for processing the video stream
+(steroscopic vision, YOLOv7 for classification) and data from lidar and ultrasound sensors.
+Skills:
+• Programming languages: Python (PyTorch, TensorFlow/Keras, OpenCV), C++ (OpenMP);
+• Experience working in development environments: PyCharm, Juypter Notebook, Google
+Colaboratory, Visual Studio;
+• Foreign languages: English – B1+ (Intermediate).

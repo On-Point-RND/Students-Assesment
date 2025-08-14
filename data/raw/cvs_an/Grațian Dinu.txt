@@ -1,0 +1,69 @@
+[name] [surname]
+MLEngineer
+[email] §[name][surname] }theother_archeee
+WORKEXPERIENCE
+ABOUT ME
+MLEngineer
+MLEngineer with 2 years of experience in ML, NLP,
+[location] Academy of Science of the Republic of Tatarstan
+CV,LLM. Enthusiastica bout adapting advanced tech-
+z Sept 2023 — Nov 2024
+nologies solutions to real-world problems and integrat-
+• Developed neural machine translation models for minority languages in [location] (NLP).
+• Assisted in creating an automatic speech recognition system for [location] language
+(ASR).
+• Dataset preparation, annotation, and deployment of ML services. Innopolis
+University, Bachelor’s in Data Analysis and AI
+z 2022–2026
+MLEngineer, Backend Developer
+Deeplit LLC • Studies conducted entirely in English.
+z Jan 2024 — Present
+• Developed educational platform with AI math tutor. Technologies: FastAPI, LangChain,
+ECHSTACK, LangSmith, RAG, function-calling, DPO, prompt-engineering, OpenAI API, DeepSeek
+API. Python Java
+• Developed and optimized LLMs (AlpacaGeometry, LLaMA2, Vikhr, Gemma, LLaMA C/C++
+3) locally with LLM, quantization (GPTQ, AWQ), fine-tuning (LoRA).
+Git Docker
+PostgreSQL/MongoDB
+Pet Projects
+z June 2024 — Present
+SOFT SKILLS
+• Created AI-sales assistant (Stack: WhatsApp API, Avito API, Gemini API, ChatGPT
+API), AI-investor (Stack: stockandnews APIs, Claude API), and AI-teacher (syn-
+Themwork
+thetic data generation, multi-agent system via LangChain, classical ML algo-
+Leadership
+rithms, feature engineering).
+Advanced English (B2)
+MLEngineer
+Research Analysis
+Croissant Studio LLC
+z Nov 2024 — Present
+• Developed AI-investor/analyst Telegram bot providing financial analytics and
+news. Stack: RAG, promptengineering, NLP (fuzzymatching, cosine distance),
+flow engineering.
+• Implemented agents with a language graph for article parsing, summarization, and
+ing.
+• Conducted research and trained ML and GNn algorithms for predicting medical
+properties (BBBM, PAMPA, AMES) from SMILES molecular struc-
+ture. Achieved 2nd place. Stack: Pandas, PyTorch,
+ChemProp, RDKit, MolFeat, DataMol, ScikitLearn.
+COMPETITIONS
+ADMET
+z 2024
+• Intensive course: 270+hours, PyTorch, Pandas, Numpy, Matplotlib, ScikitLearn,
+Transformers. Certificate.
+– Drafted TALC, a new probabilistic method optimizing LLM tool selection. Article.
+IISSCAI International AI School – Research on enhancing logic and precision of math-
+Higher School of Economics matical computation in LLMs through multi-agent
+z July–Dec 2023 systems and prompt engineering. Research.
+• NLP, ASR, CV practice (BERT, Whisper, CLIP, Faiss, DINOv2), LLM inference opti-
+z July 2024
+• Analysis on the efficiency and drawbacks of various
+mization. Diploma.
+DL algorithms in text summarization. Research.
+AIWWAIWorkshop
+IITMOUniversity, AI Talent Hub
+z April 2024
+• Developed NLP+ASR module with Whisper and fuzzymatching (accuracy 97%).
+Diploma.

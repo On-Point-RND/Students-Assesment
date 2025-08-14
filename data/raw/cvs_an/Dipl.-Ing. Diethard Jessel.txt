@@ -1,0 +1,75 @@
+[name]
+[email] (cid:131) +2 *** *** *** § dsomni k @flip_floppa
+* [location]
+EDUCATION SUMMARY
+Master of Sciences InnovativeFullStackDeveoperwith3yearsexperiencebuiliding
+andmaintainingresponsiveeCommerce,inparticularEdTech,
+ComputerScience solutions.HighlyskilledinPythonandJavascript;plusmodern
+2024—2026 * [location]
+frontendandbackendlibrariesandframeworks.Possess
+Fieldofstudy—AIandDataScience workinngknowledgofrelationalandnon-relationaldatabases
+CuriousMLandAIdeveloper,abigfanofReinforcement
+Learning.SkiilledinPyTorchandJAXlibraries
+Bachelor of Sciences
+ComputerScience
+2020—2024 * [location]
+Fieldofstudy—AI
+Thesis:Textplagiarismdetectioninthefieldof WORK EXPERIENCE
+largelanguagemodelsusingthereinforcement
+learning
+Founder, CEO, Full Stack Deveoper
+Adviser:ArmenBeklaryan
+AcceptSchoo,Startup
+2023—Present * ParadiseCrane
+KEY COURSES
+DesignanddevelopmentofAcceptSchoo—onlineresource
+forimproviningprogrammingskills,whichisusedineducational
+MSc organizations
+HighDimensionalDataAnalysis, Researcher
+LinearOptimization,AdvancedStatisics,Advanced
+LaboratoryoofMathematicalFoundationsofDistributedand
+MachineLearning,ReinforcementLearning
+2024—Present * [location]
+Teachingandresearchactivitiesinthefieldofmathematical
+OptimizationMethodsinMachineLearning, optimizationmethods
+ReinforcementLearning,NaturalLanguageProcessing,
+Head:AleksandrBeznosikov
+PracticalDeepLearning
+Researcher
+SKILLS LaboratoryoofProblemsofFederatedLearning
+2024—Present * ISPRAS
+Designandresearchactivitiesinthefieldofwirelessinformation
+transmission
+MongoDB,PostgreSQL
+Head:AleksandrBeznosikov
+Researcher
+Python,JavaScript,Typescript,C/C++,Rust,Java, LaboratoryoofMathematicalOptimizationMethods
+Frameworks and Libraries
+NodeJS,FastAPI,React,Next.js,Astro
+Tools and Technologies ML Deveoper
+CompetenceCeinterforBusinessAnalysiandImplementation
+LaTeX,Git,Postman,Docker
+Soft Skills
+Leadership,Stressrresistanc,Teamwork,Time and
+management accuracy
+LANGUAGES
+AdvancedEngineeringschoolIU
+2023 * [location]
+DevelopedcodegenerationmodelinPyTorch,makinganotable
+contributiontoaascientificpublication
+TEACHING EXPERIENCE
+Teaching Assistant
+YandexStudentCamponMathAI
+July2024 * [location]
+Designedandprovidedmaterialsforseminarsaand
+homeworksonthecourse‘OptimizationMethods
+inMachineLearning’forthestudengroupsunder
+theguidanceofAleksandrBeznosikov
+REFERENCES
+Accept Schoo
+(cid:128) Landing
+§ ParadiseCrane
+Thesis
+§ dsomni/rl-plagiarism-detection
+Others
+(cid:128) YandexStudentCamponMathAI2024

@@ -1,0 +1,21 @@
+[name] [surname]
+[location] | [location]
+Mobile: +2 *** *** *** | +2 *** *** ***
+Email: [email]
+LinkedIn: [name] [surname] | GitHub: PORTFOLIO + PET Projects
+Dear Skoltech Admissions Committee,
+My name is [name] [surname], I am a PhD student in Petroleum Engineering at [location] with over a decade of experience in the oil and gas industry. I am writing to express my enthusiastic interest in joining the Skoltech SMILES intensive course and HIP program in [location] this summer. This opportunity perfectly aligns with my goal to integrate advanced machine learning with geoscience problems, while expanding my technical and leadership skills in data-driven innovation.
+Academic and Professional Foundations
+I began my academic journey at [location] State Oil Institute, where I received a BSc in Mechanical Engineering with honors, supported by a scholarship from [company]. I then earned two MSc degrees, one in Geology and Geophysics from [location] Polytechnic University and one in Petroleum Engineering from [location] University (UK). My academic aspirations were further enriched by specialized courses in the USA, UAE, and Russia, as well as extensive international travel to over 10 countries, which broadened my technical horizons and deepened my understanding of global industry practices.
+Professional Innovation and the Transition to Data Science
+Throughout my career, I have progressed from field roles such as LWD/MWD Field Engineer and Well Placement Engineer at [company] to leadership positions at industry giants such as [company] and currently as a Chief Expert at [company]'s Technology Development Center. In this role, I oversee over 50 research projects that integrate advanced geophysical, petrophysical and machine learning methods to optimize field development and enhance oil recovery. My work is supported by numerous patents (9) and numerous publications (10+) in respected venues such as SPE and EAGE conferences.
+Recognizing the transformative potential of AI, I have expanded my knowledge by obtaining certifications in data science and machine learning (including participation in the SLB Machine Learning Workshop and Yandex Practicum courses, School 21, Bauman Moscow Technical University, Innopolis University, Sber University etc.). My current PhD research on autonomous AI agents for data-driven reservoir optimization is a direct reflection of my commitment to advancing industry practice through technology.
+Why Skoltech?
+Skoltech’s commitment to innovation, interdisciplinary collaboration, and rigorous academic research is deeply aligned with my professional vision. The SMILES and HIP programs, focused on applying machine learning to inverse problems and developing hybrid intelligence, are particularly aligned with my proprietary approaches to residual oil localization and ongoing research initiatives. I am confident that Skoltech’s collaborative international ecosystem will not only deepen my technical capabilities but also accelerate my transition to a strategic, data-driven leadership role that bridges geoscience and digital innovation.
+Future Vision
+Upon completion of the program, I intend to establish a research center that will bridge industry and academia, leveraging Skoltech’s networks to pioneer scalable machine learning solutions for sustainable resource extraction. By combining my extensive field experience, international presence, and advanced computational skills, I aim to drive transformative change in the energy sector on a global scale.
+Thank you for considering my application. I welcome the opportunity to discuss how my background, research focus, and international experience can contribute to the Skoltech innovation community. Please feel free to contact me by email at [email] or by phone at +2 *** *** *** / +2 *** *** ***.
+Sincerely,
+[name] [surname]
+PhD in Petroleum Engineering
+[location] | [location]

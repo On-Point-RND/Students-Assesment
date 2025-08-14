@@ -1,0 +1,13 @@
+Motivation Letter
+Dear Admissions Committee,
+I am excited to apply for the SMILES Summer School of Machine Learning 2025. As someone deeply passionate about machine learning and its applications, I am eager to participate in this program to expand my knowledge and collaborate with like-minded people.
+Currently, I am working on a project focused on camera accuracy studies, where I develop algorithms to process images to get precise positions of cameras relative to fields based on field markup. This project is giving me hands-on experience in using ML to solve real problems. Additionally, I found that RL is one of the best existing approach for my pet project on matrix multiplication optimization. Inspired by the [compaany] DeepMind team's work on fine-tuning AlphaGo for this task, I my current goal is to recreate their results and then try to apply their approach at a higher level of abstraction to achieve some insights. This project is particularly challenging due to the limited availability of (labeled) data, making RL essential.
+My internship as an ML Engineer at [compaany] has further enhanced my practical skills. I engineered features for candidate generation and created pipelines that improved production metrics, giving me valuable experience in applying machine learning in industry settings.
+Academically, I have a strong foundation. I graduated from the [location] with a GPA of 4/5 and am currently pursuing a Bachelor in Software Engineering at the [location] with a GPA of 8/10. My coursework and projects (which are listed in cv) have equipped me with a solid understanding of ML, DL and CV.
+I am particularly interested in the SMILES program because it offers a unique opportunity to learn from leading experts and engage with other participants.
+Thank you for considering my application. I look forward to the possibility of participating in the SMILES Summer School of Machine Learning 2025 and contributing to its success.
+Sincerely,
+[name] [surname]
+
+
+

@@ -1,0 +1,30 @@
+Application for SMILES Skoltech Summer School 2025
+Dear Admissions Committee of the SMILES Skoltech Summer School 2025,
+I am writing to express my strong interest in participating in your program. My name is [name], and I am
+a young professional in software engineering specializing in AI.
+Throughout my studies and work experience, I have developed a passion for exploring machine learning,
+computer vision, and artificial intelligence. I am particularly interested in AI and its applications, and I
+previously worked on a startup project developing a video surveillance camera with facial and object
+recognition capabilities. I am convinced that machine learning plays a crucial role in solving modern
+digital challenges.
+As part of a university project, I deveveloped a mobile fitness application that allowed users to schedule
+training sessions with coaches, process payments, and leave tips.
+I have experience working with Python, TensorFlow, PyTorch, OpenCV, SQL, MS Visual Studio, Pascal,
+HTML, Github, Git, Tilda, C++, DBMS, and MySQL. I also participated in the Teacharena conference,
+where I demonstrated my mathematical skills.
+I actively follow the latest research in the field of AI and regularly read scientific articles. I learned about
+the SMILES Skoltech Summer School 2025 from my professor at the Higher School of Economics. I was
+particularly drawn to the school’s curriculum, faculty, and opportunities for hands-on experience.
+I am confident that participating in the SMILES Skoltech Summer School 2025 will allow me to:
+ Deepen my knowledge in the fields of AI and ML.
+ Gain practical work experience.
+ Connect with leading experts in computer technology.
+ Broaden my professional horizons and find like-minded individuals.
+I am confident that my enthusiasm, diligence, analytical abilities, teamwork skills, and programming
+skills will enable me to make a significant contribution to the SMILES Skoltech Summer School 2025 and
+benefit fully from my participation.
+Thank you for considering my application. I would be very grateful for the opportunity to join your
+program.
+Sincerely, [name] [surname]
+[email]
++2 *** *** ***

@@ -1,0 +1,46 @@
+[name] [surname]
+§ [compaany] Profile | (cid:239) [compaany] Profile | # [email] | } [compaany] Profile
+Skills
+Languages: Python, C/C++, Bash
+Developer Tools: Make, JIRA, OpenStack, Confluence
+Technologies: Linux, Docker, SQL, Git, Kubernetes, AirFlow, Pyspark
+Areas of Interest: ML, DS, Software Engineering
+Experience
+[compaany] April 2024 - Present
+Machine Learning Engineer [location]
+— [compaany] is one of the largest Austrian banking groups, one of the most reliable banks in [location]
+- Developed a microservice with an online Risk Scoring Model for credit applications from mid-sized and large businesses, deployed as an API using Docker and K8S.
+- Developed a microservice with an online Probability of Default Model for mid-sized and large businesses, deployed
+as an API using Docker and K8S.
+- Developed of an LLM powered microservice for generating industry overviews using news parser
+- Tech stack: Python, ML/DL, Linux, Docker, Git, Kubernetes, AirFlow, SQL, Pyspark
+[compaany] April 2023 - April 2024
+Presale Engineer [location]
+— [compaany] is a world-renowneed expert in facial/cars/plates recognition solutions powered by neural networks.
+- Demonstrating solutions portfolio and tailoring it to customer’s requests
+- Designing prototypes based on the image recognition platform
+- Preparing and executing proof of concepts and pilot project
+- Developed and deployed additional functionaliity based on the product’s API
+- Tech stack: Linux, DevOps, Docker, Bash, Python, Git
+Projects
+— Tech stack: C/C++/Linux/Git/Bash
+- Implementation of C++ library with the basic standard container classes: list, map, queue, set, stack and vector
+- Implementation of C libraries (Math.h/String.h/Decimal.h/Matrix.h)
+- Implementaion of Bash utils Cat and Grep on C
+- SmartCalc / An extended version of the usual calculator based on stack. Backend on C/Frontend on C++
+- 3D Viewer / A program to view 3D wireframe models. Backend on C/Frontend on C++
+— Tech stack: Python/Docker/FAST API/Postgres/Deepface
+- SmartEye (FAST API service for face recognition and database search)
+- Pimp my DS (Telegram bot with LLM for Data Scientiists)
+Education
+[compaany] Faculty of Computer Science Sep 2024 - Present
+Master of Applied Mathematics and Information Science [location]
+[compaany] of Economics Sep 2020 - Aug. 2024
+Bachelor of Business-Informatics [location]
+School 21 / Ecole 42 Jul 2022 - Jan 2024
+Machine Learning, DevOps, C/C++ [location]
+Other
+[compaany] Xakaton (Real Estate Valuation) - 67 out of 370 teams Sep 2022
+[compaany](Prediction of Steel Melting Time) - 15 out of approxiately 100 teams. Feb 2022
+Karpov Courses StartML Sep 2023 - Aug 2024
+Karpov Courses HardML Feb 2025 - Present

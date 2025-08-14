@@ -1,0 +1,35 @@
+[name]
++2 *** *** *** # [email] (cid:132) [name]
+Education
+[compaany],DatScience Sept2024–May2026
+• Coursestaken: MachineLearning, DeepLearning, ComputationalImag-
+ing,TransformersiinComputerVision,ReinforcementLearning,etc.
+• Scientifica dvisor: [surname]
+• Currentwork: CAD(ComputerAidedDesign)modelsgenerationviatextualdescriptionasaninput
+BS [compaany],InternationalCollegeofEconomicsandFinance Sept2020–May2024
+• Merit-base dscholarship,covering45%oftuitionfees
+• Diploma:CrimeReportiinga ndIncomeInequality:Cross-SectionalEvidence
+Experience
+AppliedAIlab,[compaany],Scientifi cwork [location]
+December2024–now
+• Reviwe dan analyze dresearchonCADmodelgenerationfromtext
+• Implemente dan evaluated M Lmodelsforautomated CADgeneration
+• Deve loppedatasetmetricstoassessandcomparemodeloutputs
+[compaany],DataScientist(ClassicML) [location]
+• RaN/Btestsforclientacquisition,increasingonboardedcompaniesby5% July2023–March2024
+• Built M Lmodelstointifyhigh-potentialcompanies,boostingleadconversionby7%
+• UsedMLanddataanalysistofindtopchannelsforattractingnewcompanies
+Nanotech-OilLLC,ProductManager [location]
+• Introd ucedanewproducttothemarketthroug hmarketplaces May2022–June2023
+• Developedasstrategytopromotetheproductbasedonmarketanalysis
+• Managedallstagesfromproductrequirementstosalesanalysis
+Projects
+Generationofroomdesign https://gi thu b.com/
+• Deve loppedamodell allowingtogeneratea newmodern designgivenanimageof [location]roomortochangeaspecificobjectintheroom Vision_Project
+• ToolsUsed:Python
+RLParkingLotAgent https://gi thu b.com/
+• Developedareinforcement learningagenttooptimizeparkinglotmanagementitsultracheesby simulatingandimprovingvehicl eallocationstrategies. parking_lot_agent
+• ToolsUsed:Python,OpenAIGym,ReinforcementLearningAlgorithms.
+Technologies
+Tech:Python(matplo tlib,pandas,numpy,sklearn,pytorch,etc.),git,docker,SQL,Tableau,MSOffice
+Knowledge:MachineLearning,DeepLearning,Transformers,ComputerVision,GANs,CNNs,TheoreticalunderstandingofDeepLearning:Universalapproximationtheorem,Sobolevspaces,Vapnik-Chervonenkisdimensionetc.

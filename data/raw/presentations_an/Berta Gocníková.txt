@@ -1,0 +1,133 @@
+Efficient Distribution Matching of Representations via
+Noise-Injected Deep InfoMax
+[name], [surname], [name], [surname], [name], [surname]
+April 20, 2025
+[compaany]
+Introduction
+• Representation Learning involves extracting meaningful low-dimensional embeddings for AI tasks in vision, audio, and NLP. Such embeddings are
+especially useful for multi-modal learning, statistical and topological analysis, data
+visualization, and hypothesis testing.
+• We focus on self-supervised learning (SSL) to eliminate the reliance on labeled
+data.
+• Contrastive learning, a key SSL paradigm, encourages similar embeddings for
+augmmented versions of the same data point.
+• Deep InfoMax (DIM) is an information-theoretic contrastive approach that
+maxiimizes useful information contained in the embeddings, offering universality
+and strong performaance.
+• Distribution Matching (DM) refers to enforcing that embeddings follow a
+specific latent distribution.
+1/11
+Introduction
+Why DM? Enforcing a specific latent distribution is crucial for:
+• Generative modeling
+• Statistical analysis
+• Disentanglement
+• Ouutlier detection
+Our Contribution: We propose a simple, cost-effective DIM modification achieving
+exact DM via specific activation functions and noise injections—eliminating extra
+networks.
+Key Informaation-Theoretic Quantities:
+• h(X) = −Elogp(X) (p is PDF of X)
+• I(X;Y) = h(X)−h(X | Y)
+2/11
+Introduction
+Problem Setuup
+Let X be a high-dimensional random vector and f be an encoder (approximated by a
+neural network).
+We aim to obtain low-dimensional representation f(X).
+Informaation-Theoretic Approach
+One can maxiimize mutual information
+I(X;f(X)) → max
+to obtain the most informatiive embeddings.
+Problem: In most cases, I(X;f(X)) = +∞.
+3/11
+2. Next, apply f to X′. We now have the chain f(X) → X → X′ → f(X′) and, by
+DPI:
+I(f(X′);f(X)) ≤ I(X′;f(X)) ≤ I(X;f(X))
+Deep InfoMax
+1. Consideer a random data augmentation: X → X′ and a Markov chain
+f(X) → X → X′. Then by the data-processing inequality (DPI):
+I(X′;f(X)) ≤ I(X;f(X))
+4/11
+Deep InfoMax
+1. Consideer a random data augmentation: X → X′ and a Markov chain
+f(X) → X → X′. Then by the data-processing inequality (DPI):
+I(X′;f(X)) ≤ I(X;f(X))
+2. Next, apply f to X′. We now have the chain f(X) → X → X′ → f(X′) and, by
+DPI:
+I(f(X′);f(X)) ≤ I(X′;f(X)) ≤ I(X;f(X))
+4/11
+Donsker-Varadhan bound
+I(X;Y) = sup (cid:2)E P T −logE P ⊗P exp(T) (cid:3) ,
+X,Y X Y
+T:Ω→R
+Distribution Matching
+Distribution Matching
+We want to learn f(X) that follow a given distribution, e.g., normal.
+Cheap Modification of Deep InfoMax
+We propose adding independent noise Z to the normalized representation of X. This
+produces the chain f(X)+Z −→ X −→ X′ −→ f(X′) and leads to the objective
+I(f(X′);f(X)+Z) → max
+Note that
+I(f(X′);f(X)+Z) ≤ I(f(X′);f(X)) ≤ I(X′;f(X)) ≤ I(X;f(X))
+5/11
+Distribution Matching
+Distribution Matching
+We want to learn f(X) that follow a given distribution, e.g., normal.
+Cheap Modification of Deep InfoMax
+We propose adding independent noise Z to the normalized representation of X. This
+produces the chain f(X)+Z −→ X −→ X′ −→ f(X′) and leads to the objective
+I(f(X′);f(X)+Z) → max
+Note that
+I(f(X′);f(X)+Z) ≤ I(f(X′);f(X)) ≤ I(X′;f(X)) ≤ I(X;f(X))
+Donsker-Varadhan bound
+I(X;Y) = sup (cid:2)E P T −logE P ⊗P exp(T) (cid:3) ,
+X,Y X Y 5/11
+Deep InfoMax with Distribution Matching
+Lemma 1
+Consideer the following Markov chain of absolutely continuous random vectors:
+f(X)+Z −→ X −→ X′ −→ f(X′),
+with Z being independent of (X,X′). Then
+I(f(X′);f(X)+Z) = h(f(X)+Z)−h(Z)−I(f(X)+Z;f(X) | f(X′)).
+6/11
+Weaк invariance
+DM alone does not guarantee the learneed representations be meaningful or useful for
+downstream tasks.
+Defiinition 2
+An encoder f is said to be a weaкly invariant to data augmentation X → X′ if there
+exissts a function g such that f(X) = g(f(X)) = g(f(X′)) almost surely.
+Lemma 3
+Under the conditions of Lemma 1, let P(X = X′ | X) ≥ α > 0. Then,
+I(f(X′);f(X)+Z; f(X) | f(X′)) = 0 precisely when f is weaкly invariant to X → X′.
+7/11
+Deep InfoMax with Distribution Matching
+Theorem 4 (Gaussian distribution matching)
+Let the conditions of Lemma 3 be satisfied. Assume Z ∼ N(0,σ2I), Ef(X) = 0 and
+Var(f(X) ) = 1 for all i ∈ d. Then, the mutual information I(f(X′);f(X)+Z) can be
+i
+upper boundeed as follows
+(cid:18) (cid:19)
+d 1
+I(f(X′);f(X)+Z) ≤ log 1+ , (1)
+2 σ2
+with the equality holding exactly when f is weaкly invariant and f(X) ∼ N(0,I).
+Moreover,
+D (f(X)∥N(0,I)) ≤ I(Z;f(X)+Z)−I(f(X′);f(X)+Z)−dlogσ.
+KL
+8/11
+Two-dimensional embeddings for MNIST dataset
+9/11
+Two-dimensional embeddings for CIFAR10 dataset
+(a) No noise injection (b) Gaussiaan, σ=0.05 (c) Gaussiaan, σ=0.1
+10/11
+Dual Formulation
+Theorem 5 (Dual form of Gaussiaan distribution matching)
+Under the conditions of Theorem 4,
+(cid:104) (cid:105) (cid:104) (cid:16) (cid:17)(cid:105)
+I(f(X′);f(X)+Z) ≥ E P+ T N ∗ (0,σ2I) −logE P− exp T N ∗ (0,σ2I) ,
+∥y∥2 ∥y −x∥2 1 (cid:18) ∥x∥2+∥y∥2/(1+σ2) (cid:19)
+T∗ (x,y) = − = ⟨x,y⟩− ,
+N(0,σ2I) 2(1+σ2) 2σ2 σ2 2
+with the equality holding precisely when f is weaкly invariant and f(X) ∼ N(0,I).
+11/11
+Thank you for your attention!

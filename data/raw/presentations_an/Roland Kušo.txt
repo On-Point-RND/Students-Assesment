@@ -1,0 +1,178 @@
+SUMMER OF [name] LEARNING AT [compaany]
+Uncertainty in discovered differential equation upon
+a different differentiation methods
+Physics-informed methods overview
+Classical physics-based models:
+• A lot of physics
+• Written in the form of mathematical
+equations
+• Strict description of variables
+Data-driven methods:
+• Collect data → preprocess data → chose type of
+problem (regresssion, classification, etc.) →
+chose archtecture → train nn
+• Needs a lot of data
+Physics-informed ML:
+• Equation discovery
+(SINDy, EPDE, NeuralODE)
+• PINNs
+2
+Physics-informed methods overview
+Classical physics based models:
+«?»: coefficients search, “right-hand part” search (forcing), geometry search
+(inverse problem case), solution fields (forward problem)
+«+»: very reliable (?)
+«-»: fully dependent on an expert
+Data-driven methods:
+«?»: patterns/dependencies in data, predictive models (e.g., neural networks,
+regression), automated feature extraction(no explicit equation)
+«+»: solve problems, adaptable to new data/scenarios, less expert-dependent
+«-»: requires large, high-quality datasets
+Physics-informed methods:
+«?»: equation discovery, PINN (explicit equations used)
+«+»: even less expert-dependent
+«-»: no mathematical foundations
+3
+Equation discovery problem statement
+4
+X =  x ( i ) = ( x (1 i ) ,  x (d i )im )  i=
+i=
+N
+1
+- discrete grid where N is
+the number of
+observations
+U =
+
+u ( i ) =
+(
+u (1 i ) ,  , u (L i )
+)  N
+i = 1
+- associated set of observations
+for for each point on the grid
+u :
+M ( S
+X
+, P
+
+, x ) →
+d im
+u (
+→
+x )
+U
+: M
+
+( S , P
+L
+, x ( i) ) → u ( x
+i
+) ~ u ( i)
+Data (measurements)
+𝑢 + 𝐶 𝑢𝑢 + 𝐶 𝑢𝑢 = 𝐶
+𝑡 1 𝑥 2 𝑥𝑥𝑥 3 Model candidates
+𝑢 + 𝐶 𝑢 = 𝐶
+𝑡 2 𝑥𝑥 3
+𝑢 + 𝐶 𝑢 = 𝐶
+𝑡𝑡 2 𝑥𝑥 3
+Quality assessment
+‖𝑢 + 5.99𝑢𝑢 + 1.01𝑢𝑢 ‖ = 0
+𝑡 𝑥 𝑥𝒙 𝒙 𝒙 𝒙𝒙 𝒙 𝒕
+𝑢 + 𝑢𝑢 − 𝟎.𝟎𝟔𝟐𝟓𝑢 = 𝟎 and 𝑢𝑢 − 𝟎.𝟎𝟏𝑢 𝑢 − 𝟎.⁵𝑢 + 𝟎.𝟏𝟐𝑢 − 𝑢 = 𝟎 is 4
+𝑡 𝑥 𝑥𝒙 𝒙 𝒙 𝒙𝒙 𝒙 𝒕
+𝑢 + 𝑢𝑢 − 𝟎.𝟎𝟔𝟐𝟓𝑢 = 𝟎 and 𝑢𝑢 − 𝟎.𝟎𝟏𝑢 𝑢 + 𝟖.𝟗𝟖𝑢 − 𝟎.⁵𝑢+ 𝟎.𝟏𝟐𝑢 − 𝑢 = 𝟎 is 3
+𝑡 𝑥 𝑥𝒙 𝒙 𝒙 𝒙𝒙 𝒙𝒙 𝒙 𝒕
+𝑢 + 𝑢𝑢 − 𝟎.𝟎𝟔𝟐𝟓𝑢 = 𝟎 and 𝑢 𝑢 − 𝟎.𝟎𝟏𝑢 𝑢 + 𝟎.𝟏𝟐𝑢 − 𝑢 = 𝟎 is 5
+𝑡 𝑥 𝑥𝒙 𝒕 𝑥 𝒙 𝒙𝒙 𝒙 𝒕
+The symbols may be letters, bits, or decimal digits, among other possibilities
+9
+Data differentiation methods
+• Forward finite-difference method, 2nd order (Gradient)
+• Numerical derivatives of neural network outputs with
+Savitzky-Golay filtering (Adaptive)
+• Interpolating polynomials and differenating them afterward
+(Polynomial)
+• Spectral domail differentiation (Spectral)
+• Total variation regularization (Total)
+• Neural network, with loss on the inverse operator to
+differentiation (Inverse)
+Graph of a section over one spatial dimension for
+u(t,x) = u(t,x)+n(t,x), n(t,x) ~ F(t,x) synthetic input function (solution of wave equation
+with 2 spatial dimensions) in original state, with
+Gaussian noise, added to a fraction (40%) of points of
+the domain, and after the noise was smoothed by
+Gaussian kernel.
+10
+u ( t , x ) where is input data
+u ( t , x ) is correct state of the system
+n ( t , x ) is noise from Gaussian distribution with standard
+deviation  =  u ( t , x ) , k = 0, 0.5, 1
+Experimental setup
+• Equations:
+ODE, Burgers equation, Korteweg-de Vries equation, Wave equation, Laplace equation
+• Differentiation methods:
+Gradient, Adaptive, Polynomial, Spectral, Total, Inverse
+• Noise:
+0; 0.5; 1%
+• Equation discovery:
+EPDE, SINDy
+In total 180 experiments
+Data and code are available via the anonymized repository https://anonymous.4open.science/r/UAI_diff-B53D/README.md
+11
+SHD for all equations (EPDE)
+• As a rule of thumb, a
+lesser differentiation
+method leads to lower
+SHD
+noise=0%
+• Best differentiation
+methods for noise data
+and clean data are
+different
+noise=0.5%
+noise=1%
+SHD for all equations (SINDy)
+We also mention that the conclusion remaiins the
+same regardless of the method used, LASSO
+regression-based SINDy or evolutionar
+EPDE.
+noise=0%
+noise=0.5%
+noise=1%
+Means of scores for all equations
+• The error of the differentiation algorithm as the
+”feature engineering” method plays a role in the
+general uncertainty and is often left out of the
+scope
+noise=0%
+noise=0.5%
+noise=1% 14
+Quasigeostrophic potential vorticity equation
+• Original data was obtained via the pyqg framework for quasigeostrophic modeling
+https://pyqg.readthedocs.io/en/latest/index.html
+• The equations discovered from quasigeostrophic data cannot be effectively characterized using SHD or
+coefficient distribution, as the governing equations’ exact form is unknown a priori.
+• Instead, the most appropriate metric for evaluaion is the discrepancy between the original data and the
+numerical solutions obtained via a differential equation solver based on PINNs.
+Equations discovered:
+Via spectral domain differenatiation
+Via SG filtering
+15
+Quasigeostrophic potential vorticity equation
+Normalized potential vorticity data, Normalized Potential Vorticity, equation Normalized Potential Vorticity, equation
+pyqg obtained with spectral preprocessing obtained with SG filtering preprocessing
+Equation obtained with spectral preprocessing ( MSE = 0.057) and SG filtering preprocessing (MSE = 0.065)
+These results show that, in real cases, we cannot achieve consis tent results for unknown equations and that
+we require optiizing errors using differenatiaion methods as a hyperparamater.
+16
+Conclusion
+The main results are as follows.
+• The differenatiaion is an important part of every equation
+discovery metho d
+• Best differenatiaion methods for noise data and clean data
+are different
+• Absolute value of differenatiaion error is less important –
+very precise methods give poor discovery results in some cases
+17
+Thanks for your attention!

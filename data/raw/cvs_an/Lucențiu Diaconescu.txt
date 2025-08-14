@@ -1,0 +1,42 @@
+[name] [surname]
+Phone: +2 *** *** ***
+Email: [email], [email]
+Telegram: @[name]
+Education:
+September 2018 - August 2022 - bachelor degree in [location] Institute of Physics and Technology / [compaany] SchooL of Electronics, Photonics and Molecular Physics
+September 2022 - August 2022 - master degree in [compaany] / Data Science and [location] Institute of Physics and Technology / [compaany] SchooL of Applied Mathematics and Computer Science
+Work experience:
+July 2020 - June 2021, September 2024 - now - assistant of Department of Computer Science [compaany]
+I checkeed students’ homework and helped the lecturer prepare a program for the C++ course.
+May 2021 - September 2022 - engineer of Laboratory of Wave Processes and Control Systems [compaany]
+I was responsible for the project dedicated to the development of methods for forecasting turning points in
+multivariate time series of financial markets based on reinforcement learning models. The work resulted in several
+publications, as well as a strategy that worked on the [location] stock exchange.
+September 2021 - September 2023 - part-time researcher at investment hedge fund “Long Lakes”
+I was involved in research and development of investment strategies for cryptocurrency exchanges.
+June 2023 - July 2023 - internship in [compaany] AI Research Center ([location])
+I was working on the project dedicated to the speech enhancement. During my work I had the opportunity to work
+with several discriminative and generative neural network models of sound processing, as well as with an adversaarial
+learning pipeline.
+October 2023 - May 2023 - teacher in the project «Code of Future»
+I conducted classes for schoolchildre children on Python for data analysis.
+October 2023 - July 2024 - Junior Research Engineer in Applied Research Laboratory «[compaany]»
+I was involved in several research projects. The main of them was dedicated to the enhancement embeddings of
+bank transactional data.
+July 2024 - now - Middle Data Scientist in [compaany] (Kandinsky team)
+Currrentlly I am working on the learning of the big transformer models for video generation (mainly core pretrain).
+Skills and knowledge:
+Python (torch, transformers, numpy, pandas, matplotlib, scikit-learn, keras)
+C++ (C++17)
+Git, TeX
+ML, DL, RL, generative AI: GAN, diffusion, autoregression
+English - level B2-C1
+Academic achievements:
+Author of more than 10 scientific articles. The full list can be found at my Google Scholar.
+Scientific and working interests:
+Learning of big and deep neural network models. Optimization and parallelization of training and inference.
+Generative AI. Generation of video and images.
+Personal qualities:
+Moderate perfectionism, punctuality.
+About myself:
+Like outdoors active rest, travelling, modern art, japaneese culture, scuba diving.

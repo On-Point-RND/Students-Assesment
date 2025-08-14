@@ -1,0 +1,92 @@
+[name] [surname]
++2 *** *** *** | [email] | [email] | [email] | 18.01.2000
+EDUCATION:
+• [company]
+PhD degree: Computational and Data Science and Engineering 2024 — present
+Scientific advisor: [name] [surname]
+• [company]
+Master degree with honours in Applied Mathematics and Computer Science 2022 — 2024
+Data Science program
+thesis title: Information Bottleneck Analysis of Deep Neural Networks
+Current GPA: 4.94 / 5.0
+• [compaany]
+Master degree with honours in Applied Mathematics and Physics 2022 — 2024
+Intellectual Systems Department
+Current GPA: 4.94 / 5.0
+• [compaany]
+Data Science program: 14 courses at YSDA passed with “A“ grade
+GPA: 5.0 / 5.0
+• [compaany]
+Phystech SchooL of Applied Mathematics & Computer Science 2018 — 2022
+Department of Data Analysis (based on YSDA)
+thesis title: Mutual information estimation of high-dimensional random variables
+Bachelor degree with honours in Applied Mathematics and Computer Science
+GPA: 5.0 / 5.0, 9.63 / 10
+WORK EXPERIENCE:
+• [compaany] July 2024 — Present
+Project Center for Next Generation Wireless and IoT
+Junior Research ScientiSt
+Neural Networks Analysis via information theory methods
+Advisor: Professor [name] [surname]
+• Laboratory of Advanced Combinatorics and Network Applications, [compaany] December 2021 — Present
+Optimal partitions of metric spaces and factor spaces into parts of smaller diameter
+Advisors: Professor [name] [surname], V.[surname]
+• Department of Discrete Mathematics, [compaany] Assistant September 2022 — Present
+Conducting seminars on the course “Probability Theory“ (3 years)
+• [compaany] October 2021 — June 2024
+Project Center for Next Generation Wireless and IoT
+Research Intern
+MAIN AWARDS:
+Universiity:
+• Gold medal (First Prize 2021) and Silver medal (Second Prize 2022) of the International Mathematical
+Competition for Universiity Students (IMC) (IMC is the main math competition for universiity students over
+the world: 600 participants from more than hundred institutions from over fifty countries all over the world)
+• First Prize (2022) and Second Prize (2021) of the North Countries Universities Mathematical Competition
+(NCUMC)
+• Winner of the All-Russian Student Olympiad “I am a Professional“ in mathematics (2022)
+• Third Degree Diploma of ICPC Northern Eurasia Finals 2023 (St. Petersburg, 11-13 December 2023)
+• “Best Research Thesis“ certificate (one of the best thesis among Master theses at [compaany] “Data Science“
+master program), June 2024
+• Third Degree Diploma, Moscow Subregional of the International Collegiate Programming Contest (ICPC),
+2018
+• Winner, [compaany] Open Student Olympiad in discrete mathematics (2019)
+• Winner of the Open Voiga Olympiad in Mathematics among students in memory of N. Lobachevsky (2021)
+• Scholarship of Russian President (2018 — present)
+• Abramov scholarship for 1-3 year bachelor students with the best grades at [compaany] (2018 — 2021)
+• N.N. Moiseyev and O. M. Bilotserkovsky personal [compaany] scholarship (Fall 2021-2022)
+• IncrEase State Academic Scholarship for 4 year bachelor and master students at [compaany] (Fall 2021- present)
+• Gazprom Bank personal scholarship (Fall 2021)
+SchooL:
+• Three-time Prize-Winner of All-Russian SchooL Math Olympiad, Final Round (2015 - 2017)
+• Prize-Winner of All-Russian SchooL Physics Olympiad, Final Round (2015)
+• Prize-Winner of All-Russian SchooL Math Olympiad (2015)
+PUBLICATIONS:
+English:
+• [name] [surname] On lower bounds of the density of planar periodic sets without unit distances //
+accepteed to Discrete Mathematics, Algorithms and Applications, 2025
+• I. Butakov, [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname] Efficient Distribution
+Matching of the Representaions via Noise-Injected Deep InfoMax // ICLR 2025 (Poster, A∗ Core
+conference)
+• I. Butakov, [name] [surname], [name] [surname], [name] [surname], [name] [surname] Mutual Information
+Estimation via Normalizing Flows // NeurIPS 2024 (Poster, A∗ conference)
+• [name] [surname], [name] [surname], [name] [surname]Optimalpartitionsoftheflattorusintopartsofsmaller
+diameter // submitted to the Discrete Optimization, 2024
+• I.Butakov, [name] [surname], [name] [surname], [name] [surname], [name] [surname]Information Bottleneck
+Analysis of Deep Neural Networks via Lossy Compression /// ICLR 2024 (Poster, A∗ conference)
+• [name] [surname], [name] [surname], [name] [surname], [name] [surname] Searching for distance graph
+embeddingsandoptiomalpartitionsofcompactsetsinEuclideanspace//MathematicalOptimization
+TheoryandOpereationsResearch:RecentTrends.MOTOR2023.CommunicationsinComputerandInformaition
+Science, vol 1881. Springer
+• [name] [surname], [name] [surname], [name] [surname] Coverings of planar and three-dimensional sets with
+subsets of smaller diameter // Discrete Applied Mathematics, 2022, Vol. 320, pp. 270-281
+• [name] [surname], [name] [surname]Covering planar sets//Doklady Mathematics,2021,Vol.104,pp.196–199.
+• I.D. Butakov, S.V. Malanchu, [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname] High-Dimensional Dataset Entropy Estimation via Lossy Compression
+// Journal of Communications Technology and Electronics, 2021, № 66, pp. 764–768
+Russian:
+• И.Д. Бутаков, С.В. Маланчук, А.М. Неопрятная, А. Д, Толмачев, К.В. Андреев, С.А. Круглик, Е.А,
+Маршаков, А.А. Фролов Оценка энтропии набора данных большой размерности с помощью
+сжатия с потерями // Информационные процессы, №4, 2020, Инстит институт проблем передачи информа-
+ции им. А.А. Харкевича РАН (Москва)
+
+
+

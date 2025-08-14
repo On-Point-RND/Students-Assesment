@@ -1,0 +1,40 @@
+[name]
+NLPRESEARCHER
++2 *** *** *** | [email] | [name] | [name]
+Work Experience
+DeepPavlov [location]
+NLPRESEARCHER Jul.2022‑Present
+• Increased the number of supported entity types for Named Entity Recognition model in DeepPavlov by designing and generating synthetic NER dataset
+• Developed a Few‑shot Intent Classifier and integrated it into the DeepPavlov library, see docs
+• Designed and implemented a Dialogue State Tracking system for one of the collaboration projects
+• Delivered several lectures for the NLP course at MIPT, developed by my colleagues
+Education
+Moscow Institute of Physics and Technology (MIPT) [location]
+BACHELOR DEGREE IN COMPUTER SCIENCE AND ENGINEERING Aug.2019‑Jul.2023
+• Faculty:Applied Mathematics and Computer Science
+• Bachelor thesis:”Text classification with a limited training data”
+• Graduation certification:Informatics and discrete mathematics(10/10)
+Moscow Institute of Physics and Technology (MIPT) [location]
+MASTER’S DEGREE STUDENT IN COMPUTER SCIENCE AND ENGINEERING Sep.2023‑Present
+• Faculty:Applied Mathematics and Computer Science
+• Masterthesis:”Generating a Synthetic Dataset for Named Entity Recognition Using Large Language Models”
+• Graduation certification:9/10
+Conference and Poster Presentations
+[name], [name] and [name]. DeepPavlov 1.0:Your gateway to advanced NLP models backed by transformers and transfer.Fall intoML’2024,ITPurple’2025
+NLP model backed by transformers and transfer.2024
+SberRnDDay’2024 [name], [name]. Synthetic PII Detection Dataset.2024
+[name]. Tuning‑free discriminative nearest neighbor few‑shot intent detection via consecutive knowledge transfer.AIST’2023
+Skills
+ML PyTorch,Transformers,VLLM,Scikit‑Learn,WaNDB,Hydra,NumPy,Pandas
+Programming Python,C++,Java
+Technology GIT/GitHub,Docker,Linux
+Languages Russian‑native,EnglishC̃1
+Research Publications
+[1] [name], [name], [name], [name], [name], [name], and [name]. DeepPavlov1.0:Your gateway to advanced NLP models backed by transformers and transfer learning. InProceedings of the2024Conference on Empirical Methods in Natural Language Processing: System Demonstrations,pages465–474.Association forComputationalLinguistics,2024.
+[2] [name] and [name]. Tuning‑free discriminative nearest neighbor few‑shot intent detection via consecutive knowledge transfer. InRecent Trends in Analysis of Images, Social Networks and Texts, pages 96–110.SpringerNatureSwitzerland,2024.
+[3] [name]. Spy: Enhancing privacy with synthetic pii detection dataset. InProceedings of theNAACLSRW(toappear).Association forComputationalLinguistics,2025.
+[4] [name], [name], [name], [name], [name], [name], and [name]. Tabaqaatsemeval‑2025task8: Columnaugmented generation for question answering over tabular data. InProceedings of theSemEval‑2025(toappear).Association forComputationalLinguistics,2025.
+[5] [name], [name], [name], [name], [name], [name], and [name]. Smurfcatatsemeval‑2025task3: Bridging external knowledge and model uncertainty for enhanced hallucination detection.InProceedings of theSemEval‑2025(toappear).Association forComputationalLinguistics,2025.
+APRiL20,2025 [name] · CURRiCULUM VITAE 1
+[6] [name], [name], [name], [name], [name], [name], and [name]. Smurfcatatsemeval‑2025task3: Bridging external knowledge and model uncertainty for enhanced hallucination detection.InProceedings of theSemEval‑2025(toappear).Association forComputationalLinguistics,2025.
+APRiL20,2025 [name] · CURRiCULUM VITAE 2

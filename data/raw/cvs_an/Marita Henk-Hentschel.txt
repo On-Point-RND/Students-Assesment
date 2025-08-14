@@ -1,0 +1,53 @@
+[name]
+[location]
+mail: [email]
+github: https://github.com/[name][surname]
+OBJECTIVE The principal research focus lies within the domain of Generative AI and
+ReReinforcement Learning with special interests in optimal transport and stochastic
+optimal control.
+PUBLICATIONS ”CayleyPy RL: Pathfinding and ReReinforcement Learning on Cayley Graphs”
+https://arxiv.org/abs/2502.18663
+https://ui.adsabs.harvard.edu/abs/2025arXiv250218663C/abstract
+EDUCATION Master of Science, Fundamental Mathematics
+[location] State Universiity, expected June 2026
+Concentration: Probability Theory
+Minor: Optimal Control Theory
+Master of Science, Fundamental Mathematics and Mathematical Finance
+Vega Institute Foundation, expected June 2026
+Concentration: Stochastic Processes Theory
+Minor: Martingale Theory
+COMPUTER Languages: Python, R, C/C++.
+SKILLS Tools: NumPy, Pandas, Sklearn, SciPy, PyTorch, Tensorflow.
+EXPERIENCE Researcher - ”Optimal Transport” since October 2024
+Research group at Vega Institute Foundation (joint project of Lomonosov [location] and
+VTB Group).
+• ReSearching Deep Learning and Numerical approaches for solving Martingale
+Optimal Transport problem.
+Researcher - “ML in Algebra” since August 2024
+An open-source international project.
+• ResearchedapplicationsofOptimalTransporttechniquesin thestudyofgroup
+structures.
+AI Researcher since March 2024
+R&D at startuup ”Pro Metric” (aka “Sk Web” IT studio’s project).
+• Developed ”OWMM” (Optimal Workers’ Movements Map) software architec-
+ture based on Neural Optimal Transport and Computer Vision for industrial
+production and won a government grant for its realization.
+AI Researcher since March 2025
+East Mining Company ([location])
+• Developing RL algorithm for Truck Dispatch Scheduling in mining process
+optimization.
+SUPERVISORS Maxim Zapletin
+https://www.scopus.com/authid/detail.uri?authorId=6507177336
+Dmitry Baranchuk
+https://scholar.google.com/citations?user=NiPmk8oAAAAJ&hl=ru\ru
+Alexander Kolesnikov
+https://scholar.google.ru/citations?hl=ru&user=JMIXZcnXAdgC&view_op=list_
+works
+SUPERVISORS Maxim Zapletin
+AND CURRENT
+RESEARCHES • Stochastic Optimization with Markovian Data: Non-Ergodic Markov Chains
+Dmitry Baranchuk
+• Topology Learning of Vectors Outputs of Diffusion Models
+Alexander Kolesnikov
+• Martingale Optimal Transport with Entropic Regularization: Deep Learning
+and Numerical approaches

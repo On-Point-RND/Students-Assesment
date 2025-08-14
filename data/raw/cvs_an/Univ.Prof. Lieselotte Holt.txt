@@ -1,0 +1,49 @@
+[name] [surname]
+[email] | telegram: @[name]
+Linkedin | Scholar | Github
+Education
+Bachelor | Applied Mathematics and Informatics 2027
+[compaany], Faculty of Computer Science
+Work Experience
+Research Engineer April ’24 – now
+[compaany]
+Various work on mecanistic interpretability, see papers below.
+Machine Learning Engineer April ’21 – October ’23, 2 years and 6 months
+[compaany]
+• Strong experience in full cycle of ML development – from gathering and analyzing data to training and
+deploying models.
+• Two models still running in production. An example of project: an information retrieval system over multiple
+sources. Built scrapers and parsers, gathered human annotations. Then trained a metric learning system on top
+of the Sentence BERT with ArcFace loss.
+Papers
+A. [name], D [surname], A. [surname], B. [surname], D. [surname], A. [surname], O. [surname], I. [surname], E. [surname]
+CLEAR: Character Unlearning in Textual and Visual Modalities.
+arXiv preprint, under review on ACL RR, 6 citations and 1 follow up work.
+A. [name], A. [surname], P. [surname], A. [surname], O. [surname], E. [surname], I. [surname] I Have
+Covered All the Bases Here: Interpreting Reasoning Features in Large Language Models via Sparse
+Autoencoders.
+arXiv preprint.
+Teaching Experience
+Mentor at [compaany] summer schooL August ’24
+Mentored a team of 4 students, in a LLM for chemistry project.
+The team was honored with the "best project"award from the schooL. [location], [compaany]
+Author of machine learning course, materials Fall ’23
+[location] [compaany]
+Mentor for AI360 winter schooL February ’25
+[location], [compaany]
+Teacher for machine learning course Spring ’23
+[location] [compaany]
+Mentor, Methodist March ’23,’24,’25
+[location] Moscow stage of project "Big Challenges"
+Lecturer, Methodist May, November ’23, February, July, August ’24
+ML-bootcamps for schooL students [location] [compaany]
+Projects
+T5 support for TranformerLens June ’24
+TransformerLens is the most popular open-source library for mechanistic interpretability. I added support
+for the T5 model, what required to fully reproduce the arhitecture.
+Participant of Yandex intensive for researchers. October ’23
+Conducted experiments on decentralized optimization paper, github
+Reproducing results of paper on different losses for RLHF, github December ’23
+Skills
+Programming: Python, C, Haskell, SQL, Bash, Docker, K8s
+ML: PyTorch, Jax, DeepSpeed, ONNX, WandB

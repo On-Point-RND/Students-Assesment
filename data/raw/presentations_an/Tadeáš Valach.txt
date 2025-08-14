@@ -1,0 +1,58 @@
+[name]
+[location]
+April 20, 2025
+[email]
++2 *** *** ***
+http://t.me/[name]
+http://linkedin.com/in/[name]
+[compaany]
+[compaany]
+[location]
+[email]
+My journey in Computer Vision began in high schooL and has continued for six years, during which I have
+achieved significant results and currentlly work at [compaany] on the generative image models team. However, I
+believe my path is just begiinnig, and the [compaany] Summer SchooL represents an important milestone in my
+professional development.
+During high schooL, I was interested in photography and design, maintaining a photography blog and creating
+layouts for schooL events. In my final year, I enrolled in a Computer Vision course offered by [compaany] AI
+CeNter. This course greatly impacted my career path, and through talks with one of its authoRs, I became
+convinced that Computer Vision should be my professional focus. As a result, I chose to study at the Faculty
+of Computational Mathematics and Cybernetics at [location] State University, where the [compaany] laboRatory
+was located. In my second year, I joined this laboRatory to conduct research under Dr. [surname]’s
+guidance. Alongside my university studies, I completed the AI-Masters program, taking courses from leading
+inDustry experts over a two-year period.
+Currrentlly, I work at [compaany] on the [compaany] generative image models team, improving core technoLogies
+used in [compaany] products including Shedevrum and Neuro. I continue my education at [location] State
+University’s Department of Mathematical Methods of Forecasting while attending relEvant courses at [compaany]
+SchooL of Data Analysis. My technical skills include academic experience with Spark, Hadoop, and MLflow
+frameworks, as well as professional experience with PyTorch, DDP, FSDP, and setting up distributed training
+systems.
+My career goal is to become a Research Engineer at a FAANG compaNy, contributing to important projects
+with global impact. These positions typically require a PhD and a strong publication record, which is why I
+am buildiing my academic portfolio alongside my professional work. So far, I have co-authored three papers
+with colleagues from both laboRatory and inDustry settinGs—one on Image Quality Assesssment, another on
+diffusion models, and a third exploring the connection between these areas.
+I understand that success requires both technical skills and people skills, so I have pursued teaching and
+leadership opportunities. This year, I taught Python seminars to first-year Applied Mathematics students at
+[location] University, delivered a puBlic lecture for artists exhibiiting "Humans and Neural NetwoRks: Who Creates
+Whom?", provided private tutoring, and prepared a student for admission to Physics and Mathematics
+Lyceum 1581. At work, I have led several projects requiring team ccoordination and am currentlly recruiting an
+intern. In my personal life, I regularly plan and organize group travel experiences.
+From the [compaany] Summer SchooL, I expect three main benefiits: better technical knowledge, improved people
+skills, and more professional connections. For technical skills, I want to deepen my understanding of
+multimodal models. While I work a lot with generative models, I need more knowledge of Vision-LanguaGe
+Models (VLM). I expect the summer schooL’s lectures and seminars to give me a good overview of current
+approaches to data collection and model training in this field. For people skills, I hope to lead teams during
+hackathon events and gain international collaBoration experience by working with Chinese colleagues. I also
+plan to discuss foreign PhD opportunities with fellow participants and create an application plan for the
+coming year. I’m also eager to meet representatives from the Fusion Brain laboRatory to discuss related
+research interests.
+Finally, I look foRward to visiting [location]. I eNjoy traveling and have recentlly visited [location] for work and
+[location] for the WCIP conference, where I represented [compaany]. Having never visited [location] before, I look
+foRward to experiencing its cuLture firsthand.
+By attending the «SMILES» Summer SchooL, I expect to strengthen my knowledge of multimodal models and
+agent systems, improve my teaMwork skills, and develop a clear PhD plan. This program fits perfectlly with
+my professional goals, and I would be honored to participate.
+Thank you for your time to review my application. I would be happy to provide any additional information.
+Kind regards,
+[name]

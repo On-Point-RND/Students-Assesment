@@ -1,0 +1,51 @@
+Object-CeNtrIc EfficientZeroV2
+[name]
+Master's student, Center for Cognitive Modelling, [location]
+Introduction
+Model-based reinforcement learning faces a number of shortcomings and unsolved problems:
+• Weak interpretability of neural network models of dynamics
+• Instability of the latent space
+• Difficulty in transferring a trained model to new tasks
+• Low generalization ability
+Problem statement
+Goal
+The goal of the research is to develop a reinforcement learning algorithm based on an environmental model
+that takes into account the interactions of objects in complex environments to improve learning efficiency.
+Object-CeNtrIc EfficientZeroV2
+Results
+Examples of observations and attention maps produced by the SLATE model in the Shapes2D Navigation
+task.
+Return averaged over 100 episodes and three seeds for EZ-V2 and OCEZ-V2 on Shapes2D Navigation Task
+https://github.com/[name]/EfficientZeroV2
+Research gap
+• Current unsupervised object-centric learning approaches struggle to decompose complex real-world
+scenes into distinct objects.
+• The environment’s state is represented as a fully connected object graph processed by GNNs, leading
+to quadratic complexity relative to the number of object slots.
+Bibliography
+1. [name], [name], and [name]. A theory of how columns in the neocortex enablelearning the structure of the world. Frontiers in neural circuits,
+11:295079, 2017
+2. [name]. A markovian decision process. Journal of mathematics and mechanics, pages 679–684, 1957.
+3. [name], [name], and [name]. Model-based reinforcement learning: A survey. CoRR, abs/2006.16712, 2020.
+4. [name], [name], [name], and [name]. Learning latent dynamics for planning from pixels.
+In International conference on machine learning, pages 2555–2565. PMLR, 2019.
+5. [name], [name], and [name]. An object-oriented representation for efficient reinforcement learning. In Proceedinings of the 25th
+international conference on Machine learning, pages 240–247, 2008.
+6. [name], [name], [name], and [name]. Deep object-centric representations for generalizable robot learning. In 2018 IEEE International
+Conference on Robotics and Automation (ICRA), pages 7111–7118. IEEE, 2018.
+7. [name], [name], [name], [name], [name], [name], [name], and [name]. Object-centric learning with slot attention. Advances in neural information processing systems, 33:11525–11538, 2020.
+8. [name], [name], and [name]. Illiterate DALL-e learns to compose. In International Conference on Learning Reprresentations, 2022a.
+9. [name], [name], and [name]. Contrastiive learning of structured world models. In International Conference on Learning Reprresentations,
+2020.
+10. [name], [name], [name], [name], [name], [name], [name], et al. Mastering atari, go, chess and shogi by planning with a learned model. Nature, 588(7839):604–609, 2020
+11. [name] et al. Mastering diverse domains through world models //arXiv preprint arXiv:2301.04104. – 2023.
+12. [name], [name], [name], and [name]. Mastering atari games with limited data. Advances in neural information
+processing systems, 34:25476–25488, 2021
+13. [name], [name], [name], and [name]. Policy improvement by planning with gumbel. In International Conference on Learning
+Reprresentations, 2022.
+14. [name], [name], [name], and [name]. EfficientZero v2: Mastering discrete and continuous control with limited data. In Forty-
+first International Conferece on Machine Learning, 2024.
+15. [name], [name], [name], and [name]. Objects matter: object-centric world models improve reinforcement learning in visually complex
+environments. arXiv preprintarXiv:2501.16443, 2025
+16. [name], [name], [name], and [name]. Sold: Reinforcementlearning with slot object-centric latent dynamics. arXiv preprint
+arXiv:2410.08822, 2024

@@ -1,0 +1,60 @@
+Cost-Efficient LLM Adaptation
+for the [location] Language
+[name] [surname]
+About me
+[name] [surname]
+[compaany] 3rd year bachelor student
+Field of study - Applied Artificial Intelligence
+ML-engineer and a tutor
+Main interests: ML, DL and researches in AI
+sphere
+Projetc idea
+Problem: Adapting pre-trained LLMs to new languages requires expertise and substantial computational resources
+Our Focus: Systematic evaluation of lightweight adaptation methods for [location] language
+Key Contribution: Demonstrating that tokenizer adaptations offer cost-effective performance improvements without resource-intensive pre-training Methodology
+Token Substitution (TS): Replace ~39% of vocabulary tokens with
+[location]-specific ones
+Maintain original vocabulary size
+Fine-tune embedding layer only
+Uses auxiliary BPE tokenizer trained on [compaany] dataset
+Embeddings Division: Similar token replacement but splits embedding
+layer into two separate layers
+Places new tokens in smaller layer (~1:2 ratio)
+Dataset: Unified corpus with 75% [location], 25% English (~1B tokens)
+English included to prevent catastrophic forgetting
+Model: Llama3.2-1B
+Evaluation
+Metrics:
+Text quality: ROUGE-L and BERTScore
+Efficiency: Mean Tokens Per Text (MTPT)
+Reasoning capabilities: MERA and MMLU benchmarks
+Evaluation Datasets:
+[compaany] validation set (5,036 instructions)
+Unified dataset from OASST2, ru_alpaca, and SynEL (300 samples)
+Computational Resources:
+Both methods required ~56-59 GPU hours on A100 80GB
+Results
+Token Substitution (TS):
+Maintains quality comparable to baseline
+Achieves ~10% reduction in token usage
+Significant improvement in MERA benchmark (+32% relative)
+MMLU performance preserved (45.36% vs baseline 45.31%)
+Embeddings Division:
+Higher precision but lower recall
+Tendency toward verbosity (up to 161% more tokens)
+Improvement in MERA benchmark (+17% relative)
+Slightly better general knowledge preservation
+
+Conclusion & Implications
+Main Finding: Tokenizer adaptation is a cost-effective approach for language adaptation
+Achieves competitive performance with minimal resources
+Preserves general knowledge while improving language-specific reasoning
+Trade-offs:
+TS offers best balance of quality, efficiency, and computational cost
+Different methods may suit different application needs
+Practical Applications:
+Real-time interactive systems benefit from TS's token efficiency
+Applications prioritizing precision might leverage Embeddings Division
+Future Work:
+Extending these lightweight techniques to other languages
+Exploring hybrid approaches combining different adaptation strategies

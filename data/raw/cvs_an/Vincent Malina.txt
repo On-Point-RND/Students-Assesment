@@ -1,0 +1,36 @@
+[name] [surname]
+Email: [email]
+LinkedIn: https://www.linkedin.com/in/[name]-[surname]/
+Website: https://geek-o-byte.github.io/
+EDUCATION
+[company], [location] (September 2020)
+Master of Computer Science, Development of artificial intelligence systems
+Bachelor of Computer Science, Neurotechnology and Programming
+PUBLISHED PAPERS
+[name] [surname], [name] [surname]
+Parameterization of 3D NURBS-surface point clouds taking into account non-convex case (October 2025)
+[name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname]
+Font generation based on style and structuraal character analysis using diffusion models (May 2025)
+WORK EXPERIENCE
+ML Engineer (September 2023 - Present)
+[compaany], [location]
+● Developed and implemented cutting-edge deep learning algorithms tailored for point cloud
+analysis, resulting in a 25% improvement in processing accuracy for complex 3D models.
+● Built and integrated a research-based tool into a CAD application, accelerating data processing by
+30%, and reducing manual preprocessing time by 40%.
+● Improved the machine learning pipeline, cutting model training time by 20% and simplifying
+deployment workflows, enabling team-wide adoption.
+ML Engineer (November 2022 - August 2023)
+Manager AI, [location]
+● Developed and implemented deep learning algorithms tailored for automatic timetable and tasks
+creation, related to experience of buildiing productivity tools for personal and small-business use.
+TECHNICAL SKILLS
+● Programming Languages: Python, C++
+● Machine Learning: TensorFlow, Keras, scikit-learn
+● Data Visualization: Matplotlib, Seaborn
+● Databases: SQL (PostgreSQL, pgvector), MongoDB, Chroma DB
+● ML Tools: Optimum, TensorRT, ONNX
+ADDITIONAL INFORMATION
+● Member - AI Laboratory, [compaany]
+● Mentor - AI Learning Lab Competition (https://ai-learninglab.itmo.ru/ )
+● Language certificate - English (C1)

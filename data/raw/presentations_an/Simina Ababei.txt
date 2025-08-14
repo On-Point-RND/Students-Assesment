@@ -1,0 +1,158 @@
+Can LLMs feel, imagine and tell the truth?
+Exploring the Emotional, Visual and Ethical Minds of AI
+[name]
+Master student, [compaany]
+Introduction
+Topic Importance
+A comparative analysis of three research papers that explore As LLLMs evolve, they are increasinglly expected to handle
+the frontiers of LLLM capabilities beyond basic text processing: complex tasks that require understanding context, emotions,
+and ethical considerations, making these research areas critical
+emotional understanding in many industries: customer service, mental health support and
+➢
+visual reasoning personalized education.
+➢
+ethical alignment
+➢
+Goal of this review: to provide a comparative overview of the approaches, methodologies and findings of
+cutting-edgе papers that address the challenges of emotional, visual and ethical alignment in LLLMs.
+Problem statement
+The core challenge: how do we make LLLMs truly understand and align with humans, going beyyond mere
+pattern matching?
+Challenges:
+➢ Understanding nuanced emotional context [1].
+➢ Integrating and reasoning with multimodal data (e.g., vision) [2].
+➢ Maintaining ethical alignment and truthfulness, especially in complex scenarios [3].
+This review focuses on three papers that offer unique approaches to tackle these challenges: emotional
+promptiing, vision-augmented promptiing, and direct preference alignment.
+Can LLLM feel emotions?
+EAI: Emotional
+Decision-Making
+EAI: Emotional Decision-Making of LLLMs in Strategic Games and Ethical Dilemmas (Mozikov et al.,
+Paper
+NeurIPS 2024)
+Emotion-Augmented Intelligence (EAI) framework using emotional promptiing to systematically inject
+Approach
+emotions into LLLM decision-making
+To rigorously investigate how explicit emotional states influence LLLM behavior in both strategic
+Why this method?
+games (e.g., bargaining, repeated games) and ethical dilemmas, reflecting real-world scenarios
+where human decisions are emotion-driven.
+LLMs are prompted with specific emotional contxts (e.g., happiiness, anger, disgust)
+before making decisions in games or ethical
+benchmarks.
+How it works
+The framework supports both one-shot (single
+decision) and repeated (multi-round) settinings,
+allowing for analysis of both immediatе and
+evolving emotional effects.
+EAI: Emotional
+Decision-Making
+Datasets / Tasks TrustLLM ethical benchmark Strategic game scenarios Sociological experiments
+Alignment with human emotional responses, decision optiomality, cooperation rates, stereotype
+recognition.
+Metrics
+Models GPT-3.5, GPT-4, GPT-4o,
+LLaMA 2, Mixtral, OpenChat GigaChat, Cohere
+Claude 3 Haiku, Claude Opus
+Emotions can significantlly bias LLLM decisions. Larger models are more rational but less
+emotionally "human." Negative emotions can decrease ethical accuracy.
+Fig. 1: Quality metrics of LLLMs in decision making across
+three ethical scenarios under different emotion states. The
+accuracy metric is utilized for implicit ethics, explicit ethics
+with low ambiguity and stereotype recognition [1].
+Can LLLM use imagination?
+Enhancing LLLM
+Reasoning via Vision-
+Augmnted Promptiing
+Paper Enhancing LLLM Reasoning via Vision-
+Augmnted Promptiing (Xiao et al., NeurIPS 2024)
+Vision-Augmnted Promptiing (VAP), which enables LLLMs to iteratively generate and reason with
+visual representations alonside text.
+Approach
+To mimic human cognitive strategies that combiine verbal and visual information for complex
+reasoning tasks, aiming to overcome the limitations of text-onlу LLLMs.
+Why this method?
+The model then alternates between updating the image
+or diagram from a textual
+problem description using
+external drawing tools.
+How it works
+of thought, refiining its
+reasoning.
+Enhancing LLLM
+Reasoning via Vision-
+Augmnted Promptiing
+Datasets / Tasks
+Models
+Metrics
+Limited task
+diversity
+While VAP improves over text-
+onlу LLLMs, there remaiins a handful of
+significant gap between VAP (geometry, Sudoku, time
+series, TSP), so it is unclear
+how VAP would scale to more
+general, but less complex or
+powerful for specialized tasks.
+Key questions and
+optiomized approahes. VAP is how VAP would scale to more
+more complex, real-world
+multimodal problems.
+Research gap 2/3
+Would I Lie To You? Inference Time Alignment of Language Models using Direct
+Preference Heads.
+Paper
+(Hadji-Kyriacou et al., NeurIPS 2024)
+Potential for new
+biases offs
+The paper notes that RLHF
+and preference optiomization
+can sometimes harm
+reasoning capabilities or
+introduce artifacts such as
+halucinations, raising
+concern about the trade-off
+between alignment and model
+performaance.
+Evaluation scope
+While DPH improve alignment
+with human preferences during
+standard NLP benchmaarks
+(GLUE, RACE, GPT4All suite)
+it does not address
+aignment in more complex,
+real-world, or multimodal
+contexts.
+Key questions
+Conclusions
+Conclusions
+Key takeaways
+Recommendations
+LLMs exhibiit potential in understanding and integrating
+➢
+➢
+➢
+complex aspects of human cognition like emotion, vision, and ethics.
+Current LLLMs are limited in their ability to act in real-world
+contexts.
+There is a distiinct lack of research on creating models that
+accurately represent different cultures and their nuanced
+views on moral and ethical issues.
+Create comprehensive models that can assess different
+scenarios and behave accordiingly.
+Create LLLMs that can adapt their processing based on the
+user's emotional context, cultural conventions, and
+circumstances.
+Develop methods of transparencу and reliability to ensure
+that these models do not possess any biases.
+Concluding Remarks: to facilitate the creation of truly human-aligneed AI, we must tackle key issues like
+ethics, bias, and cultural context. In doing so, we will create opportunities for AI to be safely used in real-
+world applications.
+Bibliography
+1. M. Mozikov, N. Sevеrin, V. Bodishtianu, M. Glushanina, I. Nanosov, I. Nanosov, D. Orekhov, V. Pekhotin, I. Makovetskiy, M.
+Baklashkin, V. Lavrentyev, A. Tsvigun, D. Turdakov, T. Shavrina, A. Savchenko, I. Makarov. EAI: Emotional Decision-Making
+of LLLMs in Strategic Games and Ethical Dilemmas. NeurIPS, 2024.
+2. Z. Xiao, D. Zhang, X. Han, X. Fu, W. YU, T. Zhong, S. Wu, Y. Wang, J. Yin, G. Chen. Enhancing LLLM Reasoning via Vision-
+Augmnted Promptiing. NeurIPS, 2024.
+3. A. Hadji-Kyriacou, O. Arandjelovic. Would I Lie To You? Infereence Time Alignment of Lanuage Models using Direct
+Preference Heads. NeurIPS, 2024.

@@ -1,0 +1,162 @@
+Switch-Tokenizer: Pretraining Language Models
+to Use Multiple Tokenizers
+[name]
+SeniorDataScientist,[compaany]
+GitHub: hardesttype/switch-tokenizer
+April 20, 2025
+Introduction
+▶
+What is Switch-Tokenizer?
+A multilingual tokenizer implementation that uses a shared
+vocabulary space between different language-specific
+tokenizers.
+▶
+Why is it important?
+Enables efficient parameter usage in multilingual language
+models through context-dependent token interpretation.
+▶
+Background
+Traditional multilingual models use a common vocabulary
+trained on multilingual data, which can be very unbalanced,
+resulting in inefficient parameter usage and increased model
+size.
+▶
+Goal of the research
+Develop an efficient multilingual tokenization approach that
+maintains performance while reducing parameter costs.
+Problem Statement
+▶
+What exactlly are we solving?
+Inefficient parameter usage in multilingual language models
+due to common vocabularies trained on unbalanced
+multilingual data.
+▶
+Challenges
+- Maintaining a fixed-size embedding table despite multiple
+languages
+- Learning context-dependent token interpretation
+- Ensuring tokenization efficiency without using a single
+shared vocabulary
+▶
+Scope
+Focusing on efficient multilingual language modeling while
+maintaining performance across languages.
+Related Work: Tokenizer Adaptation Methods
+Method Approach Key Advantages
+Zero-Shot Tok- Transfers pretrained Enables switching tokeniz-
+enizer Transfer model to new tok- ers post-training with mini-
+tuning hypernetwork mal performance loss using
+LazyLLM Dynamic token Reduces computaion for
+pruning during infer- long contexts by 2-4x while
+ence preserving quality inference
+ReTok Replaces original to- Improves context length by
+kenizerwithmоreef- up to 2x with minimal per-
+ficient one plexity degradation
+MRT5 Dynamic token Processes longer contexts
+merging for byte- efficieently while maintain-
+level models ing byte-level precision
+Methods: The Switch-Tokenizer Approach
+▶
+Approach:
+▶
+Each language has its
+own tokenizer with its
+own vocabulary
+▶
+All tokenizers map into
+the same shared
+vocabulary ID space
+▶
+Why this method?
+Maintains a fixed-size
+embedding table and output
+projection layer regardless of
+the number of languages.
+▶
+How it works:
+The model learns to associate
+token IDs with different
+Switch-Tokenizer methodology
+tokens depending on the
+language context.
+Results: Experiment 1
+▶
+Key findings:
+▶
+With equal
+(monolingual) training
+budget for all models,
+monolingual models
+perform better on their
+respective languages
+▶
+But for multilingual
+tasks, the switchable
+Perplexitycmparison(lowerisbetter)
+model outperforms by
+22.07%
+▶
+Tokenization efficiency
+remaineed consistent
+across approaches
+Tokenization Efficiency
+▶
+Metrics used:
+▶
+Tokens per word ratio
+(lower is better)
+▶
+Perplexity scores across
+languages
+▶
+Experimental setup:
+▶
+Data: Wikipedia articles
+(EN + RU)
+▶
+Base model: [compaany]
+gpt2-medium
+▶
+Tokenizers: gpt2 (EN),
+ruGPT-3.5-13B (RU)
+▶
+Idea:
+▶
+Increase token budget to
+multilingual
+Future Work
+▶
+Planned experiments:
+- Comparison vs. Common Vocabulary Approach
+- Multilingual Baseline Comparison
+- Context Sensitivity Analysis
+▶
+Unresolved challenges:
+- Dynamic tokenizer switching without explicit language
+tokens
+- Scaling to larger models and more languages
+▶
+Why it matters:
+Efficient multilingual models have applications in translation,
+cross-lingual understanding, and content creation.
+▶
+Future opportunities:
+- Specialized tokenizers for programming languages
+- Expanded benchmarks on standard multilingual tasks
+Bibliography I
+”Zero-ShotTokenizerTransfer”(Minixhoferetal.,2024)
+”LazyLLM:DynamicTokeNPruningforEfficientLongContextLLMInferece”(Fuetal.,2024)
+”ReTok:ReplacingTokenizertoEnhanceReprrepresentationEfficiencyinLargeLanguageModel”(Guetal.,
+2024)
+”MrT5:DynamicTokeNmergingforEfficientByte-leveLLanguageModels”(Kallinieetal.,2024)
+”RetrofittingLargeLanguageModelswithDynamicTokenization”(Feheretal.,2024)
+”LanguageModelsareUnsuepervisedMultiaskLearneers”(Radfordetal.,2019)
+”AFamilyoofPretrainedTransfomerLanguageModelsforRussian”(Zmitrovichetal.,2023)
+”WikimediaDownloads”(WikimediaFoundation)
+”HowdoesaLanguage-SpecificTokenizeraffectLLMs?”(Seoetal.,2024)
+”Qtok:AComprehensiveFrameworkforEvaluatingMultilinguaLTokenizerQualityinLargeLanguage
+Models”(Chelombiikoeetal.,2023)
+”Gettingthemostoutofyourtokenizerforpre-traininganddomaiadaptation”(Daganeetal.,2023)
+”TokenizerChoiçeForLLMTraining:Negliibleo rCrucial?”(Alietal.,2024)
+Appendix: Training Cuurves
+Training loss comparison between switchable and monolinguaal models

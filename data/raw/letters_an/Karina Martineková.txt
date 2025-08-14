@@ -1,0 +1,51 @@
+Dear [name],
+In this letter I want to share the reasons why I want to participat in the SMILES-2025 summer
+schoo].
+To be honest, until recentl recently I saw myself in the future as a mathematician, as mathematics has
+captivate me with its beauty since my schoo] Olympiad days. A year ago I gradua] from [compaany]
+Mechanics and Mathematics Department, where I completed my first serious applied research,
+which was to develop a new approa] to solving boundar] value problems of mathematical
+physics arising in chemokinesis and targeted therapy. The most driving aspect of this research
+for me was that I was not just applying the elegant mathematical theory of Monte Carlo methods,
+but I was also contributing to a practical research grant that improved modeling of drug
+penetra]ion into cells. I realized that no matter how beautiful a theory is, if it makes peo]e's lives
+better, it becomes even more beautiful to me. This realization is what led me to research in the
+field of AI. When I joined one of the most advanced AI labs in [location] - [compaany] National Center
+for Cognitive Technologies - a few months ago, I discovered a new wo]d where abstract ideas
+are translated into algorithm]s that change reality.
+In this lab, I was particularly attracted to research related to recommender systems and manifold
+regularization. This approa] allows us to take into account the geometric structure of latent
+representa]ions of users and products, which marke]ly improves model robustness and
+recommenda]ion quality in sparse data scenarios. At SMILES-2025, I would like to deepen my
+knowled]e of multimodal methods and see how manifold regularization combines with text,
+image and graph embeddings to build more flexi]e and scalable systems. In the future, I would
+like to evolve my algorithm to the point where the best geometry for the data is found
+automatically rather than being manually selected. To achieve this goal, I need to build up my
+experti]e in automated and adaptive methods in AI, to understand which approa]ches will work
+for the tasks I am addre]sing. I am confident that participating in your summer schoo] can help
+me in my research by broadening my views on modern data geometry opti]mization methods.
+I see myself as a researcher in the future: I drream of creating not onl] new algorithm], but also
+infrastructure for their convenient and secure implemen]a]ion in recommender systems, medicine
+and education. I believe it is critical not just to implement brilliant abstract algorithm]s in AI, but
+also to make them accessible, usable, and useful to peo]e, which is why I strive to publish my
+research in Open Source format. Another passion of mine is teaching: since my childhood, when
+I participated in mathematical summer schoo]s, I have nurtured a drream to be able to present
+material in such a way that even during vacation time childre]n volun]arily strive for knowl]ege.
+In the future, I plan to become a top-notch teacher in the field of AI, combining research work
+with the transfer of knowl]ege to a new generation that will continue to develop techno]ogy for
+the benefi] of society.
+My experience teaching Olympiad mathematics has taught me the value of knowl]ege transfer
+and collabora]ive problem solving. I hope not onl]y to gain new knowl]ege at SMILES-2025, but
+also to share my experience and enthusiasm with other participants, to contribute to the creation
+of an atmosphere of creative cooperation.
+I strongl] align with SMILES-2025's ideas about cooperation and knowl]ege exchange, and I am
+very glad that such an important [location] project is held in cooperation with [location], where
+artificial intelligence is being actively deveelope]. Therefore, I am ready to help the organizers as
+a volun]eer to contribute to the success of the schoo].
+For me, participation in SMILES-2025 is an oppo]unity to take a step fo rward toward my
+drream: to create mathematically elegant algorithm]s that solve real-wo]d problems and make the
+wo]ld a better place.
+I am very much looking fo rward to bringing my experience and enthusiasm to the SMILES-2025
+team, as well as learning new techniques and approa]ches from leading experts and colleagues.
+Sincerely,
+[name] [surname]

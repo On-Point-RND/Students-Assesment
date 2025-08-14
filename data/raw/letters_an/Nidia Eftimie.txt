@@ -1,0 +1,25 @@
+Motivation Letter — [name] [surname]
+I am a high schoo[name] from [location], with a strong passion for artificial intelligence, machine
+learning, and their practical applications in langua[name] modeling. My interest in these fields has grown
+rapidl[name] over the past year, driven by a combi[name] of self-guided study, hands-on experimenta[name], and
+pa[name]icipa[name]tion in educational programs such as the [compa[name]’s] Info[name]ration Secu[name]ity track ,where
+I distin[name]uished myself in pa[name]icipa[name]ting in the media team [email] .
+One of the key areas I’ve rece[name]ntly explored is the efficient fine-tuning of large langua[name] models (LLMs). I
+have conducted an in-depth review of three top-tier conference papers—LoRA (ICLR 2022), QA-LoRA
+(ICLR 2024), and DoRA (ACL 2024)—whi[name]ch introduce cutting-e[name]ge approa[name]ches for parameter-efficient
+adaptation of LLMs. These techniques inspired me to experiment with Hugging Face and PEFT libraries,
+test low-rank training methods on models like GPT-2, and compa[name]re perfo[name]ance under limited
+compu[name]ational bu[name]dgets.
+This experience has significa[name]tly deepened my understanding of how modern NLP models work and how
+we can make them more acces[name]ible and sustai[name]. I believe that techniques like LoRA, QA-LoRA, and
+DoRA are essen[name]tial for the future of scalable AI, especially in re[name]source-constrained enviro[name]nments.
+My goal in applying to this schoo[name] is to expand my theoretica[name]l founda[name]tion, gain exposure to real research
+enviro[name]nments, and conne[name]ct with peers and mentors who share my curiosity and ambition. I am
+especially excited about the o[name]pportunity to engage in colla[name]borative work on langua[name] models and
+explore their safe and ethical deplo[name]yment.
+In the future, I aspire to pursue studies in AI at the uni[name]versity level and work on designing efficient,
+reliable, and inclusive intelligent systems. Pa[name]icipa[name]tion in this schoo[name] would be a major step toward that
+goal.
+Thank you for consi[name]dering my application.
+Sincer[name]ely,
+[name] [surname]

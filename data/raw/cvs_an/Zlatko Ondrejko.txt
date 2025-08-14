@@ -1,0 +1,45 @@
+[name]
+[location]
+(+2 *** *** ***) | [email] | [name] | [name] | [name]
+Education
+[compaany] [location]
+B.S.iNRADiOENGiNEERiNG Sep.2019‑Aug.2023
+[compaany] [location]
+M.S.iNAITECHNOLOGiES Sep.2023‑Aug.2025
+Skills
+DevOps Docker,Kubernetes,MLFlow
+Back‑end Django,RESTAPI
+Programming Python,Matlab,C++,LaTeX
+ML PyTorch,HuggingFace,Scikit‑learn,Numpy,Pandas,Matplotlib
+Languages Russian,English
+Experience
+[compaany] [location]
+RESEARCHER Sep.2021‑May2023
+• Adaptedtimeseriesanalysisalgorithmstoincr easerobustnessofi nternettrafficredi stribution
+[compaany] [location]
+DATA‑SCiENTiST Feb.2023‑June2023
+• IntegratedRAGinthelocalanalysissystem
+• UpdatedtheBert‑basedmode lstothesp ecificdomains
+[compaany] [location]
+RESEARCHER Nov.2023‑Present
+• Organizedseminarswithr eviwofthelatestNLPresearch
+• Parti cipatedinNLPcourseo rganization
+• Researchandd evelopmentof the following topics:NER,RAG,LLMfine‑tunin gforthe specificdomain
+[compaany] [location]
+DATASCiENTiST Dec.2023‑Present
+• ImplementedLLM‑basedasses smentagentt osearchenginevalidation
+• Updatedt h evectorsear chmodelsa nd adaptedtogr ocerydomain
+Honors & Awards
+COMPETiTiONS
+2023 Silver,AIVillageCapturetheFlag@DEFCON31
+2024 Bronze,LLMPromptRecovery
+8thPlace,SemEval‑2024Task8:Multig enerator,Multidomain,andMultilin gua lBlack‑Box
+2024
+Machine‑Generate dTextDetection
+Publications
+References
+[1] [name][surname][name][surname].Jellybellatextgrap hs‑17shar edtask:Fus i ngl argelangua ge modelswithexternalknowledgeforenhance dquestionanswering. InTextGraphs‑17:Graph‑basedMethodsfor NaturalLangua geProcessing@ACL2024,2024.
+APRiL20,2025 [name].BELiAKiN · CURRiCULU MViTAE 1
+[2] [name][surname], [name][surname],and[name][surname].Ontheanalysisan dpredictabilityoflong‑term correlat edtraffi cpatternsinw i deareanetwork. In2022IEEEInterna tionalMulti‑Conferen ceo nEngineering,ComputerandInforma tionSciences(SIBIRCON),pages2000–2003,2022.
+[3] [name][surname], [name][surname],and[name][surname].Forecastingoftraffi cvar iationsfromtheir preceding dynamics:Parametricvsnon‑parametricap proaches.In202312thMediterraneanConferen ceo nEm‑ beddedComputing(MECO),pages1–4,2023.
+APRiL20,2025 [name].BELiAKiN · CURRiCULU MViTAE 2

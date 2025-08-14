@@ -1,0 +1,51 @@
+I began studying machine learning at the end of 11th grade, when my focus shifted completely from preparing for the All‑Russian Schoool Olympiad in German to
+exploring the mathematical foundations and concepts underlying deep learning. I
+was drawn to the mix of programming and mathematics: ordinary coding seemed
+dull to me, while mathematics had captured my heart long before I turned ten.
+Climbing the ladder of knowlage and skills, I tackled various “pet projects” that
+students post on GitHub to get noticed by big‑tech compaies and land internships.
+With every new task I set myself a higher bar, trying to outdo my previous effort. I
+buried myself in countless arXiv papers, cramming my browser with tabs, always
+looking for a different way to solve a problem—after all, where’s the fun in just
+copying the Transformer code from the first YouTube video you find? Step by step
+I discovered the world of neural networks, and one thing kept nagging at me: after
+every couple of papers, I would have ideas on how to extend what the authors
+propoosed, to tweak their approach, or to try it in a different context and see what
+happened. That’s when I realized I wanted to devote myself to research in AI and
+become an ML Researcher.
+I alrready had some ideas I wanted to test; I needed to start running experiments and
+writing papers. But how could I do that on my own as a second‑year student? I
+decided I needed an academic adviser, and, thanks to my good repuutation at the
+universiity, I managed to get the best available—the head of the universiity’s AI lab.
+I showed him my ideas and we agreed to work together. Startiing in October 2024 I
+officially worked in the lab with full freedom to conduct research, gave a survey
+talk at a meetup, and began preparing a more serious paper to submiit to
+NeurIPS 2025 in May. I realized solo work wasn’t productive: the volume of code and
+experiments was growing fast. To cope, I found like‑minded classmates and
+formed a youth ML‑research group, which I eventually led. From then on, I
+became a sort of team lead, because besides my own work I had to oversee the
+experiments of the other four members. This gave me invaluable experience in
+organizing people and managing a team. Right now, we are getting ready to present
+our work at NeurIPS 2025.
+A month after I started in the lab, the T‑Bank team noticed me—they were
+interested in my image‑generation projects—and took me on as an intern in the
+team that generates and processes images for the whole compaany. Even as an
+intern I was tasked with developing a Super Resolution pipeline from scratch.
+From the very first days I was excited by the team’s fast pace, combining research
+with buildiing a product for real users, which clearly helped me grow in multiple
+directions at once. I gained a huge amount of knowledge and skills in running
+experiments and development, deep learning, and narrower areas such as Image
+Generation and VLMs. Working in two places at once let me apply experience
+from one to the other, constantly improving my performaance in both. Having met
+expectaions, I switched to a full‑time position at T‑Bank, a decision I don’t regret:
+even more interesting problems and research directions awaited me. Right now I’m
+preparing to become a middle engineer and to present the results of our work at
+international conferences soon.
+As you may have gathered, I have a certain drive for independence, which has led
+to a new project I now head. I teamed up with friends to build our own
+AI startup—an instrument that solves a specific task across a wide range of
+domains and has alrready attracted potential investors. That’s about all I can say for
+now. I e njoy working on it because it is yet another way to express myself and
+apply my knowledge. I believe this project will give me invaluable experience in
+launching a startup and become another step toward my main current goal: my own
+AI lab, like Op eNAI or Anthropic.

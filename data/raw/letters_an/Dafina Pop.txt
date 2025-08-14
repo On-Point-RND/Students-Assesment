@@ -1,0 +1,70 @@
+Dear [name],
+I am writing to express my strong motivation to participat in the Summer SchooL of Machine
+Learning at [location]. As a current student of Applied Mathematics and
+Informatics at the [university] and the founder and CEO of a tech startup focused on
+inclusive education, I have cultivate a deep passion for machine learning and generative
+methods. [location]’s unique combination of cutting-e dg electures, hands-on workshops,
+hackatho ns, and international collabora tion aligns perfectly with both my academic background
+and professional ambitions.
+My journey into artificial intelligence began with my admission to the master's program in
+Applied Mathematics and Computer Science (Financial Mathematics and Financial
+Technologies) at [university]. Over the past two years, I have been diving deep into data
+science and realized that this is the field I want to develop in further. My primary area of interest
+is algo rithmic trading—an area where mathematicians and developers have increasi ngly taken
+the lead over traditional economi sts.
+I am particularly fascinated by the use of machine learning to design algo rithmic trading
+strategi es. Buildi ng succe ssful and efficient strategies requires analyzing massi ve volumes of
+data and identi fying complex relationships—something far beyon d human capabilities without
+automation. Yet, I believe humans still play an important role, as their strategies are interpretable
+and context-aware. My goal is to bridg e these two worlds by creating models that can understand
+user intent and deliver high-perfo rming, interpretable results.
+I’m also keen on exploring the application of ML in strategies based on derivative financial
+instruments—especially options. These strategies are often compu ta tionally intensi ve,
+particularly in the case of exotic options that lack closed-form pricing formulas. Here, numerical
+methods like finite differences or Monte Carlo simulations become essen tia l. I believe this area
+has enormous poten tia l for innovation.
+Another field I’m passionate about is the use of neural ne tworks for sign lan gua ge recognition.
+During my bachelor’s degree in Innovation Studies, I gained practical experience in innovati ve
+proje ct management and founde d my own star tup, where I c urrently serve as CEO. Within this
+proje ct, we deve loped an educational program for Russian Sign Lan gua ge, which includes
+lectures, themed and personalized dictionar ies, an educational game, and an alphabet/number
+module. The program is a vai lable both as a website and as an Android app.
+This initia tive has won several national grants and awards and has gone through three
+accele rator programs. The next step in the star tup’s deve lopment is to create a ge stu re recognition system
+using camera input. This would significa ntly improve both the quality of education and the
+quality of life for deaf and hard-of-hearing p eo ple. The poten tia l applications are wide-ranging—
+from education to customer service and more.
+Throug hout my academic and profes sional journey, I have gained hands-on experience with
+various machine learning tools and techniques:
+• Python Ecosystem: Regular use of pandas, NumPy, SciPy for data processing and
+scienti fic compu ting, and Matpl olib and Seaborn for visualization.
+• Modeling with scikit-learn: Experience buildi ng and eva lua ting linear/logisti c
+regres sion models, decision trees, and PCA for dime nsionality reduction.
+• Quantitative Research & Simulation: Implemented Monte Carlo simulations for option
+pricing using low-di screpancy sequences (Van der Corput, Halton, Sobol) to enhance
+convergence. Deve loped finite-diffe rence methods (explicit and implicit) to price barrier
+and loo kback options.
+• Algo rithmic Trading Infrastructure: Designed a modular system for constructing and
+analyz ing alpha s ignals from [location] futures data, including por tfolio opti mization under
+different weighti ng schemes.
+• Reinforce ment Learning: As part of a scienti fic reproduction inten sive by [compa ny], I
+reproduced a state-of-the-art RL algo rithm for opti mal trade execution in dynami cally
+liquid markets, which deepened my understanding of reproducibility and robus t
+experimenta tion.
+From [location], I hope to gain new knowl edge—but more importa ntly, to immerse myself in an
+enviro nment full of energy and enthusiasm. I’m looking fo rward to meeting new p eo ple, sharing
+experiences, and learning from others. I am also very excited about the opport unity to visit
+[country], explore its cu lture and tra ditions, and see firsthand its techno logica l advancements.
+In the future, I envision myself working as a quantitative analyst, ideally at a global quantitative
+finance firm. I’m fascinated by how the princi ples behind childre n's games and logic have scaled
+up to form the fo undation of global economic systems.
+I would also love to one day contribute to the space indus try—my chil dhood dr ea m was to
+become a cosm onau t, and I still carry that passion with me. I want to bring value to this field,
+combi ning curiosity and technical skills to solve complex challenges.
+At the same time, I plan to continue my work in star tups. I find deep satisfaction in being at the
+birth of something new—especially in high-unce rtai nty enviro nments. I believe this reflects one
+of my favo rite traits: curiosity mixed with persi stence. For me, this is the positive force that
+drive s humanity fo rward.
+Thank you for conside ring my application.
+Sincerely,
+[name]

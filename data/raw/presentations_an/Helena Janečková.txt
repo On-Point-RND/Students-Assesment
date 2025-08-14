@@ -1,0 +1,61 @@
+Quadrupedal Robot Skateboarding via Reverse Curriculum Learning
+[name]
+[compaany]
+MSc-2: Engineering Systems, [compaany]
+Introduction
+• What is the topic?
+Teaching quadrupedal robots to mount skateboards autonomously using RL
+• Why is it important?
+Leonardo skateboarding demonstration
+Robots can already ride [1, 2], but initial mounting phase remains an unsolved challenge in robotics
+• Goal of the review
+Demonstrate a novel approach for enabling robots to autonomously mount a skateboard using Reverse Curriculum Learning [https://umich-curly.github.io/DHAL/](https://umich-curly.github.io/DHAL/)
+[1] - K. [surname] et al. A bipedal walking robot that can fly, slackline, and skateboard. Science Robotics, 2021.
+[2] - H. [surname] et al. Discrete-time hybrid automata learning: Legged locomotion meets skateboarding. arXiv preprint, 2025.
+Problem statement
+Train a quadruped robot to approach and mount a skateboard
+Task scheme
+Methods
+Algorithm: Proximal Policy Optimization (PPO) with Reverse Curriculum Learning
+NETWORK ARCHITECTURE AND TRAINING HYPER-PARAMETERS
+Initialization: Custom Observations: Default Observations:
+● Robot spawns randomly in vicinity of skateboard: robot: skate_pos_rel (m) of robot base
+randomize_reset_base ● Relative orientation of skateboard: skate_rot_rel (rad)
+● Random joint initialization: randomize_reset_joints
+● Contacts between feet and skateboard (bool : 1/0)
+Positive Rewards: Action Space Termination:
+● Number of end effectors in contact with skateboard surface
+Position control for all robot joints
+Robot falling
+● Velocity command tracking (directed to the skateboard)
+● clamp( 15 * (Number of end effectors in contact - 3, [0,10])
+Training stages:
+1. Robot positioned directly above fixed skateboard
+2. Random starting positions near skateboard
+3. Adjacent starting positions with established gait
+4. Testing with unfixed, mobile skateboard
+Scene Elements:
+● Unitree A1 Robot
+● Skateboard
+● Flat Terrain
+Parallel training process
+Spawning scheme
+Results
+[https://github.com/dancher00/quadruped-skateboard-mounting](https://github.com/dancher00/quadruped-skateboard-mounting)
+Research gap
+Current limitations:
+● Separate controllers for mounting and riding
+● Limited testing in simulation environment
+Mounting process
+Future opportunities:
+● Combine mounting and riding skills in one controller
+● Real-world validation with physical robots
+● Skateboard steering control via body leaning (NN path planning via Bézier curve)
+Unitree A1 quadrupedal robot on a skateboard
+Bibliography
+[surname] et al. A bipedal walking robot that can fly, slackline, and skateboard. Science Robotics, 2021.
+[surname] et al. Discrete-time hybrid automata learning: Legged locomotion meets skateboarding. arXiv preprint, 2025.
+[surname] et al. Learning skateboarding for humanoid robots through massively parallel reinforcement learning. arXiv preprint, 2024.
+[surname] et al. Optimization based dynamic skateboarding of quadrupedal robot. IEEE International Conference on Robotics and Automation (ICRA), 2024.
+[surname] et al. Drabble bot: Dynamic legged manipulation in the wild. IEEE International Conference on Robotics and Automation (ICRA), 2023.
+[surname] et al. Agile but safe: Learning collision-free high speed legged locomotion. Robotics: Science and Systems (RSS), 2024.

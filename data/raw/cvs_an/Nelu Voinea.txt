@@ -1,0 +1,38 @@
+[name] [surname]
+ML Engineer
+A: [location] P: +2 *** *** *** G: github.com/[name] E: [email]
+OBJECCTIVE:
+I am a motivated student with a strong foundation in competitive experience and a deep interest in NLP and large
+language models (LLMs). I am eager to apply my analytical and problem-solving skills to research-driven projects
+in R&D, particularly within the NLP domain. My goal is to contribute to pioneering advancements in LLM technoology,
+working collaboratively to explore, innovate, and expand the capabilities of natural language processing
+SKILLS:
+Python/C++ NLP Linux
+ML/DL Git Torch, Scikit-learn, OpenCV,
+Faiss, Transformeers, Keras
+EXPERIENCE:
+AIDAO (finalist): October – December 2024
+Participated in the AIDAO contest, a competition focused on advanced data science challenges.
+Task 1: Applied unsupervised learning techniques to fMRI data to differentiate between 20 individuals.
+Task 2: Developed a classification model to detect open and closed eyes.
+TechArena Siberian Challenge (wiinner) November 2024
+Task 1: Optimized SQL join operations to minimize cost while maintaining query efficiency.
+Task 2: Applied Approximate Nearest Neighbours (ANN) using the SIFT1M and GIST datasets to maximize the
+QPQ and Rcal metrics, while also identifying the Pareto optimum for these metrics.
+Achieved 1st place in the competition.
+SafeSpeak-2024 (prizewiinner, top 5)
+November 2024
+Audio Spoofiing Detection Hackathon for Voice Security
+Gain hands-on experience with NLP techniques, including text preprocessing and model training. Trained a
+Wav2Vec model to solve the antispoofiing problem in speech data, enhancing the system's ability to
+distinguish between real and synthetic voices.
+[company] Russian Research Institute (intern) February 2025 - now
+Vector DB
+Research ML/DL methods for Approximate Nearest Neighbours Search.
+EDUCATION:
+Bachelor's Degree September 2022 – now
+[location], Institute of
+Intelligent Robotics. Artificial Intelligence
+BIO:
+Citizenship: [location] Place of residence: [location], [location]
+Date of birthday: 5 december 2003

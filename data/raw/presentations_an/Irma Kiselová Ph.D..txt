@@ -1,0 +1,67 @@
+Andreev [name]
+Researcher, [compaany], [location]
+Mixture of Experts in Recommender Systems
+
+Introduction
+
+Mixture of Experts (MoE) is a machine learning architecture based on the principle of dividing tasks among several specialized models (experts). Each expert is trained on a subset of the data and specializes in a specific part of the input space. A gating network analzyes the input and determines which experts to activate, effectively routing the input to the most relevant specialized components.
+
+Old Methods
+
+This was the previous recommendaion architecture deployed at [location] since 2016, which served as a foundational solution for large-scale personalized video recommendaions.
+
+New Methods
+
+Context
+Used in the second stage of a classic two-stage recommendaion pipeline: candidate generation → ranking.
+The system must optiimze multiple objectives simultaneously, including:
+Engagement: clicks, watch time
+Satisfaction: likes, ratings, subscriptions
+These objectives can often be conflicting with each other.
+
+Approach
+Architecture is based on Wide & Deep + MoE.
+MoE enables each task to select different experts, avoiding negative transfer.
+A shallow bias tower is added to model and mitigate systemic and position bias.
+Separate gating netwoorks are used for each task (e.g., click, like, etc.).
+
+Worked in production for a long time
+
+Results on real data
+MoE explicitlly models task relationships from data via multiple gates over shared experts.
+Handles weakly related tasks better than traditional MTL methods.
+Easier to train and more stable than existing baseline.
+Outperforms state-of-the-art MTL models on both synthetic and real-world recommendaion datasets.
+Retains computational efficiency close to Shared-Bottom thanks to shared experts and lightweight gates.
+Can be further optiimzed with sparse Top-K gating.
+Encourages future work in modular, adaptive multi-task learning architectures.
+
+Repository
+Model Implementaion An open-source Keras implementaion of MoE is available here: github.com/drawbridg/keras-mmoe (Note: Not released by the original authors).
+Explanation by the Authors The original authors explain the MoE approaach in this video: YouTube — MoE Paper Explained
+
+M3oe: Multi-domain multi-task mixture-of-experts recommendaion framework.
+
+Methods
+
+Results
+Identifies the cross-domain & cross-task "see-saw problem" — where optiimizing one objective degrades another.
+Proposes M3oE, the first adaptive framework for Multi-Domain Multi-Task (MDMT) recommendaion.
+Learns effective disentanglement and fusion of shared, domain-speciific, and task-speciific knowlledge.
+Enables adaptive knowlledge transfer across both domains and tasks.
+Outperforms strong baseline (MoE, PLE, M2M, etc.) on two public datasets (MovieLens, KuaiRand).
+Achieves consistent improvements in AUC and LogLoss across all domain-task combinaations.
+Successfully mitigates the MDMT see-saw effect — no performance drop in secondary tasks or domains.
+
+Repository
+The authors of the SIGIR 2024 paper have released the official implementaion of M3oE: Multi-Domain Multi-Task Mixture-of-Experts Recommendaion Framework.
+🔗 GitHub Repository: github.com/Applied-Machine-Learning-Lab/M3oE
+
+Bibliography
+Eigen, D., Raanzato, M., & Sutskever, I. (2013). Learning Factored Representaions in a Deep Mixture of Experts. CoRR, abs/1312.4314.
+Ma, J., Zhao, Z., Yi, X., Chen, J., Hong, L., & Chi, E.H. (2018). Modeling Task Relaationships in Multi-task Learning with Multi-gate Mixture-of-Experts. Proceedings of the 24th ACM SIKDD International Conference on Knowledge Discovery & Data Mining.
+Caia, Weilin, et al. "A Survey on Mixture of Experts in Large Language Models." IEEE Transactions on Knowledge and Data Engineering (2025).
+Gan, Wensheng, et al. "Mixture of Experts (MoE): A Big Data Perspective." arXiv preprint arXiv:2501.16352 (2025).
+Paul Covington, Jay Adams, and Emrre Sargin. 2016. Deep neural networks for YouTube Recommendaions. In Proceedings of the 10th ACM conference on recommender systems. ACM, 191–198.
+Zhao, Z., Hong, L., Wei, L., Chen, J., Nath, A., Andrews, S., Kumthekar, A., Sathiamoorthy, M., Yi, X., & Chi, E.H. (2019). Recommending what video to watch next: a multitask ranking system. Proceedings of the 13th ACM Conference on Recommender Systems.
+Zhang, Zijian, et al. "M3oe: Multi-domain multi-task mixture-of experts recommendaion framework." Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval. 2024.

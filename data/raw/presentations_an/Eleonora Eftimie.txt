@@ -1,0 +1,117 @@
+Kolmogorov-Arnold networks
+as Explainable AI
+[name]
+Researcher: [surname], [compaany]
+Presentation Plan
+1. What is Kolmogorov-Arnold Network (KAN)?
+2. Examples of KAN applications in real-world tasks
+3. Variations of KAN architecture: λ-KAN
+4. λ-KAN as new architecture-based explainable model.
+Benchmarks demonstrations.
+What is KAN?
+Kolmogorov-Arnold representation theorem:
+If 𝑓(𝒙) is a continuous function of several variables,
+then 𝑓(𝒙) can be written as a finite composition of one variable continuous functions
+and an addition operation.
+2𝑛+1 𝑛
+𝓓 : 0,1 → ℝ
+𝓠,𝓅
+𝑓 𝒙 = ෍ 𝜱 ෍ 𝓓 𝑥
+𝓠 𝓠,𝓅 𝑝
+𝜱 : ℝ → ℝ
+𝓠
+𝑞=1 𝑝=1
+A.N. [surname]: On the representation of continuous functions of several variables in the form of superpositions
+of continuous functions of one variable and addition. 1957
+What is KAN? Architecture
+MLP KAN
+KAN: Kolmogorov-Arnold Networks, [name], et. al. 2024. https://arxiv.org/abs/2404.19756
+What is KAN? Architecture
+Activation functions: parametrized by B-splines basis, hence learnable
+[name] et al.: KAN: Kolmogorov-Arnold Networks, 2024. https://arxiv.org/abs/2404.19756
+GitHub
+KAN for geophyisics
+Solves inverse problem of quantum carbon dot nanosensory
+[name], et al.: Kolmogorov-Arnold Networks vs Multi-Layer Perceptron: Solution of an Inverse Problem of Exploration Geophysics, 2024.
+https://theory.sinp.msu.ru/doku.php/dlcp2024/abstracts
+KAN for spectroscopy
+Solves inverse problem of quantum carbon dot nanosensory
+Solution of an Inverse Problem of Optical Spectroscopy Using Kolmogorov-Arnold Networks, [name], et. al. 2024. DOI: 10.3103/S1060992X24700747
+GitHub
+KAN for spectroscopy
+Helps interpret AI model decision making process
+Reper
+channel
+Solution of an Inverse Problem of Optical Spectroscopy Using Kolmogorov-Arnold Networks, [name], et. al. 2024. DOI: 10.3103/S1060992X24700747
+λ-KAN
+Another formulation of Kolmogorov-Arnold theorem:
+Kolmogorov-Arnold-Kahane
+Kolmogorov-Arnold Theorem (1957)
+Theorem(1975)
+2𝑛+1 𝑛 2𝑛+1 𝑛
+𝑓 𝒙 = ෍ 𝜱 ෍ 𝝓 𝑥 𝑓 𝒙 = ෍ 𝜱 ෍ 𝜆 ∙ 𝝓 𝑥
+𝒒 𝒒,𝒑 𝑝 𝒒 𝑝 𝑞=1 𝑝=1 𝑞=1 𝑝=1
+λ-KAN. Mathematics
+The main result: sensitivity of λ-KAN to input-vector ~ λ-vector values
+under 2 conditions.
+Condition n.1: 𝝓 𝑥 𝑎𝑛𝑑 𝜱 (… ) - independently distributed;
+Condition n.2: 𝑥 - have close distributions.
+Then, differentiating 𝑓 𝒙 and averaging over input domen:
+2𝑛+1 𝑛
+𝜕𝑓 𝒙
+𝜕𝑓 𝒙
+ሶ ሶ
+= 𝜆 ∙ ෍ 𝜱 ෍ 𝜆 ∙ 𝝓 𝑥 ∙ 𝝓 𝑥 ~ 𝜆
+~ 𝜆
+𝑖 𝑞 𝑝 𝒒 𝑝 𝑞 𝑖 𝑖
+𝑖
+𝑋 𝜕𝑥
+𝑖
+𝑖
+𝑋 𝑞=1 𝑝=1
+𝑋
+𝑋
+Assume, 𝑥 have close
+𝑖
+distribution
+Do not depend on 𝑥
+𝑖
+λ-KAN. Benchmarks
+4 analytic functions and 2 real-world benchmarks were used to examine
+λ-KAN interpretation ability.
+Referenced methods: SHAP-analysis and gradients to input.
+λ-KAN. Test functions
+Averaged absolute input-importance values of λ-KAN by different methods:
+Add 2 random input channels:
+λ-KAN. Test functions
+Exponentially decay task
+λ-KAN. Real-world benchmarks
+Boston-housing dataset
+λ-KAN prediction-true plot
+Averaged absolute input-importance values of λ-KAN by different methods:
+MLP prediction-true plot
+λ-KAN. Real-world benchmarks
+Curated-solubility dataset
+λ-KAN prediction-true plot
+Averaged absolute input-importance values of λ-KAN by different methods:
+MLP prediction-true plot
+Results
+1. Kolmogorov-Arnold Network (KAN) - promising analogue of neural networks
+2. KAN can be graphically interpreted if architecture is simple enough
+3. Introduced λ-KAN incorporates architecture-based explainable sensitivity to
+input data
+4. λ-KAN has a brilliant ability in verifying inputs` importance. It was showed on
+both synthetic and real-world benchmarks and compared with SHAP and
+gradient analysis.
+Future work
+1. Improve approximation ability of λ-KAN. It can be made by introducing
+trainable λ-tensor instead of constant one.
+2. Apply λ-KAN in various deep-learning tasks. This provides 2 advantages:
+• Mathematically proved interpretation instruments, built in model. KAN
+needs only feed-forward procedure, instead of SHAP, Lime, Grad-cam etc..
+• Sensitivity, attention learning in the main flow of fitting model (satellite image
+segmentation example).
+Thank you for attention!
+Git-hub repositories, discussed in this work:
+KAN KAN
+Geophysics Spectroscopy λ-KAN

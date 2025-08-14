@@ -1,0 +1,89 @@
+Email : [email]
+Link to [location] Phone : +2 *** *** ***
+Link to [location]
+Experience
+Machine learning engineer [compaany]
+•
+Applied Artificial Intelligence Centre Dec. 2024 - now
+◦ Adapted the LIMU-BERT architecture to handle multivariate time series data from IMU and sEMG
+◦ Optimized LIMU-BERT to run on resource-constrained devices using quantization and model distillation techniques
+◦ Soldered the circuit with Arduino, IMU (MPU6050) and sEMG sensors
+◦ Processed the data using Extended Kalman Filter and i2cdev library
+Java Deveeloper [compaany]
+•
+Notification, Reporting and Project Development Center Feb. 2024 - Oct. 2024
+◦ Developed API functions on Java 17, Spring Boot, which added functionaliity to the application
+◦ Developed methods for authentication by JWT/JWE, which improved the security of the service and allowed
+taking into account user information from third-party system services
+◦ Designed and implemented part of the PostgreSQL database
+◦ Conducted testing of application modules using JUnit and Mockito, which increased the fault tolereance of the
+service
+◦ Developed archiving and gluing functions for PDF documents
+◦ Configured the settings in ZooKeeper, which made it possible to conveniently expand the functionaliity of the
+service for different clients
+◦ Wrote technical/test task designs in Confluence, which allowed the entire team to align their understanding of tasks
+Machine learning engineer [compaany]
+•
+Laboratory of Intelligent Services and Applications Dec. 2022 - Feb. 2024
+◦ Developed disease spread prediction functions using convolutional neural networks
+◦ Trained neural network models using TensorFlow for Classiifying Images of Cavitation Bubbles in Gasoline
+◦ Trained graph neural networks using Spektral and TensorFlow, having designed models based on scientific papers
+◦ Developed the client part for the web service usingReact.js and D3.js
+◦ Developed a server part for requests to collect information and visualize it in graph form using FastApi
+◦ Collected data from VKontakte and Reddit used Python API libraries and created code to visualize social graphs
+using NetworkX and D3.js
+Projects
+Topological data analysis of pLLM attention maps for per amino-acid classification
+•
+Machine Learning Project Feb. 2025 - now
+◦ Extracted barcodes out of amino-acid data
+◦ Vectorized barcodes with Persistence Images, Persistence Landscape, Betti Curves
+◦ Trained features with PyBoost, SVM, knn, RFC
+Blue Sky Research [location]
+•
+A tool for harmonization of nucleotide sequences to increase production of recombinant proteins Aug. 2024
+◦ Configured collection of nucleotide sequence data from PDB and Uniprot by Source of Organism
+◦ Fine-tuned DNABERT and Riboformer with PyTorch and Transformers using AdamW
+◦ Implemented calculation of metrics: Relative Codon Usage; Codon Pair Bias; MinMax
+◦ Implemented RAG system for collecting information using API, FastAPI, FAISS, BM25
+Eurobot [location]
+•
+Robotics Competition Oct. 2024 - May 2025
+◦ Developed Behavior Tree for the Robot using C++ BT library and Groot
+◦ Implemented communication between ROS2 and NUC of the robot through UART protocol
+◦ Implemented navigation and localization algorithms with Computer Vision and LiDAR
+◦ Programmed modules for Maxons and Dynamixels
+Skills
+• Languages and technologies: C++, Python, ROS2, Java, Git, Django, Docker, Linux, PostgreSQL, Spring
+Boot, Liquibase
+• Data Science: PyTorch, TensorFlow, sklearn, transformers, Probability and statistics, Linear algebra,
+Differential and integral calculus, Machine Learning algorithms, SQL, BERT, Llama, jax, Megatron-LM,
+BLAS, LAPACK, TDA, GAN, Diffusion Models
+• Engineering and Neuro: Arduino, Raspberry Pi, Soldering, Siemens NX, Abaqus, Amesim, Teamcenter,
+EEG, IMU, sEMG
+• Foreign Languages: English С1 (IELTS 7.5), French C1 (DALF C1), Chinese A2
+Link to certificates: https://clck.ru/32k8J6
+Education
+[compaany] Moscow, Russia
+•
+Engineering Systems, Master of Science 2024 - 2026
+◦ Relevant courses: Experimental Data Processing, Numerical Linear Algebra, Machine Learning, neurophysiology,
+Robotics, Systems Engineering, Product Lifecycle Management, Recommendaation Systems
+[compaany] Saint-Petersburg, Russia
+•
+Applied Computer Science, Bachelor Degree 2020 - 2024
+◦ Relevant courses: Applied programming, Machine learning, Applied statistics, Linear Algebra, Database design,
+Calculus, Physics, Discrete Mathematics.
+◦ GPA: 4.44/5.0 1st year, 4.3/5.0 2nd year, 4.2/5.0 3rd year, 4.5/5.0 4th year.
+EPITECH Paris, France
+•
+Exchange semester BAC+2. Computer Science Jan. 2023 - July 2023
+◦ Courses completed: Mathematics, Object-oriented programming, Devops, Functional Programming
+Scholarships, awards and conferences
+• Alpha Bank Scholarship for Talented Students[link]
+• Increased State Academic Scholarship: [compaany]
+• Fifty-third (LIII) scientific and educational conference of [compaany]: PRESENTED:
+Forecasting the Spread of Diseases Using Spatiotemporal Data Using Mathematical Modeling and
+Convolutional Neural Networks (January 2024)
+• XIII Young Scientists Congress 2024: PRESENTED : Analysis Of Opinion Distribution Models In
+Communities (April 2024)

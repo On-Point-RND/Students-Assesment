@@ -1,0 +1,40 @@
+Name: [name] [surname]
+Institution: [compaany], Institute of Applied Mathematics and Computer Science, Year 1
+Contact Information: [email]
+Education and Research Activities
+ Honors Recipient at the All-Russian Conference and Competition of Student Research ([location], 2023):
+Project: “Development of the ‘RS-V5’ Robot-Concierge Model.”
+Achievement: Awarded a Third-Degree Diploma at the conference.
+Project Description:
+o Developed an autonomous robot model that performs a welcoming gesture upon detecting a human hand.
+o Implemented software in Python utilizing the OpenCV library for image processing and MediaPipe for hand keypoint tracking.
+o Designed a 3D model in Blender and produced a physical prototype using a MakerBot Replicator+ 3D printer.
+o Integrated the hardware components: OpenCR board, AX-12A servomotors, and a plywood chassis.
+Teaching Experience
+I work with [compaany], an online school, where I teach mathematics to students in grades 5–11. I develop individualized curricula to help students master challenging topics and prepare them for successful performance on standardized assessments. My responsibilities encompass not only instruction but also methodological support aimed at enhancing student performance and motivation through a flexible, needs-oriented approach.
+Achievements and Awards
+1. Regional Mathematical Battles ([location], 2023):
+o Awarded a Second-Degree Diploma for solving non-standard problems and teamwork.
+2. [compaany] Engineering School (2024):
+o Received a Second-Degree Diploma in the field of “Unmanned Aerial Vehicles (UAVs).”
+o Studied fundamentals of design, programming of autonomous systems, and sensor integration.
+Skills in ML/DL and Computer Vision
+ Image and Video Processing:
+o Proficient in utilizing OpenCV (object detection, filtering, tracking).
+o Implemented hand gesture recognition (MediaPipe; keypoint analysis).
+o Performed image classification using neural networks (TensorFlow, Keras).
+ Programming Languages:
+o Python (experienced with NumPy, Pandas, and various other libraries).
+o C++ (basic proficiency, primarily for Arduino development).
+o Java (solid understanding of Java Core and object-oriented programming fundamentals).
+ Robotics and Algorithm Development:
+o Developed algorithms for robotic systems.
+o 3D modeling (Blender, Kompas-3D) and 3D printing.
+o Worked with microcontrollers (Arduino, OpenCR).
+Research Interests
+ Application of machine learning in robotics.
+ Development of autonomous control systems based on computer vision.
+ Optimization of neural network models for embedded devices.
+Publications and Projects
+ Project “RS-V5”:
+Detailed in the conference proceedings of [location] (2023). Key aspects include the integration of software and hardware components and real-time data processing.

@@ -1,0 +1,60 @@
+One-step Entropic
+Optimal Transport
+[name]
+[compaany]
+https://github.com/[name]/ENOT_TOY
+What is Optimal Transport?
+Image Examples
+Monge’s Formulation of
+Optimal Transport
+Kantorovich’s Formulation of
+Optimal Transport
+If distributions are continuous
+Kantorovich’s OT plan and Monge’s
+OT map are equal
+This provides deterministic OT plan
+What is Entropic Optimal
+Transport and
+How it provides Stochastic OT
+plan?
+Formulation of Entropic
+Optimal Transport
+Dual formulation of EOT
+Schrodinger Bridge problem Dynamic OT problem
+ENOT method
+Our Method
+Our method
+•
+Propose one-step stochastic generator G to sample X_t
+•
+Optimize G using correspondiing f (connected with FP equation)
+•
+Use discriminator to obtain target distribution (as in ENOT method)
+Toy experiments
+MNIST experiments
+gamma=0.0 gamma=1.0 gamma=10.0
+Celeba-HQ experiments
+Samples from generator (gamma=1.0) Samples on trajectories (gamma=1.0)
+Conclusion
+• Scalable and efficient solution EOT problem
+• Built on rigorous OT theory
+• Easily controls stochasticity
+• Applicable to unpaired translation problems
+Future research
+• Apply method for more high dimensional problems
+• Compaare with existing EOT methods [5-8]
+Bibliography
+1. A. [surname], D. [surname], E. [surname]. Neural Optimal Transport.
+2. N. [surname], A. [surname], A. [surname], D. [surname], E. [surname]. Entropic Neural Optimal Transport via
+Diffusion Processes.
+3. C´edric Villani et al. Optimal transport: old and new, volume 338. Springer, 2008.
+4. Filippo Santambrogio. Optimal transport for applied mathematicians, volume 87. Springer, 2015.
+5. Jaemoo [surname] and Jaewoong [surname]. Scalable simulation-free entropic unbalanced optiimal transport,
+2024.
+6. Yuyang Shi, Valentin De Bortoli, Andrew Campbell, and Arnaud Doucet. Diffusion schr¨odinger
+bridge matching, 2023.
+7. Denis Rakitin, Ivan Shchekotov, and Dmitry Vetrov. Regularized distribution matching distillation for
+one-step unpaired image-to-image translation, 2024.
+8. Nikita Gushchin, Daniil Selikhanovych, Sergei Kholkin, Evgeny Burnaev, and Alexander Korotin.
+Adversaarial schr¨odinger bridge matching, 2024.
+Thanks!

@@ -1,0 +1,39 @@
+One click of a mouse, and a number with the [compaany] appears on the screen from 28x28 pixels drawing.
+This little magic trick, demonstrated to me by a local [name] during the quarantine,
+completely captured my attention in 7th grade. At the time, I didn't realize it, but this was my first
+encounter with artificial intelligence. It started as a simple "wow, it can recognize my handwriting," but
+it eventually evolved into "a machine can compose a symphony or create a masterpiece from a blank
+canvas - and I want to understand how."
+Since then, I have grown - not through tutorials, but through pain, experimentation, and trial and error.
+When you have an idea, limited resources, and many things that can go wrong, you either solve the
+problem or your project fails. I chose to solve it. I work with Python, mostly using PyTorch and
+TensorFlow, creating models for classification, object detection, and time series analysis.
+In [compaany], I created a pipeline that uses satellite and weather data to predict natural disasters
+such as floods and droughts. I used GRUs (Gated Recurrent Units) and to build the model. I also
+cleaned noisy datasets and addressed class imbalances. I realized that even a highly accuraate model
+can be useless if it cannot be integrated into a real-world system.
+At [compaany], I worked on an educational kit with AI for schooLs. The kit uses a webcam to detect
+chemical actions in real time. I created the datasets, algo rithms, implemented data augmentation
+techniques, and fine-tuned the model for low-power microcontrollers. This made chemistry more
+accessible to underfunded schooLs.
+None of these projects would have been possible without the support of my peers. In November 2023,
+I attended a small schooL hacka thon and met a group of like-minded individuals. Six months later, our
+team had alr eady won national compe titions. Through colla boration with these peers, especially [name] [surname], I learned that mea ningful projects are not built in isolation. Most of the knowl edge I
+gained came from discussions, brainsto rming sessi ons, and shared successes.
+That's why I want to be part of your schooL. It's not just about the knowl edge, it's about the peo ple. The
+challenge, the fee dback, the opportu nity to argue, build, fail, grow. Without this enviro nment, it's easy
+to become stagna nt. With it, anything feels pos sible.
+I'm still in high schooL, with one more year until uni versity. But I know what I want alr eady. Over the last
+two weeks, my team and I travelled to five cities for compe titions - at our own expense. We spent our
+savings, sleeping on floo rs sometimes, but the experience was more va lua ble than any prize money
+could be. Some peo ple think I'm doing it for my por tfolio, others think I'll make a lot of money. The truth
+is, I'm doing it for experience, for learning, for the future I'm buildi ng.
+AI isn't just a buzzword, it has alr eady saved billions of hours and generated trillions of dollars in value.
+It's changing how we work and learn. I want to be a part of shaping the next chapter of this techno logy.
+Not as a specta tor, but as an engineer and a thinker.
+Your schooL is another opportu nity for me to grow and share my experiences. One of the few
+interna tional opportu nities a vai lable to me, it is an opportu nity that I would like to take adva ntage of.
+Any communication will not go unnoticed and, given my experience, I believe that this experience will
+definite ly ben efit me in my deve lopment. And I really hope to be accepte d into your schooL. What will
+be the outc ome of my application? We will find out. What results will I achieve in the future? We will
+see.

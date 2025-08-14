@@ -1,0 +1,104 @@
+,
+Simulation, Optimization and Reconstruction
+High-Current Electron-Beam Transport
+[name]
+[location]
+,
+INTRODUCTION OPTIΜIZATION OF THE ENVELOPE BEAΜ
+The issue of high-current electron-beam transport is discussed. The The KENV code and a genetic algorithm implemented in the DEAP framework [1] were
+results of numerical simulation of beam transport in the 15-m-long used to reconstruct the envelope.
+accelerator channel are presented. The ASTRA macroparticle (PIC) In the case of the KENV code, the solution was a vector of 9 strengths of solenoid lenses.
+code and two codes devevelopeed at the Budker InstiTute of Nuclear The startiing population included 100 individuals in which the magnetic fields B were
+Physics (the KENV code based on the solution of the Kapchin- Gaussian random variables with some mean value. The fitness function was the square
+sky–Vladimirsky system of equations and the UltraSAM code im- root of the standard deviation of the mean from a given beam envelope and the modelling
+plementing the method of boundar integral equations) are used in results. The task of the genetic algorithm was to minimize the sum of the fitness function.
+this simulation. The electron-beam envelope is reconstructed and The genetic algorithm completed the task in 50 generations. The results are shown in the
+optimizated using the KENV code with a genetic algorithm. Fig. 2.
+KAPCHINSKY–VLADIMIIRSKY ENVELOPE EQUATIONS
+The motion of an axially symmetric beam in the transport channel
+with solenoids is characterized by the following equation 1:
+2
+1 1 P ε
+′′ ′ ′ ′′
+r + γ r + γ r + k r − − = 0. (1)
+s
+β2γ 2β2γ r r 3
+This equation holds true for an annular beam with radius and a
+uniform distribution of the space charge density. In this case, par-
+ticles are emitted from a cathode screened from the magnetic field Figure 2: The process of restoring the envelope to a given envelope for 10, 20, 30, 40 generations.
+(this actually implies that the angular moment is zero, P = 0);
+θ
+′ dγ
+β is the dimensionless velocity, γ is the Lorentz factor, γ = ,
+dz
+2 RECΟNSTRUCTION OF THE ENVELOPE BEAΜ
+′′ d γ 2I
+γ = ,P = is the generalized beam perveance, I is the
+dz2 I β3γ3
+a
+3
+beam current, I = ≈ 17kA, ε is the beam emittance, and In the case of the K–V envelope code, the solution was a vector of 12 strengths of solenoid
+a
+e
+lenses and three initial conditions (beam emittance, radius, and angular spread). The initial
+(cid:18) (cid:19)2 (cid:18) (cid:19)2
+eB cB [T ]
+z z
+k = = dr
+population contained 1500 solutions, where magnetic fields B , radii r , angular spreads ,
+s
+z
+6
+2m cβγ 2βγ × 0.511 × 10 × volt dz
+e
+and normalized emittances ε were Gaussian random variables with mean values. The
+n
+is the rigiidity of solenoid lenses.
+fitness function was the square root of the mean-square deviation of simulation data from
+the measured beam diameter (the quadrupole lens strength). The goal of the genetic
+algorithm was to minimize the sum of the fitness function.
+SIMULATION OF THE BEAΜ TRANSPORT
+This goal was achieved in 100 generations. The reconstructed initial conditions were used
+In the present case, the ASTRA PIC code [3], UltraSAM [4], and
+to model the envelope for comparison with the measurement data (see Fig. 3).
+new code utilizing the Kapchinsky–Vladimirsky equation KENV [2]
+were used to calculate the beam dynamics. The results of simulation
+of an electron beam with an energy of 1.6 MeV at the injector
+output, a current of 1.5 kA, and a normalized emittance of 1150
+mm*mrad in the accelerator channel are compared in Fig. 1 The
+amplitude of the accelerating voltage was 360 kV for each SAM.
+Figure 3: Reconstructed envelope and magnetic field B (z) for the 1st and the 100th generations (left panel). Comparison between the simulated
+z
+data and the experimental results for a current of 1.5 kA (right panel).
+CONCLUSIONS
+The results of a simulation of the beam transport with different codes were presented.
+The electron-beam envelope was reconstructed and optimizateed using the KENV code
+and a genertiic algorithm. The envelope for the 15-m-long accelerator channel agreed
+well with the ASTRA PIC code and UltraSAM. The high computation speed of the K–V
+envelope code, which is many times higher than that of ASTRA and UltraSAM, provides
+an opportunity to create an interactive interface for real-time electron-beam adjustment
+and guiding in longer and more complex accelerators.
+REFERENCES
+Figure 1: Comparison of envelopes calculated using the K–V envelope code, ASTRA, and UltraSAM in the 15-
+[1] [name].
+Deap: A python framework for evolutionarry algorithms.
+In Proceedinings of the 14th annual conference companioon on Genetic and evolutionarry computation, pages 85–92, 2012.
+m-long accelerator channel.
+×
+The following simulation parameters were set in ASTRA: 75 501
+[2] [name].
+KENV kapchinsky envelope code.
+grid cells in the beam region (in ASTRA, the grid is partitioned
+https://github.com/fuodorov/kenv, 2019.
+only in the beam region); 1000000 macroparticles with a uniform
+[3] [name], [name] and [name].
+transverse distribution and a pulse duration of 20 ns. Figure 1
+Recent improvements to the astra particle tracking code.
+demonstrates that the results of these three simulations were fairlly
+Technical report, Lawrence Berkeley National Lab.(LBNL), Berkeley, CA (United States), 2003.
+close. The envelope curves in Fig. 1 correspoond to the complete
+[4] [name] and [name].
+passage of current along the accelerator channel.
+Ultrasam-2d code for simulation of electron guns with ultra high precision.
+Proceeding of EPAC-2002, Paris, pages 1634–1636, 2002.
+www.inp.nsk.su April 18, 2025 [email]

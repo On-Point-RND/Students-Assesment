@@ -1,0 +1,148 @@
+Tree-Augmented RL for Autonomous Repair of
+AI-Generated Code
+[name]
+20.04.2025
+Project proposal
+LLMs in Code Refiinement Statements:
+• Self-debug ability is crucial for LLMs to refiine their generated code based on execution feedback, which is
+important for solving complex problems.
+• Iterative code refiinement does not involve a trade-off between exploration and exploitation.
+Key Contributions:
+• Syntax-Aware Reinforcement Learning Pipeline
+We present a novel approach that integrates reinforcement learning with structured code analysis, featuring
+a custom syntax-tree reward function that improves output correctness while maintaining training stability.
+• Benchmark Evaluation
+Experimental results on MBPP, APPS and HumanEval demonstrate:
+- 5% improvement in code repair accuracy over baseline methods
+- Optimization algorithmic complexity while maintaining correct behavior
+Overview of existing solutions
+Paper
+Solution method Models Evaluation details Benchmarks Metrics
+Tests on loop invariant
+Tang H. et al. Code repair with llms gives Proposes REx, a Thompson Passing rate, LLM
+GPT-4, GPT-3.5- synthesis, visual reasoning Sampling-based algorithm for call efficiency
+turbo, Claude-3.5- (ARC), and competition Interview, Introductory), ARC
+Advances in Neural Informaation iterative code refiinement, (speedup), and
+Processing Systems. – 2024. – Т. 37. – С. balancing exploration and hyperparameter
+Llama-3.1-405B comparing against greedy, invariant synthesis tasks
+117954-117996. exploitation sensitivity
+Zhong L., Wang Z., Shang J. Debug like a LDB uses runtiime execution
+GPT-3.5,
+human: A large language model traces and NLP-based block- Iterative debugging with up to HumanEval, MBPP, and
+debugger via verifying runtiime execution level analysis to verify and 10 iterations TransCoder
+step-by-step refine LLM-generated code
+arXiv:2402.16906. – 2024. Pass@1 (up to
+Evaluated on
+Jiang N. et al. LeDex: Training LLLMs to LeDex trains LLMs via SFT and +15.92%),
+StarCoder-15B, Iterative refiinement (up to 3
+Better Self-Debug and Explain Code // RL with automated data pass@10 (up to
+CodeLlama-7B/13B, rounds), tested on initial and MBPP, HumanEval, MBPP+,
+Advances in Neural Informaation collection (explanations + +9.30%), and
+Processing Systems. – 2024. – Т. 37. – С. refinements) and execution- refinement success
+35517-35543. based filtering rate (up to
+data sources
++10.15%)
+COCoGen combiines static
+Bi Z. et al. Iterative refiinement of project- analysis, compiler feedback,
+focused class/file/project- level code context for precise code and iterative retrieval of GPT-3.5-Turbo and CoderEval, HumanEval,
+runnable tasks in real-world generation with compiler feedback // project- project-specific context to Code Llama (13B) MBPP, and CrossCodeEval
+repositories automatically detect and fix
+errors in LLM-generated code
+arXiv preprint arXiv:2403.16792. – 2024. Proposed solution: GRP-O + Iterative Refiinement Tree
+KL
+Reference model
+𝜋
+ref
+Rewards Advantages
+Iterative Refiinement Tree
+r A
+1 1
+outpout 1
+r A
+2 2
+Reward model
+outpout 2 R r A
+3 3
+Policy model
+Group
+𝜋 𝜃 ... ... ...
+Computation
+N best refinements
+outpout N r A
+N-1 N-1
+Prompt
+r A
+N N
+Problem description +
+Previous node refiinement
+update Policy model via objective JGRPO(𝜃)
+G |o|
+1 1 i π (o |q, o ) π (o |q, o )
+θ i,t i,<t θ i,t i,<t
+G ̂ clip ̂
+J (θ) = 𝔼 q ∼ P(Q), {o } ∼ π (Θ|q) min A , ,1 − ϵ,1 + ϵ A − β𝔻 π ||π
+GRP-O [ i i=1 θ ] ∑ ∑ i,t i,t KL [ θ ref]
+old G |o | π (o |q, o ) ( π (o |q, o ) )
+i θ i,t i,<t θ i,t i,<t
+i=1 t=1 old old
+Technical details: Iterative Refiinement Tree
+• Reward function R definition:
+0 - r - refiinement
+- r - correct refiinement (canonicaal solution from benchmark)
+c
+10
+- T - number of passed tests, T - all tests count
+p
+| T (r) |
+30 10 0 40 p
+CodeBLEU
+R(r) = (r, r ) +
+c
+| T |
+60 0 80 40 0
+• Choosing next program ρ to refine:
+next
+- C - hyperparameter
+0 60
+0 80 40
+- N - number of times program ρ was refined with no reward
+p
+(s) where (s) Beta
+ρnext = arg max θ , θ ∼ (α , β )
+ρ ρ ρ ρ
+ρ
+Example or refiinement tree:
+α = 1 + C ⋅ R(ρ)
+ρ
+The value in each node represents the
+β = 1 + C ⋅ (1 − R(ρ)) + N
+ρ ρ
+percentage of passing tests for the current
+rifiinement
+Results
+O
+APPS
+HumanEval
+• Reference model / Policy model:
+Qwen2.5-Coder-3B-Instruct
+• Reward model:
+Qwen2.5-Coder-3B-Instruct fine-tuned on custom reward
+from previous slide
+• Datasets: HumanEval, MBPP, APPS (available on HF)
+* Each axis represents a test dataset and is scaled to 100%,
+correspondiing to the size of the test set. The colored regions
+indicate the percentage of programs (relative to the test
+dataset size) that fall into each category.
+MBPP
+Results
+Future directions:
+• Automated Test Generation
+Develop a self-validating refiinement pipeline that automatically generates
+verification tests for corrected code.
+• Error Explanation Integration
+Enhance the model’s output with natural language explanations of detected
+errors and proposed fixes.
+• Optimization for further integration
+Reduce computaional overhead to enable integration into IDEs and CI/CD
+pipelines.
+Code is available: https://github.com/dzrlva/SMILES2025_project

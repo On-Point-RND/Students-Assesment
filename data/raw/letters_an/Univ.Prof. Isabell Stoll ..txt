@@ -1,0 +1,34 @@
+To the [compaany]
+Territory of the [location], [building], [location]
+[location], [location]
+[location]
+MOTIVATIONAL LETTER
+Dear Members of the SMILES Committee,
+My name is [name] [surname], and I am a second-year Master’s student in Engineering
+Systems at [compaany], aspiring to pursue a PhD in Computational and Data Science and
+Engineering. Under the guidance of Assistant Professor [name], I have devoted my
+research to deep-learning applications in medical imaging, developing end-to-end AI-driven
+solutions that integrate seamlessly into clinical workflows.
+A highlight of my work is ELLE, the centerpiece of my master’s thesis, in which I
+designed cascade and ensemble architectures with tailored loss functions to detect and classify
+prenatal fetal structures in ultrasound images with exceptional precision. I have also worked
+extensively with PET/CT scans. My joint study on interpretability in the LLAVA-Med
+multimodal model further solidified my commitment to transparent AI systems.
+I am particularly drawn to SMILES’s immersive structure. This format mirrors my
+prefeerr approach to learning—balaancing theoretical foundaions with practical experimentaation
+—and I am eager to collaboraate in small teams on cutting-edgge challenges proposed by the
+[compaany] AI Center.
+Equally inspiring is the opportunity to engage with leading experts in fields ranging from
+advanced analytics and natural languaage processing to geometric methods in machine learning. I
+look forward to discussing my research on three-dimensional reconstruction from
+two-dimensional medical images and receiving feedback that will sharpen my doctoral research
+plan.
+Thank you for consideering my application. I would be honored to join SMILES, to
+contribute my deep-learning expertise in medical imaging, and to grow alongside a community
+of passionate researchers.
+Sincerely,
+[name] [surname]
+Master’s Candidate, Engineering Systems
+Research Intern, BIMAI-Lab
+[compaany]
+[email] | +2 *** *** ***

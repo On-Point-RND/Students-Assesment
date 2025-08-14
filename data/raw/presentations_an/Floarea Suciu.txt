@@ -1,0 +1,90 @@
+## SLAVA Framework: A Comprehensive Evaluation Tool for Large Language Models
+
+This document provides a detailed overview of the SLAVA framework, an innovative tool designed for evaluating and comparing Large Language Models (LLMs). It outlines the framework's purpose, importance, methodology, key features, findings, and future directions.
+
+### Introduction
+
+The SLAVA framework addresses a critical need for robust and nuanced evaluation of LLMs, particularly concerning their performance across diverse linguistic and cultural contexts. It moves beyond traditional benchmarks that often overlook the intricacies of language, aiming to provide a more comprehensive assessment of model reliability, transparency, and performance.
+
+### Why is it Important?
+
+Traditional LLM evaluation often relies on standardized benchmarks that may not adequately reflect real-world usage and can be biased towards specific languages or domains. SLAVA highlights the importance of considering these factors and provides a framework for evaluating LLMs in a more contextually relevant manner. This is particularly crucial for evaluating LLMs in languages like Russian, where specific linguistic nuances and cultural contexts can significantly impact performance.
+
+### Methodology
+
+The SLAVA framework employs a rigorous methodology involving:
+
+* **Question Corpus Formation:** Utilizing official, approved question databases alongside expert-curated questions to ensure a diverse and relevant test set.
+* **Provocativeness Annotation:** Assigning a specific level of "provocativeness" to each question, reflecting its potential to elicit challenging or nuanced responses.
+* **Evaluation Pipeline:** A dedicated framework for evaluating LLMs based on various question types and provocativeness levels.
+* **Metric Implementation:** Employing a range of metrics, including exact match, partial credit, and character-level similarity, to assess model responses.
+* **Comparative Evaluation:** Comparing the performance of different LLMs across the SLAVA benchmark.
+* **Human Baseline:** Incorporating human-generated responses as a reference point for evaluating model accuracy.
+
+### SLAVA Benchmark Features
+
+* **Publicly Available Dataset:** A portion of the question corpus is publicly accessible, fostering transparency and collaboration within the research community.
+* **Provocativeness Levels:** Questions are categorized into different levels of provocativeness (1 to 3), allowing for the assessment of model robustness under varying levels of complexity and potential for nuanced responses.
+* **Comprehensive Question Types:** The benchmark includes various question types, such as factual recall, reasoning, and open-ended questions, to evaluate different aspects of LLM capabilities.
+* **Regular Updates:** The question corpus is reviewed and updated quarterly to incorporate new topics and address outdated content.
+* **Safety Audit:** The framework includes mechanisms for safety auditing of model outputs to identify potential biases or harmful responses.
+
+### Findings
+
+The initial findings from the SLAVA benchmark reveal several key insights:
+
+**Knowledge Domain and Provocativeness:**
+
+* Domestic LLMs generally perform better in geography and sociology-related questions compared to political science.
+* Evaluation scores consistently decline with increasing question provocativeness.
+
+**Overall Leaderboard:**
+
+* Foreign LLMs (Claude-3.5-sonnet, Mistral-123b, GPT-4o) consistently outperform domestic LLMs.
+* The top 6 models demonstrate stable and high results.
+* Matching, open-ended questions, and sequence ordering are the most challenging question types.
+* Common reasons for low scores include failure to follow instructions and factual errors.
+
+### Analytical Platform
+
+A dedicated web-based analytical platform is available to facilitate interaction with the SLAVA dataset. This platform offers:
+
+* **Data Explorer:** Allows users to explore the dataset and analyze model outputs across different question types and sensitivity levels.
+* **Model Leaderboard:** Presents a comparative ranking of LLMs based on their performance on the SLAVA benchmark.
+* **Visualization and Dashboarding:** Provides tools for visualizing evaluation results and creating custom dashboards.
+* **Research-Friendly Environment:** Offers a platform for qualitative and quantitative study of LLM performance.
+
+### Achievements
+
+The SLAVA framework has garnered recognition within the AI research community, including:
+
+* Winner of the ITMO Advanced Engineering School competition.
+* Received development support within the Master's track "Data-Driven Product Development."
+
+### Future Directions
+
+The development team plans to expand the SLAVA framework in the following ways:
+
+* **Expansion of Question Corpus:** Incorporating more diverse question sources, including official publications, legal documents, and encyclopedias.
+* **Inclusion of New Models:** Continuously adding new LLMs to the evaluation leaderboard.
+* **Human Response Baseline:** Integrating human-generated responses as a baseline for comparison.
+* **Advanced Evaluation Pipeline:** Developing more sophisticated evaluation methods to assess specific capabilities like reasoning and common sense.
+* **User Scenario Design:** Creating user-centric scenarios to evaluate LLM performance in practical applications.
+* **Statistical Analysis:** Conducting in-depth statistical analysis of model outputs to identify patterns and trends.
+* **Post-processing and Anomaly Filtering:** Implementing techniques to improve the reliability and accuracy of evaluation results.
+
+### Links
+
+* **SLAVA Framework Public Dataset (GitHub):** [Insert GitHub Link Here]
+* **SLAVA Framework Public Dataset (HF):** [Insert Hugging Face Link Here]
+
+### Team
+
+* **Andrey Chetvergov:** Evaluation pipeline, zero-shot and few-shot prompt scripting, comparative evaluation of API vs. open-source models.
+* **Rinat Sharafetdionov:** Provocativeness annotation, dataset sanitization & restructurings, categorization by subject and question type.
+* **Daniil Sazanakov:** Dataset compilation from public and expert-curated sources, analysis of mapping, sequence, and multi-choice performance.
+* **Ekaterina Bezuglova:** Development of the analytical platform, data exploration, model leaderboard, research-friendly environment.
+
+### Bibliography
+
+[List of cited research papers as provided in the document]

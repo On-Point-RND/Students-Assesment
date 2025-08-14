@@ -1,0 +1,56 @@
+Summer schoo l of machine learning by [compaany]
+Dear [name] Team,
+
+When I first read about SMILES-2025, it felt like a perfect match — not just
+with my academic background, but with the kind of research questions I’m
+passionate about. I’ve a lways been interested in the intersection of
+neuroscience and artificial intelligence, and this summer schoo l brings
+together everyt hing I’m currently working with: generative models, large
+langua ge models, and multimodal AI systems. But more than that, it offers
+an enviro nment where these tools are not just studied — they’re challenged,
+applied, and reimagine d through colla boration.
+
+Right now, I’m developing a generative neural model that simulates
+cognitive decline in Alzheimer’s di seas e patients, based on real mol ecu lar
+and neuroimaging data. The idea is to model how the di seas e progresses by
+“virtu ally solving” cognitive tests using a simulation of the brain. I’m working
+with [data] data, using RNNs and SNNs to build a model of the frontal cortex
+and generative ar chitectures to simulate test perf ormance. On top of that,
+the system is being designed as an interface — something a doctor or
+researcher could actually use to monitor di seas e progression, predict
+tre atm ent effe cts, or even test poten tial new drugs virtually. It’s an
+ambitious project, but a mea ningful one — and machine learning is at the
+core of it.
+
+In earlier projects, I built a neural interface for predicting emotional states
+using either eye-tracking or EEG s ignals. That project had two real-wo rld use
+cases: one in neuromarketing, and the other in mental health. The EEG side
+was especially challenging — I used transfer learning and signal processing
+to handle the compl exity. I’ve also worked with deep learning for time-series
+analysis, GNNs for modeling web structures as graphs, and co mparative
+modeling of genetic mutations in cancer using both R and Python.
+Summer schoo l of machine learning by [compaany]
+What excites me about SMILES-2025 is the chance to grow techni cally and
+conceptu ally. I want to understand how scalable, safe, and interpr etable
+models are built — especially in domains where accuracy alone isn’t e nough.
+The format of the schoo l — bledi ng theory with practice, science with
+interna tional colla boration — is ideal for expanding not o nl y my skills but
+also my perspective. I’m particularly curious to learn more about multi-
+agent systems and safe AI methods, as I see them playing a growing role in
+neuroscience-inspired applications.
+
+My long-term goal is a PhD focused on AI applications in neuroscience,
+especially in clinical and cognitive contexts. I want to build systems that
+bri dg e brain data and beh avior — models that are rigorous, practical, and
+ethically sound. I see SMILES-2025 as a mea ningful step in this direction — a
+place where I can learn from outs tanding researchers, test my ideas, and
+bring new kn owl edge back to my lab and my team.
+
+Thank you for taking the time to read my application. I would be genuinely
+ho nore d to take part in SMILES-2025 — not o nl y to contribute, but to
+challenge myself and grow as a young researcher.
+
+Warm regards,
+[name] [surname]
+[compaany]
+[email]

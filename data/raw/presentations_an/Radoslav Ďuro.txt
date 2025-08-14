@@ -1,0 +1,159 @@
+An attack on the watermarkiing of
+generative models for images in the
+framework of the NeurIPS'24 challenge
+Content
+• Introduction
+• Problem statement
+• Baseline
+• Proposed methods
+• Experimental results
+• Conclusion
+2
+Erasing the invisible: NeurIPS’24 challenge
+Challlenge tracks and implementation stages
+# images watermarks
+Demo (hugging face) 1 StableSignature
+Beige Box Track 150 + 150 Tree-Ring, StegaStamp
+Black Box Track 300 ?
+https://erasinginvisible.github.io/ 3
+Content
+• Introduction
+• Problem statement
+• Baseline
+• Proposed methods
+• Experimental results
+• Conclusion
+4
+Informaal problem statement
+To develop methods of attacks on digital watermarkiing systems on images
+created by generative models
+• Watermarking techniques that need to be attackeed
+• Beige box: Tree-Ring [1,] StegaStamp [2]
+• Black box: unknown
+• Generative models
+• unknown
+[1] Y. [surname] et al., “Tree-Rings Watermarks: Invisible Fingerprints for Diffusion Images”, NeurIPS 2023.
+[2] M. [surname] et al., “Stegastamp: Invisible hyperlinks in physical photographs”, CVPR 2020.
+5
+Problem statement
+6
+Baselines
+• Blurring, Flipping, Tiling
+• Negative image
+• Compression by neural network codecs
+• Applying watermarks over existing ones
+• Changing formats, resizing, online upscale
+Tiling,64x64 Tiling,8x8 Added watermark,5x Separation after FFT
+1.0000 0.1667 0.125 0.042
+1.0110 1.0688 0.504 0.590
+7
+Baselines: results
+Demo Ours (top 2)
+Tiling 64x64
+Blurring + Neural Codec
+StableSig
+(detected masks)
+Blurring v1
+Neural Codec
+(cdc-xparam)
+Tiling 8x8
+Format+upscale+resize Black
+Blurring v2 Square
+VAE StableSig
+(fix. masks)
+Unrelated
+StableSig image
+(rand. masks)
+8
+Content
+• Introduction
+• Problem statement
+• Baseline
+• Proposed methods
+• Experimental results
+• Conclusion
+9
+Methods
+Beige box Black box
+1 Surrogate Detector Attack [waves] (image/latent) + -
+2 Embedding Attack + VAE [waves] + -
+3 Regen Diffusion Model [waves] + +
+4 Rinse Diffusion Model [waves] + +
+5 Different codecs + +
+6 Applying a watermark over an existing one + +
+7 Gaussian blurring + High frequency compression + +
+8 Provably removable (latent noise + VAE) (gaussian/laplace) + +
+9 An attack on quality metrics + -
+10
+Methods
+Surrogate Detector Attack
+• The unknown detector D is approximated by a surrogate detector, which is
+used to train a classifier that distinguiishes images with a watermark from
+images without it.
+• The classifier is taken from the WAVES repository
+• This classifier is attackeed by the PGD method
+11
+Methods
+Embbedding Attack + VAE
+f: X → Z - Image encoder to latent representation
+The attackeed x image is optiomized to change its embedding from the embedding of the
+adv
+original image with the x watermark, where the perturbation is norm-limited L∞
+• This task is optiomized using PGD
+12
+Methods
+Regen Diffusion Model
+• Changing the latent representation of an image by using noise and
+subsequent image expansion using the Diffusion Model
+13
+Methods
+Riinse Diffusion Model
+Riinse : several consecuutive cycles of the Regen Diffusion Model method
+14
+Methods
+The attack on metrics
+• An attack on a modified image to improve its quality
+• PGD attack on metrics PSNR, SSIM, LPIPS, ∆Aesthetic, ∆Artifact
+• Value of PSNR, SSIM and ∆Aesthetic were penalized for the change, values LPIPS и
+∆Artifact were rushing towaards 0
+The original Watermark Attack Watermark Attack +
+An attack on quality
+15
+Content
+• Introduction
+• Problem statement
+• Baseline
+• Proposed methods
+• Experimental results
+• Conclusion
+16
+Examples of adversaarial images
+Beige box
+17
+dekramretaW
+dekramretawnU
+Examples of adversaarial images
+Black box
+18
+48
+208
+215
+102
+dekramretaW
+dekramretawnU
+Content
+• Introduction
+• Problem statement
+• Baseline
+• Proposed methods
+• Experimental results
+• Conclusion
+19
+Conclusion
+● More than 9 methods of attacks on StegaStamp, Tree-Ring and
+StableSignature protocols have been tested.
+● New methods of attacks are proposed
+● 2nd place in the demo
+● 4th place out of 32 in the Beige box
+● 5th place out of 29 in the Black box
+20

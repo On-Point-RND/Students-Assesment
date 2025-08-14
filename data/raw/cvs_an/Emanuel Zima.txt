@@ -1,0 +1,55 @@
+[name] [surname]
+* [location] # [email] I +2 *** *** ***
+GitHub:
+https://github.com/[name][surname]
+EDUCATION
+BachelorinComputerScience 2026
+[compaany],[location]
+✓ Major: Applied Math and Infoormatics, 3 course
+Exchangeterm 2025
+[compaany],[location]
+✓ SchooL: SchooL of Data Science
+Extratraining 2018-2022
+[compaany],[location]
+✓ Subject: Math
+✓ Graduated with honoRs
+EXPERIENCE
+Internship, [compaany] 2024
+Position: Backenddeveveloper
+✓ Finished with an assessment of the production practice of 10
+✓ The indexer data processing team for the [compaany] Market search
+SKILLS
+Languages
+✓ C++, Python, Pascal, SQL, Assembler, C, Kotlin, Java
+Computationalskills
+✓ Git, Linux, Vim
+✓ Machine Learning Algorithms (DL, NLP)
+✓ Replicated tables, data processing system based on MapReduce
+✓ Static and dynamic tables
+✓ Distributed systems
+✓ Graphs(and trees) algorithms
+✓ Optimization algorithms
+✓ Algorithms of liner and two-dimensional dynamics
+Courses
+✓ Optimizations
+✓ Advanced machine learning
+✓ Deep learning
+✓ NLP
+✓ Number theory
+✓ Computer Architecture course
+✓ C++ and Python programming languages
+✓ AdvancedC++course. Smartpointers(onimplementationhasbeenwritten),Tem-
+plates, Errors, Types, Memory, Move, Lambdas, Meta, Threads, Lock-free, Pat-
+terns, Condvars: there are implementaions of some tasks.
+Projects(Ongoing)
+✓ ML: AI generated code decoder
+✓ CV: Smart Cashier
+✓ NLP: Audio-in Audio-out complex instruction dialogue framework
+✓ DL: AI Model Robotic Action Frame Prediction
+Languages
+- Russian: Native
+- English: B2-C1
+- Chinese: A1-A2
+
+
+

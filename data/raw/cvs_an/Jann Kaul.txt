@@ -1,0 +1,75 @@
+[name]
+[surname]
+ML ENGINEER
+Brief overview
+VR+CV: Pose/Hand tracking, gesture recognition, voice/face/objects
+detection + GA/GP/world gens.
+GAN/LLM/Diffusions: text_to_img, text&img_to_3d, 3d_to_CAD,
+text&img_to_CAD, floorplan gen
+Implementations of 3d Gaussian Splatting
+Commercial experience
+CEO, Created R&D BIM-Engine ARCHI for architecture
+designers and engineers.
+ML/CV/ENGINEER
+Contact Info
+Worked with Seg/CNN/RNN/SDF/NERF/RBF/GAN to
+DEVELOPER
+create diff types of AI Tools: sketch to
+photorealistic render, image to 3d
+Location: [location], Innopolis
+Archi,
+(building/part), floor plan generator,
+Telegram: @[name][surname] TouchTopNotch, multimodal CAD copilot
+Email: [email] I manage a team of 4 people, and we already
+https://touchtopnotch.com have investors from [location] and [location].
+[email]
+Phone: +2 *** *** *** CEO, ML/CV I am the CEO of this company and managed DEV
+and 3D subdistricts (in total - 8 developers
+DEVELOPER,
+and 12 interns)
+Won a 1.000.000 ruble grant with this project
+Gesture,
+Created a powerful dynamic gesture detection
+TouchTopNotch,
+Usefull links system, which might record, save and
+2022-2024
+recogniise movement gestures for any type of
+https://www.youtube.com/wat hand
+Porftolio: ch?v=uDG3PtjwMag
+http://touchtopnotch.tilda.ws/portf
+CV/VR Restored the city of krakow from
+lio
+panoramic images of google maps and, using
+GetYourGuide,
+team of 3d designers, created 13th century
+This is my full portfolio with 2019-2020
+VR City Tour for OculusQuest2
+awards, projects and showreels. https://drive.google.com/file/d/1
+8iAcnSlvgX-
+MpGmyzMnVsOlYmdc0m3PU/view
+Research annotaions: CV/VR Worked with Pose Detection and legs-
+gesture recognition
+molecules generation: FootballBot, Realised SportTech application for [location]
+USA
+https://docs.google.com/document/d/1
+BostonEA, 2019, FootBall team on HoloLens-2
+QW4Sq1GmfwkoeHdjRb2hm1bmpEAMy2SSsTfu https://drive.google.com/file/d/1
+bN_EWFc7wvMRB59T3Y6C_DC35_nHnYI0/
+GAME DEV Before 2021 i had lots of experience in GameDev
+Consideration of the possibility of (Unity/UE/Blender/Illustrator). It gives me
+implementing a device that DAPPCRAFT, Zulio, etc understanding of design and creation of success-
+stimulates the sense of smell: tfolio interactive applications.
+http://touchtopnotch.tilda.ws/por
+https://drive.google.com/file/d/1cNy Education
+AU0gaUHwpIbgAOOO6bV2QE2xKWbmx/view
+Human creativity activation: INNOPOLIS AIRI SUMMER YANDEX+MIPT
+https://drive.google.com/file/d/1O3C UNIVERSITY SCHOOL STUDCAMP
+nFJvHOAjLTacSD4LTouRGs1tmqAbj/view
+Bachelor, Data NLP/RL/Research, NLP/RL/Research,
+Science and took 1st place of found a way to
+Analysis of stock market:
+Artificial research implement 3D
+Intelligence, competition, Gaussian Splatting
+https://drive.google.com/file/d/1lLW
+2022-2027 2024 to BIM-type
+models, 2025

@@ -1,0 +1,26 @@
+My name is [name]. I grauated with honoors from [location] [compaany], receiving both my Bachelor's and Master’s degrees in Applied Mathematics. I have a strong academic background in applied mathematics, machine learning, and data analysis, with a particular focus on medical applications, computer vision, and computational modeling.
+Since November 2024, I have been working as a Data Scientist at [compaany], which is currentlly my only place of employment. Our team tackles a variety of unconventional tasks—one of our current projects involves developing an action recognition model for industrial environments to monitor compliance with safety regulations on factory flooors. This task presents real-world complexity such as occlusions, low frame rates, and challenging lighting, making it a perfect playground for applying state-of-the-art deep learning techniques in practical settings.
+My passion for machine learning began during my undergraduaate studies at [location]. Through the universiity ML course, I gained foundational knowledge and worked on several projects that strengthened my understanding of algorithms and their practical applications. My first hands-on experience involved analyzing the influence of social factors and comorbidities on tuberculosis treatment outcomes, which gave me valuable exposure to real-world datasets and ML tools.
+I continue to deepen my skills by taking part in online courses and seminars. I was junior researcher at [location], working on real-world medical challenges such as segmentation of fat and calcium in cardiac imagery and predicting sex, age, BMI, and cardiovascular risk from fundus images. 
+In parallel, at the [compaany], I was focused on more technically demanding and creativity-driven problems - developing a physics-informeed neural network to accelerate the solution of cardiomechanical PDE models. 
+I was involved in academic research at [location] and [location], where I applied neural networks to segment medical images and solve inverse problems using neural surrogates for PDE-based models.
+I have also taught a practical ML course and mentored a student project at [location] on 3D CT image classification for pneumonia detection using self-supervised learning.
+Scientific Achievements and Participation:
+Finalist in the nationwide "I am a Professional" Olympiad (Programming, Software Engineering, Mathematical Modeling).  
+Participant in [compaany]’s SMILES 2024 summer schoo (2nd place in hackathon).
+Completed a Data Science internship at [compaany] and [location]’s year-long ML program.
+Holder of multiple specialized certificates in machine learning and programming. 
+
+Research Interests and Thesis Topics:
+Computer vision for medical imaging (segmentation, classification, generation)  
+Self-supervised and transfer learning in low-data regimes  
+Physics-informeed machine learning and neural PDE solvers  
+Interpretable and real-world applicable AI
+Thesis Topics:
+BSc ([location], 2022): Agent-based modeling of CОВID-19 in urban settinings
+Coursework: ML-based analysis of tuberculosis patient data
+MSc ([location], 2024): Hyper-reduction of operators in cardiomechanical PDE models with physics-informeed neural network 
+Medical image segmentation and classification
+
+
+

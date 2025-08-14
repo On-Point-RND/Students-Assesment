@@ -1,0 +1,34 @@
+[name] [surname]
++2 *** *** ***
+[email]
+I am a curious and open-minded person, always eager to gain
+new knowledge and experiences. I enjoy interacting with
+[location]
+different people and learning their stories. In my free time, I like
+reading, traveling, and exploring new technologies
+EDUCATION
+Universiity оf [location]
+Major in International Relations: Global Trends in Interaction
+Bachelor's Degree 2023-2027
+Relevant Courses: System Analysis, Basics of Programming,
+Digital International Relations, Matrices (Mathematics)
+EXPERIENCE
+Intern for Operations and Service Support, [compaany], [location],
+July 2024-December 2024
+Analyyzed large datasets to extract insights and support
+decision-making processes. Collaboraated with cross-functional
+teams to implement data-driven solutions. Participated in
+compaany conference
+SKILLS AND KNOWLEDGE
+1. proficiency in Python programming language; 2. Using
+Jupyter and Anaconda to develop projects in the field of data
+analysis and data processing; 3. Chinese and English
+languages; 4. Ability to work in an international environment
+and interact with people from different cultures.
+INTERESTS
+Studying advances in artificial intelligence and their application
+to real-world problems.Learning about new technologies such
+as natural language processing and computer vision.
+
+
+

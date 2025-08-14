@@ -1,0 +1,13 @@
+M L
+OTIVATION LETTER
+[email] # TG: @[name] * [location]
+April 19, 2025
+From: [name]
+To the SMILES 2025 Selection Committee,
+I approach career and education as a lifelong quest — a sequence of new missions, challenges and locations, which help to improve skills and discover myself. SMILES 2025 represents the next level of this quest, which combines several fields of my interest at once!
+The opportunity to engage deeply with machine learning, particularly LLM, is the cornerstone of my motivation to join the SMILES 2025. I completed several courses in NLP, ML, and DL during my bachelor's degree, and presented a conference paper on applying NLP to urban functional zoning, which was awarded with a certificate for best presentation. I remain deeply inspired by language models, closely follow the latest developments and research in this field, and am considering it as a potential focus area for my master’s degree. On a separate note, I would like to attend classes of [name] who was a guest lecturer at some courses at my university.
+I am also deeply drawn to the prospect to visit the campus in [location] and establish professional network there. In recent years, I have been fascinated by the culture and technologies of Asian countries and view this region as a hub for education and career advancement. As part of my bachelor’s thesis, I analyzed [location]'s role in the global metals market using vector autoregression models (VARs) and Diebold and Yilmaz (DY) index. I also study [language] and Asian culture as a hobby. Come to [location] and [location] is my dream!
+In addition, I would like to point out my strong ability to acquire new skills and advance my professional competencies. While pursuing my economics major, I simultaneously studied data science and ultimately earned a professional retraining diploma in this field and secured a position at [company], one of the [location] leading big tech companies. I also successfully passed a final test at the SMILES 2023 (online track) despite having to catch up on STEM subjects throughout the program. Thus, I believe that I can handle the study workload of the SMILES 2025.
+Ready to join the school.
+Kind regards,
+[name]

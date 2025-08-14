@@ -1,0 +1,43 @@
+Dear [name],
+I am interested in the opportunity to participate in the SMILES 2025 Summer School. In this letter, I would like to
+express my interest and explain why I am a qualified candidate for this school.
+After reviewing the program and goals of the school, I am convinced that this is the perfect place for me to expand
+my knowledge and skills in machine learning. I was attracted by the opportunity to participate in an intensive course
+that will bring together young professionals around the problems of artificial intelligence at the site of [location]. Large language models and multimodal systems have high potential for application beyond
+their original field of text and image processing. In particular, transformer-like architectures have already been
+repeatedly applied to modeling phenomena in the field of biomedical research. My unique experience at the edge of
+machine learning and biology will allows me to find further applications of such architectures to solving modern
+problems in this area.
+My path in machine learning began during my work on my master's thesis at [company], when I developed a method for
+computer image analysis to study the dynamics of epigenetic changes in living cells. One of the methods for studying
+intracellular processes is the use of genetically encoded fluorescent markers in cells with their subsequent
+microscopy, which in turn requires quantitative image analysis. My experience with fluorescence microscopy and
+image analysis became the starting point for understanding the importance of computer data analysis and its
+application in scientific research.
+To master modern methods of computer data analysis, I took a course in computer vision at [university],
+which gave me confidence in my abilities and made me even more interested in machine learning. I realized that
+computer science is not an inaccessible science for me, and was able to develop my programming skills, which
+became an important tool in my scientific work.
+In an effort to gain deeper and more structured knowledge in the field of machine learning and apply it in my
+research, I successfully completed the online training and final testing at the SMILES-2023 summer school. It was a
+wonderful experience that gave me the opportunity to get to know the cutting-edge approaches in the field better.
+Unfortunately, the online format did not allow me to fully participate in the school programs, since due to the disunity
+of the participants in the online program, it was not possible to carry out project activities. In-person participation
+in SMILES-2024 gave me an extremely productive experience of teamwork, fruitful and lively communication with
+colleagues, which led to new solutions and collaborations in my scientific work. This year, I would also like to take
+part in the in-person training format in order to actualize my understanding of modern topics at a new level and
+reinforce this in practice in a teamwork. I am especially attracted by the opportunity to practice my spoken English
+skills during teamwork on hackathons projects, as well as at lectures and seminars at the school.
+I am confident that participation in the SMILES 2025 Summer School will give me the opportunity to learn how to
+apply modern statistical machine learning methods to real-world problems at a new level, as well as meet talented
+participants and experts in the field.
+I want to use the knowledge and skills I have gained to improve my current work and expand the boundaries of my
+scientific research. The SMILES 2025 Summer School is an opportunity for me to expand my understanding of
+modern machine learning trends and their application to real-world problems. Thanks to my background in physics
+and engineering and experience working with data, I am confident that I will be able to contribute to the learning
+process and effectively acquire new knowledge.
+Thank you for considering my application. I am ready to put my best efforts into becoming an active participant in
+the SMILES Machine Learning Summer School and making my contribution to the academic and scientific fields. I am
+looking forward to immersing myself in the exciting world of machine learning and taking part in your program.
+Sincerely, [name]
+[surname] +2 *** *** ***

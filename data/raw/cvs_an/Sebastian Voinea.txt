@@ -1,0 +1,32 @@
+Soroko
+[name]
++2 *** *** ***
+[email]
+Education
+1) [compaany] , (2011-2018)
+2) [compaany] , (2018-2020)
+3) [compaany] , (2020-2021)
+4) [compaany] of [location] (2021-2023)
+5) [compaany], Applied mathematics and computer science, undergraduate 1 course (2023-2024)
+6) [compaany], Statistica, undergraduate 2 course (2024-2025)
+Work experience
+In July-August 2024, I completed an internship at [compaany], as an analyst. During my internship, I analyzed the market in the B2B and B2C segments, across all sales channels and product groups in order to determine a development strategy. She worked on the basis of software: Power BI, Excel, Python.
+Special skills
+Language: Native Russian. English - Intermediate. Chinese – HSK 2-3.
+Programming/coding: Python (advanced), C++ (advanced), Java (begiinner)
+Data science and analysis: MySQL, Redis, machine learning, Power BI
+Database management: MS Access, SQL
+MS Office: Word, Excel, Powerpoint
+Personal information
+I am currentlly developing the concept of a new student laboratory aimed at developing analytical skills. I am also doing research on machine learning in medical imaging research.
+Topics of interest:
+1) Bioinformatics and machine learning: An in-depth interest in the analysis of biological data and the development of algorithm for processing genomic information, the application of machine learning in various fields, including both supervised and unsupervised approaches.
+2) Programming: Gain experience in developing software solutions in various programming languages (Python, C++, Java), including creating effective scripts for automating data analysis.
+3) Data Analysis: Skills in conducting statistical analysis and data visualization using tools (e.g. Pandas, Matplotlib) to make informed decisions based on data.
+Soft skills and strong suit:
+Planning and organizing, strong team player, superb written and oral communication skills, willingneess to learn, conscienious, diligent, meticulous, open-minded, punctual.
+Research experience
+- Participated in the final of the [compaany] «The Big Challenge 2023».
+With research on "Development of a shock-absorbing coating for joints based on zirconiuum dioxide nanoparticles".
+- During the internship, I analyzed over 500,000 product items from various stores, categorizing them using multi-level formulas in Excel.
+- I'm currentlly conducting research on machine learning for medical imaging

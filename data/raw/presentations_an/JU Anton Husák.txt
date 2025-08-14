@@ -1,0 +1,106 @@
+Open-vocabulary
+recognition of materials
+[name]
+Computer vision researcher, [compaany]
+Introduction
+What is materials recognition?
+- Given an image and cooardinate of object in any form (box, mask, sketch, etc. – we consider mask) build
+an embedding for the given object, that will contain information about the material(s) of which the
+object is made .
+Why materials recognition?
+- It is very important in robotics (e.g. object manipulation): using the material, we can estimate weight,
+hardness, roughneess and so on;
+- There is lack of specific models or datasets that solve this task.
+Why open vocabulary?
+- It is simple to implement classification/captioning/etc based on a good embedding;
+- There is a few closed-vocabulary solutions based on a predefined number of classes, so we simply do
+not want to duplicate.
+2
+Existing datasets
+Dataset Year Source of images Description
+MINC – Materials in 2015 OpenSurfaces 23 categories of materials, ~7000
+context Houzz – houzz.com binary masks and ~300000 clicks for
+(real images) ~437000 images.
+DMS – Dense material 2022 Flickr (real images) 46 categories, ~44000 images with
+segmentation semantic masks.
+… and a huge amount of simulators
+Bell, [name], et al. "Material recognition in the wild with the materials in context database." Proceedinings of the IEEE conference on computer vision and pattern recognition. 2015
+Upchurch, [name], and Ransen Niu. "A dense material segmentation dataset for indoor and outdoor scene parsing." European conference on computer vision. Cham: Springer Nature Switzerland,
+2022
+3
+Existing methods
+Method Year Dataset Description
+Multimodal Material 2022 Authors, 4 modalities: DeepLab V3+, separated decoders for all
+Segmementation – link RGB, IR, polarization modalities (ResNet101). Special RFGS
+(angle + degree) (region-guided filter selection) layer which
+also utilizes object-level semantic mask
+from another DeepLab V3+.
+MATERobot: Material 2024 DMS Transformer encoder + multi-gated MoE.
+Recognition in Wearable The main focus is on edg
+devices deploymen.
+Visual Impairments
+Probing vision and 2024 Authors, 5 categories ConCLIP – CLIP with feature fusion
+language models for between text and image features.
+construction waste
+material recognition – link
+Liang, [name], et al. "Multimodal material segmentation." Proceedinings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022
+Zheng, [name], et al. "Materobot: Material recognition in wearable robotics for people with visual impairments." 2024 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2024
+Sun, Ying, Zhaolin Gu, and [name] Yang. "Probing vision and language models for construction waste material recognition." Automation in Construction 166 (2024): 105629
+4
+Our dataset (MVP version)
+This version of dataset is easy to collect in fully automated mode, but it is noisy and has only ~160 unique
+material categories. The number of objects in train is around 1M and around 50k in test.
+We use images and masks from LVIS and define material, sampling from two variants: Mask2Former (trained
+on DMS) prediction and frequency-based material associated with the masked object category.
+Gupta, [name], Piotr Dollar, and Ross Girshick. "Lvis: A dataset for large vocabulary instance segmentation." Proceedinings of the IEEE/CVF conference on computer vision and pattern recognition.
+2019
+Cheng, Bowen, et al. "Masked-attention mask transformer for universaal image segmentation." Proceedinings of the IEEE/CVF conference on computer vision and pattern recognition. 2022
+Hurst, Aaron, et al. "Gp t-4o system card." arXiv preprint arXiv:2410.21276 (2024) 5
+Our dataset (MVP version)
+6
+Our dataset (full version) – still in progress…
+We label this dataset using VLM + SoM (Set of Marks) approach. We validate captions using LLM.
+https://github.com/QwenLM/Qwen2.5-VL (paper is coming)
+Yang, Jianwei, et al. "Set-of-mark promptiing unleashes extraordinary visual grounding in gpt-4v." arXiv preprint arXiv:2310.11441 (2023)
+Guo, Daya, et al. "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning." arXiv preprint arXiv:2501.12948(2025)
+7
+Experiments
+In the basic case, we train vanilla CLIP[ViT-B/32] (as it is easy to train and fast) and tune some
+hyperparameters. We conducted over 20 experiments. Here are some key findiings:
+1. The best image preprocess is to crop the object, using padding to make each dimension at least 50px +
+blur the background;
+2. It is better to train onl only materials, because when we train the whole augmented captions model simply
+“ignores” the material;
+3. Higher batch size is worse due to the relatively low number of unique materials and their distribution;
+4. Recall/MRR and mean cosine similarity are a bit opposite metrics;
+5. Fine-tuning loss temperature leads to better recall/MRR, but lowers the MCS.
+6. SigLIP loss works worse (according to MCS) than CLIP loss.
+The following table contains metrics, calculated with batch size of 64.
+model MCS MRR Recal @1 Recal @5 Recal @10
+CLIP 0,382 0,430 0,256 0,641 0,830
+SigLIP 0,299 0,429 0,256 0,640 0,828
+[name], [name]. "Learning transferable visual models from natural language supervision." International conference on machine learning. PmLR, 2021 8
+[name], Xiaohua, et al. "Sigmoid loss for language image pre-training." Proceedinings of the IEEE/CVF international conference on computer vision. 2023
+Future plans and running experiments
+There are two main branches to explore:
+1. Add reconstruction loss component from MLP classification head during CLIP fietuning: this could
+solv issue #2 from the pr evious slide;
+2. Fuse some whole image features (for example, from RADIO) – additional context could improve quality:
+a. Late fusion: add MHA head over CLIP features as q and whole image features as k, v) – this is the
+latest running experiment;
+b. Early fusion: add image features somewhere in CLIP (depends on the encoder type).
+[name], Greg, et al. "RADIOv2. 5: Improved baseline for agglomerative vision founda tion models." Proc. CVPR. Vol. 2. No. 5. 2025 9
+Conclusion
+Here is the list of our achievements (in general):
+- We prepared a MVP dataset with rela ti vely good captions that include objects materials;
+- We fine-tuned CLIP on this dataset and found better hyperparameters;
+- We implemented CLIP with late fusion of global contexts features (but we have to find good training
+recipit).
+We have to solve the following issues:
+- Full version of dataset is still processing;
+- Training CLIP on full captions while preserving material info in the embedding is still a problem.
+10
+Thanks for your attention!
+Contacts:
+[name] kichik.mg@[compaany], @m_kichik (tg)
+SMILES’2025 goes after my gra dua tion, so I’m planning to present a complete version of this work…

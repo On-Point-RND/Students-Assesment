@@ -1,0 +1,34 @@
+PANOVA [name] [surname] I am applying for enrolling in SMILES summer school being a dedicated and analytical undergraduate student in the sphere of Applied Mathematics and Computer Science and Economy in [location] [University]. I have relevant experience working already for 1 year and 10 months as a laboratory researcher in [company]. I am confidently using Python and its extensions and libraries. My relative experience includes working out innovative solutions for complex problems in spheres of datasets analysis and machine learning. It also includes developing my own [location] tool for generating testbenches for Verilog 8 (916) 328 49 18 descriptions equivalence checking and application of static analysis tools for functional mittemim (Sophia) verification of RTL models.
+EDUCATION
+Bachelor’s degree in the fields of Economics, Applied Mathematics and Computer Science (Expected graduation: 2026). [University], [location]
+Relevant Coursework
+Discrete Mathematics, Algorithms and Data Structures, Linear Algebra, Mathematical Analysis, Mathematical Logic, Theory of Algorithms, Fundamentals of Big Data, Big Data Analysis and Data Warehousing, Simulation Modeling, Analytical Data Visualization, Optimization Techniques, Software System Design, Databases
+Additional Training
+Yandex Trainings on Algorithms (6.0 and 7.0)
+SCIENTIFIC WORK AND ACHIEVEMENTS
+Laboratory Researcher, [company] (Current position)
+• Performed data analysis and visualization of the results of patent research and the precollected data about scientific papers, applying Python for processing complex datasets
+• Developed an automated tool for generating graphs and diagrams in compliance with GOST standards, enhancing efficiency in reporting
+• Designed a custom tool for generating testbenches for Verilog descriptions, enabling equivalence checking [mvg / PyLEC · GitLab]
+• Tested various static analysis tools for functional verification of RTL models and fixed mistakes in open-source benchmarks
+• Contributed to various projects involving data analysis, processing, and the application of machine learning techniques
+Published articles
+• “Application of SVAN Static Analysis Tool for Functional Verification of Open RTL Models” (to be presented on May 29–31, 2025), SYRCOSE Conference, [location], 2025 (to be published in conference proceedings)
+• “The “Ideal” Borrower and Reducing the Risk of Default” International Scientific and Practical Conference “International Plekhanov Readings”, [location], 2025 (to be published in conference proceedings)
+Scientific Events
+• Selected to present research findings at the SYRCOSE Conference, May 29–30, 2025
+• Selected to participate in the International Plekhanov Readings Conference, contributing to discussions on implementing machine learning models into financial sphere and banking
+• Presented research at the Interuniversity Practical Conference “Economics and Innovations”, highlighting insights into application of information technologies, economic and mathematical methods in innovation (a certificate can be provided)
+TEACHING ACTIVITIES
+During educational course Software System Design led a team project to develop a Sudoku game, guiding team members in software design, version control (Git), and apps development [mittemim/Sudoku]. I have good skills of explaining material and am always glad and ready to share my knowledge.
+TECHNICAL SKILLS
+• Programming Languages: Python (Intermediate), SQL (basic), C++ (basic)
+• ML/DL Frameworks and tools: Pandas, Matplotlib, Scikit-learn, Seaborn
+• Data Visualization: MS Power BI, Python tools
+• Version Control: Git (GitHub and GitLab, intermediate)
+• Platforms and Tools: Google Colab, PyCharm, Visual Studio, Visual Studio Code, Jupyter Notebook, GitHub, GitLab
+TOPICS OF INTEREST
+• Multi-Agent Systems: to find out the specific of multiple intelligent agents’ interaction and decision-making, its application to solve real-word problems and challenges
+• Large Language Models: training and fine-tuning such models seems extremely interesting for me as they are now the most wide-implemented technology among both common users and organizations
+• Self-Supervised Learning: focusing on working with unlabeled data and building powerful models is a cutting-edge technology in the modern world, so further research on the topic and implementation of the knowledge in this sphere are immensely important
+• Safe AI: ensuring that artificial intelligence is both developed and applied meeting human values, as AI is becoming more and more integrating in our everyday living will help to contribute to its development with all the respect to society and moral values of it

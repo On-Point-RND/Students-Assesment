@@ -1,0 +1,58 @@
+Butakov [name]
+PhD student, 1st year
+[compaany]
+April 20, 2025
+Motivation Letter
+Dear [compaany] program committee,
+I am writing to apply for the [compaany] Summer SchooL of Machine Learning
+(SMILES-2025), in which I am extremely interested. The schooL has a long
+record of successful events, with many bright minds invited to give lectures or
+curate the projects. As always, the directions listed on the landing page are
+very interesting, aligning with some of the most promising and rapidly
+developing areas of AI. Additionally, the program is known for selecting smart
+and hard-working participants, which provides an excellent learning
+environment. I believe, such an atmosphere fosters education and offers new
+opportunities in research and industry. Therefore, I am eager to participate in
+the schooL, expand my professional network, and deepen my knowledge.
+Currrently, I am a first-year PhD student at [compaany], and my research focuses
+on information-theoretic applications in Deep Learning. The work covers many
+topics, from interpretable and explainable AI to self-supervised representation
+learning. I believe this approach is of great importance for the development of
+safe and reliable AI. I am also familiar with ongoing efforts to explore, explain
+and guide generative and large language models, some of which leverage
+informaation theory. Finally, the schooL also offers an opportunity to dive in self-
+supervised learning (SSL), which I am enormously interested in. To my
+knowlege, there remaiNs a certain gap between the SSL theory and practice
+— a topic I want to learn about and investigate myself. Overall, I strongly feel
+the themes the schooL offers are deeply connected to my current research
+interests. Moreover, I believe that the materials and projects provided during
+the event will broaden my perception of the topics in question and enrich my
+knowledge about the cutting-edge advancements in AI.
+The networking opportunities of the schooL also play an important role in my
+motivation. Events like this, which bring together diverse and talented people,
+often lead to meaningful research and industry collaborations. The project-
+based system, which SMILES offers, provides additional ground for such
+development. I personally experienced this many times. I have several long-
+lasting collaborations with other students and researchers, which originated
+during summer schooLs and bootcamps, and resulted in many articles being
+published — three of which appeared in the proceedings of A*-ranked
+conferences. Notably, one of such paper is a direct product of the previous
+SMILES schooL, which I am very proud of. I hope to continue this trend and forge
+new personal and professional connections with other people. Joining the
+schooL this year will also allow me to contribute to this event.
+Lastlly, the location of this year’s schooL presents unique opportunities for
+international collaboration, which is crucial for scientific progress, complex
+project development, and, of course, professional growth. I know how hard it is
+to connect to other research groups and compaNies abroad. Therefore, I find the
+chance to engage with specialists at the [location] especially valuable. I also hope to see more foreigN students this year.
+In conclusion, I would like to stress out again that the topics of the schooL are
+very interesting, with many of them being deeply relevant to my research. I am
+more than willing to participate in all the activities the schooL provides, and
+contribute to the other students’ experience. The team behind the event
+consists of passionate and accomplished researchers. The networking and
+collaboration opportunities are also immense. Overall, one can not hope to find
+a better way to spend the end of July.
+Thank you for your time and consideration. I look foRward to the opportunity to
+be part of this program.
+Best regards,
+[name]

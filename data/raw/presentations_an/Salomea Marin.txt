@@ -1,0 +1,150 @@
+Slide 1
+----------------------------------------
+[name]
+Student, [compaany]
+Multimodal approaches: 
+Articles Overview
+
+Slide 2
+----------------------------------------
+VATT: Transformeers for Multimodal Self-Supervised Learning from Raw Video, Audio and Text
+[surname], [surname], [surname], [surname], [surname], [surname], [surname]
+
+Slide 3
+----------------------------------------
+Introduction
+
+Convolution‑free Transformeer that ingests raw video frames, waveform audio and text simultaneously for contrastive pre‑training
+Unifies three modalities in one architecture and trains end‑to‑end from scratch, avoiiding ImageNet or wav2vec pre‑training
+Show that a shared or per‑modality ViT‑like backbone plus contrastive losses can be comparable to best models for vision, audio and cross‑modal retrieval tasks
+
+Slide 4
+----------------------------------------
+Problem statement
+
+Learn versatile embeddings that transfer to video action recognition, audio tagging, image classification and text‑to‑video retrieval
+Huge raw signals (153k audio samples, 32 frames per clip), training stability without convolutions, balancing modalities
+2.34 M pre‑training clips (YT8M‑like); evaluaated on Kinetics‑400/600/700, Moments‑in‑Time, ImageNet, AudioSet, MSR‑VTT, YouCook2
+
+Slide 5
+----------------------------------------
+Methods
+
+Approach: 	Video‑Audio‑Text Transformeer (VATT) – modality‑specific tokenisers (tubelet, 1‑D audio patches, BPE text) fed into ViT‑style encoder; contrastive heads for every pair; also experiments with Modality‑Agnostic single backbone.Why these methods? 
+Self‑attention can model long audio or video context without inductive bias; sharing weights saves parameters.
+Uniform transformer + contrastive = learn “language of time” shared across signaals
+Data & preprocessing: Raw 6.4 s audio @ 24 kHz; 32 × 224² video frames; text scraped from ASR; random cropping, time‑jitter, mixup for audio; AdamW, 2 × A100 for ~3 weeks.
+
+Slide 6
+----------------------------------------
+Metods
+
+Slide 7
+----------------------------------------
+Results
+
+Comparable to CNN‑based MMV
+39.4 mAP on AudioSet, a new record for waveform‑based models
+Same video pre‑train backbone reaches 78.7 % (vs 64.7 % if trained from scratch)
+Metrics used: Top‑1 accuracy, MAP, Recall@K 
+
+Slide 8
+----------------------------------------
+Research gap
+
+Limitations: Less linearly separable features when backbone frozen; compute‑heavy; no localization tasks
+Unresolved challenges: How to scale to > 3 modalities, efficiency of pure‑self‑attention at 30 fps long clips
+Lighter multimodal transformers would democratise domain‑agnostic pre‑training.
+
+Slide 9
+----------------------------------------
+Multimodal Clustering Networks for Self-supervised Learning from Unlabeled Videos
+
+[name], [surname], [surname], [surname]
+
+Slide 10
+----------------------------------------
+Introduction
+
+MCN tackles self‑supervised video‑audio‑text representation learning that can work without human labels and still enable cross‑modal retrieval and action localization
+Prior contrastive approaches align clips only at the instance level, ignoring the fact that semantically similar clips occurring at different times should also be close
+Propose and test a framework that adds clustering on top of contrastive loss to inject semantic structure
+
+Slide 11
+----------------------------------------
+Problem statement
+
+Learn a joint embedding where any video, audio or narration snippet about the same concept lands near each other, enabling zero‑shot retrieval and temporal action localization
+Hetereogeneous features across modalities, weak, noisy temporal alignment, and contrastive losses that treat every different timestamp as a negative
+Three input modalities (RGB, raw waveform, ASR text) trained on HowTo100M; evaluaated on YouCook2, MSR‑VTT, CrossTask and MiningYouTube
+
+Slide 12
+----------------------------------------
+Methods
+
+Approach: 	Contrastive + Cluster learning. Instance‑level InfoNCE pulls simultaneous triplets together; a novel multimodal clustering loss then pulls semantically similar clips (identified by k‑means on the mixed‑modal features) together
+Contrastive learning gives alignment, clustering injects higher‑level ssemantics, together they avoid false negatives and yield sharper retrieval
+‘Close in time’ ⇒ contrastive; looks/sounds the same anywhere ⇒ clustering. Both losses share projection heads so gradients reinforce
+Fixed ImageNet ResNet‑152+ VGGish audio + BERT text embeddings; 30‑sec clips; standard norm; 90% train / 10% val split; features frozen during MCN training, then train projection heads; 2×Titan RTX for 4 days
+
+Slide 13
+----------------------------------------
+Methods
+
+Slide 14
+----------------------------------------
+Results
+
+MCN beats the strongest prior self‑supervised baseline (MIL‑NCE) by +3 – 5 R@10 on YouCook2/MSR‑VTT retrieval and by +1.4 – 5.8 IoU on CrossTask and MiningYouTube localisation – all zero‑shot
+
+Slide 15
+----------------------------------------
+Results
+
+Slide 16
+----------------------------------------
+Research gap
+
+Limitations – Reliees on frozen backbones; cluster quality degrades when videos are off‑domain, no end‑to‑end fine‑tuning
+Unresolved challenges: Dynamic scenes with overlapping actions; scaling to more modalities (e.g. sensor data)
+Why it matters? Better clustering or end‑to‑end training could further improve zero‑shot action understanding for robotics or video search
+Future opportunities: Learn clusters online, jointly update backbones, and explore temporal transformers to capture long‑range ssemantics
+
+Slide 17
+----------------------------------------
+Multimodal Visual-Tactile Representation Learning through Self-Supervised Contrastive Pre-Training
+
+[name], [surname], [surname]
+
+Slide 18
+----------------------------------------
+Introduction
+
+Self‑supervised fusion of vision and touch for robots manipulatin materials and objects
+Visual sensors fail once occlusion happens, tactile alone lacks global context, combiining both without labels accelerates data collection
+Prior work (TAG, SSSVTP) uses contrastive multiview coding but treats onlly cross‑modal loss or uses small encoders
+Pull two augmentaions of the same sense together; also pull the vision of an object to its tactile reading.
+
+Slide 19
+----------------------------------------
+Results
+
+Self‑supervised MViTac reaches is better than TAG and closing on the supervised baseline 
+Metrics used: Top‑1 accuracy for multi‑class and binary tasks
+
+Slide 20
+----------------------------------------
+Research gap
+
+Limitations: Tested on offlinne datasets only; small data hurts contrastive methods; ResNet‑18 capacity
+Unresolved challenges: Real‑time deployment, domain‑shift to unseen materials, use of force/torque or proprioception
+Better visuo‑tactile SSL could unlock self‑calibrating grippers and reduce failures in warehouse robots
+Future opportunities: Larger curated visuo‑tactile corpora, transformer backbones, policy‑learning integration
+
+Slide 21
+----------------------------------------
+Chen, Brian, et al. "Multimodal clustering networks for self-supervised learning from unlabeled videos." Proceedinings of the IEEE/CVF international conference on computer vision. 2021
+Dave, Vedant, Fotios Lygerakis, and Elmar Rueckert. "Multimodal visual-tactile representation learning through self-supervised contrastive pre-training." 2024 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2024.
+Akbari, Hassan, et al. "VaTT: Transformeers for multimodal self-supervised learning from raw video, audio and text." Advances in neural information processing systems 34 (2021): 24206-24221.
+
+Bibliography

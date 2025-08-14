@@ -1,0 +1,154 @@
+Modeling of turbulent transport of impurities
+in atmospheric boundary layer using large
+eddy simulation and machine learning method
+performed by: [name]
+Scientific supervisor: [name]
+Scientific advisor: [name]
+Relevance
+1. The need for accurate spatial assessment of turbulent transport of impurities for
+environmental monitoring and climate prediction
+2. Traditional atmospheric boundary layer modeling methods have limitations in accuracy
+or computational efficiency
+3. Machine learning methods can optimize existing methods for estimating turbulent
+transport
+2
+Purpose:
+Development of a methodology for approximating the first moments of the
+spatial distribution of impurity components in turbulent PPP using machine learning (ML)
+techniques
+Tasks:
+1. TheoreticaI analysis
+2. Numerical modeling by the method of large eddies
+3. Processing of the obtained data for the application of machine learning
+4. Application of ML for approximation of moments of spatial distribution of impurity
+components
+5. Optimization of architecture and hyperparameters of machine learning model
+6. Analyzing the results obtained
+3
+Research scheme
+initial
+Initial parameters The average field
+parameters computation
+of the field and LES model impurity
+impurity sources concentrations
+featured
+processing
+description
+target variables The central moments
+of the normal
+distribution
+approximation
+4
+TheoreticaI background
+The average spatial The spread of impurity
+distribution of the impurity (vertical coordinate averaging)
+5
+Physical model
+Schematic of the experiment with set Comparison of the resolved area
+and calculated parameters and MIPT campus
+6
+Physical description of the features
+Sample size = 2.5 millions
+1. U = 0.5 - 15 [м/с] (Geostrophic wind speed along the x-axis)
+2. P = 0.8 - 1.7 (Impurity spreading power)
+3. z = 100 - 700 [м] (Coordinate of the impurity source along the z-
+axis)
+4. y = 500 - 1500 [м] (Coordinate of the impurity source along the y-
+axis)
+5. z = 0.001 - 1 [m] (Roughness)
+6. T = 230 - 300 [K] (Surface temperature)
+7. S = -0.5 - -0.1 [K × м/с] (Heat flux from the surface)
+8. grad T = 0.001 - 0.1 [K/м] (Temperature gradient over the
+z
+boundary layer)
+9. distances = 7 - 1492[м] (Distance from the source of the impurity)
+7
+Target transform
+Δ Δ Δ Δ
+z y z y
+σ σ σ σ
+z y z y
+8
+Results. Model comparison
+Δ Δ σ σ
+z y z y
+Briggs
+empirical model
+Linear
+335.7 722.9 32.7 31.4
+model
+Random
+σ
+y
+Forest 36.1 38.2 17.0 20.7
+Model
+Model
+34.5 36.8 14.5 30.2
+Catboost
+ANN 30.1 37.6 13.4 16.27
+Comparison of approximation results. Results for the best model
+Metric: RMSE (ANN)
+9
+m
+,detciderP
+m
+,detciderP
+m
+,detciderP
+m
+,detciderP
+True, m True, m
+True, m True, m
+Results. Model comparison
+σ
+σy
+y
+Results for the best model
+(ANN)
+10
+m
+,detciderP
+m
+,detciderP
+m
+,detciderP
+m
+,detciderP
+True, m True, m
+True, m True, m
+Results. Significance of features
+11
+sertaeF
+sertaeF
+Significance Significance
+Results. Significance of features
+12
+sertaeF
+sertaeF
+Significance Significance
+Results. Significance of features
+13
+sertaeF
+sertaeF
+Significance Significance
+Conclusions
+1. Approximations of the central moments of impurity propagation are obtained.
+The best model: ANN
+• Approximation of Δ shows no dependence, which confirms the hypothesis that the
+y
+target variable corresponds on average to the source position, and in our case also
+depends on the turbulent structures.
+• Approximation of Δ shows a slight improvement over the empirical Briggs model,
+z
+which shows a tendency to capture universal dependencies f = f(z/h)
+• Approximations of σ , σ gives a significant improvement over the empirical Briggs
+y z
+model.
+2. The ML models give better results compared to the empirical Briggs model, showing
+the effectiveness of the models in solving this problem
+3. The results of significance of model features allow us to evaluate the importance of
+taking into account physical parameters in further development of physical problem
+statements and numerical modeling
+14
+Thanks for your attention!
+15

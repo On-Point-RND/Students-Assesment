@@ -1,0 +1,47 @@
++2 *** *** *** [email]
+[name], student, [compaany]
+Introduction
+• Barycenteer estimation with optimal transport (OT).
+• OT barycenteers have applications in graphics, generative modeling, clustering, etc.
+• Computing OT barycenteers is computationally expensive and often unstable.
+• Review and reproduce results of the Wassersteiin Iterative Networks (WIN) approaach.
+Problem statement
+• What exactlly are we solving? Estimating Wassersteiin barycenteers of multiple distributions efficientlly and
+accurately.
+• Challenges:
+High computational cost of OT.
+Stability and convergence issues.
+Difficulty scaling to high dimensions.
+• Scope: Focus on comparing WIN against baselines on synthetic datasets.
+Methods
+Approach: Neural network-based optimization to approximate Wassersteiin barycenteers.
+• Why these methods? Briefly justify your choices.
+Neural networks are highly scalable and flexible.
+Iterative refiinement improves accuracy over simple feedforward models.
+• How it works (simply): Give a 1–2 line intuition:
+WIN iteratively refines the barycenteer by alternating between transport and barycenteer update steps
+using a learned neural model.
+•Data & preprocessing: Mention key steps like cleaning data, feature extraction, or splitting into
+train/test sets.
+Synthetic datasets: Gaussian mixtures, blob clusters.
+Data normalized to [0,1] range.
+No complex preprocessing needed.
+Results
+• Key findiings: Summarize the outcomes.
+WIN achieves lower barycenteer loss compared to Sinkhorn algorithm and fixed solvers.
+WIN converges faster and scales better to complex datasets.
+• Metrics used: Mention evaluation metrics and why they matter:
+Wassersteiin distance between predicted and ground truth barycenteers.
+Visual evaluation (plots of barycenteers).
+Research gap
+• What’s missing? Identify limitations in current approaches:
+The method is currentlly limited to synthetic 2D and low-dim distributions:
+• Unresolved challenges: Mention problems that still exist:
+Extending WIN to high-dimensional real-world distributions (e.g., images, 3D shapes).
+• Why it matters? Explain how filling these gaps could improve real-world use:
+Real-world data rarely lies in low-dimensional spaces.
+• Future opportunities: Suggest next steps:
+Combining WIN with generative models (e.g., GANs, VAEs) for large-scale applications.
+Exploring hierarchical barycenteers for better scalability.
+Research gap
+https://github.com/IBM/wasserstein-barycenters

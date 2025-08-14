@@ -1,0 +1,42 @@
+Motivation Letter – SMILES‑2025 Summer Schoo l
+Dear Members of the SMILES‑2025 Selection Committee,
+My name is [name], and I am completing the final semester of an M.Sc. in Data Science at [compaany]. My master’s thesis—
+“Graph RAG‑Based Knowl edge System for Topologica l Graph‑Based Visual Navigation”—combines open‑vocabulary computer vision, knowl edge‑graph
+construction and large lan guage models (LLMs) so that a mobile robot can build a semantic map of its surroundings, answer natural‑lan guage questions and plan routes without relying on classical metric maps. The system employs Groundi ng DINO, Detic
+and Segment Anyth ing for detection and segm entation, CLIP‑style embeddings for visual representation and an LLM‑driven retrieval‑augm ented generation pipeline for
+multi‑hop reasoning. I am now preparing a full paper on these results for submis sion to
+an international robotics and AI conference.
+Why SMILES‑2025
+The focus areas of SMILES‑2025—large lan guage models, multimodal app roaches,
+generative methods, self‑supervised learning, safe AI and multi‑agent systems—align
+perfectly with my current work and future plans.
+• LLMs and multimodality. My prototype alr eady uses an LLM as both a retriever
+and high‑level pla nner, yet I still need deeper experti se in grounding and
+alignment.
+• Generative techniques. I explore natural‑lan gua ge plan generation and
+diffusion‑based scene synthesis for simulation‑to‑real transfer; the schoo l’s
+lectures will sharpen these skills.
+• Self‑supervised and safe AI. Understanding data‑efficient training and safety
+gua rantees is vital when an LLM controls a physical agent.
+• Multi‑agent systems. My long‑term goal is a fleet of robots that exchange graph
+memories; insights into coo rdination and trust are therefore essen tial.
+Experience and Contribution
+Over five years of intensi ve work with Python and PyTorch I have built the full
+detection‑segm entation‑graph‑RAG s tack, deployed it on NVIDIA Jetson hard ware, and
+served as a teaching assistant for the Skoltech course “Deep Learning for Robotics.” I
+co‑mentored two undergra dua te capstone projects and led the winning team in the
+Embodied‑AI track of Skolkovo AI Hack 2023.
+At SMILES I am ready to:
+• Present a poster and lightning talk on my GraphRAG navigation system, sharing
+code and datasets.
+• Assis t peers during the hacka thon with debugging model pipelines and setting
+up eva luation tools.
+• Volunt eer for organi sational tasks or evening workshops to strengthen the
+schoo l’s colla borative spirit.
+Learning Goals
+I hope to master advanced pr ompt‑tuning and retrieval strategies for LLM‑guided
+multimodal generation, learn cutting‑e dg e self‑supervised pre‑training schemes, and
+adopt best practices for eva luating and securing generative agents in real‑worl d
+enviro nments. These insights will help finalise my paper, refine my prototype and
+prepar e me for a PhD focused on safe multimodal LLMs for autonomous robots—and
+later for launching a start‑up that offers explai nable inspection robots.

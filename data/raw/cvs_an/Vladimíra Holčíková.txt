@@ -1,0 +1,35 @@
+I would like to highlight the two-year language training at [company], since the summer school takes place there. And this experience is extremely relevant.
+I am a developer specializing in Large Language Models (LLM) and multimodal models, with experience in machine learning, natural language processing (NLP) and computer vision. My goal is to participate in cutting-edge AI research and development by creating innovative solutions that combine text, images, and other modalities.
+Education
+[location] Research Technological University "MISiS"
+Bachelor's degree higher education in computer science and engineering
+in the field of "Intelligent data analysis systems"
+2020-2025
+Technical skills
+Programming languages: Python, C#, Kotlin, JavaScript, C++.
+Frameworks for LLM: Hugging Face Transformers, Openal API, Lama Index.
+Multimodal models: CLIP, BLIP, Flamingo, DALLE, Stable Diffusion.
+NLP: BERT, GPT, T5, RoBERTa, fine tuning, industrial engineering.
+Computer vision: OpenCV, YOLO, ResNet, object detection, image segmentation.
+Tools: Git, Docker, Jupyter Notebooks.
+Data preprocessing, model optimization, deployment (Flask, FastAPI).
+Work experience
+Junior Software Developer
+[name]
+May 2023 – Present
+I was running and configured large language models (GPT, BERT)
+and created multimodal models combining text and images.
+Optimized model performance through hyperparameter tuning and distributed learning.
+Fine-tuning GPT with RAAG for B2B support service.
+I uploaded the models to the company's servers.
+Amateur projects
+1. Multimodal chatbot with image understanding
+I was running a chatbot capable of processing text and graphical input data using
+CLIP and GPT.
+Technologies: Hugging Face, Pytorch, Flask.
+2. Highly loaded client-server video stream processing application on an android smartphone
+I was running an application on Kotlin that transmits a video stream to a server,
+where the video stream is processed and returns a segmented video stream.
+Technologies: Pytorch, Hugging Face, OpenCV, Kotlin, Apache Kafka, Django.
+3. Forecasting the parameters of a chemical element using chemical Bert
+I have further trained and configured the chemical Bert for the task.

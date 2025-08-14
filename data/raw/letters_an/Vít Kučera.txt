@@ -1,0 +1,10 @@
+Dear [name] Committee,
+I am writing to express my strong interest in attending the SMILES-2025 Summer School on Machine Learning in [location]. As a third-year undergraduate student at the [name] of Economics, specializing in Information Systems and Technologies, I have recently developed a strong motivation to dive deeper into machine learning and artificial intelligence.
+Although my academic background is rooted in information systems, I have taken the initiative to independently explore core topics in ML/DL. Over the past year, I completed online courses in machine learning and deep learning, and applied my knowledge through small projects involving image classification using neural networks. These projects were done using Python, Colab, and PyTorch, and they introduced me to the power and beauty of modern ML techniques.
+As part of my application, I prepared a short presentation where I review three important papers about large language models: LLaMA ([company]), Chinchilla ([company]), and PaLM ([company]). These models show different ideas about how to train big AI systems more efficiently and make them better at understanding and generating language. Working on this presentation helped me learn a lot about the current research in this area and made me even more interested in studying generative models and artificial intelligence in the future.
+My goal is to continue studying AI in depth, contribute to research and open-source initiatives, and become a part of the global AI community. Being selected for SMILES-2025 would be an incredible opportunity to grow, learn, and connect with like-minded peers and mentors.
+Thank you very much for considering my application.
+Sincerely,
+[name] [surname]
++2 *** *** ***
+[email]

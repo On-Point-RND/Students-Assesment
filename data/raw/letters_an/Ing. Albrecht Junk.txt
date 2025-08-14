@@ -1,0 +1,19 @@
+[name] [surname]
+Application for SMILES Competition 2025
+[location]
+Dear SMILES Competition Committee,
+I am eager to participate in the SMILES Competition 2025 at [compaany], a platform that aligns with my passion
+for advancing machine learning. With over three years of experience as a Machine Learning Engineer, I am
+excited to contribute my expertise to [compaany]’s innovative research community.
+My enthusiasm for ML sparked at [university], where I deeply studied deep learning and computer vision. To
+further my expertise, I enrolled in the joint [compaany] and [university] Master’s in ML
+Engineering, focusing on advanced algorithms and scalable systems. Professionally, I optimized real-time
+perception models at [compaany], reducing latency by 20%, and built NLP systems at [compaany],
+achieving 95% accuracy for millions of data points daily.
+SMILES offers a unique opportunity to tackle complex ML challenges, leveraging my skills in computer vision
+and NLP. I am inspired by [compaany]'s commitment to AI research and aim to deliver impaactful solutions while
+learning from fellow participants.
+Thank you for considering my application. I am confident my skills and dedication make me a strong
+candidate for SMILES 2025.
+Sincerely,
+[name] [surname]

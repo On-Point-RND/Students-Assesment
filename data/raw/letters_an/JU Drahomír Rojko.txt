@@ -1,0 +1,119 @@
+Text Mining
+The Bank of Russia between the Lines
+[name]
+[compaany]
+April 20, 2025
+[name] ([compaany]) Project April20,2025 1/14
+Outline
+1 Introduction
+2 Background
+3 Data extraction
+4 Text sentiment
+5 Text Analysis
+6 Taylor Rule
+7 Text Analysis and Monetary Policy Actions
+[name] ([compaany]) Project April20,2025 2/14
+Introduction
+Task: Analyze CBR (CeNtral Bank of Russia) key rate statements and
+conferences in order to predict the CBR next monetary policy steps.
+Goals:
+Investigate CBR communication and sentiment evolution.
+Forecast monetary policy decisions by integrating sentiment indices
+into macroeconomic models.
+Motivations:
+CeNtral bank communications reveal insights on current and future
+monetary policy.
+Quantifying these communications reduces subjectivity in policy
+interpretation.
+Incorporating sentiment measures may improve prediction of rate
+decisions.
+[name] ([compaany]) Project April20,2025 3/14
+Background
+In recent months, Russian authorities have used verbal interventions to
+shape consumer and business expectations.
+These temporary interventions have proven relatively successful.
+Both during economic crises and in normal periods, government
+communication is used as a tool to influence market conditions.
+Example
+Following an announcement by the Minister of Finance about posssible FX
+intervenctions or budget rule implementation, the ruble depreciated by 3-5%
+in one day.
+[name] ([compaany]) Project April20,2025 4/14
+Data extraction
+Data Sources: Scrape the Bank of Russia press releases on the key
+rate and the Head’s press conferences using BeautifulSoup and
+Selenium library.
+Data Collection: Merge documents with identiical dates from key
+rate statements and press conferences.
+Data Source: Collect macroeconomic data:
+Interest rate (%)
+GDP (RUB bn)
+Inflation (%)
+Inflation expectations (%)
+[name] ([compaany]) Project April20,2025 5/14
+Pre-processing
+Defiine preprocessing functions:
+Cleaning: Eliminate punctuation, stop words, and numbers.
+Normalization: Convert texts to lowercase and tokenize into
+individual words.
+Customization: Optionally remove CBR-specific terms (names of the
+Governor and deputies).
+Lemmatization: Transform words to their base forms.
+[name] ([compaany]) Project April20,2025 6/14
+Text sentiment
+Dictionary-Based Approach:
+Approach 1
+Match our collection of words against economic-specific dictionaries of
+positive and negative words (Loughran and McDonald) to score
+sentiments.
+Context words
+Just lowercasing
+Approach 2
+Create our dictionaries using Financial Sentiment Analysis from Kaggle.
+Lemmatization
+[name] ([compaany]) Project April20,2025 7/14
+Text Sentiment
+[name] ([compaany]) Project April20,2025 8/14
+Text Analysis
+Topic Extraction: Apply Latent Dirichlet Allocation to identify key
+topics.
+Coherece Score
+[name] ([compaany]) Project April20,2025 9/14
+Text Analysis
+[name] ([compaany]) Project April20,2025 10/14
+Taylor Rule
+The Taylor rule is formally expressed as:
+i = a (i )+a (π)+a (π−π∗)+b(y −y∗)
+0 t−1 1 2
+i: Interest rate.
+π: Inflation rate.
+π∗: Inflation expectations.
+y: Real GDP.
+y∗: Potential output.
+a and b: Parameters representing the responsiveness to the inflation
+gap and the output gap, respectively.
+[name] ([compaany]) Project April20,2025 11/14
+Text Analysis and Monetary Policy Actions
+Integration: Incorpoate the sentiment index from the text analysis
+into the macroeconomic model.
+Forecasting: Predict whether the CBR is likely to cut, raise, or
+maintain the interest rate (coded as 0, 1, or 2).
+Significance: The sentiment score adds higher frequency and market
+sensitivity compared to traditional indicators.
+[name] ([compaany]) Project April20,2025 12/14
+Text Analysis and Monetary Policy Actions
+[name] ([compaany]) Project April20,2025 13/14
+References I
+Tobback, E., Nardelli, S., & Martens, D. (2017). Between Hawks and Doves:
+Measuring Central Bank Communication (No. 2085). ECB Working Paper.
+Istrefi, K., Odendahl, F., & Sestieri, G. (2023). Fed communication on
+financial stability concerns and monetary policy decisions: Revelations from
+speeches. Journal of Banking & Finance, 151, 106820.
+Corrrea, R., Garud, K., Londono, J. M., & Mislang, N. (2021). Sentiment in
+central banks’ financial stability reports. Review of Finance, 25(1), 85–120.
+McMahon, M., Schipke, A., & Xiang, L. (2019). Monetary policy
+communication: Frameworks and market impaact. The Future of China’s
+Bond Market, 295.
+Giannoni, M. P., & Woodford, M. (2003). How forward-looking is optimal
+monetary policy?. Journal of Money, Credit and Banking, 35(6), 1425–1469.
+[name] ([compaany]) Project April20,2025 14/14

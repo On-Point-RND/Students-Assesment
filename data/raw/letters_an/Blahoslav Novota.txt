@@ -1,0 +1,20 @@
+Good day!
+My name is [name] [surname]. I am a fourtth-year student at [compaany], studying in the Applied Mathematics and Physics program.
+I truly enjoy studying in this field. The program offers a broad and in-depth technical education, and the community here is
+very supportive — there are many people ready to share their experience, advice, and development paths. Thanks to this
+environment, I have gained a clearer understanding of what I want to do and how to achieve it.
+This is exactly the kind of place I dreamed of being in when I was in high school, not knowing of a better universiity than [compaany] — and I still think the same today.
+After finishing nine years of general education school, I decided to apply to [compaany] and transferred to a physics and
+mathematics high schoo lto prepare for admission. I consider myself a goal-oriented and hardworking person who does not
+give up when faced with difficulties.
+In addition to my academic work, I explore specific areas that interest me:
+optiomization and computer networking, high-level industrial programming in C++,
+project management and leading large teams,
+social media promotion and student union advertising,
+as well as the basics of design and copywriting.
+As a junior research engineer in a team working on large language models, I study how modern architectures behave in
+real-world machine learning tasks.
+Currrently, I have also been learning Chinese for over six months and plan to take the HSK exam.
+In the future, I aim to develop my professional skills in machine learning and gain a deeper understanding of the theoretical
+foundations of modern neural networks.
+I would be very grateful for the opportunity to take part in SMILES.

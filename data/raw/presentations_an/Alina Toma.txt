@@ -1,0 +1,126 @@
+Machine Learning in Astronomy
+[name] [surname]
+(researcher, [location])
+Introduction
+Topic:
+Application of machine learning in modern astronomy
+using data from the SRG/eROSITA X-ray survey.
+Importance:
+Astronomy faces a data explosion — high-volume,
+high-dimensional, heterogeneous datasets require new
+analysis methods. Machine learning enables
+automations and discoveries in this complex
+environment.
+Background:
+The SRG observatory ([location–[location]) performs an
+all-sky X-ray survey. Our team uses machine learning
+tools, such as the SRGz system, to identify and analyze
+sources like distant quasars and X-ray stars.
+Goal:
+To demonstrate how machine learning helps solve key
+challenges in the analysis of SRG/eROSITA data and to
+outline its potential for improving source classification,
+redshift estimation, and physical parameter inference.
+SRG/eROSITA survey
+Problem Statement
+What exactlly are we solving?
+We are tackling the challenges of processing and analyzing massive, high-dimensional astronomiical datasets. In particular, we are
+working with extensive catalogs of X-ray sources and need to automate the process of gathering and analyzing diverse types of data,
+including photometric and spectroscopic optical data, information from various astronomiical databases such as [compaany], [compaany], and
+[compaany], as well as our own observations from the [location] telescope RTT-150.
+Challenges:
+● Data Heterogeneity and Noise: Data from different telescopes and surveys vary in format, quality, and resolution, making it
+difficult to merge them into a unified dataset.
+● Identifying Rare or Transient Phenomena: The SRG mission is designed to detect faint and rare objects, such as distant quasars.
+Spotting and analyzing these events amidst the noise is a significant challenge.
+● Large-scale Data Analysis: Efficient algorithms are necessary to process large volumes of data and extract meaningful results,
+such as determining redshifts, classifying stars, and understanding the nature of X-ray emissions.
+Scope:
+The project involves working with large catalogs of X-ray sources obtained from five all-sky surveys conducted by the eROSITA
+telescope ([location] space observatory). These surveys cover a broad spectrum of objects in the X-ray range and aim to determine the nature
+of X-ray radiation. This will help us gain a deeper understanding of the evolution of Universe.
+Approach:
+Methods
+The SRGz system uses a combination of probabilistic models and machine
+learning techniques for cross-matching X-ray sources from the SRG/eROSITA
+mission with optical counterparts. Specifically, it utilizes decision trees, random
+forests, and probabilistic classifiers to handle the large-scale, multi-dimensional
+nature of the data.
+Why these methods?
+These methods were chosen for their ability to handle complex, noisy, and
+heterogeneous data. Decision trees and random forests are well-suited for
+classification tasks, as they can manage missing data and non-linear
+relationships. Probabilistic models enable accurate estimation of the likelihood of
+source matching, which is essential in identifying distant quasars and other rare
+objects in the vast SRG dataset.
+How it works:
+The SRGz system operates by analyzing the X-ray flux and the optical
+counterparts of detected sources. It assigns a probability score for each potential
+match, which helps in the precise identification of celestial objects. The results are published in two articles:
+1. [surname], I.F., et al. "Spectroscopic Redshift Determination
+Data & Preprocessing: for a Sample of Distant Quasars Detected by the SRG
+Observatory Based on [location] Observations. I." Astronomy
+Letters, vol. 46, no. 10, 2020, pp. 645-657.
+2. [surname], I.F., et al. "Spectroscopic Redshift Determination
+Data & Preprocessing: for a Sample of Distant Quasars Detected by the SRG
+Observatory Based on [location] Observaions. II." Astronomy
+Letters, vol. 47, no. 5, 2021, pp. 277-290.
+Results
+The analysis of distant quasars detected by the SRG Observatory and observed using the [location] telescope resulted in significant
+advancements in the determination of spectroscopic redshifts. Our approach, using the SRGz system, allowed for precise matching of X-ray
+sources with optical counterparts, enabling reliable redshift measurements.
+1. First Paper (I):
+This study focused on the spectroscopic redshift determination for a sample of distant quasars identified through SRG/eROSITA
+observations. The SRGz system, developed for cross-matching X-ray and optical data, played a pivotal role in achieving these results,
+providing more accurate redshift values and improving the understanding of the large-scale structure of the universe.
+2. Second Paper (II):
+In the follow-up study, the methods were extended to a larger sample, allowing for a broader analysis of the quasar population. The
+refined techniques led to the identification of additional quasars and further improved redshift determinations, shedding light on the
+distribution of distant quasars in the universe.
+Key Findings:
+● Accurate Redshift Measurements: Enhanced understanding of distant quasar p populaions and their role in cosmic evolution.
+● Improved Data Processing: The integration of SRGz in the workflow led to more efficient and precise analysis of large datasets.
+These studies contribute significantlly to the ongoing efforts to map the universe through the SRG mission, providing valuable insights into the
+distribution of quasars and their role in the cosmic evolution.
+Results
+Spectrum of the quasar
+● 17 objects have been confirmed as
+An image of the source SRGe J164156.3+625136 in the 0.3–2.0 keV
+quasars at redshifts z = 2.6−4.2
+X-ray band; (b) an image of its optical counterpart in the r band from the
+● 2 sources, which were included in the
+Pan-STARRS survey. On the left panel the small circle marks the position
+program of optical observations aimed at
+of the X-ray source; the red cross indicates the position of its opticaal
+testing and adjusting SRGz and had a
+counterpart. On the right panel the cross marks the position of the
+significant uncertaiity in the photometric
+X-ray source and the arrow indicates the position of its opticaal
+data.
+Research Gap
+What’s Missing?
+While SRGz has proven effective for identifying distant quasars, current methods are still limited in their application to other types of celestial
+objects, such as X-ray emitting stars. The system primarily focuses on probabilistic cross-identification and redshift estimation, but lacks
+comprehensive tools for physical parameter inference and spectral classification across broader source p populaions.
+Unresolved Challenges:
+● Scalability and Generalization: Current algorithm are optimized for quasars but are not yet adapted for heterogeneous sources such as
+stars with varying X-ray properties.
+● Incomplete Infoirmaation Integration: Automated pipelines for integrating photometric, spectroscopic, and multi-catalog data ([compaany],
+[compaany], [compaany]) are still under development.
+● Physical Interpretaion: There is still no robust system for deriving stellar physical parameters or understanding the physical origin of
+X-ray emission across diverse star types.
+Why It Matters:
+Filling these gaps would enable more efficient and accurate classification and analysis of millions of X-ray sources, helping to uncover the nature
+of their emission and contributing to our understanding of stellar evolution and galactic structure. Automating these processes is essential given the
+scale of current and future datasets.
+Future Opportunities:
+● Develop and apply ML models for spectral classification of X-ray stars.
+● Automate the collection of complementary data from multiple surveys and literature.
+● Create algorithm to derive physical parameters (e.g., temperature, mass, luminosity) from
+multiwavelength data.
+● Investigate the nature of X-ray emission mechanisms through statistical and ML-driven analyses.
+● Integrate these tools into scalable pipelines to support future SRG data releases and follow-up
+programs.
+
+
+

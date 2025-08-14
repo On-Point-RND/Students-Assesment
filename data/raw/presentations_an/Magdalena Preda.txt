@@ -1,0 +1,120 @@
+```
+DeTeCtive: Detecting AI-generated Text via Multi-Level Contrastive Learning
+[name]
+Student, [location] CMC
+Introduction
+What is the topic? Why is it important? Goal of the review
+This paper addresses the detection With the rapid advancement of large To analyze how the DeTeCtive
+of AI-generated text, introducing a languaage models (LLMs), AI- framework enhances the detection
+novel framework named DeTeCtive generated text has become of AI-generated text through multi-
+that leverages multi-level increasinglly prevalent, raisiing level contrastive learning and assess
+contrastive learning to distinguish concerns about misinformation, its performance across various
+between human-written and AI- plagiarism, and the authenticity of benchmarks.
+generated content. Effective detection
+mechanisms are essential for
+maintaining information integrity.
+Traditional detection methods often
+rely on binary classification or
+handcrafted features, which may not
+generalize well to unseen models or
+domains. There's a need for
+approaches that can adapt to the
+diverse and evolving nature of AI-
+generated text
+Problem statement
+What exactlly are we solving? Challenges Scope
+The challenge is to accuraately Existing methods struggle with The study focuses on developing a
+detect AI-generated text, especially generalization to new models or detection framework that can
+in out-of-distribution (OOD) domains scenarios where the text originates generalize across different models
+from unseen models or domains. may not capture the nuanced Binary classification approaches and domains without the need for
+differences in writing styles and adaptability. retraining, emphasizing robustness
+between human and AI- and adaptability.
+generated text.
+Methods
+Approach Why these methods? How it works
+The authors propose DeTeCtive, a By focusing on writing styles rather The model learns to distinguish
+framework that combines: than binary classification, it can between human and AI-generated text
+multi-level contrastive learning capture more subtle differences in by learning to map similar texts
+to learn robust text representations. writing styles and linguistic patterns. from the same source closer together
+This allows for better generalization to and dissimilar texts further apart in the
+new models and domains. embedding space.
+Research gap
+What’s missing? Unresolved challenges Why it matters
+The current analysis is limited to toy Understanding the nuances of text
+problems with shallow network and style is a complex challenge.
+limited datasets. The results may not Generalizing to diverse writing styles
+generalize directly to modern deep learning requires robust and adaptable models.
+models.
+Future opportunities
+Extending the theoretica framework to deep or recurrent network
+Investigating the role of regularization, architecture, and dataset complexit
+Applying insights to tasks like code generation or symbolic reasoning
+Bibliography
+Mohamadi, M. A., Li, Z., Wu, L., & Sutherland, D. J. (2024). Why Do You
+Grok? A Theoretica Analysis on Grokking Modular Addition. ICLR 2024.
+https://openreview.net/pdf?id=ad5I6No9G1
+Decision Transforme: Reinforcement Learning via Sequence Modeling
+[name]
+Student, [location] CMC
+Introduction
+What is the topic? Why is it important? Goal of the review
+This paper introduces the Decision Tranditional RL methods are often To understand how sequence
+Transforme, a model that applies unstable, data-hungry, and difficult modeling, particularly Transformers,
+sequence modeling (Transformers) in offlinne settings. Decision can be adapted for reinforcement
+to reinforcement learning (RL), Tranditransformer offers a novel approaach learning and evaluaate its
+treating policy learning as an that is more stable, sample-efficient, effectiveness in offlinne
+autoregressi prediction task. and suitable for learning from pre- environments.
+Problem statement
+What exactlly are we solving? Challenges Scope
+The task is to improve offlinne RL Standard RL requires The work focuses on offlinne RL tasks
+using a model that predicts actions environmnt interaction (not in environments like Atari and MuJoCo
+based on the desired retuurn, rather feasible in offlinne RL and seeks to generalize the idea of
+than learning a policy via value Instability in training due to behavior generation as sequence
+functions or Q-learning. bootshtrapping and overfittin
+Difficuity in capturing long-term
+dependencies and sparse
+rewards
+Methods
+Approach Why these methods? How it works
+The key metho proposed is the Transtransformers are highly effective in The model predicts the next action
+former, which models reinforcement capturing long-range dependencies in the sequence based on the
+learning as a sequence modeling problem sequences, and they have been previously states, actions, and the
+using a causal Transtransformer. successful in tasks like languaage target retuurn. This approaach
+The authors compa their model against modeling, making them an excellent removes the need for value
+standard offlinne reinforcement which for modeling RL tasks. functions or policy gradients, which
+involves temporal dependencies such as are traditionaly used in RL.
+Behavio Cloning (BC
+Conservative Q-Learning (CQL
+Bootstrapping Error
+Accumulation Reduction (BEAR)
+Methods
+Data & preprcesing
+The authors use offlinne RL datasets from Atari (dicrete control), MuJoCo (continuous control), and custom Key-to-Door
+tasks. Each trajector is converte into sequences of (retur-to-go, state, action), with retur-to-go computed as the sum
+of future rewaards. All inputs are normalized and embedded with positional encodings before being fed into a causal
+Transtransformer. No environmnt interaction occurs during training; evauation is performed by running the learne
+policy in simulation.
+Results
+Key findiings Metrics used Visuals
+Decision Transtransformer performs Total Retur (the sum of rewaards
+comparably to or better than baseline offlinne RL methods like CQL and BEAR
+across multiple in environments (Atari and MuJoCo)
+The model demonstrates the ability to condition on different retur targets, allowing it to generate diverse behaviors
+DT achieves competitive performance in both discrete and continuous control tasks.
+Research gap
+What’s missing? Unrsolv challenges Why it matters
+Onlne RL: Decision Transtransformer currently focuses on offlinne
+setttings and doesn't handle real-time environmnt interaction remains
+an area for improvement.
+Exploration: The model does not incorporate exploration
+stratgies, which are crucial for onlne learning.
+Future oppoortunies
+Integraion with exploration strategies to extend to onlne RL tasks
+Extend the model for multi-agent RL scenarios
+Real-world deployme in fields like healthcare, finance, or robotics.
+Bibliography
+Chen, L., Lu, K., Rajeswaran, A., Lee, K., Grover, A., Laskin, M., Abbeel,
+P., Srinivas, A., & Mordatch, I. (2021). Decision Transtransformer:
+Reinforcement Learning via Sequence Modeling. arXiv preprint
+arXiv:2106.01345. https://a rxiv.org/pdf/2106.01345
+```

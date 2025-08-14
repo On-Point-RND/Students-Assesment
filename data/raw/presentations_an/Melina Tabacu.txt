@@ -1,0 +1,74 @@
+Diffusion models beat GANs
+on Image Synthesis
+(NeurIPS 2021)
+[name]
+[location] I[compaany]
+Introduction
+• Diffusion models for image synthesis (based on NeurIPS 2021 paper)
+• Why is it important?
+1. GANs has unstable training and mode collapse - ✗
+2. Diffusion models → better quality and stability - ✓
+• Background:
+1. Gradual noise removal
+2. Recent advances make them practical
+• Goal of the review:
+ Explain how diffusion models work
+ Show why they beat GANs
+ Demonstrate simplified reproduction
+Problem statement
+• Problem:
+How to generate high-quality images with stable training?
+• Challenges:
+1. GANs: unstable, mode collapse
+2. Hard to evaluate quality
+• Scope:
+1. Image generation
+2. No text/image or video
+Methods
+• Approach:
+1. Denoising Diffusion Probabilistic Models (DDPM)
+2. U-Net with attention
+3. Variational inference
+• Why these?
+ Stable training
+ Handles global + local info well
+• How it works:
+Add noise → learn to reverse it → generate image
+Results
+• Key findiings:
+1. DDPMs outperform GANs on CIFAR-10, ImageNet
+2. Better image quality, fewer artifacts
+• Metrics:
+o FID (lower = better)
+o IS (optional)
+• Visuals:
+• Sample images
+• FID score table (DDPM < GAN)
+Research gap
+• Limitations:
+1. Slow sampling
+2. High compute cost
+• Challenges:
+ Speed vs. quality
+ Difficult to scale/control
+• Why it matters:
+Hard to deploy in real-time apps
+• Future directions:
+1. Faster samplers (DDIM, etc.)
+2. Conditional & hybrid models
+Bibliography
+1. [name] & [name].
+Diffusion Models Beat GANs on Image Synthesis. NeurIPS 2021.
+https://arxiv.org/abs/2105.05233
+2. [name], [name], [name].
+Large Scale GAN Training for High Fidelity Natural Image Synthesis. 2018.
+https://arxiv.org/abs/1809.11096
+3. [name], [name], et al.
+Generative Pretraining from Pixels. ICML 2020.
+https://arxiv.org/abs/2006.02514
+4. [name] & [name].
+A Note on the Inception Score. 2018.
+https://arxiv.org/abs/1801.01973
+5. Link to My Repository
+Explore the full project and resources here:
+https://github.com/[name]/diffusion-models

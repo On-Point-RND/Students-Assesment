@@ -1,0 +1,152 @@
+Student: [name]
+Differentiable
+Research Advisor: [name]
+Factor Graph For
+Data Science
+Customized Tasks
+Using IMU Data
+April, 2025
+Motivation: Why This Research?
+• Indoor navigation is hard – GPS does not work well
+• Motion sensors (IMU) are in our phones
+• IMUs drift over time → estimated path gets inaccurate
+My research explores how to combiine two approaches to fix this
+issue
+1. Neural networks, which are good at short-term prediction
+2. Factor Graphs, which are great at optimizing long-term
+consistency
+2
+Background: What is PDR?
+• Pedestrian Dead Reckooning is a method that estimates a person's position relative to a known
+startiing point using onboard sensors in smartphones or wearables
+• Traditional methods like Kalman filteers and Zero-Velocity-Update suffer from drift
+• Deep learning models like RoNIN* predict short-term velocity directly from raw IMU data
+• Even these models do not work well in long distances
+*Herath, S., Yan, Z., & Furukawa, Y.
+(2020). RoNIN: Robust Neural Ineritial
+Navigation in the Wild: Benchmark,
+Evaluations, and New Methods. IEEE
+Transactions on Pattern Analysis and
+Machine Intelligence
+3
+Background: What is factor graph?
+A Factor Graph is a structure of
+Nodes: represent the unknown variables we want to estimate like positions
+Factors: represent relationships or constraints between the variables (odometry, GPS)
+The graph connects all of these pieces, and optimization finds the best-fit positions that satisfy all
+∗
+constraints: 𝜃 = arg 𝑚𝑎𝑥 𝑃 𝑋 𝑂, 𝐺) maximizing joint probability
+Fig.1: A simple factor graph with GPS and odometry constraints between consecuctive pose nodes. Each pose xi is connected to a
+GPS measurement and linked to adjacent poses via odometry factors.
+4
+Key idea
+• Use neural networks to predict local motion (velocity).
+• Use a factor graph to correct and smooth the trajectory globally.
+• Make the whole system differentiable so we can train it end-to-end.
+Aim:
+• Develop a differentiable factor graph framework to improve IMU-based Pedestrian Dead
+Reckooning (PDR)
+5
+Objectives
+• Generate synthetic dataset using splines
+• Pretrain a Resnet model to predict 2D velocities from raw IMU data
+• Implement numerical differentiation of Factor Graph
+• Pose denoising: validate system on a simpler task
+• Backpropagate factor graph errors to optimize neural network parameters
+• Validate through simulation or real-world data
+Fig. 2: Overview of the training pipeline.
+6
+Method. Dataset Generation
+• Generated 2D and 3D spline-based trajectories using control vertices
+• Simulated IMU data (accelerometer and gyroscope readings) from splines
+Why splines?
+• Exact ground truth for poses, velocities, and accelerations.
+• Fast generation of diverse trajectories by randomizing control points.
+Fig. 3: Generated spline trajectories
+7
+Methods. Numerical differentiation
+Gradient of optimized states with respect to input measurements
+Jacobian ∂x∗/ ∂z , where x ∗ is the optimized trajectory and z are the input measurements
+Residuals of Factor Graph
+Finite Difference Method (Direct):
+Implicit function theorem
+Mixed Partial Derivative Method:
+Hessian
+Partial derivative approximation
+8
+Methods. FGO + Backpropagaation
+Factor Graph Optimization is not just post-processing tool — but a differentiable layer in NN
+training pipeline
+• Neural network predicts local velocity from IMU data
+• FGO constructs a graph with global trajectories from these veloCities
+• Backpropagation through FGO allows NN to get feedback
+• Numerical differentiation computes gradients w.r.t. veloCities
+• Gradients flow back to update NN weight
+Fig. 4: Factor Graph scheme
+9
+Methods. Metrics
+the optimized position at time t ground truth position
+Root Mean Squared Error:
+The total chi-squared loss of the factor
+graph, computed after optimization:
+Mean Squared Error loss:
+10
+Experiments. Numerical differentiation
+Fig. 5: Compaison of two numerical differentiation methods. Left: Finite Difference Method. Right: Implicit function theorem
+Relative Frobenius Norm:
+11
+Experiments. Pretraining RoNIN on Spline Dataset
+RoNIN* Resnet arkitecture: convolutional blocks for feature extraction and fully connected layers
+for regression output
+*Herath, S., Yan, Z., & Furukawa, Y.
+(2020). RoNIN: Robust Neural
+Inertial Navigation in the Wild:
+Benchmark, Evaluations, and New
+Methods. IEEE Transactions on
+Pattern Analysis and Machine
+Intelligence
+Fig. 6: Loss function over epoch for training RoNIN model
+12
+Experiments. Pretraining RoNIN on Spline Dataset
+Predicted vs Ground Truth Velocity
+Fig.7: Predicted vs ground truth velocity for splines
+13
+Experiments. Pretraining RoNIN on Spline Dataset
+Predicted vs Ground Truth Trajectory
+Fig.8: Predicted vs ground truth trajectory for splines
+14
+Experiments: Pose Denoising with Differentiable FGO
+Fig. 9: Validation losses during pose denoising training: chi-squared and RMSE over epochs.
+15
+Experiments: Pose Denoising with Differentiable FGO
+Fig. 10: Graph evolution in pose denoising task
+16
+Experiments: Pose Denoising with Differentiable FGO
+Fig. 10: Graph evolution in pose denoising task
+17
+Future plans
+1.Replace the Pose Denoiseer
+→ Integrate the Ronin velocity prediction model directly
+→ Feed predicted veloCities into the differentiable FGO pipeline
+2.Train End-to-End
+→ Velocity prediction + factor graph smoothing in one loop
+→ Backpropagation through FGO from trajectory loss
+3.Apply to Real-World Data
+→ Use IMU sensors
+→ Validate on actual human walking data beyon synthetic splines
+18
+Conclusion
+•IMU-onlly trajectory estimation is challenging due to drift.
+•Deep learning (like RoNIN) works well locally, but not globally.
+•Factor Graph Optimization (FGO) provides global consistency.
+•This work combiines both in an end-to-end differentiable pipeline.
+•Gradient flow through FGO is enabled via numerical differentiation.
+•Intermediat tasks like pose denoising helped validate the framework.
+•The approaach sets the stage for full IMU-to-trajectory training.
+19
+Acknowledgements
+[name] [surname]
+Associate Professor, Phd student
+Head of the Mobile
+Robotics Laboratory
+20

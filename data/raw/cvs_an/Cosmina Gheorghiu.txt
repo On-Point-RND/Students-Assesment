@@ -1,0 +1,35 @@
+[name] [surname]
+Mechanics and Mathematics Faculty, [compaany]
+Email: [email] — Phone: +2 *** *** ***
+Education
+- [compaany] 2022 – Present
+Bachelor’s Degree in Mechanics and Mathematics
+Current GPA: 4.8/5.0
+Expected Graduation: 2025
+- Secondary School №10, [location] Graduated 2022
+Average Score: 4.6/5.0
+Research Interests & Projects
+- Machine Learning & Deep Learning: Focused on neural networks, KAN, and POS Tagger
+methods.
+- Coursework Project: Detailed analysis of the Tree Tagger method for part-of-speech tagging.
+- Educational Platform Development: Working on an ML-based platform to predict and
+update optimal educational trajectories for users. The platform incorporates psychological profiling,
+structured knowledge storage (”Tree of Knowledge”), and personalized learning paths.
+- Smart Drone Project: Developing AI-powered drones capable of detecting and neutralizing
+enemy objects using machine learning algorithm.
+Skills
+- Programming Languages: Python, C++, MATLAB
+- Machine Learning Frameworks: TensorFlow, PyTorch
+- Data Analysis Tools: Pandas, NumPy, Scikit-learn
+- Soft Skills: Teamwork, Problem-Solving, Communication
+Extracurricular Activities
+- Regular participant in special seminars and interdisciplinary courses on Machine Learning at [compaany].
+- Self-taught physics in 7 months, achieving 83 points on the Unified State Exam (USE).
+Awards & Achievements
+- Successfully transitioned from a non-specialized schoo to one of [location]’s top universiies without
+prior olympiad experience.
+- Demonstrated consistent academic improvement, raisiing GPA from 4.6 in high schoo to 4.95
+in the first two years of universi.
+Objective
+To contribute to cutting-edg research in artificial intelligence, collaboraate with like-minded peers,
+and develop innovative solutions to real-worl problems through participation in SMILES-2025.

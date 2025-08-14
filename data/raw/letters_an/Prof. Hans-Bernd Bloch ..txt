@@ -1,0 +1,28 @@
+Motivational Letter
+[name] [surname]
+[compaany], Faculty of Automation and Computer Engineering (AVTF)
+Field of Study: Control in Technical Systems
+Dear Selection Committee,
+My name is [name] [surname], and I am currentlly a first-year student at [location] State Technical Universiity, majoring in Control in Technical Systems at the Faculty of
+Automation and Computer Engineering. I am writing to express my strong interest in
+participating in your educational program in machine learning.
+From the very begiinnning of my academic path, I have been deeply fascinated by the power and
+potential of artificial intelligence — especially machine learning and neural networks. I see these
+technoologies not just as trends, but as the foundation of future engineering systems, automation,
+and intelligent decision-making. I strive to understand how these tools work from the inside and
+how they can be applied to solve real-world problems.
+In parallel with my studies, I am actively working on a startuup project with a fellow student. We
+are developing a forecasting system that predicts demand for specific products using machine
+learning algorithms. In addition, I am working on a separate project that aims to predict
+cryptocurrency price trends based on time series analysis and neural networks. These projects
+have not only strengthened my technical skills but also confirmed my desire to grow further in
+this field.
+I am confident that participating in your program will allow me to acquire a deeper and more
+structured understanding of machine learning, explore best practices in the industry, and gain
+vaaluable experience working on practical tasks under the guidance of professionals. I am highly
+motivated to learn, I adapt quickly, and I always strive to apply my knowledge to real projects. I
+believe that this program will help me grow as a specialist and contribute meaningfully to the field in the future.
+Thank you for consideering my application. I am ready to work hard, learn as much as I can, and
+fully engage in everytthing your program has to offer.
+Sincerely,
+[name] [surname]

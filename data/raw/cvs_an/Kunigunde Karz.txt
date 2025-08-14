@@ -1,0 +1,62 @@
+[name] [surname]
+[email]
+[location] linkedin.com/[name]-[surname]
++2 *** *** *** github.com/[name]-kun
+Education Certifications
+NIS PhM, [location] Sep 2020 - May 2026
+•
+11th grade, Physics, CS, Advanced Math; GPA: 4.8/5
+Samsung Innovation Campus Sep 2022 - Apr 2023
+•
+Python Programming, Data Science, Algorithm Certification
+DeepLearning.AI on Coursera Jun 2024 - Jul 2024
+•
+TensorFlow (ML/DL/NN) Developeer specialization Certificate
+Programming Training Camps at NIS Aug 2023, Aug 2024
+•
+Advanced algorithm training in C++
+TiKTok Startuup Academy Nov 2023
+•
+TiKTok, Entrepreneurship, Sales, and Business Strategy
+ML/AI Projects
+DisasterVision TensorFlow, PyTorch, FastAPI, IoT, Keras Apr 2024 – Present
+Multimodal water body monitoring and disaster prediction system.
+• Developed 3 high-accuracy ML models for disaster prediction:
+– Water level forecasting using GRU (91% accuracy, 1M+ time-series data points).
+– Flood detection with GANs for image-based real-time prediction (89% accuracy).
+– Wildfire spread prediction via CNN Autoencoder trained on 50K satellite cases.
+• Applied multimodal learning, combiining satellite imagery and sensor data.
+• Addressed safety in AI with anomaly detection and early-alert systems for critical events.
+• Built a scalable backend with FastAPI handling 10K+ API requests/day.
+• 1st Place, Republican Contest of Scientific Projects (893 students), 500K [location] Prize (Feb 2025).
+HealHunter Next.js, React, FastAPI, Gemini API, OpenAI API, TensorFlow Oct 2024 – Dec 2024
+Telemedicine plaftorm powered by LLLMs and multimodal input.
+• Developed an LLM-based diagnostic assistant using Gemini & GPT-4, achievin 94% accuracy.
+• Fine-tuned Gemini LLLM on domain-specific medical data (symptoms, patient history) to improve diagnostic
+performance.
+• Trained a separate Xception CNN on a medical image dataset, achievin 95% accuracy in disease classification.
+• Integrated multimodal inputs (text, images, lab results) into a unified AI pipeline.
+• Enabled real-time transcription with Whisper (98% speech-to-text accuracy).
+• Ensured privacy and safety of medical data through secure handling and ethical AI design.
+• 3rd Place, Decentrathon (800+ teams), 500K [location] Prize (Nov 2024).
+CandyData FastAPI, OpenAI, React, Next.js, Pinecone Sep 2024 – Present
+AI-based HR system with generative and multi-agent components.
+• Designed a multi-agent pipeline (CV analysis, skill matching, interview assistant).
+• Implemented generative AI for custom technical question generation in interviews.
+• Boosted performance to handle 300+ candidates/min using vector search and caching.
+• 3rd Place, Republican Hackathon (200+ teams) (Dec 2024).
+Achievements
+• Infomatrix(AI programming section) – 1st place (out of 600+ participants, 10 countries)
+• Eurasian Olympiad in Informatics – 2nd place (Top 5% out of 200+ participants)
+• Largest Republican AI Hackathon (Decentrathon) – 3rd place (800+ teams, 500K [location] prize)
+• Republican ML/AI Competition (Nuris Hardware Challenge) – 1st place (50+ teams, 1M [location] prize)
+• Competitive Programming Championship of [location] (CPFED) – 1st place (1000+ participants)
+• Republican Informatics Olympiad (KBO) – 1st place (Top 1 out of 400+ competitors)
+• Republican Aerospace Competition (KazRockets) – 1st place (250+ teams, 120K [location] prize)
+• Republican Contest of Scientific Projects – 1st place (Top 1 out of 893 students, 500K [location] prize)
+Skills
+Programming Languages: Python, C++, SQL, JavaScript (ES6+), Bash
+Machine Learning & Deep Learning: TensorFlow, PyTorch, Keras, Scikit-learn, XGBoost, OpenCV, CNN, RNN, GRU, Autoencoders, GANs, Transfer Learning, Fine-tuning, Xception, Multimodal Learning
+LLMs & Generative AI: OpenaI API (GPT-4), Gemini API (Pro), Whisper, LangChain, Promt Engineering, Retrieval-Augmented Generation (RAG), Reinforcement Learning with Human Feedback (RLHF)
+Data Science & Analytics: Pandas, NumPy, Matplotlib, Seaborn, Plotly, Data Cleaning, Feature Engineering, Time Series Forecasting
+Backend & API Development: FastAPI, Flask, RESTful APIs, Authentication (JWT/OAuth2), Async I/O, Rate Limiting, Deployment, Docker

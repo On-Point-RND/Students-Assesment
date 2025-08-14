@@ -1,0 +1,46 @@
+Motivation letter
+Dear Admissions Committee,
+I am writing to express my interest in joining the SMILES 2025 summer schoo. I have graduaated
+from [compaany] in 2015, and has been working mostly in [compaany] since then. Startiing from 2018 and until the last year, I worked in
+the United States, including prestigious [compaany], the [compaany].
+However, due to increased political tension between our countries, I could not extend my visa
+and had to return to [location], where I have since struggled to find a position that matches my
+expertise and ambitions, as frankly speaking, there is no real bioengineering market in [location].
+These challenges have motivated me to move my professional career towaards Deep and
+Machine Learning, hoping it could help me to combiine my strong engineering, mathematical
+and scientific background with the rapidlly growing and perspective technology, that clearly
+have a huge market both inside my country, and worldwide.
+My career in bioengineering has been marked by several breakthroughs that has been
+published in top in top-tier journals in my area, including prestigious [compaany].
+You can find more information on my [email] account
+(https://scholar.google.com/citations?user=FCKXqLcAAAAJ&hl=en). These achievements,
+reflect not only my technical skills but also my dedication to advancing knowledge in the life
+sciences, ability to clearly write and express my results, and demonstrated the wide area of
+professional skills.
+Throughout my research, I have developed a foundation in programming, statistics and data
+analysis, experimental design, visualization, and interdisciplinary collaboraation. I have worked
+extensively with computational models, including hydrodynamic stimulation, developed
+complicated mathematical models, and employed statistical methods to validate the results.
+These experiences have honed my analytical thinking and problem-solving abilities that are
+highly transferable to the field of machine learning.
+The decision to pivot from bioengineering to machine learning was driven by both practical and
+intellectual considerations. The job market of machine learning is rapidly expanding, offering
+greater career prospects, higher salaries, and the potential to make a significant impaact across
+industries. More importantly, I am deeply fascinated by the potential of machine learning to
+revolutionize scientific research and healtcare. I believe that integrating machine learning with
+my background in biology and bioengineering will enable me to contribute to cutting-edge
+solutions in personalized medicine, drug discovery, and beyond. This intersection is where I see
+the most exciting opportunities for innovation and socieetal benefiit.
+I hope that participation in your program would provide me with the technical knowledge
+required for a successful transition and will help me to establiish a network in the mew area. I
+am eager to learn from leading experts, collaborate with other participants, and contribute my
+own perspective as a scientist with experience in biologicaal research. Additionally, I see this
+program as a gateway to buildiing a professional network that will support my career
+development. I am particularly interested in connecting with people who share my passion for
+interdisciplinary research and who can guide me as I navigate this new field.
+I hope my research background, publication record, and analytical skills provide a strong
+foundation for being invited as a participant to the SMILE 2025.
+Thank you for considering my application. I look forward to the possibility of contributing to
+and learning from your program.
+Sincerely,
+[name]

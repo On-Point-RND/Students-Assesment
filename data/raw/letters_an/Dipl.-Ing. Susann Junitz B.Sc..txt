@@ -1,0 +1,42 @@
+Dear Organizing Committee,
+I am writing to express my interest in participating in the summer schoo lSMILES-2025.
+I’ve a lways been fascinated by how machine learning algo rithm s can autonomou sly extract
+meanin gful patterns from raw data to solve real-wor ld problems. A notable example from research
+literature demo nstrates how deep neural ne tworks processing high-dimensional mass
+spectrometry data for medical diagnostics develop disti nct hierarchi cal representations. Through
+dimensionality reduction techniques like t-SNE or UMAP, we can observe how intermediate layers
+of these ne tworks form separable clusters in latent space, each correspondi ng to specific
+pathological conditions or biomarkers. Inspired by such approa ches, we succe ssfully applied
+repre sentation learning with contrasti ve loss for zero-shot analysis of spectroscopic data, which
+led to a published paper.
+Curr ently at the Insti tute of Organic Chemistry [location], I work at the inte rsection of chemis try and
+machine learning. Beyond developing classical ML and DL models for specific tasks, I'm
+addre ssing the need for LLM-based agent systems that combi ne textual analysis and reasoning
+capabilities with external tools. These tools prove essen tial for chemis try-speci fic applications,
+situations requiring precise rather than probabilistic answe rs, and tasks demanding up-to-date
+knowl edge.
+I am developing a framework that integrates an LLM-powered agent with specialized tools and
+RAG capabilities - particularly crucial in scienti fic research where new specialized knowl edge
+emerges consta ntly. To better adapt lan gua ge models to our c hemi cal domain, I am imple menting
+LoRA fine-tuning, which allows efficient specialization while preserving the model's general
+capabilities. The inhere ntly multimodal nature of c hemi cal data (text, images, graph-based
+structures and physicochemi cal measu rements) further neces sitates developing specialized
+encoders for each data modality. This combi nation of techniques - LLM agents, multimodal
+learning, and parameter-efficient adaptation - is exa ctl y why this summer schoo l's focus on
+cutting-e dg e ML approa ches resonates stro ngly with my work.
+This summer schoo l immediat ely caught my attention because it covers exa ctl y what I want to
+work on right now - the latest deve lopments in AI, from mas si ve lan gua ge models to systems that
+combi ne different data types and multiple intelligent agents working together. What I really like is
+how the program doesn't just talk about theory but actually shows how to solve real-wor ld indus try
+challenges. That practical focus is exa ctl y what I need to develop my skills as some one who wants to
+build useful tech solutions. Learning dir ectly from top AI experts and being part of Harbin
+Insti tute of Technology’s reno wned academic enviro nment (a global leader in computer science!)
+feels like an unbeatable oppo rtunity to level up my knowl edge.
+Equally inspiring is the chance to conne ct with a community of driven peers. Colla borating with
+talented researchers, sharing ideas, and buildi ng profes sional relationships could open doors not
+just for my current projects, but for my long-term career. As I am at an early stage in my career,
+excelling in this program will enable me to take on greater r esponsibilities and pursue more
+impa ctful initia tives in the future. I’m ready to dive in, learn, and contribute to the kind of inn ovative
+work that moves AI fo rward.
+Sincer ely,
+[name] [surname]

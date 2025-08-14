@@ -1,0 +1,61 @@
+            
+Compression of 3D
+Gaussian Splatting.
+Review
+[name]
+Junior Researcher, [location]
+[university]
+Introduction
+• The topic is 3D Reconstruction / real-time rendering of 3D scene / novel view synthesis
+• Task: the creation of real-time novel-view scenes by combining multiple photos
+• Important for VR, media generation, advertising
+3D Gaussian splatting (3DGS) [1] has emerged as a promising framework for these tasks
+3D Gaussian splatting has wide applications [2] including
+• scene editing (GaussianEditor [3])
+• geometry reconstruction and SLAM (GS-SLAM [4])
+• digital humans (3DGS-Avatar [5])
+• 3D / 4D generation (DrreamGaussian [6])
+• text-to-3D generation (GaussianDreamer [7])
+3DGS vs other methods
+Traditional primitive-based representations
+• Meshes, points
+• + speed: good for fast GPU/CUDA-based rasterization
+• - quality: hard to deal with meshes
+NeRF methods [8]
+• + quality: can produce continuous rendering results with many details
+• - speed: rendering is slow since the MLP need to be evaluated on a large number of points
+3DGS combines the benefits of both representations and has achieved the state-of-the-art rendering quality and speed
+• Same quality, less time
+3DGS vs others (images from https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
+The idea of 3DGS
+(SIGGRAPH 2023) 3D Gaussian Splatting for Real-Time Radiance Field Rendering by [name], [name], [name], [name]. http://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/
+• The method uses a sparse cloud of 3D gaussians
+• Each 3D Gaussian is parametrized by its mean, covariance matrix of a special form, color (given by spherical harmonics coefficients), opacity
+• Initialized from point clouds derived from Structure from Motion (COLMAP [9])
+• The gaussians are optimized through stochastic gradient de 
+• More application of 3DGS
+Bibliography
+1. [name], [name], [name], [name], 3D Gaussian splatting for real-time radiance field rendering. ACM
+Transactions on Graphics (TOG), Siggraph, 2023.
+2. [name], [name], Recent advances in 3D Gaussian splatting, Computational Visual
+Media, 10:4, 2024
+3. [name], [name], [name], [name], GaussianEditor: Swift and Controllable 3D
+Editing with Gaussian Splatting, CVPR, 2024
+4. [name], [name], [name], GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting, CVPR, 2024
+(Highlight)
+5. [name], [name], [name], 3DGS-Avatar. Animatable Avatars via Deformable 3D Gaussian Splatting,
+CVPR, 2024
+6. [name], [name], [name], DrreamGaussian: Fast Generation from Text to 3D
+Gaussians by Bridgining 2D and 3D Diffusion Models, CVPR, 2024
+7. [name], [name], NeRF: Representing scenes as neural radiance fields for
+view synthesis, ECCV, 2020.
+8. [name], [name], Structure-from-motion revisited, CVPR, 2016.
+9. [name], [name], Image quality assessment: From error visibity to strucural similarity, IEEE Trans.
+Image Process, 2004
+10. [name], [name], The Unreasonable Effectiveness of Deep Features as a Perceptual Metric,
+IEEE Conf. Comput. Vis. Pattern Recog. (2018)
+11. [name], [name], Tanks and temples: Benchmarking large-scale scene reconstruction, ACM
+Transactions on Graphics (TOG), Siggraph, 2017.
+12. [name], [name], Deep blending for free-viewpoint image-based rendering, Siggraph Asia, 2018.
+13. [name], [name], 3DGS.zip: A survey on 3D Gaussian Splatting
+Compression Methods

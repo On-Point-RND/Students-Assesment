@@ -1,0 +1,54 @@
+[name] [surname]
+Date of Birth: March 31, 2004
+Address: 8 Bldg. 1, [location]
+Contact Information:
+• Phone number: +2 *** *** ***
+• Email: [email]
+Education:
+Bachelor’s in Software Engineering:
+[compaany] – Russian Technological Universiity (Bachelor’s Degree)
+September 2022 – Present (Expected Graduation: 2026)
+[compaany] (Institute of Informaation Technologies)
+Currently in 3rd year
+Artificial Intelligence
+1) Clustering Tasks
+a. Clustering algorithm: DBSCAN, HDBSCAN, OPTICS, Mean Shift, K-Means
+b. Dimensionality reduction methods: PCA, t-SNE, UMAP
+2) Natural Language Processing (NLP)
+a. Language models: BERT, GPT
+b. Embedding techniques: Word2Vec, Doc2Vec
+3) Optical Character Recognition (OCR)
+a. Tools: Tesseract, EasyOCR
+b. Binarization algorithm: OTSU, Bradley’s algorithm
+4) LLMs
+a. Practical experience with ChatGPT API + LangChain, Ollama + LangChain
+b. RAG (Retrieval-Augmented Generation) system design and experimentation
+5) Decision Trees and Ensemble Methods
+a. Algorithm: Random Forest, XGBoost
+6) Computer Vision and Deep Learning
+a. Familiar with Convolutional Neural Network: (CNNs)
+b. Applied deep learning methods for regression and classification tasks
+c. Libraries: TensorFlow, PyTorch, OpenCV, scikit-learn
+7) Skilled in NumPy, Pandas, PIL, scikit-image, Matplotlib, Seaborn, Weights & Biases (Wand), Einops
+Work Experience
+Lead Deveveloper — [compaany], [location]
+March 2023 – April 2024 (1 year 1 month)
+Key Projects and Contributions:
+1. Developed a machine learning model for classifying user action sequences based on
+the forms of documents used
+2. Engineered a numerical transition parameter to quantify and track shifts between
+sequential user actions or action groups
+3. Implemented a clustering/classification system for grouping similar user action
+sequences based on their structure and content
+4. Participated in the development and integration of OCR models
+5. Developed data preprocessing pipelines
+Additional Technical Skills:
+• Programming: Profiicient in procedural and object-oriented programming in Python, C++, C# and Java
+• Software Tools & Technologies: Experienced in using Git, Docker, and developing
+web applications with FastAPI, Alembic, and SQLAlchemy, pydantic, pytest, asyncio
+• Databases: Skilled in working with ClickHouse, PostgreSQL, MySQL,
+• Modeling and Systems Analysis: Able to construct ARIS, BPMN, SADT, and ER
+diagrams for system and process modeling
+• Languages: English — B2 level
+Personal Achievements:
+Participated in the “Virbus Units 2025” Hackathon

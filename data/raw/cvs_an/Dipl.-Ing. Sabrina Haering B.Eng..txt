@@ -1,0 +1,26 @@
+Motivated Computer Science student with a focus on generative AI and cross-cultural collaboration. Eager to contribute to [compaany] by leveraging foundational skills in machine learning, multilingual proficiency (including Chinese), and hands-on project experience. Passionate about exploring multimodal systems, LLMs, and advancing AI solutions for real-world challenges.
+Education
+Bachelor’s in Computer Science, AI, and Control Systems
+[compaany] | [location]
+Sept [year] – Present
+Relevant Coursework: Machine Learning Fundamentals, Data Structures & Algorithms, Python Programming, Control Systems.
+Activities: Member of [compaany] AI Club (participating in workshops on generative models).
+Technical Skills
+Programming: Python , Java , SQL.
+ML/AI Tools: PyTorch , scikit-learn, Pandas, NumPy.
+Frameworks: Git, Docker , LaTeX.
+Concepts: Neural Networks, Data Preprocessing, Algorithm Design.
+Projects & Competitions
+1. GigaChat Competition by [compaany] | Second Stage Participant | [year]
+Developed a chatbot using Python and NLP techniques (e.g., intent recognition, dialogue management).
+Collaborated in a team to optimize model performance for user engagement metrics.
+Built a basic generative adversarial network (GAN) using PyTorch to synthesize MNSIT digits.
+Experimented with hyperparameter tuning and loss functions.
+Languages
+English: C1
+Chinese: HSK 2 – Actively progressing toward HSK 3.
+Spanish: B1
+Additional Information
+Interests: Generative AI, LLMs (e.g., GPT, Gemini), AI ethics, robotics.
+Self-Study: Completing online courses (Generative AI for Beginners, Deep Learning Specialization).
+Cultural Engagement: Enthusiastic about Sino-Russian tech collaboration.

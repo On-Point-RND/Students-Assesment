@@ -1,0 +1,95 @@
+PREDICTING EXPERT RATIINGS FROM
+MULTIVIEW VISUAL SEQUENCES USING
+PRETRAINED TRANSFORMERS
+[name]
+Data Engineer, Machine Learning Applications Team | [name] & [name] alumni
+Align Technology
+[name]
+
+3 Drs assess each FiPos
+Drs give ratings on the scale of 1 to 4
+Case evaluation may vary:
+squared error =
+(rating - avg rating)²
+sample MSE = 0.22
+Having MSE comparable with the labeled data is the acceptance criteria
+RESULTS
+Data MSE (the lower - the better)
+Labeled data 0.36
+Model predictions
+RESULTS
+Data MSE (the lower - the better)
+Labeled data 0.36
+Model predictions 0.32 (cross-validated)
+The proposed model can support validation upscaling
+Promising for other use cases
+RESULTS
+Key Findings
+ViT-Base + Ridge regression with concatenated embeddings outperformeed all alternatives.
+DINOv2 self-supervised fine-tuning achieved similar performaance but required more compute and
+engineering effort.
+Random Forest underperformeed, suggesting limited non-linear separability or insufficient data for
+deep trees.
+Sanity checks showed that Final-onlly models perform better than Initial-onlly — indicating that
+treatmment outcomes are the primary driver of rating predictions, as expected.
+Metrics
+Evaluation metric: Mean Squared Error (MSE), to match the squared error between expert raters.
+R² Score used to track explained variance.
+MAE reported for intuitive interpretability.
+Best Resul: ViT + Ridge (α = 1.0) Random Forest DINOv2 (self-supervised fine-tuning)
+MSE: 0.3153 MSE: 0.3809 MSE: 0.3153
+MAE: 0.4188 MAE: 0.4932 MAE: 0.4188
+R²: 0.2436 R²: 0.0978 R²: 0.2436
+SANITY CHECK
+Tested the model on completely unseen data:
+Predicted rating: 3.27 Predicted rating: 1.86
+crossbite
+RESEAARC GAP
+Lack of large-scale labeled datasets for orthodontiic evaluaion.
+No standardized definition of what makes a “good” FiPos across clinicians or regions.
+ViTs are powerful but still data-hungry — pre-trained on ImageNet, not dental domains. The model pre-
+trained in this project had 80 000 cases, which is still not much for SSL.
+Unrersolved challenges:
+Generalization: how well do models trained on one cohort perform on another?
+Trust & explainability: current models offer little insight into why a FiPos is rated poorlly.
+Why it matters:
+Without high accuracy and clinician trust, these systems can’t be deployed in critical clinical pipelines.
+Improving these aspects would unlock high-throughput validation and assistive AI tools.
+Future directions:
+Fine-tuning using LoRA or full SSL training on domain-specific data.
+Multimodal modeling: combining image data with aligneer simulations, treatmment metadata.
+Explainable AI (e.g., attention heatmaps) to provide visual justifications for predictions.
+BIBLIOGRPHY
+Vision Transformeers (ViTs) Evaluating Human Ratings / Subjective Labels Regression from Visual Data
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., et al. (2021). Zhang, W., & Wang, J. et al. (2017). Xie, W., Nagrani, A., & Zisserman, A. (2019).
+An Image is Worth 16x16 Words: Transformeers for Image Recognition Collaboraative Multi-Level Embedding Learning from Reviews for Utterance-level Aggregation for Speaker Recognition in the Wild.
+https://arxiv.org/abs/2010.11929 https://www.ijcai.org/Proceeding/16/Papers/424.pdf
+Touvron, H., Cord, M., Douze, M., et al. (2021). Ma, C., Yang, H., Yang, Y., et al. (2021). https://arxiv.org/abs/1902.10107
+Training Data-Efficient Image Transformeers & Distillation through Predicting Aesthetic Score Distribution through Cumulative Jensen- Xinhong Zhang, Jiayin Zhao, Fan Zhang, Xiaopan Chen (2025)
+https://proceedinings.mlr.press/v139/touvron21a.html https://arxiv.org/abs/1708.07089
+Attention. International Conference on Machine Learning (ICML).
+https://arxiv.org/abs/2106.10270
+Self-Supervised Learning (SSL) for Vision 21_paper.html
+How to train your ViT? Data, Augmentation, and Regularization in Transformeer
+https://www.sciencedirect.com/science/article/abs/pii/S014381662
+Transactions on Machine Learning Research (TMLR).
+https://arxiv.org/abs/2106.10270
+Vision Transformeers.
+https://openaccess.thecvf.com/content/CVPR2021/html...
+Chefeer, H., Gur, S., & Wolf, L. (2021).
+Model Regularization & Ridge Regression
+https://openaccess.thecvf.com/content/CVPR2021/html
+Hoerl, A. E., & Kennard, R. W. (1970). Ridge Regression: Biased Estimation for Nonorthogonal Problems.
+Technometrics.
+Self-Supervised Learning (SSL) for Vision
+https://www.jstor.org/stable/1267351
+Grill, J.-B., Strub, F., Altché, F., et al. (2020).
+Bootstrap Your Own Latent: A New Approach to Self-Supervised
+Learning.
+Advances in Neural Information Processing Systems (NeurIPS).
+https://a rxiv.org/abs/2006.07733
+Chen, T., Kornblith, S., Norouzi, M., & Hinton, G. (2020).
+A Simple Framework for Contrastiive Learning of Visual
+Representaions.
+International Conference on Machine Learning (Icml).
+https://a rxiv.org/abs/2002.05709

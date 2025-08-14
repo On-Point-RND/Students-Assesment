@@ -1,0 +1,130 @@
+Slide 1
+----------------------------------------
+4/18/2025
+Inclusive Traffic Management System (ITMS)
+1
+INTELLIGENT TRAFFIC MANAGEMENT SYSTEM (ITMS) FOR THE PHYSICALLY IMPAIRED PEDESTRIANS
+PRESENTED BY
+[name]
+National [location] of Science and Technology [compaany]
+Institute of Computer Science
+Department of Info-communication Technologies 
+
+Slide 2
+----------------------------------------
+4/18/2025
+Inclusive Traffic Management System (ITMS)
+2
+1. Introduction
+Why: Addressing the mobility challenges faced by impaired individuals at pedestrian crossings.
+Current Challenges:
+1. Traffic systems prioritize vehicles, neglecting physically impaired pedestrians.
+2. Longer waiting times, safety risks, and lack of real-time adaptability.
+Research Gap:
+Existing IoT-based systems ignore or put less consideration on physically impaired pedestrians using mobility aids (wheelchairs, crutches).
+
+Figure 1: Frustration of impaired individuals on pedestrian crossing
+
+Slide 3
+----------------------------------------
+2. Proposed System (IITMS)
+Three Core Modules:
+Detection: YOLOv9 model identifies mobility aids (94.6% mAP@0.5).
+Communication: V2X enables vehicle-infrastructure-pedestrian coordination.
+Action Selection: A gradient-based algorithm optimizes traffic signals.  
+
+4/18/2025
+Inclusive Traffic Management System (ITMS)
+3
+
+Slide 4
+----------------------------------------
+4/18/2025
+Inclusive Traffic Management System (ITMS)
+4
+3. MODEL TRAINING
+
+Slide 5
+----------------------------------------
+4/18/2025
+Inclusive Traffic Management System (ITMS)
+5
+4. MODEL TRAINING & VALIDATION
+
+Slide 6
+----------------------------------------
+4/18/2025
+Inclusive Traffic Management System (ITMS)
+6
+5. MODEL TESTING
+
+Slide 7
+----------------------------------------
+4/18/2025
+Inclusive Traffic Management System (ITMS)
+7. Results: Detections of different classes 
+
+Confusion Matrix:
+
+Slide 8
+----------------------------------------
+4/18/2025
+8
+93%
+F1 Score
+This metric reflects the balance between accuracy and memorization.
+98%
+Precision
+Indicates the proportion of correctly detected pedestrians with physical impairments.
+94.6%
+mAAP@0.5
+Represents the average of the accuracy across all classes.
+8. Results (Performance metrics)
+
+4/18/2025
+Inclusive Traffic Management System (ITMS)
+
+Slide 9
+----------------------------------------
+4/18/2025
+Inclusive Traffic Light Management System
+
+9. Detection accuracy of ITMS
+
+Slide 10
+----------------------------------------
+10. Conclusion
+Contributions
+Inclusivity: Safe crossings for impaired pedestrians.
+Accuracy: State-of-the-art detection using YOLOv9.
+Scalability: The Framework is adaptable to diverse urban environments.
+
+Future Work
+Enhancements:
+Weather/lighting robustness.
+Integration with emergency response systems.
+
+Broader Impact:
+Foundation for equitable smart cities.
+
+Takeaways:
+IITMS bridges inclusivity gaps in traffic systems.
+High accuracy and real-time adaptability validate practicality.
+
+4/18/2025
+Inclusive Traffic Management System (ITMS)
+10
+
+Slide 11
+----------------------------------------
+11. References
+
+R. Billones, A. Bandala, E. Sybingco, L. G. Lim, A. Fillone, and E. Dadios,” Vehicle detection and tracking using corner feature points and artificial neural networks for a vision-based contactless apprehension system,” 2017 Computing Conference, pp. 1-7, July 2017, doi:10.1109/SAI.2017.8252170.
+S. A. H. Alhuthali, M. Y. I. Zia, and M. Rashid,” A Simplified Traffic Flow Monitoring System Using Computer Vision Techniques,” 2022 2nd International Conference on Computing and Information Technology (ICCIIT), pp. 1-6, Jan. 2022, doi:10.1109/ICCIT52419.2022.9711550.
+A. Ghosh, M. S. Sabuj, H. H. Sonet, S. Shatabda, and D. M. Farid,” An Adaptive Video-based Vehicle Detection, Classification, Counting, and Speed-measurement System for Real-time Traffic Data Collection,” in 2019 IEEE Region 10 Symposium (TENSYM), Dhaka, Bangladesh, 2019, pp. 1–6. Doi: 10.1109/TENSYM46218.2019.8971196.
+R. K. C. Billones, A. Bandala, E. Sybingco, L. A. G. Lim, and E. P. Dadios,” Intelligent system architecture for a vision-based contactless apprehension of traffic violations,” in Proceedings of the 2016 IEEE Region 10 Conference (TENCON), 2016, pp. 1871–1874. Doi: 10.1109/TENCON.2016.7848346.
+” Impaired Detection Dataset,” Roboflow Universe. Available: https://universe.roboflow.com/machinenov/impaired/model/10.
+
+4/18/2025
+Inclusive Traffic Management System (ITMS)
+11

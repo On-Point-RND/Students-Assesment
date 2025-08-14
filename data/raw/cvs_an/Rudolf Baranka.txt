@@ -1,0 +1,55 @@
+Amelia [name]
++2 *** *** ***
+tg: @[name]_ig
+[email]
+[email]
+https://github.com/[name]
+SUMMARY
+I am a current 3rd year student in the field of Machine Learning and Applications ([compaany], Applied Mathematics and Computer Science). Specializing in ML, DL, Data Science, Big Data, the main programming language is Python. I have experience in solving applied problems.
+Currently I am Research Intern at the [compaany] International Laboratory of Bioinformatics
+HARD SKILLS
+● Programming: Python (NumPy, Pandas, SciPy, Matplotlib, Seaborn, PyMongo, Dash),
+SQL, C++, C
+● Data Science & ML: Machine Learning, DL, PyTorch, Applied Statistics for ML, model
+interpretation tools (Captum), Big Data platforms (Apache Hadoop, Hive, SQL)
+● Development Tools: Linux, Git
+SOFT SKILLS
+● High productivity and self-discipline
+● Responsible, with a strong track record of meeting deadlines
+● Excellent communication and teamwork skills
+● Passionate about continuous learning and self-improvement
+● Fluent in three languages: English, German, French
+EDUCATION
+Research Intern at the [compaany] International Laboratory of Bioinformatics
+Bachelor’s in Applied Mathematics and Computer Science
+[compaany], Faculty of Computer Science
+● Specialization: Machine Learning and Applications (current 3rd-year student)
+● Ranking: 26th out of 287 students (top 14.63 percentile).
+● GPA: 8.76/10
+Key educational achievements:
+● Top Grades in Deep Python, Introduction to Data Platforms, Machine Learning, Applied
+Statistics for ML, Introduction to Deep Learning.
+● Advanced Mathematics courses with excellent marks.
+Teaching Assistant in:
+● Linear Algebra
+● Probability Theory
+● Mathematical Statistics
+PROJECTS
+Github: https://github.com/[name]
+● Paper “Robust Genomic Feature Selection Pipeline using an Ensemble of XAI
+Methods” is fortchcoming.
+● Machine Learning Projects: data preprocessing, model training, and performa
+nce optimization
+( Linear Regression, SVM, Logistic Regression, Decision Trees, CatBoost, and other
+boosting algorithms)
+● Deep Learning Projects: CNNs (Computer Vision), RNNs/LSTMs, Transforme
+rs (NLP applications)
+● Big Data Platforms Projects: hands-on experience with Apache Hadoop, Hive, Spark,
+Greenplum, ETL
+● Advanced Python Projects: built applications using specialized libraries, created a
+functional Telegram bot (full development cycle)
+ACHIEVEMENTS
+Bronze Medalist in the National Data Analysis Olympiad "DANO" (Diploma of the 3rd degree)
+Published 9 articles on probability theory paradoxes in Kvantik ([location] Mathematical Journal
+for Youth)
+Multiple award-winning participant of mathematics olympiads at regional and national levels

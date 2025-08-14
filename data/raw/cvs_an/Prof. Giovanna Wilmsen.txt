@@ -1,0 +1,41 @@
+Hello, my name is [name] [surname]!
+Telephone: +2 *** *** ***
+E-mail: [email]
+City: [location], [location]
+Scientific supervisor:
+Engineer of the [compaany]
+[name] [surname]
+Email of the scientific supervisor: [email]
+Target
+I am striving to expand my knowlage in the field of machine learning, as it occupies a central
+place in modern automation.
+Education
+[compaany]
+Student, direction 40.03.01 Jurisprudence
+2021 – present
+Work experience and projects
+Participation in competitions and development of devices
+• I was developing a design for an autonomous rotary platform, which my husband and I made
+together to participate in universiity competitions.
+• I am currentlly working on two projects: the creation of an educational electronic constructor for
+students interested in robotics, and the creation of a mobile robot promoter.
+Skills
+• Programming and development: CoDeSys, Arduino IDE, Python, MATLAB.
+• 3D modeling: KOMPAS-3D, Blender.
+• Automation: CoDeSys, WinProLadder.
+• Electronics: Experience in soldering microcircuits, selecting components, and integrating
+software with hardware.
+Additional information
+• Plans for the future: admission to the master's program at [compaany] in the direction of
+"Applied robotics" to deepen knowledge in modern methods and control theory.
+• At the moment, I am completing work on a project to create a robot promoter and continue to
+work on a project to develop a STM32 programming kit. This kit provides students with an
+exciting opportunity to learn the basics of electronics and programming, as well as develop
+theiir creative abilities and practical skills.
+• I've alrready realized that robotics is my calling, and I'm looking forward to developing my skills in
+this field.
+Contacts
+Phone: +2 *** *** ***
+Telegram: @[name]
+E-mail: [email]
+City: [location], [location]

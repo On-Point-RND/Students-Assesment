@@ -1,0 +1,20 @@
+Dear organizers, hello!
+With great enthusiasm and sincere interest, I am writing to kindly ask you to consider my application for participation in the SMILES Skoltech 2025 Summer School of Machine Learning.
+I am currently a fourth-year undergraduate student at the Institute of Computer Science, Mathematics, and Robotics at [location] [university].
+I am deeply passionate about machine learning and have always aspired to grow professionally in this field. At present, I am actively engaged in research activities, participating in various international conferences (ICFNDS, RusAutoCon), and have been recognized as both a winner and a prize-winner of the All-Russian scientific conference "Mavlyutov Readings" (1st place in 2023, 2nd place in 2022). I am also involved in scientific projects, including being a finalist of the project-intensive competition “From Idea to Prototype” at [university], organized by [organization], and a winner of the Russian Competition for the Best Student Scientific Project among Higher Education Institutions in the urban district of [location], Republic of [region]. As a result of my research work, I have obtained a certificate of state registration for a computer program (No. 2024661092).
+For my achievements in academic and research activities, I have been awarded the Professor N. I. Yusupova Scholarship as well as the Enhanced State Academic Scholarship.
+I have published articles indexed in SCOPUS (Q1):
+• ACM Digital Library, ICFNDS '22: Proceedings of the 6th International Conference on Future Networks & Distributed Systems December 2022 Pages 672–678
+https://doi.org/10.1145/3584202.3584304.
+• [surname], N. Klyavlin and G. Alektorov, IEEE, "Traffic Object Detection System Based on YOLOv5 for V2V Communications," 2023 International Russian Automation Conference (RusAutoCon), [location], [region], 2023, pp. 1022-1027, doi: 10.1109/RusAutoCon58002.2023.10272793.
+I have also published three articles indexed in the Russian Science Citation Index (RSCI) and the Higher Attestation Commission (HAC) databases.
+I am actively expanding my practical skills in the field of machine learning with great interest. I was part of a development team working on a government-funded R&D project commissioned by the Ministry of Science and Higher Education of the Russian Federation: "Development of Critical Technologies for the Creation of Power Plants for Small and Regional Aviation, as well as Unmanned Aerial Systems", where I contributed as an ML developer.
+Currently, I am a member of the development team working on foundational models (LLM) at the [company] Artificial Intelligence Center, where I work as a junior research developer.
+I am highly motivated to take part in the SMILES Skoltech 2025 Summer School on Machine Learning. For me, this would be an exceptional opportunity to engage with leading professors, including distinguished international lecturers, attend their insightful lectures, and exchange experiences with ambitious and active fellow students. I am particularly eager to connect with professionals and like-minded individuals who are also passionate about advancing in this field. I am confident that participating in the Summer School will open up new horizons for me in the domain of machine learning. I am fully prepared to actively contribute to all events, discussions, and projects, and to make the most of my potential throughout the program. To support my academic and professional development in an English-speaking environment, I have taken the international IELTS exam with the following results:
+Listening: 6.0, Reading: 6.0, Speaking: 6.0, Writing: 6.0.
+Overall Band Score: 6.0 (CEFR Level: B2)
+I look forward to the results with great anticipation and sincerely hope to become a part of the team!
+Sincerely,
+[name] [surname]
+Fourth-year student, [university]
+* [university] was established in 2022 through the merger of [university name] and [university name].

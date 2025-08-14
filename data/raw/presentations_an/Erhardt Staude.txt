@@ -1,0 +1,174 @@
+Slide 1
+----------------------------------------
+Diffusion models in symbolic music generation
+Author: [name], [compaany]
+Supervisor: [name]
+
+Slide 2
+----------------------------------------
+Problem statement
+Goal: expansion of functionaliity and acceleration of symbolic music generation using diffusion models.
+Task: implementation of a model for multi-tool generation and its optimization using One-Step Diffusion.
+‹#›
+
+Slide 3
+----------------------------------------
+Intro
+‹#›
+
+Slide 4
+----------------------------------------
+Generating symbolic music using diffusion models
+Generation quality
+Control of complexity and variability
+
+‹#›
+Cons:
+Pros:
+Limited functionaliity
+
+High resource consumption
+
+Alex [name], Prafulla Dhariwal. Improved Denoising Diffusion Probabilistic Models (2021)
+Models Comparison
+
+Slide 5
+----------------------------------------
+Using diffusion
+One of the first works
+Using diffusion for discrete data
+Unconditional generation and conditional infilliing
+‹#›
+Gautam Mittal, Jesse Engel, Curtis Hawthorne, Ian Simon. SYMBOLIC MUSIC GENERATION WITH DIFFUSION MODELS (2021)
+Architecture
+Models Comparison
+
+Slide 6
+----------------------------------------
+Reprresentation of symbolic music
+Using REMI
+Using a transformer in the reverse process
+Time-Aware Classifier
+‹#›
+Hao Sun, Liwen Ouyang. Diffusion-LM on Symbolic Music Generation with Controllability (2022)
+Tokenizer Comparison
+
+Slide 7
+----------------------------------------
+State of the art (SCHmUBERT)
+Direct modeling of discrete variables
+Token masking
+Unconditional generation and conditional infilliing
+‹#›
+Matthias Plasser, Silvan Peter, Gerhard Widmer. Discrete Diffusion Probabilistic Models for Symbolic Music Generation (2023)
+Architecture
+Models Comparison
+
+Slide 8
+----------------------------------------
+Оптимизация генерации
+Increasing the sample generation rate
+
+‹#›
+Tianwei Yin, Michael Gharbi, and others. One-step Diffusion with Distribution Matching Distillation (2024)
+Quality comparable to the original diffusion model
+
+Architecture
+
+Slide 9
+----------------------------------------
+LMDvsMMD
+‹#›
+
+Slide 10
+----------------------------------------
+LMD SCHmUBERT
+
+‹#›
+
+Slide 11
+----------------------------------------
+LMD SCHmUBERT
+
+‹#›
+
+Slide 12
+----------------------------------------
+Samples
+
+‹#›
+‹#›
+
+Slide 13
+----------------------------------------
+‹#›
+MMD SCHmUBERT
+
+‹#›
+
+Slide 14
+----------------------------------------
+MMD SCHmUBERT
+
+‹#›
+
+Slide 15
+----------------------------------------
+Samples
+
+‹#›
+‹#›
+
+Slide 16
+----------------------------------------
+Benchmarks
+
+‹#›
+‹#›
+Results
+
+Slide 17
+----------------------------------------
+Thank you
+
+Slide 18
+----------------------------------------
+Literature
+[name], Lilian. (2021). What are diffusion models? Lil’Log
+Gautam Mittal, Jesse Engel, Curtis Hawthorne, Ian Simon. (2021). SYMBOLIC MUSIC GENERATION WITH DIFFUSION MODELS
+[name] Stanford, Liwen Ouyang. (2022). Diffusion-LM on Symbolic Music Generation with Controllability
+Matthias Plasser, Silvan Peter, Gerhard Widmer. (2023). Discrete Diffusion Probabilistic Models for Symbolic Music Generation
+Tianwei Yin, Michael Gharbi, Richard Zhang, Eli Shechtman, Fredo Durand, William T. Freeman, Taesung Park. (2024). One-step Diffusion with Distribution Matching Distillation 
+
+‹#›
+
+Slide 19
+----------------------------------------
+Diffusion model
+
+Slide 20
+----------------------------------------
+One step diffusion
+
+Slide 21
+----------------------------------------
+One step diffusion
+
+Slide 22
+----------------------------------------
+One step diffusion
+
+Slide 23
+----------------------------------------
+SYMBOLIC MUSIC GENERATION WITH DIFFUSION MODELS
+
+Slide 24
+----------------------------------------
+Discrete Diffusion Probabilistic Models for Symbolic Music Generation
+
+Slide 25
+----------------------------------------
+Discrete Diffusion Probabilistic Models for Symbolic Music Generation
+
+Slide 26
+----------------------------------------

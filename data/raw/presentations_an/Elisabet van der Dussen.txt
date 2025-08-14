@@ -1,0 +1,57 @@
+CoMPaRATIVE Analysis of LoRA vs H-LoRA for Specialized RadiologicaL Domains
+
+[name]
+AI Talent Hub, [compaany], [location]
+April 21, 2025
+
+Research context
+
+Key Question: Does H-LoRA maintain its advantages in narrow specialized domains, or is standard LoRA sufficient for such focused applications?
+Research Focus:
+Clinical reality: specialists often work within specific imaging modalities or anatomical areas
+Does architectural complexity of H-LoRA provide meaningful benefiits in homogeneous datasets?
+Cost-benefiit analysis for practical clinical deployment
+
+H-LoRA Architecture and Key Components
+
+SLAKE: Medical Imaging Dataset
+
+SLAKE: Subdomens
+
+Models Architecture:
+H-LoRA experiments: CLIP-L/14 (visual encoder) + Phi-3-mini (3.8B LLM)
+LoRA experiments: Gemma3-4b (4B LLM)
+LoRA rank: R=16
+Evaluation Metrics:
+ROUGE-1: For open-ended text generation tasks
+Accuracy: For closed diagnostic tasks with definitive answeers
+Overall accuracy across all question types
+Experimental Configurations:
+LoRA trained on X-ray subdomain only
+LoRA trained on full SLAKE dataset
+H-LoRA trained on X-ray subdomain only
+H-LoRA trained on full SLAKE dataset
+
+Key observations:
+H-LoRA shows a slight advantage in ROUGE-1 scores (0.7351 vs 0.7314), indicating better performance on open-ended tasks
+Standard LoRA demonstrates superior accuracy (0.7204 vs 0.6902) for closed diagnostic questions
+The heterogeneous nature of the dataset reveals different strengths of each approach
+H-LoRA's architecture seems to handle diverse modalities better for generative tasks
+LoRA provides more precise classification despite simpler architecture
+Implications: When working with diverse medical imaging datasets, the choice between H-LoRA and LoRA should be guided by the specific task requirements.
+
+Key findings:
+Standard LoRA outperforms H-LoRA on ROUGE-1 (0.7889 vs 0.7821) for open-ended text generation
+H-LoRA maintains stronger performance on accuracy metrics (0.7327 vs 0.7243)
+The performance gap between methods narrows in this specialized domain
+LoRA shows remarkable efficiency for generative tasks in homogeneous data
+H-LoRA maintains advantages for classification tasks even in narrow domains
+Domain-specific insights: The more homogeneous nature of the X-ray subdomain appears to reduce some advantages of H-LoRA's complex architecture while highlightiing its strengths in specific classification scenarios.
+
+Future Directions
+
+Comparing XLoRA (expert-based approach) on the full dataset with standard LoRA
+Investigating visual reasoning capabilities, as tests showed that certain errors persist regarldess of LoRA rank
+Exploring more complex model architectures rather than simply increasing adapter rank
+Developing hybrid approaches combining the advantages of both methods
+Testing on other narrow domains (CT and MRI of specific organs)

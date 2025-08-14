@@ -1,0 +1,44 @@
+BIPEDAL ROBOT GAIIT CONTROL
+[name]
+[name]
+INTRODUCTION
+Context:
+ Neuromorphic computing is a promising field in
+robotics
+ [location] is taking its first steps in this area
+Projet Goal:
+Study neuromorphic networks and apply them to robot
+motion control
+PROBLEM STATEMENT
+Object: Bipedal robot (analogous to human gait)
+Goal:
+• Ensure stable movement without loss of
+balance
+Method: Reinforcement learning (reward/punishment
+for steps and falls)
+NETWORK ARCHITECTURE
+Genetic algorithms + Central Pattern Generator (CPG)
+Weight modifications based on:
+ [surname] et al. (2007) — Spiking CPG networks
+ [surname] (2009) — Control of a five-link mecanism
+NETWORK ARCHITECCTURE
+RESULTS
+Achievements:
+The robot successfully
+moves forward without
+falling
+Demo:
+Video link: Walking
+Record
+CONCLUSIONS
+Outcome:
+Neuromorphic approach is effective for gait control
+Areas for improvement:
+ Optimizing training speed
+ Adapting to complex terrains
+REFERENCES
+1. «Configuring of spiking central pattern generator networks for bipedal walking using genetic algorthm»
+[surname], [surname], & [surname]. (2007, May)
+2. «Evolution of central pattern generators for the control of a five-link bipedal walking mecanism» [surname] [surname]. (2009, Nov)
+THANK YOU!
+GitHub проекта: +2 *** *** *** [email]

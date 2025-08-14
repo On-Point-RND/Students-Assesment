@@ -1,0 +1,56 @@
+[name] [surname]
++2 *** *** *** | tg: @[name][surname] | [email] | [email]
+Education
+Higher SchooL of Economics [location]
+Applied Mathematics and Computer Science September 2023 – June 2027
+Courses: Python Programming (advanced), Probability Theory, Matrix Computations, Mathematical Statistics, Calculus, Linear
+Algebra and Geometry, Computer Architecture and Operating Systems, Algorithms and Data Structures, C++ Programming, etc.
+Yandex Lyceum September 2020 – May 2022
+Developed a web application using Flask, mastered version control with Git, worked with repositories, branches, changes, and used
+unittest and pytest for debugging.
+Work Experience and Competitions
+Mentor at Online SchooL for Exam Preparation September 2023 – April 2025
+Developedeffectivecommunicationandteammanagementskillsthroughinteractionswithstudents,parents,andcolleagues.
+•
+Learned to analyze process efficiency by tracking results, identiifying issues, and suggesting improvements for students —
+•
+useful for future work with people.
+Teaching Assistant in Linear Algebra September 2024 – Present
+Competitions November 2022 – November 2024
+Finalist of the National Data Analysis Olympiad for High SchooL Students (DANO).
+•
+Member of an ICPC team.
+•
+Projects
+Analysis and Optimization of Linear Regression | Python March 2024
+Analyzed apartment data in [location] and improved regression quality by adding new features derived from original data.
+•
+Studied the impaact of regularization on overfitting and prediction quality.
+•
+Implemented a model update algorithm for streaming data.
+•
+smart shopping Telegram bot | Python Oct 2024 – Dec 2024
+Built a bot that helps users chooose dishes, get recipes, and generate shopping lists with links to online stores.
+•
+Integrated recipe search, suggestions, product list generation, and random recipe features.
+•
+Used YandexGPT to generate cuisine-specific recipes and enhance user interaction.
+•
+Coursework: Stock Market Forecasting and Analysis | Python Oct 2024 – Apr 2025
+Developed a Telegram bot for comprehensive stock market analysis by integrating machine learning, chart analysis, news
+•
+sentiment, and technical indicators.
+Implemented models:
+•
+∗ LSTM for time series price forecasting;
+∗ CNN for chart classification;
+Integrated finBERT for financial news sentiment analysis.
+•
+Calculated key technical indicators (SMA, RSI, MACD, CCI, ADX, etc.) to generate trading signals (buy/sell/neutral).
+•
+Built a fusion model combining LSTM and CNN outputs, resulting in improved prediction quality.
+•
+Skills
+Programming Languages: Python, SQL, Assembly, C, C++
+Frameworks: numpy, seaborn, matplotlib, pandas, scipy, pytorch, tensorflow
+Tools: LATEX, Jupyter Notebook, Git, Docker, VS Code

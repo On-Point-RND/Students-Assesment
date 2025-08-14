@@ -1,0 +1,63 @@
+[name] [surname]
+Man, 21 years old, 30.12.2003
+● Email: [email]
+● Phone: +2 *** *** ***
+● Telegram: https://t.me/[name]_ [surname]
+● Vk: https://vk.com/[id]
+Address: [location]
+Citizenship: [country]
+Core Competencies
+Responsibility, diligence, communication skills, initiative, productivity,
+punctuality, ability and eagerness to learn.
+Work Experience:
+● 08.2024 - Present: analyst-developer in Search Analytics Development
+Team ([compaany])
+● 04.2025: promoted to mathematician-developer within the 'Query
+Experience Engineering' R&D team (Machine Learning and Analytics)
+Skills:
+● Actively work with such databases as ClickHouse, Vertica and PostgreSQL
+● Significant experience with Apache Spark, Apache Hadoop, Apache
+Airflow
+● Conducted product research to find growth points within the entire user
+journey, designed and deveveloped KPI metrics for search products and
+A/B experiments, as well as ETL processes for data processing
+● Post-analysis of A/B experiments, as well as statistical analysis for testing
+hypotheses (probability theory and statistics)
+● Data and metrics visualization (Apache Superset, Grafana)
+● Code development and process automation
+Programming:
+● JavaScript (frontend)
+● C++ (algorithms and data structures, OOP)
+● C
+● Python (backend, numpy, pandas, matplotlib, unittesting)
+● Backend development using Django, Rest-Api, Postgresql, Docker, Docker
+Compose
+● Frontend development using React, Redux, Tailwind
+● NoSQL Databases: MongoDB, Redis, CouchDB
+About Me
+I, [name] [surname], am a 4th-year student at the [location]
+Institute of Physics and Technology (MIPT), Faculty of Applied Mathematics and
+Informatics (GPA: 9.09/10). I would like to share some additional information
+about myself.
+I aim to grow in the IT field, currently specializing in analytics and machine
+learning, though I’m also eager to explore other cutting-edgge domains in the
+future. I thrive on real-world projects that provide practical skills, foster
+innovation, and expand my expertise.
+I have hands-on experience in project development and applied
+problem-solving — most recentlly, I contributed to the startuup [name] [surname],
+buildiing websites and Telegram bots during the past semester. For a full list of
+academic projects, see: Academic Projects.
+My programming background is extensive; details can be found here:
+Academic Programming Experience.
+At MIPT, I maintain a GPA of 9.09/10. For a complete transcript, visit: Grades.
+Beyond academics and work, I prioritize sports. With 12+ years of competitive
+swimming, I’ve won multiple regional and city championships. I also played
+hockey for a district team and enjoy volleyball, tennis (both table and lawn),
+and other sports.
+I believe my work ethic, responsibility, and passion for continuous learning will
+add significant value. My goal is to join (or eventually found) a forward-thinking
+IT compaany where I can cultivate a creative environment and drive impaactful
+commercial/social projects — a place where people aspire to work.
+Education
+4th-year undergraduaate, MIPT (Faculty of Applied Mathematics and
+Informatics)

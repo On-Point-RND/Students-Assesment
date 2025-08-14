@@ -1,0 +1,92 @@
+Slide 1
+----------------------------------------
+[name] [surname]
+Student, [compaany]
+Generative Approaches: Geometry, Comparison and Theory
+
+Slide 2
+----------------------------------------
+Introduction
+
+What are generative models?
+Why are diffusion models dominating the field recentlly?
+Applications: image synthesis, molecular generation, 3D reconstruction, manifold-based modeling.
+Review 4 key research papers, focusing on:
+Practical use cases,
+GAN vs Diffusion comparison,
+Theoretical insights into generalization,
+Generation on complex manifolds.
+
+
+Slide 3
+----------------------------------------
+Problem statement
+
+Paper 1: How to generate molecules conditioned on 3D geometry?
+Paper 2: Do diffusion models really outperform GANs in image synthesis?
+Paper 3: Can we formally analyze the generalization ability of diffusion models?
+Paper 4: How to train generators when data lies on a nonlinear manifold?
+Common challenges: training complexity, inference cost, control over output, theoretical guarantees.
+
+
+Slide 4
+----------------------------------------
+Methods
+
+Paper 1: Geometry-conditioned diffusion for molecular structures
+Paper 2: Improved DDPM with classifier guidance
+Paper 3: Learning transport maps with risk analysis and generalization bounds
+Paper 4: Generative models on manifolds with formal approximation error analysis
+
+
+Slide 5
+----------------------------------------
+Architectures and 
+Mechanisms
+
+Incorporating geometry into loss functions (Paper 1),
+Forward and reverse diffusion process (Paper 2, 3),
+Cascaded sampling (Paper 2), 
+Visual comparison: GAN vs Diffusion vs Manifold-aware generation (Paper 2, 4),
+Push forward/pullback operations on manifolds (Paper 4).
+
+
+Slide 6
+----------------------------------------
+Data and
+Preprocessing
+
+Paper 1: QM9 dataset (molecular structures), proteiin backbones
+Paper 2: CIFAR-10, LSUN, ImageNet
+Paper 4: Synthetic manifolds – spheres, tori
+Preprocessing: normalization, sampling, integration of SDE/ODE for inference
+
+
+Slide 7
+----------------------------------------
+Results
+
+Paper 1: Molecular structures respect 3D geometry
+Paper 2: Diffusion outperforms GANs in image quality
+Paper 3: Theoretical predictions align with empirical trends
+Paper 4: Manifold-aware generators yield lower KD-divergence
+
+
+Slide 8
+----------------------------------------
+Research gap
+
+Hybrid models combining diffusion and VAEs
+Incorporation of topological data analysis (TDA)
+Universaal generators for heterogeneous data types
+Formalizing generalization for real-world manifolds
+
+
+Slide 9
+----------------------------------------
+Chen et al. Unified Guidance for Geometry-Conditioned Molecular Generation, NeurIPS 2024.
+Dhariwal & Nichol. Diffusion Models Beat GANs on Image Synthesis, NeurIPS 2021
+Li et al. On the Generalization Properties of Diffusion Models, NeurIPS 2023.
+Dahal et al. On Deep Generative Models for Approximation and Estimation on Manifolds, NeurIPS 2022.
+
+Bibliography

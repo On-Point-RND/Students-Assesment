@@ -1,0 +1,85 @@
+[name]
+[email]
+[location]
+[company]
++2 *** *** ***
+[email]
+[name]
+[surname]
+[location]
+[company]
+JAN 2024 – PRESENT Professional Retraining program, [company], [location]
+major: Children’s Psychology
+AUG 2015 - JUNE 2020 M.Sc. in Biotechnology, [company], [location]
+major: Biomedical Science and Technology
+Thesis “Computational Methods for Analysis of [name] rerio Behavior in Novel Tank Test
+as a Tool for Screening of Pharmacological Agents” at Lab of Biological Psychiatry,
+[company]
+Institute of Translational Biomedicine supervised by prof. A.V. Kalueff
+SEP 2011 – JUN 2015 B.Sc. in Biology, Saint Petersburg State Universiity
+major: Higher Nervous Activity and Psychophysiology
+Thesis “Correlation between the Mu-rhythm’ phase and the time of motor response” at
+Dept. of Higher Nervous Activity and Psychophysiology supervised by prof. D.R. Belov
+Projects
+OCT 2023 – MAY 2024 Supervision of an educational project “Machine learning methods for classification of
+inflammatory bowel diseases based on taxonomic and functional biomarkers” (paper
+reproduction; winner of the XXXIV Saharov’s Readings Scientific conference)
+AUG 2014 – MAR 2022 Research Engineer, Neurodevelopment and Neurophysiology Group, [company]
+Scientific search and data analysis in neurobiology linked with biological processes
+modeling, key concepts development for neural tissue in silico modelling
+Bozhko D.V., Galumov G.K., Polovian A.I., Kolchanova S.M., Myrov V.O., [name], &
+Schiöth H.B. BCNNM: A framework for in silico neural tissue development modeling.
+2021, Frontiers in computaional neuroscience, 14, doi.org/10.3389/fncom.2020.588224
+Development of a functional model of the thalamo-corticothalamic loop based on the
+Hodgkin-Huxley model (Python)
+Job Experience
+AUG 2022 – PRESENT Senior Educational Projects Coordinator, Bioinformatics Institute, [location]
+managing one-year professional retraining program in bioinformatics including:
+● Planning and organizing entrance exams and interviews
+● Teaching Staff coordination (team course selection, methodological and tech support)
+● Educational process and Events organization
+● Students psychological support upon request and based on feedback and performance
+● Research projects organization with external collaborators
+● Alumni community support (initiatives and interest clubs, requests processing)
+https://bioinf.me/open_winter – Organisation of one-week offlinne workshop for
+50 students in January 2025
+55/75 graduaations in 2023; 46/60 graduaations in 2024; 60 students enrolled in 2025
+3 graduates continue education at Institute, 6 graduates work as teaching assistants
+JAN 2025 – PRESENT Personal Support Mentor and Soft Skills Tutor, “Foxford”
+OCT 2022 – PRESENT Additional Formaions Teacher, Physics and Mathematics Lyceum No. 366
+Development and teaching original course “Bioengineering and neuromodelling” for
+high schoo
+Teaching “Python programming” course for high schoo as Yandex.Lyceum teacher
+Teaching “C++ programming basics” course for middle schoo
+JUL 2011 – MAY 2024 Private tutor – Math, Programming, Physics, Biology, Chemistry
+Individual learning path development, ensuring high-quality communication on
+psychological aspects of the educational process between students and their parents.
+AUG 2021 – MAR 2022 Community Coordinator, [company] Research, [location]
+Project “[company] Research Looking Back at 2021” – video reports of labs achievements
+https://www.youtube.com/playlist?list=PL1iwBJ9vqBRbXYy26Sh3GrbENVV5ycOM-
+Role: communicating and interviewing participants, directing video editing, subtitles
+preparation and timing, communication with translators.
+20 participants, total video length >2 hours, >3000 views in total
+Project “CS Center New Year Programming Contest”
+https://stepik.org/course/104639/info, 1250 participants
+Role: concept development, communication with tasks authors
+Skills
+Higher Nervous Activity physiology, Computational Neurobiology basics;
+Educational processes and events manager (online and offline), working with community;
+General psychology, interpersonal communications and emotional support;
+Business communications, personnel trainings, team management and corporate ethics.
+Career guidance for pupils, students and adults, including external professional retraining programs options.
+Programming: Python, C++ – upper intermediate
+Graphic Design: Adobe Illustrator, Adobe Photoshop – basic
+Text Layout: Adobe Illustrator, Figma – intermediate
+General: Microsoft Office, Google Workspace – advanced
+Languages
+Russian – native, English – advanced, Chinese – begiinner, Korean – begiinner
+Extracurricular Activities
+JAN 2024 – PRESENT Invited speaker at Artificial Intelligence Academy podcast
+https://aiacademy.mave.digital/ (episodes 1 and 14)
+NOV 2015 – JAN 2019 Author for science-pop journal “Za Nauku” [location] Institute of Physics and Technology
+https://zanauku.mipt.ru/author/[name]
+JAN 25-31, 2015 Bio Winter SchooL by “Future Biotech”
+NOV 4-7, 2013 OpenINNO training program “Innovation for Entrepreneurs in Globalizing Environment”
+AUG 6-20, 2012 Business English Courses at English First SchooL (London)

@@ -1,0 +1,98 @@
+
+
+[name] [surname]  
+[company]  
+
+Development of software for the information system of the electronic photo archive of local history information  
+
+Relevance  
+
+2  
+
+Concludes in the need to develop software that helps researchers, enthusiasts of local history to effectively manage photographic materials, minimizing the efforts to catalog and search for information, while providing users with the ability to use the photo archive when traveling in the region  
+
+Purpose  
+
+Design and development of a module for tourist information system, designed to work with electronic photo archive of local history information  
+
+Tasks  
+
+Analyze the market of tourist information systems from the point of view of searching for photographic information  
+Create a dataset of photos of the city in different historical periods  
+Retrain the ResNet neural network  
+Develop the server part of the tourist IS  
+Create a mock-up of the client part of the tourist IS.  
+
+Market Analysis  
+
+[company] Travel is a platform that allows users to plan trips, compare and book flights, hotels and car rentals. The service integrates various [company] tools such as Maps and Search to provide comprehensive travel information, including places, routes and even weather conditions at the destination.  
+
+Market analysis  
+
+[company] is a service that provides users with information about places nearby, including restaurants, bars, stores and other interesting objects. Users can leave reviews, share photos and rate places, as well as get recommendations based on their preferences and location.  
+
+High quality images of historical landmarks of [location]  
+Used to train a neural network to accurately recognize historical landmarks of the city  
+
+Dataset of [location] attractions  
+
+Neural networks for image classification  
+
+ResNet is a deep neural network with missing links designed to solve the gradient attenuation problem  
+
+Post-training libraries using [company]  
+
+[company]  
+Open source machine learning library  
+Allows to utilize the processing power of graphics cards  
+Allows automatic graph computation  
+Flexible functionality thanks to dynamic graph computation  
+
+Determination  
+
+Advantages  
+
+Disadvantages  
+
+TripletLoss is a loss function that is used to train neural networks in comparison tasks such as face recognition, recommender systems, etc.  
+
+TripletLoss allows you to create more accurate models for comparison tasks such as object recognition or image classification.  
+
+Application of TripletLoss in ResNet  
+
+More data is required than in a normal loss function, as positive and negative examples are needed for each anchor example.  
+
+ResNet neural network retraining  
+
+Pre-processing  
+Discussed the pre-processing techniques used on the [location] Landmarks dataset, including image resizing and normalization.  
+Training  
+We examined the process of training a ResNet neural network on the [location] landmarks dataset, including the use of data augmentation.  
+
+Results ResNet (good result)  
+
+Results ResNet (not good result)  
+
+Development tools  
+
+Application Architecture  
+
+Home page of the website  
+
+Chatbot on the homepage  
+
+Mobile app version  
+
+Approbation of the results of the project  
+
+Conclusion  
+
+In the future, the project can be developed for full-fledged use by users in the [location] region and not only.  
+
+Analyzed the market of tourist information systems from the point of view of search of photographic information  
+Described the functionality of the module of processing of graphic information for tourist IS  
+Retrained neural network ResNet  
+Developed the server part of tourist IS  
+Created the layout of the client part of tourist IS.  
+
+Thanks for attention

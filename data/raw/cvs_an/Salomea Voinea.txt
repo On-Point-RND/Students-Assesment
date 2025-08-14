@@ -1,0 +1,39 @@
+[name]
+[location]
++2 *** *** ***
+[email]
+linkedin.com/in/[name]-[surname]
+Technical Skills
+Programming Languages:: Strong command of Python for Data Analysis, Statistics, Mathematics, and Machine Learning.
+Rstudio,MATLAB,SQL,andScala
+MicrosoftOffice:Proficient in MS Word, MS Excel(includingPivotTables,functions,andvisualization),MSPowerPoint
+AnalyticalPrograms:Skilled in KNIME,RapidminerStudio,Tableau,DeductorStudio,andMicrosoftAzure for comprehensive data analysis and visualization.
+FinancialData: Bloomberg Terminal for financial data retrieval and analysis
+Work Experience
+JPMorganAssetManagement,FundAdministration(Reporting) [location]
+EmergingTalentIntern November2023-September2024
+• Automated the oversight of SFDR reporting using Python, increasing accuracy to 99% and adapting reports to meet CSSF regulatory requirements
+• Parsed AIFM XML reports to build a unified database, streamlining regulatory data management
+• Oversaw and partially automated MMF and UCITS reports, enhancing operational efficiency and reducing manual errors,while gaining deep expertise in the fund industry
+[location]Institute of Health,Competence Centre for Methodology and Statistics [location]
+DataScienceAssistant July-September2023
+• Conducted a large-scale follow-up study (n≥40,000) to assess the FINDRIS score threshold for detecting dysglycemia in occupational medicine. Utilized RStudio for logistic regression, ROC, and AUC analyse to fine the diabetes screening process, improving the precision of risk assessment based on lifestyle and medical data from individuals undergoing mandatory health examinations in [location]
+[location]Bank,RetailBusinessRisk Department [location]
+Analyst July-September2022
+• Developed and implemented a credit card issuance strategy focused on minimizing risk, deploying a graph model for 20% of clients to assess borrower reliability through network relationships
+• Reduced overall risk by 1%, improved client selection, and optimized credit limits, leading to increase bank profitability
+• Utilized SQL to analyze over 10 million clients and refine queries, while leveraging Excel for metric comparisons and research,following an Agile approach
+VTBCapital,FixedIncomeResearch [location]
+Ranked1st in [location] by Institutional Investor’s Emerging EMEAResearchTeam2021 July2021-June2022
+FixedTermAnalyst
+• Automated extraction of statistical data from Central Banks, Stock Exchanges, and Statistical Centers’ websites using Python. Transformed and stored data for easy processing. Created user-friendly dashboards in Rstudio with flex_dashboardlibrary. Conducted a study of money market products, including bonds, interest rates, and derivatives
+[location] ,Corporate and Investment Banking Department [location]
+AnalystTrainee November2020-May2021
+• Revamped business processes by automating Excel file assembly using Python, achieving a 10-fold increase in speed compared to manual methods. Implemented SQL for efficient data uploading from databases. The automation resulted in a significant boost in productivity and data integrity
+Education
+Master’s in Data Science Universityof[location]
+FacultyofScience,TechnologyandMedicine [location],2022-2025
+ThesisTitle:EvaluatingEffectiveTechniquesforSyntheticDataGenerationwithinConstraints
+Bachelor’s in Applied Mathematics&CSwithHonors FinancialUniversityundertheGovernmentoftheRus.Fed.
+Major:DataAnalysisinEconomicsandFinance [location],2017-2021
+ThesisTitle:InvestigationofStochasticModelsofInterestRates

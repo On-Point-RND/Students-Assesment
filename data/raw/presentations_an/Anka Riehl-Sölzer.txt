@@ -1,0 +1,115 @@
+Predicting Borrower’s Default and
+Reducing the Risk for Banking
+[name]
+Plekhanov Russian Universiity of Economics ‘26
+[compaany] Laboratory Researcher
+Introduction and Problem Statement
+Rapid
+growth in
+data
+Datasets
+complexity
+Insights,
+Machine
+Databases
+better
+Traditional Learning
+decisions
+methods are
+Other
+insufficient
+sources
+Increased
+overdue
+debt
+By pre-screening borrowers using significant criteria derived
+from historical repayment data, banks can better regulate
+overdue debt and maintain financial stability.
+Data analysis
+Defaulting borrowers typically take smaller loans while
+responsible borrowers are more likely to take larger loans.
+Responsible borrowers exhibiit higher normalized credit
+scores from external sources, indicating a strong
+correlation between creditworthiness and external ratings.
+The analysis of pairwise correlation coefficients revealed
+the absence of strong linear relationships both between
+the features and between the features and the target label.
+Applied models
+ROC-AUC on
+Model F1-Score on Validation Set Training Time
+Validation Set
+Logistic regression model 0.6797 0.2195 6.6120
+Decision tree model 0.6762 0.2195 1.3365
+Random forest model 0.6991 0.2515 21.1726
+LGBM 0.7152 0.2484 2.1973
+Searching informative features by MLxtend Testing the best LGBM revealed no signs of overfitting
+Accuracy 0.6965
+F1-score 0.2475
+Precision 0.1550
+Recall 0.6140
+ROC-AUC 0.7165
+Chalallenges and Adjustments
+𝑭𝑵
+𝑭𝑵𝑹 =
+𝑭𝑵 + 𝑻𝑷
+𝑻𝑷
+𝑹𝒆𝒄𝒂𝒍𝒍 =
+𝑻𝑷 + 𝑭𝑵
+Too many FN lead to less default clients detection.
+The quality of training on the test set for the best model
+Since the False Negative Rate (FNR) is not directly
+Accuracy 0.67284
+available in sklearn , a custom function was
+created to evaluate this metric. F-мера 0.25137
+Precision 0.15693
+Recall 0.63127
+To ensure the model identifies as many unreliable
+borrowers as possible, Recall (sensitivity) was
+chosen as the training metric, as it focuses on
+maxiimizing true positives.
+Results
+The Shapley values provide a definitive assessment Thus, the greatest contribution to the prediction of
+of each feature's contribution to every prediction borrower default is made by the type of education, type
+of income, and the assessment of the borrower's region
+of residence
+Research gap
+What is missing? Why it matters?
+Integrating richer datasets could also lead to a more
+Credit history records
+comprehensive understanding of borrower behavior,
+enabling more personalized and effective lending
+Prior loan details strategies.
+Card balance data
+Future opportunities
+Unresolved challenges
+Next steps include exploring more advanced machine
+More Computational
+learning models, such as deep learning or hybrid
+machine
+learning
+approaches, to enhance predictive performaance.
+advanced limitations
+Additionally, overcoming computaional constraints will
+allow to integrate complementary datasets
+machine
+learning
+models
+Bibliography
+1. Hastie, T., Tibshirani, R., & Friedmman, J. (2009). The Elements of Statistical Learning: Data Mining,
+Inference, and Prediction
+2. Thomas, L. C., Edelmaan, D. B., & Crook, J. N. (2002). Credit Scoring and Its Applications. SIAME.
+3. Lessmann, S., Baesens, B., Seow, H. V., & Thomas, L. C. (2015). “Benchmarking state-of-the-art
+classification algorithms for credit scoring: An update of research”. European Journal of Operational
+Research, 247 (1), 124-136
+4. Khandani, A. E., Kim, A. J., & Lo, A. W. (2010). “Consumer credit-risk models via machine-learning
+algorithms”. Journal of Banking & Finance, 34 (11), 2767-2787
+5. Yeh, I. C., & Lien, C. H. (2009). “The comparisons of data mining techniques for the predictive
+accuracy of probability of default of credit card clients”. Expert Systems with Applications, 36 (2),
+2473-2480
+6. Bastos, J. A. (2010). “Forecasting bank loans loss-given-default”. Journal of Banking & Finance, 34
+(10), 2510-2517
+7. Chen, T., & Guestrin, C. (2016). “XGBoost: A Scalable Tree Boosting System”. Proceedings of the
+22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
+8. Pedregosa, F., et al. (2011). “Scikit-learn: Machine Learning in Python”. Journal of Machine Learning
+Research, 12 , 2825-2830
+9. [compaany] & Compaany. (2021). “The Future of Risk Management in Banking”

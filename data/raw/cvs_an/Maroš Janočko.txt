@@ -1,0 +1,37 @@
+[name] [surname]
+[location]
+Email: [email]
+Telegram: [email]
+Education
+[location]
+Bachelor's Degree in Biology, with honors — 2024
+[location]
+Professional retraining program: Developer of Digital Medical Services
+Qualification: Programmer
+Experience & Projects
+Development of a Web Service for Fundus Image Analysis
+(Part of professional retraining program)
+ Designed a machine learning model using AI and computer vision
+techniques
+ Conducted data preprocessing and medical image analysis
+ Participated in model development and result interpretation
+ Tools: Python, Pandas, NumPy, Scikit-learn
+Alfa-Bank Hackathon
+ Developed a model for predicting corporate client churn in banking services
+ Responsible for data analysis, machine learning model building, and
+result evaluation
+ Tools: Python, Scikit-learn, Pandas
+Skills
+ Programming Languages: Python (primary), basic knowledge of SQL,
+R, C
+ Libraries & Tools: Pandas, NumPy, Scikit-learn
+ Version control: Git
+Additional Information
+SchooL 21 (by Sberbank)
+Successfully completed the selection bootcamp in Summer 2024, learned the basics of C programming, team collaboration, and project development.
+Although the training was not completed for personal reasons, I continued to
+work on Data Science projects independently.
+Highly interested in applying machine learning to biology and medicine.
+
+
+

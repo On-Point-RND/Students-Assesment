@@ -1,0 +1,52 @@
+[name] [surname]
+[email]
++2 *** *** ***
+[location]
+Education
+2023 – present [compaany]
+International College of Economics and Finance
+Bachelor's Degree - Dual Degree Program in Economics and
+Finance ([location], [location])
+Key Courses: Probability Theory and Statistics (9/10), Mathematical
+Analysis (9/10), Microeconomics (10/10), Computational Methods in
+Probability (9/10), Computational Statistics (8/10), Macroeconomics
+(9/10), Linear Algebra (8/10)
+Coursework: "Analysis of the Influence of the Regularization
+Technique on the Optimal Portfolio Composition"
+Ranking: Top 7.66% | GPA: 4.5/5
+Additional
+-Preparatory courses for entrance exams to the [compaany] of
+Education &
+Data Analysis
+Semi-nars
+Applied seminar "Quantitative Analysis" focusing on mathematical
+and data-driven approaches in finance, including blockchain, risk
+management and algorithmic trading.
+Achievements
+Academic - Winner (Top-10) of the "Vysshaya Proba" Olympiad in Economics
+competiitions
+- Winner of the regional stage of the All-Russian SchooL Olympiad
+(VsOSH) in Economics
+- Winner of the "Mission Possible: Your Calling is Finance"
+Olympiad
+- Prize-wiinner of the [location] Olympiad for Schoolchildren (MOS) in
+Economics
+- Prize-wiinner of the "Sibiriada" Olympiad in Economics
+Skills and Interests
+Technical Skills Python (Advanced: pandas, numpy, matplotlib, scikit-learn), SQL,
+MS Office (Word, Ouutlook, Excel, PowerPoint, VBA), LaTeX
+Languages English - C1 level
+ML and DL Skills
+Supervised Logistic regression, KNN, Support vector machines, Decision trees,
+learning Ensembles (Random forest and other linear models), Gradient
+Boosting
+Regressions Linear regression, Ridge, Lasso, Elastic net, Support Vector
+regression
+Unsupervised K-means, Hierarchical clustering
+learning
+Ensembles Bagging, Bootstrap, Boosting, Stacking
+Reduction of Principal component analysis, t-distributed stochastic neibourg
+dimension embendiing
+Deep learning Mini-batch training, Batch and data normalization, Validation
+techniques, PyTorch, Gradient descent, MNIST classification, CNN,
+RNN

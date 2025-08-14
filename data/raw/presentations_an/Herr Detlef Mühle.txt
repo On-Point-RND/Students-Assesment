@@ -1,0 +1,37 @@
+ANONYMISED TEXT:
+            
+Surgery may be more dangerous than conservative treatment,
+depending on the specific situation.
+In case of aortic aneurysm:
+Even experienced specialists find it difficult to
+predict the risks of complications
+Not all reasons leading to complications are clear
+Need for additional automated risk
+forecasting
+And
+search of all the causes leading to
+complications
+Current result
+A working neural network capable of identifying various organs,
+such as the stomach, in CT images, and also, based on the
+resulting markings, building a 3D model
+Result image
+a system consisting of a neural network and algorithms for
+constructing 3D models and analysis, allowing both to conduct a
+complete risk analysis and to facilitate such analysis for
+specialists.
+Plans for the second stage
+Getting a dataset from an abdominal CT scan
+18.07
+Additional training and configuration of neural
+19.07
+network parameters for marking up the received
+dataset
+20.07
+Creation of 3D models and development of
+21.07
+algorithms for analyzing the geometry of models
+22.07
+Analysis of the received data, identification of
+dependencies
+thank you for your attention

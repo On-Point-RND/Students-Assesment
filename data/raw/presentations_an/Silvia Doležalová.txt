@@ -1,0 +1,160 @@
+Review of articles: Non-identically
+distributed data in federated learning.
+[name]
+PhD student, [location] State
+Electrotechnical [location]
+Data scientiist, [compaany] sales
+Introduction
+One of the topics of the summer schooal was "safe AI".
+Federated learning (FL) makes a significant contribution to
+solving individual aspects of the problem of safe AI. And
+the main focus of the review was the problem of non-
+identically distributed data (non-iid data).
+The problem of Non-IID data in (FL) is critically
+important as it directly affects the efficiency, stability
+and fairness of the models. Ignoring Non-IID makes
+FO inapplicable to most real-world problems.
+The main objective is to consider
+different approaches to solve problems
+with non-id data within the framework of
+federated learning.
+2
+Problem statement
+Finding the universaal approach to deal with
+The main problem:
+non-iid data in federated learning.
+Algorithm
+s solve the following main problems:
+1. Problems of algorithm convergence.
+2. Reducing the quality of the model.
+3. Injuestice and bias (Bias).
+4. Risks of information leakage.
+Fig. 1. Architecture and process of federated learning
+3
+Claasifier Calibration for Federated
+Learning with Non-IID Data1
+Approach: Why these methods? How it works?
+First, the model is trained
+• Classifier Calibration as a post-
+It is unclear which part of
+processing after the main FL using the standard FL
+deep neural network method (e.g., FedAvg). Then
+suffeers the most from Non-
+• Modeling feature distributions the server receives statistics
+using a Gaussian Mixture Model IID data in FL. Existing
+of their data from clients
+(GMM).
+methods are complex and
+(mean and covariance of
+not always effective.
+features for each class),
+approximates the global
+distribution of features,
+generates artificial ("virtual")
+features based on this
+distribution, and uses them
+to further train (calibrate)
+the classifier (the last layer of the
+network) suffeers from heterogeneity much more than the feature
+extractor layers. The classifier becomes "biased" towaards the onlly the last layer (classifier)
+dominannt classes of the client.
+​​
+Conclusion:
+4 Luo, M., Chen, F., Hu, D., Zhang, Y., Liang, J., & Feng, J. (2021). No Fear of Heterogeneity: Classifier Calibration for Federated Learning with Non-IID Data. In Advances in Neural
+Informaation Processing Systems 34 (NeurIPS 2021). (Also available as arXiv:2106.05001v2 [cs.LG]).1
+Federated Style Transfer Learning for
+Non-IID Image Segmentation2
+Approach: Why these methods? How it works?
+• Feature Disentanglement. Non-IID data, especially when the "style" from their images
+heterogeneity is caused by
+differences in image style from
+different sources (domains) while
+maintaining a similar structure
+(e.g. MRI and CT of the same
+organ, images of faces of
+different races).
+• Condiitional Denoising Diffusion (using DDPM), share this
+Probabilistic Models to transfer
+style information (via model
+style.
+parameters), and then
+generate new images by
+combining their structure and
+style.
+Conclusion:
+5 Ma, B., Yin, X., Tan, J., Chen, Y., Huang, H., Wang, H., Xue, W., & Ban, X. (2024).
+FedST: Federated Style Transfer Learning for Non-IID Image Segmentation. In The Thirty-
+Eighth AAAI Conference on Artificial Intelligence (AAAI-24) (pp. 4053-4061).
+6 Luo, M., Chen, F., Hu, D., Zhang, Y., Liang, J., & Feng, J. (2021). No Fear of
+Hetereogeneity: Classifier Calibration for Federated Learning with Non-IID Data.
+In Advances in Neural Informaation Processing Systems 34 (NeurIPS 2021). (Also available
+as arXiv:2106.05001v2 [cs.LG]).
+7
+What's Missing? (Limitations of current
+approaches in the papers):
+None of the approaches address all types of data heterogeneity simultaneously. FBLG focuses on labels
+and sample size, FedST targets style differences with similar structure, and CCVR addresses the
+consequences of general heterogeneity on the classifier. Real-world data often exhibiits multiple types of
+skews (feature skew, concept drift, etc.), which were not the primary targets of these works.
+Task and Data Specificity
+The effectiveness of
+FBLG is more general
+but was tested on
+tasks where a clear
+separation between style images and structure exists.
+CCVR directly depends
+on the quality of features
+learneed during the main
+FL phase.
+8
+Unresolved Challenges (General
+problems in the field):
+Handling Strict Privacy Adaptivity to
+Multiple Skews Guarantees Dynamics
+Scalability to
+Theoretical
+Millions of Fairness
+Founda tions
+9
+Why it Matters? (Importa nce of
+solving challenges):
+• Expanding FL Applicability. Solving the multiple-skew problem will enable the use of FL in a much
+broader range of real-world applications (healthealthcare with diverse clinics and equiipment, IoT with
+heterogeneous devices, finance with varied customer profiles).
+• Trust and Adoption. Providing strong privacy guarantees is critical for working with sensitive data
+(medical, financial, personal), hindering widespread FL adoption otherwise.
+• System Reliability. The ability to adapt to dynamic environments and ensure stable performa nce is
+necessaary for buildiing reliable, production-grade FL systems.
+• Realizing Poten tial. Overcoming scalability challenges will unlock the true poten tial of FL for learning from data distributed across a vast number of devices.
+• Responsible AI. Ensuring the model's fairness across different user groups is an integral part of
+d eveloping AI responsib ly.
+10
+Future Oppo rtunities (Next
+steps):
+• Hybrid Methods. Combining approaches targeting different aspects of Non-IID (e.g., FBLG for client
+selection + a FedST-like mecahnism for feature alignment; or CCVR as a final step after any other
+method).
+• Lightweight and Scalable Algo rithms. Developing app roximate or more efficient versions of current methods (e.g., for graphs, DDPMs), exploring hierarchi cal FL structures.
+• Integrating Formal Privacy. Embedding mechanisms like differen tia l priva cy or other cryptographic techniques into advanced Non-IID mitigation algo rithms.
+• Adaptive and Onlin e Algo rithms. Designing FL methods capable of tracking and adapting to changes
+in client data (concept drift) and participant composition (client churn).
+• Focus on Fairness and Robustness. Researching and opti mizing not just average accuracy, but also
+fairness metrics (e.g., minimum accuracy across clients) and robustness against ou tliers or attacks under Non-IID conditions.
+• Deepening Theory. Developing new theor etical tools to anal yze convergence and performance in
+complex Non-IID scenarios.
+• Interdisciplinary Research. Applying and adapting ideas from related fields (e.g., Domain Adaptation,
+Meta-Learning, Causal Inference) to tackle Non-IID problems in FL.
+11
+Bibliography
+1. Xu, Y., Li, Y., Luo, H., Fan, X., & Liu, X. (2024). FBLG: A Local Graph Based Approa ch
+for Handling Dual Skewed Non-IID Data in Federated Learning. In Proc eedings of the
+Thirty-Third Interna tional Joint Conference on Artificial Intelligence (IJCAI-24) (pp. 5289-
+5295).
+2. Ma, B., Yin, X., Tan, J., Chen, Y., Huang, H., Wang, H., Xue, W., & Ban, X. (2024).
+FedST: Federated Style Tran sfer Learning for Non-IID Image Segmentation. In The Thirty-
+Eighth AAAI Conference on Artificial Intelligence (AAAI-24) (pp. 4053-4061).
+3. Luo, M., Chen, F., Hu, D., Zhang, Y., Liang, J., & Feng, J. (2021). No Fear of
+Hetereogeneit y: Classifier Calibration for Federated Learning with Non-IID Data.
+In Advances in Neural Information Processing Systems 34 (NeurIPS 2021). (Also avaiable
+as arXiv:2106.05001v2 [cs.LG]).
+12

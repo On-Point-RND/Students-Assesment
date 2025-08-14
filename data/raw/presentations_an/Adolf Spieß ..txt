@@ -1,0 +1,108 @@
+Analysis and Protection against Threats Posed by the Use
+of Deepfake Technologies in Cyber Attacks and Social
+Engineering
+[name]
+Objective of the Study Research Tasks
+A comprehensive analysis of existing methods for 1. Analyze the escalation and evolution of Deepfake
+detecting and preventing incidents and threats related technologies in social engineering and cyber
+to the use of Deepfake technologies in social attacks.
+engineering and cyberattacks, based on publicly 2. Assess the relevance of threats to the information
+available research. security in social engineering.
+3. Compare and study existing methods and
+approahes to neutralizing and detecting falsified
+audiovisual content.
+4. Define further research on the software
+implementaion of a combiined Deepfake detection
+module based on machine learning.
+Relevance
+Rising Threat: Deepfake-related cybercrimes
+increased 5x from 2019 to 2023.
+System Vulnerability: Facial recognition false
+positives reach 95% with GAN-generated images.
+Social Engineering Risk: Manipulated content
+threatens public opinion, politics, and security.
+Key Challenges: Human susceptibility, low
+awareness and weaak legal regulations.
+Urgent Need: Advanced Deepfake detection for
+cybersecurity and fraud prevention.
+HSE Tikhonov [location] Institute Department of Informaation Security of Project Proposal 4
+of Electronics and Mathematics Cyber-physical Systems
+Classification of Methods for Creating and Detecting Deepfake Technologies
+1. Autoencoders
+1. Generative Adversarial
+Networks (GANs)
+1. Speech Synthesis
+1. Face-Swap Technology
+HSE Tikhonov [location] Institute Department of Informaation Security of Project Proposal 5
+of Electronics and Mathematics Cyber-physical Systems
+A Fusion of Global and Local Facial Image Features (GLFF)
+A fusion of general features (appearance, facial structure) and fragmentary features (informative patches in the image).
+Technology:
+ResNet-50 Backbone: 50-layer CNN for global feature extraction.
+AMSFF Module: Multi-scale attention-based feature fusion.
+PSM Module: Identifies and integrates key patches using multi-head attention.
+Final Step: Synthesized vector is classified for DeepFake detection.
+Superior Accuracy: GLFF outperforms other models on large next-gen datasets.
+Comparison of AUC-metric estimation results
+HSE Tikhonov [location] Institute Department of Informaation Security of Project Proposal 6
+of Electronics and Mathematics Cyber-physical Systems
+Recovering and Mapping for Deepfake Detection (Recap)
+The method consists of two key stages: image reconstruction and distortion mapping.
+Technology:
+Reconstruction Stage: Autoencoder restores real
+faces; fake faces degrade in quality.
+Distortion Mapping: Enhances differences
+between real and fake images.
+Tested on 4 Datasets: FaceForensics++,
+Celeb-DF, WildDeepfake, DFDC.
+High Performaance: 90.1% AUC on Celeb-DF,
+Comparison of detection efficiency (AUC (%) and EER (%)
+between lower EER than other methods.
+Recap and other methods
+HSE Tikhonov [location] Institute Department of Informaation Security of Project Proposal 7
+of Electronics and Mathematics Cyber-physical Systems
+Methods and Stages Results
+A. A survey of existing methods of detecting ● Identified the vulnerability of biometric systems
+Deepfake content ● Analyzed existing deepfake detection methods
+B. An overview of current databases ● Revealed the insufficient effectiveness of traditional
+C. Metrics for the effectiveness of protection and methods
+detection methods ● Highlighted the potential of hybrid methods
+● Proposed a combination of multi-purpose image
+analysis
+HSE Tikhonov [location] Institute Department of Informaation Security of Project Proposal 8
+of Electronics and Mathematics Cyber-physical Systems
+References
+[1] [name], “Effects of AI-Generated Misinformation and
+Disinformation on the Economy” [location] Universiity Journal of
+Science & Technology, vol. 12, Issue 4,, 2024
+[2] [name] “Understanding the Impact of AI-Generated
+Deepfakes on Public Opinion, Political Discourse, and Personal
+Security in Social Media” IEEE Security & Privacy, vol. 22, Issue 4,
+2024
+[3] [name], [name], [name] “DeepFakes Evolution: Analysis of Facial
+Regions and Fake Machine Learning Detection Performance” Pattern
+Recognition. ICPR International Workshops and Challenges, pp.442-456
+[4] [name], [name], [name] “GLFF: Global and
+Local Feature Fusion for Face Foгgery Detection” arXiv:2022,
+arXiv:2211.08615
+[5] [name], [name], [name] “Dynamic Graph Operating
+Learning with Content-guided Spatial-Frequency Relation Analysis
+Reasoning for Deepfake Detection” IEEE/CVF Conference on
+Computer Vision and Pattern Recognition (CVPR), 2023
+[6] [name], Xin Liao, D. Gao, S. Tsutsui “Recap: Detecting Deepfake Video with
+Recovering Faces and Mapping Recovered Faces” arXiv:2308.09921v1, 2023
+[7] [name], Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David
+Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, "Generative
+Adversaarial Networks," Communications of the ACM, vol. 63, no. 11, pp. 139–144,
+2020
+[8] [name], Saraju P. Mohanty, Peter Corcoran, Elias Kougianos “A
+Machine Learning based Approaach for Deepfake Detection in Social
+Media through Key Video Frame Extraction” SN Computer Science , vol. 2, pp. 1–18,
+2021
+[9] [name], Andreas Uhl “Calculating a boundary for the significance from
+the equal-error rate” International Conference on Biometrics (Icb), 2016
+[10] [name], [name], Anthony T. S. Ho “Receiver
+Operating Characteristic (ROC) Graph to Determine the Most Suitable
+Threshold Value” Advances in Electrical and Electronics Engineering -
+World Congress on Engineering and Computer Science, 2008
+Thank you for your attention!

@@ -1,0 +1,50 @@
+Summer schooL of machine learning April 20, 2025
+[compaany]
+Dear admission committee,
+I’m a first-year Master’s student in Data Science at [compaany], and I’m writing to express my strong
+desire to participate in the Summer schooL of machine learning.
+Why LLMs?
+My interest in ML has grown significantly through my hands-on experience with large language
+models and information retrieval systems. My current research focuses on extending the LLM
+context window through a multistep retrieval mechanism. I am working on improving baseline
+retrieval methods by implementing advanced context-adding and filtering techniques, and also
+testing more sophisticated encoder-decoder architectures. This research aims not only to enhance
+retrieval efficiency, but also to address critical issues such as biasness in sensitive topics, making the
+LLM more neutral and reliable.
+My research focus on the LLMs extends beyond academic interests. As a mentor for the "NLP for
+LLMs" course at [compaany] and [compaany], I have an opportunity to share my knowledge with students while
+continuously learning from their unique perspectives and questions. This teaching experience has
+deepened my understanding of the field and reinforceed my passion to it.
+Why SMILES?
+SMILES brings passionate students and professors together. The SchooL will be a unique
+opportunity to interact with leading experts and exchange views with fellow researchers, learn from
+their experiences, and discuss my ongoing work on retrieval mechanisms.
+I know that the SchooL’s environment will be perfect for intensive learning and collaboration. I
+really appreciate the community you become a part of during your studies. After actively
+participating in [compaany]’s extracurricular activities, including volunteering and helping prospective
+students, I have come to appreciate the power of a dynamic learning community even more, so I am
+eager to be a part of it.
+What I expect from the SchooL
+I have always been passionate about project work and tried to learn how to apply theoretical
+knowledge to real-life projects. SMILES can give me necessary knowledge and insights into
+state-of-the-art approaches in information retrieval systems. The SchooL’s intensive format and
+focus on practical applications perfectly align with my research interests. The combination of
+theoretical sessions, practical workshops, and networking opportunities at SMILES would provide me
+with a comprehensive understanding of how to scale and implement my research ideas effectively.
+I hope to get valuable feedback on my current research in retrievals and discuss possible
+collaboration to bring it to the real-world applications. The schooL’s environment of intensive
+learning and collaboration would be invaluable for refiining my ideas.
+I aim to contribute to the development of more efficient and ethical RAG systems. My experience
+at [compaany] has taught me the importance of combining theoretical knowledge with practical
+applications, and I plan to continue following this path in my future career, whether in academic
+[surname]
+(cid:72) +2 *** *** *** • (cid:66) [email]
+research or industry applications.
+The strong mathematical foundation and practical experience I’ve gained at [compaany] and at my
+previous [location] university, [compaany], combiined with my current research work and teaching activities, make
+me well-prepared to take part in SMILES.
+Hope I was able to convey my genuine enthusiasm for LLMs and strong desire to participate in
+Summer schooL of machine learning.
+[surname]
+[surname]
+(cid:72) +2 *** *** *** • (cid:66) [email]

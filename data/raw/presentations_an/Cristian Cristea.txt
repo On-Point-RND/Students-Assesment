@@ -1,0 +1,130 @@
+Mathematics
+Analysis of ssh sessions for
+suspicious activity using LLM
+tools
+[name], Computer Security [compaany], Specialty, [location]
+[email]
+2
+Introduction
+SsH session analysis
+●
+Where and why is it used
+●
+Goal of the review
+●
+3
+SsH session analysis
+Secure Shell (SSH) is a widely used protocol to remotely manage and communicate with servers and network devices
+securely. However, the same features that make SSH a powerful tool for system administrators, also make it an attractive
+target for malicious actors. Therefore, analyzing SSH sessions for suspicious activity is essential for maintaining the
+security and integrity of IT infrastructure.
+4
+Where and why is it used
+SSH session analysis involves monitoring and examining SSH connections to detect anomalies or indications of
+unauthorized access. This process includes analyzing patterns, frequency, and behavior of SSH login attempts, as well as
+correlating this data with known threat indicators.
+Why is SSH Session Analysis Important?
+Security Threat Detection: By analyzing SSH sessions, organizations can identify unusual patterns such as repeated failed
+login attempts, connections from unexpected geographical locations, or activities occurring outsiide of normal operation
+hours, which may indicate a potential security breach or brute force attack.
+Account Compromise Prevention: Early detection of suspicious SSH activity can prevent account compromises by allowing
+for quick response measures, such as changing credentials or blocking IP addresses.
+Compliance and Auditing: Many industries require regular security audits and compliance checks. SSH session analysis
+provides crucial data for audit trails, ensuring that all access and activities are logged and reviewed in accordaance with
+industry standards and regulations.
+5
+Goal of the review
+The purpose of my research is to create an LLM model for analyzing ssh sessions for suspicious activity and summarizing
+it.
+6
+Problem statement
+● The formal formulation of the problem
+● Challenges
+● Scope
+7
+The formal formulation of the problem
+The task was divided into 2 subtasks: binary classification of suspicious or not session, generation of summation
+8
+Challenges
+Primarily in data annotation and summarization. Crafting detailed, accuraate annotaions and summaries for each session
+was complex, requiring expert knowledge to ensure relevance and accuracy. Additionally, the sheer volume of data was
+daunting; SSH sessions, particularly those with extensive command outputs, can be extremely large, necessitating
+significant computational resources for processing and storage. These factors combiined to make the initial phases of the
+model's development particularly challenging, requiring robusst solutions for effective data handling and ensuring
+comprehensive, accuraate interpretations of the sessions. This foundation is crucial for a reliable SSH session analysis
+model.
+9
+Scope
+I was doing this research as part of my work at [compaany], so I had access to a large number of ssh sessions.
+10
+Methods
+● Data Collection and Annotation
+● Summarization
+● Pretraining Attempts
+● Analyzing Embeddings for Outliers
+11
+Data Collection and Annotation
+The initial phase involved gathering data from internal logging repositories. This data was then marked up using several
+strategiies. We created lists of known malicious and potentially suspicious software, applied regular expressions to identiify
+patterns, and consulted experienced Application Security experts. These experts provided insights into how SAST (Static
+Application Security Testing) techniques might be applied to SSH session analysis.
+12
+Summarization
+For generating summaries of potentially dangerous SSH sessions, we used pre-existing models like YAGPT PRO. These
+models performed well when given carefully crafted prompts, allowing for the efficient generation of concise and
+informative summaries.
+13
+Pretraining Attempts
+We attempted to fine-tune various models to optimize them for our specific task. However, these efforts resulted in outputs
+that were not significantly different from standard pre-trained models, suggesting that they alreaady encompaassed the
+necessaary capabilities for this type of analysis.
+14
+Analyzing Embeddings for Outliers
+This phase involved pretraining a model to generate embeddings specifically for SSH sessions. The goal was to help the
+model recogniize logical connections and patterns. We then input sessions to check if the resulting vectors were outliers
+using various algo Algorithms. If an embedding was an outlier, the session was considered atypiical and marked as potentially
+anomalous.
+15
+Results
+The project culminated in the development of a widely-used service that has successfully been deployed
+to production. The service achieves an impressive detection rate, capturing 95% of suspicious SSH
+sessions—sessions that would also be flagged by experienced Security Operations Center (SOC)
+personnel. Additionally, the time required for a SOC analyst to review a single SSH session has been
+reduced by a factor of four. This significant efficiency improvement allows SOC teams to focus more on
+proactive security measures and less on routine analysis, enhancing the overall security posture of the
+organization.
+16
+Article
+Since this is an internal development, I can't attach github, but I can attach a link to the service page in
+[compaany].Cloud.
+Page
+17
+Research gap
+While our service has shown remarkable success, certain research areas remain unexplored. One
+particularly intriguing idea was the analysis of embeddings from a pretrained model. Although promising,
+this concept couldn't be fully realized in the current version. Additionally, to enhance accuracy, we aim to
+not only analyze SSH sessions but also incorporate a comprehensive analysis of server events. This
+holistic approach could provide a more precise assessment of suspicious activities, offering deeper
+insights into the security landscape and improving threat detection capabilities.
+18
+Bibliography
+1. *Stalliin, William. "Protecting SSH against cyberattacks." Computer 53.8 (2020): 74-78.
+2. **Ben-Asher, Noam, and Cleotilde Gonzalez. "Effects of cyber security knowledgge on attack detection."
+Computers in Human Behavior 48 (2015): 51-61.
+3. **Ravichandraan, M. Y., et al. "Improving Anomaly Detection in Netwoork Traffic Using Machine Learning
+Algo Algorithms." International Journal of Computer Applications 133.16 (2016): 1-5.
+4. Zefang Liu "Anomaly Detection of Command Shell Sessions based on DistilBERT: Unsupervised and
+Supervised Approaches" arXiv preprint arXiv:2310.13247 (2023).
+5. "SSH, The Secure Shell: The Defiinitive Guide" by Daniel J. Barrett, Richard E. Silverman, and Robert G.
+Byrnes. A comprehensive resource on SSH covering fundamental concepts, implementaion, and security.
+6. "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélieen Géron. This book is
+invaluable if you want to dive into machine learning techniques rellevant to your project, including some used
+for anomaly detection.
+7. "Network Security with OpenSSL: Cryptography for Secure Communications" by John Viega, Matt Messier,
+and Pravir Chandra. Provides insights on cryptography and network security, including elements rellevant to
+SSH security.
+8. "Anomaly Detection Principles and Algo Algorithms" by Chandola, Varun, et al. A detailed exploration of anomaly
+detection methods, potentially useful for understanding outlier analysis.
+9. "Deep Learning" by Ian Goodfellow, Yoshuua Bengio, and Aaron Courville. A foundaational text that covers a
+wide range of deep learning topics, useful for understanding the underpinniinings of LLLMs and embedding
+analysis.

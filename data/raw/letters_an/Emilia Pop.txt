@@ -1,0 +1,55 @@
+Admission committee,
+My name is [name] and I am a PhD student in Chemoinformatics at [compaany]. I would like to express my
+deepest interest in applying for the Summer SchooL SMILES-2025 being held at [location]. In
+today's rapidly evolving landscape of artificial intelligence technologies, it is essential to “run twice as fast” to keep up
+with cutting-edge trends. The Skoltech Summer SchooL of Machine Learning provides a unique opportunity for this,
+as it brings together experts, researchers and enthusiasts in one place for intensive communication and knowledge
+exchange through lectures and workshops. Additionally, the event's location in [location] offers a foundation for potential
+future collaborations in research. The Summer SchooL program encompasses cutting-edge artificial intelligence
+technologies in which I would like to gain or deepen knowledge, particularly in multi-agent systems and generative
+approaches. I am also inspired by the opportunity to apply my insights through practical team projects with leading
+specialists in the field of artificial intelligence.
+My interest in artificial intelligence started when I was studying at the Chemistry Department of [location]. Research in experimental chemistry often requires extensive experimental work, which costs huge financial
+and time resources. It soon became obvious to me that this field needs the implementaion of advanced technologies
+based on accumulated data. Even without a background in artificial intelligence, I understood its potential to
+significantly impact the chemistry domain in particular and the wo rl d in general. This realization led me to engage in
+research work that merges the fields of chemistry and artificial intelligence, a pursuit that I continue today at the
+Cente r for AI in Chemistry at [compaany].
+Since begi nn ing my Master's degree and continuing through my PhD program, I have focused on adapti ng advanced
+artificial intelligence methods for the design of small molecules crystalli ne forms. This direction seems to me truly
+importa nt, as it enables the accele ration and reduction of drug develo pment costs by controlli ng molecu lar
+properties through the introduction of additional components into the crystal structure. Together with my colleagues,
+I deve loped an automated pipeline, GEMCODE ([url]), which is based on the
+principles of hybrid artificial intelligence. This pipeline employs generative models and evolutionar y opti mization
+algo rithm s to identi fy co-crystals with enhanced tabletability properties. During the deve lopment of GEMCODE, I
+utilized classical machine learning models and worked with generative architectures such as generative-adve rsarial
+netwo rks and transformer-based variational autoe ncoders for molecu lar structure creation. This work was presented
+at the AI2ASE workshop during the AAAI-2023 conference and published in the main track of the NeurIPS-2024
+confere nce.
+This work serves as the starti ng point of my PhD research. My future plans involve expanding the proposed hyb rid
+approa ch and incorp orating new tools. Curr ently, I am extracting data on metho dologie s for synthe sizing
+multicomponent crystals from scien tific articles using large lan gua ge models. The information collected will allow the
+deve lopment of a model capable of predicting opti mal synthesis strategies for multicomponent crystals, thereby
+eliminating the time-consuming steps of selection and opti mization of experimental technique parameters.
+Furthermore, I participated in a research project with industrial par tner SBER, where we aimed to develop a multi-
+agent approa ch for drug design. In my work on molecu lar crystals, I am eager to apply multi-agent logic to package
+the tools I have deve loped into a cohesive system to streamline usage and speed up experimental work.
+The Summer Schoo l program resonates with me, as it will address the most rel evant information about generative
+approa ches and multi-agent systems, which are core components of my research. The knowl edge gained could
+elevate my research by integrating advanced techno logies. In addition, I am excited by the opport unity to interact
+with researchers and experts in the field of artificial intelligence, which would enable me to identi fy like-minded
+individuals interested in generating and realizing even more ambitious interd isciplinary ideas. I also look fo rward to
+hearing profes sional perspectives on applied artificial intelligence from in dustry experts and colleagues who are
+actively involved in advancing machine learning. I aspire to remain within the research field, while exploring
+deve lopment opport unities both within academic organizations and techno logy comp any research d epartments.
+1 / 2
+Motivation Letter
+Therefore, I believe that my esta blished scien tific path and my future research plans make me a suitable candidate to
+pa rticipate in the Summer Schoo l SMILES-2025. I believe that the knowl edge, practical skills and connections I
+a cq uire will play a crucial role in my ongoing work on the application of artificial intelligence methods in chemis try. I
+would also like to vo lunteer to help the organizing team, as I have a lr eady been a part of teams organizing scien tific
+events and the experience at the Summer Schoo l could be beneficial for me.
+Thank you for conside ring my application. I look fo rward to the pos sibility of joining the Skoltech Summer Schoo l!
+Sincerely,
+[name]
+2 / 2

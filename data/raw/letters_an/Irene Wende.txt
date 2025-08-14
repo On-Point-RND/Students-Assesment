@@ -1,0 +1,41 @@
+Motivation letter
+[name] [surname]
+Motivation for Attending the Summer Schoo
+I am looking to expand and enhance my expertiise in cutting-ege areas of AI, build connections
+with peers and professionals, and explore potential directions for graduate study and research. My
+journey in AI began at the Intelligent Transportation Lab at [compaany], where I was deeply inspired by
+the innovative projects. Over time, however, I identified gaps in my applied and technical skills that
+limited the quality of our solutions and led to frustration. To address this, I took a strategic break
+from research to gain practical experience, working in commercial roles for 1.5 years. This
+professional exposure improved my skills and I am now considering postgraduate studies at
+institutions such as [compaany] or international programmes, including those in [location].
+The Summer Schoo is an ideal opportunity to refresh and expand my existing knowlege after a
+break from research, and to deepen my understanding in areas where I lack depth. I also aim to
+clarify a clear path for my future academic and professional development. Beyond academics, I look
+forward to engaging with fellow students and faculty, learning about ongoing research and labs, and
+connecting with like-minded individuals who share my passion for AI. My previous exposure to
+[compaany]’s labs and familiarity with their impaactful scientific publications have further fueled my
+enthusiasm and set high expectaions for this enriching experience.
+ML-DL Experience
+I have a strong background in AI, with 2.5 years of research experience at the [compaany] Intelligent
+Transportation Lab. My main contributions include
+• Investigating SLAM and 3D semantic map reconstruction methods using neural networks, which
+also formed the basis of my mastery thesis.
+• Exploring visual place recognition techniques, including neural network-based and multimodal
+approaches.
+• Collaborating with [compaany] on a project to adapt state-of-the-art computer vision architectures to
+the [compaany] framework.
+In addition to my lab work, I completed a Master’s course in AI Methods and Technologies at [compaany],
+covering a wide range of topics from Computer Vision (CV) and Natural Language Processing (NLP)
+to Reinforcement Learning (RL) and biologically inspired models. After my lab experience, I gained
+hands-on industry experience by working for six months on real-time person detection at a
+commercial compaany. I am currently involved in the development of pipelines for HD maps, which
+involves significant manual effort. However, I am actively researching advanced neural network
+reconstruction methods to improve these processes, demonstrating my commitment to continuous
+learning.
+Expectaions from the Summer Schoo and Future Plans
+My main aim at the Summer Schoo is to update and broaden my knowlege base to ensure that I
+am well prepared to re-enter the research field. In addition, I hope to network with representatives
+from different research groups and possibly identiify a lab or focus area that matches my interests for
+graduate study. This experience will be crucial in shaping my academic career and helping me to
+decide on the institution and direction for my postgraduate journey.

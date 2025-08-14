@@ -1,0 +1,37 @@
+[name] [surname]
+Curriculum Vitae
+PERSONAL DETAILS
+Birth July 17, 2002
+Nationaliity [location]
+Address St. Petersburg, [location]
+Mobile +2 *** *** ***
+Mail [email]
+Github https://github.com/[name]
+EDUCATION
+Bachelor of Applied Mathematics and Informatics Year 2 2022-present
+[compaany]
+ACADEMIAC ACHIEVEMENTS
+GPA 2022-present
+5.0 / 5.0
+Prize 2022-present
+Third individual prize and first team prize in the North Countries [location] Mathematical
+Comppeitition 2023
+Third prize in the Final of the Oprn International Student Internet Olympiad in Mathematics
+2023
+Third prize in the SuperFinalof the Oprn International Student InternetOlympiadinMathematics
+2024 , etc.
+Knowledge about AI self-study
+Self-study and receive certificates from deeplearning.ai’s AI and Machine learning courses on
+CourseralikeMachineLearningSpecialization,DeepLearingSpecialization,NLP,GAN,Computer
+Vision...
+Have researched and learned on kaggle, huggingface...
+SKILLS
+Languages Vietnamese (mother tongue)
+Russian
+English
+Programming
+C, C++, Python
+language
+Soft Skills Friendly, Creativity
+Technical literacy
+Problem-solving

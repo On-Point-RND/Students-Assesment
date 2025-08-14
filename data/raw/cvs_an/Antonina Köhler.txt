@@ -1,0 +1,36 @@
+[name] [surname]
+[email] +2 *** *** *** [location] 2000
+Profile
+In my Master program at [compaany], I am buildiing on my experience in designing robotic systems.
+I am proficient in CAD modeling, scripting, simulation, and programming. With a longstanding
+interest in human-robot interaction, I aspire to work with collaborative robots, developing
+solutions that enhance their integration into industrial and human-centric environments.
+Education
+Master of Science in Engineering Systems 09/2024 – present
+[compaany] [location]
+Bachelor of Mechatronics and Robotics 09/2019 – 07/2024
+[compaany] [location]
+Awards
+Second Place in Swarm Robotics Program by [compaany] Student Workshop 02/2024
+[compaany]
+Third Prize in [location] Olympiad in Theoretical Electronics (Team) 04/2022
+Second Prize in the All-Russian Student Olympiad in Mathematics (Team) 04/2021
+Full bachelor’s Program Scholarship 08/2019
+[location] and [location] Governments
+Skills
+3D Modeling and Printing Programming and Simulation
+Solidworks, Fusion 360, Компас 3Д C++, Python, MATLAB, ROS2
+Projects
+Eurobot 2025 10/2024 – present
+Developing robot's mechanical assembly and system of line-follower
+robots.
+Pick & Place for Industrial Robot using CV 10/2024 – 12/2024
+Built a computer vision system using ArUco markeers and point clouds for
+manipulator pose calculation.
+Delivering system for quadcopter 09/2023 – 06/2024
+Designed a module for cable-suspended loads, dynamic control, and
+precision landing with ArUco markeers.
+[email] 1 / 1
+
+
+

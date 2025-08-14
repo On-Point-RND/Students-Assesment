@@ -1,0 +1,54 @@
+RESUME
+[name] [surname]
+Education:
+2024-Present 	– [compaany], major “Political Science” and “Sociology”, [location]
+2023 	– [compaany], major “International Relations”, [location]
+2020-2024 	– [compaany], major "Political Science", [location]
+2015-2020	– High School №525, [location]
+2014-2015	– Saint Jean D'Arc middle School, [location]
+2008-2014	– Elementary and Middle School №1, [location]
+Working Experience:
+2025-Present 	– [compaany], automation of project reportiing, design and development of databases, dashboaards, application and integration of artificial intelligence into work processes
+2021 		– Internship in the Government of the [location], Department of Internal Policy, analyst – educational internship in the fields of "Political Science" and "Public and Municipal Administration"
+International Academic Experience:	
+Academic Internship in [compaany] for a semester as an exchange student. Majored in International Relations. Took courses in International Commerce and Taxation, Development and Human Rights, Analysis of Political and Economic Crises, Development and Human Rights
+XIV International Sociological SchooL of [compaany] and the [compaany]. Received knowledge and skills in the program "Designing the Future: Technologies, Analytics, Consulting" in the amount of 48 hours. Developed and defendeed in a team a project to identiify the values ​​of the [location] youth and the strategy for buildiing [location] relations.
+International Summer SchooL of [location] State [compaany] and following scientific conference «Peace is not a state of nature. EU-Russia: Common Values, Common Future?». Participated in cultural and scientific exchange with [location] and [location] students, studied the theory of European integration, models of democratic institutions, sociocultural factors
+Participant of XV International Grushenky Sociological Conference «Human-Centricity VS Socio-Cenntricity: individualization and interaction in the modern world» 2025 by [compaany], [compaany] and The [compaany].
+Relevant Achievements:
+- Bachelor’s degree with honors: 4.0 GPA
+- Certificate of honor for excellent studies. For high achievements in research activities
+- Research paper “The Image of the “Other” in Identity Politics of Contemporary Russia” published in the [location] science journal "Novelty. Experiment. Traditions". 
+- Diploma of the victory of the 2nd award in the scientific competition “Young Scientist 2023” in the category of “Manuscripts of Scientific Articles”
+- The best first-year student of the faculty 2020 based on the results of the examination session and the highest score on the educational indicator
+- [compaany] German Scholarship for academic internship
+- Diploma with honors of secondary general education and Gold medal “for special achievements in learning”
+- Certificate of Commendaation “For special achievements in the study of an academic subject: mathematics, history, social studies” in schooL
+Social Activity:
+Active participation in the preparation and holding of the [location] national event "Scarlet Sails-2021" in special conditions, with high professionalism, responsibility in solving non-standard issues, creative approach and dedication to common cause
+Held a position of analyst in the Commission on Quality of Education of [compaany]: involved in compiling surveys, distributing them, collecting data and analyzing it, writing analytical notes
+Research Interests:
+- Political Regiimes
+- Legiitimation of Wars and Military Opereations
+- Natural Language Proceeding (as a method)
+- Nationalism, National Identity, Identity Policies
+- National Values Securitization Policies
+- International Relations
+- Civil Society
+Current Work:
+Research paper on the topic of Raising Nationalism in Russia. Quantitative analysis of more than 3 million posts in the Russian social media. Usage of NLP to identiify sentiments and key topics of messages, with later crosstabulation table building and chi-squared test for findiing distiinctions of sentiments in dynamics
+Research Grant from the [location] Government on comparison of media Arctic topics coverage among Arctic states. Responsible for research design.
+Relevant Skill and Techniques:
+	Languages – Russian (Mother tongue), English (Proficient; IELTS: 8), German (Functional), French (Functional)
+	Computer skills – Excel, R, Python, SPSS
+	Others	 – cross-cultural communication, negotiation skills, time management, analytics, mastery of quantitative and qualitative methods and analysis techniques, English academic writing
+– retraining diploma of Big Data Analyst at the [location] [compaany]
+– certificate of competency in Deep Learning online course by NVIDIA
+Hobbies:
+Chess (1580 chess.com online rating)
+Reaading (Favorite authors: [name], [name], [name], [name], [name])
+Philosophy (Favorite authors: [name], [name], [name], [name], [name]) 
+Artificial Intelligence (Mastered generative promptiing in Stable Diffusion)
+Coding (Started a little project with a friend of creating a videogame)  
+Ice Hockey (Played from 5 to 15 y.o. professiionally. Played in the [location] Flyers AAA and [location] teams in the USA)
+Poetry and songwriting (Have written around 40 songs and poems, but never published one)

@@ -1,0 +1,58 @@
+This document presents a detailed analysis of concord (agreement in grammatical number and gender) in Russian proper names across different historical periods, grammatical cases, and linguistic features. Here's a breakdown of the key findings and the overall conclusions:
+
+**Methodology:**
+
+The research utilizes a large corpus of Russian texts spanning several centuries. It employs statistical methods, including logistic regression, to analyze the factors influencing concord. The study considers:
+
+* **Diachrony:** How concord patterns have changed over time.
+* **Proper Name Frequency:** Whether more common names exhibit different concord tendencies.
+* **Grammatical Case:** The influence of different cases (accusative, genitive, etc.) on concord.
+* **Gender Matching:** The impact of whether the proper name and the preceding word agree in gender.
+* **Linguistic Features:** The effect of adjectives (nominal vs. adjectival) and the complexity of proper names.
+* **Common Noun:** The influence of the preceding common noun (e.g., "city" vs. "river").
+
+**Key Findings:**
+
+* **Diachronic Trend:** Older texts show a tendency towards less concord compared to later texts. This is likened to the loss of double preposition use.
+* **Proper Name Frequency:** More frequent proper names tend to have a higher probability of concord.
+* **Case Influence:** The accusative case shows a significantly higher probability of concord compared to other cases.
+* **Gender Matching:** Gender matching significantly increases the probability of concord.
+* **Linguistic Features:**
+    * **Adjectives:** Adjectival proper names show a higher preference for concord than nominal ones.
+    * **Complexity:** Simpler proper names are more likely to exhibit concord than complex ones.
+* **Common Noun Influence:** The preceding common noun has a hierarchical effect on concord probability, with "city" being more likely to lead to concord than "river," which is more likely to lead to concord than "village," and so on.
+
+**The Model:**
+
+A logistic regression model was developed to predict concord based on the various factors identified. The model achieved an accuracy of 81%. The most significant predictors of concord were:
+
+* **Created decade:** Later periods show a stronger tendency towards concord.
+* **Case:** Accusative case strongly predicts concord.
+* **Gender matching:** Gender agreement significantly increases concord probability.
+* **Proper name frequency:** More frequent names are more likely to have concord.
+
+**Figures and Tables:**
+
+The document includes several figures and tables illustrating the findings:
+
+* **Figure 1:** Shows the effect of the decade of creation on the prediction of concord, indicating a positive trend towards concord in later periods.
+* **Figure 2:** Illustrates the repetition of prepositions in close appositional constructions, suggesting a shift away from this pattern over time.
+* **Figure 3:** Depicts the effect of proper name frequency on concord.
+* **Figure 4:** Shows the effect of grammatical case on the probability of concord.
+* **Figure 5:** Specifically examines the effect of case on concord for feminine II declension proper names.
+* **Figure 6:** Illustrates the effect of gender matching on concord.
+* **Figure 7:** Shows the effect of the common noun on the probability of concord.
+* **Table 10:** Summarizes concord preferences for adjectival and nominal proper names depending on the common noun.
+* **Table 11:** Provides a summary of the main findings, highlighting which factors have a higher probability of concord.
+
+**Conclusion:**
+
+The study concludes that concord in Russian proper names has evolved over time, with later periods exhibiting a stronger tendency towards agreement. Several factors, including grammatical case, gender matching, proper name frequency, and linguistic features like adjectivization and name complexity, significantly influence concord. The preceding common noun also plays a role in determining concord probability.
+
+**Potential Implications:**
+
+This research provides valuable insights into the historical development of Russian grammar and the factors that contribute to grammatical agreement. It can be used to:
+
+* **Improve language processing models:** By incorporating these findings, models can better predict and understand concord in Russian.
+* **Inform lexicography:** Understanding concord patterns can aid in the creation of more accurate and comprehensive dictionaries.
+* **Enhance language teaching:** Awareness of these trends can help learners better understand and use concord in Russian.

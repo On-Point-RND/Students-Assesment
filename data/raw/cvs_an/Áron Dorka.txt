@@ -1,0 +1,41 @@
+[name] [surname]
+LinkedIn | +2 *** *** *** | [email] | [location]
+LLM RESEARCHER | EXPLORING EXPLAINABLE AI | HIGH-PERFORMANCE COMPUTING
+EDUCATION
+Skolkovo Institute of Science and Technology (Skoltech)
+● Msc. High Performaince Computing (End Date: June 2025) September 2023 – Present
+Coursework: Software Engineering Principles, Parallel Computing, Data Analytics with Python, ML/DL
+Thesis Topic: Fast memory-efficient implementation of Strassen’s GEMM algorithm on GPUs
+RUDN University
+• BsC. Mathematics September 2019 – June 2023
+Coursework: Object–Oriented Programming with C++, Database Management Systems & SQL
+SKILLS
+• Languages – C++, Python, C
+• Frameworks/Libraries – PyTorch, CUDA, Numpy, OpenCL, CUTLASS, Matplotlib, Triton, Pandas
+• Tools – Git, Docker, CMake/MakeFile/ninja, GitHub
+WORK EXPERIENCE
+Junior LLM Engineer [compaany]
+Tech Stack – Ascend C, CANN, Ascend 910B4, OpenCL September 2024 – Present
+o Developed INT8 quantization pipelines using [compaany]'s Ascend Tensor Compiiler (ATC), achieving a 1.7× inference speedup and 23% model size reduction on LLMs, with less than 1% accuracy degradation.
+o Optimized asynchronous execution pipelines for transformer models, integrating speculaive token generation and early inference cancellation, resulting in a 15% reduction in inter-token latency.
+o Designed optimized GPU/CPU/NPU kernels to maximize performance on memory-constrained devices, achieving a 30% improvement in execution efficiency.
+o Optimized GPU kernel execution by utilizing SIMD operations, shared memory tiling, and warp-level primitives, delivering an additional 3.2x acceleration over an optimized baseline.
+o Developed and integrated custom sparse matrix multiplication techniques to optimize memory bandwidth and cache performance on PanguLM, accelerating inference by 73% using hardware-aware optimizations.
+o Refactored legacy codebase with over 30 folders to enhance compaibility with modern code structures, improving maintainability and integration.
+GPU Research Intern [compaany]
+Tech Stack – C++, CUDA, PyTorch, CMake June 2024 – August 2024
+Parallelized linear sum assignment solvers in End-to-End Object Detection with Transformers (META AI), improving loss function computaion efficiency for large-scale object detection models.
+o Designed batched parallel approaches for the assignment problem, achieving a 10.4x speedup compared to SciPy’s CPU-based implementaion on datasets with 10,000+ objects per batch.
+o Enhanced kernel performance by over 3x, utilizing data and instruction-level parallelism, over first kernel.
+o Refactored PyTorch bindings to support cross-plaftorm builds across Linux (GCC), CUDA (11.x+), and Windows (MSVC), enhancing deployment flexibility.
+o Improved memory efficiency, reducing GPU memory overhead by 22%, enabling larger batch processing without degradation in inference speed.
+MSc. Research Skoltech
+Tech Stack – CUDA (CUTLASS/CUBLAS), Linear Algebra October 2023 – May 2024
+o Collaboraated on research on cache utilization on matrix multiplication performance, leading to a 77% improvement in computaion time for matrices stored in memory-constrained environments.
+o Designed and tested custom memory access patterns for matrix multiplication, reducing memory bandwidth utilization by 31% and increasing cache hit rates.
+o Proposed hybrid storage formats, minimizing RAM bottlenecks and improving data locality.
+AWARDS
+● International Mathematics Olympiad – Honourable Mention (2017, 2018)
+● Pan African Mathematics Olympiad – Gold Medal (2016, 2017)
+● Yandex “I am a Professional” Olympiad Finalist (Mathematics) 2024
+● AIME Qualification 2017

@@ -1,0 +1,159 @@
+Slide 1
+----------------------------------------
+[name]
+Research Scholar, [compaany]
+
+Integrated Multi-stage Algorithm for Personalized Skincare Product Recommendactions
+
+
+
+Slide 2
+----------------------------------------
+Introduction
+
+What is the topic?
+A multimodal AI framework combining skin images, ingredient analysis, and genetic data to recommend personalized skincare products.
+
+Why is it important?
+Current methods rely on single data sources (e.g., images or self-reports), leading to biased/incomplete recommendations.
+Personalized skincare improves outcomes by addressing genetic, environmental, and behavioral factors.
+
+Background
+Skin health is influenced by genetics (e.g., eczema risk), environment (pollution), and lifestyle (skincare habits).
+Existing AI tools focus on single tasks (e.g., acne detection) but lack holistic integration.
+
+Goal
+Develop a unified system to:
+Classify skin type/conditions.
+Analyze ingredient compatibility.
+Assess genetic risks.
+Combine all three for precise recommendations.
+
+
+
+Slide 3
+----------------------------------------
+Problem statement
+
+What are we solving?
+Unimodal approaches ignore critical data (e.g., genetics), leading to suboptimal recommendations. Therefore, this approach is a multimodal AI framework that combines skin images, ingredient analysis, and genetic data to recommend personalized skincare products.
+
+
+
+Challenges
+Integrating diverse data types (images, text, genetics).
+Ensuring accuracy across modalities.
+Addressing dataset biases (e.g., limited skin tone diversity).
+
+Scope
+Focus on combining the three modules:
+CNN for skin images.
+BERT for ingredient text.
+Logistic regression for genetic risk.
+
+
+
+Slide 4
+----------------------------------------
+Methods
+
+
+
+Slide 5
+----------------------------------------
+Methods
+
+
+
+Slide 6
+----------------------------------------
+Results
+
+Fig. 5. Training vs. Validation Loss And Performance Metrics over epochs
+Fig. 2. Skin type classification performance curves
+Performance: Validation accuracy rises from 35.7% to 100% by epoch 23.
+Key Insight: Model achieves perfect classification with stable validation loss (~0.6), indicating no overfitting.
+
+Why It Matters: High accuracy (95% AUC-ROC) ensures reliable skin type detection across diverse users.
+
+Loss Trends: Training loss drops sharply (1.75 → 0.028), while validation loss stabilizes at 0.599.
+
+Metrics: F1-score stabilizes at 87.4%, balancing precision (87%) and recall (87%).
+
+Takeaway: Model generalizes well with minimal gap between training/validation performance.
+
+
+
+Slide 7
+----------------------------------------
+Results
+
+Fig. 4. Top 15 Ingredients Bar Chart vs t-SNE Visualization
+Fig. 3. Risk Score Histogram vs SNP Correlation heatmap
+
+Histogram: Genetic risk scores follow a normal distribution, with 82% correlation to dermatologist evaluations.
+
+Heatmap: Strong SNP-cluster correlations (>0.7) link specific genetic markers to conditions like eczema.
+
+Key Insight: Genetic data stratifies users into risk tiers, enabling proactive recommendations.
+
+Bar Chart: Top ingredients (e.g., hyaluronic acid) appear in >75% of effective products.
+
+t-SNE Plot: Ingredients cluster by function (moisturizers, actives, preservatives), guiding balanced formulations.
+
+Why It Matters: Clusters help avoid incompatible combinations (e.g., harsh actives for sensitive skin).
+
+
+
+Slide 8
+----------------------------------------
+Results
+
+What It Shows: Integration of skin, ingredient, and genetic modules into a unified recommendation engine.
+
+Key Insight: Combines strengths of CNN (images), BERT (text), and logistic regression (genetics) for 91.5% overall accuracy.
+
+Why It Matters: Outperforms single-modality systems (e.g., image-only models ignore genetics).
+
+Example: A user with dry skin (CNN), genetic psoriasis risk (logistic regression), and incompatible ingredients (BERT) receives a tailored, safer product.
+Fig. 5. Multi-Algorithm Recommendation Visualization
+Metrics					Key Findings
+Precision: 87% (minimizes false positives). 	91.5% accuracy in skin type/condition classification.
+Recall: 87% (captures true positives). 	95% AUC-ROC for skin disease detection.
+F1-Score: 87.4% (balanced performance). 	82% correlation between genetic risk scores and dermatologist evaluations.
+
+
+
+Slide 9
+----------------------------------------
+Research gap
+Limitations
+Dataset lacks diversity in skin tones/genetic markers.
+No real-time adaptation to new skincare products.
+
+Unresolved Challenges
+Integrating dynamic data (e.g., microbiome changes).
+Ethical concerns around genetic data privacy.
+
+Why It Matters
+Filling gaps improves fairness and real-world applicability.
+
+Future Opportunities
+Expand datasets with global populations.
+Partner with dermatologists for clinical validation.
+
+
+
+Slide 10
+----------------------------------------
+”Skin Type Classification Dataset,” Roboflow Universe. Available: https://universe.roboflow.com/ciputra-0oj4z/skin-classification-crpgh
+”Disease Classification Dataset,” University of Iowa Dermatology. Available: http://www.medicine.uiowa.edu/dermatology/diseaseimages/
+”Skincare Product and Ingredients Dataset,” Kaggle. Available: https://www.kaggle.com/datasets/eward96/skincare-products-and-their-ingredients
+Budu-Aggrey, A., Kilanowski, A., Sobczyk, M. K., 23andMe Research Team, Shringarpure, S. S., Mitchell, R., Reis, K., Reigo, A., Estonian Biobank Research Team, Ma¨gi, R., Nelis, M., Tanaka, N., Brumpton, B. M., Thomas, L. F., Sole-Navais, P., Flatley, C., Espuela-Ortiz, A., Herrera-Luis, E., Lominchar, J. V. T., & Paternoster, L. (2023). European and multi-ancestry genome-wide association meta-analysis of atopic dermatitis highlights importance of systemic immune regulation. Nature Communications, 14, 6172
+Firdaus, S. A., Gunawan, A. A. S., Nurmuthia, L. D., Setiawan, K. E., & Imtiyaz, R. (2024). Cosmetics recommendation system based on ingredients using cosine similarity. In Proceedings of the 2024 International Conference on Data Science and Its Applications (ICoDSA). IEEE. doi.org/10.1109/ICODSA62899.2024.10651833
+Razzaq, R. (2023). SkinWiseMR: Novel approach for natural beauty remedy recommendation system using machine vision. International Journal of Artificial Intelligence & Applications, 15(2), 57–76. doi.org/10.5121/ijaia.2024.15204
+Venkat, N. L. S., Tejasrri, M. N. V., Uppalapati, P. J., Rao, V. V. R. M., Sripada, V. S. S. L., & Murty, P. S. R. (2025). Deep learning strategies for multiclass skin disease classification. In Cognitive Computing and Cyber Physical Systems (IC4S 2024) (pp. 215–233). Springer.
+
+
+
+Bibliography

@@ -1,0 +1,164 @@
+Mechanistic
+Neural
+Networks
+for
+Scientific
+Machine
+Learning
+([location] 2024
+M
+)
+a
+r
+de
+e
+b
+p
+y
+r
+O
+o
+le
+d
+g
+u
+ction
+[name]
+n
+o
+ucti
+d
+o
+ntr
+I
+People need to explore the forces that govern real-world processes.
+●
+For hundreds of years scientists have been doing this manually,
+●
+researching equations by hand.
+Then neural networks were invented, allowing us to find patterns easier.
+●
+A lot of real-world processes can be written in terms of differential
+●
+equations, and we often need to find those
+2
+m
+ble
+o
+Pr
+Neural networks (e.g., Neural ODEs, transformers) predict dynamics but
+●
+lack interpretability.
+Methods like SINDy fit sparse ODEs to data using linear combinations of
+●
+predefined basis functions (e.g., polynomials).
+Solving ODEs/PDEs with traditional numerical solvers (e.g., Runge-Kutta)
+●
+is slow and sequential.
+3
+hat:
+ork
+t
+w
+me
+d
+a
+fra
+nee
+we
+us
+h
+T
+Discovers governing equations from data.
+●
+“
+Handles arbitrary nonlinearities.
+●
+Outputs interpretable symbolic equaions.
+●
+”
+Solves ODEs efficiently on GPUs.
+●
+Unifies tasks like equation discovery, parameter estimation, and forecasting
+●
+under one architecture.
+4
+ds
+o
+h
+met
+ore
+C
+Learning Governing Equations. The goal is to Parameterize
+●
+“
+ODEs as neural network outputs. The paper uses a
+Mechanistic Encoder: A neural network f_θ(x) takes input data
+x (e.g., time-series) and outputs ODE coefficients”
+α={c_i(t),ϕ_k(t),b(t)}.
+5
+E
+D
+O
+ble
+ntia
+Differe
+Fast
+(
+ds
+o
+h
+met
+ore
+C
+g)
+n
+olvi
+S
+Reformulate solving ODEs as a linear program (LP) with
+●
+“
+constraints
+Convert LP to a differentiable quadratic program (QP) with
+●
+”
+slack variables
+Use GPU parallelization
+●
+6
+near
+nli
+o
+N
+g
+n
+dli
+n
+Ha
+(
+ds
+o
+h
+met
+ore
+C
+Es)
+D
+O
+Introduce auxiliary variables for nonlinear terms
+●
+“
+Solve the linear part of the ODE with NeuRLP and add
+●
+consistency losses for the other part
+”
+7
+Links
+https://icml.cc/virtual/2024/poster/33046 - Paper
+●
+“
+https://github.com/alpz/mech-nn - original GitHub repository
+●
+https://github.com/Omsify/mech-nn-reproduction - [name] GitHub
+● ”
+repository

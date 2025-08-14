@@ -1,0 +1,45 @@
++2 *** *** ***
+[name] [surname]
+[email]
+Education Higher School of Economics [location]
+M.S.ComputationalLinguistics 2023-2025(expected)
+• GPA:8.37/10.0
+• Thesis: Robustnessofdisecretizedrepresentationsandnoisereducctioncapabilitiesfor
+automaticspeechrecognition
+Plekhanov Russian University of Economics [location]
+B.S.inAppliedMathematicsandInformatics 2019-2023
+• GPA:4.9/5.0
+• Thesis: Forecastingthevalueofdebtsecuritiesusinngmachinelearningmethods
+Experience
+Dataanalyst
+[company] 2024.08-present
+Laboratoryassistant
+[company] 2023.05-2024.08
+• ResearchedandimplementedtrackrecognitionofchargedparticlesintheMPD
+detectoroftheNICACollider.
+Dataanalyst
+NationalSettlementDepository 2022.02-2022.07
+Additional
+AutumnITSchool,JointInstituteforNuclearResearch
+Education
+Dubna, [location] Autumn2022
+II All-Russian School-Seminar ’Center for Research of Supercomputer Architectures’,
+NationalCenterofPhysicsandMathematics
+Sarov, [location] Summer2024
+Publications
+1. [name] [surname], [name] [surname], [name] [surname], [name] [surname]. RuCLEVR: A Russian Di-
+agnostic Dataset for Compositional Language and Elementary Visual Reasoning AIST,
+2024.
+2. [name] [surname]. Digitalization as a way to counter corruption Economics and Innovations.
+ProceedingsoftheScientificandPracticalConference,2020.
+3. [name] [surname], [name] [surname]. SEZ of Technical-Introductory type as investment
+mechanismsXXXIIIInternationalPlekhanovReadings.,2020.
+Skills Languages: Russian(native),English(C1),French(B2).
+Programming: Python,C++,SQL,Bash,Git. LaTex.
+Courses: ML, DL, NLP, Probability and Statisics, Econometrics, TheoreticaLinguistics,
+Calculus, Data Structuresand Algorithms, OOP,Particle Physics, Formal Languages Theo-
+reticaLinguistics,etc.
+Extra Memberofthestudentcouncil,memberoftheUniversity’sScientificCommunity,debate
+curricular tournaments’awardee,caseclubmember,etc.
+activities
+1

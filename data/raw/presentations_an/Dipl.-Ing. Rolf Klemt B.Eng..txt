@@ -1,0 +1,2 @@
+[name] [surname] from [location] can be reached at +2 *** *** *** or [email]. [name] is a researcher at [company] in [location]. [name] recently presented a paper at a conference in [location]. [name]'s work focuses on [field]. [name] collaborated with [name] [surname] from [company] in [location] on this project. The project received funding from [company] in [location]. [name] also mentioned [location] as a place they enjoy visiting. 
+

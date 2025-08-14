@@ -1,0 +1,198 @@
+LLM4Code Workshop
+Code Summarization Beyond
+Function Level
+[name], [name]
+ICSE 2025
+Code summarization
+Code summarization creates concise code summaries using advanced neural
+methods, improving code understanding, readability, and documentation
+Code
+def plus(a: int, b: int): ...
+Crucial task in NLP and SE
+(Zh[surname], 2019)
+Summary
+Sums two integer numbers
+2
+Code summarization vs. other code NLP tasks
+creating brief and concise
+Code summarization
+summaries of code
+producing thorough descriptions and
+Code documentation
+comments for code
+predicting and suggesting the next
+Code completion
+part of the code
+generating new code from natural
+Code generation
+language descriptions
+converting code from one
+Code translation
+programming language to another
+3
+Code summarization beyond function-level (1/2)
+Class context
+class Calculator: ...
+Code Code
+def plus(a: int, b: int): ... def plus(a: int, b: int): ...
+Summary Summary
+Sums two integer numbers Sums two integer numbers
+function-level class-level
+4
+Code summarization beyond function-level (2/2)
+Repository context
+relevant files,
+repository structure,
+documentation, commits, etc.
+Code Code
+def plus(a: int, b: int): ... def plus(a: int, b: int): ...
+Summary Summary
+Sums two integer numbers Sums two integer numbers
+function-level repository-level
+5
+Background
+Deep learning-based
+Template-based
+RNNs LSTMs Transformers
+Function-level Beyond function-level
+Masked language models: PLMs
+ Auto-regressive models: LLMs
+CodeBERT ([name] et al., 2020), StarCoder ([name] et al., 2023),
+UniXCoder ([name] et al., 2022 DeepSeek Coder ([name] et al., 2024
+Encoder-decoder models: PLMs
+ Context embeddings, retrieval
+CodeT5 ([name] et al., 2021), CoCoSum ([name] et al., 2021),
+PLBART ([name] et al., 2021) RepoCoder ([name] et al., 2023)
+6
+Background: Project-specific Code Summarization with In-
+Context Learning
+([name] et al., 2024)
+7
+Background: Retrieval Augmented Generation (RAG)
+RAG: A Survey
+([name] et al., 2024)
+8
+Background: evaluation benchmark & metrics
+ClassEval benchmark CodeXGLUE benchmark
+([name] et al., 2023) ([name] et al., 2021)
+ClassEval: 100 class-level Python coding CodeSearchNet: 1M filtered
+tasks on 7 computer science related topics code) pairs from open GitHub repositories
+N-gram matching-based metrics Learning-based metrics
+BLEU-4 BERTScore-F1
+([name] et al., 2002) ([name] et al., 2020)
+ROUGE-L BLEURT
+([name], 2004) ([name] et al., 2020)
+METEOR SIDE
+similarity between code and summary
+([name] & [name], 2005) ([name] et al., 2023)
+9
+Problem and Research Question
+Code summarization models have difficulty handling large and diverse
+software projects
+Limited attention in summarizing large-scale codebaases
+([name] et al., 2019)
+Evaluation of models is lacking beyond function level
+([name] et al., 2024)
+How effective code summarization models beyond the function level?
+10
+Methodology
+Goal
+Compaare SOTA code summarization models at function, class, and repository
+levels by running several experiments using evaluation datasets and metrics
+Step 1. Adapt the existing code summarization benchmarks for evaluation at
+the function, class, and repository levels
+
+Step 2. Select baselines and LLMs for the experiments
+
+Step 3. Evaluate baselines and LLMs at the function, class, and repository levels
+
+Step 4. Compaare and analyse results and release source code for reproducibility
+Python code English summaries
+11
+Evaluation datasets (step 1)
+Modified ClassEval Modified CodeSearchNet
+(code, summary, class context)
+(code, summary, repository context)
+from 100 class-level coding tasks from top-4 GitHub repositories
+Funciton-leve  Funciton-leve
+Class-level Repository-level
+400 samples
+ 806 samples (455/237/64/50)
++ 10 for few-shot learning + 40 for few-shot learning (10 per repo)
+Modification of the dataset
+Modification of the CodeSearchNet dataset
+from ClassEval benchmark
+from CodeXGLUE benchmark
+by ([name] et al., 2023)
+12
+Function-level expeiments: Baselines
+Inference on Modified ClassEval and Modified CodeSearchNet
+13
+Function-level expeiments: LLMs
+Inference on Modified ClassEval and Modified CodeSearchNet
+System
+You’re a specialized AI assisting with Python code
+prompt summaries, deeply knowledgeable in computer science.
+zero-shot
+10 few-shot examples
+14
+Class-level expeiments: LLLMs
+Inference on Modified ClassEval
+System
+You’re a specialized AI assisting with Python code
+prompt summaries, deeply knowledgeable in computer science.
+skeleton context
+15
+Repository-level expeiments: LLLMs with “Naive RAG”
+Inference on
+Modified CodeSearchNet
+System prompt
+You’re a specialized AI
+assisting with Python code
+summaries, deeply knowledgeable
+in computer science.
+10 few-shot examples + 50 repo chunks
+16
+Results: Few-shot learning on Modified ClassEval (step 4)
+17
+Results: Few-shot learning + Repo chunks from retriever
+on Modified CodeSearchNet
+18
+Results: Function-level vs. Class-level
+How effective code summarization models beyond the function level?
+Modified ClassEval
+19
+Results: Function-level vs. Repository-level
+How effective code summarization models beyond the function level?
+Modified CodeSearchNet
+20
+Results summary
+How effective code summarization models beyond the function level?
+Few-shot learning is robusst, with starcoder2-15b leading in performanc
+deepseek-coder-1.3b with skeleton context excels at class-leve
+deepseek-coder-6.7b with full repository context tops at repository-leve
+deepseek-coder-33b fails to meet expectaions beyond the function leve
+llama3-8b as non-code-specific LLLM expectedly underpperform
+codet5p-base without any context remaiins the cost-effective SOTA baseline
+Encoder-decoder models are effective at the function level
+Auto-regressive models show noticeable performance beyond the function level
+21
+Conclusion
+Understanding the nuances of code summarization beyond the function level
+and refiining strategies for prompt engineering and few-shot learning using LLLMs
+Limitations Future work
+Evaluation datasets can be Enhanced analysis within each
+improve selected model and repositor
+Python programming languag
+New high quality repository-level
+code summarization datase
+Text generaiton metric
+“Advanced RAG” pipelin
+“Naive RAG” pipelin
+More efficient prompt engineering
+Time-limited prompt engineering
+22
+Thank you! Q&A time
+Results of this research are reproducible and available at the following link
+github.com/kilimanj4r0/code-summarization-beyond-function-level
+23

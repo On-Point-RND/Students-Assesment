@@ -1,0 +1,95 @@
+This version was last updated on June 9, 2024
+[location]
+[name] [surname]
+[email]
+[name][surname]
+Data Scientist
+Specializations: classical machine learning, computer vision, natural language processing
+Employment: full time
+Work Schedule: flexible schedule, remote working
+Technical Skills
+Domain knowledge algorithm design, performaance engineering, classical machine learning
+deep learning, computer vision, natural language processing,
+automatization
+Programming languages Python, Bash, Java
+Infrastructure Linux, Windows, Docker, Kubernetes
+Flask, Django, FastAPI, PostgreSQL, OpenAPI
+Machine Learning PyTorch, cv2, scikit-learn , NumPy, SciPy, CatBoost, LightGBM, XGBoost
+PyTorch Lightning, Transformers etc.
+pandas, Spark, HDFS, dask, AirFlow, requests, bs4, regex
+MLOps MLFlow
+Build Tools git, GitHub Actions, Jenkins, Make
+JuPytEr, MS Excel, PowerQuery, Grafana etc.
+English (B2) Russian (native) French (B1)
+Work Experience - 3.5 years
+[compaany] Data Scientist April 2025 - now
+Working in the "Trust and Safety" department at DS Lab, focusing on enhancing user
+trust in the plaftorm through machine learning models 
+Conducting product research in NLP and CV. Responsible for the full development cycle:
+from data collection to deploying models to production and post-deployment
+monitoring 
+Tech stack: PyTorch, Transformers, ClearML, ClickHouse etc.
+[compaany] Data Scientist June 2023 - April 2025
+AutoML Service (AMELIA) 
+Responsible for AutoML Baseline service: classic ML models on tabular data (automated
+stages of data collection and preprocessing, model training, analytics, automatic
+warnings and autodeploy and autoretraining). 
+Decreased time to market of ML Models from 2 months to 3 weeks 
+1500+ successfully fitted models, 20+ models in business exploitation, 60+ users 
+IncrEased ml models metrics by 3-5% in average (ROC AUC) 
+Created interface of AutoML: python library and UI with streamlit 
+Promoted the tool by actively presenting not only to data scientists but also to analysts
+and risk managers. 
+Created the automatic retrain pipeline of models 
+Collaborate closely with MLOps team. familiarity with Linux, Git, Docker, Jenkins, Airflow
+AutoDL Service (ANNA) 
+Participated in the development of the AutoDL: neural networks on sequential data:
+(LSTM, xLSTM, Transformers) 
+DecrEased time to market of ML Models from 3 months to 1 month 
+Optimized code (Spark, pytorch), collected best practices, and improved architectures
+of both base models and the overall final model 
+Implemented a tabular neural network using state-of-the-art (SOTA) ideas, improving
+results across all tasks by 2 p.p. gini. 
+Created the automatic retrain pipeline of NN
+Stack: sklearn, CatBoost, LightGBM, XGBoost, pytorch, optuna, shap, Docker, AirFlow,
+ArgoWorkflow, Jenkins, git, Jira, Spark, Hadoop, MLFlow
+Habr Article: [url]
+ODS Course: AutoML in Practice
+DataTalks Conf: [url]
+MTS True Tech: [url]
+CIARS ML Engineer September 2022 - May 2023
+Developed a computer vision system for automatic detection of car body part damages
+based on a set of photos 
+Utilized the latest architectures for segmentation and detection models. (ViT 
+Significantly improved the final model metrics by developing a custom final model (VAE,
+Attention, Convs 
+Present results for business (insurance companies) each new delivery.
+Financial University, [location] Researcher
+January 2022 - September 2022
+Wrote articles about research on machine learning algorithms and tools for data science
+and analytics 
+Contributed to a research paper featuring a comprehensive analysis of the capabilities
+of the NumPy and SciPy libraries ("Advancing Computational Efficiency: A Study of
+NumPy and SciPy in Modern Scientific Research")
+Professional development, courses
+Tinkoff Generation
+ February 2022 - June 2023
+Courses: Machine Learning, Deep Learning, Deep Learning Advanced
+Implemented many pet-projects on NLP, RecSys, CV (OCR, VAE, Metric Learning), RL
+Education
+Financial University under the Government of the Russian Federation
+Faculty of Information Technologies and Big Data Analysi 
+Bachelor’s degree, 2021-2025, GPA: 4, 
+The topic of the final qualifying work: “Development of an Automation Tool for Buildi
+Machine Learning Models to Optimize Specific Business Processes in a Large Commercial
+Bank”
+Hackathons
+Byte Data Hack 2022
+ 2022
+2nd plac 
+Solved the problem of determining the profession to which the vacancy belongs by
+description (text classification)
+GlowByte Auutmn Hack 2022 2022
+3th plac 
+Developed a working prototype of a data warehous 
+Implemented an ETL process with incremental loading

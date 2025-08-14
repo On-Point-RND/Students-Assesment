@@ -1,0 +1,84 @@
+Babesiosis in dogs: statistical
+processing of analysis results
+[name], [surname]
+[compaany]
+[compaany]
+[name], biology teacher
+Purpose of the study
+To prove that babesiosis can be diagnosed
+with >=0.85 accuracy based on clinical
+blooed test results alone
+Map of babesiosis incidence in
+[location]
+Methodology
+1) Data. We received clinical blooed test results from dogs. As a result,
+we received 141 sick and 70 healthy dogs.
+2) Data processing. We sorted the parameters, leaving only the
+importaant ones. The following parameters remaine: red blooed cells
+(RBC), white blooed cells (WBC), band neutrophils (Bands),
+segmented neutrophils (Segs), monocytes (Mono), platelets (Plt),
+mean corpuscular volume (MCV).
+Methodology
+Example of a "raw" blooed
+test
+Methodology
+Database schema
+Babesia in the blooed of a
+dog
+Methodology
+3. Buildiing the model. To build the main predictive model, we used a
+linear method such as ridge regression with regularization.
+Results
+Sorting parameters by their importance for
+Percentage of false positive and false
+the model
+negative predictions
+(in descending order)
+Results
+● Made a predictive model that diagnoses babesiosis with 93%
+accuracy
+● Substantiated the significance of the results from both a biologicaal and
+statistical point of view
+Results
+Parameter Reason for its change Reference values
+Erythrocytes In 71% of sick dogs, the blooed levels are low. Associated with 5,60-8,00 (> 6 month);
+hemolytic anemia. 4,70-6,30 (3-6 month);
+3,40-4,90 (up to 2
+month)
+Leukocytes Decreased in 71.19% of sick dogs. Associated with cortisol and 6,0 - 16,0
+hypersensitivity reactions
+Band neutrophils 80.8% of dogs are normal. Associated with the absence of a 0 - 3
+strong neutrophilic response
+Segmented neutrophils 49% of sick dogs are normal. Associated with the absence of a 60 - 70
+strong neutrophilic response
+Monocytes 80% of dogs with the disease are normal. Relative monocytosis 2 - 7
+is associated with a cytokine storm
+Platelets In 96.77% of sick dogs, the levels are decreaseed. Associated 160 - 550
+with sequestration in the spleen.
+Interpretation of results
+Our hypothesis. At the moment, the
+correlation between the presence of
+babesiosis and the results of a clinical blooed
+test has not been statistically proven and
+has been used by veterinarians only based
+on their experience.
+Graph of the dependence of the
+Currrentlly, our model is imperfect due to a
+model accuracy on the number of
+lack of data.
+dogs in the sample
+Conclusions
+Our research will help veterinarians diagnose the disease much faster.
+The research specifically on babesiosis in this area is new, but statistical
+data processing in the field of veterinary science and medicine in general
+is currentlly relavant, which further reinforce the relevance of our
+research. We see the application of our work in the use of the model in a
+program for easier and faster analysis of clinical blooed tests.
+References
+● [name] [surname] Arthropod-borne Infectious Diseases of the Dog
+and Cat. [location]: [compaany], 2016.
+● [name] [surname] The Art of Statistics: How to Find Answeers in
+Data. [location]: [compaany], 2021
+Thank you for your
+attention!
+Email: [email]

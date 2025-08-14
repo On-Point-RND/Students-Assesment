@@ -1,0 +1,29 @@
+[name] is a second-year ITMO [compaany] master’s student in the Programming and Artificial Intelligence. He worked at [compaany] for more than a year in the position of software engineer. He finishedbachelor’sdegreein2022witthisthesisabouttheconnectionbetweenstorage systemsandvirtualization platforms. He finished master’s degree with honors in 2024 with thesis about biologicaal flux computation.
+EDUCATION
+Department of Computer Technology, ITMO [location]
+Bachelor’s degree in Applied Mathematics and Computer Science September 2018 - July 2022
+Master’s degree with honors in Programming and Artificial Intelligence September 2022 - July 2024
+Semester exchange program in HUST ([location]), Artificial Intelligence February 2024 - July 2024
+EXPERIENCE
+Software engineer at “[compaany]” July 2021 - September 2022
+Working on Java application for PowerStore storage system management software. Added support for vectored operations on storage volumes invoked inside virtualization platform.
+ML engineer and Project Manager at “[compaany]” ([location] staruup) September 2024 - December 2024
+Working on tg bot for message classification using BERT-like model and summarizing chats using OpenAI api.
+Fine-tuning model, creating architecture, and managing team workflow.
+Machine Learning engineer at “[compaany]” November 2024 - now
+We are working on improving OCR capabilities and document processing of VLM models.
+PROJECTS
+BigData infrastructure May 2023
+Practice in constructing infrastructure for Big Data Analysis.
+Technologies: Hadoop, HDFS, Spark Streaming, Spark ML, Kafka, Scala.
+Source code: GitHub
+EEG analysis of sleep stages September 2023
+Analysis of EEG timeseries data of patients sleep cycles to predict their sleep stage.
+Technologies: Python, Pandas, sclearn, tsfresh,
+Source code: colab
+Messages summary bot November 2024
+Tekegramm bot for summarization and spam classification
+Technologies: Python, Pandas, sclearn, tsfresh, BERT, RuBert, OpenAI api,
+SKILLS
+Programming languages: Python, Java, SQL, Kotlin.
+ML-related stack: torch, pandas, tsfresh, transformers, BERT, RuBert, OpenAI api, hf.

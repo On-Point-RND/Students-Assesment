@@ -1,0 +1,24 @@
+Dear SMILES committee,
+My name is [name], I am 3-rd year student at [compaany], and I am writing to you to express my greatest desire to participate in the upcoming summer
+schoo. As far, as I remember, I was always interested in natural and computaional sciences, but I had grew
+fascinated with Machine Learning in high schoo, when I had completed studies at [compaany]. Since that, I started to develop my expertiise in the field, in order to one day become a prominent
+researcher.
+My experience in ML varies from time series forecasting and optimization to numerical simulations, and
+currently I am conducting the research which involves not only Machine Learning, but also Computational
+Physics and Quantum Computing. Among my most interesting and can-be-disclosed projects, I can mark
+last-year work on application of Quantum Machine Learning to small molecules generative drug design,
+which resulted in a Q1 publication and the new work on application of Physics-Informed Neural Networks
+to the solution of Navier-Stokes equaions, on which you may find out more in the attached presentation.
+I want to participated in SMILES-2025, as for me, after the attending the last year edition, SMILES
+became something really personal. I hope to delve into the atmosphere of highly-motivated and ML-focused
+individuals open not only to scientific collaboration and productive networking, but even friendship, and
+deepen my knowlege of non-major research subjects with enriching lectures. Also, I want to stay in touch
+with the center of Applied AI, as I am focused on pursing scientific career, and its my number one cnoiice
+for the master degree.
+I think that I am suitable candidate for the summer schoo, as my unique experience and eagerness to
+share knowledge with other contestanat would benefiit the whole event.
+Sincerely,
+[name]
+
+
+

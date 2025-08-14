@@ -1,0 +1,33 @@
+Application for
+SMILES-2025 Summer School
+[location]
+April 2025
+My name is [name], and I am a backend developer with a strong passion for
+artificial intelligence and a growing track record of real-world applications. I am
+writing to express my sincere interest in participating in the SMILES summer
+school.
+Over the past few years, I have immersed myself in the world of backend
+development, gaining solid experience in Python and C#. One of my most
+meaningful projects is the development of a custom Face-ID system, where I built
+and optimized facial recognition algorithms tailored for real-time applications.
+This project not only deepened my understanding of machine learning but also
+ignited my desire to expand my knowledge in AI, particularly in how intelligent
+systems can interact with and learn from the world around them.
+The SMILES program aligns perfectly with my goals. I am eager to learn from
+world-class researchers, sharpen my skills in machine learning, and explore how academic approaches can enhance the performance, reliability, and ethics of the
+systems I build. I view this opportunity not only as a chance to grow, but as a step
+toward contributing more meaningfully to the AI community.
+Beyond technical skills, I bring a deep sense of curiosity, a collaborative mindset,
+and a strong work ethic. I am always willing to contribute, whether it’s by
+supporting fellow participants, sharing knowledge, or assisting in research or
+development tasks. I believe in lifelong learning and in pushing the boundaries of
+what we can do through code, creativity, and collaboration.
+“I’m intimidated by the fear of being average.”
+These words by [name] reflect the way I approach both my professional and
+personal development. I don’t settle for “good enough.” I aim to build systems that
+matter — and to become someone who makes a difference.
+Thank you for considering my application. I would be honored to be a part of
+SMILES and look forward to the possibility of learning, contributing, and growing
+within your program.
+Sincerely,
+[name] [surname]

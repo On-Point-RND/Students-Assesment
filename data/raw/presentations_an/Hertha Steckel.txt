@@ -1,0 +1,65 @@
+Automatic generation of adaptive multi-agent systems based on large language models for solving industrial and scientific problems
+Author: [name] [surname]
+Scientific Adviser: [name] [surname]
+Abstract
+Goal: Automate Multi-agent system design using LLMs for industrial/scientific problem-solving.
+Key Innovation: Meta-agent architecture with dynamic agent generation, self-reflection, and evolutionary optimization.
+Outcome: Achieved 8.67/10 performance in scientific article summarization, reducing manual design costs.
+Introduction
+Challenges in MAS Design: Resource-intensive architecture customization, lack of adaptability.
+LLM Potential: Code synthesis, context analysis, and self-improvement capabilities.
+Research Objective: Develop an LLM-driven framework for automated, adaptive MAS generation.
+Problem Statement
+Limitations of Traditional MAS:
+1. Manual architecture design.
+2. Narrow specialization of agents.
+3. High development costs.
+Need: Scalable, autonomous systems for dynamic environments.
+Methods Overview
+Three Key Components:
+1. Dynamic Agent Generation (LLM-based code synthesis).
+2. Automated Evaluation (quality metrics via independent LLM).
+3. Self-Reflection (“thought → action → criticism” loop).
+System Architecture
+Meta-Agent Roles:
+• Agent code generation (GPT-4o).
+• Archive management (JSON repository).
+• Evolutionary optimization (combining successful agents).
+Components: Search space, quality assessment function.
+Agent Generation Process
+Steps:
+1. Task initialization (e.g., “analyze scientific articles”).
+2. LLM code synthesis (Structured Output pattern).
+3. Validation on benchmark data.
+4. Self-reflection for error correction.
+Experimental Setup
+Task: Summarize 250 AI research articles (2024).
+Evaluation Metrics: Relevance, coherence, readability, accuracy, conciseness.
+Tools: OpenAI API, Qwen2.5 72B (evaluator).
+Parameters: Temperature, iteration count, agent attempts.
+Analytical Table – Base Agents Performance
+Results – Base Agents Evaluation
+Key Findings:
+• LLM Debate agent scored highest (8.4/10).
+• Reflection improved coherence and readability.
+Results – Automated Agents Performance
+Optimized MAS Score:
+8.67/10 (vs. baseline 8.4)
+Improvement Drivers: Role assignment, diversity in agent combinations.
+Results – Temperature Impact
+Optimal Temperature: ≤0.5
+balances creativity and stability.
+High Temperature (>0.7):
+Reduced accuracy and coherence.
+Discussion – Contributions and Impact
+• Theoretical: LLM as a core for self-organizing systems.
+• Practical: Reduced development costs, adaptability in dynamic environments (e.g., industrial automation).
+Limitations and Future Work
+Limitations: LLM dependency, subjective evaluation, narrow task scope.
+Future Directions:
+• Integration with reinforcement learning.
+• Cross-domain validation (e.g., robotics).
+Conclusion
+• Achievement: Demonstrated LLM-driven MAS outperforms traditional methods.
+• Impact: Enables rapid deployment in uncertain, dynamic scenarios.
+• Call to Action: Explore integration with broader ML paradigms.

@@ -1,0 +1,124 @@
+Makar [name]
+Computer vision
+model for
+automatic coin
+grading
+April, 2025
+Introduction
+Coin grading is the process of assessing coin condition, which helps to
+determine the coin's numismatic value.
+Fig. 1 – The Sheldon scale, used for coin grading.
+Downloaded from: https://www.preciousmetals.com
+2
+Background
+The coin grading has several
+advantages:
+▪ Verify the authenticity of the
+coin.
+▪ Obtain the “objective” grade
+of the coin.
+▪ Narrow the range of the
+coin’s value.
+▪ Protect the coin from the
+tear and wear.
+Fig. 2 – The 1 Ruble coin 1915 in the RNGA slab (grade encircled with red).
+Downloaded from: https://vk.com/rngacoin
+3
+General problem
+Unfortunately, the process
+has several disadvantages:
+▪ The process is totally
+subjective.
+▪ The grade can be not
+reproduced by other
+numismatists.
+▪ A single numismatist can
+grade no more than a few
+dozen coins per day.
+Fig. 2 – The 1 Ruble coin 1915 in the RNGA slab (grade encircled with red).
+Downloaded from: https://vk.com/rngacoin
+4
+Baseline results
+1
+Classifier F1-Score Acc@1 Acc@5 ROC-AUC MAE
+XGBoost 0.289094 0.284848 0.714015 0.886419 2.288604
+CatBoost 0.261221 0.264535 0.719673 0.897895 2.340255
+Random Forest 0.255421 0.263233 0.648532 0.853113 2.693556
+KNN 0.247215 0.250426 0.574313 0.738043 3.109957
+SGD 0.103133 0.104663 0.312973 0.822481 5.496805
+2
+Random guess 0.033333 0.033333 0.166667 0.500000 10.000000
+Table. 3 – The numerical results of the different classifiers for the ML baseline.
+1 The grades are encoded as non-negative integers from 0 to 29. Thus, the MAE is the mean error in grades between the predicted
+and the true one.
+2 Given for reference, computed analytically.
+5
+DL Models results
+Encoders F1-Score Acc@1 Acc@5 ROC-AUC MAE
+EfficientNet-B3 0.377661 0.380308 0.869692 0.940055 1.415871
+EfficientNet-B2 0.351854 0.360434 0.875000 0.938129 1.440943
+EfficientNet-B1 0.311331 0.321239 0.817532 0.926198 1.655455
+EfficientNet-B0 0.328414 0.340307 0.855667 0.933881 1.524894
+Baselines
+XGBoost 0.289094 0.284848 0.714015 0.886419 2.288604
+Random guess 0.033333 0.033333 0.166667 0.500000 10.000000
+Table. 4 – The numerical results of the DL models with different encoders.
+6
+Ablation study
+Encoders F1-Score Acc@1 Acc@5 ROC-AUC MAE
+EfficientNet-B3 0.377661 0.380308 0.869692 0.940055 1.415871
+EfficientNet-B2 0.351854 0.360434 0.875000 0.938129 1.440943
+EfficientNet-B1 0.311331 0.321239 0.817532 0.926198 1.655455
+EfficientNet-B0 0.328414 0.340307 0.855667 0.933881 1.524894
+Table. 5 – The numerical results of the DL models trained with slabbeed coins.
+Encoders F1-Score Acc@1 Acc@5 ROC-AUC MAE
+EfficientNet-B3 0.314695 0.325487 0.871483 0.929777 1.453734
+EfficientNet-B2 0.300094 0.315733 0.858567 0.929416 1.517510
+EfficientNet-B1 0.287577 0.307381 0.831627 0.925548 1.623384
+EfficientNet-B0 0.295681 0.313308 0.843750 0.928389 1.612069
+Table. 6 – The numerical results of the DL models trained with slabbeed coins.
+7
+Results outline
+Fig. 7 – Comparison of the obtained results with the existing studies.
+8
+Conclusions
+▪ The state-of-the-art dataset for coin grading has been acquired.
+▪ The DL-based (Acc@1 0.380) solutions have surpassed a previous
+state-of-the-art.
+▪ The quality sampling without proof coins found to be the most suitable
+sampling strategy.
+▪ The elements of the slabs at the images works as augmentations rather than a distoritions.
+▪ Further model enhancement may require the multimodal data processing.
+9
+Appendix 1 – Data
+preprocessing
+▪ The preprocessing pipeline utilize
+pretrained YOLOv11s model to detect
+the coins at the images.
+▪ The images without coins (many coins)
+and irregularly-shaped shards of the
+coins are rejected.
+▪ The valid images are reshaped into
+squares and cropped with the circular
+mask.
+Fig. 5 – The diagram of the images
+preprocessing pipeline.
+10
+Appendix 1 – why Hough transform is not applicable
+The image have a single possible
+selection and gap may cause false-positive
+detection which may cause several false-positive
+detections.
+Fig. 8 – The examples of the samples, that cannot be processed with the Hough transform.
+11
+Appendix 2 – DL models training hyperparameters
+Optimizer Adam
+Learning rate scheduler Not used
+Learning rate 2e-5
+Weight decay 1e-5
+Momentum 0.9 and 0.999
+Number of epochs 50
+Dropout rate 0.2
+Effective batch size 128
+Table. 7 – DL models training hyperparameters.
+12

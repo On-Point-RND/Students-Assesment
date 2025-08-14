@@ -1,0 +1,52 @@
++2 *** *** *** | [email]
+Summary
+Incoming student, [location] AI Program (Fall 2025). Possesses 5 years of Python experience, further solidified by graduating [compaany]'s two-year Industrial Development track (covering advanced algorithms, software engineering, backend). Proficient with the core ML/DL stack: Python, end-to-end deep learning development using PyTorch (incl. custom layers/modules, complex training loops, optimization strategies), classical ML with Scikit-learn, NumPy/Pandas, Git version control; familiar with Docker basics. Currently focused on understanding and implementing Generative Models (Diffusion, GANs) and Transformer architectures (for LLMs) through hands-on study projects. Aiming to leverage [compaany]2025 to accelerate practical skills in advanced generative AI and contribute technically to team-based projects.
+Education
+[location], [location] (Expected Start: September 2025)
+Faculty of Artificial Intelligence (Incoming Undergraduate Student)
+[compaany] (Graduate, [Год Окончания])
+Two-Year Industrial Python Development Program
+Curriculum included: Advanced Python & Algorithms, Software Engineering Practices, Backend Systems, Databases, Agile Team Project Delivery.
+[location], [location] (Expected Graduation: June 2025)
+Specialization in Mathematics and Physics
+SMILE Resume 1
+Technical Skills
+Programming: Python (Proficient: OOP, Asyncio, Performance Optimization, Testing), Java (Intermediate), C/R (Basic)
+ML/DL Frameworks & Libraries: PyTorch (Solid Experience), Scikit-learn (Proficient), Hugging Face Transformers (Experience), NumPy (Proficient), Pandas (Proficient), Matplotlib/Seaborn
+Core ML/AI Concepts:
+Supervised & Unsupervised Learning Paradigms
+Model Development Lifecycle (Training, Validation, Testing, Evaluation Metrics)
+Feature Engineering & Selection Techniques
+Deep Learning Fundamentals (NN Architectures, Backpropagation, Activation Functions)
+Optimization Algorithms (SGD, Adam, RMSprop)
+Advanced AI Areas (Active Research & Implementation):
+Generative Models: Diffusion Models, Generative Adversarial Networks (GANs)
+Large Language Models (LLMs): Transformer Architecture, Attention Mechanisms, Fine-Tuning Strategies
+Natural Language Processing (NLP): Tokenization, Embeddings, Sequence Modeling Basics
+Emerging Areas: Concepts of Self-Supervised Learning, Reinforcement Learning, Trustworthy AI
+Tools & Platforms: Git/GitHub (Proficient), Docker (Experience), Jupyter Notebooks, Google Colab, Linux/macOS Command Line (Proficient)
+Mathematical Foundations: Applied Linear Algebra, Calculus, Probability & Statistics for ML (supported by self-study, e.g., 3Blue1Brown)
+Projects & Research Activities
+SMILE Resume 2
+Generative AI Explorations (Ongoing Personal Project)
+Objective: Investigate architectures (Diffusion, GANs) and training dynamics for high-fidelity image generation.
+Methods: Implementing and training models using PyTorch on standard benchmarks (MNIST, CIFAR-10), analyzing latent space properties.
+Tools: PyTorch, NumPy, Matplotlib.
+Status: Active development and experimentation.
+Repository: [github.com/timursalem/Generative-AI Explorations]
+LLM Fundamentals & Transformer Implementations (Ongoing Personal Project)
+Objective: Gain practical understanding of Transformer architecture and fine-tuning pre-trained LLMs.
+Methods: Implementing core components (e.g., multi-head attention), utilizing Hugging Face libraries for fine-tuning on NLP tasks (e.g., text classification).
+Tools: PyTorch, Hugging Face (Transformers, Datasets), Scikit-learn.
+Status: Active study and code implementation.
+Repository: [github.com/timursalem/LLM Fundamentals-Transformers]
+(Optional) ML Research Paper Implementations (Ongoing Personal Project)
+Objective: Deepen theoretical understanding by implementing core ideas from recent ML publications in areas of interest (e.g., Self-Supervised Learning, Optimization).
+Status: Exploratory phase, code repository set up for tracking progress.
+Repository: [github.com/timursalem/ML Research-Implementations]
+Interests
+Deep Generative Models, Large Language Models, Multimodal AI, Self-Supervised Learning, AI Safety and Ethics.
+Languages
+SMILE Resume 3
+English (B2 Upper-Intermediate: Proficient in reading technical documentation, participating in technical discussions)
+SMILE Resume 4

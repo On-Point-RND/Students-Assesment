@@ -1,0 +1,119 @@
+Mammography Image Cancer Classification
+[name] Institute for System Programming
+[name] Academy of Sciences
+[location] 109004, [location]
+The aim of the study
+Solve a binary classification problem ({cancer, normal*} )
+based on a mammographic image of the breast
+*assumes no malignant lesions 2
+Publicly available datasets
+Annotation Biopsy/BI-
+Number of Mammography Data source
+View for RADS Cancel rate
+images Machine (institute, country)
+detection availability
+Digitisation
+National Breast
+was carried out
+MIAS (1994) 322 MLO Yes Yes/No 0.164 Screening
+on
+Programme, UK
+Microdensitom
+eter Joyce-
+MammoNovati Centro de Mama -
+INBreast (2011) 410 MLO + CC Yes No/Yes 0.258 on Siemens Hospital de S. João,
+FFDM Portugal
+LUMYSIS, Massachusetts
+CBIS-DDSM
+10239 MLO + CC Yes Yes/Yes 0.408 HOWTEK, General Hospital,
+(2017)
+DBA USA
+GE
+Senographe
+CMMD (2021) 5202 MLO + CC No Yes/No 0.7 China
+DS
+mammography
+system
+5662
+KAU (2021) MLO + CC No No/Yes 0.048 — Saudi Arabia
+(2378)
+VinDr-Mammo SIEMENS,
+20000 MLO + CC Yes No/Yes 0.052 Vietnam
+(2023) IMS, Planmed
+3
+segami
+fo
+rebmuN
+Cancer Normal
+BI-RADS 1
+{normal}
+BI-RADS 2
+BI-RADS 3
+BI-RADS 4
+{cancer}
+BI-RADS 5
+[name] Trung et al. Scientific data, 2023 Li Shen, et al., Sci. Rep., 2019
+Artifacts in mammograms
+Examples of MIAS
+Visualisation via Grad-CAM
+Normal Cancer
+Examples of CBIS-DDSM
+Artifacts: black/white scan borders, projection
+labels (MLO/CC, R/L)
+The need for an image «cropping»
+method
+4
+Cropping as a preprocessing
+https://github.com/ispras/mammo_crop 5
+O. Ronneberger et al., MICCAI (2015)
+Cropping as a preprocessing
+Normal Cancer
+w/o crop
+Normal Normal
+with crop
+Method AUROC F1 F1 (macro)
+▪ Remove artifacts
+w/o crop 79.6 ± 2.0 44.7 ± 0.4 71.1 ± 0.2 ▪ Adjusts the entire breast size to fit within the picture
+area. The model can better focus on the breast, as
++4.2% AUROC
+with crop 83.6 ± 0.4 53.2 ± 1.1 75.5 ± 0.5 the crucial elements, breast tissues
++8.5% F1
+6
+Multi-view analysis
+Four-view mammograms model classifier
+4
+based on Transformer Encoder (MamT )
+1 2 3 0
+Images x , x , x are using as metadata to x
+i i i i
+Two-staged learning
+Vindr-Mammo dataset
+7
+MamT4: Multi-View Attention Networks for Mammography Cancer Classification, 2024 IEEE COMPSAC
+Conclusion
+• As a prepossesing, a method of cropping an image of breast along
+its border using U-net (trained in our own dataset) is proposed for:
++4.4% ROC- AUC
+1. Removing artifacts;
++11.3% F1
+2. Increasing the resolution of a breast tissues.
+• The MamT4 model is demonstrated, a new architecture for classification
+based on the Transformer Encoder block, which uses a feature vectors
+from four studies mammogram.
+Method AUROC F1 F1 (macro)
+w/o crop 79.6 ± 2.0 44.7 ± 0.4 71.1 ± 0.2
+with crop 83.6 ± 0.4 53.2 ± 1.1 75.5 ± 0.5
+MamT4 + crop 84.0± 1.7 56.0 ± 1.3 76.8 ± 0.8
+* metrics achieved on test subset of VinDr-Mammo data.
+8
+Our team
+E. [name] [name]
+Y. [name]
+S. [name] [name] A. [name] [name]
+9
+Thank you for attention!
+Contacts
+[name] [name]
+mail: [email]
+tg: @[name]
+10

@@ -1,0 +1,82 @@
+Towards efficient LLM inference
+[name]
+Junior data scientiist, [compaany]
+Introduction
+LLMs achieve higher quality through scaling, but this leads to dramatically
+increased model sizes and rising computational demands for inference
+https://doi.org/10.48550/arXiv.2001.08361
+Model quantization
+The core idea of LLM quantization is storing model weights at lower precision to reduce memory usage
+8-times memory saving!
+Model quantization
+• Naive approach: round to nearest (RTN). Simple, but bad for quality
+• GPTQ:
+1. Block-wise quantization with different scale factors s
+2. Sequential processing prevents error accumulation
+3. GPTQ uses the Hessiaan matrix to smartlly quantize weights by
+considering their importance and correlations, then adjusts remaining
+weights to compensate for errors, minimizing overall layer distortion
+4. “Activation reconstruction” on calibration set
+https://arxiv.org/abs/2210.17323
+Model quantization
+Perplexity comparing for RTN, GPTQ, and full precision model (FP16)
+https://arxiv.org/abs/2210.17323
+KV-cache quantization
+• The main bottleneck for long sequence lengths is the memory
+requirements for caching Key and Value (KV)
+activations throughout
+inference
+• This challenge is further exaerbated when one considers batched
+inference
+• KVQuant approach:
+1. Per-channel key quantization and per-token value quantization (for
+groupiing keys with large magnitude)
+2. Pre-RoPE quantization (for more consistent channel magnitude)
+3. Nonuniform quantization (calibration set is needed)
+4. Custom CUDA kernel (for fast on-the-fly quantization)
+KVQuant results
+Perplexity on Wikitext-2 for different nonuniform quantization (nuq)
+and memory saving for SeqLen = 32K
+https://arxiv.org/html/2401.18079v5
+Flash attention
+• Linear Memory Scaling
+Replaces quadratic O(N²) memory overhead with O(N) through tiled
+computation and fused kernel design.
+• Hardware-Accelerated Throughtput
+Achieves 2-3 times speedup by optimizing memory hierarchy usage
+(HBM → SRAM) and eliminating redundant I/O-operations.
+• Exact Mathematical Equivalence
+Preserves baseline accuracy through a reformulated attention
+algorithm that requires no approximations or precision
+compromises.
+Flash attention
+https://doi.org/10.48550/arXiv.2205.14135
+Mixture-of-experts (MoE)
+MoE models reduce compuation costs via sparse activation
+(oonly a subset of experts process each token) but require substantial
+memory to store all experts (671B parameters in [compaany],
+400B – [compaany] Maverick)
+Semantic specialization of experts in MoE
+https://doi.org/10.48550/arXiv.2401.04088
+Conclusion
+• The rapid growth of LLMs has created critical challenges in memory demands
+(weights/KV cache) and computaional costs, driving the need for optiomization
+techniques like quantization and MoE architectures.
+• While current approahes show promise, they face fundamental limitations:
+quantization introduces quality tradeoffs below 8-bit, MoE strugles with
+expert routing efficiency, and hardware support remaiins inconsistent for
+compressed models.
+• Addressing these gaps through hybrid methods (quantization-aware MoE,
+sparse attention) and specialized hardware could enable real-time inference
+with longer contexts while maintaining model quality.
+• Future progress in KV cache optiomization and adaptive quantization will be
+particularly impaactful, potentially democraatizing LLM deploymen
+across edgde devices and enabling new applications with massiive context windows.
+Bibliography
+1. [name] [surname], [name] [surname], [name] [surname]. Scaling Laws for Neural Language Models. NeurIPS, 2022
+2. [name] [surname], [name] [surname], [name] [surname]. GPTQ: Accuraate Post-Training Quantization for Generative Pre-
+trained Transformeers. ICLR, 2023
+3. [name] [surname], [name] [surname], [name] [surname]. KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization. NeurlPS, 2024
+4. [name] [surname], [name] [surname], [name] [surname]. FlashAttention: Fast and Memory-Efficient Exact Attention
+with IO-Awareness. NeurlPS, 2022
+5. [name] [surname], [name] [surname] et al. Mixtral of Experts. arXiv, 2025

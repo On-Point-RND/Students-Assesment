@@ -1,0 +1,9 @@
+Dear [name] Committee,
+My name is [name], and I am a first-year PhD student at [compaany], specializing in Computational and Data Science. I also work as a research engineer at [compaany], where I focus on developing multimodal models that integrate visual and textual information to solve a broad range of AI challenges.
+The SMILES Summer School is especially appealing to me because its research directions particularly Multimodal Approaches, Generative Methods, and Large Language Models closely align with both my current work and long-term academic goals. I am eager to deepen my understanding of these areas, especially multimodal systems, which I already work on and would like to explore further.
+I find it especially exciting that the school will be held in [location]. This presents a valuable opportunity to interact not only with local researchers but also with participants from around the world. I believe that such international exchange is essential for scientific growth and fosters the kind of diverse perspectives that drive innovation in AI.
+One of the most compelling aspects of SMILES is the opportunity to engage in intellectually challenging and creative projects in collaboration with talented peers and under the mentorship of leading experts. I am confident that such an environment fosters the development of valuable skills and insights, and can potentially result in high-quality research outcomes, including the possibility of a publication based on the work conducted during the school.
+Over the past year, I have been involved in projects related to domain-adapted vision-language models, generative pipelines for molecule design, and 3D object understanding. These experiences have equipped me with strong practical skills in model development and experimentation, and I look forward to contributing these skills in a collaborative and dynamic environment.
+Thank you for considering my application.
+Sincerely,
+[name]

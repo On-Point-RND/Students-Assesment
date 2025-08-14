@@ -1,0 +1,19 @@
+Full Name: [name] [surname]
+Phone Number: +2 *** *** ***
+Email: [email]
+Location: [location]
+About me:
+I am a student at [company], I am actively developing neural networks at my university. I would like to know more in-depth information.
+Experience:
+I am a first-year student at the Faculty of Applied Mathematics and Computer Science at the Faculty of Applied Mathematics and Computer Science in the field of Artificial Intelligence Systems.
+I am currently developing a startup, we won a grant during our development, we have currently completed the development of an mvp, a sales forecasting project, and I am working on a neural network in the program.
+He also wrote neural networks for time series predictions. Cryptocurrency exchange rate forecast.
+Education:
+Full secondary education, 1st year of [company] University
+Skills:
+Hard Skills: Python (NumPy, Pandas), SQL, Bash, C, C++, HTML, CSS, JavaScript, Scikit-learn, XGBoost, Feature Engineering, Hyperparameter Tuning , PyTorch, TensorFlow, Machine Learning, and more
+Soft Skills: Leadership, Communication, Problem-Solving, responsible, ideological, hardworking, and I can quickly adapt to conditions.
+English (Fluent), Russian (Native)
+
+
+

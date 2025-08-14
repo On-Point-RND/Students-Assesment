@@ -1,0 +1,42 @@
+[name] [surname]
+DatScien[name]st
+[email]
+SKILLS EXPERIENCE
+CV NLP ML DL ML Researcher | [compaany]
+Numpy sklearn pandas z November2023–current * [location]
+• Wrote code for extracting embeddings using transformers and the BERT language model for a code assistant project
+CatBoost LLM BERT
+Algorithms Mathanalysis • Implemented the full development lifecycle of test prioritization algorithm for company releases in production. Experimented with various M&D Lmethods, ultimately settling on an MLP neural network. This significantly improved model performance on validation
+Probability Linear algebra
+TOOLS
+Assistant | [compaany] of Science and Technology
+Python C++ C Pytorch
+z June2024–July2024 * [location]
+Tensorflow Docker • Advised participants of a project-based program on programming, engineering development, and presentation of results in the field of autonomous vehicles
+SQL Git Linux
+ML Engineer | [compaany]
+LANGUAGES
+z March2022–November2023 * [location]
+English: C1 • Developed an automatic camera pointing and tracking algorithm
+• Performed football player detection on the field by fine-tuning YOLOv8
+• Implemented an automated sports commentary algorithm for live gameplay
+PROJECTS
+Creation of a voice sales service for fast food restaurants using LLM/RAG on partially synthesized data sets (paper preprint)
+• Wrote python script for data synthesis
+• Developed Markov chain algorithm for data synthesis
+• Generated 10,000 successful dialogue with Llama
+Arrhytmia detection using ECG data
+• Implemented an arrhytmia detection algorithm for Parquet-formatted data using classic machine learning methods and MLP neural networks
+EDUCATION
+[location] Institute of Physics and Technology
+z September2021–June2025 * [location]
+• Department of Radio Engineering and Computer Technologies
+BACHELO[name]R’S DEGREE
+Development of cyclist tracking technology for velodrome racing
+z September2024–June2025 * [location]
+• Filming cycling training session with a PTZ camera
+• Collecting and annotating data sets from the recorded footage
+• Detecting bounding boxes for wheels and helmets using YOLO
+• Detecting wheel-track contact point with a modified YOLO
+• Constructing a visual trajectory of the cyclist’s movement
+• Extracting metrics useful for improving athletic performance

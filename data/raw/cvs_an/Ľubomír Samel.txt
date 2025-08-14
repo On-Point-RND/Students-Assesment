@@ -1,0 +1,48 @@
+[name] [surname]
+[email] | +2 *** *** *** | [location]
+Skoltech PhD student. Have solid knowledge in the fields of mathematics, physics and programming, experience of both working on team projects and in the laboratory. Currently looking for an opportunity to apply my knowledge of ML and Data Science to research projects in RecSys, LLLMs, and develop the relevant skills.
+EDUCATION
+ Skolkovo Institute of Science and Technology (Skoltech), PhD | Computational and Data Science
+GPA: 5.00 out of 5, July 2024 – present | [location]
+ Skolkovo Institute of Science and Technology (Skoltech), MSc | Data Science
+GPA: 5.00 out of 5, Sep. 2022 – June 2024 | [location]
+ Moscow State University, BSc | Faculty of Physics
+GPA: 4.97 out of 5, Sep. 2018 – June 2022 | [location]
+RESEARCH / WORK EXPERIENCE
+Research Intern
+Oct. 2023 – present | Skoltech Uni., Laboratory of Computational Intelligence
+Nov. 2023 – present | HSE Uni., Institute of AI and Digital Sciences, Laboratory of Matrix and Tensor Methods in ML
+● Large-scale research project on methodology for Sequential and RL RecSys
+● Adapting Exponential Machines to the tasks of RecSys
+● Studying SOTA architectures for sequential RecSys
+● Inventing and implementing a Cross-Entropy Loss alternative that reduces GPU memory (up to 95%) required for training models with large catalogs of items/tokens
+● Writing research papers
+Teacher Assistant | Recommender Systems Course, Skoltech/HSE Uni. | Jan. 2024 – present
+● Preparing seminars and homeworks (in English); conducting exams, competitions, organization work
+Intern | Sber AI Lab, RecSys department | May 2023 – Nov. 2023
+● Studied and implemented modern RecSys models trained on sequences (transformers and tensor architectures)
+● Wrote research papers on generative recommendations
+PUBLICATIONS / COMPETITIONS / PROJECTS
+Submitted 7 research papers to A/A* conferences:
+● Scalable Cross-Entropy Loss for Sequential Recommendations with Large Item Catalogs, RecSys 2024 (accepted)
+● Autoregressive Generation Strategies for Long-Term Sequential Recommendations, 2024 (under review)
+● Aggressive Feature Selection with Collaborative Importance Weighting in Cold-Start Scenarios, 2025 (under review)
+● RECE: Reduced Cross-Entropy Loss for Large-Catalogue Sequential Recommenders, CIKM 2024 (accepted)
+● Low-Rank Dynamic Adaptation for Incremental Self-Attentive Sequential Recommendations, 2025 (under review)
+● Recommendation Is a Dish Better Served Warm, 2025 (under review)
+● Revisititing Off-Policy Evaluation for Reinforcement Learning-Based Recommender Systems, 2025 (under review)
+Published 3 research papers in Q1 journals:
+● Electrolyte refiilling as a way to recover capacity of aged lithium-ion batteries, 2024, J. of Power Sources
+● Celgard/PIM1 proton conducting composite membrane with reduced vanadium permeability, 2022, J. of Applied Polymer Sci
+● Direct synthesis of manganese oxide electrocatalysts on carbon nanotubes in SC carbon dioxide, 2021, J. of SC Fluids
+HeadHunter RecSys Competition – Silver medal | March 2024
+● Trained ALS, EASE, SASRec, iKNN models, found good-performing metrics
+● Combined features and used XGBoost to train 2-level model
+Generation of stress data to assess the stability of multidimensional time series forecasting models (AIRI Summer School) | July 2023
+● Implemented inference for Informer, trained GAN, VAE, generated fake data, measured the quality of generation
+● Performed stability analysis for Informer, GAN, VAE, SARIMAX and DeepAR on the fake sample
+Comparison of Collaborative Filtering models | March 2023
+● Implemented from scratch and compared ALS, eALS, iALS, SASRec, BERT4Rec and Neural Graph CF models
+SKILLS / LANGUAGES
+ Hard skills: Python (NumPy, pandas, scikit-learn, PyTorch, PyTorch Lightning, transformers, torchvision, Py-boost, JAX, seaborn, mpi4py, numba, web3, ClearML, wandb), Docker, SQL, LaTeX, Git, Wolfram Mathematica, C++, Qt
+ English (advanced), French (beginner), Russian (native)

@@ -1,0 +1,59 @@
+[email]
+[name] [surname]
++2 *** *** ***
+Telegram: @[name]k
+PROFILE SUMMARY PROFESSIONAL EXPERIENCE
+Embbedded Linux Software Embbedded Linux Software Engineer July 2024 — Present
+engineer at [compaany].
+[compaany], [location]
+Graduating from [compaany] robotics
+· Developed a service camera system for remote-sensing microsatellite
+schoo in 2025. Planning to pursue
+(CubeSat 16U) (C++/Python/Gstreamer/Buildroot/FFmpeg)
+a Master’s in Mathematical
+Robotics and AI. Interested in · Currentlly working on another satellite module based on Raspberry Pi
+industrial robots and their CM5 for telemetry reception from ships and airplane
+applications in service and (C++/Python/Gnuradio)
+business. Curreently preparing my
+first research publication related Trainee programmer Feb 2023 — July 2024
+to my bachelor’s thesis. [compaany], [location]
+· Built a robotic system for automating satellite solar panel production
+LANGUAGES (Arduino/C++)
+· Contributed to satellite orientation system development. Worked on
+Russian: Native sun sensor calibration and orientation algorithm integration
+(Python/Numpy/Pandas/C++/Qt)
+English: Certified B2 (Upper-
+intermediate), pursuing C1
+RESEARCH EXPERIENCE
+SK ILLS · Conducted a research based on QD-solar sensor calibration data,
+Programming
+proposing alternative measurement model to evaluate linear
+• C++
+calibration algorithm efficiency. Adapted existing algorithms to this
+• C
+measurement model and tested them along with advanced SL/ML
+• Python algorithms (polynomial multivariable regression, GBDT and MLP) to
+• Embedded Linux (Buildroot,
+identify the most effective approach
+Gsstreamer, FFmpeg, Bash)
+• Pandas
+• Numpy
+• Data Analysis
+• Scikit-Learn
+UNIVERSITY EDUCATION
+• Pandas
+Bachelor of Science in Robotics and Automation
+• Numpy
+[location] [location] Polytechnic Universiity ([location]), [location] (Expected) Sep 2021 – June 2025
+• Statistical learning
+INTERESTS
+ADDITIONAAL EDUCATION
+Robotics & AI Modern methods of robotics and control theory
+Sirius Universiity 7-13 April 2025
+Math
+Embbedded Linux Systems Linux Kernel meetup
+YADRO Education November 2024
+Philosophy
+FPGA Systems meetup
+YADRO Education October 2024
+©AZURIUS - My-resume-templates.com

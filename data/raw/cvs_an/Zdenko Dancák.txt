@@ -1,0 +1,58 @@
+[name] [surname]
+Email: [email]
+Phone: +2 *** *** ***
+GitHub: https://github.com/[name]
+LinkedIn: linkedin.com/in/[name]-[surname]
+Education
+• People’s Friendship Universiity of Russia ([location] Universiity), [location]
+Ph.D. program in Computational Mathematics October 2023 – Present
+• People’s Friendship Universiity of Russia ([location] Universiity), [location]
+M.Sc. in Mathematics September 2021 – 2023
+• People’s Friendship Universiity of Russia ([location] Universiity), [location]
+B.Sc. in Mathematics September 2017 – 2021
+Work Experience
+• NRC Kurchatov Institute - SRISA, Junior Research Scientist August 2023 – Present
+– Conductingappliiedresearchinartificialintelligenceforelectronicdesignautomation(EDA)and
+microelectronics.
+– Developing AI-driven methods for topology optimization in circuit design and CAD systems.
+– Collaborating with multidisciplinary teams on algorithm development and system integration.
+– Publishingresearchoutcomesinpeer-reviewedjournalsandpresentingatacademicco nfere nces.
+Publications
+Selected Publications
+1. [name][surname], [name][surname], [name][surname], [name][surname], [name][surname], [name][surname], RoutingCongestionPrediction
+inVLSIDesignUsingGraphNeuralNetwork s,DigitalSignalProcessingandiitsApplications(DSPA),
+International Conference on, IEEE Xplo re, [location], 2024.
+doi: 10.1109/DSPA60853.2024.10510092
+2. [name][surname], [name][surname], Self-supervise dAlgorithm sforAnomalyDetectiononX-Rays,GraphiCon
+2023: Proceedin gs of the 33rd Interna tional Confe rence on Computer Graphi cs and Machine Vision,
+[location], 2023, pp. 557–564.
+doi: 10.20948/graphicon-2023-557-564
+Other Publications (in Russian)
+3. Сайбодалов [name], Карандашев [name], Применение самообучающихся алгоритмов для детек-
+ции аномалий на рентгеновских снимках [Application of Self-Supervised Algorithm s for Anomaly
+Detection in X-Ray Images], Proc. of the XXV Interna tional Confe rence «Neuroinfo rmatics-2023»,
+pp. 370–380.
+4. Н.В. Желудков, Я.М. Карандашев, Е.С. Кочева, М.Х. Сайбодалов, З.Б. Сохова, А.А. Умнова,
+Оценкакартиразводимостиприпроектированиицифровыхбл оковСБИСс помoщюграфов ых
+нейронных сетей [Routing Congestion Map Estimation in Digital VLSI Design Using Graph Neural
+Network s], Trudy NIISI RAS, vol. 13, no. 4, 2023, pp. 91–96.
+5. М.Х. Сайбодалов, Я.М. Карандашев, З.Б. Сохова, Е.С. Кочева, Н.В. Желудков, Оценка карты
+разводимостиприпроектированиицифровыхбл оковСБИСииспользованиемнейронныхсетей
+[Routing Congestion Map Estimation in Digital VLSI Design Using Neural Ne twork s], Proc. of the
+XIX Int. Conf. «Supercomputing and Mathematical Modeling», [location], 2024, pp. 186–187.
+6. СайбодаловМ.Х.,ДашиевМ.В.,КарандашевЯ.М.,ЖелудковН.В.,КочеваЕ.С.,Нейросете-
+вой подход к прогнозированию разводимости при проектировании СБИС с учетом начальных
+параметровтопологии [Neura lNe twork-BasedRoutingCongestionEstimationinVLSIConsidering
+Initia l Layout Parameters], Abstracts of the Schoo l for Young Scienti sts «Microelectronics», Sirius
+Universi ty, 2024, pp. 376–378.
+Confe rences
+1. 33rdInterna tionalConferenceo nComputerGraphi csandComputerVisionGraphiCon’2023,20.09.2023,
+ICS RAS, [location]
+2. XXV Interna tional Confere nce «Neuroinfo rmatics-2025», 26.10.2023, NRNU MEPhI, [location]
+3. XXVI Interna tional Confere nce «Digital Signal Processing and Its Applications — DSPA-2025»,
+28.03.2024, ICS RAS, [location]
+4. XIX Interna tional Confere nce «Supercomputing and Mathematical Modeling» 22.05.2024, [location]
+5. 6th Young Scienti sts Workshop at Russian Microelectronics Forum, 19.09.2024, on line
+6. Ivannikov ISP RAS Open Confere nce, 12.12.2024, [location]
+Skills
+Python, PyTorch, scikit-learn, pandas, etc.

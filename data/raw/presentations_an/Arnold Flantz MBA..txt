@@ -1,0 +1,209 @@
+Slide 1
+----------------------------------------
+[name],
+  Research Engineer
+[compaany]
+
+Development of a Deep Learning Algorithm (DBP-Finder) for Identifying DNA-Binding Proteins (DBPs)
+
+Slide 2
+----------------------------------------
+Structure
+01
+Problem Statement
+02
+Data
+03
+Solution
+04
+Comparison with Other Methods
+05
+Application
+
+Slide 3
+----------------------------------------
+‹#›
+Proteins from the NLP Perspective
+Text
+Protein sequence
+The language of proteins: NLP, machine learning & protein sequences. (n.d.). Computational and Structural Biotechnology Journal, 19, 1750–1758.
+
+Slide 4
+----------------------------------------
+Problem Statement
+01
+
+Slide 5
+----------------------------------------
+Relevance
+‹#›
+Participatate in numerous cellular processes
+Regulate gene expression
+Optimize candidate protein screening
+Limited set of tools available for solving this problem
+
+Lambda repressor 1LMB
+
+Slide 6
+----------------------------------------
+‹#›
+Problem Statement
+
+WTARALEVPTDGNAGLLAEPQIAMFCGRL…
+
+Predicting DNA-binding from the protein’s amino acid sequence
+
+The algorithm is designed to solve a binary classification problem
+
+ Binding score 
+ (range: 0 to 1)
+
+Slide 7
+----------------------------------------
+Data
+02
+
+Slide 8
+----------------------------------------
+‹#›
+Amino acid sequences of proteins from UniProt
+Positive class (DBPs): GO annotation “DNA-binding”
+Negative class (Non-DBPs): No “DNA(RNA)-binding” GO annotation
+
+Data Description
+
+Slide 9
+----------------------------------------
+‹#›
+Training Dataset Preparation 
+
+Identical amino acid sequences
+Contain undefined amino acids
+Sequence length < 50 or > 1024 amino acids
+Undersampling Non-DBPs relative to the number of DBPs
+
+Proteins removed based on these criteria:
+
+Training dataset
+
+Slide 10
+----------------------------------------
+‹#›
+Test data 
+
+Amino acid sequences from UniProt
+
+Hu S. et al. (2019) An improved deep learning method for predicting DNA-binding proteins based on contextual features in amino acid sequences
+Ali, F. et al. (2022). DBP-iDWT: Improving DNA-Binding Proteins Prediction Using Multi-Perspective Evolutionary Profile and Discrete Wavelet Transf
+
+Slide 11
+----------------------------------------
+Solution
+03
+
+Slide 12
+----------------------------------------
+Пайплайн
+01
+Preparation of annotated proteins
+02
+Clustering proteins by 50% amino acid sequence identity threshold (MMseqs2)
+03
+04
+‹#›
+Steinegger M et al. (2017) MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets
+Elnaggar A. et al. (2023) Ankh: Optimized Protein Language Model Unlocks General-Purpose Modelling
+Removal of proteins in training set that belong to same cluster as test set proteins
+Calculate protein embeddings with Ankh [2]
+UniProt
+Training set
+Testing set
+Ankh
+Feature Extraction
+Classification
+Ankh Bert
+05
+Fine-tuning Ankh Bert for binary classification
+Clusterization
+
+Slide 13
+----------------------------------------
+‹#›
+Class enrichment Within Clusters
+
+
+Slide 14
+----------------------------------------
+Comparison with Other Methods
+04
+
+Slide 15
+----------------------------------------
+‹#›
+Performance Results
+
+PDB2272
+Metric Value
+Method
+PDB1000
+Mursalim et al. (2023). BiCaps-DBP: Predicting DNA-binding proteins from protein sequences using Bi-LSTM and a 1D-capsule network
+
+Slide 16
+----------------------------------------
+‹#›
+Performance Results
+
+Metric Value
+Method
+PDB20000
+
+Slide 17
+----------------------------------------
+‹#›
+Creation of Custom Test Dataset
+
+Additional annotated proteins from UniProt were obtained
+Test set was filtered based on identity thresholds relative to both training sets (DBP-finder and ProteInfer)
+
+
+Slide 18
+----------------------------------------
+‹#›
+Identity threshold 0.75
+Metric Value
+Method
+Identity threshold 0.5
+Performance Results
+Sanderson. et al. (2023). ProteInfer, deep neural networks for protein functional inference. eLife Sciences Publications, Ltd.
+
+Slide 19
+----------------------------------------
+Application
+05
+
+Slide 20
+----------------------------------------
+‹#›
+Application
+
+Candidate proteins sent for experimental validation
+Prediction on unannotated proteins from model organisms
+
+Slide 21
+----------------------------------------
+‹#›
+Демо
+
+GitHub - [name]/DBP-Finder
+
+Slide 22
+----------------------------------------
+‹#›
+Conclusions
+Ankh effectively captures key features of DNA-binding proteins for accurate classification
+
+The algorithm achieves high accuracy and outperforms existing methods on test datasets
+
+Планы
+Write and submiit a paper to Bioinformatics (IF = 5.8)
+Public release of the method

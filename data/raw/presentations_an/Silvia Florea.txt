@@ -1,0 +1,108 @@
+Development of Navigation Methods for Robotic Systems Based on Reinforcement Learning
+[name]
+[email]
+1
+Motivation
+Рис.: Wheeled assistant robot "Temi Personal Robot"
+2
+Research Objective
+The goal of this research is to train a wheeled robot using reinforcement learning to navigate to an object selected by a text command from a limited set of objects, while avoiing collisions with randomly placed static obstacles.
+3
+Overview of Methods Used
+Using deep reinforcement learning with automatic curriculum learning for mapless navigation in intralogistics:
+Applying curriculum learning to navigation tasks
+Reinforced imitation: Sample efficient deep reinforcement learning for navigation by leveraging prior demonstrations:
+Applying imitation learning to navigation tasks
+Learning object relation graph and tentative policy for visual
+navigation:
+Used a scene graph to model spatial relationships between objects and
+applied imitation learning.
+4
+Problem Formulation
+We model the navigation task as a Pariaally Observable Markov Decision
+Process (POMDP): (Z,S,A,P,R,γ). Here, Z is the true state, S is the
+observed state, A is the action space, R is the reward, P is the transition
+dynamics (S ×A → S), and γ ∈ (0,1] is the discount factor. The goal is to
+find an optimal policy π that maximizes the expected reward:
+(cid:34)T−1 (cid:35)
+(cid:88)
+G = E γtr(S ,a ) . (1)
+π π t t
+t=0
+Task: The robot must reach the target while avoiding obstacles using
+sensor data. An episode ends when the target is reached.
+5
+Problem Formulation
+1 Observed State Space S:
+a) Camera data - tensor of shape (400×400×3) - X cam ,
+b) Text command X goal ,
+c) Scene graph G,
+d) Robot base velocity V current (2 DoF): linear and angular components.
+2 Action Space A: Control velocity V control ∈ V, where V is the set of
+admisssible controls,
+V = f(X ,X ,D,G,M,V ).
+control cam goal current
+6
+Description of the Proposed Method
+Рис.: Overview of the pipeline
+7
+Description of the Proposed Method
+1 Subtask 1: Distance error < 1 m.
+π
+2 Subtask 2: Angle error < .
+20
+Reward Function:
+2
+1) Neither subtask completed: reward = − .
+10
+1
+2) Only one subtask completed: reward = − .
+10
+3) Both subtasks completed: reward = 2.
+4) Timeout or collision: reward = −5.
+8
+Control Module (Imitation Learning)
+Dijkstra Algorithm
+Рис.: Example of a path constructed and smoothed by the Dijkstra algorithm
+9
+Control Module (Imitation Learning)
+Рис.: Pure Pursuit path-following algorithm1
+1Coulter RC. Implementation of the pure pursuit path tracking algorithm.
+10
+Curriculum Learning
+Рис.: Experiment pipeline scheme
+11
+BBQ
+Рис.: BBQ pipeline
+12
+Initial Experiments
+Technical details: Experiments were conducted in the Isaac Sim
+environment using the Aloha wheeled robot2
+Рис.: Camera image from the robot in a multi-cnoice experiment
+2Fu Z, Zhao TZ, Finn C. Mobile aloha: Learning bimanual mobile manipulation with
+low-cost whole-body teleoperation.
+13
+Initial Experiments (Multi-Choice)
+Рис.: Graph of success rate vs. number of training episodes
+Success rate: 70% at a startiing distance of 2 meters.
+14
+Initial Experiments
+Рис.: Experiment with static obstacles
+15
+Initial Experiments (Static Obstacles)
+Рис.: Graphs of achieved difficuity level vs. number of training episodes and
+success rate vs. startiing distance between the agent and target object during
+inference
+16
+Conclusions and Future work
+The knowlage graph model performs 15% better in an area where no
+training took place.
+Future work:
+1 Memory (long and short)
+2 Dynamic prediction
+3 Dynamic obstacles
+4 Localization
+5 Improve representation of
+sensory data
+Рис.: localization map
+17

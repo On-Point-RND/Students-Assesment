@@ -1,0 +1,46 @@
+Hello, my name is [name] [surname]!
+Telephone: +2 *** *** ***
+E-mail: [email]
+City: [location], [location]
+Scientific supervisor:
+Engineer of the [compaany]
+[surname] [name] [surname]
+Email of the scientific supervisor: [email]
+Target
+I am constantly improving my robotics and mechatronics skills by participating in innovative
+projects and programs aimed at developing affordable technologies that can help people.
+Education
+[University]
+Student, direction 15.03.06 Mechatronics and robotics
+Specialization: Drives of robotic and mechatronic systems
+2021 – present
+Work experience and projects
+Participation in competitions and development of devices
+• I participated in the development of an autonomous rotating platform as part of universiity
+competitions.
+• I participated in the presentation of a project to create a robotic arm at the VII International
+Forum "Russian Energy Week" in the last autumn.
+• I took part in the automation of one of the largest chemical enterprisees in [location] located in the
+city of [location].
+• I am currentlly working on two projects: the creation of an educational electronic constructor for
+students of technical universiities and the creation of a mobile robot promoter to advertiise my
+universiity.
+Skills
+• Programming and development: CoDeSys, Arduino IDE, Python, MATLAB,
+TIAPortal, RSLogix, Protues.
+• 3D modeling: KOMPAS-3D, SolidWorks.
+• Automation: CoDeSys, WinProladder, TIAPortal, RSLogix.
+• Electronics: Experience in soldering microcircuits, selecting components, and integrating
+software with hardware.
+Additional information
+• Plans for the future: admission to the master's program at [University] in the direction of
+"Applied robotics" to deepen knowledge in modern methods and control theory.
+• At the moment, I am finishing a project to create a robot promoter and startiing a new project
+based on the STM32 programming kit, which offers students a fun way to learn the basics of
+electronics and programming, developing their creativity and practical skills.
+• The desire to create something new, develop your country and develop myself.
+Contacts
+Phone: +2 *** *** ***
+Telegram: @[name] [surname]
+E-mail: [email]
+City: [location], [location]

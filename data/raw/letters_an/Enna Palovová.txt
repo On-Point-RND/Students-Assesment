@@ -1,0 +1,32 @@
+Motivation letter
+My name is [name], and I am excited to apply for the SMILES conference.
+As a first-year student in the AI360: ML Native program at [compaany] , I am
+studying advanced machine learning and artificial intelligence. This conference
+is a great opportunity for me to develop my skills and learn more about AI, which
+matches my interests and studies perfectly.
+In February, I took part in a project school organized by [compaany] and [compaany]. My
+team, led by [name], worked on detecting hallucinations in large language
+models (LLMs). I was happy to see [name] as one of the speakers at
+SMILES because our project used his preprint, "Hallucination Detection in LLMs
+via Topological Divergence on Attention Graphs."
+This topic is very important because making LLMs more reliable will help people
+use them in real-world applications. At SMILES, I hope to learn about the latest
+developments, find collaboration opportunities, and improve our methods for
+detecting hallucinations—a key challenge in AI today.
+I have experience with several programming languages, especially Python, which
+I use for most of my ML projects because of its many useful libraries.
+For me, SMILES is not just about learning—it’s also about joining a community of leading AI researchers. I look forward to discussing important topics in LLM
+development, sharing ideas, and maybe starting new projects. Additionally, the
+fact that the conference is in [location] makes it even more exciting. I’ve always been
+interested in Chinese culture and history, so this will be a great chance to grow
+both professionally and personally.
+I believe attending SMILES will help me move forward with my current projects,
+and deepen my understanding of modern language models. Most of all, I’m eager
+to meet other researchers, reconnect with friends, and build new partnerships.
+Thank you for considering my application. I would be honored to be part of this
+event and learn from such an experienced group of people.
+Best regards,
+[name]
+
+
+

@@ -1,0 +1,232 @@
+Review of 3 articles
+[name] [surname], [compaany]
+Review of 3 articles
+The first article The second article The third article
+1. Adversarial Masking for Self-Supervised Learning
+https://proceedinings.mlr.press/v162/shi22d.html
+Introduction Self-supervised learning (SSL) in
+computer vision often relieas on
+masked image modeling (MIM),
+inspired by NLP techniques like
+ADIOS (Adversarial Inference-Occlusion
+BERT. However, while NLP
+Self-supervision) proposes a novel solution:
+masks semantic units (e.g.,
+1) An adversarial framework to learn
+words), standard MIM methods
+semantically meainingful masks that
+challenge the encoder to focus on high-level
+(e.g., MAE, BEiT) use random
+features.
+patches or pixels, which may
+2) Compaatibility with convolutional backbones
+not optiimally capture
+(unlike ViT-dependent MIM approahes).
+hierarchical visual semaantics.
+Key Limitations of Existing MIM
+Methods:
+Problem
+Statement
+Random masking (e.g., MAE’s
+75% patch dropout) lacks
+semantic grounding, potentially
+allowing the model to exploit
+low-level correlations (e.g.,
+texture) insteaad of reasoning
+about objects.
+ADIOS Goals:
+1. Learn masks that occlude coherent
+visual entities (analogous to word
+masking in BERT).
+2. Improve SSL performaance without
+relying on ViTs or pixel-level Architecturaal constraints: Most
+MIM methods require Vision
+Transformeers (ViTs), limiting
+flexibility.
+ADIOS consissts of two jointlly
+trained models:
+1. Masking Model (M):
+Unit that generates N soft masks
+per image.
+Adversaial objective: Maximizes the
+representation distance between
+original and masked images.
+2. Encoder (I):
+Any backbone (ResNet, ViT) trained
+to minimize the same distance (e.g.,
+via contrastive loss).
+Key Innovaions:
+Semantic Masking: Masks target
+object parts or entire entities (see
+Methods
+Fig. 1 ).
+Sparsiity Penalty: Prevents
+degenerate solutions (e.g., masking
+everything/nothing) via a
+sin(·)-based constraint.
+Lightweight Variant (ADIOS-s):
+Randomly samples one mask per
+iteration to reduce computer.
+Why This
+ADIOS demonstrates that:
+1. Semantic masking > random
+masking for SSL.
+2. Adversaial mask learning can be
+integraated into existing SSL
+pipelines (SimCLR/BYOL/SimSiam).
+3. Flexibility: Works with CNNs,
+reducing reliance on ViTs.
+Limitations: Higher compute cost vs.
+random masking (mitigated by ADIOS-s).
+2. Run-Off Election: Improved Probaable Defense
+against Data Poisoning Attacks
+https://icml.cc/virtual/2023/poster/24468
+This article proposes RunOff
+Election (ARE), a two-round
+Introduction
+voting mecaniism that:
+First Round: Identifies top two
+candidate classes via majority
+Data poisoning attacks manipuulate
+vote.
+training data to alter model predictions.
+Existing ensemble-based defenses (e.g., Second Round: Aggreates
+Deep Partition Aggregation, DPA) use logiit-based preferences
+majority voting but waste information
+between these candidates.
+ROE improves certified
+robustness while being
+compatibble with DPA and Finite
+Aggregation (FA).
+Problem
+Limitations of Prior Work:
+Statement
+Majority Vote Wastefulness:
+Ignores logiit-layer confidence,
+discaarding models voting for
+non-top classes.
+Goaals of ROE: Scalability: FA improves
+1) Utilize all base models’ logiits for
+robustness but requires 32× more
+tighteer robustness certificates.
+2) Maintain computaional efficiency
+(e.g., match DPA’s cost).
+Two-Round Voting (core idea)
+Methods Round 1: Each of k models votes for
+its top class. The top two classes (c₁,
+c₂) advance.
+Round 2: Models vote between c₁
+and c₂ based on logiit scores. The
+class with higher aggregate logiits
+wins.
+Certification Framework
+1) 1v1 Certificate: Minimum
+Methods
+poisoned samples needed for
+class c₂ to beat c₁ in Round 2.
+2) 2v1 Certificate: Minimum
+poisoned samples to eliminate
+c₁ in Round 1 by promoting two
+other classes.
+3) Final Certificate: min(1v1, 2v1)
+guarantees robustness.
+Key Innovaions:
+1) Dynamic Programming
+Methods
+(DP+ROE): Computecs certificates via recuursive gap
+analysis.
+2) Duality-Based (FA+ROE):
+Bounds adversaial impaact
+using conical combinaions of
+constraints.
+3. Lottery Tickets in Evolutionary Optimization
+ICML 2023
+Investigate whether the lottery
+ticket phenomenon (sparse
+Introduction
+trainable initializations) extends
+beyond gradient-based training
+to evolutionary optimization.
+Evolution Strategiies (ES) face
+The authoers of the article demonstrate
+existence of sparse trainable initializations for scalability challenges due to
+ES, introduce Signal-to-Noise Ratio (SNR)
+memory and computaional
+pruning, incorporating loss curvature into
+demands.
+pruning, show ES tickets transfer across tasks,
+ES algorithm, and GD training, contrast GD The Lottery Ticket Hypothesis
+and ES optiimization dynamics (e.g., flat vs. (LTH) suggests sparse network
+sharp minima).
+can match dense network
+performance.
+Problem
+Statement
+Chalallenges in ES:
+High memory/compute costs for
+large networks.
+Statistically inefficient covariance
+estimation.
+Problem
+- Can ES discover sparse,
+trainable "wiinnng tickets"?
+Statement
+- How do ES-derived tickets
+differ from GD tickets?
+- Do ES tickets encode
+tranfereable inductive biases?
+- How does sparsiity affect local
+optima in ES vs. GD?
+1) Iterative Pruning for ES:
+Methods IMP for ES: Prune weights with
+smallesst evolved mean magnitude.
+SNR Pruning: Prune weights with
+low mean-to-standard-deviation
+ratio (|θ|/σ), leveraging covariance
+informaation.
+Algorithm:
+Trained to convergence.
+Prune weakesst weights (globally or
+layer-wise).
+Reset remaining weights to initial
+values and repeat.
+Methods 2) Tranfer Experiments:
+Evaluate tickets across tasks (e.g.,
+control → vision), ES algorithms, and
+GD training.
+3) Metrics:
+Perfomaance vs. sparsiity.
+Linear mode connectivity (for GD vs.
+ES).
+Loss landscape sharpness (via
+random projections).
+1) Existence of ES Lottery Tickets:
+Results
+Highly sparse initializations (e.g.,
+90% pruned) are trainable via ES
+across tasks (control, vision) and
+architectures (MLPs, CNNs).
+SNR pruning outpfeorforms
+magnitude pruning, especially at
+high sparsiity.
+Results 2) Tranferability:
+ES tickets transfer to related tasks
+(e.g., Ant → Ant with different torso
+mass).
+Tickets generalize across ES algorithms
+(e.g., SNES → PGPE) and
+to GD training.
+Results 3) GD vs. ES Optimization:
+GD: Preserves linear mode
+connectivity; sharp minima at high
+sparsiity.
+ES: Converges to diverse, flat
+minima; no linear connectivity.
+ES outpfeorforms GD at very high
+sparsiity (e.g., vision tasks).
+Results 4) SNR Pruning Dynamics:
+SNR accounts for loss curvature,
+preseerving robusst weights (high
+|θ|/σ).
+Correlation between magnitude
+and SNR predicts pruning success.

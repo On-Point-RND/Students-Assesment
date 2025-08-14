@@ -1,0 +1,57 @@
+[name] [surname]
++2 *** *** *** • [email]
+EDUCATION EXPERIENCE
+2021 – PRESENT 2021 – 2025
+Higher SchooL of Economics Chemist-researcher | LaboLaboratory of Efficient Catalysis | [compaany]
+Bachelor's degree in chemistry Conducted the synthesis and study of novel chiral organic frameworks
+9.05 GPA additionaly stabilized by hydrogen bonds. Investigated their catalytic
+activity on obtaining the pharmaceutical drug warfarin. At the moment
+ACHI EVEMENTS the article on this work is under review in the journal Mendeleev
+ Winner of the final stage of the Communications.
+All-Russian Chemistry Olympiad 2021
+2024 – PRESENT
+ Winner of the Lomonosov International
+ML-researcher | GRIMM | [compaany]
+Student Conference 2023 in the
+Chemistry section I am engaged in the work devoted to the creation of a transformer model
+architecture for solving the problem of predicting 13C-NMR spectra from
+ Winner of the Student Interuniversiity
+molecular structure. I am working on the preparation of the dataset and
+Competition-Conference dedicated
+its various modifications, training of the transformer model with subsequent
+to the 165th anniversaary of N.S.
+validation of predictions and additional optimization. Additionally, I am
+Kurnakov
+engaged in a biologicaal project related to the study of the effect of
+ Second place at the XXII Student
+irradiation on the brains of people who have recentlly suffered a stroke
+poster session “Begi nning Scientist”
+using EEG analysis
+ Presentation at the 18th International
+Congress on Catalysis in Lyon, [location]
+ Presenta tions at various scientific
+confere nces: XXII Mendeleev
+Congress, Baikal Readings 2023, https://github.com/[name][surname]/DopamineProject
+Interna tional Youth Scienti fic Forum
+“Lomono sov-2024”, “Modern Problems
+of Polymer Science” 2023 https://github.com/[name][surname]/smiles2nmr
+ Parti cipan t of the Yandex
+student-camp Generative AI and English translator:
+robots https://github.com/[name][surname]/DeepLByMeMax-DE-EN-
+ Inde pendent English Examination
+passed with CEF R Level: C1
+Skills
+ Investigating the effects of treatm ent by irradiating the brain in peo ple
+who have recentl y suffered a stroke. The brain was analyzed and
+studied using EEG:
+https://github.com/[name][surname]/eegprojec t
+Python (Numpy, PyTorch, Tensorflow,
+MatPlotLib, Seaborn, Pandas), Algorithm s
+and data structure, ML, DL, CNN, VAE, LSTM
+Courses
+Andrew Ng's Machine Learning; Learn
+PyTorch for Deep Learning: Zero to
+Mastery; Generative AI and robots
+
+
+

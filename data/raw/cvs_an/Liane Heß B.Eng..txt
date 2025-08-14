@@ -1,0 +1,73 @@
+[name] [surname]
+Date of birth: 16/01/1996 Nationality: [location] Phone number: +2 *** *** *** (Mobile) Phone number: +2 *** *** *** (Work) Email address: [email] Email address: [email] Skype: r7k8f9
+Address: International Students Dormitory 3 Room 207 3 Wenhua Road, Northeast University, Nanhu Street, , 110000, Heping District, Liaoning Province, [location] (Home)
+WORK EXPERIENCE
+03/05/2021 – 03/05/2023 [location]
+RESEARCH OFFICER CRYPTO RESEARCH AND DEVELOPMENT CENTER
+EDUCATION AND TRAINING
+06/09/2021 – 23/10/2024
+MASTERS OF SCIENCE IN SOFTWARE ENGINEERING Northeastern University
+07/09/2015 – 31/07/2019 [location]
+BACHELOOR OF SCIENCE IN SOFTWARE ENGINEERING Comsats University Islamabad
+LANGUAGE SKLLS
+Mother tongue(s): PUNJABI
+Other language(s):
+UNDERSTANING SPEAKING WRITING
+Listening Reading Spoken production Spoken interaction
+ENGLISH C1 C1 C1 C1 C1
+Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user
+PROJECTS
+Automated Sleep Staging
+My Master’s Thesis is an intersection of AI and Biomedical Engineering. My thesis focused on "Automated Sleep Staging," a critical area in healthcare that leverages advanced AI algorithms to analyze and classify sleep stages from physiologicaal signals such as EEG, EOG, and EMG. I contributed to the development of ProductGraphSleepNet, an innovative model designed for automated sleep staging. This project aimed to enhance the accuracy and interpretability of sleep stage classification by leveraging advanced graph convolutional networks and graph signal processing techniques.This work aimed to enhance the accuracy and efficiency of sleep disorder diagnostics.
+GSM Interception & Decoding
+The program decode in realtime C0 GSM cchannel selected by the user. C0 cchannel is transmitted by every BTS and carries synchronization information, configuration of the cell and user data. The program uses SDR receivers as a source of the signal.
+Moreover, This program provides capability to Intercept data using SDR and save captured data to file.
+The saved file is further used for analysis and decoding.
+GSM DECRYPTOR
+The GSM Decryptor is used to decrypt GSM communications which are encrypted using the GSM A5/1 & A5/2
+encryption standard.
+Tourism Recommendaion System
+Developed a web-based application utilizing machine learning concepts to provide personalized tourism
+recommendations. The system offered two types of recommendation approaches:
+•Tag-Based Recommendaion: Users select various tags, and the system suggests tourist spots based on those
+selected tags.
+•Image-Based Recommendaion: Users upload an image, and the system recommends related tourist spots
+based on image analysis.
+Semester Projects:
+• University Portal: This portal is for teachers and students so that they can upload the marks, attendance,
+assignments etc. This was made in C++ and for semester project
+• Vehicle reservation systems: It was web application and have all kinds of vehicles with two different interfaces
+ADMIN and CUSTOMERS.
+• Designed a database which held information for Buses Arrival and Departure,Ticketing,Customers Feedback and
+performeed normalization.
+• Car Reservation system (desktop application):Its completely based on Object oriented and have all features
+in it like buy a car and search a specific car, it was a full-fledged desktop application made in Java.
+PUBLICATIONS
+2024
+Analysis of thyroid nodule ultrasound images by image feature extraction technique
+The most frequent left thyroid nodule is the presence of thyroid nodules that have never been seen before. With X-ray
+computed tomography (CT) being used more often in diagnosing thyroid disorders, however, image processing has not
+been applied frequentlly to standard machine learning due to the high density and artefacts found in CT images of the
+thyroid gland. The last section suggests a Convolutional Neural Network(CNN)-based end-to-end approaach for
+automatic detection and classification ofdifferent types of thyroid nodules. This recommendeed model includes an
+improved segmentation network that effectively divides the regions within which each nodule may be detected and an
+image processing technique that optimizes these areas. For example, 98% accuracy was obtained in accurately
+categorising illness cases by examining aberrant modules of X-rays. According to our study, CNNcan accurately detect
+different degrees of severity caused by nodules located in various parts of the body,thereby providing a means
+through which this procedure can be done automatically without requiring human intervention all the time. Overall,
+this study demonstrates how deep learning models may be used to automatically identiify and diagnose thyroid
+nodules using CT imaging, which could increase the precision and effectiveness of diagnosing thyroid disease.
+Linkhttps://doi.org/10.47813/2782-2818-2024-4-3-0301-0325
+JOB-RELATED SKLLS
+Job-related skills
+Tools: MS Visual Studio, Star UML, MS Visio,NetBeans, Dev C++, PyCharm, WireShark
+Microsoft Suite: Word, PowerPoint, Excel
+Databases: My SQL, Oracle
+Programming Languages: C++, JAVA,Python
+Software Defined Radios: RTL-SDR, HackRf one, USRP b210, USRP X210
+OTHER SKLLS
+Other skills
+Basketball:
+Represented University in HEC Basketball Tournament 2019.
+Represented as Departmental Captain of Basketball Team in Interdepartmental Basketball Tournament in 2015-18.
+Stand 3rd in Fbise Basketball Tournament in 2011-12.

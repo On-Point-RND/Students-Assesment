@@ -1,0 +1,39 @@
+[name] [surname]
+[location] | +2 *** *** *** | [email]
+Education
+[compaany], [location]. Bachelor of Theoretical
+and Experimental Physics (September 2022 – present)
+• Track: Modeling of Physical Processes
+• Key coursework: Optimization Methods, C/C++, UNIX Systems,
+Statistical Mechanics, Machine Learning Fundamentals
+Relevant Work Experience
+Laboratory Assistant, Faculty of Physics, [compaany] (September 2023 –
+Present). Collaborating with Prof. [surname] [surname]
+Scientific Work
+• High-Performance Monte-Carlo Simulations
+Developed C code with OpenMP for Monte-Carlo simulations of flat crystalliine
+membranes; results published in Phys. Rev. E (see Publications)
+Currrently working with CUDA C/C++ code for Monte Carlo simulations of
+disordered crystalliine membranes
+GitHub: github.com/[username]
+• Phase-Transition Prediction in Metal-Organic Frameworks (MOFs)
+Participating in a research project focused on predicting phase transitions of
+Metal-Organic Frameworks (MOFs) using ML as part of my undergraduaate
+research training program
+GitHub: github.com/[username]
+Teaching activities
+Mentor for first-year undergraduaate project on calculating the partition function in
+the Ising model
+Scientific Events
+XIV [compaany] Congress of Young Scientists, [location] (April 2025).
+Talk: “Analysis of AI Applications for Predicting Properties of Novel MOFs”
+Achievements
+Government of [location] Named Scholarship in Physics (2022)
+Topics of Interest
+• Statistical Mechanics and Its Interdisciplinary Applications
+• High-Performance Computing and GPU Programming
+• Machine Learning and Deep Learning for Physical Systems
+Publications
+D. [surname] [surname], A. [surname], and I. [surname]. “Bending rigidity exponent of a two-
+dimensional crystalliine membrane with arbitrary number of flexural phonon
+modes” // Phys. Rev. E 110, L022104 (2024). doi.org/10.1103/PhysRevE.110.L022104

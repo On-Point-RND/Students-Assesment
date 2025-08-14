@@ -1,0 +1,29 @@
+Developing a Method for Material Estimation in Image-to-3D Reconstruction
+[name] [surname], [compaany]
+Scientific advisor: [name] [surname]
+
+Outline
+Methods
+Results
+Conclusions
+Future Implementation
+
+Methods
+Dataset:
+Pipeline Adaptation:
+Metrics Used:
+SSIM
+PSNR
+
+Results
+
+Conclusions
+Key Takeaways:
+Maintains quality while enhancing efficiency.
+Suitable for time-sensitive applications.
+Impact:
+Bridges the gap between quality and performance in spatio-temporal rendering.
+
+Future Implementation
+
+THANK YOU FOR YOUR TIME!

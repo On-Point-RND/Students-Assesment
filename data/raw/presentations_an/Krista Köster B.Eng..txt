@@ -1,0 +1,70 @@
+Overview of approaches to pre-learning language models based on transformers: BERT, RoBERTa, and T5
+[name]
+Student, [location] Universiity
+Introduction
+Modern language models have radically changed the approach to solving NLP problems. Central among
+them are transformers and their derivatives, such as BERT, RoBERTa and T5.
+These models have become the basic buildiing blocks for a variety of application systems, from chatbots
+to automated text translation and analysis systems.
+Initially, the transformer was proposed in the paper "Attention is All You Need" ([surname] et al., 2017).
+It marked the begiinnig of a new direction — pre-training of universaal models on large text corpora with
+subsequent fine-tuning.
+Goal of the review: compaare three key models — BERT, RoBERTa, and T5 — in the context of their
+architecturaal solutions, pre-training techniques, and performaance.
+Problem statement
+What exactlly are we solving?
+Buildiing generalized language representations that are suitable for a variety of downstream tasks
+(classification, QA, summarization, etc.)
+Challenges:
+• Huge compuuting resources
+• The problem of Catastrophic forgetting during retraining
+• Insufficient use of context (in older models)
+Scope: any natural language processing tasks, from document search to text generation.
+Methods
+Approach:
+Model Approach to learning Key Features
+Bidirectional masked model Bidirectional masked model Bidirectional masked model
+RoBERTa MLM (without NSP), more data and iterations Removed NSP, improved training
+T5 Text-to-Text All tasks are translated into text form: "translate
+from English", "answer the question", etc.
+Why these methods?
+1. MLM allows you to learn from undefined data.
+2. NSP (in BERT) helps with connectivity problems, but later it turned out to be not always useful
+(so RoBERTa removed it).
+3. Unification of tasks in T5 simplifies the pipeline.
+Methods
+How it works:
+• BERT: Masks words and learns to predict them by looking at the context on the right and left.
+• RoBERTa: Same thing, but without the "next sentence" task, more data.
+• T5: Translates the task into a text form and generates text in response.
+Results
+Key findiings:
+Модель GLUE (Avg) SQuAD RACE
+BERT ~80 ~88 F1 ~65
+RoBERTa ~83 ~89.5 F1 ~68
+T5 ~85 ~90+ F1 ~70+
+Metrics used: accuracy, F1, EM (Exact Match) — important for understanding the quality of text
+extraction and generation.
+Visuals:
+● Removing the NSP and increasing the data improves the results.
+● Format unification (T5) helps you adapt to a large number of tasks.
+Research gap
+What’s missing?
+• Huge resources for training (RoBERTa — up to 1M GPU hours).
+• Low adaptability to small data (Low-resource languages).
+• Limited use of knowledge outsiide the text (multimodality).
+Future opportunities:
+• Effective models (TinyBERT, DistilBERT, ALBERT).
+• Multimodal transformers (Florence, Flamingo, GPT-4V).
+• Adapt to specific domains at a lower cost.
+Bibliography
+1. [name], [name], [name], [name]. BERT: Pre-training of Deep Bidirectional Transformeers for Language Understanding. NAACL, 2019.
+2. [name], [name], [name], [name], [name], [name], [name], [name], [name], [name], [name]. RoBERTa: A Robustly Optimized BERT
+Pretraining Approach. arXiv preprint, 2019. Presented at EMNLP, 2019.
+3. [name], [name], [name]: ALBERT: A Lite BERT for Self-supervised Learning of Language Representaations.
+ICLR, 2020.
+4. [name], [name], [name], [name], [name], [name], [name]. Exploring the Limits of Transfer Learning with a Unified
+Text-to-Text Transformeer. JMLR, 2020.
+5. [name], [name], [name], [name], [name]. XLNet: Generalized Autorregressive Pretraining for Language Understanding.
+NeurIPS, 2019.
+6. [name], [name], [name], [name], [name], [name]. Attention is All You Need. NeurIPS, 2017.

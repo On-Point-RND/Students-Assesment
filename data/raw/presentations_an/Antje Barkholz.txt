@@ -1,0 +1,103 @@
+PEFT (Parameter-Efficient Fine-Tuning) for GPT-like Deep Models to Reduce Hallucinaions and to
+Improve Reproducibility in Scientific Text
+Generation Using Stochastic Optimization
+[name]
+Data Scientist, [compaany]
+Introduction
+• Text Generation by GPT Models often results in "hallucinations" – inaccuracies that can spoil the text
+quality
+• This work is designed to reduce such hallucinations while ensuring that the generated text is reproducible
+across several runs
+• We achieve this by employing prompt-efficient fine-tuning techniques and stochastic
+optimization to increase the reliability of text generation for scientific use
+Problem statement
+• Current GPT models tend to produce hallucinated text, which is less desirable in any use,
+especially scientific one
+• The problem is how to optimize such models in a manner that reduces these errors
+while ensuring consistency and reproducibility of the output
+• Finding the optimal solution will increase the credibility and utility of AI-generated scientific text
+Methods
+• Data Collection: Obtained a large corpus of scientific texts through articles download via the
+Semantic Scholar API
+• Data Preprocessing: Converted PDFs to structured XML/TEI using GROBID software
+and subsequently cleaned the texts by removing unnecessaary items such as headers, footers,
+and bibliographies making corpus ready for training
+• Model Fine-Tuning: Performeed prompt-efficient fine-tuning of a pre-trained GPT model with low-
+ranked adapters, along with grid-search for stochastic parameters
+Tools & Techniques
+• Programming and scriptiing: Python for general pipeline of corpus preparation and model training
+• Conversion and Preprocessing: Linux servers and Docker to handle mass PDF-to-text
+conversions via containerised GROBID software
+• GPT-2 selected as the baseline model since it’s the most downloaded GPT-like model on
+HuggingFace with open-source license
+• High-Performance Training: Utilized the [location] cHARISMa supercomputer with GPUs to train the
+model with the most optimal hyper-parameters set by grid-search
+• Statistical Analysis: Applied one-sided Wilcoxoon rank-sum test under 5% significance level to
+estimate model’s performance
+Evaluation Metrics & Results
+Grid-search of optimal parameters
+Parameters chosen for validation:
+• Learning rate
+• Optimization technique
+Criteria:
+• Validation error
+• Runing time
+• Memory usage
+• Economic & ecological impact (electricity usage)
+Optimizer
+Validation Error Run Time (sec) RAM Usage (MB) Electricity (kWh)
+SGD 3.3 305.7 2601.5 0.03
+Table 1. The most optimal optimizer choice
+Source: author’s computaions
+Evaluation Metrics & Results
+Key Metrics:
+• BLEU and ROUGE for measuring similarity between generated and reference texts
+• Perplexity for assessing model’s coherence in text generation
+Results:
+• Reduction in perplexity from 13 586 to 10 092
+• Improvements in BLEU and ROUGE scores compared to baseline GPT-2
+Interpretation: The enhanced model (MS-GPT) demonstrates statistically significant gains in
+accuracy and reproducibility
+Evaluation Metrics & Results
+Model BLEU ROUGE-1 ROUGE-L Perplexity
+GPT-2 0.33 0.42 0.57 13586.37
+MassSpecGPT 0.34 0.44 0.62 10092.12
+Table 2. Average scores of the models
+Source: author’s computaions
+Metric Test Statistic P-value
+BLEU 244.0 0.60
+ROUGE-1 191.0 0.88
+ROUGE-L 196.5 0.82
+Perplexity 106.0 0.004
+Table 3. Wilcoxoon test results for BLEU, ROUGE
+Source: author’s computaions
+Model Reproducibility Score
+GPT-2 0.83
+MassSpecGPT 0.84
+Table 4. Reproducibility scores
+Source: author’s computaions
+Research gap
+Next Steps:
+• Develop MS-Chat-GPT with SFT/RL training, a chat variant that merges both encoder and decoder
+models
+• Broaden the model's applications to aid in scientific writing, lab reports, and research communications
+• Experiment with other GPT models and test further improvements through additional layers and more
+sophisticated adapters
+• Improve evaluation with DL auto metrics such as BLEURT, COMET, GEMBA, etc
+Opportunities: These points have the potential to extend the use and scope of AI in scientific disciplines,
+including mass spectrometry
+Bibliography
+1. [name] and [name]. The document vectors using cosine similarity revisited. In Proceedinings of the Third Workshop on Insights from
+Negative Results in NLP. Association for Computational Linguistics, 2022. doi: 10.18653/v1/2022.insights-1.17. URL http://dx.doi.org/10.18653/v1/
+2022.insights-1.17.
+2. [name], [name], and [name]. Adaptive subgradient methods for online learning and stochastic optimization. Journal of Machine
+Learning Research, 12(61):2121–2159, 2011. URL http://jmlr.org/papers/v12/ duchi11a.html.
+3. [name] and [name]. Long Short-Term Memory. ¨ Neural Computation, 9(8):1735–1780, 11 1997. ISSN 0899-7667. doi:
+10.1162/neco. 1997.9.8.1735. URL https://doi.org/10.1162/neco.1997.9.8.1735.
+4. [name], [name], and [name]. DNABERT: pre-trained Bidirectional Encoder Representaions from Transformeers
+model for DNA-language in genome. Bioinformatics, 37(15):2112–2120, 02 2021. ISSN 1367-4803. doi: 10.1093/bioinformatics/btab083. URL
+https://doi.org/10. 1093/bioinformatics/btab083.
+5. [name], [name], and [name]. Survey of
+hallucination in natural language generation. ACM Comput. Surv., 55(12), mar 2023. ISSN 0360- 0300. doi: 10.1145/3571730.
+6. [name], [name], and [name]. Fluid-gpt (fast learning to understand and investigate dynamics with a generative pre-trained
+transformer): Efficient predictions of particle trajectories and erosion. 08 2023. doi: 10.26434/ chemrxiv-2023-ppk9s.

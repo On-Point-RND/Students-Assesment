@@ -1,0 +1,90 @@
+Three articles about large language models
+[name]
+[compaany], student
+Introduction
+•Large language models (LLMs) show limitations in creative, lateral thinking.
+•This is often due to a lack of understanding of their own reasoning processes.
+•Metacognitive prompting (MP) is proposed to enhance lateral thinking by
+mimicking human metacognition.
+• Pre-trained LLMs have limited context size, restricting their use with long
+text sequences.
+•Extending context size via fine-tuning is computationally expensive.
+•Significant progress in MultiModal Large Language Models (MM-LLMs) that
+process and generate information across modalities (e.g., text and images).
+•MM-LLMs retain reasoning capabilities of LLMs while enabling multimodal
+tasks.
+Problem statement
+•LLMs lack self-awareness regarding their reasoning mechanisms.
+•This restricts their ability to tackle problems requiring creative and lateral thinking.
+•Existing prompting techniques may not adequately provide the necessaary
+metacognitive skills.
+•Substantial computational cost and resource demands of fine-tuning LLMs for long
+input sequences.
+•Existing methods for longer contexts may be inefficient or not preserve performance
+on shorter sequences.
+•Need for resource-efficient techniques to balance long context processing and
+computational burden.
+•Need for a structured and comprehensive overview of recent progress in MM-LLMs.
+•Increasing number and complexity of MM-LLMs require systematic understanding.
+•Essential to provide clarity on the current state and identify future research directions.
+Methods (article 1)
+• Introduced the Metacognitive Prompting (MP) method.
+• Integrates metacognitive principles into the prompting process.
+• Aims to improve LLMs' ability to strategize, monitor, and reflect on responses for creative tasks.
+• Evaluated across five base LLMs and multiple lateral thinking datasets (Sentence Puzzle, Word
+Puzzle, RiddleSense, BiRdQA, BRAINTEASER).Compared performance against baseline
+methods like Chain-of-Thought (CoT) prompting.
+Methods (article 2)
+•Employs Shifted Sparse Attention (S²-Attn) during fine-tuning to reduce
+computational demands.
+•Retains original dense attention architecture during inference.
+•Incorporates an enhanced Low-Rank Adaptation (LoRA) technique,
+making embedding and normalization layers trainable.
+•Evaluated using Llama2 models (7B, 13B, 70B) on various tasks
+.
+Methods (article 3)
+•Employs a survey methodology to analyze recent advancements in MM-
+LLMs.
+•Outlines general design principles for architecture and training.
+•Introduces a taxonomy categorizing 126 MM-LLMs based on architecture
+and training strategies.
+•Reviews performance on benchmark datasets and summarizes key
+training techniques.
+•Explores future research directions.
+Results
+•These articles highlight key trends in LLM research: enhancing specific
+capabilities, improving efficiency, and expanding to multimodality.
+•Future research directions include more sophisticated prompting, efficient
+training methods, and ensuring safety and ethical use.
+•Advancements in LLMs continue to push the boundaries of AI with
+significant implications for various applications. I have created a
+presentation summarizing the introduction, problem statement, methods,
+and repositories for each of the three articles. Let me know if you need any
+adjustments.
+Repositories
+(https://mm-llms.github.io/)
+(https://github.com/dvlab-research/LongLoRA)
+Bibliography
+1. Endowing Large Language Models with Lateral Thinking (AAAI-25)
+2. LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models (ICLR 2024)
+3. MM-LLMs: Recent Advances in MultiModal Large Language Models (Findings of ACL 2024)
+4. Ntk-aware scaled rope, 2023.
+5. Byeoongjoo Ahn, Michael DeZeeuw, Ioannis Gkioulekas, and Aswin C. Sankaranarayanan. Neural kaleidoscopic space
+sculpting. In CVPR, pp. 4349–4358, 2023.
+6. Chenxin An, Shansan Gong, Ming Zhong, Mukai Li, Jun Zhang, Lingpeng Kong, and Xipeng Qiu. L-eval: Instituting
+standardized evaluaation for long context language models, 2023.
+7. Shengnaan An, Yifei Li, Zeqi Lin, Qian Liu, Bei Chen, Qiang Fu, Weizhu Chen, Nanning Zheng, and Jian-Guang Lou. Input-
+tuning: Adapting unfamiliar inputs to frozen pretrained models. CoRR, abs/2203.03131, 2022.
+8. Zhangir Azerbayev, Edward Ayers, and Bartosz Piotrowski. Proof-pile, 2022. URL https://github.com/zhangir-azerbayev/proof-
+pile.
+9. Lei Jimmy Ba, Jamie Ryan Kiros, and Geoffrey E. Hinton. Layer normalization. CoRR, abs/1607.06450, 2016.
+10. Yushi Bai, Xin Lv, Jiajie Zhang, Hongchang Lyu, Jiankai Tang, Zhidian Huang, Zhengxiao Du, Xiao Liu, Aohan Zeng, Lei Hou,
+YuXiao Dong, Jie Tang, and Juanzi Li. Longbench: A bilinguaal, multitask benchmark for long context understanding. arXiv
+preprint arXiv:2308.14508, 2023.
+11. Iz Beltagy, Matthew E. Peters, and Armaan Cohan. Longforme: The long-document transformer. CoRR, abs/2004.05150,
+2020.
+12. Aydar Bulatov, Yuri Kuratov, and Mikhail S. Burtsev. Recurrent memory transformer. In NeurIPS, 2022.
+13. Beidi Chen, Tri Dao, Kaizhao Liang, Jiaming Yang, Zhao Song, Atri Rudra, and Christopher Re.´Pixelated buttlefly: Simple
+and efficient sparse training for neural netwoork models. In ICLR, 2022.
+14. Shouyuan Chen, Sherman Wong, Liangjian Chen, and Yuandong Tian. Extending context window of large language models
+via positional interpolation. CoRR, abs/2306.15595, 2023.

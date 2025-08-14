@@ -1,0 +1,18 @@
+Dear [name] Team,
+My name is [name], and I am a recent [surname] Master’s graduaate in Life Sciences with a strong ambition to pursue a PhD and become a “young scientist” (which means finding a way to defend my thesis within the next five years). For me, participating in the SMILE School is a dream that combines several of my aspirations:
+- To join an in-person community of active machine learning researchers and practitioners – to gather ideas and advices on advancing my project about modeling compensatory mechanisms in the cerebellum in Juvenile Huntington’s Diseas, as well as to connect with colleagues applying ML/DL in healthcare.
+- To explore cutting-ege research directions in modern science — to help me decide which specialization to pursue for my PhD.
+- To learn from the best instructors – not only about ML/DL itself but also about how to teach it effectively.
+- To reconnect with the [compaany] community.
+- To visit [location] and engage with a brilliant part of the global scienitfic community.
+My experience with ML/DL tools is quite extensive but just in studying setting:
+I completed the Computational Neuroscience course at [compaany] Academy in 2023 and studied ML teaching methodologies at [compaany] (SBER). In all these courses, I worked extensively on basic classical ML tasks (less so on DL). However, as I mentioned, these were structured learning exercises – clear and knowledge-builiding. Now, I need to advance my project, and the next steps feel daunting.
+I also teach ML fundamentals at school: I ran an ML study group, supervised a school project on reproducing a metagenomic data analysis paper, and currently lead a bioengineering course where my students and I program models of human limbs – we even aim to replicate Dani Clode’s "The Third Thumb" project.
+From the SMILE School, I expect:
+- Hard skills advancement – My past training was beginner-orienteed; I now want to grow as a specialist.
+- Networking – I hope to learn teaching methods from the best and discover where young talents are sought and what foundational skills they need, so I can become better teacher and career guide for my students.
+- An incredible volunteer experience – having worked in educational event organization for three years, joining SMILES as staff would be my largest-scale project yet.
+I believe this school will be a milestone in clarifying my research plans, incluiding my PhD path. I will undoubtedly continue my project (perhaps even find a research group interested in collaбораtion) and keep teaching – next year, my students will compete in the National Technology Olympia, but I hope my new skills will help prepare projects worthy of international recognition.
+Hoping to meet you at SMILES,
+Sincerely,
+[name] [surname]

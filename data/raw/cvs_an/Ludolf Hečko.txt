@@ -1,0 +1,63 @@
+CV
+Personal Info
+Name: [name] [surname]
+Email: [email]
+Phone: +2 *** *** ***
+Location: [location]
+GitHub: github.com/[name] 200116
+Summary
+Research engineer specializing in computer vision with expertise in 3D scene reconstruction and
+deep learning. My research focuses on developing novel solutions for complex computer vision
+problems. Experienced in applying both classical CV methods and modern deep learning
+approaches to solve real-world problems.
+Education
+Master of Science in Internet of Things and Wireless Technologies
+[company] | [location] | 2025
+Bachelor of Science in Computer Science and Control Systems
+[company] | [location] | 2023
+Specialization: Design and Production Technology of Electronic Equipment
+Publications and Presentations
+T-3DGS: Removing Transient Objects for 3D Scene Reconstruction (2024)
+[surname], [name], [surname], [name], [surname], [name]
+arXiv:2412.00155 | Project Website
+Developed a novel approach for unconstrained 3D scene reconstruction using
+Gaussian Splatting
+Scientific Research Experience
+Computer Vision Research Engineer
+[company] | [location] | Jan 2025 - Present
+Developing advanced computer vision solutions for RAW Images
+demosaicing/denoising/deblurring
+Implementing and optimizing deep learning models for computer vision tasks
+Computer Vision Research Engineer
+[company] | [location] | Jan 2024 - Dec 2024
+Conducted research in 3D computer vision, focusing on novel techniques for scene
+reconstruction
+Developed methods for handling complex visual scenes with dynamic elements
+Tech Lead - ITracker Startup
+[company] | [location] | Sep 2023 - Mar 2024
+Developed computer vision solutions for accurate gaze estimation using commodity
+hardware
+Won first place at the [company] Triple Point Pitch contest in December 2023
+[company] Triple Point Program
+Contest Winners Announcement
+Technical Skills
+Programming Languages
+Python (Advanced)
+C/C++ (Intermediate)
+Machine Learning / Deep Learning
+Frameworks & Libraries: PyTorch, Tensorflow, OpenCV
+Techniques: Deep Learning, Neural Networks, Transfer Learning
+Areas: Computer Vision, 3D Vision, Image Processing
+Development Tools
+Git, Docker, Linux
+CUDA for GPU acceleration
+Professional Experience
+Python Programmer
+[company] | [location] | Jun 2022 - Sep 2023
+Developed backend for B2B cloud services
+Junior Software Development Specialist
+[company] | [location] | Aug 2021 - Jun 2022
+Solved various internal tasks using Python, C++, and JavaScript
+Languages
+Russian (Native)
+English (C1 - Advanced)

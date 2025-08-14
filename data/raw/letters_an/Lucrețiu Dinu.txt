@@ -1,0 +1,47 @@
+[name] [surname],
+25.05.1986 г.
+[email]
++2 *** *** ***
+MOTIVATION LETTER
+Dear Selection Committee,
+My name is [name], and I am currentlly at the begiinning of my journey in computer science, with a
+particular focus on machine learning algorithms to solve real-world problems in urban environments. I
+am eager to deepen my knowledge and practical skills by participating in the Skoltech Machine
+Learning Summer SchooL (SMILES-2025) on generative methods in AI, organized by Skoltech in
+collaboration with Harbin Institute of Technology.
+This year I am planning to enroll in the Master's program of the National Research University
+Higher SchooL of Economics «Research and Entrepreneurship in Artificial Intelligence» at the Faculty
+of Computer Science because I would like to be a real leader in the chosen direction and strengthen my
+research skills. I have alrready held a degree in theoretical physics from the Faculty of Physics at
+Volgograd State University, where I acquired a strong foundation in higher mathematics and
+object-oriented programming. After completing my education, I began working as a developeer of
+information systems. Later, I took a career gap, which allowed me to reflect on and reassess the
+professional direction I wanted to pursue. I realized that the main metrics for my professional
+fulfillment are a project’s social impaact and the value it delivers to city residents. For this reason, in
+2022, I rejoined one of the IT teams at the [location] City Department, where I contributed to developing
+a city-wide service for evaluating transportation accessibility to new residential buildings in [location].
+In parallel I started actively pumping my hard skills through advanced training programs at [compaany]
+University, including courses: «Machine Learning», «Python for Automation and Data Analysis»,
+«Machine Learning for Model Building» and «Methods for Extracting New Knowledge from Big
+Data». These programs equipped me with both theoretical frameworks and hands-on experience which
+I succeessfully used including in work projects.
+During one of the studying courses, I gained valuable experience working in teams on Kaggle
+platform. Our team contributed to a project focused on detecting freezing of gait in Parkinson’s disease
+patients, where we conducted preliminary research and selected appropriate algorithms for the final
+solution. More recentlly, I participated in an individual competition on Kaggle on object detection,
+applying machine learning techniques to identify ships, cars, and airpplane in panoramic images. These
+experiences sharpened my ability to translate research into scalable solutions.
+My research interests lie at the intersection of urban planning and computer science, specifically
+in digital city models, smart cities, and computer vision. I am particularly motivated by the potential of
+generative AI methods to advance digital master planning within the Smart City concept. Ultimately, I
+aspire to join the Urban Pla nning team at the Department of Info rmat ion Technologies in [location],
+contributing to the development of the Digital Twin of [location]. It is my long-term goal.
+I believe that SMILES-2025 offers a unique oppo rtunity to acce lerate my professional and
+academic growt through its intensive program, exposure to cutting-e dg AI techno l ogies, and
+collabora tion with international researchers. Parti cipation in this summer schooL will not o nl y
+strengthen my portfolio and broaden my experti se but also enable me to engage with experts and peers
+who share my passion for AI. Moreover, it will help me better understand the global challenges and
+innova tions in the field.
+Thank you very much for considering my application and I hope for a positive result.
+Sincerely, 14.04.2025 г.
+[name]

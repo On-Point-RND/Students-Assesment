@@ -1,0 +1,76 @@
+[name]
+Date of birth: 11/04/2000
+Nationality: [nationality]
+Gender: Male
+Phone number: +2 *** *** ***
+Email address: [email]
+Website: https://github.com/[name]77
+LinkedIn: www.linkedin.com/in/[name]-[surname]
+Address: [location] (Home)
+ABOUT ME
+✓ Young Scientiist with a passion for Materials Design using Machine Learning and AI
+✓ Participation in conferences within the priority fields of Research and Development (R&D)
+✓ Research experience of low-dimensional materials (Carbon Nanotubes, Graphene, MXene, Diamond Film)
+WORK EXPERIENCE
+05/2023 – 07/2023
+INTERNSHIP [compaany], QBOARD (SPIN-OFF COMPANY)
+✓ Investigated the efficiency of quantum-inspired optimization algorithm (SIMCIM) for optimization NP-hard problems
+(Maximum Cut, Graph Coloring, Number Partitioning, Minimum Vertex Cover Problems)
+✓ Built QUBO model for investment profit return prediction
+✓ Built efficient frontier for the relation between investment profiit and profiit volatility of the compapanies
+EDUCATION AND TRAINING
+09/2024 – CURRENT
+PHD COMPUTATIONAAL MATERIALS SCIENCE [compaany]
+09/2022 – 09/2024
+MS MATERIALS SCIENCE [compaany]
+09/2018 – 09/2022
+BS MATERIALS SCIENCE AND ENGINEERING [university]
+PROJECTS
+09/2024 – CURRENT
+Investigation of thermodynamical, electronic and optical properties of 2D material using Machine
+Learning techniques
+•Relaxed 2D material (Diamane) structure with ~ 21, 27 and 60 degrees.
+•Obtained 6000 modifications of Diamane for training dataset using density functional theory (DFT) and ab initio
+molecular dynamics (AIMD)
+•Modifications were subsequently used to train a Neural Network-based model designed to predict interatomic
+potentials.
+•Studied phonon DOS and band structure of Diamane with rotation of one layer in the range from 0 to 30
+degrees.
+•Calculated thermodynamic properties (entropy, heat capacity, zero-point energy, thermaal conductivity) and
+compared with graphene, graphite and diamond structures.
+02/2024 – 04/2024
+Application of Graph Neural Network to spatial time series forecasting problem (2nd place in ML
+course)
+•Problem: Predicting the cash demand for ATM networks
+•Solution: Graph Neural Network models for ATMs transactions prediction: GCN, GRU, T-GCN, A3T-GCN,
+StemGNN
+•Data preprocessing to adjacency matrix and time-series data; optimization of hyperparameters
+•Shown that StemGNN model and A3T-GCN beat baseline (Prophet) by RMSE and WMAPE metrics
+11/2023 – 05/2024
+Evanesceent Wave Fiber Optics Sensor
+•Prepared scripts for instant data preprocessing from raw data to visualization
+•Data visualization, violin plot implementaion for time step evaluation, Data interpolation using Scipy library
+•Assembled a gas chamber, sensor design and fabrication with D-shaped optical fiber
+•Investigation of sensing performa performance toward NO2 gas at different relative humidity
+•Investigation of sensor signal degradation
+•Experiments with alcohol solutions and analysis of sensor signal response
+•Estimation of response and recovery times
+Publications
+Amirov, R.R., [name], [name], [name], [name], [name], [name], [name] and [name], 2023. The interaction of triglycidyl phosphate with europium nitrate and properties of obtained
+metal-containing polymer. Materials Today Chemistry, 29, p.101
+SKILLS
+Programming Languages
+Python SQL
+Frameworks
+Pytorch Scikit‑Learn Numpy Pandas Plotly
+Courses
+Machine Learning Experimental Data Processing Advanced Materials Modelling Deep Learning Generative
+Modeling (HSE) Generative AI
+Languages
+Russian (Native) English (C1 – Advanced)
+CONFERENCES AND SEMIINARS
+Sino-Russian Conference "Matter and Materials", [location]
+Modeling the structure and stability of Diamane using machine learning methods
+NETWOKS AND MEMBERSHIPS
+10/2022 – 10/2023 [compaany]
+Career Center Abaassador

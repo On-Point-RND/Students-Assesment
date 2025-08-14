@@ -1,0 +1,28 @@
+[name] [surname]
+Date of Birth: September 26, 2004
+Email: [email]
+Education
+[compaany], Faculty of [compaany]
+3rd-year student
+● Major: Fundamental Mathematics and Mechanics
+● Department: Mathematical Theory of Intelligent Systems (MaTIS)
+Skills
+● Programming: Python (NumPy, Pandas, Matplotlib), scikit-learn, PyTorch
+● Machine Learning: Classical ML algorithms, basic DL
+● Databases: SQL (basic proficiency)
+● Data Analysis: Data preprocessing, visualization
+● Languages: English (C1, fluent; can read scientific papers)
+Experience & Projects
+Selected Projects:
+1. Missing Value Imputation Algorithm Selection
+○ Developed a pipeline to analyze 100+ datasets from OpenML.
+○ Trained an XGBoost model on dataset meta-features to predict optimal imputation methods.
+2. 3D Printing Quality Control via Computer Vision
+○ Optimized image preprocessing (homography transformations, filtering).
+○ Built a data-labeling tool for defect detection.
+Additional Information
+● Completed Courses at [compaany]:
+○ Probability Theory, Statistics, Statistical Practicum (data analysis/visualization)
+○ Machine Learning for Applied Tasks
+○ Introduction to Deep Learning
+● Soft Skills: Strong communication, responsibility, creative problem-solving

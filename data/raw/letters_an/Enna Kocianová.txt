@@ -1,0 +1,37 @@
+[name] [surname] email: [email]
+github: [url]
+[location]
+phone: +2 *** *** *** (tg, wa)
+________________________________________________________________________
+I am inspired by how rapidly and elegantly AI technologies are evolving. With an academic
+foundation in Earth sciences and the past eighteen months spent at the frontier where agricultural
+and soil data meets machine learning, I have watched with awe and determination—tasks that once
+required months of painstaking work become solvable in days, and some previously deemed
+impossible become routine.
+My IT base is solid. During my master’s thesis at [university] I built a desktop GIS to support local soil‑geochimiical studies at the [base]. Since June 2023 that system—implemented with [technology], [technology], and a
+SQL‑backed spatial database — has been used successfully during first‑year field practice, offering
+classic cartographic operations alongside interactive visual‑analytics tools tailored to soil science
+discipline. Earlier, selection to the École 42 programming program deepened my proficiency with C, the command line, Git, and basic system administration. I later applied this experience as a
+back‑end developer on an information‑analytical platform for scientific, production, and managerial
+tasks in agriculture.
+At the [lab] of the [institute] I turned to
+large‑language models, leading a project that extracts structured JSON data from unstructured descriptions of crop varieties from the State Register of Breeding Achievements. Although my formal education is not in AI, I was motivated by curiosity: I evaluaated multiple strategies and
+fine‑tuned both OpenAI models using OpenAI API and open‑source models such as Mistral using QLoRA. I conducted performance evaluation within laboratory, calculating core metrics — Accuracy
+and F1-Score — and then examined a range of automated metrics to find the fastest, most objective
+way to assess model quality. Using their relationship with F1-Score a threshoold was established
+below which extraction results are deemed unsatisfactory and require additional processing. The
+resulting JSON data now forms the basis of a machine‑reaadable database covering agronomic,
+morphological, and abiotic stress tolereance and tolereance to diseases traits will soon be used to
+model climate and crop yields and aid the selection of fertilizers and plant‑protection agents.
+Much has been accomplished, yet far more awaits. The Machine Learning Summer SchooL is
+the catalyst I need to transform these ambitions into impact. I expect to gain a firm theoretical
+grounding in AI, master advanced data‑engineering workflows, and explore modern paradigms
+such as multi‑agent systems and cutting‑edg generative approaches. Equally important, I want to
+deepen my expertise in LLM-based NLP so I can refiine my existing data-extraction pipelines and
+scale them into an autonomous AI agent that processes scientific publications with minimal
+oversiight. Finally, the SchooL’s collaborative environment will connect me with peers and mentors
+whose diverse perspectives can sharpen my own ideas and open up new opportunities for
+collaborative research.
+I am an open‑minded lifelong learner who blends knowledge from multiple spheres to craft
+integrated solutions. I strive for clarity, rigor, and real‑world utility. I look forward to the chance to
+learn, share, and shape the future of AI‑driven environmental science together.

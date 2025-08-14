@@ -1,0 +1,36 @@
+CV
+Name: [name] [surname]
+Universiity: [location]
+Degree: Bachelor’s in Computer Science and Engineering (specialization: CAD Integration
+and Programming)
+Enrollment Year: 2022 | Expected Graduation: 2026
+Education & Qualifications
+• Bachelor’s Degree in Computer Science, [location] (2022–
+2026)
+• Professional Retraining Diploma in Neural Network Technologies
+o Final project: Trained a food recognition model using deep learning.
+Research & Scientific Work
+• Hackathons:
+o [location] Hackathon: Worked on AI-driven solutions. HR Analytics
+Service: Developed a system for analyzing employee feedback to provide
+quantitative/qualitative assessments, evaluate team dynamics, and support
+decision-making.
+o [company] Hackathon (1st Place): Developed an application using a
+domestic geometric kernel.
+Work Experience
+• Research Assistant at [compaany] (7 months)
+o Assissted in AI-based tool development and implementation.
+• Intern at [compaany] (2 months)
+o Developed desktop applications using geometric modeling tools.
+Skills in ML/DL
+• Programming: Python, C++
+• Frameworks & Libraries: TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV,
+Pandas, NumPy
+• Other: Data preprocessing, model training, NLP (text analysis), computer vision
+Interests & Thesis Topics
+• Research Interests: I have a keen interest in the application of artificial intelligence
+methods in engineering, application development, neural networks and predictive
+analytics.
+
+
+

@@ -1,0 +1,93 @@
+Morozova [name],
+[compaany], Data Science Msc-1
+Deep Reinforcement learning - MPC
+for Social Navigation in Robotics
+20% difficult
+tasks
+80% typical repetitive tasks
+Introduction
+🤔How can a robot safely navigate around group of people with complex motion patterns?
+🤓How we can achieve Long-term Planning with
+● Every day, rock and oil samples obtained from the field are studied in petrophysical
+laboratories to obtain information about the field and adjust its development.
+Short-term Flexibility?
+● In her laboratory, approximately 50 to 70 core samples are studied per day. This is
+🧐How we can adjust robot’s strategies in about 17,000 images per year (of rock only).
+By blending MPC with
+real-time as it encounters new situations?
+model-free DRL,
+● [name] works in the lab, he is a senior chemist. He has a problem: 80% of his work is a repetitive routine (for example
+proposed algorithm the photo of many rocks to process). It is tiring for him, he doesn’t have enough time to analyze the result and do
+research. The average salary is 100k rubbles (ref), so the lab spends almost 1 mil rubles a year for him to do a
+allows more flexible, repetitive work (100k * 12 * 80% = 960k).
+● Every day, rock and oil samples obtained from the field are studied in petrophysical laboratories to obtain information
+adaptive and optimal about the field and adjust its development. In a medium-sized laboratory, approximately 50 to 70 core samples are
+studied per day. This is about 17,000 images per year (of rock only).
+approach.
+2
+20% difficult
+tasks
+80% typical repetitive tasks
+Problem statement
+Most deep reinforcement learning (DRL) research for social
+navigation relies on simulation due to the risks of randomly
+initialized agents and the high data requirements for training.
+● Every day, rock and oil samples obtained from the field are studied in petrophysical
+However, these simulators often use inaccurate human models
+laboratories to obtain information about the field and adjust its development.
+and overlook static obstacles, leading to agents that learn
+● In her laboratory, approximately 50 to 70 core samples are studied per day. This is
+aggressive behaviors and are unfit for real-world deployment.
+about 17,000 images per year (of rock only).
+In this work a DRL-based social navigation model
+train in the simulation. To handle environments with
+Our goal is to find an optimal path for robot from point
+static obstacles, the typical DRL social navigation
+Markov Decision Process (MDP) modified into A to point B in a crowded environment. For that, we ● [name] works in the lab, he is a senior chemist. He has a problem: 80% of his work is a repetitive routine (for example
+human avoidance with path tracking within virtual need to consider two main problems: path finding and
+the photo of many rocks to process). It is tiring for him, he doesn’t have enough time to analyze the result and do
+corridoors. Novel approach implemented, Deep
+human avoidance. research. The average salary is 100k rubbles (ref), so the lab spends almost 1 mil rubles a year for him to do a
+Reinforcement Learning - Model Predictive Control repetitive work (100k * 12 * 80% = 960k).
+(DRL-MPC), that integrates Model Predictive Control ● Every day, rock and oil samples obtained from the field are studied in petrophysical laboratories to obtain information
+(MPC) path tracking to significantly accelerate the about the field and adjust its development. In a medium-sized laboratory, approximately 50 to 70 core samples are
+learning process. studied per day. This is about 17,000 images per year (of rock only).
+2
+Proposed Pipeline: RL part
+State Space: We construct our state Simulation used: pyminisim.
+where is the state information for path tracking and is the
+SPT SHA
+state information for human avoidance.
+Action Space: Our DRL agent interacts at the level of velocity.
+Mobile Robotics Lab team.
+Our action space is a linear and angular velocity: a = vw
+Reward: Reward function considers path advancement, path
+deviation, goal reaching, corridor collisions, small speeds, human
+collisions, and human disturbance:
+where rewaards marked with an asterisk are terminal rewaards.
+3
+Pipeline
+4
+Results
+0.85
+0.8
+0.75
+0.7
+0.65
+0.78512 0.812
+6
+MPC vs Proposed
+algorithm
+MPC Proposed Algorithm
+7
+References
+[1] DR-MPC: Deep Residual Model Predictive Control for Real-world Social Navigation,
+[surname] and [surname] and [surname] and [surname] and [surname], IEEE Robotics and Automation Letters, 2025. arXiv:
+https://arxiv.org/abs/2410.10646
+[2] Learning Implicit Social Navigation Behavior using Deep Inverse Reinforcement Learning,
+[surname] and [surname] and [surname] and [surname], 2025.
+arXiv: https://arxiv.org/abs/2501.06946
+[3] [name] T. W. Z. Reinforcement learning-based local motion planning for mobile robots. 2025.
+10
+Thank you!
+10

@@ -1,0 +1,53 @@
+[name] [surname]
+[email] | gitHub.com/[name]
+Education
+[compaany] Aug 2022 – Jul 2028
+Specialist (Combined BSc + MSc), Department of Bioengeneering and Bioinformatics [location]
+[compaany] Aug 2024 – Jun 2026
+Data Science student [location]
+Experience
+Bioinformatics researcher Mar 2023 – Present
+[compaany], Department of Bioengeneering and Bioinformatics [location]
+• ExploreddifferentmachinelearninganddeeplearningarcheticturesforRNA-proteiininteractionprediction(RPIP)
+• Developed a SOTA model for RPIP (check the Projects section)
+Projects
+RNA-Proteiin interaction prediction | torch, optuna, git, VSCode Mar 2023 – Feb 2025
+• Developed a best-in-class neural network for predicting RNA interactoome of each particular proteiin
+• Built a custom dataset based on available RNA-proteiin databases
+• Proposed a method to avoid leakages during train val test splitting of paired data
+• Used torch for the main part of the model and torch geometric for processing proteiin structures as graphs
+• Developed a python library and published it on GitHub
+RNA structure prediction | torch, optuna, git, VSCode Mar 2025 – Present
+• Participated in the Stanford RNA 3D folding competition on Kaggle
+Conferences
+Informational Technologies and Systems (bionformatics section) Feb 2024
+”Imputaion of proteiin-RNA interaction to find new ”Proteiin-RNA-DNA” triads”, oral [location], [location]
+LoMonosov’24 Apr 2024
+”Imputaion of proteiin-RNA interaction to find new Proteiin-RNA-DNA triads”, poster session [location], [location]
+Winter bioinformatics schooL Feb 2025
+”Prediction of interactions between proteiins and low-expressed RNAs”, oral [location], [location]
+LoMonosov’25 Apr 2025
+”PLERIO: proteiin - low-expressed RNAs interaction oracle”, poster session [location], [location]
+Technical Skills
+Languages: Python, C++, Bash, R
+Developer Tools: Git, Jupyter Notebook, PyCharm, VSCode
+Standard DS libraries: NumPy, Pandas
+ML libraries: Pytorch, Scikit-learn, PyMC, Pytorch-geometric, Deep Graph Library, Transformers
+Bioinformatic libraries: Biopython, Pybedtools, Graphein
+Data visualization: Matplotlib, Seaborn, Plotly, Plotnine, and also many libraries for R
+Completed ML courses
+Advanced Python Auutumn 2024
+[compaany] [location]
+Machine learning, part 1 Auutumn 2024
+[compaany] [location]
+Machine learning, part 2 Spring 2025
+[compaany] [location]
+Generative modelling Spring 2025
+[compaany], [location]
+Machine learning on graphs Spring 2025
+[compaany] [location]
+Applied statistics Spring 2025
+[compaany] [location]
+Prizes
+Prize-wiinner All-russian biology olympiad
+Apr 2022

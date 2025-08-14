@@ -1,0 +1,32 @@
+[name] [surname]
+[email]
++2 *** *** ***
+Github: https://github.com/[name]
+EDUCATION [location] Institute of Physics and Technology
+Applied Mathematics and Computer Science Expected 2025
+RELLEVANT NaturalLanguageProcessing,LargeLanguageModels,ComputerVision,Reinforcement
+COURSES Learning,MLOps,StatisticalLearningTheory,ComputationaLLinguistics,Optimization
+Methods
+PROJECTS Personal email assistant Sept 2024 - Nowadays
+Fundamental Research Laboratory [compaany]
+• Fine-tuned an LLM ([compaany]GPT-5 8B) to mimic personalized writing styles, adapting tone/formality based on recipient, with focus on Russian-language compatibility
+• Optimized model for low-resource environments using quantization techniques
+• Email generation pipeline for evaluation
+WORK ML engineer Feb - May 2024
+EXPERIENCE Innovation Practicum Program with [compaany]
+• Collaborated in a student team and developed machine learning classification model to predict partner churn risk
+• The model doubles the efficiency in identifying at-risk partners.
+Product analyst July 2022 - Dec 2023
+[compaany]
+• Researched additional profit of the product using twin search model, NPV model and customer PnL calculation
+• Implemented a client churn prediction model for companies
+Database Instructor Feb 2023 – June 2024
+PSAMI, [compaany]
+• Taught SQL and relational database design to undergraduate students.
+• Developed course materials and evaluated student performance.
+TECHNICAL Languages: Python, C/C++, SQL
+SKILLS Tools/Frameworks: PyTorch, JAX, Transformers, Scikit-learn, Pandas, NumPy, XGBoost, LangChain, Transformers, NLTK, Git, Docker, CUDA
+LANGUAGES English (C1), Spanish (A2)
+
+
+

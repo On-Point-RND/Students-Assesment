@@ -1,0 +1,45 @@
+[name] [surname]
+26 years, date of birth: 15 December 1998
++2 *** *** ***
+[email]
+Work experience
+June 2024 — [compaany]
+present Junior Researcher
+11 months
+Worked on the development of the web service "Pointer" (a service for the automatic placement
+of field survey points based on the natural heterogeneity of the landscape). Developed the
+conceptuual design and implemented the backend of the web service.
+Participated in the development of a Geoportal. Was responsible for the part related to
+displaying soil tomography data in three-dimensional space.
+June 2023 — [compaany]
+March 2024 Junior Analyst
+10 months
+Was responsible for gathering and formalizing requirements for building data marts based on a
+data warehouse, creating data mart prototypes within the data warehouse infrastructure, and
+participating in acceptaance testing.
+August 2022 — [compaany]
+May 2023 Cartographer
+10 months
+Handled spatial data processing and map creation for television broadcast. Participated in client
+communication and requirements clarification.
+Education
+Master degree
+2024 [university]
+Cartography and Geoinformatics
+Achievements and scientific interests
+Master thesis Creating an interactive three-dimensional model of Satino field station
+Bachelor thesis Constructing loxodrome and orthodrome for a triaxial ellipsoid
+Interests Spatial analysis, Soil cartography, Satellite image analysis, Large Language Models
+Skills
+Software Software for working with spatial data: QGIS, ArcGIS
+Software for working with 3D data and 3D modeling: Blender, Unity
+Software for creating graphics: Adobe Illustrator, Adobe Photoshop, Adobe After
+Effects
+Programming R, Python (Litestar, Pandas, Numpy, SQLAlchemy), SQL, C#, HLSL. GLSL
+languages
+Languages Russian – Native
+English — B2
+Finnish — A2
+
+
+

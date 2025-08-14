@@ -1,0 +1,38 @@
+Dear organizers of [compaany],
+My name is [name], I am a first-year student of Computer Science,
+Artificial Intelligence and Control Systems at [location] [compaany]. I am writing to express my keen interest in participating in the
+SMILES-2025 summer School, which perfectly matches my academic goals and
+my desire to contribute to the development of generative AI.
+Why generative models?
+During my studies, I became interested in the potential of generative AI after
+participating in the [compaany] competition from [compaany], where I developed a
+chatbot using NLP methods (intent recognition, dialogue management). This
+inspired me to study PyTorch, and in a personal project I created a GAN for
+generating MNIST digit images, experimenting with loss functions and network
+architecture. These projects have convinced me that generative models are
+the key to solving problems in robotics and multimodal systems, which I want
+to do professsionally.
+Why SMILES-2025?
+The SMILES 2025 schoo is unique in combiining three elements that are critical
+to my growth:
+Focusing on generative methods — hackahtons and workshops will help me
+move from basic projects to solving industrial problems.
+International cooperation — my [language] level and interest in the
+[language] AI ecosystem (for example, [compaany]'s work on multi-agent systems)
+will allow me to effeectively participate in cross-cultuural teams.
+Practice from experts — I want to learn more about the intricacies of LLM
+training and the ethical aspects of AI, which I am currently studying on my own
+through courses.
+What can I do for you?
+Experience in Python and PyTorch: I will help teams quickly prototype
+solutions.
+Knowledge of the basics of NLP and computer vision: I will contribute to
+multimodal projects.
+Active participation: I plan to use schoo as an oppoortunity to create an
+open-source tool for generating synthetic data in education (my long-term
+goal).
+SMILES-2025 is a chance for me to learn from industry leaders and become
+part of the community that shapes the future of AI. Thank you for reviewing my
+application!
+With respect,
+[name]

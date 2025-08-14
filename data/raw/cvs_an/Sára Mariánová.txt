@@ -1,0 +1,58 @@
+[name] [surname] (cid:131) +2 *** *** ***
+Faculty of Computer Science # [email]
+Applied Mathematics and Computer Science # [email]
+Bachelor 3 year § GitHub Profile
+High School of Economic, [location] } Telegram Profile
+Education
+High School of Economic, [location]
+• 2.5 Years
+Bachelor, Faculty of Computer Science GPA: 8.38
+School № 1534
+• 11 Years
+Physics class, [location] Percentage: 95
+Experience/Courses
+High School of Economic
+• 10.01.25 - 01.04.25
+Number Theory Teaching Assistant {twice} [location]
+– Check control points.
+– Creating tasks and solutions for it.
+– Conduct an oral test.
+School of data analysis
+• 10.01.25 - 30.04.25
+Student [location] Yandex
+– Learned VAE, GANs for images, diffusion models.
+– Started to learn RAG and LLMs.
+– Started to learn speech recognition using machine learning (DSP, VAD_SED).
+Projects
+cocogo
+• 01.09.23 - 31.06.24
+Powerful travel designer website
+– Team course project, algorithm. Travel constructor based on user parameters.
+– Tools & technolologies used: web(HTML5, SCSS), python Django, MySQL.
+– see more...
+AI-girlfriend
+• 01.09.23 - 30.12.24
+WEB-site and telegram chat with LLM
+– Free chat with LLM in telegram and in web chat.
+– Tools & technolologies used: LLM, web + python Flask.
+– see more...
+RL Strategy for Scalp Trading using Time Series Generation with GANs
+• 01.10.24 - 6.06.25
+Article, research, project
+– Study explores the application of Generative Adversarial Networks (GANs) and Reinforcement Learning (RL) in
+financial OHLCV time series.
+– Tools & technolologies used: TCN-GAN, RNN-GAN, Bootstrap, RL.
+– see more...
+Technical Skills and Interests
+Languages: English · upper-intermediate, [location] · native
+Developer Tools: Python · C++ · JavaScript · C#
+Frameworks: PyTorch · Vue.js · TensorFlow · Polars · Scikit-learn
+Cloud/Databases: MySQL · PostgreSQL
+Soft Skills: Git · MacOS · Computer network · Tex · Computer security
+Coursework: RL Strategy for Scalp Trading using Time Series Generation with GANs on [location] Stock Exchange
+Areas of Interest: Data Science · Python · Math · Frontend · Data Analysis
+Positions: Data Scientiist · Python developer · Data Engineer
+School Olympiads/Contests
+• All-Russian School Olympia Regional Stage, computer science, participant [location] 2022
+• All-Russian School Olympia Regional Stage, physics, prizeholder [location] 2021
+• Phystech Olympiad, math, medalist 2 degree [location] 2022

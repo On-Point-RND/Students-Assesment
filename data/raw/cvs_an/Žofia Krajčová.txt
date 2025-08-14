@@ -1,0 +1,25 @@
+CV for SMILES-2025
+[name]
+Undergraduate Student in Information Systems and Technologies
+[location] Timiryazev Agricultural Academy
+Email: [email]
+Telegram: @[name]
+GitHub: https://github.com/[name]
+About Me
+I am currently a fourth-year undergraduate student at [location] Timiryazev Agricultural Academy, specializing in Information Systems and Technologies. I am expected to graduate in June 2025.
+My Thesis & Research
+My bachelor's thesis is dedicated to training artificial neural networks and developing an application for automating leukogram construction. This work is centered on convolutional neural networks built with PyTorch and applied to the detection and classification of fish blood cells, with the final goal of supporting early diagnostics in aquaculture settings.
+In the course of this research, I published a co-authored scientific article titled “Identification of Fish Blood Cell Populations Based on Convolutional Neural Networks for Leukogram Construction” in the 2023 issue of the Proceedings of the Timiryazev Agricultural Academy. The study involved building CNN models that achieved up F1-scores of over 0.66 in multiclass classification settings. For this project, I wrote the data collection instructions, after which it was necessary to pre-process the data before designing the model. At the end of the project, I developed a graphical interface using Python. Initially launched as a research project in collaboration with the Department of Aquaculture in my university, the work was later developed into a prototype for a startup initiative.
+Academic Activities
+My engagement in academic activities also includes multiple oral presentations delivered in English at national scientific student conferences:
+ 77th All-Russian Student Scientific-Practical Conference dedicated to the 150th anniversary of A.G. Doyarenko (2nd place diploma)
+ the All-Russian Conference marking the 160th anniversary of the Timiryazev Academy (3rd place diploma)
+ participation in the International Student Forum “Economics, Management and Digital Technologies in AIC – 2022”
+At these events, I presented various research topics including CNN-based image detection and classification, model selection for NLP tasks, and early explorations into data visualization using Python accordingly.
+Industry Experience
+Since 2024, I have been working as a machine learning engineer in the Search Query Understanding team at [company]. My role focuses on natural language processing, particularly in extracting semantic features from user queries. I have worked with both classical and deep learning approaches. Our services are built with FastAPI, and I have also gained experience working with CI/CD, Linux environments, and Git-based version control systems. While some specifics of the work remain internal to the company, this experience has significantly strengthened my understanding of NLP pipelines in production contexts.
+Technical Skills
+ Programming: Python, SQL
+ Libraries & Frameworks: PyTorch, NumPy, scikit-learn, TensorFlow (basic), FastAPI
+ Tools: Docker, Git, Linux
+ Fields of Interest: Natural Language Processing, Computer Vision, real-world ML applications

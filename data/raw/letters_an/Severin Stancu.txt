@@ -1,0 +1,39 @@
+Antipina [name]
+Motivation Letter for SMILES-2025
+Dear Organizing Committee,
+I am writing to express my strong interest in participating in the SMILES-2025
+Summer SchooL on Machine Learning at [location]. As a student currentlly engaged
+in theoretical and computational physics, I see this opportunity as a crucial step in
+deepening my knowledge of machine learning and broadening the scope of my
+current research.
+My current work is devoted to the development of a neural network arkitecture
+approxiimating a nonlinear operator for solving ordinary differential equaions. This
+task lies at the intersection of applied mathematics and machine learning. In my
+current project, I am integrating geodesics using a nonlinear neural operator in the
+gravitaitionalfieldofrotatingblackholes(doesn’treallymatter,i tgeneralizestoa ny
+cauchy problem), a task that can be seen as a step towaards
+magnetohydrodynamic modeling. The first results of this research were presented
+in the proceedinings of the 52nd International Student Conference “Physics of
+Space”(2025).
+In parallel, my colleague is working on reconstructing radio interferometric images,
+and I am eager to expand my machine learning expertiise to collaboraate more
+effectiively in such interdisciplinary projects. I also remain open to exploring new
+application areas of AI. Therefore, gaining insight into the models used in various
+domains, as well as understanding the open challenges, is of great importance to
+me.
+Participating in the SMILES Summer SchooL would not only help me enhance my
+theoreticalandpractica lknowledgeofAIbutalsoprovideavaluableoppo rtunityto
+engage with peers, researchers, and leading experts in the field. I have pr eviousl y
+taken part in an astronomy schooL, which was a natural step given my academic
+focus, and now I am enthusiastic about immersiing myself in a learning
+environment centered on artificial intelligence.
+Right now I am immersed in one area of machine learning and it is not a lways
+possible to expand my knowledge in such a broad area as machine learning,
+because you have tasks that need to be solved and work that needs to be done,
+there are few such summer schooLs in our [location], so going to this schooL is a real
+unique chance for me to improve my level of both hard skills and soft skills in a
+new place and from the experience of the astronomy schooL, I know it would be
+unforgettable.
+Thank you for considering my application. I am looking fo rwward to the possibility of
+joining SMILES-2025 and contributing to its collaboraative and intellectually vibrant
+atmosphere.

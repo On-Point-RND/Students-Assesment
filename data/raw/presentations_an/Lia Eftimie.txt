@@ -1,0 +1,132 @@
+AI Music Generation
+[name]
+Senior DL Engineer, [compaany],
+ex. [compaany], ex. [compaany]
+Introduction
+● Topic: Generating complete songs (instrumentals + sung lyrics) directly from text prompts was the
+key task.
+● Importance: Enables rapid prototyping for musicians, game & media studios; pushes
+generative‑AI beyond speech or short jingles.
+● Background: Previous text‑to‑audio systems (e.g. Bark, UniAudio, MusicLM) excel in isolated
+tasks but struggle with long‑form, high‑quality music generation & lyrics vocalization.
+● Goal of the review: Identify the best route for end‑to‑end song generation and share empirical
+findings.
+Playa boy carti type music with
+enhanced high pitched part
+MusicLM: Generating Music From Text, 26 Jan 2023
+Bark, 2023
+Problem statement
+● Produce minutes‑long music with intelligible, time‑aligned vocals from nothing but the lyric text
+High quality of music & sung lyrics
+○
+High diversity depending on prompt
+○
+Low latency
+○
+90 seconds music track
+○
+● Challenges
+○ Lack of open-source approaches with sufficient quality
+○ Alignment of lyrics to melody
+○ Quality vs. speed trade‑offs
+● Scope:
+Choose right stream of research
+○
+Find the best way to train chosen model so it could sing and play high-quality
+○
+music together
+Methods
+● Approach:
+Collect & clean a song corpus
+○
+Text‑to‑MIDI with a Multi‑Scale Transformer
+○
+MIDI‑ & text‑conditioned Vocal‑LM (MST again)
+○
+Latent‑Diffusion accompaniment with hybrid conditioning
+○
+Accompanied Singing Voice Synthesis with Fully Text-controlled Melody, 2 Jul 2024
+Methods
+● Inference:
+○ Stage 1: generate MIDI from lyrics conditioned on prompt
+○ Stage 2: generate vocal tokens conditioned on (lyrics, MIDI, ref‑voice)
+○ Stage 3: generate accompaniment with conditioning on lyrics
+○ Stage 4: Reconstruct audio into waveforms and mix.
+Audio quantization
+High Fidelity Neural Audio Compression, 24 Oct 2022
+RVQ
+What is Residual Vector Quantization?
+AR Transformer
+Autoregressive prediction of discrete audio tokens
+UniAudio: An Audio Foundation Model Toward Universal Audio Generation 1 Oct 2023
+Diffusion Transformer
+● We managed to implement such a cascade of several models,
+but it turned out to be insanely cumbersome and produced
+worse results than DiT, trained to generate speech and music
+together, conditioned on length, prompt and lyrics, so the final
+solution was DiT, trained on this specific task
+● We also had to implement custom duration predictor to predict every line length to create proper conditioning input aligned with
+duration of target music audio
+Scaling Rectified Flow Transformers for High-Resolution Image Synthesis, 5 Mar 2024
+Diffusion Transformer
+● v_c = voc_cond_output
+● i_c = instr_cond_output V-prediction loss
+● v_i = voc_instr_cond_output ∨ = α∗ε - σ∗x,
+Where α, σ are coefficients before noise
+● u = uncond_output
+and spectrogram relatively
+● s_v = voc_cfg_scale
+● s = cfg_scale
+● s_i = instr_cfg_scale
+● r_x = mixdown_rate_x
+● r_y = mixdown_rate_y
+Data & preprocessing
+● Data: ~5mil of 44.1 KHz tracks
+● Prompts for training were taken automatically with Qwen Audio model
+● Also we employed a technique of choosing a fragment of audio with the most lyrics
+content for models where we couldn’t feed the whole audio sequence
+For lyrics generation we finetuned Llama3, so we could use it to generate lyrics
+●
+conditioning on user prompt
+● Determine word-by-word durations with Whisper and CTC for alignment
+● We had multiple stages of training:
+1. Only music pretrain
+2. Then train on vocal from music checkpoint
+3. Then train together on music & lyrics with certain chance of
+music/lyrics/both/unconditioned training instance
+● To separate lyrics from music we used source separation with Facebook Demucs
+Lyric-melody data collection
+Word
+SongComposer: A Large Language Model for Lyric and Melody Composition in Song Generation, 27 Feb 2024
+Audio features extraction
+Results
+● Key findings:
+○ DiT gives best subjective quality and longest clips (≤ 90 s in ~20 s inference).
+○ LM has lower music realism and slower autoregressive decoding, also because of not
+generating one token per instance, but 3-10 RVQ tokens per one iteration
+● Metrics used: MOS, RTF and GPU-hours to train
+Model MOS RTF GPU-hours to
+train
+DiT 4.1 0.22 ~1000
+LM 3.2 0.71 ~500
+Research gap
+• Unresolved challenges: Mention problems that still exist.
+Diversity conditioning on prompt
+○
+Still want to enhance quality
+○
+• Why it matters? Explain how filling these gaps could improve real-world use.
+○ Availability for this technology by API will make life of musicians and content makers
+significantly easier
+• Future opportunities:
+Better predictor of line durations
+○
+Outpainting, inpainting
+○
+Music to music, vocal to music
+○
+Explicit control over music
+○
+Diffusion distillation, fewer steps and less RTF (real time factor)
+○
+Thank you!

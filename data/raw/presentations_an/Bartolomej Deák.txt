@@ -1,0 +1,201 @@
+Advancing Multilingual
+Fact Verification with LLMs
+(ongoing research)
+Student:
+[name]
+Motivation
+▶ Rapid spread of misinformation across languages and platforms
+▶ Most advanced fact-checking systems focus on English content
+▶ Significant gap in multilingual verification capabilities
+▶ Limited availability of training data for non-English languages
+2
+Research Scope
+Evaluating five state-of-the-art language models on X-Fact dataset
+●
+(Gupta & [surname], 2021)
+Testing Small Language Models (i.e., XLM-R) and LLMs (i.e., Llama [number])
+●
+RQ: Which models perform best at multilingual claim verification and why?
+●
+3
+What is Fact Verification?
+▶ Core component of automated fact-checking process:
+– Assesses veracity of claims against relevant evidence
+– Not about identifying claims, but classifying them into veracity categories
+– Not about classifying factual statements (e.g., The sky is blue)
+Claim: Unemployment rate dropped by 5%
+Evidence: Statistics show 2.3% decrease in unemployment rate
+Verification result: Mostly False (exaggeration of actual percentage)
+4
+Methods in Multilingual Fact Verification
+▶
+Traditional approaches:
+– Feature engineering (metadata, linguistic features)
+– Neural networks (CNN, BiLSTM) with attention mechanisms
+▶
+Recent advances:
+– Small Language Models (XLM-R, mBERT, mT5)
+– Large Language Models (GPT-4, Llama [number], Mistral Nemo)
+– Cross-lingual transfer learning
+5
+X-Fact Dataset Overview
+▶
+31,189 claims + evidence + metadata
+▶
+25 languages from 11 language families
+▶
+Real-world claims verified by fact-checkers
+▶
+7 labels
+Table 1. Examples of claims and metadata from X-Fact. For reference, translations are
+also shown.
+6
+X-Fact Subsets
+▶ In-domain set: claims from the same languages and sources as training
+▶ Out-of-domain set: claims from same languages but different sources
+▶ Zero-shot set: claims in unseen languages
+Table 2. Overview of the X-Fact subsets.
+7
+X-Fact Analysis: Language Distribution
+▶ Portuguese: 5,601 claims (29.4% of training data)
+▶ Indonesian: 2,231 claims (11.7% of training data)
+▶ Serbian: only 624 claims (3.3% of training data)
+Figure 1. Distribution of data in X-Fact by language across subsets.
+8
+X-Fact Analysis: Label Distribution
+▶ false:
+– 39.4% of training data
+▶ partly true/misleading:
+– 22.8% of training data
+▶ other:
+– only 1.85% of training data
+Figure 2. Distribution of data in X-Fact by label across subsets.
+9
+Experimental Setup: Models
+▶
+Small Language Models (SLMs):
+– XLM-R base (270M parameters)
+– mT5 base (580M parameters)
+▶
+Large Language Models (LLMs):
+– Llama [number] (8B parameters)
+– Qwen [number] (7B parameters)
+– Mistral Nemo (12B parameters):
+10
+Experimental Setup: Approaches
+▶
+SLMs approaches:
+– XLM-R frozen with fine-tuned classification head
+– Full fine-tuning of XLM-R and mT5
+– Input: claims + evidence + metadata
+▶
+LLMs approaches:
+– Direct few-shot prompting
+– LoRA fine-tuning (r=16, alpha=32)
+– Claim-only vs. claim+evidence configurations
+11
+Overall Performance
+▶ XLM-R significantly
+outperformed all models:
+– Test: 57.7% macro-F1 (59.2%
+micro-F1)
+– Out-of-domain: 47.6% macro-F1
+(53.5% micro-F1)
+– Zero-shot: 43.2% macro-F1
+(58.2% micro-F1)
+Figure 4. Macro-F1 scores on test subset across all models.
+Claim Only True stands for utilizing only claims in the
+prompt, Claim Only False stands for utilizing claim+evidence
+in the prompt.
+12
+SLMs Performance by Language
+▶ XLM-R showed strong but
+varied performance:
+– Strongest: Spanish (F1 ≈ 0.65),
+Hindi (F1 ≈ 0.62)
+– Weakest: Serbian (F1 ≈ 0.45)
+▶ mT5 showed less consistent
+performance:
+– Generally lower performance
+than XLM-R
+– Similar to XLM-R on Italian,
+Polish, Indonesian
+Figure 5. XLMR and mT5 macro-F1 scores on test subset
+per language.
+13
+LLMs Performance
+▶ Overall low performance
+across all LLMs:
+– Qwen: best LLM at 17.5%
+macro-F1
+– Llama: 15.5% macro-F1
+– Mistral: 14.8% macro-F1
+▶ Limited benefits from
+different configurations:
+– Small improvements from LoRA
+fine-tuning
+Figure 6. LLMs macro-F1 scores on test subset. Claim Only
+True stands for utilizing only claims in the prompt, Claim
+Only False stands for utilizing claim+evidence
+in the prompt.
+14
+Qwen’s Performance by Language
+▶ Qwen showed significant
+variation across languages:
+– Strongest: Indonesian, Polish
+(F1 ≈ 0.3)
+– Weakest: Arabic, Georgian
+(F1 < 0.15)
+Figure 7. Qwen's macro-F1 scores on test subset per
+language.
+15
+Why did XLM-R outperform other models?
+▶ Architecture matters more than size:
+– XLM-R: built for understanding text (encoder)
+– LLMs: built for generating text (decoder)
+▶ Evidence handling:
+– XLM-R: compares claim and evidence directly
+– LLMs: treat evidence as general background
+▶ Key differences in approach:
+– XLM-R carefully weighs evidence vs. claim
+– LLMs often rely on what they already "know"
+– Smaller, specialized design beats larger, general-purpose models
+16
+Label Distribution Analysis for Llama
+▶ Llama demonstrated
+strong bias toward
+true:
+– 1,339 true predictions
+vs 332 ground truth
+instances
+– Four times the
+necessary true labels
+Figure 10. Label distribution on the zero-shot subset: true
+vs predicted labels for fine-tuned Llama (claim+evidence).
+If the label was not in the predefined labels set, we
+recognized the model’s response as na.
+17
+Script-Based Challenges
+▶ Clear pattern between script systems and errors:
+– Non-Latin scripts showed highest error rates
+– Bengali: 111 empty outputs and 65 same-language responses
+▶ Error patterns:
+– Complete failures rather than uncertainty expression
+– Tendency to respond in input language despite instructions
+Figure 11. Llama's na label breakdown on zero-shot subset. I/O Different Language: the model's response is provided in a
+language different from the input language, I/O Equal Language: the model's response is provided in the same language as the input, Uknown Language: language was not recognized as one from the dataset.
+18
+Key Findings
+▶ Model Architecture Impact:
+– SLMs significantly outperformed LLMs (XLM-R: 57.7% vs. Qwen: 17.5%)
+– Architecture matters more than size for fact verification
+▶ Evidence Utilization:
+– XLM-R effectively integrated evidence through bidirectional attention
+– LLMs treated evidence as general context rather than verification
+sources
+▶ Language and Script Effects:
+– Performance declined on non-Latin scripts for all models
+– Largest gaps occurred in languages less represented in pretraining
+19
+›
+Thank you!

@@ -1,0 +1,41 @@
+[name] [surname]
+Motivation letter for SMILES by [compaany]
+IamexcitedtoaapplyfortheSMILESSummerSchoołoMachineLearningat[compaany].
+As a Bachelor’s student in Applied Mathematics at [university],IamdeeplypassionateaboutAIandeagertoexpandmypractical
+skills through this program. The interdisciplinary nature of SMILES, combiined with its
+focusoncutting-egeMLtchniques,alignsperfectllywihmyacademiogoaalsandself-
+driven exploration of the field.
+Why Machine Learning?
+MyjourneyintoMLbegaawithcmpetitveprogramming(e.g.,2ndplacein[university]’s
+Code Games Olympiad) and evolved into a fascination with mathematical modeling.
+Through self-study, I’ve gained hands-on experience with Python, Scikit-learn, and
+data analysis tools (Pandas, NumPy), buildiing models for clustering and regression
+tasks. However, I recogniize the gap between textbook knowledge and real-worlapplications—thismotivatesmetoseekstructuredlearningandmentoorshipatSMILES.
+Why SMILES?
+SMILES stands out for its:
+• Practical focus: The emphasis on workshops and collaбораtive projects mirrors
+my belief in learning-by-doing.
+• Global perspective: Exposure to international peers and experts in [location] would
+broaden my understanding of ML’s cross-cultuural applications.
+• Advanced topics: I’m particularly interested in deep learning despite lack of
+experience and knowledge, so participating in SMILES will complement my
+future work.
+What I Offer
+• Strong analytical foundation: My mathematical background ([university]’s
+rigorous curriculum) allows me to understand complex ML theories.
+• Self-motivation: As a self-taught programmer (100/100 in the Russian Unified
+State Exam in CS and work on various data science projects), I thrive in
+challenging environments.
+1
+• Collaбораtive spirit: I have worked with different international open-source
+projects and look forward to contributing to team projects and sharing insights
+from my prior work with LaTeX, Jupyter Notebooks, and open-source tools.
+Future Goals
+After the event, I aim to:
+1. Apply the acquired skills to my bachelor’s thesis on computer vision and also my
+future work.
+2. Pursue a research-orienteed career inAI, leveraging gained knowledge for further
+academic collaбораtion.
+I would be honored to join this vibrant community. Thank you for considering my
+application.
+2

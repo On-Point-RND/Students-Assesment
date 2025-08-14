@@ -1,0 +1,69 @@
+[name]
+[location]
+[email] | [name]-bel
+Interests
+Involved in research and development of large language models and multimodal architectures.
+Work Experience
+[compaany] [location]
+NLPR&D 2024‑Present
+• Led research projects on hybrid hallucination detection in LLMs[1]
+• Developed a data‑efficient approach for hallucination detection in RAG systems[2]
+• Led research on hybrid RAG in the regulatory domain[3]
+Moscow Institute of Physics and Technology (MIPT) Dolgoprudny
+NLPResearch 2023‑2024
+• Led research projects on enhancing the LLMs using RAG systems and knowledge graphs[4]
+• Developed motor reasoning techniques for LLMs, enabling more natural human‑computer interactions[5]
+• Created RL systems for online learning applications, enabling adaptive learning in dynamic environments
+NT‑Research Moscow
+CV&NLPR&D 2021‑2024
+• Developed multimodal document understanding architectures
+• Led team on topic modeling and document classification tasks
+• Researched neural networks for handwritten document recognition
+• Developed RAG system for commercial electronic documents
+Education
+Moscow Institute of Physics and Technology Dolgoprudny
+MSc in Methods and Technologies of Artificial Intelligence 2023‑Present
+• Grade:9/10
+• Thesis:Enhancing Context‑Aware Generation of LLMs
+Bauman Moscow State Technical University (BMSTU) Moscow
+BSc in Applied Mathematics and Informatics 2019‑2023
+• Graduated with Honors
+• Thesis:Determining the Complexity of Formal Language by Multipattern Learning Method
+Additional activities
+Collaboration with Program Systems Institute of Russian Academy of Sciences (IPSRAS) Moscow
+TFL&NLPResearch 2022‑2023
+• Researched formal language structures with repeated substructures
+• Developed methods for vulnerability detection in regular expressions[6]
+Publications
+[1] [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. “Bridging External Knowledge and Model Uncertainty for Enhanced Halluci‑
+nation Detection”.In:Proceedings of the 19thInternationalWorkshopo onSemanticEvaluation(SemEval‑2025).
+Acceptedforpublication.Vienna,Austria:AssociationforComputationa lLinguistics,Aug.2025.
+[2] [name] [surname],KonstantinPolev,RaufParchiev,andDmitrySimakov.“Data‑efficientMeta‑ModelsforEvalu‑
+ationofContext‑BaseddQuestionsandAnswersiinLLMs”.In:Proceedings of the 48thInternationalACMSIGIR
+ConferenceonRResearchandDevelopmentinInformationRetrieval.SIGIR’25.Inreview.Padua,Italy:Associa‑
+tionforComputingMachinery,July2025.
+[3] Islam Aushev, Egor Kratkov, Evgenii Nikolaev, Andrei Glinskii, Vasilii Krikunov, Alexander Panchenko, Vasily
+Konovalov,and[name] [surname].“RAGulator:EffectiveRAGforRegulatoryQuestionAnswering”.In:Proceedings
+ofthe1stRegulatoryNLPWorkshop(RegNLP2025).AbuDhabi,UAE:AssociationforComputationa lLinguistics,
+Jan.2025,pp.114–120.
+[4] [name] [surname],EvegeniyBeliakin,andVasilyKonovalov.“FusingLargeLanguageModelswithExternalKnowl‑
+egeforEnhancedQuestionAnswering”.In:Proceedings of TextGraphs‑17:Graph‑basedMethodsforNatural
+LanguageProcessing.Bangkok,Thailand:AssociationforComputationa lLinguistics,Aug.2024,pp.154–160.
+[5] [name] [surname]andDmitriiKosenko.“MultimodalLargeLanguageModelsinEmotionReasoning”.In:Proceed‑
+ingsofthe18thInternationalWorkshopo onSemanticEvaluation(SemEval‑2024).MexicoCity,Mexico:Associa‑
+tionforComputationa lLinguistics,June2024,pp.1747–1757.
+[6] A.N.Nepeivoda,J.A.[surname],K.K.[surname],M.R.[surname],D.P.[surname],A.D.[surname],andA.S.[surname]. “REDoS Detection in “Domino” Regular Expressions by Ambiguity Analysis”. In: Proceedings of the
+InstituteforSystemProgrammingoftheRAS.Vol.35.3.2023,pp.109–124.
+[7] EvgeniiNikolaev,IvanBondarenko,Islam Aushev,VasiliiKrikunov,AndreiVladimirovichGlinskii,VasilyKono‑
+valo­v,and[name] [surname].”HybridRetrievalPipelineforIdentifyingPreviouslyFact‑Checke­dClaimsAcrossMul‑
+tipleLanguages”.In:Proceedings of the 19thInternationalWorkshopo onSemanticEvaluation(SemEval‑2025).
+Acceptedforpublication.Vienna,Austria:AssociationforComputationa lLinguistics,Aug.2025.
+[8] AlexandraBazarova,AleksandrYugay,AndreyShulga,AlinaErmilova,AndreiVolodichev,KonstantinPolev,Ju‑
+lia[surname],RaufParchiev,DmitrySimakov,MaximSavchenko,AndreySavchenko,SergueiBarannikov,and
+Alexey Zaytsev. Hallucination Detection in LLMs via Topological Divergence on Attention Graphs. 2025. arXiv:
+2504.10063[cs.CL].URL:https://arxiv.org/abs/2504.10063.
+Skills
+Programming Python,PyTorch,Lightning,Transforme rs,TensorFlow
+Miscellaneous Linux,Docker,Git,MLflow,FastAPI,SQL
+SoftSkills TeamManagement,TechnicalWriting,Publications
+Languages Russian(native),English(C1)
