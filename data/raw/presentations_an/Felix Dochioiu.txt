@@ -1,0 +1,112 @@
+This presentation is rather sparse, the basic
+informaation, explanations and the process of
+work are in the video — please watch it
+1
+2
+is that correct? please answer only yes or no
+3
+how many calories contains?
+4
+5
+AI2 Diagrams (AI2D), 2016
+Based on the given diagram answer the Which phase describes the point
+following question. What would happen to the at which the moon appears nearly
+elephant seal population if there were no invisible in the sky?
+whales?
+[ "third quarter half moon", "new
+[ "Increase", "None of these", "Neither moon", "full moon", "first quarter
+increase nor decrease", "DecrEase" ] half moon" ]
+[name] et al. A diagram is worth a dozen images //Computer Vision–ECCV 2016: 14th European Conference, [location], October 11–14, 2016, Proceedings, Part IV 14. – Springer International Publishing, 2016. – С. 235-251.
+DocVQA, 2021
+Industry-wise distribution of documents
+The 9 question types and share of questions in each type.
+Mathew [name], [name], [name]. Docvqa: A dataset for vqa on document images //Proceedings of the IEEE/CVF winter
+conference on applications of computer vision. – 2021. – С. 2200-2209.
+AMBER, 2023
+[name] et al. Amber: An llm-free multi-dimensional benchmark for mllms hallucination evaluation //arXiv preprint arXiv:2311.07397.
+– 2023.
+MathVista, 2023
+[name] et al. Mathvista: Evaluating mathematical reasoning of foundation models in visual contexts //arXiv preprint arXiv:2310.02255.
+– 2023.
+BLINK, 2024
+[name] et al. Blink: Multimodal large language models can see but not perceive //European Conference on Computer Vision. – [location]
+: Springer Nature Switzerland, 2024. – С. 148-166.
+MMMU, 2024
+[name] et al. Mmmu: A massive multi-discipline multimodal understanding and reasoning benchmark for expert agi //Proceedings of
+the IEEE/CVF Conference on Computer Vision and Pattern Recognition. – 2024. – С. 9556-9567.
+MMBench, 2024
+[name] et al. Mmbench: Is your multi-modal model an all-around player? //European conference on computer vision. – [location] :
+Springer Nature Switzerland, 2024. – С. 216-233.
+12
+13
+Query image:
+Query text: Describe in detail only the church in the picture, without
+describing any details other than it.
+VLM Answer A: VLM Answer B:
+The church in the picture
+It is a church building.
+features a traditional architectural
+style with multiple domes. There
+are five domes in total, each
+topped with a golden cross. The
+domes are…
+A is better B is better Equal
+14
+Num of wins Percent of wins
+Sample size (p<0.05) (p<0.05) Num of wins (p<0.08) Percent of wins (p<0.08)
+10 9 90.00% 8 80.00%
+20 15 75.00% 14 70.00%
+30 20 66.67% 20 66.67%
+40 26 65.00% 25 62.50%
+50 32 64.00% 31 62.00%
+60 37 61.67% 36 60.00%
+70 43 61.43% 42 60.00%
+80 48 60.00% 47 58.75%
+90 54 60.00% 53 58.89%
+100 59 59.00% 58 58.00%
+15
+16
+17
+18
+Dialog monoimage example
+User: what is the buildiing on the image?
+Model answer: The image shows [name]'s Cathedral, located in [location]. It is one of the most
+famous and majestic cathedrals of the
+city, built in the style of late classicism.
+User: Which famous buildings in the
+same style are located there?
+19
+Dialog multimage example
+User: is these edible?
+Model answer: Yes, these mushrooms
+appear to be edible. However, if you are
+unsure, it's best to consult a mycologist
+or a reliable source for identification.
+User: how about this?
+20
+- Type of question classifier
+- Image classifier of smart camera (13 classes,
+mostly product cases)
+- Image classifier of Shedevrum (38 image
+classes, many narrow-topic cases)
+- Multimodal intent classifier
+21
+Examples of rules
+Basic Perception. Color Recognition
+UserRequestText LIKE "%цвет %"
+AND (
+intent_classifier.class = "caption image for me"
+OR
+intent_classifier.class = "give me info about object on
+picture"
+)
+Knowledge about objects + facts. Animals and plants
+ImageSmartCamClassifier = "ПРИРОДА"
+AND (
+intent_classifier.class = "howTo"
+OR
+intent_classifier.class = "give me info about object on
+picture"
+)
+22
+23

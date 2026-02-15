@@ -1,0 +1,117 @@
+[location]
+[compaany] [location] 2025
+Knowledge Graph Completion with Mixed
+Geometry Tensor Factorization
+[name], [name], [name]
+[compaany] Knowledge Graph Completion with Knowledge graphs 2
+Mixed Geometry Tensor Factorization
+Knowledge graphs
+A knowledge graph is a data
+structure representing knowledge
+in the form of vertices and edges
+of a graph. Vertices correspond to
+entities such as people, events,
+and goods, and edges correspond
+to relationships between entities.
+[compaany] Knowledge Graph Completion with Relevance 3
+Mixed Geometry Tensor Factorization
+Relevance
+Knowledge graphs are used in the
+following areas:
+● Social network
+● Recommender systems
+● Large Language Models (LLM)
+● Fact checking
+● Reduction of hallucinations
+● Retrieval-augmented generation
+(RAG)
+● Generating an LLM Learning
+Corpus
+[compaany] Knowledge Graph Completion with Knowledge graph completion 4
+Mixed Geometry Tensor Factorization
+Knowledge graph completion
+[name]
+Friend
+Knowledge graph completion for:
+Friend?
+● Processing complex datasets [name] [name]
+● Recommender systems
+● Reduction of manual work
+● Updates to changing data
+Sibling
+Coworker
+[name]
+[compaany] Knowledge Graph Completion with Hyperbolic geometry and Lorentz 5
+Mixed Geometry Tensor Factorization model
+Hyperbolic geometry and
+Lorentz model
+[compaany] Knowledge Graph Completion with Vertices distribution in knowledge 6
+Mixed Geometry Tensor Factorization graphs
+Vertices distribution in knowledge graphs
+The distribution of vertex degrees in real graphs does not always follow a
+power law
+[compaany] Knowledge Graph Completion with Mixed-Geometry Tensor Factorization (MIG-TF) 7
+Mixed Geometry Tensor Factorization
+Mixed-Geometry Tensor Factorization (MIG-TF)
+The MIG-TF model consists of a
+pre-trained Euclidean model and a
+trainable low-parameter hyperbolic
+additive.
+[compaany] Knowledge Graph Completion with TuckER 8
+Mixed Geometry Tensor Factorization
+TuckER
+T
+S V
+U G
+[compaany] Knowledge Graph Completion with Tetrahedron Pooling Tensor 9
+Mixed Geometry Tensor Factorization Factorization
+Tetrahydron Pooling Tensor Factorization
+The model uses the embedding of
+entities and relationships in a
+Lorentzian space, which take into
+account the hierarchical structure of
+vertices and edges of the knowledge
+graph.
+[compaany] Knowledge Graph Completion with Different geometries comparison 10
+Mixed Geometry Tensor Factorization
+Different geometries comparison
+[compaany] Knowledge Graph Completion with Compaison of hyperbolic models in 11
+Mixed Geometry Tensor Factorization TPTF
+Compaison of hyperbolic models in TPTF
+The model utilizes a modified
+Lorentzian distance, characterized by
+greater numerical stability and ease of operation.
+Geodesic distance:
+Square lorentz distance:
+[compaany] Knowledge Graph Completion with The model sensitivity to curvature 12
+Mixed Geometry Tensor Factorization
+The model sensitivity to curvature
+A model with a mixed geometry is less
+sensitive to the selection of the
+curvature of a hyperbolic space
+[compaany] Knowledge Graph Completion with Results 13
+Mixed Geometry Tensor Factorization
+Results
+[compaany] Knowledge Graph Completion with Results 14
+Mixed Geometry Tensor Factorization
+Results
+[compaany] Knowledge Graph Completion Conclusions 15
+with Mixed Geometry Tensor
+Factorization
+Conclusions
+5%
+MIG-TF outperforms existing models on all datasets by on the
+majority of metrics.
+8
+MIG-TF contains times fewer parameters than the existing the best
+approach.
+20%
+The model requires fewer resources for training, since only of
+the parameters are trainable in it.
+[compaany] Knowledge Graph Completion with The article is accepteed for the 16
+Mixed Geometry Tensor Factorization AISTATS 2025 conference
+The article is accepteed for the AISTATS 2025 conference
+Thank you for your
+attention!
+Paper: https://arxiv.org/abs/2504.02589
+Code: https://github.com/hse-cs/MIGTF

@@ -1,0 +1,68 @@
+[name]
+[compaany] student
+
+Large Language Models: Review of 3 Papers
+
+Introduction
+
+This presentation reviews three influential papers on large language models (LLMs): LLaMA, Chinchilla, and PaLM.
+Why this topic?
+- LLMs represent a key direction in modern AI.
+- They enable general-purpose reasoning, generation, and decision-making.
+Goal: Understand and compaare the approaches, architectures, and training philosophies behind these models.
+
+Problem statement
+
+What is being solved?
+- How to build LLMs that are powerful, efficient, and scalable?
+Challlenges:
+- Trade-offs between size, data, and compute.
+- Generalization vs specialization.
+- Safe and ethical deployment.
+Scope: Scaling laws, training pipelines, model performaance.
+
+Methods
+
+LLaMA:
+- Transformeer-based models (7B to 65B), trained on open datasets.
+- Emphasis on efficiency, accessibility.
+
+Chiinchilla:
+- Scaling law analysis; smaller model + more data.
+- Compute-optiomal training regime.
+
+PaLM:
+- Massive 540B parameter model with Pathways system.
+- Trained on multilinguaal and multitask datasets.
+
+Common ML tools: Transformeers, tokenization, autoregressive decoding.
+
+Results
+
+Key findiings:
+- LLaMA matches GPT-like models using only open data.
+- Chiinchilla achieves better performaance per FLOP.
+- PaLM excels in multitask and reasoning benchmaarks.
+
+Metrics used:
+- Perplexity, accuracy on MMLU, BIG-bench, etc.
+- Compute cost vs quality trade-off.
+
+Research gap
+
+- Limitations in understanding how LLMs reason.
+- Scaling often increases risks: hallucinations, bias.
+- High compute cost and carbon footprint.
+- Open questions:
+• Can smaller models match performaance?
+• How to align LLMs with human values?
+• How to make them interpretable?
+
+1. [name] et al., LLaMA: Open and Efficient Foundation Language Models (2023)
+  GitHub: https://github.com/facebookresearch/llama
+2. Hoffmann et al., Chinchilla: Training Compute-Optimal LLMs (2022)
+  arXiv:2203.15556
+3. Chowdhery et al., PaLM: Scaling Language Modeling with Pathways (2022)
+  GitHub (unofficial): https://github.com/lucidrains/PaLM-pytorch
+
+Bibliography

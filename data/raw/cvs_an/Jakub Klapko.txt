@@ -1,0 +1,71 @@
+[name] [surname]
+[email]
++2 *** *** ***
+[email]
+[name] [surname]
+[location]
+[compaany]
+SUMMARY
+• Deeplearningresearcher with specialized experience in computer vision, reinforcement learning, and graph neural networks
+• Skilled in implementing custom environments and training pipelines for complex ML tasks
+• Practical expertise with PyTorch, simulation environments, and 3D data processing techniques
+PROFESSIONAL EXPERIENCE
+Research Engineer February 2025 – Present
+[compaany]
+• Researching how scene reconstruction algorithms adapt to environmental changes
+• Evaluating and optimizing 3D scene editing capabilities within knowledge mapping systems
+• Implementing visualization methods to validate spatial adaptation in dynamic environments
+Engineer-Programmer July 2023 – April 2024
+[compaany]
+• Developed and implemented control signal transmission system over LTE mobile networks for multi-rotor UAVs
+• Created Software-in-the-Loop (SITL) simulation environment for fixed-wing UAVs
+• Designed and implemented a control system and monitoring application for air pressure receiving test complex
+• Implemented masked learning for fast scene adaptation
+PROJECTS
+AI-IMU++ 2025
+GitHub Link
+• Enhanced measurement models for improved inertial navigation using deep learning techniques
+• Integrated new measurement model inside existing version of filter
+• Trained neural net which corresponds to new measurement model
+Point Cloud Super Resolution 2025
+GitHub Link
+• Enhanced graph neural networks with attention transformer mechanisms for 3D point cloud processing
+• Trained generative adversarial network for better point cloud upscale resolution performance
+Reinforcement Learning for Robot Planning 2024
+GitHub Link
+• Developed custom Q-learning algorithm for robot path planning from scratch
+• Built simulation environment for training and evaluating reinforcement learning agents
+UAV Detector 2023
+GitHub Link
+• Led development of a computer vision-based UAV detection system
+• Implemented object detection models for real-time aerial vehicle identification
+UAV Simulator 2023
+PyPI Link
+• Developed a custom OpenAI Gym environment for UAV simulation with advanced control algorithms
+EDUCATION
+Data Science MSc 2024 – Present
+[compaany]
+• Focus on advanced machine learning and data science methodologies
+• Supervisor: [surname] [name]
+• Research Area: 3D gaussian splatting for scene reconstruction
+Bachelor of Applied Mathematics 2020 – 2024
+Moscow Aviation Institute (MAI)
+• Diploma Thesis: ”Deep Reinforcement Learning for Airplane Control”
+• Key coursework: Advanced Mathematics, Machine Learning, Control Systems
+TECHNICAL SKILLS
+• Deep Learning: PyTorch, Training Optimization
+• Computer Vision: 3D Reconstruction, Point Cloud Processing, OpenCV, NerfStudio
+• Reinforcement Learning: Q-Learning, Deep RL, Custom Environment Design
+• Programming: Python, C++
+• DevOps: Git, Docker
+• Mathematics: Linear Algebra, Calculus, Probability Theory, Optimization
+LANGUAGES
+• Russian (Native)
+• English (C1)
+• Spanish (B1)
+• German (A1)
+SPECIALIZED TRAINING
+• Introduction to Modern C++: Advanced features and best practices
+• Deep Learning School: Comprehensive training in DL and Computer Vision
+• Hugging Face Deep RL Course: Advanced reinforcement learning techniques
+2

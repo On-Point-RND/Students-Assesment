@@ -1,0 +1,106 @@
+[name]
++2 *** *** ***
+[location]
+PhD student of program "Geometry and Topology" of the
+[location]
+Faculty of Mechanics and Mathematics of [compaany]
+[email]
+[name]
+Current interests Languages and skills
+- K-theory in topologicaal insulators - English C1
+- Atiyah–Hirzebruch spectral sequences - Spanish A2
+- Hamiltonian truncation method - Programming languages: C, C++,
+- Applications of neural networks to theoretical physics Python
+Previous interests - Microsoft Office, LaTeX
+- MATLAB, Origin
+- Density Functional Theory
+- VASP
+- Ab initio calculation in quantum chemistry
+- Vesta, Chemcraft, Avogadro
+Would like to know
+- Zotero
+- Topologicaal Quantum Field Theory
+- Knot and braid theory
+- Algebraic topology
+WORK Laboratory Research Assistant, National [compaany] (MISiS)
+EXPERIENCE October 2021 - October 2022
+- DFT calculations
+- Ab initio calculations
+- Study of the mechanical properties of new materials
+- Construct of nanostructures
+Math Tutor, self-employed
+April 2022 - Present
+- Teach mathematics to students
+- Prepare students for final exams
+Assistant, Russian [compaany] (MIIT)
+September 2023 - Present
+- Hold practical classes in mathematical analysis, linear algebra,
+analytical geometry
+- Prepare students for exams, take exams
+Assistant, Bauman Moscow State Technical [compaany]
+September 2024 - Present
+- Hold practical classes in mathematical analysis, linear algebra,
+analytical geometry and differențial equations
+- Prepare students for exams, take exams
+RESEARCH [compaany] and St. Petersburg State [compaany]
+EXPERIENCE - Winter student schooL in mathematics and theoreticaL computer science | 29 January 2020 - 1 February 2020
+- Winter student schooL in mathematics and theoreticaL computer science | 29 January 2021 - 3 February 2021
+Hausdorff Center for Mathematics
+- OnLine Hausdorff SchooL 2021 "Diffusive-systems" | 12 - 15 April 2021
+- Summer SchooL: Polynomial Methods | 7 - 17 June 2021
+APNNS/IEEE-CIS Education Forum Series
+- Deep Learning and Artificial Intelligence Summer SchooL 2021 (DLAI5) | 6 - 10 May 2021
+Leonhard Euler International Mathematical InstiTute in St.
+Petersburg and St. Petersburg State [compaany]
+- International SchooL-conference in Algorithm, Combinatorics and Complexity | 24 - 28 May 2021
+Caucasus Mathematical Center, Adyghe State [compaany]
+- 4th SchooL in modern combinatorics and game theory | 6 - 11 July 2021
+- 5th SchooL in modern combinatorics and game theory | 8 - 14 July 2022
+National Research [compaany] Higher SchooL of Economics
+- International Fintech summer schooL | 19 - 22 July 2021
+- Moscow International SchooL of Physics 2024 | Poster presentation | 28 February - 6 March 2024
+InstiTute for TheoreticaL and Mathematical Physics, [compaany]
+- Winter schooL | 29 January - 6 February 2022
+CFPMST 2022
+- Conference | Poster presentation | 7 - 9 June 2022
+IX All-Russian Scientific Youth SchooL-conference "Chemistry, Physics,
+Biology: ways of integration"
+- Conference | Oral presentation | 20 - 22 April 2022
+St. Petersburg InstiTute of Nuclear Physics National Research Center "Kurchatov
+InstiTute"
+- 56th winter schooL | Oral presentation | 17 - 22 March 2024
+Branch of [compaany] “MSU Sarov”
+- XIV International SchooL Neutrino Physics and Astrophysics | 18-23 July 2022
+- I All-Russian SchooL of Elementary Particle Physics and CosmoLogy named after. V.A. Rubakova | 3 - 7 July 2023
+- II All-Russian SchooL of Elementary Particle Physics and CosmoLogy named after. V.A. Rubakova | 8 - 12 July 2024
+Petnica Summer InstiTute
+- Summer SchooL on High Energy Theory | Oral presentation | 1 - 10 August 2024
+VOLUNTEERING Physics and Mathematics schooL "Factorial"
+September 2021 - Present
+- Photographer and video maker
+InstiTute for TheoreticaL and Mathematical Physics, MSU
+May 2023 - Present
+- Edit video-courses about theoreticaL and mathematical physics
+EDUCATION [compaany] [compaany]
+Bachelor of Physics, 2017 - 2022 Master of Mathematics, 2022 - 2024
+GPA: 4.6/5.0 GPA: 4.6/5.0
+Supervisors: Dr. [surname], Supervisor: Dr. [surname]
+Dr. [surname]
+Thesis: “Analytical Study of Free Energy in Ising
+Thesis: “MechaniCal Properties of an Alumina- Field Theory in the Presence of a Magnetic Field”
+Matrix Composite Reinforced with Bilayer
+Diamond Ribbons (Diamane): An Ab Initio Study”
+[compaany] [compaany]
+PhD in Mathematics, 2024 - present Course “Neural networks and their
+GPA: -/5.0 (Program recently started) application
+Supervisor: Dr. [surname] in scienti fic research”, 2024 - present
+Prospective DisseRta tion Title: “Some Questions
+of K-Theory in TopologicaL Insulators”
+AWARDS [compaany]
+UniVersiade "Lomonosov" in Physics | wi nner | April 2022
+Bran ch of [compaany] "MSU Sarov"
+UniVersiade "Lomonosov" in Applied Mathematics and Info rmmatics | wi nner | April 2022
+InstiTute for TheoreticaL and Mathematical Physics, MSU
+Scholarship | wi nner | August 2022
+Non-commercial Fund for the Deve lopment of Science and Education "Intellect"
+Scholarship | wi nner | November 2024

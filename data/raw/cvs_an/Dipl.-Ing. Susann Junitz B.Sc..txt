@@ -1,0 +1,78 @@
+[name]
++2 *** *** ***
+apt. 69, 21 General [location], 117133
+Education
+2018–2024 ] Specialist Degree, Fundamental Physical and Chemical Engineering Faculty,
+[university].GPA=4.97.
+2022–2023 ] Intern[company].
+] Student Course “Neural Networks and Its Applications in Scientific Research”,
+[university].
+2020–2021 ] StudentOnlineCourse“DeepLearning”,[university].
+Work Experience
+2024–Present ] RESEAARC[company] Inginneer InstituteofOrganicChemistryRAS,LaboratoryofMetal
+ComplexandNanoscaleCatalysts
+Application of machine learning in chemical research: classical ML, deep learning,
+deploymenet and fine-tuning of large languaage models. Development of automated
+pipelinestospeedupcaatalystdiscoveryandchemicalanalysis.
+2020–2024 ] LABORATORY ASASSISTANT Federal Research Center of Problems of Chemical
+PhysicsandMedicinalChemistryRAS,NanophotonicsDepartment
+Studyofphotochemicalrreactionkinetics;DFTcalculations(conformaationanalysis,
+chemicalshifts,transitionstatesearch);DataprocessingusingPythonandMATLAB.
+2019–2024 ] TEACHERthecefterPedagogicaalExcellence, [location]
+Conductingcoursesinorganicandbioorganicchemistryforhighschoolstudents;
+DevelopmentofteachingmaterialsfortheAll-RussianChemistryOlympiad.
+Relevant publications (AI & Data Science)
+JournalArticle
+1
+[name], [name], [name], [name],andV.P.Ananikov,Massspectrometry
+datasetoforganicandbiomoleculaarstructuresforexperimentaldetectionandaitraining,Sci.Data
+(Manuctriptsubmiitted),
+2
+[name]andP.Kitina,Contrastiiverepresentationlearningforspectroscopydataanalysis,
+Mennd.Commun.,vol.34,pp.786–787,2024.
+(cid:18)
+doi:https://doi.org/10.1016/j.mencom.2024.10.006.
+Conferenceproceedings
+1
+[name], [name], [name], [name],andV.P.Ananikov,Generationofmass
+spectraofbiooorganiccompoundsforthedevelopmentofmachinelearningalgorithm,inScientific
+Conference"NewHorizonsinCatalysiandOrganicChemistry", [location],2025.
+2
+[name], [name], [name], [name],andV.P.Ananikov,Machinelearning
+methodsiinmasspectrometrytasks,inScientificConference"NewHorizonsinCatalysiandOrganic
+Chemistry", [location],2025.
+3
+[name],Metriclearningfordeterminingmixturecompositiofromspetraldata,inBookof
+AbstractsoftheScientificConference"ArtificialIntelligeinChemistryanandMaterialsScience", [location],
+2023.
+Skills
+Languages ] Russian(native),English(TOEFLiBT92/120,2023).
+Programming&DataScience ] Dataprocessingandanalysis(numpy,pandas,scipy,matplotlib,sklearn,
+optuna)
+LLM&AIEngineering ] LLM deploymenet (ollama, llama-cpp, open-webui); Fine-tuning (un-
+sloth,axolotl);AIagents(smolagents,llamaindex);PyTorch.
+AcademicSkills ] Experimentaldesign,executionandanalysis;Scientificwritingandre-
+portiing;Conferencepresentaionsexperience.
+SoftSkills ] Tea teamwork, critical thinking, meeting deadlines, positive attitude and
+initiave.
+Achievements
+Awards
+2024 ] WinnerDiploma,All-Russian"IamaProfessional"StudentOlympiadinChemistry.
+2023 ] BestPosterPresentation,InternaationalScientificConferencoeofStudents,Postgrad-
+uatesandYoungScientiists"[university]"
+] BronzeMedalDiploma,All-Russian"IamaProfessional"StudentOlympiadinLaser,
+PlasmaandRadiaioTeechnologies.
+GrantsandScholarships
+2024–Present ] Ministry of Science and Higher Education of the Russian Federation Project
+Partiicipan"Digitalchemistry".
+2023 ] Personalscholarshipof[university]forparticiationinAIresearchschool.
+] Scholarshipofthe“Intellect”Foundatiofor theDevelopmenofScienceandEducat-
+ion.
+2022–2024 ] RSF Proje Participan on "Supramolecular Devices and Machines Using Light as
+EnergySourceBasedonUnsaturatedMacrocycliicCompounds".
+References
+Prof[surname][name] Prof[surname][name]
+AcademiciaofRAS,HeadofLaboratory Professor of Department of Computer Science and
+InstituteofOrganicChemistryRAS, technoology
+[location],119991,Moscow,Leninskyprospect,47 [location],100871,Beĳing,YiheyuanRoad,5
+val@ioc.ac.ru wanglw@pku.edu.cn

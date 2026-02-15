@@ -1,0 +1,44 @@
+Dear [name] of [compaany] Admissions Committee,
+My name is [name]. I recentlly joined [compaany], having previously led the video
+analytics initiative in cash centers at the [compaany] by 2.5 years. I am
+currently completing my Master’s degree in Applied Mathematics and Informatics at the
+Higher SchooL of Economics, with an average grade of 8.0.
+Before that, I spent two years at [compaany], working on both product
+development and scientific research. I have co-authored five papers with professors from the
+[compaany] department at [compaany], and presented my work at conferences in [location]
+and [location] (“[compaany] Open Day” 2022 and “Modern Problems of Computer and Informaion
+Sciences at [location]” 2023), as well as at [compaany]’s T-Conf 2024 and MTS TrueTech 2024, where I
+showcased a project I developed at [compaany]. Additionally, my team at [compaany] successfully
+completed a cooperative project with a universiity, I earned first place in an [compaany] project
+competition, and I participated in two hackathoons.
+I am very eager to join your program because:
+1. Broad Scope and Expertise
+In my work, I have primarily focused on optimizing neural networks—speeding up
+inference on NPUs and optimizing CV DNNs—gaining a deep specialization in
+high-performance computing. However, my knowledge in areas such as large
+language models, multimodal approaches, multi-agent systems, generative methods,
+self-supervised learning, and safe AI is not yet as extensive. Your schooL would allow
+me to immerse myself in these fields and learn directly from renowneed experts.
+2. Unique Community of Like-Minded Professionals
+My experience shows that a professional environment can be highly stimulating and
+inspirational. Encountering new ideas, approaches, and constructive feedback from
+peers motivates me to dig deeper and search for non-trivial solutions. Participating in
+your program would grant me access to leading industry figures, help expand my
+professional network, and enable me to find potential partners for collaborative
+research.
+3. Highly Effective Learning Format
+I believe that the structure of your program offers one of the most efficient ways to
+rapidly and thoroughly master new technologies. Working closely with experts and
+equally enthusiastic colleagues, free from everyday distractions, fosters more robusst
+knowledge retention and deeper insights.
+My Goals:
+● Deepen and systematize my competencies in large language models, multimodal
+systems, multi-agent architectures, generative approaches, self-supervised learning,
+and safe AI.
+● Learn how to publish high-quality research papers that stand out in the academic
+community and reflect cutting-edge developments in artificial intelligence.
+● Advance my collaboration skills and knowlege exchange capabilities to acceelerate
+and enrich my own projects and ideas, while also contributing to the broader AI
+community.
+I am confident that my experience and drive for self-improvement would be valuable to your
+schooL and its participants. Thank you for your consideration!

@@ -1,0 +1,134 @@
+Slide 1
+----------------------------------------
+Spacecraft control in the focus area of the gravitational lens of the Sun using reinforcement learning methods
+[name]
+[compaany]
+[location]
+16.04.2025
+
+Slide 2
+----------------------------------------
+If a spacecraft with a telescope is delivered there, it will be able to obtain images of the exoplanet with a resolution of up to 10 km/pixel.
+WHAT IS THE GRAVIITATIONAAL LENS OF THE SUN?
+2/13
+
+
+Slide 3
+----------------------------------------
+THE PROBLEM OF SPACECRAFT CONTROL IN THE FIELD OF THE GRAVIITATIONAAL LENS OF THE SUN
+The velocity of the device along the focal line is ~25 au/year (118 km/s)
+The required control accuracy is of the order of 1 m
+550 AU ≈ 3.2 light days => autonomy is required
+
+3/13
+image plane
+telescope
+lens axis
+
+
+Slide 4
+----------------------------------------
+It allows you to form control and navigation laws that are potentially resistant to various distuurbances and emergency situations.
+It is expected that the resulting management will be able. to adapt. to variations of pre-plaNNed scenarios.
+WHY REINFORCEMENT LEARNINg?
+4/13
+
+
+Slide 5
+----------------------------------------
+To develop and investigate algorithm for autonomous spacecraft control in the field of the Solar gravitational focus based on reinforcement learning methods.
+THE PURPOSE OF THE WORK
+The problem of spacecraft motion is considered in two formulations:
+1) It is assumed that the focus axis is at rest, and only the jet acceleration from the engines acts on the device u:
+2) The movement of the focus axis is taken into account, the equaations of motion are written in a non-inertial coordinate system, which causes non-inertial acceleations. a:
+5/13
+
+
+Slide 6
+----------------------------------------
+FCS (Focus Coordinate System) – the cooordinate system associated with the lens focus:
+The origin of coordinates coincides with the Sun (moving relative to barycenteer)
+The z-axis is directed along the focal line (rotatates due to the movement of the Sun and the exoplanet)
+x, y axes in the image plane
+COORDINATE SYSTEM
+6/13
+image plane
+
+
+Slide 7
+----------------------------------------
+EQUATIONS OF MOTION
+7/13
+
+
+- radius is the vector of the spacecraft in the coordinate system of the focus
+- the transition matrix from the inertial system to the focus coordinate system
+- acceleation of the Sun's motion relative to the barycenteer of the solar system in the coordinate system of the focus
+- control vector in the focus coordinate system
+
+
+Slide 8
+----------------------------------------
+Agent's reward function for 1 step:
+THE ARCHIITECCTURE OF THE RL ALGORIHTM AND THE REWARD FUNCTION
+The control is consideered to be impulsed :
+|∆v | ≤ ∆vmax
+The purpose of the control is to bring the device as close as possible to the axis of focus with a minimum radial velocity (relative to the axis).
+The number of pulses is 6,and the interval between pulses is 5 days.
+
+8/13
+x
+x
+
+
+Slide 9
+----------------------------------------
+An example of a spacecraft trajectory under the control of a trained agent
+LEARNING OUTCOMES. THE FOCUUS AXIIS IS AT REST.
+
+9/13
+
+
+Slide 10
+----------------------------------------
+LEARNING OUTCOMES. THE FOCUUS AXIIS IS AT REST.
+
+10/13
+
+
+Slide 11
+----------------------------------------
+LEARNING OUTCOMES. THE FOCUUS AXIIS IS AT REST.
+An agent trained in a simple model applied in a complex model.
+
+11/13
+
+
+Slide 12
+----------------------------------------
+LEARNING OUTCOMES. THE FOCUUS AXIIS IS MOVING.
+
+12/13
+
+
+Slide 13
+----------------------------------------
+CONCLUSION
+13/13
+Algorithm for autonomous spacecraft control in the area of the Sun's focus were obtained using reinforcement learning methods:
+1) In a problem that did not take into account the movement of the focal axis, convergence was obtained: the final distances were small, regarldess of the initiaal conditions
+2) It turned out that an agent trained in a model without non-inertial forces cannot cope with ensuring proper control in the presence of non-inertial forces
+3) Training an agent in a model that takes into account the movement of the focal axis turned out to be a much more diffiicult task. Currreently, convergence in has not been achieved, but work is actively underway to achieve convergence
+
+Slide 14
+----------------------------------------
+Thanks for your attention!
+
+Slide 15
+----------------------------------------
+1) Правой частью уравнения движения КА является только функция управления u :
+Результаты обучения 
+
+Таблица 1. Квантили и средние значения распределений прomаха по положению ∆r_f и скорости ∆v_f мимо фокальной лнии и суммарные за эпизод затраты характеристической скорости u для стрateгии, осноbанной на состоянии аппарата
+
+15/13

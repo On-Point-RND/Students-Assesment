@@ -1,0 +1,207 @@
+travel time estimation with
+graphs, images and
+transformers
+[name]
+Data Scientiist, [compaany]
+structure
+1 introduction & problem statement:
+what & why we are doing
+baseline: other models for
+2
+the TTE task
+graph deep learning:
+3
+how it is done
+GCT-TTE: multimodal pipeline
+4
+for travel time estimation
+introduction
+who: [compaany] (Sber) who: [compaany] (Tsinghua)
+task: TTE for Omsk and Abaakan (in Khakassia)
+road network: vertices correpond to road segments, edges define
+connectivity between segments; vertex attributes include length, number of
+lane, presence of a pedestrian crossing, etc.
+trips: sequence of coordinates (after projection on the graph they become
+vertices) + features (weather, time, etc.) + target (ETA)
+33
+GCT-TTE (2024)
+paper link | GitHub
+2 modalities: graphs and
+images
+Deep Graph InfoMax for
+pretraining a graph
+encoder
+2 sequence encoders
+tested: (Bi)LSTM vs
+Transformer
+34
+GCT-TTE (2024)
+paper link | GitHub
+2 modalities: graphs and
+images
+Deep Graph InfoMax for
+pretraining a graph
+encoder
+2 sequence encoders
+tested: (Bi)LSTM vs
+Transformer
+35
+Deep Graph InfoMax (2018)
+- pretraining any message passing
+71
+GNN
+- trains GNN to distinguish between
+42
+embeddings of original vertices and
+modified ones
+- hyperparameters: corruption
+function, GNN hyperparameters
+7
+feature
+shuffle
+notation
+- row-wise shuffle
+36
+*
+7
+71
+*
+*
+*
+42
+Deep Graph InfoMax (2018)
+- pretraining any message passing
+71 4xN embeddings of original graph GNN
+- trains GNN to distinguish between
+42
+36
+embeddings of original vertices and
+modified ones
+- hyperparameters: corruption
+1xN function, GNN hyperparameters
+7
+feature aggregated
+shuffle graph vector
+notation
+- row-wise shuffle
+36 4xN
+* - readout function, returns
+7
+71
+*
+embeddings of
+corrupted
+graph
+4x1
+*
+42
+Deep Graph InfoMax (2018)
+- pretraining any message passing
+71 4xN embeddings of original graphs GNN
+4x1 - trains GNN to distinguish between
+42
+36
+embeddings of original vertices and
+modified ones
+- hyperparameters: corruption
+1xN function, GNN hyperparameters
+7
+feature aggregated
+shuffle graph vector
+notation
+- row-wise shuffle
+36 4xN
+* - readout function, returns
+7
+71
+* - discriminator function
+*
+embeddings of
+corrupted
+graph
+4x1
+*
+42
+probabilities
+GCT-TTE (2024)
+paper link | GitHub
+statistically significant (α = 0.05, 10 splits,
+Wilcoxo test) improvement in the main
+metrics relative to the baseline:
+-19% MAE, -34% RMSE for Omsk
+40
+GCT-TTE (2024)
+paper link | GitHub
+statistically significant (α = 0.05, 10 splits,
+Wilcoxo test) improvement in the main
+metrics relative to the baseline:
+-19% MAE, -34% RMSE for Omsk
+fun fact: the best result was achieved for the
+configuration using map patch embeddings with
+β = 0.1
+2nd modality emerged
+to be not useless
+41
+GCT-TTE (2024)
+paper link | GitHub
+statistically significant (α = 0.05, 10 splits,
+Wilcoxo test) improvement in the main
+metrics relative to the baseline:
+-5% MAE, -16% RMSE for Abaakan
+fun fact: the best result was achieved for the
+configuration using map patch embeddings with
+β = 0.1
+2nd modality emerged
+to be not useless
+42
+GCT-TTE (2024)
+160 140 180
+140
+120
+100
+100
+80
+60 60
+40
+20
+20
+43
+EA
+количество поездок количество поездок количество поездок
+0.04 0.1
+0.1
+0 5 10 15 20 25 30 MON TUE WED THU FRI SAT SUN 00:00 05:00 10:00 15:00 20:00
+day of a month day of a week hour
+- Q1 & Q3 - mean - median
+GCT-TTE (2024)
+paper link | GitHub
+94
+44
+EA
+93
+95
+93
+92
+93
+92
+91
+91
+90 91
+1 2 3 4 5 128 160 192 224 256 1 2 3 4 5
+number of graph hidden_size of number of transformer
+convolutions transformer encoder layers
+GCT-TTE (2024)
+paper link | GitHub
+result: new SOTA, [compaany] is happy, the article is published
+what’s next (data):
+1) add accident data + traffic flows
+2) use individual driving safety indicators
+what’s next (model):
+1) try other sequence encoders (e.g., STN)
+2) multitask learning - additional targets
+code of GCT-TTE and baselines is
+available here
+45
+[name]
+tg: @[username]
+Thx

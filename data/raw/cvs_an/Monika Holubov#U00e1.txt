@@ -1,0 +1,22 @@
+Education: Publications and patents:
+Bachelor in “Economics”, • [name] [surname], [name] [surname], [name] [surname]. Comparison of the
+[compaany], 2024 effectiveness of using different approaches in the task of detecting an
+GPA: 8.3 object inalow-qualiitymage//Scientific visualization. 2024. Vol. 16. No.
+3. pp. 1-13.
+• Patent: NeuroSkateNeural Network for recognizing the movements of
+Tooktheminor “IntellectualDataAnalysis” with
+[name] [surname] as lecturer
+Job experience:
+Sept 2024 — present time June 2024 — present time April 2023 — Feb 2025 April 2023 — Dec 2023
+[compaany] Laboratory code Center for cognitive International Laboratory of
+neuroscience, [location] Intangible-driven Economy
+Visitinglecturer ML-engineer Research assistant Research assistant
+Courses: Projects: Projects: Projects:
+• Microeconomics-2 • Pixel-by-pixel depth estimation, • Detection of stroke on MRI
+• Machine learning in Economics including the creation and (YOLOv8, custom U-Net), both • Theoreticalmodelingof
+and Finance modeling of a synthetic dataset 3D and 2D MRI tournaments
+• Document classification by • Identifying figure skating • Thistheoretical work won 2nd
+Average teaching score: 4.81/5 photo and text detection and elements on videos (YOLO + place in competition of scientific
+recognition (OCR) LSTM, Two-stream NN) research papers of students
+• Face recognition ([compaany], 2023)
+

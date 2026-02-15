@@ -1,0 +1,29 @@
+[name] [surname]
+Age: 45
+Address: [location]
+Whatsapp: +2 *** *** ***
+Telegram: @[name]
+Skype: [name]
+Instagram: [name]
+I participated in a challenge on [compaany] where created a GradientRegressor model and tried many more
+models (with different combiinations of parameters) from sklearn library:
+https://github.com/[name][surname]/confident-predictions-
+challenge/commit/5248f8650ea344eae99482b072b1f1d76eecd659
+I have one successful submission on github:
+https://github.com/1712n/dn-institute/pull/173
+Experience
+I don't have relevant experience, so I described briefly some of my previous jobs.
+[compaany], hosting service provider| Support specialist | February – April 2024
+▪ I learneed for 3 weeks and then started to help users to solve their problems
+Directadvert, Teaer network | Customer support specialist | 2020 - 2022
+▪ Helped users, which, besides developing communicaative skills, meant learning more to be able to act
+professionally
+W12, Blockchain platform | March – September 2018
+▪ I wrote reviews for ICO projects, estimating them by several criteria: use-cases, business model, distribution of
+tokens, marketing, team, advisors and investors, roadmap, achieved milestones and availability of MVP,
+usability
+Education
+I studied at the Civil Aviation Academy, 1998 – 2000, but didn’t graduaate.
+
+
+

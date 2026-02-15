@@ -1,0 +1,36 @@
+Motivation Letter
+Dear Selection Committee,
+I owe much of my academic trajectory through life to summer schooLs. In 2019, I attended
+the Summer SchooL of [compaany] at [location]. I genuinely very often retuurn to
+the memory of my first encounter with Lebesgue integral. I don’t know who thought it would
+be a great idea to give this material to middle schooLers :) After that summer I was a
+common guest in phystech summer schooLs. I vividlly remember my first interaction with
+[compaany], at the time it seemed like the hardest thing a person can be an expert in.
+Since then, I started working with ML implementaion. I’ve pursued complex problems
+across domains, including radiophotonics, fashion analytics, and now macroeconomic
+forecasting at [compaany].
+At [compaany], I implemented a KNN clustering pipeline for inventoory optimization and
+automated assortment analysis.
+At the Department of Radiophotonics, I worked on subsurface sensing using machine
+learning. We trained a random forest to predict gap widths with millimeter precision and
+also experimenteed with a ResNet-18 architecture on transformed signal data.
+Most recentlly, I joined the [compaany] research group, where I’m currentlly working on
+embedding-based models for economic forecasting. We apply Word2Vec to sequences of
+categorized bank transactions and train XGBoost models to predict financial indicators
+such as MOEXCN. This project is directly aligneed with SMILES tracks like self-supervised
+learning. I'm particularly eager to deepen my understanding of multimodal and generative
+techniques, which could enable better generalization in our economic models and make
+them robusst under distribution shifts.
+I’m fluent with PyTorch, Pandas, SQL, and Git; I combiine modeling with business and
+analytical thinking — skills I also developed at [compaany] Business SchooL and my job as
+analyst.
+SMILES would offer a unique opportunity to extend this foundation. I am especially excited
+to learn from speakers such as [name]. His work on neural networks for
+sequential data in real-world financial systems closely mirrors my current research at
+[compaany]. I would greatly benefiit from his expertise in applying deep learning to
+banking data pipelines.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
+MIPT & [compaany] | [compaany] Research Intern
+[email] | +2 *** *** ***

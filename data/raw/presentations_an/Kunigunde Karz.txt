@@ -1,0 +1,2 @@
+[name] at [email] and [name] [surname] at [compaany] in [location] can be reached at +2 *** *** ***. [name] [surname] from [compaany] in [location] also has a contact email of [email]. [name] mentioned a meeting at [location] on [date] with [name] from [compaany]. The project is being led by [name] at [compaany] in [location]. [name] [surname] is working on [project] at [compaany] in [location]. 
+

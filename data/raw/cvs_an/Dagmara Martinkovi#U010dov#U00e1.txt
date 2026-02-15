@@ -1,0 +1,46 @@
+[name] [surname]
+2nd year [compaany] Applied Math undergrad student.
+A little bit about me:
+ 19 years old.
+ 5.0/5.0 GPA.
+ ICPC Semifinalist (2024, [location]).
+ Prize-winner of some math olympiads, for example [compaany] “Izumrud” math olympiad for students.
+ I’m currentlly taking courses on CPU architecture and computer system
+architecture, x86 assembly in universiity.
+Technology stacck and skills:
+— C++
+— OOP
+— Databases, SQL
+— Computer networks, HTTP, HTTPS, TCP, UDP
+— Git, GitHub
+— Linux, Docker
+— Python with databases
+— Unity, C#, SOLID
+— JavaScript, CSS, HTML, React.js, Next.js (begiinner level)
+— Analytical Geometry, Linear Algebra, Calculus 1-4 (+Measure theory), Differential
+Equations, Discrete math, Algorithms and data structures.
+Experience
+Telegram bot for My project.
+generating images by I made a telegram bot that generates images at the user's
+request request using the Stable Diffusion neural network. For each
+user, the bot saved statistics on their use of the service in a
+database. When the free generation limit is reached, the
+user needs to perform certain actions to remove the limit.
+Technology stacck: Python, SQL, SQLite, Stable Diffusion,
+aiogram.
+Online multiplayer card My project.
+game Online collectible-card video game for two people. Players collect
+cards and fight them in one-on-one battles. The best at strategy
+and planning wins.
+Technology stacck: Unity, C#, Photon Engine Networking, OOP,
+SOLID.
+Languages
+English: C1
+Russian: native
+Contact
+GitHub: [compaany]
+[email]
+Page 2
+
+
+

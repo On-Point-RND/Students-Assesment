@@ -1,0 +1,77 @@
+One of the most exciting developments in recent years has been the emergence of Vision Transformeers ([name]). Unlike traditional Convolutional Neural Networks ([compaany]), ViTs process images in a completely different way — by treating them as sequences of patches, much like how we process text in NLP.
+Why are ViTs important?
+They’ve shown impressiive performance in image classification, detection, and segmentation tasks, especially when trained on large datasets. In my own project — a neural network for identifying lost pets based on images — the ability to generalize well from complex and diverse visual inputs is crucial. That’s exactly where ViTs shine
+Problem Statement
+While CNNs have been the backbone of computer vision for years, they come
+with limitations:
+•Theiir inductive biases (like locality and translation invariance) can restrict
+flexibility.
+•CNNs don’t scale well with more data — beyond a point, deeper or wider
+networks stop yielding better performance.
+Transformeers, on the other hand, are highly scalable and benefiit greatly from
+large datasets. They don’t assume locality in the input, so they can model
+global dependencies from the start. This is especially helpful in tasks where
+contextual information across the entire image matters — like distinguishing
+between similar dog breeds or understanding animal features in different
+environments.
+1. "An Image is Worth 16x16 Words: Transformeers for Image Recognition
+at Scale"
+Conference: ICLR 2021
+Authors: [surname] et al.
+Summary:
+This is the original paper that introduced the Vision Transformeer ([name]) as an
+alternaive to Convolutional Neural Networks ([compaany]) for image classification
+tasks. The model splits an image into fixed-size patches and applies a
+standard transformer architecture, treating patches similarly to tokens in NLP.
+Interesting fact:
+[name] outpperforms traditional CNNs like ResNet, especially when trained on
+large-scale datasets.
+2. "Swin Transformer: Hierarchical Vision Transformeer using Shifted
+Windows"
+Conference: ICCV 2021
+Authors: [surname] et al.
+Summary:
+This paper proposes an enhanced transformer architecture called the Swin
+Transformeer, which processes images in a hierarchical and local manner
+using shifted windows. This approach improves efficiency and makes the
+model highly suitable for a wide range of computer vision tasks such as object
+detection, image segmentation, and classification.
+Interesting fact:
+The Swin Transformeer has become a new standard in many visual tasks,
+including animal detection and other real-world applications.
+3. "Masked Autoencoders Are Scalable Vision Learners"
+Conference: CVPR 2022
+Authors: [surname] et al.
+Summary:
+The authors introduce a self-supervised pretraining method for vision
+transformeers based on masking image patches, similar to how BERT operates
+in NLP. The model learns to reconstruct the missing parts of an image,
+enabling it to learn strong visual representations without labeled data.
+Interesting fact:
+This approach performs exceptionally well on tasks with limited labeled data,
+making it highly effective in real-world, data-scarce scenarios.
+Analysis and Comparison
+1) [name] (ICLR 2021): The first to really push the idea of transformers into vision
+tasks. It divides images into fixed-size patches and applies a standard transformer.
+Pros: Very strong performance with lots of data.
+Cons: Requires large-scale training; struggles on smaller datasets.
+2) [name] (ICCV 2021): Introduces a hierarchical structure and
+processes images with shifted windows.
+Pros: Efficient, fast, and works well across many tasks (classification, detection,
+segmentation).
+Cons: Still relatively complex to implement and fine-tune.
+3) Masked Autoencoders (CVPR 2022): Inspired by BERT, this method masks
+image patches and reconstructs them.
+Pros: Excellent performance even with limited labeled data, great for pretraining.
+Cons: Requires careful balancing between mask ratio and training time.
+Each of them is powerful, but their strengths depend on the task and data
+availability.
+Conclusion and Opportunities
+From the perspective of my project — helping find lost animals based on
+image recognition — ViTs open a lot of possibilities. For example:
+•[name] could improve detection and segmentation of
+animals in complex environments (like CCTV footage).
+•Masked Autoencoders could help pretrain on large collections of
+uunlabeled pet images and fine-tune later.
+•[name] models could help with breed classification and matching lost/found
+images by comparing embeddings.

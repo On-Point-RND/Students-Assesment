@@ -1,0 +1,78 @@
+[name] [surname]
+Contact information:
+Phone: +2 *** *** ***
+Email address: [email]
+Personal Informaion
+Citizenship: [location]
+Place of residence: [location]
+Date of birth: May 10, 2003
+Gender: Female
+Work experience
+Period of operation: 25.11.24 – present
+Position: engineer
+Structural division: Laboratory of Machine Learning in Geosciences
+Organization: [compaany]
+The Laboratory of Machine Learning in Earth Sciences develops and applies modern machine
+learning methods and neural networks for data analysis in geophysics, oceanology, marine geology and
+biology, meteorology and climatology.
+As part of my work in the laboratory, I participated in a project to restore historical data on the
+relative humidity of the atmosphere above the ocean, a key parameter influencing climate formation.
+I used classical machine learning models (linear regression, decision tree, random forest, gradient
+boosting) and a fully connected neural network (multilayer perceptron) to restore relative humidity based
+on accompanyiing meteorological measurements. I used clustering algorithms (K-Means, DBSCAN,
+hierarchical clustering) to identify and then analyze regions of the world's oceans characterized by
+minimal variance in meteorological parameters.
+I have developed a methodology to account for spatial and seasonal variability in humidity, which
+has allowed us to create higher-quality models for data recovery.
+I conducted a comprehensive assessment of the quality of the developed models, including an
+analysis of the uncertainty of the quality measure and the target variable using the Bootstrap approach.
+I investigated spatial patterns in model errors, which allowed us to identify the reason for the poor
+quality of models in some regions of the world ocean.
+Based on the results of my work, I wrote an article that was accepted for publication in the
+scientific journal «Oceanological Research».
+I have presented the results of my work at conferences on machine learning, meteorology, and
+climate, including:
+• " [location] in the United Nations Decade of Ocean Sciences. Resources and Knowledge" (November,
+2024)
+• "67th All-Russian Scientific Conference of [compaany]" (April, 2025)
+• "Lomonosov-2025" (April, 2025)
+Skills
+1) Programming languages:
+ Python: strong command (experience in developing and applying scripts for data analysis,
+machine learning, and neural networks).
+2) Mathematical analysis and statistics:
+ Knowledge of basic mathematical analysis, linear algebra, and probability theory.
+3) Data analysis and processing:
+ Exploration Data analysis (EDA).
+ Data preprocessing for further application of machine learning models and neural networks.
+4) Machine learning and neural networks:
+ Classical machine learning algorithms: experience in applying and understanding the
+principles of linear regression, logistic regression, decision trees, random forest, gradient
+boosting (CatBoost, XGBoost, LightGBM), support vector machine (SVM), k-nearest
+neighbor method (KNN), and naive Bayes classifier.
+ Clustering algorithms: how to apply and understand the principles of K-Means,
+DBSCAN, and hierarchical clustering.
+ Neural networks: knowledge of the working direction of fully connected, transformative
+(CNN) and recurrent (RNN, LSTM) neural networks.
+5) Other:
+ Working with scientific literature: experience in searching, analyzing and systematizing
+scientific literature, preparing reviews and writing scientific articles.
+ Public speaking: experience in presenting research results at scientific conferences.
+Education
+Educational institution: [compaany]
+Year of graduaation: 2025 (Bachelor's degree)
+Faculty: Phystech-SchooL of Aerospace Technologies
+Specialty: Applied mathematics and physics
+Form of study: full-time
+Additional courses
+Course Title: Advanced Machine Learning Techniques
+Educational Institution: [compaany],
+Digital Department
+End Date: 2024
+Duration: 9 months
+As part of the professional retraining course, a project was implemented to develop a model for
+predicting the average monthly income of an individual based on machine learning methods.
+In the course of the work, models were trained and tested that allow not only to predict the level
+of income using various factors, but also to identify key factors that have the greatest impact on the
+formation of wages.
+The project results were successfully presented and defendeed at the final certification.

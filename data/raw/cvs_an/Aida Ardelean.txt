@@ -1,0 +1,109 @@
+[name] [surname]
+[location]
+[email]
++2 *** *** ***
+
+I am a 1st year Master's September 2020 - July 2024 - [location]
+Chemical technology
+student in Chemistry and Professional Program
+Department of Chemistry and
+Artificial Intelligence, "Molecular Modeling and
+Technology of Biologically Quantum Chemistry in the
+looking for opportunities
+Active Compounds, Medical Design of targeted
+to apply my skills and
+and Organic Chemistry named pharmacologically active
+new challenges to improve
+them.
+- Internship at the [company]
+Date of Birth: [location]
+03.05.2002
+Informaation Chemistry Center
+Chemistry and AI
+CONTACT - "Python Generation": a
+Mega-Faculty of Life
+course for begiinners
+INFORMATION Sciences
+- Digital analysis of
+Phone number: +2 *** *** ***
+medical data of the DPO
+e-mail: [email]
+- Predictive modeling for
+- [location]
+ADME/Tox, QED, and binding
+Professional Program
+affinity (AutoDock
+ACHIEVEMENTS “Creation of original
+Vina/Hex).
+medicines based on small
+- Prize-winner of the Hackathon
+“Neftekod” molecules”
+using FREED++ and diffusion
+- Finalist of the case - Advanced training at NSU
+championship “BioMedTech” in
+the track “AI in clinical - Chemical data and Bioinformatics”
+trials” preprocessing, feature
+- Invited expert at the LANGUAGES
+engineering, batch
+Hackathon PROSTO x Sber x [company]
+optiomization. - ENGLISH (C1 - ADVANCED)
+- Finalist of the NTO “Genomic
+- GERMAN (A1 - BEGINNER)
+editing”
+- 8th place Hackathon ADMET Scikit-learn; data analysis
+- 10th place AI Global with Pandas/NumPy space
+Challenge visualization
+- Invitation to an internship
+(Matplotlib/Seaborn).
+at [compaany]
+- PubMed/DrugBank mining
+- All-Russian conference of
+(BERT, TF-IDF); SQL/NoSQL
+young scientists-chemists
+for ProteinData
+- April 19-22, 2022 Intern at
+JSC "[compaany]" Bank/UniProt.
++2 *** *** *** Vendilo [name] - Scalable ML model
+deployment on AWS/GCP.
+[name] [surname]
+[location]
+[email]
+EXPERIENCE
+September 2022 - May 2024
+BRIEF INFORMATION
+Research work at the Department of Chemistry and
+I am a 1st year Master's
+Technology of Biologically Active Compounds, Medical
+student in Chemistry and
+and Organic Chemistry named after N.A. Preobrazhensky.
+Artificial Intelligence,
+looking for opportunities
+to apply my skills and
+new challenges to improve
+them.
+Excellent grade.
+February 2023 - February 2023
+Research work at the [compaany] Infochemistry Research and
+Education Center. Thesis topic: "Modeling of gamma-
+aminobutyric acid derivatives for the treatment of
+neurotic disorders"
+Excellent grade.
+August 2024 - present
+Work as a chemoinformatician at the [compaany],
+industrial project “New architecture of the generative
+neural network”
+VOLUNTEEER EXPERIENCE
+HIV/AIDS Center Volunteer at Ligovsky 50D, [location]
+Supported awareness campaigns, conducting biochemical analyses and community outreach
+programs.
+Eco-Volunteer
+[location] | Aug 2022
+Assissted in conservation efforts and sustainable management of protected natural areas.
+Arkhipovo-Osipovka, [location] | Aug 2023
+Contributed to environmental initiatives and community engagement projects.
+Blood Donor
+Regular donor at local blooed centers
+Student Scientific Society
+Writing motivational letters
+AI applications in research
+Universiity admissions strategies

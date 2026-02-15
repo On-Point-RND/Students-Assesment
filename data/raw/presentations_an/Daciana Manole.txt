@@ -1,0 +1,157 @@
+Slide 1
+----------------------------------------
+[name]
+Lead Specialist in the AI Development Directorate, [compaany] 
+July 1, 2024 – Present
+Student, [location] 
+Specialization: Fundamental Mathematics and Mechanics
+Expected Graduation: 2027
+https://github.com/[name]/SMILES
+
+Reproducing CSDI: Conditional Score-based Diffusion Models
+
+Slide 2
+----------------------------------------
+Introduction
+
+What is the topic? 
+	Reproducing CSDI for Time Series Imputaion
+
+Why is it important? 
+	Missing data hinder analysis
+	Imputaion = restoring the picture of the world
+
+Goal of the review
+	To reproduce CSDI’s results by training the model and evaluating the outcomes
+	To observe the model's behavior under different conditions to see how it adapts and what conclusions can be drawn from these variations
+
+"Can diffusion models handle this?"
+A fresh bag of chips:
+A fresh bag of chips: 
+
+
+
+Slide 3
+----------------------------------------
+Problem statement
+
+What exactly are we solving? 
+	Imputaion of missing values with uncertainty estimates (estimating the conditional distribution of missing values)
+Challenges 
+	Non-random missing data (where patterns need to be identified rather than just random noise)
+	Temporal and feature correlations (relationships across time steps and between features that must be modelled to produce accurate imputaions)
+Scope
+	Reproduction, adaptation, and analysis
+
+Slide 4
+----------------------------------------
+Methods
+
+Approach: 
+Conditional Score-based Diffusion Model
+Why these methods? 
+What looks like a black square may actually contain the whole world — if you know how to decode it.
+
+Classic methods say: “There’s nothing here.” CSDI whispers: “There’s  everything  — just well hidden.”
+
+
+
+Slide 5
+----------------------------------------
+How it works 
+
+Diffusion probabilistic models are latent variable models that are composed of two processes: the forward process and the reverse process.
+The forward process is defined by the following Markov chain:
+
+Sampling of x has the closed-form written as 
+
+where betta is a small positive constant that represents a noise level
+where
+
+ Then, x can be expressed as 
+
+The reverse process denoisext to recover x0, and is defined by the following Markov chain:
+
+Let’s consider the following parameterization:
+
+where       is a trainable denoising function
+
+
+
+Slide 6
+----------------------------------------
+How it works 
+
+Now let’s consider the training procedure: 
+
+During training, a random image from the batch is selected, and a mask is applied to chooose the portion to be noised. The model receives the unmasked part of the image as context and the noisy masked part separately. The model predicts the noise added, which is then compared with the true noise for loss calculation, allowing the model to learn to denoise the image. See the image below for a detailed explanation of the process.
+
+Slide 7
+----------------------------------------
+Data & preprocessing:
+
+Datasets
+[location] 2012 (Healthcare): 4000 ICU time series (35 clinical variables recorded hourly over 48 hours), ~80% missing values.
+[location] Air Quality: Hourly PM2.5 data from 36 stations over 12 months, ~13% missing values.
+
+Preprocessing
+Converted to fixed-length sequences (48 steps for healthcare / 36 for air quality).
+Applied z-score normalization (subtract mean, divide by standard deviation).
+Created missingness masks (1 = observed, 0 = missing).
+Stratified split into train / validation / test sets:
+Healthcare: random masking of target values.
+Air Quality: mixed strategy (random + history-based masking).
+
+Additional Notes
+Up to 90% of observed values hidden during testing (used as pseudo ground truth).
+All experiments repeated 5 times for statistical reliability.
+
+
+
+Slide 8
+----------------------------------------
+Results
+
+✅ Table: 
+Shows key metrics (RMSE, MAE, CRPS) for both datasets at different missing rates. 
+→ Lower values mean better performa performance.
+✅ Charts:
+ICU samples: demonstrate model confidence and accuracy across 10%, 50%, and 90% missing data. The blue dots represent the values we want to predict, while the green line shows the predictions made by the model.
+
+
+
+Slide 9
+----------------------------------------
+Research Gap & Limitations
+
+Research Gap & Limitations:
+Experimenting with Noise Schedules: I reproduced results by testing different noise schedules (cosine, linear, and quadratic). The quadratic noise schedule provided the best results.
+Noise Steps Optimization: I also experimente with the number of noise steps, where an optiimal configuration was found for better performa performance = 50, as was stated.
+
+Why It Matters
+I experimented with different configurations and found the optimal solutions, which were exactlly those proposed in the GitHub (https://github.com/[name]/SMILES) article. This led to stable model performa performance, demonstrating its reliability for handling missing data.
+
+Future Opportunities:
+Explore CSDI as imputaion technique on the other modalities
+
+
+
+Slide 10
+----------------------------------------
+J. Yoon, D. Jarrett, M. van der Schaar. 
+CSDI: Conditional Score-Based Diffusion Models for Imputaion. 
+NeurIPS, 2021 (Spotlight).
+Y. Tashiro, J. Cao, D. Ermon. 
+CSDI++: Imputaion with Conditional Score-based Diffusion Models. 
+arXiv preprint arXiv:2305.14079, 2023.
+J. Cao, Y. Tashiro, D. Ermon. 
+BRITS++: Improved Diffusion Models for Time-Series Imputaion. 
+arXiv preprint arXiv:2310.01840, 2023.
+J. Song, Y. Sohl-Dicksteiin, D. Ermon. 
+Score-Based Generative Modeling through Stochastic Differential Equations. 
+ICLR, 2021.
+S. Hoogeboom, D. Watson, T. Salimans, M. Welling. 
+Gaussian Mixture Diffusion for Generative Time Series Imputaion. 
+ICLR, 2023.
+
+Bibliography

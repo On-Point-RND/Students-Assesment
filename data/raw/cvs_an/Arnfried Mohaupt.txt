@@ -1,0 +1,54 @@
+[name] +2 *** *** *** ⋄ [location]
+[email] ⋄ LinkedIn ⋄ GitHub
+EXPERIENCE
+Junior ML engineer August 2023 - Present
+[compaany], [location]
+• designedandimplementedacustomSupervisedLearningpipelinebasedonSimClrandCurriculumLearning to model Petroleum material
+• designed and implemented a defect detection algorithm combining Classical CV and algorithmic approaches;
+final solution reduced the error rate by 10 %.
+Research Assistant January 2024 - December 2024
+IU Machine Learning Lab, [location]
+• assembledapipelinetoempiricallystudythetransferabilityofConceptBottleneckModelsunderthesupervisionof Professor [surname] [surname]
+• The Head Author of the ”On the Features Transferability of Concept Bottleneck Models” paper; under review
+for Q1 Journal: AI open
+Backend Development Intern October 2021 - December 2021
+[compaany], Remote
+• Analyzed similar systems of competitors nationally and internationally and translated the stakeholders’ suggestions into technical requirements.
+• implemented the basic features of the coupon system: different coupon types, and validity conditions, and integrated my code into the codebase. Kotlin, MongoDB, version control
+Coach of the National IMO team July 2021
+Tunisian Association of Mathematical Culture and Competitions, [location]
+• Prepared curated lists of Geometry and Number Theory practice problems
+• Prepared, supervised, and graded practice tests
+Member of the Problem Committee May 2021
+Pan African Mathematical Olympiad, [location]
+• Graded participants’ solutions and conducted coordination meetings with team leaders
+EDUCATION
+Bachelor of Computer Science, [university] September 2020 - August 2024
+• Full scholarship awarded with a monthly allowance.
+• Graduate with Honors; Grade Point Average 4.9 out of 5
+• Research Internship AI for Social and Moral Good, under the supervision of Professor [surname] [surname] June 2022
+• Courses: Practical Deep Learning, Optimization, Natural Inspired Computing, Data Mining, Intro To Big Data,
+Natural Language Processing, Linear Algebra, Differential Equations
+PROJECTS
+LALibraryaCustomLinearAlgebrawherethefundamentalmaxtrixalgorithmsanddecompositionsareimplementedfrom scratch: Java
+Accompaniment generator a library that generates musical chords for a given Midi file using a customized version
+of the Genetic Algorithm: Java
+DE solver Building a computational tool to numerically solve a first-order differential equation and compare it with
+its analytical solution through a GUI: Java, JavaFx Library
+Models Building Machine Learning models from scratch using the Octave language: Linear / Logistic Regression,
+Polynomial Regression, SVMs, K-means clustering, Collaborative Filter Recommender systems.
+See-and-tell: Building a character detection system based on face recognition, person detection, and tracking
+algorithms, implementing scene classification functionality in an AI-powered virtual assistant
+ADDITIONAL EXPERIENCE AND REWARDS
+winner of the 6-th position on one of the top Russian hackathons: Leaders of Digital Transformation June 2023
+winner of the high-quality award in the Data Science IT Cup April 2023
+winner of the 8-th position in one of the top Russian Hackathons: Leaders of Digital Transformation November 2022
+Honorable Mention in the International Mathematical Olympiad: two points apart from a bronze medal July 2019
+Silver medal in the Pan African Mathematical Olympiad April 2019
+bronze medal in the first edition of the Arabian Mathematical Olympiad November 2018
+Honorable mention in the International Mathematical Olympiad July 2018
+Silver medal in the Pan African Mathematical Olympiad June 2018
+7th position in the international competition of mathematics games August 2016
+LANGUAGES AND TECHNOLOGIES
+Arabic; native, English: fluent, French; working proficiency
+Python, Pytorch, OpenCV, SQL, MongoDB, ,C++, Java, Spring Boot, git, Github, HTML, CSS, JavaScript

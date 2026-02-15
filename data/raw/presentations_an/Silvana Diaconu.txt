@@ -1,0 +1,116 @@
+Automatic Text Simplification for
+Physics Education:
+Neural vs Rule-Based Approaches
+[name]
+Student, [location]
+Introduction
+What is the topic?
+Optimizing automated text compression for STEM education by balancing:
+• Terminological precision (e.g. [crystal lattice])
+• Pedagogical clarity (grade-appropriate readability)
+Why is it important?
+68 % of educators report students struggle with textbook complexity ([organization], 2022).
+Hybrid approaches could personalize learning materials.
+Goaal of the review
+Compaare neural (FRED-T5) and rule-based (spaCy) methods for physics concept preservation.
+Literature Review
+Voronov M. V., Pimenov V. I. Formalization of Regulatory Texts
+This work formalizes regulatory texts into semantic graphs by leveraging their structured logic and domain terms, achieving 92 % content
+preservation. The algo­rithm models causal relationships between key concepts, enabling machine interpretation for compliance tasks. Unlike
+general NLP, it exploits regulatory documents' inherent action-sequence clarity.
+Suter J., Ebling S., Volk M. Rule-based Automatic Text Simplification for German
+This paper presents a rule-based German text simplification system that achieves human-compa­rable readability for acces­sibility contexts. The
+method enables scalable processing while maintaining output quality.
+Bridging Physics Education’s
+Complexity Gap
+What are we solving?
+Challenge Educational Impaact Technical Hurdle
+Mislearning core NER fails on compound
+Automated simplification of physics texts while: Term Preservation
+concepts terms
+• Retaining e.g. [electromagnetic waves] Logical Flow Broken cause-effect Seq2seq models
+Maintenance chains oversiimplify
+• Adapting complexity to grade level
+No unive­rsal complexity
+Readability Control Texts still too complex
+metric
+• Preserving causal relationships (e.g. «напряжение → ток»)
+Scope
+Languages: Russian (high-resource model + low-resource domain)
+✓
+Content: 7th–9th grade physics (mechanics, thermodynamics, electromagnetism)
+✓
+Excluded: Mathematical derivations (require symbolic reasoning)
+✗
+Data & Preprocessing
+Sources
+100 physics paragraphs ([name]’s textbooks for 8th schoo­l year + FIPI exams)
+Preprocessing
+• Manually annotated [terms] (e.g. [crystal lattice])
+• Train/Test split (80/20) with teacher-verified simplifications
+Key Adaptation
+Added prompt “Simplify keeping [terms]”: to all training examples
+Hybrid Approach for Concept-Aware
+Simplification
+Approach
+Neural Model. Fine-tuned FRED-T5-large (Russian-optimized transformer)
+Rule-Based. spaCy with:
+• Custom PhraseMatcher for [key terms]
+• Syntax rules for sentence compression
+Educational Need
+Model Strength
+Addressed
+Context-aware Readability for
+FRED-T5
+paraphrasing younger students
+Guaranteed term Exam preparation
+spaCy
+preservation accuracy
+How it works
+FRED-T5 rewrites like a tutor simplifying concepts, while spaCy works as a highlighter preserving exact terms
+Quantifying the Tradeoff:
+Precision vs Readability
+FRED-T5 achieved
+82 % term preservation (TPR)
+4.1/5 teacher-rated readability
+12 % factual errors in causal relationships
+spaCy delivered
+96 % term preservation (TPR)
+2.8/5 readability
+Zero factual errors
+Metric Why It Counts Tool Used
+Ensures [key
+Term Preservation
+concepts]] remain Exact string match
+Rate (TPR)
+intact
+Measures fluency vs
+BLEU-4 SacreBLEU
+refe­rence texts
+Hybrid Approach (T5 + rules)
+Teacher Evaluation Real-world usability 5-point ru­bric 91 % TPR and 3.9/5 readability
+Research gap
+Approach Critical Gaps
+Fails on nested terms (e.g. «[удельная теплота парообрazоvаniя]»)
+Neural (T5)
+Hallucinates relationships («напряжение → темпeратура»)
+Cannot generalize to unseen term patterns
+Rule-Based
+Brittle to syntactic variations
+Next Steps
+• Integrate equation parsers (SymPy/LaTeX-aware preprocessing)
+• Develop educational benchmarks with term preservation metrics
+• Teacher-in-the-loop interfaces for rule refi­nement
+Application
+• For teachers: > 35 % of automated simplifications require manual fixes ([organization], 2023)
+• For students: Incorrect term substi­tution correlates with > 20 % lower test scores ([organization], 2022)
+Bibliography
+1. [name] I. M., [name] A. I. Physics. 8th Grade. Basic Level: Textbook. [location], 2023. 255 p.
+2. Education at a Glance 2023: [organization] Indicators. [organization] Publi­shing, 2023. 476 p. Available from: https://www.oecd.org/en/publications/education-at-a-
+glance-2023_e13bef63-en.html.
+3. [name] J., [name] L. Term Preservation in Automated Text Simplification for STEM Education. Journal of STEM Education. 2022. Vol. 45, No. 3.
+Pp. 112–130.
+4. Voronov M. V., Pimenov V. I. Formalization of Regulatory Texts. Informatics and Automation. 2021. Vol. 20, No. 3. Pp. 562–590.
+5. [name] J., [name] S., [name] M. Rule-based Automatic Text Simplification for German. Proceedinings of the 13th Confe­rence on Natural Lan­guage
+Processing (KONVENS). 2016. Available from: https://www.researc­hgate.net/publication/318267954_Rule-
+based_Automatic_Text_Simplification_for_German.

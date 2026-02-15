@@ -1,0 +1,52 @@
+[name] [surname]
+JuniorResearchFellow, [compaany] ([location]) | [email]
+https://orcid.org/0009-0007-2469-3584 | github.com/[username]
+Education
+• Candidate of Sciences (in progress), [compaany], [location]
+—Thesis: “Development of an Algorithm for Detecting Volcanic Ionospheric Disturbances Using Machine Learning Methods and GNSS Data”
+—Expected completion: 2025
+• M.Sc. in Applied Mathematics and Informatics, Far Eastern State Transport University, 2020
+—Master’s Thesis: “The Solution of Variational Inequalities in Mechanics with Friction”
+• B.Sc. in Applied Mathematics and Informatics, Far Eastern State Transport University, 2017
+—Bachelor’s Thesis: “A Mathematical Model of Groundwater Levels in an Isotropic Medium”
+Research Interests
+• Applied Machine Learning for ionospheric modeling
+• Timeseries classification and anomaly detection
+• Graph neural networks and physics-informed ML
+• Probabilistic models and generative approaches in ML
+Research Experience
+JuniorResearchFellow, [compaany] – [location] September 2020–present
+• Developed ML-based classification pipeline for TEC ionospheric time series
+• Applied gradient boosting and neural network models for volcanic ionospheric disturbances detection
+• Worked with limited and noisy datasets; focused on practical deployment and operational applicability
+• Currently exploring the potential of Graph Neural Networks (GNNs) and Physics-Informed Neural Networks (PINNs) for hybrid modeling of the ionospheric Total Electron Content (TEC)
+Publications
+Comparison of ML and DL Methods in the Problem of Classifying TEC Waveforms (WORSCI) 2025
+[name].[surname].
+10.14357/20718632250103
+Detecting volcanic ionospheric disturbances using GNSS data and a machine learning algorithm (Q1)
+[name].[surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname]
+10.1016/j.asr.2024.10.030
+Application of machine learning methods for detection of volcanic ionospheric disturbances by GNSS observation data (Q3)
+[name].[surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname]
+10.21046/2070-7401-2023-20-1-37-54
+Ionospheric Disturbances over Primorsky Krai Caused by the Eruption of the Hunga Tonga–Hunga Ha’apai Volcano on January 15, 2022 (Q2)
+Bolsunovskii M.A., [name] [surname], [name] [surname], [name] [surname], [name].[surname]
+10.5800/GT-2024-15-1-0738
+Selected Conference Presentations
+Application of Discrete Wavelet Transform-Based Features for Training Machine Learning Models in the Task of Classifying Cosmic Ionospheric Disturbances.
+The 22nd International Conference “Current Problems in Remote Sensing of the Earth from Space”, Moscow, November 11-15, 2024. (Presented as a contributed or oral talk).
+[name].[surname], [name] [surname], [name] [surname]
+10.21046/22DZZconf-2024a
+Development and Investigation of Algorithms for Detecting Cosmic Ionospheric Disturbances.
+5th All-Russian Scientific Conference with International Participation, Yuzhno-Sakhalinsk, May 27–31, 2024. (Presented as a contributed or oral talk).
+[name].[surname], [name] [surname], [name] [surname]
+10.30730/978-5-6044483-5-9.2024-8
+Comparative Analysis of Machine Learning and Deep Learning Methods for the Classification of Total Electron Content Waveforms.
+8th International Conference on Deep Learning in Computational Physics (DLCP-2024), June 19–21, 2024, Moscow. (Presented as a contributed or oral talk).
+[name].[surname], [name] [surname], [name] [surname]
+Conference Program
+Technical Skills
+Languages: Python, C++ (basic), SQL, Bash
+ML/DL Libraries: scikit-learn, PyTorch, Pandas, NumPy, XGBoost, Matplotlib
+Tools and Platforms: macOS (primary), Linux (CLI experience), Git, Jupyter, Docker, Weights&Biases, RESTAPIs

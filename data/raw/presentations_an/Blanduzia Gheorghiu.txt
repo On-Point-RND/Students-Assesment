@@ -1,0 +1,114 @@
+Training-free adaptation methods of ID
+preserving generation methods to distilled
+diffusion models
+[name]
+Data Science student @ [location]
+Junior Researcher @ [compaany]
+Introduction
+Diffusion models - SOTA generative models, work by
+approximating reverse diffusion process from noise to data.
+text2image diffusion - commonlly trained founda
+models learn conditional score, allowing to generate
+image from text, e.g. Stable Diffusion.
+Introduction
+● practical task - preserve identity in generated image
+● in order to condition on image with id, additional modules can be trained jointly with
+frozen diffusion model
+● examples of such methods are IpAdapter-FaceID, Photomaker, PuLID
+Introduction
+● ID adapter module is trained for original diffusion;
+● diffusion model is distilled (independently of module);
+● problem: if applied adapter is applied to distilled, quality
+drops or becomes prone to failure
+Current solutions are:
+examples of unexpected/weird
+performa performance of IpAdapter FaceID
+1) tolerate drop in quality, tune hyper-parameters;
+with distilled models
+2) specific module/checckpoint fine-tuning;
+3) train new module from scratch;
+Problem statement
+We consideer a practical setting of following model/distilled models/adapters
+base model: StableDiffusionXL
+distilled versions: Turbo, LCM, Lightning, Hyper
+ID-preserving adapter: IpAdapter-FaceID-Plus-v2
+Goal is to design training free mechanisms that allow to find better/more
+stable application of adapter to distilled versions of model, enabling hight quality
+and highly fast personalized generation.
+Methods
+Decoupled Classifier-free Guidance - an idea to decouple original classifier free guidance
+and tune it specifically for few-step sampling setuup with distilled modules.
+additional tricks - rescaling and scheduling
+source
+image
+baseline + DCG
+Methods
+Attention Manipulation (AM) is a novel mecchanism that allows to focus attention in
+decoupled blocks specifically on face regions. It is motivated by observed shift in how
+attention work with distilled models.
+I find such f() for AM and implement
+through composition of two
+transformations - pow() and scale().
+Idea is following:
+1) pow(A, p) shifts mode of
+attention values towaards zero
+2) scale(A, s) magnifies attention
+values, tail most (tail usually is
+face region)
+Results
+When using ID-preserving generation, two posssible goals: a) stylization b) realistic preservation.
+(a) (b)
+For that reason I design my own evaluaation dataset to account for this cases:
+prompts: 120 synthetic prompts images: 30 synthetic high quality diverse identity
+portrait photos, representing various groups
+80 - “realistic” (location/action
+- male/female
+description)
+- young/middle/old
+40 - “style” (with style description
+- various ethnicities
+in prompt)
+Results
+for DCG on “style” set
+- significant improvement of
+ImageReward score,
+clipscore
+- facesim suffeers, but for style
+setup it is expected
+- in practice: greater style
+following/colors/light
+Results
+for AM on “realistic” set (low lora scale regime)
+- face similarity and face
+failure cases are
+significantlly improved
+- clip score metric is
+worsse, but very much
+tolerable
+Bibliography
+[1] - [name], [name], and [name], Denoisinng diffusion probabilistic models, Advances in neural information processing systems 33,
+6840-6851 (2020)
+[2] - [name], [name], [name], High-resolution image synthesis with latent diffusion models. In Proceedinings of
+the IEEE/CVF conference on computer vision and pattern recognition, pp. 10684-10695 (2022)
+[3] - [name]: Text compaibble image prompt adapter for text-to-image diffusion models. arXiv preprint
+arXiv:2308.06721 (2023)
+[4] - [name], [name], [name], Customizing realistic human photos via stackeed id embedding. Proceedings
+of the IEEE/CVF Confererence on Computer Vision and Pattern Recognition, pp. 8640-8650 (2024)
+[5] - [name], [name], [name], Pure and lightning id customization via contrastiive alignment. arXiv preprint
+arXiv:2404.16022 (2024)
+[6] - [name], [name], [name], Adversaial diffusion distillation. arXiv preprint arXiv:2311.17042 (2023)
+[7] - [name], [name], [name], Consistency models. arXiv preprint arXiv:2303.01469 (2022)
+[8] - [name], [name], [name], Hyper-sd: Trajectory segmmented consistency model
+for efficient image synthesis." arXiv preprint arXiv:2404.13686 (2024)
+[9] - [name], et al., One-step image translation with text-to-image models. arXiv preprint arXiv:2403.12036 (2024)
+[10] - [name], et al., Adding conditional controls to text-to-image consistency models. arXiv preprint arXiv:2312.06971 (2023).
+[11] - [name], et al., Learning and evaluating human preferences for text-to-image generation. Advances in Neural Info
+rmation Processing Systems 36 (2023): 15903-15935.
+[12] - [name], et al., Learning transferable visual models from natural language supervision. International conference on machine learning.
+PMLR, 2021
+[13] - [name], et al., Visionreward: Fine-grained multi-dimensional human preference learning for image and video generation. arXiv preprint
+arXiv:2412.21059 (2024)
+[14] - [name], et al., Common diffusion noise schedules and sample steps are flawed. Proceedingings of the IEEE/CVF winter conference on
+applications of computer vision. 2024.
+[15] - [name], et al., Analysis of Classifier-Free Guidance Weight Schedulers. arXiv preprint arXiv:2404.13040 (2024).
+[16] - [name], et al., Prompt-to-prompt image editing with cross attention control. arXiv preprint arXiv:2208.01626 (2022).

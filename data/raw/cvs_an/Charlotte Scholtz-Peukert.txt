@@ -1,0 +1,65 @@
+[name]
+[location]
+Phone Number: +2 *** *** ***
+[email]
+Education
+2024 – Present: [compaany]
+Master's Degree in Computational Neuroscience
+2019 – 2024: [compaany]
+Specialist Degree (with Honors) in Bioengineering and Bioinformatics
+2022 – 2023: [compaany]
+Professional Retraining Program: Artificial Intelligence Specialist
+2021 – 2022: [compaany]
+Professional Retraining Program: Biostatistics and biomedical data analysis
+Skills
+Programming: Python 
+PyTorch, TensorFlow, Scikit-Learn, NumPy, SciPy, Git, ...
+ML&DL:
+Neural networks (CNN, RNN), Self-supervised learning, Fine-tuning of large
+pre-trained models, Experience with GPT, BERT, GANs, XAI
+Soft skills:
+Teamwork in research environments, Scientific communication, ...
+Research & Projects
+Generative Neural Model of Alzheimer's Disease Progression
+[compaany], IKBFU | 2025 – Present 
+Developing a patient-specific generative neural model simulating
+cognitive test performance based on real molecular and neuroimaging
+data (ADNI) 
+Constructing a biologically inspired RNN-based architecture modeling
+frontal cortex dynamics 
+Applying ML techniques for preprocessing patient records and self-
+supervised methods for disease trajectory estimation 
+Aimed outcome: interactive interface for monitoring neurodegeneration
+and testing therapeutic agents in silico 
+Supervised by Dr. [surname].
+Affective State Prediction from EEG and Eye-Tracking Data
+Thesis Project (Bioengineering & Bioinformatics) | 2023 – 202 
+Built a dual-context classifier for emotional state prediction in marketing
+and mental health applications 
+Employed CNNs and transfer learning to process EEG signals;
+implemented attention-based models for eye-tracking data 
+Conducted time-series analysis with deep learning on gaze patterns to
+enhance model accuracy 
+Developed a web-based demo interface for real-time feedback.
+Graph Neural Networks for Web Structure Analysis in Neuromarketing
+Independent Project | 202 
+Modeled website structures as graphs to analyze user interaction paths 
+Applied GNNs for classification of user experience quality and conversion
+probability 
+Explored correlations between visual structure and emotional
+engagement metrics.
+Research & Projects (continued)
+Machine Learning for Cancer Mutation Analysis
+Course Project (Bioengineering & Bioinformatics) | 202 
+Investigated genetic mutation patterns in cancer datasets using
+traditional ML 
+Compared performance of classifiers in Python and R across multiple
+caнцеr types 
+Focused on interpretability and clinical applicability of mutation
+markeर्स.
+Publications
+“Design and Training of a Neural Network for Detecting
+Depressive Disorder Based on EEG Data”
+Oral Presentation, X All-Russian Forum of Young
+Researchers “KhimBioSeasons 2024”, [location], 2024.
+Abstract published in Conference Proceedings, p. 73.

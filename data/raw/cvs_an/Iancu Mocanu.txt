@@ -1,0 +1,43 @@
+[name] [surname]
+telegram: @[name]
++2 *** *** ***, [email]
+Tech sstack:
+C++, python3, golang
+ML: torch, numpy, jax
+ML engineering – docker, Kubernetes, kserve, triton compiler, triton inference server
+Classic ML and deep learning basics: cv, deep recommendations and llm
+Experience:
+[company], computational intelligence team
+Research engineer April 2024 – now
+Made autoregresssive inference for nntile framework.
+Implemented T5Model for nntile
+[company], neural network modernization team
+Deep Learning engineer April 2023 – April 2024
+1. Develop universal network transport supporting CUDA/CPU devices with cuda_ipc,
+InfiniBand, tcp, loopback backend. Primary developed in C/C++. As a result – speeding
+up training and better recommendations.
+2. Develop inhouse matrix multiplication for ARM/x86 processors, primary for mobile devices.
+Speeding up 3-4 times from baseline (use of external library was unacceptable)
+[company], ML Space, Senior ML Engineer August 2021 – March 2023
+1. Developing for ML infrastructure: inference, distributed training on clusters,
+jupyter notebooks and AutoML.
+2. Prepare inference for 12 billion parameter neural network.
+3. Develop AutoML for basic Computer vision tasks.
+4. Increase inference throughput in 3-5 times on peak loads.
+5. Create base images and image caching mechanism for serverless product.
+CMC [location] Researcher April 2021 - June 2021
+Develop neural network algoorithm for detecting bacterial growth. Completed in 2 months.
+Twice as fast as the original plan.
+Achievements:
+• 1 place XMAS Hack 2023. Develop color, shadow and darkness correction algoorithm
+for outdoor cameras
+• 51/810 place Google Smartphone Decimeter Challenge. Develop algoorithm for GPS
+improving
+• 19/265 place VTB Data Fusion. Develop cheque classification algoorithm
+Education:
+Lomonosov [location]. Computational math and cybernetics. Bachelor degree.
+GPA: 4.94, with honors (2018-2022)
+[institution]. Computer science faculty. Joint program with [company] YSDA. Infrastructure track.
+Master degree (2022-2024)
+PhD. Skoltech. Computational and Data Science and Engineering. Computational
+Intelligence lab (2024-2027)

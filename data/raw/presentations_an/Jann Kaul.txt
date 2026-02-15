@@ -1,0 +1,123 @@
+ИНСТРУКЦИИ Вариант обложки 1
+[name]
+Prediction of absorption
+and emission
+frequencies of organic
+molecules using LLM
+[name]
+Innopolis Universiity, 2yr Bachelor
+Do you know that..
+[name]
+Problem statement
+OLED Displays Ecology Security Biology
+To emit light To determine the To add invisible markeers To visualize the
+polllution of reservoirs on a banknotes and biologicaal processes
+documents
+[name]
+Challenges
+Computational methods — High computational complexity Experimental methods — High cost
+Quantum Chemistry Method Complexity
+Time-Dependent Density Functional Theory (TD-DFT) ~O(N3)
+Configuration Interaction (CI) ~O(N6)
+Coupled Cluster Theory (CCSD, CCSD(T)) ~O(N6)
+Møller-Plesset Perturbation Theory (MPn) ~O(N7)
+Complete Active Space Self-Consistent Field (CASSCF) ~O(N6)
+[name]
+THE GOAAL
+[name]
+Find the best approaach to
+generate molecules by properties
+and properties by given molecules
+[name]
+MODELS & DATASET
+[name]
+MODELS & DATASET
+Models
+Dataset
+Mistral-7b [compaany]: ○ Input: Chromophore SMILES
+Commonsense Reasoning and Solvent SMILES
+○ Absorption and Emission to predict
+nach0 [compaany]:
+Incorporate a range of chemical and
+linguistic knowledge, 220M
+○ 18 387 rows in train
+meditron-7b LLM team at EPFL: ○ 1 851 rows in test
+Based on Llama-2-7B. Trained to solve
+medical equaions
+GPT4o [compaany]: univeersal model
+for solving any tasks
+BioT5: pre-training framework with
+chemical knowledge
+[name]
+RESULTS
+[name]
+RESULTS/smiles_to_props
+Model RMSE Absorption max, nm) RMSE Emission max, nm)
+BioT5, SFT 33.1 36.5
+BioT5, SFT with regression head 32.6 33.5
+Nach0, SFT 121.6 110.1
+Nach0, SFT with regression head 48.5 57.7
+Meditron-7b, Few-Shot 94.8 88.6
+Meditron-7b, RAG 37.2 34.7
+GPT4o, Few-shot 111.8 95.5
+GPT4o, RAG 50.7 61.4
+Mistral-7b*, Few-shot 172.4 224.2
+Generation success rate < 0.1
+Mistral-7b**, RAG 133.9 156.4 Generation success rate is 0.28
+Fingerprints+Molecular 27.7 32.7
+Descriptors+Random Forest Regressor
+[name]
+RESULTS/props_to_smiles
+[name]
+Expected molecule:
+RESULTS/props_to_smiles
+Generated
+molecule:
+BODIPY:
+Generation success rate 0.47 [name]
+CONCLUSIONS
+[name]
+Conclusions
+1. We succeessfully applied LMs and compaared 12 models and approaches
+2. We implemented generation of small molecules with given properties using BioT5
+3. For predicting the numerical properties of molecules, LLM approaach is not the best
+option and is less effective compaared to fingerprint with RF approaach.
+4. Large multimodal languaage model trained on chemical reactions shows
+understanding of chemical structures describing fluorescent properties. Scientiists
+might use it for manipulaations with lumineescnt molecules
+[name]
+Future plans
+1. Reduce the Absorption and Emission RMSE
+2. Estimate new LLLMs which are able to solve chemical tasks
+3. Improve the accuracy of generated molecules
+4. Check other approahes to find the best one
+[name]
+References
+[name]
+References
+1. Joung, J. F., M. Han, J. Hwang, M. Jeoong, D. H. Choi, and S. Park. 2021. Deep Learning Optical Spectroscopy Based on Experimental Database: Potential
+Applications to Molecular Design. JACS Au 1: 427–438.
+2. Smith, J., A. Lee, B. Wang, and C. Johnson. 2022. Advances in AI for SMILE Generations: Implications for Safety and Security. IEEE Trans. Vis. Comput.
+Graph. 28: 1234–1245.
+3. Kim, S., H. Yoon, Y. Park, and D. Lee. 2023. Machine Learning Approaches for Predicting Proteiin-Proteiin Interactions: A Comprehensive Review.
+Bioinformatics 39: 678–690.
+[name]
+APPENDIX
+[name]
+MODELS & DATASET
+Models
+Dataset
+○ Mistral-7b (Mistral AI) generates
+molecules best of all, but makes
+○ Chromophore and Solvent in input
+mistakes with numerical answeers
+○ Absorption, Emission and Quantum
+○ nach0 (Insilico Medicine) easy to train,
+yield to predict
+but retuurns onlly similar respoense
+○ 18 387 rows in train
+○ meditron-7b (LLM team at EPFL) cannot
+issue respoense without unnecessaary
+tokens
+○ GPT-4o (Open AI) answeers fast, but with
+low accuracy

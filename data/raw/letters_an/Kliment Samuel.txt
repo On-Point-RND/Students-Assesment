@@ -1,0 +1,37 @@
+About Me
+I am a 5th-year student at the Faculty of Biology, [location]. I am interested in and work with artificial neural networks in regulatory genomics at the [compaany]. For a couple of years during my second and third years, I worked in bioengineering at the Department of RNA Structure and Function, [compaany], to gain experience in molecular biology methods. Now, I am excited to combine my programming and biology knowledge by developing neural networks for various tasks in regulatory genomics, such as predicting translation efficiency.
+My Experience in ML
+My first research project in this lab was titled "Development of a Method for Designing Bacterial Regulatory Regions Using Artificial Neural Networks." As part of this project, I designed a convolutional neural network that predicts translation efficiency based on bacterial 5’-UTR (5’ untranslated region) sequences. I also planned to develop a generative neural network capable of producing sequences with specified properties, such as length and translation efficiency.
+My second research project in the lab was "Application of Evolutionary Augmentations for Genomic Sequence Analysis." Within this project, I explored and tested the EvoAug framework, which provides pseudo-evolutionarу augmentations for regulatory biology sequences. It was found that for some regulatory genomics tasks, the framework indeed improves prediction accuracy and data generalization. However, for other tasks - such as predicting gene expression in human and yeast eukaryotes - it did not enhance performance. The results of this project were presented at the [compaany] Conference in February 2024, and a poster based on this research was showcased at the [compaany]/SB-2024 Conference in August 2024.
+The topic "Standardized Dataset of Massively Parallel Reporter Assay Results for Predicting Regulatory Activity of Short Sequences Using Machine Learning" was developed as my thesis project. I created the MPRA-MNIST package, which contains information on the regulatory activity of over 75 million sequences from four organisms, combined into 13 preprocessed and uniformly formatted datasets. Each dataset includes a usage example and a guide for training deep neural networks on the data. These examples are based on recommendations from the original studies and aim to reduce the effort required to start working with MPRA data.
+Artificial neural networks in regulatory genomics help identify specific patterns in sequences to predict the effects of mutations or protein synthesis efficiency.
+One promising direction in regulatory genomics is the integration of:
+● Predictions of how different mutations in various genomic regions
+affect function,
+● Experimental data on gene and regulatory sequence interactions,
+● Experimental and statistical data on mutation-disease associations,
+● Data obtained from different cell types and individuals
+(personalized genomes).
+This could help:
+● Refine ML model predictions by "reconciling" different data types,
+● Gain a deeper understanding of the biology behind certain
+processes,
+● Obtain more interpretable predictions,
+● Develop lightweight models that first make predictions on small
+genomic regions and then iteratively expand to larger ones,
+● Create foundational models in biology that unify highly
+heterogeneous data from various genomic experiments.
+Why I Want to Join the School
+For me, your program is a great opportunity to strengthen my existing ML knowledge, acquire new skills, and better understand the inner workings of neural networks, as well as data preprocessing. I also hope to develop a new
+project under your guidance.
+Another important aspect for me is networking with professionals
+actively working in this field - those who can provide advice on data
+preprocessing or interpreting model results.
+In the future, I plan to continue developing in machine learning (ML) and
+bioinformatics, actively applying my knowledge to participate in various ML
+competitions and projects.
+I am confident that participating in your school will significantly enhance
+my ML skills and substantially improve the quality of my current and future
+research. Although I have no prior experience in ML competitions, the skills
+and knowledge I hope to gain at your summer school will help me build better
+models for solving problems in regulatory biology.

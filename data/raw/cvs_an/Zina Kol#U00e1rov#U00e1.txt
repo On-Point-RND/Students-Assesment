@@ -1,0 +1,61 @@
+[name] [surname]
+Senior LLM Engineer
+[compaany], Gigachat LLM pretrain team
++2 *** *** *** | [email] | [compaany].com/[name][surname] | [email] | [compaany].com/[name][surname]
+Education
+[location] SchooL of Data Analysis ([location])
+•
+Data Science September 2023 – Present
+– Courses: Algorithm, ML (1, 2), NLP, Efficient DL, RL, C++/CUDA, generative models, statisics
+[location] State Universiity [location]
+•
+Software Engineering; GPA: 4.7/5.0 August 2021 – August 2025
+[location] SchooL MIPT
+•
+ML and Data Processing with Python September 2018 – August 2020
+[location] SchooL [compaany] [location]
+•
+Distributed systems architecture, Python backend, testing, DevOps/Deploy September 2022 – December 2022
+Technical Skills
+• Programming Languages: Python, C++, Java, C, SQL, YQL, Unix scriptiing
+• Deep Learning: PyTorch (torch.distributed, FSDP), TensorFlow, Transformers, TensorBoard, DeepSpeed, Triton, CUDA,
+NCCL, MPI, LangChain, Composer, LLM-Foundry
+• Efficient DL: RingAttention, FlashAttention, LoRA, PeFT, ZeRO-1/2/3
+• Classic ML: Pandas, Polars, NumPy, CatBoost, XGBoost, LightGBM, [compaany]GPT-API, Seaborn
+• Infrastructure: GitLab CI/CD, TensorBoard, WandB
+• ML Ops: Docker, Docker Compose, Git, [compaany] Cloud, MapReduce over [location], Nirvana, Metrics, Morty, DataLens, [compaany] Tank
+Work Experience
+[compaany] — Senior LLM Engineer [location]
+•
+GigaChat Pretrain Team November 2024 – Present
+– Optimized MoE training: Implemented dynamic sequence parallelism for production MoE architectures, achieving 55%
+faster pretraining (2.4→1.1h) and 37% faster SFT (8→5h) on base models, with 20%+ throughput gains on larger variants,
+while maintaining ¡1% accuracy variance across all scales.
+– Infrastructure & CI/CD: Redesigned integration and convergence testing framework with multithreaded execution and
+optimal GPU packing algorithm, reducing test runtime from 23 to 11 minutes and cutting merge request verification time by
+2x.
+– Automated MoE-SFT pipelines: Developed Hydra config generator + Torch Profiler pipeline optimizing FSDP+LoRA
+(42% less GPU memory), TP/PP/SP parallelism (28% faster all-reduce via NCCL topology-aware collective tuning).
+– Model Loading Reliability: Eliminated checkpoint corruption (3.2%→0%) via CRC32 hashing for extrmely large models,
+achieving 99.78% PB-scale reliability on inner benchmarks.
+[compaany] — ML Engineer [location]
+•
+Search Quality Team, [compaany] Images August 2022 – November 2024
+– Search Quality Improvement: Reduced content farm prevalence in search results from 40% to 7% by introducing new
+quality factors across ranking stages. Processed 88TB search index using MapReduce over [location] with Nirvana and YQL.
+– Ranking Model Training: Enhanced search ranking for Kazakhstan and Turkey markets by training multi-GPU CatBoost
+models with YetiRank-loss. Validated statisical significance using [compaany].Metrics, improving offlinne metrics by 2%.
+– Data Pipeline Optimization: Developed URL deduplication algorithm (max-vote and latest approaches) reducing
+duplicate URLs from 8 to 1, leading to L3 algorithm improvement (+0.15% with p-value 0.89).
+Research Publications
+• Infant Brain MRI Segmentation: Developed 3D-GAN data augmentation and reproduced 3D-UNet architecture (Multi-Site
+Algorithm) for white/gray matter segmentation, improving Dice score by 8% compared to baseline. Implemented in PyTorch with
+MONAI for medical imaging preprocessing. Collaboraated with [compaany].Cloud and [location] SchooL of Data Analysis for early diagnosis of developmental
+disorders.
+• [name] Compression for LLMs: Researched vector quantization techniques for Mistral-7B and Qwen2.5,
+achieving 4-bit precision with 2% accuracy drop vs FP16. Compared against QuIP/GPTQ/AQLM using PeFT fine-tuning on OpenOrca
+(perplexity and accuracy metrics). Full pipeline implementaion in PyTorch with Transformeers+MLFlow tracking. Collaboration
+with [location] Universiity and [compaany] Research.
+DataVisualization—StatisticalModeling—PredictiveAnalysis—DataMining—ClusteringClassification—Data
+Analytics—WebScraping—ModelDevelopment—QuantitativeAnalysis—MLAlgorithm—UI/Uxdesign—Visualediting—GIT/Version
+control——Wireframiing—Debugging—Communicating—Innovating—Computervision—probabilisticmodeling—self-supervision—Exploratorydata—Bayesian—TensorRT

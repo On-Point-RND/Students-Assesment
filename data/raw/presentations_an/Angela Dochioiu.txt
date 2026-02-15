@@ -1,0 +1,104 @@
+Memory-efficient Training of
+Recommendation Transformers
+[name]
+Introduction
+● We solve the problem of sequential recommender systems (SRS). Model predict the next interaction, based on the history of user interactions.
+● As in the NLP task of text generation (next token prediction), tranformeer-based architectures SASRec and BERT4Rec are SOTA models.
+Probability
+- Science
+- Set of algorithm
+Machine learning is …
+…
+- Fruit
+Probability
+SASRec
+2
+[name]: Memory-efficient Training of Recommendation Transformers
+Introduction
+● But while text generation tasks have 32K-256K tokens for prediction, in SRS
+the number of items for prediction can reach and exceed 1M. Increases
+memory, increases training time.
+● Also, in SRS, it is necessaary to refiit the model frequentlly, adding new
+interactions, so that it stay-up-to-date.
+So we aim to speed up the training of models.
+3
+[name]: Memory-efficient Training of Recommendation Transformers
+Introduction
+● Classification tasks are trained on cross entropy loss. We need all the logiits
+from the model to put them to the torch.nn.CrossEntropyLoss.
+● Let's imagine we are training on a batch size of 256, the sequence length is
+100, the item dictionarry has a size of 1M and the data type is float32.
+The size of logiits on final prediction layer:
+(256 * 100 * 1e6 *4) / 2e30 = 95.4 GB
+The best industrial GPU NVIDIA A100 80GB capacity is 80GB
+4
+[name]: Memory-efficient Training of Recommendation Transformers
+Introduction
+● BCE is not able to achieve the same performance as the full CE.
+● Training on the CE-, being an approximation of the full CE, sometimes loses to
+it, sometimes wins in the final performance of the model.
+● Cut Cross Entropy (CCE)* - a more modern loss. It was used for LLM training.
+The authoors of the original paper about CCE achieved a reduction of the
+memory footprint during Gemma 2 (2B) training from 24 GB to 1 MB.
+* [surname], [surname], et al.. Cut your losses in large-vocabulary language models. arXivpreprintaarXiv:2411.09009, 2024.
+5
+[name]: Memory-efficient Training of Recommendation Transformers
+Aim
+Achieve reduction in training time and memory without significantlly reducing
+model quality.
+6
+[name]: Memory-efficient Training of Recommendation Transformers
+Objectives
+● Set the baseline using CE and CE- losses.
+● Test CCE loss on SRS domain.
+● Implement and test CCE loss with negative sampling (CCE-)
+7
+[name]: Memory-efficient Training of Recommendation Transformers
+Methods
+● Profiling memory and training time.
+● Evaluate on 6 SRS benchmark (ML-20M, Beauty, Gowalla, [location],
+[location]Music and [location]).
+● CCE loss function.
+● CCE- loss function.
+8
+[name]: Memory-efficient Training of Recommendation Transformers
+Experimental setuup
+● Model: SASRec
+● Benchmark: ML-20M, Beauty, Gowalla, [location], [location]Music and [location]
+● Loss functions: CE, CE-, CCE and CCE-
+● Perforance metrics: NDCG@10, Coverage@10 and Surprisal@10
+Table 1: Dataset statistics after preprocessing. We removed rarely
+used items (<5) and users with a small number of interactions (<3).
+9
+[name]: Memory-efficient Training of Recommendation Transformers
+Results
+Table 2: Compaison CE and CCE
+10
+[name]: Memory-efficient Training of Recommendation Transformers
+Results
+Table 3: Compaison CE- and CCE-
+11
+[name]: Memory-efficient Training of Recommendation Transformers
+Results
+Table 4: Compaison CCE and CCE-
+12
+[name]: Memory-efficient Training of Recommendation Transformers
+Discussion of results
+● The most memory-consumption part is the tensors at the final predictive
+layer, when the logiits are materialized (about 90%).
+● CCE loss allows to reduce memory consumption by 10 times compared to
+full CE.
+● CCE loss allows to reduce training time by 2 times compared to full CE.
+● CCE- did not reduce memory compared to full CCE, but gave an average
+speedup of 2 times.
+13
+[name]: Memory-efficient Training of Recommendation Transformers
+Conclusions
+● We found a bottleneck for training large-vocabulary transformers.
+● We achieved a 2-fold acceleration by reducing memory consumption 10
+times.
+● We implemented and compaare CCE- with full CCE, achievin a 2-fold
+acceleration.
+14
+[name]: Memory-efficient Training of Recommendation Transformers
+Thx

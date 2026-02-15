@@ -1,0 +1,93 @@
+[name]
+[email]
++(2 *** *** *** *location) §username771077
+EDUCATION
+M.Sc. Data Science, Math of Machine Learning
+[compaany]
+z Sept2023–June2025
+M.Sc. Data Science, Math of Machine Learning
+[compaany]
+z Sept2023–June2025
+B.Sc. Software Engineering
+[compaany]
+z Sept2019–June2023
+B.Sc. Linguistics
+[compaany]
+z Sept2019–June2023
+M.SC. THESIS
+Accelereationofbackpropagaationinlinearlayersoftransforme modelsbasedoinitsgadientstructure
+AWARDS
+NationalAwards
+• Olympiad"Iam aProfessional" Winner’sReward,2023
+Registration:f89-173243
+• Olympiad"MathofMachineLearning"(SkoltechandHSE) 2ndDegreeDiploma,2023
+InternationalAwards
+• Olympiad"PetropolitanScienceResearch" PrizeReward,2023
+Registration:04-23-0004
+• InternationalDigitalHackathon"Glukhov.AI" 2ndDegreeDiploma,2023
+EXPERIENCE
+R&D Research Intern
+[compaany]
+z Summer2024 * [location]
+• Developeda neural network-based algorithm for trajector recognition using dual foot-mounted Inertial Measurement Units(IMUs).
+• Conducte data gathering in the field and performed data preprocessing to ensure high-quality inputs for model train-
+ing.
+• Created advanced trajectory reconstruction models, enhancing the accuracy and reliability of motion detection sys-
+tems.
+• Demonstrated technical proficiency and adaptability by contributing effectively to a demanding research envir-
+onment.
+PROJECTS
+Topoology Optimization Process
+[compaany]
+z December2023
+• github.com/[name]/NLA_Topolology_team(Contributor)
+• Compared traditional topologica optimization methods with machine learning-based approaches, explorin hybrid
+techniques.
+Zindi User Behavior Analysis
+[compaany]
+z October2023
+• github.com/[name]/dc_project
+• Developeda machine learning model to predict user activity on Zindi platform for the upcoming month, defin-
+ing active users based on competition participation, submissions, or forum engagement.
+Boosting Approahes with Multi-label Imbalanced Data Problem
+[compaany]
+z 2024
+• github.com/[name]/Multi_class_imbalanced_data_classifcation
+• Investigated boosting techniques tailored for multi-label imbalanced datasets to enhance classification
+performance and model robustness.
+PUBLICATIONS
+• D.[name],"Creationandtrainingofaneuralne twokusinganemboiedagentinanoenvirtuaworldbasedon
+worldwide web data,"inMolo dyeProfessionalySborni k,Scientifica dvisor:Ph.D.,Assoc.Prof.PopovI.Y.,ITMOUni-
+versi ty.Presenteda ttheMolo dyeProfessionalyconference.,St.Peterburg,2022,pp.24–34.
+• D.[name],"Descriptionoftheapplicationd evelopmen tprocesso nthetheplatform.NETusingtheC#progr amminglan-
+gua ge,"Russian,inInformationandInnovat iveTechnologi sinScien ceandEducation:CollectionofScienti ficWorksofthe
+VIIAll-RussianScientifica ndPractica lConfere ncewithInterna tionalPartic ipation,E.ArapinaArapo va,Ed.,Rosto v-on-
+Don:Publishingan dPrintingCom plexo fRSEU(RSUE),2022,pp.476–481.
+CONFERENCES
+Molo dye Professi onaly Confere nce
+PresenterandAuthor
+z 2022 * St.Peter sburg,[location]
+• Presente dresearchon"Creationandtrainingofa neuralne twokusinganemboiedagentinanoenvir tua lworld
+basedonworldwide web data."
+• PaperpublishedinMolo dyeProfessionalySborni k,ITMOUni versity.
+VII All-Russian Scienti fic and Practica l Confere nce with Interna tional Partic ipation
+PresenterandAuthor
+z 2022 * Rostov-on-Don,[location]
+• Presente dresearchon"Descriptionoftheapplicationd evelopmen tprocesso nthetheplatform.NETusingtheC#pro-
+gramminglan gua ge."
+• PaperpublishedinInformationandInnovat iveTechnologi sinScien ceandEducation.
+CLEF Emotion Analysis Project
+Participant
+z 2024
+• Achievedahighlevelofaccura cyinsenti mentclassification.
+• Engagedin theKnowledgeGraph Ques tionAnsw ering(KGQA)task.
+CLEF 2024 Challenges
+Participant
+z 2024
+• Parti cipatedinvariousCLEF2024challenges,demonstrin gtechnicalcompet enceanddedicationtoadvanci ngre-
+sear chskills.
+CERTIFICATES
+• AccelerationofSocialProjects-PskovStateUni versi ty,2022.
+• Certificat eofPartic ipation-Intensi veCourse"IT-Thinking",2023.
+• Certificat eofPract icalTraining-SFU,Registration:705.15.01-34/284.
+• Certificat eofVictory-Intensi veCourseofIKTIBSFU"Fore sightTechnology".

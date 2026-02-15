@@ -1,0 +1,31 @@
+[name] [surname]
+[email]
+EXPERIENCE EDUCATION
+[company] |[name] [surname]
+Feb2023–Now [company]
+• TrainedaBERT-based classifier that reduced Time To Money from Economics hours to seconds by enabling fast and accurate payment purpose classification. [company]
+[company] ACADEMY
+DS [name] [surname]
+• Built a chatbot using LLM+RAG that streamlined support workflows and significantly reduced response times for internal and external users. [company]
+[company] ANALYSIS
+DS
+• Fine-tuned an internal LLM based on Qwen for company-specific data, improving its performance on real-world cases.
+SKILLS
+• Implemented alignment techniques to ensure the internal LLM followed business-specific constraints and safety requirements, increasing reliability in production scenarios
+• Developed a document processing service for incoming quality control using LLMs, followed by classification with BERT, improving both accuracy and efficiency.
+• Delivered a lot of LLM-powered solutions under the hood that drive tangible business value across different departments and use cases.
+PROGRAMMING
+•Python-FastApi,asyncio,etc
+•LLM-vllm,sglang,peft,RAG,etc
+•NLP
+•DL
+•Time-series
+•classicML
+TINKOFF [company] |DATA SCIENTIST TECHNOLOGY
+July2022–Feb2023
+Git/Gitlab•Docker•Linux
+• Developed and deployed time series for casting models using CatBoost, significantly improving the accuracy of business-critical predictions and enabling better decision-making.
+• Contributed to the company’s internal AutoML framework, enhancing support for time series data and improving model selection and tuning capabilities.
+
+
+

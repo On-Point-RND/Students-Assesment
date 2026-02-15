@@ -1,0 +1,47 @@
+Hi.
+My name is [name], and I am a developeer. To be honest, I found interest in
+machine learning in myself relatively recentlly.A few months ago, I didn’t plan to
+switch into ML at all – I was working in compaany as a copywriter, writing and
+translating articles about AI for [compaany]. But the more I read, the more curious I
+became. I regularly encountered topics that I did not understand – the data wall
+problem, model overfitting, model collapse, OpenCRISPR-1 – a AI-gene editor. To
+write a good article, you need to thoroughlly study the material you are writing
+about. But I didn't think about startiing to study ML thoroughly – from the basics,
+until one day my friend, a backend developer, was offered to move into ML. I helped
+him look into courses and what’s needed to become ML engineer. That’s when
+something clicked – I realized I didn’t just want to translate and write about ML-
+topics. I want to learn it for myself.
+I have always loved programming. I started back in high school, went to
+competitions (won a regional prize at [location]), and joined and won various
+hackathons. After graduaation from school, I entered universiity, but after a year I left
+– the format just didn’t work for me. Then I tried one more time at another
+universiity, but it wasn’t the fit as well. Instead, I chose to build my career through
+real projects. I worked in startups and in big companies, mostly as a mobile
+deveelopeer using Flutter and Kotlin. I’ve built apps, worked with APIs, collaboraated
+with designers and backend developers – all the usual stuff.
+After a while, I realized that mobile development wasn’t what I wanted to do for a
+long-term. I liked coding, but I didn’t feel inspired anymore. I started trying myself in
+different fields – I was a designer, a sales manager, a casual game artist, a
+cartoonist, I played the violin, taught childre children python and wrote manual for
+teachers. Then I started writing articles and eventually came to ML. I started to
+explore Machine Learning more seriously – at first through free [compaany] Education
+courses (Advanced Python, Math for ML, Algorithms, Introduction to Data Analysis,
+Open lecture on Machine Learning and Artificial Intelligence), and now through
+personal study. I’m working on buildiing up my math and computer science
+foundation, and even though I still have gaps, I know I can close them. I’m used to
+learn things fast and can figure out a lot on my own.
+Now, I want to go beyond just reading and translating — I want to create. I want to
+do real projects, maybbe even research someday. I’m especially curious about
+generative models. That’s why SMILES-2025 caught my attention. It sounds like
+exactly the kind of environment I’m looking for — full of people who are into the
+same things, where I can learn a lot in a short time, ask questions, and grow.
+In my current circle, most of my friends are frontend, backend or mobile developers.
+I don’t really have anyone to talk to about ML. So one of my biggest hopes for this
+schooal is to find a community — people who care about the same things, who I can
+learn from and share ideas with. And honestlly, I also just want to challenge myself. I
+understand that I don’t have any degree or a lot of experience related to ML. But
+I'm definitely curious, highly motivated and have a strong desire to grow and learn.
+Thank you for reading my letter. I'm excited to take part in SMILES-2025 and make
+the most from this opportunity learn alongside others who share the same passion.
+Best,
+[name] [surname]

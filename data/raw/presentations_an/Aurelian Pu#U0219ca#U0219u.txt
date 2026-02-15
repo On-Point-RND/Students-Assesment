@@ -1,0 +1,119 @@
+Slide 1
+----------------------------------------
+[name]
+Master’s student, [compaany]/Chemistry and AI
+
+Generative app approaches in materials science
+
+Slide 2
+----------------------------------------
+Introduction
+
+Relevance of Deep Learning in Chemistry
+Accelerate discovery
+Traditional chemical experiments and simulations are time-consuming and resource-intensive. DL models predict material properties, molecular interactions, and synthesis pathways, reducing trial-and-error experimentation.
+Handle complexity
+Chemical systems involve high-dimensional data (e.g., atomic configurations, reaction kinetics). DL excels at extracting patterns from such data, enabling tasks in material science.
+DL is relevant in chemistry due to its ability to:
+
+Trends
+Shift from empirical/experimental methods to data-driven, AI-aided discovery in chemistry.
+Interdisciplinary impact
+Fusion of chemistry, physics, and computer science to solve complex challenges.
+Challenges
+Open-source tools enabling wider access to advanced computaional chemistry.
+
+Slide 3
+----------------------------------------
+FlowMM: Generating materials with Riemannian Flow Matching1
+Picture 1. A conceptual representation of the evolution from base distribution to target distribution, according the vector field learneed by our model. W
+
+What is the topic? 
+
+Why is it important? 
+
+1Miller, B. K., Chen, R. T., Sriram, A., & Wood, B. M. (2024, July). Flowmm: Generating materials with riemannian flow matching. In Forty-first International Conference on Machine Learning.
+The article introduces FlowMM, a generative model using Riemannian Flow Matching to predict and generate stable crystalliine materials
+
+Efficiently discovering stable materials is critical for advancing technologies like energy storage. Traditional methods rely on expensive computaional screening
+
+Slide 4
+----------------------------------------
+FlowMM: Generating Materials with Riemannian Flow Matching
+Approach
+How it works 
+
+The researchers use Riemannian Flow Matching, adapted to respect crystal symmetries (e.g., translation, rotation, permutation) and periodic boundary conditions. This extends continuous normalizing flows to curved manifolds representing crystal structures.
+FlowMM trains a neural network to learn a vector field that morphes a simple base distribution (e.g., uniform) into the target distribution of crystals. By leveraging symmetry-aware paths and efficient integration, it generates stable structures in fewer steps than diffusion models, validated via quantum chemistry calculations.
+Picture 2. Three symmetry actions are shown above; all of these actions would alter only the representation of the crystal, while leaving its chemical properties intact.
+
+Slide 5
+----------------------------------------
+FlowMM: Generating Materials with Riemannian Flow Matching
+Results
+Picture 3. Match rate as a function of number of integration steps on MP-20. FlowMM achieves a higher maximum match rate than DiffCSP overall
+1. State-of-the-Art Performance in Crystal Structure Prediction (CSP):
+FlowMM achieves 61.39% Match Rate on the MP-20 dataset (vs. 51.49% for DiffCSP) and 17.54% on the challenging MPTS-52 dataset (vs. 12.19% for DiffCSP);
+2. Inference Effieciency:
+FlowMM generates high-quality samples in ~50 integration steps, achieving peak performance 10–20 faster than diffusion models like DiffCSP (which require ~1,000 steps). This reduces computaional costs by 3× for generating stable materials.
+3. Effective Generation of Thermodynamiically Stable Materials
+FlowMM produces materials with 4.32% stability rate comparable to DiffCSP (5.06%), but at lower computaional cost (0.58 vs. 1.98 steps/stable material).
+
+Slide 6
+----------------------------------------
+Unveiling the Potențial of AI for Nanomaterial Morphology Prediction2
+Picture 4. A schematic of the text-to-image system prototype. A)
+
+What is the topic? 
+
+Why is it important? 
+
+2Dubrovsky, I., Dmitrenko, A., Dmitrenko, A., Serov, N., & Vinogradov, V. (2024). Unvailing the potential of AI for nanomaterial morphology prediction. (ICML);
+It addresses the challenge of discovering optimal coforme rs (molecules that enhance drug properties) efficie ntly, which is traditionally slow and limited. This accelerates drug design.
+
+Slide 7
+----------------------------------------
+Unvailing the Potențial of AI for Nano material Morphology Prediction
+Approach
+How it works 
+
+Researchers combi ne deep generative models (GANs, VAEs, T-CVAE), evolutionar y optimization, and machine learning (gradien t boosting for property prediction, GNNs for co-crystallization ranking).
+1. Generative Models: Used GA Ns, T-VAE, and T-CVAE trained on chemical datasets (ChEBL + coforme rs) to generate candidate coforme rs.
+2. ML Prediction: Trained gradien t boosting models on co-crystal data to predict mechanical properties (e.g., unobstructed planes, H-bond bridging) critical for tabletability.
+3. Evolutionary Optimization: Applied multi-objective evolutionar y algo rithm s to opti mize coforme rs, improving target properties.
+4. Co-Crystallization Ranking: Used a pretrained GN N (CCGNet) to score and rank candidates by co-crystal formation likelihood.
+
+Slide 8
+----------------------------------------
+Unvailing the Potențial of AI for Nano material Morphology Prediction
+Results
+Picture 5. Results of the coforme r generation comparison.
+Development of a High-Performing Hybrid Pipeline:
+The integration of transformer-based conditional variational autoencoders (T-CVAE) with evolutionar y opti mization significa ntly outp e rformed individual models, generating 5.63% target coforme rs (vs. 1.68% for T-VAE and 2.23% for GAN);
+2. Improved Mechanical Properties via Evolutionary Optimization:
+Evolutio nary algo rithms enhanced key tabletability parameters (e.g., 11.3% increase in H-bond bridging probability for GAN-generated coforme rs) while maintaining novelty (60–72% novel molecu les post-opti mization).
+3. Validation and Discovery of Novel Co-Crystals:
+Successfully identified experime ntally validated co-crystals (e.g., fumaric acid with Nicoran dil, malonic acid with Rivaroxaban) using GEMCODE, demonstrating practical utility.
+
+Slide 9
+----------------------------------------
+Conclusion
+Brief summary:
+FlowMM (Miller et al.)
+Nano material Morphology Prediction (Dubrovsky et al.)
+GEMCODE (Gu bina et al.)
+Achieved 3x efficiency over diffusion models in generating stable crystals.
+Prototype d a text-to-image system for SEM-like nanopar ticle generation.
+Hybri dized T-CVAE with evolutionar y opti mization to design novel co-crystals.
+Unresolved challenges
+Data Quality and Quantity
+Bridging Simulation and Experiment
+Model Interpretability
+
+Slide 10
+----------------------------------------
+Miller, B. K., Chen, R. T., Sriram, A., & Wood, B. M. (2024, July). Flowmm: Generating materials with riemannian flow matching. In Forty-first Interna tional Confere nce on Machine Learning (ICML);
+Dubrovsky, I., Dmitrenko, A., Dmitrenko, A., Serov, N., & Vinogrado v, V. (2024). Unvailing the potential of AI for nanomaterial morphology prediction. (ICML);
+Gubina, N., Dmitrenko, A., Solovev, G., Yamshchikova, L., Petrov, O., Lebedev, I., ... & Vinogrado v, V. (2024). Hyb rid Generative AI for De Novo Design of Co-Crystals with Enhanced Tabletability.(NeurIPS)
+
+Bibliography

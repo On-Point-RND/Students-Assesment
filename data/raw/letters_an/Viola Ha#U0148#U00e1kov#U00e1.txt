@@ -1,0 +1,31 @@
+SMILES`25 Motivation letter
+I extensively engage with ML/DL research topics in various ways: I learn fundamentals at the
+[location] university, explore [compaany] topics under the supervision of my advisor ([name]), (e.g., PIML, TDA,
+diffusion), follow emerging trends through open lectures (visiting various CS talks online), and stay
+up-to-date by attending conferences and even following Telegram channels. However, I still feel
+there is a gap that this summer schooI can fill. I intend to gain a systematic view of cutting-edg e
+science in an interactive enviroment where theory seamlesslly integrates with practice—a unique
+combination that defines the event. This would be a significant step toward alleviating my ever-
+present fear of missing out on crucial research developments. :)
+Networking is also very important to me, especially in our Composite AI [compaany] (aka NSS Lab).
+Due to our wide range of research interests, we benefiit from collabora tors and consultants across
+various domains. There are many renowne d scienti sts focusing on these topics, including some
+whose work is closely related to my current research; I even watch lectures by several of them.
+Although I have taken a C2-level general English course and a technical English course—and I
+regul arly consume a vast amount of English content—a complete, long-term immersion in scienti fic
+topics (and an enti rely new cu lture) in English is still a new and exciting experience that I crave.
+I cannot say in advance which of my expecta tions will be fully met, but whatever the outcome, I am
+confident it will be an enri ching experience.
+Career Plans
+I am curre ntly completing a top bachelor’s program (CT ITMO) and do not intend to lose
+momen tum. I plan to apply to the ML Master’s program at the Mathematics and Computer Science
+Depar tment of [location] ([email]), which argua bly provides the best mathematical background
+in [location]. I intend to continue advancing in fundamental ML research and, ideally, to lead my own
+lab where I can help set future research directions. Poten tially, at some point, I may shift toward
+more practical tasks within the R&D depar tments of IT comp anies.
+ML/DL Tools Experience
+I am fully profi cient with the ML/DL tools essen tial for contemporary research in this field, and I am
+cap able of managing a complete research cycle. I believe that this experti se is more than sufficient
+for comf orta ble participation in the summer schoo l. Moreover, my extensive background in
+computer science and sof tware deve lopment will ensure a smooth experience during the practical
+ses sions of the program.Please see my CV for a comp rehensive overview.

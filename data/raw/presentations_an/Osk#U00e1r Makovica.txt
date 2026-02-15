@@ -1,0 +1,94 @@
+Review Presentation:
+[name] [surname]
+Supervisor: Prof. [surname]
+Prospective project: Multi-IMU navigation indoor
+[name].[email]
+Introduction
+● Growing demand for navigation in GPS-denied
+environments:
+○ Indoor drones, VR headsets, subterranean robots.
+● Traditional GPS fails indoors due to signal blockage.
+● Opportunity: Neural networks can enhance inertial
+navigation
+accuracy.
+2
+Project Overview
+Dual IMU on mobile devices could improve accuracy and robustness in multiple downstream tasks at a minimal overhead.
+In this project proposal we will investigate to 3 following issues in order to achieve this objective:
+1. Fusion of two IMU sensors.
+2. Online calibration.
+3. Optimal sensor placement
+Relevant scientific publications: The project is build from our prior work on multiple IMU for state estimation [1],[2]. To be
+adapted to the specific needs according to the requirements.
+Two IMUs are already in place in some of the [compaany] models (Mate X3)
+The main objective is to make a better use of these sensors for several
+tasks (described in the following slides) with minimal overhead for the
+system.
+Results expected to improve for the dead-reckooning problem onboard the
+phone for different motion categories, such as walk, run, car, bicycle, etc.
+[1] M. Faizullin and [surname]. “Best Axes Composition extended: Multiple gyroscopes and accelerometers data fusion to reduce systematic error”. Autonomous Robots (AURO), 2023
+3 [2] M. Faizullin and [surname]. “Best Axes Composition: Multiple Gyroscopes IMU Sensor Fusion to Reduce Systematic Error”. In European Conference on Mobile Robotics (ECM), 2021
+Dataset Collection
+Equipment:
+● Three [compaany] Mate X3 smartphone: one "Master" (for labeling/control)
+and one/two "Slave" phones (IMU data at 100 Hz, with ArUco markeers).
+● RealSense camera (chest-mounted) for visual data, synced with IMU via
+NTP, recorded via RTAB-Map (odometry disabled for high-resolution
+data).
+● Laptop in a backpack running RTAB-Map.
+Recording Procedure:
+● 30-minute sessions per volunteer, capturing combinations of:
+○ Phone Positioning: Handheld (40%), Pocket (30%), Talking (30%).
+○ Phone Configuration: Folded (33%), Unfolded (33%), Hybrid (33%).
+○ Pedestrian Mode: Walking (60%, 18 min), Running (15%, 4.5 min),
+Backwards/Sidewalk (25%, 7.5 min).
+4
+Multi-IMU Navigation
+● RoNIN is the largest inertial navigation database consisting of more than 42.7 hours of IMU and ground-truth 3D
+motion data from 100 human subjects. They have developed a two-device data acquisition protocol, where we use a
+harness to attach a 3D tracking phone to a body and let subjects handle the other phone freely for IMU data collection.
+5
+Ref: RoNIN: Robust Neural Inertial Navigation in the Wild
+Multi-IMU Navigation
+● The idea is to tackles the challenges of traditional inertial navigation systems, such as sensor drift and the
+limitations of step-based methods, by utilizing three neural network architectures: ResNet for efficient
+processing of sequential data, LSTM for capturing long-term dependencies, and Temporal Convolutional
+Networks (TCN) for handling temporal correlations over extended periods.
+6 Ref: RoNIN: Robust Neural Inertial Navigation in the Wild
+Results
+The results on the RoNIN paper dataset:
+7
+Results
+The results on our collected dataset in the first stage:
+8
+Research gap
+● Limited Exploration of Dual IMU Configurations: Existing research primarily focuses on single IMU
+systems, with insufficient investigation into the benefiits of dual IMU setups for enhanced accuracy and
+robustness in mobile devices.
+● Incocomplete Sensor Fusion Techniques: Current methods for fusing multiple IMU data streams lack
+optimization for real-time, low-overhead applications, particularly for dynamic configurations like foldable
+smartphones.
+● Calibration Challenges in Dynamic Environments: Online calibration methods for dual IMUs, especially
+in varying phone configurations (e.g., folded, unfolded), are underexplored, leading to potential
+inaccuracies in state estimation.
+● Optimal Placement Understudied: There is a lack of comprehensive studies on the optimal relative
+placement of dual IMUs to maxiimze performaance in pedestrian dead-reckooning (PDR) across diverse
+motion modalities.
+● Need for Robust Datasets: Existing datasets for dual IMU systems do not adequately capture transitions
+(e.g., pocket to handheld) or diverse motion categories (e.g., walking, running, cycling), limiting model
+generalization.
+9
+References
+1. [name], [name], & [name]. (2019). RONIN: Robust Neural Inertial Navigation in the Wild: Benchmark, Evaluations, & New
+Methods. 2020 IEEE International Conference on Robotics and Automation (ICRA), 3146-3152.
+doi:10.1109/ICRA40945.2020.9196860
+2. [name], [name], & [name]. (2018). IONet: Learning to Cure the Curse of Drift in Inertial Odometry. ArXiv,
+abs/1802.02209. doi:10.1609/aaaai.v32i1.12102
+3. [name], [name], [name], & [name]. (2020). TLIO: Tight Learned Inertial
+Odometry. IEEE Robotics and Automation Letters, 5, 5653-5660. doi:10.1109/LRA.2020.3007421
+4. [name], [name], [name], [name], & [name]. (2020). Deep-Learning-Based Pedestrian Inertial Navigation:
+Methods, Data Set, and On-Device Inference. IEEE Internet of Things Journal, 7, 4431-4441. doi:10.1109/JIOT.2020.2966773
+5. [name], [name], & [name]. (2021). IDOL: Inertial Deep Orientation-Estimation and Localization. AAAI Conference on
+Artificial Intelligence, 35(7), 6128-6137. doi:10.1609/aaaai.v35i7.16763
+10
+thx.

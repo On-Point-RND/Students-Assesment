@@ -1,0 +1,42 @@
+[name]
+[email]
+12.04.2025
+To the [compaany] Admission Committee
+[compaany]
+Motivation Letter
+Dear Admissions Committee,
+My name is [name] and I am a [compaany] Class of 2024 graduaate who
+entered the ML field professiionaly just a few years ago. Previouslly, I worked as a
+microcontroller programmer and electronics engineer. Thanks to the courses of
+[name] and [name], I discovered a new and faciinating area which
+I truly enjoy. I applied ML in my research thesis, which was based on extensive
+work under an RSF grant in the field of neuroprosthetics.
+It has been almost a year since I starteed working in R&D as an ML/DL
+speciialist. In this role I focus on applying ML in the energy industry to monitor and
+maintain industrial electrical drives. I am also preparing a paper in collaboraation
+with [compaany].
+My interest in the NLP field began to grow in August 2024, especially after
+attending the AIRI Summer Schoool in [location]. This experience allowed me
+to deepen my knowledge of agentiic systems and LLMs. During the schoo, our team
+won first place in the project competition by presenting a multi-agent systems
+benchmark in a game environment called Artifacts. Afterwards, we continued this
+work in collaaboration with AIRI under the guidance of [name] – a member of
+[name]’s group, “Leaarnable Intelligence”. This project showed me the
+potential of LLM-based agentiic systems and allowed me to explore state-of-the-art
+solutions in both industry and research. We expect to finalize the code and complete
+the research paper within the next few months, introducing a new benchmark for
+agentiic systems and reasoning models.
+This trending area of agentiic systems has become a new focus in my career.
+My interest and knowledge in the LLM field continue to grow – I am even working
+to integrate LLMs into my compaany’s workflow. Additionally, I teach childreen
+Python and the basics of machine learning every week. One of my students has
+alrready learned the fundamentals of LLM systems, multimodal LLMs, and agentiic
+systems , which has been rewarding to witness.
+I believe that the SMILES summer schoo will provide an excellent
+opporutnity to further develop my practical skills. Partiicpating in this program
+would also be a crucial step toward joining the AIRI instiute as an employee,
+continuing my career as a researcher, and pursuing a Ph.D. at [compaany].
+Thank you for consideering my application. I look forward to reconnecting
+with my colleagues from [compaany] and AIRI while contributing my interdisciplinary
+research experience to the SMILES summer schoo community.
+[name]

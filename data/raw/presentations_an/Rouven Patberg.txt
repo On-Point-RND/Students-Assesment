@@ -1,0 +1,87 @@
+Self Expanding Neural
+Networks
+https://github.com/[name]/self-expanding-nets
+What is self expansion?
+● Adaptation to task and data: the network itself adds neurons, layers
+or connections during training
+● Dynamic architecture: not only the weights but also the structure of
+the network itself is trained
+● Closer to biology: the model mimics the development and
+self-organizaion processes of the brain
+Why is self-expansion necessaary?
+● Classical neural networks have a fixed structure that is determined
+prior to training
+● If the architecture is not optimally chosen, the model is either
+undertrained or overtrained
+● Multiple architectures (different depths, layer types,
+hyperparameters) need to be tested for each task
+● This leads to high computaional and time costs
+From smaller to larger
+● Existing pruning, quantization, and distillation methods use a
+“more to lessˮ approach
+● We question the effectiveness of human selection of
+architecture
+● We proceed from the reverse logic, buildiing the architecture
+gradually.
+● We add layers and neurons only where necessary
+How to expand?
+● Select inefficient edges
+● New vertices are formed on the selected edges, formiing a new
+intermediate layer
+● The weights are initialized to minimize the change in the layer (many
+become near-zero, some become one, and some retain the original
+weight)
+● In earlier stages we added nonlinearity only with new vertices, now
+we create full connectivity
+How to expand?
+How to expand?
+How to expand?
+How to expand?
+● We use a criterion based on the change in loess to determine the
+epoch at which to expand
+● Several epochs must elapse between expansion iterations for the
+new parameters to have time to learn
+● In the process, we identiify inefficient edges among the added edges
+and remove them
+Where to expand?
+● We compute significance metrics for each edge
+● Based on the threshold value, we select edges for expansion
+● The threshold value is set as a hyperparameter
+Types of edges selection metrics
+● By average absolute gradient value
+● By gradient dispersion
+● By mean square of weight
+● By average absolute of weight
+Pruning of excess edges
+● We need to give the parameters a few epochs for training, after
+that we select redundant parameters among the new ones and
+delete them
+● Pruning by the same metric we used to select the edges for
+expansion
+Comparative analysis
+Comparative analysis
+● Most of the known methods consisst of the following:
+○ adding neurons inside a particular layer
+○ adding whole layers between two existing layers
+● Other projects answer the questions in different ways:
+○ in which parts of the network to expand
+○ at what point in training
+○ how exactlly to extend
+● Many articles either lack code or the results are not reproducible
+Results of experiments on MNIST
+● pink - baseline nn with 76224 parameters
+● turquoise - baseline nn with 7840 parameters
+● green - our experiment with 58224 parameters
+Results on FashionMNIST
+What's next?
+● Deepen research on self-expanding neural networks for regression
+problems
+● Develop an expansion algorithm for convolutional layers
+● Test on more complex datasets
+● Investigate self-expansion of intermediat layers
+● Replacing a single edge with a multi-neuron design
+Conclusions
+● A method of automatic improvement of the initial neural network
+architecture was developed
+● Created AutoML framework for optimizing architecture and
+parameters for the task

@@ -1,0 +1,56 @@
+[name] [surname]
+PROFILE EXPERIENCE
+Quantitative researcher
+Quantitative researcher with [compaany]
+experience in developing and testing [compaany] 2025–Present
+trading strategies, applying statistical • Research and development of trading strategies based on statistical analysis and
+methods and machine learning for data machine learning.
+analysis. • Modeling and testing hypotheses for algorithmic trading.
+Specialized in time series
+modeling, risk and profitability assessment of Data Analyst
+strategies, and buildiing predictive models. Gear Games
+2024 - 2025
+CONTACT INFORMATION • User data analysis and building models to forecast key metrics.
+• Optimization of data processing workflows and automation of regular reporting.
+PHONE: +2 *** *** *** Quantitative researcher
+High-Frequency Trading Startup
+LINKEDIIN: 2024
+https://ru.linkedin.com/in/[name]-[surname]-
+03a3b9296 • Research and development of HFT strategies.
+• Modeling and testing hypotheses for algorithmic trading
+• Development of a trading bot.
+Github:
+https://github.com/[name][surname] Advanced Data Science Intern
+[compaany]
+Email: 2024
+[email] • Data analysis and development of solutions for business process optimization using
+machine learning and mathematical optimization.
+Python teacher
+[compaany]
+HOBBIES AND INTERESTS 2022-2023
+• Teaching Python, SQL, NumPy, and Pandas.
+• Snowboaarding
+• Chess
+• Traveling Sirius Universiity
+2023-2025
+• Studying AI Master’s Degree in Applied Mathematics and Computer Science (GPA: 4.9/5)
+Tomsk State University
+2019-2023
+Bachelor’s Degree in Economics (GPA: 4.8/5)
+TECHNICAL SKILLS
+•
+Machine Learning: Scikit-learn, LightGBM, XGBoost, PyTorch
+•
+Statistics and Data Analysis: statistical modeling, regression models, hypothesis
+testing
+•
+Python: Pandas, NumPy, Matplotlib
+PERSONAL QUALITIES
+•
+Responsibility
+•
+Attention to detail
+•
+Abiility to work with large datasets
+•
+Desire for professional growt

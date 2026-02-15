@@ -1,0 +1,67 @@
+Dear Admissions Committee,
+My name is [name] [surname], and I am an Associate Professor of Radiology at the
+College of Medicine and Health Sciences at [location]. With a strong background in
+medicine, radiology, and computer science, I am eager to pursue graduate studies in Data
+Science to further enhance my ability to integrate advanced computational techniques into
+medical research and diagnostics. My motivation stems from a deep-seated passion for
+leveraging data-driven approaches to solve complex problems in healthcare, particularly in
+the fields of neuroradiology, psychophysiology, and medical imaging.
+I hold a PhD in Medicine and a degree in Computer Science, which have provided me
+with a unique interdisciplinary foundation. Over the years, I have developed expertise in
+diagnostic radiology, neuroradiology, and sports medicine, with a particular focus on using
+machine learning and artificial intelligence (AI) to analyse medical data. My research has
+centred on understanding normal brain ageing, cognitive decline, and neurodegenerative
+diseases, where I have applied machine learning models to predict cognitive impairment
+and dementia based on structural and functional brain markers.
+In my current role, I have led research projects that utilise AI and radiomics to improve
+diagnostic accuracy and patient outcomes. For example, I have developed models to predict
+the severity of CCOVID-19 pneumonia using lung CT scans and machine learning algorithms.
+Additionally, I have supervised students and researchers in cross-disciplinary studies that
+combine neuroscience, AI, and computer vision with exploring brain ageing and cognitive
+decline. These experiences have solidified my belief in the transformative potential of data
+science in healthcare.
+My motivation to pursue graduate studies in Data Science is driven by the desire to
+deepen my technical expertise in data analysis, machine learning, and predictive modelling.
+While I have successfully applied these techniques in my research, I recognise the need for a
+more formal and comprehensive understanding of the theoretical foundations and
+advanced methodologies in data science. This knowledge will enable me to design more
+robust and scalable models, particularly in the context of medical imaging and patient data.
+The intersection of medicine and data science is a rapidly evolving field, and I am
+particularly interested in exploring how advanced data science techniques can be used to
+improve early diagnosis, personalised treatment plans, and predict disease progression. For
+instance, I aim to develop more sophisticated models for detecting mild cognitive
+impairment (MCI) and Alzheimer’s disease by integrating multimodal data, including
+neuroimaging, genetic, and clinical data. I am also interested in exploring the ethical
+implications of AI in healthcare, particularly in terms of bias, fairness, and transparency in
+algorithmic decision-making.
+My research interests lie at the intersection of data science, neuroscience, and
+radiology. Specifically, I am interested in the following fields of study. The first one is
+“multimodal data integration”. Knowledge of this will help me to combine data from various
+sources (e.g., MRI, EEG, genetic data) to create comprehensive models for disease
+prediction and diagnosis. The second field is “radiomics and AI in medical imaging”.
+Practical skills in this field will allow me to develop AI-driven tools for extracting
+quantitative features from medical images and use them for predictive modelling. The third specific area
+is “ethical AI in healthcare” which includes investigating the ethical challenges of deploying
+AI in clinical settings, particularly in terms of bias, fairness, and patient privacy.
+In the long term, I aspire to lead a research lab that bridges the gap between data
+science and clinical medicine. I aim to develop innovative tools and algorithms that can be
+seamlessly integrated into clinical practice, ultimately improving patient care and outcomes.
+Additionally, I am committed to mentoring the next generation of researchers and clinicians,
+equipping them with the skills to harness the power of data science in healthcare.
+I am particularly drawn to your program because of its strong emphasis on
+interdisciplinary research and its focus on real-world applications of data science. The
+opportunity to work with faculty who are leaders in the field of healthcare analytics and
+machine learning is incredibly appealing. I am also excited about the prospect of
+collaborating with peers from diverse backgrounds, which will enrich my learning
+experience and broaden my perspective on the challenges and opportunities in data
+science.
+In conclusion, my academic and professional experiences have prepared me to tackle
+complex challenges at the intersection of medicine and data science. I am motivated by the
+potential of data science to revolutionise healthcare, and I am eager to contribute to this
+field through advanced research and innovation. I am confident that the graduate program
+in Data Science will provide me with the knowledge, skills, and network necessary to
+achieve my goals and make a meaningful impact in the field.
+Thank you for considering my application. I look forward to the opportunity to
+contribute to and grow within your esteemed program.
+Sincerely,
+[name] [surname] 19.04.2025

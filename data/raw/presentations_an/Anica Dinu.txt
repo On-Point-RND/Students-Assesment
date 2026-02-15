@@ -1,0 +1,111 @@
+            Multistep retrieval expands
+LLM context window
+Review
+[name]
+[surname], Skoltech
+Introduction
+Retrieval in LLMs – techniques and frameworks that serve for gatheriing and chaining together relevant
+informaation across 1 or multiple steps (hops) to answer complex questions. The retrieval process can be
+trackeed as Inner Monologue
+Why is it important?
+• Multistep retrieval is needed to solve real-world or
+specific-domain questions accurately up to the knowledge
+base, without hallucinations and second guessing.
+• It’s another way for pure interpretability
+Multistep retrieval
+Goal of the review
+Analyse and compaare last SOTA techniques that are used
+Retriever in IM-RAG pipeline
+to enhance the retrieval quality, interpretability and
+robustness. Formulate the hypothesis for future testing
+Problem statement
+The aim is to improve multi-hop retrieval for complex question answering. Retrieval goal is to get a chain of
+relevant documents across multiple steps to support deep, multi-step reasoning.
+Retrieval challenges
+• Cascade errors in multistep approaches – if early retrieval steps go wrong, downstream hops are
+compromised
+• Computational complexity of performiing the hop – we need to introduce additional context filteering
+methods to reduce it
+• Possible retrieval biasness
+Scope
+• This review compares Beam-retriever and IM-RAG frameworks.
+• Also, it includes the observation of possible improvements taken from SUGAR and Knowledge enhanced
+contextual word representations papers
+• Finally, the possible real-world application (political bias mitigation) is discussed
+Methods (frameworks)
+1. Beam-retrieval
+• At each hop it selects relevant passages using beam search. At each step, it combines previous context
+with new passages and maintains the top-k most promising.
+• DeBERTa-based encoder and configurable (but static) beam size are used. The linear layers for hop-wise
+binary classification are used
+• Benchmarks used in the paper: HotpotQA, MuSiQue-Ans, 2WikiMultihopQA
+2. IM-RAG (Inner Monologues RAG)
+• A multi-round retrieval system where an LLM thinks step-by-step via inner monologue (IM) to decide
+whether it has enough information to answer a question or needs to query more. This must enable
+dynamic and interpretable retrieval
+• Consists of Reasoner + Retriever + Refiiner + Progress Tracker.
+Reasoner (LLM) starts by reading the question and generating an initial query, then Retriever fetches top-k
+passages and Refiiner reranks them. A Progress Tracker scores how close each retrieved doc is to the gold
+context using cosine similarity, and gives step-wise rewards to optimize Inner Monologue (IM) behavior.
+• The Questioning phase is trained via PPO, the Answering phase is trained with SFT using collected IM
+dialogues and reference answers.
+• Benchmarks used in the paper: HotpotQA
+Methods (features)
+SUGAR (Semantic Uncertainty Guided Adaptive Retrieval)
+● Dynamically adapts its retrieval strategy based on the LLM’s confidence in different parts of the
+context
+● Continuously monitors the model’s confidence level when processing retrieved passages,
+identiifying areas where the model expresses uncertainty or low confidence. When uncertainty is
+detected, the system automatically generates more refined queries targeting the specific
+knowledge gaps.
+● This approach is adaptable and can be used in previously discussed frameworks
+Knowledge enhanced contextual word representations
+● The model retrieves entities from Knowledge Bases, updates contextual word representations via
+attention, and propa gates entity-aware information through transformer layers.
+● Uses KnowBert, entity linking
+Results
+• Beam-retriever maintains top candidate paths through beam search.
+Performs well both in ordered and unordered gold reasoning paths cases.
+• IM-RAG learns when and how to ask through RL and inner monologue.
+Provides high flexibility and interpretability
+• SUGAR dynamically triggers retrieval based on semantic uncertainty.
+Outperforms static and adaptive retrieval in both single- and multi-hop QA
+• KnowBert’s entity linking and attention mechanisms ensure contextual
+coherence, it efficiency allows scaling to large KBs—critical for iterative
+retrieval in RAG.
+Metrics used: Exact Match, F1-score (useful for partial correctness),
+accuracy, retrieval steps / inference time (for adaptive methods like SUGAR,
+efficiency is a major factor).
+Beam-retrieval performaance
+IM-RAG performaance on HotpotQA SUGAR performaance
+Research gap
+Limitations
+• Beam-retriever has a static beam-size limitation for amount of passages retrieved. IM-RAG partially solves it, but it’s
+training is expensive
+• SUGAR lacks structured reasoning for how to chain information
+Unresolved challenges:
+• Where to stop retrieval process? How to measure the optimal volume of context needed?
+• How to work with biasness?
+• How to pre-filter the context wisely?
+We need to solve these problems, because they cause instability of the model. Impr improving retrieval control, speed, and
+reasoning transparency will make these systems more robusst, trustworthy, and deployable across industries.
+Future opportunities
+● Incorporate SUGAR ideas into Beam-retriever or IM-RAG baseline, try KnowBert
+● Incorporate retrieval confidence calibration into IM decision-making
+● Use self-improoving retrieval (e.g., feedback loops from the Reasoner to tune the Retriever)
+● Challenge the model in sensitive topics to measure its biasness and learn how to mitigate it
+using additional retriever frameworks (SUGAR, Knowledge Enhanced Contextual Word
+Representaions, pre-filtering, adaptive candidate selection, strategies for retriever iterations)
+Bibliography
+1. [name], [surname] and [surname]. (2024). IM-RAG: Multi-round retrieval-augmmented generation through
+learning inner monologues. In Proceedinings of the 47th International ACM SIGIR Conference on Research and Development in Informaation Retrieval,
+pages 730–740, New York, NY, USA. ACM.
+2. [name], [surname] and [surname]. (2024). End-to-end beam retrieval for multihop question answering. In Proceedinings of the
+2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long
+Papers), pages 1718–1731, Stroudsburg, PA, USA. Association for Computational Linguistics.
+3. [name], [surname] and [surname]. (2025). SUGAR: Leveraging Contextual Confidence for Smarter Retrieval. 10.48550/arXiv.2501.04899.
+4. [name], [surname] et al., “Knowledge Enhanced Contextual Word Representaions,” Empirical Methods in Natural Language Processing, Sep. 2019, doi:
+https://doi.org/10.18653/v1/d19-1005.
+5. [name], [surname] et al., “AT-RAG: An Adaptive RAG Model Enhancing Query Efficiency with Topic
+Filtering and Iterative Reasoning,” arXiv (Cornell University), Oct. 2024, doi: https://doi.org/10.48550/arxiv.2410.12886.
+6. [name], [surname] et al., Meta knowledge for retrieval augmented large language models. arXiv preprint arXiv:2408.09017.

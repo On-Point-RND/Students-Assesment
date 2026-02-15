@@ -1,0 +1,670 @@
+{
+  "Academic Achievements": {
+    "question": "How many academic competitions or olympiads has the candidate won?",
+    "count": 1
+  },
+  "Publication Record": {
+    "question": "How many peer-reviewed publications or conference papers has the candidate authored or co-authored?",
+    "count": 18
+  },
+  "Leadership Experience": {
+    "question": "Has the candidate demonstrated leadership in academic or professional settings?",
+    "count": 5
+  },
+  "Tech Stack Breadth": {
+    "question": "How many different programming languages and tools does the candidate list?",
+    "count": 17
+  },
+  "Work Experience Level": {
+    "question": "How many years of professional work experience does the candidate have?",
+    "count": 48
+  },
+  "Education Level": {
+    "question": "What is the highest level of education completed by the candidate?",
+    "count": 99
+  },
+  "Technical Skills": {
+    "question": "Which advanced programming languages and tools does the candidate proficiently use?",
+    "count": 14
+  },
+  "Relevant Experience": {
+    "question": "How many years of experience does the candidate have in AI or machine learning roles?",
+    "count": 1
+  },
+  "Advanced Degrees": {
+    "question": "How many advanced degrees does the candidate possess?",
+    "count": 12
+  },
+  "Work Experience Duration": {
+    "question": "How many months of work experience does the candidate have?",
+    "count": 62
+  },
+  "Tech Stack Diversity": {
+    "question": "How many unique technologies does the candidate list in their tech stack?",
+    "count": 12
+  },
+  "Conference Presentations": {
+    "question": "How many conference presentations does the candidate have?",
+    "count": 5
+  },
+  "Publication Quality": {
+    "question": "How many peer-reviewed publications does the candidate have?",
+    "count": 9
+  },
+  "Educational Background": {
+    "question": "Does the candidate have a strong educational background in the field?",
+    "count": 1
+  },
+  "Research Leadership": {
+    "question": "How many research projects has the candidate led?",
+    "count": 5
+  },
+  "Project Experience": {
+    "question": "How many distinct projects has the candidate worked on?",
+    "count": 23
+  },
+  "Publications and Acceptances": {
+    "question": "How many publications or accepted papers does the candidate have?",
+    "count": 58
+  },
+  "Competitive Programming Awards": {
+    "question": "How many competitive programming awards does the candidate have?",
+    "count": 3
+  },
+  "Relevant Coursework": {
+    "question": "How many relevant coursework does the candidate have?",
+    "count": 10
+  },
+  "Teaching Experience": {
+    "question": "How many teaching experiences does the candidate have?",
+    "count": 7
+  },
+  "Technical Skills Breadth": {
+    "question": "How many distinct technical skills does the candidate list?",
+    "count": 64
+  },
+  "Work Experience Relevance": {
+    "question": "How many of the candidate's work experiences are directly relevant to the job's required skills?",
+    "count": 1
+  },
+  "Technical Skills Depth": {
+    "question": "How many specific technical skills and tools does the candidate list?",
+    "count": 21
+  },
+  "Competition Participation": {
+    "question": "How many machine learning competitions has the candidate participated in?",
+    "count": 1
+  },
+  "Degree Specialization": {
+    "question": "Does the candidate have a degree specialized in AI?",
+    "count": 1
+  },
+  "Research Experience": {
+    "question": "How many research projects has the candidate completed?",
+    "count": 12
+  },
+  "Programming Languages": {
+    "question": "How proficient is the candidate in programming languages relevant to the job?",
+    "count": 1
+  },
+  "Competitive Programming Experience": {
+    "question": "How many years of competitive programming experience does the candidate have?",
+    "count": 1
+  },
+  "Mathematical Skills Listed": {
+    "question": "How many specific mathematical skills does the candidate list?",
+    "count": 1
+  },
+  "Programming Languages Mentioned": {
+    "question": "How many programming languages does the candidate mention?",
+    "count": 12
+  },
+  "Project Leadership": {
+    "question": "How many projects has the candidate led?",
+    "count": 16
+  },
+  "Industry Experience": {
+    "question": "How many years of industry experience does the candidate have?",
+    "count": 1
+  },
+  "Competition Awards": {
+    "question": "How many competition awards does the candidate have?",
+    "count": 8
+  },
+  "Project Awards": {
+    "question": "How many awarded projects does the candidate have?",
+    "count": 3
+  },
+  "Publication Citations": {
+    "question": "How many citations do the candidate's publications have?",
+    "count": 3
+  },
+  "Scholarship Awards": {
+    "question": "How many scholarships has the candidate been awarded?",
+    "count": 1
+  },
+  "Education Quality": {
+    "question": "How many degrees does the candidate have from top-tier universities?",
+    "count": 1
+  },
+  "Technical Achievements": {
+    "question": "How many patents or significant technical contributions has the candidate made?",
+    "count": 2
+  },
+  "Publications and Conferences": {
+    "question": "How many publications and conferences has the candidate participated in?",
+    "count": 11
+  },
+  "Industry Focus": {
+    "question": "How many years of experience does the candidate have in the oil and gas industry?",
+    "count": 2
+  },
+  "Language Proficiency": {
+    "question": "How many languages does the candidate have professional working proficiency in?",
+    "count": 4
+  },
+  "Educational Focus": {
+    "question": "How closely does the candidate's education align with the target role?",
+    "count": 12
+  },
+  "Project Portfolio": {
+    "question": "How many completed projects does the candidate have in their portfolio?",
+    "count": 3
+  },
+  "Work Experience Detail": {
+    "question": "How well does the candidate describe specific achievements and impacts in their work experience?",
+    "count": 4
+  },
+  "Hackathon Participation": {
+    "question": "How many hackathons has the candidate participated in?",
+    "count": 3
+  },
+  "Project Impact": {
+    "question": "How many projects does the candidate list that include quantifiable results?",
+    "count": 2
+  },
+  "Project Complexity": {
+    "question": "How many complex projects has the candidate completed that involve advanced machine learning or data science techniques?",
+    "count": 8
+  },
+  "Technical Specialization": {
+    "question": "In which technical area does the candidate have the most expertise?",
+    "count": 3
+  },
+  "Education Relevance": {
+    "question": "How well does the candidate's education directly relate to the job requirements?",
+    "count": 7
+  },
+  "Project Depth": {
+    "question": "How many advanced, specialized projects has the candidate completed?",
+    "count": 2
+  },
+  "Competition Performance": {
+    "question": "How many competitions has the candidate participated in and what were the outcomes?",
+    "count": 4
+  },
+  "Academic Focus": {
+    "question": "How does the candidate's academic background align with the job requirements?",
+    "count": 3
+  },
+  "Publications vs Projects": {
+    "question": "Does the candidate have more academic publications or completed projects?",
+    "count": 1
+  },
+  "Project Experience Type": {
+    "question": "What types of projects has the candidate worked on?",
+    "count": 1
+  },
+  "Mentoring Experience": {
+    "question": "Has the candidate mentored other engineers or students?",
+    "count": 1
+  },
+  "PhD Progress": {
+    "question": "Has the candidate completed a PhD or is currently pursuing one?",
+    "count": 1
+  },
+  "Team Leadership": {
+    "question": "How many teams has the candidate led?",
+    "count": 4
+  },
+  "Publications and Presentations": {
+    "question": "How many peer-reviewed publications and conference presentations does the candidate have?",
+    "count": 40
+  },
+  "Advanced Technical Skills": {
+    "question": "How well does the candidate demonstrate expertise in advanced technical skills specific to their field?",
+    "count": 6
+  },
+  "Relevant Degree": {
+    "question": "Does the candidate have a degree in a relevant field?",
+    "count": 5
+  },
+  "Professional Format": {
+    "question": "Does the candidate present their resume in a professional format with clear sections for education, experience, and skills?",
+    "count": 1
+  },
+  "Technical Projects": {
+    "question": "Has the candidate completed technical projects that demonstrate their skills in areas like machine learning, web development, or software engineering?",
+    "count": 4
+  },
+  "Relevant Work Experience": {
+    "question": "Can the candidate provide examples of relevant work experience in the field of finance or technology?",
+    "count": 1
+  },
+  "Education Progress": {
+    "question": "What is the candidate's current level of education and expected graduation date?",
+    "count": 1
+  },
+  "Academic Achievement": {
+    "question": "What is the candidate's highest level of education completed and their GPA?",
+    "count": 4
+  },
+  "Competition Wins": {
+    "question": "How many major competitions has the candidate won?",
+    "count": 5
+  },
+  "Work Experience Type": {
+    "question": "Does the candidate have research experience in academia?",
+    "count": 2
+  },
+  "Relevant Education": {
+    "question": "Does the candidate have a degree in a relevant field such as linguistics or computer science?",
+    "count": 1
+  },
+  "Machine Learning Tools": {
+    "question": "How many essential machine learning tools is the candidate experienced in?",
+    "count": 2
+  },
+  "Project Details": {
+    "question": "Does the candidate provide specific details about completed robotics projects?",
+    "count": 1
+  },
+  "Education Format": {
+    "question": "How clearly does the candidate present their education history?",
+    "count": 1
+  },
+  "Project Detail Level": {
+    "question": "How well does the candidate describe their research projects and contributions?",
+    "count": 1
+  },
+  "Skill List Organization": {
+    "question": "How well does the candidate organize and present their technical skills?",
+    "count": 1
+  },
+  "Academic Performance": {
+    "question": "How well does the candidate perform academically?",
+    "count": 8
+  },
+  "Technical Skills Listed": {
+    "question": "How many specific technical skills related to machine learning and data analysis does the candidate list?",
+    "count": 1
+  },
+  "Technical Proficiency": {
+    "question": "How proficient is the candidate in advanced machine learning frameworks?",
+    "count": 2
+  },
+  "Education Focus": {
+    "question": "What is the candidate's primary field of study?",
+    "count": 2
+  },
+  "Contact Information": {
+    "question": "Does the candidate provide clear and multiple contact details?",
+    "count": 3
+  },
+  "Structured Experience": {
+    "question": "Does the candidate present job experience in a structured, chronological format?",
+    "count": 1
+  },
+  "Detailed Projects": {
+    "question": "Does the candidate include detailed descriptions of projects with specific outcomes?",
+    "count": 1
+  },
+  "Research Interests": {
+    "question": "How clearly does the candidate articulate their research interests and academic focus?",
+    "count": 1
+  },
+  "Machine Learning Experience": {
+    "question": "Can the candidate show significant experience in machine learning frameworks and projects?",
+    "count": 1
+  },
+  "Education Completeness": {
+    "question": "Has the candidate completed their most recent degree?",
+    "count": 3
+  },
+  "Research Focus": {
+    "question": "How well does the candidate's research focus align with the job requirements?",
+    "count": 5
+  },
+  "Production Deployment": {
+    "question": "How many times has the candidate deployed models to production?",
+    "count": 2
+  },
+  "Competitions": {
+    "question": "How many first-place finishes in competitions does the candidate have?",
+    "count": 1
+  },
+  "Publication Impact": {
+    "question": "How many publications does the candidate have in Q1 journals?",
+    "count": 1
+  },
+  "Project Relevance": {
+    "question": "How relevant are the candidate's projects to the desired role or field?",
+    "count": 2
+  },
+  "AI Integration Focus": {
+    "question": "How extensively does the candidate demonstrate experience in AI integration and development?",
+    "count": 1
+  },
+  "Continuous Learning": {
+    "question": "Can the candidate demonstrate a commitment to continuous learning and skill development?",
+    "count": 1
+  },
+  "Quantum Machine Learning": {
+    "question": "How many years of experience does the candidate have in quantum machine learning?",
+    "count": 1
+  },
+  "Publications as First Author": {
+    "question": "How many publications has the candidate authored as the first author?",
+    "count": 1
+  },
+  "Document Type": {
+    "question": "Is the document a job offer letter or a resume?",
+    "count": 2
+  },
+  "Technical Detail Level": {
+    "question": "How many technical details does the candidate provide about their projects and skills?",
+    "count": 2
+  },
+  "Section Structure": {
+    "question": "Does the document follow a clear resume section structure (e.g., Education, Work Experience, Projects)?",
+    "count": 1
+  },
+  "Startup Involvement": {
+    "question": "How many startups has the candidate co-founded or significantly contributed to?",
+    "count": 1
+  },
+  "Achievement Metrics": {
+    "question": "How many quantifiable achievements (e.g., percentages, awards, grants) does the candidate list?",
+    "count": 2
+  },
+  "Professionalism and Tone": {
+    "question": "How professional is the candidate's resume tone?",
+    "count": 1
+  },
+  "Skill Clarity": {
+    "question": "How clearly does the candidate list their skills?",
+    "count": 2
+  },
+  "Resume Content Quality": {
+    "question": "How much relevant content does the candidate include in their resume?",
+    "count": 1
+  },
+  "Hackathon Achievements": {
+    "question": "How many hackathon awards does the candidate have?",
+    "count": 2
+  },
+  "Educational Degrees": {
+    "question": "How many degrees has the candidate completed?",
+    "count": 1
+  },
+  "Work Experience Details": {
+    "question": "Does the candidate provide detailed descriptions of past roles and achievements?",
+    "count": 1
+  },
+  "Degree Program": {
+    "question": "What is the candidate's degree program?",
+    "count": 1
+  },
+  "PhD Supervision": {
+    "question": "How many PhD students has the candidate supervised?",
+    "count": 1
+  },
+  "Advanced ML Courses": {
+    "question": "How many advanced machine learning courses has the candidate completed?",
+    "count": 1
+  },
+  "Project Management": {
+    "question": "How many projects has the candidate led from ideation to implementation?",
+    "count": 1
+  },
+  "GPA Scale": {
+    "question": "What is the scale of the candidate's GPA?",
+    "count": 1
+  },
+  "Education Details": {
+    "question": "How many degrees and what are the thesis topics of the candidate?",
+    "count": 1
+  },
+  "Technical Experience": {
+    "question": "How many years of relevant technical experience does the candidate have?",
+    "count": 3
+  },
+  "AI Research Experience": {
+    "question": "How much AI research experience does the candidate have?",
+    "count": 1
+  },
+  "Competitive Experience": {
+    "question": "How many competitive programming or data science challenges has the candidate participated in and won?",
+    "count": 1
+  },
+  "Education Background": {
+    "question": "Does the candidate have a relevant educational background?",
+    "count": 1
+  },
+  "Advanced Data Structures": {
+    "question": "Does the candidate have experience with advanced data structures and algorithms?",
+    "count": 1
+  },
+  "Conference Attendance": {
+    "question": "How many academic conferences has the candidate attended?",
+    "count": 2
+  },
+  "Programming Proficiency": {
+    "question": "How proficient is the candidate in programming languages relevant to the role?",
+    "count": 4
+  },
+  "Project and Publication Details": {
+    "question": "How many specific projects, articles, or presentations does the candidate mention?",
+    "count": 1
+  },
+  "Reinforcement Learning Experience": {
+    "question": "How many years of experience does the candidate have in reinforcement learning?",
+    "count": 1
+  },
+  "Research Experience Duration": {
+    "question": "How many years of research experience does the candidate have?",
+    "count": 6
+  },
+  "AI Specialization": {
+    "question": "How well does the candidate demonstrate expertise in specific AI subfields?",
+    "count": 1
+  },
+  "Optimization Expertise": {
+    "question": "How well does the candidate demonstrate expertise in optimization techniques and tools?",
+    "count": 1
+  },
+  "Software Development Experience": {
+    "question": "How many years of professional software development experience does the candidate have?",
+    "count": 1
+  },
+  "Project and Competition Achievements": {
+    "question": "How many significant projects, competitions, or awards does the candidate have related to their field?",
+    "count": 1
+  },
+  "Technical Skills Specificity": {
+    "question": "How specific and advanced are the candidate's technical skills related to the job?",
+    "count": 3
+  },
+  "Expected Graduation Year": {
+    "question": "What is the candidate's expected graduation year?",
+    "count": 1
+  },
+  "Project Focus": {
+    "question": "How many of the candidate's projects are focused on AI and machine learning?",
+    "count": 1
+  },
+  "Quantified Impact": {
+    "question": "How well does the candidate quantify the impact of their work?",
+    "count": 1
+  },
+  "Citation Metrics": {
+    "question": "What is the candidate's H-index and total sum of times cited?",
+    "count": 1
+  },
+  "Achievements and Projects": {
+    "question": "How many notable achievements or projects, such as hackathons or publications, does the candidate have?",
+    "count": 1
+  },
+  "Professional Certifications": {
+    "question": "How many professional development courses or certifications does the candidate have?",
+    "count": 3
+  },
+  "Education Section Clarity": {
+    "question": "Can the candidate clearly list their educational background with proper formatting and dates?",
+    "count": 1
+  },
+  "Recent Education": {
+    "question": "How recently did the candidate complete their most advanced degree?",
+    "count": 1
+  },
+  "Technical Depth": {
+    "question": "How many different technical domains does the candidate have observable experience in?",
+    "count": 1
+  },
+  "Technical Leadership": {
+    "question": "Has the candidate held a technical leadership role?",
+    "count": 1
+  },
+  "Machine Learning Focus": {
+    "question": "How extensively does the candidate demonstrate expertise in machine learning, particularly in specialized areas like recommendation systems and graph-based learning?",
+    "count": 1
+  },
+  "Project Diversity": {
+    "question": "How many diverse projects has the candidate completed that demonstrate practical application of skills?",
+    "count": 2
+  },
+  "Work Experience Role": {
+    "question": "What is the most senior role held by the candidate in their work experience?",
+    "count": 1
+  },
+  "International Exposure": {
+    "question": "Has the candidate worked or studied in multiple countries?",
+    "count": 1
+  },
+  "Specialized Projects": {
+    "question": "How many projects has the candidate completed that demonstrate advanced technical skills or research?",
+    "count": 1
+  },
+  "Publications Topic": {
+    "question": "How relevant are the candidate's published articles to the job role?",
+    "count": 2
+  },
+  "Research Field": {
+    "question": "In which primary research field does the candidate specialize?",
+    "count": 1
+  },
+  "Work Experience": {
+    "question": "How much relevant work experience does the candidate have?",
+    "count": 1
+  },
+  "Quantum Computing Focus": {
+    "question": "Does the candidate have experience in quantum computing?",
+    "count": 1
+  },
+  "Conference Participation": {
+    "question": "How many conferences has the candidate participated in?",
+    "count": 2
+  },
+  "Competition Success": {
+    "question": "How many times has the candidate placed in the top three in relevant competitions?",
+    "count": 1
+  },
+  "Project Repository Links": {
+    "question": "How many project repository links does the candidate provide?",
+    "count": 1
+  },
+  "Education and Honors": {
+    "question": "What degrees and honors does the candidate have?",
+    "count": 1
+  },
+  "Research Duration": {
+    "question": "How many years of continuous research experience does the candidate have?",
+    "count": 1
+  },
+  "Research Project Scope": {
+    "question": "Can the candidate show a history of conducting diverse and advanced research projects?",
+    "count": 1
+  },
+  "Machine Learning Specialization": {
+    "question": "Does the candidate have a specialization or significant coursework in machine learning?",
+    "count": 1
+  },
+  "Public Speaking Experience": {
+    "question": "How many public speaking engagements has the candidate participated in?",
+    "count": 1
+  },
+  "Technical Focus": {
+    "question": "How well does the candidate demonstrate expertise in AI and machine learning, specifically in speech and audio processing?",
+    "count": 1
+  },
+  "Specialized AI Skills": {
+    "question": "How well does the candidate demonstrate specialized skills in AI, particularly in large language models and multimodal models?",
+    "count": 1
+  },
+  "Clear Work Experience": {
+    "question": "Does the candidate have clear and relevant work experience in their field?",
+    "count": 1
+  },
+  "Relevant Skills": {
+    "question": "How well does the candidate demonstrate skills relevant to the job?",
+    "count": 1
+  },
+  "Achievements and Impact": {
+    "question": "Can the candidate provide specific achievements and measurable impacts from previous roles?",
+    "count": 2
+  },
+  "GPA Consistency": {
+    "question": "How consistently high are the candidate's GPAs across different programs?",
+    "count": 1
+  },
+  "Geophysics Expertise": {
+    "question": "How well does the candidate demonstrate specialized knowledge in geophysics?",
+    "count": 1
+  },
+  "Professional Role": {
+    "question": "What is the candidate's most recent professional role?",
+    "count": 1
+  },
+  "Academic Experience": {
+    "question": "How many years of academic experience does the candidate have?",
+    "count": 1
+  },
+  "Advanced Language Proficiency": {
+    "question": "How many languages does the candidate speak at an advanced level (B2 or higher)?",
+    "count": 1
+  },
+  "Practical Experience": {
+    "question": "How many years of practical experience does the candidate have in machine learning and NLP?",
+    "count": 1
+  },
+  "Team Management Experience": {
+    "question": "How many years of team management experience does the candidate have?",
+    "count": 1
+  },
+  "Hackathon Performance": {
+    "question": "How many hackathons has the candidate won?",
+    "count": 1
+  },
+  "Education and Skills": {
+    "question": "How well does the candidate list their education and technical skills?",
+    "count": 1
+  },
+  "Specialized Skills": {
+    "question": "How many specialized machine learning and deep learning skills does the candidate list?",
+    "count": 1
+  },
+  "Specialized AI Hardware": {
+    "question": "Has the candidate worked with specialized AI hardware, such as NPU/TPU modules?",
+    "count": 1
+  }
+}

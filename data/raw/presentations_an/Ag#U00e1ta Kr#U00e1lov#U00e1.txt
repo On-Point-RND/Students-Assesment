@@ -1,0 +1,146 @@
+Multimodal
+Ego-Walk
+Navigation Dataset
+[name]
+Research technician,
+[compaany], Mobile Robotics Lab.
+Introduction
+• What is the topic?
+➔ Modern robots are equipped with a
+variety of sensors, but still have
+difficulty moving in social spaces;
+➔ A multimodal approach is the key to
+bridging this gap by combining
+different data sources to create a
+holistic picture of the world around us.
+Introduction
+• Why is it important?
+➔ Nowadays autonomous robots are
+infiltrating society in more and more
+fields. Like, delivery, street cleaning,
+security and etc;
+➔ To ensure the safety of both the robot's
+movements and the people around it, it
+is essential to develop a multimodal
+approach that covers various aspects
+of interaction and guarantees safety;
+➔ This challenging task we trying to solve
+in our laboratory.
+Introduction
+• Goal of project
+➔ Exisiting approaches to navigation rely on isolated data sources, missing the whole picture.
+Localization accuracy drops by 50% in conditions of sudden transitions of shadow and light,
+characteristic of the urban environment [1];
+➔ Modern research focuses on multimodal learning methods that allow the recovery of lost data from
+one sensor through information from others. This approach allows you to increase the localization
+accuracy by 80% [2];
+➔ Therefore, we decided to develop a comprehensive dataset from the egocentric perspective of a
+person integrating multiple modalities in various social situations and environmental conditions.
+Because the availability of such data will allow us to train modern solutions using AI for navigation
+algorithms.
+Problem statement
+• What exactly are we solving?
+➔ The "frozen robot" problem: Robots becoming immobilized in crowded areas moving
+unnaturally among humans [3];
+➔ Data gap: Insufficient real-world, multimodal data from human perspective that
+captures the nuances of social navigation;
+➔ Embodiment mismatch: Humans navigate using different motion mechanics than
+wheeled/trackeed robots [4];
+➔ Lack of contextual understanding: Current robots can detect obstacles but cannot
+interpret social cues or unwritten rules.
+Problem statement
+• Challenges
+➔ Sensor integration: Synchronizing multiple data
+streams with different sampling rates without time drift [3];
+➔ Environmental diversity: Capturing sufficient
+variation in social contexts (casual, rush,
+neutral) and physical spaces;
+➔ Manual annotation complexity: Labor-intensive
+process of labeling social interactions [3];
+➔ Privacy concerns: Collecting data in public
+spaces while respecting privacy regulations.
+Methods
+• Approach: Data collection Process
+➔ Scope and Scale:
+15 human volunteers with diverse
+◆
+walking patterns;
+100+ unique locations across
+◆
+[location];
+Approximately 200 hours of raw
+◆
+video footage;
+Year-Round Data Collection
+◆
+covering different weather
+condiitions.
+Methods
+• Approach: Data collection Process
+➔ Custom Hardware Platform:
+Developed proprietary recording system
+◆
+based on Stereolabs ZED X stereo camera
+technology [5];
+Processing powered by ZED Box edg
+◆
+computing platform with NVIDIA Jetson [5];
+➔ Technical Advantages:
+HD-quality stereo vision (1920×1200 res.);
+◆
+Integrated high-performa performance IMU for precise
+◆
+motion tracking;
+Direct integration with ZED SDK allowing
+◆
+real-time spatial tracking
+Methods
+• Data & preprocessing:
+➔ Initial Data: Human-walking recordings captured ➔ Semantic Analysis:
+with wearable stereo cameras ◆ RAM [6] + DINO [7] for full scene segmentation
+➔ ZED SDK Processing: Converting raw sensor ◆ Owl-VIT [8] + SAM [9] for face blurring
+data into three parallel streams: ◆ CogVLM [10] for generating object labels
+◆ Human-walking video recordings ◆ LLM model from HF for Flood Filtration
+◆ Depth maps
+◆ Trajectory data
+◆ Results
+Results
+Results
+Results
+Research gap
+• Future opportunities: Suggest next steps.
+With our comprehensive Multimodal Ego-Walk Navigaition Dataset now available, we are
+positioned to address the core challenges of robot social navigation:
+• Model Training: Develop and train specialized navigation models that can understand and
+apply human-like navigation behaviors in social contexts
+• Multi-modal Fusion: Research optimal architectures for integrating diverse sensory inputs
+(visual, spatial, motion) to create coherent navigation policies
+• Context-aware Decision Making: Train models to distinguish between different social
+scenarios (rush, casual, congested) and adapt navigation strategies accordinglly
+• Evaluation Framework: Create standardized testing procedures to compaare robot navigation
+performa performance against human benchmarks
+Bibliography
+[1] - Qu Y, Yang M, Zhang J, Xie W, Qiang B, Chen J. An Outline of Multi-Sensor Fusion
+Methods for Mobile Agents Indoor Navigaation. Sensors (Basel). 2021 Feb 25;21(5):1605. doi:
+10.3390/s21051605. PMID: 33668886; PMCID: PMC7956205.
+[2] - Patel, Naman, et al. "Sensor modality fusion with CNNs for UGV autonomous driving in
+indoor environments." 2017 IEEE/RSJ International Conference on Intelligent Robots and
+Systems (IROS). IEEE, 2017.
+[3] - Nguyen, Duc M., et al. "Toward human-like social robot navigation: A large-scale,
+multi-modal, social human navigation dataset." 2023 IEEE/RSJ International Conference on
+Intelligent Robots and Systems (IROS). IEEE, 2023.
+[4] - Liang, Jing, et al. "GND: Global Navigation Dataset with Multi-Modal Perception and
+Multi-Category Traversability in Outdoor Campus Environments." arXiv preprint
+arXiv:2409.14262 (2024).
+[5] - https://www.stereolabs.com/en-ru/products/zed-x
+[6] - Zhang, Youcai, et al. "Recognize anything: A strong image tagging model."
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024
+[7] - Liu, Shilong, et al. "Groundiing dino: Marrying dino with groundeed pre-training for
+open-set object detection." European Conference on Computer Vision. Cham: Springer Nature Switzerland, 2024.
+Bibliography
+[8] - Minderer, Matthias, et al. "Simple open-vocabulary object detection." European
+conference on computer vision. Cham: Springer Nature Switzerland, 2022.
+[9] - Kirillov, Alexander, et al. "Segment anything." Proceedings of the IEEE/CVF
+international conference on computer vision. 2023.
+[10] - Wang, Weihan, et al. "Cogvlm: Visual expert for pretrained language models."
+Advances in Neural Informaation Processing Systems 37 (2024): 121475-121499.

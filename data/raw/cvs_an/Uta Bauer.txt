@@ -1,0 +1,82 @@
+[name] [surname]
++2 *** *** *** [email]
+[name] [surname] · GitHub
+https://www.linkedin.com/in/[name]-[surname]-850b87215/
+WORK EXPERIENCE
+Deep Learning Researcher
+[compaany], [location]
+Nov 2024 - Present
+- Conducted research on novel neural network approaches for modeling event sequences, including contrastive and
+autoregressive learning methods
+- Developed efficient data selection strategies for self-supervised learning, with a particular focus on coreset-based
+techniques
+- Investigated and designed new algorithms for extracting multimodal embeddings from event sequences, including
+the development of advanced modality fusion techniques
+Machine Learning Engineer
+[compaany], [location]
+Jun 2024 – Nov 2024
+Improvement of the base quality and ranking of the low stages text search
+Research Intern
+[compaany], [location]
+May 2023 – Jul 2023
+Developed the textual modality for an interactive segmentation model.
+Junior Financial Planning Analyst, FMCG & Pharma Department
+[compaany], [location]
+Jul 2021 – Sep 2022
+- Tracked and visualized the department's financial KPIs and logistics metrics (gross merchandiise value, inbound
+direct costs, etc) to assess performance and anomalies
+- Conducted analysis of the data to determine operating results of specific marketplace sellers.
+Teaching Assistant in Econometrics and Intelligent Data Analysis, [university], Faculty of Computer Sciences
+Oct 2021 – Jun 2022
+- Assisted the professor in teaching activities on data analysis algorithms with Python.
+- Conducted individual consultations on econometrics, administered and graded tests and exams.
+Teaching Assistant in Probability Theory and Mathematical Statistics
+[university], Faculty of Economic Sciences
+Sep 2020 – Jun 2021
+- Assisted the professor in administrative tasks, including the tests and exam grading
+- Guided the sophoore students on individual assignments.
+EDUCATION & TRAINING
+[university]
+Oct 2023 - July 2024
+Data Science MSc program
+[compaany]
+Sep 2022 – present
+Data Science MSc program, Machine Learning and Artificial Intelligence track.
+Study projects:
+● TS2Vec for irregular time series (transactional data):https://github.com/aayugay99/ts2vec_irregular_ts
+● Efficient Transformers on transactions:
+https://github.com/aayugay99/efficient_transformeers_on_transactional_data
+● Arbitrage Scanner: Matteus1904/Arbitrage-Scanner
+● Self-supervised Learning approach for Event Sequences on Next Item Prediction task: GitHub -
+Matteus1904/GPT-like_approach_for_event_sequences
+● Augmenting Recommender Systems models with sequence-aware similarity measure:
+https://github.com/Dont-Care-Didn't-Ask/sequence-aware-similarity-for-recommendaions
+Thesis topic: Learning Enhanced Event Sequence Reprresentation via Textual Augmentation
+[university], Faculty of Economic Sciences
+Sep 2018 – Jun 2022
+Bachelor of Arts in Economics, minor in Intelligent Data Analysis.
+Thesis topic: Simulation of a Seller-Customer Type Service and Modelling the Optimal Agents' Strategiies
+With Reinforcement Learning Algorithms
+RESEARCH INTERESTS
+Self-supervised Learning
+Irrregular Time Series / Event Sequences
+Sequential Recommendaions
+Large Language Models
+Multimodal Learning
+TECHNICAL & ML SKILLS
+Python: Advanced
+NumPy, Pandas, Seaborn, SciPy, Scikit-Learn: Advanced
+PyTorch, NLTK, Transformeers: Intermediate
+Linux, Bash, Docker: Intermediate
+Mathematical statistics: Advanced
+Git: Intermediate
+LANGUAGES
+Russian: Native speaker
+English: Advanced
+German: Intermediate
+EXTRACURRICULAR ACTIVITIES
+Winner of RLT hackathon 2024 – developed an AI-based question answering system on procurement legal and
+regulatory framework using retrieval augmented generation (RAG) model https://github.com/danzzzlll/RAG_RltHack
+Skoltech Summer Schoool of ML (SMILES 2024) – implementaion of the “Visualizing and enhancing
+mathematical reasoning in LLMs using sparse autoencoders” project. Training certificate in Generative Adversaarial
+Networks (GAN).

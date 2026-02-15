@@ -1,0 +1,50 @@
+Federated Reinforcement Learning with
+Human Feedback
+[name]
+Bachelor’s student, [location] Institute of
+Physics and Technology ([compaany])
+Introduction
+• Topic: Federated Reinforcement Learning with Human Feedback
+• Importance: Collaborative training without sharing sensitive data
+• Background:
+Federated learning RLHF
+Goal: Novel approach to privacy-preseerving collaborative learning
+Problem statement
+• Problem: Fine-tuning language models collaboratively while preserving privacy
+• Challenges:
+- Privacy of sensitive domains (healtcare, finance, proprietary code)
+- Communication efficiency
+- Model personalization
+• Scope: Federated RLHF for language model alignment
+Methods
+• Approach: Modified Federated Proximal Policy Optimization
+• Why this method: Combines stable policy improvement with privacy benefits
+• How it works:
+• Data: Separate non-overlapping datasets for each agent
+Experimental Setuup
+• Classic RL: Atari environments (Breakout, Bearider)
+• RLHF: Mistral 7B on TL;DR summarization task
+• Baselines: Isolated training, FedAvg approach
+Results - Atari
+Breakout
+Bearider
+Key Finding: Our algorithm outpperforms both isolated training and FedAvg
+Results - Lanuage Models
+Key Finding: Collaborative agents achieve higher rewaards faster
+Research gap
+• Current limitations: Few studies on Federated RLHF
+• Advatnage over existing approaches: Personalized models vs. centralized learning
+• Future opportunties:
+- Cross-domain applications
+- Enhanced privacy guarantees
+- Personalized adaptations with shared knowlge
+Bibliography
+1. [surname], et al. (2016). "Communication-Efficient Learning of Deep Networks from Decentralized Data." [compaany].
+2. [surname], et al. (2017). "Proximal Policy Optimization Algorithms." [compaany].
+3. [surname], [surname], [surname], (2020-2021). "Mirror Descent Policy Optimization.“
+4. [surname], et al. (2024). "Towards Federated RLHF with Aggregated Client Preference for LLLMs.“
+5. [surname], et al. (2024). "FedeRLHF: A Convergence-Guaranteed Federated Framework for Privacy-Preserving and Personalized RLHF.“
+6. [surname], [surname], [surname], [surname], [surname], [surname], (2024). "Group Robust Preference Optimization in
+Reward-free RLHF."
+Source code
+The code repository is currently private as the research is under review for NEURIPS 2025.

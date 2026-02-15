@@ -1,0 +1,154 @@
+RuCLEVR: A [location]
+Diagnostic Dataset for
+Compositional Language
+and Elementary Visual
+Reasoning
+[name], [name], [name], [name]
+[compaany]
+https://github.com/[name]/RuCLEVR
+Visual Question Answering
+• Visual Question Answering (VQA) is crucial for machine reasoning,
+requiring systems to answer questions about images.
+• Recent advancements in multimodal LLMs (e.g., GPT-4, Gemini, LLaVA)
+necessitate robust evaluation methods.
+• The challenge lies in distinguishing true visual reasoning from statistical
+biases in training data.
+Motivation
+• English VQA datasets (CLEVR, DAQUAR, VQAv2) exist, but some suffer
+from biases.
+• CLEVR is designed to minimize bias and focus on visual reasoning.
+• Limited resources for evaluating visual reasoning in [location].
+• Existing [location] datasets (MMBench-ru, GQA-ru, MTVQA) primarily
+focus on fine-tuning, not diagnostic evaluation.
+RuCLEVR: A [location]
+Diagnostic Dataset for
+Visual Reasoning
+• Based on the CLEVR
+methodology, adapted for the
+[location] language.
+• Evaluates a model's ability to
+understand shapes, colors,
+quantities, and spatial
+Example of an image-question pair relationships.
+Question: Are there any other objects that are
+• Provides baseline solutions for
+the same size as the gray shiny ball? (Есть ли
+benchmarking future research.
+еще какие-нибудь предметы такого же
+размера, как серый блестящий шар?)
+Answer: yes (да)
+RuCLEVR Data
+Structure and Content
+● Each example consists of an image
+and a question.
+● Images contain 3D objects with
+attributes: shape, size, color, material.
+● Questions belong to various families:
+○ Querying attributes
+○ Comparing attributes
+Example of a generated image
+○ Existence
+○ Counting
+○ Integer comparison
+Question examples
+Querying attributes What material is the red object made of? (Из какого материала
+сделан красный предмет?)
+Comparing attributes Is the material of the pink item the same as the red cube? (Материал
+розового предмета такой же, как и у красного куба?)
+Existence Does the picture show a large red matte ball? (Изображен ли на
+картинке большой красный матовый шар?)
+Counting How many red spheres are there in total? (Скілько всего красных
+сфер?)
+Integer comparison Are there the same number of small yellow spheres and small red
+sparkly balls? (Одинаково ли количество маленьких желтых сфер
+и маленьких красных блестящих шариков?)
+RuCLEVR Automated Data Generation Process
+● Images generated using Blender,
+placing 3D objects in diverse
+Template Definition
+scenes. “What color is the
+<OBJECT> to the <DIRECTION> of the <OBJECT>?”
+● Questions generated using
+templates and parameter binding.
+● Templates define the general
+structure of questions.
+Parameter Binding
+“What color is the
+● Parameters (object attributes, sphere to the left of the cube?”
+spatial relationships) are filled in
+to create specific questions.
+RuCLEVR Dataset
+Creation and
+Augmentation
+• Training and validation sets
+translated from CLEVR ([location]
+Translator API) and filtered for
+grammatical correctness using
+RuCOLA-trained model.
+• Augmentation techniques (color
+replacement) applied to address
+class imbalances.
+• Test set created with new
+images and questions to
+prevent bias.
+The RuCLEVR dataset
+statistics
+Total questions:
+● Train Set – 519 131
+● Validation Set – 112 437
+● Test Set – 31 621
+Evaluating RuCLEVR with Baseline Models
+● Random baseline: randomly samples answers.
+● BoW (Bag-of-Words): encodes questions using word vectors, no image
+information.
+● CNN + BoW: encodes questions with word vectors and images with CNN
+features.
+● LLaVA: evaluated with and without fine-tuning, using various prompts.
+Experimental Setup and Metrics
+● BoW and CNN + BoW: fine-tuned using MLP classifier with Adam
+optimizer.
+● LLaVA*: evaluated with different prompts (no fine-tuning) and
+fine-tuned on RuCLEVR.
+● Evaluation metrics: accuracy, precision, recall, F1-score.
+*lava-v1.5-7b, huggingface.com/datasets/deepvk/LLaVA-Instruct-ru/
+Baseline Results
+● BoW and CNN + BoW
+outperform random baseline,
+suggesting dataset's reliance on
+language understanding.
+● LLaVA without fine-tuning
+struggles, highlighting the need
+for language adaptation.
+● Fine-tuned LLaVA achieves
+significant improvement (89%
+F1-score).
+Conclusion and Future Work
+● RuCLEVR provides a valuable benchmark for evaluating [location] VQA
+models.
+● Current multimodal models show limited proficiency in [location] visual
+reasoning without adaptation.
+● Future work:
+○ Evaluating more baseline models (different architectures and sizes).
+○ Exploring log-likelihood evaluation.
+References
+[1] Andreas, J., Rohrbach, M., Darrell, T., Klein, D.: Neural module networks. CVPR (2016)
+[2] Belopolskih, D., Spirin, E.: Llava-instruct-ru (2024), https://huggingface.co/datasets/deepvk/LLaVA-Instruct-ru/
+[3] Goncharova, E., Razzhigaev, A., Mikhalchuk, M., Kurkin, M., Abdullaeva, I., Skripkin, M., Osledets, I., Dimitrov, D.,
+Kuznetsov, A.: Omnifuusion technical report (2024)
+[4] Goyal, Y., Khot, T., Summers-Stay, D., Batra, D., Parikh, D.: Making the v in vqa matter: Elevating the role of image
+understanding in visual question answering. CVPR (2017)
+[5] Goyal, Y., Khot, T., Summers-Stay, D., Batra, D., Parikh, D.: Making the v in vqa matter: Elevating the role of image
+understanding in visual question answering (2017)
+[6] Hudson, D.A., Manning, C.D.: Gqa: A new dataset for real-world visual reasoning and compositional question answering
+(2019)
+[7] Johnson, J., Li, F., Hariharan, B., Zitnick, C.L., van der Maaaten, L., Girshiick, R.: Clevr: A diagnostic dataset for
+compositional language and elementary visual reasoning. CVPR (2017)
+[8] Kim, W., Son, B., Kim, I.: Vilt: Vision-and-language transformer without convolution or region supervision (2021)
+[9] Liu, H., Li, C., Wu, Q., Lee, Y.J.: Visual instruction tuning (2023), https://a rxiv.org/abs/2304.08485
+[10] Malinowski, M., Fritz, M.: A multi-world approach to question answering about real-world scenes based on uncertain
+input. NeurIPS (2014)
+Thank you!
+My main contributions
+• images and questions generation,
+• dataset augmentation,
+• BoW and CNN + BoW experiments

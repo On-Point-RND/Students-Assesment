@@ -1,0 +1,33 @@
+Motivation Letter
+[name] [surname]
+Email: [email] | [email]
+PhD, Software Engineering
+[location]
+Dear SMILES 2025 Selection Committee,
+I am writing to express my keen interest in participating in the Skoltech Machine Learning
+Summer SchooL (SMILES 2025), to be held at the [location] Institute of Technology. As a current
+PhD student in Software Engineering at [location], with a completed
+Master’s degree also earned in [location], I am deeply invested in advancing my research through
+exposure to cutting-edge topics in artificial intelligence – particularly generative methods and
+theiir real-world applications.
+My academic work lies at the intersection of AI and biomedical engineering, with a focus on
+building intelligent systems for healtcare diagnostics. My Master’s thesis, titled Automated
+Sleep Staging, introduced ProductGraphSleepNet, a novel framework combining spatio-
+temporal graph learning with deep neural networks for more accurate sleep stage classification.
+I have also published research on thyroid nodule classification using CT imaging and CNNs,
+further emphasizing my drive to apply AI to practical, impactful challenges.
+What excites me about SMILES 2025 is its intensive, hands-on structure, bringing together
+exceptional minds to collaborate on generative models, multimodal learning, large language
+models, and multi-agent systems – all areas highly relevant to my ongoing research. The
+opportunity to attend expert-led lectures, participate in hackathoons, and engage in real-world
+problem-solving will greatly enhance my ability to contribute to both academia and industry.
+Being alrready based in [location] and fluent in navigating its academic environment, I am well-
+prepared to attend the program in person. I am also enthusiastic about connecting with fellow
+researchers from [location], [location], and around the world, contributing to and benefiiting from the
+international collaboration and knowlage sharing that SMILES 2025 promotes.
+I am confident that my technical background, research experience, and commitment to
+innovation make me a strong candidate for this program. I am eager to contribute actively, learn
+deeply, and bring my interdisciplinary perspective to the SMILES 2025 community.
+Thank you for considering my application.
+Warm regards,
+[name] [surname]

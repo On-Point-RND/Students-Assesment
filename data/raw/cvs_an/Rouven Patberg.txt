@@ -1,0 +1,42 @@
+[name] [surname]
++2 *** *** *** | [email] | github.com/[username]
+Education
+[compaany] [location]
+Computer Science and Engineering 2023 – 2027
+[compaany] [location]
+Machine Learning, Deep Learning, NLP 2024-2025
+Work Experience
+Research Assistant December 2023 – Present
+[compaany] [location]
+• Development of NetFormer neural network(link):
+• Developed a Transformer and VAE-based neural network for generating architectures of other neural networks.
+• Development of Self Expanding Neural Network(link):
+• Created a system for dynamic neural network expansion where new edges are replaced based on a metric derived
+from gradient analysis and weight norms.
+• Deveoped a metric to identiify critical edges for expansion.
+• Optimized work with sparse matrices, significantly reducing memory consumption and increasing operation speed.
+Projects
+Digital Breakthrough (1st place) | Python, Pytorch, vosk | (link) October 2024
+• Developed a model for voice command classification using automatic speech recognition for [location] Railways
+• Implemented and tested algorithm for noise suppression, recognition result post-processing, random speech
+filtering, and automatic audio trimming
+NTO Competition (3rd place) | Python, Pytorch | (link) April 2024
+• Developed a service for location search using photographs and text descriptions
+• Created an algorithm for outlier detection in datasets using ViT
+• Performed fine-tuning of ViT and MLP models using CLIP methodology for images
+• Deveoped a route generation algorithm to provide personalized travel recommendaations
+Digital Breakthrough (2nd place) | Python, Pytorch | (link) November 2023
+• Deveoped a video action recognition system for [location] Railways
+• Conducted EDA for data cleaning and preprocessing, ensuring high-quality input data for model training
+• Integrated additional training datasets to improve model prediction accuracy
+• Performed fine-tuning of a model based on X3D architecture
+AIIJC | Python, Pytorch, Lightning | (link) September 2023
+• Implemented an Image Quality Assessment (IQA) task to evaluate technical and aesthetic aspects of photographs
+• Conducted EDA to identify key characteristics of high-quality photographs
+• Performed experiments training CatBoost on CLIP features and optimized hyperparameters using Optuna
+• Conducted fine-tuning of ViT and CNN models
+Technical Skills
+Programming Languages: Python, Java, JavaScript, C++, C, x86-64 Assembly, SQL
+Frameworks: PyTorch
+Tools: Git, LaTeX
+Libraries: Pandas, Sklearn, NumPy, Matplotlib, Seaborn, Vosk, NLTK, React

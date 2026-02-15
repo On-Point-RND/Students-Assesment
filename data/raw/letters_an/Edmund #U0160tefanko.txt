@@ -1,0 +1,28 @@
+Motivational Letter
+[name] [surname]
+April 2025
+Introduction
+My name is [name], and I am just beginning my challenging yet incredibly exciting journey in machine learning. During my first year at [compaany], I had the opportunity to choose a specialization for my engineering practicum and subsequent internship. After careful consideration, I decided to focus on deep learning for neural networks in smart surveillance cameras, capable of recognizing and classifying objects using artificial intelligence.
+This topic fascinated me due to its relevance and versatility. Neural networks are now used everywhere—from personal assistants to industrial solutions. I believe that computer vision is one of the most promising areas of machine learning, and I want to contribute to its advancement.
+My Experience in Machine Learning
+So far, I have participated in two projects related to training AI for surveillance cameras. The first project involved developing a model for object detection and classification in static conditions. The second project focuses on improving real-time tracking algorithms for moving objects.
+Currently, I am working on a third project that processes a live video feed from an advanced camera installed near a UAV and aircraft flight zone. Our system must:
+ Automatically detect objects in the frame.
+ Classify them (e.g., distinguish drones, birds, airplane).
+ Determine their characteristics (speed, trajectory, size).
+ Provide access to data via an interactive interface.
+This project requires not only expertise in deep learning but also an understanding of neural network optimization for real-time processing and skills in handling big data.
+My Learning Goals
+I aim to deepen my knowledge in the following areas:
+ Computer Vision – studying modern architectures (YOLO, Faster R-CNN, Vision Transformers) and adapting them to specific tasks.
+ Unsupervised Learning – exploring clustering methods and generative models (GANs, VAEs) for unlabeled data.
+ Dimensionality Reduction – applying PCA, t-SNE, and autoencoders for efficient data representation.
+ Model Optimization – quantization, distillation, and TinyML for edge devices.
+Additionally, I want to improve my framework skills (PyTorch, TensorFlow, OpenCV) and cloud platform proficiency (AWS, Google Cloud, NVIDIA Jetson).
+Career Prospects
+In the future, I see myself in one of the following roles:
+ Research Scientist – developing new computer vision algorithms.
+ ML Engineer – deploying models in real-world systems (smart cities, autonomous vehicles).
+ Data Scientist – analyzing data to enhance model performance.
+ Tech Lead in a Startup – creating innovative AI and IoT solutions.
+I am confident that machine learning is the future of technology, and I want to be part of this breakthrough.

@@ -1,0 +1,52 @@
+## ProcrustesGPT: Compressing LLLMs with Structured Matrices and Orthogonal Transformations
+
+This document summarizes the research paper "ProcrustesGPT: Compressing LLLMs with Structured Matrices and Orthogonal Transformations" by Ekaterina Grishin, Mikhail Gorbunov, and Maxim Rakhuba.
+
+**Core Problem:** Large Language Models (LLMs) with billions of parameters pose challenges for deployment due to their massive size and computational demands.
+
+**Proposed Solution:** The paper introduces ProcrustesGPT, a novel approach to compress LLMs by leveraging structured matrix factorizations and orthogonal transformations.
+
+**Key Concepts:**
+
+* **Kronecker Product:** A way to combine multiple matrices into a single larger matrix. This allows for representing the model's weight matrices as a sum of smaller, more manageable Kronecker products.
+* **Group and Shuffle (GS) Matrices:** Another type of structured matrix that offers efficient and accurate training.
+* **Orthogonal Parametrization:** Utilizing orthogonal matrices to further reduce the dimensionality of the model's parameters.
+* **Embedding and Head Weighting:**  The method can selectively compress embedding layers and attention head weights, allowing for a balance between compression ratio and performance.
+* **Zero-shot Performance:** The compressed models (ProcrustesGPT) aim to maintain the generation and zero-shot performance of the original, dense models without requiring additional fine-tuning.
+
+**Methodology:**
+
+ProcrustesGPT employs several techniques:
+
+1. **Structured Matrix Factorization:**  It utilizes Kronecker products and GS matrices to decompose the large weight matrices of the LLM into smaller, more manageable blocks.
+2. **Orthogonal Transformation:**  Orthogonal matrices are applied to further reduce the dimensionality of the factors obtained from the factorization.
+3. **Selective Compression:** The method allows for controlling the compression ratio by choosing the type of structured factorization (Kronecker or GS) and the extent of compression applied to different parts of the model (embeddings and head weights).
+4. **Embedding and Head Weighting:** The paper explores the impact of compressing embedding layers and attention head weights separately.
+5. **Optimization in Frobenius Norm or Weighted Norm:** The optimization process aims to minimize the difference between the original and compressed weights, either in the Frobenius norm or a weighted norm, to preserve model accuracy.
+
+**Experimental Results:**
+
+The paper presents extensive experimental results on various LLMs (OPT-13b, Llama2-7b, Llama2-13b) using datasets like ARC, Hellaswag, PQA, and Winogrande. The results demonstrate that ProcrustesGPT achieves significant compression ratios while maintaining competitive performance compared to the original dense models and existing compression methods like SliceGPT.
+
+* **Compression Ratios:** ProcrustesGPT achieves compression ratios ranging from approximately 15% to over 80%, depending on the model and the compression method used.
+* **Performance:** The compressed models maintain a high level of performance, often achieving comparable or even better results than the original dense models in zero-shot settings.
+* **Efficiency:** The compression process does not require additional recovery fine-tuning, making it a more efficient approach.
+
+**Key Findings:**
+
+* ProcrustesGPT provides a highly effective method for compressing LLMs.
+* The use of structured matrix factorizations and orthogonal transformations allows for significant reduction in model size.
+* The method maintains strong performance in zero-shot settings.
+* It offers a practical solution for deploying LLMs with limited computational resources.
+
+**Future Work:**
+
+The paper suggests potential future work including exploring more advanced structured factorization techniques and investigating the impact of ProcrustesGPT on other types of neural network models.
+
+**References:**
+
+The document includes references to the following relevant research papers:
+
+* SliceGPT: Compress large language models by deleting rows and columns.
+* Monarch: Expressive structured matrices for efficient and accurate training.
+* Group and Shuffle: Efficient Structured Orthogonal Parametrization.

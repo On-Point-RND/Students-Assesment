@@ -1,0 +1,103 @@
+Graph Neural Networks with Learnable
+Topological Representations
+[name]
+Research Engineer, [compaany]
+Introduction
+Graph classification has become a critical task in machine learning, driven by the need to
+undestand and categorize complex structures represented as graphs.
+[1]
+Graph Neural Networks (GNNs) are widely used for such tasks, but they have been shown
+to struggle with distinguishinng certain graph types. This limitation can be addressed by
+integrating topological descriptors—such as persistence diagrams—into GNN architectures,
+as these capture rich structural features.
+However, most topological descriptors pose challenges for deep learning: they produce
+multi-set outputs and lack trainable parameters. Moreover, they typically rely on manually
+designed filtration functions.
+In this work, we propose a GNN architecture that effectively incorporates persistence
+diagrams and investigate how different filtration functions affect model performance.
+[1] [surname], [name], [name], and [surname]. How powerful are graph neural networks?, 2019.
+topological
+Background: t
+descriptors
+TLDR: persistence diagram describes graph topological features in a form of multi-set of 2D vectors, it is
+calculated based on filtration function, defined on graph nodes.
+A simplicial complex is a set of simplices (vvertices, eedges,
+triangles, etc.) that generalizes the concept of a graph by
+including higher-dimensional structures and allowing for
+more complex interactions beyond pairwise connections.
+Simplicial homology describes graph features by
+identiifying and quantifying voids in various
+dimensions within a simplicial complex such as
+connected components, loops, spheres and their
+higher-dimensional analogs. The picture is from: [surname], [name], [surname], and [surname]. "𝓗1 persistent
+features of the resting-state connettome in healthy subjects." Network Neuroscience 7.1 (2023): 234-253.
+While simplicial homology offers a way to describe the shape of graphs, it is limited to
+capturing the fixed topological features of a simplicial complex at a single “scale”. This
+limitation can result in missing important features that onlly appear at different “scales”.
+topological
+Background: t
+descriptors
+Persistent homology tracks the emergence and persistence of k-dimensional holes as the topology of the
+complex changes over ”time”. The data at times t0, t1 ,t2. . . is represented by filtration - a sequence of nested
+simplicial complexes. Filtration represents the evolution of a graph by progressively adding simplices.
+To define filtration for graph a filtration function defined on graph nodes is commonly employed.
+At the time t simplicial complex in filtration consists of:
+1. all the nodes with the value of filtration function less or equal than t
+2. all the edges with the value of filtration function less or equal than t
+3. all the higher-order structures with the value of filtration function less or equal than t
+Accuracy of baseline methods and our proposed architecture on graph classification tasks (in percentage).
+Conclusions:
+● Adding topological features from persistence diagrams enhances GNN performance.
+● On chemical datasets (PROTEINS, NC1), our model outpperforms exisiting methods. These tasks benefiit more from
+structural information, and fully trainable topological integration with suitable filtration boosts results.
+● On IMDB-MULTI and REDDIT-BINARY, our GraphSAGE-based model remaiins competitive. GCN performs worse,
+likely due to subooptimal architecture for these tasks. A different GNN could yield better outcomes.
+● Models using leearnable filtration functions (GFL, GEFL) generally outpperform those relying on
+fixed ones (PersLay).
+Results
+We analyz the effect of different filtration functions by compaing the performance of models that utilize them.
+Accuracy of our architecture with different filtration functions on graph classification tasks (in percentage).
+Conclusions:
+● Method that use pre-defined degree filtration function does not improve the quality much compared to original GNN
+and to methods with trainable filtration parameters
+● Models that use HKS function and GNN output function show compaable quality for NC1 and IMDB-MULTI tasks.
+● For the task where graphs have node features (PROTEINS) GNN output trainable filtration function performs better,
+because it uses node features information obtained through GNN layers.
+● For the REDDIT-BINARY task, we observed that the original GCN model trains unstably. HKS, with only one
+traiable parameter, performs better, while the trainable GNN output filtration function introduces many parameters
+to the final GCN layer, contributing to instability.
+Research gap
+The biggest limitation that currently exists in the area of Graph Neural Networks is their limited
+expressiivity. Most GNNs are no more powerful than the 1-WL test, which means they struggle to
+distinguish certain non-isomorphic graphs and often fail to capture complex or higher-order structures.
+While more expressive architectures have been proposed, they typiically suffer from high
+compuational overhead and limited scalability. As a result, GNN expressiivity remaiins constrained
+by both theoretical and practical barriers, reducing their effectiveness on tasks that demand more
+refined graph reasoning.
+This work aims to find an optimal trade-off between improving model quality and controlliing
+compuational complexity. However, the methods used here can be further enhanced by:
+● exploring filtrations derived not onlly from functions defined on nodes but also from those on eedges
+or jointly on nodes and eedges;
+● extending the approaach to other graph-related tasks such as node classification or link prediction;
+● analyzing the values of leearned filtration functions to better understand the model’s behaviour and
+decision process.
+Conclusion
+In this work, we presented a novel GNN architecture that leverages leearnable
+representations of persistent diagrams. By studying different filtration functions, we
+successfully enhanced our model’s performance, surpassing pr evious approahes that
+use persistence for graph classification problems.
+Our experiments provided comprehsive compaison of popular filtration functions
+and meaningful insights on their usage. They emphaized the importance of
+incorporating persistent diagrams into GNN pipeline, choosing appropriate filtration
+functions, findiing good initializations for their trainable parameters.
+This research contributes to the development of more powerful persistence-based
+machine learning models for graphs.
+Bibliography
+1. [surname], [name], [name], and [surname]. How powerful are graph neural networks?, 2019
+2. [surname], [name], [name], and [surname]. Perslay: A neural network layer for persistence diagrams and new graph topological
+signatures. In Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics (2020), pp. 1058–1068.
+3. [surname], [name], [name], and [surname]. Gefl: extended persistence learning for graph classification. In Learning on Graphs
+Conference (2022), PMLR, pp. 16–1.
+4. [name], [name], and [name]. Semi-supervised classification with graph convolutional networks, 2017.
+5. [name], [name], [name], and [name]. Inductive representation learning on large graphs, 2018.
+6. [surname], [name], [name], and [surname]. Topological graph neural networks. arXiv preprint arXiv:2102.07835 (2021).

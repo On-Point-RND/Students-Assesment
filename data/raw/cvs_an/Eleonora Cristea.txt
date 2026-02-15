@@ -1,0 +1,36 @@
+Computational Linguist
+Education
+[location] State [compaany] named after [name] [surname]
+Направление: Theoretical and Applied Linguistics
+Degree: Bachelor’s degree
+Graduation year: 2024
+Work experience
+[compaany] (September 2024 – February 2025)
+NLP Researcher
+● Preprocessing datasets and exploratory data analysis
+● Creating prompts and testing them
+● Model error analysis
+Research interests
+● NLP, machine learning, data science
+Key Skills
+● proficiency in Python, knowledge and experience with the main set of libraries for data analysis and machine
+learning: numpy, pandas, scikit-learn, tensorflow, python, matplotlib
+● Know how to train neural networks (convolutional, recurrent, transformer)
+● strong command in NLP
+● SQL knowledge
+● Extensive experience in working with large language models (Lms), have skills in prompt engineering
+● способен в сжатые сроки обрабтать большой объем информации, усвоить новые знания
+Experience in project work
+LLM Coding Challenge Hackathon (April 2025)
+● Development of an LLM assistant for an agricultural holding [compaany]
+● Local model deployment (Mistral 7B and Llama 3.1 8B)
+● Working with YaGPT via API
+AutoIntent case study at the [compaany] [compaany] workshop on artificial intelligence
+● Development of LLM classifier pipeline for automatic classification of user requests
+● Application of classical ML methods for classification
+● Using PEFTs for faster transformer models (BERT) training
+● Classification quality assessment
+Automatic short text clustering using transformer models
+● RuBERT fine-tuning for the news text clusterisation task
+● Automatic text data markup using LLM via API
+● Clustering quality assessment

@@ -1,0 +1,85 @@
+Slide 1
+----------------------------------------
+[name] [surname] 
+[position], [compaany]
+Generative Molecular Design for Medicinal Chemistry Using AI Platform FREED++
+
+
+Slide 2
+----------------------------------------
+Introduction
+
+In June 2023, [compaany]'s drug INS018_055, designed to treat idiopathic pulmonary fibrosis, became the first drug entirely discovered and designed by AI to reach phase 2 clinical trials.
+The company also has two other drugs in clinical trials that were partially created using AI:
+For the treatment of CCOVID-19
+For the treatment of solid tumors
+
+Drug discovery
+
+Classical approach
+7-10 years
+
+Using AI
+from 18 months
+
+Drug
+Our goal is to develop an AI-driven platform to generate novel drug candidates optimized for therapeutic efficacy, intellectual property potential, and manufacturability.
+Every 20th woman faces breast cancer
+
+
+Slide 3
+----------------------------------------
+Problem statement
+
+Traditional drug discovery is time-consuming and inefficient. Existing AI models often neglect patentability and synthesizability.
+Our Solution: A generative AI model (FREED++) that simultaneously optimizes:
+ Activity: Molecular docking (AutoDock Vina) + ML-based pharmacophore analysis.
+ Patentability: Patent database screening (collaboration with [compaany]).
+ Synthesizability: Retrosynthetic accessibility prediction.
+
+Focus on ERα antagonists for hormone-dependent cancers.
+
+
+Slide 4
+----------------------------------------
+Methods
+
+Generative Architecture: Modified FREED++ (Neural Optimal Transport-based framework).
+Data Integration: ChemDiv (1.3M compounds), Enamine (200k), proprietary patent data.
+Preprocessing: SMILES canonicalization, deduplication, RDKit fingerprinting, batch processing.
+Why FREED++?
+Proven success: Won the Neftekod Hackathon by adapting FREED++ for antioxidant prediction.
+Flexibility: Combines molecular docking, ML, and patent analysis in one pipeline.
+
+
+Slide 5
+----------------------------------------
+Results
+
+Generated 1,000 novel molecules, with Top-10 ranked by QED (drug-likeness) and DockingScore.
+Zero overlap with PubChem (Top-100 molecules), ensuring patentability.
+Molecules sent to [compaany] for experimental testing.
+Metrics:
+QED: Quantitative Estimate of Drug-likeness.
+DockingScore: Binding affinity to ERα (PDB: 1ERE).
+
+
+Slide 6
+----------------------------------------
+Research gap
+
+Current Limitations:
+Limited integration of ADME/Tox data (e.g., CYP450 inhibition, hERG cardiotoxicity).
+Scalability issues with large datasets (>1.5M molecules).
+Future Opportunity is to implement multimodal AI (diffusion models + LLLMs) for enhanced generative accuracy.
+
+
+Slide 7
+----------------------------------------
+[name], A., et al. Neural Optimal Transport. ICLR 2023.
+[name], E., et al. Topological Data Analysis for Speech Processing. InterSpeech 2023.
+FREED++ Documentation. [compaany], 2024.
+[compaany] Medicine. Case Study: INS018_055. 2023.
+
+
+Bibliography

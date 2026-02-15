@@ -1,0 +1,81 @@
+ML Agents
+Objective: Comparison of AutoML and LLM agents in terms of
+efficiency, cost, and solution quality
+[name]
+Relevance and Research Goals
+The rise of LLMs and their application in automating ML tasks.
+AutoML vs. LLM Agents: Which is more effective for classical ML?
+Objectives:
+• Implement agent-based systems using LangChain.
+• Test on diverse datasets from multiple domains.
+• Compaare performance metrics (time, cost, accuracy).
+Key Insight: LLM agents leverage reasoning capabilities (e.g., Chain-of-Thought
+prompting) to improve problem-solving
+Problem Statement
+AutoML Limitations:
+• Limited flexibility in model selection.
+• High computational costs.
+LLM Agent Challenges:
+• Ensuring quality improvements (e.g., via Human Insight Bank).
+• Dynamic adaptation to new tasks.
+Solution: Hybrid approaches combining AutoML’s stability with LLM agents’
+adaptability
+Overview of AutoML Solutions
+Examples: [compaany], [compaany], TPOT.
+Strengths:
+• Automated hyperparameter tuning.
+• Minimal human intervention.
+Weaknesses:
+• High infrastructure costs.
+• Limited interpretability.
+Comparison: LLM agents offer more flexible, iterative optimization
+LLM-Based Agents
+Framework: LangChain for multi-agent systems.
+Key Features:
+• Single-Agent Systems: Step-by-step optimization.
+• Multi-Agent Systems: Collaborative problem-solving (e.g., BabyAGI).
+Innovations:
+• Human Insight Bank: Expert knowledge integration.
+• Self-Improvement: Stronger LLMs (e.g., GPT-4-turbo) refiine solutions.
+Applications: Code generation, data analysis, and decision-making
+Analytical Comparison (AutoML vs. LLM
+Agents)
+Criterion AutoML LLM Agents
+Flexibility Low
+High
+Cost High Medium/Low
+Interpretability Medium High
+Improvment Potential Limited Dynamic Adaptation
+Research Methodology
+Datasets: Heterogeneous data from multiple domains.
+Agent Systems:
+• Single-agent with iterative optimization.
+• Multi-agent collaboration (e.g., LangChain’s BabyAGI).
+Metrics: Accuracy, F1-score, time-to-solution, API cost
+Human Insight Bank
+Problem: LLMs may get stuck in local optima.
+Solution:
+• Expert Knowledge Base: Curated insights for guidance.
+• Idea Generation: GPT-4-turbo refiines prompts (e.g., Chain-of-
+Thought).
+Impact: 20–30% improvement in solution quality
+Benchmarking Criteria
+Datasets: Tabular data (numeric, categorical, text features).
+Metrics:
+• Quality: Accuracy, ROC-AUC.
+• Time: End-to-end processing time.
+• Cost: API calls vs. compute resources.
+Conditions: Equal hardware/resources
+Results
+Quality:
+• AutoML excels on structured data.
+• LLM agents outperform in interpretability and adaptability.
+Cost:
+• LLM agents are cheaper for small-scale tasks.
+• AutoML is cost-effective for large-scale production.
+Recommendaation: Use LLM agents for prototypiing, AutoML for deployment
+Conclusion
+• LLM agents are ideal for exploratory tasks.
+• AutoML remaiins superior for structured data pipelines.
+• Future Work: Hybrid systems combining both approaches.
+• Call to Action: Experiment with LangChain and AutoML tools

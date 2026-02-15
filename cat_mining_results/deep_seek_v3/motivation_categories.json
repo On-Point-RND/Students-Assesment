@@ -1,0 +1,558 @@
+{
+  "Professional Experience Level": {
+    "question": "Does the candidate present a detailed record of established professional and research achievements in the field?",
+    "count": 19
+  },
+  "Specificity of Research Interests": {
+    "question": "How precisely does the candidate articulate their current research focus and its alignment with the program's themes?",
+    "count": 146
+  },
+  "Offered Contribution Type": {
+    "question": "Does the candidate propose contributing through advanced expertise and collaboration, or through general organizational support?",
+    "count": 7
+  },
+  "Specific Project Outcomes": {
+    "question": "Does the candidate describe concrete, recent project outcomes (e.g., competition wins, pending papers, benchmarks) rather than general interests or skills?",
+    "count": 70
+  },
+  "Career Stage Clarity": {
+    "question": "Does the candidate clearly state their current professional role and immediate career objectives (e.g., employment, PhD pursuit) rather than general aspirations?",
+    "count": 60
+  },
+  "Community Contribution Focus": {
+    "question": "Does the candidate explicitly highlight their planned contributions to the program community (e.g., volunteering, sharing experience, collaborative mindset) rather than focusing primarily on personal learning goals?",
+    "count": 19
+  },
+  "Project Specificity and Complexity": {
+    "question": "How well does the candidate describe a specific, technically complex project they are working on, including its scientific context and challenges?",
+    "count": 66
+  },
+  "Connection to Event Format": {
+    "question": "How explicitly does the candidate link their motivations to the event's specific structure and activities?",
+    "count": 8
+  },
+  "Application Domain Focus": {
+    "question": "Does the candidate demonstrate a clear focus on applying machine learning to specific, real-world domains?",
+    "count": 15
+  },
+  "Teaching and Mentoring Role": {
+    "question": "Does the candidate highlight a formal role in teaching or mentoring others in their field?",
+    "count": 3
+  },
+  "Depth of Past Engagement": {
+    "question": "Does the candidate provide detailed evidence of prior, relevant academic or project-based experience, including methodologies and outcomes?",
+    "count": 85
+  },
+  "Clarity of Future Direction": {
+    "question": "How well does the candidate connect the program to a defined, actionable next step in their academic or professional trajectory?",
+    "count": 73
+  },
+  "Personal Narrative Depth": {
+    "question": "How well does the candidate articulate a personal intellectual journey and a clear, evolving motivation for their research focus?",
+    "count": 28
+  },
+  "Clarity of Contribution Intent": {
+    "question": "How clearly does the candidate articulate what they intend to contribute, such as presenting research or engaging in projects?",
+    "count": 12
+  },
+  "Program Alignment Focus": {
+    "question": "Does the candidate's motivation center on acquiring general skills or on engaging with the program's specific, advanced technical content?",
+    "count": 11
+  },
+  "Background and Domain Context": {
+    "question": "Is the candidate's primary academic background and stated career goal directly within the core technical field of the program?",
+    "count": 7
+  },
+  "Learning Goal Concreteness": {
+    "question": "How concrete and actionable are the candidate's stated learning goals for the program?",
+    "count": 17
+  },
+  "Cultural Interest Mention": {
+    "question": "Does the candidate explicitly mention cultural or location-based motivations for attending the program?",
+    "count": 10
+  },
+  "Tone and Formality": {
+    "question": "How formal and polished is the candidate's writing style?",
+    "count": 40
+  },
+  "Skill Set Emphasis": {
+    "question": "Does the candidate emphasize theoretical research skills or practical engineering and deployment skills?",
+    "count": 4
+  },
+  "Program Engagement Detail": {
+    "question": "How well does the candidate demonstrate specific knowledge of the school's offerings (e.g., named researchers, specific workshop types) versus providing generic praise for the program?",
+    "count": 22
+  },
+  "Depth of Community Engagement": {
+    "question": "How well does the candidate demonstrate active participation in professional communities, such as conferences, teaching, or collaborative projects?",
+    "count": 12
+  },
+  "Professional vs. Exploratory Tone": {
+    "question": "Does the candidate present themselves with a focused, goal-oriented professional identity or a more exploratory, learning-centric one?",
+    "count": 10
+  },
+  "Self-Awareness and Positioning": {
+    "question": "How effectively does the candidate acknowledge their current position in the field and frame their application as a compelling next step?",
+    "count": 1
+  },
+  "Technical Detail Level": {
+    "question": "Does the candidate demonstrate technical precision by naming specific algorithms, tools, datasets, or course titles relevant to ML/DL?",
+    "count": 36
+  },
+  "Specificity of Motivation": {
+    "question": "How specifically does the candidate articulate their reasons for choosing this particular program and connect it to their past experiences and future goals?",
+    "count": 97
+  },
+  "Structural Detail in Self-Presentation": {
+    "question": "Does the candidate use structured sections (e.g., bullet points, numbered lists) to clearly organize their skills, contributions, and plans?",
+    "count": 6
+  },
+  "Research Depth & Publication": {
+    "question": "Does the candidate provide evidence of advanced, published research (e.g., peer-reviewed conference papers) in the field?",
+    "count": 30
+  },
+  "Academic Stage & Experience": {
+    "question": "Does the candidate's academic and professional background (e.g., high school vs. Master's, work experience, publications) demonstrate readiness for an advanced research school?",
+    "count": 18
+  },
+  "Application Context": {
+    "question": "Does the candidate clearly identify the specific program or position they are applying for?",
+    "count": 3
+  },
+  "Project Motivation & Goal": {
+    "question": "Does the candidate's project experience demonstrate a clear, research-oriented goal or a broad, application-driven exploration?",
+    "count": 2
+  },
+  "Professional vs. Academic Context": {
+    "question": "Does the candidate primarily ground their motivation and experience in an industrial/professional setting, or in an academic/research laboratory setting?",
+    "count": 10
+  },
+  "Professional Role & Audience": {
+    "question": "Does the candidate's professional role primarily involve educating non-technical audiences or developing technical infrastructure?",
+    "count": 1
+  },
+  "Theoretical vs. Practical Motivation": {
+    "question": "Is the candidate's primary motivation to strengthen theoretical academic understanding or to foster practical research collaborations?",
+    "count": 5
+  },
+  "Structural Coherence": {
+    "question": "How effectively does the candidate organize the letter into clear, logically connected paragraphs with a professional closing?",
+    "count": 6
+  },
+  "Program Engagement Expectation": {
+    "question": "Does the candidate specify what they expect to gain from the program and how they intend to engage with it?",
+    "count": 4
+  },
+  "Research vs. Aspiration Focus": {
+    "question": "Does the candidate emphasize current research contributions and domain expertise, or future aspirations and foundational learning goals?",
+    "count": 3
+  },
+  "Networking Motivation Clarity": {
+    "question": "Is the candidate's motivation for attending primarily to expand professional networks and discuss advanced topics, or to gain inspiration and community for personal growth?",
+    "count": 4
+  },
+  "Academic/Industry ML Integration": {
+    "question": "Can the candidate articulate a clear trajectory that integrates formal academic ML training, industry internships, and competitive/peer-reviewed research outputs (e.g., conference papers, Kaggle) in the field?",
+    "count": 1
+  },
+  "Project Stage Description": {
+    "question": "Does the candidate describe their project in terms of a concrete, ongoing implementation with specific next steps and timelines?",
+    "count": 6
+  },
+  "Future Contribution Clarity": {
+    "question": "How clearly does the candidate articulate how their existing work will benefit from or contribute to the program?",
+    "count": 1
+  },
+  "Academic Background Relevance": {
+    "question": "How clearly does the candidate connect their current academic/professional background to their motivation for pursuing AI/ML?",
+    "count": 4
+  },
+  "Professional Experience Relevance": {
+    "question": "How directly and concretely does the candidate's current professional role or project relate to the stated research interests?",
+    "count": 6
+  },
+  "Motivation for Participation": {
+    "question": "Does the candidate specify a concrete, knowledge-based gap or a precise collaborative aim they hope the program will address, beyond general networking or inspiration?",
+    "count": 3
+  },
+  "Professional Role Progression": {
+    "question": "Can the candidate demonstrate advancement in professional roles or responsibilities over time?",
+    "count": 1
+  },
+  "Structured Academic Background": {
+    "question": "How well does the candidate connect their formal education to specific skills relevant to the opportunity?",
+    "count": 6
+  },
+  "Professional Role Focus": {
+    "question": "Does the candidate's professional experience primarily involve applied technical development/research or education/communication within AI?",
+    "count": 1
+  },
+  "Program Engagement History": {
+    "question": "Has the candidate previously participated in this specific program or is this their first application?",
+    "count": 7
+  },
+  "Professional Development Justification": {
+    "question": "Can the candidate clearly explain how the opportunity will address their current academic or professional needs and contribute to their growth?",
+    "count": 2
+  },
+  "Application Role Clarity": {
+    "question": "Does the candidate clearly specify whether they are applying as a participant, volunteer, or competitor?",
+    "count": 1
+  },
+  "Depth of Conceptual Understanding": {
+    "question": "Does the candidate demonstrate an understanding of how machine learning integrates with fundamental scientific principles (e.g., interpretability, physical laws) beyond technical skills?",
+    "count": 2
+  },
+  "Technical Depth & Specialization": {
+    "question": "How advanced and specialized is the candidate's hands-on experience with state-of-the-art AI architectures (e.g., transformers, generative models) versus foundational or broad ML techniques?",
+    "count": 9
+  },
+  "Professional Background & Role": {
+    "question": "Is the candidate's current role and experience primarily in technical research/engineering (e.g., LLM Research Engineer) or in business/leadership (e.g., Senior Managing Director in venture capital)?",
+    "count": 1
+  },
+  "Primary Application Goal": {
+    "question": "Does the candidate's primary stated goal for participation focus on curriculum development/teaching enhancement or on direct technical skill application to a specific industry problem?",
+    "count": 1
+  },
+  "Relevant Experience Scope": {
+    "question": "Does the candidate's described relevant experience emphasize theoretical research, grants, and broad software development, or focused industry projects and specific technical training programs?",
+    "count": 1
+  },
+  "Academic Achievement Evidence": {
+    "question": "Does the candidate provide concrete, quantifiable evidence of academic excellence (e.g., rankings, grades, competition results) relevant to the program?",
+    "count": 8
+  },
+  "Theoretical Motivation & Vision": {
+    "question": "Can the candidate articulate a clear, overarching theoretical vision or research philosophy that connects their work to broader scientific challenges and future directions?",
+    "count": 2
+  },
+  "Connection to Current Work": {
+    "question": "How directly and explicitly does the candidate link their existing experience to the school's potential learning outcomes?",
+    "count": 6
+  },
+  "Application Purpose Clarity": {
+    "question": "How clearly does the candidate define their specific goals and expected outcomes from the program?",
+    "count": 2
+  },
+  "Self-Study & Theoretical Engagement": {
+    "question": "To what extent does the candidate detail their independent learning efforts, including specific topics, resources used, and personal projects undertaken for understanding?",
+    "count": 2
+  },
+  "Balance of Contribution vs. Benefit": {
+    "question": "How well does the candidate balance describing what they can contribute to the program with what they expect to gain from it?",
+    "count": 6
+  },
+  "Technical vs. Domain Narrative": {
+    "question": "Does the candidate's narrative primarily frame their motivation around advancing technical AI/ML skills or around solving a specific, well-defined domain problem?",
+    "count": 2
+  },
+  "Project Leadership Scope": {
+    "question": "Does the candidate describe experience leading or coordinating cross-functional teams to deploy AI solutions?",
+    "count": 3
+  },
+  "Specificity of Preparation": {
+    "question": "How specifically does the candidate detail their preparatory activities (e.g., named courses, schools, hackathons) to demonstrate a structured pursuit of the field?",
+    "count": 2
+  },
+  "Tone of Self-Assessment": {
+    "question": "Does the candidate's self-assessment primarily highlight competencies and successes, or does it focus on perceived deficiencies and challenges?",
+    "count": 3
+  },
+  "Proactive Boundary Crossing": {
+    "question": "How proactively does the candidate seek and secure opportunities outside their formal academic or professional track?",
+    "count": 1
+  },
+  "Specific Skill Application": {
+    "question": "Does the candidate describe applying specific technical skills (e.g., model development, system integration) to solve defined problems, rather than just listing skills or courses?",
+    "count": 4
+  },
+  "Collaboration Motivation Specificity": {
+    "question": "How well does the candidate explain the concrete benefits of collaboration for their specific research goals, rather than general networking?",
+    "count": 2
+  },
+  "Focus on Past Validation vs. Future Application": {
+    "question": "Does the candidate's motivation center on proving a past personal transformation, or on applying existing skills to future research and collaboration?",
+    "count": 1
+  },
+  "Integration of Professional Experience": {
+    "question": "To what extent does the candidate connect their professional or business roles directly to their research interests and the program's themes?",
+    "count": 1
+  },
+  "Career & Academic Intent": {
+    "question": "Does the candidate's stated primary goal focus on immediate skill/knowledge acquisition for research, or on evaluating a location/institution for a future degree?",
+    "count": 1
+  },
+  "Evidence of Practical Impact": {
+    "question": "Does the candidate provide measurable evidence of their ML work's deployment, financial justification, or academic contribution (e.g., publications, deployed systems)?",
+    "count": 3
+  },
+  "Clarity and Precision of Expression": {
+    "question": "How clearly and precisely does the candidate express ideas, with minimal grammatical errors or vague phrasing?",
+    "count": 3
+  },
+  "Achievement vs. Challenge Focus": {
+    "question": "Does the candidate primarily highlight accomplishments and proven skills, or focus on overcoming personal challenges and self-doubt?",
+    "count": 1
+  },
+  "Professional Narrative Focus": {
+    "question": "Does the candidate present their experience and motivations through a cohesive, narrative-driven letter, or through a structured, resume-like list of skills and projects?",
+    "count": 6
+  },
+  "Research Depth Detail": {
+    "question": "How specifically does the candidate describe their technical contributions to machine learning projects?",
+    "count": 12
+  },
+  "Stated Motivation for Program": {
+    "question": "Does the candidate express a need for the program to explore interdisciplinary questions and refine their research direction, or do they present it as a step to deepen existing, well-defined expertise?",
+    "count": 1
+  },
+  "Research Maturity & Scope": {
+    "question": "Does the candidate demonstrate experience in designing and implementing novel systems or algorithms at the infrastructure/theoretical level, rather than primarily applying existing models?",
+    "count": 3
+  },
+  "Motivation Source": {
+    "question": "Is the candidate's primary motivation driven by a desire to reconnect with a creative/academic community, or by a need for specific technical knowledge to solve domain-specific problems?",
+    "count": 1
+  },
+  "Professional Context": {
+    "question": "Does the candidate frame their experience in terms of a critique or limitation of their current corporate environment, or do they frame it as a discovery of application potential within their traditional industry?",
+    "count": 1
+  },
+  "Research Depth vs. Breadth": {
+    "question": "Does the candidate demonstrate deep, focused exploration of a specific interdisciplinary niche (e.g., Topological Data Analysis) or a broad portfolio of applied projects across multiple ML domains?",
+    "count": 4
+  },
+  "Societal Impact Focus": {
+    "question": "How explicitly does the candidate connect their motivation to applying skills for broad societal benefit?",
+    "count": 2
+  },
+  "Program-Specific Justification": {
+    "question": "Does the candidate provide specific program elements (courses, labs, initiatives) that directly connect to their stated goals?",
+    "count": 3
+  },
+  "Project Description Style": {
+    "question": "Does the candidate describe projects by emphasizing personal learning, impact, and motivation, rather than primarily listing technical steps and metrics?",
+    "count": 1
+  },
+  "Content Relevance": {
+    "question": "Does the document contain content directly relevant to a motivation letter for a summer school application?",
+    "count": 2
+  },
+  "Document Structure & Format": {
+    "question": "Does the candidate present their motivation as a structured research proposal or as a formal application letter?",
+    "count": 4
+  },
+  "Content Focus & Goal": {
+    "question": "Is the candidate's primary aim to propose a specific technical project or to express interest in joining a learning program?",
+    "count": 1
+  },
+  "Publication Record Detail": {
+    "question": "Can the candidate quantify their research output with specific metrics, such as the number of publications, solo-authored works, or awards?",
+    "count": 3
+  },
+  "Mathematical Foundation Emphasis": {
+    "question": "How well does the candidate articulate the connection between their mathematical background and machine learning concepts?",
+    "count": 1
+  },
+  "Tone and Professional Confidence": {
+    "question": "How does the candidate balance assertive statements of capability with professional humility and respect for the committee?",
+    "count": 1
+  },
+  "Specificity of Technical Skills": {
+    "question": "How precisely and concretely does the candidate describe their technical skills, tools, and project implementations?",
+    "count": 7
+  },
+  "Clarity of School Expectations": {
+    "question": "How explicitly and concretely does the candidate articulate their specific expectations and goals for the school program?",
+    "count": 3
+  },
+  "Academic Background Integration": {
+    "question": "How effectively does the candidate connect their interdisciplinary academic history to their current research direction?",
+    "count": 2
+  },
+  "Depth of Technical Inquiry": {
+    "question": "How well does the candidate articulate specific technical questions or gaps in their understanding that the program will address?",
+    "count": 1
+  },
+  "Research Ambition Scope": {
+    "question": "Does the candidate articulate a specific, ambitious research vision aimed at addressing fundamental limitations in the field, rather than focusing on formalizing or applying existing knowledge?",
+    "count": 1
+  },
+  "Academic & Skill Development Path": {
+    "question": "How clearly does the candidate articulate a logical progression of academic choices and skill acquisition directly relevant to their stated goals?",
+    "count": 2
+  },
+  "Motivation Narrative Focus": {
+    "question": "Is the candidate's primary motivation for attending the program rooted in applying existing specialized knowledge or in exploring foundational interdisciplinary connections?",
+    "count": 2
+  },
+  "Professional Experience Scope": {
+    "question": "Does the candidate detail hands-on experience in deploying and maintaining production data/ML systems, including automation and engineering?",
+    "count": 8
+  },
+  "Technical Depth of Interest": {
+    "question": "How well does the candidate demonstrate an understanding of specific technical applications or limitations of machine learning beyond common areas like computer vision or LLMs?",
+    "count": 1
+  },
+  "Failure Reflection vs. Goal Clarity": {
+    "question": "Does the candidate focus on analyzing a specific setback to demonstrate resilience, or do they articulate a clear, forward-looking career vision?",
+    "count": 1
+  },
+  "Collaboration Context Emphasis": {
+    "question": "Does the candidate explicitly highlight experience with and value for cross-functional, international teamwork in a professional R&D context?",
+    "count": 2
+  },
+  "Structure and Conciseness": {
+    "question": "How well-organized and concise is the candidate's presentation of their background, motivations, and goals?",
+    "count": 1
+  },
+  "Research Integration": {
+    "question": "How effectively does the candidate connect their academic or professional work to current research problems or limitations in the field?",
+    "count": 1
+  },
+  "Stated Learning Objective": {
+    "question": "Does the candidate's primary goal for participation emphasize foundational learning or advanced collaboration and knowledge exchange?",
+    "count": 1
+  },
+  "Technical Contribution Focus": {
+    "question": "Does the candidate's motivation center on advancing a specific technical problem or field, rather than general career or networking benefits?",
+    "count": 1
+  },
+  "Problem-Solution Narrative": {
+    "question": "Does the candidate articulate a clear research problem and explain how the program will help develop a specific solution?",
+    "count": 1
+  },
+  "Evidence of Technical Initiative": {
+    "question": "Does the candidate provide concrete examples of self-driven learning or project implementation beyond formal education?",
+    "count": 3
+  },
+  "Technical Specialization & Focus": {
+    "question": "Does the candidate's background show a deep, sustained specialization in a specific technical domain (e.g., reservoir modeling, integrated asset modeling) rather than a broader exploration of multiple fields?",
+    "count": 1
+  },
+  "Program Expectation Focus": {
+    "question": "Does the candidate frame their expectations around acquiring specific technical skills or around gaining broader inspiration and networking?",
+    "count": 1
+  },
+  "Interdisciplinary Motivation": {
+    "question": "How well does the candidate connect their technical work to broader, non-technical domains (e.g., humanities, social science, human behavior) to explain their research motivation?",
+    "count": 1
+  },
+  "Enthusiasm and Personal Connection": {
+    "question": "How strongly does the candidate convey genuine excitement and personal motivation for the opportunity?",
+    "count": 1
+  },
+  "Technical Depth of Motivation": {
+    "question": "Does the candidate demonstrate a detailed, technical understanding of the field's challenges and how the program's curriculum addresses them?",
+    "count": 1
+  },
+  "Academic & Career Trajectory": {
+    "question": "How clearly does the candidate articulate their academic background, research focus, and future career goals?",
+    "count": 3
+  },
+  "Research vs. Applied Focus": {
+    "question": "Does the candidate's motivation center on advancing fundamental research or on applying existing tools to solve business/industry problems?",
+    "count": 4
+  },
+  "Self-Presentation & Audience": {
+    "question": "Does the candidate primarily showcase a technical project's logic and results, or do they emphasize their personal academic background, skills, GPA, and enthusiasm for joining a specific educational program?",
+    "count": 1
+  },
+  "Depth of Contextual Awareness": {
+    "question": "How well does the candidate demonstrate awareness of specific technological trends or applications relevant to their stated goals?",
+    "count": 1
+  },
+  "Entrepreneurial Initiative": {
+    "question": "Does the candidate detail involvement in founding or leading a startup or venture related to their field?",
+    "count": 1
+  },
+  "Personal Motivation Source": {
+    "question": "Does the candidate connect their motivation to specific personal experiences or observations?",
+    "count": 1
+  },
+  "Academic Context Clarity": {
+    "question": "Does the candidate clearly state their current academic institution, degree program, and year of study?",
+    "count": 1
+  },
+  "Program Engagement Motivation": {
+    "question": "Does the candidate express motivation based on merging existing skills with new knowledge or on collaborative project development and community immersion?",
+    "count": 1
+  },
+  "Personal Engagement": {
+    "question": "Does the letter demonstrate the applicant's personal engagement, such as specific projects, studies, or experiences, rather than generic or unrelated information?",
+    "count": 1
+  },
+  "Program Contribution Vision": {
+    "question": "Can the candidate articulate a clear vision of how they will apply the program's knowledge to advance a specific project, community, or field beyond their personal development?",
+    "count": 1
+  },
+  "Academic Standing Clarity": {
+    "question": "Does the candidate explicitly state their academic ranking or standing within their cohort?",
+    "count": 1
+  },
+  "Research Mentorship & Collaboration": {
+    "question": "Does the candidate detail specific research mentors, laboratories, or structured research programs they have participated in?",
+    "count": 1
+  },
+  "Project Scope and Impact": {
+    "question": "Does the candidate describe projects with a defined, scalable scope and clear societal or academic impact?",
+    "count": 2
+  },
+  "Collaboration vs. Self-Reliance": {
+    "question": "Does the candidate emphasize active collaboration with existing research teams to generate ideas, or does the candidate highlight the need to independently acquire skills due to a lack of specialized support in their environment?",
+    "count": 1
+  },
+  "Argument for Interdisciplinarity": {
+    "question": "How does the candidate demonstrate the practical integration of knowledge from distinct fields (e.g., neuroscience and machine learning, information theory and optimization) within their past work or proposed research direction?",
+    "count": 1
+  },
+  "Project Leadership & Scope": {
+    "question": "Does the candidate describe leading a collaborative project with a clear research pivot or interdisciplinary integration?",
+    "count": 1
+  },
+  "Audience and Impact Level": {
+    "question": "Does the candidate articulate experience and ambition to influence high-level decision-makers (e.g., executives) with AI knowledge, as opposed to coordinating within a technical team?",
+    "count": 1
+  },
+  "Primary Content Focus": {
+    "question": "Does the candidate's document primarily focus on detailing their own academic/professional background and motivations, or does it focus on analyzing and strategizing for an external creative project?",
+    "count": 1
+  },
+  "Narrative Voice & Purpose": {
+    "question": "Is the document written in a first-person, self-reflective narrative aimed at expressing personal interest and qualifications, or is it written in an analytical, third-person style aimed at evaluating and planning for a subject?",
+    "count": 1
+  },
+  "Technical Tool Proficiency": {
+    "question": "To what extent does the candidate list and detail proficiency with specific programming languages, frameworks, and technical tools relevant to the field?",
+    "count": 1
+  },
+  "Academic Background Presentation": {
+    "question": "How well does the candidate provide a structured, detailed account of relevant coursework and formal research projects versus emphasizing informal, self-directed learning and startup roles?",
+    "count": 1
+  },
+  "Program Alignment": {
+    "question": "How explicitly does the candidate articulate how specific program components will address their identified knowledge gaps?",
+    "count": 3
+  },
+  "Integration of Academic Context": {
+    "question": "How effectively does the candidate connect their current academic environment and coursework to the program's objectives?",
+    "count": 1
+  },
+  "Specificity of Future Plans": {
+    "question": "How specifically does the candidate articulate their intended application of the acquired knowledge to concrete, near-term projects?",
+    "count": 1
+  },
+  "Focus on Foundational Knowledge": {
+    "question": "Does the candidate's motivation emphasize a need for structured theoretical understanding over applied tool proficiency?",
+    "count": 1
+  },
+  "Technical vs. Philosophical Motivation": {
+    "question": "How well does the candidate balance technical, research-driven interests with broader philosophical or societal motivations for their field?",
+    "count": 1
+  },
+  "Intrinsic vs. Extrinsic Motivation": {
+    "question": "Does the candidate articulate a deep, personal intellectual curiosity about the field's core technical concepts, or do they primarily frame their interest in terms of external career benefits and general opportunities?",
+    "count": 1
+  }
+}

@@ -1,0 +1,89 @@
+CONTACT DETAILS
++2 *** *** ***
+[email]
+[location]
+[name] [surname]
+BASIC INFORMATION PERSONAL INFORMATION
+Professional Skills: ML, DL,
+Analytics, BI, Econometrics,
+Citizenship: [location]
+Education: Bachelor’s Degree (currently in 3rd year)
+Backend Development,
+Date of Birth: July 5th, 2005
+Project Management,
+Gender: Male
+Consecutive Interpretation...
+PROJECTS
+LANGUAGE PROFICIENCY
+Russian - Native Participated in hackathoons as an ML engineer & data analyst:
+[compaany] .Hack, [compaany] Hack, Project School [location] x [compaany]
+English - С2 (Advanced)
+Contributed to web development projects as a backend
+engineer during project schools : [compaany] x [compaany] , [compaany] x [compaany]
+Chinese (Mandarin) - HSK 6
+(Advanced)
+Developed web-scrapers and data-prepereation algorithms
+using python as part of [location]’s Socio-Economic
+Research Lab project aimed at optimizing rental prices for
+commercial spaces in [location] shopping malls.
+COMPUTER SKILLS
+- Microsoft Office & Libre
+Office Conducted "Organizational Trust" research: programmed
+- Python (scikit learn, behavioral experiments using Otree (Python), self-taught game
+theory and mathematical modeling, and presented findiings at
+Tensorflow & keras, Otree,
+academic conferences.
+FastAPI, numpy, pandas,
+beautifulsoup, matplotlib...) Contributed to IT infrastructure design for FEFU Advance
+Engineering School’s co-working café concept as a founding team
+member in 2023; successfully launched operational café by 2024-
+2025 academic year.
+- SQL (Postgres)
+- Power BI / Yandex
+Datalense
+Led a market analysis of Chinese automobiles for [name] [surname]
+Auto LLC: directed a team of analysts in scraping data from
+Drom.ru and evaluaating how translated customer reviews
+impacted sales performance.
+Currently leading a team in analyzing [location]’s electricity
+market, developing econometric and machine learning models to
+forecast trends and optimize pricing strategies.
+- QGIS (Geospatial analysis
+and spacial data
+visualization)
+- Linux & Bash (Arch & nvim)
+- R & Octave / matlab (for
+econometrics and statistics)
+- C++ (memory management,
+algothm and data
+structures)
+- Others: git, lua, html, notion EDUCATION (Bachelor's Degree)
+Far Eastern Federal Universiity ([location]) & National
+Research Universiity Higher School of Economics ([location])
+Faculty: Schooal of Economics and Management
+Specialization: Economics (Data-Driven Management)
+Expected graduaation: 2022-2026
+Format: Full-time program
+EDUCATION (Professional Retraining Programs)
+Data Analyst: Core Competencies
+Institution: Far Eastern Federal Universiity ([location])
+Completion date: 2024
+Duration: 9 months
+Chinese Translator Certification
+Institution: Far Eastern Federal Universiity ([location])
+Completion date: 2024
+Duration: 9 months
+COURSES AND TRAINING
+III International Pacific Conference-SchooL on
+Experimental Economics
+Institution: [location] & [location]
+Duration: 14 days
+Auutm Project School [location] Farpost X [compaany] (Institute of
+Mathematics and Computer Technologies [location])
+Institution: [location]
+Duration: 14 days
+ADDITIONAAL INFORMATION
+Personal Qualities: Leadership-oriented, Intellectually
+curious, Calm in high pressure situations.
+Professional Profile: Buildiing technical leadership
+capabilities with machine learning specialization.

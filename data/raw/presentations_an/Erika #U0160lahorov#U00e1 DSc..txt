@@ -1,0 +1,101 @@
+Preserving Mesoscale
+Atmospheric Dynamics in Bias
+Correction for Numerical
+Weatther Forecasts
+[name], PhD student at [compaany],
+Junior research engineer at [compaany]
+Weatther Research Forecast (WRF) bias
+correction
+Numerical weatther models have inherent systematic deviations from
+observaations. One of the methods to reduce them is statistical bias
+correction
+Difference between WRF numerical weatther forecast and ERA5 reanalysis data
+June 2022 January 2023
+Problem statement
+Problem: Accuraate reanalysis data are presented at a lower resolution. They lack
+mesoscale phenomena
+Aim: correct WRF prediction to ERA5 reanalysis and observations, while preserving
+WRF small-scale dynamics.
+2 meter temperature, WRF hindcast 2 meter temperature, ERA5 reanalysis
+High resolution, systematic biases Accuraate data, coarse resolution
+Data
+The task of time series forecasting:
+• input: series of forecasts for time (t, t+1, ... t+n)
+• output: a series of corrected forecasts for time
++ time,
+(t, t+1, ... t+n)
+coordiantes grid,
+water mask,
+Correctable fields:
+sea ice concentration
+• 10 meter wind speed two directions
+• 2 meter temperature
+Target data:
+Correction model
+• ERA5 reanalysis
+• Ground based weatther station (46 points)
+• Satellite scatterometers
+Investigated time period:
+2019-01-01 - 2023-08-09
+Methods Correction model Architecture
+bs·sl × c × 𝐻 × 𝑊
+U-net
+Correction
++
+model Encoder
+Original WRF data Corrected WRF data
+Patch + Position
+embedding
+𝐿𝑜𝑠𝑠 = 𝛽 ∗ 𝑀𝑆𝐸(𝑊𝑅𝐹, 𝑥) + 𝐿
+𝑥 𝑚𝑒𝑠𝑜𝑠𝑐𝑎𝑙𝑒
+bs × sl·h·w × C
+𝑥∈𝐷𝑎𝑡𝑎𝑇𝑦𝑝𝑒𝑠
+BERT
+𝐿 = 𝑀𝑆𝐸(𝛿𝑊𝑅𝐹 , 𝛿𝑊𝑅𝐹 ) Loss
+𝑚𝑒𝑠𝑜𝑠𝑐𝑎𝑙𝑒 𝑐𝑜𝑟𝑟 𝑜𝑟𝑖𝑔
+Encoder
+𝛿𝑊𝑅𝐹 = 𝑊𝑅𝐹 − 𝐶𝑜𝑛𝑣2𝐷(𝑊𝑅𝐹, 𝐺𝑎𝑢𝑠𝑠 𝐾𝑒𝑟𝑛𝑒𝑙)
+bs × sl·h·w × C
+When Fine-tuning:
+g
+n
+Frozen i U-net
+n
+u
+- t Decoder
+Learnable e
+n
+i
+F
+Stations + scatteers ERA5 reanalysis bs·sl × c × 𝐻 × 𝑊
+Results
+RMSE map between WRF and ERA5
+Results
+• The use of fine-scale regularization allows, by i W
+sacrificing a little in RMSE, a significant increase in
+structuraal similarity to the original prediction
+g
+n
+i
+r
+p
+S
+r
+e
+m
+m
+u
+S
+n
+m
+u
+t
+u
+A
+Results
+• We correct WRF low-frequency to
+ERA5 while keeping high-frequency
+unchanged
+(ours)
+GitHub
+• https://github.com/golikovva/WRFCorrection

@@ -1,0 +1,30 @@
+A dedicated and passionate software developer and IT specialist with a strong foundation in PC repair, programming, web development, and CRM integration. Experienced in teaching programming and working on freelance web development projects.
+EXPERIENCE
+-------------
+Programming Instructor, [compaany]
+- Teach programming disciplines to college students.
+- Develop and deliver curriculum in C#, Python, and web development.
+Web Developer (Freelancer)
+- Develop websites for various clients using modern web technologies.
+- Implement responsive designs and integrate backend services.
+Software Developer & Bitrix24 Integrator, [compaany]
+- Worked as a programmer and Bitrix24 CRM integrator during 4th year of study.
+- Automated business processes and integrated third-party services with Bitrix24.
+SKILLS
+-------------
+- Programming Languages: C++, C, C#, Python, JavaScript
+- Frameworks: WPF, Django, Flask
+- Web Development: HTML, CSS, JavaScript, React (optional)
+- CRM: Bitrix24 Integration
+- Tools: Git, Visual Studio, VS Code
+EDUCATION
+-------------
+Secondary specialized education, profession programmer, [compaany] 79, 2020-2024
+BACKGROUND
+-------------
+- Started repairing PCs in 9th grade.
+- Began learning programming during school years.
+- Focused on C++ and C in second year of university.
+- Learned C# and WPF.
+- Studied Python and web development.
+- Simultaneously worked in IT and marketing company and taught students in college.

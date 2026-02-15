@@ -1,0 +1,690 @@
+{
+  "Use of References": {
+    "question": "How many external references does the candidate use?",
+    "count": 2
+  },
+  "Slide Content Density": {
+    "question": "How well does the candidate balance the amount of text and data on each slide?",
+    "count": 2
+  },
+  "Use of Visuals": {
+    "question": "Does the candidate include relevant diagrams or figures to illustrate complex concepts?",
+    "count": 19
+  },
+  "Structured Outline": {
+    "question": "Does the candidate use a clear, structured outline with distinct sections?",
+    "count": 46
+  },
+  "Citation Format": {
+    "question": "Does the candidate use a consistent and formal citation format for references?",
+    "count": 47
+  },
+  "Audience Guidance": {
+    "question": "Does the candidate include introductory and concluding statements to guide the audience?",
+    "count": 1
+  },
+  "Technical Detail Level": {
+    "question": "How well does the candidate explain technical concepts and methodologies?",
+    "count": 9
+  },
+  "Citation and Attribution": {
+    "question": "Does the candidate properly cite and attribute external sources and authors?",
+    "count": 64
+  },
+  "Use of Visual Aids": {
+    "question": "How effectively does the candidate utilize visual aids (e.g., tables, diagrams, links) to support the content?",
+    "count": 117
+  },
+  "Real-World Relevance": {
+    "question": "How well does the candidate connect the research to real-world applications and future opportunities?",
+    "count": 10
+  },
+  "Content Complexity": {
+    "question": "How well does the candidate present complex technical content?",
+    "count": 2
+  },
+  "Specificity of Details": {
+    "question": "How specifically does the candidate provide details and examples?",
+    "count": 9
+  },
+  "Visual Structure": {
+    "question": "How well does the candidate organize the content with clear headings and bullet points?",
+    "count": 154
+  },
+  "Technical Depth": {
+    "question": "How thoroughly does the candidate explain the technical details and methodologies used in the research?",
+    "count": 4
+  },
+  "Practical Demonstration": {
+    "question": "Does the candidate provide a clear and actionable demonstration or implementation of the proposed solution?",
+    "count": 1
+  },
+  "Model Evaluation Detail": {
+    "question": "How thoroughly does the candidate evaluate and present the performance of the models used?",
+    "count": 1
+  },
+  "Audience Relevance": {
+    "question": "How well does the candidate tailor information to the audience's interests and needs?",
+    "count": 12
+  },
+  "Citation Inclusion": {
+    "question": "Can the candidate effectively incorporate relevant citations and references into the presentation?",
+    "count": 9
+  },
+  "Detail Level": {
+    "question": "How thoroughly does the candidate explain the methodology, results, and implications of their work?",
+    "count": 18
+  },
+  "Audience Consideration": {
+    "question": "How effectively does the candidate tailor the presentation to a clinical or academic audience, using relevant terminology and examples?",
+    "count": 4
+  },
+  "Use of Comparative Analysis": {
+    "question": "How effectively does the candidate compare and contrast different models or methods?",
+    "count": 6
+  },
+  "Technical Terminology": {
+    "question": "How frequently and appropriately does the candidate use specialized terminology relevant to their field?",
+    "count": 40
+  },
+  "Quantitative Results": {
+    "question": "How effectively does the candidate present and discuss quantitative results and metrics?",
+    "count": 13
+  },
+  "Language Consistency": {
+    "question": "Does the candidate use consistent and professional language throughout the presentation?",
+    "count": 3
+  },
+  "Structured Anonymization": {
+    "question": "Can the candidate provide a structured and consistent anonymization of all personal and organizational identifiers?",
+    "count": 1
+  },
+  "Clear Presentation Format": {
+    "question": "How well does the candidate present the information in a clear, organized, and easy-to-follow format?",
+    "count": 6
+  },
+  "Data Source Specificity": {
+    "question": "Does the candidate specify the exact data sources used for analysis?",
+    "count": 3
+  },
+  "Methodology Detail Level": {
+    "question": "How thoroughly does the candidate explain the technical details of the methods used?",
+    "count": 30
+  },
+  "Presentation Structure": {
+    "question": "How well does the candidate organize the presentation with clear sections and headings?",
+    "count": 15
+  },
+  "Table and Data Presentation": {
+    "question": "How effectively does the candidate present tabular data and results, including the use of clear labels and formatting?",
+    "count": 4
+  },
+  "Title Structure": {
+    "question": "How well does the candidate structure the title to convey the main topic and key aspects?",
+    "count": 3
+  },
+  "Article Review Format": {
+    "question": "Does the candidate follow a consistent format for reviewing multiple articles?",
+    "count": 1
+  },
+  "Practical Application": {
+    "question": "Can the candidate clearly describe the practical application and workflow of the proposed solution?",
+    "count": 10
+  },
+  "Dataset Description": {
+    "question": "Can the candidate clearly describe the dataset used in their study, including its sources and key statistics?",
+    "count": 18
+  },
+  "Model Architecture Detail": {
+    "question": "How well does the candidate explain the architecture of the model used in their study?",
+    "count": 1
+  },
+  "Interdisciplinary Focus": {
+    "question": "How effectively does the candidate integrate multiple fields of study into the presentation?",
+    "count": 1
+  },
+  "Title Clarity": {
+    "question": "Does the candidate provide a clear and concise title that summarizes the main topic?",
+    "count": 17
+  },
+  "Use of Acronyms": {
+    "question": "How frequently does the candidate use acronyms or technical jargon without explanation?",
+    "count": 4
+  },
+  "Evaluation Metrics": {
+    "question": "How effectively does the candidate use specific evaluation metrics to support their claims?",
+    "count": 2
+  },
+  "Slide Structure": {
+    "question": "How well does the candidate organize content into distinct, labeled slides?",
+    "count": 15
+  },
+  "Typographical Errors": {
+    "question": "How many typographical errors does the candidate make in the presentation?",
+    "count": 5
+  },
+  "Problem Statement": {
+    "question": "Does the candidate present a well-defined problem statement that outlines the core issue being addressed?",
+    "count": 5
+  },
+  "Data Presentation": {
+    "question": "How well does the candidate present and explain the data used in the study?",
+    "count": 5
+  },
+  "Structured Findings": {
+    "question": "Does the candidate present findings in a structured and easy-to-follow manner?",
+    "count": 1
+  },
+  "Content Detail Level": {
+    "question": "How well does the candidate break down complex topics into specific methods or subtopics?",
+    "count": 1
+  },
+  "Audience Engagement Features": {
+    "question": "Can the candidate include relevant contact information and affiliations to engage the audience?",
+    "count": 5
+  },
+  "Literature Citation Style": {
+    "question": "How well does the candidate format and integrate citations within the presentation content?",
+    "count": 1
+  },
+  "Technical Depth and Breadth": {
+    "question": "How well does the candidate demonstrate a deep understanding of the technical subject matter and its broader implications?",
+    "count": 1
+  },
+  "Collaboration Emphasis": {
+    "question": "To what extent does the candidate highlight collaborative efforts and specific contributions?",
+    "count": 2
+  },
+  "Specificity of Methods": {
+    "question": "How clearly and precisely does the candidate describe the methods and datasets used in the research?",
+    "count": 3
+  },
+  "Future Work Clarity": {
+    "question": "How clearly does the candidate outline the next steps or future work in the presentation?",
+    "count": 3
+  },
+  "Structural Consistency": {
+    "question": "Does the candidate maintain a consistent structure across different sections or papers discussed?",
+    "count": 2
+  },
+  "Presentation Topic": {
+    "question": "Can the candidate clearly state the topic and its significance?",
+    "count": 3
+  },
+  "Presentation Purpose": {
+    "question": "Does the candidate clearly state the specific research problem and objectives?",
+    "count": 3
+  },
+  "Personal Narrative": {
+    "question": "Does the candidate include a personal story or journey relevant to the presentation topic?",
+    "count": 2
+  },
+  "Citation of Work": {
+    "question": "Does the candidate reference specific, relevant prior work or publications?",
+    "count": 1
+  },
+  "Methodology Clarity": {
+    "question": "How well does the candidate articulate the methodologies employed in their study?",
+    "count": 1
+  },
+  "Problem Definition": {
+    "question": "How well does the candidate define the specific problem being addressed and its significance?",
+    "count": 5
+  },
+  "Consistent Terminology": {
+    "question": "Does the candidate use consistent and precise terminology throughout the presentation?",
+    "count": 7
+  },
+  "Title Slide Content": {
+    "question": "Does the candidate include all relevant personnel and project details on the title slide?",
+    "count": 1
+  },
+  "Document Type": {
+    "question": "Does the document primarily present research findings or personal experiences?",
+    "count": 1
+  },
+  "Content Relevance": {
+    "question": "How well does the candidate maintain relevant content throughout the document?",
+    "count": 3
+  },
+  "Section Titles": {
+    "question": "How clearly does the candidate use section titles to guide the audience?",
+    "count": 2
+  },
+  "Code Presentation Style": {
+    "question": "Does the candidate include and format code examples clearly?",
+    "count": 1
+  },
+  "Methodology Steps": {
+    "question": "Does the candidate outline the methodology in clear, distinct steps?",
+    "count": 2
+  },
+  "Multilingual Focus": {
+    "question": "How prominently does the candidate emphasize the multilingual aspects and challenges in their presentation?",
+    "count": 1
+  },
+  "Structured Abstract": {
+    "question": "Does the candidate include a structured abstract with clear sections (e.g., motivation, methods, results)?",
+    "count": 4
+  },
+  "Timeline Specificity": {
+    "question": "Does the candidate provide a specific timeline with clear dates for future steps?",
+    "count": 1
+  },
+  "Research Gap Clarity": {
+    "question": "How clearly does the candidate articulate the research gaps and unresolved challenges?",
+    "count": 1
+  },
+  "Task Clarity": {
+    "question": "Can the candidate clearly state the main task and goals of the presentation?",
+    "count": 2
+  },
+  "Sentence Structure": {
+    "question": "How well does the candidate vary sentence structure to enhance readability and engagement?",
+    "count": 1
+  },
+  "Problem-Solution Structure": {
+    "question": "How clearly does the candidate present the problem and corresponding solution in the presentation?",
+    "count": 1
+  },
+  "Slide Content Detail": {
+    "question": "How well does the candidate provide detailed content on each slide?",
+    "count": 1
+  },
+  "Mathematical Notation": {
+    "question": "Can the candidate effectively use and explain mathematical notation and formulas in the presentation?",
+    "count": 6
+  },
+  "Data Handling Details": {
+    "question": "How well does the candidate describe the data handling and preprocessing steps in the presentation?",
+    "count": 1
+  },
+  "Data Description Clarity": {
+    "question": "How clearly does the candidate describe the data used in their study?",
+    "count": 1
+  },
+  "Problem Statement Structure": {
+    "question": "How well does the candidate structure and present their problem statement?",
+    "count": 1
+  },
+  "Application Examples": {
+    "question": "How well does the candidate provide and discuss real-world applications or case studies relevant to the presented topic?",
+    "count": 2
+  },
+  "Citation Consistency": {
+    "question": "Does the candidate consistently use citations to support claims throughout the presentation?",
+    "count": 7
+  },
+  "Spelling and Grammar": {
+    "question": "How many spelling and grammar errors does the candidate make?",
+    "count": 4
+  },
+  "Structure and Flow": {
+    "question": "How well does the candidate structure the presentation to logically flow from one section to the next?",
+    "count": 8
+  },
+  "Structured Problem Statement": {
+    "question": "Can the candidate clearly define and structure a problem statement with specific goals and methods?",
+    "count": 3
+  },
+  "Dataset Type": {
+    "question": "Does the candidate use real-world or synthetic datasets?",
+    "count": 1
+  },
+  "Problem Complexity": {
+    "question": "How well does the candidate address a complex, real-world problem?",
+    "count": 1
+  },
+  "Citation of External Work": {
+    "question": "How many external sources does the candidate cite in their presentation?",
+    "count": 3
+  },
+  "Citation Detail Level": {
+    "question": "How specifically does the candidate cite references and related works?",
+    "count": 2
+  },
+  "Consistency in Formatting": {
+    "question": "How consistently does the candidate apply formatting styles (e.g., font, spacing, numbering) throughout the presentation?",
+    "count": 2
+  },
+  "Content Type": {
+    "question": "Does the candidate present technical research or a professional resume?",
+    "count": 4
+  },
+  "Contribution Clarity": {
+    "question": "Does the candidate clearly state their specific contributions to the research?",
+    "count": 1
+  },
+  "Method Detail": {
+    "question": "Does the candidate provide specific details about the models, datasets, and hyperparameters used in the research?",
+    "count": 3
+  },
+  "Visual Content": {
+    "question": "How much visual content does the candidate include in their presentation?",
+    "count": 3
+  },
+  "Technical Detail Clarity": {
+    "question": "How well does the candidate explain complex technical details in an accessible manner?",
+    "count": 1
+  },
+  "Geographical Focus": {
+    "question": "Does the candidate focus on a specific geographical area in their presentation?",
+    "count": 1
+  },
+  "Author Count": {
+    "question": "How many authors does the candidate list?",
+    "count": 1
+  },
+  "Error Acknowledgement": {
+    "question": "Does the candidate explicitly acknowledge potential errors or limitations in their work?",
+    "count": 1
+  },
+  "Presentation Format": {
+    "question": "Does the candidate use a structured document format or a slide-based format?",
+    "count": 1
+  },
+  "Visual Formatting": {
+    "question": "How well does the candidate use visual formatting to enhance readability and structure?",
+    "count": 2
+  },
+  "Author Information": {
+    "question": "Does the candidate provide detailed author information including names, affiliations, and emails?",
+    "count": 2
+  },
+  "Depth of Analysis": {
+    "question": "Does the candidate provide a detailed analysis and comparison of multiple research papers?",
+    "count": 1
+  },
+  "Content Clarity": {
+    "question": "Can the candidate clearly articulate the main topic and objectives of the presentation?",
+    "count": 1
+  },
+  "Biography Length": {
+    "question": "How extensive is the candidate's biography in the presentation?",
+    "count": 1
+  },
+  "Collaboration Clarity": {
+    "question": "Does the candidate clearly specify their role and contributions in collaborative work?",
+    "count": 2
+  },
+  "Citation of Specific Tools": {
+    "question": "How many specific tools, frameworks, or architectures does the candidate mention?",
+    "count": 1
+  },
+  "Structured Bibliography": {
+    "question": "Can the candidate present a well-organized and relevant bibliography?",
+    "count": 1
+  },
+  "Clear Objectives": {
+    "question": "Does the candidate clearly state the objective and relevance of the presentation in the introduction?",
+    "count": 2
+  },
+  "Audience Engagement": {
+    "question": "How well does the candidate structure the presentation to engage a non-specialist audience?",
+    "count": 1
+  },
+  "Project Maturity": {
+    "question": "Can the candidate present a project that is well-defined and advanced in its development?",
+    "count": 1
+  },
+  "Structural Clarity": {
+    "question": "How clearly does the candidate structure their presentation to guide the audience through their topic?",
+    "count": 10
+  },
+  "Slide Consistency": {
+    "question": "How consistently does the candidate use correct spelling and formatting across all slides?",
+    "count": 1
+  },
+  "Publication Focus": {
+    "question": "Does the candidate focus on published or forthcoming research rather than ongoing or proposed work?",
+    "count": 1
+  },
+  "Quantitative Details": {
+    "question": "How well does the candidate include specific, measurable details and data?",
+    "count": 2
+  },
+  "External References": {
+    "question": "Does the candidate provide relevant external sources or references to support their points?",
+    "count": 1
+  },
+  "Structured Argumentation": {
+    "question": "How well does the candidate present a clear, logical structure with defined goals, challenges, and strategies?",
+    "count": 1
+  },
+  "Model Comparison Table": {
+    "question": "Does the candidate provide a comparison table of their model's performance against state-of-the-art models?",
+    "count": 1
+  },
+  "Statistical Significance": {
+    "question": "Does the candidate report statistical significance for the performance metrics of their model?",
+    "count": 1
+  },
+  "Problem Statement Clarity": {
+    "question": "How clearly does the candidate define the problem statement and its relevance?",
+    "count": 4
+  },
+  "Language Used": {
+    "question": "Does the candidate use English exclusively?",
+    "count": 6
+  },
+  "Technical Language Use": {
+    "question": "How well does the candidate use technical language appropriate to the subject matter, and does the candidate explain complex terms for a general audience?",
+    "count": 2
+  },
+  "Presentation Type": {
+    "question": "Does the candidate present a research project or a personal profile?",
+    "count": 4
+  },
+  "Citation Frequency": {
+    "question": "How frequently does the candidate cite external sources to support their claims?",
+    "count": 2
+  },
+  "Use of Examples": {
+    "question": "How well does the candidate incorporate specific, relevant examples to illustrate key points?",
+    "count": 3
+  },
+  "Contact Information Format": {
+    "question": "Does the candidate present contact information in a structured, professional format?",
+    "count": 1
+  },
+  "Presentation of Research": {
+    "question": "Does the candidate clearly present a specific research problem, their approach, and detailed methodology?",
+    "count": 2
+  },
+  "Content Repetition": {
+    "question": "How many times does the candidate repeat content verbatim?",
+    "count": 1
+  },
+  "Structural Redundancy": {
+    "question": "How consistently does the candidate avoid repeating entire sections?",
+    "count": 1
+  },
+  "Professional vs Academic Focus": {
+    "question": "Does the candidate emphasize professional experience or academic research?",
+    "count": 1
+  },
+  "Problem Context Length": {
+    "question": "How many slides does the candidate use to describe the problem context?",
+    "count": 1
+  },
+  "Consistent Slide Titles": {
+    "question": "Does the candidate use consistent slide titles throughout the presentation?",
+    "count": 1
+  },
+  "Application Focus": {
+    "question": "How clearly does the candidate specify the practical applications and relevance of the research?",
+    "count": 2
+  },
+  "Repetition of Content": {
+    "question": "How frequently does the candidate repeat phrases or sections within the presentation?",
+    "count": 2
+  },
+  "Authorship Presentation": {
+    "question": "How many authors and their affiliations does the candidate list?",
+    "count": 1
+  },
+  "Future Work Section": {
+    "question": "Does the candidate include a section outlining future research directions?",
+    "count": 1
+  },
+  "Experimental Evidence": {
+    "question": "How effectively does the candidate present and discuss experimental results?",
+    "count": 1
+  },
+  "Solution Integration": {
+    "question": "How well does the candidate explain the integration of different technical components into a cohesive system?",
+    "count": 1
+  },
+  "Content Completeness": {
+    "question": "Does the candidate provide a comprehensive overview of the topic, including problem relevance, market assessment, target audience, solution description, scientific novelty, comparison with analogues, project development steps, financial plan, and future prospects?",
+    "count": 2
+  },
+  "Visualization Tools Used": {
+    "question": "Which data visualization tools does the candidate employ?",
+    "count": 1
+  },
+  "Personal Background": {
+    "question": "How well does the candidate integrate personal background into the presentation?",
+    "count": 2
+  },
+  "Slide Titles": {
+    "question": "Does the candidate use clear and descriptive slide titles?",
+    "count": 4
+  },
+  "Comparative Analysis Depth": {
+    "question": "How thoroughly does the candidate conduct and present a comparative analysis of different methods or approaches?",
+    "count": 1
+  },
+  "Contact Information Placement": {
+    "question": "Does the candidate place contact information on a dedicated slide or at the end of the content?",
+    "count": 1
+  },
+  "Citation and Comparison": {
+    "question": "How effectively does the candidate cite existing work and compare it to their proposed solution?",
+    "count": 1
+  },
+  "Metric Explanation": {
+    "question": "How well does the candidate define and explain the evaluation metrics used?",
+    "count": 1
+  },
+  "Quantitative vs. Qualitative Focus": {
+    "question": "Does the candidate emphasize quantitative comparisons and metrics, or qualitative descriptions and insights?",
+    "count": 1
+  },
+  "Citation Detail": {
+    "question": "Does the candidate provide specific details for each citation in the bibliography?",
+    "count": 3
+  },
+  "Methodology Justification": {
+    "question": "Can the candidate explain why specific methods were chosen and how they address the problem?",
+    "count": 1
+  },
+  "Figure Citations": {
+    "question": "Does the candidate properly cite all figures and provide accessible links?",
+    "count": 1
+  },
+  "Code Implementation": {
+    "question": "To what extent does the candidate discuss and analyze the code implementation of the proposed method?",
+    "count": 1
+  },
+  "Data Source Complexity": {
+    "question": "How well does the candidate describe the complexity of the data source?",
+    "count": 1
+  },
+  "Model Comparison Detail": {
+    "question": "Can the candidate clearly compare the performance of different models?",
+    "count": 1
+  },
+  "Evaluation Metrics Clarity": {
+    "question": "How well does the candidate explain the chosen evaluation metrics?",
+    "count": 2
+  },
+  "Algorithm Explanation": {
+    "question": "Does the candidate clearly explain the core ideas and processes of the proposed algorithm, including any unique structures or mechanisms?",
+    "count": 1
+  },
+  "Model Complexity": {
+    "question": "How well does the candidate describe the complexity and suitability of the models used for the specific problem?",
+    "count": 1
+  },
+  "Use of Technical Details": {
+    "question": "How effectively does the candidate incorporate technical details and methodologies?",
+    "count": 1
+  },
+  "Contact Information": {
+    "question": "Does the candidate provide clear and complete contact information?",
+    "count": 1
+  },
+  "Text Orientation": {
+    "question": "How well does the candidate ensure text is presented in a consistent orientation?",
+    "count": 1
+  },
+  "Project Detail Level": {
+    "question": "How detailed are the candidate's project descriptions?",
+    "count": 1
+  },
+  "Future Goals Clarity": {
+    "question": "Does the candidate clearly state future goals and aspirations?",
+    "count": 1
+  },
+  "Personal Engagement": {
+    "question": "To what extent does the candidate include personal motivations and goals?",
+    "count": 1
+  },
+  "Content Structure": {
+    "question": "Does the candidate organize the content into distinct, logically sequenced sections (e.g., introduction, problem statement, methods, results)?",
+    "count": 2
+  },
+  "Text Quality": {
+    "question": "How well does the candidate present clear, coherent, and professional text?",
+    "count": 1
+  },
+  "Content Focus": {
+    "question": "Does the candidate focus on AI safety or multimodal AI methods?",
+    "count": 1
+  },
+  "Problem Relevance": {
+    "question": "Can the candidate clearly define and justify the relevance of the problem they are addressing?",
+    "count": 1
+  },
+  "Professional Background": {
+    "question": "Does the candidate clearly present their professional background and credentials?",
+    "count": 1
+  },
+  "Data Type Used": {
+    "question": "Does the candidate use network traffic data or satellite imagery data?",
+    "count": 1
+  },
+  "Machine Learning Task": {
+    "question": "Does the candidate perform a classification task or a clustering task?",
+    "count": 1
+  },
+  "Personal Introduction": {
+    "question": "Does the candidate include a concise and relevant personal introduction that sets the context for the presentation?",
+    "count": 1
+  },
+  "Problem Scope Clarity": {
+    "question": "How clearly does the candidate define the scope of the problem being addressed?",
+    "count": 1
+  },
+  "Slide Design Consistency": {
+    "question": "How consistently does the candidate use a clear and uniform slide design throughout the presentation?",
+    "count": 1
+  },
+  "Clarity of Research Question": {
+    "question": "How clearly and concisely does the candidate present the research question in the presentation?",
+    "count": 1
+  },
+  "Progress Tracking": {
+    "question": "Does the candidate include any progress tracking indicators (e.g., progress bars, iterations)?",
+    "count": 1
+  },
+  "Use of Figures": {
+    "question": "How many figures does the candidate include and how well are they integrated into the presentation?",
+    "count": 1
+  },
+  "Mathematical Formulas": {
+    "question": "How many mathematical formulas does the candidate include?",
+    "count": 1
+  }
+}

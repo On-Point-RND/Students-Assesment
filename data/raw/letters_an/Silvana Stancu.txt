@@ -1,0 +1,13 @@
+Motivation Letter
+[name] [surname]
+Skoltech Research Immersion Program
+Dear Selection Committee,
+I am writing to express my strong interest in participating in the Skoltech Research Immersion Program. As a second-year student in the Data Science and Engineering program at [company], I am highly motivated to deepen my research experience in an international and intellectually rich environment like Skoltech.
+Throughout my academic journey, I have sought out opportunities that challenge me and allow me to grow.
+My passion for mathematics and science began at a very early age, as reflected in my participation in national and international Olympiads, and evolved into a deep interest in data analysis, programming, and real-world applications. From studying in elite programs such as the [company] Excellence Program and “President Program of Discovery the Future Scientists,” to actively contributing to projects, I have continually expanded both my technical toolkit and my ability to think critically and analytically.
+What particularly draws me to the Skoltech Research Immersion Program is its unique combination of world-class mentorship, interdisciplinary research focus, and hands-on project development. I am especially inspired by Skoltech’s emphasis on real-world impact, innovation, and collaboration—values that align closely with my academic and personal goals. I am confident that participating in this program would allow me to contribute meaningfully to ongoing research projects in data-driven science.
+Furthermore, my experience working as a mathematics instructor and guiding high school students at [company] has taught me the importance of clear communication, resilience, and mentoring—skills I hope to apply in collaborative research teams. I am eager to immerse myself in Skoltech’s dynamic academic culture, broaden my perspective through interaction with diverse peers, and take an active role in advancing innovative solutions to meaningful problems.
+In summary, the Skoltech Research Immersion Program represents a unique and invaluable opportunity for me to bridge academic learning with applied research in an environment of excellence and innovation. I am excited to contribute to the program and, in turn, gain experience that will shape me into a better researcher, engineer, and global citizen.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]

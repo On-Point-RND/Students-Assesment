@@ -1,0 +1,34 @@
+Dear [name] [surname] Admissions Committee,
+I am writing to express my strong motivation to participate in the SMILES Summer Schoo l on Machine Learning. As an ML researcher with over three years of professional experience, I am
+eager to deepen my knowl edge, exchange ideas with peers and experts, and advance my career
+in machine learning and artificial intelligence.
+Curr ently, I work at [compaany], where I have developed and deployed machine learning
+pipelines in computer vision, reinforcement learning, and large language models. In computer
+vision, I designed a production pipeline for semantic segmentation of forest species using state-
+of-the-art architectures such as EfficientNet+DeepLabv3, Vision Transforme rs, and Swin
+Transforme rs. I also opti mized data loading and processing, accelerating model training by 15%,
+and implemented a self-supervised pretraining pipeline that improved segmentation quality by
+10%. In reinforcement learning, I created training and testing pipelines for quadcopter stabiliza tion
+and navigation using PPO and SAC algo rithm s, and applied Generative Adve rsiarial Imitation
+Learning (GAIL) to train a virtual pilot agent with 80% expert behavio r imitation. I'm curre ntly
+working on writing an article to consolidate my results. Addit ionally, I developed a Retrieval-
+Augmented Generation (RAG) system with web search capabilities based on LLaMA 3.1 and
+LangChain. My experience managing a team of over three peo ple has honed my skills in task
+pla nning, technical analysis, and quality control to meet deadlines effe ctively.
+My academic background includes a Master’s degree in Computer science and control systems,
+Information systems and telecommunications from Bauman Moscow State Technical Uni versi ty,
+where I focused on recurrent multi-agent reinforcement learning methods in the game Starcraft
+2. I have also completed advanced courses in Python programming and global opti mization
+methods rel evant to machine learning.
+I am motivated to join SMILES to enhance my theoretica l understanding and practical skills,
+particularly in cutting-e dg e ML/DL methods and their applications. I look fo rward to engaging with
+leading researchers and peers, gaining exposure to new tools and frameworks, and applying
+these insights to my ongoing projects and future research.
+My career goal is to become a leading ML researcher specializing in reinforcement learning and
+computer vision, contributing to inn ovative AI solutions with real-wor ld im pact. Parti cipation in
+SMILES will be instrumental in achi eving this by expanding my experti se, networ k, and research
+capabilities.
+Thank you for conside ring my application. I am excited about the opport unity to learn and grow
+at SMILES.
+Sincerely,
+[name] [surname]

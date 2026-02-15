@@ -1,0 +1,43 @@
+[name] [surname]
+Geochemist/Data Scientist
+Tel: +2 *** *** ***
+portfolio
+E-mail: [email]
+TG: [name][surname]
+ [location] State [location] University, Faculty of Geology, 2015-2017
+Master's degree in geochemistry, petrology. Diploma with honors
+ [location] State [location] University, Faculty of Geology, 2011-2015
+Bachelor's degree in geology. Diploma with honors
+ Programmer, [location]'s schools 1944, 2024 — present
+Lead Project "Nastavnik": programming and designing a system for assessing student progress and portfolios.
+Data analytics: stack: pandas, nltk, NER [name], [name] fuzzywuzzy etc.
+Development: dashboards (plotly.dash), telegram chatbots (aiogram), parsers from web (selenium)
+Teaching: preparing student for the All-Russian Geography Olympia; Supervised a project centred on data processing and analysis (project’s repo) & training students to [location] HSE DANO Olympiad (repo).
+ Head of Department, Corporate [location] University of Education, 2023 — 2024
+Supervised a team of 3 methodologists and 1 part-time student-programmer.
+System development: designed and implemented the "Nastavnik" recommendation and diagnostic system for teachers, leveraging digital footprints within the [location] education ecosystem (PostgreSQL, Python).
+Data analytics: conducted labor market analysis and professional development course market research using NLP tools (paper).
+Content management & Event organization: telegram- & rutube-channels, articles, pedagogical case championship
+ Geologist-Consultant, [company], project-based work
+Consulting the DS team on core recognition projects (identification of rock types, fracturing and its types, secondary processes), instructing and training annotators.
+ Lead Specialist, School 547, 2020 – 2023
+ Digital Technology Consultant, Digital Laboratory, [company], 2018 – 2020
+End-to-End management of innovative projects: led projects from ideation to implementation, including site visits (Zapolyarny, KGMK), startup and trend analysis (e.g., InSAR technology pilot), and contractor negotiations.
+Cost-saving initiatives: conducted free InSAR-monitoring pilot, which saved approximately 3 million RUB.
+Market research: performed market analysis of innovative solutions and drafted technical specifications for unique developments, including a robotic surveyor.
+ Researcher, Institute of Experimental Mineralogy RAS
+Experimental study of paragensis of ultramafic lamprophyres: aillikites from Southwestern Siberia (paper)
+ Senior Laboratory Assistant, IGEM RAS, 2014-2017
+Volcano Shiveluch study project (lab + field trips). Identification of the structure and description of the Baidara paleovolcano (conf. presentation)
+ Satellite images processing:
+Hackathon "Leaders of Digital Transformation - 2024": Georeferencing satellite imagery to base maps [github]
+Hackathon "Digital Breakthrough" (2023): Infrastructure object recognition using satellite data [github]
+Hackathon "Digital Breakthrough" (2022): Classifying agricultural crops [github]
+Google Earth Engine (java script): working with different bands and images sources [github]
+3rd place [company] Hackathon "Intellectual Data: Python, SQL, Yandex DataLens, QGIS, Horizons," 2024 (track - flotation) Power BI, Git
+3rd place "Digital Tailings" project, MineDigital Images:Photoshop, InDesign, Figma
+Competition Minex Russia, 2019 Languages: English – IELTs 6.5 (2021);
+German – B1 (Goethe Zertifikat, 2021);
+8th place data visualization competition by INID and
+C++ – beginner (classes, pointers, macros)
+Yandex DataLens, 2021

@@ -1,0 +1,41 @@
+Cover Letter
+[name] [surname]
+Computer Vision Researcher | AI Developer
+[email] | +2 *** *** ***
+telegram: @[name] | [location]
+Dear SMILES Summer School Committee,
+I’m excited to apply for the SMILES Summer School at [company]. In this letter, I aim to outline
+my academic background, motivation for participation, and the contributions I can bring to this year’s school.
+About me:
+• This year I am completing my Master’s degree in Artificial Intelligence Technologies at [company];
+• I have around 3 years of hands-on experience in computer vision and a few conference or
+journal papers. In general, I work with CV for robotics and related topics;
+• My current research (which is also my diploma) is related to open-vocabulary materials
+recognition in images, and my contribution involves creation of custom dataset and CLIP
+architecture optimization;
+• I have practical experience with generative models (Diffusion Models, LLLs) through
+coursework and personal projects;
+• I have international research experience through [company] internship (France) and NIBS con-
+ference presentation (India);
+• After graduation I am planning to work in one of the industrial companies and build AI
+solutions that make real-world impact.
+Why I want to participate:
+• I am seeking structured learning in generative AI to complement my computer vision
+expertise;
+• I have an interest in cross-cultural academic exchange, particularly with China’s AI
+research community;
+• SMILES’2024 boosted my skills and the overall AI field understanding, and I believe that
+SMILES’2025 can do the same;
+• It will be a great opportunity to apply my English skills in technical discussions;
+• Finally, I want to have good holidays between my hard-working graduation and my new
+after-graduation life.
+What I will bring to the table:
+• Practical experience in research and industrial projects;
+• Experience in technical paper reading/writing;
+• Strong programming experience (particularly in C++) and proficiency in rapid prototyping
+and system optimization;
+• Good collaborative skills.
+Thank you for considering my application. I am looking forward to meet the community and my
+colleagues in [location].
+Best regards,
+[name] [surname]

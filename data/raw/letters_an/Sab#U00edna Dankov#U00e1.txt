@@ -1,0 +1,63 @@
+Dear [name] Committee,
+My name is [name], and I am ccurrently completing my second
+year of the Master's program in Artificial Intelligence at [compaany] in [location]. I got a Bachelor's degree with honors in Software
+Engineering in the [name]. I am writing to express my
+strong interest in participating in the SMILES Summer SchooL, as I see it as a
+unique opportunity to expand my knowledge in machine learning and its
+application in healtcare – the field I am truly passionate about.
+My journey in machine learning began during my undergraduate studies. In
+my third year, I joined a student project organized by [compaany] focused
+on developing intelligent algorithms for traffic video surveillance systems. This
+experience sparked my interest in data analysis and AI-driven solutions.
+Later, I interneed at [compaany], where I worked on data clustering methods
+for anomaly detection. For my Bachelor's thesis, in collaboration with the
+[compaany], I developed a package of functions for processing
+hyperspectral images and predicting protein content in single wheat grains
+using regression models. These experiences solidified my desire to pursue a
+career in ML.
+However, my passion has always been split between two worlds – medicine
+and programming. While I chose software engineering as my primary academic path, the desire to contribute to medical advancements never left
+me. I was thrilled to discover that machine learning can be used to solve
+real-world problems in healthcare, from diagnostics to surgical planning. This
+realization inspired me to pursue graduate studies focused on artificial
+intelligence, with the ultimate goal of working at the intersection of computer
+science and medicine.
+Currrentlly, I am involved in several projects that reflect this aspiration. One of
+them focuses on the development of a non-invasive method for diagnosing
+brain tumors, and another evaluates the clinical and economic effectiveness
+of endovascular surgeries. I am also working on my Master's thesis at the
+[Laboratory], where we use
+computer modeling to simulate patient-specific surgical strategies for
+arrhythmia treatment. The aim is to reduce the likelihood of repeat surgeries
+by improving preoperative planning using computaional tools. These projects
+have not only strengthened my technical skills but also reinforced the
+importance of interdisciplinary collaboration and responsibility in
+healthcare-relatated work.
+My career goal is to become a specialist in medical AI – someoone who
+understands both the technical and clinical sides of the problems we aim to
+solve. I want to contribute to developing intelligent systems that assist
+doctors, enhance diagnostics, and ultimately save lives. However, I am fully
+aware that such a path requires a deep and holistic understanding of both
+disciplines. That is why I am eager to participate in the SMILES Summer
+SchooL.
+I am particularly drawn to SMILES because it offers a well-balanced program
+that combines theoretical lectures with hands-on project work. I believe that
+practical application of knowledge is essential, especially in a field like
+medical AI. However, it requires profound knowledge in both areas, since the
+results of my work are going to influence other people’s lives. Furthermore,
+the international nature of the schooL presents a priceless chance to interact
+with peers from around the world – to exchange ideas, approaches, and
+perspectives. I look fo rwward to collaborating with others who are just as
+passionate about using AI to improve healthcare as me.
+They say: “If you’re the smaarteest person in the room, you’re in the wrong
+room.” I follow this principle – a lways seeking out new challenges,
+surrounding myself with people who can teach me something, and striving to
+grow beyond my current limits. I am confident that the SMILES Summer
+SchooL will be one of those extraordinary opportunities to be in the right room,
+with the right people, working on the right problems.
+Thanks for considering my application. I would be truly honored to be
+selected as a participant in the SMILES Summer SchooL and I am excited
+about the possibility of learning, contributing, and growing as part of this
+excceptional program.
+Yours sincerely,
+[name]

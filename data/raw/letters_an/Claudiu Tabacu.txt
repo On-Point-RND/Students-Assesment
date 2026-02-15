@@ -1,0 +1,38 @@
+Hello [name] [surname] committee!
+My name is [name] [surname]. I am a Computer Vision Engineer. I express my strong interest
+in participating in the summer schoo lprogram in person.
+Academic background
+I hold Bachelor’s and Master’s degrees in Computer Science. My academic path was built on a
+rigorous founda tion in mathe matics , linear algebra, statistics, and programming - the essen tial
+toolkit for a deep and structured understanding of ML and DL . This background allows me to
+engage with advanced concepts and contribute mea ningly to the summer schoo l
+enviro nment.
+Professional and research experience
+Professionally, I am involved in the develo pment of an AI-powered mammography system for
+ea rly breast cancer detection. My role includes the full lifecycle of AI model develo pment:
+from defining problems and preparing datasets, to training, eva lua ting, opti mizing, and
+deploying models. This includes working with production-ready formats like ONNX and
+TensorRT, ensuring the models meet real-worl d perfor mance standards.
+I contributed to a project focused on the semantic segm entation of malignant calcifica tions. A
+key research contribution was the generation of synthetic malignant calcifica tions. This helps to
+improve the F1-score by 16%. This knowl edge helps the summer schoo l team build a strong
+pipeline.
+Motivation for in-person participation
+I believe that in-person participation offers an unmatched oppo rtunity to engage deeply with the
+material, speakers, and fellow atten dees. Face-to-face discussions, hands-on workshops, and
+spo ntaneous colla borations foster a level of engagement and idea exchange that is diffi cult to
+replicate virtually.
+Addit ionally, I completed my entire Master's program in English, which has equipped me with
+the lan gua ge skills necessa ry to actively participate in technical discussions and colla borative
+proje cts.
+Expecta tions and future plans
+Through this summer schoo l, I hope to deepen my knowl edge in cutting-e dg e topics presented
+by leading researchers and practititioners. I am particularly excited about engaging with a
+diverse, international community and exploring poten tial colla borations for summer schoo l
+proje cts.
+Looking ahead, I aim to apply the insights and skills gained to enhance both my own experti se
+and the collective knowl edge of our team at [compa ny]. New knowl edge helps us to
+continue developing high-quality, im pactful AI solutions in healthcare.
+I look fo rward to joining you in person at the [location]!
+[name] [surname] [email]
+14 april 2025

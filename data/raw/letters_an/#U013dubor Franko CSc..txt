@@ -1,0 +1,30 @@
+Motivation Letter
+Dear Selection Committee,
+I am writing to express my strong enthusiasm for participating in the Skoltech Summer School of Machine Learning (SMILES-2025) at [location]. As a second-year master’s student at [compaany], deeply immersed in NLP research under the guidance of [name] [surname] laboratory director [name] [surname], I see this program as a transformative opportunity to expand my expertise in generative AI while engaging with leading researchers and peers from around the world and especially from different areas.
+Motivation for Participation
+My desire to attend SMILES-2025 is driven by three key factors:
+1. Learning from the Best in NLP and GenAI
+[location] has been ranked #1 globally in NLP research (information from csrankiings.org, 2022–2025), and the opportunity to learn directly from pioneers like [name] [surname] and [name] [surname] is unparalleled. My current research focuses on uncertainty quantification in LLMs - our paper "When an LLM is Apprehensive About Its Answers – and When Its Uncertainty is Justified" recently won the Best Paper Award at AINL 2025.
+Attending SMILES will allow me to integrate my work with cutting-edge generative methods, particularly in multimodal and multi-agent systems, which could significantly advance my research on model interpretability and reliability.
+2. Academic Mobility and Cross-Cultural Collaboration
+I have always believed that scientific progress thrives on diverse perspectives. Several of my friends from the [compaany], who participated in academic mobility programs in [location], shared overwhelmingly positive experiences about the country’s approach to research. They highlighted the exceptional discipline, punctuality, and relentless productivity of Chinese researchers - qualities that often lead to groundbreaking results. I am eager to experience this environment firsthand, exchange ideas with peers, and bring back new methodologies to my work at [compaany].
+3. Preparing for a PhD and Expanding My Research Horizons
+This past April, I made the deliberate decision to leave my role as a Middle+ Deep Learning Engineer at [compaany] (where I worked on GigaChat) to fully dedicate myself to research. SMILES’s intensive program - combining lectures, hands-on workshops, and hackathons - is the ideal platform to explore new ideas before embarking on my PhD journey. I am particularly interested in how generative AI can address real-world challenges, and I hope to leverage this experience to refine my research direction.
+ML/DL Experience
+My background is a blend of industry experience and academic research:
+● Research: Co-authored (first author) an award-winning paper on LLM uncertainty (AINL 2025), currently investigating self-supervised confidence estimation methods. My work bridges theoretical rigor with practical applications, aiming to make LLMs more reliable and interpretable.
+● Industry: As a Deep Learning Engineer at [compaany], I contributed to the development and optimization of GigaChat, gaining hands-on experience in deploying large-scale language models. This role honed my ability to translate research into production-ready solutions.
+● Education: My studies at [compaany] (MSc in Data Science) and [compaany] (ШАД) have provided a strong foundation in diverse AI domains, including RL, CV, and time series analysis. While NLP remains my primary focus, I actively explore intersections with other fields to foster innovation.
+Expectations from SMILES
+I hope to:
+● Deepen my understanding of generative models, particularly in multimodal settings (e.g., text-to-image, text-to-video), which are underexplored in my current work. During my review of KDD '25 works I evaluated the paper “Understanding Dark Humor”. Authors decided to construct a pipeline of dark meme intensity evaluation (darkness intensity) and humor theme classification, so they really inspired me to research this area, due to the interesting tasks they solved during their research.
+● Build long-term academic connections with researchers from [location] and [location], fostering potential collaborations for my future PhD and beyond.
+● Experience China’s research culture - its discipline, efficiency, and ambition - which I’ve heard so much about from peers. I believe this exposure will inspire me to raise my own standards and productivity.
+Future Career Plans
+After completing my master’s, I plan to pursue a PhD in NLP/Generative AI, focusing on evaluating and improving trust in LLMs. The insights gained at SMILES especially from [location]'s world-class NLP researchers will directly shape my doctoral work.
+Long-term, I aspire to lead research that bridges academia and industry, developing AI systems that are not only powerful but also transparent and accountable.
+Conclusion
+SMILES-2025 represents a unique convergence of my academic interests, professional experience, and aspirations for global collaboration. I am particularly excited about the opportunity to immerse myself in [location]'s dynamic research environment, which I’ve heard so much about from friends and colleagues. I am confident that this program will not only enhance my technical skills but also broaden my perspective on what is possible in AI research.
+Thank you for your time and consideration. I would be honored to contribute to and learn from the SMILES community this summer.
+Best regards, [name] [surname]
+[compaany] Universiity + [compaany] (joint), MSc in Data Science (2nd year)

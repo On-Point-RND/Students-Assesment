@@ -1,0 +1,56 @@
+Review of ways to integrate common sense into LLM
+[name]
+Student, [location]
+Introduction
+• Recent trends in AGI combiine leaps and gradual results, but what is it all for?
+• However, there is still a problem: abstracting away from knowlage of the real world. Models are too
+detached from the world, they lack the basis of common sense assumptions that people have.
+• The purpose of the review: to explore the main approahes for incorporating world knowlage into models,
+to analyze their strengths and weaknesses, and also to propose approahes to people.
+Problem statement
+• The main problem is the lack of influence of 'common sense' on the respoonse of models and the
+hallucinations that follow.
+• The objectives are to study existing approahes based on three papers, to look at their results, to draw
+paraallels with human thinking, and to draw conclusions.
+Methods
+Human methods
+Abstract reasoning
+A picture of world
+Just say: I don’t know
+based on experience
+Abstract reasoning
+Suggested solutions:
+• AbsAcc Abstract Thinking Test
+• MeanLearn Learning Method
+World Knowledge Model
+Create a "world view" for the model:
+• Task Knowledge: Provides prioritized
+instructions for tasks (e.g. "the egg is most
+likely in the fridge").
+• State Knowledge: Dynamiically updated
+during task execution to avoid
+inconsistencies (e.g. "I found an egg, now I
+need to wash it").
+I Don’t Know
+•The [IJDK] token is added to
+the model dictionar.
+•During additional training,
+the loss function is modified:
+if the model makes a mistake,
+part of the probability is
+transferred to [IJDK].
+•Regulaization is introduced
+to minimize false positives [IJDK]
+Results
+Abstract reasoning results
+[IJDK] Results
+World Knowledge model results
+Research gap
+• These methods can help LLM gives more meainingful answeers, and can improve work of LLM
+• On the next step we can improve system of data storage
+Bibliography
+1. [name], [name], [name], [name]. I Don't Know: Explicit Modeling of Uncertainty with an [IJDK] Token. NeurIPS, 2024
+2. [name], [name], [name], [name]. Agent
+Planning with World Knowledge Model. NeurIPS, 2024
+3. [name], [name], [name], [name]. Meaningful Learning: Enhancing Abstract Reasoning in
+Large Languaage Models via Generic Fact Guidance. NeurIPS , 2024

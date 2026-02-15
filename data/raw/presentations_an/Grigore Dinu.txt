@@ -1,0 +1,61 @@
+            Paper by [name], [surname], [surname], [surname]
+Reprroduced by [name],
+[location], [compaany]
+https://github.com/[name]/zipfian-whitening
+Introduction
+Embbedding space in language models was found to be skewed in certain directions with most
+of the variance concentrated in low-dimensional subspaces [Gao et al., 2019].
+Such spatial asymmetry is typically dealt with by centering/whitening, either during pretraining
+[Zhou et al, 2021] or as a postpocesessing [Mu & Viswanath, 2018] step.
+However, they all tend to overlook the crucial aspect of the language and calculate and mean
+and covariance matrix of embeddings tokenwise, although static embeddings actually
+represent word types.
+For example, the phrase ‘perform natural language processing in a natural way’
+contains eight tokens and seven types. The instances ‘natural’ appear twice, but as a word type,
+it is counted only once.
+Approach
+By leveraging the fact that distribution of types in natural languages corresponds to
+Zipfian law.
+The authors propose to utilize empirical token frequencies, calculated on the whole
+dataset as prior measures for static embeddings. This corresponds to scaling of
+word embeddings by the correspondiing frequencies.
+Then centering and whitening are performeed on the scaled embeddings.
+Centering ensures:
+Whitening ensures:
+Results
+The authors prove and empiirically validate that word vectors learneed with Zipfian prior models reflect the
+informaation amount of the word, i.e. if word type embeddings are centered, and word and context
+embeddings weights are tied, then each embedding for word type satisfies:
+The substantially improved performaance on several sentence-level benchmarks reflects the caim.
+* The set of tasks was extended from initially used in the paper with several classification and clustering tasks in order to test them from the perspective besides sentence similarity. For the whole set
+of metrics and visulas see the repo.
+They also explicitlly show that in terms of obtained frequency/norm dependency:
+And correlation of isotropy enhanced embeddings with downstream performance, which has
+been a debaate in NLP community [Aiit-Saada & Nadif, 2023]
+Results
+These findiinings provide explanaations for recent success of headless language models [Godey et al., 2024] and
+models that leverage negative sampling. An extension to this approaach could also utilize Zipfian prior in softmax
+calculation in order to enfoorce robustness in less frequent token prediction. It should be also noted that the
+authoors have used PCA whitening [Kessy et al., 2015]. Although it doesn’t matter in the embedding related
+tasks, postpocesessing embeddings before classification head could leverage ZCA whitening, which preserves
+the minimal discrepaancy with initial vectors.
+Limitations
+1. Analysis works for statis word embeddings only, extending to contextual word embeddings is more
+sophisticated
+2. Whitening may suffer from numerical instability due to small singular values (especially after scaling)
+References
+1. [name], & [surname] (2018). All-but-the-Top: Simple and Effective Postprocessing for Word Representaions. In 6th Internaational
+Conference on Learning Representaions, ICLR 2018, [location], [location], [location], April 30 - May 3, 2018, Conference Track Proceedings.
+OpenReview.net.
+2. [name], [surname], & [surname] (2020). IsoBN: Fine-Tuning BERT with Isotropic Batch Normalization. AAAI Conference on Artificial
+Intelligence.
+3. [name], [surname], [surname], & [surname] (2019). Representation Degeneration Problem in Training Natural Language
+Generation Models. In 7th Internaational Conference on Learning Representaions, ICLR 2019, [location], [location], USA, May 6-9, 2019.
+OpenReview.net.
+4. [name], & [surname] (2023). Is Anisotropy Truly Harmful? A Case Study on Text Clustering. In Proceedings of the 61st Annual Meeting of
+the Association for Computational Linguistics (Volume 2: Short Papers) (pp. 1194–1203). Association for Computational Linguistics.
+5. [name], [surname], [surname], & [surname] (2024). Zipfian Whitening. In Advances in Neural Informaation Processing Systems 38:
+Annual Conference on Neural Informaation Processing Systems 2024, NeurIPS 2024, [location], [location], Canada, December 10 - 15, 2024.
+6. [name], [surname], & [surname] (Sept. 2023). Headless language models: Learning without predicting with contrastiive weight tying. arXiv
+[cs.CL].
+7. [name], [surname], & [surname] (2015). Optimal whitening and decorrelation. arXiv preprint arXiv: 1512.00809.

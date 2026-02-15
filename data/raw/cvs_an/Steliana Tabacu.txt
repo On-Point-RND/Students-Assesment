@@ -1,0 +1,53 @@
+[location]
+[name] [surname] I +2 *** *** ***
+[email]
+Education
+[compaany],
+BS in Applied Mathematics and Computer Science, Faculty of Computer Science, [location]
+Work Experience
+04/25– [compaany], [location]
+present • ML Engineer
+• LLMs Quantization
+- Creating a quantization approach quantizes different layers of LLM at different bit levels.
+07/24–03/25 [compaany], [location]
+• NLP Research Developer
+• Intelligent Travel Planning Assistant
+- Optimized document embeddings in a RAG platform to improve search accuracy.
+- Performeed alignment of a local LLM using LoRA and fine-tuning, improving response quality.
+- Applied data augmentation and active learning to reduce hallucinations.
+- Built AI tools and agents of Travel assistant.
+- Led the integration of the assistant into a Telegram bot, enhancing user interaction for travel
+and leisure planning.
+10/23–07/24 [compaany], [location]
+• NLP Research Developer
+• AI-Powered Intelligent Systems for Operational Efficiency
+• Developed and implemented large-scale machine learning and NLP solutions to automate business
+processes and enhance search capabilities, resulting in improved performa performance metrics, increased
+customer satisfaction, and reduced operational costs.
+07/23–10/23 [compaany], [location]
+• ML Engineer Intern
+• Research Project on Machine Learning driven Static Application Security Testing(SAST)
+• A system has been devevelopeed using NLP methods to identiify and fix vulnerabilities in snippets.
+09/21–06/22 [compaany], [location]
+• Teaching Assistant in Theory of Probability and Mathematical Statistics
+• Won in the Nomination for Best Learning Assisants in 3-4 Modules 2021-2022 Academic Year
+• I aided in the development and preparation of subject materials, checkeed students’ homework,
+conducted consultations, administered colloquiums, assignments and exams
+Research Projects
+2022–2023 Undergraduaate Research Project with [name] [surname],
+on Novel-view Rendering with Consistent Stylization
+• Proposed a novel neural model which unifies VGG-19, Neural Style Techniques for 3D-images and a
+rendering pyramid
+2021–2022 Term Paper with [name] [surname] and [name] [surname],
+on Speech-based diagnostics of depression with machine learning
+• Improved the Python script extracted 54 audio features from audio recordings. Analysed 6 machine
+learning algorithms for classifying depression stages.
+2020–2021 Program Project with [name] [surname],
+on ECG-based heart disease detection system
+• Create a web service extracted health data from various wearable devices
+Professional skills
+Languages Python, C/C++, Bash shell, LaTex, SQL
+ML&AI Pandas, PyTorch, Nympy, Scikit-learn, Hugging Face, LLM, RAG
+Technologies Hadoop, Spark, AWS (S3), LangFlow, LangFuse
+Development Git, Docker, Kubernetes, JIRA, Jupyter, Google Colab, Yandex.DataSphere, Yandex Cloud
+Tools

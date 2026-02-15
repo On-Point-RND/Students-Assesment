@@ -1,0 +1,66 @@
+[name] [surname]
+• GIS analyst and project manager with more than 20 years of experience in the industry and research in [location], [location] and [location];
+• Researcher on the forestry transport accessibility, Ph.D.;
+• Geoinformatics teacher (machine learning to solve spatial problems; geodatabases, norms and law in geoinformatics, digital elevation models, intelligent GIS, expert systems in geoinformatics, GIS support of transpart systems, use of UAVs, GIS-technolologies in socio-economic maps, web mapping).
+Working languages: Russian (mother tongue), English (advanced spoken and written B2, international certificate),
+French (advanced spoken and written B2-C1, international certificate).
+E-mail: [email]
+Mobile: +2 *** *** ***
+Education: higher technical, Ph.D.;
+1997-2002 [university].
+Department of Cartography, specialty "Digital Cartography." Diploma with honors;
+2002-2006 Graduate School [university];
+2006 Ph.D. in Cartography.
+ML/DL skills:
+- Machine and deep learning with Python-libraries and frameworks.
+- GIS software: ESRI ArcGIS Desktop and Server, QGIS Desktop and Server, GeoDa;
+Affiliations:
+- [company] - August 2016 - present - leading researcher (https://cepl.rssi.ru/en/member/podolskaya-[name][surname]):
+• leading the working group on transport modeling of ground access of special equipment in the organization of forest fire
+extinguishing and assessment of forest resources (https://cepl.rssi.ru/en/category/research-and-development/);
+• publications and participation with reports at conferences and events with the participation of [company] (recent:
+https://cepl.rssi.ru/en/news-20240926/; https://cepl.rssi.ru/en/news-14112024/ https://cepl.rssi.ru/en/news-20240913/) ;
+• team member in the contract with state funding "Methodological approaches to assessing the structural organization and
+functioning of forest ecosystems," state registration number - AAAA-A18-118052590019-7;
+• team member in the important innovation project (VIP GZ) [company] 2022-2024;
+• reviewing manuscripts of articles for Russian (Forest Science, Forestry, Geodesy and Cartography) and foreign (Transactions in
+GIS; European Journal of Forest Engineering) scientific journals;
+• preparation of documents to register geodatabases of [company] in Rospatent 2022, 2023, 2024.
+- National Research University Higher School of Economics (HSE) - September 2022 - present - associate
+professor (https://www.hse.ru/org/persons/757712527), Department of Geography and Geographic Information
+Technologies.
+Development and teaching of a course on machine learning in solving spatial problems as part of Master's Degree in Spatial Data
+and Applied Geoanalytics, opened in 2024 (https://www.hse.ru/en/ma/geoanalytics/). Participation in the Faculty project
+activities since 2024. Member of the organizing committee of HSE student research competition in 2024;
+ML/DL professional development 2021-2024:
+• Data Day 2024 (https://data-day.ru/) - July 4, 2024;
+• DataStart2024. Data Science, machine learning and neural networks (https://datastart.ru/), participant certificate July 3,
+2024;
+• GigaConf 2024 (https://gigaconf.ru/#venue) – June 27, 2024;
+• Open Source 2024 – C-News Conferences (https://events.cnews.ru/events/open_source_2024.shtml) – 25 июня 2024;
+• International Scientific Conference. Science and technology. Data sources and analytical approaches in development.
+Ministry of Education and Science of the Russian Federation. May 29-30, 2024;
+• ESRI in applied GIS projects // Abstracts of the MIIGAiK scientific conference "Spatial Data:
+Science and Technology 2024". Moscow: MIIGAiK, 2024. pp. 23-24.https://www.elibrary.ru/item.asp?id=70280046
+• Bahramkhan Ya. O., Ermakov D. M., [name] [surname]. Experience in developing an algorithm for allocating forest
+clearings under power lines in forest landscapes based on Sentinel-2 data // Twenty-second International Conference
+"Modern problems of remote sensing of the Earth from space". November 11 - 15, 2024. IKI RAS. Abstracts of the
+report. http://conf.rse.geosmis.ru/thesisshow.aspx?page=293&thesis=10220. DOI 10.21046/21DZZconf-2024a
+• Kokurkin A.D., [name] [surname]. The results of road recognition using the U-Net neural network and compaison with
+OSM data in the Krasnoyarsk Territory // International Interdepartmental Scientific and Technical Conference "Space
+Technologies", Moscow, Russia, October 26, 2023 Collection of scientific articles / Zamuruev S.N., Vasiliev A.G.,
+Uvaisov S.U., Kostin M.S., Karpov D.A., Bokov S.V. M.: MIREA – Russian Technological Universiity, 2024. pp. 186-
+190.
+• Kokurkin A.D., [name] [surname]. GIS-open source tools for road recognition // Collection of scientific articles based on
+the materials of the VII International Scientific and Practical Conference "Actual problems and prospects of
+development of radio engineering and information communication systems" (Radioinfocom-2023), Moscow, RTU
+MIREA: collection of scientific articles. Moscow: MIREA - Russian Technological Universiity. Section
+"Geoinformation systems and technologies". pp. 538-541.
+https://www.elibrary.ru/item.asp?selid=65287846&id=65287538
+• [name] [surname] Methods and GIS tools of open-source machine learning in forest transport modeling // Questions of
+forest science. 2023. Vol. 6. No. 3. Article No. 130. pp. 1-10. DOI 10.31509/2658-607x-202363-130
+• [name] [surname] The use of Earth remote sensing data from space for image recognition of roads in forestry //
+Questions of Forest Science. 2022. T. 5. No. 4. pp. 1-21. DOI 10.31509/2658-607x-202252-115
+
+
+

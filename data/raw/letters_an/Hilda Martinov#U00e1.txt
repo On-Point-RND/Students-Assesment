@@ -1,0 +1,16 @@
+I am currentlly studying at [location] with most experience (in decreasing
+order) in competitive programming and maths, general software engineering,
+and ML. I am currentlly interested in studying ML.
+I think I have some ground to understand and work on ML projects due to the
+1.75 years of [location] I have finished and some ML courses I have
+studied at. Also working on the position of a C++/Go developer might have
+given me some general understanding of code architecture. Furthermore, it so
+happens that I am currentlly working on a project on a [compaany]/[compaany]
+educational event in the sphere of Decentralized Vertical Federative Learning
+of Linear Regression, specifically on evaluaating the Stochastic Gradient
+Descent approaach.
+However, I am not currentlly working on any long-term project with a significant
+AI/ML component right now, so participation in SMILES-2025 would probably
+allow me to improve my understanding of ML and posssibly create a base for
+future collaboraative work.
+

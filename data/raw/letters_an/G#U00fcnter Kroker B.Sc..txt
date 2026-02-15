@@ -1,0 +1,51 @@
+To anyone it concerns,
+I am writing this letter to apply for the Summer School of Machine Learning. To be honest,
+my journey into ML has not followed the typical path. Just two years back, I was pretty conflicted
+about this whole field. I could build hardware to gather and analyze data just fine, but I had a
+naggiing skepticism about AI and related technologies. I thought they were overhyped and would
+probably collapse soon as it happened to the dotcoms 25 years ago.
+Thanks to some enthusiastic people, I had a chance to look at ML not as real-world magic,
+but as a set of powerful tools with a strong mathematical and engineering background behind them.
+This revelation opened my eyes, eliminated preconceptions and straightforwardly connected the
+rapidly developing field with the inner needs of mine. Finally, the next year and half of my life
+have been made ascertain. I finished the courses dedicated to ML, DL and NLP with A grades,
+participated in many projects, starting from time series classification with a meta-learning
+technique, followed with image and text classification. Eventually, I even participated in
+developing a concept of an AI agent for business-processes analysis and implemented some of its
+features inside the standalone LLM-based bot that worked quite well for a self-hosted solution
+made with a lightweight LLM.
+Not every project was a home run, but none of them made me doubt my path. If anything,
+each project hammered home just how much more there is to discover in this field. All in all, the
+Dunning-Kruger effect has been known for 30 years by now, so being aware of it, I have been
+going forward to new problems.
+That way I have recently encountered another problem, which is the non-homogenous
+nature of the processed data – instead of purely tabular or visual data, the problem I had
+encountered, requires the processing of multi-source data and coherent analysis of it. In particular,
+the project on the automatic coin grading, appeared to have the distribution shift that can be
+potentially solved by adding the contextual information about the graded coin via a textual
+database. This and many other tasks are the domain where I see multimodal and multi-agent
+systems shining.
+The multiagent systems can also contribute to similar problems solution by federating the
+tasks between the agents, which do the parts of the whole task better, thus increasing the overall
+performance of the system. While the use of these systems is limited to the easy-automatable tasks,
+I am expecting their advancements in the industrial planning, as their statistical basis may help to
+improve risk assessments by finding complex dependencies, that could not be derived manually,
+and achieve better control over complex structures such as enterprises. To some extent it is
+comparable to the way how the natural systems are working.
+The last, but not the least reason of my application is the chance to get new acquaintance with
+the people, united with the same interests as mine. While the AI technologies evolve rapidly,
+emerging new ideas, models, frameworks and theories almost every day, it is become hard to track
+all valuable ideas on my own. The Summer School offers a shift from the solo learning to the group
+learning with a chance to synthesis the new ideas with a newly acquainted mates Speaking
+honestly, this is a second to none reason of my application to the school.
+I am aware that the scheduled program is packed with intense learning sessions and
+finalized with a hackathon. However, I see it not as another challenge but the fast track to
+improving my knowledge about cutting-edge topics in AI by dedicating to them two weeks instead
+of spreading it to several months. Moreover, I am confident about my hard skills, so I am ready to
+tackle challenging problems and contribute meaningfully to team projects during the hackathon. I
+believe that the SMILES will be a meaningful experience in my professional journey, providing
+me with the knowledge, connections, and inspiration to further pursue my applied research
+interests in the cutting-edge trends of ML.
+Thank you for considering my application. I am looking forward to your response!
+With the best regards,
+[name] [surname]

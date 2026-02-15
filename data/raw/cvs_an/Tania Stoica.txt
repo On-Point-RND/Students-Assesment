@@ -1,0 +1,42 @@
+[name] [surname]
+tg: @[name][surname] ✧ [location]
+[email] ✧ github.com/[name][surname]
+OBJECTIVE AND SKILLS
+Fourth-year student of [compaany] program ”Applied Math and Computer Science”, looking for AI research
+Maths strengths: Probability, Matrix computations, Statistics, Calculus, Algorithms
+DL/ML strengths: Generative modeling in CV, Efficient DL, Bayesian methods, NLP, RL, Optimization
+Key interests: Diffusion models, Optimal transport
+EDUCATION
+Higher School of Economics, [location] 2021-2025
+Bachelor of Applied Math and Computer Science Current rating GPA 8.7
+Yandex YSDA, [location] 2023-2025
+Bayesian Methods in ML, Efficient DL systems, Reinforcement learning, Python
+EXPERIENCE
+Research Intern since April 2025
+Yandex Research [location]
+• Effective Data Processing and Generative Modeling
+Research Intern August-December 2024
+HDI Lab, Faculty of Computer Science, [compaany] [location]
+• Off-Policy Evaluation for Recommender Systems
+Teaching assistant since September 2022
+Faculty of Computer Science, [compaany] [location]
+• Math Statistics, Calculus, C++, Algorithms and Data Structures.
+PUBLICATIONS
+Asymptotic Analysis of the Ruppert–Polyak Averaging for Stochastic Order Oracle RJND, 2024
+PROJECTS
+Global gradient optimization methods [compaany], 2023
+• developed an algorithm for finding global minimum of continuous
+multimodal function among given set
+Riemannian Optimization for Link Prediction Using Tensor Decompositions [compaany], 2024
+• approach of using structure of TuckER model for optimization on
+Riemanian manifold of tensors of fixed mlranks
+Optimal Transport [compaany], 2025
+• PyTorch implementaion of NOT method using more powerful EDM based networks
+• novel approach for solving ENOT in one-step
+Consistency models CV Week, 2024
+• diffusion distilation to one-step or few-step sampler by mapping noise
+directly to high-quality data samples
+HONORS
+• CV Week, YSDA • Yandex Summer School - analytics
+• SOTA Sirius, YSDA • IZhO, IEPhO - gold medal
+• Yandex algorithm trainings 3.0 - wiinner • All-Russian Olympiad - best theory solution

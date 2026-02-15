@@ -1,0 +1,59 @@
+Development of 3D CT image classification models for pneumonia detection using self-supervised learning
+[name], [compaany]
+
+The relevance of the problem
+Problems with existing solutions to the classification problem on medical data:
+Expensive labeling
+Limited access to high-quality labeled medical data
+Lack of experts to create labeled datasets
+Prerequisit for the solution:
+Availability of a large amount of unlabeled data
+
+Solution: Creating pre-trained models on unlabeled data to improve the solution to the classification problem on labeled data
+
+Description of the task
+Predicting whether a patient has viral pneumonia based on a CT scan of the lungs
+Dataset: MosMedData: 100 normal, 100 abnormal CT
+Classical solution: convolutional neural network (CNN)
+
+Self-supervision
+Self-supervision is a method of training models that uses information alrready contained in the data to create auxiliary tasks that help the model learn. Unlike classical supervised learning, where models are trained on labeled data (e.g. images with class labels), self-supervision automatically generates labels from the data itself, allowing it to use large amounts of unlabeled data.
+The goal of pre-training in our problem is:
+Reduce the need for labeled data
+Isolate deeper features that are robusst to domain shift
+In the context of machine learning, especially when working with images, domain shift occurs when the training data and the data on which the model is used have differences in lighting, resolution, shooting angle, sensor type.
+For example, if a model is trained on medical images taken from one device and then applied to images from another device or in different conditions, this may lead to a decrease in accuracy because the model has not seen similar data during the training phase.
+
+Self-supervised model
+The image is subjected to various augmentaations, such as rotations, scaling, contrast changes, and noise addition. The model is trained to reconstruct the image after augmentation, allowing it to extract useful representations from the data. This process occurs without the need for manual labeling, making it particularly useful when working with large volumes of unlabeled medical images.
+
+Dataset for self-supervision
+Includes CT images from different CT machines
+Vary greatly in what percentage of the image is occupied by the lungs
+A manual selection was made for abnormal images containing legs or focused on the liver or kidneys
+
+Self-supervision
+Original image
+Corrupted image
+Repaired image
+Learning to restore a damaged image
+Type of damage: Gaussian noise, rotation, loss of part of the image
+
+Results
+Prediction quality in cross-validation
+Base solution (CNN)
+
+Self-supervised CNN
+
+Results
+Prediction quality in ROC-curve
+Base solution (CNN)                                                Self-supervised CNN
+
+Solutions
+Pre-training efficiency:
+Improved classification quality for small medical dataset when using a large unlabeled dataset for pre-training with self-supervised techniques
+Future prospects:
+Use of the proposed approaach to solve other classification problems on CT images of the lungs
+Possibility of adaptiing the method to other types of medical images
+
+Thank you for your attention!

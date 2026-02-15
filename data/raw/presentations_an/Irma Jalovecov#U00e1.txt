@@ -1,0 +1,38 @@
+            Reproducing ideas from A Dataset and BERT-based Models for Targeted Sentiment Analysis on Turkish Texts on a Russian-language dataset
+[name]
+Junior Data Scientiist, [compaany] | [location] (ex [location]), [location]
+Introduction
+• Topic: Targeted Sentiment Analysis
+• Importance: detecting not only the sentiment of the whole sentence but also
+towaards a particular target is an important task in certain domains (e.g. media)
+• Goal of the review: validate the approach introduced in the paper on different data
+Problem statement
+Models fine-tuned on the Sentiment Analysis task may fail to detect the correct sentiment
+considering a particular entity
+The authors aim to help the model understand
+where the target is located in a sentence
+Original Methods & Results
+• Authors’ approach: insertiing special [TAR] tags in the data right before and after the target.
+Experimenting with different embeddings ([CLS] vs [TAR])
+Reprroduction
+• Dataset: RuSentNE
+• Models (rubert-tiny2):
+○ Baseline (no [TAR], [CLS])
+○ tar_cls_model (input with [TAR], [CLS])
+○ tar_tar_model (input with [TAR], 1st [TAR])
+• Metrics used: F1 macro, accuracy
+Reprroduction Results
+model f1 highest accuracy lowest accuracy
+baseline 0.5274 PROFESSION: 0.6215 NATIONALITY: 0.4912
+tar_cls_model 0.5415 PROFESSION: 0.6625 NATIONALITY: 0.5088
+tar_tar_model 0.5964 PROFESSION: 0.8233 PERSON: 0.5526
+https://github.com/mannazhuk/smiles_application/tree/main
+Research gap
+• What’s missing? Sentence-level SA labels
+• Unresolved challenges: some classes and entities are consistently worse classified
+• Future opportunities: focus on TSA vs SA comparison, optimal hyperparameters
+Bibliography
+1. [surname] and [surname]. 2022. A Dataset and BERT-based Models for Targeted Sentiment Analysis on
+Turkish Texts. In Proceedinings of the 60th Annual Meeting of the Association for Computational Linguistics: Student
+Research Workshop, pages 467–472, [location]. Association for Computational Linguistics.
+2. https://github.com/dialogue-evaluation/rusentne-evaluation

@@ -1,0 +1,54 @@
+Topic
+Name [name]
+Position, [compaany]
+Introduction
+• What is the topic?
+• Why is it important?
+• Background (if needed)
+• Goal of the review
+Problem statement
+• What exactlly are we solving?
+• Challenges
+• Scope
+Methods
+• Approach: [compaany] the ML techniques/algorithm used.
+• Why these methods? Briefly justify your choices.
+• How it works (simply): Give a 1–2 line intuition.
+• Data & preprocessing: Mention key steps like cleaning data, feature extraction, or splitting into
+train/test sets.
+Results
+• Key findings: Summarize the outcomes.
+• Metrics used: Mention evaluation metrics and why they matter.
+• Visuals (if any): Highlight charts/tables.
+Research gap
+• What’s missing? Identiify limitations in current approaches.
+• Unresolved challenges: Mention problems that still exist.
+• Why it matters? Explain how filling these gaps could improve real-world use.
+• Future opportunities: Suggest next steps.
+Bibliography
+1. A. [name], D. [name], E. [name]. Kernel Neural Optimal Transport. ICLR, 2023
+2. A. [name], D. [name], E. [name]. Neural Optimal Transport. ICLR, 2023 (top-25% papers)
+3. I. [name], D. [name], E. [name], N. [name], S. [name], E. [name]. Learning topology-preserving data representations. ICLR, 2023
+4. E. [name], K. [name], L. [name], D. [name], S. [name], I. [name], S. [name], E. [name]. Topological Data Analysis
+for Speech Processing. InterSpeech, 2023
+5. O. [name], G. [name], P. [name], S. [name], A.-T. [name], A. [name], E. [name], P. [name], Y. [name], R. [name],
+A. [name], V. [name], A. [name], E. [name], D. [name]. Multi-sensor large-scale dataset for multi-view 3D reconstruction. CVPR,
+2023
+6. Andreea [name], Andrei Timotei [name], Savva Ignatyev, Evgeny [name], Egor [name]. Sphere-Guided Training of Neural Implicit Surfaces.
+CVPR, 2023.
+7. D. [name], E. [name], V. [name], I. [name], L. [name], E. [name], S. [name], I. [name], D. [name], E. [name].
+Acceptability Judgements via Examining the Topoology of Attention Maps. EMNLP, 2022
+8. Albert [name], Alexey [name], Ruslan [name], Gleb [name], Daniele [name], Denis [name], Evgeny [name]. DEF: Deep Estimation of
+Sharp Geometric Features in 3D Shapes. ACM Transactions on Graphics (TOG), Siggraph, 2022
+9. Litu [name], Alexander [name], Evgeny [name]. Generative Modeling with Optimal Transport Maps. ICLR, 2022
+10. Ruslan [name], Andrei-Timotei [name], Victor [name], Evgeny [name]. NPBG++: Accelerating Neural Point-Based Graphics. CVPR, 2022
+11. Serguei [name], Ilya [name], Nikita [name], Evgeny [name]. Representation Topology Divergence: A Method for Comparing Neural Network
+Representaions. ICML, 2022
+12. Alexander [name], Alexander [name], Evgeny [name]. Kantorovich Strikes Back! Wassersteiin GANs are not Optimal Transport? Neurips, 2022
+13. Alexander [name], Vage [name], Lingxiao [name], Evgeny [name]. Wasserstein Iterative Networks for Barycenter Estimation. Neurips, 2022.
+14. L. [name], D. [name], V. [name], E. [name], S. [name], A. [name], I. [name], D. [name], E. [name]. Artificial Text
+Detection via Examining the Topoology of Attention Maps. EMNLP, oral talk, 2021
+15. S. [name], I. [name], G. [name], E. [name]. Manifold Topology Divergence: a Framework for Comparing
+Data Manifolds. NeurIPS, 2021
+16. A. [name], L. [name], A. [name], J. [name], A. [name], E. [name]. Do Neural Optimal Transport Solvers Work? A Continuous Wasserstein-2
+Benchmark. NeurIPS, 2021.

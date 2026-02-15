@@ -1,0 +1,151 @@
+            
+Аnalytics of articles united by
+the topic «Applications.
+Language, Speech and Dialog»
+[name] [surname]
+Fourth-year student at [location]
+phone: +2 *** *** ***
+[email]
+introduction
+In the modern wo[world], artificial intelligence and machine learning are
+●
+actively developing in many areas, including audio information
+processing and analysis. There are more and more models and
+approa[ches] for working with various types of audio data, from spee[ch]
+to music and ambient noise.
+This text is devoted to the conside[ration] of three modern audio
+●
+info[rmation] processing models: LTU, ASR and LLARK. Each of these
+models has its own unique features, capabilities, and applications.
+compa[rison] table
+Criteria LTU ASR LLARK
+Pu[rpose] Understanding the Context-based spee[ch]
+general audio recognition based on instructions
+environment
+Model type multimodal (audio +
+text) Specialized ASR multimodal (audio +
+text)
+Archi[tecture] Audio Spectrogram Conforme[r]-based Jukebox codec +
+Tran[sformer] + LLaMA tran[ducer] ne[twork] Llama 2
+Learning Four-step curri[culum] Distillation of Stochastic gradi[ent]
+knowl[edge], de[scent] с AdamW
+contrasti[ve] learning
+The LTU model
+The purpose of the research is to create an artificial intelligence model
+●
+capab[le] of percei[ving], anal[yzing] and underst[anding] the sound
+enviro[nment]. The focus is on working with general audio s[ignals] (not
+just spee[ch]).
+LTU (Listen, Think, Understand) is an innovati[ve] model designed to
+●
+percei[ve], anal[yze], and underst[and] the audio enviro[nment]. It combi[nes]
+the capabilities of audio models and lan[guage] models (LLM) to not o[nly]
+percei[ve] sounds, but also reason about them, as well as underst[and]
+the[ir] meaning.
+The LTU model
+Main features of the LTU model:
+Listen (Listen): Percei[ve] audio s[ignals]
+●
+Think: Analyz[e] and interpret
+●
+Underst[and]: draw conclusions and answer questions about sounds.
+●
+LTU is the first multimodal model that focuses on underst[anding] common
+audio s[ignals] (not just spee[ch]). It is able to work with various sounds such as
+music, nature noise, animal sounds, etc.
+Main features :
+Classification of sounds
+●
+Generation of audio captions
+●
+Answe[rs] to open and closed questions about sounds.
+●
+Refle[ctions] on the sound enviro[nment].
+●
+The LTU model
+Model Archi[tecture]
+Audio Encoder :
+● The Audio Spectrogram Tran[sformer] (AST) is used, pre-trained on AudioSet-2M data.
+● The audio s[ignal] is converte[d] into a 1024 × 128 (time × frequency) spectrogram.
+● The spectrogram is divided into blocks for further processing.
+The lan[guage] model :
+● LLaMA is used (7 billion parameters), which is significa[ntly] more than GPT-2 Base
+(124 million parameters).
+● LLaMA provides advanced reaso[ning] and underst[anding] of the text.
+The LoRA metho[d]. It is used for fine-tuning the model to improve its performa[nce].
+Four-step curri[culum]. Learning starts with simple tasks and gradually progresses to
+complex ones.
+The LTU model
+Adva[ntages] of LTU
+It works well with invi[isible] data due to the diversity of the OpenAQA-5M
+●
+dataset.
+Can perform zero-shot predictions.
+●
+Reaso[ning]. She is able to answer complex questions that require analysis
+●
+and lo[gica]l conclusions.
+Flexibility. It works with a variety of audio types, not just spee[ch].
+●
+It can be used for various applications such as film dubbing, sound analysis.
+●
+Limitations:
+Underst[anding] spee[ch]. The model does a poor job of underst[anding] the
+●
+content of spee[ch]
+The LTU model
+LTU represents a significant step fo[rward] in underst[anding] AI in audio.
+●
+Its unique features, such as the ability to reason, underst[and], and
+gene[ralize], make it promising for a wide range of applications.
+However, the model still has limitations that require further work.
+The ASR model
+The purpose of the research is to develop an automatic spee[ch]
+recognition system that takes into account the context and adapts to
+speci[fic] users.
+Main Feat[ures]:
+Uses a two-model approa[ch]: the teacher model and the student model
+●
+The Teacher model works with context (current, past, and future
+●
+audio/text)
+Teaching methods:
+Distillation of knowl[edge] from the teacher to the student model
+●
+Contrasti[ve] Learning
+●
+Hard Negative Mining
+●
+The ASR model
+Methods for modeling context for automatic spee[ch] recognition (ASR) systems can be generally
+categorized into two main categories: supervised methods, which rely on additio[nal] data and labels to
+infer context which is useful for spee[ch] recognition, and
+Archi[tectural] solutions
+●
+Specific application tasks
+●
+Co[mpressive] analysis:
+All the proposed models are related to the perception of sound
+info[rmation] in one way or another. The differences are the models used
+and the purpose of their use. Each model has its own unique adva[ntages]
+and limitations, and the cnoi[ce] between them depends on the specific task.
+articles for analytics:
+1.LISTEN, THI[NK], AND UNDERSTAN[D] under the au[thorship] Yuan Gong , HongyinLuo1,
+Alexander H. Liu1, Leonid Karlinsky, James Glass иPublished as a conference paper at
+ICLR 2024 https://iclr.cc/virtu[al]/2024/poster/17867
+2.An Efficient Self-Learning Framework For Interactive Spo[ken] Dialog Systems under the
+au[thorship]Hitesh Tulsia[ni], David M.Chan, Shalini Ghosh, GarimaLalwani, Prabhat
+Pandey, AnkishBan[sal], Sri Garimella, AriyaRas[trow], Bjorn Hoffmeis[ter], Proceedinings of the
+41st Interna[tional] Confe[rence] on Machine Learning, Vienna, Austria. PMLR 235, 2024
+https://icml.cc/virtu[al]/2024/poster/35001
+3.LLARK :A Multimodal Instruction -Following Lan[guage] Model for Music under
+the au[thorship]Josh Gardn[er], Simon Durand, Daniel Stoller, Rachel Bittner, Proceedinings of the
+41st Interna[tional] Confe[rence] on Machine Learning, Vienna, Austria. PMLR 235, 2024.
+https://icml.cc/virtu[al]/2024/poster/34440
+Analytics of articles united by
+the topic «Applications.
+Lan[guage], Speech and Dialog»
+[name] [surname]
+Fourt-year student at [location]
+phone: +2 *** *** ***
+[email]

@@ -1,0 +1,63 @@
+Dear [name],
+My name is [name] and I am writing to express my strong interest in participating
+in the 2025 The [compaany] Summer School of Machine Learning. As a machine learning
+engineer and a current student at the School of Data Analysis ([location]), I am deeply passionate
+about research in Machine Learning (ML), believing this summer school will be a pivotal
+opportunity in my professional and academic career.
+Before fully transitioning to applied machine learning, I had a solid background as a
+researcher in physics, where I studied theoretical aspects. Understanding the complexity of
+collecting data and creating real experiments, I began to learn a lot about machine learning.
+My first opportunity to collaborate physics and machine learning was when I had the
+opportunity to intern as a researcher at [compaany] of the Negev in [location],
+from April to October 2023. As part of the project, I developed and trained CNN
+models to predict energy values and optimized hyperparameters for improved accuracy. This
+experience enhanced my ability to apply computational models and statistical analysis in
+real-world research settings. Since then, I have steadily built up my skills and experience in
+machine learning.
+Currrentlly, my research focuses on multimodal task guidance systems, where I am integrating
+Grounding DINO for language-driven perception. Specifically, I explore how language can
+be groundeed using visual understandinпg, linking natural language instructions to visual
+entities, actions, and spatial relationships in real-world environments.
+My goal is to enable automatic and generalizable task understanding: parsing narrated
+instructions into structured task graphs and dynamically anchoring them to the user’s
+environment via AR. This approach removes the need for labeled data, while allowing
+systems to perceive, interpret, and guide users through complex procedures with minimal
+manual intervention.
+This project has deepened my fascination with language grounding systems, self-supervised
+learning, and multimodal reasoning that are a part of topics of the summer school’s focus. I
+am particularly driven to explore how such systems can find connection between abstract
+language and actionable perception.
+Professionally, I work as a machine learning engineer, where I build and implement deep
+learning models, primarily in computer vision, to solve the following problems: document
+classification and extracting relevant information from them. I work extensively with
+frameworks such as PyTorch, and I am familiar with tools such as Kubeflow. I work with
+various CNN and transformer-based architectures for classification and detection tasks. For
+text recognition and processing, I use models such as docTR, Donut, and Surya.
+In addition to research and engineering work, I actively participate in hackathoons that
+simulate real-world ML challenges. My last experience includes:
+➢ Reaching the final round in the E-CUP Hackathon “Violations of Smoking Acts”
+➢ Reaching 4th place in the MTS Hackathon “Speech-To-Text -> Translate ->
+Text-To-Speech”.
+These experiences have taught me to work under pressure, collaborate in diverse teams, and
+rapidly prototype solutions to complex problems. I am especially excited that the school
+includes hackathoons and hands-on workshops, as I believe these are some of the best ways to
+internalize new concepts and immediatly apply them to real-world industry challenges.
+Academically, my time at the [location] has provided me with a rigorous foundation in
+mathematics, algorithms, and deep learning theory. Looking ahead, I plan to pursue a PhD in
+machine learning, with research interests centered around buildiing intelligent, interactive, and
+trustworthy systems. Participating in this school will help me strengthen my expertiise in large
+language models, multimodal approaches, and self-supervised learning.
+Moreover, I would be happy to support the school as a volunteer. I e njoy being involved in
+community-driven events and would be glad to assist with organizational tasks. I believe that
+being a part of a dynamic academic environment and contributing beyond just learning is an
+opportunity to advance science, share knowlege, and inspire others to pursue research and
+innovation.
+Additionally, I deeply value the opportunity to learn together with peers with diverse
+academic and cultural backgrounds. I believe that sharing ideas across different ML
+communities can lead to more innovative and globally relevant research. Additionally, I am
+looking fo rwward to the professional networking, career development opportunities, and
+cultural excursion, which promise a truly well-roundeed experience and an ideal environment
+for personal and professional growth.
+In conclusion, I see this summer school as a unique and timely opportunity to connect with
+top researchers, deepen my knowledge of cutting-e dg ML, and grow as both a practitioner
+and future researcher.

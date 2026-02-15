@@ -1,0 +1,33 @@
+[name] [surname]
+ML Researcher
+
+About me
+I am passionate about optiomization and machine learning, I believe that it’s practical applications can bring us to the brightest future. I am a Machine Learning researcher with several publications and participations in international conferences. In addition I have commercial experience at [compaany].
+I study at [compaany], enjoy Machine and Deep Learning, Optimization, including first- and zeroth-order methods!
+
+Skills and knowledge
+Deep learning
+Machine Learning
+Optimization
+LLMs/CV/RecSys
+
+Research Experience and Achievements
+
+Optimization methods
+Shuffling Heuristic in Variational Inequalities ..
+Zero Order Algorithm for Decentralized Optimization Problems
+When Extragradient Meets PAGE (will be published soon)
+
+LLM FineTuning
+Working on new Zeroth-order methods with a practical application of LLM’s PEFT
+Loss Landscape
+Research Loss Landscape Convergence aiming to determine minimal dataset size
+from paper: https://arxiv.org/pdf/2402.11592
+from paper: https://arxiv.org/pdf/2410.10986
+
+ML Engineer / Researcher
+[compaany]
+ML Researcher
+Lab MMO
+contacts:
+[email]

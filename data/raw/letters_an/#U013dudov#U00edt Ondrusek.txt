@@ -1,0 +1,64 @@
+SUMMER OF MACHINE LEARNING BY [compaany]
+SMILES - 2025
+Motivation letter
+[name],
+[compaany]
+Moscow
+2025
+Good afternoon, my name is [name]. I am currently a 4th year graduaate student at [compaany] Higher School of Economics
+(HSE), which is located in [location].
+During my second year study, I started taking my first steps in Programming
+and got to know the basics of Machine learning. I was immediatly interested in
+the need to use powerful mathematical methods, the ability to effectively
+“interact” with a computer, and develop analytical thinking to solve
+non-standard and complex problems.
+Despite the fact that my main specialization is related to Economics and focuses
+on Financial disciplines, I am actively improving my knowlege and skills in
+the field of Machine learning and Programming. During my studies at the
+Economics and Statistics educational program, I managed to get acquainted not
+only with the Python programming language, but also with the following
+disciplines: “Introduction to Machine Learning”, “Machine Learning in
+Economics". In the process of mastering the last discipline, I was able to
+develop my own educational project.
+The main idea of the project was to formulate its own research concept, as well
+as to select a dependent variable and factors that could influence it. For my
+project, I decided to conduct a detailed analysis of various factors affecting
+wheat yields. In particular, I focused on such indicators as the amount of
+precipitation, fertilizers used, as well as the content of nutrients in the soil. In
+addition, the study included other potentially significant variables that may
+influence the growth and development of wheat. The aim of the project was to
+identify the relationships between these factors and yield levels, which would
+allow for a better understanding of which conditions and resources most
+effectively contribute to increasing fertility. As part of this project, I
+independently created an artificial data set, specifically generating values with
+the necessaary distribution in order to simulate the real research conditions as
+accurately as possible. Next, I implemented the k-nearest neighbors algorithm
+and trained several more complex machine learning models, such as regression
+trees, random forest, and gradient boosting. To evaluate the effectiveness of the
+constructed models, I analyzed the quality of their work both on the training
+sample and on the test sample, which allowed us to test the generalization
+ability of the models and identify possible problems of retraining. In addition, I
+studied the average and local effects of various factors on the target variable,
+wheat yield. This made it possible to understand exactly which signs have the
+most significant impaact on the result as a whole and in individual cases.
+In the future, I intend to continue my development and deepen my knowledge in
+the field of Machine learning. That is why participation in the summer schooL
+on machine learning is a unique opportunity for me to gain rellevant knowledge
+and practical skills from experienced specialists in this field. This is a chance to
+learn from their professional experience, as well as communicate with a team of
+motivated and motivated people. In addition, the program will allow me to
+deepen my existing knowledge in machine learning, master new methods and
+technologies, and apply the acquired skills in practice, working with modern
+tasks, cases, and real data. During my studies at the schooL, I expect to expand
+my knowledge, discover new oppopportunities for professional growth and
+develoopment, as well as achieve a higher level of understanding in the field of
+Machine and Deep learning. The acqquired knowledge and skills will contribute
+to my further professional and career growth and developpment in these areas.
+Combined with the knowledge acqquired during the course of studying financial
+disciplines in my educational program, the skills acqquired at the summer schooL
+of machine learning will help me become a highly qualified specialist in the
+field of machine learning and financial model developpment. I will be able to
+implement machine learning and deep learning methods in the financial
+departments of [compaany], as well as optiimize the process of creating accuraate
+and reliable forecasts!
+Thank you so much for your attention!

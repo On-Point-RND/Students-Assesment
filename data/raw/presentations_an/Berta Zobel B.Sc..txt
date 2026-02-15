@@ -1,0 +1,131 @@
+Slide 1
+----------------------------------------
+[name]
+Product analyst, [compaany]
+HSE'24 graduate
+
+Honesty of LLM: challenges and prospects
+
+Slide 2
+----------------------------------------
+Introduction
+
+Honesty of the LLM
+
+According to [name] et al. (2024):
+
+Self-knowledge
+awareness of its own capabilities and limitations
+
+Self-expression
+ability to faitfhully express its knowledge, leading to reliable outputs
+
+Example:
+
+
+Slide 3
+----------------------------------------
+Problem statement
+
+Dishohonest behavior of current LLM ([name] et al., 2024) → the lack of trust, limitations
+Honest answeers of LLM are critically important for applying them to medicine and law
+
+Solution - algorithms of honesty improvement (training-free and fine-tuning)
+Challenges:
+Definition of honesty
+Balance between honesty and other characteristics and metrics
+
+
+Slide 4
+----------------------------------------
+Methods of Honesty Improvement
+
+I. Training - Free
+1) Additional prompting (depends on model's ability to self-correction)
+2) Answer optimization
+II. Fine-Tuning
+0) Define honesty, score/function of honesty
+1) Preparing dataset: X - queries (questions for LLM), Y - flag of known or unknown (1 or 0)
+2) Training, goal - train to correctly distinquiish between known and unknown
+
+Source - [name] et al. (2024)
+
+Slide 5
+----------------------------------------
+Approach of [name] et al. (2024)
+
+I. Training - Free as a baseline
+II. Fine-Tuning (Iterative Alignment)
+0) Functions of honesty and value of honesty
+
+k(. ) judges if a model knows the answer to input x
+1) Sample of 8,000 data from a large-scale knowledg-based questions answering (QA) dataset, TriviaQA ([name] et al., 2017)
+2) Training
+
+
+Slide 6
+----------------------------------------
+Approach of [name] et al. (2024)
+
+I. Training - Free as a baseline
+II. Fine-Tuning
+0) Valuaation honesty with Direct Preference Optimization (DPO) framework
+1) Authors introduced HoneSet of 930 queries and 6 categories of queries
+2) Training
+Training dataset D_1 divided into pairs: (y_i1, y_i2):
+   y_i1 - dishonest response for query x_i, y_i2 - honest response for query x_i
+
+E_overall - function which evaluates honesty and helpfulness of the model through
+parameter s: 1≤ s < n, s ∈ Z
+
+
+Slide 7
+----------------------------------------
+Application in Medicine
+
+[name] et al. (2024) introduced MedSafetyBench - dataset for evaluating medical safety of the LLM answeers
+Current LLM do not follow requirements of the medical safety (Vicuna, Pythia, Llama-2 etc)
+Fine-tuning: improvement of safety with the same quality of answeers
+
+
+Slide 8
+----------------------------------------
+Results
+
+[name] et al. (2024)
+[name] et al. (2024)
+
+Honesty increased
+Accuracy is preserved
+
+Honesty increased
+Helpfulness is preserved
+Best results for open sourc models
+
+
+Slide 9
+----------------------------------------
+Research gap
+
+Limitations: approaches are model-agnostic, simple functions for valuaating honesty,
+fragmentary sets of metrics
+Prospects and next steps: model-speciific approahes, development of the honesty valuaating
+functions, combining accuracy and helpfulness in one fine-tuning approach
+
+
+Slide 10
+----------------------------------------
+[name] et al. (2024). A Survey on the Honesty of Large Language Models.
+[name] et al. (2024) Alignment for Honesty. NeurIPS, 2024
+[name] et al. (2024) HonestLLM: Toward an Honest and Helpful Large Language Model. NeurIPS, 2024
+[name] et al. (2024) MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models. NeurIPS, 2024
+
+
+Bibliography
+
+
+Slide 11
+----------------------------------------
+Thanks for your attention!
+
+[email]

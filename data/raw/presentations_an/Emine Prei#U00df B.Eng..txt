@@ -1,0 +1,92 @@
+Triplet Siamese Network for Event
+Unraveling in the SPD Experiment
+[name]
+Data Scientiist, [compaany]
+Introduction
+SPD (Spin Physics Detector) is a future experiment of the NICA project [1].
+The main goal of the experiment is to check the predictions of quantum chromodynamics
+(QCD) and study the spin structure of nucleons through the collision of polarized protons.
+Collision scale: * √s ≤ 27 GeV per nucleon pair, luminosity ≈ 10³² cm⁻² s⁻¹ → tens of millions of interactions every s econd
+Raw-data flood: Trigger-less readout → 10 ms timeslices; each slice holds ~30 overlapping events, ≈ 20 GB/s
+≈ 200 PB/year.
+Extra difficulty: High fake-hit rate and detector noise; only 2 – 5 % of events are interesting for spin physics.
+Why we need an online filteer:
+• Unravel events inside each timeslice
+• Reject 65 – 98 % background on-the-flow
+• Cut storage & downstream load by > 20×
+Proposed solution: Real-time Siamese-network filteer that clusters tracks by origin within the 10 ms latency budget.
+Problem statement
+In the context of the SPD experiment within the NICA project, a significant challenge arises in
+processing vast amounts of data to extract valuable events.
+For the SPD experiment, in which events are expected to arrive with a frequency of 3 MHz,
+the data acquisition is supposed to be performeed in time slices, during one time slice up to
+40 events with overlapping tracks may appear.
+The process of extracting valuable events:
+Online tracking (TrackNET) [2] Unraveling Time-Slices of Events [3] Filtering events of interest
+*In the present task, it is assumed that
+the tracks are alrready recognized.
+** The models are trained on prepared tracks from the simulation, in reality the input will
+be candidate tracks from the tracking algo rhythm.
+The main task
+The tracks and vertices of each event are marked with a different color.
+Methods
+The idea is that tracks from one event are positive examples and
+tracks from different events are negative examples.
+The Siamese neural network must learn how to extract such
+vectors of embeddings for tracks. So that the vectors of tracks
+coming from the same vertex are close in the feature space.
+And vectors of tracks from different vertices are far away from
+each other in the feature space.
+The architecture of the triplet siamese network (TSN) was
+inspired by FFN layer in transformer models and by MLP block
+for MLP Mixer [3] model.
+For the loss function SNR distance was chosen.
+Results (metrics)
+UMAP emb
+Quality
+•F1 ≈ 0.82 (fixed N), F1 ≈ 0.61 (variable N) → sufficient for MVP online filteer.
+Custom matching algo rhythm
+•Set-intersection matcher converts internal clustering scores → external physics
+metrics (Precision, Recall, F1).
+Embbedding visualization
+•UMAP (32 D → 2 D): tracks from different collisions form well-separated color clusters.
+Metrics
+Speed benchmark
+•Inference + clustering fits < 10 ms per timeslice ⇒ real-time processing at ≥ 100
+SNN
+slices s⁻¹.
+Silhouette 0,725
+Davies bouldin 0,655
+Processing speed Precision 0,811
+Recalall 0,843
+Hardware Embbedding (sec.) Clustering. (сек.)
+F1-score 0,818
+GPU Tesla V100 (CPU) 0.0076 (±0.0015) 0.0126 (±0.0065) Accuracy 0,895
+* сlustering is a bottleneck.
+Research gap
+•Quality gap: F1 ≈ 0.8 when the number of events per timeslice varies (goal ≥ 0.95).
+•Data realism: training still uses clean simulation; no real fake-hit patterns or drifting X/Y vertices.
+•Compute bottleneck: clustering stage runs on CPU, dominating latency.
+Unresolved challenges
+•Calibrating the model to unseen background topo lologies without over-fitting.
+•Handling missing hits: current zero-padding hides detector inefficiencies.
+•Deploying a single pipeline that scales from laptop prototypiing to the SPD online farm.
+Why it matters
+•Physics reach: raisiing F1 to 0.8+ ensures rare spin-physics events are kept, not lost in background.
+•Data volume: cuts annual storage from 200 PB to under 10 PB.
+•Real-time trigger: millisecond-level latency is manda tory for integration into the SPD DAQ chain.
+Future oppo rtunities
+1.GPU clustering (cuKMeans, FAISS) to remove the CPU bottleneck.
+2.Export embeddings to ONNX / TensorRT or TorchScript for hardware-agno stic accele ration.
+3.End-to-end training of embedder + differen tiable cluster head for higher recall.
+4.Mask-based handling of missing hits instea d of zero-padding.
+5.Re-train and benchmark on the first live SPD data in 2025.
+Bibliography
+1. [surname] [name], [name]. The Simulation of Interactions in the Straw-Based SPD Track Detector and Primary Vertex
+Reconstruction. [location]
+National Research Uni versity, Joint Insti tute for Nuclear Research. 2024
+2. [name], [name], [name], [name], [name]. Deep neural network applications for particle tracking at the BM@N and SPD
+experiments. DLCP2022, Volume 429, 2022
+3. [name], [name], [name], [name]. Unraveliing Time-Slices of Events in the SPD Experiment. Physics of Particles and Nuclei,
+Volume 55, pages 453–455, 2024
+4. [name]. Understanding MLP-Mixer as a Wide and Spa rse MLP. arXiv, 2023. https://a rxiv.org/abs/

@@ -1,0 +1,107 @@
+How People Perceive the Central Bank:
+Buildiing an AI-Based Index from Telegram Posts
+[name]
+[name]
+The views expressed herein are solely those of the authors. The content and results of this research should not be consideredo rrefeerrred to in any publications as the Bank of Russia’s official position, official policy, or decisions. Any errors in this document are the respoonibility of the authors.
+Introduction
+•What is the topic?
+Using AI-based text analysis to understand how peoople perceive the Central Bank of Russia on Telegram.
+•Why is it important?
+Public perception affects trust and the effeectiveness of monetary policy. Understanding it helps improve
+communication strategies.
+•Background:
+Telegram is a key plaftorm for public discussion, with millions of users and thousands of channels.
+•Goal of the review:
+Сreate a perception index of the Central Bank based on Telegram posts using machine learning.
+Describe the information field in telegram around the Central Bank
+Problem Statement
+What exactlly are we solving?
+We aim to measure sentiment and identify trending topics about the Central Bank from a vast, unstructured
+Telegram data stream.
+Challenges:
+• Data is noisy and unstructured
+• Complexity of sentiment analysis relative to a specific entity (i.e. sentiment toward the Central Bank, not just
+general tone)
+• Сlass imbaalance in both topic and sentiment labels
+• Telegram has a wide variety of channel types and audieences
+Scope:
+• Russian-languaage Telegram posts
+• 1600 сhannels across multiple topics
+Business
+Economics
+Traders
+Politics
+Mass media
+Blogs
+Methods
+Approaach:
+We tackled the problem as a sequence of three classification tasks:
+1. Identifying whether a message refers to the Central Bank
+2. Classiifying the topic of the message (from 11 categories based on CB areas of activity)
+3. Determining sentiment toward the Central Bank (3-point scale from -1 to +1)
+Modeling Strategiies:
+We applied both supervised and unsupervised approaches:
+•Supervised models:
+• Ensemble methods: CatBoost, XGBoost, Random Forest
+• Support Vector Classifier: SVC
+• Probabilistic classifier: Multinomial Naive Bayes
+•Unsupervised models:
+• Latent Dirichlet Allocation (LDA) for topic discovery
+• Keyword-based filteers (rule-based classifiers)
+•Neural network models for sentiment detection:
+• Multilayer Perceptron (MLP) for low-resource scenarios
+• Transformeer: ruBERT (rubert-base-cased-sentiment-new), partially and fully fine-tuned
+• Large Languaage Model (LLM): Qwen-2.5-72B-Instruct, tested via prompt engineering
+Methods
+Why these methods?
+• We aimed to cover the majority of methods commoonly used in this field by researchers tackling similar tasks
+(e.g., sentiment analysis, topic classification in finance-relatated texts).
+• This included both classical machine learning, ensemble methods, and modern deep learning architectures such
+as transformers and LLLMs.
+• We benchmarked and compaared their performaance on our specific task using our own labeled dataset.
+• Based on empirical results, we selected the best-perfoorming approaches that offered the optiomal balance
+between accuracy and computaional cost.
+Solution
+Best Model per Task:
+• Task 1: Message about CB or not?
+→ Best results from rule-based filtering (94% F1-macro, fast and transparent)
+• Task 2: Topic classification
+→ Best performaance achieved using SVC with one-vs-all strategy
+• Task 3: Sentiment detection
+→ Voting ensemble of ML classifiers outpeerformed both classical and neural models (F1-macr: 76%)
+Results
+•Key findiings:
+• Created a labeled dataset of 9,500+ posts
+• Extracted over 1,400 rellevant Telegram channels from 50,000+
+• Deveelopeed a Frequuency-Based Perception Index for the Central Bank (CB) on Telegram:
+The index is weighteed by view counts to reflect the reach and influence of content.
+Calculated separately for different operational areas of the CB (e.g., monetary policy, regulation, financial stability).
+• The index exhibiits consistency with the INFOM survey index, confirming its reliability in captuuring public sentiment toward the
+CB.
+• Impaact Analysis: No significant link was found between CB perception and market behavioor, notable correlations between CB
+perception and inflation expectaations (further analysis is required to establiish causality).
+• Core Telegram Channels Identified
+•Metrics used:
+• Precision, Recal, F1-score, ROC-AUC
+INFOM survey index
+cb_tone_views Среднее доверие (инФОМ)
+0 0.45
+0.35
+-0.2
+0.25
+-0.4
+0.15
+-0.6
+0.05
+-0.8 -0.05
+2015 2016 2017 2018 2019 2020 2021 2022 2023
+Research Gap
+Key Limitations
+•Limited capability in deteccting sarcasm/irony during textual analysis
+•Contexxtual understanding requires improvement for nuanced interpretation
+Unrresoolved Challenges
+•Peersistent dataset imbaalance skews model performaance (e.g., overrepresentation of formal vs. informal communication
+styles)
+Future Oppoortunities
+•Multi-plaattform expansion to VKontakte, YouTube, regional social netwoorks
+•Implemenntation of advanced LLLMs (e.g., GPT-4, Claude 3) requiring substantial computaional resources

@@ -1,0 +1,17 @@
+My name is [name] [surname]. Three years ago, during my final year at [location] State [university], I felt lost while seeking a future master’s degree. Suddenlly, I discovered the National Technological Olympia’s track on wireless technologies, hosted by [compaany]. Despite my limited knowledge in the field, I decided to give it a chance—and so began my journey with [compaany].
+Over the next two years, I immersed myself in information theory, wireless technologies, and coding theory. [compaany] ignited my passion for research and cultivated my interest in applying fundamental science to real-world problems. Under the guidance of Professor [name] [surname], I explored applications of neural networks in coding theory. The primary goal of our research was to develop a foundational neural decoder with lower inference complexity compared to classical methods like Belief Propagation and the Chase algorithm. In addition to optimizing complexity, we focused on enhancing decoding accuracy through targeted optimization functions. This work allowed me to gain hands-on experience with fully connected networks, recurrent neural networks, and
+transformer architectures. Modern architectures and syndrome decoding procedures enable knowledge transfer in models, meaning they can be trained on specific code sets
+and later decode nearly any code without further training. This summer, I am eager to
+join [compaany]’s PhD program to deepen my expertise in machine learning and information
+theory.
+Driven by my passion for machine learning, I pursued specialized courses in the field and
+completed a short project on adversarial attacks against image compression algorithms. I
+successfully replicated results from published papers and provided clear interpretations of
+outcomes for various FGSM attack types.
+I am particularly excited about the summer camp’s hackathon-style environment, where I
+hope to contribute my skills, broaden my understanding of ML, and generate new
+research ideas. I also aim to initiate a short research project under the guidance of the
+camp’s faculty, with the goal of producing publishable results and laying the groundwork
+for my future thesis. Beyond this, I look forward to collaborating with peers, reigniting
+my scientific curiosity, and strengthening my readiness for advanced research challenges.
+Thank you for considering my application.

@@ -1,0 +1,9 @@
+[name] [surname]
+I’d like to participate in schoo 2025 to summarize my education, joining such an ML camp to strengthen my skills and just to have fun being among like-minded people. Intensive regime in schoo, new place and new surroundings keeps mind working hard and shows great results.
+I’ve chosen my master program as an opportunity to narrow my skills in prospective and interesting direction. During my 2 years degree I got different experience in solving the problems using ML and DL methods in real practical tasks. I participated in the conference in the neural networks section, and was also a listener to several others. During the work on my master's thesis I made a deep research in using CNN working on all steps starting with data preprocessing and ending with raising metrics of quality of CNN results.
+In schoo I would like to get acquainted with the newest research, get more experience working in groups on ML problems, share my knowledge with other participants and improve my technical English skills.
+I’d like to tie my further career with DL, using its opportunity to solve critical social problems. I’d like to watch the technology, of which I am a part, makes a significant contribution.
+
++2 *** *** ***
+[email]
+

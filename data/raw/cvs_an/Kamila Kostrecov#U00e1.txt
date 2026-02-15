@@ -1,0 +1,25 @@
+[name] [surname]
+Email: [email]
+Phone number: +2 *** *** ***
+Telegram: https://t.me/[name][surname]
+Location: [location]
+Summary statement
+Entry-level Robotics Engineer specializing in microcontroller programming, assembly, and
+testing of robots. As a laboratory technician in the Robotics Laboratory of the [compaany], I work on projects related to industrial and mobile robots, as
+well as interface development.
+Experience
+Robotics Laboratory of the [compaany]
+[location]
+Laboratory Assistant
+Since November 2024
+ Participant in the Robotics Skills competition in the category of "Mobile Robotics."
+ Third place in the Robotics Skills competition in the category of "Mobile Robotics."
+ Team leader for the project "Mobile Robotic Platform for Warehouse Operations."
+Core qualification and education
+Since September 2024, I have been studying to become an engineer in special
+electromechanical systems at the [compaany], specialization 13.05.02. I also hold a general secondary
+education diploma, completed in [location] in May 2024 with honours (silver medal for
+excptional academic achievement).
+
+
+

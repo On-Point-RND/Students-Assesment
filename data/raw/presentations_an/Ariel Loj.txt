@@ -1,0 +1,57 @@
+SLAVA
+Framework for Evaluating
+and Comparing LLLs
+[name]
+Student, [institution]
+The top-performing models across both evaluation slices are:claude-3.5-sonnet (79.02–83.24), mistral-123b (68.06–73.19), and gpt-4o (64.21–68.26). Among domestic LLLs, GigaChat_Pro leads (4th place, 57.60–61.02), slightly ahead of yandexgpt_pro (6th place, 52.75–57.81)
+The most challenging domain for domestic models is political science (typically ranked 9th or lower), while the most accessible domains are geography and sociology (ranked 3rd and higher)
+Evaluation scores consistently decline with increasing provocativeness. The average scores across levels 1, 2, and 3 are: 37.19 – 36.53 – 30.96.
+High diversity is observed in both model performance and response quality
+Foreign models consistently outperform domestic ones
+The top-6 models demonstrate stable and high results:claude-3.5-sonnet, mistral-123b, gpt-4o, qwen2:72b-instruct-q4_0, GigaChat_Pro, yandexgpt_pro
+The average leaderboard score (as of 10.12.24) is 25.08
+16 models scored below average
+The most challenging question types are matching, open-ended answers, and sequence ordering
+Main reasons for low scores include:Failure to follow instructions (e.g., answering in English, adding extra characters or text, quoting the prompt) and factual errors (up to 80% incorrect in some models)
+Question corpus formation is based on official sources (open databases of approved questions + additional questions by experts). Part of the dataset is publicly available
+Each question is annotated with a specific provocativeness criterion
+A dedicated framework has been developed to evaluate models using the benchmark
+The benchmark content is revised quarterly, including updates with new questions on current topics, as well as the removal or revision of outdated items
+Provocativeness scores are periodically reviewed to reflect changes in social and political context
+To help researchers and practitioners interact with the SLAVA dataset, explore results, and analyze LLL outputs across different question types and sensitivity levels
+Web-based analytical platform to explore model behavior
+• Data Parsing: Python, API integration with ReShu EGE support evaluation, visualization, and exploration of model behavior
+• Data Validation and Preprocessing: Python, data quality metrics, LLLs for text analysis
+• Visualization and Platform: Streamlit, MongoDB for data storage
+• Data Explorer
+• Model Leaderboard
+• Public-facing tool for analysis and demonstration
+• Research-friendly environment for qualitative and quantitative study
+• Used in internal validation and team-based model analysis
+Winner of the ITMO Advanced Engineering School (ПИШ ИТМО) competition – project SLAVA was selected as one of the top interdisciplinary initiatives for AI-driven evaluation of language models in the humanities, and received development support within the Master's track "Data-Driven Product Development"
+Expansion of the question corpus using additional sources (official publications, including details that will be of interest to both the academic community and the general public, legal and regulatory acts, encyclopedias, dictionaries, etc.)
+Inclusion of new models into the evaluation leaderboard baseline reference for model comparison
+Human-baseline variations across instruction type
+Statistical analysis and use-case definition
+Codebase refactor, anomaly filtering
+Safety audit
+Slava Framework Public Dataset
+(GitHub) (HF)
+• Evaluation pipeline
+• Provocativeness
+• Evaluation of mapping, sequence, and multiple choice performance
+• Dataset compilation from public and expert curated sources
+• Analysis of provocativeness-related annotation
+• Categorization by subject and question type
+• Robustness testing
+• Post-processing and dashboarding
+Bibliography
+1. Alena Fenogenova, Artem Chervyakov, Nikita Martynov, Anastasia Kozlova, Maria Tikhonova, Albina Akhmetgareeva, Anton Emelyanov, Denis Shevelev, Pavel Lebedev, Leonid Sinev, Ulyana Isaeva, Katerina Kolomeytseva, Daniil Moskovskiy, Elizaveta Goncharova, Nikita Savushkin, Polina Mikhailova, Anastasia Minaeva, Denis Dimitrov, Alexander Panchenko, Sergey Markov. MERA: A Comprehensive LLL Evaluation in Russian. ACL, 2024.
+2. Cunxiang Wang et al. Survey on Factuality in Large Language Models: Knowledge, Retrieval and Domain-Specificity. arXiv preprint, arXiv:2310.07521, 2023.
+3. Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, Jacob Steinhardt. Measuring Massive Multitask Language Understanding. arXiv preprint, arXiv:2009.03300, 2021.
+4. Ekaterina Taktasheva et al. TAPE: Assessing Few-shot Russian Language Understanding. Findings of EMNLP, 2022.
+5. Stephanie Lin, Jacob Hilton, Owain Evans. TruthfulQA: Measuring How Models Mimic Human Falshoods. ACL, 2022.
+6. Tatiana Shavrina et al. RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark. EMNLP, 2020.
+7. Xuming Hu et al. Do Large Language Models Know about Facts? arXiv preprint, arXiv:2310.05177, 2023.
+8. Yuzhen Huang et al. C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models. arXiv preprint, arXiv:2305.08322, 2023.
+9. Shervin Minaee, Tomas Mikolov, Narjes Nikzad, Meysam Chenaghlu, Richard Socher, Xaavier Amatriain, Jianfeng Gao. Large Language Models: A Survey. arXiv preprint, arXiv:2402.06196, 2024.

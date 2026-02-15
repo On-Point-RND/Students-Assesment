@@ -1,0 +1,172 @@
+Slide 1
+----------------------------------------
+Reconstruction of surface atmospheric humidity over the ocean using machine learning methods
+[name]
+[compaany]
+
+Slide 2
+----------------------------------------
+Air humidity is a key climate parameter that influences climate and atmospheric dynamics
+Humidity measurements are sparse in space and time, especially in the early 20th cenntury
+Data on other meteorological variables are more readily available
+Relevance and problem
+
+
+Slide 3
+----------------------------------------
+Data recovery will extend climate series and improve the accuracy of climate change analysis
+Existing restaurant methods are not effective – never approaches are needed
+
+
+Relevance and problem
+
+
+Slide 4
+----------------------------------------
+The purpose and objectives of the study
+Objective: To retrospectively reconstruct the relative humidity measurement series over the ocean
+Tasks:
+forming a data collection for training and evaluating models
+optimization of algorithm and restoration of humidity
+evaluation of the quality of models and their comparison
+analysis of spatial maps of model errors
+
+
+Slide 5
+----------------------------------------
+Data
+relative humidity
+Target:
+Data source: DISO3 (Dataset of In-Situ Observations over the Ocean)
+Coverage period: 1950-2017 (123 million observations)
+Training set: 70% of data
+Test set: 30% of data
+
+Data are pre-standardized
+Gaps are filled with values ​​generated from a normal distribution
+
+
+Slide 6
+----------------------------------------
+Solution method
+Machine learning models have been tested:
+linear regression (simplicity and interpretability, basic model for comparison)
+random forest (high accuracy, resistance to overfitting, consideration of feature interactions)
+gradient boosting (high accuracy, automatic processing of categorical features)
+fully connected artificial neural network (ability to model complex dependencies, nonlinearity)
+
+Increased spatial and temporal specificity: data is divided into squares of 5x5 degrees in latitude and longitude (10x20 degrees in the Southern Ocean) each square is analyzed separately within each season
+
+
+Slide 7
+----------------------------------------
+Stages of solving the problem
+1
+Model quality assessment:
+quantitative assessment (RMSE)
+uncertainty assessment (bootstrap)
+comparison with a trivial model (averaging humidity over a region)
+2
+3
+Hyperparameter optimization:
+used optuna Bayesian optimization library
+4
+Analysis of spatial distribution of accuracy:
+1) construction of spatial error maps
+2) their comparison with maps of climatic characteristics
+Model training:
+-linear regression
+-random forest
+-fully connected neural network
+-gradient boosting
+
+
+Slide 8
+----------------------------------------
+Results: Trivial model
+
+
+Slide 9
+----------------------------------------
+Results: Linear Regression
+
+
+Slide 10
+----------------------------------------
+Results: Random Forest
+
+
+Slide 11
+----------------------------------------
+Results: fully connected neural network
+
+
+Slide 12
+----------------------------------------
+Results: CatBoost
+
+
+Slide 13
+----------------------------------------
+Results: quality on delayed sample
+CatBoost is the best model by average quality on the set of models set aside for testing
+
+
+Slide 14
+----------------------------------------
+Results: uncerainty of quality measure
+The uncerainty of the quality measure is significantly low for all models
+
+
+Slide 15
+----------------------------------------
+Results: uncerainty of the target variable
+Trivial model - the model with the lowest uncerainty of the target variable
+
+
+Slide 16
+----------------------------------------
+Results: comparison with the trivial model
+CatBoost is significantly better than the trivial model
+
+
+Slide 17
+----------------------------------------
+Limitations of Current Approaches
+Incomplete and sparse data
+Historical meteorological data (especially before the mid-20th cenntury) have spatial and temporal gaps → this reduces the stability of models in individual regions.
+Lack of temporal structure
+Models are trained on individual observations without taking into account temporal autocorrelation → it is imposssible to take into account the dynamics of humidity changes over time.
+
+
+Slide 18
+----------------------------------------
+The prospects
+Introduction of new modelsUsing more expressive architectures (deep neural networks, transformers) to capture complex nonlinear dependencies.
+Expansion of the feature spaceAdding new variables: characteristics of waves, precipiitation, altitude above sea level, weather conditions, cooordinates of the observer, etc.
+Intermediat modelsBuildiing auxiilary models for predicting intermediat meteorological parameters and including them as new features.
+The use of temporal data is the analysis of temporal sequences of observations (for example, within the framework of ship voyages) using recurrent and attention models to account for dynamics.
+
+
+Slide 19
+----------------------------------------
+Conclusions
+Machine learning algorithm have shown high efficiency in restoring humidity
+A significant improvement in accuracy has been achieved compaared to the trivial approaach (averaging)
+CatBoost is the best model for restoring humidity
+The deveeloped approaach can be used to fill gaps in the climate series.
+
+
+Slide 20
+----------------------------------------
+Literature
+Adele Cutler, D. Richard Cutler, John R. Stevens, Random forests, J. Springer. Collective machine learning. 2012. DOI: 10.1007/978-1-4419-9326-7_5 .
+Callum J. Shakespear, Michael L. Roderick What Controls Near-Surface Relaive Humidity Over the Ocean J. James. Journal of Advances in Modeling Earth System. 2024. DOI: 10.1029/2023MS004168.
+Eric Freeman, Scott D. Woodruff, Steven J. Worley, Sandra J. Lubker, Elizabeth C. Kent, William E. Angel, David I. Berry, Philip Brohan, Ryan Eastman, Lydia Gates, Wolfgang Gloeden, Zaihua Ji, Jay Lawrimore, Nick A. Rayner, Gudrun Rosenhagen, Shawn R. Smith ICOADS Release 3.0: a major update to the historical marine climate record International Journal of Climatology. 2017. № 5 (37). DOI: 10.1002/joc.4775.
+Hancock, J.T., Khoshgoftaar, T.M. CatBoost for big data: an interdiciplinary review J. Big Data 7. 2020. DOI: 10.1186/s40537-020-00369-8.
+Hussain Almarzooq, Umair bin Waheed Automating hyperparameter optimization in geophysic with Optuna: A comparative study J. Geophysical Prospecting. 2024. DOI: 10.1111/1365-2478.13484.
+John R. Borchert Regional Differences in the World Atmospheric Circulation J. Annals of the Association of American Geographers. 2008. DOI: 10.2307/2561080.
+Maervin Minsky, Seymour Papert Perceptrons: An Introduction to Computational Geometry The MIT Press. 1969.
+Matthieu Parizy, Norihiro Kakuko, Nozomu Togawa Fast Hyperparameter Tuning for Ising Machines 2023 IEEE International Conference on Consumer Electronics (ICCE). 2023. DOI: 10.1109/ICCE56470.2023.10043382.
+Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta, Masanori Kayama Optuna: A Next-generation Hyperparameter Optimization Framework Conference: the 25th ACM SIGKDD Internaional Conference. 2019. DOI: 10.48550/arXiv.1907.10902.
+Efron B. Bootstrap Methods: Another Look at the Jackknife // The Annals of Statisics. 1979. № 1 (7). C. 1–26.

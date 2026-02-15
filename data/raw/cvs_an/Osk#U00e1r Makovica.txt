@@ -1,0 +1,80 @@
+[name]
+[email]
++2 *** *** ***
+Work Experiences
+Oct2024–Present ] Researcher, Multi-IMU Navigation Project Mobile Robotics Lab, [compaany].
+Leading research enhancing navigation accuracy in mobile devices using dual Inertial Measurement Units (IMUs), as found in [model] models like MateX3. The project focuses on sensor fusion, online calibration, and optimal sensor placement to improve dead-reckoning for various motion modalities (e.g., walking, running, car, bicycle) with minimal system overhead. Key tasks include developing integration strategies (e.g., Virtual IMU, Best Axes, neural approaches), dataset collection using MOCAP systems, and optimizing IMU placement via sampling-based methods, building on prior work published in Autonomous Robots (2023) and ECMR (2021).
+Jun2020–Present ] Researcher, as High Qualified Specialist Mobile Robotics Lab, [compaany].
+Key projects:
+• Smart portraits: Depth powered handheld smartphone datasets of human portraits for state estimation, reconstruction and synthesis (IncCollaboration with [company])
+• Collection and classification of human gestures for implementation in smart screens (IncCollaboration with [company])
+• Visual Neural Localization (IncCollaboration with [company])
+September2023–September2024 ] [compaany], Moscow.
+Dec2022–March2023 ] Computer vision specialist, Object detection at Moscow Zoo: Deployed realtime inference of YOLO for animal detection and built recommender system for zoo visitors based on time series forecasting as a Flask webapp contained in Docker. Code is not publicly available.
+Summer2019 ] Internship AeroNetLab New models for Urban analytics. A 3D city model is representation of an urban environment with a three-dimensional geometry of common urban objects and structures, with buildings as the most prominent feature. One of the most important data acquisition techniques is aerial remote sensing which can provide valuable data from different altitudes above the surface of earth. During the Industrial immersion period, I concentrated on 3D mapping with help of aerial remote sensing vehicle or UAV.
+Work Experiences (continued)
+Summer2017 ] Internship Satellite Research Institute (SRI) in Iran Developing models for satellite orbital transfer.
+Education
+2021–Present ] Ph.D., [compaany] Computation and Data Science and Engineering. (ongoing)
+Thesis title: Localization enhancement via deep learning methods.
+2018–2021 ] M.Sc. [compaany] Information Science and Technology
+Thesis title: Visual Odometry for High Dynamic Systems.
+GPA: A (Diploma with Excellence)
+2013–2018 ] B.Sc. Sharif University of Technology Aerospace Engineering
+Thesis title: Case study of schedule slippage in a national Satellite project.
+Skills
+Programming&Development ]
+• Proficient in Python, including libraries like NumPy, SciPy, pandas, scikit-learn, OpenCV, matplotlib, and deep learning frameworks such as PyTorch, TensorFlow, Keras.
+• Competent in C++ for robotics and system development.
+• Experienced in Robot Operating System (ROS2) and skilled in CAD design using Onshape and SOLIDWORKS.
+• Competent in Web development and WordPress.
+Software&Tools ]
+• Proficient in Docker for containerization, enhancing project portability and scalability.
+• Experienced in LATEX for professional typesetting, document preparation, and academic publishing.
+• Skilled in prompt engineering and utilizing AI assistant tools for optimizing interactions and automating tasks.
+• Experienced in working with servers for high-performance computing tasks.
+Languages ]
+• Fluent in English and Persian with strong reading, writing, and speaking capabilities.
+• Intermediate proficiency in Russian and Arabic, with ongoing efforts to advance language skills.
+Skills (continued)
+Miscellaneous ]
+• Solid background in academic research, teaching, training, and development.
+• Expertise in consultation and LATEX typesetting and publishing, ensuring high-quality presentation.
+Selected Courses
+Fall2018 ] Experimental Data Processing grade: A
+] Systems Engineering grade: A
+Fall2019 ] Introduction to Data Science grade: A
+] Numerical Linear Algebra grade: B (Project: Probabilistic Matrix Analysis)
+Fall2020 ] Planning Algorithms AI grade: A
+Winter2020 ] Perception in Robotics grade: A (Project: Visual Odometry for High Dynamic Systems)
+Spring2022 ] Deep Learning grade: A (Project: Transparent Object Detection and Segmentation in VOPipeline)
+Spring2024 ] Deep Learning for NLP grade: B
+Research Publications
+Conference Proceedings
+P.Rajput,V.Chernyy,H.[name],A.[surname],V.Trifonov,andT.[surname],“Transparent Object
+1
+Detection and Segmentation in VOPipeline,”Zenodo,Feb.2023.
+(cid:18)
+doi:10.5281/ze nodo.7610251.
+2
+A.[surname],K.[surname],K.[surname],etal.，“Smart portraits:Depthpoweredhandheldsmartphonedatasetofhumanportraitsforstateestimation,reconstructionandsynthesis,”inProceedings ofthe
+IEEE/CVFConferenceonComputerVisionandPatternRecognition(CVPR),Jun.2022,pp.21318–21329.
+1-> § https://github.com/scalyvladimir/vo_exploring
+Extra-curricular activities
+Teaching Assistant
+Winter2022,Winter2025 ] Perception in Robotics, [compaany].
+Spring2024 ] Deep Learning, [compaany].
+Spring2022 ] Technological Innovation, [compaany].
+Fall2022 ] Introduction to Data Science, [compaany].
+Fall2017 ] Aircraft Performance, [university].
+Extra-curricular activities (continued)
+Hackathon
+2019 ] Urban.TechMoscow. Got the Second place in this competition. 3D map
+reconstruction of an area with high quality and applying required segmentations. Our team did a great job and we got the Second place in this competition
+2020 ] [compaany]-McKinsey.
+] [compaany]-Softline.
+Events
+2022,2023 ] Presentation. Showcase our Mobile Robotics Lab to various teams from
+[organization] at multiple occasions.
+2019 ] SpaceUp. Executive member. (cid:128) https://msc.[compaany]/
+spaceup2019

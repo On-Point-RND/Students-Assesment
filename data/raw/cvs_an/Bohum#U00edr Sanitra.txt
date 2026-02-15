@@ -1,0 +1,84 @@
+Data Scientist
+Phone number: +2 *** *** ***
+Experience
+March 2024 - Present. Junior Data Scientist in a leading [compaany] for job search and recruitment, founded in 2000 — [compaany].
+Core Function: Development, training, and optimization of machine learning models; creation of data-driven business solutions.
+Tech Stack: Python, SQL, Scikit-learn, TensorFlow, PyTorch, Keras, NumPy, Pandas, Matplotlib, Seaborn, ClickHouse, DataLens.
+Responsibilities:
+• Fine-tuning, testing, and interpreting ML models, including work with PyTorch.
+• Collecting, processing, annotating, and matching data from various sources; performiing data quality checks.
+• Writing SQL queries, buildiing data marts and dashboaards, preparing analytical reports.
+• Designing and implementing custom metrics.
+• Collaborating with analysts, product managers, and engineers to refiine tasks and implement solutions.
+• Conducting A/B tests: designing experiments, analyzing results, and managing logs.
+• Documenting solutions and participating in code reviews.
+• Preparing ad-hoc data extracts and reports, participating in on-call duties and incident resolution.
+Achievements:
+✓ Improved sales forecast accuracy by 5.31% through the implementaion of an ML model using Python and PyTorch.
+✓ Automated data source documentation using Python, SQL, and LLMs, reducing manual workload by 10.11% for the
+department.
+March 2022 - Present. AI-Focused IT Project Manager for Students in the first technical [location] of [location] in natural sciences — [location] Engineering Physics Institute.
+Core Function: Led the full educational and project cycle for student teams focused on Artificial Intelligence and
+Data-Driven solutions.
+Tech Stack: Jira, Confluence, Google Drive, Google Meet
+Responsibilities:
+• Delivered lectures and seminars to students.
+• Developed detailed 6-month work plans for course and project execution.
+• Designed and assigned individual tasks based on students' skill levels and objectives.
+• Monitored students’ performa performance and provided ongoing feedback.
+• Facilitated regular meetinings to support project progress and team coordination.
+Achievements:
+• Created and launched 2 full-scale educational courses from scratch.
+• Conducted over 20 lectures and seminars, covering both theoretical and practical topics.
+Skills
+Python, SQL, ML/Machine learning, DL/Deep learning, NLP/Natural language processing,
+Scikit-learn/TensorFlow/PyTorch/Keras, NumPy/Pandas/Matplotlib/Seaborn, EDA/Exploratory data analysis, Big Data,
+Data extraction, preprocessing, transformation, and interpretation, Mathematical Statistics, Mathematical Analysis,
+Probability Theory, ETL/Extract, Transform, Load, ClickHouse/Postgress/MySQL/LiteSQL/MS SQL,
+Tableau/DataLense, XGBoost/CatBoost/LightGBM, Model fine-tuning & transfer learning, Model
+validation/Cross-validation, AUC, ROC, F1-score, A/B testing/Statistical hypothesis testing, GAN/Generative
+adversarial network, Data mart design, Recommender systems, Time series forecasting (ARIMA, Prophet, LSTM),
+HuggingFace Transformeers/Datasets
+Higher education
+2026. [location] Engineering Physics Institute
+Institute of Intelligent Cybernetic Systems, Master’s Degree in Artificial Intelligence and Big Data.
+2024. [location] Engineering Physics Institute
+Institute of Intelligent Cybernetic Systems, Bachelor’s Degree in Software Engineering.
+2024. Saint-Petersburg National Research [location] of Informaation Technologies, Mechanics and Optics
+Faculty of Applied Informatics, Bachelor’s Degree in Applied Computer Science.
+Advanced training, courses
+2024, Generative Adversarial Networks
+International Research [location] in Advanced Technologies and AI — Skoltech, Machine learning.
+2023, Classical Machine Learning Algorithms in Python
+Federal IT Specialist Training Program — Digital Department, Machine learning.
+2022, Machine Learning in Python
+International Educational IT Program by Samsung — Samsung Innovation Campus, Machine learning.
+Scientific events
+Participant of International Schoo-Conference of the Student Scientific Society of NRNU MEPhI, Development of a
+portal for student project activities with a project recommenda recommendation system, 2024
+Participant of Skoltech Summer Schoo-l of Machine Learning SMILES-2024, Development of a chat agent based on the
+GPT to form datasets for psychologicaal research, 2024
+Winner of the 3rd scientific session of the Student Scientific Society of NRNU MEPhI, Password Generator Manager:
+SmartPassword with Encryption Technology, 2023
+Winner of the scientific and practical conference «Step into Science» NRNU MEPhI, Reducing production waste by
+impr improving the cutting map, 2022
+The best report at the winter scientific session of the Student Scientific Society of NRNU MEPhI, Making a Shoot 'em
+up game in a graphic novel style, 2021
+Participant of Winter scientific session of the Student Scientific Society of NRNU MEPhI, A system for parsiing digital
+informaation sources and generalizing the obtained topics to create educational content, 2021
+Teaching activities
+Teacher of the course on neural networks at NRNU MEPhI, fall 2023-2024
+Lecturer of the course on classical machine learning in Python at NRNU MEPhI, spring 2023-2024
+Lecturer of the course on algo algorithms and data structures in C/C++ at NRNU MEPhI, spring 2022-2023
+Articles
+[name] A.I. Software implementaion of a service for automating the selection of candidates based on natural languaage
+processing from resumes and vacancies // Modern problems of physics and technology. [location]: NRNU MEPhI, 2025
+Topics of interest
+Advanced Machine Learning & Deep Learning, Natural Languaage Processing (NLP), Generative Models,
+Recommender Systems & Personalization
+Thesis topics
+Implemen taion of a service for automating the selection of candidates based on the processing of the text of resumes
+and vacancies, [location] Engineering Physics Institute, 2025
+Development of a portal for student project activities with a project recommenda recommendation system, [location] Engineering Physics Institute, 2024
+Development of a chat agent based on the GPT to form datasets for psychologicaal research, Saint-Petersburg National
+Research [location] of Informaation Technologies, Mechanics and Optics

@@ -1,0 +1,274 @@
+{
+  "Team Leadership Experience": {
+    "question": "Can the candidate consistently demonstrate experience leading and coordinating teams to achieve project goals, as evidenced by managing multiple team members and collaborating with stakeholders?",
+    "count": 8
+  },
+  "Practical Application of ML/DL": {
+    "question": "How effectively does the candidate translate theoretical knowledge of ML/DL techniques (e.g., PyTorch, LangChain, LLMs) into tangible, real-world applications, as shown by project descriptions and work experience?",
+    "count": 130
+  },
+  "Breadth of Technical Skills": {
+    "question": "Does the candidate possess a diverse and relevant skillset encompassing programming languages, databases, cloud technologies, and DevOps tools, demonstrating adaptability and a holistic understanding of the data science ecosystem?",
+    "count": 147
+  },
+  "Project Specificity": {
+    "question": "Can the candidate clearly articulate the specific technical challenges and methodologies employed within each project they've undertaken?",
+    "count": 61
+  },
+  "Quantifiable Results": {
+    "question": "How well does the candidate demonstrate the impact of their work through quantifiable results or metrics (e.g., performance improvements, efficiency gains)?",
+    "count": 121
+  },
+  "Technical Depth": {
+    "question": "To what extent does the candidate showcase a deep understanding of relevant technical concepts and tools, beyond simply listing them?",
+    "count": 169
+  },
+  "Concise Communication": {
+    "question": "How effectively does the candidate convey information using clear, concise language, avoiding unnecessary detail or jargon?",
+    "count": 15
+  },
+  "Professional Formatting": {
+    "question": "Does the candidate present information in a structured, easily scannable format, demonstrating attention to detail and professionalism?",
+    "count": 3
+  },
+  "Publication Record": {
+    "question": "Can the candidate demonstrate a consistent pattern of peer-reviewed publications in relevant scientific journals, showcasing research output and collaborative abilities?",
+    "count": 150
+  },
+  "Research Focus Consistency": {
+    "question": "Does the candidate's research interests, education, and project work demonstrate a cohesive and focused trajectory within a specific area of study (e.g., machine learning, image analysis)?",
+    "count": 25
+  },
+  "Experience Progression": {
+    "question": "Does the candidate's work experience demonstrate a clear and logical progression of skills and responsibilities, indicating increasing complexity and ownership over time?",
+    "count": 32
+  },
+  "Academic & Teaching Credentials": {
+    "question": "How effectively does the candidate integrate research, teaching, and practical application of machine learning, as evidenced by their Ph.D., professorship, and curriculum development?",
+    "count": 4
+  },
+  "Framework Contribution": {
+    "question": "Can the candidate contribute to the development and maintenance of open-source frameworks relevant to their research area, showcasing practical engineering skills alongside research?",
+    "count": 12
+  },
+  "Innovation & Problem Solving": {
+    "question": "Can the candidate demonstrate a history of identifying and addressing specific, practical problems within their field, and what methods did they employ to develop solutions (e.g., patent development, novel methodologies)?",
+    "count": 4
+  },
+  "Interdisciplinary Collaboration": {
+    "question": "How effectively does the candidate integrate knowledge and techniques from different disciplines (e.g., palynology and machine learning, linguistics and data science) to achieve research or project goals?",
+    "count": 11
+  },
+  "Grant Acquisition": {
+    "question": "How effectively has the candidate secured research funding through grants, indicating an ability to define research goals, justify their importance, and manage resources?",
+    "count": 10
+  },
+  "LLM/Multimodal Focus": {
+    "question": "Can the candidate clearly articulate their experience and project work specifically related to Large Language Models and multimodal model development, beyond simply listing technologies?",
+    "count": 20
+  },
+  "Project Leadership": {
+    "question": "Can the candidate consistently lead projects from ideation to implementation, demonstrating experience in stakeholder management, budget control, and risk mitigation, as evidenced by examples like the 'Nastavnik' system or the InSAR monitoring pilot?",
+    "count": 49
+  },
+  "Data Science Tooling": {
+    "question": "How effectively does the candidate leverage a diverse range of data science tools and technologies (e.g., pandas, nltk, plotly.dash, aiogram, Selenium, Google Earth Engine) to solve complex problems, as demonstrated by their project repositories and hackathon participation?",
+    "count": 24
+  },
+  "Professional Experience": {
+    "question": "How does the candidate's professional experience (e.g., CTO role) demonstrate leadership, responsibility, and practical application of their skills in a real-world setting?",
+    "count": 6
+  },
+  "Competition/Project Participation": {
+    "question": "How actively has the candidate participated in relevant competitions or projects, and what was their role and contribution to the team's success?",
+    "count": 25
+  },
+  "Modular Software Design": {
+    "question": "How well does the candidate design and implement software solutions as a collection of independent, reusable modules, considering future extensibility and maintainability?",
+    "count": 5
+  },
+  "Computational Problem Decomposition": {
+    "question": "Can the candidate effectively break down computationally intensive problems into manageable components and select appropriate solution methods for each, optimizing for limited resources?",
+    "count": 5
+  },
+  "Domain Expertise (Medical)": {
+    "question": "How effectively can the candidate translate domain-specific knowledge (e.g., radiomics, cardiac imaging) into actionable machine learning solutions, and can they describe the challenges and considerations unique to applying AI in a medical context?",
+    "count": 6
+  },
+  "Mathematical Foundation": {
+    "question": "Does the candidate showcase a strong mathematical foundation, including experience with optimization techniques, differential equations, and linear algebra, and can they explain how these concepts are applied in their work?",
+    "count": 3
+  },
+  "Academic Achievements": {
+    "question": "Can the candidate consistently demonstrate high academic performance, evidenced by a strong GPA, scholarships, and significant achievements in mathematics competitions and olympiads?",
+    "count": 10
+  },
+  "Software Engineering Focus": {
+    "question": "Does the candidate's experience and skill set align with a core software engineering role, as evidenced by their project descriptions, listed skills, and educational background?",
+    "count": 4
+  },
+  "Teaching Experience": {
+    "question": "Can the candidate effectively communicate complex technical concepts to students with varying levels of understanding, as demonstrated by their experience designing and delivering courses?",
+    "count": 8
+  },
+  "Conference Presentation": {
+    "question": "How frequently and effectively does the candidate disseminate research findings to a broader audience through presentations at national and international conferences?",
+    "count": 18
+  },
+  "Industry Experience": {
+    "question": "Can the candidate demonstrate a history of applying data analysis techniques to solve business problems within a specific industry (e.g., film/television)?",
+    "count": 7
+  },
+  "Role Clarity": {
+    "question": "How effectively does the candidate clearly define their roles and responsibilities within different projects and organizations?",
+    "count": 3
+  },
+  "Dataset Focus": {
+    "question": "Can the candidate consistently demonstrate experience building, evaluating, and improving datasets for machine learning models, particularly in areas like text-to-image and OCR?",
+    "count": 1
+  },
+  "Project Scope & Complexity": {
+    "question": "Can the candidate describe projects that involve designing, implementing, and deploying solutions with multiple interacting components and dependencies, showcasing problem-solving abilities and technical proficiency?",
+    "count": 28
+  },
+  "Robotics Focus": {
+    "question": "How deeply does the candidate's experience extend into robotics applications, beyond just mentioning the field?",
+    "count": 7
+  },
+  "Industry Focus": {
+    "question": "How effectively does the candidate tailor their experience and skills to a specific industry, demonstrating deep understanding of its challenges and opportunities?",
+    "count": 5
+  },
+  "Project Lifecycle Experience": {
+    "question": "Can the candidate articulate their involvement in projects spanning the entire lifecycle, from data collection and annotation to model deployment and integration into web services?",
+    "count": 5
+  },
+  "Education Relevance": {
+    "question": "Does the candidate's education directly align with the target role, showcasing relevant coursework and a clear focus area, or is the education broad and lacking specific technical depth?",
+    "count": 1
+  },
+  "Synthetic Data Expertise": {
+    "question": "Can the candidate describe their experience with synthetic data generation and its application to improve machine learning model performance and generalization?",
+    "count": 1
+  },
+  "Theoretical Physics Background": {
+    "question": "Can the candidate explain a complex theoretical physics concept (e.g., antiphase boundaries, Density Functional Theory) and its application to a practical problem?",
+    "count": 1
+  },
+  "Industry vs. Academic Experience": {
+    "question": "To what extent does the candidate's experience blend practical industry applications (e.g., mechanical testing, materials processing) with theoretical research (e.g., computational mathematics, information theory)?",
+    "count": 1
+  },
+  "GPU/Parallel Computing Depth": {
+    "question": "How well does the candidate articulate their understanding and practical experience with GPU architectures, parallel programming techniques (CUDA, OpenCL), and optimization strategies (SIMD, shared memory)?",
+    "count": 5
+  },
+  "Professional Experience Focus": {
+    "question": "Does the candidate's professional experience demonstrate a clear and sustained focus on technical roles, as opposed to broader extracurricular or leadership activities?",
+    "count": 1
+  },
+  "Entrepreneurial Experience": {
+    "question": "Can the candidate demonstrate experience founding and leading a company, and how does this experience inform their technical skillset and problem-solving approach?",
+    "count": 4
+  },
+  "Deep Learning Focus": {
+    "question": "Can the candidate demonstrate a comprehensive understanding of deep learning architectures, specifically LSTM, GRU, and TCN, and their application to time series forecasting?",
+    "count": 5
+  },
+  "Multi-Agent System Development": {
+    "question": "How effectively does the candidate leverage multi-agent systems, particularly in the context of drug discovery, as demonstrated by their project contributions and publications?",
+    "count": 1
+  },
+  "Graph Neural Network Focus": {
+    "question": "To what extent does the candidate's experience involve the design, implementation, and optimization of Graph Neural Networks (GNNs) for practical applications?",
+    "count": 2
+  },
+  "Multilingual Proficiency": {
+    "question": "How effectively can the candidate leverage their multilingual skills (Chinese, Russian, Spanish) to contribute to AI projects, particularly in cross-cultural contexts?",
+    "count": 1
+  },
+  "Microservice Development": {
+    "question": "Can the candidate describe a situation where they designed, developed, and deployed a microservice, detailing the technologies used and the challenges overcome?",
+    "count": 1
+  },
+  "C/C++ Proficiency": {
+    "question": "Can the candidate articulate the specific reasons for choosing C/C++ over other languages in a given project, and describe their experience implementing complex data structures or algorithms in these languages?",
+    "count": 1
+  },
+  "Database Development & ETL": {
+    "question": "Can the candidate design and implement database architectures, including ETL processes, to integrate data from multiple sources, as demonstrated by their work with MongoDB and scientific installations?",
+    "count": 1
+  },
+  "Competitive Programming Focus": {
+    "question": "How does the candidate articulate the transferability of skills gained from competitive programming (e.g., algorithmic thinking, problem-solving under pressure) to practical software development or data science roles?",
+    "count": 4
+  },
+  "Custom Environment Development": {
+    "question": "How well does the candidate design and implement custom simulation environments for training and evaluating machine learning agents, and can they provide examples of such environments built for specific applications (e.g., UAV simulation, robot path planning)?",
+    "count": 1
+  },
+  "Multimodal Data Handling": {
+    "question": "Can the candidate effectively integrate and analyze diverse data types (e.g., MRI, WSI, DNAm, EHR) within a machine learning framework?",
+    "count": 1
+  },
+  "Causal Inference Expertise": {
+    "question": "Can the candidate consistently apply causal inference techniques (e.g., DoWhy, causal discovery) to real-world business problems, demonstrating an understanding of assumptions and limitations?",
+    "count": 1
+  },
+  "Domain Expertise (Chemistry)": {
+    "question": "How well does the candidate integrate AI/ML techniques with a strong foundation in Chemistry, as shown by their research areas, publications, and course selections?",
+    "count": 1
+  },
+  "A/B Testing Expertise": {
+    "question": "How thoroughly does the candidate describe their experience designing, executing, and analyzing A/B tests, including methodologies and tools used?",
+    "count": 1
+  },
+  "Practical Project Depth": {
+    "question": "Can the candidate demonstrate a sustained commitment to personal projects, evidenced by ongoing development and regular updates, as shown by the CRISPR-Cas9 and Steganography Research projects?",
+    "count": 1
+  },
+  "Quantum Computing Focus": {
+    "question": "Can the candidate demonstrate a consistent and deep understanding of quantum computing principles and their application, as evidenced by project work, research, and coursework?",
+    "count": 1
+  },
+  "Economic Expertise": {
+    "question": "Can the candidate demonstrate a consistent track record of applying economic principles and methodologies to real-world forecasting and analysis, as evidenced by their experience in roles like Chief Economist and Head of Unit?",
+    "count": 1
+  },
+  "Focus Area - Traffic Systems": {
+    "question": "To what extent does the candidate's experience and publications center around traffic management, object detection, and related applications?",
+    "count": 1
+  },
+  "Structured Education Details": {
+    "question": "How clearly and comprehensively does the candidate present their educational background, including degrees, institutions, and relevant coursework?",
+    "count": 1
+  },
+  "Use of Active Voice": {
+    "question": "How effectively does the candidate use active voice to clearly convey actions and responsibilities within project communications?",
+    "count": 1
+  },
+  "Competitive Programming": {
+    "question": "Can the candidate demonstrate consistent high performance in competitive programming environments, as evidenced by rankings and awards?",
+    "count": 1
+  },
+  "System Architecture Design": {
+    "question": "How well does the candidate articulate their experience designing high-level system architectures, specifically addressing components like control planes and data planes?",
+    "count": 3
+  },
+  "Data Engineering Proficiency": {
+    "question": "Can the candidate describe their experience with data-intensive technologies like Kafka, media streaming protocols (WebRTC, HLS), and data management services, and how they applied them to solve real-world problems?",
+    "count": 2
+  },
+  "Hyperspectral Data Expertise": {
+    "question": "How well does the candidate demonstrate experience and understanding of hyperspectral data processing and analysis, specifically in the context of environmental monitoring or related applications?",
+    "count": 1
+  },
+  "Kernel Development Experience": {
+    "question": "How well does the candidate articulate their contributions to kernel development, including bug fixing, patch creation, and integration into a main codebase?",
+    "count": 1
+  },
+  "Real Estate Domain Knowledge": {
+    "question": "How well does the candidate articulate their understanding of real estate market dynamics, legal/tax considerations, and valuation processes, based on their experience?",
+    "count": 1
+  }
+}

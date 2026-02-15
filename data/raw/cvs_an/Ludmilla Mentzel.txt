@@ -1,0 +1,76 @@
+[name] [surname]
+[location]
++2 *** *** *** • [email]
+Education
+Ph.D. student in Computational and Data Science and Engineering [location]
+[compaany] 2021–present
+Advisor: [name], Co-Advisor: [name]
+Thesis: Investigation of the Properties of Deep Neural Networks Using Topological Data Analysis; Development of Existing
+Topological Approaches for Assessing the Models’ Performance.
+M.S. in Statistical Learning Theory [location]
+[compaany], [location] 2018–2020
+Advisor: [name]
+Thesis: Looking for Scale Invariance in Loss Landscape
+GPA – 9.13 out of 10, diploma with distiinction
+B.S. in Applied Mathematics and Information Science [location]
+[compaany] 2014–2018
+Advisor: [name]
+Thesis: Sparsification of Neural Networks for Feature Space Dimensionality Reduction in Image Retrieval Problem
+GPA – 8.26 out of 10
+Work Experience
+AIRI [location]
+Leaarnable Intelligence January 2024 - Present
+Junior Research Fellow
+CeNtre of Deep Learning and Bayesian Methods [location]
+Samsung-HSE Laboratory February 2019 - December 2020
+Junior Research Fellow
+Institute of Science and Technology Austria [location]
+Distributed Algorithm and Systems Summer 2019
+Intern (spoonsored by the OeAD)
+Publications
+RTD-Lite: Scalable Topological Analysis for Comparing Weighted Graphs in Learning Tasks
+[name], [name], [name], [name], [name] 2025
+AISTATS
+Scalar Function Topology Divergence: Comparing Topology of 3D Objects
+[name], [name], [name], [name], [name] 2024
+ECCV
+Disentanglement Learning via Topology
+[name], [name], [name], [name], [name] 2024
+ICML
+1-dimensional Topological Invariants to Estimate Loss Surface Non-Convexity
+[name], [name], [name], [name] 2023
+Doklady Mathematics
+Cross-Pollinated Deep Ensembles
+[name], [name], [name] 2020
+NeurIPS Bayesian Deep Learning Workshop
+Teaching Experience
+Deep Learning Course, [compaany] [location]
+Teaching Assistant 2025
+Summer Schoo in Deep Learning and Bayesian Methods, [compaany] [location]
+Teaching Assistant 2018
+Conferences and Summer Schoo ls
+Fall into ML [location]
+Poster: "Disentanglement Learning via Topology" 2024
+ECCV [location]
+Poster: "Scalar Function Topology Divergence: Comparing Topology of 3D Objects" 2024
+SMILES Pushkin [location]
+Poster: "Disentanglement Learning via Topology" 2024
+R&D-day Applied AI Center [location]
+Poster: "Disentanglement Learning via Topology" 2024
+Math of Machine Learning [location]
+Participant 2020
+Conversational Intelligence Summer Schoo lDolgoprudnyy [location]
+Participant 2018
+Summer Schoo l in Info rmatio n, Optimal Control and Optimization [location]
+Participant 2018
+Machine Learning Workshop [location]
+Poster: "Spaersification of Neural Networks for Feature Space Dimensionality Reduction in Image Retrieval" 2018
+Achievements
+2024: Hackathon "AI methods for solving sustainable development challenges", wi nner
+2018: Statistical Learning Theory Olympiad, 1st prize, certificate
+2016: The first place in academic performa nce ranking among students of the Computer Science facul ty, department of Applied
+Mathe matics and Info rmatio n Science in National Research Uni versity Higher Schoo l of Economics
+2014: Bauman Moscow State Technical Uni versity Olympiad in Mathematics, 3rd prize
+Technical Skills
+Technologies: Python, C++, R, SQL, PyTorch, TensorFlow, Keras, scikit-learn, nu mpy, pandas, scipy
+Languages: English (fluent), Russian (native)

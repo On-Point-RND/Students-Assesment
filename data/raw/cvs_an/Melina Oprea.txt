@@ -1,0 +1,78 @@
+[name] [surname]
+[location], [location] [email]
++2 *** *** *** @novikoffilya
+Aug 06, 2000 novikoffilya
+Lograd51
+Research Engineer skilled in programming on Python and MATLAB. Experienced in working with different kinds of data including images, time-series, simulating device work and physical processes, using different ML- and DL-based algorithms.
+Highly organized, responsible, able to adapt quickly to new conditions. Have team management extensive experience and teawork organization.
+HARD SKILLS SFT SKILLS
+Python — Work with data and images, NumPy, OpenCV, Team management | Time management |
+Matplotlib, Pandas, Rasterio, Scikit-learn, PyTorch Leadership | Public speaking | English — B2 |
+Russian — Native
+EDUCATION
+2024 – present PhD in Artificial Intelligence and Machine Learning,
+[location] Skolkovo Institute of Science and Technology
+PhD thesis: "Artificial intelligence natural disasters forecasting algorithm development using
+geospatial data fusion"
+2022 – 2024 MSc in Engineering Systems: track Space, Skolkovo Institute of Science and Technology
+[location] MSc thesis: "Water quality monitoring using limited labeled hyperspectral remote sensing
+data"
+2018 – 2022 Bachelor’s degree in photonics and optoinformatics,
+[location] National Research Nuclear University MEPhI
+BSc thesis: “Development of the spectrometer for Thomson scattering in low-temperature
+plasma registration”
+PROJECTS
+Apr 2023 – Aug 2023 Taktika
+Managed the team
+Generated prompts, developed an algorithm for interacting with LLM and processing its
+responses
+Developed a product architecture
+Jan 2023 – Aug 2023 Backup system for the satellite orbit and orientation determination using RGB cameras,
+Skoltech Institute of Science and Technologies
+Developed algorithm of Earth's surface contours highlighting
+Feb 2023 – Mar 2023 Non-uniform Blur Kernel Estimation via Adaptive Basis Decomposition,
+Skoltech Institute of Science and Technologies
+Reproduced the proposed image restoration model to validate published research results
+WORK EXPERIENCE
+Feb 2024 – present Research Engineer, Skoltech
+[location] Developed a greenhouse microclimate to external weather conditions adaptation system
+Prepared data and developed water surface segmentation algorithm based on radar satellite
+images
+Developed basic industry model for the production processes video analytics task
+Developed a methodology for water bodies ecologicaal condition continuous monitoring based
+on hyperspectral UAV-born images
+Developed spectral band selection algorithm for hyperspectral data
+Implemented ML-based algorithm for CO2 content assessment in [location] forestry areas
+Oct 2023 – Dec 2023 ML Engineer, CyberPhysics
+[location] Improved algorithm for time series forecasting of Technical Condition Index (TCI) of
+equipment
+Jun 2023 – Jul 2023 Intern, CyberPhysics
+[location] Development of method(s) for forecasting the time series of the Technical Condition Index
+(TCI) of equipment
+Jan 2022 – Jul 2022 Engineer, LLC Laser eye
+[location] Carried out an optimization of the Thomson scattering spectrum registration system
+Organized the VIII International Conference LaPlas-2022
+Dec 2021 – Jan 2022 Laboratory assistant, Department of laser physics №37 NRNU MEPhI
+[location] Assembled a triple grating spectroscope used for Thomson scattered radiation collection and
+carried out an optimization of the thomson scattering spectrum registration system
+May 2020 – Jan 2021 Technician, Online education center NRNU MEPhI
+[location] Organized the proctoring process for [location] lyceum exams, communicated with lyceum
+students and prepared them for exams
+Worked in the admissions committee during the summer 2020: consulted enrollees and
+assisted them to fill out the documents, verified and executed applicant’s documents
+PUBLICATIONS
+2025 Self-Supervised Learning for Temporal Action Segmentation in Industrial and
+Manufaccturing Videos, IEEE
+https://doi.org/10.1109/ACCESS.2025.3545768
+2024 Analysis of Hyperspectral Images of River Waters, Optical Memory and Neural Netwoorks
+https://doi.org/10.3103/S1060992X24700668
+ACHIEVMENTS
+2023 Winner, Engineering Systems Industrial Immersion competition
+2022 Prize-winner, Competion «I am Professional» on laser, plasma and radiation technoolgie for
+undergradua students
+2022 Participan, VIII International Conference LaPlas-2022
+Theme: «Optimization of the Thomson scattering spectrum registration system by numerical
+methods»
+2021 Winner,
+Research works and engineering projects competition of LaPlas students and graduaate students
+Work: «Laser nanostrucuring of metal films sprayed on silicon for antibacterial use»

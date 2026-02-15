@@ -1,0 +1,59 @@
+CLIP
+(Learning Transferable Visual Models From Natural Language Supervision)
+[name]
+[compaany]
+Introduction
+• What about: CLIP - Text-image model, which allows to make zero-shot classification
+• Why important: Classification and downstream task need not more training phase
+• Background: CLIP was (and still) one of the best model, which can significantly well
+• Goal: Our desire was to train reduced CLIP version and demonstrate it’s generalization abilities
+Problem statement
+● Challenge: Original CLIP model was trained on 400M image-text captions dataset.
+To demonstrate model’s generalization capabilities, we should decide which models
+and dataset will be used
+● Our solution: Demonstrate, that multimodal architectures abilities to generalize data
+● Scope:
+a. Focus on image-text matching capabilities
+b. Multimodal pretrain for zero-shot classification
+Flickr30k Dataset
+Overview
+● Size: ~301k images collected from [location]
+● Annotations: Each image paired with 5 descriptive captions
+● Quality: Human-written descriptions capturing diverse visual
+contexts and objects
+Key properties for our project
+● Caption diversity: Multiple perspectives per image provide rich
+language variations
+● Image content: Everyday activities, events, and scenes with people,
+animals, and objects
+● Complexity: Varied visual scenes with multiple subjects and
+relationships
+Methods and key ideas
+• Vision Encoder (ResNet-50) and Text Encoder (DistillBERT) are trained on a contrastive loss
+• Contrastive Loss:
+Allows models to map
+images and text in the
+same embedding space
+Results
+- Model demonstrates
+generalization capabilities
+- Achieved accuracy=0.94 on
+side dataset with only zero-shot
+classification
+Research gap
+● What's missing:
+○ Performance gap still exists compared to larger models
+○ Limited generalization to domains outsiide of Flickr30k
+● Unresolved challenges:
+○ Didn’t testes prompt engineering(how metrics depend of prompt)
+○ Zero-shot classification of a large and diverse dataset
+● Way to improve:
+○ Better and more data-> better performance
+Bibliography
+1. A. Radford, J. W. Kim, C. Hallacy, A. Ramesh, G. Goh, S. Agarwal, G. Sastry, A. Askell, P. Mishkin, J. Clark, G. Krueger, I. Sutskever. Learning
+Transferable Visual Models From Natural Language Supervision. arXiv, 2021.
+2. K. He, X. Zhang, S. Ren, J. Sun. Deep Residual Learning for Image Recognition. arXiv, 2015.
+3. V. Sanh, L. Debut, J. Chaumond, T. Wolf. DistilBERT, a Distilled Version of BERT: Smaller, Faster, Cheaper and Lighter. arXiv, 2020.
+4. H. Liu, Y. Song, X. Wang, Z. Xiangru, Z. Li, W. Song, T. Li. Flickr30K-CFQ: A Compact and Fragmented Query Dataset for Text-image Retrieval.
+arXiv, 2024.
+LINK TO GITHUB

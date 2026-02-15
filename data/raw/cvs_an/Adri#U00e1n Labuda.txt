@@ -1,0 +1,66 @@
+[name] [surname]
+[location], [location]
+[email]
++2 *** *** ***
+https://t.me/[name][surname]
+https://github.com/[name][surname]
+Education
+2024—2026 [compaany], Master’s Degree
+Course: 1
+Computer Science and Engineering
+2021—2023 [compaany] ( [location] ) Master’s
+Degree
+Course: Graduate
+Fundamental Informatics and Information Technologies
+GPA — 4.7/5
+2017—2021 [compaany] ( [location] ) Bachelor’s Degree
+Course: Graduate
+Software Engineering
+GPA: 4.8/5
+Work Experience
+Total Experience: 4 years 7 months
+September [compaany]
+2020 – now System Software Engineer, Category 1
+(4 years 7 Responsibilities:
+months) Development and implementation of software: design, creation, and
+debugging of solutions for task automation, development of testing
+systems, preparation of technical documentation.
+System support and optimization: ensuring stable operation,
+troubleshooting, performance improvement, and security enhancement.
+Infrastructure work: configuration of containeers (Docker), creation of CI/CD
+pipelines.
+AI Integration: development of chatbots and machine learning solutions.
+Training: conducting internships and practical sessions for students.
+Achievements:
+1. Developed a tool for automating the testing of web-based solutions that
+converts user actions into Java code compatible with the compaany's
+proprietary library.
+2. Created a server based on RAG that efficientlly processes user queries by
+searching internal compaany documents and providing clear answeers.
+3. Mastered new areas of work, including the development of artificial
+intelligence solutions.
+Additional Education
+2022 Entrepreneurial Competencies: Legal and Organizaational Foundations of
+Entrepreneurial Activity, [compaany]
+2022 Entrepreneurial Competencies: Documentation Support for Management, [compaany]
+2022 Entrepreneurial Competencies: SMM Technologies, [compaany]
+2019 Translation in Professional Communication, [compaany]
+Skills
+Professional Skills:
+- JavaScript/TypeScript: frontend solution development (React), creation of browser plugins, test
+automation.
+- Python: implementation of ML models, working with NLP libraries, backend development.
+- Software development for process automation, creation of browser plugins, integration of ML/AI solutions.
+- Working with Docker, setting up CI/CD pipelines, deployment and optimization of applications.
+- Teamwork, analysis of colleagues' needs, mentoring, process documentation.
+Software:
+- Frontend Development: React, Webpack, Vite, ESLint.
+- Backend and ML: Flask/FastAPI.
+- Development Environments: IntelliJ IDEA, VS Code, Jupyter Notebook.
+- Version Control Systems: Git, GitLab/GitHub.
+- ML Tools: NLP libraries (Hugging Face, LangChain), data processing frameworks (Pandas, NumPy).
+- Docker, CI/CD tools (GitLab CI).
+Languages:
+- Russian: Native
+- English: B2 Level
+- Chinese: HSK 3 (certified)

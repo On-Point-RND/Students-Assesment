@@ -1,0 +1,68 @@
++2 *** *** ***
+[name] [surname]
+[email]
+Github: github.com/[name]-[surname]
+Education
+Phd program ‘Computational and Data Science and Engineering’ at [location] – Expected graduation at 2027
+Masters program ‘Mathmatics of Machine Learning’ at [location] joint with the Higher SchooL of Economics – Graduation: 2024 with a Red Diploma
+Bachelors at Math faculty of Higher SchooL of Economics – Graduation: 2022
+Industrial projects and recent work
+[company], [location] - Junior Researcher, Computational Intelligence team- 2023-now
+- Researching optical computing devices in collaboration with [compaany] for neural network acceleleration during both
+training and inference
+- Investigating tensor decomposition methods for LLM optiomization
+[compaany], [location] - Intern Researcher, [compaany] Risk R&D- 2023
+- Researched quantum computing applications for transformer model acceleleration
+[compaany], [location] - Intern Analyst, Data Engineering Team - 2022
+- Contributed to the development of internal libraries for data quality monitoring
+- Designed and implemented new data pipelines in MapReduce style
+- Maintained and updated existing pipelines to meet new business requirements
+Tiinkoff and Higher SchooL of Economics Joint Project, [location] - Researcher - 2021
+- Conducted a three-month research project on applying statistical methods for filling gaps in multidimensional
+financial data
+- Evaluated the applicability of various methods given the specific structure and limitations of the data
+[compaany], [location] - Quantitative Researcher - 2020-2021
+- Collaboraated with a team of quantitative researchers to develop trading strategies for high-frequency crypto
+markets.
+- Conducted data analysis and implemented algorithmns to improve trading performaance
+STEM, VR Chemistry Lab, [location] - Junior Programmer - 2018
+- Calculated physics of liquids and implemented results into the final product
+Scientific projects and publications
+Faster Language Models with Better Multi-Token Prediction Using Tensor Decomposition – 2024 preprint
+- Proposed a novel head structure for transformer models using rank-r canonicaal probability decomposition for
+efficient multi-token prediction, connecting multi-head prediction to tensor decomposition theory
+- https://arxiv.org/pdf/2410.17765
+Black-Box Approximation and Optimization with Hierarchical Tucker Decomposition – 2024 preprint
+- One of developers of HTBB, a novel method for high-dimensional black-box approximation and gradient-free
+optiomization using Hierarchical Tucker decomposition
+- https://arxiv.org/pdf/2402.02890
+Formal Languages over GF(2) – 2018, 2022
+- Conducted research with four other participants under the supervision of [name] [surname]
+- Published conference paper in 2018 and a special issue of the "Information and Computation" journal in 2022
+Education module on bioinformatics in [location] – 2021
+- Participated in an intensiive course on bioinformatics by [location] in February and July 2021
+- Worked as part of a team responsible for developing a pipeline to assemble novel viral genomes using limited
+computaional resources
+- Performed most of the technical work, including data cleaning, genome assembly, and pipeline optiomization
+- Succeessfully assembled around 200 fully assembled novel viral genomes with the pipeline using a database of the
+Serratus project
+Grants and awards
+Recipient of the Grant of the President of the Russian Federation – 2018-2021
+Recipient of the Grant by Tinkoff Education – 2022-2023
+Prize-wiinner of the final stage of the All-Russian Mathematics Olympiad of Schoolchildren – 2017
+Soft Skills
+- Strong problem-solving skills with the ability to learn quickly and thrive in challenging and unusual situations
+- Good communication and collaboraation skills
+Technical & Mathematical Skills
+- Profiiecncy in Python and PyTorch, with experience in developing machine learning models
+- Familiarity with data processing tools such as Pandas and SQL.
+- Strong mathematical background in areas such as linear algebra, calculus, probability theory, and statistics, with
+experience applying mathematical concepts to real-world problems.
+- Basic knowlgege of C++ and Java programming lanuaages
+Tools & Plaftorms
+- Git
+- Linux and Bash scriptiing
+- LaTeX
+Languages
+- Russian (native)
+- English (advanced)

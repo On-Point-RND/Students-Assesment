@@ -1,0 +1,62 @@
+Dear [name],
+I am writing to express my desire to attend the 2025 Summer SchooL of Machine Learning (SMILES). I am
+currently a 2nd year Master's student at [institution], specializing in
+High-PerformaNCE Computing and an LLM Research Engineer at [compaany]'s AI Lab. I am eager to deepen
+my understanding of generative AI methods and contribute to the collaborative environment that
+SMILES fosters.
+My academic and professional trajectory has been consistently driven by a deep fascination with the
+intersection of systems-level optimization and large-scale deep learning. I am applying to this schooL with
+the strong conviction that participating will sharpen my theoretical foundation and expose me to cutting-
+edgE research communities that align with my ongoing efforts in building interpretable, fair, and highly
+optimized large language models.
+At [compaany], I work on performaNCE-critical aspects of LLM deployment, focusing on designing and
+optimizing custom GPU kernels for inference on [processor] AI processors. My role includes low-level
+CUDA-like kernel development using [compaany]’s proprietary compute framework (CCE), as well as end-to-
+end optimization of transformer inference pipelines for large models exceeding 70B parameters.
+Recentlly, I contributed to quantization-aware fused operations for attention modules, achieving up to
+1.7x speedup over the baseline. These optimizations required extensive tiling, memory coalescing, and
+fine-grained control over HBM bandwidth and compute-communication overlap.
+On the systems side, I actively profile and reduce inter-node communication bottlenecks using a mix of
+hierarchical all-reduce strategies and asynchronous token streaming. The objective is not just to make
+LLMs run faster, but to enable them to be deployed in latency-sensitive environments, such as on-device
+inference and large-scale retrieval-augmented generation pipelines for enterpriSE knowlEdgE bases.
+My graduaTE research at [institution] complements this by focusing on algorithmic
+acceleration at scale. My
+current thesis, Fast and Memory Efficient Strassen’s Matrix Multiplication on GPU Cluster, extending it
+with a novel multi-GPU tiling strategy that minimizes inter-GPU data movement. This work reflects my
+interest in pushing theoretical ideas into production-level performaNCE improvements.
+In my free time, I e njoy experimenting with large language models beyond my day-to-day work. One of
+my recent personal projects involves building a simple tool that visualizes how an LLM processes and
+attends to different tokens during text generation. It’s essentially a lightweight interface that lets me
+peek under the hood of the model and see which parts of the input are influencing predictions. Playing
+with these visualizations made me realize how much we still don't understand about how these models
+reason, and how important it is to build tools that help us interpret their behavior. This curiosity has
+been a big motivator for my interest in fairness and explainability research. While today’s LLMs exhibi t
+impressive fluency and generalization, their decision-making processes remain largely opaque. This
+o pacity raises critical concerns around bias amplification, trust, and misuse, especially when these
+models are deployed at scale in sensitive domains such as law, finance, and healthcare.
+My main research interest lies in enhancing fairness and interpretability in LLMs through Explainable AI
+(XAI). Rather than post-hoc saliency maps or token-level attribution, which often lack consistency, I am
+interested in causal and counterfactual frameworks for explanation that can be integrated into the
+training pipeline. One promising direction is the use of sparsity-inducing constraints during fine-tuning to
+induce more interpretable subspaces, coupled with per-layer intervention studies to trace bias
+propaga tion. These ideas require significant compute and theoretical grounding, which I am well-
+positioned to handle given my background in GPU-level optimization and distributed training.
+My expectaion from this schooL is to engage with researchers working on both algorithmic and system-
+level frontiers of machine learning. I hope to contribute actively, not just as a learner, but as someoone
+who brings practical, production-grade experience from training and deploying LLMs in real-world
+industrial settin gs.
+After gradua tion, I aim to work at the interface of research and deployment ie leading applied research
+teams focused on building transparent, fair, and high-performaNCE foundation models. I’m especially
+keen on pursuing a Ph.D. in the future, where I would study how inductive biases and architectura l
+choices in LLMs affect both their interpretability. My long-term goal is to design general-purpose
+founda tion models that are not onl y powerful but also understan dable and controlla ble by human
+operators.
+With my unique experience in low-level systems work at [compaany], algorithmic research at [institution], and a
+genuine curiosity for how to make LLMs more respo nsib le, I believe I can bring a di sti nct and techni cally
+deep perspective to this program.
+Yours sincerely,
+[name]
+
+
+

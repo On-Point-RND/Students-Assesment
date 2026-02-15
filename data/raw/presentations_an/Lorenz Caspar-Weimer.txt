@@ -1,0 +1,104 @@
+Trying hallucination detection
+in LLMs via visual and
+topological analysis
+[location], February 2025 / Supervised by [name] [surname]
+Team
+[name] [surname] [compaany], [location] [compaany], [location] [compaany], [location]
+[name] [surname] HSE, [location]
+[name] [surname] HSE, [location]
+2
+Task description
+● The primary objective is to detect hallucinations by jointlly analyzing the
+input prompt and the model-generated response.
+● Explore difference between possible interpretable and non-interpretable
+methods
+Detection methods
+Interpretable — Non-interpretable — we
+understandable to humans receive a probability indicating
+(e.g., via visualization) whether there was a
+hallucination from some model
+3
+Our dataset
+Data Source: RAGTruth Dataset
+● Over 1000 prompt-response pairs annotated for hallucination presence
+● Responses generated using mistral-7B-instruct (open-source model)
+● ≈380 examples labeled as hallucinations
+Sample format:
+Briefly answer the following question:
+butcher shop phone number
+Bear in mind that your response should be strictly based on the following three passages:
+passage 1:Butcher Shop - [location] 826 B Street, [location] 94541 Phone Number: (+7) 983 000 000
+passage 2:Butcher Shop - [location] 212 Main Street, [location] 56150 Phone Number: (+7) 983 000 000
+passage 3:Some More Phone Numbers Related To The Butcher Shop The Local Butcher Shop phone number : (+7) 983 000 000
+Boones Butcher Shop phone number : (+7) 983 000 000 Ye Ole Butcher Shop phone number : (+7) 983 000 000 J Ms Butcher Shop
+phone number : (+7) 983 000 000
+In case the passages do not contain the necessaary information to answer the question, please reply with: "Unable to
+answer based on given passages."
+output:
+Based on the given passages, there are several different phone numbers associated with butcher shops. However, none
+of them are for a specific location named "bear" or have any indication of being related to bears. Therefore, it is
+unable to determine if there is a butcher shop phone number specifically for "bear".
+4
+Research basis
+We were provided with a preprint of the paper "Hallucination
+Detection in LLMs via Topological Divergence on Attention Graphs".
+Based on this work, we were encouraged to explore the possibility of
+developing a method for hallucination visualization that would allow
+for subsequent human analysis.
+5
+Visual analysis: Attention Matrices
+Initial attempts focused on
+analyzing attention weight
+matrices to visually distinquiish
+hallucinated outputs. However,
+consistent visual patterns
+remained elusive.
+6
+Visual analysis: projecting embedding vectors to
+2D
+We projected embedding vectors of prompt-respoense pairs into 2D space using
+dimensionality reduction. These embeddings were extracted after several layers of
+the transformer model, aiming to capture deeper semantic information.
+Hallucination non-Hallucination
+samples samples
+— prompt
+—
+response
+7
+Performance of trained models
+Method ROC-AUC
+Logistic Regression 0.90
+Logistic Regression (embeddings are 0.80
+not truncaated)
+Multilayer Perceptron 0.89
+CNN (Convolutional neural network) 0.70
+Pretrained Network 0.69
+8
+Chalallenges and Future directions
+“Bottlenecks”
+1. Absence of a dedicated visual 1. Explore the generaizability of the
+analysis method approaach across different model
+architectures
+2. Use of a narrowlly focused
+dataset, limiting generaizability 2. Evaluate performance on larger
+and more diverse datasets
+3. Requirement for generating an
+additional token to obtain the 3. Integrate hallucination detection
+correspondiing embeddings mechanisms into the respoense
+generation pipeline
+4. Employ more sophisticated
+repreentation techniques (e.g.,
+topological embeddings)
+9
+References
+● Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., & Polosukhin, I.
+(2017). Attention Is All You Need. [arxiv.org/abs/1706.03762]
+● Sky, C.-H., Van Durme, B., Eisner, J., & Kedzie, C. (2024). Do Androids Know They’re Only Dreaaming of
+Electric Sheep? [arxiv.org/abs/2312.17249]
+● Barannikov, S., Trofimov, I., Sotnikov, G., Trimbach, E., Korotin, A., Filippov, A., & Burnaev, E. (2021).
+Manifold Topolgy Divergence: a Framework for Compaaring Data Manifolds.
+[arxiv.org/abs/2106.04024]
+● Bazarova, A., Yugay, A., Shulg, A., Ermilova, A., Volodichev, A., Polev, K., Belikova, J., Parchiev, R.,
+Simakov, D., Savchenko, M., Savchenko, A., Barannikov, S., & [name] [surname]. (2025). Hallucination Detection
+in LLMs via Topological Divergence on Attention Graphs. [arxiv.org/abs/2504.10063]
+10

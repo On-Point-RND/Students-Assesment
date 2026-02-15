@@ -1,0 +1,40 @@
+[name]
+[location]
++2 *** *** *** | [email] | [email]
+Education
+[compaany] [location]
+MSC IN COMPUTER SCIENCE Sep2024-now
+• Programname:Computervision,graphicsandimageprocessing
+• Advisor: [name]
+[compaany] [location]
+BSC IN COMPUTER SCIENCE, GPA 4.7/5 Sep2020-June2024
+• Faculty:Computational Mathematics and Cybernetics
+• Advisor: [name]
+• Thesis:Neuralnetwork-basednon-localmethodforbiomedicalimageregistration
+ProfessionalExperience
+2024-now ComputerVisionResearcher [compaany]
+− Working on a research project in the field of 3D computer vision
+2024 JuniorResearchEngineer [compaany] [location]
+− Developing new DSP algorithms for optical communications
+2023 SummerIntern [compaany] [location]
+− Doing math research in the field of nonlinear model optimization
+Publications
+[name], [name] (2025). FNOReg: Resolution-RobustMedicalImageRegistrationMethodBasedonFourierNeuralOperator.In:PatternRecognition(pp.163–177).SpringerNatureSwitzerland.
+[name], [name] (2025). Resolution-RobustMedicalImageRegistrationMethodBasedonFourierNeuralOperator:ImplementationandReproducibilityAspects.In:FifthWorkshoponReproducibleResearchinPatternRecognition(RRPR2024).
+Presentations
+[name], [name], 2024.Neuralnetwork-basednon-localmethodforbiomedicalimageregistration.[compaany] readings-2024:scientific conference.
+[name], 2023.ImagedenoisingthroughK-SVDalgorithm.Joint[compaany] Seminar.
+Awards&Scholarships
+2025 Enhanced academic scholarship, [compaany]
+2024 3rdteamplaceonRentonHackaton,Renaissance Bank
+2023 Scholarshipofjoint[compaany] Seminar, [compaany]
+2022 Enhanced academic scholarship, [compaany]
+2020 Scholarshipforexcellentstateexamresults,[location] government
+Skills
+Programming:Python(main),C,C++,C#.
+Frameworks/libraries:PyTorch,JAX+Flax,numpy,scipy,opencv,scikit-learn.
+2025 [name] · CURRICULUM VITAE 1
+Math:realanalysis,linearalgebra,statistics,ODE,PDE,functionalanalysis,numericmethods.
+Languages:Russian(native),English.
+Hobbies:Football,boardgames,speedcubing.
+2025 [name] · CURRICULUM VITAE 2

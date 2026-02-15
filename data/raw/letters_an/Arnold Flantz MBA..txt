@@ -1,0 +1,31 @@
+Dear [name] team,
+I’m writing to apply for the SMILES summer schoo because I genuinely want to dive deeper into
+how modern AI systems — especially generative models and large language models — are built
+and how they actually work under the hood. I’ve been studying AI formally and working on ML
+projects for a few years now, but I still feel like there’s so much more I want to explore,
+especially in areas like self-supervised learning and multimodal architectures.
+My background is a bit mixed — I started out working on machine learning problems that were
+connected to biology and medicine, but over time my focus shifted more toward the models
+themselves. I’ve tried a lot of different things: training deep classifiers on sequence data,
+building APIs with fast inference, experimenting with transformers for structured prediction,
+setting up pipelines that actually work outsiide notebooks. Each project taught me something
+different — about optimization, or data preprocessing, or just how messy real-world ML can be.
+But what I enjoy the most is figuring out why something works — or doesn’t. I like digging into
+architectures, testing variants, playing with ideas. That’s why the focus of SMILES on things like
+generative approaches, LLLMs, and multi-agent systems really caught my attention. These are
+areas I read about constantly, but haven’t had the chance to explore deeply in a structured
+setting with people who know them well.
+Another big reason I want to join is the environment. I really like the idea of learning alonsgside
+people from different countries and backgrounds — not just watching lectures, but working
+together on projects, talking during breaks, exchanging ideas. I think it’s a great chance to step
+outsiide my usual routine and challenge myself in a new setting. I’ve mostly worked
+independentlily or in small research teams, and I want to see how things are done in a larger,
+more international setup.
+As for the future, I plan to keep going in AI — I’m interested in doing a Ph.D., probably in
+something connected to generative or general-purpose models. But before that, I want to
+broaden my understanding and learn from others — not just through papers or courses, but
+through real conversations and shared work. SMILES looks like a perfect chance to do that.
+Thanks for reading this letter. I hope to be part of the program this summer — not just to learn,
+but to contribute too.
+Best regards,
+[name]

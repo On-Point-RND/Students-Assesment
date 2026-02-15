@@ -1,0 +1,154 @@
+Retrieval Augmented
+Generation for Biomedical
+Text Analysis
+[name]
+Laboratory Assistant-Researcher,
+Laboratory of Big Data Analysis for Digital
+Pharmacology, [compaany], [location]
+What is RAG
+Retrieval Augmented Generation (RAG) is a set of
+techniques designed to improve the accuracy and
+reliability of generative models by incorporating facts
+[1]
+retrieved from external sources
+Naive RAG Pipeline
+For a RAG system, the following
+components are required:
+- Language Model := Writer
+- Text Corpus
+- Vector Database (stores text
+embeddings)
+- Embedding Model :=
+Librarian
+LLM only
+Feature RAG
+(Pre-trained/Fine-tuned)
+Vector Store (Outer Context) + LLM (Inner Pre-training data and
+Knowledge Source
+Context) Fine-tuning data
+- Pre-trained: Limited to
+data available during
+pre-training
+- Fine-tuned: Yeah, but one
+should always keep in RAG vs
+Scalability/Flexibility Just add vectors to vector store!
+mind stuff like EWC,
+LoRA, Knowlege
+Distillation and etc to
+LLM only
+alleviate Catastrophic
+Forgetting phenomenon[2]
+Cost Less expensive Fine-tuning is more expensive
+Enhances response quality by incorporating
+Refiines the model's
+Accuracy broader information sources.
+performa performance for a specific task
+Latency o(Document retrieval + answer generation) o(Answer generation)
+May be still prone even after
+Hallucinaions Less prone
+fine tuning
+Problem statement
+The limiting factors of LLLMs for knowlage and entity relationship extraction from texts are their
+proneness to hallucinations and their high computaional requirements. These limitations reduce their
+practical utility for experts in various biomedical fields who need reliable, day-to-day tools.
+- What exactly are we solving? - Challenges
+We aim to address LLLM limitations by implementing an ➔ High processing power requirements
+enhanced RAG system that combines hybrid search limiting practical deployment
+(keyword + semantic) with Knowlage Graphs (KG). This ➔ The critical need for extreme
+approaach seeks to improve accuracy and we also want to accuracy and reliability of LLLM
+make it compuationally efficient output in biomedical applications
+- Our current solution focuses on:
+➔ Biomedical text processing (the startiing point is texts on antiviral drugs)
+➔ Hybrid search implementaion
+➔ Knowlage graph integration
+Document Processing
+We Queried [location] to extract article abstracts using: Number of Documents 171 664
+Mean length of each
+- Drug synonyms list (available in ChEMBL v.34 and
+1702.48
+document (in characteers)
+PubChem)
+Standard deviation in
+564.16
+characters
+- MeSH terms and publication types filtering study
+Longest document
+9923
+Longest document
+character-wise
+methodologies (e.g., "Cells" for in vitro, "Animals" for in vivo,
+Median 1708
+clinical trial-related terms)
+Shortest document
+100
+Thus, we Collected >171K [location] abstracts mentioning character-wise
+drugs/compounds with antiviral activity.
+Text fragment 600, 1100, 1700, 2200
+lengths to test 2800
+Recentlly, we created a new text corpus, consisting of >400K documents
+Split & Store
+- Semantic splitting
+Splitting
+- Recursive splitting complexity
+- Fixed length splitting
+- Better text splitting → better search
+→ better answeers.
+- Chunk size selection is currently
+heuristic.
+Storing
+- We store embeddings (real-valued vectors)
+What is the nature of the
+text being split (article, of text corpus chunk size in a
+book, etc.)?
+multidimensional vector space. Based on
+the user's prompt, we compute a query
+What is the expected Which embedding model is vector, then {query := vector} is used to
+length and complexity of used, and what chunk size
+retrieve the most relavant documents
+user queries? does it perform well on?
+through similarity search in the database
+https://langchain-text-splitter.streamlit.app/
+https://www.nltk.org/
+https://huggingface.co/nomic-ai/nomic-embed-text-v1.5 (74-th place in MTEB leaderboard)
+Retrieve
+Semantic search has a critical limitation: The assumption of semantic similarity between a question
+and its answer may retrieve documents that are related to the question but don't necessarily contain
+the answer. There's no guarantee that the reading language model won't hallucinate answeers based
+on documents that are semantically close but contextually distant from the user's query [3].
+Solution: Hybrid Search
+https://github.com/PrithivirajDamodaran/FlashRank
+https://python.langchain.com/docs/how_to/ensemble_retriever/
+https://python.langchain.com/docs/integrations/retrievers/bm25/
+Evaluation
+While evaluaating the system, we asked ourselves if:
+1. The devevelope developed system fully understands its own set of contexts
+2. The devevelope developed system can answer questions on antiviral drugs
+from medical entrance exams and pharmacology textbooks only
+using it’s text corpus, which has only article abstracts
+3. The devevelope developed system can extract entity relationships well, and
+if so, can the accuracy and precision of LLLM answeers be
+increased
+1. Set of contexts (incocomplete)
+I.
+Syntheize Question → Get QA Pairs
+II.
+Test RAG System → Evaluate Metrics
+Question for
+Document Text Document Text Question for Document Text of Document 1 Question for Document Text of Document 1 Question for Generated answer for
+Chunk 1 Chunk 1 1 Chunk 1 Chunk 1 Document 1 Chunk 1 Document 1 Chunk 1
+I II
+… … … … … …
+Question for Generated answer for
+Question for Document
+Text of document Text of document Text of Document Document Document
+171 664
+Bibliography
+[1] Lewis, Patrick, et al. “Retrieval-Augmented Generation for Knowlage-Intensive NLP Tasks.” arXiv, 23
+May 2020, arXiv:2005.11401 [cs.CL].
+[2] Kotha, Suhas, et al. "Understanding Catastrophic Fo rgetting in Language Models via Implicit
+Inference." arXiv, 18 Sept. 2023, arXiv:2309.10105 [cs.CL].
+[3] Edge, Darren, et al. "From Local to Global: A Graph RAG Approach to Query-Focused Summarization."
+arXiv, 24 Apr. 2024, arXiv:2404.16130 [cs.CL].
+Addendum: LLLM Metrics
+Calculation
+https://github.com/explodinggradients/ragas

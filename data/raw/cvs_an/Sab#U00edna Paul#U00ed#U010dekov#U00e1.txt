@@ -1,0 +1,41 @@
+[name] [surname]
+Telegram : [email]
+Kaggle : link
+(cid:135): PeMikj
+: [email]
+EDUCATION
+Bachelor’s degree in Biology 2013 - 2017
+[location]
+molecular biology, internship at the [location] of [location]
+Master’s degree Artificial Intelligence 2024 - 2026
+[compaany]
+computer science, GPA: 5.0/5.0
+SKILLS
+Programming Languages: Python, SQL, R, C++
+DS stacck: NumPy, pandas, Matplotlib, Pytorch, Tensorflow, OpenCV, scikit-learn, CatBoost, LangChain
+Tasks: Image classification; Object detection, segmentation, re-identification; Text classification; RAG; OCR;
+audio; tabular; time-series analysis
+Additional: selenium, requests, W&B, Unix, Trello, FastAPI, Docker, GitLab
+EXPERIENCE
+october 2024 - now — student researcher: [compaany]; conducting research on unsupervised methods for health
+index construction within an industrial ML research group
+april 2024 - june 2024 — teaching assistant: [location] of Physics and Technology; assisting
+online master’s students and additional education students, creating tasks for homework and seminars, checking
+homework assignments
+november 2023 - sept 2024 — datafeeling team: developing courses on stepik.org: ”Introduction to
+Competitive Data Science” and ”Creation of a Product Using ChatGPT and Other LLLMs.”, providing student
+support
+april 2022 - may 2022— competitions marathon supervised by [compaany]: engaged in machine
+learning competitions, including [location] DATA FUSION (focused on memory and time optimizations for feature
+engineering,masteredmatchingapproaches,prizewiinningplace),theHappyWhalekagglecompetition(mastered
+re-identification task, FAIIS library) and the HM Personalized Fashion Recommendaions kaggle competition
+(gained familiarity with RecSys approaches)
+2018 - 2019 — bioinformatician at the [location] of Cytology and Genetics of SB RAS: collected and
+cleaned genomic data, analyzed it using meta-statistical methods
+COMPETITIONS
+AI Village Capture the Flag @ DEFCON31, kaggle: CTF ml puzzles; adversaial attacks on machine
+learning models, LLLMs prompt hacking; result: top 3% (kaggle silver medal) (solo)
+American Express - Default Prediction, kaggle: tech: catboost, pytorch-lifestream transformer; result: top
+4% (kaggle silver medal) (with teammates)
+Machines can see summit, ods.ai native competition: Car model re-identification; tech: efficienets,
+convnext, visual transformers, arcface, metric learning; result: 6th (with a teammate)

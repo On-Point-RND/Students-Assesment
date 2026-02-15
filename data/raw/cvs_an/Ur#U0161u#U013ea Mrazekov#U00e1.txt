@@ -1,0 +1,95 @@
+[name] [surname]
+Education
+[location] State [University], Faculty of Computer Science and Information Technology
+Education period: September 2019 – February 2025
+Specialization: Mathematical Methods of Information Security.
+Graduated with honors. Diploma work centered on "Anomaly Detection in Multivariate Time Series Using Artificial Intelligence Methods", exploring various approaches for identifying irregularities in complex datasets.
+Work Experience
+Orb Intelligence: March 2025 – Present
+Leads a data labeling department. Participates in experiments on implementing LLMs for data pipeline processing. Supports existing data pipelines using dbt and Dagster technologies. Researches methods of data crawling with LLMs through open-source libraries and APIs provided by leading language model providers such as [organization], [organization], and others.
+Institute of Precision Mechanics and Control Problems of the Russian Academy of Sciences ([organization]): June 2022 – Present
+Developed a mobile application and Telegram bot for classifying the severity of varicose veins using ResNet50, ViT, and DeiT models, with a Flutter frontend and Flask backend. Handled data parsing with Scrapy and Selenium, conducted load testing with JMeter, and mentored junior colleagues on frontend tasks. Participated in writing scientific articles and presenting at conferences. Led projects on time series classification, feature engineering, and model evaluation (Random Forest, kNN, SVM, CatBoost). Designed and delivered courses on time series analysis (ARMA, ARIMA, SARIMA, LSTM) and computer vision (edge detection filters, neural networks, transformers). Link to one of the courses: https://github.com/marina-cybter/perm__ml_ai/tree/main/timeseries
+TapBank: April 2024 – February 2025
+Created a Telegram bot for customer support using graph and vector databases (Neo4j, Pinecone, Chroma, Faiss), and implemented RAG, RAPTOR, and GraphRAG architectures for LLM interaction. Deployed services on AWS and GCP, containerized with Docker. Developed a web application (React, NodeJS) for visualizing job market statistics, with backend data parsing and processing (Levenshteiin distance, lemmatization). Provided technical documentation and product support.
+Grid Dynamics: June 2021 – September 2021
+Researched anomaly detection in multivariate time series using computer vision algorithms as part of R&D activities. Performed comparative analysis of algorithms and approaches for multiclass time series classification.
+Key Skills
+Medium skills:
+● Programming language: Python
+● Python frameworks: numpy, pandas, sklearn, pytorch, transformers, matplotlib, seaborn, opencv, nltk, gensim, catboost, langchain, ollama, graphrag, fastapi
+● Databases: PostgreSQL, Pinecone, Neo4j, SQLite, Microsoft SQL Server
+● Operation Systems: Windows, Ubuntu, Manjaro
+● Other technologies: Git, Docker
+Basic skills:
+● Programming language: Ruby, Rust, Dart, Java, JavaScript
+● Python frameworks: tensorflow, keras, lightgbm, scipy, flask, xgboost, fasttext
+● Databases: Chroma, LlamaIndex
+● Operation Systems: Kali, MacOS
+● Other technologies: Google Cloud Platform, AWS, Kubernetes, dbt, Dagster, Apache Airflow
+Soft Skills
+Conducted additional machine learning classes for [university] students during free time from studies. Link to those classes: https://github.com/dsc-sgu/ml-course. Winner of the Yandex Academy competition as part of the IT Teaching Assistants Support Program. Have experience of management and leading a data labeling team. Former member and head of the student council department.
+Published Articles
+Name and authors of article DOI
+1 [name] [surname], [name], [name], and 10.1007/978-3-031-22938-1_41
+Alexander Fedonnikov An Overview of Using Deep Learning Algorithms for Anemia Detection // Artificial Intelligence in Models, Methods and Applications.– 2023.– P. 605.
+2 [name]; [name]; [name]; 10.3390/app13158614
+Askhat Sanbaev Sensitivity of Modern Deep Learning Neural Networks to Unbalanced Datasets in Multiclass Classification Problems // Applied Sciences. - 2023
+3 [name]; [name]; [name]; 10.3390/engproc2023033004
+[name], Yuliya Gergenreter, Natalia 10.3390/engproc2023033004
+Zakharova, Vladimir Maslyakov, Vladimir Fedorov
+and Ivan [surname] Predictive Diagnosis of Breast Cancer Based on Cytokine Profile // MDPI:
+Mathematics 2022, 10(19), 3571;
+https://www.mdpi.com/2673-4591/33/1
+4 [name], [name], and [name] 10.3390/engproc2023033005
+[name] Using the STEGO Neural Network for
+Scintigraphic Image Analysis // MDPI:
+Mathematics, 2023; https://www.mdpi.com/2673-
+4591/33/1
+5 [name], Askhat Sanbaev, [name],
+Ivan [surname] Deep Learning
+Approaches to Automatic Chronic Venous Disease
+Classification // MDPI: Mathematics 2022, 10(19),
+3571; https://doi.org/10.3390/math10193571
+6 [name], [name]. Application of Algorithms for
+Region of Interest Extraction in Medical Grayscale
+Images. LLC "Amirit" Conference: Fundamental
+and Applied Medicine [location], November 29–30,
+2023. Organizers: [university] named after [name]
+7 [name]. A., [name]. Challlenges and Opportunities of Automatic
+Segmentation of Spinal Radiographic Images Using
+Modern Artificial Intelligence Methods //
+Contradictions in Vertebrology and Experience of
+Related Specialties: Abstract Book of the XII
+International Scientific and Practical Conference
+"Fundamental and Applied Medicine" (Saratov,
+2022)
+10.1063/5.0158357
+Kondratov DV, [name], [name], [name]. Principles оf constructing a
+mathematical model оf thermaal heating оf a
+composite under microwave exposure. InAIP
+Conference Proceeding 2023 Jul 6 (Vol. 2999, No.
+1). AIP Publishing.
+11 Zlobina I, [name], [name], [name]. Study
+10.1063/5.0158848
+of the effect of filler on heating kinetics of polymer
+composite materials in a MW electromagnetic field
+on a physical model of a unit cell. InAIP Conference
+Proceeding 2023 Jul 6 (Vol. 2999, No. 1). AIP
+Publishing.
+12 [name], [name], [name],
+[name]. Experience in Implementing
+Automated Collection of Medical Images from the
+Internet for a Classifier of Legs with Chronic
+Venous Insufficiency // Proceeding of the All-
+Russian Conferece of Young Scientists
+"Fundamental and Applied Medicine" ([location],
+2022)
+10.24412/2541-9269-2022-3-22-
+This is not a complete list of publications with my co-authoorship. The complete list
+can be obtained from my scientific indexes:
+SPIN-code: 7038-3310
+AuthorID: 1160612
+ORCID: 0000-0002-5453-728X
+You can also text me using the following contact information:
+Telegram: @[username]
+GitHub: https://github.com/[username]

@@ -1,0 +1,64 @@
+[name][email]
++2 *** *** ***
+Machine Learning / Deep Learning / Reinforcement Learning (cid:135) [location]/in/[name][surname]
+Experience
+[compaany], Adaptive Agents Laboratory (dunnolab) [location]
+•
+Research Scientiist October 2024 - Present
+◦ Object-centric latent action learning: Explored application of object-centric pretraining for to latent action models for enabling learning agents solely from distracted video data. The paper based on this research was
+accepteed to ICLR 2025 workshop.
+[compaany], Hisilicon CPU Kirin [location] & [location]
+•
+Machine Learning Research Engineer July 2022 - July 2024
+◦ Reinforcement Learning for Compilers: ExploredtheuseofRLtooptimizecompilerphaseoardering, reviewing
+existing state-of-the-art methods, preparing infrastructure, and achieving positive results on public benchmarks.
+◦ Graph Machine Learning for Compilers: Developed and implemented Graph Machine Learning techniques for
+compilers, focusing on optimizing basic block ordering through unsupervised graph representation learning.
+◦ Representation Learning for CPU: Applied advanced representation learning methods for CPU optiomization,
+including unsupervised learning on sequential data, classical machine learning, topological data analysis,
+autoencoders, text and speech processing techniques, contrastive pretraining (MoCo), and Graph ML.
+◦ Reinforcement Learning for CPU: Innnovated and deployed reinforcement learning algorithmns to enhance
+central processor performaance through neural network-based solutions.
+Skoltech CDISE, Advanced Multiscale Modeling Laboratory [location]
+•
+Research assistant June 2021 - June 2022
+◦ (cid:135) Leader-Guided Evacuaation: Combination of the active matter with the RL for the development of the model
+for optimisation of the trajectories of robots-rescuers for optimal evacuaion of people from public places.
+◦ Leaders in Active Matter: Multiscale C++ simulations of extended Viscek model for active matter particles
+with an addition of a leader for plotting a phase diagram.
+Nanosemantics Lab [location]
+•
+Industrial immersion trainee Summer 2021
+◦ Speaker verification and speech emotion, gender and age recognition: Service based on models with
+features from speech melspectrogram and from audio using wav2vec embeddings tested on multilinguaal datasets.
+Space Research Institute, High Energy Astrophysics Department [location]
+•
+Research assistant July 2019 - July 2020
+◦ X-ray pulsars analysis: Spectral and timing analysis of the outbursts in Be/X-ray pulsars with the use of NuStar
+observaations. Created full pipeline of the analysis for astrophysics software for several pulsars.
+MPI-CBG, Laboratory of network complexity and systems biophysics [location]
+•
+Internship student Summer 2018
+◦ Topological clustering: Using cycle-coaleiscence algorithm to analyze 2000 proteiin structures and determine the
+groups of alpha-helix and beta-pleated-sheet. Implemented a parallel python script of algorithm and performeed
+analysis for 3D structures based on former results for 2D.
+Education
+Skolkovo Institute of Science and Technology [location]
+•
+Master of Data Science; GPA: 4.4 out of 5 Aug. 2020 – July. 2022
+Moscow Institute of Physics and Technology [location]
+•
+Bachelor of Applied Mathematics and Physics; GPA: 4.8 out of 5 Aug. 2016 – July. 2020
+Pet Projects
+• (cid:135) AD 4 in-context RL: Implementaion of paper ”In-context RL with Algorithm Distillation”
+• (cid:135) Dreamer + MAX: Enhancing model-based RL (Dreaer-V2) with model-based exploration.
+• (cid:135) Rust code classification: Classifying rust-lang/rust unit-tests to appropriate folders.
+• (cid:135) RL 4 TSP: A2C with Pointer Network architecture for solving Travelling Salesman Problem.
+• BoundaryLoss: Extension of boundary loss on medical segmentation task for several datasets.
+Programming Skills
+• Languages: Python, C/C++ Technologies/Software: Linux, Git, Docker, Kubernetes, Airflow
+• Frameworks: pytorch, lightning, huggingface, scipy, scikit, pandas, numpy, numba, dash, gym, arrow, jax
+Personal information
+• Languages: English (C1, IELTS 7.0), Italian (A1), Russian (native) Age: 25 years
+• Activities: Theatre (former head of MIPT student theatre), Teaching (summer camp RL course for
+schoolchildren)

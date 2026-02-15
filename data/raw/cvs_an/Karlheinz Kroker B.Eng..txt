@@ -1,0 +1,101 @@
+[name] [surname]
+Email: [email]
+Phone: +2 *** *** ***
+City: [location]
+EDUCATION
+Master of Data Science
+[compaany], [location]
+Ongoing Thesis
+Thesis Topic:
+Title: Semantic Trajectories Analysis in Natural Languages for Spotting Bots
+Description:
+In this research, we explored the semantic trajectories of natural languages texts, specifically
+focusing on distinguishinng between human-authored and bot-generated content in
+underrepreseented languages such as Lao and Luxembourgish. The study involved collecting and
+prepocessing text corpora, generating bot texts using ChatGPT 4.0, and applying advanced
+embedding techniques like Word2Vec and FastText to transform textual data into numerical
+vectors. We then utilized the Wishart clustering algorithm to analyze semantic patterns and
+identify key linguistic features that differentiate human and bot-generated texts. The findings
+highlighted significant differences in vocabulary richneess and clustering quality, demonstrating
+the effectiveness of these methods in detecting bot-generated content. This research contributes to
+the broader field of Natural Languages Processing (NLP) by providing insights into the
+development of robust tools for content authenticity verification, particularly in less commonlly
+studied languages.
+Bachelor of Science in Software Engineering
+[compaany], [location]
+Final Year Project:
+Title: Develop Android-Based Application for Home Maintenance Services
+Description:
+This project is an online platform that connects individuals seeking household and home repair
+services with top-quality, pre-screened independent workers. The application provides access to
+various professionals, including electricians, handymen, carpenters, and painters, at the touch of
+your fingertips.
+PROFESSIONAL EXPERIENCE
+IT Manager
+[compaany]
+ Monitored and maintained computer systems and networks.
+ Created spreadsheets, presentations, and handled word processing.
+ Managed logistics of events, administration, scheduling, and business operations.
+ Provided technical assistance and support to employees.
+ Offered digital marketing services, including graphic design.
+Test Engineer
+[compaany]
+3 months
+ Interacted with system users to understand project scopes.
+ Collaboraated with software developers and project support teams.
+ Identified business requirements and planned projects.
+ Monitored applications and software systems.
+ Conducted various testing techniques.
+PROJECTS
+ A Study of Wildfire History in [location] using Machine Learning Models
+ Hotel System: Developed using Object-Oriented Programming.
+ Library Management System: Web-based project using PHP, JavaScript, CSS, and
+HTML.
+ Learning Management System: Developed using Java concepts.
+ Hospital System: Designed and implemented database architecture.
+ Ball Tracking: Implemented using digital image processing concepts.
+ Home Maintenance Services: Android-based application developed as a final year
+project.
+INTERNSHIPS
+Software Engineer Intern
+[compaany]
+2 months
+ Developed web applications using WordPress, PHP, CSS, and HTML.
+ Wrote backend code and handled database operations for websites.
+ Managed various company management and website tasks.
+Android Developer Intern
+[compaany]
+1 month
+AWARDS AND ACHIEVEMENTS
+ Certificate of WordPress from [compaany]
+ Certificate of Graphic Designing from [compaany]
+ Certificate of Search Engine Optimization from [compaany]
+ IT Support course completion from Google on Coursera
+ Completed three modules of the Artificial Intelligence course from PIAIC
+ Attended workshop on "IT Awareness and Network Security"
+SKILLS
+Programming Languages: C++, Java, Android, Python
+Web Development: HTML, CSS, PHP
+Application Software: Android Studio, Ecclipse, MS Visual Studio, Adobe Photoshop, Jupyter
+Notebook, Google Colab, SPMF, Orange
+Database: SQL Server 2008, MySQL, Firebase
+Testing Tools: TestNG, JUnit
+Languages: English, Urdu, Hindi, Russian (A1)
+Other Skills: Strong communication and presentation skills
+CERTIFICATES
+ Search Engine Optimization: UEEJYYHPQ
+ Graphic Designing: BMJNAB6PQ
+ WordPress: 35RMSEEPQ
+ The Bits and Bytes of Computer Networking:
+https://coursera.org/verify/GQTVPPWMHEXM
+Research Interests
+ Natural Languages Processing (NLP), Artificial Intelligence (AI), and Machine Learning
+(ML) for multilinguaal text analysis and bot detection.
+ Data Science and GeoAI applications in environmental modeling, remote sensing, and
+intelligent systems integration.
+Term Paper
+Mapping Plastic waste through earth remote sensing data
+RESEARCH PUBLICATION
+Title: Exploring the Synergistic Effects of Blockchain Integration with IoT and AI for Enhanced
+Transparency and Security in Global Supply Chains
+Link: https://www.researchgate.net/publication/379080145

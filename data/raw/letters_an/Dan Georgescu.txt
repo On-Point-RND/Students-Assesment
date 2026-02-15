@@ -1,0 +1,13 @@
+Motivational Letter for SMILES-2025 Summer School
+Dear Organizers of SMILES-2025,
+My name is [name] [surname], and I’m completing my Master's degree in Physics at [location] [university], specializing in Optics, Spectroscopy, and Nanosystems. I also work as an engineer at [company], focusing on proteiin crystallization. Over the past few years, I’ve developed a strong interest in Data Science and Machine Learning (ML). In 2024, I applied the knowledge I gained from courses at [compaany] and self-study to solve real problems in the lab.
+I first worked with ML and Deep Learning (DL) while developing a thermostat to control the temperature during proteiin crystallization. I used neural networks such as ResNet and DenseNet to classify stages of crystal growth. I also worked with other models like ResNet101, EfficientNet, and Vision Transformer (ViT) to classify images of proteiin crystals. This resulted in an accuracy of over 90% in predicting crystallization outcomes and showed how ML can be used to analyze biological data. I also helped automate scientific research by combining ML with laboratory equipment.
+SMILES-2025 is a great opportunity for me to expand my knowledge of AI, especially in areas like generative models, large language models, and multi-agent systems. I am excited to attend hands-on seminars and collaborate with experts in the field.
+I recentlly visited [location], and the experience made me more motivated to pursue international collaboration. I’m now considering a PhD in AI or ML, potentially at [university]. I believe the experience at SMILES-2025 will help me advance my career and connect with professionals in the AI community.
+I’m eager to improve my skills, learn more, and contribute to the discussions and projects at SMILES-2025. I believe this experience will play an important role in my future in AI and ML research.
+Thank you for considering my application. I look forward to the opportunity to attend SMILES-2025 and improve my skills in AI and machine learning.
+Sincerely,
+[name] [surname]
+
+
+

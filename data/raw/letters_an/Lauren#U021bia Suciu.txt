@@ -1,0 +1,30 @@
+[name] [surname]
+adress: [location], [location]
+phone: +2 *** *** ***
+email: [email]
+Motivation letter
+My name is [name] [surname], I am applying to SMILES-2025 to
+acquire the best of modern practice in generative AI, find new collaborations,
+and build interdisciplinary connections. I believe it would benefit my ongoing
+research and help me on my path to contribute to world science.
+I have participated in SMILES previously, and I am really happy with that
+experience. I presented my research projects on blending theory of ODEs with
+neural networks for tabular tasks and uncertainty-aware sea ice forecasting via
+video prediction models, and I excelled in research challenges. Participation at
+the school led me to an internship at [company]. I am grateful to SMILES and
+[company] for the opportunities. Since then, I have finished two research papers
+that are currently under review and continue researching. Now I am working
+with efficient uncertainty estimation methods for numerical weather prediction
+models, both traditional ensembles and machine learning approaches like
+surrogate modelling and generative AI. My final goal is to push the boundaries
+of computational feasibility and increase computational- and data-efficiency in
+areas like geoscience, physics, biology.
+I strongly believe the skills and practices I can acquire at the
+SMILES-2025 would help me with my endeavors and on my future path. I am
+ready to enhance my knowledge, gain experience, and exchange it with peers.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
+
+
+

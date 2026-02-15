@@ -1,0 +1,103 @@
+Automatic Audio Degradation
+Detection
+[name]
+Sr DS [compaany] / Sr DS [compaany]
+Introduction
+❓ What is the topic?
+Detection and classification of audio degradations using deep learning.
+💡 Why is it important?
+Audio distortions reduce the quality of speech recognition and other audio-based AI systems. Automatic detection helps improve
+prepocessing, data quality, and model robustness.
+📚 Background
+We use a CNN trained on Mel spectrograms to detect distortions like noise, clipping, pitch shift, filtering, etc., segmenting audio into
+1-second chunks for fine-grained classification. The dataset is based on LibriSpeech with synthetic degradaations.
+🎯 Goal of the review
+To show how deep models can identiify and localize audio degradations, and why it’s useful for buildiing cleaner, more reliable speech
+datasets.
+Problem statement
+What exactlly are we solving?
+I aim to automatically detect and classify degradaations in audio at the segment level, using deep learning.
+Challenges
+● Fine-grained annotation is rarely available
+● Audio distortions vary in intensity and type
+● Some degradaations are hard to distinguish (e.g., pitch shift vs. stretch)
+● Data imbalance and synthetic noise realism
+Scope
+● 1-second resolution detection
+● Multilabel classification for 7 degradation types + clean class
+● Based on modified LibriSpeech and augmented samples
+● CNN on Mel-spectrogram input
+Methods
+Approach
+I use a CNN-based model for multilabel classification on audio segments represented as Mel spectrograms.
+Why these methods?
+CNN-based model provides a good trade-off between accuracy and speed, and works well on spectrogram-like inputs due to its visual
+nature.
+Mel spectrograms compactly represent time-frequency information relevant to degradaations.
+How it works (simply)
+Each audio file is split into 1-second fragments, converted to Mel spectrograms, and passed through the model to predict the
+presence of 7 possible distortions or a clean class.
+Data & preprocessing
+● Base data: LibriSpeech
+● Synthetic degradaations added via audiomentaions
+● Features: Mel spectrograms (log-scaled)
+● Stratified train/val split; segment-level labels in .csv format
+Results
+Key findiings
+● The model detects audio degradaations at 1-second
+resolution with high confidence for major distortions.
+● Classes like ClippingDistortion and
+AddGaussianNoise show strong separability.
+● Clean segments (None) are accurately identified
+when clearly separated from noise.
+Metrics used
+● Macro F1-score: accounts for class imbalance,
+ensuring all distortion types are considered.
+● Per-class accuracy: reveals weaak spots for rare or
+subtle degradaations.
+● Total accuracy: measures general prediction quality.
+Research gap
+What’s missing?
+● Real-world impairments are often not synthetic, unlike the augmentaations
+Metric Fragments + 8th Full audio + 8th Full audio (7
+used in training.
+class class classes)
+F1-score (micro avg) 0.9646 0.9657 0.9622
+F1-score (macro avg) 0.8398 0.8445 0.8305
+Unresolved issues
+F1-score (weighted avg) 0.9653 0.9658 0.9689
+Hard-to-distinguish degradaations (e.g., low-pass vs. clipping in quiet regions).
+F1-score (samples avg) 0.964 0.9535 0.7473
+Why it matters
+F1-score ("None") 0.9705 0.9511 —
+Improving robustness and generalization to real-world audio can bring direct
+F1-score 0.9997 0.9999 0.9999
+benefiits to speech systems (ASR, diarization, moderation) through early and
+F1-score ("AddGaussianNoise")
+automatic degradation detection.
+F1-score ("PitchShift") 0.9424 0.9723 0.9755
+F1-score ("TimeStretch") 0.9518 0.9491 0.9502
+F1-score 0.8655 0.8934 0.8988
+("ClippingDistortion")
+● Build datasets using real microphone distortions (e.g., cheap mics,
+reverb, distance). F1-score ("LowPassFilter") 0.989 0.9958 0.9962
+F1-score ("HighPassFilter") 0.9997 0.994 0.9927
+● Add more degradaation types (e.g., reverb, compression, background
+voices).
+● Include cross-device variability for better generalization.
+Bibliography
+1. [name] T. H., [name] W.-Y. Single-ended speech quality measurement using artificial neural networks. Speech Communication, 2009, 51(8): 683–693.
+2. [name] N. et al. Automatic recognition of typical audio degradations for robust digitization and archiving. AES 144th Convention, 2018.
+3. [name] C., [name] R. Power-normalized cepstral coefficients (PNCC) for robust speech recognition. ICASSP, 2012: 4101–4104.
+4. [name] H., [name] X. Music bounary detection using neural networks and multi-domain features. ACM Multimedia, 2019: 986–994.
+5. [name] A., [name] D. A new framework for CNN-based speech enhancement in the time domain. IEEE/ACM Transactions on Audio, Speech, and
+Language Processing, 2019, 27(7): 1179–1188.
+6. [name] M. et al. Web-based listening tests on audio quality: Evaluations and applications of the COBALT framework. AES 139th Convention, 2015.
+7. [name] J., [name] C., [name] P. UrbanSound8K: A dataset and taxonomy for urban sound research. Proceedings of the 22nd ACM International
+Conference on Multimedia, 2014: 1041–1044.
+8. [name] K. J. ESC: Dataset for Environmental Sound Classification. Proceedings of the 23rd ACM International Conference on Multimedia, 2015:
+1015–1018.
+9. [name] F., [name] G., [name] X. Freesound technical demo. Proceedings of the 21st ACM International Conference on Multimedia, 2013: 411–412.
+10. [name] A., [name] V. I., [name] E., [name] A. A., [name] M., [name] A. A. Albumentaions: Fast and Flexible Image Augmentations. Information,
+2020, 11(2): 125.
+11. [name] P., [name] [name] M., [name] [name]. An Interpretable Deep Learning Model for Automatic Sound Classification.

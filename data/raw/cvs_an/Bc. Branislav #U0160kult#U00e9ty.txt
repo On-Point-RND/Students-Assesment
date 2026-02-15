@@ -1,0 +1,5 @@
+Dr. [name] [surname] from [compaany] in [location] called [name] [surname] at [phone number] on [date] to discuss the [project] project. [name] [surname] mentioned they were working with [name] [surname] at [compaany] in [location]. They agreed to meet at [location] on [date]. [name] [surname] also spoke with [name] at [compaany] in [location] regarding [topic]. The meeting was scheduled for [time] at [location]. [name] [surname] confirmed their [email] address and [phone number]. [name] [surname] is located in [location] and works at [compaany]. [name] [surname]'s [email] address is [email].
+
++2 *** *** ***
+[email]
+[email]

@@ -1,0 +1,13 @@
+Motivation
+I have several reasons for wanting to join this summer schooL. First, I want to spend my summer doing something useful that mixes research and rest. Second, I want to meet other young researchers - this schooL seems like a great place for networking. Third, I want to use my skills in new research areas. I'm very interested in generative models and multimodal systems.
+ML/DL Experience
+I started to study ML/DL in 2023 when I joined [compaany]'s IOT program. Right away, I worked on a computer vision startup called [name]. We tried to make eye tracking cheaper using deep learning. After buildiing a prototype, I joined the Applied AI Lab to research 3D computer vision. After 9 months in the lab, I published my first paper. Then I joined [organization name], which is run by [compaany]. Now I research image enhancement for mobile phone cameras using deep learning.
+Expectaions
+I have watched online lectures from past summer schooL. I expect to hear talks from top people in both industry and research. I want to work with students and researchers from good universities and labs. I also want to learn about [location] cultu re and research methods. [location] is a leader in AI, and I'm curious about why they are so succe ssful.
+Career Plans
+I plan to keep working at [compaany]. Besides my job, I want to find activities that will help me grow- either research or a star tu p. For both, I need a team and ideas. I hope this summer schooL will help me with this.
+Thank you for reading my application.
+Sincerely, [name] [surname]
+
++2 *** *** ***
+[email]

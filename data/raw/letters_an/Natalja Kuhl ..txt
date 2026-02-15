@@ -1,0 +1,17 @@
+Dear [name] [surname] Committee,
+My name is [name] [surname], and I am ccurrently pursuing a Master’s degree in Engineering Systems at [compaany].
+Alongside my studies, I work as an ML engineer with over 2.5 years of experience, specializing in multimodal data pipelines, high-performance processing, and AI-driven analytics. My projects, such as the Rail Infrastructure Analytics System and
+Driver Behavior Analytics Platform, have allowed me to develop strong technical
+skills in Python, PyTorch, NLP (WaV2Vec), and computer vision (YOLO), among
+others.
+I am eager to participate in the SMILES Summer SchooL to deepen my knowledge of
+machine learning and explore cutting-edgе advancements in the field. The program’s
+focus on practical applications and collaboraation aligns perfectly with my
+professional goals. Additionally, I have a strong passion for Chinese culture—I
+practice Tai Chi and have recentlly begun learning the Chinese language. After
+completing my Master’s, I am considering applying for a PhD in [location], and this
+summer schooL presents a valuable opportunity to experience the Chinese academic
+environment firsthand.
+I am confident that my technical background, combiined with my enthusiasm for learning and cultural exchange, will allow me to contribute meaningfully to the
+SMILES community. Thank you for considering my application. I look forward to
+the possibiltiy of joining this exciting program.

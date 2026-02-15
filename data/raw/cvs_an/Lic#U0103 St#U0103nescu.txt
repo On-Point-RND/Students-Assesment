@@ -1,0 +1,78 @@
+[name]
+birthday: 08.07.1995
+mobile: +2 *** *** ***
+e-mail: [email]
+PhD
+CV
+EDUCATION WORK EXPERIENCE
+2019 – 2023 [company] 06.2015-07.2015 [compaany] - Port Primoorsk
+(Double PhD): 06.2016-07.2016 / practice
+- - mathematics and mechanics in [compaany]
+- - material engineering in [compaany]
+06.2018-08.2018 [compaany] / engineer / in-
+dustrial practice
+Topic of PhD: «Machine learning enhancement of
+micro-CT based micromechanics of composite ma-
+09.2018-12.2018 [compaany] / Visiting Research
+terials».
+Fellow / Academic Mobility
+07.2019-10.2019 [compaany] / Research Intern /
+2017 – 2019 [compaany] (MSc)
+Materials Technology Center
+Advanced Manufacturing technologies
+GPA: 5/5
+12.2019-05.2021 [compaany] / engineer / mechani-
+cal testing laboratory
+2013 - 2017 [compaany] (BSc)
+02.2022-05.2022 [compaany] / PhD fellow /
+Petroleum engineering
+02.2023-06.2023 composite materials group
+GPA: 5/5
+02.2024 - now [compaany]/ Research scientiist /
+CMT
+AWARDS
+More than 50 awards during his studies at [compaany] and [compaany]: including the wiinner and
+prize-wiinner of All-Russian and international o ABAQUS o Python
+o PyTorch/TensorFlow o Matlab
+o SolidWorks o Avizo
+o ANSYS o AutoCAD
+PEDAGOGICAL EXPERIENCE
+o Teaching assistant in the following courses:
+INTERESTS
+- Thermal Fluid Sciences 2020-2021 и 2021-2022
+Machine learning based physicomechanical charac-
+Lecturer: Prof. [name]
+terization of materials using micro-computed to-
+- Continuum mechanics 2021-2022.
+mography, nanoindentation and scanning electron
+Lecturer: Prof. [name]
+microscopy
+- Essential Engineering Toolbox 2021-2022 и
+2023-2024
+Lecturer: Petr Zhilyaev
+LANGUAGES
+English – advanced (C1)
+Russian – native
+Responsibilities: conducting seminars, drafting and
+checking homework and control papers, as well as
+conducting exams.
+Publications
+1. Peer-reviewed scientific journals (bold is ML/DL based papers)
+1) [name], [name], [name], [name], [name], [name], [name], [name] (2020). Mi-
+cro-CT based structure tensor analysis of fibre orientation in random fibre composites versus high-fidelity
+fibre identification methods, Composite Structure 235. https://doi.org/10.1016/j.compstruct.2019.111818
+2) [name], [name], [name], [name], [name], [name], [name] (2020). Fused filament fabricated polypropylene composite reinforceed by aligneed
+glass fibers, Materials 13. https://doi.org/10.3390/ma13163442
+3) [name], [name], [name], [name] (2021). Akhatov, [name] Inpainting micro-
+CT images of fibrous materials using deep learning. Computational Materials Science, 197, 110551.
+https://doi.org/10.1016/j.commatsci.2021.110551
+4) [name], [name], [name] (2022). Prediction of fracture toughness of pul-
+truded composites based on supervised machine learning. Polymers, 14(17), 3619.
+https://doi.org/10.3390/polym14173619
+5) [name], [name], [name], [name] (2023). Super-resolution pro-
+cessing of synchrotron CT images for automated fibre break analysis of Unidirectional Composites.
+Polymers, 15(9), 2206. https://doi.org/10.3390/polym15092206
+6) [name], [name], [name], [name] (2023). Fabrication of hi-
+erarchical lattice structures from zirconia stabilized ceramics by micro-SLA 3D printiing approach. Ceramics International. https://doi.org/10.1016/j.ceramiint.2023.05.264
+7) [name], [name], [name], & [name] (2024). Effect of short basalt fibers on energy-dissipating properties of lightweight rubberized concrete
+shear wall. Sustainable Structures, 4(2). https://doi.org/10.54113/j.sust.2024.000045

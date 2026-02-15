@@ -1,0 +1,51 @@
+Dear [name],
+I am excited to apply for the SMILES-2025 Summer School.
+My job in [compaany] is concerned with the compaany-wide AI transformation, where we aim to use
+agents and generative models to automate every possible business process. It is vital to show
+that such an implementaion is profiitable, net of infrastructuraal expenses and is more profiitable
+than the next best approaach of using smaller transformers and conventional models.
+I’m currentlly working on two projects — one aims to increase the speed at which new software
+updates are tested, and the other deals with improving the effectiiveness of client managers (who
+generate most of the sales of investmment products).
+Both projects require LLLMs to review large volumes of text and output relevant information in a
+structured manner. Current attempts to use BERT models are underppeforming our expectaations.
+I’m looking for the best cutting-edgе methods and approaches in solving these tasks, reducing
+compute costs, and sharing these practical applications with the DS community, in our bank first
+and potentially beyond.
+In my previous projects I was primarily concerned with the quality of output — for example, I
+trained a model for intent recognition to pull groups of relevant chunks for a RAG module, that
+outperforms our previous matching through vector similarity. It’s currently deployed in the Virtual
+Assistant in the [compaany] Online mobile app.
+Currrently the biggest challenge is compute costs and time. The output of both of my projects will
+be used by employees of the bank so having perfect accuracy is unnecessary. However, feeding
+a model every single transcript of every conversation between a client manager and a client eats
+up available computing power rapidlly and I will need to prove that these compute costs are worth
+a marginal increase in client manager performance.
+In my team I’m responsible for the full cycle of Data Science support, this begiins with discussions
+with the product owners on how their processes will be affected and ends, after deploying the
+models in proving their financial effect. The financial effect is proved as a marginal increase over
+the next best method.
+I have a master’s degree in applied mathematics and physics from [university] and during my studies what attracted me to the field of ML in the first place, was when
+I first heard about how word2vec was first trained and how it resulted in the case of
+𝑘𝑖𝑛𝑔−𝑚𝑎𝑛+𝑤𝑜𝑚𝑎𝑛 = 𝑞𝑢𝑒𝑒𝑛. I immediatly worked to figure out how it was that we can now
+do equations with words! It seems like such a small thing now, but when you first discover something like this you realize that whatever the future is, it's in this field that it's being made. So,
+I started taking classes and courses and learning programming so I could get a job in the field
+immediatly on graduaation.
+On the weekends when I’m free from work, I often assist at the Laboratory of metal-complex and
+nanoscale catalysts of [institute] in applying machine learning
+to problems in the field of chemistry. Mostly in spectroscopy analysis automation in which I’ve co-
+authored four publications. Recentlly our institute has gotten grant to speed up research by AI,
+including training LLLMs to act as researchers in a multi-agent framework and I’m sure the summer
+course will prove invaluable here as well.
+I know the community around [organization] is very motivated and the networking opportunities on this
+course sound fantastic — working in teams and everyone presenting and explaining their projects
+will mean everyone will have the opportunity to talk in-depth about whatever interests them after
+classes and after retuurning from [country].
+The program being in English is a big plus for me, English is the language of science and all of the
+important research is published in English, all of the forums discussing any niche approaach
+are in English and I’ve put in a lot of effort to become as fluent as possible. An opportunity to
+spend two weeks in an environment where everyone is working in English would greatly improve
+my speaking and listening.
+I hope that everything that I’m learning now, and everything that I learn during the summer course
+will let me succeed fantastically in my projects as I’m only in the startiing steps of my career and
+success here will let me take on more responsibility and projects that have a larger impaact.

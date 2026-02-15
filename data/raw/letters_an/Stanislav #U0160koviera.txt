@@ -1,0 +1,40 @@
+Motivational Letter
+[name], [surname]@phystech.edu
+I have long been fond of physics on a cosmic scale. Along with my inclination towards statistics and data analysis, it led me to work on ML and DL applications for astrophysical problems.
+I want to be aware of the most up-to-date approaches in Artificial Intelligence and I aim to
+broaden my understanding of well-known ones. SMILES-2025 offers unique opportunity to
+achieve these goals and to pursue my passion for learning.
+During my undergraduaate studies, I focused primarily on gaining theoretical knowledge. I built
+a model of the early Universe and calculated the evolution of its composition. Although Cos-
+mology theory still captivates me, I gradually developed interest in programming and modern
+data analysis techniques. I believe that with accumulated observational data and DL methods
+we can expand the toolkit of modern physics and deepen our understanding of the Universe.
+For this reason, as a master’s student, I decided to focus mainly on expanding and refining
+applied skills. My upcoming thesis is devoted to neural networks applications for astronomiical
+data analysis. In particular, we aim to evaluate the probability density function (PDF) of
+cosmological redshift using quasars and galaxies photometry without any priori assumptions
+about PDF structure. I have implemented multiple experiments with both common neural
+networks based on Gaussian Mixture models and recentlly proposed invertible architectures.
+Optimization of the architectures and meta-parameters is still ongoing; however, this approach
+is expected to make more accuraate and interpretable estimates.
+I have also been involved in several research projects unrelated to astronomy. During the
+Statistical Methods course, I proposed using Bayesian experimental design to train and fine-
+tune Large Language models. The suggestion resulted in a semester-long research project. My
+study showed that the approach reduces the time of labeling and training. At the moment, I am
+working on applying these ideas to the astrophysical problems of the Telescope Array Project.
+Besides that, I applied my skills to the solution of industrial problems. Using XGBoost model,
+I developed the fall detection system by real-time accelelerometer data. The accuracy improved
+compared with previous approaches owing to the physical-based feature extraction.
+By solving these problems, I have developed extensive expertise in Python and a deep compre-
+hension of statistical methods. Moreover, I have realized how important it is for me to make
+meaningful and utilizable contributions to the scientific community.
+The beauty of ideas enthralls me and forces me to learn and apply them. The beauty of well-
+written code fulfils and inspires me. With the diverse experience and long self-reflection of who
+I am, I trusted myself as an explorer and a scientist. Participating in the Summer SchooL will
+not only enhance my knowledge but also empoower me to contribute meaningfully to the field
+of my studies.
+Iwillbesta rtingPhDinthis year. Myresearchwillb efocusedo nNeuralNe tworksapplications
+in Astroparticles Physics. The [compa ny] Summer School of Machine Learning would be an
+inva lua ble step in my path. Not o nl y because of the knowl edge I can gain, but also because of
+the contribution I can make and the relationships I can esta blish between communities.
+Thank you for conside ring my application, I am very much looking fo rw ard to your decision.

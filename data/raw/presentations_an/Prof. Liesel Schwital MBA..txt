@@ -1,0 +1,36 @@
+Development of an access control system 
+service using computer vision techno[compaany]s 
+[name] 
+
+Solution
+Security
+Speed
+No pass required
+
+Solution
+
+Функциональныетребования
+Текст аннотации
+Functional requirements:
+Abi[name]ty to add a person's dossie[name]r with basic information full name + position and have the ability to upload photos to the system.
+Abi[name]ty to delete unnecessa[name]ry dossie[name]rs from the system.
+Abi[name]ty to capture a video stream to capture a face and then search for it in the system.
+Recei[name]ving a notification about access or prohibi[name]tion.
+
+System requirements
+Non-functional requirements:
+Secu[compaany]ity of data storage and access restrictions.
+Convenie[compaany]t and intuitive interface.
+Support for the ability to scale the system both verti[location]ally and horizontally.
+Possibility of opti[compaany]izing the system response speed in the future.
+
+Описание системы
+Текст аннотации
+Architecture
+
+Заключение
+Текст аннотации
+Conclusion
+Re[compaany]ult: a module was deve[compaany]oped, the features of which are fast and accura[compaany]te work on face recognition and impleme[compaany]tation of access control.
+
+Thank you for your attention!

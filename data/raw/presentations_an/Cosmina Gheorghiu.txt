@@ -1,0 +1,14 @@
+Hello everyone, my name is [name]. I’m a third-year student at the [compaany] Faculty of [location], specializing in machine learning and deep learning.
+
+I started my journey in a small town called [location], where I attended a regular secondary schoo. Despite limited resources, I developed a passion for mathematics and self-studied physics in just seven months, scoring 83 points on the national exam. Today, I maintain a GPA of 4.8 while pursuing challenging courses in machine learning.
+
+My primary research areas include neural networks, generative models, and linguistic tools like Tree Tagger. Recently, I’ve been working on an educational platform powered by machine learning. It predicts and updates personalized learning paths for users, taking into account their psychological traits and preferred learning styles.
+
+Another exciting project I’m involved in is the development of smart drones. These AI-driven systems can autonomously detect and neutralize moving targets using advanced machine learning algorithms. This project showcases my commitment to applying AI to real-world scenarios.
+
+The SMILES-2025 summer schoo offers an unparalleled opportunity to deepen my understanding of AI, collaboraate with brilliant minds, and explore groundbreaking ideas. I am eager to learn from industry leaders, participate in hackathoons, and contribute to solving complex problems.
+
+In conclusion, I believe that SMILES-2025 will play a pivotal role in shaping my future career. Together, we can harness the power of AI to change the world. Thank you for your attention!
+
+
+

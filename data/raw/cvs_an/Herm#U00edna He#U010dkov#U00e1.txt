@@ -1,0 +1,69 @@
+[name] [surname]
++2 *** *** *** | [email] | ~ Telegram | § nZiben
+ML Engineer with 2+ years of experience in NLP and CV, awarded in AI hackathons and mathematical Olympiads, with expertise in LLMs, optimization and MLOps
+Experience
+[company] (Russia’s largest IT company) September 2024 – Present
+ML Engineer / Python Developer | LLM, gRPC, OpenSearch, S3, Docker, CI/CD, API [location]
+• Developed a PyPI library and RAG frameworks to accelerate API deployment and enhance data management with many types of document uploads and vector storage
+• Maintained a self-service LLM platform, optimizing LLM and ensuring high availability through containerization and orchestration
+• Tested various architectures and implemented enhancements based on findings from scientific research
+Yandex – a leading search engine and technology company in [location] June 2024 – September 2024
+MLE intern in International Search | BERT, DSMM, LLM, Labeling Pipelines, SQL [location]
+• Developed offline and online e-commerce query classifiers
+• Created a Google parser and enrichment tool to capture full SERP and highlight object answers, achieving competitive performance in SbS tests
+• Built a pipeline for labeling and evaluating key offline metrics for object answer criteria
+• Optimized prompts and refined object answer instructions, substantially improving quality and enabling effective BERT model training
+MTS – one of [location]’s top three mobile operators September 2023 – June 2024
+Data Scientist intern | ML, DL, Time Series Analysis, API [location]
+• Resolved peak load hour classification for base stations, cutting electricity costs by 9%
+• Forecasted time series using Prophet, gradient boosting, and linear models
+• Integrated hydropower plant APIs to enhance predictive models
+AI Laboratory January 2023 – September 2023
+NLP & CV Engineer | Python, C++, PyTorch, OpenCV, PEFT LLM [location]
+• Managed rune classification, detection, and translation for the Archaeology Institute of the Russian Academy of Sciences:
+∗ Created computer vision models with OpenCV and PyTorch for accurate rune recognition
+∗ Developed a plugin to identify optimal video frames using OpenCV, saving relevant data
+• Built a Telegram bot with an LLM agent using RAG, GigaChat, and custom prompts to support interdisciplinary researchers
+• Developed a spam email classifier integrated with the Mail.ru API
+• Fine-tuned ruGPT-3.5 on legal documents to explore law generation in specific formats
+Projects
+AI Interview | Python, PyTorch, Transformers, TTS, FastAPI GitHub
+• Developed an LLM agent with Text-to-Speech capabilities to assist users in preparing for interviews
+• The agent analyzes voice or text responses, generates follow-up or subsequent questions, and provides a comprehensive analysis of interview performance, including scoring and personalized recommendations
+PersonalityMatcher | PyTorch, OpenCV, Librosa, Whisper, Streamlit, SQLite, Transformers GitHub
+• Developed a platform for candidates to upload resumes and business cards, and for recruiters to create job postings and access ranked candidate profiles
+• Conducted personality trait analysis using OCEAAN, MBTI, and Dark Triad frameworks on video data to evaluate and rank candidates’ suitability for specific roles
+Publications and Research
+Virtual Examiner Based on LLMs and Speech Synthesis (In Progress), Presentation at System Analysis in Economics-2024, HRONOECONOMICS
+AI Technologies in Service of Family and Society, Speech at XV International Scientific Student Congress, hosted by Financial University
+Digitalization of National Currency as a Global Trend, Report at International Scientific Student Conference
+Education
+Financial University 2021 - 2025
+Bachelor of Data Analysis in Economics and Finance – GPA: 4.7/5 [location]
+• Member of a prestigious AI research group supported by Gazprombank
+Lovely Professional University 2023
+B.Tech in Computer Science and Engineering [location]
+• Received a scholarship for exchange program participation
+Achievements
+4th Place at the International Hackathon Digital Breakthrough: Predicted personality types based on video with high efficiency and compiled a profession-personality matching list
+2nd Place at the All-Russian Stage of the Hackathon Digital Breakthrough: Fine-tuned YandexGPT, created a large question-answer dataset, and implemented a multi-layered RAG system
+2nd Place at the Student Olympiad in Further Mathematics: Focused on calculus, linear algebra, analytic geometry and probability theory
+4th Place at the Norvikkel Hackathon: Built a pipeline for document search and indexing using multimodal RAG and ColPal
+Technical Skills
+Languages: Python, SQL, C, C++, JAX
+Frameworks & Libraries: PyTorch, TensorFlow, FastAPI, Transformers, Streamlit, SQLAlchemy
+Tools & Platforms: Docker, Kubernetes, PostgreSQL, S3, Kafka, REST API, gRPC, Git
+Other Skills: Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Data Analysis, API Development
+Languages
+Russian Native
+English Advanced
+Extracurriculars
+Member of the University Student Council
+• Organized events for 500+ attendees
+• Hosted various types of events for 100+ spectators
+• Resolved student issues
+• Assisted the dean’s office
+Competitive What? Where? When? (Learn more)
+• Multiple-time participant in All-Russian competitions
+• Winner of the Regional Championship of Khanty-Mansi Autonomous Okrug-Yugra and many others
+Hobbies: Quizzes and Intellectual Games, Basketball, Hiking

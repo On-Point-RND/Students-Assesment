@@ -1,0 +1,64 @@
+            [name]
+[location]
+[email]
++2 *** *** ***
+19.04.2025
+Dear Members of the Admissions Committee,
+I am writing to express my enthusiastic application to the Skoltech Summer
+School of Machine Learning (SMILES‑2025). As a second‑year student in Applied
+Mathematics and Informatics at [institution], I have cultivated a deep appreciation for the interplay between abstract
+theory and practical computation. It is this dual passion—rooted in my earliest
+explorations of physical models and blossoming through hands‑on machine
+learning—that drives my desire to join your program.
+From childhood afternoons spent sketching pendulums and projectile trajectories
+to winning prizes in the All‑Russian School Olympiad in Physics and medals at the
+IEPhO, I have always been drawn to the art of modeling. Yet it was only in tenth
+grade, when a friend and I wrote our first ML scripts to compete in weekend
+hackathons. The realization that machine learning could tackle large‑scale,
+real‑world problems with intricate models—accelerating insights that once took
+days of manual calculation—sparked a drive to pursue ML and DA at a deeper
+level.
+At [institution], I am currently building a strong mathematical foundation—grounded in
+linear algebra, probability theory, and numerical methods—while taking
+dedicated courses in machine learning that equip me with both theoretical
+insights and hands-on skills to approach complex problems. Under the guidance
+of the General Physics Department, I am conducting research that explores the
+connection between spin glass models from statistical mechanics and the
+learning dynamics of neural networks. Spin glasses, with their disordered
+interactions and rugged energy landscapes, offer a compelling analogy to the
+non-convex loss surfaces encountered in deep learning.
+In this project, I study a multilayer Sherrington–Kirkpatrick (MSK) model,
+employing Metropolis Monte Carlo simulations and the Parisi ansatz to analyze
+energy minimization and phase transitions. By solving the Thouless–Anderson–
+Palmer (TAP) equations, I identify critical freezing points and investigate how
+emergent structures in disordered systems relate to convergence behaviors in
+neural networks. This work was presented at [institution]’s 67th All-Russian Scientific
+Conference, where it was awarded first place—highlighting the potential of
+statistical physics methods to provide meaningful insights into the behavior of
+modern machine learning systems.
+While this project has deepened my theoretical understanding, I am also working
+to apply these ideas in practice. As an early ML contributor at [company], a startup
+marketplace for new housing, I am helping to integrate transformer-based NER
+models to parse complex user queries and employed lightweight LLM agents to
+auto-generate property descriptions. Additionally, I am leading a team of
+developers in designing and implementing a semantic search system with L1-
+based ranking. This ongoing project allows me to bridge theory and real-world
+deployment, while deepening my experience in building scalable, intelligent
+systems.
+I am drawn to SMILES‑2025 because it offers something that is often missing in
+fast-paced ML environments — the space to think deeply. The school brings
+together areas I am genuinely curious about, from language models to generative
+methods, not just as technologies, but as ideas that challenge our understanding
+of learning itself. I don’t approach machine learning as a toolbox, but rather as a
+field where structure, dynamics, and interpretation matter — much like in physics.
+What I value most is the opportunity to learn from people who combine strong
+theoretical thinking with real engineering experience. I hope to better understand
+the design principles behind modern architectures and how we reason about their
+behavior. I am especially drawn to the research and development side of machine
+learning, where exploration, analysis, and implementation come together.
+SMILES‑2025 feels like the right place to ask meaningful questions, explore
+connections, and gain perspective on where the field is heading — and where I
+might fit into it.
+Thank you for considering my application.
+Sincerely,
+Rodion [surname]

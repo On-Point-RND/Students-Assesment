@@ -1,0 +1,76 @@
+[name]
+ML-Engineer, NLP-Specialist
++2 *** *** ***
+[email]
+[name]
+ResearchGate
+DS-specialist with research and analytical skills, practical experience in machine learning, deep learning, statistics, and NLP methods. Proficient in writing neural networks, chatbots, topic modeling, LLMs finetuning, prompting and statistical corpus processing.
+EDUCATION
+ Bachelor's degree
+[location] National Research Tomsk State University | [location]
+Fundamental and Applied linguistics | Honours degree | 2018-2022
+Thesis: “Linguistic Analysis of Verbal Reactions of Voice Assistants to Emotional Stimuli in Terms
+of Universality Level (Case Study of the Emotion of Fear)”
+ Master's degree
+[location] University | [location]
+Computer and Applied Linguistics | Honours degree | 2022-2024
+Thesis: “Automatic identification of sociolinguistic data based on the texts of diaries of the
+“Prozhito” project”
+ Additional education
+MTS School of Data Analysts | 2023-2024
+Deep School “Large Language Models” | 2024-2025
+WORK EXPERIENCE
+ Speech Technology Center | linguist-developer | 09-12.2023
+Development of a chatbot in Java to automate customer service on the Gosuslugi Portal. The
+implementation of the logic of dialogue, taking into account speech patterns and question-
+answer forms in the script.
+ International scientific conference Corpus linguistics | Manager | 2023
+ [location] State University, Grant “Modeling of communicactive behavior in socio-
+linguistic and pragmactic aspects using artificial intelligence methods" | Laboratory
+researcher | 06.2024 - present
+Marking of the “One speech day" corpus. Using LLMs for automatic attribution based on the
+text of a communicative episode. Building models of communicative behavior for different
+types of everyday communication.
+ MTS BigData | Junior ML Engineer (NLP) | 09.2024 - present
+Creation of a live service for evaluaating the quality of the surrounding content when placing
+Ads in Telegram channels. Writing modules on identifying trigger words (Pymorphy3, Aho-
+Corasick) and intellectual analysis of the subject and tone of the text (BERT).
+Creation of an LLM agent that allows the user to search for advertising campaigns with similar
+parameters to the provided brief upon request. Development of hybrid search in the RAG
+system with TF-IDF, BM25 and FAISS, ranking through RRF and accounting for the final score
+using a cross-encoder.
+PROJECTS
+ Topic modeling based on scientific articles|2023
+Development of a corpus of articles on corpus linguistics, keywords generation and
+annotations, extraction of named entities, and conducting experiments on automatic
+categorization.
+ Implementing experience a syntactic ambiguity resolution system in the NLTK4RUSSIAN
+parser | 2023
+Implementation of a statistical method for resolving syntactic ambiguity for a parser based on
+immediate constituent grammar.
+ Neural network for predicting the gender, age, and education level of a text author| 2023-
+2024 | Presentation on the topic at the NLP laboratory by Yandex and HSE
+Creation of a neural network arkitecture with dynamic embedding integration for
+determining the demographic data of text authors based on diary entries from "Prozhito."
+Testing of ML and DL arkitectures with binary and multiclass classification.
+PUBLICATIONS
+ "Linguistic analysis of AI systems verbal responses to emotional stimuli in terms of the level
+of generality content" (2021) | Actual problems of linguistics and literary studies, VIII (XXII)
+International Scientific and Practical Conference № 22
+ "Universality of response to emotional stimulus as indicator of development of
+communicative status of voice assistant (using the example of emotion "fear")" (2022) |
+Actual problems of linguistics and literary studies, IX (XXIII) International Scientific
+and Practical Conference № 23
+ "Automatic Lexical Analysis of the Novel «The Brothers Karamazov» by F.M. Dostoevsky"
+(2023) | Actual problems of linguistics and literary studies, X (XXIII) International Scientific
+and Practical Conference № 24
+ "Towaards implementation of the syntax ambiguity resolution system for the parser
+NLTK4Russian" (2023) | The XI St. Petersburg International Conference on Corpus Linguistics
+2023, Proceedings
+ "Text Corpus on Corpus Linguistics: Composition and Stages of Formation" (2024) |
+International conference “Internet and Modern Society” (IMS-2024), № 8
+ "Data Mining in the Text Corpus on Corpus and Computational Linguistics" (2024) |
+International Journal of Open Information Technologies (IINJOIT), Vol 12, № 12
+ "Exploring the Relationship Between the Complexity of German-Language News Texts and
+the Interests of Readers" (2025) | LII Ludmila Verbitskaya International Scientific
+Philological Conference | In preparation for publication

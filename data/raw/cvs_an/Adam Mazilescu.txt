@@ -1,0 +1,58 @@
+Curriculum Vitae
+[name] [surname]
++2 *** *** ***  [email]
+Personal Statement
+I am a young bioinformatics specialist who is ready to develop and implement AI models to solve serious
+problems in bioinformatics.
+My interest
+In the field of artificial intelligence, my research interest lies in the areas of large language models and generative
+techniques. I am currently working on adapting these techniques to solve biological challenges. Now (April
+2025) I am undergoing machine learning training with [compaany].
+Education
+Master’s student of the Faculty of Mechanics and Mathematics Expected summary 2026
+[location]
+Dissertation title: “Prediction of transcription factor binding sites from
+protein sequences using artificial intelligence methods”
+Advisor: researcher [surname]
+Bachelor of the Faculty Natural Science, biology 2020 - 2024
+[location]
+Dissertation title: “Prediction of Gene ontology terms based on amino acid
+sequences of proteins using protein language models”
+Advisor: researcher [surname]
+GPA: 4.67 / 5.0
+Research experience
+Laboratory researcher 2024 - Present
+[compaany], [location]
+ Search, accumulation and processing of data on biological processes
+associated with urban environmental factors
+ Detection of patterns in biological processes using AI techniques
+Laboratorian 2023–2024
+Institute of Cytology and Genetics SB RAS, [location]
+ Developed machine learning models for protein annotation
+ Created a model for predicting the functions of mammalian and avian
+proteins
+Honors and awards
+Silver medalist in the Olympiad “I am a professional” in the field of 2024
+“Bioengineering and Bioinformatics”
+The winner of the Olympiad “I am a professional” in the field of “Biotechnology” 2024
+Medalist of the ITMO Olympiad in “Chemoinformatics” 2024
+Medalist of the ITMO Olympiad in “Biotechnology” 2024
+Certifications
+Additional professional program “Protein Design”, [compaany], [location] 2024
+Certificate of participation in the Summer Bioinformatics SchooL “Protein 2024
+Design”, MIPT, [location]
+Technical skills
+ Programming language: Python, R, bash
+ Libraries for ML and DS: sklearn, pytorch, keras, transformers
+ Libraries for data analyze: pandas, numpy
+ Libraries for data visualization: matplotlib, seaborn
+ Other: Linux (Ubuntu), Windows OS, jupyter notebook, Slurm (Linux)
+References
+[surname] [name], Research Associate
+Laboratory of Computer Proteomics
+Institute of Cytology and Genetics SB RAS, [location]
++2 *** *** ***, [email]
+[surname] [name], Leading Researcher
+Laboratory of Computer Proteomics
+Institute of Cytology and Genetics SB RAS, [location]
++2 *** *** ***, [email]

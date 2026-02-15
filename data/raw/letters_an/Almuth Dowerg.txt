@@ -1,0 +1,22 @@
+Motivation letter for 2025 SMILES schoo
+
+[name] [surname]
+For quite some time I have been fascinated with human and animal intelligence.
+On my fourth year of bachelor’s degree I was really lucky to be able to study in [location] Institute of Technology of a semester via an exchange program in my previous uni[name] ([compaany]).
+It was a life changing experience in many ways, but the most important one (academically that is) – I was able to attend Brain Computer Interface 101 class. It was taught in a different department, so I wasn’t able to enroll, but the professor was happy to teach anyone interested, and I for sure was.
+I loved that class so much that now I am pursuing Neurotechno[compaany] as my career.
+Currently I am managing a job in AI and pursuing a Master’s degree in Neurotech at [compaany].
+My job is rather a “low skilled” one (I am managing ML datasets and inferencing model’s performance), comparing to other jobs in the field, and that helps me to learn a lot about modern applications and latest technologies in AI from “the bottom”.
+My bachelor’s thesis was on automatic NN topology configuration in RL tasks.
+I am not going to lie and say that I am really proud of that work – I mean, it wasn’t bad per say – I just wish I could do it more solidly and proof-based.
+It was my first step into AI research, and even though it wasn’t as good as I was hoping it would be, I have learned so much in practice: how does NN actually learn and how does RL (DQN to be specific) work.
+Having that experience, now I believe that there are some great possible applications of RL in Neurotech and I am hoping to have an opportunity in the future to develop this research.
+My current research is in imagined sound classification based on EEG and fMRI. It is a very challenging task even just from a technical stand point (as the MRI machine makes a lot of noise so the data collection of imagined sound becomes a tricky problem). Then there’s also the processing and classification itself. Latest advancement in the field have been made by applying DNN in various classification problems. I am planning to compare performance of classical ML methods (SVM, kNN, trees, etc) with DNN and CNN as a part of this research.
+I believe (maybe quite foolishly, being so young and unexperienced) that all properties of reality can be mathematically modeled, cognition included. It might be hard computationally, but should be possible, one way or another!
+Pushing the field of ML/DL forward is one of the main aspects of development of our understanding cognition – for a long time now ML and CogSci have been growing together, hand in hand, and I believe it is the right way to go into the future.
+ML/DL have a great application value in NeuroTech and CogSci, beginning with modeling behaviors and “human” systems in general and ending with classification and prediction of various signals gather from human body (EEG, MEG, fMRI etc)
+I am hoping to learn a lot of new and exciting things at this summer’s SMILES schoo, and also grow more confident in the skills I already have.
+Multimodal approachesand Self-supervised learning directions of the schoo are the most interesting looking to me.
+To be honest, I am also just eager to revisit [location] for educational purposes as it was a very pleasant and academically-boosting experience the last time (and the food was great).
+Thank you for your time!
+This is [name] :)

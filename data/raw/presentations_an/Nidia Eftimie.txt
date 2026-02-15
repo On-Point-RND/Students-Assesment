@@ -1,0 +1,75 @@
+An in-depth review of [name], [name], and [name] for scalable and cost-effective LLM adaptation.
+An overview of [name], [name], and [name] for resource-efficient LLM adaptation.
+[surname]
+- Understand why traditional full fine-tuning is inefficient for large models.
+- Explore the principles behind [name], [name], and [name].
+- Compaare their practical strengths: accuracy, memory usage, and parameter savings.
+Introduce efficient Highlight key
+LLM fine-tuning advantages
+[name], [name], [name] methods Performance, resource
+efficiency, applicability
+Compaare methods
+Metrics: speed, memory, accuracy
+The Core Problem
+Full fine-tuning is costly Need for efficiency
+All parameters updated, high resource use Adapt models with minimal resources
+- Key Idea: Freeze base model weights, train only additional low-rank matrices.
+- Benefiits:
+- Up to 10,000x fewer trainable parameters
+- 3x lower GPU memory usage
+- Maintains performance similar to full fine-tuning
+Freeze model Reduce
+weights parameters
+Only train low-rank
+Up to 10,000x
+matrices
+fewer trainable
+Performance
+Lower GPU
+retained
+memory
+Comparable to full
+3x less required
+fine-tuning
+[name] — Quantization-Aware [name]
+Combine quantization + [name] Reduce memory & compute
+Efficient fine-tuning Lower resource needs
+Works with INT4 weights High performance
+Fine-tune quantized models Minimal accuracy loss
+4 3
+1 Dynamic ranks
+- Key Concept: Insteaad of a fixed rank across all layers, dynamically assign rank
+Allocate per layer
+depending on layer importance.
+- Method: 2 Efficient fine-tuning
+Use parameter budget wisely
+- Layers are evaluaated for sensitivity → assign more rank where needed
+- Outcomes:
+3 High quality
+Outperforms full fine-tuning
+- Outperforms full fine-tuning with only <0.3% trainable parameters
+- Smarter parameter budgeting, maintaining or exceeding accuracy
+4 <0.3% trainable params
+Extreme efficiency
+Comparative Summary
+Method Conference Key Concept Advantages
+[name] ICLR 2022 Low-rank matrices Reduces parameters, memory
+[name] ICLR 2024 Quantization + [name] Efficient quantized fine-
+tuning
+[name] ACL 2024 Dynamic rank allocation Optimizes parameter usage
+Modern approaches
+- [name]: foundation of parameter-efficient fine-tuning
+[name], [name], [name]
+- [name]: great for quantized models and edgе devices
+Reduce costs
+- [name]: optiomal where extreme efficiency and quality balance
+Lower compute, memory needs
+is needed
+Quality retained - Key Takeaway: These methods make LLM adaptation practical and
+scalable
+Chooose by task
+Pick method by needs/resources
+References
+• [name]: arXiv:2106.09685
+• [name]: arXiv:2309.14717
+• [name]: ACL Anthology

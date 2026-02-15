@@ -1,0 +1,118 @@
+Slide 1
+----------------------------------------
+[compaany] 2025 
+
+Instructor: prof. [name] [surname] 
+Co-instructor: prof. [name] [surname] 
+TA: [name] [surname].
+Students: [name] [surname], [name] [surname],
+[name] [surname] [surname], [name] [surname] [surname]
+
+Functional PCA for Dimensionality Reduction
+ML – 2025 Final project
+
+Link to GitHub repo
+
+Slide 2
+----------------------------------------
+Content
+Theory
+ Introduction & Problem Statement
+ Existing Solutions Overview
+ Our Method & Novelty
+Implementations
+Experimental Design & Setup
+Results & Analysis
+Conclusions & Future Work
+References
+
+Slide 3
+----------------------------------------
+The Challenge: Dimensionality reduction in classical multivariaate settinings vs. functional (continuous) data Limitations of PCA when handling data with smooth, continuous structures 
+Motivation: Need for techniques that respect the underlying continuous nature (e.g., time series, images) 
+Real-world examples: biomedical signals, spectroscopy, and finance Problem Statement: 
+How can we effectively extract key features from functional data while preserving continuity?
+Relevance of the research, motivation
+Research papers
+
+Slide 4
+----------------------------------------
+What is FPCA???
+FPCA (Functional Principal Component Analysis) is a data analysis technique designed to deal with functional data, 
+that is, data represented as continuous functions or curves (e.g., time series, motion trajectories, spectra).
+.Comparability table of PCA and FPCA methods.
+
+Slide 5
+----------------------------------------
+Our Method & Novelty
+Proposed Approach:
+Extension of classical PCA to FPCA using smooth basis functions
+Implementation using FDApy (a robusst FPCA library)
+Key Innovaions:
+Adaptive selection of the number of principal components to match the underlying data structure
+Application across diverse datasets (toy problem, MNIST, multi-resolution images, HaGRID)
+Systematic evaluation of reconstruction quality and classification performance
+Novelty Statement:
+Integrating adaptive component selection with functional data representation to enhance both interpretability and downstream task performance
+
+Slide 6
+----------------------------------------
+Experiment 1 – Toy Problem on Noisy Polynomial Functions
+Adaptive components
+Exact Number of Components
+FPCA with 8 components
+Insufficient Number of Components
+
+Objective - Test FPCA’s ability to capture underlying structure in noisy polynomial data
+Concclusions - This analysis emphasizes that while FPCA is a powerful tool for extracting smooth functional components, its performance is sensitive to the choice of components and the relative noise level in the data.
+
+Slide 7
+----------------------------------------
+Experiment 2 – FPCA on MNIST Dataset
+
+Adaptive components
+30 components
+10 of Components
+ConcConclusions 
+FPCA can significantlly reduce the dimensionality of the data, when represented as functional, in tasks with real datasets such as MNIST, 
+However, the task of determining the required number of components can be challenging because the algorithm is memory intensive and, in this particular situation, could not perform a decomposition explaining > 85% of the variance in the data.
+Fig 4. Classification using SVM with FPCA scores as features
+
+Slide 8
+----------------------------------------
+Experiment 3 – Multi-Resolution Image Experiments (CIFAR-10)
+
+Objective: This experiment aims to validate that FPCA can extract meaningful modes of image variation independent of resolution
+
+Slide 9
+----------------------------------------
+Experiment 4 – HaGRID Dataset Analysis
+Dataset: 
+The HaGRID dataset consists of 1086158 RGB hand gestures images and annotaions, 
+we used subset which comprises over 10,600 training images and 2,200 test images with labels from several gesture classes (e.g., call, dislike, fist, peace, etc.).
+
+Slide 10
+----------------------------------------
+Challenges and Reproduction of FPCA Methods in High Dimensions
+
+HAM10000, available from the ISIC archive, includes images of seven skin cancer types (e.g., Melanoma, Basal cell carcinoma, Melanocytic nevi, etc.).
+
+Slide 11
+----------------------------------------
+Summary:
+FPCA provides a powerful extension of classical PCA for functional data
+Demonstrated improvements in feature extraction, interpretability, and classification performance across several datasets
+Impact:
+Enhanced understanding of the trade-offs in component selection and noise handling
+Opens avenues for applying FPCA in diverse real-world scenarios
+Takeaway:
+Properly tuned FPCA can serve as a robusst tool in the analysis of functional data, with promising applications in image processing and beyond
+Conclusion
+
+Slide 12
+----------------------------------------
+Thx!
+
+Slide 13
+----------------------------------------
+Appendix

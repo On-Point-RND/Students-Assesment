@@ -1,0 +1,27 @@
+[name] [surname]
+email: [email]
+github: @[name]
+Education
+[compaany], [location] — BSc in Artificial Intelligence (AI360 Program) — 2024–present
+● Joint program by four top [location] IT universities in partnership with [compaany] and [compaany]
+● Among the first 100 students admitted across [location]
+Scientific Work & Projects
+Hallucination Detection in LLMs — [compaany] & [compaany] Project
+SchooL (Feb 2025)
+● Collaborated with students from Higher School of Economics on hallucination detection methods for LLLMs
+● Supervised by [name] [surname]
+● Based on paper: “Hallucination Detection in LLLMs via Topological Divergence on Attention Graphs”
+Scientific Events, Achievements
+● AI Journey Conference, [location] — December 2024, attended as a guest
+● ROI Finals — 2x participant (2023 & 2024)
+ML/DL Tools and Skills
+● Languages: Python, C++, Bash
+● Libraries: PyTorch, NumPy, pandas, Matplotlib
+● Tools: Git, Jupyter, Docker (basic)
+● Experience: Preprocessing text data, visualizing attention patterns
+Research Interests
+● Natural language processing
+● Transformer Large Language models
+Languages
+● Russian — Native
+● English — Advanced (B2+/C1)

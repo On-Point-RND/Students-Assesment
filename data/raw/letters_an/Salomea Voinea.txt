@@ -1,0 +1,11 @@
+Dear [compaany] Team,
+I am excited to apply for the SMILES Summer School. The chance to dive into generative models, work with peers from around the [location], and learn from top minds in the field feels like a perfect next step for me.
+I come from a background that blends hands-on technical work with real-world impact. Right now, I’m finishing up my Master’s in Data Science at the [location].
+Before that and even alongside my studies, I worked in places where data really matter. Whether it was at [compaany], automating regulatory reports with Python, or at the [location] Institute of Health, improving diabetes screening tools using R and real patient data, I have always been interested in using technology to understand and improve.
+At the [location] Institute of Health, I applied statistical models to a dataset to refine diabetes risk scoring. Using logistic regression, I identified improved thresholds for the screening for dysglycemia in occupational health, contributing to more precise health evaluations. That experience sparked a deeper interest in building responsible, evidence-based tools that can have a tangible impact on public health.
+What particularly draws me to summer school is the focus on generative models and large language systems, areas I am also excited about the format and project work. I love building things in teams and I learn best by doing. I hope to leave the school not just with new technical skills, but with a better sense of how GenAI can be used in areas like healthcare or finance.
+After completing my Master’s thesis on synthetic data generation, I plan to pursue a Ph.D. or an industry research role focused on privacy-preserving machine learning, multimodal data integration, or generative modeling for decision support.
+I am applying to SMILES-2025 because I want to grow, not only as a data scientist, but also as a thinker and collaborator. I would love to contribute my energy, curiosity, and experience to the school, and I look forward to learning from everyone involved.
+Thank you very much for considering my application.
+Warm regards,
+[name] [surname]

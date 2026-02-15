@@ -1,0 +1,102 @@
++2 *** *** ***
+[name]
+[location]
+[email]
+[name] [surname]
+Porrtolio GitHub
+About me. Bachelor’s degree in Computer Science and currentlly pursuing a master’s degree in the same
+field. Experience in implementing Neural Network algorithms applied to quantum physics research. Solid
+knowledge of Machine Learning, Deep Learning and parallel processing, with a strong interest in applying my
+skills to challenging data science projects.
+SKILLS
+Languages: Programming languages: Related subjects :
+Primary Languages: Python, SQL. Neural Network Architectures (GNNs, LSSTMs),
+Russian – C1
+Libraries: Pytorch, NumPy, Pandas, Natural Language Processing (Transformeers,
+English – B2
+Scikit-learn, Matplotlib, OpenCV. RNNs, LLMs), Computer Vision (CNNs) and
+Spanish – Native
+Other Languages: C++, C, CSS, Optimization Techniques (Gradient Descent,
+HTML, JavaScript, Kotlin. Gradient boosting Backpropagation).
+WORK EXPERIENCE
+Scientific Research Intership at Joint Institute for Nuclear Research ([compaany])
+Remote Collaboration | Feb 2025 - Present
+T echnologies: Python, CUDA, PyTorch, NetworkX and MPI.
+Designed and optimized a GNN-based model for reconstructing particle trajectories post-collision in the Spin
+Physics Detector (SPD), leveraging:
+• High-performance computing (HPC) resources of [compaany]’s supercomputeers (parallelized training with
+CUDA).
+• Gra ph theory principles to model detector data as sparse graphs, improving efficiency in track
+reconstruction.
+• Pytorch Geometric for scalable implementaion.
+Bootcamp at Joint Institute for Nuclear Research ([compaany])
+Dubna, [location] | Feb 2025
+T echnologies: Python, CUDA, PyTorch, Deep Graph Library and NetworkX
+• Developed a Graph Neural Network (GNN) to predict the properties of organic molecules using the
+PCQM4Mv2 dataset provided by Open Graph Benchmark.
+• Designed a GNN model for reconstructing particle trajectories after collisions for the Spin Physics
+Detector (SPD).
+I ntership at [compaany] FreshTech LLC
+[location] | Nov 2024 – Jan 2025
+• Stu died the application of Digital Financial Assets (DFA, Tokens/Tokenization) in financial markets
+across different regions such as Africa, Europe, the USA, and Latin America.
+• Researched and proposed a case for using DFA to redistribute cloud compuuting resources via a
+digital platform, enabling users to purchase, use, or resell cloud server resources as tokens.
+• Analyzed technological aspects such as tokenization processes, platform functionaliity, token sales,
+transactions, accounting mechanisms, and cloud resource requirements.
+EDUCATION
+RUDN Universiity (Master’s degree)
+Faculty of Science, Fundamental Informatics and Information Technologies
+[location] | Expected Graduation: 2026
+Thesis: Development of Algorithms for Searching Candidate Tracks in Detectors Using Neural Network
+M ethods and Graph Theory.
+This research focuses on optimizing trajectory reconstruction in particle detectors by integrating neural
+network techniques with graph-based approaches to improve detection accuracy and efficiency, and its
+possible application in the NICA (Nuclotron-based Ion Collider Facility) project.
+Supervised by: Dr. Gennady A. Ososkov ([compaany]) & Dr. Yuliya V. Gaidamaka (RUDN)
+YOUNG&YANDEX (Intensive MACHINE LEARNING 3.0 / ALGORIITMS 7.0)
+O nline | April – May 2025
+Machine Learning 3.0: Natural Language Processing and Computer Vision.
+Algorith ms 7.0: Сourse to systematize knowledge and prepare for an interview at Yandex.
+RUDN Universiity (Bachelor’s degree)
+Faculty o f Science, Applied Mathematics and Computer Science
+[location] | Graduated: 2024
+Thesis: Analysis of the CSMA-CA multiple access protocol model in the form of Markov chain.
+This research examines the performaance and efficiency of the CSMA-CA protocol by modeling it as a
+Markov ch ain, providing insights into its behavior and optimization in wireless communication networks.
+Supervised by: Dr. Yuliya V. Gaidamaka (RUDN).
+Join Institute for Nuclear Research ([compaany])
+[location] | Oct 2024
+Auutmn IT SchooL: Machine and Deep Learning algorithms, Big Data, current data preprocessing methods.
+SCHOOL 21 ([location])
+[location] | Jan - Feb 2024
+Intensive: Programming concepts and data structure in C, basic uses of Git.
+ARTICLES
+- [name] F., [surname] G.A., [surname] Yu. V. Graph Neural Networks for Predicting Molecule
+Properties: Example of HOMO-LUMO Gap Using PygPCQM4Mv2. Information and
+Telecommunication Technologies and Mathematical Modeling of High-Tech Systems (In russian).
+2025. In progress.
+- [name] F., [surname] Yu. V. The construction of a model of multiple access procedures for industrial
+Inte rnet of Things applications in the form of a Markov chain. Information and Telecommunication
+Technologies and Mathematical Modeling of High-Tech Systems (In russian). 2024.
+http s://events.rudn.ru/event/236/contributions/1401/
+- [name] J. Interdisciplinary Applications of the Reaction-Diffusion Equation, and its Solution Methods.
+Problems of the modern world through the eyes of youth (In russian). 2020.172-184.
+http s://repository.rudn.ru/ru/records/article/recoord/90418/
+CONFERENCES
+- Speaker at ITTMM 2025 (Information and Telecommunication Technologies and Mathematical
+Modeling of High-Tech Systems) conference, [location].
+- Speaker at ITTMM 2024 (Information and Telecommunication Technologies and Mathematical
+Modeling of High-Tech Systems) conference, [location].
+ACHIEVEMENTS
+- Winner (2nd place) of the Group Hackathon on Mathematical Modeling at the IT SchooL at [compaany] 2024.
+- Winner (first place) of the competition for the best coursework of the faculty of Science RUDN 2023:
+“Building a Markov chain to analyze the performaance indicators of random multiple access protocols”.
+- Finalist of the computer Olympiad "Universiade RUDN" 2023/2024.
+- Winner of “RUDN Brilliant Students” (2019-2020 and 2020-2021): scholarship for academic excellence.
+- Winner of the Open Olympiad in Mathematics (2019).
+- Socially Active Student: “Actively participated in cultural events organized by the university.”
+INTER ESTS
+I am dedicated to specializing in Data Science and its industry applications. Passionate about AI's
+potential to enhance connectivity and optimize operations, I aim to contribute to innovative projects that
+drive intelligent systems and automation.

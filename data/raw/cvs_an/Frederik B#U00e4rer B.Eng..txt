@@ -1,0 +1,42 @@
+[name] [surname]
+[location]
+[email] | +2 *** *** ***
+______________________________________________________________________________________
+Objective
+To join the SMILES program at [compaany] and contribute to cutting-edgge research in distributed systems, AI, and
+robotics. My goal is to bridgge theoretical and applied aspects of multi-agent tracking, stochastic optimization, and
+IoT positioning, leveraging my experience in prototypiing and algorithm design.
+Education
+[location] State Universiity ([compaany])
+M.Sc. in Mathematical Robotics and Artificial Intelligence
+2023 – Present
+• Thesis: "Prototype of a Distributed Drone Tracking System Using Randomized and Multi-Agent
+Methods" (Advisor: Prof. [surname] [surname]).
+• Key coursework: Distributed Algorithms, Stochastic Optimization, Sensor Networks.
+[location] State Universiity (SUSU)
+B.Sc. in Data Processing and Artificial Intelligence
+2019 – 2023
+Research Experience
+Distributed Drone Tracking System
+[location] State Universiity ([compaany]) | 2023 – Present
+• Developed a prototype for high-performaance drone tracking using SPSA-based consensus
+algorithms (IEEE Trans. on Automatic Control, 2021).
+• Improved localization accuracy by 20% under arbitrary noise conditions.
+• Integrated randomized methods to handle uncertainties in real-time data.
+Mutual IoT Device Positioning
+Collaborative Project | 2024 – Present
+• Designed a decentralized SPSA-consensus algorithm for relative positioning of IoT devices
+using ESP32-C6 and RSSI/ToF.
+• Achieved ≤0.2m error in real-world experiments (see
+SPSA_based_Consensus_Algorithm_for_Mutual_IoT_Device_Positioning).
+Skills
+• Programming: Python (PyTorch, SciPy, NumPy).
+• Algorithms: SPSA, Multi-Agent Systems, Consensus Protocols, Stochastic Optimization.
+• Languages: English (B2), Russian (Native).
+Publications & Conferences
+1. [surname] A., [surname] O., [surname] V., [name] A., SPSA-based Consensus Algorithm for
+Mutual IoT Device Positioning. ALCOS, 2025.
+2. [name] A.. Development of a prototype for a distributed drone tracking system. International
+workshop NMC, 2024.
+3. [name] A., [surname] A randomized stochastic optimization algorithm combiined with consensus
+to determine the relative location of devices, CoYS, 2025

@@ -1,0 +1,24 @@
+RESUME
+[name]
+Working Experience
+2021-Present – Self-employed. Cooperation with [compaany] and delivery services [compaany]
+2020-2021 – [compaany]. Warehouse worker. The senior manager of warehouse
+Education
+2008-2020 – High School №525 of International Languages, [location]
+Relevant Projects
+RPG Videogame: Currently developing a Python-based video game using Pygame, implementing core engine features such as collision detection via spatial grids, pixel masks for complex sprite interactions, sprite animation with Aseprite, dynamic lighting through custom shaders, and UI elements/particle effects via pygame_gui. Planned enhancements include procedural world generation using Perlin Noise and Diamond-Square algorithms (via NumPy), alongside existing AI-driven systems like A* pathfinding and finite state machines (FSM) for NPC behavior and decision-making
+TiKTok account: Developed expertise in generative AI for image synthesis, transitioning from Midjourney to Stable Diffusion to explore advanced workflows, mastering parameters like sampling methods (Euler, DDIM), CFG scale, upscalers, and batch optimization while applying theoretical knowledge to practical experiments. Built a TiKTok channel to showcase AI-generated art, rapidly growing it to 10,000 followers in one month, though faced challenges monetizing content and training custom models/LoRAs due to hardware limitations (GPU constraints).
+Techniques and Self-Studying
+NVIDIA – has completed a course of Deep Learning, Acquired skills in core machine learning concepts, including supervised and unsupervised learning techniques, with a focus on clustering algorithms such as K-means, hierarchical clustering, and DBSCAN for data pattern recognition. Acquired hands-on experience with industry-standard frameworks (e.g., TensorFlow, PyTorch) and NVIDIA-specific tools (CUDA, cuDNN) to accelerate model training and deployment on GPU-optimized hardware. Demonstrated ability to preprocess and analyze large datasets, implement dimensionality reduction (PCA, t-SNE), and validate model generalizability through cross-validation and bias-variance tradeoff analysis, ensuring robust solutions for real-world applications.
+Was granted a high position in volunteering on Scarlet Sails in [location]. Was responsible for coordinating two groups of approximately 100 volunteers. Successfully maintained the chef tasks and performed on the government TV. Was rewarded with a Letter of Thanks.
+Textbook “Python Game Programming by Example”: mastered multimedia integration, network modules (Socket, asyncio), and AI-driven NPC behavior, alongside theoretical frameworks for memory optimization, rendering, and component-oriented design, though practical optimization was deferred due to project scope. Explored libraries like PyOpenGL, Pyglet, Panda3D (graphics), PyBox2D (physics), and PyTMX (map loading), building foundational skills to scale future game development projects with advanced engine capabilities.
+Textbook “Understanding Machine Learning: From Theory to Algorithms”: ML theory in statistics, core concepts - supervised/unsupervised learning, kernel selection, stochastic optimization. 
+Skills:
+Languages – [language] (Mother tongue), English (Proficient), Korean (Functional)
+Computer skills – Python, Excel, [compaany] Logistics, Stable Diffusion, Unity, ChatGPT, DeepSeek, Midjourney 
+Libraries – TensorFlow, Keras, PyTorch, NumPy, Scikit-learn, Pandas, PyOpenGL, Pyglet, Panda3D, PyBox2D, PyTMX, Matplotlib, Seaborn, Pygame, Pillow, Pytmx, Pyganim
+Others – conflict resolution skills, team leading, negotiation skills, time management, cross-cultural communication, resource management
+Hobbies:
+Chess (1780 in classics Lichess)
+Active sports (basketball, football)
+Music production (Ableton)

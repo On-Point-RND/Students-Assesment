@@ -1,0 +1,107 @@
+Generative Neural Model of Alzheimer's
+Disease Progression
+[name]
+Researcher, [compaany]
+Introduction: Alzheimer Disease
+Alzheimer’s disease is a progressive brain disorder that impairs
+memory, thinking, and decision-making abilities.
+It involves shrinkage of the cerebral cortex and hippocampus —
+regions responsible for processing information and storing memories.
+Neurons become damaged and die due to the buildup of toxic
+proteins in the brain: amyloid plaques and tau tangles.
+These changes disrupt communication between nerve cells, similar to
+how critical nodes in a computer network fail, leading to system-wide
+malfunctions.
+55m 10m 99%
+people currently people diagnosed of Alzheimer’s
+live with dementia with dementia annually candidate treatments
+have failed
+Problem statement
+There is a huge number of targeted molecules for Alzheimer's
+disease drug development, and the clinical trials required to test
+them often take a long time
+• In the 2024 Alzheimer's disease drug development pipeline,
+there are 164 clinical trials assessing 127 drugs
+• The total development time for a potential Alzheimer's disease
+therapy to progress from nonclinical studies to FDA review is
+approximately 13 years
+Identification of
+Therapeutic Targets
+Assessment of ⚠ Promising results in cell lines or animal
+Potential Efficacy models often do not translate to humans
+Evaluation of Safety Clinical Trials
+and Pharmacokinetics (Phases I–III)
+of this project
+Methods
+Patient's molecular
+data,
+Neurovisualization Mathematical cellular and defines parameters Neocortex Neural
+f
+o
+u d
+molecular model in AD Network Architecture n e
+Target drug d fi
+Time interval of the
+m
+o
+a t io
+n
+n e s
+t h
+simulation
+d
+e l
+a s o f
+t
+e
+b
+io
+RNN and SNN algorithms because r c h e lo
+they most accurately reflect the
+h
+i t e g e
+g
+ic
+c n a
+natural neural networks in the brain
+t
+u
+e
+r
+l
+r a
+e t
+iv
+e
+The results of
+cognitive tests
+External factors of defines parameters The in silico model of in dynamics
+therapy, for example, TMS neurodegeneration
+s k d
+el
+a o
+t m
+h
+e
+e
+t v Generative models that will solve
+n e s e r a ti cognitive tests
+fi n
+e e
+d g
+e
+h
+t
+of
+Adaptation
+of cognitive tests
+Bibliography
+1. [name]. "Alzheimer disease." Jama 313.14 (2015): 1488-1488.
+2. [name], MAPPING A. "Alzheimer’s disease facts and figures." Alzheimers Dement 19.4 (2023): 1598-1695.
+3. [name], Saeeda, Abida Ashraf, and Ahmad Zaib. "Transfer learning using freeze features for Alzheimer neurological disorder detection using ADNI
+dataset." Multimedia Systems 28.1 (2022): 85-94.
+4. [name], J., Zhou, Y., [name], K., [name], J., & [name]. (2024). Alzheimer's disease drug development pipeline: 2024. Alzheimer's &
+Dementia: Translational Research & Clinical Interventions, 10(2), e12465.
+5. [name], Haoyang, et al. "Data-driven causal model discovery and personalized prediction in Alzheimer's disease." NPJ digital medicine 5.1 (2022):
+137.
+6. [name], Anup, et al. "Modeling neurodegeneration in silico with deep learning." Frontiers in Neuroinformatics 15 (2021): 748370.

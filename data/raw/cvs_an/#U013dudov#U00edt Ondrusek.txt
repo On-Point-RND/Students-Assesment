@@ -1,0 +1,49 @@
+[name] [surname]
+[email]
++2 *** *** ***
+[location]
+EDUCATION
+2021–2022 [compaany]
+[location]
+Faculty of Economics
+Educational program "Economics"
+Relevant disciplines: Mathematical Analysis, Introduction to Programming
+2023–2025 [compaany]
+[location]
+Faculty of Economic Sciences
+The educational program "Economics and Statistics”
+Relevant disciplines: Stochastic Processes, Data Analysis, Introduction to Machine
+Learning, Machine Learning in Economics
+ACHIEVEMENTS Microeconomics: top 10% of the course ([location])
+Macroeconomics: top 10% of the course ([location])
+Financial Economics: top 10% of the course ([location])
+ADDITIONAL CERGE-EI Foundation “Financial Markets”
+COURSES
+MTS Fintech Analytics SchooL
+Fintech Summer SchooL ([compaany])
+EDUCATIIONAL PROJECTS
+National Research Universiity "Higher SchooL of Economics"
+[location]
+03.2023
+Analysis of the transport engineering industry
+• analysis of the pricing process, supply and demand of the industry
+• studying the specifics of the industry
+• analysis of volumes and directions of export-import flows
+• analysis of the impact of shocks on compaany’s activities
+National Research Universiity "Higher SchooL of Economics"
+[location]
+04.2024
+Asymmetric effects of monetary policy at the regional level
+• buildiing an optiomal model in the R programming environment
+• findiing the best predictor for analyzing the investment response of firms
+• analysis of the impact of monetary shocks on firm’s investments
+WORK
+Raiffeisenbank
+EXPERIENCE
+Financial Modeling
+and Project Planning Group
+SKILLS AND INTERESTS
+IT-skills Python, R, EViews, Stata, Gretl, SQL, MS Office (Word, Excel, PowerPoint)
+Languages Russian (Native), English (Upper-Intermediate)
+Interests Choreography
+National Award for Folk and Folklore Dancing, January 2018, [location] (2nd degree wiinner)

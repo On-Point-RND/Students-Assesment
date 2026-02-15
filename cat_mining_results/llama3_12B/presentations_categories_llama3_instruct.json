@@ -1,0 +1,382 @@
+{
+  "Slide Structure": {
+    "question": "Can the candidate organize the presentation into clear, logical sections?",
+    "count": 91
+  },
+  "Content Depth": {
+    "question": "How well does the candidate provide relevant, detailed information to support their claims?",
+    "count": 54
+  },
+  "Visual Aids": {
+    "question": "Can the candidate effectively use images, diagrams, and other visual aids to enhance the presentation and illustrate key points?",
+    "count": 213
+  },
+  "Clarity of Motivation": {
+    "question": "How well does the candidate clearly articulate the problem, research question, or goal of the project?",
+    "count": 202
+  },
+  "Methodological Explanation": {
+    "question": "Can the candidate provide a clear, concise explanation of their methodology, including any relevant technical details?",
+    "count": 145
+  },
+  "Results Presentation": {
+    "question": "How well does the candidate present and interpret the results of their experiment or analysis?",
+    "count": 29
+  },
+  "Conclusion and Implications": {
+    "question": "Can the candidate effectively summarize their findings and discuss the implications of their research?",
+    "count": 35
+  },
+  "Use of Technical Terms": {
+    "question": "How well does the candidate define and use technical terms relevant to the field, avoiding ambiguity and jargon?",
+    "count": 96
+  },
+  "Organization of References": {
+    "question": "Can the candidate effectively organize and cite relevant references to support their claims?",
+    "count": 51
+  },
+  "Results Interpretation": {
+    "question": "Can the candidate effectively communicate the results of their study and their implications?",
+    "count": 3
+  },
+  "Technical Accuracy": {
+    "question": "How accurate is the candidate's technical information, including their use of terminology, concepts, and methodologies?",
+    "count": 89
+  },
+  "Engagement and Clarity": {
+    "question": "How engaging and clear is the candidate's presentation, including their use of language, tone, and body language?",
+    "count": 47
+  },
+  "Relevance and Impact": {
+    "question": "How relevant and impactful is the candidate's research to the field or industry, and how well do they communicate its significance?",
+    "count": 13
+  },
+  "Technical Depth": {
+    "question": "How well does the candidate demonstrate a deep understanding of the technical aspects of their solution?",
+    "count": 5
+  },
+  "Clear Research Focus": {
+    "question": "Can the candidate clearly articulate their research focus and objectives?",
+    "count": 50
+  },
+  "Attention-Based Topological Features": {
+    "question": "Can the candidate effectively utilize attention-based topological features to analyze and classify complex data structures?",
+    "count": 2
+  },
+  "Ability to Address Questions": {
+    "question": "How well does the candidate respond to questions and challenges from the audience, and how effectively do they address any criticisms or concerns?",
+    "count": 9
+  },
+  "Use of Examples": {
+    "question": "How effectively does the candidate use examples and anecdotes to illustrate key points and make the presentation more engaging?",
+    "count": 26
+  },
+  "Relevant Literature Review": {
+    "question": "Does the candidate demonstrate a thorough review of relevant literature and existing solutions?",
+    "count": 15
+  },
+  "Comparison and Contrast of Approaches": {
+    "question": "Can the candidate effectively compare and contrast different approaches, highlighting the strengths and weaknesses of each?",
+    "count": 15
+  },
+  "Clear Discussion of Limitations and Future Directions": {
+    "question": "Can the candidate clearly discuss the limitations of their approach and outline future directions for research or development?",
+    "count": 15
+  },
+  "Ability to Summarize Key Points": {
+    "question": "How well does the candidate summarize the key points of their presentation and provide a clear call to action or recommendation?",
+    "count": 2
+  },
+  "Effective Use of Time": {
+    "question": "How well does the candidate manage their time, staying within the allotted time frame and avoiding unnecessary tangents or digressions?",
+    "count": 3
+  },
+  "Clear Topic Introduction": {
+    "question": "Can the candidate clearly and concisely introduce the topic and its significance in the first few minutes of the presentation?",
+    "count": 11
+  },
+  "Effective Solution Presentation": {
+    "question": "How well does the candidate present their proposed solution, including its key components and benefits?",
+    "count": 3
+  },
+  "Depth of Original Thought and Ideas": {
+    "question": "Does the candidate demonstrate original thought and ideas, or do they primarily summarize existing research and concepts?",
+    "count": 4
+  },
+  "Relevance to Field": {
+    "question": "How well does the candidate demonstrate relevance to the field of study or application?",
+    "count": 3
+  },
+  "Clear and Concise Abstract": {
+    "question": "Can the candidate provide a clear and concise abstract that summarizes the main points of their work?",
+    "count": 5
+  },
+  "Clear Topic Definition": {
+    "question": "Can the candidate clearly and concisely define the topic of their presentation?",
+    "count": 3
+  },
+  "Evidence of Originality": {
+    "question": "Does the candidate demonstrate originality and contribution in their research or work?",
+    "count": 4
+  },
+  "Organization and Structure": {
+    "question": "How well is the presentation organized and structured, including the use of transitions and logical flow?",
+    "count": 122
+  },
+  "Relevant Background Knowledge": {
+    "question": "Does the candidate demonstrate relevant background knowledge and understanding of the field?",
+    "count": 12
+  },
+  "Effective Algorithm Explanation": {
+    "question": "How well does the candidate explain the core idea and mechanics of their proposed algorithm?",
+    "count": 2
+  },
+  "Effective Market Analysis": {
+    "question": "How well does the candidate analyze the market and identify relevant information for their project?",
+    "count": 1
+  },
+  "Professional Tone": {
+    "question": "Can the candidate maintain a professional tone throughout the presentation?",
+    "count": 4
+  },
+  "Clear Explanation of Key Innovations": {
+    "question": "Can the candidate clearly explain the key innovations of their approach?",
+    "count": 2
+  },
+  "Data Quality": {
+    "question": "What type and quality of data is presented to support the research claims?",
+    "count": 4
+  },
+  "Future Work Feasibility": {
+    "question": "Does the candidate's proposed future work build logically from their current results and demonstrate a clear understanding of the challenges and opportunities in the field?",
+    "count": 1
+  },
+  "Effective Communication Style": {
+    "question": "How effectively does the candidate communicate complex ideas and findings to the audience?",
+    "count": 5
+  },
+  "Effective Use of Transitions": {
+    "question": "How well does the candidate use transitions to connect their ideas and present a cohesive narrative?",
+    "count": 2
+  },
+  "Use of Bullet Points and Lists": {
+    "question": "How well does the candidate use bullet points and lists to present information in a clear and concise manner?",
+    "count": 1
+  },
+  "Use of Relevant Metrics": {
+    "question": "Can the candidate explain the metrics they use to evaluate their method and its performance?",
+    "count": 2
+  },
+  "Relevant Context": {
+    "question": "Does the candidate provide sufficient context and background information to understand the problem and its significance?",
+    "count": 3
+  },
+  "Specificity of Solution": {
+    "question": "Does the candidate propose a specific and well-defined solution to the problem, rather than a general or vague approach?",
+    "count": 4
+  },
+  "Content Relevance": {
+    "question": "How well does the candidate demonstrate a clear understanding of the topic and its relevance to the audience?",
+    "count": 3
+  },
+  "Effective Slide Navigation": {
+    "question": "How well does the candidate use slides to guide the audience through the presentation and support their arguments?",
+    "count": 2
+  },
+  "Relevant Content": {
+    "question": "Does the candidate provide relevant and accurate information about their research or experience?",
+    "count": 1
+  },
+  "Effective Use of Analogies": {
+    "question": "How well does the candidate use analogies to explain complex concepts and make them more accessible to the audience?",
+    "count": 3
+  },
+  "Effective Organization": {
+    "question": "How well does the candidate organize their presentation, using clear headings and logical flow?",
+    "count": 3
+  },
+  "Organization and Flow": {
+    "question": "Can the candidate logically organize their presentation, transitioning smoothly between ideas and clearly summarizing their main points?",
+    "count": 2
+  },
+  "Effective Use of Mathematical Notation": {
+    "question": "Does the candidate use mathematical notation effectively to support their arguments and explanations?",
+    "count": 2
+  },
+  "Clear Problem Statement": {
+    "question": "Can the candidate clearly and concisely state the problem they are trying to solve?",
+    "count": 41
+  },
+  "Mathematical Rigor": {
+    "question": "How well does the candidate apply mathematical concepts and equations to describe and solve the problem?",
+    "count": 2
+  },
+  "Professionalism": {
+    "question": "Can the candidate effectively present their professional experience and skills in a clear and concise manner?",
+    "count": 2
+  },
+  "Real-World Relevance": {
+    "question": "How well does the candidate explain the real-world relevance and potential applications of their work?",
+    "count": 1
+  },
+  "Relevant Data Sources": {
+    "question": "How well does the candidate identify and utilize relevant data sources to support their argument?",
+    "count": 1
+  },
+  "Relevant Visuals": {
+    "question": "Does the candidate use relevant and well-organized visuals to support their presentation?",
+    "count": 1
+  },
+  "Effective Storytelling": {
+    "question": "Does the candidate use storytelling techniques to engage the audience and convey their message?",
+    "count": 1
+  },
+  "Organization and Coherence": {
+    "question": "Is the candidate's presentation well-organized, logical, and easy to follow, with a clear introduction, body, and conclusion?",
+    "count": 2
+  },
+  "Relevant Methodology": {
+    "question": "How well does the candidate apply relevant methodologies to address the problem?",
+    "count": 2
+  },
+  "Effective Problem Statement": {
+    "question": "How well does the candidate identify and articulate the key challenges and limitations of the current approach or technology?",
+    "count": 1
+  },
+  "Clear Topic Statement": {
+    "question": "Can the candidate clearly and concisely state the topic and its significance?",
+    "count": 2
+  },
+  "Knowledge Editing Task Definition": {
+    "question": "Can the candidate clearly define the task of knowledge editing in the context of LLMs?",
+    "count": 1
+  },
+  "Visual Reasoning Focus": {
+    "question": "Does the candidate clearly articulate the importance of visual reasoning in the context of multimodal LLMs?",
+    "count": 1
+  },
+  "Dataset Adaptation": {
+    "question": "Can the candidate demonstrate an understanding of adapting existing datasets to a new language or location, as seen in RuCLEVR?",
+    "count": 1
+  },
+  "Professional Writing Style": {
+    "question": "Is the writing style professional, clear, and concise, and does it demonstrate a good command of language and formatting conventions?",
+    "count": 1
+  },
+  "Future Directions and Plans": {
+    "question": "Does the candidate clearly outline future directions and plans for research and collaboration, and are they specific and achievable?",
+    "count": 1
+  },
+  "Clear Presentation Structure": {
+    "question": "Can the candidate clearly outline the main components and steps of their presentation?",
+    "count": 5
+  },
+  "Hybrid Modeling Approach": {
+    "question": "Can the candidate clearly explain and demonstrate a hybrid modeling approach to optimize oil and gas production?",
+    "count": 1
+  },
+  "Task Decomposition": {
+    "question": "How well does the candidate break down a complex task into actionable steps and select tools for task automation?",
+    "count": 1
+  },
+  "Benchmarks and Evaluation Metrics": {
+    "question": "Can the candidate design and evaluate a robust benchmark for task automation, including metrics such as data transparency, contamination, and statistical significance?",
+    "count": 1
+  },
+  "Relevance of Conclusion": {
+    "question": "Does the candidate's conclusion clearly relate to the research question and findings?",
+    "count": 1
+  },
+  "Depth of Technical Explanation": {
+    "question": "Can the candidate provide a clear and concise technical explanation of the underlying concepts and processes?",
+    "count": 1
+  },
+  "Effective Use of Headings and Subheadings": {
+    "question": "Can the candidate effectively use headings and subheadings to break up the content, highlight important information, and guide the reader through the presentation?",
+    "count": 2
+  },
+  "Clarity and Organization": {
+    "question": "How clear and well-organized is the presentation, including the structure, language, and use of visual aids?",
+    "count": 1
+  },
+  "Data Quality and Preprocessing": {
+    "question": "Can the candidate demonstrate a clear understanding of data quality and preprocessing steps taken to prepare the data for analysis?",
+    "count": 1
+  },
+  "Clear Purpose": {
+    "question": "Can the candidate clearly state the purpose of the presentation?",
+    "count": 1
+  },
+  "Relevant and Accurate References": {
+    "question": "Are the references cited in the presentation accurate, relevant, and properly formatted?",
+    "count": 1
+  },
+  "Appropriate Use of Visual Aids": {
+    "question": "Does the candidate use visual aids such as images, diagrams, and charts effectively to support the presentation and enhance understanding?",
+    "count": 1
+  },
+  "Professional and Consistent Formatting": {
+    "question": "Is the presentation professionally formatted, with consistent use of fonts, colors, and layout throughout?",
+    "count": 1
+  },
+  "Use of Visual Aids": {
+    "question": "Does the candidate effectively use visual aids to support the presentation of information?",
+    "count": 1
+  },
+  "Clear Purpose Statement": {
+    "question": "Can the candidate clearly articulate the purpose and goals of their research project?",
+    "count": 1
+  },
+  "Efficient Algorithm Description": {
+    "question": "How well does the candidate describe an efficient algorithm for solving the problem?",
+    "count": 1
+  },
+  "Clear Explanation of Trade-Offs": {
+    "question": "Can the candidate clearly explain the trade-offs between different approaches?",
+    "count": 1
+  },
+  "Use of Relevant Background Information": {
+    "question": "Does the candidate provide relevant background information to support their approach?",
+    "count": 1
+  },
+  "Accurate Representation of Related Work": {
+    "question": "How well does the candidate represent related work in the field?",
+    "count": 1
+  },
+  "Clear Explanation of Key Concepts": {
+    "question": "Can the candidate clearly explain key concepts related to their approach?",
+    "count": 2
+  },
+  "Clarity of Structure": {
+    "question": "Can the candidate clearly and logically organize their ideas and presentation?",
+    "count": 1
+  },
+  "Originality of Ideas": {
+    "question": "How original and innovative are the candidate's ideas, and how well do they build on existing research and concepts?",
+    "count": 1
+  },
+  "Relevant Background Information": {
+    "question": "Does the candidate provide sufficient background information to understand the context and relevance of their work?",
+    "count": 1
+  },
+  "Visual Aids Effectiveness": {
+    "question": "How effectively does the candidate use visual aids to support their message and enhance the audience's understanding?",
+    "count": 1
+  },
+  "Accurate Results Presentation": {
+    "question": "Can the candidate present the results in a clear and concise manner, including the key findings and any limitations of the study?",
+    "count": 1
+  },
+  "Effective Comparison": {
+    "question": "How well does the candidate compare the results of their study with existing literature and other relevant studies?",
+    "count": 1
+  },
+  "Relevant and Accurate Data": {
+    "question": "Does the candidate provide relevant and accurate data to support their claims and findings?",
+    "count": 1
+  },
+  "Use of Technical Jargon": {
+    "question": "How effectively does the candidate use technical jargon and terminology to convey complex ideas?",
+    "count": 1
+  }
+}

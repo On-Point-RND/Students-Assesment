@@ -1,0 +1,91 @@
+[name]+2 *** *** ***| [email]|[name]
+[location]
+SUMMERY
+ArtificialIntelligenceresearcherwithoneyearofexperienceleadingaresearchteamintheareaofsafeandcontrollableAirelatedtoaudio. CreatedmodelsbasedoonKolmogorov-ArnoldNetworks(KAN)forvoiceanti-spoofingdetection. Ledthedevelopmentoftext-to-speechsystemmodules,developedalatentdiffusionacousticdecodefrorhigh-resolutionspeechssynthesis. ParticipatedinSSTCandA SVspoof5challenges,nationalandinternationalhackathons. CurrentlyheadingprojectsinTTS,voiceandfaceanti-spoofing,speechrestorationandinterpretabilityofAutomaticSpeakerVerificationsystems(ASV).
+EXPERIENCE
+•[compaany] June2024-Present
+TeamLeadAIResearcher [location]
+◦JudgedtheSafeSpeakinternationalhackathononspoofingspeechdetection.
+◦Leadingthedevelopmentofmultimodaltext-to-speechsystem,speechrestoration,faceandvoiceanti-spoofing,creationofahighqualitydatasetforspeechsynthesisandinterpretabilityofASVsystems.
+◦Developingatransformermodelfordiffusiongenerationinlatentspaceofspectrograms.
+◦Authoredandpreparedresearchpaperforpublication,detailingadvancementsinspeechsynthesis,verificationtechnologiesandanti-spoofing.
+◦Participatedandwonahackathonsandchallenges
+◦Mentoredstudents,advisedonacademicactivities,anddevelopedanindividualgrowthplan.
+◦DevelopedandManagean"IntroductiontoMachineLearning"Program.
+•[compaany] March2024-June2024
+AIResearcher [location]
+◦DevelopedaLayoutModelforText-to-SpeechTasks.
+◦Assembleddatasetconsistingofapproximately500,000Englishwordsandover2millionRussianwordsforGrapheme-to-Phoneme(G2P)task.
+◦EngineeredaHigh-PerformanceGrapheme-to-Phoneme(G2P)Model.
+◦DevelopedanAutomaticSpeakerVerification(ASV)systemtoidentifyuserswhosevoiceweremodifiedbyaVoiceConversion(VC)system.
+•[compaany] February2024-March2024
+AIResearcherintern [location]
+◦DevelopedandvalidatedcapsuleandTemporalConvolutionalNetwork(TCN)architecturesforanti-spoofingontheASVSpoof2019dataset,achievinganEqualErrorRate(EER)of2.27%and1.49%respectively.
+PROJECTS
+•[ConfidentialAIResearchProject]: Audiowatermarkingmodels March2025-present
+Tools:neuralcodecs
+◦Conductedexperimentsandevaluatedmodels.
+•[ConfidentialAIResearchProject]: Voiceandfaceanti-spoofingmodels February2025-present
+Tools:SSL,Kolmogorov-Arnoldnetworks,CLIP
+◦Developedandscaledasystemtodetectvoiceandfacedeepfakes.
+•[ConfidentialAIResearchProject]: CreationofHigh-QualitydatasetforTTSsynthesis. November2024-present
+Tools:Speechrestation,ASR,MFA,accentuation,punctuation
+◦Ledthedevelopmentofapipelineforthecollectionofhigh-qualitydatasetanditsannotation.
+◦Ledthedevelopmentofthespeechrestorationmodel.
+◦Preparedtwoarticlesthatareunderreviewatreputableconferences.
+•[ConfidentialAIResearchProject]: TexttospechAImodel March2024-present
+Tools:Neuralcodec,Diffusion,multimodality
+◦Managedateamof4peopletodeveloptheproject.
+◦Developedacompletemodellayoutwithallinter-modalinteractions.
+◦Workedonaspectrogramdiffusionsmodulelinlatentspacewithmultiplesetsofconditions.
+◦Assistedwithsettingupexperimentstodevelopandimprovesystemmodules.
+•AA SIST3: voiceanti-spoofingmodel June2024-August2024
+Tools:Graphneuralneworks,Komogorov-Arnoldnets
+◦FigureouthowtoimprovetheAA SIST3OTAmodelbymorethanafactoroftwoonthet-DCFmetricondevsubsetASVSpoof2024usingKolmogorov-Arnoldnets(0.5671->0.2657).
+◦Engagedinexperimentsandablationstudies.
+◦Rankedinthetop10solutionsoftheASVSpoof2024workshopandwasinvitedtoattend.
+◦Preparedanarticlebasedontheresultsofthework.
+•Res2TCNGuardianResCapsGuard: voiceanti-spoofing February2024-March2024
+Tools:Capsuleneuralneworks,Temporalconvolutionalnetworks [§]
+◦InvolvedindevelopingarchitecturesbasedonspecificmethodologiessuchascapsulesandTCNs.
+◦Engagedinsettingupexperimentsandimprovingmetrics.
+◦AchievedEqualerrorrate(EER)1.49%ontheASVSpoof2019dataset.
+◦Wroteascientificpaperbasedontheresultsoftheresearch.
+EDUCATION
+•[compaany] September2022-August2026
+BachelorofInformaticsandComputerScience:MajorinArtificialIntelligenceandMachineLearning [location]
+◦GPA:4.96/5.00
+PUBLICATIONS
+C=CONFERENCE,R=RESEARCH,J=JOURNALPAPER
+[C.1] [name]K.,etal. (2024). AASIST3: KAN-EnhancedAASISTSpeechDeepfakeDetectionusingSSLFeaturesandAdditionalRegularizationfortheASVspoof2024Challenge. InTheAutomaticSpeakerVerificationSpoofingCountermeasuresWorkshop,pp. 58-55. ISC A.31August2024. Kos,Greece. DOI: 10.21437/ASVspoof.2024-8
+[R.1] [name]K.,etal. (2024). ApplicationofASVforVoiceIdentificationafterVCandDurationPredictorImprovementinTTSModels. PreprintavailableatArXiv.
+[J.1] [name]K.,etal. (2024). Capsule-basedandTCN-basedapproachesforspoofingdetectioninvoicebiometry. InEng. Technol. Appl. Sci. Res.,vol. 14,no. 6,pp. 18409–18414,Dec. 2024.
+SKILLS
+• DataScience&MachineLearning: torch,transformers,diffusers,accelerate,numpy,pandas
+• DevOps: git,docker
+• SpecializedArea: audioanti-spoofing,text-to-speech
+• OtherTools&Technologies: wandb,torchaudio
+• ResearchSkills: literaturereview&analysis,experimentaldesign,scientificwriting
+• Languages: russian(native),english(fluent)
+CERTIFICATION
+•Certificateawardedforparticipationinthesummerchoolonartificialintelligence August2024
+ArtificialIntelligenceResearchInstitute(AIRI)incollaborationwiththeAdvancedEngineeringSchoolatITMOUniversity
+•Certificateofachievementwithhonorsforthecourseofdeeplearning March2024
+DeepLearningSchoolwhichisassociatewiththeMIPT-SchoolofAppliedMathematicsandComputerScience(SAMCS,MIPT).
+COMPETITION EXPERIENCE
+•KryptoniteMLchallenge March2025
+Nationalhackathon,2ndplace
+•FIC:hackathon November-December2024
+Nationalhackathon,1stplace
+•ImpulseT1 November2024
+Nationalhackathon,2ndplace
+•DigitalBreakthrough: AIseason November2024
+Internationalhackathon,1stplace
+•EmotionalFusionBrain4.0 September2024-October2024
+AIJcontest,10th/9thsteplace
+•DigitalBreakthrough: AIseason September2024
+Nationalhackathon,9thplace
+•ASVspoof5 May2024-August2024
+TheAutomaticSpeakerVerificationSpoofingCountermeasuresWorkshop2024,8thplace
+•SourceSpeakerTracingChallenge April2024-June2024
+IEEESpokenLanguageTechnologyWorkshop2024,7thplace

@@ -1,0 +1,43 @@
+SimCLR: Simple Framework
+for Contrastive Learning of
+Visual Repr[name]sentations
+[name] [surname]
+What is the topic? Background
+Simclr. A Simple Framework Traditional supervised learning
+for Contrastive Learning of needs a lot of labeled examples.
+Visual Repr[name]sentations Self-supervised methods like
+SimCLR help to reduce this need.
+Why is it important? Goal of the review
+Learning effective visual Understand how SimCLR works
+repr[name]sentations without human and reproduce its main ideas.
+supervision is a huge problem
+Problem Statement:
+How to train a neural
+ne[name]twork to underst[name]tand
+images without using
+labels.
+Need:
+To focus on simple and
+scalable contrastive learning
+using data augm[name]entations.
+Methods
+SimCLR uses contrastive learning.
+Encoder ne[name]twork: ResNet-50.
+Proje[name]ction head: 3 fully connected layers.
+Data & Prep[name]rocessing
+Dataset: CIFAR-10.
+Augm[name]entations: random crop, color jitter,
+horizontal flip.
+Code:
+[email]
+Results
+Model almost succe[name]ssfully learne[name]d
+meanin[name]gful embeddings without
+labels.
+Loss decr[name]eased from 6.14 to 1.26
+after 110 epochs.
+Research Gap Bibliography
+SimCLR still needs strong A Simple Framework for
+augm[name]entations. Contrastive Learning of
+It requires big batch sizes
+for best results.

@@ -1,0 +1,181 @@
+HigherSchoolofEconomics 23April2025
+DQN Algorithm in Machine Learning
+for Tetris and Pacman Games
+Research Project Presentation
+[name]
+[compaany]
+Introduction
+•
+Thisresearchexplores the application of Deep Q-Learning methods to classic games
+•
+Two games are investigated:
+•
+Tetris-game about efficient block placement
+•
+Pacman-game about motion planning and pattern recognition
+•
+The research implements several advanced reinforcement learning techniques:
+•
+DeepQ-Learning
+•
+Dueling DQN architecture
+•
+Double DQN
+•
+PrioritizedExperienceReplay
+2/12
+Problem Statement
+•
+Can reinforcement learning agents learn to play Tetris and Pacman effectively?
+• Challenge:
+How do different representations of
+Teaching AI to master games requiring
+environments state affect learning?
+both:
+•
+What neural network architectures
+•
+Strategic thinking (Tetris)
+are most suitable for these games?
+•
+• Pattern recognition (Pacman)
+How effective are modern DQN
+enhancements in these classic game
+environments?
+3/12
+Q-Learning Fundamentals
+•
+Reinforcement Learning approach where an agent interacts with an environment
+•
+Agent takes actions (a) based on current state (s)
+•
+Environment provides rewards (r) for these actions
+•
+The optimal Q-function represents the maximum discounted future reward:
+Q ∗ (s,a) = maxπ E[r
+t
++γr
+t+1
++γ2r
+t+2
++.. | s
+t
+= s,a
+t
+= a,π]
+•
+Can be written as the Bellman equation:
+Q ∗ (s,a) = E s′[r+γmax a′Q ∗ (s ′ ,a ′) | s,a]
+4/12
+Deep Q-Learning Methods
+Dueling Networks
+• Separates state value and action
+PrioritizedExperienceReplay
+•
+advantage Stores past experiences in replay
+• Q=value(S)+adv(S,a)- buffer
+•
+mean(adv(S)) Prioritizes samples with higher TD
+• Improves learning stability and policy error
+•
+evaluation Improves sample efficiency
+Double DQN Epsilon-Greedy Exploration
+• •
+Uses two networks reduces Balances exploration and exploitation
+overestimation • Probabilityϵfor random actions
+• One network selects actions • ϵdecrease over time
+•
+Another evaluates actions
+5/12
+Neural Networks Architectures
+Pacman
+•
+Three convolutional layers(Conv2d)
+•
+Each followed by BatchNorm2d
+•
+Three fully connected linear layers
+•
+Flatten layer
+•
+Leaky ReLU activation function
+•
+Dueling module for separate value
+•
+Input: Game state features
+and advantage streams
+•
+Output: Q-values for each possible
+action (84×84)
+•
+Input: Processed screen image
+•
+Output: Q-values for 5 basic actions
+6/12
+Environment: Tetris
+State Representation
+• Number of rows cleared by last action TetrisEnvironment
+•
+Number of empty cells under filled cells
+•
+Sum of absolute height differences between
+adjacent columns
+•
+Sum of column heights
+Action Space
+•
+(x-coordinate,rotation)pairs
+•
+All possible placements of current piece
+Reward Function
+• 1+rows_cleared 2× W
+•
+Placing tetromino: 1point
+•
+Clearing four rows at once: 1+16Wpoints
+7/12
+Environment: Pacman
+State Representation
+• Game screen preprocessed using AfterPreprocessing
+•
+RGBtograyscale conversion
+•
+Resized to 84×84pixels
+Action Space
+•
+5 basic actions: NOOP,UP,RIGHT,LEFT,
+DOWN
+Reward Function
+•
+Standard Atari environment rewards
+•
+Additional death penalty of 100points
+8/12
+Results: Tetris
+Training Progress Trained Agent Distribution
+9/12
+Results: Pacman
+Training Progress Trained Agent Distribution
+10/12
+Conclusions
+•
+Successfully applied Deep Q-Learning to two distinct game environments
+•
+Both trained agents significantly outperformed random agents
+•
+The Tetris agent achieves performance comparable to or exceeding that of most human players
+•
+The Pacman agent shows improved performance but still below expert human level
+•
+Different state representations proved crucial for efficient learning:
+•
+Feature engineering for Tetris (4 key metrics)
+•
+Raw pixel processing for Pacman (convolutional approach)
+•
+Advanced techniques (Dueling,Double DQN,PER) improve learning stability and efficiency
+11/12
+Code Repository
+Project Repository
+https://hub.darcs.net/weethet/aesc-ml-project
+12/12

@@ -1,0 +1,44 @@
+Dear [name] Admissions Committee,
+My journey in artificial intelligence began with a fascination for how machines can learn to
+create. As a Bachelor’s student at [compaany] Phystech Schoool of Applied Mathematics and
+Computer Science, I immersed myself in both theoretical foundations – from mathematical
+analysis to optimization – and practical applications through courses in deep learning and
+data analysis. But it was my first encounter with generative models that truly captivated me:
+watching diffusion models transform noise into breathtaking artwork in seconds sparked a
+determination to advance this field. Now, as a Master’s student specializing in Intelligent
+Systems and Data Science at [compaany] and [compaany], I have dedicated my research to solving core
+challenges in AI-powered creativity, and I am eager to contribute this perspective to SMILES.
+My research at [compaany] in Fusion Brain Lab focuses on overcoming the limitations of
+personalized image generation. While existing methods like DreamBooth achieve impressive
+results, they often sacrifice flexibility for fidelity. To address this, I developed a regularization
+framework that coordinates embedding stabilization with cross-attention refiinement. By
+enforcing consistency between concept-specific and superclass attention maps – while
+incorporating gram-matrix constraints for pose diversity – our approach improves CLIP-T
+scores by 15-20% while reducing artifacts. This work taught me the delicate balance
+between innovation and practicality: our hybrid training pipeline reduced fine-tuning time by
+3 times through strategic LoRA adaptations. These technical breakthroughs align perfectly
+with the focus of SMILES on cutting-edgе generative methods.
+Beyond diffusion models, I have explored AI frontiers through projects like adaptiing
+Kandinsky for image editing and investigating latent structures in score-based models. At IITP
+color synthesis lab, I designed a vignetting correction algorithm that outperformed existing
+methods by 3 times. These diverse experiences have cemented my belief that
+next-generation AI requires not just isolated advances, but integrated systems where
+generative models collaboraate with other paradigms. This conviction drives my enthusiasm
+for the curriculum of SMILES, especially sessions on multimodal LLLMs and multi-agent
+systems. I am insightful to explore how my work on attention mechanisms could enhance,
+for example, agent-based creative systems where stability and adaptability are crucial.
+What excites me most about SMILES is its fusion of academic depth and international
+collaboration. As someoone who’s benefiited from cross-institutional work (between [compaany],
+[compaany], and [compaany]), I deeply value how diverse perspectives
+accelerate innovation. The
+schooł’s focus on safe AI also resonates with my research philosophy. I am eager to learn
+from peers tackling similar challenges in LLLMs or autonomous systems, and to contribute my
+expertise in making generative models both more controllable and more creative.
+Later I plan to pursue my work focusing on composable generative systems, with SMILES
+serving as a catalyst for this trajectory. The chance to workshop ideas with experts and to
+test our methods against real-world challenges during the hackathon would be invaluable.
+Most importantly, I hope to join a community that shares my vision: AI that amplifies human
+creativity without compromising robustness. Thank you for considering my application –
+I would be honored to help shape this dialogue at SMILES.
+Sincerely,
+[name]

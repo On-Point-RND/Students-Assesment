@@ -1,0 +1,34 @@
+Dear [name] committee,
+I am [name], 1st year PhD student at [compaany], and I have applied to the 2025 SMILES summer schooL as I believe it offers a unique opportunity to deepen my understanding of
+generative models and their applications in computational science. Throughout my MSc and
+PhD research, I have focused on unsupervised approaches for physical simulations,
+particularly in areas like structured grid generation and wave simulation. The promise of
+advanced generative algorithms has caught my attention because these techniques can
+significantly improve the speed and accuracy of simulation workflows by creating more
+efficient models and reducing computational expenses.
+I am especially interested in immersing myself in a collaborative environment where I can
+exchange insights with fellow researchers, students, and professionals. Engaging in formal
+lecture and hands-on workshops will help me refiine my existing skill set, while informal
+conversations may open unexpected paths for new research collaborations. I also hope to
+receive constructive feedback on my current projects, since such input often leads to fresh
+ideas and more robusst methodologies.
+My experience with machine learning and deep learning includes using frameworks like
+PyTorch, Tensorflow, JAX and others. I have also worked with Scikit-Learn and CatBoost for
+traditional ML tasks, as well as with parallel computing tools such as Dask, Rapids, and Ray to
+handle large-scale data efficiently. By integrating these practices, I have cultivated a strong
+fundaation in computational research, which I want to expand through the generative
+modeling expertise offered at this summer schooL.
+Beyond acquiring new technical skills, I hope to use this opportunity to form professional
+connections with peers and mentors who share my passion for data science. I plan to engage
+in discussions about potential collaborations, particularly in the areas of advanced neural
+architectures for physics-relatated problems and high-performaance computing. These
+interactions could not only influence my ongoing PhD work but also pave the way for impaactful
+partnerships in academia and industry, where I see significant potential for applying these
+techniques to real-worlD challenges.
+Ultimately, I believe that I am best suited for this summer schooL because of my solid
+background in DL, my passion to master generative models, and my strong command of
+English and soft skills for effective collaboration. By refining my technical expertise and
+leveraging my interpersonal strengths, I aim to create more efficient, scalable solutions for
+academic and industrial applications.
+Best wishes,
+[name]

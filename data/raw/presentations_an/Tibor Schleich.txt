@@ -1,0 +1,59 @@
+[name]
+Graduate student, [location] [University]
+Adaptive decentralized control system for heterogeneous grouping of mobile robots when performing applied tasks
+
+Introduction
+
+The project is dedicated to developing new intelligent technologies for controlling groups of mobile robots with various functional capabilities while performing relevant applied tasks. These tasks include monitoring the ecological state of water bodies and territories, refining bioresource reserves, ensuring situational awareness during emergencies, and conducting ice reconnaissance in the Arctic waters.
+Mathematical models of control systems will be developed and studied to decompose the overall task of robot grouping into subtasks. This will consider the quantitative and qualitative composition of the group, control and disturbance effects, and the issuance of control actions to each robot in the group.
+For typical applied tasks, control quality functionals and constraint systems will be developed, taking into account the specifics of the tasks being solved. To enhance control efficiency in conditions of incomplete information about the environment and the roughness of mathematical models, modern intelligent control technologies will be employed. The use of decentralized control principles will ensure high fault tolerance of the system and the ability to quickly change the group's capacity in response to changing operational situations. It will also mitigate the impact of communication channel bandwidth limitations and signal propagation delays on control quality. The use of artificial intelligence technologies will reduce the impact of the decreased number of sensory information perception channels by a human operator during remote robot control on control efficiency.
+The scientific novelty of the work lies in developing new approaches to implementing group control of robots in dynamically changing conditions and improving existing methods based on machine learning technologies.
+Using an interdisciplinary approach in developing group control technologies for robots will achieve increased control efficiency. This will be done by combining the advantages of the traditional approach to multi-agent control with the capabilities of artificial intelligence systems to accumulate and utilize experience in specific operating conditions.
+
+Problem statement
+
+The project is dedicated to developing new intelligent technologies for controlling groups of mobile robots with various functional capabilities while performing relevant applied tasks. These tasks include monitoring the ecological state of water bodies and territories, refining bioresource reserves, ensuring situational awareness during emergencies, and conducting ice reconnaissance in the Arctic waters. Mathematical models of control systems will be developed and studied to decompose the overall task of robot grouping into subtasks. This will consider the quantitative and qualitative composition of the group, control and disturbance effects, and the issuance of control actions to each robot in the group.
+For typical applied tasks, control quality functionals and constraint systems will be developed, taking into account the specifics of the tasks being solved.
+To enhance control efficiency in conditions of incomplete information about the environment and the roughness of mathematical models, modern intelligent control technologies will be employed.
+The use of decentralized control principles will ensure high fault tolerance of the system and the ability to quickly change the group's capacity in response to changing operational situations. It will also mitigate the impact of communication channel bandwidth limitations and signal propagation delays on control quality. The use of artificial intelligence technologies will reduce the impact of the decreased number of sensory information perception channels by a human operator during remote robot control on control efficiency.
+The scientific novelty of the work lies in developing new approaches to implementing group control of robots in dynamically changing conditions and improving existing methods based on machine learning technologies.
+
+Methods
+
+To solve the problem of controlling a heterogeneous group of mobile robots, a comprehensive approach is proposed. This approach combines advanced methods of optimization, intelligent control, and data processing.
+Methods for Optimizing Collective Actions and Task Distribution:
+For decomposing the overall task into subtasks performed by individual robots, iterative methods of optimizing collective actions and distributing goals are applied. This will enable efficient coordination of robot actions, minimizing task completion time and resources. Key approaches include sequential plan improvement methods and task distribution using auction mechanisms. These approaches will ensure dynamic task redistribution among robots based on their current state and capabilities.
+Clustering and Classification Methods:
+To group robots by similar tasks or working conditions, and to dynamically determine the priorities of the tasks being performed, clustering and classification methods will be used. This will allow for the adaptation of task and route distribution for each group of robots.
+Robot Movement Control with Obstacles:
+For controlling robot movement in the presence of obstacles and movement constraints, the dynamic window method and the potential field method are applied. These methods enable the calculation of optimal movement trajectories considering the environment and real-time obstacle avoidance.
+Intelligent Control and Adaptation to Conditions:
+To enhance the autonomy of robot functioning and their ability to adapt to changing conditions, intelligent control methods are used. These include dynamic programming and Markov decision processes, allowing robots to independently adjust their actions based on changing situations and received data. Reinforcement deep learning methods will enable robots to learn optimal actions in complex conditions without requiring constant external control.
+Methods of Fuzzy Set Theory and Fuzzy Logic:
+To solve problems in conditions of uncertainty and fuzziness of information, methods of fuzzy set theory, fuzzy logic, and fuzzy inference systems will be applied. These methods will enable robots to make decisions when system or environmental parameters are partially unknown or represented in the form of qualitative assessments.
+Methods of Mathematical Statistics and Data Analysis:
+For analyzing data obtained during experiments and evaluating the effectiveness of the control system, methods of mathematical statistics and intelligent data analysis will be used. This will help identify patterns in robot actions, optimize control algorithms, and improve the accuracy of performed operations.
+
+Results
+
+The project will result in the development of mathematical models for controlling a group of robots when performing typical tasks under perturbation conditions. The adequacy of the obtained mathematical models will be confirmed by the results of experimental studies. On the basis of computational experiments with these mathematical models, new effective methods of group control of mobile robots will be developed to solve applied problems in the field of environmental monitoring, infrastructure operation, emergency response, etc., specific recommendations for the construction of control systems for heterogeneous grouping of robots will be given, as well as reasonable estimates of the effectiveness of their use in different configurations in the performance of specific tasks. This project will open at the Department of Electromechanics and Robotics of [University] a new direction of research in the field of group control of mobile robotic complexes. In this direction, it is planned to conduct a wide range of scientific research, including the involvement of graduate students of the department. The scientific results obtained during the project will be used in the educational process at [University] in the training of bachelors and masters in the direction of "Mechatronics and Robotics", as well as for the sustainable development of scientific and teaching potential of the university.
+
+Research gap
+
+1. Developing new effective methods for controlling groups of mobile robots when solving applied tasks in conditions of incomplete information, resource constraints, and disturbances.
+2. Formalizing a comprehensive assessment of the quality of functioning of a multi-agent robot group.
+3. Developing methods to evaluate the effectiveness of using a given configuration of a multi-agent group when performing typical tasks.
+
+Bibliography
+
+1. Hamann, Heiko. Swarm robotics: a formal approach – Cham: Springer, 226 pages – 2018.
+2. M. Dorigo, G. Theraulaz and V. Trianni, "Swarm Robotics: Past, Present, and Future [Point of View]," in Proceedings of the IEEE, vol. 109, no. 7, pp. 1152-1165, July 2021
+3. Kalyaev I.A., Gaiduk A.R., Kapustyan S.G. Models and algorithms of collective control in groups of robots. - M.: FIZMATLIT, 2009. - 280 p.
+4. Collins, D. Twining and J. Wells, "Using vessel-based drones to aid commercial fishing operations," OCEANS 2017 - Aberdeen, Aberdeen, UK, 2017, pp. 1-5.
+5. M. Dorigo et al., “Swarmanoiid: A novel concept for the study of heterogeneous robotic swarm,” IEEE Robot Autom. Mag., Vol.20, No.4, pp. 60-71, 2013
+6. K. Konolige, D. Fox, C. Ortiz, A. Agno, M. Eriksen, B. Limketkai, J. Ko, B. Morisset, D. Schulz, B. Stewaert, and R. Vincent, “Centibots: Very large scale distributed robotic teams,” in Proc. Int. Symp. Exp. Robot., 2004, pp. 1022–1023.
+7. Kalyaev, I. Distributed ledger-based workload logging in the robot swarm / I. Kalyaev, E. Melnik, A. Klimenko // Lecture Notes in Computer Science. – 2019. – Vol. 11659 LNAI. – P. 119-128.
+8. Aufar Zakiev, Tatyana Tsoy and Evgeni Magiid. Swarm Robotics: Remarks on Terminology and Classification // In: Ronzhin A., Rigoll G., Meshcheryakov R. (eds) Interactive Collaborative Robotics. Lecture Notes in Computer Science. 2018. Vol 11097. P.291-299.
+9. Amelin K. et al. Emergent Intelligence via Self-Organization in a Group of Robotic Devices //Mathematics. – 2021. – T. 9. – №. 12. – С. 1314.
+
+Bibliography

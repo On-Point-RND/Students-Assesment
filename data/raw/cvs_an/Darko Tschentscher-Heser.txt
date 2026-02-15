@@ -1,0 +1,31 @@
+[name] [surname]
+Contact Located in [location] +2 *** *** ***
+Infoрмаtion [location] (citiizenship) [email]
+Education [location] Institute of Physics and Technology, [location]
+Bachelor of Science, Landau Phystech Schoo[name] of Physics and Research, 2025
+SpecializedDepartmentDepartmentofPhysicsandAstrophysics(LebedevPhy-
+sical Institut[compaany] of the Russian Academy of Sciences)
+Thesis: Training dynamics of Hopfield-Krotov associative memory model
+Lyceu[name] of Belarusian State Universi[location], [location], 2020
+Admitted to Skoltech, [location]
+Master of Science, Data Science (Mathematics and Computer Science), 2027
+Research ❑ TrainingdynamicsofHopfield-Krotov associative memory model(2024-present)
+Projects
+❑ Modeling of Associative memory with neural differentia[compaany] equa[name]s (2024-
+present)
+❑ Relationship between non-perturbative and perturbative theory in quantum
+physics (2023)
+Research • Neural differentia[compaany] equa[name]s
+Interests
+• Associative memory
+Relevan[name] Calculus, Linear Alge[name]a, Probability Theory, Theoretica[name] Mechani[name], Differ-
+Coursework entia[compaany] Equations, Partia[name] Differen[name] Equations, Computational Mathematics,
+Paralle[name]ization of Algo[name]thm[name], Machine Learning
+Additional Langua[name]es: [location] (native), [location] (native), English (B2), Spanish (A2)
+Technical Stack: Python (OOP, Pandas, NumPy, SciPy, scikit-learn), JAX,
+PyTorch, Mathematica, C++, Bash
+Hobbies Hip-hop da[name]ing, cinema, music
+Volunteer Experience: Leader of cinema club ”Phystech.Cinema” for 3
+years, one of the organi[name]tors of ”Phystech Days 2023” Festi[name]val
+Scienti[name] [surname], Full Professor, Skoltech, [email]
+Supervisor

@@ -1,0 +1,70 @@
+[name] [surname]
+[email]
++2 *** *** ***
+
+[location]
+[compaany]
+[email]
+
+Motivation Letter for SMILES Summer School of Generative AI
+My name is [name], and I am a first-year PhD student at the Physical Faculty of [location] [university], currently working in generative AI research at [compaany].
+I am writing to express my genuine interest in participating in the SMILES Summer School
+of Generative AI. I strongly believe that this experience will be a key step in my growth as a
+researcher and will open new opportunities for collaboration and exchange of ideas.
+My academic background is in physics, where I focused on transcranial focusing (HIFU)
+during my undergraduate and master’s studies. In the past couple of years, however, I have
+made a decisive shift towards artificial intelligence. While this transition was rapid, I now
+find myself fully immersed in the world of generative models and motivated by the pace of
+innovation and intellectual challenge that defines this field.
+At [compaany], my current research revolves around guiding diffusion models with
+novel types of conditions - the ones not originally presented in the model’s design. The core
+idea is to find ways to steer generation using new conditions, without the need to retrain large
+models from scratch. This direction has been inspired by advances such as classifier guidance
+(although this method was introduced in 2021) and readout-based methods (an approach
+developed by [compaany] for conditioning diffusion models with lightweight auxiliary models,
+even when such conditioning was not part of the original design). The overall aim is to make
+powerful generative models more flexible and controllable. For me, what is most exciting
+about this work is not only the technical challenge, but also the prospect of developing
+methods that might open up entirely new applications and modes of interaction with
+generative models.
+My journey into AI has been both intense and, in some respects, unconventional, although I
+know many colleagues have made a similar transition from physics to AI. While my primary
+background is in physics, I began to seriously explore AI during my master’s program and
+quickly discovered that the field’s openness to new ideas and diverse backgrounds is one of
+its greatest strengths. Although I am still in the early stages of my AI research career, I am
+not new to research itself: I have already co-authored a physics paper, have another currently
+under review as first author, and am preparing to publish results from my current work. Much
+of my recent progress in AI has come through independent study, pursuing my own ideas,
+and engaging in small-scale projects. Now, I am eager to broaden my experience by
+connecting with and learning from others in the community.
+The main reason I want to attend the SMILES Summer School is to connect with people who
+are just as fascinated by generative models as I am. I know from my experience in physics
+conferences and schools that exposure to new perspectives, even in casual conversations, can
+be transformative. I am looking forward to meeting researchers whose work I have read and
+many others whose approaches and interests might be very different from my own. I see this
+as a unique opportunity to exchange ideas, build connections, and perhaps even find
+collaborators for future projects.
+I am especially interested in the themes of efficient guidance of diffusion models and in
+inference-time compute ideas - such as ways to trade off compute time for better generation
+quality in both diffusion models and language models. These are areas where even small
+insights can lead to significant improvements in quality or speed, and where the field
+continues to evolve rapidly. At the same time, I am eager to learn about the latest advances
+across generative AI more broadly, including developments in multimodal models and new
+conditioning techniques. My goal is to gain both a broad overview of the direction in which
+the field is heading and a deeper understanding of specific challenges and methods.
+Looking ahead, my primary goal is to develop a strong foundation in AI and to make
+contributions that matter, both theoretically and practically. I am working towards my PhD
+with a focus on generative models, and I hope to build a career at the intersection of research
+and impactful applications. While I have a number of experimental projects and ideas
+underway, I am fully aware that the best ideas often come from collaboration and exposure to
+new viewpoints. For me, SMILES is not just about lectures or technical content, but about
+meeting people whose questions and perspectives will challenge my own and inspire new
+directions.
+Although I am still in the early stages of my AI journey, I am driven by curiosity and a desire
+to learn from others. My experience in physics taught me the value of open-mindedness and
+adaptability—qualities I believe are just as important in AI. I am eager to contribute my
+perspective, as someone who has moved quickly from one field to another, and to learn from the diverse participants and speakers at SMILES.
+Thank you for considering my application. I am looking forward to the possibility of joining
+the SMILES community this summer and to the chance to both learn and contribute.
+Sincerely,
+[name] [surname]

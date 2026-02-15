@@ -1,0 +1,81 @@
+[name]
+[email]
++2 *** *** ***
+Github: [name]
+[location]
+OBJECTIVE
+Results-driven professional with a strong background in mathematics, economics, and machine learning across diverse
+domains. Seeking to apply expertise in statistical modeling, data-driven decision making, and machine learning to
+solve complex real-world problems. Passionate about building scalable solutions, uncovering insights from data, and
+continuously learning emerging tools and techniques in data science.
+EDUCATION
+The Skolkovo Institute of Science and Technology [location]
+MSc in Data Science, Mathematics and Computer Science Sep 2024 – Sep 2026
+Relevant courses: Bayesian Machine Learning, Deep Learning, Numerical Linear Algebra
+Generative AI, Transformers in CV, Recommender Systems Coursework: Videoanalytics and Multimodal models
+Higher School of Economics ([location])
+BSc in Economics and Mathematics, International College of Economics and Finance (ICEF) Sep 2020 – Sep 2024
+Relevant courses: Machine Learning, Econometrics, Quantitative Finance
+Financial Mathematics, Algorithms, DataStructures, ProbabilityTheoryandStatisticsGraduпеpaper:Reinforcement
+Learning in Optimal Execution Problems
+University of London (UoL) [location]
+BSc in Mathematics and Economics, London School of Economics (LSE)
+First Class Honours Sep 2021 – Sep 2024
+Center of Mathematical and Finance (CMF) Data Science [location]
+Diploma with Honours: Summa Cum Laude Sep 2022 – Mar 2023
+School of Analytics (The Experts) [location]
+Training in Power BI, Docker, Airflow, SQL, A/B Testing Sep 2022 – Mar 2023
+RESEARCH EXPERIENCE
+AI in Mathematical Finance Research Group [location]
+Reinforcement Learning for Optimal Execution in Financial Markets
+• Benchmarked classical trading strategies such as TWAP and VWAP for baseline comparison.
+• Designed and trained RL agents using Q-Learning, Deep Q-Learning (DQN), and Double DQN to optimize
+trading decisions.
+• Developed a modular network architecture tailored for time-constrained execution problems.
+• Created an interactive dashboard for real-time visualization and performance monitoring of trading agents.
+VideoAnalytics, Skoltech, [name] [location]
+Video Question Answering with Long-Term Temporal Understanding
+• Evaluated the performance of state-of-the-art video-language models (e.g., VideoMamba) on long-form video
+QA benchmarks including Video-MME and EgoSchema.
+• Analyzed model performance across different temporal resolutions and data modalities (video, audio, subtitles)
+to assess robustness.
+RESEARCH PROJECT
+Diffusion Models Remote
+Optimal Transport-Based Truncation in Denoising Diffusion Models (DDPMs)
+• Proposed optimal transport (OT)-based truncation framework to accelerate the sampling process in DDPMs.
+• Applied Neural OT to efficiently map and truncate high-dimensional latent distributions.
+• Conducted a comparative study of truncation strategies in GANs, VAEs, and diffusion models.
+Generative Design Project Independent Research
+• Developed a model to generate modern room designs based on input images, with optional object-specific
+modifications.
+• Implemented using Python and deep generative models; focused on interior design transformation.
+WORK EXPERIENCE
+Дом.РФ Validation (Risk Analyst) March 2023 - June 2023
+• Conducted simulations to evaluate the effectiveness of risk models and identify potential weaknesses or gaps in
+the validation process.
+• Utilized statistical tests and regression analysis to analyze data and ensure the accuracy of models
+• Analyzed and created alternative models, providing further recommendations for improvement to senior management,
+increased the teh quality of the model
+Diotech (Machine Learning Specialist) June 2023- August 2023
+• Developed and implemented an AI-powered chatbot for a leading cryptocurrency company using NLP, increased
+the performance of technical support
+• Leveraged NLP model DistilBERT, fine-tuned for specific industry needs, to enhance the chatbot’s natural
+language understanding capabilities.
+• Engineered and integrated N-gram models to improve the chatbot’s text generation and response accuracy.
+PLATA Risk Data Scientist Sep 2024 - Feb 2025
+• Explored credit burden indicators and developed models to incorporate them into the scoring process.
+• Conducted leverage-based clustering to analyze income distribution among client segments, enabling data-
+driven decision-making.
+• Applied clipping techniques to refine credit burden assessment and improve risk evaluation.
+• Contributed to the development of the Garantiziada product and designed A/B tests to assess its impact.
+TEACHING VOLUNTEERING EXPERIENCE
+• School of Analytics assistant and lecturer, conducted lectures on ML and Analytics, teaching and mentorship
+in School of Analytics, created the Hackaton in Uplift Modelling
+• Active Kaggle participant, Case championship and hackathon participation (First place in ARCTECK DATA,
+High Quality Award 15
+• MateMarketing’23 - Volunteer at conference on marketing and product analytics
+• Aha!’23 - Volunteer at technical conference on product analytics and marketplace efficiency
+ADDITIONAL
+• Technical skills: Python , git, SQL, Power BI, A/B testing, MS Office, Docker, Linux, Pytorch, Jax, Numpy,
+Pandas, ScikitLearn, CatBoost, SciPy.
+• Languages: English (fluent, IEELTS 8), Russian (native), Turkish (fluent), Chinese (beginner)

@@ -1,0 +1,22 @@
+Hello, this is [name] [surname]'s motivation letter!
+Even at schoo l, physics and mathematics were easy subjects for me. I could qui ckly solve
+problems of any compl exity and al ways get A's in these subjects. However, due to changes in the
+worl d, especially in the legal field, I decided to study law and all related subjects. At the same
+time, my interest in applied sciences did not fade, and I continued to study them in my free time.
+My h usband, who studied robotics, often told me about his hobby. This was very interesting for
+me, so after gra dua tion from the [compa ny], I plan to e nroll in a Master's degree
+in Applied Robotics at [compa ny].
+My h usband and I are c urrently working on projects related to the modernization of the
+robotic promoter and the creation of an educational electronic construction kit for chi ldre n and
+students. Our goal is to in stil in them interest in robotics. After completion of these projects, I plan
+to develop my own project - the creation of a pr otective "dome" for factories and airports from
+birds. Today, there is a serious problem with the interf erence created by birds for airp lane s during
+tak eoff and landing, which poses a danger to public safety. In ad dition, many birds die in factories
+where grain is pro cesse d. To solve this problem, I want to investigate machine learning more
+deeply. My goal is to create a system that rec ognizes birds using a camera and deli berately scares
+them away. For this, I intend to study at [compa ny] in order to improve my
+skills in machine learning and artificial intelligence. Using the kn owl edge, I have gained, I will
+create a project that will help to prevent many ac cidents and make p eople's lives safer.
+
+
+

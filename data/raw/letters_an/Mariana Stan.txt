@@ -1,0 +1,19 @@
+SMILE Summer School Motivation Letter
+___________________________________________________
+[name] [surname]
+[location], [location]
+[compaany]
++2 *** *** ***
+[email]
+https://[name]-[surname].github.io/
+Dear SMILE summer school organizers,
+Experience
+I have 5 years of experience in Deep Learning (Computer Vision) research. Before that, I worked as a C++ programmer, but then I realized that I was much more interested in training DL models than writing code that uses them. As one of the first big projects, I was accelerating neural networks for inference on edge devices. In particular, I was developing a face recognition system for smart intercoms. The developed solution is currently widely used in [location]. Based on this project, I published several papers in scientific journals and defended my PhD (к.т.н) at the Institute of Automation and Electrometry SB RAS.
+For the last few years, I have been researching in the field of photorealistic human avatars created with a monocular video or a single photograph. I started to work on this topic when I worked at [compaany] Moscow, and as a result, I published two articles: on ICCV (first author) and WACV. The article on ICCV presents a method for obtaining a human avatar from a single photograph using a specially trained diffusion prior.
+I am currently pursuing a second PhD because I felt like I missed the international team working experience and adventures. So I joined the ELLIS PhD program ([location]+[location]) and am studying/working at [compaany] in [location]. I am currently in my second year out of three and working on new methods for 3D scenes representation.
+Motivation
+My main motivation is to establish connections with [compaany] researchers, since I plan to return to [location] after completing my second PhD and look for a postdoc position there. I believe that this school is a great opportunity to establish useful social connections with the scientific community. Additionally, since I am formally a student, one of the motivations for participating in the school is to earn education credits.
+I am very interested in the school's topic. Since I have worked mainly in the CV field, I do not feel very confident with Larger Language Models. I know what a transformer architecture looks like and how an attention layer works, but I am not familiar with the details of training and utilizing such models. I believe that the summer school format, which includes lectures, practical seminars and a hackathons is the best way to dive deep into this increasingly popular DL area.
+Future career plans
+After defending my second PhD (in about a year) I plan to work in [location]. I plan to continue doing research: find a postdoc position at [compaany] or go to work at AIRI.
+[name] [surname] 05/02/2025

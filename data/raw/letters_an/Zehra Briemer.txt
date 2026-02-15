@@ -1,0 +1,21 @@
+Dear [name] Team,
+My name is [name], and I’m a second-year student at [university], studying in the “Technology and Innovation” program. I’m really excited to apply for the SMILES Conference — both as a participant and as a potential volunteer.
+Over the past couple of years, I’ve developed a strong interest in machine learning. I took a full ML course at [university] where I got hands-on experience with core concepts like supervised and
+unsupervised learning, model evaluation, and optimization. Alongside that, I’ve worked with
+tools like Matplotlib for data visualization, and SQL for data handling and analysis — which
+helped me better understand how to interpret and present data in meaningful ways.
+What draws me to SMILES is the chance to learn from people who are truly passionate about
+machine learning — not just through talks and sessions, but by being part of the community. I’m
+especially interested in topics like interpretable ML, ethical AI, and how ML is being used for
+social impaact. These are areas I’d love to explore more deeply, both academically and in future
+projects.
+I’m also very eager to volunteer at the conference. I enjoy working on team projects, organizing
+events, and generally being helpful — so I’d be happy to support wherever needed, whether
+that’s helping with logistics, guiding
+attendees, or assisting speakers. It would be a great way for
+me to contribute while also experiencing the event from a different perspective.
+In short, I see SMILES as an amazing opportunity to grow — to learn, meet new people, and get
+inspired. I’d be genuinely thrilled to be part of it.
+Thanks for considering my application!
+Best regards,
+[name]

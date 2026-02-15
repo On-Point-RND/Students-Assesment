@@ -1,0 +1,146 @@
+            [name], 2025
+Introduction
+Task Automation with Large Language
+Models (LLMs 
+LLMs like GPT-4 demonstrate strong
+performa performance in solving complex tasks 
+Objective evaluaation requires robusst
+benchma rks such as TASKBENCH 
+Challenges in benchma rk design involv e
+technical and methodologica l
+conside rations.
+Goals of the Presentation 
+Analyz e insights from three
+key studies 
+Address limitations in current
+benchma rks 
+Propos e future improvements
+for task automation.
+Problem Statement
+Why is task automation with
+LLMs challenging?
+Imagine brea king down a complex task into
+actionable steps, selecting tools, and predicting
+parameters. TASKBENCH addresses this by focusing
+on three core aspects: task decomposition, tool
+selection and parameter prediction. However,
+challenges remain 
+Ensuring data transpare nc y 
+Avoi ding contamination of test set 
+Handling imba lance d data distributions
+These issues highlight the need for innovati ve
+solutions to improve benchma rk reliability.
+Methods – TASKBENCH
+This example demo nstrates the automation of a multi-step task using TASKBENCH.
+The process involves converti ng an audio file into an image, applying colo rization
+and style transfer, and finally extracting text from the processe d image. Each step
+is represented as a node in the tool graph, with dependencies between tools
+forming directed e dg es.
+How does TASKBENCH work?  The task is defined using a structured JSON format, which specifies the nodes
+(tools) and links (dependencies). Below is an excerpt of the JSON representation
+TASKBENCH uses tool graphs to represent tasks as sequences of for this example
+steps. Instructions are generated using the Self-Instruct metho d,
+leveraging GPT-4 to create diverse datasets across domains like text
+processing and multimedia operations.
+
+Models are eva lua ted using metrics like Rouge , accuracy , and ranking
+consis tency. However, as noted in [Insert Article Title 2] , even well-
+designed benchma rks face limitations, such as data contamination or
+The tool graph below illustrates the workflow. Nodes represent tools, and directed
+e dg es indicate the flow of data between them. This structure ensures that each
+lack of transpare nc y. Addre ssing these issues is critical for improving
+step adheres to the dependencies defined in the JSON.
+be nchma rk quality.
+Key Takea way 
+Automation Workflow: TASKBENCH uses tool graphs to model
+complex tasks, ensuring logica l sequencing and dependency
+management 
+Repr oducibility : The JSON format provides a clear and
+reproducible definition of the task steps and their relationships 
+Scalability: This approa ch can be extended to other domains,
+such as multimedia processing or daily-life APIs, making it
+highly versatile.
+Methods – BetterBench
+Improving benchma rks with BetterBench 
+The s econd article introduces BetterBench , offering
+key recomme ndations 
+Data quality control: Small errors can lead to
+incorre ct conclusions 
+Transpare nc y: Clear do cumentation of data
+annotation, metric selection, and eva lua tion
+methods 
+Statis tical significance: Ensuring results are
+reproducible and free from random ou tliers.
+These princi ples can enhance TASKBENCH by
+introd ucing stricter quality checks and expanding
+eva lua tion metrics.
+Methods – Long-Tailed Learning
+Addre ssing long-tailed data challenges 
+In real-wo rld scenarios, tasks are unevenl y distributed—some are
+frequent, while others are rare. The article, Towards Heterogeneo us
+Long-tailed Learning:
+Be nchma rking, Metrics, and Too lbox, proposes solutions 
+New metrics like balanced accuracy and mean average precision for
+imba lance d data 
+Techniques like synthetic data generation and handling rare classes.
+Integrating these methods into TASKBENCH can improve its performa nce
+on imba lance d tasks.
+Re sults – TASKBENCH
+Key fi ndings from TASKBENC 
+Modern models like GPT-4 excel
+in task decomposition and tool
+selection 
+Open-sou rce models like Llama
+lag behind in certain metrics 
+Recomme ndations from
+BetterBench and Long-Tailed
+Learning enhance benchma rk
+reliability, particularly for
+imba lance d data.
+These results underscore the
+importa nce of continuous research
+and improvement.
+Research Gap s
+Unr esolved challenges in benchma rking 
+Handling severely imba lance d dat 
+Preventing test set contaminatio n
+Ensuring benchma rks are unive rsal and adaptable to diverse
+tasks
+Addressing these gaps is crucial for advancing task automation in
+real-wor ld applications.
+Future Oppo rtunities
+What’s next for benchma rking? 
+Future efforts can focus on 
+Expanding TASKBENCH with new
+tasks and domain 
+Integrating methods for handling
+long-tailed dat 
+Enhancing transpare nc y and
+reproducibility
+These advancements will unlock new
+possibilities for research and practical
+applications of LLMs.
+Conclusion
+Final thoughts 
+TASKBENCH is a powerful tool for eva lua ting LLMs in task
+automation. By applying best practices from BetterBench and
+addre ssing long-tailed data challenges, we can make
+be nchma rks more reliable and effe ctive. These improvements
+will pave the way for more efficient and robus t task
+automation.
+Thank you for your attention!
+Bibliography
+[name], [location] Towards Heterogeneo us Long-tailed
+Learning:
+Be nchma rking, Metrics, and Too lbox https://github.com/SSSKJ/HeroLT NeurlIPS, [location], 202 
+[name], [location] BetterBench: Assessing AI Benchma rks, Uncovering Issues, and Establishing Best Practices NeurlIPS, [location], 2 
+[name], [location] TaskBench: Benchma rking Large Langua ge Models for Task Automation https://
+github.com/microsoft/JA RVIS NeurlIPS, [location], 2 
+[name], Aston Zhang, Yi Zhu, [location] Par tia l and asymmetric contrasti ve learning for out-of-distribution detection in long-tailed
+recognition. In Interna tional Confere nce on Machine Learning, pages 23446–23458. PMLR,
+2 
+[name], [location] On the effe ctiveness of out-of-distribution data in self-supervis ed long-tail learning. In
+The Eleventh Interna tional Confere nce on Learning Representations, [location], 2 
+
+
+

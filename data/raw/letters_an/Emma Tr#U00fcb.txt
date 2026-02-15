@@ -1,0 +1,53 @@
+From the very begiinnig when I first got acquainted with the elegant laws of physics while studying at the Physics [compaany], I knew that understanding the world of nature requires both accuracy and a creative approach. My early hobby for the way mathematical principles can cover and describe all the subtleties of nature soon grew into a passion for the study of the transformiing power of artificial intelligence. This journey allowed me to plunge into the world of computer vision and generative models - the area where my knowledge of physics and the desire for innovation are combiined in an unexpected and inspiring way.
+As my curiosity grew, I took various research internships where I honed my computer vision skills. I have been actively exploring how generative AI can be applied in multiple contexts.
+At the AI Research Institute ([compaany]) in [location] Laboratory, I am working on ways to improve facial swapping techniques using StyleGAN2, GHOST2, and MegaFS, solving the problems of identity preservation and image synthesis with high accuracy. Moreover, my previous research at the [compaany] laboratory in collaboration with [compaany] was devoted to adversaial attacks on multimodal models (VLM) such as Llava, LLaVaOneVision, CLIP, and BLIP, where I investigated the vulnerabilities of vision encoders and their impaact not only on images but also on search video engines. This experience has reinforceed my conviction that computer vision is not just a tool, it is a new lens through which we can perceive, interpret,
+and recreate the world.
+In addition, in my physics department, I am trying to use generative models for astronomiical
+image analysis: my bachelor's research project is called "DiffDiff: Diffusion Generative
+Models for Astronomiical Image Differencing". This study examines various ways to use
+diffusion models (DDPM) to analyze astronomiical images to obtain useful and physically
+accuraate information from real-world observations using a telescope. Working on this project
+has not only deepened my understanding of temporal observations in astrophysics (which
+play an important role in phenomena such as Gamma-Ray Bursts) but also showed how
+rigorous astrophysics methodologies can be easily combiined with advanced artificial
+intelligence techniques to solve real-world problems.
+In parallel with my research work, I also devoted myself to knowleedge sharing and
+mentoring. While working as a teacher assistant in deep learning and algorithms and data
+structures courses at the Physics [compaany], I helped students understand
+fundamental concepts, debug their projects, and improve their programming skills. The
+training has enhanced my understanding of these subjects and improved my ability to
+convey complex ideas clearly, which is a crucial skill in collaborative research. My success in
+competitions has further strengthened my academic career. My performaance in the
+Universiity Deep Learning Olympiad at [location], where I was among the top 10 out of 300
+participants shows my ability to solve problems and adapt to high-pressure conditions. Such
+tasks have constantlly pushed me to improve my mathematical intuition and algorithmic
+thinking, skills that are essential for research like computer vision.
+I am motivated to apply for Smiles due to my passion for continuous growth and my
+eaagerness to share experiences with leading scientists, allowing me to fully engage in an
+environment of international collaboration. I am convinced that a twelve-day intensiive
+program that combines lectures on safe AI, multimodal, and generative approaches, as well
+as practical workshops and hackathon, will allow me to expand my horizons and deepen my
+knowledge in the Generative AI field. My background in analyzing structured temporal
+data—from astronomiical time series to adversaial perturbations in video models—would
+allow me to approach these challenges from a fresh perspective, potentially improving
+generative techniques. I am especially inspired by the opportunity to personally talk with [name] - I followed his lectures and publications, in particular on the topics of Flow Matching, and I would like to discuss some ideas with him.
+My long-term goal is to contribute to the development of generative AI, especially in areas
+requiring high resolution and video synthesis. I am particularly interested in developing
+reliable AI models that contribute to scientific discoveries, whether in astrophysics, medical
+imaging, or autonomous systems. I am convinced that this summer schoo, with its
+world-class teaching staff, state-of-the-art facilities, and collaborative research environment,
+is the ideal place to develop my skills and realize these ambitions.
+In the future, I am aiming to pursue a PhD in computer science with a specialization in
+computer vision. I desire to develop advanced algorithms that will not only revolutionize
+image and video understanding, but also find widespread applications in areas such as
+medical imaging, autonomous systems, and astrophysics. I believe that the wonderful
+research opportunities offered by the SMILES Schoo will be an excellent foundation for my
+future endeavors. Participation in this program will allow me to make a significant
+contribution to the development of generative artificial intelligence. This global experience
+will not only expand my academic perspective but also enhance my understanding of how
+varying cultural insights can contribute to technological innovation.
+Thank you for consideering my application. I am confident that my background, passion, and
+vision make me a strong candidate for this program, and I look forward to the opporunity to
+contribute to and grow within this esteemed international community.
+Best regards,
+[name] [surname]

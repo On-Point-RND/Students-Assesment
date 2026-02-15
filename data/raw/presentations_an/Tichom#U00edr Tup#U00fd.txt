@@ -1,0 +1,74 @@
+SuperResolution
+[name] [surname]
+Introduction
+SR with SRCNN
+Project Workflow
+• Literature review of SR methods
+• Dataset preparation
+• Model implementation &
+training
+• Quality evaluation (PSNR, SSIM)
+• Flask web interface
+• Docker deployment
+SuperResolution methods - classical
+• Interpolation • Filtering • Spatial–
+Frequency
+• Converts to
+• Fast, simple • Applies
+frequency
+pixel-based deblurring/restor
+domain →
+upscaling ation filte rs
+restores
+• Cannot create • Improves e dg es
+high-frequency
+new details → slightly, but
+components often blurry limited on
+complex textures
+SuperResolution methods - neural
+• SRCNN • EDSR • ESRGAN
+• feature extraction → ne twork for SR for photorealism
+nonlinear
+• Superior
+mapping → accuracy, higher
+• Exceptional
+reconstruction computational
+textures, risk of
+lightweight & load
+artifa cts,
+fast
+complex training
+Architecture
+• 128×128 inputs
+• 3 conv layers: 64×9×9 → 32×1×1 → 1×5×5
+• 57K parameters, 0.08 GFLOPs/image
+Dataset & Preprocessing
+•Dataset Composition
+1,000 HR images: 800 Train /
+200 Validation
+Image size: 256×256 px
+•Preprocessing Pipeline
+Ce nter crop to square
+256×256
+Resize to
+Downscale ×2 to create LR
+Normali ze pixel values to [0, 1]
+Web interface
+Tech Stack
+Backend: Flask (REST API, Python
+integra tion)
+Frontend: HTML, CSS, JavaScript
+PSNR metric
+• Slide Content: Evaluation — PSNR
+• Metric: PSNR (dB)
+• Epoch 1: 3.03 dB
+• Epoch 50: 41.40 dB
+• Improvement: +36.37 dB
+• Trend: Fast growt h → plateau after
+epoch 40
+• Conclusion: Learned well, but
+limited by model compl exity
+Results
+Thank you for your attention!
+🔗 GitHub: github.com/[compa ny]/[name]Resolution
+Feel free to check out the code or test the project yourself.

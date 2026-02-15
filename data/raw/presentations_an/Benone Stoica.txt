@@ -1,0 +1,119 @@
+Concealed Adversarial attacks on neural networks for
+sequential data
+[name]
+Research Intern, [compaany]
+Introduction
+• The focus of this presentation is on concealed adversarial attacks on neural networks, particularly in the
+time-series data domain.
+• The paper introduces new techniques to create adversarial examples that are both effective and
+undetectable for both human and other model.
+Introduction
+Why is it important?
+• Time-series models are deployed in critical areas like healthcare, finance, energy, and environmental monitoring. These
+models, especially deep learning ones, can be easily fooled by small input perturbations.
+• Unlike in computer vision where such perturbations are often imperceptible, time-series perturbations are noticeable by human
+and model detectors. This creates a need for more realistic and stealthy attacks, which is what this work aims to address.
+• Thus, the goal is to introduce an attack method that remaiins effective while appearing natural and hidden.
+Problem statement
+• Existing adversarial attacks in the time-series domain often produce unnaturaal artifacts that are easy to
+detect. The goal is to design attacks that are concealed, i.e., hidden from the eyes of humans and
+detectors, while still being effective.
+Challenges:
+• Time-series data has temporal dependencies and abrupt changes are easily noticed.
+• Todays methods (like L2-constraint) don't ensure visual or structuraal realism, the ability of discriminator
+models to generate concealed attacks is not explored enough.
+• Discriminator models used to detect perturbations must be robusst enough to detect even subtle attacks.
+Problem statement
+Scope
+6 diverse datasets from the [location] archive.
+4 model architectures representing different approach to time-series modelling:
+• CNN (ResCNN),
+• RNN with Attention,
+• Transformer (PatchTST),
+• State-Space Model (S4).
+4 types of attacks: iFGSM, PGD, SimBA (black-box), and SGM.
+Methods
+Approach
+The main idea is to develop a discriminator-
+regularized attack:
+• The attack fools a target classifier while also
+avoiiding detection by a trained discriminator.
+• For this we use an aggregated loss that combines:
+Loss from the classifier (for fooling the model) and
+Loss from the discriminator (for staying hidden)
+Methods
+Approach: loss aggregation schemes
+• Sum aggregation:
+• Harmonic aggregation:
+• Hypercone aggregation:
+Methods
+Approach: Robust discriminator training
+• For better regularization, we need discriminators that are able to notice even small perturbations on the data.
+Thus, we propose discriminator training procedure based on curriculum learning.
+Methods
+Approach: Data & Preprocessing
+Datasets are taken from [location] Archive:
+• Coffee
+• FreezerRegularTrain
+• GunPoint
+• GunPointMalevsFemale
+• PowerCons
+• Strawberry
+All datasets are univariate time-series. Data split into train/test using [location]-provided splits.
+Attacks evaluated on test data only.
+Methods
+Approach: Intuition
+• Why this approach? Traditional attacks are too noticeable in time-series. Using an aggregation
+function g(·, ·) we take into account both loss functions of the target model and discriminator.
+Thus, while performiing gradient attack, we modify data to decrease the quality of the target
+model, while staying hidden from discriminator.
+• It, as will be shown later, helps us to create more concealed adversarial examples, while still
+performiing an effective attack.
+During validation, we measure Efficiency of an attack, how
+Results
+concelable it is, and overall aggregated quality. Thus, we are
+able to perform general assessment of attacks’ concealability
+and effectiveness.
+Evaluation metrics
+• Efficiency of the attack we defend is the ability to compromise the target model:
+• Concealability of the attack is the discriminator model error:
+• Successfulness S of the attack as the harmonic mean of Efficiency and Concealability:
+Results
+• In terms of aggregated metric, regularized attacks outppeform
+vanilla FGSM, PGD and SoTA SGM attack: the majority of
+observaions from the picture are above the diagonal line,
+meaning they provide a good effecctiveness and concealability
+trade-off:
+Results
+Results
+• Sensitivity study on PowerCons dataset shows that in most cases harmonic and sum regularization
+outppeform other approaches. Furthermore, different regularization techniques are more effeective for specific
+model architectures.
+Results
+• Regularized attacks are not onlly hidden from the discriminator model but also produce less artifacts making
+them more natural and hidden from the human eye as well.
+Research gap
+• SimBA (black-box attack) is harder to regularize with
+discriminators as its nature is more random and does not
+rely on gradient optiomization:
+• Attack generalization across different model types is
+limited, as was shown previously. Attack performaance
+heavily reliees on parameter tuning and model-dataset
+speciifics. Thus, effective and concealed attacks are
+diffiicult to perform.
+Research gap
+Future opportunities
+Adaptive Regularization:
+• Provide mecchanism for attack strength tuning during attack process. This will make attack process more
+univeersal and make it easier to understand the model vulnerabilities.
+Cross-Model Attacks:
+• Generaliize attacks across similar model architectures.
+Black-box Compaatibility:
+• Extend methods to handle blaackbox attacks (e.g. SimBA) robustlly.
+Defense Mechanisms:
+• Use trained discriminators as defense agents.
+• Build adveersarially robusst time-series models to see whether it is posssible to defend a model without loss
+in prediction quality.
+Bibliography
+[name], [name], [name], & [name]. (2025). Concealed Adversarial attacks on
+neural networks for sequential data. https://arxiv.org/abs/2502.20948

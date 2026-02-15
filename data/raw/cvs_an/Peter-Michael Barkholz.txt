@@ -1,0 +1,46 @@
+[name] [surname]
++2 *** *** *** ⋄ [email]
+EDUCATION
+[location] [compaany] 2020-2024
+Bachelor’s degree in Applied Mathematics and Informatics
+Specialization: Mathematical Modeling and Computational Mathematics
+[compaany] 2024-Present
+Master’s degree in Mathematics and Computer Science
+Specialization: Data Science
+Higher School of Economics 2024-Present
+Master’s degree in Applied Mathematics and Informatics
+Specialization: Machine Learning Mathematics
+PROJECTS
+Implementation of Orkiszewski’s Method, [compaany] 06.2022- 07.2022
+Studied multiphase flow in wells and implemented Orkiszewski’s method for pressure drop calculation.
+Also created a flow regime map and structured the code according to [compaany] standards for
+integration into existing methods.
+ImplementationofanAutomatedSystemControlInterfaceusingWinCCOA,[location] 02.2022- 05.2022
+Control of viscous liquid storage using a PID controller and implementation of a dispatch system using
+WinCC OA.
+Longitudinal-TransverseBending,[compaany], 09.2023-
+06.2024
+As part of the thesis work, studied bending theory in various scenarios and conducted simulations,
+particularly bending confined by channel walls and dynamic bending.
+AlgorithmforProcessingTimeSeriesofSensorSystemCurrentsinVoltammetricBehavior,[location] 02.2023- 06.2023
+Developed an algorithm to describe time series of sensor system currents in voltammetric behavior under
+continuous operation, aiming to identify similarities and differences in their evolution under different
+chemical compositions of mineral water and birch sap.
+Doom Slayer, [compaany] 12.2024
+Used the VizDoom simulator to navigate a randomly generated maze using computer vision methods
+to build a dynamic map and apply search algorithm.
+Liquid Neural Networks, [compaany] 02.2025-03.2025
+Studied the principles of "liquid"neural networks and their applications.
+CURRENT RESEARCH
+Study of Low-Rank Tensor Decoompositions
+Exploring concepts of tensor train and hierarchical Tucker decomposition to achieve new results.
+SKILLS
+Programming Languages
+C++, Python, SQL, Maple
+Python Libraries
+Numpy, Pandas, Scipy, Scikit-learn, Torch, Transformeers
+Languages
+Russian, English (Advanced)
+Mathematical Skills
+Differential Equations, Modeling, Probability Theory and Stochastic Processes, Computational Linear
+Algebra, Continuum Mechanics, Machine Learning, Deep Learning

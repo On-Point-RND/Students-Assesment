@@ -1,0 +1,127 @@
+Towaards Robust Full Low-bit Quantization of Super Resolution Networks
+[name], [surname], [name], [surname], [name] and [surname]
+https://eccv.ecva.net/virtual/2024/poster/312
+[name] [surname]
+[compaany]
+Introduction
+• Low-bit quantization is extremely appealing for terminal devices as it significantly reduces latency and power consumption.
+• Performance of low-level vision tasks, e.g. Super Resolution, significantly drops when the bitwidth of
+the input image is lower than bitwidth of
+the input image. This is explained by highly dynamic activation ranges in internal
+activations depending on the input;
+• There are several methods like PAMS, DAQ, CADYQ that are focused on adjusting activation distribution to reduce quantization error but
+they couldn't be applied to current hardware.
+• In this paper we propose to consider mathematical model of natural images from Compressed Sensing theory to redistribute
+quantization error that is practically groundeed to current hardware solutions.
+Problem statement
+Restored from
+8-bit image 4-bit image
+❖ Perceptually appealing images 4-bit Laplacian
+Smooth areas divided by sharp edges –
+consistent first and second order derivatives
+with discontinuities of first order.
+❖ Compressed sensing
+Natural images mostlly consist of smooth areas
+Restored from
+8-bit image 4-bit image
+with few edges.
+4-bit Laplacian
+❖ Internal points estimate
+To overcome unstable restoration with partial differential
+equation (PDE) solver we propose to switch from Dirichlet
+boundary conditions to internal point estimates from the
+original image
+Methods
+Differential operator (DO)
+The first and higher order derivatives can be represented using finite difference approximations for discrete signals (such as
+images) differentiation. In our experiments we considered We additionaly consider well-known high-pass filters like Sobel
+Quantized Deep Neural Network (DNN)
+In all our experiments we quantize both weights and
+activations for all layers including first and last layers. Uniform
+quantization was employed and LSQ+ method was used to perform Quantization-Aware Training.
+Partial Differential Equation (PDE) Solver
+Restoration of the image from its image in differential operator domain is ill-posed and thus we employ PDE solver with
+boundary conditions to restore the output of the quantized DNN back to the original domain.
+Methods
+• In our work we compared the following solvers:
+• Linear algebra based solver – slow, non robusst to errors in operator domain;
+• Green’s function based solver aka inverse filtering – non robusst to errors in operator domain
+(patch-wise processing, ill-posedness);
+𝐾 ∗ 𝐺 = 𝛿
+ℱ(𝛿)
+−1
+𝐼 = ℱ ∙ ℱ(𝐼 )
+𝑖𝑛 𝐷𝑂
+𝐼 = G ∗ 𝐼 ( ℱ(𝐾) )
+𝑖𝑛 𝐷𝑂
+• Solver with regularization – fast & robusst
+2
+2 ^
+^ ^ ¯
+^ ℱ 𝑦 + 𝜆 ∙ ℱ(𝐾) ∙ ℱ ℒ𝑦
+𝑎𝑟𝑔𝑚𝑖𝑛 ℒ𝑦 − ℒ𝑦 + 𝜆 ∙ 𝑦 − 𝑦 ( ) ( )
+[ 2 2] ℱ(𝑦) =
+𝑦 2
+1 + ℱ(𝐾)
+Notation
+K – discrete kernel of differential operator, 𝐺 – ℒ𝑦 – image of solution 𝑦 in differential operator
+Green’s function, domain,
+^
+𝐼 , 𝐼 – input image and the correspondiing ℒ𝑦 – estimate in differential operator domain,
+𝑖𝑛 𝐷𝑂
+image in the operator domain domain.
+𝜆 – regularization constant (hyperparameter).
+Results
+Inverse Filtering vs Regularized Comparison with SOTA methods
+PDE solver (EDSR x2, Urban100, w4a4)
+(SRCNN x3, Urban100, w4a4)
+Inverse Filtering Regularized Method Bops, G PSNR SSIM
+Metric
+PDE solver PDE solver
+Regular 5.63 29.17 0.9309
+PSNR 26.66 26.96
+DAQ 12.56 27.13 0.8103
+CADYQ* 24.76 30.84 0.9132
+SSIIM 0.8802 0.8863
+6.41
+Our 31.14 0.9495
+LPIPS 0.2404 0.2130
+(6.01)
+Results
+Low-bitwidth robustness
+(EDSR x2, Urban100)
+Results
+Neural networks: SRCNN, ESPCN, EDSR, RFDN
+Training pipeline: train FP model according to the original pipeline, perform PTQ and QA T with full
+integer quantization (including the first and last layers)
+Proposed method: we simply wrap the model with operator and solver without any architecture
+modification.
+FP W4A4
+CNN
+Regular Regular Our
+SRCNN x2 29.45 / 0.9347 27.82 / 0.9074 29.14 / 0.9317
+SRCNN x4 24.41 / 0.8881 23.87 / 0.7919 24.27 / 0.8086
+ESPCN x3 26.58 / 0.8766 25.54 / 0.8480 26.53 / 0.8747
+EDSR x2 31.99 / 0.9557 29.17 / 0.9309 31.14 / 0.9495
+EDSR x4 26.04 / 0.8582 24.81 / 0.8261 25.62 / 0.8483
+RFDN x2 31.55 / 0.9515 28.92 / 0.9302 30.83 / 0.9469
+Main results. Visual comparison. EDSR x4
+HR Regular Our
+Bicubic FP
+HR
+patch w4a4 w4a4
+Main results. Visual comparison. RFDN x2
+HR
+Regular Our
+HR Bicubic
+patch
+w4a4 w4a4
+Research gap
+• We proposed to consider mathematical model of natural images to significantlly reduce performance drop in SR networks
+in low-bit quantization scenario;
+• Proposed pipeline contains widely-supported operations and can be easily applied for current edg e devices;
+• Proposed regularized PDE solver significantlly improves quality and reduces latency in compa rison with Inverse Filtering
+with Tikhonov regularization;
+• Our metho d outp eforms SOTA by significant margin in both performa nce and compu taional overhead;
+• In compa rison with regular quantiza tion we achieved +3.75 dB for EDSR x2 and +3.67 dB for RFDN x2 on DIV2K dataset
+for full 4-bit quantiza tion.

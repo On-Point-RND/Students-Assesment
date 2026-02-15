@@ -1,0 +1,75 @@
+            [name]
+Student (intern),
+[location]
+[compaany]
+[email]
+Introduction
+• This work reproduces Low-Rank Adaptation (LoRA) experiments
+from Hu et al. (2021) for fine-tuning RoBERT a Base on an NVIDIA RTX 3070 GPU. LoRA updates low-rank
+matrices to reduce memory and computational costs, enabling
+efficient fine-tuning of large NLP models. The original paper
+demonstrated LoRA’s effectiveness on models like RoBERTa and
+GPT-3. This study validates LoRA’s accuracy, memory savings,
+and training speed on six NLP datasets and proposes
+enhancements to improve the original approach.
+Problem statement
+• The study evaluates LoRA’s ability to achieve near-full fine-tuning accuracy with
+reduced resource demands. Experiments compaare LoRA and full fine-tuning on
+RoBERTa Base across datasets MNLI, MRPC, QNLI, QQP, RTE, and SST-2. The
+work quantifies memory and speed benefiits and suggests improvements to
+enhance LoRA’s performaance.
+Methods
+• LoRA updates low-rank matrices (W = W₀ + AB)
+for efficient fine-tuning, while full fine-tuning
+updates all model weights.
+• Preprocessing (tokenization, padding, train/test
+splits) standardized. Experiments used a batch
+size of 16 and the Adam optimizer.
+Results
+Accuracy and Performance
+• LoRA demonstrates efficient fine-tuning with
+minimal accuracy degradation:
+• MNLI: 0.8311 (LoRA) vs. 0.8611 (Full)
+• QQP: 0.8561 vs. 0.8883
+• SST-2: LoRA slightly outperforms full fine-tuning
+(+0.0046)
+• Observed accuracy drops on GLUE tasks are
+minor (typically 0.01–0.05), consistent with prior
+studies.
+GitHub with results
+Results
+Memory and Training Efficiency
+• Memory usage decreases by a factor of **2× to 3×** when using
+LoRA, primarily because it updates only a small percentage of the
+model's parameters.
+• This significantlly reduces the memory required for storing optimizer
+states (e.g., Adam maintains two additional buffers per parameter).
+• Reported memory usage includes both model parameters and batch
+data in GPU memory.
+• Example: QNLI uses 4334 MB (LoRA) vs. 6010 MB (Full).
+• Training speed improves by 1.3× to 1.4×:
+• SST-2: 7.869 rps (LoRA) vs. 5.740 rps (Full)
+• Even with the same batch size and model architecture (e.g., RoBERTa
+Base), memory differences are clearly visible during training.
+GitHub with results
+Research gap
+• LoRA requires manually specifying the rank of the adaptation matrices, which is often task-specific and
+dataset-dependent. There’s no robusst mechaniism to dynamically adjust the rank based on task
+complexity or model needs.
+This leads to suboptimal performance when the chosen rank is too low (underfitting) or too high
+(overfitting or inefficiency).
+• To overcome the problem of manually specifying the rank of the adaptation matrices in LoRA, we can
+propoase a more adaptive solution that dynamically adjusts the rank based on model needs and task
+complexity during training. This would prevent underfitting when the rank is too low and overfitting or
+inefficiency when the rank is too high.
+Bibliography
+1. Edward J. Hu , Yelong Shen , Phillip Wallis , Zeyuan Allen-Zhu , Yuanzhi Li , Shean Wang , Lu Wang ,Weizhu Chen. ICLR 2022, April
+2. Li X.L., Liang P. Prefix‑Tuning: Optimizing Continuous Prompts for Generation // Proceedings of the 59th Annual Meeting of the Association for
+Computaional Linguistics (ACL). 2021
+3. Devlin J., Chang M.-W., Lee K., Toutanova K. “BERT: Pre‑training of Deep Bidirectional Transformeers for Language Understanding.” Proceedings of
+NAACL‑HLT, Minneapolis, MN, 2019
+4. Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., & Stoyanov, V. (2019). RoBERTa: A Robustly Optimized
+BERT Pretraining Approach.
+5. Vaswani A., Shazeer N., Parmar N., Uszkorait J., Jones L., Gomez A. N., Kaiser Ł., Polosukhin I. “Attention Is All You Need.” Advances in Neural
+Information Processing Systems (NeurIPS) 2017.
+6. Radford, A., Narasimhan, K., Salimans, T., & Sutskever, I. (2018). ImprImproving Language Understanding by Generative Pre-Training.

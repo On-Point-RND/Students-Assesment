@@ -1,0 +1,47 @@
+[name] [surname]
+Male, 19 years, born on 3 June 2005
++2 *** *** *** — тг ник - @Welcome_to_the_ussr
+[email] — preferred means of communication
+Another site: https://t.me/Welcome_to_the_ussr
+Reside in: [location], metro station [location]
+Citizenship: [location], work permit at: [location]
+Not ready to relocate, not ready for business trips
+Desired position and salary
+Programmer-developer
+Specializations:
+— Programmer, developer
+Employment: project work, volunteering, work placement
+Work schedule: flexible schedule, remote working
+Desired travel time to work: any
+Education
+Vocational secondary
+2025 [compaany] of Metro and Rail Transport
+Information Systems and Programming
+Professional development, courses
+2024 Data-science: Программирование нейросетей (Machine Learning)
+Код будущего, программист
+Skills
+Languages Russian — Native
+Skills SQL PostgreSQL Python MS SQL Server Работа с базами данных
+MS Visual Studio Visual Studio C# Microsoft Visual Studio
+бизнес приложения Решение проблем Управление временем
+Презентация Способность обучать Машинное обучেনিе
+Искусственный интеллект Нейронные сети SQL Server
+Специалист по ИИ Разработчик бизнес-приложений
+Рабoта с большим объемом информации Аналитическое мышление
+Деловая коммуникация Проектный менеджмент Тимлид GitHub
+Адаптивность Умение быстро обучаться
+Математическое программирoвание Умение работать в команде
+Further information
+Resume updated 18 April 2025 at 22:36
+About me I am a self-taught Python developer for machine learning and working with data. (if I managed to
+get another student interested in my resume, then here https://t.me/workshop_on_Grisha). I'm
+learning a fairly important and modern skill for automating tasks, which can be useful for you.
+Artificial intelligence will allow you to solve problems efficiently and productively.
+In college, I study C#, PostgreSQL, and WinForms. I can create business applications (BP). In the
+course on neural networks, I created models for text reduction, typiing, lemmatization, and for
+finding objects in images. I used NLP.
+I want to gain experience working on real projects, because I really enjoy creating different types
+of programs.
+My gitHub- https://github.com/feched?tab=repositories
+[name] [surname] • Resume updated 18 April 2025 at 22:36

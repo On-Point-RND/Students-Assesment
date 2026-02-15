@@ -1,0 +1,48 @@
+[name] [surname]
+Data scientiist
+EDUCATION
+[location] State [University]
+Faculty: Space Studies
+Specialization: Fundamental Mathematics and Mechanics
+Graduation Year: 2027
+Study Format: Full-time
++2 *** *** *** Coursework 1: Neural Network Analysis of Meteorological
+Data
+[email]
+Conducted an analysis of weather time series using recurrent
+Moscow
+and convolutional neural networks, resulting in short-term and
+long-term forecasts.
+Coursework 2: Restoration of Satellite Images Using
+Computer Skills
+Diffusion Models
+Python, Pytorch, Explored satellite data spanning several decades and used
+Tensorflow, Keras, diffusion algorithms to restore occluded images.
+Pandas, Linux, Git,
+Docker, Kafka, WORK EXPERIENCE
+[company]
+Foreign Languages Work Period: July 1, 2024 – Present
+Position: Lead Specialist in the AI Development Directorate
+English: B2
+Responsibilities and Achievements:
+1. CV System Implementation:
+Implemented the "CoParking" system (see more here),
+which brought significant profiit and recognition to the
+company, attracting new clients interested in deploying the
+solution at their own parking facilities.
+The system included the following key components:
+• Real-time parking occupancy visualization using object
+detection models.
+• Violation recognition through automated detection
+mechanisms.
+• Vehicle tracking across [location] Airport parking
+areas using detection model and algorithm with Kalman
+filtering.
+• Accident detection based on segmentation models and
+depth map analysis.
+• Vehicle counting in open parking zones to assess capacity
+and traffic flow.
+2. LLM Implementaion: Deployed a locally hosted large
+language model (LLM) within the company to enhance
+internal workflows while ensuring data security and
+preventing information leaks.

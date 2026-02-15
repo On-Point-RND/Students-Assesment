@@ -1,0 +1,36 @@
+[name] [surname]
+| [email] | +2 *** *** ***
+
+Summary
+Results-oriented Computer Vision Engineer. Passionate about applying machine learning and computer
+vision techniques to real-world problems, particularly in medical imaging.
+Education
+2022 - 2024 Master degree [compaany] 09.04.01
+2018 - 2022 Bachelor degree [compaany] 12.03.01
+Experience
+Third Opinion from 2023
+Computer vision engineer
+– Increase F1-score on 16 % in malignant calcification detection by adding synthetically generated data
+– GAN-based data generation for enrichment of small datasets in the context of malignant calcifications
+in mammography
+– Support the product version of the network for semantic segmantation of calcifications (model conver-
+tation, pipeline support)
+– Tagless opening of DICOM files in mammography modality
+– Definition of detailed criteria I in PGMI classification
+– Classifier of malignant calcifications
+Acoustic Control Systems from 2021 to 2022
+Engineer - programmer
+– Numbers recognition on ultrasonic capsules for testing automatizing
+– Automatic motor control for a certification stand based on Arduino
+Activities
+Kryptonite ML Challenge Hackathon aimed at build a deepfake-resistant face March 2025
+encoder. 3-rd place.
+Technical competencies
+Languages: Python
+Frameworks: PyTorch, PyTorch Lightning, Ray, Triton
+Libraries: OpenCV, Numpy, Pandas, Plotly, ...
+Automatizaion: CI/CD gitlab pipeline
+Tools: Git, Docker
+Design tools: Figma, Miro
+Documentation: LaTeX
+Update: April 11, 2025

@@ -1,0 +1,51 @@
+[name] [surname]
+Male, 23 years, born on 31 March 2002
++2 *** *** *** — preferred means of communication
+[email]
+Reside in: [location]
+Citizenship: Russia, work permit at: Russia
+Ready to relocate, ready for business trips
+Desired position and salary
+Аналитик-программист
+Specializations:
+— Analyst
+— Programmer, developer
+Employment: full time, part time, project work, work placement
+Work schedule: full day, shift schedule, flexible schedule, remote working
+Desired travel time to work: any
+Work experience — 6 months
+March 2025 — till [company]
+now
+[location], www.[company].ru/ru/
+2 months
+Industrial Equipment, Machine Tools and Components
+IT, System Integration, Internet
+Software Development
+System Integration, Technological and Business Processes Automation, IT Consulting
+Electronics, Tool Engineering, Household Appliances, Computers and Office Equipment
+Computer, Optical, Control and Measurement Technology, Radio and Electronics, Automatics (Assembly, Maintenance, Repair)
+Construction, Real Estate, Architecture
+Industrial Construction
+Инженер
+Моделирование работы различных устройств.
+September 2023 [company]
+— December 2023 Техник
+4 months
+Написание кода, использование теоретической математики, построение математических моделей.
+Education
+Master
+2026 Московский физико-технический институт (Государственный университет), Долгопрудный ([location])
+Центр дополнительного, дополнительного профессионального и онлайн-образования "Пуск" (Центр "Пуск"), Прикладная математика и информатика
+Resume updated 20 April 2025 at 20:40
+2024 Уфимский университет науки и технологий
+Институт информатики, математики и роботехники, Прикладная математика и информатика
+Skills
+Languages Russian — Native
+English — B2 — Upper Intermediate
+Skills Python Анализ данных Математическое моделирование Big Data
+Английский язык
+Further information
+About me Качества: обучаемость, коммуникабельность ответственность, умение работать в команде, аналитическое мышление, пунктуальность.
+Научные работы: "Временные ряды токов пеركоляционного сенсора в условиях потенциостатической хроноамперометрии жидких сред", "Математическое аналитические возможности временных рядов токов "Cu-Al электронного языка" при распознавании молочной продукции", "Применение вольтамперных времен рядов в мониторинге качества молочной продукции".
+Github: https://github.com/Nomvear
+[name] • Resume updated 20 April 2025 at 20:40

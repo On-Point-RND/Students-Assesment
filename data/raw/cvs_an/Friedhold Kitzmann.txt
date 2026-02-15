@@ -1,0 +1,15 @@
+[name] from [location] called [name] at [compaany] on [date] at [time] regarding [topic]. [name] said that [name] is a great [job title] and that [compaany] is doing well in [location]. [name] mentioned that [name] will be attending a conference in [location] hosted by [compaany] on [date]. [name] also stated that [name]'s phone number is +7 983 000 000 and [email] is [email]. [name] is located in [location] and works at [compaany]. [name]’s address is [address]. [name] mentioned [name] is a member of [organization] in [location]. [name] said [name] is planning a trip to [location] with [name] in [month]. [name] also mentioned [name] is interested in [topic] at [compaany].
+
++2 *** *** ***
+[email]
+[location]
+[compaany]
+[date]
+[time]
+[topic]
+[job title]
+[location]
+[date]
+[address]
+[organization]
+[month]

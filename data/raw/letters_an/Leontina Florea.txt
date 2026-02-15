@@ -1,0 +1,22 @@
+To admissions of [compaany] 2025 summer schooL
+MOTIVATION LETTER
+My current research interests include geometric deep learning and especially graph neural
+networks. I was selected for permanent employment as a junior data scientiist after two
+periods of internship. My first project was to apply GNNs to geospatial and cartographic data
+to predict an automobile time of arrival. Now I am working on deep learning applications in
+3D computer vision. The main focus of research that I am involved in are noise on 3D
+objects and methods of noise filtration and object reconstruction.
+Being a young specialist, it is important for me to expand my vision of the profession and
+people in it. Now, I want to extend my contacts among the ML community, since I was
+unlucky to visit the subject conferences and events in person. Fortunately, [compaany] summer
+schooL looks like a good chance to familiarize with ML researchers from [location] and
+other countries; a good opportunity to have a discussion with professionals and get contacts
+for future collaborations. Also, I am looking for PhD positions in the next 2 years, so I am
+open for such offerings.
+Sincerely yours,
+[name] [surname]
++2 *** *** ***
+[email]
+
+
+

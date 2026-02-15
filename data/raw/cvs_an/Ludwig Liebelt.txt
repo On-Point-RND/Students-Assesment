@@ -1,0 +1,61 @@
+[name] [surname]
+DATA SCIENCE INTERN
+Purpose I strive to develop in my passion, machine learning, with the goal of reaching the
+highest level of mastery. This is a path I intend to continue throughout my life. I
+want to contribute to the advancement of science and put my knowledge into
+practice to serve the higher purpose of human progress.
+Education 2022-2026 [location]
+Bachelor's Degree Applied Informatics in Management
+Unfinished higher education. Currently studying on the 3rd
+year. I have RAU 5.0 and do not find any particular difficulties
+in the program given at the universiity.
+2024 [location] FEFU Digital Departments
+Additional education “Data Analyst: Advanced level”
+As part of the Digital Chairs supplementary education, I took
+two courses on the Skillbox education platform:
+“Introduction to Data Science” and ”Machine Learning
+Junior”
+Contacts Phone +2 *** *** ***
+Telegram https://t.me/[name]_polyakov
+Email [email]
+Languages English Speaking in A2 to B1, listening and reading in B2, writing in B1
+Russian Native speaker
+Soft skills I possess critical and analytical thinking, have leadership skills, communicative,
+excellent discipline, high level of responsibility, stress tolereance.
+[name] [surname] | CV 1
+Hard skills Mathematical The study lasted 2 semesters. I know: limits, derivatives,
+analysis integrals, series, field theory (gradient, etc.).
+Probability theory These two subjects were taken as part of the same discipline.
+and I know: simple and complex probabilities, conditional and
+Mathematical total probability, Bayes formula, Bernoulli formula, basic types
+Statistics of distributions.
+Linear I know: operations with vectors and matrices, calculation of
+algebra determinants.
+Python Average level of proficiency.
+I know: syntax, OOP, working with exceptions and error
+handling, basics of SQLAlchemy, FastAPI, know and use
+various data structures, generators, lambda-functions.
+I know and use Scikit-Learn, Pandas, Numpy, PyTorch, plotly,
+seaborn, matplotlib libraries.
+SQL and DB The course is actively studied in our universiity program.
+I know: syntax, SELECT and UPDATE operators, views, data
+types, transactions, normalization. I can build a datalogical
+data model.
+Machine Learning Knowledge of classical machine learning algorithms.
+Deep Learning I know and understand: principle of model buildiing, error
+back propagation method, gradient calculation, theory of
+linear models, RNN models, LSTM models, Transformeers, LLMs.
+General A year ago, I discovered machine learning and realized that I wanted to
+develop in this field. I learned the basic skills of working with data and machine
+comment
+learning models at SkillBox courses, and I studied mathematics as part of my
+universiity program. Now I am trying to deepen my knowledge on my own.
+Althought I have not worked on large projects, I have done a lot of training
+jupyter notebooks where I mastered different algorithms. In the area of deep
+learning, I implemented Andrej Karpathy's Micrograd library to better understand
+the error back propagation method.
+I am currently working on a project on stock price prediction where I am using
+the LSTM model and Pipeline to process the data. My goal is to turn this project
+into a product and implement it in Airflow. The project is currently 60% complete.
+Link to github: https://github.com/1Eross/exchange_model
+[name] [surname] | CV 2

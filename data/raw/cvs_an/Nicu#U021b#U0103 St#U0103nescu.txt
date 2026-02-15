@@ -1,0 +1,43 @@
+[name] [surname] Email : [email]
+https://github.com/[name] Mobile : +2 *** *** ***
+Telegram: https://t.me/[name]
+Education
+• [compaany] of Science and Technology(supervisor: [name])
+PhD Computational and Data Science and Engineering Sep. 2024 – Sep. 2027
+• [compaany] (supervisor: [name])
+Msc Robotics and Computer Vision; GPA: 4.82(with honours) Aug. 2019 – July. 2021
+• [compaany]
+BsC Automotive engineering ; GPA: 4.50 Sep. 2015 – Jun. 2019
+Experience
+• [compaany] https://new.skoltech.ru/en/
+PhD student Nov 2024 - Cur. time
+◦ Scene segmentation and feature distillation in 3d: Created an approaach for contrastive 3d gaussian splatting
+segmentation
+• Artec 3d https://www.artec3d.com/
+Computer vision researcher Jan 2023 - Sep. 2024
+◦ Structure from motion(SfM): Incorporated neural 2d feature(point and line) detection and matching into SfM
+pipeline, achieving up to 10% increase in number of registered images
+◦ Neural reconstruction: Created approach for incorporating semantic, instance labels and CLIP features into
+neural radiance fields
+• [compaany] https://innopolis.universiity/en/
+Computer vision research engineer Jan 2021 - Jan 2023
+◦ Multimodal place recognition(PR): Created a neural place recognition approach based on metric learning
+utilizing images and pointclouds, achieving lower number of false positives than using unimodal approaches
+◦ SLAM: Created non-linear global pose optimization method for custom lidar SLAM, reducing the error in
+trajectory
+Research interests
+• Machine learning and deep learning: Interested in new architectures for computer vision, multimodal data and
+generative models
+• Computer vision: Interested in 3d computer vision, neural scene reconstruction and generative models
+• Robotics: Primarily interested in perception for robotics and robot learning
+Programming skills
+◦ Languages: C/C++, Python, CUDA
+◦ Libraries: C++:(Eigen, openCV, pcl, Ceres, g2o); Python:(Numpy, PyTorch(+lightning), openCV), ROS
+◦ Tools: Docker, Linux
+Achievements
+◦ Hilti SLAM Challenge 2023: Took 3rd place as part of [name] team in SLAM competition.
+https://hilti-challenge.com/leader-board-2023.html
+◦ Publications: Have 3 publications https://ieeexplore.ieee.org/abstract/document/9536138
+https://ieeexplore.ieee.org/abstract/document/9666070, https://ieeexplore.ieeexplore.org/document/10406994
+◦ Videos: Videos with some of my research results can be found on my youtube channel
+https://www.youtube.com/channel/UCg1FZN zpR6F-dRPpXYaG4g

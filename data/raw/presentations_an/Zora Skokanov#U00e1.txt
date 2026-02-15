@@ -1,0 +1,77 @@
+
+
+Slide 1  
+----------------------------------------  
+[name] [surname]  
+1st year MA student of Political Science, [company]  
+
+Considerations for Machine Learning Use in Political Research with Application to Voter Turnout  
+
+Article: https://polmeth.theopenscholar.com/files/polmeth/files/moses-box-steffensmeier-2020.pdf  
+
+Slide 2  
+----------------------------------------  
+Introduction  
+
+Here are the key strengths the authors aim to demonstrate in the article:  
+Handling Complex and High-Dimensional Data  
+Improved Prediction Accuracy  
+Flexibility in Data Representation  
+Interpretability and Theory Validation  
+Addressing Overfitting and Generalization  
+Integration of Diverse Data Sources  
+
+In recent years, the integration of machine learning (ML) methods in political science has opened up a myriad of possibilities for researchers and practitioners alike. The distinct advantages of employing ML techniques not only enhance our understanding of political phenomena but also provide practical tools for addressing complex societal challenges. In this section, I highlight the fundamental benefits of ML methods in political science, particularly through the lens of their principles and various learning models.  
+
+Slide 3  
+----------------------------------------  
+Problem statement  
+
+The article addresses the challenges and opportunities of using machine learning (ML) in political science.  
+
+While ML offers powerful tools for prediction, pattern detection, and handling complex data, its adoption raises key issues. These include reconciling ML’s predictive focus with political science’s emphasis on causal explanation, avoiding overfitting and dimensionality pitfalls, and balancing model accuracy with interpretability.  
+
+The authors also highlight risks of bias in social data and the need for ethical considerations. Through a voter turnout case study, they demonstrate how ML can validate theories and uncover new insights while stressing the importance of proper model validation, feature selection, and transparency. Ultimately, the article provides a framework for political scientists to harness ML’s strengths while mitigating its limitations.  
+
+Slide 4  
+----------------------------------------  
+Methods  
+
+The article uses Random Forest (RF), Naive Bayes (NB), Support Vector Machines (SVM), Decision Trees (CART), Neural Networks (MLP), and ensemble methods (AdaBoost, bagging). These were chosen for their versatility in classification and regression tasks, particularly with structured survey data.  
+
+How it works (simply): Give a 1–2 line intuition.  
+Random Forest: Averages predictions from multiple decision trees to reduce overfitting.  
+Naive Bayes: Predicts class probabilities assuming feature independence.  
+SVM: Finds the best boundary (hyperplane) to separate classes in high-dimensional space.  
+Neural Networks: Layers of interconnected nodes learn hierarchical patterns in data.  
+
+Data & preprocessing: Mention key steps like cleaning data, feature extraction, or splitting into train/test sets.  
+Data: Used the 2016 [company] survey (43,871 respondents, 97 variables).  
+Preprocessing: One-hot encoded categorical variables (resulting in 449 features), split data into train/test sets, and applied cross-validation to tune hyperparameters.  
+Feature selection: RF identified top predictors (e.g., voter registration, age) via importance scores.  
+
+Slide 5  
+----------------------------------------  
+Results  
+
+ML models (e.g., Random Forest, Neural Networks) outperformed traditional methods (e.g., logistic regression) in predicting voter turnout, especially with complex, high-dimensional data.  
+Feature importance analysis validated known political science theories (e.g., voter registration and age as top predictors) while uncovering subtle patterns.  
+Interpretable models (e.g., Random Forest) balanced accuracy and explainability, whereas complex models (e.g., Neural Networks) achieved higher accuracy but were less transparent.  
+
+Metrics Used:  
+- ROC Curves & AUC: Measured trade-offs between true positive and false positive rates, crucial for binary classification (e.g., voter/non-voter).  
+- Precision-Recall (PR) Curves: Prioritized for imbalanced datasets (e.g., fewer non-voters), where accuracy alone can be misleading.  
+- Cross-Validation: Ensured robustness by testing generalizability across multiple data splits, reducing overfitting risks.  
+
+Slide 6  
+----------------------------------------  
+Research gap  
+
+While the article provides a strong framework for applying machine learning (ML) in political science, it leaves several key gaps unexplored:  
+
+Limited Discussion on Causality:  
+The article focuses on predictive performance but does not deeply address how ML can contribute to causal inference—a core goal in political science. Techniques like causal forests or double/debiased ML (e.g., Athey & Imbens, 2016) could bridge this gap.  
+Bias Mitigation Strategies:  
+Though the article acknowledges social biases in data (e.g., underrepresentation), it does not propose concrete debiasing techniques (e.g., adversarial learning, fairness constraints) to ensure equitable model outcomes.  
+Dynamic and Temporal Modeling:  
+The voter turnout case study uses static survey data, missing opportunities to explore time-series or longitudinal ML models (e.g., LSTMs) that could capture evolving voter behavior.

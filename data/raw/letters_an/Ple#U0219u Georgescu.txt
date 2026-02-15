@@ -1,0 +1,39 @@
+Motivation letter
+My name is [name] [surname], and I express my sincere interest in participating in the summer school SMILES to continue scientific research in the field of artificial intelligence, computer vision and methods of interpretation of solutions of neural network detectors of deepfake.
+For several years, I have been actively engaged in deepfake detection problems and the interpretability of deep neural networks, which is confirmed by my publications and presentations at conferences. During the research, I focused on the development of interpretable computer vision models that allow explaining the decision-making processes of neural networks.
+I am the author of a number of scientific publications in peer-reviewed journals, including:
+1. Articles in peer-reviewed journals of the Russian Federation (VAK)
+ [name] [surname]. Ensemble of modern computer vision models for the deepfake detection task // Safety of Information Technologies. – 2024. – Vol. 31. – No. 4. – P. 116-127.
+ [name] [surname], [name] [surname]. Enhancing explainability in deepfake detection with graph attention networks // Safety of Information Technologies. – 2025. – Vol. 32. – No. 2. (In print).
+2. RID (results of intellectual activity)
+ [name] [surname]. Deep neural network for interpreting decisions of deepfake detectors – 2025.
+ [name] [surname]. Deep neural network with attention mechanism for the task of detection of presentation attack on biometric facial recognition system – 2024.
+3. Articles in proceedings of international conferences
+ [name] [surname]. Efficient deepfake detection using pruned deep neural networks // International Scientific and Technical Conference of Young Scientists of BSTU named after V.G. Shukhov (Belgorod, May 20-21, 2024). – 2024. – Ch. 13. – P. 266-268.
+4. Articles in scientific journals and collections indexed in RINC
+ [name] [surname]. Method for improving the detection of presentation attack on biometric facial recognition system using convolutional network with attention mechanism // Almanac of scientific works of young scientists of the Institute of Information Technologies of the University. – 2024. – Vol. 1. – P. 338-342.
+ [name] [surname], [name] [surname]. Deep neural network with graph attention for detection of fake face images // University of ITMO. – 2023.
+5. Abstracts
+ [name] [surname]. Application of unsupervised learning approaches for the DeepFakes detection task // University of ITMO. – 2024.
+ [name] [surname]. Method for interpreting deepfake detection using graph attention // University of ITMO. – 2024.
+In addition, I have made reports at leading scientific conferences:
+ Fifty-third (LIV) scientific and methodological conference of the University of ITMO (2025).
+ Safety of Information Technologies - BIT Saint Petersburg 2024
+ Fifty-third (LII) scientific and methodological conference of the University of ITMO (2024).
+ International Scientific and Technical Conference of Young Scientists of BSTU named after V.G. Shukhov (2024).
+ Conference "My Choice - Science" in the section "Information Safety" (2023).
+ Conference "My Choice - Science" in the section "Information Safety" (2022).
+My research is mainly related to methods of interpreting the solutions of neural network detectors of deepfakes. In particular, I have studied graph attention mechanisms (GAT), Grad-CAM, which allowed me to develop more transparent and explainable models.
+One of my significant achievements was the study of graph attention mechanisms in the task of interpreting the solutions of deepfake detectors, published in leading Russian scientific journals. I also worked on the optimization of neural network architectures using pruning, which allowed to create more effective models for deepfake detection.
+For my scientific achievements, I was awarded a scholarship of the Government of the Russian Federation and am a holder of two results of intellectual activity (RID).
+I aspire to continue research in a graduate school because I am convinced that interpretable neural network models play a key role in ensuring the transparency of artificial intelligence solutions, especially in such critical areas as mathematics, artificial intelligence, information safety and biometric identification.
+Within the framework of graduate school, I plan to continue work on the following directions:
+1. Development of methods for interpreting neural network solutions – research and implementation of attention mechanisms (self-attention, GAT, multi-head attention) for explaining model operation.
+2. Comparative analysis of developed approaches with classical methods, such as Grad-CAM, LIME, SHAP, and other visualization methods in the context of deepfake detection.
+3. Creation of hybrid ensemble models based on CNN, Vision Transformers and GNN for improving the accuracy and interpretability of detection.
+4. Optimization of computational resources for accelerating the operation of interpretable models using pruning and quantization methods.
+Thanks to my scientific experience, participation in conferences and publications, as well as the desire to solve actual problems in the field of information safety and artificial intelligence, I am confident that I will make a significant contribution to the scientific community and the development of the field of interpretable machine learning.
+Sincerely,
+[name] [surname]
+e-mail: [email]
+library: https://www.elibrary.ru/author_items.asp?authorid=1256269&show_option=1&show_refs=1

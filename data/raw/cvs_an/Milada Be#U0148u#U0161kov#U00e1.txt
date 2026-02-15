@@ -1,0 +1,25 @@
+[name] [surname]
+Date of birth: 25.09.2001 
+Mobile phone: +2 *** *** ***
+Address: [location]
+e-mail: [email]
+@itskardia
+
+EDUCATIION:
+2019 – 2023: [location] , faculty of Physics and Technology, I. L. Povkh Department of Physics of Nonequilibrium Processes, Metrology and Ecology.
+2023: professional development in [location].
+2024 till now: [location] , Phystech SchooL of Aerospace Technology, Department of Ocean Thermohydromechanics.
+
+SCIENCE EXPERIENCE:
+Bachelor's thesis topic: "Rheological characteristics of non-Newtonian fluids". During my studies in [location], I participated in several conferences and also twice published in the scientific journal of the university.
+For 1.5 years I have been working as a research engineer, in [company]. 
+Participated in a scientific marine expedition in the Pacific Ocean in the summer of 2023. At the moment, the article with the results of the work has been reviewed and is in print.
+Completed an internship, including studies of the Gulf of Finland at the [location] in the summer of 2024.
+
+ML/DL COMPETENCE:
+At the moment, the topic of my master's thesis is "Classification of states of destruction of the stratospheric polar vortex." And I plan to solve this problem using ML/DL. ([location])
+I started diving into the world of artificial neural networks in September 2024. And now I'm finishing several courses, as well as participating in a hackathon.
+I know the most popular types of loss function and methods of its optiomization, I know about regularization, libraries, etc. That is, I am familiar with the minimal base and structuraal parts of ML/DL both from the point of view of mathematics and from the point of view of practice. I have also worked with fully connected, convolutional, recurrent neural networks and autoencoders in practice.
+
+AREAS OF INTEREST:
+Climatology, ecology, oceanology and the methods by which they can be studied.

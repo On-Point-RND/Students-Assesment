@@ -1,0 +1,136 @@
+Research and development of 4-quadrant sun sensor calibration algorithm for microsatellite orientation
+Reporter: [name], [surname], Robotics & Automation department
+Scientific advisor: [surname], Ph.D., Associate Professor
+Problem statement
+• Sensor calibration is the search for the best transform of sensor data into the
+parameters of the satellite’s orientation relative to the Sun
+• Required average accuracy of the calibration algorithm – at least 1°
+• Algorithm must work stably within the entire field of view of the sensor
+• It is required to ensure the absence of blind spots within the satellite perimeter
+• The algorithm must provide the optimal number of calibration characteristics,
+and the orientation algorithm based on it should be optimal in time and memory
+Overview of Existing Solutions
+This problem is quite popular in space industry, however:
+• In most cases [name] [surname] work is underway with sensor based on CMOS/CCD matrices
+• This work introduce alternative measurement model that simplifies calibration
+algorithms. Conventional measurement model works with raw ADC outputs of light
+intensities [4][5]
+• There is no comparative analysis of calibration algorithms within a single scientific
+paper
+• Although traditional calibration methods perform well, modern ML techniques
+researched to explore their potential in solving this kind of problem
+[1] [name] [surname] and others. Calibration of sensors to determine the orientation of a small spacecraft. Preprint of the [compaany] Source: https://www.keldysh.ru/papers/2005/source/prep2005_94.pdf
+IPM of the Russian Academy of Sciences, 2010, No. 28, 32 p.
+[2] [name] [surname], [name] [surname], [name] [surname]. Testing and calibration of a prototype computer software
+developed on the basis ofAPS technology. Preprint of the KeldyshIPM of the Russian Academy of Sciences. 2005. 30 p.
+[3] [name] [surname], [name] [surname], [name] [surname]. Development of an inexpensive solar sensor for nano satellite. Acta Astronautica.
+Volume 144. 2018. pages 429-436.
+[4] [name], [name]. Calibration of a 4-quadrant analog solar sensor based on deep neural networks. The science of
+space. Technology. 2023. Article 0024.
+[5] [name], [name], [name]. Laboratory tests of a prototype solar sensor based on APS. Proc. SPIE
+10568, International Conference on Space Optics —ICSO 2004, 105680Z (November 21, 2017).
+Measurement Model
+y
+s
+x
+s
+𝐼 ,𝐼 , 𝐼 , 𝐼 - digital value of the
+1 2 3 4
+𝑋,𝑌,𝑍– light source direction vector light intensity on the photodiodes
+of the sensor
+coordinates
+𝑅 = 1 ⇨ we only must determine abscissa 𝐼 + 𝐼 − (𝐼 + 𝐼 )
+𝑍 2 4 1 3
+𝜃 = 𝑐𝑜𝑠−1 𝑥 =
+𝑅 = 𝑋2 + 𝑌2 + 𝑍2 σ4 𝐼
+𝑅 and ordinate of the vector
+𝑖=1 𝑖
+𝑥,𝑦 – coordinates of the center of the light
+𝑌 𝐼 + 𝐼 − (𝐼 + 𝐼 )
+1 2 3 4
+𝜃 = 𝑎𝑡𝑎𝑛2 𝑦 =
+𝑋 spot σ4 𝐼
+𝑖=1 𝑖
+Measurement Model
+𝑥
+𝑋 𝐴 This transformation is known due to laboratory
+՜
+measurements on a 2-axis rotary platform
+𝑦
+𝑌
+This transformation will be performed by satellite’s
+𝑥 −1
+𝐴 𝑋
+orientation module controller based on calibration
+𝑦 characteristics. It is unknown
+𝑌
+Source: https://www.researchgate.net/publication/275460703_A_Low-
+Cost_Photodiode_Sun_Sensor_for_CubeSat_and_Planetary_Microrover
+Calibration Algorithm Synthesis. Linear Operator
+• Due to data linearities it can be assumed that the desired
+transformation is a linear operator
+• Adding some offset to it, we get:
+𝑋 𝑥 + 𝑥
+= 𝐴−1 ∙ 𝑐 ,𝐴−1 ∈ ℝ2×2
+𝑌 𝑦 + 𝑦
+𝑐
+• Thus, the calibration characteristics are 4 numbers from
+the matrix 𝐴−1 and 2 linear offsets. These parameters
+found using the least squares method
+• Advantages:
+▪ Only 6 calibration characteristics
+▪ Simple computing for orientation algorithm
+• Disadvantages:
+▪ Significant performance decrease when non-
+linearities occur
+Calibration Algorithm Synthesis. Linear Operator
+Existing Methods Adaptation. Geometric Model
+Source: https://www.researchgate.net/publication/321223698_Laboratory_test_of_an_APS-
+based_sun_sensor_prototype
+𝑥∗ − 𝑥
+𝑋 = sin−1 tan−1 𝑐 ∙ cos𝛽 + 𝛼
+𝑑 0 0 • Advantages:
+𝑦∗ − 𝑦 ▪ Amount of calibration characteristics: 6
+𝑌 = sin−1 tan−1 𝑐 ∙ cos𝛼 + 𝛽
+0 0
+• Disadvantages:
+▪ Difficult to interpret for inference on an MCU
+Multi-layer perceptron – basic artificial neural network algorithm
+that can approximate non-linear functions with high flexibility
+• Input data scaling was performed as preprocessing procedure to
+improve performance
+• Each of the output coordinate has its own regression model:
+𝑋 = 𝑀𝐿𝑃 𝑥,𝑦
+𝑌 = 𝑀𝐿𝑃(𝑥,𝑦)
+• Advantages:
+▪ Adaptable to subtle distortions In the sensor’s field of view
+▪ Can learn any smooth function unlike low-degree
+polynomial
+• Disadvantages:
+▪ Risk of over fitting
+▪ Difficult to interpret for inference on an MCU
+Algorithms Comparison
+Algorithms Comparison
+Calibration model characteristics Number Mean error, ° Mean standard deviation, °
+Linear model 6 1.589 1.209
+Geometric model 3 1.327 0.822
+(linear offsets only)
+Polyomial regression 18 0.329 0.227
+(cubic degree)
+GBDT - 1.784 0.880
+MLP - 0.463 0.408
+Polynomial regression and multi-layer perceptron have shown better efficiency that other algorithms observed. Main
+disadvantage of MLP – interpretability for bare-metal architecture. It requires a lot of labor to make it work on MCU orientation module
+Conclusion
+• The field of view of the QD solar sensor was investigated to determine the calibration
+possibilities. Defective sensors have been eliminated
+• A new calibration algorithm was synthesized based on the selected measurement model and
+the assumption of linearity of calibration data
+• The previously known sensor calibration algorithm were adapted to the new measurement
+model and implemented
+• Few advanced machine learning techniques were used to compare their efficiency to traditional
+calibration algorithm
+• Comparative analysis was carried out to determine the most effective calibration method
+Thanks for your attention!
+Telegram: @[name]
+E-mail: [name]@[domain]

@@ -1,0 +1,96 @@
+Learning Enhanced Event Sequence
+Representation via Textual
+Augmentation
+[name]
+DL Researcher, [compaany]
+Introduction
+• Topic: Enhancing event sequence representations via textual augmentation and multimodal
+contrastive learning.
+• Why is it important?
+○ Transactional sequences are high-dimensional, sparse, and irregular.
+○ Labeled data is scarce in banking and behavior modeling.
+○ Robust, semantically rich embeddings are essential for downstream tasks (e.g., churn / card
+issuance prediction ).
+• Background:
+○ Self-supervised learning (SSL) enables representation learning without labels.
+○ Contrastive learning methods (e.g., SimCLR, CoLES) have shown success on sequences.
+○ Multimodal learning (e.g., CLIP, SigLIP) aligns different modalities in a shared latent space.
+○ Large Language Models (LLLMs) can generate semantically meaningful text from structured inputs.
+• Goal of the research:
+○ Align transactional sequences with their generated textual descriptions
+○ Improve quality of the embeddings used as features for downstream tasks
+Problem statement
+• What exactlly are we solving?
+○ Learning better representations of transactional event sequences by aligning them with descriptive
+text.
+○ Using LLLM-generated behavior summaries to enhance embeddings through multimodal contrastive
+learning.
+• Key Challenges:
+○ Transaction sequences are noisy, sparse, and vary in length.
+○ Lack of semantic structure in raw categorical/numerical inputs.
+○ Difficulty of generalizing to downstream tasks with limited data.
+○ Generating faithful and interpretable text from structured stats.
+• Scope of the work:
+○ Generate behavior summaries from structured transaction statisics using LLLM.
+○ Encode sequences and texts and align them in a joint space.
+○ Evaluate on real banking tasks: churn, gender, age group prediction.
+Methods
+• Approach:
+○ CoLES for self-supervised representation learning on transaction sequences.
+○ LLLMs (Gemma-3-27B-Instruct) for generating textual descriptions.
+○ Multilingual-E5-large-instruct for encoding texts.
+○ CLIP/SigLIP contrastive learning for multimodal alignment.
+• Why these methods?
+○ CoLES handles sequential, irregular data via contrastive pretraining
+○ LLLMs extract semantically rich features not available in raw data
+○ Contrastive alignment bridges modalities and improves generalization
+○ All methods are self-supervised — no labeled data needed for pretraining
+• How it works:
+○ Generate behavior text from stats → encode both sequence and text → pull matched pairs
+together in latent space
+• Data & preprocessing (for raw transactional data):
+○ Numerical features are log-transforme, categorical features passed through learneed
+embedding layers
+○ Temporal order preserved
+Results
+• Key findings:
+○ Multimodal contrastive alignment improves performa performance on many downstream tasks.
+○ Textual augmentation adds semantic depth to raw transactional embeddings.
+○ Particularly strong gains on short and sparse sequences (e.g., churn)
+• Metrics used:
+○ Churn and Gender: ROC-AUC — robusst under class imbalance, reflects ranking quality.
+○ Age Group: Accuracy — appropriate for balanced multiclass classification.
+• Takeaway:
+○ Aligning structured and textual views of user behavior yields embeddings that are both
+semantically rich and predictive.
+Research gap
+• What’s missing?
+○ Prior multimodal methods (e.g., CLIP) focus on static domains like image-text; sequenial,
+time-stamped data is underexplored.
+○ CoLES and similar models do not incorporate explicit behavioral semantics.
+• Unresolved Challenges:
+○ Lack of dynamic alignment: current alignment assumes fixed granularity (whole sequence ↔
+whole text)
+○ Computational cost of LLLM-based augmentation in large-scale pipelines.
+○ Integration with additional modalities (e.g., geo-data, chat logs) remaiins untested.
+• Why It Matters:
+○ Aligning sequences with textual semantics can improve explainability, robustness, and performa
+○ In real-world banking systems, low-label and low-data regimes are common — augmenting with
+LLMs may help bridg this gap
+• Future Opportunities:
+○ Extend to multi-resolution contrastive learning (e.g., align subsequences ↔ sentence spans).
+○ Evaluate performa performance on non-classification tasks (e.g., anomaly detection, retrieval)
+Bibliography
+1. [surname], [name], [surname], & [surname]. (2020, November). A simple framework for contrastive learning of visual representations. In
+International conference on machine learning (pp. 1597-1607). PmLR.
+2. [surname], [name], [surname], [surname], [surname], [surname], & [surname]. (2022, June). Coles: Contrastive learning for event sequences
+with self-supervision. In Proceedinings of the 2022 International Conference on Management of Data (pp. 1190-1199).
+3. [surname], [name], [surname], [surname], [surname], [surname], ... & [surname]. (2021, July). Learning transferable visual models from
+natural language supervision. In International conference on machine learning (pp. 8748-8763). PmLR.
+4. [surname], [name], [surname], & [surname]. (2023). Sigmoid loss for language image pre-training. In Proceedinings of the IEEE/CVF international
+conference on computer vision (pp. 11975-11986).
+5. [surname], [name], [surname], [surname], [surname], [surname], & [surname]. (2025). Gemma 3 technical report. arXiv preprint
+arXiv:2503.19786.
+6. [surname], [name], [surname], [surname], & [surname]. (2024). Multilingual e5 text embeddings: A technical report. arXiv preprint
+arXiv:2402.05672.
+https://github.com/linglingec/text-transactions-aligneed-pretrain

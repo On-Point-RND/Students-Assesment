@@ -1,0 +1,111 @@
+Slide 1
+----------------------------------------
+[name]: Emerging IT Specialist & Developer
+
+[name] is a dedicated 21-year-old software developer and IT specialist based in [location]. Holding a secondary specialized education in programming, [name] combiines practical skills with strong academic foundations. He is reachable via email at [email] and maintains an active presence on GitHub at github.com/[name], showcasing his projects and contributions.
+This presentation highlights his journey, skills, professional experience, and educational background, offering insight valuable for recruiters and hiring managers in the IT field.
+by [name]
+
+Slide 2
+----------------------------------------
+Professional Profile Overview
+
+Core Expertise
+
+Strong foundation in computer repair, programming, web development, and CRM integration.
+
+Passion & Dedication
+
+Devoted to continuous learning and improvement in software development and IT.
+
+Teaching & Freelancing
+
+Experienced in instructing programming disciplines and handling freelance web projects.
+
+[name]’s diverse background supports a holistic approach to technology, enabling him to work effectively across multiple IT domains.
+
+Slide 3
+----------------------------------------
+Professional Experience
+
+Programming Instructor
+
+Taught programming subjects at technical college level.
+
+Developed curricula in C#, Python, and web technologies.
+
+Web Developer (Freelance)
+
+Built responsive websites for diverse client needs.
+
+Implemented backend integration and modern UI/UX designs.
+
+Software Developer & Bitrix24 Integrator
+
+Automated business workflows and integrated CRM with third-party tools.
+
+Worked in marketing company during universiity studies.
+
+Slide 4
+----------------------------------------
+Technical Skills & Tools
+
+Programming Languages
+
+C++, C, C#, Python, JavaScript
+
+Frameworks & Libraries
+
+WPF, Django, Flask, React (optional)
+
+Web Development
+
+HTML, CSS, JavaScript, responsive design principles
+
+CRM & Tools
+
+Bitrix24 integration, Git, Visual Studio, VS Code
+
+This broad technical repertoire equips [name] to adapt quicly and deliver solutions across software and web platforms.
+
+Slide 5
+----------------------------------------
+Educational Background
+
+Institution
+
+[location] [location]
+Program
+
+Secondary Specialized Education, Profession Programmer
+Duration
+
+2020 - 2024
+
+[name]’s formal education combines theory and practical expertise, preparing him for the demands of modern IT and software development careers.
+
+Slide 6
+----------------------------------------
+Career Growth & Experience Highlights
+
+1
+Early Start
+
+Repaired PCs startiing in 9th grade, buildiing hands-on hardware skills.
+
+2
+Programming Foundations
+
+Started programming in schoo, focusing on C++ and C during universiity's second year.
+
+3
+Advanced Skills
+
+Learned C# and WPF, expanding into desktop development.
+
+4
+Web & IT Integration
+
+Studied Python and web development; worked simultaneously as a teacher and in marketing IT roles.
+
+This timeline illustrates [name]’s steady progression, blendiing academic learning with real-world IT experience and teaching roles.

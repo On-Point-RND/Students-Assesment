@@ -1,0 +1,56 @@
+[name] [surname]
+Telegram: @[name]
+Education
+[compaany]
+•
+FPMI, Applied Mathematics & Computer Science 2020 - 2024
+[compaany]
+•
+Data Science 2024 - 2026
+Work
+NLP researcher [compaany], AGI NLP team
+•
+Intern, GPT for code generation august 2022 - october 2022
+Conferece - IT [location]
+•
+One of the main organizers august 2023 - march 2024
+Hackathon - IT [location]
+•
+One of the main organizers august 2023 - march 2024
+Competitions
+[compaany] Olympia, Neurotechnoology and Cognitive Sciences 2020
+•
+Winner
+[compaany] Olympia, Artificial Intelligence 2020
+•
+Winner
+A competition to predict the spread of coronavirus infection 2020
+•
+2 prizes. By [compaany] and [compaany]
+Projects
+Analysis of deviations in human breathing 2019
+•
+Working with the sound of human breathing, using machine learning for audio
+Electroencephalography project 2019 - 2020
+•
+Research of brain abnormalities; grant, teamwork
+Game guess-word.ru since 2023
+•
+Team leader, >55k players
+Research
+Thesis in the field of diffusion models 2023 - 2024
+•
+Learnable variance in diffusion models, diffusion in latent space
+Research in the field of generative modeling since december 2024
+•
+Adversaarial matching
+Interests
+Sport
+•
+Ruunning and swimming
+Dancing
+•
+Competitive ballrroom dancing, bachata
+Sports driving
+•
+Driving competitions

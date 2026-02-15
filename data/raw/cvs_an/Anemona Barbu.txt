@@ -1,0 +1,51 @@
+[name]
+[surname]
+Four-year undergraduate student
+ABOUT ME
+CONTACCTS
++2 *** *** ***
+Determined, active, obligatory and interested in acquiring
+new knowledge student with a major in Computer Science +86 (186) 1049 58 94
+and Technology. During the whole period of studying, she
+has successfully passed all exams, according to their
+results all grades are “excellent” and “good”. All course
+papers are defended “excellently”. Average GPA after
+three years is 4.81 out of 5.0.
+github.com/[username]
+ACHIEVEMENTS SKILLS
+Active ISA Member • UNITY
+01.2024 - NOW
+• Python
+Articles published in the Bulletin of the UNESCO Chair for
+Distance Education in Engineering: "On One Approach to • 3Ds Max & Blender
+Assessing the Quality of Masking Visual Information" and
+“Analysis of the Quality of Matrix Masking of Visual • VirtualBox
+Information with Consideration of Human Perception”.
+Were awarded with 2nd and 3rd places respectively in the • Linux
+EMEA & Pakistan Student Paper Competition.
+• C++
+Conferences and Contests
+2021 - NOW
+The international scientific conference “School Informatics
+and The Sustainable Development Problems” with a
+paper on "Zero-Day Vulnerability", which was awarded
+second place.
+EDUCATION
+Student contest for universities in [location] with a
+project titled “Development and Research of an Approach
+to Assessing the Quality of Matrix Masking of Visual
+Information Transmitted Over Open Channels of
+Distributes Telecommunication Systems”.
+2024.10.12 – 2024.10-14 Game Development Hackaton
+held by [company] and [company].
+Volunteering [location]
+2023 - NOW
+Volunteered in such events as Second Summit,
+Economical and Humanitarian Forum [location]-Africa and
+Eurasian Women Forum, for which she was awarded with
+two Thank You Letters. 09.2021 – 06.2025
+In addition, she actively took part in organizing and
+conducting other events held in her city as a staff.
+[location] Institute of Technology
+2024.02 – 06.2024
+School of Computer Science

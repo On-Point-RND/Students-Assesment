@@ -1,0 +1,54 @@
+[name] [surname]
+lakomchik | [email] | +2 *** *** ***
+Summary
+Positiooned at the cutting edge of robotics and deep learning, I am a Robotics Software Engineer with a specialized focus in Deep
+Learning. My expertise extends to system design, advanced control mechanisms, autonomous navigation, manipulation, and motion
+planning.
+Education
+2024 - present PhD (Artificial Intelligence and Machine Learning) at [location]
+PhD at [location].
+Research supervisor: [name].
+2022 - 2024 MSc (Engineering systems) with honors at [location] (GPA: 4.6/5.0)
+Member of AI in dynamic action (AIDA) laboratory.
+Research supervisor: [name].
+Research areas: Deep learning in language conditioned manipulation, Imitation learning, Behavioral cloning.
+Key courses: Deep learning | Machine learning | Planning Algorithms in AI | Perception in robotics | Advanced
+control methods
+Recipient of the Russian Government scholarship
+2018 - 2022 BSc (Robotics) with honors at [location] (GPA: 4.9/5.0)
+I was a recipient of the Russian Government scholarship, [location]’s academic council scholarship and Advanced
+academic scholarship for achievements in studies.
+Work Experience
+Middle software engineer in [compaany] Feb 2024 - Present
+Junior software engineer in [compaany] Aug 2023 - Feb 2024
+In my current role, I am engaged in research and development, focusing on the application of deep learning in robotics manipulation
+tasks specified by natural language. My responsibilities include the testing and enhancement of state-of-the-art(SOTA) algorithms
+within this domain.
+Stack of used technologies: Python | PyTorch | Transformers | Hydra | Linux
+Software engineer in [location] Sep 2022 - Dec 2022
+I worked on the industrial project of development ADAS systems for Kamaz. During the project, I developed Neural Network for
+Road lane detection and classification on camera image. Also I developed the software for Lane Departure Warning and Virtual
+Corridor Systems. The key challenge of this task was implementation of the system on the on-board car computer with small
+processing power.
+Stack of used technologies: Python | C++ | Pytorch | OpennINO | GStreamer
+Achievements
+1st place in Robotics ”Ya Professional” Olympiad June 2024
+I have developed software for a robotic cell that performs the task of autonomous trash detection and sorting.
+1st place in Robotics ”Ya Professional” Olympiad May 2023
+Russia’s most prestigious Olympiad. I developed a software for autonomous operation of a robotic warehouse with dynamic
+obstacles.
+1st place in Robotics National Technical Olympiad May 2022
+Task was proposed by [location]. I developed a software for Universal Robots manipulator with Intel RealSense Camera
+for sorting objects in dynamic environment.
+3rd place in Digital Breakthrough hackathon May 2023
+Case task proposed by Ministry of Natural Resources of Russia. I developed neural network for app, classifying species of swans
+on image.
+3rd place in Digital Breakthrough hackathon May 2022
+Case task proposed by AIRI Institute. I developed an algorithmic solution of path planning in partially observable multi-agent
+environment.
+Certificates and Courses
+SMILES summer school by [location] Aug 2024
+Course Generative models based on adversarial learning by [location] Aug 2024
+Skills
+Hard skills: Python | PyTorch | Transformers | Diffusers | Numpy |Linux | OpenCV | ROS |
+Also I’m familiar with: Docker | SciKit Learn

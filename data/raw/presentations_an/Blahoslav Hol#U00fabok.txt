@@ -1,0 +1,152 @@
+Water Contamination Segmentation on Camera Lens
+from a Single Image based on U-Net Architecture
+[name], [surname], [name], [surname], [name], [surname]
+1,2 1,2 1,2
+[compaany]
+Conference: ITaS 2023
+DOI: 10.53921/itas2023_224
+Indexeed by RSTI
+https://www.elibrary.ru/item.asp?id=59695546
+Introduction
+Task
+Water contamination segmentation
+Challenges
+Transparent objects, expressed in blur and
+distortion - hard to segment
+(a) droplets (b) trickes (c) tiny droplets (condensate)
+Baseline
+U-Net
+Enhancements
+Extractor channels:
+1. DWT Pic. 2 Masks of each image according of Pic 1.
+2. Saturation (a) droplets (b) trickles (c) tiny droplets (condensate)
+Motivation
+Why is this task important?
+Self-Driving cars
+Potential tasks
+❏ Maintaining partial visibility Surveillance systems
+❏ Estimation of the level of
+contamination Autonomous robots
+❏ Local cleaning system
+❏ Image purification
+Drones
+Relevance
+Previous studies are mostly based
+on camera moving -> not universal.
+Problem statement
+Task
+Semantic segmentation
+Input
+A single frame from an RGB camera
+Pic. 1 Three types of water contamination
+(a) droplets (b) trickles (c) tiny droplets (condensate)
+Contamination
+❏ Pure water contamination
+❏ On a protective camera lens
+❏ The focal length is a multiple of the
+distance to the lens
+⇔
+⇔ (distance is small enough to be out of focus)
+Output
+A binary mask, where
+Pic. 2 Masks of each image according of Pic 1.
+❏ 0 - background (a) droplets (b) trickles (c) tiny droplets (condensate)
+❏ 1 - contamination
+Methods
+Main idea
+We can determine some features of water droplets from
+the prior knowledge about our world
+Features of water contaminated areas:
+❏ Water droplets are always out of focus
+❏ Water droplet is a lens
+Methods
+Assumption 1
+Water droplets are always out of focus
+Therefore
+If area is contaminated, it is blurred
+Pic. 3 An example of blurred droplets.
+Finding blurred area features
+❏ Blur reduces wavelet energy (V. Akkala et al. (2016) [2])
+They used DWT to find blurred areas.
+❏ Zhang et al. (2008) also used DWT to find lens contamination
+Pic. 4 DWT transform with
+1. Zhang, Yi & Yang, Jie & Liu, Kun & Zhang, Xiang. (2008). Self-detection of optical contamination or occlusion in vehicle vision systems. Optical
+Engineering - OPT ENG. 47. 10.1117/1.2947578.
+2. V. Akkala, P. Parikh, B. S. Mahesh, A. S. Deshmukh and S. Medasani, "Lens adhering contaminant detection using spatio-temporal blur,"2016
+International Conference on Signal Processing and Communications (SPCOM), Bangalore, India, 2016, pp. 1-5, doi: 10.1109/SPCOM.2016.7746664.
+Methods
+Assumption 2
+Water droplet is basically a lens
+with wide angle
+Therefore
+It accumulates the light of a scene
+Using Gray-World Assumption
+We can assume that the accumulated scene’s light turns gray
+More formally:
+❏ The saturation is lower than in the whole scene
+❏ We checked this experimentally
+Pic. 5 Saturation channel.
+Dark spots are droplets.
+Methods
+Chosen baseline
+U-Net
+Pic. 6 An inference pipeline
+❏ Good performance on little datasets
+❏ Well-known architecture
+Extractors
+❏ Easy to modify
+Modification
+We extracted our features explicitly and
+passed them to the model
+by Feature Extractors
+Pic. 4 DWT transform with Pic. 5 Saturation channel.
+markup in a form of mosaic Dark spots are droplets.
+Methods
+Extractors’ integration
+Pic. 4 DWT transform with
+markup in a form of mosaic
+Pic. 7 The structure of the U-Net network we used, as well as the insertion points of the extraction
+channels.
+- 'S' is a saturation extractor,
+- ’D’ is a mosaic DWT,
+- and ’I’ is a three—level DWT component.
+The second stage of the U-Net is transmitted H1, H1, H1, to the third HL2, HL2, HL2 and to the fourtth
+H3, H3, H3 Pic. 5 Saturation channel.
+Dark spots are droplets.
+Datasets
+1. Real
+1. CG
+❏ Stereo dataset
+❏ Computer generated
+❏ Small (796 pairs dirty/clean)
+❏ Large (4816 images)
+❏ Automatic markup
+❏ Markup is given
+❏ All types of water contamination
+❏ Only small droplets and trickles
+Metrics
+Results
+Main conclusions
+❏ U-Net does well with this task
+Real:
+IoU 0.63
+Pixel-wise accuracy 0.87
+CG:
+IoU 0.91
+Pixel-wise accuracy 0.96
+❏ HSV is inferior to RGB in all metrics
+❏ Extractors ‘D’ and ‘I’ showed ≤1.5% improvement
+but outperformed all RGB results
+❏ Standard deviation RGBS is less by 43% and 56%
+respectively to Stereo and CG
+Research Gap STD
+Statistical analysis of the result
+Increase is less than STD
+Today (in 2025) I checked if this result is
+statistically valuable:
+Pearson correlation: 0.18
+Pearson’s p-value: 0.149
+So the enhancements are probably the noise, but the stabilizing of results (STD decrease) is still
+real.
+Thank you for your attention
+My contact [email] Repository Translated paper & poster

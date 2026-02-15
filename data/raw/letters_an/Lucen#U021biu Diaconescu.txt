@@ -1,0 +1,43 @@
+[name] [surname]
+[location]
++2 *** *** ***
+[email]
+Motivational Letter
+Dear Organizers of the SMILES-2025 Summer SchooL,
+[name], andIamMiddleDataScientistat[compaany], whereIdevelop
+the text-to-video generation model named Kandinsky. Previously, I earned degrees from
+two leading [location] universities: [location] Institute of Physics and Technology ([compaany])
+and [location] Institute of Science and Technology ([compaany]). During my education I was
+specializing in sequential data analysis, including processing banking transaction data.
+My professional work is closely tied to cutting-edgе research in artificial intelligence,
+particularly generative methods and multimodal technologies, as I am working in the
+rapidly evolving field of video generation. In my current role, I am responsible for the
+corepretrainingofavideogenerationtransforme r. Myworkencompa ssesthefullpipeline
+o fmodelpretraining,fromr esearchingacademicpape rsanddesignin gmodelar chitecture s
+to coding, opti mization, large-scale training, and inference.
+In addition to my experti se in generative models, I have extensive experience in other
+areas. One of my key interests is sequential data analysis. I have worked with this type
+of data since my bachelor’s degree. My bachelor diploma is dedicated to research in field
+of multidimensi onal time series from financial markets. During my master’s program, I
+d eveloped embedding models for bank transaction data.
+The SMILES-2025 Summer SchooL appe als to me as an oppo rtunity to deepen my knowl-
+e dge of the latest generative techniques and engage directl y with leading experts and the
+AI community. I am confident that participat ing in this program will broaden my profes-
+sionalho rizons, provi dehands-onexperience, andhelpmee establishv aluableinterna tional
+connections.
+My expecta tions from the schoo l prima rily include interesting projects. I hope that I
+will be able to find projects related to new generative approa ches, as well as a motivated
+team with which I can do them. Secondl y, I hope that there will be a lot of interesting
+lecture s and I will be able to find something useful for my current work or inspiring
+for new research projects. Althou gh there is no specific schedule of lectures yet, I have
+the great hopes for lectures related to the topics of multimodal approa ches, multi-agent
+systems and generative approa ches.
+I would be d elighte d to join a community of tale nted profes sio nals and contribute to
+fostering international colla bora tion between [location] and [location] in AI techno logies. For
+the past two years in a row I have watched the SMILES SchooL lectures o nline and this
+year I would like to join in person. I sincerely hope that my application will capture
+your interest and that I will have the chance to take part in this outs tanding educational
+initia tive.
+Thank you very much for your conside ration.
+Best regards,
+[name]

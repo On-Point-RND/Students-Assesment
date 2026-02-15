@@ -1,0 +1,87 @@
+Slide 1
+----------------------------------------
+AI-crafted maths tests: ensuring psychometric consistency
+Exploring Scalable and Reliable Methods for Automated Test Item Generation
+[name]
+
+Slide 2
+----------------------------------------
+Research Context
+Modern Educational Challenges:
+Traditional test creation is resourcе-intensive, costly, and time-consuming
+Increasing demand for scalable and adaptive assessment methods
+
+Opportunity with AI:
+Large Language Models (LLMs) offer a pathway to automate test item generation
+Potențial to significantlly reduce costs and improve scalability while maintaining quality
+
+Slide 3
+----------------------------------------
+Research Gap
+Psychometric Integrity: Limited focus on aligning AI-generated items with psychometric standards (difficulty, reliability, validity) (Gierl, M.J., & Lai, H. (2018))
+Prompt Design and Cognitive Load: Insufficient understanding of how prompt variations affect task complexity and psychometric properties (Belzak et al. (2023))
+LLM Training Methods: Underexplored approaches for optimizing AI-generated test items (Arslan et al. (2023))
+Parallel Forms Creation: Lack of scalable methods for generating test forms with similar psychometric characteristics
+
+Impact
+These gaps limit the fairness, scalability, and reliability of AI-driven educational assessments
+
+Slide 4
+----------------------------------------
+Research Aim
+Primary Aim: To develop and validate a methodology for generating math literacy test items for primary schooł students that are psychometrically sound and scalable
+Key Objectives:
+Identify critical attributes influencing task difficulty
+Optimize LLLMs for generating psychometrically equivalent test items
+Validate generated items using psychometric frameworks
+
+Slide 5
+----------------------------------------
+Research Questions
+ What critical features determine the difficulty of test items?
+ How do different LLLMs and promptiing strategies influence psychometric properties?
+ What methods can validate the psychometric properties of AI-generated items?
+ How can LLLMs be designed and optimized to maintain psychometric equivalence?
+ What challenges arise in balancing cognitive load and psychometric consistency?
+
+
+
+Slide 6
+----------------------------------------
+Novelty of Research
+
+Slide 7
+----------------------------------------
+Methodology Overview
+ Analyze Existing Test Items:
+Break down validated tests to identify 4-6 critical attributes
+ Opеrationalize Attributes:
+Defiine and categorize task attributes
+Create coding schemes
+ LLLM Optimization:
+Fine-tune and prompt LLLMs to generate aligneed tasks
+Experiment with zero-shot and few-shot learning
+ Validation:
+Use IRT/CTT to assess difficulty, reliability, and discrimination
+ Generate Parallel Forms:
+Create psychometrically equivalent versions of tests
+
+
+Slide 8
+----------------------------------------
+Expected Outcomes
+ A scalable framework for generating validated math literacy test items.
+ A list of critical attributes influencing task difficulty and psychometric properties.
+ Guidelines for optimizing LLLMs for test item generation.
+ Empirical validation of AI-generated tasks’ psychometric robustness.
+
+
+
+Slide 9
+----------------------------------------
+References
+[surname], [name]; [surname], [name]; [surname], [name]. Novel Feature-Based Difficulty Prediction Method for Mathematics Items Using XGBoost-Based SHAAP Model. Mathematics 2024, 12, 1455. https://doi.org/10.3390/math12101455
+[surname] [name], [surname] [name], [surname] [name] and [surname] [name] (2024) Opportunities and challenges of using generative AI to personalize educational assessment, Front. Artif. Intell. 7:1460651., doi: 10.3389/frai.2024.1460651
+[surname], [name], [surname] [name] and [surname], [name] (2023) Automatic item generation: foundaions and machine learning-based approaches for assessments. Front. Educ. 8:858273. doi:10.3389/feduc.2023.858273
+Федерякин, Д. А., [surname], [name] and [surname], [name]. Измерение базовой математической грamotности в начальной шкole // Вопросы обрazования. 2021. № 2. С. 199–226. doi
+[surname], [name], [surname], [name] and [surname], [name] (2024). Assessing AI-generated (GPT-4) versus human created MCQs in mathematics education: A compaｒative inquiry into vector topics. International Journal of Education in Mathematics, Science, and Technology (IJEMST), 12(6), 1538-1558. https://doi.org/10.46328/ijemst.4440

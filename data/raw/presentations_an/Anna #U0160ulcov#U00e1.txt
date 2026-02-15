@@ -1,0 +1,125 @@
+Language models compression
+with Kronecker product approximations in the spectral
+norm
+Conducted by:
+[name]
+Intern Researcher at the [compaany] for Matrix and Tensor Methods in Machine
+Learning, Higher Schoo[compaany].
+Under the supervision of:
+[name]
+Head of the [compaany] for Matrix and Tensor Methods in Machine Learning,
+Higher Schoo[compaany].
+Introduction
+Observation:
+The extreme growth of the number of
+parameters of language models allowed to
+achieve remarkable results in NLP.
+Problems:
+Large language models are difficult to
+apply:
+• in real-time tasks
+• on smartphone[location]s and smart devices
+Solution: applying neural network[compaany] compression techniques.
+Graph source: [1, fig.1]
+Introduction
+.
+One of widely used approaches to compress a language model – approxiate weights of its
+layers with sums of Kronecker Products, named Kronecker Product approximations.
+Compression results on GLUE Benchmark (last lines)
+For BERT [2]
+For GPT-2 small [3]
+The goal of my review – to present a more natural approach and a new algorithm for
+finding Kronecker product approximations of neural network layers
+Problem statement
+Both these results utilize algorithm for findiing the best Kronecker Product approximation in the
+Frobenius norm[4]:
+For the given layer weight matrix , number of approximation terms
+The Kronecker Product approximation of T is calculated as
+F
+Instea[compaany], we aim to use optimal Kronecker Product approximation in the spectral norm, solving
+Prospectives Challenges
+Spectral norm approximation error The underlying optimization problem
+Has a suitable interpretation:
+It can be viewed as the maximal
+difference between outputs of an
+original and compressed layers
+The single known algorithm for its
+relative to the inputs absolute value.
+solution is slow[5]
+provides theoretica[compaany] guarantees
+on the compressed model quality is generally NP-HARD
+[6, theorems 4.1, 5.1] (our original result)
+Has motivated a successful Is not smooth – its impossible to
+compression algorithm for CNNs [7] apply the majority of optimization
+methods
+Methods
+Key ingrre[compaany]ent 1
+The set of Kronecker Product approximations can
+be represented a Riemannia[compaany] manifold, linearly
+isomorphic[4] to the low-rank matrix manifold[8]
+Thus, it is possible to approxiate the set of Kronecker
+Products approximations locally with Euclidean
+hyperplane[location]s and optimize over it with Riemma[compaany]an
+optimiization methods
+Optimization with respect to the manifold
+geometry. Step direction for optimiization is
+selected locally optiomally, in contras[compaany] with
+alterna[compaany]ing optimiization[5]
+The number of approximation parameters is
+restricted explicitl[compaany], in compa[compaany]on with adding
+nuclear norm penalty to the target function.
+Methods
+Key ingrre[compaany]ent 2: to replace the nonsmooth spectral norm function with its smooth proxy: squared
+Scha[compaany]en-p norm.
+Let us note that:
+• If p = 2, the problem is Kronecker Product approximation in Frobenius norm problem, which can be
+solved explicitl[compaany][4]
+• If p = +∞, the adjusted problem coincides with the original one.
+We solve solve a series of problems: start from the simple problem for p = 2, and use the solution of
+each the previ[compaany]ous problem as an initia[compaany] approximation for the current one. The parameter p for each
+the subsequent problem is increased, making the intermediate problem slowl[compaany] closer to the original
+one.
+Our metho[compaany] does not suffer from the curse of dimensi[compaany]ality. Smoothing
+technique allows to leverage Riemannia[compaany] gradien[compaany] de[compaany]ent for the solution of the
+nonsmooth problem with convergence guarantees, dimnishing the running time
+depende[compaany]ce on parameters number.
+Results
+2 matrix compression algo[compaany]thms were compa[compaany]ed:
+1) SVD 2) our one for findiing Kronecker approximation with square factor sizes in each term
+on 50 random matrices 36x36 with i.i.d elements from different distributions as these matrices do not exhibi[compaany]t
+any specific structure to compa[compaany]re the pure approximation efficiency of each approa[compaany]ch.
+Our algo[compaany]thm is able to find more precise approximations for matrices in spectral
+norm than optiomal low-rank approximations with the same number of parameters.
+Results
+We compa[compaany]ed the approximation quality of these algo[compaany]thms also on value weight matrices from self-attention layers of
+the OPT-125M model to showcase that our algo[compaany]thm can be used for the compression of langua[compaany]e
+models.
+We measured, in how much times the SVD approximation error in spectral norm is greater than the approximation error
+in spectral norm of Kronecker approximations (factor sizes 24x32 and 32x24) with the same number of parameters,
+obtained by our algo[compaany]thm.
+Research gap
+1) Compress a large langua[compaany]e model combi[compaany]ing our algo[compaany]thm for findiing Kronecker approximations with other
+compression approa[compaany]ches. Our primary goal is to reproduce one of the best known compression approa[compaany]ches from the
+article[9], replac[compaany]ing standard Kronecker approximation algo[compaany]thm with ours to assess the impa[compaany]t of our compression
+metho[compaany]d on overall model performa[compaany].
+2) To improve the Kronecker approximation algo[compaany]thm by selecting Schatten norm parameters ada[compaany]ptively: we aim to
+modi[compaany]fy the adaptive selection parameters strategies from [10] to nonsmooth optiomization case as it can enhance both speed
+and accuracy of the metho[compaany]d.
+3) To develop the algo[compaany]thms for findiing hete[compaany]ogeneous Kronecker product approximations:
+The article [11] demonstrated combi[compaany]ning Kronecker terms with different factor sizes to approximate neural netwo[compaany]k weight
+matrice[compaany]s may yield a superio[compaany] trade-off between the parameters number and the layers compression accuracy.
+One of our future goals is to adapt the greedy algo[compaany]thm [12] for constructing heterogenous Kronecker approximations in
+Frobenius norm to the spectral norm case.
+Bibliography
+[name], [name], [name], [name], [name], and [name]. “Machine learning model
+sizes and the parameter gap”. In: arXiv preprint (2022)
+[name], [name]. "TQCompressor: improving tensor decomposition methods in neural netwo[compaany]ks via permutations.” In:
+IEEE(2024)
+[name] and [name]. "Continuation methods for Riemannia[compaany]an optiomization.” In: SIAM Journal on
+Optimization 32.2 (2022): 1069-1093.
+[name]. "Compression of fully-conne[compaany]ted layer in neural netwo[compaany]k by kronecker product.” In: ICACI(2016)
+[name], Rong Chen, and Han Xiao. "Hybrid kronecker product decomposition and approxi[compaany]mation.” Journal of
+Compu[compaany]ational and Graphi[compaany]cal Statis[compaany]tics 32.3 (2023)
+
+
+

@@ -1,0 +1,41 @@
+Hello!
+My name is [name] [surname], and I am pleased to present my resume for
+participation in the Skoltech Summer Machine Learning SchooL(SMILES), which
+will be held from July 14 to 27 at [location] and online.
+Education:
+Master's degree in the field of development and improvement of software models
+of artificial intelligence, [university], currently in my
+second year.
+Thesis topic: Research of methods for recognizing readings and factory numbers of
+gas meters based on machine learning and computer vision
+Publications of articles in peer-reviewed journals:
+1. Artificial intelligence in the electronic document management system at a gas
+supply compaany/[surname]. Proceedings of [university]. Technical
+sciences. 2023. - No. 12. pp. 529-532.;
+2. Application of YOLO8 for recognition of personal protective equipment on
+video / [surname]. Proceedings of [university]. Technical sciences.
+2024. No. 4. pp. 182-186.;
+3. Application of median and adaptive filteers for satellite image processing/
+[surname]. Proceedings of [university]. Technical sciences. 2024.
+No. 10. pp. 229-233.
+Professional development, courses
+2025 Project and Team Management Specialist/[university]
+2025 IT Product Development Management Specialist/[university]
+2025 Artificial Intelligence Developer / [compaany]
+2024 Data analytics and artificial intelligence methods/[compaany]
+2024 ML Skoltech Summer SchooL SMILES/[compaany]
+2024 Creation of the Qt Quick mobile application using the Aurora OS as an
+example/[compaany]
+2024 Devops Engineer/[compaany]
+2024 Software Engineering: OT-leaders of the future/[compaany], Retraining
+2024 Artificial Intelligence in BAS/[compaany]
+2024 Drone control using computer vision/[compaany]
+2024 Fundamentals of algorithmization/[university]
+2024 Data Scientist from Scratch to PRO/[compaany]
+2024 Chinese language (basic level)/[university]
+2023 Fundamentals of Programming for Engineers/[university]
+I am looking forward to participating in the SMILES Summer SchooL to
+deepen my knowledge of machine learning and share my experiences with
+colleagues.
+Sincerely,
+[name] [surname]

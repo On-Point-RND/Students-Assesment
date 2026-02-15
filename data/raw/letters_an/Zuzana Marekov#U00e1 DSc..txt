@@ -1,0 +1,18 @@
+I am a bioinformatician who actively works with genomic data,
+and lately I have been diving deeper into machine learning.
+Although my ML experience is still limited, I have already
+managed to use neural networks to analyze DNA sequences and
+predict protein structures, and I have also worked with clustering methods and
+ensemble algorithms.
+Also, after completing my bachelor's degree, I am considering only one option for
+admission to the master's program - Life sciences ([location]), and I want to study with
+the best specialists in order to combine bioinformatics with advanced ML methods. I
+am sure that an intensive program will help me systematize my knowledge and
+reach a new level.
+Besides, I've been learning Chinese for a year and a half now and I dream of applying
+it in a scientific environment. I am ready to fully immerse myself in learning, work as a
+team and contribute to shift projects!
+Respectfully,
+[name] [surname]
+[compaany] student
+

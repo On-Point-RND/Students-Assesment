@@ -1,0 +1,51 @@
+Motivational letter
+by [name],
+[email], @[name]
+I am a Bachelor’s student specializing in Robotics and AI, and I am writing to apply for the
+Summer SchooL of Machine Learning.
+Throughout my academic career, I have participated in numerous robotics and AI-related
+activities and endeavors, both academic and extracurricular. Since the summer of 2024, I
+have been working as a Control Engineer at [compaany] in the R&D department,
+where I contribute to the development of an anthropomorphic robot. My primary
+responsibility is to create control-related software for robot locomotion. While I initially started
+as an Optimal Control Engineer, my growing interest in modern approaches has led me to
+explore the fields of Reinforcement Learning (RL) and Imitation Learning, and I am
+especially interested in the area of sim-to-real transfer. Now, as an RL engineer, I am
+passionate about my work, not only for the challenges it presents but also for the
+opportunities it provides, such as research publications and participation in conferences.
+This year, for instance, I am excited about attending the IROS conference in [location] with my
+colleagues.
+Beyond my work at [compaany], I am also keen on expanding my academic and research
+experience. This is reflected in my research in machine learning, particularly in adversarial
+robustness in the healtcare domain. Under the guidance of Professor [surname] from [university] (UK) and Professor [surname] from [university] (UAE), my team and I are
+waiting for the paper to be published in Frontiers. Our research named “Assessing the
+Adversarial Robustness of Multimodal Medical AI Systems: Insights into Vulnerabilities and
+Modality Interactions” explores multimodal models and their resilience to adversarial attacks,
+an area I am deeply interested in. We hypothesize that multimodal models may inherently be
+more robusst to adversarial attacks, and I believe that further exploration of this topic will
+provide valuable insights into the unique properties and interactions of multimodal models.
+I also have a strong interest in deep learning, which began with [name]'s Coursera
+course and was further developed at [university]. There, I took an excellent Deep
+Learning and Practical Machine Learning course, where I implemented custom models such
+as a diffusion model and a transformer and created a fully MLOps-based project. Currently, I
+am also assisting with research at AIRI, exploring new domains for training RL agents.
+Further, I am planning to dive deeper into adversarial attacks in the context of reinforcement
+learning. I am particularly intrigued by how existing state-of-the-art approaches leverage
+adversarial robustness to enhance performance. Also, I am currently considering different
+options for my master’s program, and would like to collaborate with professors from multiple
+universiities, working on research projects with them.
+Beyond Robotics, I have a passion for traveling and exploring new places, as it broadens my
+mind and allows me to connect with different cultures. I have a deep interest in [culture]. I have been learning [language] for five years, and my passion for it has only grown.
+Among other students from [university], I was honored to take part in an exchange
+program at [institute] in the fall of 2023. Living and studying in [location]
+was an unforgettable experience. Also, while working on my research, I encountered
+numerous scientific papers authored by researchers from [location], which is truly remarkable.
+Therefore, I am excited about the growing collaboration between [location] and [location] in
+research, and I am eager to participate in the Summer SchooL of Machine Learning to
+collaborate with world-renowned professors and researchers from both countries. I believe
+that the program will help me to broaden my vision of ML direction. I believe I will delve
+deeper into the theoretical aspects of ML and gain valuable hands-on experience through
+the tasks and projects at the Summer SchooL.
+In conclusion, I believe that this opportunity will be crucial for my academic and professional
+growth. Through this program, I will have the chance to contribute meaningfully to the field of
+machine learning and to the international collaboration in research.

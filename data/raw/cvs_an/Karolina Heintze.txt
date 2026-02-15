@@ -1,0 +1,75 @@
+[name]
+Address: [location]
+Tel.: +2 *** *** ***
+E- mail: [email]
+Education & Professional Development
+• 2021 – current: PhD Student, Faculty of Computer Technologies and Informatics, [location] Program: Computer Science and Engineering
+• 2019 – 2021: Master’s Degree (with honors), Faculty of Electrical Engineering and Automation, [location] Program: Efficient Power Engineering (in English)
+• 2015 – 2019: Bachelor’s Degree (with honors), Faculty of Electrical Engineering and Automation, [location] Major: Electric Power Engineering and Electrical Engineering
+• 2024: Completed online training at the Skoltech SMILES-2024 Summer SchooL of Machine Learning
+• 2024: "Introduction to Prompt Engineering for Large Language Models", [company]
+• 2024: "Fundamentals of Generative Artificial Intelligence", [company]
+• 2023: "Introduction to Graph Neural Networks", [company] (Certificate of Advanced Training)
+• 2023: "Unmanned Aerial Systems", [location] (Certificate of Advanced Training)
+• 2023: "Control in Technical Systems", [location] (Certificate of Advanced Training)
+• 2022: "Latest Methods of Artificial Intelligence Application in Autonomous Unmanned Transport", [location] (Certificate of Advanced Training)
+• 2022: "Fundamentals of Artificial Intelligence Technologies", [location] (Certificate of Advanced Training)
+• 2022: "Fundamentals of Intelligent Data Processing Methods", [location] (Certificate of Advanced Training)
+• 2022: "Safety and Ethics of AI Solutions in Medicine and Physiology", [location] (Certificate of Advanced Training)
+• 2022: "Professional Management in Safety and Ethics of AI Solutions in Medicine and Physiology", [location] (Professional Retraining Diploma)
+• 2022: "AIRI Summer SchooL on Artificial Intelligence", [company] (Certificate)
+• 2019 – 2020: "Junior Java Developer" Program, [company] (Professional Retraining Diploma in Information Technology)
+Experience
+September 2019 – current
+Research and Production Firm “MERIDIAN”, engineer
+• Design documentation development
+• Application development
+• Verification and testing of devices under development
+July-august 2018
+JSC Concern Avrora Scientific And Production Association, manufacturing practice
+• The creation of electrical circuits in Matlab
+Research experience
+• 2024
+o F.V. Chmilenko, Yu.Yu. Perevalov, V.E. Parmenov, Qi Zhang, Yu.V. Shanin, "Features of Developing Metamodels Based on Neural Networks for Induction Heating Problems," Izvestiya [location] "LETI", 2024, VAK.
+o Victor B. Demiidovich, Fedor V. Chmilenko, Yuriy Y. Perevalov, Vyacheslav E. Parmenov, Yuriy V. Shanin, Qi Zhang,
+"Metamodels based on neural networks for induction heating problems development features," XXtth International UIE-
+Congress Electrification of Industrial Thermal and Manufacturing Processes, Nice ([location]), October 8-11, 2024.
+o V.E. Parmenov, A.S. Melnikov, Y.V. Shanin, Z. Qi, N.V. Maslennikov, Y.Y. PerevaloV, "Generalized Neural Network Model
+of Rods Induction Heating," 2024 Conference of Young Researchers in Electrical and Electronic Engineering (ElConRus)
+• 2021
+o F.V. Chmilenko, A.A. Khorshev, Yu.V. Shanin, A.S. Bondar, "Modeling and Optimization of Technological Parameters of
+Induction Surface Hardening Taking into Account the Generalizations of Experimental Studies," Izvestiya Academy of
+Electrical Sciences of the Russian Federation, Issue No. 3(25), 2021, pp. 54-62, VAK.
+o M.I. Bazanov, Yu.V. Shanin, "Development of NMEA 0183 Signal Converter to Pulse Code," Journal "Morskoy Vestnik" No.
+3 (79), 2021, pp. 99-102, VAK.
+o Yu.V. Shanin, A.A. Khorshev, A.S. Bondar, "Modeling of Technological Parameters of Induction Surface Hardening Taking
+into Account the Generalizations of Experimental Studies," SCIENCE. TECHNOLOGIES. INNOVATIONS XV All-Russian
+Scientific Conference of Young Scientists, dedicated to the Year of Science and Technology in Russia, pp. 161–165,
+NovoSibirsk State Technical Universiity, NovoSibirsk, RSCI.
+o Yurii V. Shanin, Aleksei S. Bondar, Fedor V. Chmilenko, Qi Zhang, "Neural Network for Predicting the Thermaal Conductivity
+of Steel with the Bayesian Method Using Matlab Software," 2021 IEEE Conference Of Russian Young Researchers In
+Electrical And Electronic Engineering, ELCONRUS 2021, [location], Scopus. DOI: 10.1109/ElConRus51938.2021.9396378.
+o Yu.V. Shanin, A.S. Bondar, F.V. Chmilenko, Qi Zhang, "Neural Network for Predicting the Thermaal Conductivity of Steel,"
+IX Scientific-Practical Conference with Inтернаtional Partiсipation "Science of the Present and the Future" for Students,
+pp. 79–83, [location], 2021.
+Skills
+• Python - experienced use
+• C/C++ - experienced use
+• VS code - experienced use
+• IntelliJ IDEA Community Edition – experienced use
+• Microsoft Office (including Excel, Word, PowerPoint) – experienced use
+• Matlab Simulink – experienced use
+• Compass 3D – experienced use
+• AutoCad Electrical – experienced use
+• Android Studio – experienced use
+Foreign languages
+• English: Upper Intermediate
+• French: Upper Intermediate
+Personal information
+• Date of birth: 15.01.1997
+• Marital status: single
+Hobby: football, table tennis, swimming, intellectual games
+• Included in the Regiister of Highly qualified Managers and Speciаlists of Digital Transformaion
+of Public Administration until 2028.
+• Qualities: fast learning, analytical thinking, ability to work in a team, excellent theoretical
+knowledge, desire to develop in my field specialties, readiness to constantly learn and get new knowledge

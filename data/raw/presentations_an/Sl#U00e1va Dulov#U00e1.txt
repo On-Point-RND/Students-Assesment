@@ -1,0 +1,139 @@
+Learning Guarantees for Minimax Neural Optimal
+Transport
+[name]
+Research Advisor: [surname]
+DataScience
+April20,2025
+1/12
+Monge’s OT formulation
+Cost(p,q) = inf c(x,T(x))p(x)dx. (1)
+T # p=q X
+• X,Y ⊂ RD are compact subsets
+• continuous functions on X are C(X)
+• p ∈ P (X) and q ∈ P (Y) are
+ac ac
+absolutely continuous source and target
+distributions
+• c : X ×Y → R is a continuous cost
+function
+• T : X → Y is a measurable transport
+map
+2/12
+Modern OT Applications in Machine Learning
+Unpaired Style Transfera Single-cell Perturbation Responsesa
+a a
+[surname],[surname],and[surname](2023). “Learning single-cell perturbation
+“NeuralOptimalTransport”.In:TheEleventhInternationalConferenceo
+on r esponsesusingneuraloptimaltransport”.In:Naturemethods20.11,
+LearningRepresenta tions.url: pp.1759–1768
+https://openr eview.net/forum?id=d8CBRlWNkqH
+3/12
+Practical Approaches to Solve OT
+Monge’s Dual Problem
+In order to move to unconstrained optimizations with simpler objective we solve dual
+problem.
+Cost(p,q) = Const− min ϕ(x)p(x)dx + ϕ(y)q(y)dy, (2)
+ϕ∈C(Y) X Y
+def
+where ϕ is a convex conjugate ϕ(x) = max {⟨x,y⟩−ϕ(y)}
+y∈Y
+Semi-Dual Formulation
+minsupL(ϕ,T), ϕ ∈ C(Y),T : X → Y −measurable functions (3)
+ϕ T
+def
+L(ϕ,T) = [⟨x,T(x)⟩−ϕ(T(x))]p(x)dx+ ϕ(y)q(y)dy. (4)
+X Y
+1Makkuva et al. 2020; Rout, [surname], and [surname] 2022
+4/12
+Errors in Solving Practical Problems
+Approximation Error
+In practice optimization over all continuous functions is infeasible, thence one optimize
+over some classes of neural networks ϕ ∈ F ,T ∈ T .
+NN NN
+EApprox = min sup L(ϕ,T)−minsupL(ϕ,T) (5)
+ϕ∈F NNT∈T
+NN
+ϕ T
+Estimation Error
+Since real distributions p,q are usually known through empirical samples, we use
+N M
+1 (cid:88) 1 (cid:88)
+empirical measures pˆ= δ(x ),qˆ= δ(y ).
+n m
+N M
+n=1 m=1
+N M
+Lˆ(ϕ,T) d = ef 1 (cid:88) ⟨x ,T(x )⟩−ϕ(T(x ))+ 1 (cid:88) ϕ(y ) (6)
+n n n m
+N M
+n=1 m=1
+(cid:12) (cid:12)
+(cid:12) (cid:12)
+EEstim = (cid:12) min sup Lˆ(ϕ,T)− min sup L(ϕ,T)(cid:12) (7)
+(cid:12) (cid:12)
+(cid:12)ϕ∈F NNT∈T
+NN
+ϕ∈F NNT∈T
+NN
+(cid:12)
+5/12
+Aim and Objectives
+Thus, in practice one solves min sup Lˆ(ϕ,T) and recovers
+ϕˆR = argmmi nmaxLˆ(ϕ,T)
+ϕ∈F T∈T
+TˆR = argmaxLˆ ϕˆR,T
+T∈T
+Object of Study1 (Generalization Error
+How close are optimal map T∗ and recovered map TˆR? The goal of my work is to
+provide an estimate for the following quantity:
+E (cid:13)T∗(x)−TˆR(x)(cid:13) ≤ [Some bound] (8)
+x∼p 2
+1Study does not consider Optimization Error
+6/12
+Related Works: Comparison with GANs
+GANs OT
+minmaxL(G,D) minmaxL(ϕ,T)
+G D ϕ T
+• Aim to recover ground-truth • Aim to learn a map between to
+distribution q distributions
+• Aim to bound closeness between • Aim to bound differnce between true
+ground-truth q and generated q gen T∗ and learned TˆR OT maps
+distributions
+GAN-related works are of limited relevance
+7/12
+Related Works: Non-minimax Objective
+OT objective with Regularization
+min c(x,T(x))p(x)dx +εKL(q||T p). (9)
+#
+T X
+•
+For example, some works deal with Entropy-regularized OT1; and some with unbalanced
+OT versions2. These works provide some theoretical bounds.
+However, in practice, due to scalability and better convergence, minimax optimization is
+usually used.
+The problem of theoretical guarantees of convergence of minimax OT is still open.
+1Genevay et al. 2019; [surname] [surname] [surname] 2022
+8/12
+Sketch of Proof
+E (cid:13)TˆR −T∗(cid:13) ≤ Const· EEstim +EApprox +EEstim +EApprox (13)
+X∼p(cid:13) (cid:13) Inner Inner Outer Outer
+9/12
+Sketch of Proof
+EEstim ≤ 8R (H)+8R (F) (14)
+p,N q,M
+Where H = {h : h(x) = ⟨x,T(x)⟩−ϕ(T(x))} and R (H) is the Rademacher
+p,N
+complexity of the function class H with respect to probability density p for sample size N.
+10/12
+Let F be a class of Lipschitz β-strongl y convex functions, compact with respect to the
+Lipschitz norm. Then for all ε > 0 there exists such class of neural networks T , that
+max maxL(ϕ,T)− max L(ϕ,T) < ε
+ϕ∈F T T∈T
+11/12
+Let X and Y be bounde d. For any ε > 0 there exists β and L such that
+L(ϕβ)−minL(ϕ) < ε,
+ϕ
+Where ϕβ is L-lipschitz β-strictl y convex bounde d function and has the form ϕ +β ∥.∥2 ,
+L L 2
+where ϕ is a neural ne twork.
+12/12

@@ -1,0 +1,83 @@
+[name] [surname]
+Ph.D. in applied mathematics, Researcher, [compaany]
+Interests: Computational science, Inverse and ill-posed problems, Scientific machine learning, Wave propagation, Distributed ledger technology (DLT), Self-Sovereign Identity (SSI)
+RESEARCH AND FACULTY EXPERIENCE
+[location] Federal Research Center of the Russian Birthday: March 17, 1993
+Academy of Sciences — Senior research fellow
+Nov 2019 - Present
+● Development of optimization and automation methods for numerical CONTACT
+Baikonurskaya 7/1 21
+scheme
+197227 [location]
+● Winner of SPC RAS Young Scientists Award for Best Research in
+Russia
+2022-2024 years
++2 *** *** ***
+● Authored PyWaveProp - Python 3 scientific library for the wave (WhatsApp, Telegram, WeChat)
+● Lead of the Russian Science Foundation grant 21-71-00039 “Development mlytaev@gmail.com
+of new numerical methods and software for the wave propagation
+modeling in inhomogeneous unbounded domains based on modern
+optimization methods” (2021-2023)
+LINKS
+● Lead of the Russian Science Foundation grant 23-71-01069 “Research and
+Google Scholar
+development of the numerical methods for solving inverse problems of
+ResearchGate
+the wave propagation theory using the modern optimization algo-
+GitHub
+rithms” (2023-2025)
+● Co-executor of the Ministry of Science and education grant
+FFZF-2022–0003 “TheoreticaI And Technological Foundations Of Digital
+Transformations Of Society And Economy Of Russia” (2022-2024)
+● Co-executor of the Federal Communications Agency grant 33-1-26/9
+“Development Of The Experimental Hardware And Software Platform
+Providing Priority Passage Of Regulated Interrogations For Public, Cargo
+And Special Transport” (2020)
+● Authored more than 40 scientific papers in peer-reviewed journals
+English, Russian
+(including Q1) on the topic of mathematical and computer modeling
+● Participated at high-ranking international conferences: ICCS 2021,2022;
+ICCSA 2020-2024; RadarConf 2022; Days on Diffraction 2017; ICUMT
+2018, 2019; RTUWO 2018; APCAP 2023; PIERS 2024 and others
+● Reviewer in: IEEE Transactions on Antennas and Propagation, Sensors,
+Electronics and others
+[compaany], [location] — Associate Professor
+Sep 2023 - Present
+● Mathematical foundations of machine learning course: lecturer, practice lecturer, course author
+Sep 2014 - Jun 2016
+● Mathematical analysis course: practice lecturer
+[compaany], [location] — Leading software developer
+Feb 2015 - Apr 2024
+[location] Institute for Informatics and Automation of the Russian Academy of Sciences,
+[location] — Junior research fellow, Software developer
+March 2012 - Feb 2015
+EDUCATION
+The Bonch-Bruevich [location] State University of Telecommunications, — Ph.D.
+Sep 2016 - Jun 2020
+● Speciality: Mathematical modeling, numerical methods and scientific software
+● Ph.D. thesis: “Research and development of the numerical methods for electromagnetic waves propagation in
+the inhomogeneous troposphere”, Date of defense: December 18, 2019
+● Scholarship of the Government of the Russian Federation (2017-2018)
+[compaany], Computer technology department, [location] — Bachelor, Masters
+Sep 2010 - Jun 2016
+● Speciality: Applied mathematics and computer science
+SELECTED PUBLICATIONS
+● [name] M. S. Discretize-Then-Optimize Approach to Real-Time Tropospheric Refractivity Inversion //IEEE
+Antennas and Wireless Propagation Letters. Early access. – 2025. (Q1 Scopus)
+● [name] M. S. Automatically Differen­tiable Higher-Order Parabolic Equation for Real-Time Underwater
+Sound Speed Profile Sensing //Journal of Marine Science and Engineering. – 2024. – Т. 12. – №. 11. – С.
+1925. (Q1 WoS)
+● [name] M. S. Reducing the numerical dispersion of the one-way Helmholtz equation via the differential
+evolution method // Journal of Computational Science. – 2023. – Т. 71. – С. 102057. (Q1 Scopus)
+● [name] M. S. Mesh optimization for the acoustic parabolic equation // Journal of Marine Science and
+Engineering. – 2023. – Т. 11. – №. 3. – С. 496. (Q1 WoS)
+● [name] M. S. Rational interpolation of the one-way Helmholtz propagator // Journal of Computational
+Science. – 2022. – Т. 58. – С. 101536. (Q1 Scopus)
+● [name] M. S. Numerov-Pade scheme for the one-way Helmholtz equation in tropospheric radio-wave
+propagation // IEEE Antennas and Wireless Propagation Letters. – 2020. – Т. 19. – №. 12. – С. 2167-2171. (Q1
+Scopus)
+● Vavilov S. A., [name] M. S. Modeling equation for multiple knife-edge diffraction // IEEE transac­tions on
+antennas and propagation. – 2020. – Т. 68. – №. 5. – С. 3869-3877. (Q1 WoS)
+● [name] M. S. Nonlocal boundary conditions for split-step Pade approximations of the Helmholtz equation
+with modified refractive index // IEEE antennas and wireless propagation letters. – 2018. – Т. 17. – №. 8. –
+С. 1561-1565. (Q1 Scopus)

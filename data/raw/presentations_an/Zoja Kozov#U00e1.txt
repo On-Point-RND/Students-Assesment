@@ -1,0 +1,98 @@
+            [name] [surname]
+Research intern, [compaany]
+Introduction
+• Prefix-Tuning is a parameter-efficient method to adapt
+large pretrained language models for generation tasks.
+Instead of updating the full model, it learns a small task-
+specific prefix of continuous vectors [1]
+Why is it important?
+• It uses <1% of the parameters, making it ideal for on-device or low-resource deployments.
+• Prompt Prefix-Tuning have been introduced with GPT-2, but it's more relevant than ever in the era of large,
+frozen, API-driven models. It enables fast, efficient, modular adaptation
+• Recent work (EMNLP 2024) shows prefix-tuning remaiins effective even in large multi-modal transformers,
+motivating its use in compact settinings like ours [2]
+Problem statement
+Modern LLMs are pretrained on general tasks, but to use them effecctively for specific applications (controlled
+generation), we need to adapt them.
+The standard method for this is: fine-tuning
+But this has major drawbacks: Storage, Computation
+What exactlly are we solving?
+How to efficieentl y adapt large language models to downstream generation tasks with minimal parameter
+updates.
+Reprroduction
+Necessaary steps:
+Implementing prefi x injection correctl y
+Training on CPU
+Ensuring generation reflects the sentiment
+Scope
+Focuses on sentiment-contro lle d text generation using prefi x-tuning with GPT-2-small. Compares to results in
+original table-to-text task. Adds a prefi x mixing generation
+Dataset
+Small dataset consisting of 123 examples of SMILES-2025 reviews. Has "text" and “prefi x" fields. Trained
+on CPU with batch size 2, learning rate 5e-5.
+Simplified Senti ment
+Prefi x Model
+Injects prefi x onl y at the embedding level
+Serves as a baseline
+Generates sentiment – align text
+Full Prefi x Tuning Model
+Feature Implementa tion
+Base model GPT-2 (tran sforme r decoder)+ 1 layer of injection
+Injected into past_key_values across all GPT-2
+Prefi x injection
+tran sforme r layers
+(prefi x_len, num_layers, 2 × num_heads ×
+Prefi x structure
+head_dim)
+Senti ments supported positive → 0, negative → 1
+Onl y the prefi x embeddings are opti mized; GPT-2
+Trai nable prefi x
+remai ns frozen
+Projects prefi x tokens through a two-layer MLP
+Optional MLP
+(enabled)
+Prefi x mixing
+Added a custom function to blend positive and negative prefi xes:
+mixed = alpha * positive + (1 - alpha) * negative
+It allows smooth control over tone of the generated text
+Simplified Full Prefi x
+Senti ment Tuning
+Prefi x Model Model
+Results
+Key fi ndings
+Prefi x-tuning on sentiment task produced coherent,
+senti ment-aligne d generations
+Metrics used
+Loss monitoring during training, BLEU, ROUG E-1,
+ROUGE-2, ROUGE-L
+Simplified Full Prefi x
+Senti ment Tuning
+Prefi x Model Model
+Re sults compa rison
+The original paper trains on tens of thousa nds of examples (E2E = 50K). My
+dataset is much smaller, thus the deference in metrics. But the reproduced metho d
+still generates sentiment-aligne d text.
+Research gap
+Repr oducibility on low-resou rce devices remai ns challenging
+Future oppo rtunities
+Test on multilin gua l or domain-speci fic tasks
+Integra te with other efficient fine-tuning methods like LoRA
+Apply to longer generation tasks (e.g., storytelling)
+Bibliography
+1 [surname], [name]. Prefi x-Tunin g: Optimizing Continuous Promp ts for Generation. ACL, 2021
+2 [surname] [name], [surname] [name], [surname] [name], and [surname] [name] Preserving Pre-trained
+Repr esentation Space: On Effec tiveness of Prefi x-tuning for Large Multi-modal Models . EMNLP, 2024
+Methods
+Approach
+GPT-2-small base model
+Prefi x-tuning by opti mizing past_key_values as prefi x
+Manual training loop using Hugging Face and PyTorch
+Why these methods?
+Prefi x-tuning reduces compu ta tional cost while maintaining strong perf ormance.
+GPT-2 is widely a vai lable and suitable for generative tasks.
+How it works
+A short lea rnable prefi x is prepended to the transformer’s input, influencing attention without modifying the
+model weights.
+Data & preprocessing
+Used custom dataset with "text" and "senti ment" fields. Tokenized with GPT-2 tokeniz er. Trained on CPU
+with batch size 2, learning rate 5e-5.

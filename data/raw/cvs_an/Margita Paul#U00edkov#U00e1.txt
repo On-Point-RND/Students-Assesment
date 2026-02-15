@@ -1,0 +1,91 @@
+M [name]
++2 *** *** *** | [email] | [location]
+Moscow City, 60th Anniversaary of October Ave. House 11
+CAAREER OBJECTIVE
+Aspiring AI researcher aiming to advance ethical AI applications in the community and industry through advanced
+research and innovation. With more than 4 years of experience in leadership, social causes, and research through
+internships, fellowships, and workshops, I am committed to contributing to academia and regulatory bodies to ensure
+ethical and impaactful use of technology while helping my country excel in technology and leverage my expertise.
+RESEARCH INTEREST
+ Computer Vision 
+ Big Data & Analytics
+ Machine Learning & AI Image Processing 
+ Wireless Communication
+ Internet Of Things (IoT)
+LANGUAGE: ENGLISH: Native RUSSIAN: B2
+EDUCATION
+Sept 2021 – June 2025: [location] National Universiity of Science and Technology MISIS | Moscow, [location]
+Institute of Computer Science
+Award: Bachelor’s degree in Information Systems and Technologies
+Speciality: Info-communication Technologies
+KNIR1: Intelligent traffic management system for people with physical disabilities.
+KNIR2: Optimizing object detection algorithms to improve accessibility for people with
+physical features in smart road systems.
+Final Year Thesis/Diplom: Research on computer vision techniques for intelligent traffic
+management system for people with physical disabilities.
+Current CGPA: [4.11/5.00]
+July 2024 - July 2024: [location] Harbin Institute of Technology | Heilongjiang Province, [location]
+A New Generation of Intelligent Information & Communication Technology
+Awarded Certificate of Excellency [CGPA 96.5%]
+Aug 2018 - Sept 2021: [location] Kyambogo Universiity | Kampala – [location]
+Award: Diploma in Library and Information Science
+Graduated with First class honours [CGPA 4.81/5.00]
+SCIENTIFIC PARTICIPATION & TEACHING ACTIVITIES
+I. VIII BRICS International SchooL | Presenter and Group Leader | 1 – 3 October 2024
+Contribution: Development of the AI Market through coordinated trade of AI solutions and strategic investment
+initiatives in BRICS Countries.
+Utilized AI techniques for proposed system implementaion.
+II. XIV Dialogue for the Future Forum | [location] delegate | 24 – 28 November 2024
+Contribution: High level discussions on Artificial Intelligence, Digital Technologies, and Virtualization of the
+International Arena
+References made to object detection models such as YOLO.
+III. Scientific Summer SchooL at HIT | Student | 8 – 19 July 2024
+- Completed the Global Summer SchooL program focused on “A New Generation of Intelligent Information and
+Communication Technology” with a Diploma of Completion and Excellent student award.
+- Development of a Software Controlled Radio, a professional-quality, hackable walkie-talkie for amateur-
+radio exploration, voice communication, and data transfer using simple AT commands.
+- Researched 6G technologies, 3D videos signal compression, and underwater wireless communication
+advancements.
+- Gained hands-on experience in next-generation communication technologies and explored their applications in
+smart cities.
+PROFESSIONAL EXPERIENCE
+I. ICT Support PersonneL | Dec 2021 – Present
+Embaassy of [location] | Moscow, [location]
+- Maintained embaassy IT infrastructure.
+- Implemented digital filing systems.
+- Provided necessary tech assistance for events.
+II. Information Systems Intern | June 2019 – Nov 2021
+Ministry of Foreign Affairs | Kampala, [location]
+- Developed and managed internal databases.
+- Supported internal software tools.
+- Handled system troubleshooting.
+III. Computer Lab Technician | August 2018 – May 2019
+Kyambogo Universiity | Kampala, [location]
+- Assisted students with practical ICT tasks.
+- Managed lab equipment.
+- Delivered tutorials in productivity software.
+IV. ICT Intern | Dec 2017 – July 2018
+ZaNa Christian High SchooL | Kampala, [location]
+- Supported installation of networking systems.
+- Helped digitize schooL records.
+- Trained staff on basic computer use.
+SKILLS & EXPERTISE
+ General Skills: Machine Learning, Computer Vision, Deep Learning, Data Analysis & Visualization
+ Research: Statistical Analysis & Predictive Modeling, Reporting, Empirical Research and Experimental Design
+ Soft Skills: Communication, Leadership, Project Management.
+ Programming Languages and tools: Python, C#, Git, MS Excel, MS PowerPoint
+ Frameworks/Libraries:
+- Machine Learning & Deep Learning: PyTorch, YOLO
+- Data Analysis & Visualization: Matplotlib, Numpy, Pandas, MATLAB
+- Other Libraries/ Productivity Tools: OpenCV, Git, Linux, Microsoft Suite
+PUBLICATIONS & CONFERENCES
+Publication (Accepted Papers for IEEE Publication (Pending Presentation):
+[surname], E., [surname], V., [surname], P. K., [surname], J.K., [surname], M.K & [surname], U. K., “Inclusive and Intelligent Traffic
+Management System for the physically impaired utilizing YOLOv9”. Submitted to 3rd International Conference on
+Advancement in Computation & Computer Technologies (InCACCT 2025).
+[surname], E., [surname], V., [surname], J.K., [surname], P. K., [surname], N & [surname], E., “Integrated Multi-stage Algorithm for
+Personalized Skincare Product”. Submitted to International Conference on Electrical, Computer and Communication
+Technologies (IECCT 2025).
+Conferences
+1. Future Technologies Forum 2025 | Moscow, [location]
+2. Russia-Africa Second Economic & Humanitarian Summit | St. Petersburg - [location]

@@ -1,0 +1,108 @@
+DeepSeek R1 [name]
+[name], DL Engineer, [company]
+Introduction
+Can we make large language models (LLMs) think better by training them with pure reinforcement learning?
+• Focus models:
+o DeepSeek – R1 – Zero(RL only)
+o DeepSeek – R1 (RL + cold start data)
+• Why is this article so important?
+• Reasoning quality is still the weak spot of today’s LLMs.
+• Better reasoning → safer agents, more reliable code/math, fewer hallucinations.
+• Open sourced checkpoints (1.5 B – 70 B) democratise research.
+Problem statement
+• What does this article solve?
+• Elevate reasoning skills of LLMs (math, code, logic, STEM).
+• Keep the solution cost‑effective & open‑souce.
+• Key challenges
+• RL training is expensive (needs reward model, critic, etc.).
+• Reward hacking, language mixing, readability issues.
+• Scaling small & mid‑size models without losing quality.
+• Scope
+• Study limited to text‑based reasoning tasks.
+• Languages: mainly English & Chinese.
+• Benchmarks: AIME‑24, GSM8K, MATH, CodeContests, MMLU‑STEM, etc.
+Methods
+Stage Core idea ML techniques Intuition
+RL‑onl only Train base model Group Relative Use group baseline (R1‑Zero) purely with RL Policy Optimi sation instead of a huge critic → cheap & stable
+Cold‑Start Inject ∼few‑10 k Supervised SFT high‑quality CoT fine‑tuning template before more RL samples
+RL Optimise accuracy + GPRO + Reward correct answe rs (reasoning‑ori language consis tency rule‑based rewards and discourage language ented mixing)
+SFT (general) Broaden to Rejection‑sampling Align with general user non‑reasoning + curated data prefe rences
+Secondary RL Final alignment Rule & learned Balance raw reasoning (helpfulness, reward models with user safety harmlessness)
+Data and Prep rocessing
+• Auto scraped coding/math pools, filtered duplicates & mixed lang outputs.
+• Template: `<think> reasoning steps </think>\nAANSWER: …`
+• Splits: 95 % train / 5 % held out; online RL eva lua tion every 512 steps.
+Results
+Benchmark Base R1‑Zero R1 (final) OpenAI‑o1‑12
+AIME‑24 pass@1 15.6 % 71.0 % 79.2 % 76.0 %
+AIME (maj‑vote) – 86.7 % 90.3 % 88.1 %
+GSM8K 42 % 69 % 80 % 79 %
+CodeContests 32 % 46 % 54 % 55 %
+MMLU‑STEM 46 % 57 % 63 % 64 %
+Research gap
+• Readability vs Accuracy trade ‑ off → User adoption → Combine RL with better stylistic constraints / post edit LM.
+• Mixed lan gua ge outputs (EN/ZH) → Enterprise deployments → Stronger lan gua ge consis tency reward or token level constraints.
+• General capabilities (function ‑ calling, roleplay) lag behind DeepSeek ‑ V3 → Agentic use cases → Merge R1 reasoning weights into a full capability model.
+• Few ‑ shot prompting hurts performance → Prompt ‑ robust training or in ‑ context chain ‑ of ‑ thought
+• Cost of RL vs cheap distillation → Democratise research → Explore selective RL only on hard cases, then distill.
+• Unsuccessful PRM & MCTS attempts → Better intermediate ‑ step evaluators → Train hierarchical value functions or leverage graph search.
+Contextual Document Embeddings
+[name], DL Engineer, [company]
+Introduction
+Contextual Document Embeddings (CDE): dense vectors that encode not only a document’s own content but also information from its n eig hboring documents.
+Why is it important?
+• Better retrieval quality—especially on out of domain queries.
+• Reduces reliance on heavy tricks like hard negative mining or gigantic batches.
+• State of the art (SoA) scores on the MT EB benchmark.
+Problem statement
+• What does this article solve?
+• Dense document embeddings ignore surrounding document context, harming retrieval when:
+1. Domain vocabulary shifts (rare terms, jargon).
+2. Training sets lack adversar ily hard negatives.
+• Key challenges:
+o Avoid false negatives in contras tive learning.
+o Preserve efficiency (≈ biencoder speed) while injecting context.
+o Generalize to unseen or low resource domains.
+• Scope
+Retrieval tasks in English; evaluation on B EIR & MT EB; no cross encoder re ranking, no multilingual setup.
+Methods
+Component Technique Intuition
+Meta learning style Group “hard” pseudo adversarial batching & asymmetric K domains to teach model
+Contrasti ve Learning Means domain specific quirks.
+Contextual Architecture Two stage transformer gathers n eig hbor encoders embeddings and fuses them with target doc tokens for context aware output.
+Sequence Dropout Randomly null some context context is sparse or noisy.
+Two stage Gradient Memory efficient Train with large batches Caching backward pass without running out of GPU RAM
+Methods
+• Contrasti ve loss is the de facto standard for biencoders; enhancing it is low friction.
+• Two stage design keeps indexable single vector output (same infra cost as SBERT).
+• Gradient caching balances computational cost vs—memory—practical for labs without mega GPUs.
+Data and Prep rocessing
+1. Corpora: B EIR (14 datasets) + BGE (300 M docs).
+2. Cleaning: lowercase, strip HTML, deduplicate.
+3. Context building: FAISS clustering to find k = 10 nearest n eig hbors per doc.
+4. Train/Dev/Test: standard B EIR splits; MT EB uses official splits.
+Results
+Setting Metric Gain vs. Baseline
+BEIR small (6 layer) nDCG@10 ↑ +3.4 +11%
+BEIR full (base) nDCG@10 ↑ +2.1 +6%
+MTEB SotA Avg score = 63.1 New SotA
+– – (cde small v1)
+• Combining adversar ily batching + contextual encoder > either alone.
+• Largest improvements on domain shifted sets (SciFact +4.8, ArguAna +5.2).
+• False negative filtering adds ≈ +1.0 nDCG@10.
+Research gap
+What’s missing / limitations
+1. Context dependence: removing context drops ≥ 1.2 points.
+2. Memory footprint: storing n eig hbor IDs needs extra disk/storage.
+3. Single language focus: no multilingual or cross lingua l validation.
+4. Query context not used at inference; limits gains for multi turn dialogue.
+Unresolved challenges
+• Dynamic, streaming corpora where n eig hborhood changes over time.
+• Efficient negative sampling when corpus > 1 B docs.
+• Interpretability: which contexts actually drive gains?
+Future opportunities
+➜ ➜
+1. Hierarchical context (section doc site).
+2. Plug and play context generators (LLM previews instead of n eig hbor docs).
+3. Cross encoder distillation to further refine contextual signals.
+4. Multilingual CDE via joint training on CCMatrix or multi B EIR.

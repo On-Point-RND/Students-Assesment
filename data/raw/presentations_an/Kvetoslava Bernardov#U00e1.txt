@@ -1,0 +1,85 @@
+Generative app approaches to improving digital terrain models based on aerial photography data using unmanned aerial systems
+[name]
+[location]
+State Technological University named V.G. Shukhov [location]
+Field of application
+Improvement of quality and reliability of information of cartographic basis of economic activity is an important task in most industries. In recent years, the photogrammetric method has become more widespread due to the active development of the unmanned aerial vehicles field.
+Terrain images
+Orthophoto
+Digital model
+The main advantage is the possibility of obtaining high quality aerial images at high speed. There are also disadvantages: poor quality images can reduce the final accuracy of the cartographic material.
+Relevance and motivation
+•
+Engineering surveys in 2024 are characterized by active implementation of digital and smart technologies, stricter requirements for risk and environmental impact assessment;
+•
+Engineering-geodetic surveys are the basis for the entire construction production, as they provide the industry with topographic materials;
+The main hypothesis of the study is: eliminating distortions on aerial images and increasing their resolution will improve the quality of the final cartographic products.
+Problem statement
+To eliminate blurring, noise and artifacts, the application of generative adversarial network algorithms and visual transformer (SwinIR) is investigated, including SR models can improve the spatial resolution of digital terrain models [1].
+Receipt of AFI
+Increasing the spatial resolution
+Eliminating distortions
+Obtaining cartographic material
+Image processing
+Obtaining cartographic material
+1.Zheng, Xin & Xu, Zhaoqi & Yin, Qian & Bao, Zelun & Chen, Zhirui & Wang, Sizhu. (2024). A Transformer-UneT Generative Adversarial Network for the Super-Resolution Reconstruction of DEMs. RemoteSensing.16.3676.10.3390/rs16193676.
+Methods and materials
+Architectures of the models under study
+Different generative model architectures are used to enhance aerial images: Real-ESRGAN, visual transformer architecture (SwinIR) and diffusion model SRDiff.
+Haoying Li, Yifan Yang, Meng Chang, Shiqi Chen, Liang, J., Cao, J., Sun, G., Zhang, Xintao Wang, Liangbin Xie, Chao Dong, & Huajun Feng, Zhihai Xu, Qi Li, & Yueting Chen K., Van Gooel, L., & Timofte, R. Ying Shan (2021). Real-ESRGAN: Training for Real-World Blind Super-Resolution with Swin Transformer. arXiv preprint arXiv:2108.10257.
+Methods and materials
+Evaluated metrics
+Image evaluation, to determine the structural quality of the images and their similarity to the terrain model obtained from measurements of original aerial images processed aerial images
+Mean square error of line lengths between control points
+m = Σ (s - s)2
+i
+m = Σ (h - h)2
+h
+n - 1
+n - 1
+Reference values of line lengths and exceedances between control points were calculated from differential satellite measurements.
+Methods and materials
+Aerial photography data for testing
+The study was based on aerial photography using Geoscan Gemini unmanned aerial vehicle, Sony UMC-R10C camera with 20mm lens. Processing of aerial photography results was performed in Agisoft Metashape Professional software. The 354 aerial images obtained during complex cadastral works were used as the source data.
+Results
+Visual assessment of the images showed that with increasing image resolution the characteristic points of terrain objects are detailed and the overall informativeness of the image is increased.
+This result improves accuracy and productivity in survey interpretation
+Results
+BRISQUE Metric
+Source images Real-ESRGAN images SwinIR images
+According to the BRISQUE metric, we can say that when the original images were processed by SwinIR visual transformer, the average image quality improved significantly, while the result of Real-ESRGAN processing was worse than the original images.
+Results
+SSIM Metric
+Real-ESRGAN images SwinIR images
+The distribution of SSIM values shows high similarity with the original images. However, two peaks are clearly visible on the plots, which indicate a violation of structural properties of the generated images. This may be due to different underlying terrain surfaces on which the generation algorithm was not trained.
+Results
+PSNR Metric
+Real-ESRGAN images SwinIR images
+According to the PSNR metric, the best result is obtained for Real-ESRGAN, but two peaks are observed, maybe also related to different underlying terrain surfaces on which the generation algorithm was not trained.
+Results
+LPIPS Metric
+Real-ESRGAN images SwinIR images
+In terms of human perception, Real-ESRGAN generates more similar terrain images.
+Results
+The study reveals that Real-ESRGAN aerial image processing increases the number of connecting points when building orthophotos and digital terrain model, and improves their reliability. SwinIR, despite the best performance in image evaluation metrics, showed the worst results, even compared to the original images
+Source images Real-ESRGAN images SwinIR images
+Increasing the number of tie points and improving their reliability allows for more accurate construction of digital terrain models
+Results
+Estimation of MSE errors of line lengths and elevations between control points, performed after processing the acquired images in Agisoft Metashape, showed an increase in accuracy of plan and elevation positions of control points on orthophoto and digital terrain model (for Real-ESRGAN images).
+MSE of mutual location of control points in plan MSE of height marks of control points
+0.040 m 0.152 m 0.039 m 0.150 m
+0.039 m 0.150 m 0.038 m 0.148 m
+0.037 m 0.146 m 0.036 m 0.144 m
+0.035 m 0.142 m 0.033 m 0.141 m
+0.034 m 0.140 m 0.032 m 0.138 m
+0.033 m 0.136 m 0.031 m 0.134 m
+Исхoдныe images СнSиRм-iкmиa сg уeвsеличенным разрешeнием Исхoдныe images СнSиRм-iкmиa сg уeвsеличенным разрешeнием
+The achieved results confirm the possibility of significant reduction of labor intensity of real estate contours interpretation, as well as contribute to the increase of accuracy of coordinates and areas determination.
+Research Perspectives
+Currently, the work is underway to collect and analyze aerial images in order to create a dataset for training super-resolution models for aerial terrain imagery tasks. The dataset already includes more than 20 thousand images of terrain made with the use of unmanned aerial systems.
+The distinctive feature of a dataset is the availability of images:
+• taken with different cameras,
+• under different shooting conditions,
+• with a variety of underlying terrain and objects.
+Further stages of the research include: training of the considered models on the prepared dataset their testing and analysis of the obtained results.
+To be continued…

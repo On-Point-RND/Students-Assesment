@@ -1,0 +1,29 @@
+[name] Achievements
+• [compaany] Scholarship recipient
+[name]
+• Prize-winner of the FCS Fall and Spring
+Student Math Olympiads
+• Prize-winner of the North Country
+[location] Mathematical competition
+• Winner of the Verchenko Mathematics
+Olympiad
+[email]
+@capibaraAttila Projects and experience
+Education
+Synthetic time series
+• Faculty of Mathematics, [location] ([year]– [year], BSc) synthetic time series based on a dataset of
+• Independent [location] ([year]–[year]) real time series. Final result available here:
+• [compaany] ([year]–[year]) https://github.com/IzyGolstein/Synthetic_ti
+• MSU Kolmogorov Boarding School ([year]–[year]) me_series
+• Deep Learning School ([year]–[year])
+Coffee Shop Ratings Analysis in
+• [compaany] Machine Learning Intensive
+([year]) Moscow and [location]. Project completed during
+• [compaany] “Mathematics in AI” ([year]) the second qualifying round of [compaany]
+• [compaany] Education Courses
+Conducted a study to identify factors
+influencing coffee shop ratings in [location]
+and [location].
+Skills and Languages: Python, MYSQL, PostgreSQL, C++
+Frameworks: Pandas, numpy, PyTorch, Keras, Scipy,
+Torch geometric, gudhi, optuna.

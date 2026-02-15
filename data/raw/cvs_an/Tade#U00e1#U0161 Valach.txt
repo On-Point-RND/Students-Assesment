@@ -1,0 +1,48 @@
+[name] [surname]
+[location] | +2 *** *** *** | [email] | Telegram | LinkedIn | Google Scholar | GitHub
+About
+Research and Development engineer with 2+ years of experience in Computer Vision, specializing in diffusion
+models and IQA.
+Education
+[location] State [University] Sep. 2024 – Present
+Masters of Applied Mathematics and Computer Science [location]
+[location] State [University] Sep. 2020 – May 2024
+Bachelor of Applied Mathematics and Computer Science [location]
+• GPA is 4.83 out of 5.0, Diploma with Honours
+• Thesis: Development of neural network method for evaluating image quality
+using visual attention maps
+Additional Education
+AI-Masters Sep. 2022 – May 2024
+Data Science & Data Engineering [location]
+• Relevant Courses: Machine Learning, Big Data and Data Engineering,
+Recommendaation Systems, Generative models, Optimization, Numeric Linear Algebra
+Technosphere Feb. 2021 – May 2021
+Preparation course on algorithm and data structures [location]
+Experience
+Computer Vision Engineer June 2023 – Present
+[company] [location], Hybrid
+• Developed a model for prompt refiinement, used in Shedevrum and Neuro, and improved conversiions on 10%.
+• Developed antiblur LoRA via implementing custom pipeline consisting of IQA-Adapter and Concept Slisders
+• Prepared pretrain and finetune datasets, improved data preprocessing and filtering pipelines
+• Combined several methods to improve quality of text2img model, resulting in new in-house SOTA model
+Research & Development Engineer Sep. 2022 – May 2024
+[company] Graphics & Media Lab [location], Hybrid
+• Image Quality Assessment: investigated opportunity of incorporating saliency knowledge
+into IQA-model. Showed, that IQA models already have sufficient information
+• Collected dataset with non-uniform spatial compression
+Junior Analyst Sep. 2022 – May 2024
+[company] [location], Hybrid
+• Adding new stages to the credit cards utilization pipeline
+• Setting up marketing campaigns and conducting A/B tests
+Technical Skills
+Industry Knowledg: Computer Vision, Deep Learning, Natural Language Processing,
+Image Quality Assessment, Efficient DL, Generative AI, Diffusion models
+Programming Languages: Python, C/C++, CUDA
+ML Stack: PyTorch, Diffusers, Transformeers, TensorFlow, NumPy, Pandas, Scikit-learn, SciPy,
+CatBoost, LGBM, XGBoost, OpenCV
+Big Data MLOps: SQL, YQL, PySpark, Hadoop, Airflow, MLflow, Multiprocessing
+Papers
+YaART: Yet Another ART Rendering Technology | KDD 2025 2024
+Bridging the Gap Between Saliency Prediction and Image Quality Assessment | Submitted to ICCV 2024
+IQA-Adapter: Exploring Knowledg Transfer from Image Quality Assessment 2024
+to Diffusion-based Generative Models | Submitted to EUSIPCO

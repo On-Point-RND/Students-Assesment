@@ -1,0 +1,46 @@
+[name] [surname]
+[location]
+Email: [email]
+Number: +2 *** *** ***
+EDUCATION
+[compaany]
+[compaany]
+Bachelor’s Degree in Information Security
+September 2021 – June 2025 (expected)
+Thesis Title: "Analysis and Protection Against Threats Associated with the Use of Deepfake Technologies in Cyberattacks and Social Engineering"
+● Development of a hybrid detection module based on Recaap and GLFF methods
+● Model training and testing on the FaceForensics++ dataset using PyTorch (GPU)
+● Achieved ~75% accuracy and a high AUC score for binary classification (Real/Fake)
+RESEARCH AND PROJECT ACTIVITIES
+● Preparation of a research paper on a deepfake detection methodology based on a
+novel hybrid architecture
+● Participation in a university-based AI startup in agrotechnology (2nd year); the project
+was accepted into the [compaany] business incubator and presented at [compaany] pitch sessions
+and exhibitions
+● Received a "Data Culture" certificate from [compaany] (advanced level in ML
+and data processing)
+● CUP IT 2025 case championship (Harvard debate format): awarded High Quality
+Award (top 25%)
+PROFESSIONAL EXPERIENCE
+BI Analyst | [compaany]
+September 2024 – Present
+● Analyzed and structured large volumes of data for business and technical insights
+● Developed a knowledge base powered by AI models to support internal processes
+● Created BI dashboards and analytical tools to enhance data-driven decision-making
+TECHNICAL SKILLS
+● Programming Languages: Python, SQL
+● Frameworks: PyTorch, TensorFlow (basic proficiency)
+● Libraries: scikit-learn, NumPy, Pandas, Matplotlib, Seaborn
+● Machine Learning Models: Autoencoders, Convolutional Neural Networks (CNNs),
+Binary Classifiers
+● Tools: Google Colab, OpenCV, PIL, Power BI, Tableau
+● Image Processing: Transformations, Preprocessing, Anomaly Detection
+LANGUAGES
+● English: Upper-Intermediate (B2), IELTS Certificate (Antalya, Turkey, 2024)
+● German: Intermediate (B1), Goethe Certificate, (Moscow, Russia, 2019)
+● Russian: Native
+RESEARCH INTERESTS IN ML/AI
+● Generative AI (GANs, Diffusion Models)
+● Multimodal Models and Large Language Models (LLMs)
+● Deepfake Detection and AI Security
+● Model Interpretability and AI Ethics

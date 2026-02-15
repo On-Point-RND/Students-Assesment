@@ -1,0 +1,66 @@
+[name] [surname]
++2 *** *** *** | [email] | github.com/[name]
+Summary
+AI researcher with over 6 years of hands-on experience in applied machine learning and computational science.
+Passionate about pushing the boundaries of generative AI and language models in real-world scientific contexts.
+Proficient in designing, deploying, and evaluating end-to-end AI systems, including LLM-based agents,
+generative models, and scientific benchmarks.
+Key Interests: Generative AI for natural objects, LLMs, Multimodal Systems, AI Agents, AI Benchmarks
+Education
+I[university] St. [location]
+PhD Candidate in Computer Science, AI and Machine Learning 2024 - present
+[university] of Science and Technology [location]
+M.S. in Computer Science, Advanced Computational Science 2022 - 2024
+[university] [location]
+B.S. in Chemistry, Institute of Chemistry 2018 - 2022
+Projects
+PhD Research (ongoing) – Methods and algorithms of generative artificial intelligence for accelerated
+scientific design and cross-domain applications.
+Research Supervisor: Assistant Professor, PhD, [name], [university]
+• Designed and implemented generative architectures (Diffusion, VAE, Transformer-based) for molecule and material
+generation.
+• Developed and evaluated multi-agent (10 > agents) LLM-based system for scientific reasoning, task planning, and
+automated pipeline execution.
+• Conducted fine-tuning and prompt optimization of foundation LLMs for multi-domain scientific use cases.
+• Integrated LangChain/LangGraph to orchestrate LLM agents in autonomous workflows for molecule validation,
+scoring, and property prediction.
+MSc Thesis – De Novo design of heme coordinating ligands of Cytochrome P450 using methods of machine
+learning.
+Research Supervisor: Assistant Professor, PhD, [name], [compaany]
+• Developed and trained a Conditional VAE for molecule generation.
+• Fine-tuned Transformer-based model for inhibitory activity prediction.
+• Outperformed state-of-the-art baseline (AUC = 0.90, Accuracy = 0.85).
+BSc Thesis – Electrochemical determination of heavy metals in edible oils using deep eutectic solvents.
+Research Supervisor: Full Professor, PhD, [name], [university]
+• Developed a novel eco-friendly pipeline for metal detection in food oils.
+• Proposed new method of metals extraction by using new eco-friendly deep eutectic solvents
+• Published results in peer-reviewed journals (see below).
+Technical Skills
+Languages: Python, C, JavaScript
+ML/DL Frameworks: PyTorch, Scikit-learn, WandB
+Web/DevOps: Django, FastAPI, Celery, Docker, Git, Bash, Redis, PostgreSQL
+Scientific Stack: Numpy, Pandas, Matplotlib, Plotly, OpenCV
+LLM & Agents: LangChain, LangGraph, Unslogth, OpenAI API, Streamlit
+Publications
+• [name], [name], [name], Automated reversed-phase liquid-liquid microextraction based on
+deep eutectic solvent for the determination of copper as vegetable oil oxidation catalyst, Journal of Food Composition
+and Analysis, Volume 119, 2023, 105247, ISSN 0889-1575, https://doi.org/10.1016/j.jfca.2023.105247.
+• [name], [name], [name], Deep eutectic solvent-based
+extraction of metals from oil samples for elemental analysis by ICP-OEIS, Microchemical Journal, Volume 179, 2022,
+107456, ISSN 0026-265X, https://doi.org/10.1016/j.microc.2022.107456.
+Work Experience
+AI Research Engineer Sep 2024 – Present
+[university] (NSS Lab) [location]
+• Designed and deployed generative DL models for chemistry and physics (VAE, Diffusion, Transformers).
+• Built multi-agent LLM system using LangChain/LangGraph.
+• Ran experiments with fine-tuning, prompt engineering, and RAG pipelines.
+• Authored benchmarks and evaluation protocols for AI agents.
+Specialist Sep 2023 - Aug 2024
+[compaany] [location]
+• Built predictive ML models for polymer properties.
+• Created 3 Django-based web applications with Gunicorn/Redis/Nginx.
+• Wrote 100+ scientific JS scripts for chemistry experiments postprocessing
+Intern Jun 2023 - Aug 2023
+[compaany] [location]
+• Optimized computer vision pipelines with C API, OpenMP, Numba.
+• Achieved 20% speed-up in preprocessing workflows.

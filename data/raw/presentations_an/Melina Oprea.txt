@@ -1,0 +1,95 @@
+Temporal Action
+Segmentation in Industrial and
+Manufacturing Videos
+[name]
+Research Engineer, [compaany]
+Introduction
+• Problem definition:
+• Industrial and manufacturing processes and dangerous actions monitoring
+• Why is it important?
+• Automated video analysis is crucial for ensuring safety, quality control,
+process compliance, and efficiency in industrial settings.
+• Temporal action segmentation provides detailed insights into process
+steps and durations.
+• Background
+• Existing open access video datasets (e.g., meal preparation) lack
+industrial relevance.
+• Supervised methods fail due to limited labeled data for niche tasks.
+Problem statement
+• What exactly are we solving?
+• Temporal action segmentation (TAS) of diverse industrial processes
+(e.g., oil changes) with limited labeled data.
+• Challenges
+• Dataset scarcity: Domain-specific industrial videos lack annotations.
+• Algorithm adaptability: Models struggle to generalize across
+processes without retraining.
+• Scope
+• Scalable foundation industrial model development using Self-
+Supervised Learning (SSL) approach and visual transformers, tested on a custom dataset with 14 event categories.
+• TAS of 2 industrial processes: car tire replacement and oil
+replacement.
+Methods
+• Approach
+• Self-Supervised Pre-training approach: V-JEPA (Joint-Embedding Predictive
+Architecture) [1].
+• Why? Predicts masked spatio-temporal patches in latent space, avoiding pixel-
+level reconstruction (more efficient for videos).
+• Architectures: Visual Transformers [2] (ViT-L, ViT-S) and X3D-M (3D CNN) [3].
+• Why? ViT captures long-range dependencies; X3D-M is a lightweight baseline
+able to balance efficiency and accuracy for spatial-temporal features.
+• How it works
+Fig. 1. Overview of the proposed approach, illustrating the use of self-supervised learning
+with V-JEPA on unlabeled videos and the subsequent transfer learning step using
+manually annotated data for temporal action segmentation [4].
+• Pre-training: Masked frame prediction on unlabeled data to learn latent
+representations.
+• Transfer learning: Adapt pre-trained models to labeled data for action
+segmentation.
+Methods
+• Data & preprocessing
+• Dataset: 1,218 YouTube videos (825 unlabeled, 392
+labeled) covering 14 industrial processes (tire replacement
+and oil replacement are considered for TAS task).
+• Preprocessing:
+• Annotations: Labeled start/end frames for actions, added
+"static" class for non-events -> Balancing using sliding
+window to reduce "static" class dominance.
+• Augmentations: Temporal (random clip selection), spatial
+Fig. 2. Filtered events percentage distribution in dataset
+(cropping, flipping), color (brightness, contrast).
+• Splitting: 80% training, 10% validation, 10% test.
+Results
+• Metrics Used
+• Mean over Frame (MoF): Measures proportion of correctly
+classified frames, critical for precise temporal segmentation in
+safety-critical applications.
+• Key Findings
+Fig. 3. Values of MoF metric on validation sample and loss function on training sample
+• Oil change: MoF improved from 0.607 to 0.817 with self-
+supervised pretraining when training ViT-L and X3D-M
+models on labelled datasets, pre-trained and no pre-training
+• Tire replacement: MoF improved from 0.251 to 0.535.
+• Self-supervised ViT-L performs comparably to X3D-M pre-
+trained on massive datasets (Kinetics-400).
+• Augmentations stabilized training but had limited impact on final
+accuracy.
+Table 1. Segmentation results for target industrial processes.
+Research gap
+• Limitations, Unresolved Challenges and Future Opportunities
+• Dataset Expansion and Diversity: Larger and more diverse dataset should be collected covering additional industrial processes and
+operational scenarios to improve model generalization.
+• Model Generalization and Transfer Learning: Transfer learning capabilities across different industrial tasks should be explored to
+improve model adaptability.
+• Real-world validation: The models should be validated in real-world industrial environments to assess their robustness and reliability
+under varying operational conditions.
+• Masked Modeling for CNNs: Masking strategies for convolutional networks should be
+developed and evaluated to enable self-supervised
+learning approaches similar to V-JEPA, and assess whether such pre-training can improve the performance of X3D.
+• Why it Matters
+• Robust TAS models could revolutionize industrial safety systems and quality assurance—but they need to generalize and operate at scale
+Bibliography
+1. [name] et al. Revisititing feature prediction for learning visual representations from video //arXiv preprint arXiv:2404.08471. – 2024.
+2. [name] et al. Visual transformers: Token-based image representation and processing for computer vision //arXiv preprint arXiv:2006.03677. – 2020.
+3. Hlavatá, Róberta & Hudec, Robert & Kamencay, Patrik & Sykora, Peter. (2022). Human Activity Classification Using the 3DCNN Architecture.
+Applied Sciences. 12. 931. 10.3390/app12020931.
+4. [name] et al. Self-supervised learning for temporal action segmentation in industrial and manufacturing videos //IEEE Access. – 2025.

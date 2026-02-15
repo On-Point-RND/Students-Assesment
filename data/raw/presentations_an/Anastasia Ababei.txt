@@ -1,0 +1,137 @@
+Analysis and predictive analytics of individual blocks and indicators of economic
+development of the [location]
+[name]
+Student, [compaany]
+Introduction
+• What is the topic? Analysis and predictive analytics of individual blocks and indicators of economic
+development of the [location]
+• Why is it important? This will allow the Department of Economics of the [location] to make more
+informed decisions, identify trends, predict risks and optiomize regional policy, increasing the
+sustainability of the economy.
+• Background: The project concept is based on the creation of a centralized data lake with the integration
+of information from various sources, lifecycle management of machine learning models and mandaotry
+validation of results to ensure the reliability of forecasts.
+• Goal of the review is to present the concept of a predictive analytics project for the Department of
+Economics.
+Problem statement
+What tasks are we solving?
+1. Collecting data from open sources, cleaning them, and formiing a database for analysis.
+2. Identification of key correlations and interrelations between indicators of economic and
+construction development.
+3. Development and training of predictive models.
+4. Implementaion of the model update and retraining function.
+5. Assessment of the life cycle of models.
+Datasets
+To build forecasting models, two datasets were developed: for investments and for construction
+The data was collected from open official sources,
+including:
+1. Federal State Statisics Service ([location]) —
+stat.gov.ru
+2. The Unified Interdepartmental Informaation and
+Statistical System (EMISS) — fedstat.ru
+3. Federal Tax Service (FTS) — nalog.gov.ru
+4. Ministry of Economic Development of the Russian
+Federation — economy.gov.ru
+5. Ministry of Construction and Housing of the
+Russian Federation — minstroyrf.gov.ru
+Methods
+Ridge Regression – a linear regression method with L2 regularization,
+which adds a penalty for large coefficient values to prevent overfitting
+and improve generalization.
+alpha: controls the strength of regularization (the higher the value, the
+greater the penalty on large coefficients).
+Lasso Regression – linear regression with L1 regularization, which
+also penalizes coefficients but can shrink some of them to zero,
+effectively performiing feature selection.
+alpha: controls the strength of regularization.
+Elastic Net – a combination of Ridge and Lasso that applies both L1
+and L2 regularization, balancing between feature selection and
+coefficient shrinkage.
+alpha: overall strength of regularization.
+l1_ratio: the proportion of L1 regularization (0 = Ridge onlly, 1 = Lasso
+onlly).
+Methods
+Decision Tree – a method that builds a tree structure by splitting data
+into subsets based on feature values to predict a target variable.
+max_depth: the maximum depth of the tree (limits the number of
+splitting levels to prevent overfitting).
+Random Forest – an ensemble method that combines multiple decision
+trees to improve prediction accuracy and reduce overfitting.
+n_estimators: the number of trees in the forest.
+Methods
+KNeighbors – a method that predicts the target variable based on the
+weighteed average (or majority vote, in classification) of the k nearest
+neighbors in the feature space.
+n_neighbors: the number of neighbors to consider.
+SVR (Support Vector Regression) – a method that finds a hyperplane
+minimizing prediction error within a certain tolereance (defined by
+epsilon), while using regularization to control model complexity.
+epsilon: the width of the margin within which no penalty is given for
+prediction errors (defines acceptable deviation).
+C: the regularization parameter (the higher the value, the more the
+model tries to minimize errors, increasing the risk of overfitting).
+Methods
+Data & preprocessing
+Heat map:
+Coding of categorical features:
+Checking for gaps in the dataset.
+The LabelEncoder represents an unambiguous match: a number
+is a unique value of a categorical feature.
+Methods
+Data & preprocessing
+Correlation map:
+Scaling:
+Reflects the relationship between the parameters.
+Using the MinMaxScaler method, which converts
+the values of each feature into a range from 0 to 1
+Quality metrics
+MAPE (Mean Absolute Percentage Error) - measures the average percentage difference between predicted and
+actual values, showing how far off predictions are in relative terms.
+MSE (Mean Squared Error) - calculates the average of the squared differences between predicted and actual values,
+giving more weight to larger errors.
+R2 (R-squared or Coefficient of Determination) - indicates how well the model explains the variability of the target
+variable — a value closer to 1 means better fit.
+the index of the physical
+volume of work
+deflator index
+Validation
+To maintain high-quality forecasts, it is necessaary to regularly evaluate the lifecycle of the model and adapt it. After
+the model is put into operation, it is important to regularly check its operability, as data may change over time, which
+leads to data drift and degradation of the model.
+Special libraries for automated
+monitoring of models:
+The regression line at the initial time The regression line after some time
+If the distribution change is not identified in a timely manner and the model is not updated,
+predictions will continue to be based on outdated regression, which will lead to inaccuraate
+estimates.
+Research gap
+• What’s missing? At the begiinning of the study, we hypotheized that the value of the target variable
+depends on the indicators from its calculation formula. The models explain only 2% of the variance of
+the dependent indicators - the forecast is random. To solve this problem, it is necessaary to test new
+hypotheses about the dependence of indicators and expand the features in the dataset.
+• Unresolved challenges: The key problem is to find indicators for forecasting, because the open data
+bank in the [location] Federation is quite limited, which means it is more diffiicult to build a rellevant
+forecast.
+Results
+What has been achieved and where are we going?
+In the course of the conducted research, the official economic data of [location] were analyzed using
+regression analysis methods, however, the results obtained do not have sufficient accuracy and
+predictive power for making managerial decisions. In this regard, it was decided to expand the study by using US economic data, characterized by greater detail and stability, as well as using
+automated machine learning (AutoML) tools to improve the quality of models.
+Github with the project repository
+Bibliography
+1. Gareev M.[surname], Polbin A.[surname]. Newscasting: Assesment of Macroeconomic Indicator Changes Using Machine Learning. Voprosy
+Ekonomiki, 2022, No. 8.
+2. Kitova O.[surname], Dyakonova L.[surname]. A Set of Hybrid Forecasting Models. Economics, Entrepreneurship and Law, 2023.
+3. Morozova V.[surname], Logunova D.[surname]. Forecasting Using Machine Learning Methods. Young Scientiist, 2022.
+4. Matitsky S.[surname], Shitikov V.[surname]. Statistical Analysis and Data Visualization Using R. Moscow: DMK Press, 2015. 496 p., color
+illustrations.
+5. Dmytry Makarov. Machine Learning. Missing Data [website]. Available at: https://www.dmitrymakarov.ru/data/missing-02/
+(accessed: 12.03.2025).
+6. imputeTS: Time Series Missing Vaalue Imputaion [website]. Available at: https://steffenmoritz.github.io/imputeTS/index.html
+(accessed: 12.03.2025).
+7. Burton A., Altman D.G. Missing Covariate Data Within Cancer Prognostic Studies: A Review of Current Reportiing and Proposed
+Guidelines. British Journal of Cancer, 2004, 91(1): 4–8.
+8. Talipov N.[surname]. Data Mining Technologies: Educational Guide. Kazan: KNITU-KAI, 2020. 184 p. Available at:
+https://e.lanbook.com/book/193529 (accessed: 19.03.2025).
+9. Saprykin O.[surname]. Data Mining: Textbook. Samara: Samara Universiity, 2020. 80 p.

@@ -1,0 +1,69 @@
+[name] Professional ● Created an app with city walking routes featuring AR
+Computer Vision engineer
+Development elements
+Achievements
+[compaany]
+Course: Data Analysis and
+Visualization
+2024 Conference, [location]
+Speaker at Generation VET
+May 2023 Don
+2nd Place in an Anti-Hackathon
+Innopolis
++2 *** *** *** Publications
+Course: Linux OS
+[name].study@email
+[location] Administration
+Articles
+October–December 2023
+Skills Quarter 2
+Python DBI SQL Intensive School [surname] [surname], [name],
+SQL (PostgresSQL)
+January–March 2024 Evgeniya Kirichenko, Mikhail Petrushan,
+Linux Ubuntu
+Sklearn, Torch Alexander Logvinov, Marya Kaplya,
+opencv-python, onnx
+Work Experience Darya Sedova, Stanislav Rodkin. 3D
+Bioprinting of Cultivated Meat Followed
+by the Development of a Fine-Tuneed
+Russian – Native "Development of Software for
+Development of Software for
+Biological Cell Counting"
+Lannguages Diploma Project
+Counting of Lipoblasts, Fibroblasts, and
+Myogenic Cells. Front. Biosci. (Landmark
+Ed) 2025, 30(3), 36266.
+https://doi.org/10.31083/FBL36266
+Computer Vision Engineer
+[compaany]
+Model selection and
+fine-tuning
+2024–2026 (Master’s Degree)
+Creation of a
+Full-time student
+Telegram bot for
+deployment
+[compaany]
+Automation of Cell
+Counting in Microphotographs Using
+Computer Vision Methods. Voprosy
+Applied Informatics for working with SAM
+and DinoSwim
+models via Autogluoon
+April 2024–Present
+Developed a service
+Report writing
+Project Manager
+Tyumen State University,
+School of Advanced Studies
+2020–2024 (Bachelor’s Degree)
+Full-time Liberal Arts student
+Client communication
+Business
+speaking environment requirements
+development
+Oversight of the
+development process
+
+
+

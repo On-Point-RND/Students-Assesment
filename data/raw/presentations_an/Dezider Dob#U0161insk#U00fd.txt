@@ -1,0 +1,62 @@
+## Summary of the Presentation on Hallucination Detection and Mitigation in LLMs
+
+This presentation outlines a unified white-box framework for detecting and mitigating hallucinations in Large Language Models (LLMs), particularly those leveraging retrieval-augmented generation (RAG). The core contribution is a method that combines hallucination detection with refinement based on topological features.
+
+**Key Contributions:**
+
+* **Unified White-Box Framework:** A single framework integrating both hallucination detection and mitigation techniques.
+* **Topological Feature-Based Refinement:** Utilizing topological features derived from attention maps to refine the generated text and reduce hallucinations.
+* **Combination of Detection and Mitigation:**  The framework leverages the insights from hallucination detection to guide the refinement process.
+
+**Hallucination Detection Methods Evaluated:**
+
+The presentation evaluates several hallucination detection methods on various datasets:
+
+* **SelfCheckGPT:** A black-box approach.
+* **Semantic Entropy:** Measures the semantic diversity of the generated text.
+* **Token-wise Uncertainty:**  Estimates the uncertainty of individual tokens during generation.
+* **Uncertainty Ensemble:** Combines token-wise uncertainty for improved detection.
+* **Multi-Choice Task (KQA):** Evaluates detection performance on a knowledge-based QA task.
+
+**Hallucination Mitigation Methods Evaluated:**
+
+The presentation also explores various mitigation techniques:
+
+* **Temperature Sampling:** Adjusting the sampling temperature during generation.
+* **Entropy-Based Decoding:** Utilizing entropy as a guiding factor during decoding.
+* **Context-Aware Decoding:**  Employing context information to guide the generation process.
+* **Lookback Decoding:**  Considering previous tokens to improve coherence and reduce inconsistencies.
+* **Proposed Method:** The core proposed framework combining detection and refinement.
+
+**Experimental Results:**
+
+The experiments demonstrate that the **Uncertainty Ensemble combined with the Proposed method (which includes topological feature-based refinement)** achieves the best performance across different datasets and tasks. This combination shows a significant improvement (average of 0.8-2.3% mean improvement) over the best baseline methods.
+
+**Future Work:**
+
+The presentation suggests future research directions including:
+
+* Testing the framework on more diverse models.
+* Applying the framework to other NLP tasks like summarization.
+* Further extending the proposed approach to other decoding methods.
+
+**Datasets Used for Evaluation:**
+
+The framework and methods were evaluated on the following datasets:
+
+* **RAGTruth:** A hallucination corpus specifically designed for evaluating RAG models.
+* **SQuAD:** A reading comprehension QA dataset.
+* **CoQA:** A conversational QA dataset.
+* **KQA:** A knowledge graph multi-choice QA dataset.
+
+**Evaluation Metrics:**
+
+The performance of the methods is evaluated using:
+
+* **ROC-AUC:** Area Under the Receiver Operating Characteristic curve (for detection).
+* **PR-AUC:** Area Under the Precision-Recall curve (for detection).
+* **BERTScore:** A metric to evaluate the factual consistency of generated text.
+
+**Overall Conclusion:**
+
+The presented framework offers a promising approach to address the critical issue of hallucinations in LLMs. By combining robust detection methods with intelligent refinement techniques, it achieves significant improvements in factual accuracy and trustworthiness.

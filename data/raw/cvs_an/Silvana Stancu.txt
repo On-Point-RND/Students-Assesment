@@ -1,0 +1,48 @@
+[name] About me
+[surname]
+Second-year Data Science and Engineering student ([compaany]), who enjoys working on real-world problems, where I can apply knowledge and expand my expertise, especially in collaborative team Contactdetails settings. Highly motivated to deepen knowledge and skills in data analysis and programming. Looking for a position in the Data Analysis.
+[email]
++2 *** *** ***
+[location]
+⋄Analysis of Media [compaany] Viewing Data for Improving Viewing Quality 2024
+Analysis of program viewing data for a given media [compaany], based on viewer information (residential area, household wealth level, environmental friendliness of the household, etc.), while filtering out incorrect data from the database. Identifying suspicious viewers. Determining the popularity level of genres in the top 10 wealthiest areas.
+Languages:
+Hebrew,Russian,Ukrainian,English
+Education
+Skills ⋄Data Science and Engineering - [compaany] 2023-present
+⋄Studying Mathematics - [compaany] 2019–2022
+• Python ⋄[compaany] Excellence Program 2018
+• SQL ⋄[compaany] 2011-2017
+High School Diploma (Bagrut) with 5 units in Mathematics, Physics, and English;
+• Spark
+with honors.
+• R
+⋄Program "From High School to the [compaany]" - [compaany] 2016
+• Java ⋄[compaany] 2014
+• C ⋄President Program of Discovery The Future Scientists - [compaany] 2013-2014
+• C# Courses: Mathematics, Biology, Robotics, Research, IBM
+⋄Program for Youth Talented in Mathematics - [compaany] 2012-2013
+⋄Summer Program "Robotics" - [compaany] 2012
+Hobbies: ⋄"[name]" - Personal Ability for Excellence 2012
+⋄Summer Program "Physics and Chemistry" - [compaany] 2011
+Playing the piano, sports, drawing, sewing ⋄Piano-Conservatory 2007-2014
+Experience
+⋄Library Assistant - [compaany] 2019-present
+⋄Telephone operator - [compaany] telephone information center 2024
+⋄Mathematics Instructor 2019-present
+Developed tailored math instruction strategies, significantly improving my students’ math knowledge level, As a result, they successfully passed bagrut exams and excelled in university math courses.
+⋄Student Guidance - [compaany] 2019-2020
+Led introductory tours for high school students interested in studying at [compaany].
+⋄Chess Guidance for School Students 2017
+Trained students, fostering critical thinking and strategic skills; took my students to a competition.
+Certifications
+Awards and Competitions
+⋄Winner of 1st Stage, T-Hack ([location]’s Largest Student Hackathon) 2019
+⋄[compaany] Stipend Recipient 2018
+⋄3rd Place, Rafael Competition "From Idea to Product" 2014
+Mathematical Olympiads:
+⋄Commendation, Cities Competition and "Gilis" Olympiad; 2016
+Invited to training camp for the International Olympiad
+⋄Winner of 1st Stages, "Kangaroo" and All-Israel Olympiads 2016, 2012, 2011
+⋄1st Place in 1st-2nd Stages, Israel Olympiad "Orange" for 5-7 Grades 2009
+⋄Winner, International Olympiads "Socrat" for 2-3, 3-4, and 5-6 Grades 2007, 2008

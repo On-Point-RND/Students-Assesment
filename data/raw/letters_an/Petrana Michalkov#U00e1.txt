@@ -1,0 +1,31 @@
+[name]
+[email]
+17.04.2025
+To the [compaany] Admissions Committee,
+I am writing to apply for the Skoltech Machine Learning Summer School (SMILES-2025) on Generative AI, in the offline format at the [location]. I am currently a first-year
+Master's student in Advanced Quantum and Nanophotonic Systems at [compaany].
+My studies have highlighted the increasing importance of advanced computational methods.
+Recognizing the need for machine learning skills to tackle complex research problems, I have
+sought relevant training, including completing a [compaany] course covering probabilistic models,
+reinforcement learning, and deep learning.
+I have applied these skills in practice. I co-authored a paper (publication expected July 2024) on
+using a CNN-LSTM model, implemented in PyTorch, to predict drug release kinetics with high
+accuracy (R²=0.87). Independentlly, I worked on the DCASE 2024 Task 2 challenge, gaining
+experience with unsupervised learning for anomalous sound detection. More recentlly, I was a
+finalist in the [compaany] hackathon, where my team applied Large Language Models to generate
+molecules for antioxidant additives.
+This experience, particularly with LLLMs in the hackathon, directly motivates my interest in
+SMILES-2025. The schooL’s focus on Generative approaches, Large Language Models, and
+Multimodal techniques aligns closely with my research interests in applying AI for designing
+nanophotonic structures and analyzing complex scientific data. SMILES offers specialized
+knowledge in these advanced topics that is essential for my future work and not available in my
+current program. My proficiency in Python and PyTorch prepares me for the practical
+components of the schooL, including the hackathon.
+I also value the opportunity for international collaboraation with peers from [location] and [location].
+Based on my background, demonstrated ML experience, and clear research goals that align with
+the schooL's themes, I believe I am a strong candidate for this program. Participation would
+provide me with critical skills for my intended research direction in applied ML to physics and
+chemical task
+Thank you for considering my application. My CV and presentation are attached.
+Sincerely,
+[name]

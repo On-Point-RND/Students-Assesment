@@ -1,0 +1,89 @@
+[name] Work Experience
+● [location] State [university], 05.2022 - 12.2023
+Contact Research Engineer, Department of Theoretical Cybernetics
+Projects involving human EEG data. Implemening ETL
+processes, training ML models, BCI approaches.
+[email]
+● Institute for Problems in Mechanical Engineering of the
+Russian Academy of Science ([compaany])
+02.2024 - Present
+❖ Python, Control Theory, Machine Learning (NumPy,
+R, scikit-learn, Pandas, PyTorch, matplotlib), Medical Data
+Analysis, Git, Docker
+07.04.2024 - Present
+Teaching Assistant in "Machine Learning"
+Professional development Conducting practical classes, grading homework
+● [location] Institute of Science and Technology ([compaany])
+❖ Certificate of Advanced Training, [location] [university] of 17.11.2023 - Present
+Science and Technology Junior Research Engineer, Applied AI Center
+Development of an automatic segmentation methods for MRI and CT
+Mathematical Problems of Mobile Robotics: Motion Control under using deep learning methods
+Communication Constraints ● [location] State [university], 10.11.2023 - Present
+Researcher, Mathematics and Mechanics Faculty
+❖ Certificate of Advanced Training, [location] Institute of Science and Technology ([compaany])
+Utilizing Modern Neural Networks for Natural Language Processing
+Achievements / Publications, Conferences
+Tasks
+❖ Application of Machine Learning to Diagnostics of
+Schizophrenia Patients Based on Event-Related
+Poten potentials. Diagnostics 2023, 13, 509.
+[name], [surname]; [surname]; [surname]; [surname]; [surname];
+[surname], [surname]
+❖ Project "How Transforme rs Solve Tasks," Artificial
+Intelligence Research Institute & DeepPavlov Library
+https://doi.org/10.3390/diagnostics13030509
+Analyzing attention pattern regularities in a trained model;
+DeepPavlov Lab, MIPT, AIRI Summer Schoo l on Artificial
+Intelligence, 07/04/2022 – 07/17/2022
+approach. Eur. Phys. J. Spec. Top. (2025).
+N. [surname], M. [surname], M. [surname], V. [surname], A. Müller and
+J. [surname]. The European Physical Journal Special Topics, Q2
+❖ Internship at BIOCAD [compaany], IT Department, Data
+Monitoring and Analysis Group. Conducting EDA,
+building and deploying ML models, client
+communication, 06/20/2023 – 08/20/2023
+❖ "Classification of Schizophrenia Patients on the Basis of
+Latent Components of ERPs using a Machine Learning
+System," 2024 Sixth International Conference
+Neurotechnologies and Neurointerfaces (CNN), 2024
+N. [surname], M. [surname], M. [surname], V. [surname], A. Müller and
+J. [surname], Kaliningrad, Russian Federation, 2024, pp. 198-201, doi:
+10.1109/CNN63506.2024.10705876
+❖ Research Collabora tion: Joint Research with the N.P.
+Bekhtereva Institute of the Human Brain, RAS, and the
+Faculty of Biology, [location] State [university]
+using AI methods: solving the task of determining the intention to
+move, 01/01/2022 – 12/31/2024
+❖ Conference Paper, Machine learning based diagnostics
+of schizophrenia patients, 2022
+[surname], [surname], [surname], [surname]. Proceedings -
+Machine learning based diagnostics of schizophrenia patients, 2022,
+pp. 252–255
+❖ "Software Framework for EEG Signals Analysis Using
+Machine Learning Methods”, 2024
+[surname], [surname], [surname], [surname], [surname], [surname], [surname]. 16th International
+Conference “Intelligent Systems” (INTELS’24), December 2–4,
+Moscow, Russia (accepte d to print)
+❖ Multiconference on Control Problems (MKPU-2022)
+Presentation on "Classification of Human EEG Signals for
+Determining Movement Intention" at the “Information
+Technologies in Control” conference (ITU-2022, October 4–6)
+❖ Winter Seminar of the Bioinfo rmatics Institute, 2023
+❖ Application of Machine Learning Methods for Classify ing
+Psychiatric Disorders
+Seminar on Optimization, Machine Learning and
+Application of Machine Learning Methods for Classify ing
+Psychiatric Disorders Based on EEG Signal,
+http://o ml.cmlaboratory.com/videoteka2024.shtml, 21.11.2025
+Education
+● Institute for Problems in Mechanical Engineering of the Russian
+Academy of Science ([compaany]) 2023-Present
+Postg rade Student, Computer Science and Info rmatics Faculty, Artificial
+Intelligence and Machine Learning
+● [location] State [university] 2021-2023
+Master’s Degree, Mathematics and Mecha nics Faculty,
+Mathematical Modeling, Programming, and Artificial
+Intelligence Psychia tric Disorders, 02/18/2023
+● [location] State [university] 2017-2021
+Bachelor’s Degree, Mathematics and Mecha nics Faculty,
+Mechanics and Mathematical Modeling

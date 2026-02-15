@@ -1,0 +1,106 @@
+Review:
+Enhancing Language Models
+through
+Debate
+Feedback
+Agent Modeling
+[name] [surname]
+SEO — nuero-logic.[location]
+Bioinformaticiist — [compaany] · [compaany]
+what?
+Expanding LLM functionaliity through agent systems.
+why?
+Eliminate critical limitations, formiing the foundation for technology advancement.
+goals:
+To analyze the principles of the multi-agent approach in studying the boundaries of LLM functionaliity.
+To evaluate the comparative significance of interactive enhancement methodologies in relation to context
+expansion and semantic representation refiinement in the systematic advancement of LLM.
+problem
+Factual imprecision
+Mismatch with human expectations
+Computational inefficiency
+challenges
+Developing improvement methodologies
+Creating scalable interaction systems
+Balancing computational costs
+Overcoming the limitations of the primitive agent
+scope:
+Focused on three complementary methodological frameworks:
+Feedback-based fine-tuning
+Consensus-driven multiagent debate systems
+Memory-augmented cognitive architecture for generative agent simulation
+Methods
+Training Language Models with Language Feedback
+Three-phase methodology leveraging natural language human criticism for model refiinement
+Contributes critical insights into the scaling properties of feedback-based learning
+Generates
+Selects optimal Fine-tune
+multiple potential
+version model
+refinements
+Training Language Models with Language Feedback
+Collaбораtive-competitive framework utilizing multiple instances of a single LLM as independent agents
+Independent
+Reciprocal Consensus
+solution Refiinement
+critique formation
+generation
+Generative Agents: Human Behavior Simulation
+Recursive memory-planning architecture enabling persistent, evolving agent behaviors
+Hierarchical
+with decay mechanisms
+memory
+Multi-level
+(from abstract goals to
+planning
+concrete actions)
+architecture
+Reflection for introspective
+protocols assessment
+Why these methods?
+Scalability potential
+from consumer applications to research environments
+Theoretical grounding in cognitive science and social psychology principles\
+Applicability
+across different operational contexts and model accessibility scenarios
+Results
+Key findiings
+Feedback-based refiinement outperformeed human summaries with just 100 training examples
+Multi-agent debate reduced reasoning errors by 40% without model retraining
+Generative agents demonstrated believable behavior in complex social simulations
+Theoretical implications
+Established pathway to functional scaling beyond architecturaal improvements
+Demonstrated emergence of reasoning capabilities through interaction rather than size
+Formed foundation for cognitive-inspired protocols in contemporary AI systems
+Research gap
+Current limitations
+Insufficient integration between feedback mechanisms and agent architectures
+Computational inefficiency in scaling multi-agent interactions
+Limited research on asynchronous processing in collaбораtive systems
+Unclear optimal balance between specialization and generalization in agent roles
+Why these gaps matter
+Developing truly thinking models requires unified cognitive architectures
+Asynchronous multi-agent systems with shared context could approximate biological cognitive processes
+Competitive decision-making mechanisms enable emergent reasoning similar to neural coalitions
+Future AI capabilities depend on interaction protocols as much as parameter count
+Future directions
+Integration of feedback, debate, and memory into unified enhancement frameworks
+Development of asynchronous multi-agent architectures with competitive assessment mechanisms
+Investigation of emergent cognitive functions in distributed agent networks
+Creation of benchmarks specifically designed to evaluate collective intelligence capabilities
+Bibliography
+1. [name], [surname] (2022). Training Language Models with Language Feedback. arXiv:2204.14146.
+2. [name], [surname] (2023). Improving Factuality and Reasoning in
+Language Models through Multiagent Debate. arXiv:2305.14325.
+3. [name], [surname] (2023). Generative Agents: Interactive
+Simulacra of Human Behavior. arXiv:2304.03442.
+4. [name], [surname] (2023). Augmented Language Models: a Survey. arXiv:2302.07842.
+5. [name], [surname] (2022). Training Language Models to Follow Instructions with Human Feedback. NeurIPS, 35, 27730-27744.
+6. [name], [surname] (2023). Steering Language Models with Multiple Constraints.
+arXiv:2310.19952.
+7. [name], [surname] (2023). Language Models as Cognitive Models. Transactions on Machine Learning Research.
+8. [name], [surname] (2023). Language Models Can Teach Themselves to Use Tools. arXiv:2302.04761.
+9. [name], [surname] (2023). Agent with a Conscience: How Transparent AI
+Preserves Human Autonomy through Moral Negotiation. arXiv:2310.20207.
+10. [name], [surname] (2023). Asynchronous Collective Intelligence: Buildiing Systems with
+Multiple Specialist Agents. arXiv:2311.15247.

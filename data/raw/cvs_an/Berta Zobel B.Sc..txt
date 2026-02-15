@@ -1,0 +1,84 @@
+Jul. 2024 – Now Jun+ Product Analyst
+[compaany] - Advertising platform [compaany]
+A/B tests and product research, ecosystem effects estimation
+Advertising traffic forecasting with time series and ML
+Buildiing dashbords, report automatisation
+Working experience
+[name]
+Jan. 2024 – Apr. 2024. Intern Researcher
+[name]
+Studying matching algorithm and discrete choice models
+Born on February 7th, 2002
+Data collection and preparation, EDA
+[location]
+Discrete choice models estimation with Python (PyBLP)
+[email]
+Jul. 2022 – Aug. 2022 Intern Risk Analyst
+[compaany] - Department of market risks
+Graduate,currenltyspendiingagap
+Systematization of literature about modeling risk and volatility
+yearforcareerinbigtechandplan-
+Implementing financial models based on articles (with Python)
+ning future degree. Interested in
+education in [location], studied econ-
+omyofthisrregio(bachelorthesis),
+studying Japanese as hobby
+Teaching experience
+Sep. 2021 – May. 2024. Methodologist and Mentor
+Data Analysis National Olympiad ([compaany] x [compaany])
+Fields of interest
+Development of tasks and the concept of the olympiad
+Supervising the research of the olympiad participants
+Applied ML and time series
+NLP and semantic analysis Sep. 2023 – Jan. 2023. Teaching Assistant
+Quantitative finance
+Econometrics course at [compaany]
+Supervising the research projects of students
+Education
+Sep. 2021 – Jan. 2021. Teaching Assistant
+2024 Bachelor in economics
+Python for Data Science course at [compaany]
+Higher Schoool of Economics
+Seminar facilitation, development of the course tasks
+GPA 8.58/10, honors degree
+2024 Data Scientiist
+Graduation papers and publications
+Professional retrainig
+Higher Schoool of Economics
+2024 - Higher Schoool of Economics Bachelor Thesis
+Completed courses:
+Supply Chain Contagion in the Industry of Base Metals: Case
+of China
+Programming
+Machine Learning
+Deep Learning
+Applied Data Analysis
+2023 - Higher Schoool of Economics Term Paper
+Cryptocurrencies as a potential safe haven asset against oil and
+gas market risks
+2021 - ITMO Paper - XIII Majorov International Conference
+on Software Engineering and Computer Systems
+[name], [name] and [name] (2021).
+Natural Language Processing For Urban Functional Zoning
+(Certificate)
+Skills
+Applying ML models (K-means, DBSCAN, regression, decision trees,
+bosting models etc) with Python (scikit-learn, statsmodels)
+Using cross validation, greed search, regularization for model training
+Constructing and training of the neural networks with Python
+(PyTorch, TensorFlow), including CNN and GANs
+Applying NLP with Python (tokenization, Word2Vec, frequency and
+semantic analysis, TF-IDF)
+Languages - Russian (Native), English (B2), Japanese (Begiinner)
+Extracurricular Activities
+2025 Participant of Winter Schoool of Computer Science
+(Higher Schoool of Economics)
+2025 Participant of Talents at [compaany]
+2023 Course A data-driven product management simulator
+(GoPractice)
+2023 Participant of SMILES-2023 (online)
+2022 Winner of the competition for the schoolarship of
+[compaany]
+2022 Course Advanced Analytics (Corporate Universiity of
+[compaany] Neft)
+Last updated: April, 2025.

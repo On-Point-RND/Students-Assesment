@@ -1,0 +1,66 @@
+[name] [surname]
++2 *** *** ***
+[email] @my.msu.ru
+github.com/[name]
+Summary
+Bachelor’s and Master’s degree graduate of the Physics Department of [location] with honors. 3 years of experience in research projects concerned with the application of machine learning methods to biophotonics
+data analysis. 2 years of commercial experience in R&D projects.
+Education
+[location] [location] September 2018 – June 2022
+With honors, Bachelor’s degree, faculty of physics, quantum electronics department
+[location] September 2022 – June 2024
+With honors, Master degree, faculty of physics, quantum electronics department
+[location] October 2024 – Present
+PhD, 1.3.6 (Optics)
+Career
+LLC "[compaany]" July 2023 - – Present
+IT Department, Junior deveeloper [location]
+• Development of biophotonics research problems solutions using machine learning (traditional ML and deep learning), see
+projects below.
+Hard skills
+• Python: standard packages for numerical and statistical experiments and data analysis (numpy, scipy, pandas); packages
+for buildiing and training classical machine learning models (scikit-learn), deep learning (pytorch + pytorch-lightning);
+inference of machine learning models in onnx; visualization of data and experimental results (matplotlib, seaborn)
+• Mastery of the mathematical apparatus used in data analysis (linear algebra, probability theory and mathematical
+statistics)
+• Working principle comprehension for the main algorithms of classical machine learning and deep learning
+• Experience with the Git version control system in software package development
+• Experience in remote development on linux-based server
+• English proficiency level C1
+Projects
+Diagnosis prediction on OCT medical images November 2024 - Present
+• Solving the problem of tissue classification into healthy, featuring early lesions and late lesions by volumetric
+Optical Coherence Tomography (OCT) image arrays.
+• Project support from the stage of initial EDA data analysis to training neural network models in the
+PyTorch-Lightning framework. Pre-training of convolutional neural networks and optimization of
+hyperparameters of model regularization using optuna.
+• Using Multiple Instance Learning paradigm to aggregate predictions on an image array into a patient verdict.
+Clinical Microbiology July 2023 - Present
+• Solving a multiclass hierarchical classification problem using multimodal optical feedback data.
+• Development of a Python module based on the PyTorch-Lightning framework to automate the processes of
+training neural network models and monitoring the quality of problem solving using configurable automated
+scripts.
+• Exporting the finished solution to an inference module that implements data loading and preprocessing and
+inference of trained models using the onnx-runtiime framework.
+• Reporting the results on scientific conferences.
+QSPR for molecular fluorescent properties March 2023 - July 2023
+• Building a machine learning model that searches for QSPR (Quantitative Structure-Property Relationship) -
+structure-property relationships (namely structure - fluorescence properties) for chemical molecules structuraal
+formulae.
+• Data analysis and visualization in an interactive Jupyter Notebook environment. Constructing a feature
+representation of chemical molecules using the Python framework RDKit, used to train a regression model in
+the scikit-learn (linear regression, random forest) and catboost (gradient boosting) frameworks. Optimization
+of hyperparameters using optuna framework.
+• Implementaion of predictors and methods from scientific literature (related papers).
+Achievements
+• Co-authorship in the article "Dataset of human skin and fingernails images for non-invasive haemoglobin level
+assessment" published in the Scientific Data scientific journal (DOI: doi.org/10.1038/s41597-024-03895-9)
+• An oral report on the topic of the project "Clinical Microbiology" at the VII schoo-conference of young scientists of the
+General Physics Instiutute of the Russian Academy of Sciences "Prokhorov Readings" (October 22-24, 2024, [location]) was
+awarded a diploma for the best report
+• A poster presentation on the topic of the project "Clinical Microbiology" at the international conference "Fluorescence
+for Biomedicine" (September 8-11, 2024, [location]) was awarded a 3rd degree diploma for the best presentation
+• Participation as an expert at the discussion platform "AI in interdisciplinary physical research" within the framework of
+the XXXII International Scientific Forum "Lo[location]sov" (April 15th, 2025)
+• Winner of the scholarship for postgraduate students of the Physics Department from the Founda[compaany] for the
+Development of Theoretica[compaany]s and Mathematics BASIS 2024

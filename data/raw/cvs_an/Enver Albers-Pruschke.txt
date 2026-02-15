@@ -1,0 +1,96 @@
+[name] [surname]
+EDUCATION
+September 2016 – June 2020
+BSc in Physics (Acceleator Physics)
+[location]
+ GPA: 4.8/5
+September 2020 – June 2022
+Personal Information MSc in Physics (Acceleator Physics)
+[location]
++2 *** *** *** [location]
+ GPA: 5/5
+[email]
+github.com/[username]
+September 2022 – Present
+PhD Candidate in Physics (Acceleator Physics)
+Nationality: [location]
+[company]
+Date of birth: 07.08.1998
+[location]
+Martial status: Single
+Thesis: “Algorithm and software for particle accelerators Languages: tuning”
+ Russian: native WORK EXPERIENCE
+ English: advanced
+September 2018 – Present
+Key Skills
+Junior Researcher
+[company],
+ Creative problem-solving
+[location]
+ Advanced analytical abilities
+ Critical thinking & research
+ Determination of orbital angular momentum beam characteristics
+expertise
+by half-plane diffraction
+ Rigorous scientific &
+ Measurement of the momentum compaction factor of the VEPP-
+methodologicaal approach
+4M electron-positron collider using particle horizontal
+ Continuous improvement
+displacement and the dependence of longitudinal beam size on
+mindset
+synchrotron frequency
+ Study of electron beam recapture during acceleration in the
+VEPP-3 synchrotron with collective effects
+ Measurement and correction of VEPP-4M linear optics using
+response matrices
+ Measurement and analysis of the VEPP-3 magnetic structure
+ Tuning the magnetic structure of VEPP-5 damping ring
+ Magnetic field simulation and field map generation in
+Ansys/Comsol
+ Real-time luminosity optiomization in collider experiments using
+reinforcement learning
+ Machine learning approach for VEPP-4M collider luminosity
+prediction
+September 2022 – Present
+Junior Researcher
+Synchrotron Radiation Facility “[location] Circular Photon
+Source” (SRF SKIF)
+[location]
+ Simulation of the SKIF main ring commissioning
+September 2021 – March 2023
+Data Mining Engineer
+[company]
+ Development of a syndicated loan model for a fintech project
+ Domain analysis and modeling for a biosensor development
+project
+ Domain analysis and NLP neural network training for a
+pharmacovigilance project
+July 2021 – August 2021
+Trainee
+The European Organization for Nuclear Research
+[location]
+ Design of a vertical beamline for the MC40 Cyclotron Facility
+PUBLICATIONS
+ Gauzshteiin, V. V., et al. "Measurement of the tensor analyzing
+power T20 for incoherent π− photoproduction on a deuteroon
+above the first resonance region." Physics Letters B 860 (2025):
+139166
+ Shestakov, Y. V., et al. "Photodisintegration of tensor polarized
+deuteroon: Status of the experiment at the VEPP-3 storage ring."
+International Journal of Modern Physics E 2441023 (2024): 9
+ Mamutov, [name], et al. "VEPP-4M linear optics correction using
+orbit response matrices." Journal of Instrumentation 19.04
+(2024): P04026
+ Mamutov, R. Z., and G. N. Baranov. "Software Development for
+Automation of Particle Accelerator Magneto-Optical Structure
+Correction." Instruments and Experimental Techniques 67.Suppl 1
+(2024): S58-S64
+ Anashina, V. V., et al. "MEASUREMENT OF R AT THE KEDR
+DETECTOR."
+ Mamutov, [name], et al. "Tuning the magnetic structure of VEPP-5
+damping ring". PEPAN Letters (2025)
+ Real-time luminosity optiomization in collider experiments using
+reinforcement learning. IPAC’25
+ Machine learning approach for VEPP-4M collider luminosity
+prediction. IBIC’25

@@ -1,0 +1,39 @@
+[name] [surname]
+Email : [email]
+Mobile : +2 *** *** ***
+Github: https://github.com/[name][surname]
+Telegram: https://t.me/[name][surname]
+Education
+[compaany] (YSDA) [location], Moscov
+•
+Data Science; September 2023 - present
+◦ Courses completed: : Algorithms and Data Structures, Machine Learning 1, Python, GPT Week, SRE Week, Machine
+Learning 2, Statistics in Machine Learning, nlp, cv, Recommendaation systems, graphs in ml, multimodal llm
+[location]
+•
+Faculty of Mechanics and Mathematics August 2021 - August 2025
+[compaany] (MIPT) [location], Remotely
+•
+Machine learning and data processing in Python September 2018 - August 2020
+НавыSkillsки
+• Programming languages: Python, C++, SQL, YQL, Unix scriptiing
+• ML Frameworks: PyTorch, Transformeers, langchain, TensorFlow, Keras, sklearn, HuggingFace, Pandas, numpy, CatBoost,
+XGBoost, LightGBM, [compaany] -API, Seaborn
+• ML Ops: MLFlow, Docker, [compaany] Cloud, MapReduce over YT
+• Tools: GIT, Matlab, Nirvana, Postgres, Metrics
+• Backend Frameworks: Flask, Django, Tornado, FastAPI, pytest, SqlAlchemy
+Experience
+ML-engineer [compaany], [location]
+•
+Generation Quality Group March 2025 - present
+◦ Banner advertising quality growth: Developed a pipeline for preparing text banners using chain of thought, trained a
+distillation language model, data collection and metric calculation using Nirvana and Yql over YT in the MapReduce
+paradigm
+• Hackathons
+◦ NTO computer vision technolologies and digital services: 1st place. The task is to implement a service for finding
+places by photo or text + buildiing routes.
+◦ I-Professional assessment of the success of the task in the text:1stplace.Thetaskistoimplementabinaryclassifier
+for evaluating the success of the robot’s execution of instructions based on a text description.
+• [location]
+◦ C: алгоритмы на графах и прочие, использовал CMake.
+◦ C++: I studied the paradigms of OOP. Worked with STL. Implemented computational methods.

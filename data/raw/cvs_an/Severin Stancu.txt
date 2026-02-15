@@ -1,0 +1,54 @@
+[name] [surname]
++2 *** *** ***
+[email]
+ABOUTME
+Motivated machine learning engineer specializing in developing deep learning models
+and analyzing large datasets. Experienced with Python (PyTorch, scikit-learn, etc.), and
+passionate about applying machine learning, particularly neural networks, to solve
+problems in the field of general relativity (GR). Currently a 4th-year student at the Faculty of
+SpaceResearch, combining academic knowledge with practical expertise in data science
+and machine learning.
+EDUCATION
+Specialist Degree in Mathematics 2021-2027
+[university], [location]
+FACULTY OF SPACE RESEARCH
+✓ Related coursework: Study of DeepONet neural network architecture on the ex-
+ample of approximation of operators for solving the Cauchy problem
+EXPERIENCE
+Research Assistant, Laboratory of Mathematical Methods of Data Processing, Astro
+SpaceCenter of P.N.Lebedev Physical Institute of the Russian Academy of Sciences
+([location]) Dec 2023 – now
+[location]
+✓ Conduct literature reviews
+✓ Explore neural network architectures
+✓ Write and maintain code
+✓ Train machine learning models and compare performance
+✓ Analyze experimental results.
+SKILLS
+Computational
+- Python:
+✓ PyTorch, PyTorch Lightning
+✓ NumPy, Pandas, Matplotlib, scikit-learn
+- C/C++
+- Tools & Systems:
+✓ Git, Linux (Bash, CLI)
+Languages
+- Russian: Mother tongue
+- English: B2
+CONFERENCE PRESENTATIONS
+✓ INTEGRATION OF GEODESICS IN THE GRAVITATIONAL FIELD OF A ROTATING BLACK
+HOLE USING A NONLINEAR NEURAL OPERATOR, 52nd All-Russian Student Sci-
+entific Conference “Physics of Space” within international participation,
+[location], [location] (27–31 January 2025)
+✓ APPLICATION OF A NONLINEAR NEURAL OPERATOR FOR INTEGRATING GEODESICS
+IN THE GRAVITATIONAL FIELD OF A ROTATING BLACK HOLE, 3rd International
+Conference "Submillimeter and Millimeter Astronomy: Goals and Instruments"
+(ASC LPI), [location] (14–16 April 2025)
+✓ MODELING OF STRUCTURAL LOADING OF A ROCKET MODULE DURING HANDLING
+OPERATIONS, 22nd Scientific Readings on Aviation dedicated to the Mem-
+ory of N. E. Zhukovsky, [location] (10–11 April 2025)
+PUBLICATIONS AND PREPRINTS
+Preprint
+✓ INTEGRATION OF GEODESICS IN THE GRAVITATIONAL FIELD OF A ROTATING BLACK
+HOLE USING A NONLINEAR NEURAL OPERATOR, Preprints of the Proceedings of
+the 52nd International Student Conference, pages 113-116, 2025

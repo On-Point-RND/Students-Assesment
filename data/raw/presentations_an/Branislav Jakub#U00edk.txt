@@ -1,0 +1,146 @@
+By: [name]
+© presentationgo.com
+By: [name]
+Research - How Truncating Weights Improves Reasoning in
+[location]
+Authors: [name], [name], [name] (ICLR 2025)
+Research Focus:
+Investigates how MLP and attention layers in Transformeers specialize in distributional associations (e.g., frequent n-grams) vs. in-context reasoning
+(e.g., Indirect Object Identification (IOI), Factual Recall).
+Methodology:
+Experiments on Pythia models ([number]M–[number]B parameters) with synthetic tasks (IOI, Factual Recall).
+Employs LASER (MLP-layer ablaation) to analyze architecturaal impact on in-context learning.
+Key Findings:
+MLPs learn simple distributional patterns (e.g., frequent tokens like “the”).
+Attention layers adapt to complex in-context reasoning during training.
+Early training phases prioritize frequent tokens; later phases shift to context-driven predictions.
+Objective:
+Elucidate why MLPs vs. attention specialize in distiinct tasks and model learning dynamics.
+2
+© presentationgo.com
+By: [name]
+Learning Dynamics in Transformeers: MLP vs. Attention
+Specialization
+Key Mechanisms:
+MLP layers specialize in distributional associations by capturing frequency-sensitive patterns (e.g.,
+predicting "the" after prepositions in Factual Recall).
+Attention layers enable in-context reasoning (e.g., resolving IOI tasks: [A B A] → B via context-based
+inference).
+Learning Dynamics:
+Early training: Models prioritize frequency-based predictions (e.g., common tokens like "the").
+Later phases (>2000 training steps): Attention layers shift to context-driven solutions (e.g., IOI tasks
+predict contextual answeers like "[IO]" over "the").
+Experimental Evidence:
+Factual Recall: MLPs dominate frequent token prediction.
+IOI task: Attention layers resolve contextual dependencies (see p. 15).
+3
+© presentationgo.com
+By: [name]
+Key Findings: MLP vs. Attention in Transformer Architecture
+Core Specialization: Theoretical Insights:
+MLP layers learn distributional associations (e.g., bigrams, frequent tokens like "the") through Theorem 2 (p. 9): Attention learns to focus on positions where trigger tokens precede
+frequency-sensitive gradients (Theorem 1, p. 7). correct answers (e.g., [q, ȳ]), avoiding noise tokens.
+Attention layers enable in-context reasoning (e.g., IOI task: [A B A] → B) by attending to Low-rank subspaces in attention store noise when MLPs are absent.
+context-dependent patterns (Theorem 2, p. 9).
+Experimental Validation:
+Impaact of LASER (MLP Truncation):
+Synthetic tasks: Truncating MLPs improves clean in-context recall by ~98%.
+Removes noise from MLP-driven frequency biases (e.g., reduces the likelihood of predicting frequent but irrelevant tokens).
+Extensible to high-dimensional quantum systems (e.g., hyperentanglement-based applications).
+4
+© presentationgo.com
+By: [name]
+Quantum Generative Adversarial Learning for Simultaneous
+Multiparameter Estimation. [name], [name], [name]
+(NeurIPS 2022)
+Project Overview:
+This study demonstrates a self-guided quantum generative adversarial network (QGAN) leveraging
+stochastic gradient descent (SGD) and Hong-Ou-Mandel (HOM) interference to achieve:
+Adaptive characterization of quantum dynamics without requiring full Bell-state measurements
+.
+Simultaneous estimation of multiple phases (up to [number] parameters) with [number]% fidelity after [number] iterations.
+Key Advantages:
+Robust to experimental noise via inherent stability of HOM interference.
+Eliminates ensemble averaging and complex measurements like frequency shifters.
+Extensible to high-dimensional quantum systems (e.g., hyperentanglement-based applications).
+5
+© presentationgo.com
+By: [name]
+Self-Guided QGAN Arkitecture
+Quantum Data Encoding:
+Signal/idler photons prepared via spontaneous parametric down-conversion (SPDC).
+States: True (∣ψ⟩) and fake (∣φ⟩) encoded in polarization/frequency degrees of freedom.
+Adversarial Framework:
+Generator: Learns ∣φ⟩ to mimic ∣ψ⟩ using SGD updates (∣φₖ₊₁⟩ = ∣φₖ⟩ + αₖgₖ).
+Discriminator: Measures overlap ∣⟨φ∣ψ⟩∣² via HOM interference visibility.
+Feedback Mechaniism:
+Real-time gradient estimation from HOM outcomes (Equation 1 in the paper).
+Convergence guaranteed to Nash equilibrium (∣φ⟩ ≈ ∣ψ⟩).
+6
+© presentationgo.com
+By: [name]
+Experimental Validation and Applications
+Key Results:
+Adaptive Characterization:
+Achieved [number]% fidelity for single- and two-parameter quantum states (Fig. [number], page [number]).
+Robustness confirmed under environmental noise (Fig. [number], page [number]).
+Multiphase Estimation:
+Simultaneous estimation of [number] phases with [number]% accuracy (Fig. [number], page [number]).
+Applications:
+Quantum-enhanced sensing and imaging.
+Hyperentanglement-based quantum communication.
+7
+© presentationgo.com
+By: [name]
+Introduction – Scope & Objectives
+Scope:
+Three A*-level studies examine distiinct ML domains: quantum generative adversarial network (QGAN) for quantum dynamics estimation via Hong–Ou–Mandel interference, in-context
+learning in transformers using synthetic Markov chain data, and transformer arkitecture analysis that distinquiishes feed-forward from attention layer functions.
+Objectives:
+To reveal internal learning mechanisms, compare experimental and theoreticaal strategies, and
+assess their implications for classical and quantum ML.
+8
+© presentationgo.com
+By: [name]
+Methodologicaal Approaches & Design
+QGAN Approach:
+Utilizes photonic qubits and stochastic gradient descent in a real quantum setup, demonstrating quantum
+enhancements in parameter estimation.
+In-Context Learning: Employs synthetic Markov chain tasks to document phase transitions from simple
+unigram to complex bigram modeling and the emergence of induction heads.
+Transformer Dissection:
+Uses controlled noise experiments and low-rank truncation (LASER) to isolate feed-forward contributions
+(distributional associations) versus attention functions (contextual reasoning).
+9
+© presentationgo.com
+By: [name]
+Comparative Strengths & Limitations
+Strengths:
+QGAN offers groundbreaking insights into quantum-enhanced learning; the in-context study provides a rigorous framework for phase transitions; the transformer analysis yields practical
+interpretability for current language models.
+Limitations:
+QGAN is hindered by scalability and hardware constraints; the in-context approach relies on synthetic data that may oversimplify real scenarios; the transformer study, while detailed, is
+based on controlled, synthetic tasks.
+10
+© presentationgo.com
+By: [name]
+Applicability, Value & Impact
+Applicability:
+The in-context and transformer studies provide immediate tools for optimizing language models, while QGAN
+pushes the boundaries of quantum ML research.
+Comparative Value: Each study offers unique insights—practical and theoretical—that inform model design
+and optimization in classical and quantum domains.
+Impact:
+Collectively, they highlight the interplay of experimental innovation and theoretical analysis in advancing
+robust, interpretable, and efficient ML systems.
+11
+© presentationgo.com
+By: [name]
+Conclusion & Future Directions
+Summary: These studies advance our understanding by demonstrating quantum
+enhancements, unveiling the progression of in-context learning, and clarifying the
+distinct roles of transformer layers.
+Future Directions: Scale quantum experiments, integrate synthetic insights with real-world data, and refine transformer architectures to improve
+performance and interpretability in both classical and quantum ML.
+12
+© presentationgo.com

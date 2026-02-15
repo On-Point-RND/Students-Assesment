@@ -1,0 +1,70 @@
+[name] [surname]
+NLP-Engineer(ML-Engineer)
++2 *** *** *** # [email] ([email] §/ [email] }/[email])
+Summary
+MachineLearningEngineerwithstronghands-onexperienceinNLPand
+LargeLanguageModels(LLMs).Activelyapplyingmyskillsinthereal
+worldthroughcompetitivehackathonsandacademicresearch.Focused
+on developing scalable and reliable AI systems, from data labeling
+to fine-tuning and evaluation. Continuously improve my expertise
+throughcourses,applipeprojects,andexperimentationwiththelatest
+DLtechniques.
+Professional Experience
+NLP-Engineer| [compaany] 2024.03-2025.04
+• DevelopedandlaunchedanLLM-basedassistanftofransweringGOST-based(ГОСТ)questionswithlargetables,
+whiimprovedtheaaccuracyofanswersby4.5times
+• DesignedatablbeenchmarkforLLM,preparedaHabrarticle,academicpaperinprogress
+• Prepareddocument-baseddatasets(incluingmultimodal)for[compaany]training(LLM),prepareddaataformarkupandsupeervised
+• ExperimentewdwithLLMfordifferentdocument-basedtasks
+• BuiltaninternaframeworforevaaluingtheLLMrresponsewithRAG
+ML-Engineer| [compaany] 2023.02-2023.06
+• Developedandtraineda modeforfindingthecoordinatsofaphoto locationfromaphoto,exploredseveral
+articleswithdifferentarchitecturestosolvetheproblem
+• Partiicipatedin thedeveloomentofmodelsfortext generation
+• Traineda modeforfindingUAVcoordinatsonapreparedsatelliteimage
+Teaching Assistant| [compaany] 2023.09-2024.12
+• Assistingtheteacherinthecourse"IntroductiontoDeepLearning"NeuralNetworkMethodsinTextProcessing"
+• Checkinghomeworkasigmnetsandprojectsandassistingstudents
+Research Intern|[compaany](InternationaLLaboratoryofLandscapeEcolgy) 2022.09-2023.02
+• Searcheandanalyzedremotesensingdata(RSD)usingPython
+• AppliedMLtechniquestoaalyzeRSD
+Technical Skills
+LLM RAG,Agents,Finetuning,PromptEngineering,Evaluation,vLLM,LangChain
+DeepLearning PyTorch,NLP,Transformeers,LoRA,CV,Segmnetation,Dataprparing&labeling
+MachineLearning Regresion,Classification,FeatueEngineering,ModelEvaluation,Boosting
+Tools PyTorchLighning,WandB,Linux,Bash,Git,GitHub,GitLab,Docker
+Programming Python,SQL,C++
+Education
+Higher Schooof Economics|Bachelor’sDegreeinGeoinformationTchnoogies 2021.09-2025.06
+• KeyCourses:AdvancedMathematics,ProbabilityTheory,MathematicalStatisics,ComputerVisionandImage
+Analysis;SpatialDataIntegraion,VisualizationandAnalysis;RemoteSensing;StatisicaalMethodsforSpatial
+Analysis
+Achievements
+• Hackathon"[GitHub]":
+Developedaservieto matchtrainingcoursebasedoancandidate’sresumandvacancy.Theserviceaalso
+allowsyoutofindoutwhatthesalaryincreasecanbeaftertakinga course.
+• Hackathon"[GitHub]":
+DevelopeanLLM-basedservicusingRAG,capableofanswerinuserquestionsabouhtheSupplierPortal,
+incluingprocuremenproceduresandregulatoryframework.
+• Hackathon"[GitHub]":
+Developedaservictoaalyzecandidatesvideoprofilestodeterminepersonalitytypetofindthemost
+suitablecandidatesforavacancy.TheserviceisbasedonSTTandfinetuneDLM.
+• Hackathon"[GitHub]":
+VariousLLMsareexploredduringthehackathon.Asarult,apromptwasdevelopedfortheMistral7B
+modeltogeneratescientificaricles.
+• Hackathon"[GitHub]":
+In the process of the hackathon, a service was deveoped that allows identiying points of illegal non-
+stationarytrade.Segmnetationandtackingofobjectsarused.
+• Hackathon"[GitHub]":
+Duringthehhackathon,aservicewasdevelopedtthatallowsfindiinglandfilviolationusingUAVphotos.
+Thoussandsofphotoswerelabeleandandamodlewatrainedforobjectiondetection.
+Courses
+ML, DL (Tinkoff Generation)
+• ML:MLMath,Overfitting,FeatueEngineering,Ensembles,Boosting,NLP
+• DL:CNN,AE/VAE,RNN,Attention,Transformeers
+Intelligent Data Analysis ([location])
+• LogisticRegresion,SVM,DecisionTrees,GradientBoosting,Backpropogation,CNN,OptimizationinDL,
+VectorRepresentaionsofWords,RNN,seq2seqModels,Attention,Transformeers
+
+
+

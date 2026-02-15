@@ -1,0 +1,39 @@
+CRRG-CLIP: Automatic Generation of Chest
+Radiology Reports and Classification of Chest
+Radiographs
+[name]
+2025
+https://arxiv.org/abs/2501.01989
+The main idea
+● Massive number of radiographs make writing radiology reports complex
+and inefficient
+● Even highly experienced radiologists struggle to maintain accuracy and
+consistency under prolonged high-intensity work
+● Multi-modal models have evolved significantly
+2
+Methods. Data
+MIMIC-CXR: only report section from reports was taken
+MIMIC-CXR-JPG: images in JPG
+Chest ImaGenome: bounding boxes and reports (based on MIMIC-CXR)
+RSNA Pneumonia: images, labels, metadata
+3
+Methods
+4
+Methods
+5
+Methods
+6
+Results
+7
+Results
+8
+Results
+9
+Conclusion
+● Multi-modal models performs really great, but there are some doubts about this
+pipeline
+● Extracting only special regions to use further in predictions can increase accuracy
+● CLIP-based approaches are popular
+10
+Thanks for your attention
+11

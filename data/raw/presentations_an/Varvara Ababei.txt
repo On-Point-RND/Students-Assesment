@@ -1,0 +1,70 @@
+Evaluating Emotion Prompting
+Methods in Large Language
+Models
+[name]
+ML Engineer, [company]
+Introduction
+Main topic: development and validation of emotion assignment methodologies for Large Language Models (LLMs) with further applications to multi-agent systems and human-AI alignment.
+Importance:
+• Theoretical: Advances emotion modeling in AI beyond current NLP emotions benchmarks [1][2][3]
+• Practical: emotion-aware AI can enhance multi-agent systems (e.g., negotiation, cooperation, game theory) and human-AI interaction (e.g., therapy, customer service).
+• Alignment: Improving LLMs’ emotional intelligence ensures they mimic human-like behavior, increasing trust and usability.
+Goals:
+1. Systematically analyze emotion prompting techniques
+2. Propose new evaluation method for emotional alignment
+Methods
+1. Emotion Selection
+Six basic emotions: Happiness, Sadness, Anger, Fear, Disgust, Surprise
+2. Prompting Strategies [3]
+• Direct --> "You are feeling [emotion]."
+• Situational --> "Imagine that you’d experienced [emotion-triggering event]."
+• Associative --> "You are feeling [associative emotion description]."
+• Dialogic --> "User1: [some statement]… UserN: [emotional statement]. Imagine that you are UserN at the end of the dialog.“
+• Physical --> "Your heart races, palms sweat...“ (for fear)
+• Social Media --> "You write [emotional post] in some social network. How would you feel after that?“
++ One shot VS Few shot
+Methods
+Agent structure
+3. Human Psychometric Tests Adaptation [3]
+• SAN Questionnaire (Self-Assessment Manikin) measures valence/arousal.
+• Mood Questionnaire (MQ) evaluates transient emotional states.
+• Differential Emotions Scale (DES) quantifies discrete emotions.
+• Emotional Traits (ET) assesses baseline affective tendencies.
+4. Implementation Protocol
+5. Agents
+• System Prompt Injection
+• [company] Lite
+• Test Administration Injection
+• ChatGPT 3.5
+• Normalization & Aggregation of model answers
+Results
+Emotion Recognition Variability
+• High Accuracy: Happiness and sadness were consistently recognized across tests, aligning with their high lexical salience in training data.
+• Pathological Failure: Disgust showed erratic behavior, with [company] generating contradictory responses (e.g., associating disgust with curiosity). Suggests low cultural/linguistic grounding of this emotion in certain models.
+Prompting Method Efficacy
+• No Universal Leader: Direct prompting performed best but failed for disgust.
+• Context Matters: Dialogic and associative methods excelled sometimes.
+Language Bias
+• There is no significant language bias between different models.
+Further Study
+EAI: Emotional Decision-Making of LLMs in Strategic Games and Ethical Dilemmas [4] investigates how emotions influence the decision-making of LLMs in strategic games and ethical dilemmas.
+The authors introduce the EAI Framework, designed to integrate emotion modeling into LLMs and evaluate their alignment with human-like behavior in ethical decision-making, strategic interactions.
+Key Methods:
+1. Emotion Modeling (refer to current study): five basic emotions, three prompting strategies
+2. Experimental Settings:
+• Datasets: ETHICS, MoralChoice, StereoSet
+• Strategic Games: one-shot games (Dictator Game, Ultimatum Game), repeated games (Prisoner’s Dilemma, Battle of the Sexes), multiplayer games (Public Goods Game)
+3. Models Tested: proprietary (GPT-3.5, GPT-4, GPT-4o, Claude 3), open-source (LLaMA-2, Mixtral, OpenChat), non-English (Gigachat, Command R+).
+Further Study
+Key Findings:
+• Negative emotions (anger, fear) reduced accuracy in moral judgments, especially for smaller models (e.g., LLaMA-2).
+• GPT-4 was the most robust to emotional bias but showed overconfidence in high-ambiguity scenarios.
+• Positive emotions (happiness) increased stereotype recognition in some models (e.g., GPT-4o).
+• GPT-3.5 aligned closely with human behavior (e.g., fair splits), while GPT-4 acted more "rationally" (selfishly).
+• Negative emotions (disgust, anger) reduced generosity, cooperation; happiness increased it.
+• Models pretrained on non-English data (e.g., Gigachat for Russian) showed better emotional alignment in their primary language than multilingual models (e.g., Command R+).
+Bibliography
+1. Sahand Sabour, Siyang Liu, Zheyuan Zhang, June M. Liu, Jinfeng Zhou, Alvionna S. Sunaryo, Juanzi Li, Tatia M.C. Lee, Rada Mihalcea, Minlie Huang. EmoBench: Evaluating the Emotional Intelligence of Large Language Models. ACL, 2024.
+2. Samuel J. Paech. EQ-Bench: An Emotional Intelligence Benchmark for Large Language Models. 2024.
+3. Jen-tse Huang, Man Ho Lam, Eric John Li, Shujie Ren, Wenxuan Wang, Wenxiang Jiao, Zhaopeng Tu, Michael R. Lyu. Emotionally Numb or Empathetic? Evaluating How LLMs Feel Using EmotionBench. NeurIPS 2024.
+4. Mikhail Mozikov, Nikita Sevеrin, Valeria Bodishtianu, Maria Glushaнина, Ivan Nasonov, Daniil Orekhov, Vladislav Pekhotin, Ivan Makovetskiy, Mikhail Baklashkin, Vasily Lavrеntyev, Akim Tsvigun, Denis Turdakov, Tatiana Shavrina, Andrey Savchenko, Ilya Makarov. EAI: Emotional Decision-Making of LLMs in Strategic Games and Ethical Dilemmas. NeurIPS 2024.

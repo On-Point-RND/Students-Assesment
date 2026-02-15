@@ -1,0 +1,40 @@
+[name] [surname]
+[email]
+[name]
+Experience
+Intern, [compaany] Spring 2024
+• ML Engineer at LLM applications. RAG system for client service.
+Intern, [compaany] 2024-2025
+• ML Engineer at Voice Input Technologies. Key-word spotting for Alice.
+EDUCATION
+Moscow Institute of Physics and Technology ([location]) 2020 - 2024
+Bachelor’s of Engineering
+Higher SchooL of Economics ([location]) 2024 - Present time
+Master’s in Computer Science
+Yandex SchooL of Data Analysis 2024 - Present time
+SKILLS
+Machine Learning: Pytorch, Scikit-learn, Pandas, Numpy
+Programming: Python, Git, C++
+Advanced Mathematics: Algorithms, Mathematical analysis, High Algebra
+Projects
+Funetuning Stable diffusion model | Python, Pytorch, Git 2023
+∗ Research project of fine-tuning of diffusion model using LoRA. The final model can generate pictures of specific object in
+different conditions.
+Telegram Bot for Style Transfer | Python, Pytorch Git 2023
+∗ The telegram bot that can convert photo and make photo-realistic and art style transfer. Model is based on different
+types of CNN.
+Movie review classification web service | Python, Django, Pytorch, Tensorflow Git 2023
+Publications
+Multimodal networks for Species Distribution Modeling | Link 2024
+Conference presentations
+Deep Learning on Computational Physics | Link 2024
+All-Russian Scientific Conference of MIPT | Link 2024
+Kaggle Competitions
+The 3 place at playground competition | Link 2023
+∗ Fairly light-weight challenge with synthetically-generater dataset. The goal of competition was to predict strength of
+concrete.
+The bronze medal at Optiver competition | Link 2024
+∗ Challenge to predict the closing price movements for hundreds of Nasdaq listed stocks using data from the order book and
+the closing auction of the stock.
+The bronze medal at Ariel Data Challenge 2024 | Link 2024
+∗ The goal is to extract the atmospheric spectra from observations, with an estimate of its level of uncertainty.

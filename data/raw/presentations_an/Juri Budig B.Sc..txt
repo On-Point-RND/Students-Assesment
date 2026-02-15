@@ -1,0 +1,20 @@
+Voice antispoofiing and speech dataset: [name] journey in AI research
+
+[name] SMILES: summer schoo[compaany] of machine learning 2025
+
+Capsule-based and TCN-based Approaches for Spoofiing Detection in Voice Biometry
+
+[name], [surname], [surname], & [surname] (2024). Capsule-based and TCN-based Approaches for Spoofiing Detection in Voice Biometry. Engineering, Technology & Applied Science Research.
+
+AASIST3: KAN-Enhanced AASIST for the ASVspoof 2024 Challenge
+
+[name], [surname], [surname], [surname], [surname], [surname], [surname] (2024) AASIST3: KAN-enhanced AASIST speech deepfake detection using SSL features and additional regularization for the ASVspoof 2024 Challenge. Proc. The Automatic Speaker Verification Spoofiing Countermeasures Workshop (ASVspoof 2024)
+
+[CONFIDENTIAL] Current anti-spoofiing model
+
+[CONFIDENTIAL] High-Resolution TTS dataset
+
+Thank you for your
+
+
+

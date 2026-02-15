@@ -1,0 +1,84 @@
+Dear [name] Admissions Committee,
+I am excited to apply for the Skoltech Machine Learning Summer School 2025, a program that aligns
+perfectly with my professional aspirations to deepen my expertise in generative AI and contribute to its
+transformative impact on industry. With 3.5 years of experience as a data scientist specializing in
+classical machine learning, computer vision (CV), and natural language processing (NLP), I am eager to
+engage with the school’s cutting-edge curriculum on large language models (LLMs), multimodal systems,
+and self-learning methods. My goal is to bridge the gap between theoretical advancements in
+generative AI and their practical implementation in business workflows, and I believe SMILES-2025
+offers the ideal environment to achieve this.
+Motivation: Embracing the Generative AI Revolution
+The rapid evolution of generative AI has reshaped how businesses approach problem-solving.
+Traditional workflows—requiring manual development of complex models from scratch—are
+increasingly being replaced by fine-tuned open-source LLMs, vision-language models (VLMs), and few-
+shot prompting techniques. At [company], where I currently develop NLP and CV models to enhance
+marketplace trust and safety, I’ve witnessed firsthand how leveraging pre-trained models like
+Transformers accelerates deployment while maintaining high accuracy. However, to fully unlock their
+potential, I need a deeper understanding of the internal mechanics of state-of-the-art (SOTA) generative
+architectures, such as optimization strategies, multimodal fusion, and safety frameworks.
+SMILES-2025’s focus on generative methods, self-learning techniques, and Safe AI directly addresses
+these gaps in my knowledge. The school’s workshops and hackathons will provide hands-on experience
+in adapting these technologies to real-world scenarios, while collaborations with peers from [location] and
+[location] will expose me to diverse perspectives on AI challenges. Additionally, the program’s emphasis on
+international cooperation resonates with my belief that cross-border knowledge exchange is critical to
+advancing ethical and scalable AI solutions.
+Relevant Experience: From AutoML to Generative Models
+My career has equipped me with a robust foundation in deploying machine learning systems across
+industries, from finance to e-commerce. Below are highlights of my work that demonstrate my
+readiness for SMILES-2025’s advanced curriculum:
+1. Generative AI in Practice
+o At [company], I improved user safety by developing NLP and CV models to detect
+fraudulent actions. Several tasks included fine-tuning open-source LLMs and VLMs. This
+experience solidified my belief in generative AI’s potential but also revealed my need to
+master advanced topics like prompt engineering and multimodal agent systems.
+o At [company], I designed a hybrid Vision Transformer (ViT) and Variational Autoencoder
+(VAE) model for car damage detection, achieving a 15% accuracy boost over traditional
+CNNs. This project underscored the value of combining generative and discriminative
+approaches—a concept I aim to explore further during the school’s sessions on
+multimodal AI.
+2. Building Scalable ML Systems
+o At [company], I led the development of AutoML Baseline (AMELIA), a service automating
+data collection and processing, model training on tabular data and deployment. By
+integrating SOTA tabular neural networks and orchestrating pipelines via [company], the
+tool reduced model development time by 70% for data scientists, analysts and risk
+managers.
+o For sequential data (e.g., transaction histories), I contributed to AutoDL Service (ANNA),
+optimizing architectures using LSTM and Transformer-based models. My work on model
+compression and code optimization for this service aligns with SMILES-2025’s focus on
+efficient self-learning methods.
+3. Advancing the ML Community
+o I authored a Habr article on AutoML best practices and presented at DataTalks and MTS
+True Tech conferences, advocating for democratized AI tools. My open-source
+contributions and teaching experience in the “AutoML in Practice” course
+(OpeneDAtaScience) reflect my commitment to knowledge sharing—a value central to
+SMILES-2025’s mission.
+Expectations from SMILES-2025
+I see SMILES-2025 as a unique opportunity to:
+1. Dive Deep into Generative Architectures: Gain hands-on experience with LLM fine-tuning,
+agent-based systems, and multimodal fusion techniques. I am particularly interested in
+workshops that explore the trade-offs between model performance, computational efficiency,
+and ethical constraints.
+2. Solve Industry-Relevant Problems: The hackathons will allow me to test generative approaches
+on real-world datasets, such as automating customer support with LLMs or enhancing fraud
+detection through multimodal analysis.
+3. Learn from Global Experts: Engaging with faculty and peers from Skoltech and Harbin Institute
+of Technology will broaden my understanding of regional AI challenges and foster collaborations
+for future projects.
+4. Explore Safe AI Frameworks: As businesses increasingly adopt generative AI, ensuring
+robustness and fairness becomes critical. I aim to study techniques for bias mitigation and
+model interpretability discussed in the school’s sessions.
+Career Vision: Bridging Innovation and Impact
+In the next five years, I plan to lead AI innovation teams that integrate generative technologies into
+business pipelines. SMILES-2025’s training will equip me with the technical depth and global network
+needed to drive such initiatives. Long-term, I aspire to establish a research lab focused on ethical AI,
+collaborating with international partners to create standards for Safe AI deployment.
+Conclusion
+My blend of industry experience, technical skills, and passion for generative AI makes me a strong
+candidate for SMILES-2025. I am eager to contribute to the school’s collaborative environment while
+gaining the expertise required to pioneer next-generation AI solutions. Thank you for considering my
+application.
+Sincerely,
+[name] [surname]
+[location]
+Contact: [email]
+LinkedIn: https://www.linkedin.com/in/[name]-[surname]/

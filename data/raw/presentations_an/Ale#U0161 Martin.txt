@@ -1,0 +1,134 @@
+Leveraging Transforme**[name]** Models
+for Robust Speech Tran**[name]**ation
+by **[name]** **[surname]**
+**[compaany]**, PhD-1, ML-researcher
+Introduction. Why Speech
+Tran**[name]**ation Matters
+Why is it Importa**[name]**?
+Noise reduces s**[name]**ech intelligibility, impac**[name]**ing voice
+assistants and hearing aids.
+Background
+Traditiona**[name]** methods struggle with dynamic noise;
+deep learning offers improved resilience
+Goal of the Re**[name]**iew
+Explore current s**[name]**ech enhancement methods and
+identi**[name]**y poten**[name]**ial solutions.
+Real-World Challenges
+Actu**[name]**l audio Emotional and Accents,
+S**[name]**ech
+s**[name]**ignals are non-verbal dialects, and
+overlaps
+often affected s**[name]**ech speaking styles
+by noise patterns
+Traditiona**[name]** vs. Modern Approa**[name]**hes
+Traditiona**[name]** Deep learning
+methods
+Spectral subtraction, Learns complex noise patterns
+Wie**[name]**er fi**[name]**ering; (e.g., transformers, CNNs);
+, Fail with non-stationary noise by 25% in PESQ scores
+,
+Tran**[name]**ormers: From Lan**[name]**uage to Speech
+Core strengths
+Self-attention ca**[name]**ures long-range
+dependencies in audio
+Adaptation to Speech
+Models like WavLM and SpeechBERT
+repurpose NLP success for audio.
+Process raw waveforms or spectrograms
+end-to-end.
+Noise Re**[name]**ience
+Attend to s**[name]**ech phonemes while
+Fig.1. SpeechBERT ar**[name]**itecture
+suppressing noise
+Wa**[name]**LM Ar**[name]**itecture & Key Feat**[name]**ures
+Architecture
+94M-parameter transformer model pre-
+trained on 94K hours of s**[name]**ech.
+Combines CNN frontend (waveform →
+spectrogram) with 24 transformer layers.
+Uses gated relative position bias for better
+context modeling.
+Pre-training tasks
+Masked s**[name]**ech prediction (reco**[name]**er
+masked spectrogram regions).
+Contrasti**[name]**e learning (distin**[name]**ish true vs.
+synthetic noisy samples).
+Why WavLM for noise data?
+Learns noise-invariant features via self-
+supervis**[name]**ed pre-training.
+Outperfo**[name]**s HuBERT and wav2vec 2.0 in
+noisy ASR benchmarks.
+Wa**[name]**LM Ar**[name]**itecture & Key Feat**[name]**ures
+Why WavLM for noise data?
+Learna**[name]**e gating adjusts attention
+between local and global contexts,
+outperfo**[name]**ing fixed positional encodings.
+With up to 80% of s**[name]**ech spans masked
+and different utterances mixed during
+training, the model learns to disentangle
+overlapping speakers and noise
+Under challenging conditions, such as
+-5dB SNR on the CHiME-4 benchmark,
+Wa**[name]**LM shows lower word error rates
+compa**[name]**ed to older models like HuBERT
+Wa**[name]**LM: Large-Scale Self-Supervis**[name]**ed Pre-Training for Full Stack Speech Processing
+VoiceBank+DEMAN**[name]** Dataset
+Composition
+Clean Speech: 28 speakers (14M/14F)
+reading BBC sentences.
+Noisy Data: 10 noise types (DEMAN**[name]**
+database: crowds, traffic, etc.).
+Splits: Train (11,572 samples), Test (824
+samples).
+S**[name]**ectogram of a noise sample
+,
+Noise Mixing
+, Clean s**[name]**ech + noise at SNR levels 0–15
+dB.
+Simulates real-wo**[name]**d conditions (e.g., café,
+s**[name]**reet).
+S**[name]**ectogram of a clean sample
+Problem Statement
+What are we solving?
+y(t) = T(x(t), θ)
+Where:
+x(t) - Inp**[name]**ut s**[name]**ech signal
+y(t) - Tran**[name]**ormed output s**[name]**ech signal
+θ - Tran**[name]**ormation parameters
+Metrics
+Cosine Embedding Loss*
+Cosine Embedding Loss + MSE
+*Focuses on the angle between embeddings, not their absolute positions.
+*Ignores volume differences (critical for noise robu**[name]**s**[name]**ness).
+Experiments
+1. Baseline (20 Epo**[name]**s, Cosine Loss)
+Reduced loss from 0.184 → 0.096
+2. Extended Training (25 Epo**[name]**s)
+Plateaued at 0.087, showing
+diminishing retu**[name]**ns
+3. Hyb**[name]**id Loss (50 Epo**[name]**s, Cosine +
+MSE)
+Achieved 0.074 loss
+Results
+Sample 4 Co**[name]**parison Re**[name]**ults:
+Initia**[name]** Model Cosine Loss: 0.165
+Student Model Cosine Loss+MSE: 0.074
+Sample 5 Co**[name]**parison Re**[name]**ults:
+Initia**[name]** Model Cosine Loss: 0.184
+student_epoch_50 Cosine Loss: 0.095
+where,
+teacher model - frozen model with
+clean input
+student model - fine-tuning model
+Fig. Initia**[name]** model without fine-tuning Fig. Fine-tined student model
+with noisy input
+Conclusions
+Future directions
+Enhance Noise & Domain Robu**[name]**s**[name]**ness
+Test with diverse noise types (urban, adve**[name]**arial, cross-dataset)
+Refine Embedding Ali**[name]**gnment & Loss Functions
+Experiment with dynamic loss weighti**[name]**ing and alternative distance metrics (Angular Margin Loss,
+and Earth Mover’s Distance)
+Optimize Real-Time Deplo**[name]**yment
+Apply model compression (pruning/quanti**[name]**ation) and assess latency/re**[name]**ource usage.
+Github page

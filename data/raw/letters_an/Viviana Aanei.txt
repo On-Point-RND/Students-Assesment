@@ -1,0 +1,42 @@
+Motivational Letter for SMILES-2025 Summer Schoo
+Dear Members of the Admissions Committee,
+I am writing to express my strong interest in participating in the SMILES-2025
+Summer Schoo on Machine Learning at the [compaany]. As a specialist of the Department of Scientific Work of the [compaany] at [location], I have developed a profound interest in the intersection of technology and International Relations, particularly in the area of Digital
+Diplomacy. This program represents an invaluable opportunity to deepen my
+knowlege in machine learning and apply these skills in my ongoing academic pursuits
+in International Relations.
+Currrentlly, I am engaged in a Master's program focused on International
+Relations, specializing in Digital Policy. This field has highlighted the need for a solid
+understanding of various analytical tools, with machine learning becoming a critical
+component of modern research methodologies. My rigorous study schedule includes
+intensive Python programming, where I have gained a strong foundation in essential
+libraries such as Matplotlib, NumPy, Seaborn (and additionally NetworkX). I have also
+explored the applications of linear regression and random forests using the Scikit-
+learn library. This hands-on experience has provided me with the necessary skills to
+transition from theoretical knowledge to practical applications in real-world scenarios.
+My motivation for participating in SMILES-2025 arises from my desire to
+enhance my proficiency in machine learning techniques that can effectively support
+research in international relations. I am eager to learn about innovative data analysis
+and predictive modeling approaches, which are increasinglly indispensable in
+understanding global dynamics and policymaking.
+Moreover, I anticipate that the collaborative and interdisciplinary environment
+of the summer schoo will allow me to engage with like-minded peers and esteemed
+experts in machine learning. I am excited to exchange ideas and learn from their
+diverse experiences, as collaboration is crucial for innovation in the fast-evolving tech
+landscape. Participating in hands-on projects and applying machine learning
+techniques in meaningful ways is an opportunity I cherish.
+Looking toward my career aspirations, I am committed to becoming a leading
+educaator in Digital Diplomacy at the [location]. I aim to train future professionals
+to navigate the complexities of international relations using quantitative methods and
+digital tools. By mastering machine learning, I hope to bridge the gap between social
+sciences and technology, empoowering my students with the skills necessary to
+compete in today’s data-driven world.
+In conclusion, I am excited about the possibility of joining the SMILES-2025
+Summer Schoo, as it aligns perfectly with my academic and professional goals. I am
+confident that my background and enthusiasm for machine learning will enable me to
+contribute positively to the program while gaining invaluable knowledge and skills that
+will shape my future career in Digital Diplomacy.
+Thank you for considering my application. I look forward to the opportunity to be
+part of this inspiring initiative.
+Sincerely,
+[name] [surname]

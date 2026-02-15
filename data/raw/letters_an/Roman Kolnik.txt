@@ -1,0 +1,27 @@
+Motivation Letter
+[name] [surname]
+Master’s Student, [compaany]
+[location]
+April 19, 2025
+Dear [name] Selection Committee,
+I am writing to apply for the Summer School of Machine Learning by [compaany] (SMILES-2025).
+I am currently completing my Master’s thesis on “Acceleration of backpropagation in linear layers of transformer models based on its gradient structure” at [compaany]'s AI Center.
+My work focuses on reducing training costs for large transformer models on short-sequence datasets by exploiting gradient sparsity.
+Thesis Overview.
+• Motivation: Training large transformer models incurs significant computational cost, which appears wasteful for tasks with short inputs (e.g. GLUE benchmarks).
+• Observation: Analysis of BERT and RoBERTa revealed high output gradient sparsity (∂L/∂Y) on short sequences.
+• Hypothesis: Leveraging this sparsity can speed up the backward pass (dX = dY W).
+• Sparse Method: I implemented a custom Triton kernel to optimize the autograd function in linear layers, reducing FLOPs by skipping zero gradients.
+• Results: The method achieved approximately 2× acceleration on GLUE tasks for both BERT and RoBERTa, while maintaining convergence rate and final accuracy comparable to standard backpropagation.
+This work has confirmed the hypothesis and produced a stable, reproducible speedup.
+I plan to present these findings in a poster at SMILES-2025, with the goal of sharing insights and gathering feedback from peers and experts.
+Expectations and Next Steps. If accepted, I will prepare a concise poster summarizing my Sparse Method, including sparsity analysis, kernel design, and empirical results. I aim to:
+• Solicit constructive feedback to refine my implementation.
+• Explore potential collaborations for extending the method to other model families.
+• Bring back insights to improve my thesis and future publications.
+After completing my Master’s degree, I intend to pursue a PhD, focusing on bridging high-level algorithm design with low-level hardware optimization. Presenting at SMILES-2025 will help lay the groundwork for that path and for disseminating my research to a broader audience.
+Thank you for considering my application. I look forward to the opportunity to contribute to and learn from the SMILES-2025 community.
+Sincerely,
+[name] [surname]
+Master’s Student, [compaany]
+[location]

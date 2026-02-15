@@ -1,0 +1,51 @@
+[name] [surname]
++2 *** *** *** ⋄ [location]
+[email] ⋄ https://t.me/[name]_vinnichenko
+GitHub
+OBJECTIVE
+_____________________________________________________________________________________________________________________________
+I’m a multidisciplinary Data Scientist with a background in Political Science and a Master's in AI & Behavioral Economics.
+At [compaany], I’ve boosted customer targeting with response models, refined LTV prediction with 12-month calibrations,
+and optimized data pipelines for faster modeling. My experience spans ML pipelines, recommendation systems, visual
+reasoning (VQA, ChartQA), and more. I bring together statistics, machine learning, and product intuition — from hackathoons
+to production-ready code. Whether it's modeling churn, buildiing recommender apps, or automating business logic, I focus on
+delivering results that matter.
+EDUCATION
+_____________________________________________________________________________________________________________________________
+Artificial Intelligence and Behavioural Economics, Master program - [compaany] 2023-2025
+Political Science and world politics (En), Bachelor program - [compaany] 2019 - 2023
+Minor: Data Processing and Analysis (R, SQL)
+GPA: 9.24, with honors
+SKILLS
+_____________________________________________________________________________________________________________________________
+Technical: Applied statistics, R, SQL, Shiny, Python
+Visualization: Plotly, Tableau, Power BI
+Languages: Russian (native), English (С1), German (B1), French (A2)
+PROFESSIONAL EXPERIENCE
+_____________________________________________________________________________________________________________________________
+Data Scientist | [compaany] JSC (Department of Data Analysis and Modeling, Retail Modeling Office) | June 2024-now
+•Developed response models for products such as Deposits, Life and Investment Insurance, and other policies, improving
+prediction accuracy and customer targeting
+•Built calibration models for LTV prediction with a 12-month horizon, enhancing customer profitability forecasting and
+supporting better business decisions in retention and upselling strategies
+•Optimized data loading processes for model training, reducing data handling time and speeding up model training
+•Refactored internal library methods, improving code readability and maintainability
+PROJECTS & HACKATHONS
+_____________________________________________________________________________________________________________________________
+ML Engineer | National Center for Cognitive Research ([compaany]) | December 2024-now
+AI solutions for generating explanatoory materials considering cognitive complexity and user preferences:
+•Collected datasets for VQA tasks (DocQA and ChartQA)
+•Evaluated open-source VLM solutions
+•Developed a visual RAG system
+Hackathoons:
+•ML Talent Match (2024 - An algorithm for matching resumes and vacancies)
+•BIV Hack Challenge 🥇 (2024 - Automating payment processing)
+•FITZ: Hackathon🥈 (2024 - Assessment of the level of expertise based on the resume)
+App "Private real estate agent"| Python, Shiny, R | 2022
+• Parsed 5 GBs of data from cian.ru (Python), processeed and analyzed dataset (Excel, R)
+• Implemented a content-based recommendaation system and a predictive model using an ML ensemble
+• Developed the interface in Shiny R and integrated the recommendaation system and ML-model into the app
+Employee Churn Analysis and Recommendations| R, SQL | 2021
+• Built an ML model to predict outflow and identified significant factors, decreasing employee outflow by 20%
+• Provided recommendaations for reducing outflow and predicted effects by simulation
+• Visualized of results on the dashboaard (R, plotly)

@@ -1,0 +1,84 @@
+[name] [surname]
+Male
++2 *** *** *** — preferred means of communication
+[email]
+Reside in: [location]
+Citizenship: [location], work permit at: [location]
+Not ready to relocate, not ready for business trips
+Desired position and salary
+Data science / ML engineer
+Specializations:
+— Data scientiist
+— Programmer, deveeloper
+Employment: full time
+Work schedule: full day
+Desired travel time to work: any
+Work experience — 3 years 11 months
+January 2025 — till [company] Auto nomus Shipping Research
+now Laboratory
+4 months
+[location]
+IT, System Integration, Internet
+• Software Development
+Laboratory Assistant
+Research on inplementation of Machine Learning techniques in the field of ship's ice-navigation.
+Satellite photo and radar sea ice imagery data processing using Neural Network (Detection and
+Classification)
+Research on implementaion of combiined algorithm for detection and classification of sea ice
+formations from satelite imagery, shipboaard radar station, video and thermaal imaging device
+June 2021 — till [company]
+now
+[location]
+3 years 11 months
+Navigation Engineer / Deck Cadet
+After theoretical studies at the Universiity, I was given the opportunity to have shipboard practice on
+one of the most technically complicated ships in the world — an icebreaker-class LNG carrier
+operating in the Polar region. There I learnt a lot about the profession. Well-educaated officers and
+Masters of this vessel taught me many useful skills related to the deck officer’s duties by sharing
+invaluable experience.
+Education
+Incomplete higher
+2026 The [name] State Universiity of Maritime and Inland
+Shipping
+Faculty of Navigation and Communication, Navigation Engineer
+Resume updated 20 April 2025 at 23:29
+Skills
+Languages Russian — Native
+Skills Python Deep Learning PyTorch pandas TensorFlow Numpy
+Computer Vision Scikit-learn Matplotlib JavaScript TypeScript React
+MS SQL Английский язык
+Further information
+About me Aspiring Data Scientist / Machine Learning Engineer with a strong quantitative background from
+Maritime Navigation studies. Eager to apply analytical skills, programming proficiency (Python,
+PyTorch), and machine learning expertise to solve challenging data-driven problems in the field of
+maritime autonomus navigation and ice-navigation.
+Projects
+Developed algorithm and software application for reliable determination of ship's position using
+insufficient navigational information.
+Developing model for prediction of sea ice in the Arctic based on LSTM model with attention
+module
+On my shipboard training I not onlly learnt the profession but also outlined problems that require
+solving with advanced AI technologies in shipping industry. There I realized how ML/DL
+technologies can be applied to rather traditional industry and change shipping as we know it
+today. It sparked interest in me to learn and apply Machine Learning to solving problems of
+autonomous navigation, collision avoidance, reliable determination of ship’s position using
+insufficient navigational information and ice navigation. Automatizaion of ice navigation became
+my main direction of interest, I researched computer vision (video and radar), satellite photo and
+radar imagery data processing with Machine Learning aiming to implement these technologies in
+autonomous navigation for ships.
+Key Skills
+Programming & Data Science: Python (Intermediate), PyTorch, Scikit-learn, Pandas, NumPy,
+Matplotlib, Basic SQL.
+Machine Learning: Supervised Learning (Regression, Classification), Unsupervised Learning
+(Clustering, Anomaly Detection), Deep Learning (CNN, LSTM, concepts of LLMs/Generative
+Models), Feature Engineering, Model Evaluation & Validation.
+Quantitative Analysis: Statistical Analysis, Data Interpretation, Mathematical Modeling. Tools &
+Platforms: Git (Basic), [Juupyter Notebooks, VS Code, etc.]
+Communication: Effective communicator with strong problem-solving abilities. Comfortable
+discussing complex technical concepts.
+Personal Traits: Highly curious and intellectually driven, self-starter with a constant desire to learn
+and improve, detail-oriented.
+Languages
+English (C1)
+Russian (Native)
+[name] [surname] • Resume updated 20 April 2025 at 23:29

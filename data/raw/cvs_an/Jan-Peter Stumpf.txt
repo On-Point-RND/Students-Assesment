@@ -1,0 +1,36 @@
+[location]
++2 *** *** ***
+[email]
+ILDAR [surname]
+ABOUT ME
+23 years old, academic performance:
+English level - B2, confident knowledge of Python,
+Machine Learning, Modelling in TNavigator, Petrel.
+Libraries: Numpy, pandas, pytorch, sklearn and other
+Achievements: Finalist of the 3rd International Youth
+Oil and Gas Hackathon "Development of Fuel and Energy
+Complex - 2022", Diploma of the 3rd degree of the
+educational career guidance project "Energeniy-2023",
+winner of the technical case from the company "[compaany]"
+in the XV International Youth Scientific and Practical
+Congress "Oil and Gas Horizons", wrote more than 7
+scientific articles.
+EDUCATION
+[compaany] of Oil and Gas, [location] - 21.03.01
+(Bachelor's degree), Oil Field Development, 4.8/5 with Honors, SEPTEMBER
+2020 - JULY 2024
+[compaany] - 21.04.01
+Petroleum Engineering, (higher education - master's degree) - SEPTEMBER
+2024 - JULY 2026
+Ufa State Petroleum Technical University - English for Oil and Gas
+Professionals professional retraining programme, SEPTEMBER 2021 - FEBRUARY
+2022
+EXPERIENCE
+LLC [compaany] Dobycha Urengoy
+Novy Urengoy - oil and gas operator, JUNE 2023 - AUGUST 2023.
+Sampling of wellhead valves, maintenance of oil field facilities.
+[compaany]
+“Selection of technologies for ESP operation in curved wells”
+Russneft
+Leading specialist - forecasting the effectiveness of
+geological and technical measures with the application of AI

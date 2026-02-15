@@ -1,0 +1,68 @@
+AI Expert/Senior Data Scientist @ [compaany]
+Automatic generation of a commercial proposal based on a dialogue with the user (LLM)
+Satellite Imagery Analysis for Agricultural needs (CV)
+Weed detection and classification from drone images
+Rapid identification of peptides with potential therapeutic activity (LLM)
+Conversion Prediction for RTB
+Analysis of Creatives for RTB (Categories, Themes, Stop Words) Using Large Language Models
+Primary screening and search for potential candidate molecules for drug development for delivery using nanoparticles
+Detection of people and construction machinery in drone photographs.
+[9/2020] – [15/7/2023]
+Senior Data Scientist @ Perion (Codefuel) [location]
+Marketing campaign optimization
+Search arbitrage
+NLP for ads
+Prediction of trends from searches (NLP)
+Large language models (LLMs)
+Content generation
+Image base DB search
+[06/2019] – [9/2020]
+Senior Researcher/Data Scientist at Cognitive Computing and AI @ [compaany] [location]
+I am involved in the following research topics:
+Optimization of Deep Neural Networks with large batches
+Optimization of Deep Neural Networks with genetics algorithms
+Quantization of Deep Neural Networks
+GANs optimization
+[01/2018] – [06/2019]
+Senior Data Scientist at Playtika AI Research @ Playtika, [location]
+I was part of a very strong group, performiing research, and providing solutions for all the departments and studios of Playtika.
+Design and implementation of the algorithms for user’s acquisition campaigns ranking
+Design and implementaion of the algorithms for user’s behavior prediction (Spark, boosting).
+Design and implementation of agents for estimation of tile-matching game complexity
+Design and implementations of algorithms for automatic creation of new levels for tile-matching (match-three) game
+[10/2015] – [12/2018]
+Machine learning expert/Team lead @ Sogo Services, [location]
+(https://sogoservices.com/)
+Sogo is a small compaany specializing in solving complicated problems in several areas like computer vision, analytics, and software development.
+Design and implementation of the video analytics for several games at an online casino
+Design and implementation of the system that determines suspicious human behavior from a video stream
+Design and implementation of a BLE based position tracking system for large parking areas
+Predictive analytics for car’s maintenance (POC)
+Design and implementations of algorithms for document’s (invoices) analysis
+[11/2014] – [10/2015]
+Software engineer @ Ravello (Oracle), [location]
+I was part of a team responsible for developing and testing a nested hypervisor, capable of running unmodified guests on top of already virtualized hardware. Our software-enabled enterprises to encapsulate their multi-VM applications and run them anywhere - on-premise or in any cloud - without making any changes whatsoever, and thereby implement a true hybrid cloud.
+[02/2013] – [11/2014]
+Software engineer @ ScaleMP, [location]
+I was part of a team developing the I/O and management subsystem of a distributed bare-metal hypervisor. I was responsible for the implementation of device virtualization and interaction with InfiniBand fabric
+
+Education
+[2021 - 2023]
+M.Sc. in Data Science @ National Universiity of Science and Technology "MISIS" ([location])
+Thesis: Hybrid Architectures for Self-Supervised Depth Estimation
+The average grade for the taken courses: 94
+A joint MS program from MISIS and MADE (VK education [url]) in Data Science and Data Engineering. (Remote)
+[2009 - 2012]
+Ph.D. in Theoretical Physics/String Theory @ Tel Aviv Universiity
+Not finished
+Thesis: Gravity and hydrodynamics duality in AdS/CFT
+The average grade for the taken courses: 91
+Anti-de Sitter/Conformal Field Theory (Ads/CFT) is one of the hardest parts of modern theoretical physics, requiring very deep knowledge of various parts of mathematics and good physics intuition. We developed a method for Arnowitt-Deser-Misner (ADM) mass renormalization for some special cases and used it to state Penrose conjecture in n- dimension anti-de Sitter space.
+[1998-2004]
+M.Sc in Material Science and Chemistry @ Moscow State University, Moscow, Russia
+Average grade: 92
+Master thesis: “Description of core – valence correlations in the relativistic calculation of electronic molecular structure”.
+We proposed the novel method for a very fast and accurate calculation for the small systems consisting of the heavy atoms. The method was used to get very accurate spectroscopic characteristics of excited states of gold dimers (a very complicated task, which nobody has solved before with such accuracy and a very short computaional time).
+Awards
+
+Academic publications (except conferences)

@@ -1,0 +1,94 @@
+Equilibrium Propagation articles review
+[name]
+Individual applicant
+Introduction
+•Equilibrium Propagation (EP): The Promise
+• A learning algorithm using local dynamics of physical/energy-based systems. Suitable for ultra-low power systems.
+• A bio-plausible alternative to Backpropagation (BP), inherently suited for neuromorphic/analog hardware.
+• Computees gradients by compaaring system states between a 'free' and a 'nudged' equilibrium.
+•Claassic Challenges:
+• Relieed on unrealistic assumptions: infinitesimal nudges, perfect weight symmetry.
+• Limited applicability (primarily static inputs like images).
+• Theoretical relationship to other bio-plausible methods unclear.
+• Slow iterative settlting phases limit scalability.
+••TThhee PPrreesseennttaaatiioonn::
+• Focuses on advancements from:
+• [name] & [surname] (ICLR 2024) -Handling Asymmetry
+• [name] et al. (ICLR 2023) - Theoretical Unification
+• [name] & [surname] (IJCAI 2023) - Sequence Learning
+• Highlits recent breaakthroughs overcoming core limitations (finite nudges, asymmetry).
+• Reviews key theoretical insights unifying EP with related algorithmns.
+• Showcases the extension of EP to new domains like sequence learning.
+Problem statement
+•What exactlly are they solving?
+• Overall Goal: Developing Equilibrium Propagation (EP) into a scalable and broadly applicable algorithm that approximates Backpropagation (BP) using local
+dynamics, making it suitable for bio-inspired/neuromorphic computaion.
+• [name] & [surname] (Asymmetry): Making EP effectivewithoutperfect weight symmetry and robusst to finite nudges, critical constraints for physical
+implementaions.
+• [name] et al. (Theory): Unifying the theoretical basis of EP, Predictive Coding (PC), and Contrastive Hebbian Learning (CHL), explainingwhythey
+approximate BP based on Energy-Based Model (EBM) properties.
+• [name] & [surname] (Sequences):Extending EP's application domain from static inputs (images) to handle dynamicsequential data(like text in NLP).
+•Challenges:
+•• LLaabboorriieeuuxx ::PPeerrffoorrmmaannccee ddeeggrraaddaaattiioonn ffrroomm pphhyyssiiccaaall iimmppeerrffeeccttiioonnss lliikkee aassyymmmmeettrryy..
+• [name] et al.:Lack of theoretical clarity linking bio-plausible approaches.
+• [name] : Difficulty applying EP to sequences.
+•Scope:
+• [name]:Convergent dynamical systems (CNNs) on vision benchmarks (Fashion MNIST, CIFAR, ImageNet 32x32), focusing on asymmetry.
+• [name] et al.:Theoretical analysis of EBMs linking EP, PC, CHL.
+• [name]:Sequence classification (NLP -IMDB, SNLI) using EP integrated with modern Hopfield networks.
+Approach & Methods
+•Approach:
+• [name]:Generalized Holomorphic EP (hEP) using Cauchy integrals to estimate exact gradients from finite oscillating nudges; introduced
+Jacobian Homeostasis loss (using Hutchinson trace estimator) to penalize functional asymmetry.
+• [name] et al.:Mathematical analysis of EBM energy decomposition; derivation based on dynamics at the "infinitesimal inference limit" (free phase
+equilibrium).
+• [name]:Standard Equilibrium Propagation applied to convergent RNNs; integrated Modern Hopfield Networks (continuous, exponential energy) as
+an attention mecaniism layer.
+•Why these methods?
+• [name]:hEP overcomes finite nudge bias (critical for noise/scaling); Jacobian Homeostasis directly targets the performaance loss from
+asymmetry without forcing weight tying.
+• [name] et al.:To provide a fundamental, unifying explanation for whythese algorithmns approximate BP, based on shared EBM properties.
+•• [name]:Hoppfied Network attention providess a powerful way too enncode sseeqquuenccee iinnffoorrrmmaattiioonn iinnttoo aa ffiixxedd ssttaaattte ccoommppaattiibbllee wwiitthh EEPP''ss ccoonnvveerrggeenntt
+RNN requirement.
+•How it works (Intuition):
+• [name]:Use complex oscillations to average out noise and extract exact gradients even with large nudges; add a penalty that encourages
+forward/backward information flow (Jacobian) to be more symmetric.
+• [name]:At the EBM's free equilibrium, the system's initial dynamics inherently follow the supervised loss gradient.
+• [name]:Let a Hopfield Network find an attention-weighteed representation of the input sequence; feed this representation into a standardEP-trained
+convergent RNN for classification.
+•Data & Preprocessing:
+• [name]:Standard vision datasets (FMNIST, CIFAR, ImageNet 32x32) with typical image processing.
+• [name] et al.:Primarily theoretical (illustrated with MLP/MNIST).
+• [name]:NLP datasets (IMDB, SNLI); sequence padding/truncaation.
+Key Findings & Evaluation
+•Key findiings:
+• [name]:hEP removes finite nudge bias; Jacobian homeostasis significantly reduces asymmetry bias, achievinng near-symmetric performaance (e.g.,
+on ImageNet 32x32) without tied weights.
+• [name] et al.:EP, PC, CHL are unified as approxiimations of BP emerging from EBM dynamics near equilibrium; approximation error linked to distance
+between equilibriia.PC-Nudge algorithm proposed.
+• [name]:Succeessfully demonstrated EP on sequence classification (NLP) for the first time by integrating Hopfield attention; achieved competitive accuracy
+on IMDB/SNLI.
+•Metrics used:
+• [name]:Validation Accuracy (classification tasks); Jacobian symmetry metrics.
+• [name] et al.:Theoretical derivations; illustrative plots of energy/distance.
+•• [name]:CClaasssiifffiiccaaattiioonn AAccccuurraaccyy;; ccoommppaarriissoonnss wwiitthh BBPP//nneeuurroommoorrpphiicc bbaasseeiinneess..
+Research gap
+•What's missing? / Limitations:
+• [name]:hEP requires complex dynamics (hardware challenge); homeostasis adds overhead and doesn't perfectlly close the performaance gapto
+symmetric nets.
+• [name]:Theory doesn't generate new algorithmns; relieas on specific EBM properties/limits.
+• [name]:Used fixed embeddings; long sequences still pose memory/compute challenges; core EP network still assumes symmetric weights.
+•Unresolved challenges:
+• Across papers:Efficient, scalable hardware implementaion (especially for hEP's oscillaations/complex values). Fully addressing weight transport
+plausibility. Extending beyonnd convergent dynamics. Achieving perfect BP alignment robuustly.
+• Specific:Optimizing homeostasis ( [name] ). Expanding theory to more diverse EBMs ( [name] ). Developing EP for continual learning, RL, or non-convergent systems.
+•Future opportunities:
+• Hardware co-design for (h)EP and homeostasis.
+• Applying sequence EP to more complex tasks (translation, generation).
+• Combining sequence learning ( [name] ) with asymmetry robustness ( [name] ).
+• Developing EP for continual learning, RL, or non-convergent systems.
+Bibliography
+1. [name], [surname]. Improving Equilibrium Propagaation without Weight Symmetry Through Jacobian Homeostasis. ICLR, 2024.
+2. [name] et al. Backpropagation at the Infinitesiimal Inference Limit of
+Energy-based Models: Unifying Predictive Coding, Equilibrium Propagaation, and Contrastiive Hebbian Learning. ICLR, 2023.
+3. [name] & [surname]. Sequence Learning Using EquilibriumPropagation. IJCAI, 2023

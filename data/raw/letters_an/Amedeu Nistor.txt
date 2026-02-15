@@ -1,0 +1,72 @@
+Dear Members of the [compaany] Selection Committee,
+My name is [name] and I am a 28‑year‑old Machine‑ and Deep Learning
+Engineer. When I saw the call for the SMILES summer school, I felt the same
+sparkle that pushed me toward AI eight years ago. Today I work with neural
+networks every day, yet I still miss a place where bright young researchers from
+different cultures sit together, discuss models face to face, write code side by side,
+and then go out for a cultural walk in the evening. SMILES‑2025 looks exactly like
+that place, and this is why I am writing to you.
+1. My experience with ML/DL
+During the last five years I had the chance to work on several kinds of AI systems:
+• Large Language Models.
+– This winter I fine‑tuned a 7‑B parameter LLaMA model for Russian and
+Chinese technical support dialogs. I built a retrieval‑augmented pipeline with
+vector search in [compaany] and a FastAPI backend. The system now answeers >60 % of
+tickets at [compaany], where I am a DL engineer.
+– I am also an active contributor to the open‑source project «ru‑dialoGPT»,
+where I added a simple safety filteer based on contrastive learning.
+• Multimodal tasks.
+– For an online art museuim I created a chatbot that can “look” at a painting and
+talk about its style in Russian, English, and Chinese. The core is a CLIP‑based
+image encoder connected to a small instruction‑tuned LLM.
+• Generative vision.
+– In 2022 my team won the hackathon «AI on Guard of the Nenets Walrus
+Population» by training a diffusion model that generated synthetic aerial images of
+walruses. The extra data improved detection accuracy by 17 %.
+• Safe & responsible AI.
+– During my Data Engineer internship at [compaany] I ran red‑teaming tests for a
+voice assistant and wrote a guideline for handling biased outputs. That was my first
+real step into AI safety, and the topic keeps my interest since then.
+Besides industry projects, I enjoy teaching. At [compaany]’s Center for Additional
+Professional Education I gave the elective course “Modern Image Analysis”, where
+students built a tiny object detector for road signs. Explaining ideas to others
+forced me to see my own knowledge gaps – a very useful exercise.
+2. Why SMILES‑2025 matters to me
+Your topics map perfectly to the questions I face every day:
+Large language models → How to align a bilingual LLM without losing fluency?
+Multimodal approaches → How to ground text in pixels or sensor data?
+Multi‑agent systems → How to let several specialist models collaborate?
+Generative methods → How to create synthetic data that really helps?
+Self‑supervised learning → How to remove the label bottleneck in industry?
+Safe AI → How to push innovation without riskiing society?
+I can learn part of the theory online, yet practice is different. SMILES gives direct
+access to world‑class lecturers, hands‑on workshops, a hackathon with real data,
+and – most important – an international peer group. [location] and [location] follow
+similar industrial challenges but often solve them in parallel. Meeting in person can
+reduce this duplication and speed up progress.
+3. What I expect to bring and to take
+I will bring solid coding skills (Python, PyTorch, Docker, K8s, WANDB),
+experience with shipping AI products, and a good portion of energy. If there is a
+hackathon team that needs a backend or MLOps person – count me in. I am also
+ready to give a lighhtning talk about our bilingual LLaMA project or about the tiny
+tricks that make diffusion models converge faster on small datasets.
+What I hope to take home is deeper understanding in three areas:
+1) Reinforcement‑learning‑from‑human‑feedback for bilingual LLMs.
+2) Evaluation and alignment techniques for multi‑agent dialog systems.
+3) Practical checklists for safe deployment, especially for content filteering.
+I also aim to co‑author at least one workshop paper with fellow participants. A
+small shared victory is the best way to keep a network alive after the event.
+4. My career plan
+In 2025‑2026 I plan to start a PhD focused on safe generative AI for industrial
+automation. Before that I want to work two more years in industry to collect
+ege‑case data and understand real failure modes. In the longer run my drream is to
+lead a joint Sino‑Russian applied‑research lab where students can switch easily
+between academic and commercial projects. The contacts and the mindset I will
+gain at SMILES are essential for this vision.
+5. Motivation in one sentence
+I see SMILES‑2025 as the fastest and most inspiring way to grow from a
+“hands‑on engineer who loves models” into a “responsible researcher who also
+understands people”.
+Thank you for considering my application. I am excited about the possibility to
+learn, to share, and to build something useful together in 2025.
+Warm regards, [name]

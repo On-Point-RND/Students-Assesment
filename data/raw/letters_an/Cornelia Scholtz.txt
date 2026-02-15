@@ -1,0 +1,36 @@
+[name] [surname]
+[location]
+[email]
++2 *** *** ***
+I am eager to attend the SMILES Summer School of Machine Learning, as its focus on
+generative AI aligns perfectly with my research interests and PhD thesis objectives. I believe that this
+program provides a unique opportunity to hone ones technical skills under the guidance of top-tier
+experts spanning both academia and industry.
+During my intermediate-year Medical Biochemistry courses at [university], I realized my passion lay not
+in wet-lab work or clinical medicine but in theoretical science—specifically, computational
+approaches.
+This led me to the Laboratory of Structure-Function Based Drug Design ([company]), where I
+now pursue postgraduate studies in Bioinformatics and Mathematical Biology. My specialist diploma
+research,”In Silico Drug-Drug Interaction Mechanism Prediction”, employed chemoinformatics-
+drivenMLto predict molecular mechanisms, severity level and outcomes of drug combinations. That was
+my first, authentic experience in Model Training (Naive Bayes Classifier), Cross-Validation (LOO-
+CV), data scraping and preprocessing. We evaluated the accuracy of predictions with in vitro enzyme
+activity bioelectrochemical assay for several drug pairs excluded from training data. A key innovation of
+our approach is mechanism prediction for unsynthesized drugs, since the prediction itself is based solely
+on chemical structures for drugs in a specific pair. You can try it here.
+My PhD thesis, ”Analysis of Biological Effects of Drug Combinations Using Ensemble Machine Learning Models”, integrates something that we currently call ”Natural Language Module”
+which combines:
+• Retrieval-Augmented Generation (RAG)
+• Custom zero-shot Relation Extraction (RE)
+• Knowledge Graphs (KGs)
+This framework mitigates LLM hallucinations by grounding the text output in scientific literature,
+clinical trials, manuals, guidelines and references, while also providing natural language explanations to
+predictions of biological effects of specific drug combinations. While limited by computational resources,
+collaborations with the Institute for Artificial Intelligence Problems ([company]) may soon enable
+LLM fine-tuning and public deployment.
+Though my post-PhD path (academia or industry) remains open, I aim for my work to contribute
+meaningfully — to make, as grandiose as it sounds, ”a tribute to eternity.” My enthusiasm for generative
+AI stems not from hype but from conviction in its long-term relevance.
+Thank you for considering my motivation letter.
+Yours sincerely
+[name] [surname]

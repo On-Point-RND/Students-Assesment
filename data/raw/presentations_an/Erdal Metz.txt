@@ -1,0 +1,85 @@
+Neural Networks for Structured Grid Generation
+[name] [surname]
+PhD student, [compaany]
+Introduction
+Topic: Neural Networks for Structured
+Grid Generation (revision of my paper)
+Importance: Physical Simulations, e.g., in
+High Energy Physics or Electrodynamics
+Goals of review: connect current
+research with Data-Driven approaches
+Problem statement
+Optical fiber modelling
+Challenges
+Goal
+𝐹
+Good grid Bad grid
+Scope
+Coordinate Physical Domains that are:
+domain domain • 2D or 3D
+• N-connected
+• Piecewise smooth at
+boundary
+Methods
+• Input points are generated in a square/cubic mesh
+• All coordinates are normalized
+Input • Train, Validation and Test subsets are created
+• Inputs are embedded to also have Fourier Features (differentiable
+Fourier operation) for better processing of sharp corners
+Features
+• Physics-Informed Loss is written to meet requirements on the mesh:
+smooth gradients w.r.t. inputs, orthogonality, etc.
+Loss
+• Residual Neural Network with many skip-connections is used to
+make the NN learn small transformations between layers
+Residual NN
+Results
+1. Complex geometries parametrized
+a. Quality of grid: Winslow, Liao,
+Orthogonality;
+b. Quality of boundaries: MSE
+c. Quality of PDE solution: RMSE
+Complex geometry with
+Physical simulation error
+refinement
+d. Complicated geometries were over time (FDTD)
+considered, having strong non-convex
+boundaries and multiple-
+connectedness.
+e. In all aspects, the proposed net
+performs MGNet.
+2. Mesh refinement tested
+3. Quality of PDE solution on the domain
+is improved compared to classical grids
+Research gap
+• The method is not robust enough in terms of convergence.
+• The method is slow if many domains are to be parametrized.
+• Data-driven approaches for structured grid generation are in a raw stage.
+• Generative models could provide a way to generate grids as a single forward-pass.
+• By gathering the knowledge from summer school, I would try to overcome this gap.
+Bibliography
+[1] [name] [surname]. Generation of structured difference grids in two-dimensional nonconvex domains using mappings. Computational
+Mathematics and Mathematical Physics, 49:797–809, 2009.
+[2] [name] [surname], [name] [surname], and [name] [surname]. Solving parabolic and hyperbolic equations by the generalized finite difference method. Journal of computational
+and applied mathematics, 209(2):208–233, 2007.
+[3] [name] [surname] and [name] [surname]. Plasma physics via computer simulation. Taylor and Francis, [location], 2005. ISBN 0750310251
+9780750310253.
+[4] [name] [surname], [name] [surname], and [name] [surname]. Mgnet: a novel differential mesh generation method based on
+unsupervised neural networks. Engineering with Computers, 38(5):4409–4421, 2022.
+[5] [name] [surname], [name] [surname], and [name] [surname]. A finite-volume method for navier-stokes equations on unstructured meshes. Numerical Heat Transfer,
+Part B: Fundamentals, 54(3):238–259, 2008.
+[6] [name] [surname], [name] [surname], and [name] [surname]. Phygeonet: Physics-informed geometry-adaptive convolutional neural networks for solving parameterized
+steady-state pdes on irregular domain. Journal of Computational Physics, 428:110079, 2021.
+[7] [name] [surname] and [name] [surname]. Accuracy of staircase approximations in finite-difference methods for wave propagation. Numerische Mathematik,
+128:741–771, 2014.
+[8] [name] [surname] and [name] [surname]. Principles of riemannian geometry in neural networks. Advances in neural information processing systems, 30, 2017.
+[9] [name] [surname] and [name] [surname]. Elliptic grid generation techniques in the framework of isogeometric analysis applications. Computer
+Aided Geometric Design, 65:48–75, 2018.
+[10] [name] [surname]. Grid generation and adaptation by functionals. Computational & Applied Mathematics, 26:235–249, 2007.
+[11] [name] [surname], [name] [surname], and [name] [surname]. The expressive power of neural networks: A view from the width. Advances
+in neural information processing systems, 30, 2017.
+[12] [name] [surname], [name] [surname], [name] [surname], and [name] [surname]. Detailed analysis of the lattice
+boltzmann method on unstructured grids. Journal of Computational Physics, 297:316–339, 2015. ISSN 0021-9991. doi:
+https://doi.org/10.1016/j.jcp.2015.05.019. URL https://www.sciencedirect.com/science/article/pii/S0021999115003538.
+[13] [name] [surname], [name] [surname], and [name] [surname]. Particle tracking on unstructured grids. In PACS2001. Proceedinings of the 2001 Particle Accelerator
+Conference (Cat. No.01CH37268), volume 4, pp. 3057–3059, 2001. doi: 10.1109/PAC.2001.988003.

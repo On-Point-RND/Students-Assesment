@@ -1,0 +1,62 @@
+[name]
+[surname]
+CONTACT INFO
+E-mail [email]
+Phone +2 *** *** ***
+Telegram @Gamma_functi0n
+GitHub https://github.com/GammaFuncti0n
+Kaggle https://www.kaggle.com/gammafuncti0n
+EXPERIENCE
+MethodsforSpeed-upTransformersinRecommen- Dec2024-
+daions Jun2025
+[company] | [location]
+• Studyof methodsforacceleratingtransforme model
+• Writingcodetotesthypotheses
+• Writingapaper
+ResearchonPositionalEncodingforTransformersiin Jun2024-
+Recommendaions Aug2024
+[compaany] | [location]
+• Studyof positionalencodin gmetho dsintransforme rs
+• Writingcodetotesthypothesesan dc omparison methods of encoding
+Researc hof theCaspianSeal eve l Feb2024-
+-Present
+[compaany] | [location]
+• Analysisof satelli tealtimetrydataandposts
+• Writingapaper
+Researc hof thecombus tio nmodel Jul2022-
+Jun2023
+[compaany] | [location]
+• Developmentandstudyof a newsimple modelof methanecombustion
+• Writingapaper
+EDUCATION
+MASTER”DATASCIENCE” 2023-2025
+[compaany] | [location]
+(4.4GPA)
+BACHELO R”APPLIE DMATHEMATIC S” 2019-2023
+[compaany] | Zele nograd, [location]
+(4.95GPA)
+PROJE CTS
+FastRecomme ndationSystems Dec2024-
+Jun2025
+• Studyof metho dsforacceleratingt ransforme models
+• Writingcodetotesthypotheses
+• Writingapaper
+HiddenAdversa rialAttack Feb2024-
+Apr2024
+• Studyattackmethodsonneuralne two rks
+• Studytherobus tness of recurrentneur alnetworks to attacks
+SegMed: Imple mentation of MedSAM Segmen tationandEnhance mentwithFeatUpandG AFL Jun2024
+• ImplementMedsAMandG AFL for the brain tumor segmentation task
+• Compara reresults of MedSAMandG AFL
+SKILLS
+Python,ML • PyTorch,PyTorch-Lightning
+• Optun,Hydra
+• Sklearn,Numpy,Seaborn,Matplo tlib
+• Numba,Ji t,Cupy
+• Git
+Other
+• Bash
+• Docker
+LANGUAGE
+Langua ges • Russian(nativ)
+• English(upper-interm ediate)

@@ -1,0 +1,33 @@
+[name] [surname]
+[email]
+Student, Faculty of Physics,
+[compaany] +2 *** *** ***
+To:
+[location]
+SMILES Summer School
+@soumn_tinne
+20 апреля, 2024
+Dear SMILES Summer School Admissions Committee,
+My name is [name] [surname], and I am a second-year physics student at [compaany]. I am writing to express my strong interest in participating in your summer school on machine learning in [location]. This is a unique opportunity for me to deepen my expertise in ML, explore international approaches to problem-solving, and apply these skills to interdisciplinary projects bridging physics, geoscience, and data analysis.
+My Experience in ML and Research
+At the Geothermiics and Oil Reservoir Laboratory of [compaany], I contributed to a project predicting rock permeability using ML algorithms (CatBoost, Random Forest, linear regression). My comparison of physical models with ML methods yielded a significant improvement in accuracy (R²=0.89, 15–20% higher than empirical approaches). This experience highlighted ML’s potential for tasks where analytical solutions fall short.
+Technical Skills:
+• Programming: Python (pandas, sklearn, matplotlib), basics of C++, SQL.
+• Numerical Methods: Solving differential equations, optimization, spatial data analysis.
+• Data Processing: Rock property prediction, cross-validation, metric interpretation.
+• Presentations: Delivered a talk at the "Lo[compaany]-2024" conference.
+Why SMILES?
+1. Deep Learning: I aim to master CNN and Transformer arcitectures for core sample image analysis (e.g., fracture segmentation).
+2. Global Perspective: Learning in [location] will expose me to cutting-edgе practices and broaden my network.
+3. Applied Focus: I am keen to develop hybrid models combining physics-based equations and ML for reservoir forecasting.
+My Goals:
+1. Build a CNN-based model for automated core analysis.
+2. Join hackatho[compaany]s (e.g., GPN INTELLIGENCE CUP) to tackle real-world challenges.
+3. Launch an interdisciplinary project merging physics and ML.
+Soft skills:
+• Tea[compaany]work: Collabora[compaany]ted with geologists and programmers, adapti[compaany]ng terminology across fields.
+• Communication: Presented research to expert panels and at conferences.
+Conclusion
+SMILES will be a springboard for transiti[compaany]oning from classical ML to advanced techniques. My physics background and data analysis skills will allow me to contribute meaningfully to the school’s projects. I would welcome the chance to discuss my experience further.
+Sincerely,
+[name] [surname]

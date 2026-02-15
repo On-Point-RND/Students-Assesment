@@ -1,0 +1,110 @@
+Faster Language Models with Better Multi-Token Prediction
+Using Tensor Decomposition
+Presentation of work authored by [name], [surname] and [name]
+[month], 2025
+Introduction
+▶
+Autoregressive transformers have become fundamental in natural language processing
+▶
+Main limitation: inefficiency in generation (tokens are generated one at a time)
+▶
+Recent work by [name] et al. explores multi-token prediction with independent prediction heads
+▶
+Our goal: accelerate inference without compromising quality
+Problem Statement
+▶
+Original method predict tokens independently:
+n
+(cid:89)
+P(x |x ) ≈ P(x |x )
+t+n:t+1 t:1 t+s t:1
+s=1
+▶
+This is a rank-1 approximation that ignores token dependencies
+▶
+Need to improve prediction accuracy by considering token relationships
+Method Overview
+▶
+We propose a rank-r decomposition:
+r n
+(cid:88) (cid:89)
+P(x |x ) ≈ w P(x |x ,α)
+t+n:t+1 t:1 α t+s t:1
+α=1 s=1
+▶
+Interpretation as a mixture of experts
+Method Details
+▶
+Architecture Components:
+▶
+Multiple prediction heads (one per token position)
+▶
+Expert weighting mechanism
+▶
+Auxiliary loss for balanced expert utilization
+▶
+Training Procedure:
+▶
+Optimization of the joint probability of multiple tokens
+▶
+Balanced loss function to prevent expert collapse
+Experimental Setup
+▶
+Model: Multi-head tiny transformer (56.3M parameters)
+▶
+Dataset: Tiny Stories
+▶
+Evaluation Metrics:
+▶
+Joint probability loss
+▶
+First token prediction loss
+▶
+Inference speed
+▶
+Compared different ranks (1 to 8) and loss configurations
+Loss Analysis
+Figure: Joint loss for different CP-rank values Figure: First token loss across ranks
+Speculative Decoding Performance
+Figure: Token acceptance rate comparison Figure: Speculative decoding performance
+Analytical Table
+Method Performance Parameters Inference Time
+Standard Transformer Base performance 1.82B 43.8s
+Multi-token (rank-1) 1.67 avg. accepted tokens +0.98B 34.0s
+Our method (rank-2) 1.96 avg. accepted tokens +1.2B 28.9s
+Our method (rank-4) 1.85 avg. accepted tokens +1.9B 31.5s
+Table: Results on 1B GPT2-like model with speculative decoding
+Experimental Results
+▶
+Key Findings:
+▶
+Higher ranks consistently improve joint loss
+▶
+First token prediction remains stable across ranks
+▶
+Significant speedup in inference (2-3x)
+▶
+Performance Characteristics:
+▶
+Scales well with model size
+▶
+Minimal training overhead
+▶
+Compatible with existing architectures
+Possible extensions
+▶
+On the larger scale, final generation quality should be even better, then for a model with a single head (as suggested by a rank-1 paper).
+▶
+Current implementation can be optimized to reduce memory overhead
+▶
+It should be possible to extend current method to model fine-tune task with a competitive acceptance rate.
+Conclusion
+▶
+Proposed a new method for multi-token prediction
+▶
+Improved accuracy through dependency modeling
+▶
+Effectiveness confirmed by experiments
+▶
+Method scales well for different model sizes
+Thank you for attention

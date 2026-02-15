@@ -1,0 +1,37 @@
+Dear [name],
+My name is [name], and I am currently pursuing a degree in Medical Cybernetics and Bioinformatics at [location]. I specialize in the development of AI-driven solutions for healthcare, with a strong focus on applying modern machine learning and deep learning approaches to real-world biomedical challenges — from disease diagnosis using medical imaging to the interpretation of genomic data.
+Motivation to Participate
+In recent years, we’ve witnessed a tremendous leap in the capabilities of AI. The emergence of large language models (LLMs), multimodal systems, and generative approaches has revolutionized how we process complex and heterogeneous biomedical information. These technologies are not only intellectually fascinating — they have become essential to my daily work, which in many ways defines my future.
+Participating in SMILES-2025 presents a unique opportunity to access cutting-edge knowledge that is often hard to obtain outside of the international research community. I am eager to delve deeper into state-of-the-art methods, engage with leading researchers, and exchange insights with peers from around the world. I see this school as a critical step toward building clinically significant, scalable AI tools for modern medicine.
+Experience with ML/DL and Project Highlights
+Over the past several years, I’ve developed substantial hands-on experience in ML and DL, particularly in computer vision and medical data processing. As a Data Scientist and Deep Learning Engineer at [company] and [company], I contributed to the development of:
+AI models for analyzing chest CT scans of COVID-19 patients (detecting ground-glass opacities, consolidation, pleural effusion);
+Systems for automated BI-RADS classification from unstructured clinical text;
+Tools for diagnosing compression fractures, scoliosis, and other spinal conditions from X-ray images;
+Tumor detection algorithms for abdominal CT scans.
+As the CTO of [company], a startup supported by the [location] Science Foundation (4 million rubles grant), I am leading the development of multimodal clinical AI systems that integrate imaging and textual data. Our prototypes have already been piloted in both [location] and regional hospitals.
+Beyond computer vision, I am deeply engaged in bioinformatics and NGS data analysis, and have worked with various neurophysiological datasets, including EEG, ECG, and eye-tracking. Selected projects include:
+Predicting schizophrenia from EEG patterns;
+Classifying imagined hand movements;
+Clustering pediatric neuropsychiatric disorders;
+Assessing programming proficiency and chemistry knowledge in students using VR-based eye-tracking.
+I use technologies such as PyTorch, Docker, MLFlow, and Airflow in my daily workflow. I also utilize bioinformatics libraries like Biopython and RDKit. My technical proficiency has been recognized through victories in numerous hackathons (ATOMIKHACK2, IT INNO HACK, SPCN, and others). Notably, most of these events were won by just me and my teammate, often outperforming teams of five. These results reflect not only strong technical skills but also adaptability, teamwork, and creative problem-solving under pressure.
+Expectations from the School
+Through SMILES-2025, I hope to:
+1. Deepen my understanding of large language model architectures and their applications in medicine and biology;
+2. Explore multimodal approaches for integrating images, text, genomic, and physiological data;
+3. Receive expert feedback on my current ideas and research directions from established professionals in the field;
+4. Connect with like-minded peers and potential collaborators for future publications and joint projects.
+I am especially looking forward to hands-on sessions where theoretical knowledge can be transformed into concrete prototypes and tools.
+Career Plans
+My long-term vision is to develop an ecosystem of intelligent medical systems that enhance the accuracy, accessibility, and interpretability of diagnostics. I aim to integrate genetic data, medical imaging, and clinical text into unified AI-powered decision-making systems. To realize this vision, I plan to:
+Pursue a Ph.D. in bioinformatics or medical AI;
+Scale my startup internationally and contribute to open science;
+Publish in top-tier journals and present at international conferences;
+Contribute to open-source tools and frameworks accessible to the global medical and research communities.
+Equally important to me is building professional connections. Through various educational programs, including several organized by the [location] Educational Center, I’ve seen firsthand how valuable it is to be part of a community of passionate researchers. Many of my current collaborators and co-founders are people I met in such environments. These communities fuel innovation, foster long-term partnerships, and give rise to projects that can truly make an impact.
+I believe SMILES-2025 is not just a summer school — it is a launching pad for the next generation of leaders in biomedical AI. I am confident that my experience, motivation, and deep curiosity will contribute positively to the SMILES community, and that this opportunity will open new horizons for me to implement the most ambitious ideas in science and technology. And also, I’ve always dreamed of visiting [location].
+Thank you very much for considering my application.
+Warm regards,
+[name]
+[email] | +7 [phone number]

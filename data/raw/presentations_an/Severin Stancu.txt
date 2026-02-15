@@ -1,0 +1,122 @@
+Application of a nonlinear neural operator for
+integration of geodesics in the gravitational field of a
+rotating black hole
+[name], [surname], [name], [surname], [name]
+[location]
+[compaany]
++2 *** *** ***
+[email]
+[name], [surname], [name], [surname], [name]
+[location]
+Introduction
+Numerical integration of an unstable system of nonlinear differential equations
+using classical iterative methods such as Runge-Kutta is a rather
+resource-intensive task. A promising approach to solve this problem is the use
+of neural networks to approximate the nonlinear operators of the ODE
+solution. In this work we show the application of neural network of DeepONet
+architecture on the example of the problem of findiing geodesics in the
+gravitational field of a rotating black hole. Accuracy sufficient for constructing
+model images of black hole shadows was achieved at a higher speed of
+operation.
+[name], [surname], [name], [surname], [name]
+[location]
+Approximation theorem
+Univeversal Approximation Theorem for Operator Suppose that σ is a
+continuous non-polynomial function, X is a Banach Space, K ⊂X, K ⊂Rd
+1 2
+are two compact sets in X and Rd, respectively, V is a compact set in C(K ),
+1
+G is a nonlinear continuous operator, which maps V into C(K ). Then for any
+2
+ϵ>0, there exist positive integers n,p,m, constants ck,ξk,θk ∈R, ζ ∈R,
+i ij i k
+w ∈Rd, x ∈K , i=1,...,n, k =1,...,p, j =1,...,m, such that
+k j 1
+[name], [surname], [name], [surname], [name]
+[location]
+DeepONet
+[name] et al., DeepONet, 2021
+[name], [surname], [name], [surname], [name]
+[location]
+Mathematical Formulation of the Problem
+Lighttrajectoriessatisfythegeodesicequation:
+d2xα dxµdxν
+=−Γα , (1)
+dλ2 µν dλ dλ
+wherexα arethephotoncooordinates,λistheaffineparameteralongthegeodesic,andΓα
+µν
+aretheChristoffelsymbols,whichdependonthespacetimemetricgµν:
+1
+Γα
+µν
+=
+2
+gαρ(∂µgνρ+∂νgµρ−∂ρgµν). (2)
+Forphotons,whicharemasslessparticlesalwaysmovingatthespeedoflight,thespacetime
+intervalequalszero:
+dxµdxν
+gµν =0. (3)
+dλ dλ
+Tonumericallysolve the system of ODEs:
+0 0 0
+x ,k =⟨a,c⟩ — value at the midpoint
+1 1
+Compute:
+d=branc(x ,k )
+1 1
+Now we want:
+x ,k =⟨a,b⟩ to be close to x ,k =⟨d,b⟩
+2 2 3 3
+[name], [surname], [name], [surname], [name]
+[location]
+Ray tracing
+[name], [surname], [name], [surname], [name]
+[location]
+Ray tracing
+DeepONet
+rk8pd
+2
+0 2
+M
+c/ )
+G
+z(
+−2
+−4
+−6
+6
+4
+−4
+−2 0 y
+2 (GM/c2)
+x(GM/c2) 0
+2
+−2
+4
+[name], [surname], [name], [surname], [name]
+[location]
+Results
+rk8pd DeepONet
+Figure: A neural network trained on a dataset with black holes in value 0.8 and the classical
+method were used to calculate photon trajectories emitted from each screen pixel. To simulate the
+problem a ring was
+placed:
+rin<x2+y2<rout (7)
+For each emitted ray, the affine parameter λ was found with which the ray
+intersects the ring. The figure shows images of the ring obtained by both methods. The
+color in the figure represents the values of λ at which the intersection occurs.
+[name], [surname], [name], [surname], [name]
+[location]
+Conclusion
+Code has been developed implementing a nonlinear neural operator based
+on the DeepONet architecture for solving systems of ODEs. This method
+provides an alternative to iterative approaches and enables trajectory
+computaion at any predefined point.
+The DeepONet architecture neural network is applicable for solving
+geodesic computaion problems with sufficient accuracy for image
+construction while offering higher computaional speed.
+Future work will focus on applying the neural operator to more complex
+models, particularly - magnetohydrodynamics (MHD) equaions
+describing plasma behavior near black holes.
+[name], [surname], [name], [surname], [name]
+[location]

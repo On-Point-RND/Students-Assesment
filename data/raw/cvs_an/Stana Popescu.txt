@@ -1,0 +1,44 @@
+[name] [surname] Email : [email]
+Mobile : +2 *** *** ***
+Education
+[location] Institute of Physics and Technology [location]
+• BSc of Applied Mathematics and Computer Science; GPA: 4.69/5.00 Sept. 2019 – Present
+Completed courses
+• Data Science cources: Mathematical statistics, machine learning, fundamentals of applied statistics, applied statistics
+and data analysis, deep learning and its applications, discrete random processes and time series, AB-testing, NLP,
+Bayesian statistics, generative models.
+• Programming universiity courses: Algorithms and data structures, programming paradigms overview, computer
+architecture and operation systems, concurrency, data bases, data analysis, object-oriented programming.
+• Math universiity courses: Probability theory, calculus, discrete mathematics and analysis, linear algebra, group
+theory, formal languages, mathematical logic, computational complexity, differential equations, theory of functions of a
+complex variable, functional analysis.
+• Stepic: Python: basics and application, Python programming, Fundamentals of statistics, Probability theory.
+• Coursera: Mathematics and Python for data analysis.
+Papers
+• Asymptotic Analysis of the Ruppert – Polyak Averaging for Stochastic Order Oracle: This paper introduces
+an improved covariance matrix estimation for the Stochastic Order Oracle Concept in black-box optimization, enhancing
+the accuracy of asymptotic convergence rate predictions, supported by numerical experiments.
+Projects
+• Text-to-image generation: Study and implementation of IP-Adapter and DreamBooth methods. Modifications of
+IP-Adapter method for generating high-resolution images of a person in diverse variations. Comparison of all methods on
+the dataset LWP Deep Funneled by metrics FID and IS.
+• Speculative Decoding: Integration of the SpecExec method into SpecBench, the repository for benchmarking various
+LLM speculaive decoding techniques.
+• Emotional LLM: Development of emotion prompting methods for LLLMs. The project from [compaany] Institute.
+Educational programs
+• Mathematics in AI: Top 20/100 by training results.
+• Scientific and practical intensive on reproducing state-of-the-art results: The findiinings from The Intensive
+served as the basis for the paper dedicated to Stochastic Order Oracle.
+Work
+• Machine Learning Course Assistant: Febr. 2023 − Present.
+• Statisics Course Assistant: Sept. 2024 − Jan. 2025.
+• Algorithms and Data Structures in C++ Course Assistant: Sept. 2024 − Present.
+Awards
+• [compaany] Olympiad: Prize-winner.
+Technical skills
+• Programming languages: Python, SQL, LaTex, C++, C.
+• Software: Git, Bash, Jupyter notebook, Conda.
+• OS: MacOs, Windows, Linux.
+Languages
+• English: C1.
+• Russian: Native.

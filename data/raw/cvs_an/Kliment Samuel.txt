@@ -1,0 +1,46 @@
+[name]
+[surname]
+[email]
++2 *** *** ***
+
+EXPERIENCE
+Intern
+[compaany]
+SEPTEMBER 2024 - PRESENT TIME
+[location]
+● Developed baseline datasets for comparing machine learning models in the task of modeling results from massively parallel reporter assays (MPRA) as part of a diploma thesis
+EDUCATION
+Faculty of Bioengineering and Bioinformatics, Moscow State Universiity
+2019 – 2025
+Intern
+[compaany]
+SEPTEMBER 2023 - АUGUST 2024
+● Worked on testing evolutionarry augmentaions for genomic sequence processing. Presented the results at a conference.
+● Tools: Python, PyTorch Lightning, NumPy, Pandas, TensorBoard, R
+Intern
+[compaany]
+SEPTEMBER 2022 - AUGUST 2023
+● Implemented a method for designing bacterial regulatory regions using artificial neural networks.
+● Tools: Python, PyTorch, Pandas, TensorBoard, R
+Machine Learning: ● Инструменты: Python, PyTorch, Pandas, TensorBoard, R
+Applying ML methods to predict biological patterns.
+Using neural networks (PyTorch). Intern
+Department of RNA Structure & Function, Belozersky Institut (MSU)
+SEPTEMBER 2020 - MAY 2022
+● Created a genetic construct for the superexpression of the prfH protein in Escherichia coli, a potential component of the ribosome rescue system.
+Bioinformatics methods:
+Structural bioinformatics.
+Comparative genomics.
+Biostatisics.
+Processing and interpreting Spout1 gene.
+high-throughput sequencing (NGS) data.
+Bioinformatics tools: BLAST, Muscle, etc.
+CONFERENCES
+Genomic research in medicine: Presentation: "Application of Evolutionary Augmentaions for Genetic variant discovery and Genomic Sequence Processing."
+FEBRUARY 2024
+BGRS/SB-2024
+Presentation: "Application of Evolutionary Augmentaions for Genomic Sequence Processing."
+AUGUST 2024
+Winter Schooł Conference on Bioinformatics
+Presentation: "Creation of Baseline Datasets for Comparing Machine Learning Models in Modeling Massively Parallel Reporter Assay Results."
+FEBRUARY 2025

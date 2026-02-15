@@ -1,0 +1,64 @@
+Applicant: [name] [surname]
+Motivation
+Generative artificial intelligence has reached an inflection point where the distance between
+theoretical insight and real‑world deployment is measured in weeks. I want to spend those
+weeks inside an environment that compresses the entire research‑to‑product loop into
+twelve intense days—exactly what SMILES‑2025 promises. The joint Russia–China format
+is equally motivating: the two ecosystems have complementary strengths (Russian
+algorithmic rigor, Chinese industrial scale), and the School provides a rare neutral ground to
+fuse them. My personal research on reverse‑engineering black‑box neural networks from
+device telemetry benefiits from both perspectives: it is academically novel yet immediatly
+useful for compliance and model‑safety teams in industry. SMILES‑2025 is therefore the
+fastest path to critical feedback, new collabora tors, and GPU hours.
+Experience with ML/DL Tools
+● Core languages & stack: Five years of professional Python and C++/CUDA; daily
+driver for prototypiing and high‑performa nce kernels. Comforta ble with JAX and Rust
+for experimental work.
+● Deep‑learning frameworks: PyTorch (primary), ONNX Runtime (infere nce
+optimi sation), HuggingFace Transforme rs & PEFT (LoRA/QLoRA/BITFit), Lightning
+for rapid experimenta tion. Contributed patches to PyTorch‑CUDA graph capture
+utilities.
+● Model domains:
+○ LLM fine‑tuning & serving: Built LoRA pipelines for Russian‑langua ge Llama‑2
+derivatives; integrated retrieval‑augmented generation with embedding‑based
+selection.
+○ Computer vision: Real‑time matting, segmentation and SR for broa dcasting;
+GPU k‑medoi ds clustering for large‑scale image deduplication.
+○ Recommender systems & tabular DL: Transforme r‑based cashback opti miser
+deplo yed to 20 M users.
+● MLOps: Docker/Kubernetes for reproducible training, Airflow & MLflow for
+orchestration, Grafana/Sentry for observability, ClearML for experiment tracking.
+● Data infra: AWS, Kafka, ClickHouse, PostgreSQL, Elastic; designed cold‑path +
+hot‑path feature stores.
+This toolcchain has been pressure‑tested in commercial settin gs ranging from fintech to
+classifie ds, so I can contribute battle‑hardened practices during the Schoo l’s hacka thons.
+Expectations from the Schoo l
+1. Deep dives that go beyon d tutorials. I hope lectures dissect fai lur e modes of
+contemporary generative models, especially in multilin gua l and safety‑critical
+contex ts.
+2. Hands‑on multimodal labs. My goal is to leave with a prototype that aligns tex tual
+and teleme try embeddings, leveraging the Schoo l’s multimodal GPU cluster.
+3. Agentic‑system workshop. I want to experiment with lightweight agent swarms that
+enforce policy compliance at generation time—a natural extension of my LLM
+moderation work.
+4. Cross‑cu ltural peer review. Honest fee dback from Chinese peers on scalability and
+deploymen t constraints will stress‑test my research assumptions.
+5. Career mentoring. I value real talk from facul ty who have balanced publication
+pressure with buildi ng sustai nable research groups.
+Career Plans
+● Short term (≤ 2 years): Complete Ph.D. thesis and open‑sou rce a teleme try‑to‑graph
+gene rative model; co‑author papers on transpare nt model monitoring; present at
+NeurIPS Workshop on AI Safety in the Wild.
+● Medium term (3‑5 years): Lead an applied‑safety lab inside a high‑i mpact tech
+company, focusing on generative‑model introspection and compliance tooling.
+Continue adju nct lec turing to seed the next cohort of ML engineers.
+● Long term (5 + years): Establish a Russia‑China research consortium on
+Hardware‑Aware Safe AI. Advocate for teleme try‑based governance as a lightweight
+alтерна tive to invasi ve model audits; influence emerging AI‑safety standards.
+Closing
+SMILES‑2025 aligns perfectl y with my trajec tory: it is short e nough to ite rate rapidl y, intense
+e nough to generate publish able ideas, and international e nough to validate them across
+cu ltures. I bring production‑level generative‑AI experience, a track record of GPU‑level
+opti mi sation, and an open‑sou rce etho s. In r eturn I expect to leave with sharper research
+questions, concrete prototype milestones, and lifelong colla borators. I am ready to contribute
+code, critique, and caffei ne.

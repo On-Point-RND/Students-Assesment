@@ -1,0 +1,146 @@
+Ivan Butakov
+[email]
+[location]
+[compaany]
+April,2024
+IvanButakov SlidesforSMILES-2025 1/20
+Outline
+Introduction: Information Theory in Deepl Learning
+Information-Theoretic Analysis of DNNs
+Noise-injected Deep InfoMax
+Mutual Information Estimation via Normalizing Flows
+IvanButakov SlidesforSMILES-2025 1/20
+Introduction: Information Theory in Deepl Learning
+Applications:
+▶
+Generalization bounds
+▶
+Model selection, explainable AI
+▶
+Unsupervised representation learning
+▶
+Training objectives, regularization terms
+▶
+Multimodal alignment
+Central information-theoretic quantities:
+▶ Differential entropy: h(X) = −Elogp(X) (p is PDF of X)
+▶
+Mutual information (MI): I(X;Y) = h(X)−h(X | Y)
+Main difficulty:
+▶ Hard to apply to real-world high-dimensional data (dim ≳ 10−100)
+IvanButakov SlidesforSMILES-2025 2/20
+My research topics
+1. Information-theoretic analysis of Deep Neural Networks.
+2. Self-supervised representation learning (InfoMax in particular).
+3. Mutual information neural estimation.
+IvanButakov SlidesforSMILES-2025 3/20
+Outline
+Introduction: Information Theory in Deepl Learning
+Information-Theoretic Analysis of DNNs
+Noise-injected Deep InfoMax
+Mutual Information Estimation via Normalizing Flows
+IvanButakov SlidesforSMILES-2025 3/20
+Information-Theoretic Analysis of DNNs
+Let us consider a feed-forward (stochastic) neural network, which can be viewed
+as a Markov chain:
+Y −→ X = L −→ L −→ ... −→ L
+X Y
+Two-dimensional embeddings for MNIST dataset
+IvanButakov SlidesforSMILES-2025 12/20
+Two-dimensional embeddings for CIFAR10 dataset
+(a) No noise injection (b) Gaussian, 𝜎 =0.05 (c) Gaussian, 𝜎 =0.1
+IvanButakov SlidesforSMILES-2025 13/20
+Outline
+Introduction: Information Theory in Deepl Learning
+Information-Theoretic Analysis of DNNs
+Noise-injected Deep InfoMax
+Mutual Information Estimation via Normalizing Flows
+Leveraging the invariance property for better estimation
+Synthetic benchmarks
+IvanButakov SlidesforSMILES-2025 13/20
+Leveraging the invariance property for better estimation
+Mutual information is invariant under diffeomorphisms. Therefore, we can
+try to learn diffeomorphisms f , f such that I(f (X);f (Y)) is easy to estimate.
+X Y X Y
+Due to the invariance property, I(X;Y) = I(f (X);f (Y)).
+X Y
+Ideally, we want to achieve such transformation that I(f (X);f (Y)) can be
+X Y
+calculated via a closed-form expression (e.g., when f (X) and f (Y) are
+X Y
+jointly Gaussian).
+IvanButakov SlidesforSMILES-2025 14/20
+Leveraging the invariance property for better estimation
+f
+X
+𝜉∼𝒩(0,I n′)
+(diffeomorphism)
+(unknown) I(X;Y) I(𝜉;𝜂) (tractable)
+f (,𝜂)∼𝒩(0,M)
+Y
+𝜂∼𝒩(0,I m′)
+(diffeomorphism)
+FromMutualInformationEstimationviaNormalizingFlows. /I.Butakov[etal.]//
+The Thirty-eighth Annual Conference on Neural Information Processing Systems.
+2024.
+IvanButakov SlidesforSMILES-2025 15/20
+Synthetic benchmarks
+To evaluate the proposed estimators and compaare them to other methods, we run
+synthetic tests with known ground-truth mutual information.
+IvanButakov SlidesforSMILES-2025 16/20
+Synthetic benchmarks
+(a) 2D Gaussians (b) Rectangles
+Figure 3: Examples of synthetic images used in the tests. Note that images are
+high-dimensional, but admit latent structure, which is similar to real datasets.
+IvanButakov SlidesforSMILES-2025 17/20
+10 10
+groundtruth groundtruth
+AE+WKL5-NN AE+WKL5-NN
+KSG KSG
+8 MINE 8 MINE
+NWJ NWJ
+Nishiyama Nishiyama
+MIENF(ours) MIENF(ours)
+6 6
+4 4
+2 2
+0 0
+0 2 4 6 8 10 0 2 4 6 8 10
+(a) 16×16 images (Gaussians) (b) 32×32 images (Gaussians)
+Figure 4: Comparison of the selected estimators. Along x axes is I(X;Y), along y axes
+is I^(X;Y). We plot 99.9% asymptotic confidence intervals acquired either from the
+MC integration standard deviation (WKL, KSG) or from the epochwise averaging
+(other methods, 200 last epochs). 10·103 samples were used.
+IvanButakov SlidesforSMILES-2025 18/20
+10 10
+groundtruth groundtruth
+AE+WKL5-NN AE+WKL5-NN
+KSG KSG
+8 MINE 8 MINE
+NWJ NWJ
+Nishiyama Nishiyama
+MIENF(ours) MIENF(ours)
+6 6
+4 4
+2 2
+0 0
+0 2 4 6 8 10 0 2 4 6 8 10
+(a) 16×16 images (rectangles) (b) 32×32 images (rectangles)
+Figure 5: Comparison of the selected estimators. Along x axes is I(X;Y), along y axes
+is I^(X;Y). We plot 99.9% asymptotic confidence intervals acquired either from the
+MC integration standard deviation (WKL, KSG) or from the epochwise averaging
+(other methods, 200 last epochs). 10·103 samples were used.
+IvanButakov SlidesforSMILES-2025 19/20
+Papers:
+▶
+Information Bottleneck Analysis of Deep Neural Networks via Lossy
+Compression. / I. Butakov [et al.] // The Twelfth International Conference
+on Learning Representations. 2024
+▶
+Mutual Information Estimation via Normalizing Flows. / I. Butakov
+[et al.] // The Thirty-eighth Annual Conference on Neural Information
+Processing Systems. 2024
+▶
+Efficient Distribution Matching of Representaations via Noise-Injected Deep
+InfoMax. / I. Butakov [et al.] // The Thirteenth International Conference
+on Learning Representaations. 2025

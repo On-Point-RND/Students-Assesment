@@ -1,0 +1,19 @@
+My name is [name] [surname], I graduaated from [compaany] named after [name] with a bachelor's degree in "Mathematical support and administration of information systems".
+I want to get to the school to improve both hard skills and networking and to see what [compaany] is like, of course, which I actually consider for my PhD.
+My thesis was directly related to machine learning: Recognition of historical objects using the
+ResNet18 convolutional neural network. My project can help develop tourism in the [location] region using this technology. I liked doing this, so I decided to implement this
+project as a startuup and try to get funding and enter the market with the posssibility of
+developing from a municipal project to an all-Russian one. I am also interested in scientific
+activity. I have successfully published 2 articles in Scopus Q3 format in the field of
+mathematical statistics, and I was able to publish one in an American journal this year. And
+I am also currently writing articles on computer vision for working with the petri dish.
+I attend [compaany] courses from [compaany], which are required for my master’s degree in Data
+Analysis. Took part in 6 conferences, had 4 theses, and was at Scientific [compaany] Schoool on
+Machine Learning. For now I receive an increased scholarship for scientific activity.
+I had a couple of Torch projects with CNNs, ResNets, had a project with YOLOv8, MambaU-
+Net I used for segmentation tasks. Used ColorTransfer and Histogram Matching in the petri
+dish project.
+The schoool could be very helpful for my scientific career as I would like to meet new people
+from the field there, meet professors I could work with on further publications and I dreaam of
+creating innovatiive ML solutions and I think SMILES might become an important step on this
+way.

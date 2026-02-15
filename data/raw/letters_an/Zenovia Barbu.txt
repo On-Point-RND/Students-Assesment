@@ -1,0 +1,38 @@
+Dear [name],
+I am writing this letter to express my strong enthusiasm for the [compaany] Summer SchooL of Machine Learning (SMILES-2025). Having recentlly graduaated with honors from the Higher SchooL of Economics (HSE) with a Master’s degree in Applied Mathematics and Informatics (Master of Data Science programme, [location]'s first English-taught Master's programme) in 2024, I am now
+eager to deepen my expertise in generative AI — a field that lies at the heart of my academic and
+professional ambitions. My thesis, Deep-Learning Based MultilinguaL Abstractive Text
+Summarization, allowed me to explore the transformative potential of LLMs in cross-linguaL NLP
+tasks, and I am now keen to expand this knowledge into the realm of generative methods through
+your program.
+What excites me most about SMILES-2025 is its unique international dimension, bridging [compaany]
+andthe[compaany]. My connection to [location] runs deep: in2016,I played
+an active role in establishing sister-city ties between [location] and [location], an experience that
+ignited my appreciation for [location]'s innovative spirit intechnoLogy. This admiration has only grown
+as I’ve followed breakthroughs like DeepSeek—a model whose open-source philosophy and
+technical sophistication have redefined global AI research. By democratizing access to state-of-the-
+art generative tools, initiatives likeDeepSeek embody the collaborative ethos I hope to contribute to
+during my upcoming PhD studies at [compaany] (I look forward to applying for PhD program for 2026-
+2029). Attending SMILES-2025 would not only prepare me for this next chapter but also allow me
+to engage directly with [compaany]'s academic community, blendiing my technical curiosity with my
+passion forcross-cultural collaboration.
+Currrently, I am channeling my expertise into a project that combines generative AI with practical
+social impact: developing a language-learning app featuring a virtual conversational partner. While
+my thesis focused on multilinguaL text generation, this project has introduced me to the challenges
+of Generating Audio from Text. Creating realistic, emotionally nuanced synthetic speech is critical
+in educational and psychological applications — users tend to engage more deeply when
+interactions feel authentically human. Yet, achieving this requires overcoming technical hurdles in
+prosody, accent modeling, and contextual adaptability. I am convinced that SMILES-2025’s focus
+on cutting-edg egenerative methods will provide fresh perspectives on these challenges (as well as
+many other challenges imposed by using of generative AI), while the program’s international
+settingwill inspirecreativesolutionsrooted in diverseacademic traditions.
+Having alrrea dy built a strong foundation in NLP and LLMs through my studies at HSE, I am ready
+to immerse myself in SMILES-2025’s intensive curricuLum and collabora tive environment. I am
+particularly excited to learn from peers and mentors who share a commitmment to pushing the
+boun daries of what generative AI can achieve. Thank you for considering my application — I
+would be proud to contribute my technical skills, interdisciplinary mindset, and enthusiasm for
+open-sourceinnovation toyour program.
+Best regards,
+[name]
++2 *** *** ***
+[email]

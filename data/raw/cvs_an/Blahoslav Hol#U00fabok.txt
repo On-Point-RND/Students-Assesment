@@ -1,0 +1,59 @@
+[name] [surname]
+Contacts:
+1. +2 *** *** ***
+2. [email]
+3. [email]
+4. [email]
+Education:
+- AIEO “Phystech-Lyceum” of Natural Sciences and Mathematics named after P.L. Kapitza
+2019-2021
+- MIPT - Moscow Institute of Physics and Technology
+2021 – c.t.
+Faculty: FPMI
+Publications:
+2023 Water Contamination Segmentation on Camera Lens from a Single Image based on U-Net
+Architecture. (1)
+[name] [surname], Vsevolod Plohotnyuk, Egor Ershov
+DOI: 10.53921/itas2023_224 https://www.elibrary.ru/item.asp?id=59695546.
+2024 Adapting the YOLOv8 Loss Function for Municipal Solid Waste Segmentation. (2)
+[name] [surname], Oleg Karasev, Egor Ershov
+DOI : 10.53921/itas2024_112 https://www.elibrary.ru/item.asp?id=78751939
+2024 Flow Sparsity Estimation. Orig: “Оценка разреженности потока”. (3)
+Amir Shamsutdinov, [name] [surname]
+DOI: 10.53921/itas2024_77, https://elibrary.ru/item.asp?id=78751890
+Diploma is in progress.
+Conferences:
+2023 Information Technologies and Systems, 2023. Presented (1).
+2024 Data Fusion, 2024. A team project. RAG-based assistant.
+2024 Information Technologies and Systems, 2024. Presented (2).
+Academic experience:
+- Sep 2023 – c.t. IITP RAS, Sector 11.1 of reproduction and synthesis of color.
+intern-researcher. A participation in weekly sector’s seminars.
+Work experience:
+- IITP RAS, Oct 2023 – Feb 2024. An NDA project by [compaany]
+(my code in their flagship smartphone). Junior DS, Junior MLE
+- EKSLi, Apr 2024 – c.t. Optical separation & recognition & industrial robots.
+Progress-1 separator for Municipal Solid Waste sorting.
+Lukoshko separator for potato sorting.
+https://eksli.com/separator-progress-01-sortirovka
+Junior MLE, now Middle MLE.
+Hard skills:
+- Python, C++ 17/20
+- PyTorch, HuggingFace, MLFlow, Wandb, DVC
+- Onnx, TensorRT
+- PostgreSQL, S3
+- Docker, Linux, Git, CI/CD
+Other related achievments:
+- AIDAO finalist as part of the team. 16th place in the overall ranking.
+Team: [name] [surname], Alexander Startsev
+- Award for the best poster for (1)
+Pet project:
+Leosha – off-board, on-premise robot on Raspberry Pi based on a racing toy car. It is being designed all this spring
+with my magnificent wife. His goal is to solve SLAM task in the interior with the posssibly highest speed. Also, there
+is face recognition and basic behavior engine implemented in him. [email]
+The most valuable C++ projects:
+• Asynchronous TCP-server.
+• Own programming languaage translator.
+For all proving materials and questions ask me: [email]
+Related interests:
+Computer Vision, 3D reconstruction, Embedded devices.

@@ -1,0 +1,174 @@
+Multimodal app approaches for HD-maps reconstruction
+[name]
+HD-map developer, [compaany]
+Introduction
+Importance: Goals of the review:
+● HD-maps are critical for safe and efficient ● Summarize recent advancements in
+autonomous driving. multimodal AI for HD-map reconstruction.
+● "Global" HD-maps have high cost ● Propose potential research directions to
+construction and maintenance. enhance real-time mapping for
+autonomous vehicles.
+● Online HD-map reconstruction enables
+real-time, cost-effective mapping ● Identify key challenges and gaps in
+for autonomous vehicles. current methods.
+● In more general point of view- paves the
+way for map-independent autonomous
+vehicles. map-independent driving systems.
+Introduction
+HD-map - a highly accurate digital
+representation of the road environment,
+typically consisting of lane-level geometric
+information and associated semantic
+objects/features such as traffic lights,
+signals, and crosswalks
+Also, HD maps also include a graph
+reflecting the topology of the road, which
+helps in making traffic planning decisions. Just illustrate what typical HD-map looks like
+Problem statement
+We want to construct an HD vector map M that best fits the observed sensor data D, while
+satisfying certain constraints and minimizing reconstruction errors.
+In other words if Θ represents the set of parameters defining M, we want to find optimal
+map parameters Θ∗, that minimizes the cost function J(Θ):
+Θ∗=argminJ(Θ)
+Θ
+J(Θ)=ω ⋅E (Θ)+ω ⋅E (Θ)+ω ⋅E (Θ)+ω ⋅R(Θ)
+1 geometry 2 topo 3 traffic 4
+here:
+● E -Error in positioning traffic
+traffic
+● E geometry -Error in fitting road geometry elements
+● E topo -Error reconstruction road topology ● R -(optional) regularization term
+graph
+● ω -weights.
+Problem statement
+Challenges:
+● Fusing heterogeneous multimodal data
+● Real-Time Processing
+● Accuracy and Robustness
+Scope:
+● Multimodal AI methods for online HD-map reconstruction, emphasizing
+integration of LIDAR, camera, and temporal data
+Background ● Metrics
+● ChamferDistance(CD):Measures
+spatial similarity between two shapes by
+calculating the average nearest-point
+distance between their points sets.
+● Intersection-over-Union(IoU/mIoU):
+Evaluate overlap between predicted and
+ground-truth map elements, often
+averaged(mIoU) for multiple categories.
+● Mean Average Precision(mAP):
+Assesses detection accuracy using
+precision and recall, adapted for map
+elements with CD-based thresholds.
+Illustration of ChamferDistance,showing nearest-point
+distances between two points sets for
+spatial similarity measurement.
+Background ● Datasets
+● nuScenes[1]:
+▸ 1000 driving scenes recorded in
+Singapore&Boston with 32-beam
+LIDAR and 6 cameras
+▸ High-precision,human-annotated
+HD-map for both rasterized &
+vectorized formats in resolution 10
+px/m
+● Argoverse2[2]:
+▸ 1000 driving scenes recorded in
+U.S. cities with 32-beam
+LIDAR and 2 stereo-cams
+▸ provides detailed 3Dlocal HD-maps
+in vectorized & rasterized formats
+Background ● Datasets
+● nuScenes[1]:
+▸ 1000 driving scenes recorded in
+Singapore&Boston with 32-beam
+LIDAR and 6 cameras
+▸ High-precision,human-annotated
+HD-map for both rasterized &
+vectorized formats in resolution 10
+px/m
+● Argoverse2[2]:
+▸ 1000 driving scenes recorded in
+U.S. cities with 32-beam
+LIDAR and 2 stereo-cams
+▸ provides detailed 3Dlocal HD-maps
+in vectorized & rasterized formats
+Methods ● SuperFusion [3]
+★ MultilevelFusionStrategy
+★ Employ cross-attention for
+Image-GuidedLIDARBEVPrediction
+★ Aligns camera and LIDARBEV features
+using a learned flow field
+● HowItWorks: LIDAR enhances camera
+depth estimation, camera features guide
+long-range LIDAR feature prediction+
+BEV features from both modalities are
+aligned and fused
+● Datasets: nuScenes,Argoverse2
+Methods ● SuperFusion [3]
+★ MultilevelFusionStrategy
+★ Employ cross-attention for
+Image-GuidedLIDARBEVPrediction
+★ Aligns camera and LIDARBEV features
+using a learned flow field
+● HowItWorks: LIDAR enhances camera
+depth estimation, camera features guide
+long-range LIDAR feature prediction+
+BEV features from both modalities are
+aligned and fused
+● Datasets: nuScenes,Argoverse2
+Research gap ● Limitations
+Key Limitations Why it matters?
+● Uncertainty Estimation: Most
+methods lack confidence measures
+for reconstructed map entities.
+● Map Reliability: Confidence in map
+accuracy is critical for safe
+autonomous navigation.
+● Task Integration: Limited connection
+with downstream (e.g., path planning)
+and upstream (e.g., perception)
+tasks.
+● Task Integration: Tight connection
+with other AV modules enhances
+overall performance.
+● Predictive Mapping: Inability to
+anticipate future or occluded
+environments beyond current
+observations.
+● Predictive Mapping: Using unseen environments is key to
+achieving higher autonomy levels.
+Research gap ● Opportunities
+● Predictive Mapping: Develop methods to predict future or occluded map
+elements directly from real-time sensor observations, reducing reliance on
+pre-existing map data. (with recent approaches of SD-to-HD map generation)
+● Task Integration: Focus on conceptually aligned integration of HD-map
+reconstruction with perception and planning, prioritizing compatible
+architectures for efficient system performance.
+● Map Reliability: Investigate techniques to quantify uncertainty in
+reconstructed HD-maps, enabling confidence-aware decision-making for safer
+navigation.
+Bibliography I
+1. H. Caesar, V. Bankiti, A. H. Lang, S. Vora, V. E. Liong, Q. Xu, A. Krishnan,
+Y. Pan, G. Baldan, and O. Beijbom. “nuScenes: A multimodal dataset for
+autonomous driving”. In: arXiv preprint arXiv:1903.11027 (2019).
+2. B. Wilson, W. Qi, T. Agarwal, J. Lambert, J. Singh, S. Khandelwal, B. Pan,
+R. Kumar, A. Hartnett, J. K. Pontes, D. Ramanan, P. Carr, and J. Hays.
+“Argoverse 2: Next Generation Datasets for Self-driving Perception and
+Forecasting”. In: Proceedings of the Neural Information Processing
+Systems Track on Datasets and Benchmarks (NeurIPS Datasets and
+Benchmarks 2021). 2021.
+3. H. Dong, W. Gu, X. Zhang, J. Xu, R. Ai, H. Lu, J. Kannala, and X. Chen.
+“SuperFusion: Multilevel LIDAR-Camera Fusion for Long-Range HD Map
+Generation”. In: ICRA 2024. arXiv, 27, 2024. arXiv: 2211.15656[cs].
+Bibliography II
+4. H. Hu, F. Wang, Y. Wang, L. Hu, J. Xu, and Z. Zhang. “ADMap:
+Anti-disturbance framework for reconstructing online vectorized HD map”. In:
+ECCV 2024. arXiv, 29, 2024. arXiv: 2401.13172[cs].
+5. Z. Jiang, Z. Zhu, P. Li, H.-a. Gao, T. Yuan, Y. Shi, H. Zhao, and H. Zhao.
+“P-MapNet: Far-seeing Map Generator Enhanced by both SDMap and
+HDMap Priors”. In: RA-L 2024. arXiv, 29, 2024. arXiv: 2403.10521[cs].
+6. X. Zhang, G. Liu, Z. Liu, N. Xu, Y. Liu, and J. Zhao. “Enhancing Vectorized
+Map Perception with Historical Rasterized Maps”. In: ECCV 2024. arXiv, 1,
+2024. arXiv: 2409.00620[cs].

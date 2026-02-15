@@ -1,0 +1,30 @@
+Motivation Letter
+Dear Organizing Committee,
+My name is [name], and I am currently pursuing a Bachelor's degree in Artificial Intelligence at [location] [compaany]. I am writing to express my sincere interest in participating in your summer school. I am highly motivated to deepen my expertise in machine learning and deep learning, particularly in the field of natural language processing and large language models (LLMs), and I believe this program will provide the ideal environment for both intellectual and professional growth.
+Motivation for Participation
+My main motivation for applying to the summer school is the opportunity to engage with a community of fellow students and researchers who are as passionate about AI as I am. I am eager to connect with peers who are interested in pushing the boundaries of current machine learning methods and exploring novel ideas through collaborative research. I believe that such an environment intellectually stimulating and rich in exchange is essential for meaningful scientific progress.
+Additionally, I view the school as a valuable opportunity to learn directly from leading experts in the field. I am particularly interested in lectures and hands-on workshops that explore recent developments in LLMs, efficient model architectures, and retrieval-augmented generation systems. I hope to gain a deeper understanding of both the theoretical foundations and practical implementations of modern ML/DL methods, which I can then apply in my own research and academic path.
+Experience with ML/DL Tools
+I have actively pursued machine learning projects both within and beyond the university curriculum. My background includes studying statistical methods in machine learning, as well as topics in computer vision, natural language processing and deep learning architectures.
+Recently, I joined the [compaany] as an intern. My current work there focuses on accelerating search in vector databases for retrieval-augmented generation (RAG) systems. Specifically, I am exploring ML/DL-based approaches to enhance approximate nearest neighbor (ANN) search methods, aiming to improve both speed and accuracy in large-scale retrieval tasks. This experience has given me valuable exposure to applied research and engineering practices in an industrial setting.
+Research and Project Experience
+Over the past years, I have also participated in several research-oriented competitions and hackathons that involved complex data science and AI tasks:
+● In the AIDAO competition, I worked on multiple tasks involving real-world applications of ML. One task focused on classifying open vs. closed eyes using fMRI data, applying unsupervised learning techniques. In another, I developed a model for detecting image spoofing in car datasets, specifically targeting issues like photos taken from screens, poor lighting conditions, and incomplete angle coverage. These tasks required not only technical proficiency but also creativity in addressing data quality and model robustness challenges.
+● At SafeSpeak 2024, I was among the top 5 prize winners. The goal was to detect spoofed voice recordings using deep learning. Our team trained a Wav2Vec2.0 model to distinguish between genuine and synthetic speech, contributing to improvements in the robustness of voice authentication systems.
+● At the TechArena Siberian Challenge, my team and I applied ANN algorithms to the SIFT1M and GIST datasets. We optimized the trade-off between query-per-second (QPS) and recall performance, identifying Pareto-optimal configurations. This project, which earned us first place, significantly strengthened my understanding of real-time search systems and performance evaluation in large-scale ML tasks.
+These experiences have given me a solid foundation in applied machine learning and research, as well as an appreciation for interdisciplinary problem solving.
+Expectations from the School
+From the summer school, I hope to gain:
+1. Deeper technical insight into recent research in ML/DL, particularly as it relates to scalable architectures, NLP, and LLMs.
+2. Opportunities for collaboration with fellow students and researchers who share similar interests in areas such as Retrieval-Augmented Generation (RAG), model acceleration, safe and responsible AI, and multimodal learning.
+3. Guidance and mentorship from experts, which would help refine my own research direction and improve my understanding of key open challenges in the field.
+I am also enthusiastic about engaging in discussions and group activities, as I believe collaboration often leads to the most creative and impactful ideas.
+Career Plans
+In the long term, I aspire to pursue a research career in machine learning, with a particular focus on natural language processing and large-scale AI systems. My goal is to contribute to the development of more efficient, robust, and interpretable models that can better integrate structured and unstructured knowledge as is increasingly important in the context of LLMs and knowledge-intensive tasks.
+Participating in this summer school would be an important step toward achieving that goal. It would help me strengthen my academic profile, clarify my research interests, and lay the groundwork for possible graduate study or future research collaborations.
+Thank you very much for considering my application. I would be honored to be part of this program and contribute actively to its community.
+Sincerely,
+[name]
+[location] [compaany]
+[email]
+GitHub: github.com/[username]

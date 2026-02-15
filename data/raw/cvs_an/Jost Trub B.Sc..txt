@@ -1,0 +1,39 @@
+[name]
+[email]
+Education
+Bachelor of Science, Faculty of Computer Science, [location] September 2021 – August 2025
+Software Engineering GPA: 4.0/5.0
+Experience
+[compaany], Machine Learning Laboratory March 2024 – Present (1 year 1 month)
+Machine Learning Engineer (Deep Learning) [location]
+• Developed and deployed credit scoring models in production using RNN and transformer-based architectures on
+sequential credit history and transaction data; launched two neural networks to production.
+• Researched and built experimental pipelines for novel sequential data architectures to improve credit scoring metrics;
+increased Gini coefficient by over 1 point.
+• Developed and optimized GNNs for credit scoring and other use-cases.
+• Performeed graph clustering for anti-fraud applications.
+Phystech, Laboratory of Microelectronics and Applied AI October 2023 – March 2024 (6 months)
+Machine Learning Engineer (Computer Vision) [location]
+• Designed and implemented neural networks for image detection and segmentation tasks.
+• Optimized algorithmic complexity and inference speed.
+• Surveyed and applied state-of-the-art computer vision techniques.
+• Developed end-to-end data collection and parsing pipelines.
+Skills
+Programming Languages: Python, C++
+ML Frameworks: PyTorch, classical ML stack
+Data Technologies: Hadoop (Spark, Hive), SQL (Postgres)
+Tools: Linux, Git, Docker, Kubernetes, Airflow, MLflow
+Projects
+Multimodal Emotion Recognition | Python, PyTorch, Git Dec. 2024 – Present
+• Developed a unified multimodal emotion recognition system incorporating Valence-Arousal-Dominance (VAD)
+calculations.
+• Designed a multimodal architecture aligneed in a shared VAD feature space.
+• Implemented a model fusing video, audio, and skeletal data into a common embedding space using a contrastive loss.
+3D Processing Algorithms Model Library | C++, Boost, CMake, Git Oct. 2023 – Jan. 2024
+• Developed and optimized data structures for image and video processing.
+• Implemented computer graphics algorithms such as global and local tone mapping, low-pass filters, and more.
+• Integrated image processing algorithms including demosaicing and related methods.
+About Me
+Data Scientist / Machine Learning Engineer with research experience in Deep Learning. Experienced in driving
+model development end-to-end—from client interviews through production deployment to post-release support and
+updates.

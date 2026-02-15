@@ -1,0 +1,16 @@
+Hello, my name is [name] [surname], and I want to share my motivation for
+entering the summer schoo l of machine learning.
+I am currently in my fourth year at the [compaany] in [location].
+In 2025, I plan to finish my studies and enroll in the [location]
+of [compaany] named after Professor [name] [surname] to the
+Department of "Data Analysis and Applied Artificial Intelligence".
+My goal is to become a participant in the machine learning summer schoo l
+in order to continue developing my skills, participate in interesting projects, and
+gain new learning experience. I've been doing machine learning on my own for a
+long time, and I even have my own project to develop the LLM\model. However,
+I don't have a formal education in big data or machine learning, and I would like
+to fill this gap.
+In addition, knowledge of higher mathematics and other related disciplines
+will be a great advantage for me.
+I believe that SMILES-2025 is a great opportunity to gain all the necessary
+knowledge and skills that will help me further develop my career.

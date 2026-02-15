@@ -1,0 +1,93 @@
+Generating Polymers With The
+Given Properties via Transforme rs
+[name]
+Labo [location]U
+Introduction
+• The generative design of chemical structures with target properties represents a fundamental challenge in computa tional
+chemistry. While this task is well-esta blished in drug discovery, where deep generative models (e.g., Variational Autoencoders
+(VAEs) and Generative Adve rsal Ne tworks (GANs) achieve strong perf ormance due to abundant training data, polymer
+info rmatics faces severe data scarcity. The a vailable polymer structures are appr oxi mately 10,000 times fewer than drug-like
+compounds, funda men tally limiting model perf ormance.
+• While VAE-based ar chitectures have been explored for polymer generation1, ex isting imple mentations yield subo ptimal
+perf ormance owing to two key constraints: extreme data scarcity and nec essa rily compact model ar chitectures that avoid
+ove rfitting but limit representational capacity.
+Problem statement
+• For generative design of polymers with target properties, we will engineer a latent space with three key
+c haracteristics:
+o Reconstructability: SMILES stri ngs must be decodable from latent vectors with high
+fidelity
+o Predictivity: Late nt representations must enable accura te property prediction
+o Optimizability: The space must support derivative-free opti mization to navigate toward
+desired property values
+• Using this engineered latent space, we can generate polymers with target properties 𝑦 by solving the
+∗
+optimiz ation problem:
+𝑧 = argmin||𝑓 𝑧 − 𝑦 ||
+∗ ∗
+(cid:3053)
+• where 𝑓 𝑧 is the property prediction model, and 𝑧 is the optimal latent vector. This is achieved via
+∗
+derivative-free optim ization (e.g., Bayesian optim ization)
+Data Augmentation
+• There are o nly ~ 18,000 known structures for polymers which is not e nough to learn good models.
+• First attempt to augment the data: training a BPE-tokeniz er on the a vailable dataset and random
+concate nation BPE-tokens followed by fi ltering out incorre ct SMILES. Low diversity and low length of
+generated polymers.
+• Next attempt: full fine-tune of smiles-gpt2 (gpt-2 based model, trained on 10M c hemi cal structures
+dataset) on the a vailable dataset. LoRA tuning was worse. Significa ntly better then pr evious app roach.
+• Final app roach: Train small 5M decoder-only transformer on all generated pr eviously
+structures.
+Model
+Select next
+token
+µfeed fo rward σfeed fo rward
+layer layer Probability distribution over vocab
+for next token
+z = µ + σε, ε ~ 𝒩(0, 1)
+Latent space
+Add latent vector
+after each
+Tran sforme r layer
+as residual
+connection
+BPE tokenized smiles Add latent vector
+to word and
+positional <BOS>
+embeddings
+Append new token to GPT
+inputs
+Contrasti ve Learning
+𝐿 = 𝐿 + 𝛼𝐿
+(cid:3047)(cid:3045)(cid:3036)(cid:3043)(cid:3039)(cid:3032)(cid:3047) (cid:3045)(cid:3032)(cid:3030)(cid:3042)(cid:3041)(cid:3046)(cid:3047)(cid:3045)(cid:3048)(cid:3030)(cid:3047)(cid:3036)(cid:3042)(cid:3041)
+Results
+• Contrary to standard VAE training, we observed improved perf ormance by eliminating the KL-divergence term from the loss
+function while preserving a reparamet erization trick, i.e. our model is some compromise between VAE and AE.
+• To estimate the quality of final model several metrics were used: number of corr ectly reconstructed SMILES, number of valid
+SMILES (decoder quality) and R2 of the target properties prediction (density, etc) based on the latent vectors. Notably,
+XGBoost models consis tently outp erformed other app roaches in predicting target properties from the latent vectors.
+Model Number of Number of valid Density R2 Glass Transition Tensile
+correctl y SMILES Temperature R2 modulus R2
+reconstructed
+SMILES
+Model before 0.79 0.92 0.42 0.66 0.33
+contrasti ve
+Model with contrasti ve 0.86 0.95 0.47 0.75 0.34
+(Euclidean distance)
+Model with contrasti ve 0.88 0.96 0.61 0.77 0.40
+(Cosine distance)
+XGBoost Regres sion - - 0.73 0.83 0.18
+on Mol2Vec SMILES
+representation
+Results
+Research gap
+• Now we are collec ting experts markup of generated polymers in order to fine-tune generator on it and
+train proxy model for any generated polymer validation
+• Quality estimation of polymer generation from latent space
+• Application of metric learning app roaches to improve the quality of target property prediction from latent
+space
+Github with code examples
+Bibliography
+1. Batra, R.; Dai, H.; Huan, T. D.; Chen, L.; Kim, C.; Gutekunst, W. R.; Song, L.; Ramprasad, R. Polymers
+for Extreme Co ndi tions Designed Using Syntax-Directed Variational Au toencoders. Chem. Mater. 2020,
+32 (24), 10489–10500. https://doi.org/10.1021/acs.chemmater.0c03332.
+2. Adilov, S. Generative Pre-Training from Molecules. 2021.

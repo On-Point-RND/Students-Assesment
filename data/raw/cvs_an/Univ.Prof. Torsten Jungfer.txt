@@ -1,0 +1,65 @@
+Curriculum Vitae
+[name] [surname]
+Scientiist
+Dept. of Chemical and Bimolecular Engineering at [location]
+[email]
++2 *** *** ***
+RESEARCH EXPERIENCE
+Apr 2023 – Nov 2024 Researcher at Laboratory of Prof. R.C.Willson at the
+Department of Chemical and Bimolecular Engineering, [location]
+Project: Development of chemiluminescence based lateral flow assay
+Scientific advisor: Prof. R.C.Willson
+Nov 2020 – Apr 2023 Researcher at Laboratory of Prof. S.Shevkoplyas at the
+Department of Biomedical Engineering, [location]
+Project: Microfluidic bloood separation device
+Scientific advisor: Prof. S.Shevkoplyas
+July 2018 – Oct 2020 Visiting graduate Student at LaboLaboratory of Dr. E.Grishcchuk at
+Department of Physiology, Perelmaan Schoool of Medicine, [location]
+Project: Experimental and theoretical analysis of arterial thrombus
+dynamics
+Scientific advisor: Prof. E.Grishcchuk.
+Sep 2015 – Jul 2018 Junior Scientist at LaboLaboratory of Biophysics in Dmitry Rogachev
+National Research Center of Pediatric Hematology, Oncology and
+Immunoology, [location].
+Project: Experimental and theoretical analysis of arterial thrombus
+dynamics
+Scientific advisor: Nechipurenko D. Yu., Ph.D.
+EDUCATION
+Sep 2013 – Jun 2015 Ph.D. studies, Biophysics (GPA 5.00/5.00), Center for Theoretical
+Problems of Physicochemical Pharmacology, Russian Academy of
+Sciences, [location]
+Sep 2013 – Jun 2015 Master’s degree, Applied Physics and Mathematics (GPA
+4.75/5.00), Moscow Institute of Physics and Technology, Department
+of Biological and Medical Physics
+Sep 2010 – May 2013 3 years program at Russian State Medicine Universiity (GPA
+4.50/5.00)
+Sep 2009 – Jun 2013 Bachelor’s degree, Applied Physics and Mathematics (GPA
+4.20/5.00), Moscow Institute of Physics and Technology, Department
+of Biological and Medical Physics
+SKILLS
+● Microfluidiics: Design, modeling and fabrication and various manipulations with PDMSS
+flow chambers for bloood perfusion experiments, experience in design of microfluidics
+chambers
+● Mathematic: Statistics, Probability theory, Linear Algebra, Differential Equation,
+Mathematical analysis, Computational Mathematics, Bioinformatics
+● Numerical methods and mathematical modeling in biology: Comsol Multiphysics
+software (hydrodynamic models), MatLab software, Python programming (numerical
+simulations)
+● Programming: Python, MATLAB, Comsol
+● Image analysis: ImageJ
+● Knowledge of biotechnology related software: Origin (statistic tools), SigmaPlot (statistic
+tools), StatGraphics (statistic tools), Prism, MS Office, etc
+● Soft lithography: Photolithography process, clean room attendance, mask fabrication,
+mask design, microfluidics
+● Microscopy: light microscopy, confocal microscopy, fluorescence microscopy, electron
+microscopy
+● Flow cytometry
+● Biological databases: PDB, PubMed, BLAST
+● Languages: English (Advanced), Russian (native), French (Basic)
+FIELDS OF INTEREST
+Bioengeneering, Mathematical Biology, Biophysics, Hematology, Biochemistry
+LIST OF RECENT PUBLICATIONS
+https://scholar.google.com/citations?user=FCKXqLcAAAAJ&hl=en
+HONORS
+Graduate Student Fellowship, [location] in amount of $48,000
+UMNIK, 500000RUB innovatiive research grunt from Russian RVK Fund

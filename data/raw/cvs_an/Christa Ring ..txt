@@ -1,0 +1,73 @@
+[name] [surname]
++2 *** *** ***
+[email]
+[linkedin.com/in/[name][surname]]
+[github.com/[name][surname]]
+Summary — AI Enthusiast)
+Interests
+Science MachineLearning,MathStatistics,NLP,LLM, Industry VoiceAssistants,Banking(PD/LGD
+SpeechProcessing,RecSys,GraphProcessing, Modeling),Retail(DemandModeling),RecSys
+TimeSeriesProcessing,Visual-Langauage forSearchEngines,LLMApplications(Agents
+Models forEducation)
+Skills
+Python(+DS/ML:scikit-learn,numpy,scipy,torch,torchvision,torchaudio,onnx,nemo,pyg,networx,hugginface,
+tensorboard,wandb,etc.),C++,Scala,SQL,Docker,Airflow,Spark,Kubernetes,etc.
+Experience
+[compaany] Sep2024–current
+SeniorDS/MLE
+DemandPredictionteam
+– Maintaining production processes for regular demand prediction and delivery
+– Development of new solutions (implementation of ML approaches including Temporal Fusion Transformers)
+– Numerous hypotheses invention and testing with close communication with product owners
+– Teammembers mentoring
+[compaany] Jan2022–Aug2024
+DS/MLE
+[compaany]
+– Research on DL approaches for Speaker Verification
+– Architecture maintaining, implementation of new solutions, communication with product owners
+– Organization of internal product testing (both as MLE/Project Lead)
+– Development and integration of brand new multi-account feature (speaker verification for numerous users on same device), proven +4% of total recognition quality
+– Cross-communication with VideoTranslationteam on DL approaches for Speaker Verification/Speaker Diarization
+[compaany] VideoSearchTeam
+– Research on DL approaches for Video Search Engine in [compaany] Browser
+– Architecture maintaining, implementation of new solutions, communication with product owners
+– Development and integration of new models to balance NDCG and total profit search quality on fresh/total video segments
+[compaany] Education
+– Development and integration of LLM agents to guide school pupils for [compaany] Tutor
+– Architecture maintaining, implementation of new solutions, communication with product owners
+– Development of internal e2e tool to test experimental LLM model
+[compaany] Feb2021–Aug2021
+DS/MLE
+RiskModelingandResearchDepartment
+– Development of approaches for client clustering for recommender system
+– Research on client multi-graph clustering (using classical ML and DL approaches including GNN, Graphlink prediction)
+– Proposed and implemented clustering approach with proven total quality (group precision/recall) and time efficiency (up to 50% of calculation time) improvement
+[compaany] Oct2019–Sep2020
+MLResearcher
+AR/VRteam
+– Research on visual-inertial device SLAM problem (for device localization and environment map construction)
+– Optimized SLAM algorithm to win both in terms of quality and time
+– Research on DL approaches for device Motion Detection using inertial timed data, implemented RNN based models as new baseline
+[compaany] Feb2019–May2019
+DS
+HRAnalytics
+– Testing hypotheses on employee efficiency and employment time based on demographic data (age,education,etc.) and workprocessdata (usage time of internal corporal tools and frameworks)
+[compaany] Oct2018–Dec2018
+DS,Developer
+LegalDepartment
+– Development of automation tool to simplify document processing
+Education
+MoscowStateUniversity 2016-2020
+BachelorofScienceiNAppliedMathandInformatics
+– Thesis: ”Analysisofroundeddaatainnormalmixturemodel”
+HigherSchoolofEconomics,Skoltech 2020-2023
+MasterofScienceiNAppliedMathandInformatics,MathofMachineLearningjointprogram
+– Thesis: ”Small-ScaleSelf-SupervisedSpeakerVerification”
+Activity
+Skoltech 2023–present
+– VisitinglecturerandseminaristoNModelsofSequenentialDatacourse
+HigherSchoolofEconomics 2021–present
+– VisitinglecturerandseminaristoNFacultyofComputerScienceandBigDataProcessingDepartment
+[compaany], [compaany] 2021–present
+– Lecturerandseminaristin[compaany]University
+– AuthorofinternalML/Aicourses

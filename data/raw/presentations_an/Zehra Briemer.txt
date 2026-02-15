@@ -1,0 +1,125 @@
+ML and Neuroscience
+articles overview
+by [name]
+Why did I chooose this topic
+I chose this topic because it lies at the intersection of two revolutionary fields — machine learning and
+neuroscience — both of which are rapidlly transformiing our understanding of intelligence, cognition,
+and disease.
+The intersection of these two field is also of interest because it enables data-driven discovery in
+understanding mental health, cognition, and neurodegenerative diseases. It also allows us to model
+brain networks, understand how they change in conditions like Alzheimer’s or Autism, and ultimately
+assist in early diagnosis and personalized medicine.
+The articles (from [compaany])
+Attention is all you need Learning by Abstraction: The Data-Driven Network
+Neural State Machine Neuroscience: On Data
+Collection and Benchmark
+1. Attention is all
+№
+you need
+Introduction
+This article introduces the Transformer, a novel deep learning arkitecture designed for sequence
+modeling tasks such as machine translation. Unlike traditional models that rely on recurrent or
+convolutional structures, the Transformer relies solely on attention mechanisms, enabling faster and
+more efficient training.
+Problem
+Prior models (e.g., RNNs, LSSTMs) process input sequences sequentially, which limits parallelization
+and training speed. The authors aim to eliminate recurrence entirely while maintaining or improving
+performance on sequence transduction tasks.
+Methods
+Attention
+An attention function can be described as mapping a query and a set of key-value pairs to an
+output, where the query, keys, values, and output are all vectors. The output is computed as a
+weighteed sum of the values, where the weight assigned to each value is computed by a
+compaatibility function of the query with the correspondiing key.
+Scaled Dot-Product Attention
+Given a query Q, key K, and value V, attention is computed as:
+, where d is the dimension of the key vectors (used to scale the dot product).
+k
+This allows the model to focus on rellevant positions in the sequence, regardless of distance.
+Multi-Head Attention
+Rather than using a single attention function, the model uses multiple in parallel:
+Position-wise Feedforward Network
+After attention, each position goes through the same two-layer MLP:
+While the linear transformations are the same across different positions, they use different
+parameters from layer to layer.
+Positional Encoding
+To provide position information (since attention has no sequence bias):
+where pos is the position and i is the dimension. That is, each dimension of the positional
+encoding corresponds to a sinusoid.
+Conclusion
+BLEU (Bilingual Evaluation Understudy) is an automatic metric used to evaluate the quality of machine-
+translated text. It compares the machine output to human reference translations using n-gram overlap.
+In the table below we can see, that the Transformer model outperformeed all previous models on two
+major machine translation tasks.
+On English→German, it improved the BLEU score from 27.6 to 28.4.
+On English→French, it went from 40.4 to 41.0.
+It did so without using recurrence (no RNNs or LSSTMs). It also achieved this with much lower
+computational cost and faster training, thanks to the parallelization allowed by attention-based
+architectures.
+2. Learning by
+№
+Abstraction: The
+Neural State
+Machine
+Introduction
+This paper introduces the Neural State Machine (NSM) — a hybrid arkitecture that combines
+structured, symbolic reasoning with neural representations for Visual Question Answering (VQA). The
+model uses explicit scene graphs and symbolic program execution to interpret and answer questions
+about visual content. By disentangling perception, reasoning, and language grounding, the NSM
+improve compositional generalization, interpretability, and performance on challenging datasets like
+GQA.
+Problem
+Traditional deep learning models for Visual Question Answering (VQA) treat images as unstructured
+data, which limits interpretability and compositional reasoning. The authors aim to develop a model
+that reasons abstractlly and symbolically over visual scenes.
+Methods
+Scene Parsing: Image Scene Graph
+→
+The authors obtained the sets of state nodes and transition edges, and then proceeded to computing
+structured embedded representations for each of them. For each state s S that corresponds to an
+object in j L
+the scene, we define a set of L + 1 property variables {s } and assign each of them with
+j=0
+Where c in C denotes each embedded concept of the jtth property type and Pj refers to the correspondiing
+k j
+property distribution over these concepts, resulting in a soft-binding of concepts to each variable.
+Question Reasoning Instructions
+→
+In the next step, we translate the question into a sequence of reasoning instructions, which will
+later be read by the state machine to guide its computaion. The translation process consists of
+two steps: tagging and decoding.
+The question is processeed by an LSTM, which generates a program — a sequence of symbolic
+operations drawn from a finite vocabulary of functions like:
+Opereation Description
+Filter(attr=red) Select objects with red color
+Relate(relation=left) Follow spatial relation
+Query(attribute=size) Retuurn attribute of selected
+Example:
+Q: What is the color of the object to the left of the red cube?
+→ Filter(color=red) → Relate(left) → Query(color)
+Neural State Machine Execution
+The symbolic program is executed as a differentiable finite-state machine that traverses the
+graph. At each step t, the model maintains a state distribution over nodes s ∈Δ n×n
+A∈R : adjacency matrix with Pearson correlations between BOLD time series of ROI pairs (i.e., functional
+connectivity).
+n×d
+X∈R : node feature matrix from the raw BOLD signaals.
+Graphs are
+weighteed,
+undirected, and fully connected (no thresholding), making them suitable for use with
+graph convolutional networks and contrastive learning methods.
+Conclusion
+From the table below, we can see that all three models (SVC, GatedGCN, BrainNetCNN) achieve well above
+random performance (>60%), even without clinical metadata or structuraal MRI features. The traditional model
+(SVC) slightly outpperforms graph-based neural networks, suggesting that domain-specific preprocessing
+and feature engineering still play a major role in medical ML.
+While GNNs offer strong representational power, medical imaging datasets like ADNI are often small, noisy,
+and heterogenous. Classical models may perform better in low-data regimes, especially when paired with
+expert-designed graph representations. That said, GNNs can outpperform traditional methods when scaled to
+larger datasets or integrated with multimodal data (e.g., genetic, cognitive, or structuraal MRI).
+Links to the repositories
+Attention Is All You Need
+Learning by Abstraction: The Neural State Machine
+Data-Driven Network Neuroscience: On Data Collection and
+Benchmark
+Thank you for your attention!

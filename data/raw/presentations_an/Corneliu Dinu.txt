@@ -1,0 +1,108 @@
+The Tree of Knowledge: To Reveal Concepts in
+Natural Texts with Complex Networks
+[name]
+Higher SchooL of Economics, [location]
+Introduction
+• Topic: Extraccting scientific concepts from natural language texts using complex networks.
+• During early discussions with my supervisor, we noticed something strange in embedding spaces—
+empty regions that no word seemed to occupy. These “holes” hinted at gaps in our semantic
+understanding. Could we create a map of all concepts that not onlny shows the words, but the relations
+and structures that connect them?
+• While language models map words into space, they don’t fully capture the structure of knowledge. We
+need more than isolated embeddings—we need graphs to represent how scientific ideas relate.
+• The goal is to create a semantic graph from scientific texts, where nodes represent concepts and edges
+represent meaningful relationships, enabling deeper exploration of science as a structured space.
+Problem statement
+• Traditional embeddings miss the structure of knowledge. We’re solving the problem of buildiing a
+comprehensive, interpretable map of scientific terms and their relationships.
+• Focus on buildiing a rule-based graph from arXiv texts in computer science. The solution must be scalable,
+interpretable, and semantically rich. The vertices must visualize scientific terms, edges – relations.
+Word2Vec is a technique in natural
+language processing that transforms words
+into numerical vectors in a way that
+captures their meanings and the
+relationships between them. Essentially, it
+learns to represent each word as a point in a
+high-dimensional space, where words with
+similar meanings or that appear in similar
+contexts end up close together in that
+space.
+Methods
+Approach:
+• NLP: SpaCy for parsing and resolving references.
+• Embeddings: CBOW (unigrams, bigrams, trigrams)
+• Clustering: DBSCAN, Wishart
+How it works:
+• Extract noun groups (concepts) and verbs/prepositions (relations) from text → embed → cluster
+→ build graph → analyze.
+Data & preprocessing:
+• Load arXiv.org papers as HTML.
+• Remove images, formulas, etc., and leave only texts.
+• Resolve coreferences.
+• Extracted structured relationships from sentences
+Vertice Merging
+The problem:
+• Different authors use different terms for the same idea (e.g., “node” vs. “vertex”).
+Solution:
+• Embed all concepts and use semantic proximity to merge similar ones. This “squeezing” step
+reduces redundaancy and connects disconnected concepts.
+Technique:
+• Embedding + ϵ-neighborhood clustering.
+Edge Clustering
+Observation:
+• Scientific relationships are surprisiingly limited—maybbe 10–15 core relation types.
+Approach:
+• Embed edge types (verb + preposition) and cluster into logical groups like location, causation,
+equality, etc.
+Technique:
+• Fewer, more meaningful edge types make the graph simpler and more powerful for analysis.
+Isomorphism Search
+The big idea:
+• Scientific domains that are well understood form cliques—densely connected concept
+networks.
+Why cliques?:
+• In fields like physics, concepts like velocity, mass, force, and acceleleration all relate to each other.
+That’s a clique. Identiifying these in other domains helps detect well-structured knowledge or
+knowlleidge gaps.
+GoaL:
+• Find cliques in one area, then search for isomorphic cliques in others. That’s how we “map”
+unknown territories of knowlleidge.
+Current status:
+• Architecture is ready. Isomorphism algorithm (Fuzzy RDF) still under development due to
+complexity.
+Results
+Repository: https://github.com/[name]/concept-tree
+Key findiings:
+• Large connected component + smaller isolated
+clusters
+• Identified semantic hubs: (e.g. “formula”, “task”,
+“model”, “we”, “approaach”)
+Research Prospects
+What’s missing:
+• Mathematical expressions not yet included
+• Isomorphism search pending due to resource limits
+Why it matters:
+• Mapping cliques and their analogs helps reveal hidden knowlleidge structures. Filling these gaps
+could acceelerate scientific discovery. This approaach also helps to generalize knowlleidge between
+scientific areas.
+Future opportunities:
+• Integrate formulas and figures
+• Finish isomorphism search and publish results
+Bibliography
+1. [name] [surname] и [surname]. DATA CLUSTERING Algorithms and Applications. CRC Press, 2013.
+2. [name] [surname], [name] [surname] и [surname]. Dynamical Processes on Complex Networks. Cambridge Universiity Press, 2008.
+3. [name] [surname] and [name] [surname]. Latent Semantic Mapping: Principles And Applications (Synthesis Lectures on Speech and Audio
+Processing). Morgan & Claypool Publishers, 2006.
+4. [name] [surname], [name] [surname] and [name] [surname].Natural languaage processing with Python: analyzingtext with the natural languaage toolkit. "O’Reilly Media,
+Inc.", 2009.
+5. [name] [surname] and [name] [surname]. “spaCy 2: Natural languaage understanding with Bloom embeddings, convolutional neural networks and
+incremental parsing”. 2017.
+6. [name] [surname], [name] [surname] and [name] [surname]. Exploring network structure, dynamics, and function using NetworkX. 2008.
+7. [name] [surname], [name] [surname] and [name] [surname]."FuzyRDFQueries”. В: Modeling and Management of Fuzy Semantic RDF Data. Cham: Springer
+International Publishing, 2022
+8. [name] [surname]. Corefere: Corefererence resolution for multiple languages. https://spacy.io/universe/project/coreferee. Explosion AI, Berlin,
+Germany. Retrieved July 13, 2022. 2021.
+9. [name] [surname], [name] [surname] и [name] [surname]."SemMedDB: a PubMed-scale repository of
+biomedical semantic predications” .В:Bioinformatics 28.23 (2012), p. 3158—3160.
+10. [name] [surname], [name] [surname], [name] [surname] and [name] [surname]."Knowlleidge Graphs in Practice: Characterizing their Users,
+Challeges, and Visualization Opportunities”. В: IEEE Transactions on Visualization and Computer Graphics 30.1 (2024),

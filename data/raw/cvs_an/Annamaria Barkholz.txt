@@ -1,0 +1,38 @@
+Email: [email]
+[name] [surname]
+GitHub: github.com/[name]
+LinkedIn: [name] [surname]
+Phone: +2 *** *** ***
+Summary
+I am a software and machine learning developeer with expertise in recommender systems. My bachelor’s thesis
+focused on applying hyperbolic geometry to recommender systems, resulting in a publication at an A-rankeed
+conference. I am currentlly pursuing a Master’s degree in Data Science at the [compaany]. My academic and professional journey reflects a strong focus on connecting theoretical
+innovation with practical applications in machine learning.
+Publications and Achievements
+• Participation in SPISOK conference [location], April, 2023
+• Publication at ACM RecSys‘24 Conference [location] Bari, October 2024
+• Participannt of a prizewinning team, [compaany] [location] hackaton November, 2024
+Projects
+Estimating delta hyperbolicity for Hyperbolic Recommener Systems Python, Numba
+Computaional Intelilgence lab, [compaany] July 2023 - June 2024
+An algorithm for fast calculating Gromov‘s delta-hyperbolicity, precise estimation of which
+had dramatic impaact (up to 23% over baseline) on the performaance of the SaSRec model.
+– Statistical analysis of estimated values
+– New euristic approach to calculating the delta-hyperbolicity value
+(approxiately 100 times faster than the numpy matrix implementaion)
+Benchmarking SLAM Algorithms Python, Open3D
+Mobile Robotics lab, [compaany] February 2022 - June 2022
+A tool for benchmarking backend part of planes SLAM algorithm to use calculated values
+as a reference metric in the future.
+– Scripts for preprocessing input data to improve algorithm convergence
+– Measurements of the performaance accuracy for chosen algorithm on a previously developed dataset
+Experience
+Research Intern Hyperbolic geometry, delta-hyperbolicity
+MTML laboratory, [compaany] November 2023 - Current
+Research, development, and evaluaation of recommender systems with focus on ideas based on attention. Continuation
+of Self-Attentive Sequential Recommendaions with Hyperbolic Representaations work.
+Education
+[location] State Universiity [location]
+Bachelor studies, Chair of Software Engineering, Mathematics and Mechanics faculty 2020 – 2024
+[compaany]
+MSc, Data Science, ML&AI track 2024 – Current

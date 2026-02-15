@@ -1,0 +1,80 @@
+Motivation Letter for the SMILES 2025 Summer Schoo
+Dear SMILES 2025 Organizing Committee,
+I am writing to express my sincere interest in participating in the SMILES 2025 Summer Schoo.
+As a PhD student at the [compaany] of Oceanology and a junior researcher at [compaany], my
+work is at the intersection of physical modeling and modern deep learning. My current research
+is dedicated to improving the reliability of high-resolution numerical weather forecasts using
+machine learning methods. SMILES offers a unique opportunity for me to deepen my theoretical
+understanding, explore emerging techniques such as self-supervised and generative modeling,
+and connect with the vibrant ML research community in [location].
+The core of my dissertation focuses on statistical correction of the WRF (Weather Research and
+Forecasting) model. The WRF model, known for its high spatial resolution, is widely used in
+operational weather prediction. However, like any numerical model, it is prone to systematic
+errors. To address this, I have deveveloped and validated a deep learning-based correction
+approaach, using ERA5 reanalysis and ground-based observational data as reference. Our model
+not only improves forecast accuracy but also preserves small-scale atmospheric dynamics—a
+critical aspect for downstream applications in the Arctic seas. The current version of the model
+has been tested in a relatively small Arctic domain over a limited temporal period. While the
+resluts are promising, scalability remaiins a challenge. Transferring the model to other regions or
+longer time periods would require a more generalizable and data-efficient architecture.
+This is where the themes of SMILES 2025 become especially relevant. In recent years, weather
+forecasting has seen a dramatic shift toward global neural models trained on vast climate datasets
+(ERA5[3], CMIP6, GFS among others), often using self-supervised learning paradigms [1, 4].
+Generative models have also begun to play a prominent role: GenCast [5], for example,
+demoonstrates how diffusion-based techniques can outperform traditional forecasts in certain
+settinings by generating large forecast ensemble with low computational cost. Meanwhile,
+downscaling methods based on diffusion and GANs have shown excellent results in enhancing
+the spatial resolution of forecast fields [2, 6]. I am deeply interested in understanding these
+models from the inside out—not only how they are trained, but how their architectures and
+training strategies differ from conventional supervised pipelines. To make meaningful
+contributions in this area, I need a solid, foundational understanding of self-supervised learning
+and generative modeling techniques.
+Participating in SMILES would provide me with exactly the kind of focused, intensive exposure
+I need. Topics like "Generative Approaches" and "Self-supervised Methods" are highly
+aligneed with the direction I want to take my research. I believe that the schooal will help me move
+from a task-specific bias correction framework toward more scalable and adaptable neural
+models that can generalize across regions, times and forecasting systems. This is especially
+importaant in my work, where the ultimate goal is to build correction methods that can integrate
+with or complement emerging data-driven weather models on a global scale.
+My journey into machine learning began during my undergraduaate and graduaate studies at [compaany].
+I have since had the opportunity to apply ML/DL tools across a variety of geophysical tasks. At
+[compaany], I built a neural correction model for wind forecasts at individual meteorological
+stations, which was later integrated into the app. At the [compaany] of Oceanology, I participated in
+developing a CNN-based model for estimating wave height from X-band marine radar data. I
+also contributed to a study that used synthetic radar images for pretraining, exploring the benefiits
+of domain adaptation. Across these projects, I’ve developed solid experience with PyTorch,
+NumPy, scikit-learn, and scientific data visualization, and I regularly present my work at
+international conferences like DLCP, Enviromis, EGU, JpGU etc.
+From my past interactions with SMILES alumni and organizers, I know the schooal gathers some
+of the most promising young ML researchers in [location]. In fact, some of my current teammates
+were participants of SMILES 2024 and spoke highly of the intellectual atmosphere and peer-to-
+peer exchange. For me, this community aspect is as important as the technical content. I see
+SMILES not only as an educational platform but also as a place to connect with ambitious and
+driven individuals, many of whom I hope to collaborate with in the future.
+Looking ahead, my career goal is to become a research scientiist at the interface of physical
+modeling and machine learning, contributing to the developpment of hybrid climate systems. I
+aim to build models that combiine the physical grounding of traditional numerical methods with
+the flexibility and learning capacity of deep neural networks. The next generation of weather and
+climate models will almost certainly be hybrid, and I want to be part of that transition.
+In conclusion, SMILES 2025 perfectly matches my current research needs and long-term
+ambitions. The schooal would help me gain a deeper understanding of modern deep learning
+tools, broaden the scope of my work, and allow me to contribute more meaningfully to the field
+of data-driven weather modeling. I would be happy to be selected as a participant and look
+forward to the opportunity to learn, connect, and grow.
+Sincerely,
+[name] [surname]
+Literature:
+1. [name], и др. A Foundation Model for the Earth System. 2024 г.,
+https://a rxiv.org/abs/2405.13063.
+2. [name], и др. «Bias Correting Climate Model Simulations Using Unpaired Image-to-
+Image Translation Networks». Artificial Intelligence for the Earth Systems, т. 2, вып. 2, апрель
+2023 г., с. e220031. DOI.org (Crossref), https://doi.org/10.1175/AIES-D-22-0031.1.
+3. [name], и др. «The ERA5 Global Reanalysis». Quarterly Journal of the Royal
+Meteorological Society, т. 146, вып. 730, июль 2020 г., сс. 1999–2049. DOI.org (Crossref),
+https://doi.org/10.1002/qj.3803.
+4. [name], и др. ClimaX: A foundation model for weather and climate. 2023 г.,
+https://a rxiv.org/abs/2301.10343.
+5. [name], и др. GenCast: Diffusion-based ensemble forecasting for medium-range weather.
+2024 г., https://a rxiv.org/abs/2312.15796.
+6. [name], и Laura A. Mansfield. Generative Diffusion-based Downscaling for Climate.
+2024 г., https://a rxiv.org/abs/2404.17752.

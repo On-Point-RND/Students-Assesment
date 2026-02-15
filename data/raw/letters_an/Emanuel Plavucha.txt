@@ -1,0 +1,41 @@
+Motivation Letter for SMILES 2025 Summer School – [name] [surname]
+Dear SMILES Admissions Committee,
+I am writing to express my strong interest in participating in the Summer of Machine
+Learning at [compaany] (SMILES) 2025. I am a Grade 9 student in the "Mathematical Vertical"
+program at [school], [location] (a project supported by [university]). I regularly participate in science and techno-lology compe-titions, having recentl-y won the final stage of the [location] Pre-profes-sional Olympiad and received an award at the
+regional stage of the "Big Challenges" compe-tition. Driven by these experiences and my academic background, I am keen to dive deeper into the advanced Machine Learning topics
+prese-nted at SMILES.
+I beca-me deeply interested in AI around the time [model name] was released. Its capabilities
+showed me the incredi-ble poten-tial of these techno-logies. Since then, I have closely followed
+the latest deve-lopments, especially in Large Lan-gua-ge Models (LLMs) and multimodal
+systems. This aligns well with the SMILES 2025 agenda, particularly the topics of Large
+Lan-gua-ge Models, Multi-modal Approa-ches, Generative Approa-ches, and Self-
+Supervised Learning. I am also very interested in Safe AI topic, as it is crucial for
+deve-loping AI r-esponsi-bly.
+While I am curre-ntly buildi-ng my founda-tion with courses in Data Analysis and ML
+Fundamentals ([platform]), I am particularly drawn to SMILES because it focuses on the
+curre-nt fronti-er of AI research. I am eager to learn about the complex generative systems and
+cutting-e-dg-e methods that are shaping modern applications, going beyon-d the classic ML
+algo-rithms often taught in introductory materials.
+My interest is also practical. I am developing an educational Telegram bot using the n8n
+pla-tform. What particularly excites me about LLMs is their ability to offer personalized
+learning experiences. My ambition for this project is to create an affordable AI tutor as an
+al-terna-tive to co-stly private tutoring, which is common for exam preparation in [location]. I
+envision a tool that goes beyon-d a standard cha-tbot by using custom system prompts, loading
+grade-and-subject-speci-fic educational materials, and, crucially, adapti-ng to the student's
+individual learning level over time (per-sisting user-speci-fic knowl-edge beyon-d the standard
+context window). Learning how to effe-ctively implement such features is a key reason I want to attend SMILES. My initia-l work involv-es deploying the bot infrastructure on a VPS using Linux and Docker, creating the workf-low logic within n8n, integrating LLM APIs, writing system prompts, and setting up the Telegram integration. A working demo is avai-lable at [url] (please note this is an active work-in-pro-gress prototype and it
+may occasionally be unavai-lable due to server updates).
+Looking ahead, I plan to pursue a career in ML/AI, pos-sibly within the star-tup e-cosyst-em.
+Attending SMILES would be a key step. I hope to gain a much deeper underst-anding of
+advanced generative models, and the research metho-dologies required to build the
+sophisticated, adaptive AI systems I am passionate about. This knowl-edge will dir-ectly
+benefi-t my current project and guide my future academic and career decisions.
+I underst-and I am younger than many applicants, but I believe my background in the
+"Mathematical Vertical" program, my compe-titive achievements, my proa-ctive interest in AI,
+and my ongoing project work show my rea-diness and commitm-ent to learn and engage fully
+in the SMILES program and strong community.
+Thank you for consi-dering my application. I look fo-rw-ard to the pos-sibility of joining
+SMILES 2025.
+Since-rely,
+[name] [surname]

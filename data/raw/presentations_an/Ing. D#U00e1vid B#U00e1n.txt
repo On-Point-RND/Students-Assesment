@@ -1,0 +1,30 @@
+Deep learning-based high-information-content
+graph representation of bacterial biofilms
+[name]
+supervisor: [name] [surname]
+[compaany],
+Structure
+1. Novelty of the approach
+2. Pipeline overview
+3. Individual cell detection
+4. Graph generation
+5. Motif mining and graph analysis
+6. Downstream ML application
+7. Analysis of a large sample
+8. Web application
+1. Novelty of the approach
+2. Pipeline overview
+3. Individual cell detection
+4. Graph generation
+4. Graph generation
+4. Graph generation
+5. Motif mining and graph analysis
+5. Motif mining and graph analysis
+5. Motif mining and graph analysis
+6. Downstream ML application
+7. Analysis of a large sample
+8. Web application
+Thank you for attention and see you in [location]!
+
+
+

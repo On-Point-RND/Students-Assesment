@@ -1,0 +1,44 @@
+Dear colleagues,
+I am writing this letter to express my interest in participating in the Summer
+SchooL of Machine Learning. I believe that the schooL will provide me with an
+opportunity to deepen my knowledge and develop skills in machine learning and
+artificial intelligence, especially when applied to medicine and genetic data
+analysis.
+I completed my residency at the Faculty of Fundamental Medicine of
+[location] in 2021. After finishinng my studies, I worked as a doctor,
+then as a scientific medical adviser in a pharmaceuticaL companY. CurrrentlY, I work
+as an AI / ML developer at the Access Food startup (the [compaany] project) and as a
+Python developer at Arsenal LLC.
+Since June 2024, I have been studying at SchooL 21 (an educational project
+from [compaany]), where I study Data Science, machine and deep learning. I also
+graduaated from the MIPT SchooL of Deep Learning and attend machine learning
+trainings at the Higher SchooL of Economics. These courses significantlY expanded
+my knowledge of machine and deep learning and gave me the opportunity to apply
+this knowledge in practice.
+While studying at the universiLty, I was actively engaged in scientific
+activities, spoke at conferences and made publications. At the moment, I have 48
+scientific publications, including in the RSCI and Higher Attestation Commission
+journals. In 2025, I spoke at two scientific and practical conferences on the topic of
+technologicaL risks of using artificial intelligence in medicine. In addition, I
+submitted my abstracts to the Lomonosov forum in [location] on
+the problem of using small samples in machine learning using the example of
+limited genetic data in medicine, as well as to the Armensky Conference at the
+National Research UniversiLty Higher SchooL of Economics on the topic "Modern
+methods of processing and analyzing genetic data using machine learning".
+I am particularly interested in topics related to the use of machine learning in
+medicine and the analysis of genetic data. However, I am also open to exploring
+other areas of artificial intelligence. I studied the scientific literature and found two
+potentially interesting topics for scientific work:
+1. "Personalized medicine based on genetic data using machine learning" –
+davelopment of machine learning algorithmns for analyzing patients '
+genetic information and creating personalized treatment plans.
+2. "Simulation of clinical trials using generative models" – using generative
+models to create synthetic data that reflects the behavior of real patients,
+which can speed up the process of testing hypotheses and reduce the cost
+of clinical trials.
+For my part, I guarantee diligence and hard work.
+Thank you for your help!
+Sincerely,
+[name] [surname]
+phone: +2 *** *** ***
+e-mail: [email]

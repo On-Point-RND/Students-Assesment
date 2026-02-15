@@ -1,0 +1,88 @@
+[name] [surname] [email]
+Programmer, developer +2 *** *** ***
+20 years old, date of birth - January 30, 2005 [location]
+EDUCATION SKILLS
+Information Systems and Technologies: Artificial
+C# Python SQL LLM
+Intelligence and Programming
+[location] Industrial Institute, [location] Scikit-learn DevOps Node.js
+09/2022 - Present, Bachelor course
+Java Linux Javascript VueJS
+Courses
+Data mining in the field of cybersecurity Visual Studio PyCharm
+Algorithms and data structures
+PROJECTS
+AI and ML Mathematics
+Interactive 3D map of [location] Industrial University
+(09/2022 - 05/2024) Ability to work in a team
+The TIU Interactive 3D Map project is a mobile application developed on the Unity
+platform that provides a three-dimensional visualization of the university campus Communication competence
+with detailed models of buildings and offers users an intuitive navigation system
+that includes building routes both inside buildings and between buildings. Training and development
+Telereanimation (09/2023 - 09/2024)
+The Telereanimation project is aimed at creating intelligent modules for medical
+information systems, including predicting critical conditions of patients,
+monitoring compliance with medical protocols (for example, automatic checking
+of glove use by staff) and other AI solutions. As part of the project, I participated
+Third degree
+in the development of the critical condition prediction module as a data analyst
+and ML specialist. The project is currently under development. X International Scientific and Practical
+Conference-Competition "New information technologies in the oil
+Intelligent routing of requests based on language models and gas industry and education. Mechatronics,
+(06/2024 - 09/2024) robotics and artificial intelligence"
+As part of the project, modern technological solutions were used, including the Scientific article
+Saiga language model for natural language processing, the PostgreSQL database
+ELIBRARY: Концепт интeрактивной 3D карты
+with the pgvector extension for storing and searching vector data, as well as the
+ТИУ / О. А. Насадюк, А. И. Винарь, Э. П. Храмцова [и
+ruRoberta neural network model for vectorizing text information; the server part
+др.] // Новые информационные технoлогии в
+of the system was developed on the Node platform.js, Python was additionally
+нефтeгазовой отрасли и обрaзовании :
+used for data processing and machine learning, as well as standard web
+материалы X Международной научной
+technologies, DevOps tools that automate the deployment and monitoring of
+практической конференции-конкурса, Тюмень,
+server infrastructure.
+20–21 апреля 2023 года. – Тюмень: Тюменский
+Development of a concept for the use of AI technologies in an industrial university, 2023. – С. 253-257.
+automated process control system for an oil and gas separator – EDN DWFOGB.
+(05/2024 - 07/2024) Scientific article
+The project is aimed at developing a concept for the use of artificial intelligence
+ELIBRARY: Интерактивная 3D карта ТИУ / А. И.
+and machine learning technologies in an automated process control system (ACS)
+Винарь, Э. П. Храмцова, К. Я. Сидоренко [и др.] //
+of an oil and gas separator, including research on the integration of cloud
+Новые информационные технологии в
+platforms for data storage and processing, the introduction of IoT devices for
+нефтегазовой отрасли и обрaзовании :
+collecting indicators, access control to the system, interaction with SCADA
+Материалы XI Международной научной
+systems, as well as performance analysis. sensors and regulators. прaктической конференции-конкурса, Тюмень,
+Analysis and predictive analytics of individual blocks and indicators 18–19 апреля 2024 года. – Тюмень: Тюменский
+of economic development of the region (09/2024 - Present) – EDN RRPYWU.
+The project is aimed at developing an intelligent forecasting system for economic
+indicators for the [location] Region Department, which includes automated
+machine learning (AutoML) for building and optimizing predictive models, as well WORK EXPERIENCE
+as creating a centralized "Data Lake" with up-to-date and historical information,
+ensuring continuous updating and data storage; the system covers the full
+lifecycle. Models range from data collection and preprocessing to training,
+validation, deployment, and monitoring.
+SurgutASUneft (06/2024 - 09/2024)
+Development of a service for dividing bills in restaurants from development and design of web application
+architecture. Technology technician. Data analysis. Working with
+Language models and neural networks, DevOps,
+Sburbank (03/2025 - 04/2025)
+The project aims to develop an intelligent receipt processing system using OCR
+technology based on Tesseract to extract text data, then structure information
+using the GigaChat LLM model, as well as implement the functionality of
+automatic account separation between participants using machine learning
+algorithms; the system is integrated with a Telegram bot that provides convenient
+interaction with by users.
+INTERESTS
+About me
+I try to learn new things and get acquainted with the
+experience and knowledge of other developers. I'm
+watching: Evgenia Razinkova (lectures on machine
+learning), Gleb Mikhailov (Data Analysis in Python
+and Pandas)

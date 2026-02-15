@@ -1,0 +1,65 @@
+[name] [surname]
+[email] | +2 *** *** *** | March, 21, 2001 | [location] | GitHub: DonMaxon | Porrtolio
+Skills
+● Languages: English (B2), Russian (native speaker)
+● Programming languages: Python, Java, C++, SQL
+● Tools: NumPy, Matplotlib, Pandas, Scikit-learn, OpenCV, FastAPI, Pytorch, Git, MongoDB, PostgreSQL, Postman, RabbitMQ, Docker, Spring
+Experience
+FPI, [location]
+Researcher
+November 2024 – Present
+● Developed a benchmark to compaare state-of-the-art lip-sync solutions, conducted a comprehensive
+evaluation and analysis of the latest approaches.
+● Researched and benchmarked state-of-the-art image-to-video and text-to-video generation methods.
+Ceinter of information technologies, [location]
+Software engineer
+September 2022 – Present
+● Developed a solution for detecting falls on video with 81% accuracy, measured as the percentage of
+frames correctly identifying the presence of a fall, deployable on Jetson Nano.
+● Developed a FastAPI service that uses camera data to determine a person's location and generate their
+heatmap.
+● Developed an autoencoder to determine if there was a spill in wells used for pouring metal, achieving a
+True Positive Rate and True Negative Rate of over 0.9.
+● Worked as a Java Backend Deveveloper, a service for interacting with the [company] payment gateway, a
+notification service using Firebase Cloud Messaging, as well as several other services. Additionally,
+implemented service interaction using RabbitMQ and monitoring of services using Grafana.
+● Solved a computer vision problem of getting information from a photo of a counter (barcode detection and
+decoding, text recognition, blur detection) on an image with an accuracy of 80% using zBar, tesseract and
+various image transformations from the OpenCV library.
+Summer with AIRI, [location] (Summer schoo l)
+ML engineer
+August 2024
+● Participated in a project to develop a multimodal model based on multiple visual encoders. As part of this
+work, I trained an adapter for LaTeX text recognition and integrated it with the CLIP adapter. In
+collaboration with the team, we combined the TrOCR, CLIP, and CoDETR encoders with the QWEN2-0.5
+language model.
+Linza Metrics, [location] (Educational practice in ITMO universi ty)
+ML engineer
+September 2023 – January 2024
+● Created a model to track people using Yolo+Deepsort, made an auto labeling for Kinetics dataset
+Education
+ITMO Universi ty; MSc in artificial intelligence
+September 2023 - June 2025 | [location]
+GPA: 4,75 out of 5
+Samara Universi ty; BSc in applied mathematics and computer science
+September 2019 - June 2023 | [location]
+GPA: 4,97 out of 5
+Samara Universi ty; IT project management (additional education)
+September 2022 - June 2023 | [location]
+● Participated in the creation of an Android application for handwriting recognition as a team leader.
+Tesseract was used for printed text recognition, and Microsoft's machine learning TrOCR model was used
+for handwriting recognition in combination with our own neural network for single-word recognition.
+GPA: 5 out of 5
+Achievements
+● Winner of Junior ML Contest 2023
+● T1 [location] Hackathon 2024, OCR Track: 2nd place among 11 teams
+● Winner of the Congress of Young Scientists 2023 ITMO in Data Science section
+● International Internet Olympiad in Info rmatics 2022: Gold medal (7 of 4779)
+● International Internet Olympiad in Info rmatics 2021: Silv er medal (18 of 5193)
+● International Internet Olympiad in Info rmatics 2020: Bronze medal (42 of 5229)
+● Article:: [name] [surname], [name] [surname] and [name] [surname], "Compa rison of feature selection algo rithm s for
+Data classification problems" doi: 10.1109/ITNT55410.2022.9848765
+● Article:: [name] [surname], [name] [surname] et. al., "Feature Selection Based on Mrmr and Genetic
+Algo rithm for Data Classification Problems" doi: https://doi.org/10.51408/csit2023_10
+● Article:: [name] [surname], [name] [surname], [name] [surname] et. al., "AI-Assis ted CO2 Corrosion
+Forecasting Method for Pipeline Integrity Monitori ng System" doi: 10.1109/ITNT60778.2024.10582289

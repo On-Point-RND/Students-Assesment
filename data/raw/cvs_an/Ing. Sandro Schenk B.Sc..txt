@@ -1,0 +1,41 @@
+[name] [surname]
++2 *** *** *** | [email] | [name] @[domain] | GitHub
+Education
+[compaany] Faculty of Computer Science & [compaany] Sep 2024 – Present
+Master’s programe ”Math of Machine Learning” [location]
+[compaany] Faculty of Mathematics Sep 2020 - Jul 2024
+Bachelor of Science program “Mathematics”. GPA: 8.16/10 [location]
+School №1514 Sep 2018 - Jun 2020
+Mathematical Class. GPA: 4.56/5 [location]
+Research & Projects
+Bachelor’s thesis ”Random triangulations on surfaces”
+• I constructed new inductive model of random triangulations, calculated the expectation of trivalent vertices in this
+process, and found the generating function for a specific initial triangulation.
+Nystr¨om ADMM realization
+• Implemented several algorithm of random linear algebra from this paper. GitHub
+LSBMP realization
+• Participated in the implementaion of LSBMP (with some changes) on Pytorch from this paper. GitHub
+Experience
+Tiinkoff Bank ([compaany]), Data Analyst Aug 2023 - Jun 2024
+Biggest online bank in the world, one of biggest banks in [location]
+• Gathered data about outgoing talkbots and chatbots
+• Conducted A/B-testing, designed reports
+Wildberries, Data Analyst Jan 2023 - Aug 2023
+Leading [location] online retailer
+• Researched and improved metrics of search ranking
+• Studied NLP and analyzed user data
+Achievements & Activities
+Universiity achievements
+• Completed courses with excellent grades: Calculus, Linear algebra and geometry, Topoology, Differential geometry,
+Quantum mechanics, Probability theory, Machine & Deep learning, Numerical linear algebra
+Teaching Assistant
+• Worked for a year as a calculus TA in [compaany] Faculty of Mathematics
+• 1.5 years tutored students from school 1514 in solving Olympiad problems: explained calculus applications in
+physics and helped with preparation for Unified State Exam
+School achievements
+• Prize-wiinner of multiple maths and physics olympiads such as regional stage of VSOSh, ”Phystech” ([location]), etc.
+• Perfect score in Unified State Exam (Math)
+Technical Skills
+Deep Learning and ML: PyTorch, Sklearn, Pandas, NumPy, JAX, Plotly
+Data Engineering and Analysis: SQL (Postgres, Clickhouse), Tableau, Apache Superset
+DevOps and Cloud: Docker, Git

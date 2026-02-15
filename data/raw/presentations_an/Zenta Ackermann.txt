@@ -1,0 +1,127 @@
+Microseismic source localization
+using Fourier Neural Operator
+with application to field data from [location] FORGE
+[name]
+PhD Candidate,
+[university]
+Motivation – Microseismic Event Monitoring
+When did the microseismic event
+•
+occur?
+Where did the microseismic event
+•
+occur?
+How big was the microseismic
+•
+event?
+Challenges:
+•
+low signal-to-noise ratio
+-
+limited sensor coverage
+-
+www.esgsolutions.com
+Methodology – Event Localization using FNO.
+Eikonal Equation
+The eikonal equation is a first-order, non-linear partial differential equation
+where
+[surname] et al. (2022)
+Methodology – Operator Learning
+Operators are mathematical entities that perform transformations or mappings
+➢
+between input and output spaces:
+• e.g. integration or differentiation
+• Operator learning is continuous ( Not discrete, like Conventional NN )
+Fourier Neural Operator (FNO) is a NN that learns to represent the solution operator of
+➢
+a PDE
+Methodology – Fourier Neural Operators
+FNOs are composed of two parts: a Fourier layer and a neural network
+➢
+Fourier layer decomposes the input function into its constituent frequencies
+➢
+Neural network then learns how to transform these frequencies into the
+➢
+desired output function
+[name] et al. (2021)
+Methodology – FNO Localization. Model Training
+All the trainings are done with a single GPU A5000 24GB
+Results – FNO Localization. Gradient Model
+[surname] and [surname], 2023
+Results – FNO Localization. Marmousi Model
+[surname] and [surname], 2023
+Dataset – [location] FORGE Site
+FORGE project began in 2015
+❖
+250 km south of [location] and 16 km
+❖
+north of [location] (popu. 1400)
+The site is unpopulated and covers ~5 km2
+❖
+Purpose is to bring EGS to commercial
+❖
+viability and visibility
+EGS involves creation of a fracture network
+❖
+in hot, low-permeability rock so that water
+can be circulated through the rock,
+sweeping out the heat for power generation.
+https://utahforge.com/project-data-dashboaard/ https://www.energy.gov/eerere/geothermal/forge-rd
+Dataset – [location] FORGE Site
+7 wells drilled:
+❖
+58-32, a deep vertical well,
+-
+16A(78)-32 (injection) and 16B(78)-32 (production)
+-
+– two highly deviated deep wells,
+68-32, 78-32, 78-32B, and 56-32 which are deep
+-
+seismic monitoring wells.
+Stimulation tests and fracture modeling have been
+❖
+accomplished on 58-32 and 16A(78)-32
+Seismicity has been monitored throughout the
+❖
+drilling and testing programs
+All data are free and publicly available and stored
+❖
+on the Geothermal Data Repository
+https://openei.org/wiki/Overview
+Results – FNO Localization. FORGE Site
+[surname] et al. (2018)
+Results – FNO Localization. FORGE Site
+Potential – Why Real-Time Microseismic Monitoring?
+✓ Hazard mitigation: ✓ Engineering goals:
+▪ fault activation ▪ stimulated volume
+▪ max magnitude during/after injection ▪ HF stage spacing
+▪ reservoir integrity ▪ fault interaction
+▪ proppaant placement
+▪ stress inversion, etc.
+Real-time analysis is key to both optimization of the controlled injection
+➢
+process and avoidance of rare but possible disasters.
+[Dr. Eisner course slides]
+Potential – Traffic Light System
+• Traffic Light System (TLS) is a
+method that was developed for
+seismic monitoring to manage the
+operations ( [surname] et al., 2017)
+• Success of TLS relies on real-time capabilities in detecting and locating
+microseismic events
+[name] [surname]
+Conclusions
+1. Developed an FNO-based framework for accurate microseismic event localization.
+2. Demonstrated robustness against noisy data and limited sensor coverage.
+3. Validated using synthetic velocity models (Gradient and Marmousi) and real [location]
+FORGE dataset.
+4. Enables real-time localization without retraining, suitable for operational decision-
+making.
+5. Effective for enhancing safety and optimization in geothermal, hydraulic fracturing, and
+carbon sequestration applications.
+6. Future work to extend methodology to comprehensive 3D localization tasks.
+Bibliography
+Full list of references is in the original paper:
+[name], [surname], [surname], & [surname] (2025). Microseismic source localization using Fourier Neural Operator
+with application to field data from [location] FORGE. IEEE Transactions on Geoscience and Remote Sensing.
+GitHub repository: https://github.com/[name]/FNO_Localization

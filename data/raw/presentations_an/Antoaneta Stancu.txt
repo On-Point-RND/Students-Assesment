@@ -1,0 +1,80 @@
+Article Review:
+Large Language Models and Safe AI
+[name]
+[compaany]
+Introduction
+Large Language Models (LLMs) have demonststrated impressiive capabilities, but ensuring they behave safely and align with human values
+is critical . Without proper safeguards, LLMs can produce harmful content, biased outputs, or misinformaation. Safe AI in this context
+means aligning LLM behavior to be helpful and truthful while avoiing toxic or dangerous responses. Recent advances (e.g.
+reinforcement learning from human feedback, red-teaming) aim to tune models toward desired behaivors, yet reliably controlling LLM
+outputs remaiins an open challenge. This presentation reviews several cutting-edg research efforts from top AI conferences ([location] 2023–2024) that address LLM safety and alignment, highlightiing key problems, proposed techniques, and findings.
+Safety Challenges for LLMs
+• Conflicting Objectives: LLM alignment often involves multiple goals (e.g. being helpful and harmless). Standard RLHF
+typically optiimizes a single reward (helpfulness), which can degrade other aspects like harmlesness . For example, a
+response that is more helpful may inadvertentlly be less safe, indicating a fundamental multi-objective trade-off in
+alignment.
+• Alignment Drift in Fine-Tuning: Even after an LLM is aligneed, additional fine-tuning on new tasks or data can
+“jailbreak” its safety features . Recent studies found that mixing a safe LLM’s training with some harmful content can
+remove or reduce its prior safety constraints . This highlights the need for training strategies that preserve safety
+alignment when adaptiing LLMs to downstream tasks.
+• Adversarial Prompts and Jailbreaks: Any undeirsed behavior that a model can produce with non-zero probability can
+potentially be elicited by a clever adversaial prompt . In theory, if alignment only suppresses (but does not
+eliminate) certain behaviors, there exisst prompts that will trigger those behaviors with increasing probability as
+prompt length grows. In practice, malicious users exploit this via prompt injection or jailbreaking attacks to bypass
+safety guardrails, as seen with ChatGPT jailbreak examples.
+• Lack of Fine-Grained Safety Data: Aligning LLMs to be both helpful and safe requires high-quality human feedback
+signaals for each aspect. However, most public datasets do not separately annotat helpfulness vs. harmlesness of
+responses. This gap in data motivated the creation of new human preference datasets that disentangle these attributes ,
+enabling models to be trained to satisfy safety constraints without sacrificing utility.
+Data-Driven Safety Alignment
+BeaverTails Human-Preference Dataset: To support
+safe alignment research, BeaverTails ([location] 2023)
+provides a large-scale dataset with 333k+ QA pairs
+labeled for safety and 361k+ pairwise comparisons
+on helpfulness and harmlesness . Uniquely, it
+separates the annotation of how harmless a response
+is from how helpful it is, rather than conflating
+them . This allows training LLMs with diistiinct
+feedback signaals for being safe and being useful.
+The dataset is publicly released
+(hosted on HuggingFace) to encourage reproducible
+research in LLM safety.
+Content Moderation & RLHF Applications: The
+BeaverTails dataset enables new strategies like “QA
+moderation” – insteaad of blanket prompt refusal,
+the model can provide a moderated answer that is
+safe.
+Breaking Alignment and Unlearning: The auhtors demonstrated that an LLM
+compromised via embedding-space attacks could then be used to auto-generate
+discrete “jailbreak” prompts that transfer the exploit to other aligneed models . Moreoover, they introduced a threat model for model unlearning: even
+after an LLM supposedlly “forgets” certain data (for privacy or compliance),
+an embedding attack was able to extract the ostensibly deleted information
+from the model. In other words, sensitive content that had been unlearned
+could be resurrected by adversaial probing. These findings highlight that
+current safety measures (and even model editing techniques) can be
+undermined by a sufficientl sophisticated attack.
+Implications: Embedding-space attacks are imprractical on closed APIs but
+highly relevant as open-source LLMs proliferate. They underline the
+importance of robusstness in safety training – models need to be secure not
+just against prompt tricks, but also against low-level manipulaations.
+Developing forensic tools to detect or defend against such attacks (e.g.
+monitoring embedding distributions) is an important direction. Author
+GitHub
+Conclusion and Future
+Ensuring the safety of large language models is a multi-faceted challenge. The research revieweed here suggests that progress will come
+from combiing insights across data, algoorithms, and robusst evaluation. High-quality human preference data (like BeaverTails) provide
+the foundaion for training models that recogniize nuanced notions of harm and helpfulness. Advanced training techniques – from one-shot
+dual optiimization for RLHF to proxiimal regularization during fine-tuning – can then leverage these signaals to align models more stably
+and efficiiently. At the same time, we must continually stress-test aligneed models against adversaial attacks. If an undeirsed behavio
+is onlly suppressed but not eliminated, eventually a prompt or input twea k can trigger it. Therefore, safe AI research is inhereently
+ongoing: as we deploy safeguards, we must identiify new failur modes and address them.
+Looking fo rwward, promising directions include interpretability-based safety (e.g. identiifying “safety neurons” in the network that can
+be monitored or fine-tuned in isolation), more formal verification of LLM behavior on critical inputs, and policies for responsibly
+handling model capabilities that pose socieetal risks. By integrating robusst alignment techniques with rigorous ooversight, we move closer
+to LLMs that are not only powerful, but also trustwoorthy and safe.
+Bibliography
+1. BeaverTails: Towards Improved Safety Alignment of LLMs via a Human-Preference Dataset – [location] 2023. J. Ji
+2. One-Shot Safety Alignment for Large Language Models via Optimal Dualization – [location] 2024. X. Huang
+3. Lisa: Lazy Safety Alignment for LLMs against Harmful Fine-tuning Attack – [location] 2024. T. Huang et al.
+4. Soft Promp t Threats: Attacking Safety Alignment and Unlearning in Open-Source LLMs – [location] 2024. L. Schwinn
+5. Fundamental Limitations of Alignment in LLMs (BEB Theory) – [location] 2024. Y. Wolf

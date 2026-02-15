@@ -1,0 +1,100 @@
+Be beyond Gaussiaan: Reinforcement and Generative
+Extensions to MPPI Control
+[name]
+MSc-1 Data Science, [location]
+Introduction
+What is the topic?
+We investigate how modern learning-based techniques — particularly Reinforcement Learning (RL)
+and generative models — can enhance Model Predictive Path Integral (MPPI) control.
+Why is it important?
+Classical MPPI [1], while effective, suffers from limitations in structured or dynamic environments.
+Learning-based extensions may offer better adaptability, safety, and performance.
+Background
+MPPI is a widely used trajectory optimizer in robotics. Extensions using RL-based policies aim to
+improve sample efficiency and adaptability, while generative models promise more informed trajectory
+proposals.
+Goal of the review
+To review and test MPPI extensions using RL and generative models, summarize the
+observed challenges, and outline future directions — particularly the role of generative
+intelligence in control.
+Problem statement
+Problem statement
+While MPPI is effective in many robotic scenarios, its reliance on naive Gaussiaan sampling often
+leads to poor sample efficiency and unstructured behavior. The core problem is:
+How can we make trajectory sampling in MPPI smaarteer and more adaptive to complex
+environments?
+Challenges:
+● Gaussiaan noise leads to inefficient and unrealistic trajectory proposals.
+● RL-based policies can be unstable, environment-specific, and hard to generalize.
+● Generative models (e.g., diffusion) are promising, but diffiicult to integrate and optiimize in control settinngs.
+● Lack of principled understanding of when generative models actually help in plaannning.
+Scope:
+● Evaluate MPPI with RL-based control policies and generative models.
+● Analyze performaance and limitations in simulated environments.
+● Motivate future integration of generative intelligence in MPPI frameworks.
+Methods
+Approach
+We enhanced the classical MPPI framework by integrating learning-based policies trained
+with Soft Actor-Critic (SAC) [2] , and later experimenteed with generative diffusion models to
+improve sampling quality.
+Why these methods?
+● SAC offers stable and efficient training for continuous control tasks, thanks to its entropy-maxiimization and
+off-policy learning.
+● MPPI is flexiible and widely used but suffeers from inefficient Gaussiaan sampling.
+● Generative models can potentially capture structured, human-like behaviors — a natural next step beyond
+handcrafted noise.
+How it works (intuition)
+1. Classical MPPI samples noisy control sequences using Gaussiaan perturbations, simulates
+resulting trajectories, and selects the best one using importance sampling.
+2. Our modification: Replace random noise with samples from a policy trained via SAC to generate
+more structured control sequences.
+3. Optionally: Attempted to integrate a diffusion model trained on expert demonstrations to generate
+even richer, more human-like trajectories.
+Methods
+SAC optiimizes the following maximum entropy objective:
+- Maximising both reward and entropy at the same time.
+- α adjusts the balance between ‘greed’ and exploration.
+The algorithm is trained through two steps:
+1. Updating soft Q-function:
+2.Updating the policy:
+Results
+Experimental Setuup
+Models trained and evaluaated in a synthetic pedestrian-rich environment simulated in-house.
+Two metrics used:
+● SR (Success Rate): fraction of succeessful runs without colliisions.
+● AST (Average Success Time): how quickly the robot completed the task (lower is better).
+Method SR AST (sec) Note
+sac 0.883 59.004 Standalone SAC policy
+sac-mppi-sequenntial-25 0.877 84.004 First 25 steps from SAC, rest
+Gaussian
+sac-6 0.840 82.552 SAC run with limited 6-step horizon
+sac-mppi-mixture-6-beta-0.5 0.510 63.333 50% SAC + 50% Gaussiaan
+sac-mppi-mixture-6-beta-0.95 0.487 51.473 95% SAC + 5% Gaussiaan
+sac-mppi-mixture-6-beta-0.1 0.450 55.963 10% SAC + 90% Gaussiaan
+mppi-25 0.630 47.085 Classical MPPI, 25-step horizon
+mppi-6 0.473 46.268 Classical MPPI, 6-step horizon
+Discussion & Motivation for
+Generative Models
+What we learneed:
+● Pure SAC gives the best performaance.
+● Hybrib MPPI-RL mixtures are unstable or less effeective.
+● Classical MPPI still underppeforms in complex scenes.
+Open question:
+Can generative models (like diffusion models) produce smaarteer trajectory samples for MPPI?
+Motivation
+● Generative models can learn from expert trajectories and produce structured,
+multi-modal behavior.
+● Diffusion models are especially powerful in sampling high-dimensional distributions —
+whiich aligns perfectlly with the needs of trajectory sampling in MPPI [3]
+Goal
+In the context of this schoool, I aim to:
+● Analyze the integration of diffusion models into MPPI more systematically.
+● Understand when and why generative intelligence helps — and when it doesn’t.
+● Move towaards principled sampling rather than random exploration.
+Bibliography
+1. [name], [surname]. "Model predictive path integral control using covariance variable importance sampling."
+arXiv preprint arXiv:1509.01149 (2015).
+2. [name], [surname], et al. "Soft actor-critic: Off-policy maximum entropy deep reiinnforcement learning with a stoochastic actor." Internaational conference
+on machine learning. Pmlr, 2018.
+3. [name], [surname], and [name], [surname]. "Guaranteed-Safe MPPI Through Composite Control Barrier Functions for Efficient Sampling in
+Multi-Constrained Robotic Systems." arXiv preprint arXiv:2410.02154 (2024).

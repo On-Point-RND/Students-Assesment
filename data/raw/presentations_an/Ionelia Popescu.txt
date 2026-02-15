@@ -1,0 +1,149 @@
+Preventing Overfitting in Subject-Driven
+Text-to-Image Diffusion: Regularization
+of Embedding and Attention Maps
+[name]
+Researcher, [compaany]
+Image personalization task
+Input: a dataset of 3-5 concept images and a fixed trigger word (S*)
+Ouptut: a model which is able to generate the concept in any context
+Using 3-5 images of a user-provided concept, personalized diffusion techniques learn how to generate new images of
+the object in different scenes, styles and poses
+Problem statement
+The majority of text-to-image models that solve the personalized generation
+task balance between identity preservation and text alignment
+Aim:
+To embed the new concept
+properly into the input
+embedding space of the text
+encoder in order to improve
+the output images quality
+Baselines
+[compaany] Textual Inversion
+U-Net Fine-tuning Text embedding optiomization
+Methods
+1. Context embedding regularization
+2. Context attention regularization
+3. Gram regularization
+Methods
+1. Context embedding regularization
+- k is the index correspondiing
+to S∗ and superclass,
+- n is the length of the output embeddings,
+- cos() is the cosine similarity between text
+encoder output embeddings correspondiing
+to the concept tokens and superclass tokens
+Red parts are trainable
+6
+Methods
+2. Context attention regularization
+- µ(M1:16) is the mean of all values
+i
+across the 16 attention maps,
+- k is the index correspondiing to S∗,
+- n is the length of the prompt
+3. Gram matrix:
+T
+G = M M
+7
+Experiments
+Data
+30 concepts from
+[compaany] article:
+9 live + 21 objects
+Model: Stable Diffusion XL
+Stage 1: (ti) Stage 2: (db)
+optiomize text embedding of S∗ – 300 steps fine-tune U-Net – 300 steps
+batch_size = 2
+batch_size = 5
+learning_rate = 2e-6
+learning_rate = 5e-3
+seed = 0
+1 A100
+λ_emb = 1.5e-4, λ_attn = 0.05
+rescale: from 120 to 180 steps
+8
+ti_emb_attn
++ db
+ti
++ db
+ti_emb
++ db
+ti_attn
++ db
+ti_emb_gram
++ db
+ti_emb_attn
++ db_attn_noft
+ti_emb_attn +
+9
+db_gram_noft
+[name]. Controlled Image Editing Mechanisms Based on Diffusion Models
+ttii__eemmbb__aattttnn
+++ ddbb
+ttii
+++ ddbb
+ttii__eemmbb
+++ ddbb
+ttii__aattttnn
+++ ddbb
+ttii__eemmbb__ggrraamm
+++ ddbb
+ttii__eemmbb__aattttnn
+++ ddbb__ggrramm__nnoofftt
+[name]. Controlled Image Editing Mechanisms Based on Diffusion Models
+ttii__eemmbb__aattttnn
+++ ddbb
+ttii
+++ ddbb
+ttii__eemmbb
+++ ddbb
+ttii__aattttnn
+++ ddbb
+ttii__eemmbb__ggrramm
+++ ddbb
+ttii__eemmbb__aattttnn
+++ ddbb__ggrramm__nnoofftt
+AArirninaa [surname]. [compaany] Image E Edditiitningg M Meecchhaannisismmss B Baasseedd o onn D Dififfufussioionn M Mooddeelsls
+Results
+Metrics: CLIP-T and CLIP-I similarity
+Research gap
+• Using both regularizations always gives an advaantage in text similarity and is generally
+measurable in image similarity with the standard approaach
+• Context attention regularization makes a greater contribution to the final diffusion loss
+• The use of the second stage is necessaary for more precise training on the concept
+Limitations: still sometimes struggle from concept and prompt inconsistency
+Future work
+Knowledge distillation metho
+Bibliography
+1. [name], [name], [name], and [name]. A neural space-time representation for text-to-image personalization.
+2. [name], [name], [name], [name], [name], [name], [name], [name], and [name]. Palp: prompt aligneed personalization of text-to-image
+models.
+3. [name], [name], [name], [name], [name], and [name]. “this is my unicorn, fluffy”: Personalizing frozen vision-language representations(2022)
+4. [name], [name], [name], [name], and [name]. An image is worth one word: Personalizing text-to-image
+generation using textual inversion. (2022).
+5. [name], [name], [name], [name], and [name]. Svdiff: Compact parameter space for diffusion fine-tuning.
+6. [name], [name], and [name]. Denoisinng diffusion probabilistic models. Advances in neural information processing systems (2020).
+7. [name], [name], [name], [name], [name], and [name]. Lora: Low-rank adaptation of large languaage models. ICLR (2022)
+8. [name], [name], [name], [name], [name], and [name]. Training generative adveersarial networks with limited data. Advances in neural
+informaation processing systems (2020)
+9. [name], [name], [name], [name], and [name]. Analyzing and improving the image quality of stylegan. IEEE/CVF (2020)
+10. [name], [name], [name], [name], and [name]. Noise-free score distillation (2023).
+11. [name]. Bert: a review of applications in natural languaage processing and understanding. arXiv preprint arXiv:2103.11943 (2021).
+12. [name], [name], [name], [name], and [name]. Multi-concept customization of text-to-image diffusion. IEEE/CVF (2023).
+13. [name], [name], [name], and [name]. Countering languaage drift via visual grounding (2019).
+14. [name], [name], [name], [name], [name], and [name]. Attndrreambooth: Towards text-aligneed personalized text-to-image generation (2024)
+15. [name], [name], [name], and [name]. Textboost: Towards one-shot personalization of text-to-image models via fine-tuning text encoder (2024).
+16. [name], [name], [name], and [name]. Dreamfusion: Text-to-3d using 2d diffusion (2022).
+17. [name], [name], [name], [name], [name], [name], [name], and [name]. Learning transferable visual
+models from natural languaage supervision. In International conference on machine learning (2021), PmLR.
+18. [name], [name], [name], [name], and [name]. High-resolution image synthesis with latent diffusion models. IEEE/CVF (2022)
+19. [name], [name], [name], [name], and [name]. Dreambooth: Fine-tuning text-to-image diffusion models for subject-driven
+generation. IEEE/CVF (2023).
+20. [name], [name], [name], [name], [name], [name], [name], and [name]. Photorealistic text-to-image diffusion models with deep languaage understanding (2022).
+21. [name], [name], [name], and [name]. Denoisinng diffusion implicit models (2020).
+22. [name], [name], [name], and [name]. p+: Extended textual conditioning in text-to-image generation (2023).
+23. [name], [name], [name], [name], [name], and [name]. Core: Context- regularized text embedding learning for text-to-image
+personalization. AAAI (2025).
+
+
+

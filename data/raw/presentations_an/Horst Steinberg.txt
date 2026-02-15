@@ -1,0 +1,135 @@
+            [name] [surname]
+Researcher at the [compaany] of Physics of the Earth, [location]
+PhD student at the Faculty of Physics, [location]
+petrushev.aa18@physics.msu.ru
+What processes lead to deformation of the Earth's surface?
+Seismic Volcanic
+What information do the measured displacements carry?
+What information do the measured displacements carry?
+● Such data provides information about geodynamic processes, including those occurring in areas of seismic and volcanic
+activity. The main sources of field data are GNSS stations and radar imaging from satellites (SAR interferometry)
+● Displacements of the Earth's surface resulting from seismic and volcanic processes are steadily recorded by distributed
+geophysical observation systems.
+● The task of interpretation is to determine the parameters and configuration of the deep source of deformations based on data on
+recoрded displaсеments on the surface.
+Relevant data sources
+Geophysical and
+Analytical models
+Numerical
+satellite observations
+simulation
+InSAR, GNSS
+Laboratory
+experiments
+Satellite observations
+Actual displacement component
+The training dataset size is 5,908 examples, the validation dataset size is 1,478 examples
+Problem of time resources: processing one object takes about 30 seconds (partially solved by
+augmentation)
+Example of input data. Left - topoграphy map, right - Histogram of maximum displaсеments in
+displaсеment map the dataset
+DL models
+● Framework - PyTorch, pretrained models from torchvision
+Models:
+Loss-function: MSE
+1. Simple 3-layered CNN: ~100K params Metrics: R2
+2. ResNet18: ~11.7М params
+3. EfficientNet_b0: ~5.3M params
+Training results
+Results of training models (R2 metric)
+3 Layer CNN EfficientNet_b0 ResNet18
+Scale 0.82 0.89 0.96
+l2 / l1 0.59 0.48 0.72
+l3 / l2 0.73 0.71 0.92
+theta1 0.52 0.49 0.71
+theta2 0.22 0.01 0.16
+Depth 0.89 0.87 0.99
+X 0.74 0.85 0.98
+Y 0.64 0.79 0.94
+R2 ∊ [-∞, 1]
+Training results: ResNet18
+Comparison of ResNet18 model predictions with ground truth values
+Plots are sorted by target values (ground truth)
+Useful for findiing outliers, and understanding in which area of the target parameter the predictions are better, and in which - worse
+Inverse problem solution
+❖ Two series of numerical simulations were conducted to solve the inverse problem
+II
+of determining ellipsoid parameters.
+❖ The first series of numerical calculations assumed startiing the inverse problem
+solution from a random combination of ellipsoid parameter values (from the given
+range).
+❖ The second series of numerical calculations assumed startiing the inverse problem
+solution from a combination of ellipsoid parameter values predicted by the
+ResNet18 neural network model.
+ResNet18
+I
+Ranges of ellipsoid parameter values:
+random ellipsoid near-optiimal ellipsoid
+parameters parameters
+● H = [-1500, 0] m
+● k1= [0.1 - 1]
+● k2 = [0.1 - 1]
+● theta1 = [0 - 90] degrees
+● theta2 = [0 - 90] degrees
+● X1 = [0 - 2500] m
+● Y1 = [0 - 2500] m optiimal ellipsoid parameters optiimal ellipsoid parameters
+Inverse problem configuration:
+● Method: BOBYQA (gradient-free)
+● Optimality tolerance: 1e-3
+● Objective function: square of the residuals of vertical
+displaсеments on the surface of a conicaл structure
+● Relief: cone height 1500 m, angle 15 degrees
+Ground truth ellipsoid parameters:
+● H = 415 m
+● k1= 0.7
+● k2 = 0.4
+● theta1 = 0.436 rad
+● theta2 = 0.576 rad
+● X1 = 692 m
+● Localized displacement area
+● Y1 = 1555 m
+● Area close to the apex of the cone
+Inverse problem solution
+Inverse problem configuration:
+● Method: BOBYQA (gradient-free)
+● Optimality tolerance: 1e-3
+● Objective function: square of the residuals of vertical
+displaсеments on the surface of a conicaл structure
+● Relief: cone height 1900 m, angle 25 degrees
+Ground truth ellipsoid parameters:
+● H = 1100 м
+● k1= 0.5
+● k2 = 0.7
+● theta1 = 60 град
+● theta2 = 10 град
+● X1 = 1900 м
+● Larger displaсеments area
+● Y1 = 230 м
+● Offset from cone apex
+Inverse problem solution
+Inverse problem solution
+● The issue of stopping criteria – each optimizer has its own, and for a specific problem, the most efficient one
+must be found.
+● The problem of evaluating the speed of solving the inverse problem: What should be compared when assessing
+the acceleration of the solution?
+● Does the proximity of the residual in the displacement field imply proximity of the residual in the target
+parameters? This is a key point in solving the inverse problem. When searching for a solution using iterative
+methods, we minimize the residual of the measured field, whereas when training a neural network (NN), we
+minimize the residual of the target parameters directly.
+Conclusion
+● Two methods for calculating displacements in a homogeneous linear-elastic medium were compared: numerical
+finite element modeling and the analytical McTigue model, for which a simplified method of accounting for
+topoграphy with variable souirce depth was used. Discrepancies between the numerical and analytical solutions
+were more than 30% for vertical displacement and more than 45% for the horizontal component at souirce depths
+of 1.45 km and 3 km, respectively.
+● A series of multivariate numerical calculations were carried out for the problem of an ellipsoidal inclusion in a
+linear-elastic material with free surface topoграphy in the form of a conicaл relief with variable parameters.
+● Three neural netwoorks (CNN-based) were trained on the results of the numerical experiment; the prediction
+quality achieved in solving the inverse problem was R2 > 0.9 for 5 out of 8 ellipsoidal inclusion parameters.
+● Two series of numerical calculations were conducted to solve the inverse problem of determining ellipsoid
+parameters. For the chosen gradient-free optimizer BOBYQA, the effectiveness of using an initial approximation
+obtained from the CNN inference results was demonstrated.
+● Using a model relief example, the possibility of effectively accounting for topoграphy when interpreting surface
+displaсеments at various displacement scales was shown.
+Contacts
+📧 petrushov.aa18@physics.msu.ru

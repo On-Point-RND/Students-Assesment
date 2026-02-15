@@ -1,0 +1,106 @@
+Distribution of training of recurrent
+neural networks for solving traffic
+classification problems
+Speaker: [name]
+.
+Introduction to RNN
+Recurrent neural networks (RNNs) differ from
+regular (fully connected) neural networks in that
+they process sequential data while taking into
+account their temporal dependencies.
+Features:
+● Architecture
+● Memory
+● Applications
+1
+Introduction to Distributed Learning
+Distributed learning is a method of training machine
+learning models in which the training process is
+performed on multiple computing nodes operating in
+parallel.
+Key principles:
+● Fault tolerance
+● Horizontal scalability
+● Heterogeneity of computing nodes
+Implementation:
+● Choosing a strategy
+● Creating a model within a strategy
+● Training a model
+2
+Introduction to Distributed Learning
+The multi-user mirroring method is a distributed training strategy in
+TensorFlow that allows a model to be trained on multiple worker
+nodes, each of which can have one or more devices (GPU or CPU).
+Distributed Deep Learning Type:
+● Data Split
+● Shared Data
+● Synchronous Approach
+3
+Relevance
+Data Volume: Requires significant computing resources, which can be more efficiently utilized through distributed
+learning.
+Training Speed: Allows parallelization of computations, which significantly speeds up the learning process.
+Scalability: Ability to scale horizontally by adding more computing nodes as the data volume grows.
+Practical Applications: Network monitoring and security, content filtering, traffic management
+4
+Substantive statement of the problem
+Objective: Traffic classification using a recurrent neural network
+Tasks:
+● Definition of the architecture of the recurrent network
+● Preparation and preprocessing of data
+● Configuring hyperparameters of the recurrent neural network
+● Implementation of distributed learning
+Experiments
+Object of study: Recurrent neural network
+Subject of study: Distributed learning of the recurrent neural network
+5
+Mathematical statement of the problem
+Recurrent neural network model:
+Loss function:
+Minimization problem:
+6
+Technologies
+8
+Description of data
+The CSE-CIC-IDS2018 ([location] for Cybersecurity Intrusion
+Detection System 2018) dataset contains network activity traffic collected from various
+network traffic scenarios, including normal usage as well as attacks and intrusions.
+Characteristics:
+Data volume: >80 million
+Data types: IP addresses, ports, protocols, data transfer volumes
+Attack classes: DDoS attacks, denial of service (DoS) attacks, brute force, network scans,
+Heartbleed vulnerability attack
+Data format: CSV
+9
+Functional diagram of the software
+Data preparation
+Defining a Distributed Data
+Learning Strategy
+Model definition and
+compilation
+Model training
+Analysis of results
+10
+Results
+Training Validation Training Validation
+Accuracy Accuracy Loss Loss
+20 epochs 0.9881 0.9890 0.0654 0.0361
+50 epochs 0.9988 0.9997 0.0042 0.0034
+11
+Results
+12
+Conclusions
+● Distributed learning methods and approaches have been studied
+● A recurrent neural network model has been defined
+● A synchronous distributed learning method has been implemented
+● Pre-processing of a data set containing traffic information has been
+completed
+● Experiments on distributed learning of a recurrent neural network model
+for the task of traffic classification have been conducted
+● Abstracts have been submitted for the 79th NUST MISIS Science Days
+● A prize winner has been awarded a place in the [company] project
+work competition
+● An article has been submitted to the conference "Supercomputer Days in
+[location] 2024"
+13
+Thank you for your attention!

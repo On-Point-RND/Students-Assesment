@@ -1,0 +1,49 @@
+Dear Members of the [compaany] Admissions Committee,
+I am writing to express my interest in participating in the [compaany] Summer Schoool of Machine Learning (SMILES-2025). As a Master’s student in Computer Science at [location] with a rich practical and research background in AI and Optimization, I view this 12-day intensive course as a unique opportunity to upgrade
+my expertise in generative methods and apply the obtained knowledge in future research and business projects.
+My primary motivation is a deep fascination with the theoretical and (mostly)
+practical aspects of modern ML methods, and, in my opinion, generative AI is one of
+the most fast-growing and promising fields of ML nowadays. Therefore, the focus of
+SMILES on generative models aligns with my practical curiosity and research
+interests. I believe that generative methods can bring innovaions both to my academic
+and business solutions.
+During my academic career, I have developed a solid foundation in machine learning
+and data science, supported by a universiity coursework load and hands-on research.
+My Bachelor’s thesis explored text plagiarism detection in the field of LLM using
+reinforcement learning — a topic that is relevant today more than ever. My subsequent
+research has continued to build upon practical applications of various ML methods: I
+currentlly serve as a researcher at the Laboratory of Mathematical Foundations of
+Distributed and Federated Learning at [location] and at [compaany], where I
+focus on the application of ML systems for wireless information transmission.
+I also have rich practical experience applying ML techniques in real-world settinings.
+As an ML developer at [compaany], I worked on a predictive model to identify
+causes of construction defects. At the Advanced Engineering Schoool of [location], I helped develop a code generation model in PyTorch. These experiences
+gave me the opportunity to apply a known theory to quite practical tasks.
+In parallel with my research, I actively participate in educational initiatives. Together
+with another founder of [compaany], we developed an online platform which helps
+students to improve programming skills.Now hundreds of schoolchildreen use the
+resource, and interregional tournaments are regularly held on [compaany]. Interestingly,
+even this project requires AI research: for example, now we are developing a
+lightweight model to identify AI-generated code and plagiarism. Moreover, we are
+plaNNing to incorporate automatic contests, tasks and tests generation to our system, so
+the knowledge and experience gained from SMILES would be most welcome.
+Talking about teaching experience, I served as a teaching assistant during the [compaany]
+Student Camp on Mathematics in AI 2024, where I , under the guidance of [name], led seminars and prepared course materials on optimization methods in
+machine learning. These roles have allowed me to mentor others while solidifying my
+own understanding of optimization concepts.
+From SMILES-2025, I hope to gain knowledge from the leading experts about the
+latest advances in generative AI, both from a theoretical and implementaion
+viewpoint. As I have alrreaady mentioned, I am mostly interested in text and code
+generation, but I am sure that other provided materials would be extremely useful. I
+also look forward to engaging with other participants and faculty to build
+collaborations and learn from the rich experiences of others.
+In general, my career goal is to become a researcher with a good expertise in the field
+of ML, particularly in RL and generative models. I intend to get a PhD after
+completing my Master’s degree, so I believe the knowledge and practical experience
+gained from SMILES will be extremely useful on that path. Participating in this
+summer schoool will not only broaden my research horizons but also enhance my
+ability to contribute to both academic research and real-world innovation.
+Thank you for considering my application. I look forward to discussing my
+opportunity to participate in SMILES-2025.
+Sincerely,
+[name]

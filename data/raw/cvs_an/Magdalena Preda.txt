@@ -1,0 +1,36 @@
+[name] [surname]
+[location] | [email] | +2 *** *** ***
+[email]
+Quantitative Researcher/Developer
+Junior Quantitative Analyst with a solid foundation in computation mathematics, finance, and programming.
+Experienced in applying machine learning and statistical methods to financial analysis. Driven by an interest in blockchain technology and DeFi, with practical experience in smart contract development, formal verification, and trading algorithms. Ready to leverage analytical and programming skills in quantitative research.
+Education
+[location] State University, Faculty of Computational Mathematics and Cybernetics, Sept 2023 – May 2027
+BSc in Computer Science
+[location] MIPT, Deep Learning School Sept 2023 – May 2024
+Experience
+Researcher, Hedge Fund – [location] January 2025 – Present
+• Used ML for detecting suspicious anomalies in financial markets: arbitrage opportunities, price coherences, etc.
+• Created model for auto backtesting and improving trading strategies
+Intern-Analyst, GazpromNeft – [location] May 2024 – September 2024
+• Assisted with quantitative data analysis and statistical modeling for business processes
+• Developed programming scripts to automate data processing tasks
+• As a result of work, our team has developed a system for optimizing and forecasting the potential of the entire company.
+Python Developer, Custom Projects 2022 – 2024
+• Developed a custom trading indicator in Python, utilizing statistical models for assets’ price analysis.
+Tools used: Python, Backtrader, Jupiter
+• As coursework on mathematical statistics, conducted a study on the provided data, thereby gaining in-depth knowledge and skills of the Python toolkit for data analytics
+• Created a model predicting price changes based on previous candle data.
+Tools used: scikit-learn, tensorflow, pytorch
+Software Engineer Intern, SBER, School 21 – [location] July 2023 – August 2023
+• Studied the basics of software engineering in the language and gained experience in incorporated development
+Projects
+Social Network Moderation System based on ML
+github.com/[name]
+• Developed moderation system for "T-Pulse", a social network for investors and traders. Created system identified and classified violations of the rules of the social network with an accuracy of at least 85 percent
+• Tools and Technologies Used: Python, Google Colab, Github, CNN, RNN, BERT
+Technologies
+• Languages: Python, Rust, Solidity, C++, C
+• Tools/Libraries: NumPy, Pandas, SciPy, Matplotlib, SQL, Remix, Git
+• Machine Learning: Regression analysis, time series forecasting, basic NLP, neural networks: CNN, RNN
+• Quantitative Analysis: Statistical analysis, financial modeling, data processing, basics of quantitative finance

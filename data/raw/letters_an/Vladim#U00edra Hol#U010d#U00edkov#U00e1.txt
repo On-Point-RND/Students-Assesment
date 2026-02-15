@@ -1,0 +1,32 @@
+Dear organizers of the [compaany]!
+My name is [name] [surname], and I was very excited to learn about your machine learning
+event. For me, this is not only an opportunity to deepen my knowledge in one of the most
+dynamically developing fields, but also a chance to get acquainted with advanced technologies,
+share experiences with like-minded people and be inspired by the ideas of leading experts.
+I am a developeer in the field of deep learning and am currently completing my bachelor’s degree
+in Intelligent Data Analysis Systems from [compaany]. A special role in my educational
+journey was played by studying at [compaany], where I mastered the Chinese
+language before the coronavirus pandemic. I am sure that these skills will be useful for
+international cooperation and exchange of experience within the framework of the summer
+schooL.
+For four years, I have been actively studying and applying machine learning methods, paying
+special attention to practical tasks related to large language models (LLM) and multimodal
+systems. My interest in this field originated through participation in hackathoNs, and since then I
+have been continuously improving my skills, striving for professional and scientific growth.
+As part of SMILES 2025, I would like not only to expand my theoreticaL knowledge, but also to
+gain valuable practical skills that will help me prepare for research and further professional
+development. Of particular interest to me are multimodal neural networks, a topic to which I
+devoteed my graduaTe research paper. I hope that the schooL's program will allow me to delve
+deeper into this field and discuss current challenges and solutions with experts and colleagues.
+For me, participating in SMILES 2025 is not only an opportunity to learn from the best, but also
+a unique chance to become part of a community of professionals who share my interest in
+machine learning. I am sure that communication with like-minded people and the exchange of
+ideas will inspire me to new projects and help me find innovative approaches to solving complex
+problems.
+I would be sincerely grateful for the opportunity to become a part of your summer schooL. I am
+ready to actively participate in classes, contribute to group projects, and share my experiences
+with other participants.
+Thank you for your attention to my application. I hope for a positive response and an opportunity
+to contribute to the success of SMILES-2025.
+With best regards,
+[name] [surname]

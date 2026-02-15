@@ -1,0 +1,28 @@
+This document outlines the development of the SPY (Synthetic PII Detection Dataset), a novel dataset designed to address the limitations of existing PII datasets. Here's a breakdown of the key information:
+
+**1. The Problem with Existing PII Datasets:**
+
+* **Limited Scope:** Most public PII datasets treat all Named Entities (NER) as PII, with limited exceptions for student names.
+* **Lack of Realism:** Existing datasets may not accurately represent the diverse types of PII found in real-world scenarios.
+
+**2. The SPY Dataset Solution:**
+
+* **Purpose:** To create a more comprehensive and realistic PII dataset.
+* **Methodology:** The dataset is generated using a pipeline that iteratively adds PII elements to text, including legal documents and medical consultation notes.
+* **Key Features:**
+    * **Controlled PII Injection:**  PII elements are added in a controlled manner, allowing for the creation of datasets with varying levels of PII.
+    * **Diverse Domains:**  The dataset covers legal and medical domains, reflecting real-world PII contexts.
+    * **Iterative Enhancement:** The pipeline uses Large Language Models (LLMs) like Llama-3-70B and DeBERTa to enhance PII detection capabilities.
+
+**3. Experimental Results:**
+
+* **LLM Performance:** Experiments using LLMs demonstrate promising PII detection performance, with models like Llama-3-70B achieving high precision and recall for various PII types (Name, Email, Username, URL, ID, Phone, Address).
+* **Comparison with UniNER:**  The document highlights a case where UniNER, a common NER model, fails to correctly classify a name as PII, illustrating a key limitation of traditional NER approaches.
+* **Entity Distribution:**  A comparison of entity type distributions between the SPY legal domain dataset and a dataset from "The Learning Agency Lab" shows differences in the prevalence of various PII types.
+
+**4. Ablation Studies:**
+
+* **PII vs. NER:**  Experiments comparing PII detection with standard NER show that a dedicated PII detection approach (using LLMs) can improve accuracy, especially in distinguishing PII from non-PII entities.
+* **Entity Distribution:** The distribution of entity types in the SPY dataset is analyzed to understand the characteristics of the generated data.
+
+**In essence, the SPY dataset aims to provide a more robust and realistic resource for training and evaluating PII detection models, addressing the shortcomings of existing datasets and leveraging the power of modern LLMs.**

@@ -1,0 +1,81 @@
+[name]
+ML/DL Engineer, AI Automation Engineer
+EXPERIENCE
+Techno Resurs - DL Engineer
+Development of solutions to create smart chat bots
+2024 - … Skills
+Freelance - DL Engineer and Backend developer Python
+Development of computer vision solutions, chat bots, etc. Numpy
+Pandas
+2023-2024
+PyTorch
+Центр Дополнительного Профессионального Scikit-learn
+образования МФТИ, Долгопрудный— teacher OpenCV
+Keras
+2022 - 2023
+TensorFlow
+Development and teaching of the course “Modern Image Analysis” FastAPI
+Streamlit
+Yanex, [location] — Data Engineer Aiogram
+SQLAlchemy
+2023.01 - 2023.05
+Knoledg of machine
+Data processing, experimentaion, testing
+learning algorithm (incluing
+deep learning)
+Cognitive modeling center, МФТИ, Dolgopudny — intern
+Experience with Linux, Git,
+2021 - 2022
+Docker, SQL, WANDB
+Development of artificial intelligence systems English (upper -intermediat)
+Knoledg of Web
+Innovatiive technopolis "Era", [location]— ML Engineer
+Technologies (HTML, CSS, JS)
+2019 - 2020
+Development and use of artificial neural network in the signal recognition
+problem Achievements and events
+Passing the continuing
+OOO «Lekar», Suvov— Programmer education course
+2017 – 2019 “Management of IT Project
+Creation of software, databases and equipment maintenance and Product” from MPT
+Finalist of the competition
+“Huawei Cup 2021-2022” in the
+direction of “Artificial
+Intelligence”
+The wiinr of the All -Russian
+Olympiad of students "I am a
+profesional" in the direction
+Education of "Artificial Intelligence" 2022
+The wiinr of the hackahton
+MPT, Dolgoprudny— Master Degree
+“AI on guard of the Nenets
+2021 - 2023 walrus ppoplation”
+AI Technologies 27-29.05.2022
+Member of the Summer Schoo
+Tula State Universiity, Tula — Bachelor
+in Artificial Intellect of RAI
+2015 - 2019 (MFT)
+Direction of preparation: Applied Mathematics and Informatics
+Member of the Winter Schoo
+in Artificial Intelligence in the
+MFT
+Publications
+1. [name], [surname], [surname], [surname], [surname], [name], [surname], ... & [surname] Hiierchical waste detection with
+Learning Schoo (MPT)
+weakly supervised segmntation in images from recycling plants.
+Available at SSRN 4183424.
+HCIA AI examination diploma
+2. [surname] А. А., [surname] А. И., [name] Д. Ю. ПРИМЕНЕНИЕ И
+from Huawei
+СРАВНИТЕЛЬНЫЙ АНАЛИЗ ПРОВОДИТЕЛЬНОСТИ
+УНИВЕРСАЛЬНЫХ ОДНОПЛАТНЫХ КОМПЬЮТЕРОВ ПРИ
+РЕШЕНИИ ЗАДАЧ В ОБЛАСТИ ТЕХНИЧЕКОГО ЗРЕНИЯ
+//Состояниe и пеpспективы развития современой науки по
+направлению «Техническое зрение и распoзнавание обрзов».
+– 2020. – С. 168-174.
+3. [name] Д. Ю. и др. СОВРЕМЕННЫЙ МЕТОД ДЕТЕКТИРОВАНИЯ
+СРЕДСТВ ИНДИВИДУАЛЬНОЙ ЗАЩИТЫ ДЛЯ ЛИЦА С
+ИСПОЛЬЗОВАНИЕМ ТЕХНИЧЕКОГО ЗРЕНИЯ И ГЛУБОКОГО
+МАШИННОГО ОБУЧЕНИЯ //Состояниe и пеpспективы
+развития современой науки по направлению «Техническое
+зрение и распoзнавание обрзов». – 2020. – С. 183-189.

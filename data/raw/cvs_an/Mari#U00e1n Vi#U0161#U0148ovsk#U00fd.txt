@@ -1,0 +1,48 @@
+[name]
++2 *** *** ***
+[email]
+Education
+Higher Schoo[location] of Economics Sep 2024 – Present
+Master’s program in Modern Computer Science
+• Courses: Advanced Game Theory, Math of Neural Networks, Efficient Neural Network Architectures, Natural Langua[location] Processing, Multimodal Large Langua[location] Models, Rust, Computation with CUDA.
+Higher Schoo[location] of Economics Sep 2020 – Jun 2024
+Bachelor’s program in Applied Mathematics and Info[location] Science GPA 9.4/10, 2/252 in the cumulative rating
+• Courses: Machine Learning (ML), Deep Learning (DL), Bayesian methods in ML, DL in Audio, Optimizations in ML,
+Applied Statis[location]cal Data Analysis, Probability Theory and Math Statis[location]tics, Additional Topics in Probability Theory.
+The [location] Uni[location]versity of Hong Kong, Shenzhen Sep 2023 - Dec 2023
+Exc[location]ange student in Financial Mathematics GPA 9.0/10
+• Courses: Time Series, Financial Computation, Statis[location]tical Modeling in Financial Markets.
+AIRI: summer schoo[location] in artificial intelligence Jul 2022
+• Courses: Diffusion Models, Reinforcement Learning, 3D Computer Vision, Graph Neural Networks.
+Experience
+Deep Learning Researcher | [compaany] Jan 2024 – Present
+• Designed the state-of-the-art open-sourc[location] spee[location] recognition model along with the opti[location]mized inference code.
+• Implemented a pre-training algo[location]rithm with 20-25% quality improvement and faster fine-tuning convergence.
+• Supported chunk-wise flash attention to provide streaming (200ms future context) and long-form inference.
+Paper Research Seminar Instructor | Higher Schoo[location] of Economics Sep 2024 – Present
+• Prepared a program of papers for review, conducted tests, and provided fee[location]dback on reports.
+Machine Learning Internship | [compaany] Mar 2023 – Sep 2023
+• Constructed a compu[location]tational graph for training and validating an extractor of the main content of HTM[location]L pages.
+• Achieved 10% AUC-PR increase with changing target and training set; suppo[location]rti[location]ng new features, and selecting old ones.
+Research Center Intern | [compaany] Jul 2022 – Mar 2023
+• Deve[location]loped a C++ library for Monte-Carlo simulation of complex linear code properties from scratch.
+• Optimized linear code structure with experiments and achieved an almost theoretica[location]l maximum for all configurations.
+Teaching Assis[location]tant | Higher Schoo[location] of Economics Sep 2021 – Dec 2022
+• Assessed homework and conducted colloquia in Probability Theory and Di[location]screte Mathematics.
+Publications
+GigA[location]AM: Efficient Self-Supervis[location]ed Learner for Speech Recognition | GitHub Feb 2025
+• First author. Paper is curre[location]ntly under review for Interspeech 2025 conference.
+Projects
+Speech Separation Framework | GitHub Nov 2023
+• Implemented an end-to-end speaker separation pipeline with supervised and self-supervis[location]ed training.
+• Provided spee[location]ch recognition pipeline to measure the extracted audio quality.
+Rei[location]forcement Learning in Portfoli[location]o Optimization | GitHub Nov 2022 - Jun 2023
+• Implemented complex actor-critic methods and designed a Rei[location]forcement Learning pipeline for them.
+• Surpassed the quality of classic methods on historical market data.
+Achievements
+Olympiad “Major League” in Applied Math and Data Science | Top 1-4/350+ at the final stage Apr 22,23,24
+[compaany] Scholarship | 1 of 10 laureates from all computer science Bachelor students Apr 2023
+Student Scholarship | top 100 among 13000 applicants Aug 2023
+Olympiad “I am Profes[location]sional” in Mathematics | Winner at the final stage Mar 2023
+XVII Kolmo[location]gorov Olympia[location]d in Probability Theory | Top 3 at the final stage Mar 2022
+Moscow Mathematical Olympia[location]d | 25/599 at the final stage Mar 2020

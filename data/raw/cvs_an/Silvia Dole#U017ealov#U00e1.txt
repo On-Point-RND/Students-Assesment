@@ -1,0 +1,108 @@
+[name]
+[surname]
+[email]
+Data scientiist
++2 *** *** ***
+[location]
+E D U C AT I O N P R O F I L E
+Artificial intelligence, PhD/ Over the years of my studies I have mastered key knowledge in
+Candiate of Sciences humanitarian and technical enviroment equally.
+(state-funded) From my bachelor degree I’ve got to know in detail about micro-
+and macroeconomics, econometrics, the basics of accounting
+St. Petersburg State
+(RAS, IFRS) and customs procedures. This background helps me
+Elelectotechnical Universiity
+to understand the business context of my daily tasks at work
+"LETI"
+better
+2024-nowadays From my masters degree I gained experience in analyzing and
+synthesizing real-time distributed information systems (RIS) and
+decision support systems (DSS) for difficult-to-formalize tasks,
+Infoрмаtion systems and
+building models of objects and processes, data mining, digital
+technologies, masters
+processing of multidimensional data, and selecting platforms
+and tools for implementing RIS and DSS
+St. Petersburg State
+My PhD/Candiate of Sciences degree formalizes my passion in
+Elelectotechnical Universiity
+investigating AI models to enhance predictive analytics for real
+"LETI"
+practical business cases.
+
+2022-2024 As of my personal qualities: I am a quick learner, responsive and
+attentive to details. I have strong multi-tasking abilities and deliver
+GPI - 4.8
+consistent results. At my current place of work, I maintain trusting
+thesis: “Creating a predictive and kind relations with my colleagues.
+model for gas station demand I try to spend my free time with quality and growth benefiits: I
+forecasts” exercis in the gym, read, travel, meet with friends. I am also
+interested in participating at various case championships,
+World Economy, bachelor hackatho ns, and other extracurricular activities.
+(state-funded)
+V.B. Bobkov St. Petersburg
+E X P E R I E N C E
+Branch of the Russian
+Customs Academy
+2018-2022
+Chief Specialist in Mathematical Modeling
+GPI - 4.5
+Gazpromneft-Regional sales, [location] February 2024 – present
+thesis: “Global challenges and
+My responsibilities at the workp lace include:
+prospects for the application
+of smart customs Solving optiomization problems and create simulation models of
+techno logies” the oil/petroleum products supply chain, optiomizing lo gistics
+ne tworks, optiomizing storage capacities/ balances
+Modeling supply chains from setting the task to achievin g the
+S K I L L S required KPIs within the framework of solving strategic and
+tactica l tasks in processing, lo gistics and sales using various
+sof tware products
+Analytical mindset Developing and debug mathematical models for statis tical,
+predictive, optiomization, and neural ne twork applications
+Leadership and team work
+Creativity coor dinating app roaches with users
+Understanding the essence of the simulated processes,
+Describing solved problem and explaining solutions to
+colleagues.
+Time-management
+Stress resistance Coordinating actions and advising on issues of junior colleagues
+Multi tasking (interns).
+E X P E R T I S E E X T R A
+Langua ges Grant
+Russian Science Foundation 2025-2028
+English – B2-C1
+German – B1
+With my science group from LETI uni versity we develop confiden tia l
+data processing within federate learning. In 2025 we won the grant
+from the Russian Science Foundation. In May 2025 I’ll get a position
+Technical of junior research assistant at Information Systems department.
+Python MMOORREE..TTeecchh 55..0
+SQLite VVTTBB 2023
+Git Hackathon. The wi nner in the Mobile+Web track among 144 teams
+in the hackathon with a prize pool of 1.1 million rubles. I served as
+Postgresql
+an analyst in the team. Conducted a customer experience study.
+Pytorch I modeled the system for generating the workload of bank
+branches, proposed a me thodolo gy for analyzing workload and its
+predictions.
+Docker
+Micr osoft Office (Excel,
+Word, PowerPoint)
+"Time for bold decisions"/”Время смел ых р ешен ий”
+Gazprom Neft PJSC 2023
+Hackathon. The wi nner of the track "Technological star tups". I was
+engaged in predicting the drone market and analyzing statis tics. I
+proved myself to the team and the judges as an "idea generator"
+Cup Moscow
+Change llendg e, MTS 2022
+Case championship. Among the 2,300 teams, our team entered
+25% of the best solutions. I was engaged in visualizations and the
+construction of a predictive model for MTS PJSC.
+Data science course
+PyMagic 2022
+The course is designed to a cquire a strong and high-quality base in
+the field of machine learning. During the course, I solved practical
+problems based on real data. An asses sment of the results ML
+models provide for the compa ny, how A/B testing is conducted, and
+becoming familiar with NLP and Deep learning.

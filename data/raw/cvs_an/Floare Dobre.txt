@@ -1,0 +1,58 @@
+[name],PhDCandidate
+# [email] (cid:239) [name]01[name]
+Education
+2024–Present ⋄ Ph.D.,ComputationalandDataScienceandEngineering,
+[location].
+2022–2024 ⋄ M.Sc.,Physics, [location].
+MathematicalMethodsofQuantumStatisticsandFieldTheoory.
+DiplomawithHonors,GPA:5.0/5.0.
+2018–2022 ⋄ B.Sc.,Physics, [location].
+DiplomawithHonors,GPA:5.0/5.0.
+Employment History
+2022–2024 ⋄ ResearchIntern, [location].
+LaboratoryofQuantumAlgorithmsforMachineLearningandOptimization.
+Supervisor: [name].
+Spring2023 ⋄ VisitingResearchStudent, [location].
+Supervisor: [name].
+Fields of Interest
+⋄ Diffusionmodelsandthei applicationsindatageneration. Fisherinforma tionandmetrics structuresinopti mization.
+Quantumalgo rithm sformachinelearningandopti mization.Geometri capproachesto probabilitydi stributions.
+Research Publications
+JournalArticles
+1
+B.[surname], [name], R.[surname],andI.[surname],“Highorderscheme sforsolvingparti aldifferentialequa tionson aqua ntumcomputer,”PhysicalR eviewA,Accepte d2025.
+2
+A.[surname], [name],andK.[surname],“Generativein paintingof incompleteeuclidiandistance matricesoftrajectorie sgeneratedbyafractionalbrownian motion,”Scienti ficReports,Accepte d2025.
+3
+B.[surname], [name], R.[surname],J.[name],andI.[surname],“Tridia gonalmatrixde composit ionforhamiltoniansimulationon aqua ntumcomputer,”PhysicalR eviewA,vol.109,no.5,p.052627,2024.
+ConferenceProceedin gs
+1
+A.[surname], [name],andM.[surname],“Colorcondi tionalgene rationwithslice dwasserstei ndistance,”in
+Procee dingsoftheIEEE/CVFConfere nceo nComputerVisi onandPatter nRecognition(CVPR),2025Accepte d.
+2
+M.[surname],A.[surname], [name],andV.[surname],“Colortran sfrewithmodulat edflows,”i nProcee dingsoftheAAAIConfer enceonArtificial Intelligence,vol.39,2025,pp.4464–4472.
+3
+A.[surname], [name],andK.[surname],“Fbm-based generativein paintingforthereconstructionofchromos omal distances,”inMachine LearningandthePhy sicalSciencesWorkshopatNeurIPS,Vancouver,[location],Dec.2024.
+Skills
+Langua ges ⋄ [name](Native),English(TOEFL109),Korean(Begi nner).
+Programming ⋄ Python,PyTorch,Golang,C,C++
+Miscellaneous Experience
+TeachingExperience
+2024 ⋄ TeachingAssis tant,[location].
+Course:StochasticMethodsi nMathematicalModel lingandArtificial Intelligence.
+2022 ⋄ TeachingAssis tant,[location].
+Course:Introductiont oStatis ticalMechanics.
+2017–2019 ⋄ SummerCampInstructor.
+TaughtIntroductiontoDiscrete Mathematictosc hoo lstudentsi nBulgaria.
+AwardsandAchievements
+Fall2022–Fall2023 ⋄ Scholarship,Theoret icalPhy sicsandMathematic sAdvancementF oundation(BASIS).
+2024 ⋄ 3r dPlace,The2ndAll-RussianQuantumHackathonQuant-NN2024.
+References
+[name] [surname] [name]
+Professor Associa teProfessor
+[location]
+[email] [email]
+Soumi k[surname]
+ResearchFellow
+Ce ntreforQuan tumT echnologie s,[location]
+[email]

@@ -1,0 +1,127 @@
+[name] [surname]
+Telegram @moderntalker
+Email address [email]
+GitHub [name]
+Work Experience
+Laboratory of Mathematical Methods of Optimization
+Position: ML-Researcher
+Duration: [02.2024 – present] (13 months)
+Department (team): Mathematical Methods of Optimization Group
+Project: Research of optimization and machine learning methods
+Responsibilities:
+• Conducted theoreticaal research and analysis of various shuffling heuristics in first-order
+optimization problems, considering the general case of variational inequalities.
+• Developed and implemented an advanced zeroth-order method for decentralized optimization.
+• Performed comparative analysis of the studied methods against well-known ones such as
+Extragradient and ZO-SGD across various domains, including denoising tasks and image
+classification on the MNIST and CIFAR-10 datasets.
+• Conducted theoreticaal research and developed several new approaches to fine-tuning LLMs
+with reduced memory requirements using zeroth-order optimization (achieving a 2x memory
+reduction).
+• Extended the framework for applying, testing, and comparing optimization methods on
+publicly available datasets.
+Achievements (Publications):
+• "ShufflingHeuristicsinVariationalInequalities:EstablishingNewConvergenceGuarantees".
+• "Zero Order Algorithm for Decentralized Optimization Problems".
+• "WhenExtragradientMeetsPAGE:BridgingTwoGiantstoBoostVariationalInequalities".
+TechStack:Python,NumPy,Pandas,Matplotlib,PyTorch,Transformers,scikit-learn,torchvision
+[company]
+Position: ML-Researcher / ML-Engineer
+Duration: [08.2024 – 01.2025] (6 months)
+Department (team): RnD (Research and Development) Personalization Quality Development
+Group
+Project: Development of a pipeline for integrating online learning into recommendations
+Responsibilities:
+• Created a pipeline to add predictions from Vowpal Wabbit-based linear model as a feature
+for CatBoost.
+• Performed testing in various domains, including Ritm and Shedevrum, using historical
+data from a Hadoop-like system and online counters from Kafka.
+• Developed a method to convert a CatBoost pool into a pool suitable for Vowpal Wabbit
+using MapReduce-style functions (and implemented Python equivalents).
+• Implemented a batched version of the previous method, writing an optimized version that
+processes tabular data in batches rather than row by row.
+• Implemented a function to train the Vowpal Wabbit model using parallel computations
+via subprocesses and worked partially with the C++ implementation of Vowpal Wabbit
+using CMake-like tools.
+Achievements:
+• Achieved a 0.1% increase in metrics (AUC variation and ranking metrics such as
+precision@k, NDCG) across several domains.
+• Accelerated data preprocessing for Vowpal Wabbit model input by an average factor of 20
+compared to the previous implementation.
+• The training function I developed showed significant performance improvement, reducing
+training time from hours to minutes, enabling true online fine-tuning.
+TechStack:Python,VowpalWabbit,Kafka,Hadoop,Airflow,SQL,PyTorch,subprocess,multiprocessing
+Research Activities
+• Publications
+I am a co-author of several works on optimization:
+– «ShufflingHeuristicsinVariationalInequalities:EstablishingNewConvergenceGuarantees»,
+this paper presents a theoretical analysis of shuffling heuristics in classical
+optimization problems and provides several application examples.
+– «ZeroOrderAlgorithmforDecentralizedOptimizationProblems», this work proposes
+a new zeroth-order (gradient-free) optimization method, its theoretical analysis, and
+corresponding experiments.
+– «WhenExtragradientMeetsPAGE:BridgingTwoGiantstoBoostVariationalInequalities»,
+this paper proposes combining two optimization approaches, demonstrating their
+effectiveness both theoretically and empirically, and was submitted to a prestigious
+international conference.
+• Conferences
+The above works were also presented at international conferences:
+– «AI Journey», an international scientific conference organized by [organization], focused on the
+development of artificial intelligence.
+– «ICOMP», a prestigious scientific conference held by [university], with a
+primary focus on optimization methods.
+– «Neuroinformatics», a conference held at MIPT in 2024, where the paper "Shuffling
+Heuristic in Variational Inequalities: Establishing New Conv`ergence Guar`e`ntees"won
+first place in its category.
+• Research Seminars
+Presented as a speaker at a research seminar at the A.A.KharkevichInstituteforInformation
+Transmission Problems of the Russian Academy of Sciences, presentation.
+Teaching Experience
+Department of Algorithms and Programming Technologies, MIPT
+Position: Teaching Assistant
+Duration: [09.2024 – present] (7 months)
+Department (team): Department of Algorithms and Programming Technologies
+Project: Teaching algorithms and assisting students
+Responsibilities:
+• Review and grade students’ assignments.
+• Consult students on problem-solving and understanding algorithms.
+Achievements:
+• Improved the quality of feedback to students, which enhanced their academic performance.
+• Students achieved excellent grades in evaluations.
+Tech Stack: Python, C++, algorithms and data structures
+Central University
+Position: Teaching Assistant
+Duration: [01.2025 – present] (3 months)
+Department (team): "Introduction to AI"program and "Scientific Studio"
+Project: Teaching and grading assignments
+Responsibilities:
+• Hold consultations and grade homework for the "Introduction to AI"course.
+• Supervise student projects within the "Scientific Studio".
+Achievements:
+• Enhanced the quality of feedback, improving students’ understanding of the material.
+• Prepared students for participation in scientific conferences and presentation of selected
+papers.
+Tech Stack: Python, ML stack
+Projects
+• Image Segmentation Methods Analysis
+Comparative study of various neural network architectures for image segmentation; the
+work was presented at a conference, GitHub.
+• Academic Projects
+Other academic projects developed during coursework can be found on GitHub.
+Education
+2022 – 2026 MIPT
+Phystech School of Applied Mathematics and Computer Science (PSAMC)
+Current GPA 8/10
+2024 – 2026 Data Science track (Yandex School of Data Analysis, MIPT)
+MIPT & Yandex School of Data Analysis: ML, DL, RL, CV, NLP, RecSys, Time
+Series
+2024 Deep Learning School
+Deep Learning School on Computer Vision and NLP, website.
+Skills
+• Programming: Python, C++, SQL
+• Libraries: PyTorch, TensorFlow, NumPy, Pandas, scikit-learn, Matplotlib, Seaborn
+• Tools: Git, Apache Hadoop, Kafka, Airflow, CMake (and equivalents)
+• Languages: English (B2+), Russian
+
+
+

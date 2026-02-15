@@ -1,0 +1,29 @@
+[name] [surname]
+Email: [email]
+Location: [location]
+GitHub: 
+Education
+[company] 
+Bachelor’s Degree in Information Systems and Technologies
+Expected graduation: 2026 (Currently in 3rd year)
+Independent ML Learning
+- Completed courses:
+ • 'Machine Learning' by Andrew Ng (Coursera)
+ • 'Deep Learning Specialization' (in progress)
+- Studied ML theory, implemented models in Python/Colab
+- Topics: linear regression, neural networks, image classification
+Project Experience
+Image Classification using CNN (seminar projects)
+• Built and trained a simple convolutional neural network on image data
+• Used PyTorch, Colab, and visualization tools for analysis
+• Explored regularization and optimization techniques
+Technical Skills
+Languages & Tools: Python, NumPy, Pandas, Matplotlib, scikit-learn, PyTorch
+Platforms: Juupyter, Google Colab, GitHub
+Research Interests
+• Generative AI (e.g., image generation models like DALL·E)
+• Large Language Models (LLMs)
+• Multimodal models and safe AI
+
+
+

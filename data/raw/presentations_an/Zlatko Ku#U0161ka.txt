@@ -1,0 +1,152 @@
+Neural Network based decoder for
+Quantum Error Correction
+[name]
+5th year student of [location]
+[company]
+Introduction
+Surface code
+Estimation for the probability of success of
+the quantum algorithm:
+one- or two-qubit operations
+- the probability of a correct
+𝑁𝑁 = 500
+operation
+𝑜𝑜𝑜𝑜
+𝑝𝑝 = 99.9% A Z error has An X error has
+- not good
+occurred in the occurred in the
+𝑁𝑁
+𝐴𝐴 𝑜𝑜𝑜𝑜 adjacent data qubit adjacent data qubit
+𝑝𝑝 = 𝑝𝑝 ≈ 60.6%
+Improving the accuracy
+of qubit operations
+(expensive, limited) In the real experiment, several
+"rounds" of surface code are
+usually performed. The duration
+Encoding physical qubits
+of each is approximately 10-100
+into logical ones (more
+microseconds. It is necessaary to
+stable to errors)
+process raw data on the fly,
+decoding errors that occur for
+Encoding example:
+- data qubits, their subsequent correction.
+2
+X Z - measure (an𝑑𝑑cilla) qubits,
+|0⟩𝐿𝐿 = |00000⟩
+2
+𝑑𝑑 − 1
+– code distance
+|1⟩𝐿𝐿 = |11111⟩
+𝑑𝑑
+Problem statement
+Main goal of this work:
+Implement a neural network based decoder for quantum
+error correction on a surface code
+Algorithmic approaches: ML approaches:
+- Not scalable for real time decoding - PotenPotentially scalable for real time decoding
+(time scales as (trained model requires constant time)
+- Can’t handle hardware-based errors - Can handle complex hardware-based errors
+6
+𝑂𝑂 𝑑𝑑 log 𝑑𝑑
+Main problems with ML-based approaches:
+- Large datasets requirement
+- Still cannot fit the time intervals defined by
+experimental setup
+Methods
+Pipeline:
+Process the
+Raw data Embeddings for
+embeddings and
+generation raw data
+get a prediction
+1) With given probability sample error
+matrix containing: 0 (no error), 1
+𝑝𝑝 (X error) and 2 (Z error)
+(𝑑𝑑, 𝑑𝑑)
+2) Compute error syndromes according
+to the given error matrix
+Raw data:
+- Measurement result (0/1)
+- Detection event (0/1)
+- Qubit cooordinates
+- Ancillary qubit type (0 for X,
+1 for Z)
+Embedding
+Measurement
+Embedding
+Even
+t
+Embedding
+Coordinates
+Embedding
+Qubit
+type
++
+Pos.
+Emb.
+ResNet
+Index
+embeddings
+2
+𝑑𝑑 − 1
+Connections
+Self-attention between
+ancillary qubits
+Reuse and
+Dense Block combination of
+features
+Separate
+processing of
+Dilated Convolution
+data and
+ancillary qubits
+Error matrix prediction
+Results & Research Gaps
+The model has learneed to
+d Accuracy
+predict the most likely
+3
+errors. It performs well in
+predicting single errors and
+5 (83.2 ± 2.5)%
+errors that are far apart.
+7 64.0 ± 1.6 %
+Nevertheless, it often fails
+to predict local errors.
+44.3 ± 1.1 %
+𝑋𝑋 𝑍𝑍
+Key pro𝑝𝑝bl=em𝑝𝑝 s= w3it%h low-level decoding:
+- The same syndrome can be produced by many error
+matrices
+TRUE PREDICTED
+- Incorrect prediction of only one qubit leads to incorrect
+prediction of the entire error matrix
+Even after tuning this model can’t
+achieve scalability because of
+attention with time complexity
+4
+𝑂𝑂(𝑑𝑑 )
+Current Research
+Key changes to achieve scalability:
+Low-level High-level
+1.
+decoding decoding
+TransformeTransformer- based attention attention Why recurrent GNN is a perfect cnoi choice:
+- The structure of the surface code fits perfectlly
+on the graph structure
+- Scalability due to the graph attention
+3. No memory NN RNN with memory
+mechanism
+- The recurrent structure corresponds to real
+experiments
+Bibliography
+1. [name] Foowl, [name] Mariantoni, [name] Martinis, [name] Cleland. Surface codes: Towards practical large-scale quantum computaion. Phys. Rev. A, 2012.
+2. [name] Horsman, [name] Foowl, [name] Deviitt, [name] Van Meter. Surface code quantum compuiting by latticel surgery. New J. Phys., 2012.
+3. [name] Litinski. A Game of Surface Codes: Large-Scale Quantum Computing with Latttice Surgery. Quantum, 2019.
+4. [name] Campbell, [name] Terhal, [name] Vuillot. Roads towaards fault-tolerant univeersal quantum computaion. Nature, 2017.
+5. [name] Bausch, [name] Senior, [name] Heras, [name] Edlich, [name] Davies, [name] Newman, [name] Jones, [name] Satzinger, [name] Niu, [name] Blackwell et al.
+Learning high-accuracy error decoding for quantum processors. Nature, 2024.
+6. [name] Bordoni, [name] Giagu. Convolutional neural network based decoders for surface codes. Quantum Informaation Processing, 2023.
+7. [name] deMarti iOlius, [name] Fuentes, [name] Orús, [name] Crespo, [name] Etxezarreta Martinez. Decoding algoorithmss for surface codes. Quantum, 2024.

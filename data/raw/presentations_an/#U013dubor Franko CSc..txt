@@ -1,0 +1,123 @@
+WHEN AN LLM IS APPREHENSIVE
+ABOUT ITS ANSWERS - AND WHEN
+ITS UNCERTAINTY IS JUSTIFIED
+[name], [surname], [name], [surname], [name]
+Introduction
+Research Area
+• Focus on uncertainty estimation of LLMs for QA tasks in specific scientific high-stakes domains.
+• Overconfidence in incorrect answers → harmful consequences.
+Current Problems
+• LLMs trained on general-purpose datasets lack deep domain-specific knowledge
+• Do uncertainty measures vary by question type: reasoning vs. knowledge?
+• Exisiting models fail to adapt their reasoning based on the complexity of questions
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPREHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Problem Statement
+How can we reliably measure and interpret LLM uncertainty across diverse question types?
+• LLMs often provide incorrect answers with high confidence, especially in high-stakes domains ⚠
+• Unknown alignment between LLMs confidence and correctness of answer
+• Benchmarks like MMLU-Pro mix questions requiring: knowledge and reasoning
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPREHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Key Contributions
+1. Automated Pipeline:
+• Evaluates uncertainty in MMLU-Pro (domain-specific, reasoning-labeled QA)
+2. Uncertainty Metrics:
+• Data uncertainty: Token-wise entropy
+• Model uncertainty: Model-as-Judge (MASJ), MT-Bench
+3. Findings:
+• Entropy predicts errors in knowledge-dependent domains (e.g., biology: AUC 0.73)
+• MASJ performs poorly (AUC ~ 0.5)
+• MMLU-Pro biases: Reasoning demands vary by topic
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPREHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Experimental setup
+MASJ estimated complexity
+• Engineering (90% need reasoning)
+• Philosophy (50% need reasoning)
+Dataset:
+MMLU-Pro (12k STEM)
+Models
+• Qwen 1.5B
+• Phi-4 14B
+• Mistral-Small-24B
+• Qwen 72B
+MASJ Model
+• Mistral 123B API
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPREHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+MASJ
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPREHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Uncertainty Estimation Pipeline
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPREHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Uncertainty Estimation Pipeline
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPREHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Results of the experiment
+1. Entropy Predicts Errors Better for: 2. Models Performance
+• Knowledge-heavy domains, e.g. Biology AUC 0.83 • MASJ Fails: No correlation with errors (AUC ~0.5)
+• Low-reasoning questions: AUC 0.79 vs. 0.61 for high-reasoning • Model Size Matters: Qwen-72B > Phi-4/Mistral.
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPREHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Reasoning vs. Knowledge
+Implication
+:
+• Dataset biases affect
+• LLM evaluation fairness.
+• Low reasoning provides better ROC-AUC
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPREHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Entropy Distribution
+Distribution of entropy values for
+Qwen models (72B, 32B, 14B,
+3B, 1.5B, 0.5B), stratified by
+answer correctness.
+For larger models (72B, 32B),
+correct answeers (blue) exhibiit a
+pronounced left skew toward low
+entropy, indicating higher
+confidence in accurate
+predictions.
+Smaller models (1.5B, 0.5B) show
+flatter distributions, with less
+separation between correct and
+incorrect (orange) entropy values.
+Notably, the 72B variant
+demonstrates near-zero entropy
+peaks for correct responses,
+aligning with «reasoning needed»
+hypotheses
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPRAHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Calibration Issues
+1. High-confidence predictions are often
+wrong.
+2. Qwen-1.5B has the best calibration and
+progresses monotonicaally.
+These results underscore systematic
+overconfidence as a pervasive issue,
+especially in high-certainty regimes
+where all models significantlly
+overestimate their reliability.
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPRAHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Conclusions
+• Entropy signals uncertainty well for knowledge questions; fails for questions,
+that requires high amount of reasoning.
+• MASJ needs improvement.
+• Fair evaluaion requires balanced datasets.
+• High-parameters models significantlly overestimate their reliability
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPRAHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+ArXiv
+Discussion
+Datasets
+• Provide more balanced scientific QA datasets
+Methods
+• Complexity Estimation Entropy Uncertainty-based Method GitHub
+• Reasoning-based entropy metrics for confidence estimation
+• New approaach with MASJ as a part of our pipeline
+Fine-Tuning
+• Mistral/Llama fine-tuning on low-confidence dataset subsample
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPRAHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Acknowledgements
+I would like to express my gratitude to co-authors:
+o LARSS Laboratory advisor, [name], for continuous helping with
+research areas and showing the right way
+o LARSS Laboratory MsC student, [name], for his significant
+contribution
+o HSE PhD student, [name], for his technical help with experiments
+o MIPT PhD student, [name], for his technical help with experiments
+and research
+[name], [surname], [name], [surname], [name]. WHEN AN LLM IS APPRAHENSIVE ABOUT ITS ANSWERS - AND WHEN ITS UNCERTAINTY IS JUSTIFIED
+Thx

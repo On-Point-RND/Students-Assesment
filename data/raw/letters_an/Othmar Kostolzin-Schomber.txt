@@ -1,0 +1,12 @@
+Motivation Letter
+Dear Organizers,
+My name is [name] [surname], and I am 21 years old. I am currently studying at the [location] [compaany], specializing in the PSAMCS faculty.
+From the moment I began my studies, I have been eager to devote myself to research. Thanks to my diligent work, I found an opportunity to join [compaany]'s R&D department, where I have spent the past year and a half working on ML engineering tasks such as implementing generative agents in 3D environments and, more recentlly, generating industrial CAD models.
+Every day, I read new research papers and explore state-of-the-art solutions. I am inspired by the constant evolution of AI and the opportunity to expand my knowledge by experimenting with different approaches and interacting with like-minded experts who possess a wealth of experience.
+Your program offers a unique chance for me to grow as a specialist, gain new experience, and share my own ideas.
+I am certain that collaborating with experienced professionals and talented participants will help me reevaluaate the challenges I am currently working on and ultimately achieve greater results.
+Sincerely,
+[name] [surname]
+
+
+

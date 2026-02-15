@@ -1,0 +1,128 @@
+Endogenous Fluorescence of Tetrapyrrolic Compounds for Microoorganism Identification
+[name]
+5th year Specialist Student
+Faculty of Physics,
+[location]
+Introduction
+Disadvantage: long process of cultivation and
+sample preparation
+Normalized fluorescence spectra of standard porphyrins
+and cells of N. Gonorrhoeae [2]
+Fluorescence microscopy [1]
+Problem statement
+Goal
+Development of a method for rapid
+identification of microorganisms
+based on endogenous porphyrin
+fluorescence
+• Extraction of porphyrin spectra • Assessment of biomaterial
+from bacterial fluorescence data impact on porphyrin fluorescence
+• Evaluation of porphyrin • Clustering and classification of
+fluorescence specificity across bacterial species based on
+microbial species porphyrin spectra
+Methods & Materials
+Endogenous fluorescence
+Sampling Registration of bacterial fluorescence
+spectra of bacteria
+Blooed Urine
+Sputum
+Tracheal aspirate Wound
+Wavelength, nm Wavelength, nm
+Database: 132 bacterial species, 804 samples, 3,800 fluorescence spectra
+.u.a
+,ytisnetni
+.mroN
+.u.a
+,ytisnetni
+.mroN
+ML Methods
+Non-Negative Matrix Factorization
+• Non-negative components that can be interpreted
+as spectral profiles of individual porphyrins.
+• Reprresents each spectrum as a linear
+combination of a limited number of interpretable
+𝑖𝑖
+𝑋𝑋
+spectral components.
+• Ideal for spectral analysis!
+ML Methods
+t-Distributed Stochastic Neighbor Embedding
+How it works:
+Why use t-SNE?
+ Preserves local structure
+ Highlights nonlinear patterns and
+clusters
+ Ideal for visualizing complex spectral
+data
+Data Preprocessing
+Extraction of Porphyrin Spectra from Bacterial Spectra
+Porphyrin spectra were extracted from bacterial fluorescence spectra by subtracting
+Спектры бактерий
+the bacterial background, which was approximated using linear regression.
+Train: baseline regions that do not contain porphyrin signal
+Test: regions containing porphyrin-related fluorescence
+Features: , ,
+2
+Linear Regression:
+𝑥𝑥 1/𝑥𝑥 1/𝑥𝑥 , 𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤 𝑥𝑥 𝑖𝑖𝑖𝑖 𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤
+1 1
+2
+𝑦𝑦 = 𝑏𝑏 0 + 𝑏𝑏 1 𝑥𝑥 + 𝑏𝑏 2 ⁄ 𝑥𝑥 + 𝑏𝑏 3 ⁄𝑥𝑥
+Спектры порфиринов
+В некоторых случаях выделялся
+дополнительный участок базовой линии
+train
+train
+test
+test
+Wavelength, nm
+.u.a
+,ytisnetni
+.mroN
+Variability of Porphyrin Spectra
+Across species Across biomaterials
+Both porphyrin accumulation intensity and fluorescence spectral shape differ markedly across species and sample types
+Extraction of basis components by NMF
+NMF-Derived Spectral Components
+Real Porphyrin Spectra
+NMF represents each sample as a linear combination of a
+small number of interpretable components.
+Spectra were normalized before applying NMF to
+focus on spectral shape only:
+• Peak positions
+• Relative peak amplitudes
+Visualizing Species Structure and Spectral Similarity with t-SNE
+Each dot = one sample.
+Same-color points (same species) form clear clusters.
+Spectral groups correspond to clusters of similar fluorescence profiles
+DBSCAN enables unsupervised separation
+of spectral groups
+Classification model
+Classification of 5 bacterial species – Multiclass Classification
+StratifiedGroupKFold
+Dataset split into train, validation, and test sets
+function from sklearn
+Due to class imbalance, macro-averaging was used for
+model evaluation
+The best performaance was achieved with
+the CatBoost model.
+F1-score = 0.84 on the test set
+F1-score = 0.95 on the train+validation sets
+Research gap
+Bibliography
+1. [name] , [name], [name], [name], [name] 2008. Autofluorescence of Mycobacteria as a Tool for
+Detection of Mycobacterium tuberculosis. J Clin Microbiol 46:
+2. [name], [name], & [name] (2018, February 8). Antimicrobial blue light inactivation of Neisseria gonorrhoeae. In Proceedings
+of SPIE, Vol. 10479, 104790O.
+3. [name], [name], [name], [name]. Characterization and
+classification of pathogenic bacteria using native fluorescence and spectral deconvolution. Journal of Biophotonics 2024,
+17(7)
+4. [name], [name], [name]. Rapid Detection of Three Common Bacteria Based on Fluorescence Spectroscopy. Sensors 2022,
+22, 1168
+5. [name], Photophysical properties of porphyrins in biological membranes, Journal of Photochemistry and
+Photobiology B: Biology. 1995; 29(2-3)
+6. [name], [name], et al. Rapid identification of pathogenic bacteria using Raman spectroscopy and deep
+learning. Nat Commun 10, 4927 (2019).
+7. [name], Global mortality associated with 33 bacterial pathogens in 2019: a systematic analysis for the Global
+Burden of Disease Study 2019
+8. The Lancet, Volume 400, Issue 10369, 2221 - 2248

@@ -1,0 +1,116 @@
+[name]
+[email] · [email]
+Citizenship: [location]
+Research interests
+Informaationtheory,computationalmathematics,deeplearning
+Education
+2024–Present [location]–[location], [location]
+PhDinTheoreticalInformatics,Cybernetics
+2022–2024 [location]–[location], [location]
+MSci inAppliedmathematicsandphysics
+2022–2024 “Sirius”[location]–[location], [location]
+MSci inAppliedmathematicsandinformatics
+2021–2023 Yandex[location]–[location]
+Dataanalysisinappliedsciences
+2018–2022 [location]–[location], [location]
+BAinAppliedmathematicsandphysics
+Publications
+2025 ASimpleModelofWhiteClotFormation
+[name],[surname],[surname]
+LobachevskiiJournalofMathematics;toappear
+2025 Efficient Distribution Matching of Representaations via Noise-Injected Deep
+InfoMax
+[name],[surname],[surname], [name],[surname], [name],[surname], [name],[surname], [name],[surname]
+Proceedings of the Thirteenth International Conference on Learning Representaations
+(ICLR2025);openreview.net
+2024 MutualInformationEstimationviaNormalizingFlows
+[name],[surname],[surname], [name],[surname], [name],[surname], [name],[surname], [name],[surname]
+Proceedings of the Thirty-Eighth Annual Conference on Neural Information Processing
+Systems(NeurIPS2024);openreview.net
+2023 Information Bottleneck Analysis of Deep Neural Networks via Lossy Com-
+pression
+[name],[surname],[surname], [name],[surname], [name],[surname], [name],[surname]
+ProceedingsoftheTwelfthInternationalConferenceo nLearningRepresentaations(ICLR
+2024);openreview.net
+2023 Dynamicadaptivemovingmeshfinite-volumemethodforthebloo dflowand
+coagulationmodeling
+[name],[surname],[surname], [name],[surname], [name],[surname], [name],[surname]
+NumericalMethodsinBiomedicalEngineering;doi:10.1002/cnm.3731
+2022 TwoMethodsfortheImplicitIntegra tionofStiffReactionSystems
+[name],[surname],[surname], [name],[surname]
+ComputationalMethodsinAppliedMathematics;doi:10.1515/cmam-2022-0083
+2021 High-DimensionalDatasetEntropyEstimationviaLossyCompression
+[name],[surname],[surname], [name],[surname], [name],[surname], [name],[surname], [name],[surname]
+JournalofCommunicationsTechnologyandElectronics;
+doi:10.1134/S1064226921060061
+Research experience
+2021–Present [compa ny]“WirelessTechnologiesandIoT”
+Withinthi sgroupinfo rmation-theo reticalmethodsfortheanalysisofarti ficialintel-
+ligence are being studied. Deep learning bottleneck princi ple is being investigated.
+A dedicate dlibraryi sbeingdevelope dinordertoquantifyinformatio nflowsinde ep
+learning models during training and inference. Applications to self-supervis ed rep-
+resentatio nlearn ingareexplored.
+2020–Present [compa ny]MarcchukInsti tutofNumericalMathematics(RAS)
+The project is devoted to a complete model of bloo dflow in the human heart. Such
+mode lw illallowforstudying thephenomeno nonofthrombu sforma tionintheauricle
+ofthelefta trium. Themodelis beingdevelope dwithanemphasis onpersonalization
+andshouldhelpphysicianstochoo sea cours oftherapyforpati entsathighriskof
+thrombu sforma tionintheheart.
+Teaching experience
+2025–Present Teachingassistant: informationtheory(MIPT)
+Info rmationandcoding theory
+2023–Present Teachingassistant(Yandex[location])
+Naturallan gua geprocessing,machinelearning
+2024 Teachingassistant: informationtheory(Skoltech)
+Info rmationandcoding theory
+2023 Teachingassistant: s tochasti cp rocesses(MIPT)
+Theoryandapplicationsofstochasti cp rocesses
+2021–2022 Teachingassistant: discretemathe matics(MIPT)
+Booleanalgebra,combinatorics,graphtheory
+2020–2022 PhysicsteacheratSyktyvkarolympiadcamps
+Olympiadphysics
+Summer2019 PhysicsteacheratYaroslavlolympiadcamp
+Olympiadphysicsandcalculus
+Summer2019 Teachingassistant: “BigCha llanges”(EC“Sirius”)
+Computerp rogramming,w ebdesign,databases
+Awards
+2024 YandexML Prize
+The firstpape raward.
+2024 Olympiad“I’m aProfes sional”
+Mathemati cs(winner),physics(winner).
+2024 Olympiad“HighestLeague”.
+AppliedMathinEnginee ringandScience(awardee),physics(awardee).
+2024 All-Russianha cka thon“DigitalBreakthrough”(SFR)
+Semanticocumentsclassification(2ndprize winner).
+2023 Interna tionalhackathon“DigitalBreakthrough”
+Automati cp rocessingof citizens’appe als(2ndprize winner).
+2023 Interna tionalhackathon“TheGlobalAIChallengeMedicine”
+SegmentationofhemorrhagesonCTimage softhe brain(3rdprize winner).
+2023 Olympiad“I’m aProfes sional”
+Mathemati cs(winner),physics(bronze medalist).
+2023 Olympiad“HighestLeague”.
+AppliedMathinEnginee ringandScience(winner),physics(winner).
+2022 All-Russianha cka thon“DigitalBreakthrough”(NKF O)
+Impro vingspechtechnologyforvoicea ssistant“Marusya” (winner).
+2022 Olympiad“I’m aProfes sional”
+Mathemati cs(winner),physics(awardee).
+2022 Olympiad“HighestLeague”.
+AppliedMathinEnginee ringandScience(awardee).
+2021 Olympiad“I’m aProfes sional”
+Mathemati cs(awardee),physics(winner).
+2020 Vo lgaRegionOpenMathemati calOlympiadofStudents
+Winneri nthetheteamcompetition.
+2019 Vo lgaRegionOpenMathemati calOlympiadofStudents
+Winneri nthetheteamcompetition,secondplacein theindividualcompetition.
+Technical skills
+Programmi nglanguages
+Proficientin: C++,Python
+Famili arwith: Julia,C,SQL
+MachineLearning
+PyTorch,Tensorflow,Tran sforme rs,ScikitLearn
+Software
+LATEX,Git,Hydra
+Languages
+Russian(native),English(C1),German(A1)
+Other interests
+Fundamentalphysi cs,mathematicalm odelling,swimming,waterpolo.

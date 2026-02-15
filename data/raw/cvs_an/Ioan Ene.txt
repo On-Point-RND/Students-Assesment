@@ -1,0 +1,87 @@
+[name] [surname]
+Education & Work
+2015–2022 High, [location], GPA: 4.9/5
+2022–now 3rd year bachelor, [compaany], GPA: 9.03/10
+2024–now Intern researcher, [compaany], [location]
+Experience
+Courses
+2024 [compaany] Digital Department DS&ML course Diploma, [location]
+Cource includes general DS&ML knowledge, basics of NLP, CV
+Competeitions
+2021, 2022 International Astronomy Olympiad([location], [location]) x2 Gold medal laureate
+Main official international astronomy competition
+Articles
+2024 [compaany], [location]
+https://elibrary.ru/item.asp?id=78752029
+HYPERSPECTRALRECONSTRUCTIONOFNOISYIMAGES:APROBABILISTICMODEL
+Main projects
+2024–2025 [compaany] commercial task
+Research of neural network methods of image upscaling and image matching, creation of
+hyperspectral HDR images.
+2025 [location] NTIRE workshop CVPR 2025
+Night Photography Rendering Challenge 2025 Co-organizer
+https://nightimaging.org/
+* 29 June 2004
++2 *** *** *** • [email]
+(cid:130) [surname][surname]@phystech.edu • } [name]phys2007 • § [name]-e
+additional information 1/3
+2024 ParaCL
+C++ project, custom C-like language. Provides an interpreter for the ParaCL language
+github.com/[name]-[surname]/ParaCL
+2019-2020 Sky-learn(Science-educational project)
+Python project about astronomy, made using PyQt. Provides loading and marking of star
+maps, as well as constellation recognition
+github.com/[name]-[surname]/Sky_learn
+Languages
+Russian Native
+English B2 Write, read and speak as natively
+Chinese A2-B1 Know much technical lexis
+Skill matrix
+Skill matrix:
+basicknowledge extensiveprojectexperience
+intermediateknowledgewithsome deepenedexpertknowledge
+projectexperience expert/specialist
+Level Skill Years Comment
+Language: Python 7 Lerned both at schooL and at courses.
+Data science: DS 1 JSON, CSV, Pandas, MPL frequent expe-
+rience, statistic&optimization tasks&algo
+CV 1 ViT, CNN, Image Matching, Up-
+scaling, CV week(GAN & SD),
+YoLo(segmentation+classification),
+OpenCV, OCR, Contrastive learning
+NLP 1 QLora finetune Qwen(russian dataset)
+ML environ- Pytorch 1 Implemented and trained architectures
+ments: nn.module ViT+CN, pipeline training, ten-
+sorboard
+Other frameworks 1 Higgingface, OML, scikit-learn
+NN models 1 RealESRGAN, AVAN/DRAN,
+LLaMa, Qwen(QLora), MST++,
+Resnet&DinovIT(OML), Yolov8, etc.
+Etc 1 Flash Window attention implementa-
+tion(triton+pytorch)
+References
+* 29 June 2004
++2 *** *** *** • [email]
+(cid:130) [surname][surname]@phystech.edu • } [name]phys2007 • § [name]-e
+additional information 2/3
+[compaany] [location] March 25, 2024
+Dear Sir or Madam,
+I am a third year [compaany] bachelor. CV researcher. Interested in RnD, ready for challenges and
+difficulties and cope with them.
+Here are some relevant open-source projects/implementaions/works:
+○ [compaany] Python 25 Spring
+○ [compaany] Kryptonite ML Challenge
+○ [compaany] VK Hakaton
+○ LLaMA Adapter 1
+Now work and research in the 11.1 sector (Reproduction and Synthesis of color) at [compaany].
+Taking part in research and commercial hackathoons (mainlly ML, DS), continue to study CV and
+NLP. Very interested in SOTA approaches at the junction of these disciplines and their
+development. Also, enthusiastic about the commercial development of advanced scientific research.
+Yours faitthfully,
+[name] [surname]
+Attached: curriculum vitæ
+[name] [surname]
+* 29 June 2004
++2 *** *** *** • [email]
+(cid:130) [surname][surname]@phystech.edu • } [name]phys2007 • § [name]-e
+additional information 3/3

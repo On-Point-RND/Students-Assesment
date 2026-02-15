@@ -1,0 +1,18 @@
+[name]
+[compaany]
+[location]
+[email]
+April 22, 2025
+Admissions Committee
+SMILES-2025 Summer School
+[compaany]
+Dear Members of the Admissions Committee,
+My name is [name], and I am a third-year undergraduate student at [compaany] majoring in Applied Artificial Intelligence. I am writing to express my strong interest in participating in the SMILES-2025 Summer School on Machine Learning.
+Artificial intelligence and machine learning are not only the focus of my academic training but also a deep personal passion. During my studies, I have engaged in several research and applied projects involving deep learning, computer vision, and natural language processing.
+Currently, I am working on two researches: a project focused on enabling transformers to process multiple tokenizations in parallel and cost-efficient method for the adaptation to the Russian language. I am willing to participate in the ACL conference.
+What attracts me most to SMILES-2025 is its emphasis on cutting-edge generative methods and real-world applications. These two themes of the program: Safe AI and LLLMs are the ones that appeal to me the most. In the 4th grade I will write my diploma thesis and diving deep into these fields would really assist me in my future research. The opportunity to participate in lectures, hands-on workshops, and hackathons under the mentorship of international experts is incredibly appealing.
+Beyond academics, I actively contribute to my university community. As a student ambassador of [compaany], I have represented the institution at events, and I have served as a mentor for incoming students, helping them transition smoothly into university life. These experiences have strengthened my leadership and communication skills — qualities I hope to contribute to the collaborative environment of SMILES.
+I believe that attending SMILES-2025 will be a pivotal moment in my academic journey, providing both the practical knowledge and international perspective necessary for a future career in AI research. I am also very enthusiastic about the cultural exchange aspect of the program and look forward to engaging with peers and experts from both [location] and [location].
+Thank you for considering my application. I would be honored to be part of SMILES-2025 and contribute to this dynamic and forward-thinking academic community.
+Sincerely,
+[name]

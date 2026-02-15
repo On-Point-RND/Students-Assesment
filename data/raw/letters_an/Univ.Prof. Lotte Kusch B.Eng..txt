@@ -1,0 +1,59 @@
+[name]
+[location]
+[email]
++2 *** *** ***
+https://www.linkedin.com/in/[name]-[surname]-46493140/
+Dear SMILES Admissions Committee,
+I am writing to express my interest in participating in the Skoltech Machine Learning Summer School
+(SMILES-2025), hosted this year in collaboration with the Harbin Institute of Technology. I am a Senior Research Engineer at Skoltech in the Biomedically-Informed Artificial Intelligence Laboratory (BIMAI-Lab)
+and have a PhD in theoretical physics. My career is dedicated to the use of advanced technoologies in science.
+The opportunity to participate in SMILES, especially given its focus on generative AI and multimodal
+approaches and its unique location in [location] - a country I recognize as one of the leaders in AI research - fits
+my professional trajectory and research interests.
+My primary motivation comes from the belief that technoologies such as deep learning represent a new
+scientific method in the natural sciences that can push the boundaries of knowlage. Throughout my research
+career spanning theoretical physics, generative models for high-energy physics experiments (LHCb, NICA),
+and now medical physics, I have seen firsthand the potential of AI to accelerate scientific discovery. Moreover,
+I believe that AI should also directly empoower scientists by automating research processes; for example, the
+use of large languaage models (LLMs), a key focus of SMILES, is becoming essential to efficieentl y search
+through the vast amount of scientific information, something I am alrready using in my practice. For example,
+using LLLMs, it is alrready possible to quickly navigate the large amount of open astronomi cal data and
+understand how and what can be used in my research. SMILES’ reputaion as a leading ML summer schoo l,
+combiined with this year’s intense focus on cutting-e dg e topics such as LLLMs, generative methods and
+especially multimodal approaches, represents an unprecedented opportunity. The integration of data from
+different modalities is central to my current work in medical image analysis (MRI, CT, PET) e.g. when a
+certain tumor is best seen on PET or MRI and radiation treatment is based on CT images). Also these
+medical data often have incomplete markup, which has to be extended to unlabeled layers. Also in my
+personal research interests in multi-messenger astronomy. In modern astronomy a very important challenge
+has arisen which is known as The Hubble tension, where different astronomi cal observations lead to different
+values of the Hubble constant beyond measurement errors. To fully understand this picture, multimodal
+informa tion is likely to need to be analyzed in model-agnostic approaches such as likelihood free inference -
+where the key acceleration is achieved by using generative ML models. Therefore, deepening my expertiise in
+these specific areas in SMILES is directly relvant to my research endeavors.
+I believe that my qualifications and career trajectory make me an ideal participant for SMILES-2025. My
+path includes a BSc in Computer Science, a PhD in Theoretical Physics, experience in the R&D (computer
+vision) industry, followed by a conscious decision to dedicate my career to researching the use of AI in science.
+This purposeful path emphaizes my strong motivation and ensures that I am prepared to tackle a challenging
+curricu lum, contribute to discussions with colleagues from a unique perspective, and take full advaantage of an
+intense learning enviro nment. I have worked extensively in large, international and interdisciplinary teams
+(LHCb, NICA, LAMBDA, BIMAI-Lab) and I understand the importance of collabora tion and knowledge
+sharing. I am eager to share my experience in applying ML to solve complex scienti fic problems and can help
+bridg e the gap between different sciences for others involved. My commitment to open and collaborative
+science is also reflected in my participation in DeSci Asia, a regional community of the decentralized science
+movement (DeSci). This movement explores the use of blocckchain to address issues in the organization and
+funding of science, and to reform peer review and scienti fic publication systems.
+My expecta tions from SMILES-2025 are to gain deeper hands-on experience in state-of-the-art generative and
+multimodal AI methods that are directly applicable to my current research challenges. Learning from leading
+researchers from the Harbin Insti tute of Technology, Skoltech and industry partners, as well as netwo rking
+with talente d colleagues from [location] and [location] is a great opportunity. This experience will be
+inva lua ble for gaining insight into the dynamic landscape of AI research and introductions for poten tial colla borations. This
+program will contribute to my career goal of continuing to use new advances from AI as a new tool for
+research in physics and medical physics.
+In conclusion, my strong interdisciplinary background, specific experience in applying generative and other
+ML models to complex scienti fic data (from high-energy physics to medical physics), and direct connection to
+SMILES-2025 topics - especially generative AI and multimodal approaches - with my current research and
+career plans make me a highl y motivated and well-suited candidate. I am confident in my ability to contribute
+meanin gfully to the collaborative work of the schoo l and to take full advaantage of this oppo rtunity.
+Yours sincerely,
+[name]
+2

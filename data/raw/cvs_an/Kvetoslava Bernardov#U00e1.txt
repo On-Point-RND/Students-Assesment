@@ -1,0 +1,79 @@
+Alexander [name]
+[compaany]
+Education: Graduated with honors from [compaany]
+[compaany] in 2021. on the specialization program ‘Applied Geodesy’, specialization ‘Geodetic Support
+of Construction Supervision and Expertise’.
+My academic research journey began during my undergraduate studies. Between 2018 and
+2020, I spearheaded a team of engineers tasked with collecting, preprocessing, and annotating image
+datasets for a software solution designed to detect defects in flat roll roofing systems. During this
+period, I secured a competitive 500,000 RUB grant from the [compaany] to advance this research initiative.
+I am the author and co-author of three peer-reviewed articles published in Scopus and VAK-
+indexed journals, alongside multiple publications in the Russian Science Citation Index (RINC).
+Additionally, I developed a proprietary computer program to streamline image analysis workflows and
+presented my findings at national and international scientific conferences.
+Beyond my research, I mentor undergraduate students in the department, guiding their academic projects and fostering their engagement in applied engineering and computational research.
+This combination of hands-on technical leadership, scholarly contributions, and educational mentorship
+reflects my commitment to bridging theoretical innovation with practical implementation.
+I am currently working on my Candidate of Sciences thesis «A methodology for improving
+resolution and fidelity of aerial imagery using generative deep learning architectures». This research
+focuses on developing a new framework to address limitations in photogrammetric workflows by
+integrating generative models such as GAN and diffusion models for distortion correction, noise
+reduction and super-resolution of aerial images. The proposed methodology aims to address the gaps
+in traditional image processing pipelines and find direct applications in remote sensing, cadastral
+surveying and land monitoring.
+Publications and Conferences:
+ Participated in the XXVI International Scientific and Technical Conference
+“Neuroinformatics-2024”, [location], 2024.
+ Roof Defect Segmentation on Aerial Images Using Neural Networks / [name], [name], [name] [et al.] // Studies in Computational Intelligence. - 2021. - Vol. 925 SCI. - P.
+175-183. - DOI 10.1007/978-3-030-60577-3_20. - EDN OPHRID.
+ Use of Unmanned Aerial Vehicles in the Creation of a Topographic Plan of a Chalk Pit /
+[name], [name], [name] // Lecture Notes in Civil Engineering. - 2021. -
+Vol. 151 LNCE. - P. 201-207. - DOI 10.1007/978-3-030-72910-3_29. - EDN XTAOES.
+ Chernysh, [name]. Methodology for assessing the state of building envelopes on the territory
+of residential buildings subject to renovation / [name], [name] // Vestnik of Belgorod State
+Technological University named after V.G. Shukhov. - 2023. - № 1. - С. 53-60. - DOI 10.34031/2071-
+7318-2022-8-1-53-60. - EDN UULYIZ.
+ [name]. Application of Delaunay triangulation in visualisation and processing of
+spatial geo data / [name] // Innovative trajectory of development of modern Earth sciences:
+formation, tasks, forecasts: Collection of reports of the International Scientific and Practical Conference,
+Belgorod, 26-27 October 2020. - Belgorod: [compaany] named after V.G. Shukhov. V.G. Shukhov, 2020. - С. 94-98. - EDN BCBWOB.
+ [name]. Hardware-software complex of the automated detection of defects in
+roofs of buildings and structures for application in construction / [name], [name], [name]
+// New information technologies in the study of complex structures : proceedings of the Thirteenth
+International Conference, Tomsk, 07-09 September 2020 / Tomsk State University. - Tomsk: National
+Research Tomsk State University, 2020. - С. 24-25. - EDN RROCYL.
+ [name]; [name]. Monitoring and tracing of hard-to-reach linear objects
+by thermal imaging aerial photography data using unmanned aerial vehicles / [name], [name], [name] // International Scientific and Technical Conference of Young Scientists of
+[compaany] dedicated to the 170th anniversary of V.G. Shukhov: Collection
+of Reports, Belgorod, 16-17 May 2023. - Belgorod: [compaany] named after V.G. Shukhov. V.G. Shukhov, 2023. - С. 165-170. - EDN ZVHHTV.
+ Accepted for publication: [name], [name], [name], [name].
+Application of generative artificial intelligence to improve the quality of aerial photography results for
+complex cadastral works// Izvestia vuzov ‘Geodesy and aerial photography’. 2025. Т. 69, № 1.
+Since 2021, I have been teaching at [compaany]
+at the Department of Urban Cadastre and Engineering Surveys. Teaching disciplines:
+ Engineering geodesy
+ Applied geodesy (profile)
+ Aerospace surveys
+ Geotechnical fundamentals (construction industry)
+In the course of my working life I participated in the development of the educational program,
+lecture notes and laboratory workshop within the Priority 2030 on working with spatial data.
+Responsible for the development of the chapter “Application of AI algorithms in spatial data
+processing”.
+ Participant of projects under the Priority 2030 program:
+ Project №-15/23 “Creation of a digital model of the territory of industrial, recreational
+and residential development subject to renovation in Belgorod region”,
+ Project №-15/23 stage “Information modeling of territories on the basis of spatial data”.
+ Participant of the scientific project FZWN-2023-0009 “Development of scientific and
+technical solutions for adaptive control and modernization of autonomous mobile vehicles of serial
+production for effective environmental monitoring”.
+I am a Senior Instructor of the federal project “Personnel for Unmanned Aerial Systems” within
+the framework of the state program of the Russian Federation “Scientific and Technological
+Development of the Russian Federation”.
+Hobbies:
+Outside of my professional and academic commitments, I maintain an active lifestyle centered
+on martial arts. I practice and coach junior groups in Army Hand-to-Hand Combat, fostering discipline
+and technical proficiency in trainees. Additionally, I hold a Second-Category Sports Referee certification
+in both Army Hand-to-Hand Combat and Muay Thai, officiating competitions to ensure adherence to
+rules and fair play. My dedication to these disciplines not only enhances my physical fitness but also
+reinforces leadership, strategic thinking, and teamwork—qualities that translate seamlessly into my
+professional endeavors.

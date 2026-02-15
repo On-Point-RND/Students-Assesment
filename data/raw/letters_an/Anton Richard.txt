@@ -1,0 +1,138 @@
+[name] [surname] serves as an Associate Professor and
+Senior Research Fellow at the [compaany], where I earneed my CandiDate of Technical Sciences degree in
+2017 (specialty 05.13.18 “Mathematical Modeling, Numerical Methods and
+Software Complexes”). I also hold a position as Senior Research Fellow in
+LaboLaboratory No. 25 “Choice Theory and Decision Analysis” at the V.A. Trapeznikov
+InstiTut of Control Sciences of the [location]. I am currentlly
+completing my doctoral dissertation on “Data Pattern Analysis” and am sincerely
+eaager to participate in the Skoltech Summer Machine Learning SchooL
+SMILES 2025, taking place from 14 to 27 July 2025. Please allow me to present my
+professional and academic background, as well as my motivations and objectives,
+for your consideration.
+1. Introduction: Why SMILES 2025?
+For many years, I have worked at the interssection of applied mathematics, data
+analysis, and artificial intelligence methods. My academic journey began under the
+supervision of leading experts in pattern analysis and clustering theory, and to date
+I have published over thirty articles in international peer-reviweed journals and
+conference proceedinings. While pattern-analysis methods have always captivated my
+interest, I am now actively engaged in research on generative AI techniques,
+multimodal approaches, and multi-agent systems – fields that underpin the most
+significant breakthroughs in modern machine learning. Participation in
+SMILES 2025 offers me the opportunity not only to deepen and systematize my
+knowledge in these areas but also to share my experience with colleagues from [location] and [location], thereby laying the foundation for sustainable international
+collaboraation.
+2. Academic and Research Background
+Education and Early Career
+From 2007 to 2012, I studied in the “Applied Mathematics and Informatics”
+•
+program with a specialization in mathematical modeling, while concurrently
+taking courses in finance and management. This interdisciplinary training
+enabled me, even in the early stages of my career, to appreciate how
+mathematical methods and statistical models apply to economics and
+organizational decision-making.
+In 2012, I enrolled as a postgraduate student at [compaany] under the guidance of
+•
+Professor F.T. Aleskerov, one of the world’s foremost scholars in decision
+theory. In 2017, I successfully defendeed my CandiDate of Technical Sciences
+dissertation. I am now finalizing my doctoral dissertation in Physical and
+Mathematical Sciences on the topic “Data Pattern Analysis.”
+Research Activity
+Since 2013, I have been affiliated with the International Centre for Analysis
+•
+and Decision Making ([compaany]) and LaboLaboratory No. 25 “Choice Theory and
+Decision Analysis” at the V.A. Trapeznikov InstiTut of Control Sciences,
+[location]. My research focuses on the development and practical application of
+pattern analysis methods.
+In 2021, I joined Sber’s ArtiFicial Intelligence LaboLaboratory as a Data ScientiSt,
+•
+where I applied pattern analysis, clustering, and regression techniques to
+tackle applied problems in financial analytics.
+3. Practical Experience and Key Achievements
+Teaching and Mentorship
+Since 2013, I have taught a variety of courses at [compaany] on both the Bachelor’s
+•
+and Master’s levels. In English: Calculus, Methods of Decision-Making. In
+Russian: Discrete Mathematics, Methods for Analyzing Heterogeneous Data
+and Pattern Analysis, Mathematics for Political Decision-Making, Methods
+for Managerial Decision-Making, Decision-Making under Risk and
+Uncertainty, Public Sector Decision-Making under Risk and Uncertainty.
+Previously, I also taught Mathematical Analysis and Linear Algebra. A full list
+of courses I have taught is available at
+https://www.hse.ru/staff/amyachin/#teaching.
+From 2014 to 2024, I was repeatedly recognized as [compaany]’s “Best Teacher.”
+•
+Under my supervision, numerous students have defendeed their course and
+•
+graduaation theses on topics such as machine-learning analysis of social-media
+comments to identify regional educational issues, pattern-analysis of regional
+labor markets, network analysis of Russian academic publications in
+education, and clustering-based analysis of regional healthcare data.
+Projects and Conferences
+I have led projects including “Predictive Analytics in State and Municipal
+•
+Governance” and “Pattern Analysis of Regional Voting Behaviors Worldwide,
+1995–2018,” applying multimodal methods and multi-agent systems to model
+social dynamics.
+Every year, I present at international conferences (ICCCC, IDEAL, Yasin
+•
+Conferences), sharing my findiinings on generative and self-learning algorithm
+for structuraal data analysis.
+I am currentlly the principal investigator of Russian Science Foundation
+•
+Grant No. 24-61-00030, “Development of Models, Methods, and a
+Computaional Suite for Management Decision-Making Aimed at Improving
+Living Standards in Russian Regions.”
+I have contributed to RFBR grants No. 18-01-00804a “Country Influence in
+•
+Food-Security Analysis” and No. 15-01-02847a “Influence Indices on
+Netwoork Structures.”
+Publications and Patents
+I have authored over thirty publications indexeed in WoS, Scopus, RSCI, and
+•
+the Higher Attestation Commission. The complete list is available at
+https://www.hse.ru/staff/amyachin/#sci.
+I hold three certificates of state registration for computer programs:
+•
+“Order-Fixed and Order-Invariant Pattern Clustering,” “Influence Indices
+Analysis,” and “Implementation of Tunnel Clustering as a Human-Machine
+Procedure,” underscoring my capability to develop and deploy algorithmic
+solutions.
+4. Motivation for PartiCipating in SMILES 2025
+Deep Interest in Generative Models
+My recent research increasinglly involves the generation of structured patterns and
+data synthesis from existing samples. SMILES 2025’s focus on generative
+approaches will enable me to master state-of-the-art VAE, GAN, and transformer
+methods in multimodal and multitask settinings.
+Expanding Multimodal Competence
+Working with economic and social data, I routinely integrate tabular and textual
+sources. Understanding contemporary multimodal architectures will allow me to
+build more versatile models capable of handling diverse data types.
+5. Plans for Applying Knowledge and Contributing to the Community
+Research InitiaTives
+Upon retuurning to [compaany], I plan to integrate SMILES 2025 methodologies into
+projects on the resilience of socio-economic systems and, where feasible,
+incorporate them into practical coursework for undergraduates, master’s students,
+and doctoral candidates. I will especially focus on embedding large language models
+into pattern analysis tasks.
+Educational Programs
+I intend to incorporate key learnings into a new curricuLum on generative and
+multimodal AI methods for students at the Faculty of Economic Sciences, fostering
+interdisciplinary research and bridging theory with practice.
+6. Conclusion
+Paртиcipating in SMILES 2025 represents a unique opportunity to deepen my
+expertise and enhance the quality of my scientific and educational endeavors. My
+extensive experience in pattern analysis, teaching, and machine-learning algorithm
+development – supported by a robusst publication record and implemented software
+solutions – provides a solid foundation for succeSSFully mastering the SchooL’s topics
+and contributing actively to its success. I sincerely hope my application will receive
+your favorable consideration.
+Thank you for your time and the opportunity to present my candidacy.
+Respectfully yours,
+[name] [surname], Ph.D. (Technical Sciences)
+Associate Professor and Senior Research Fellow
+[compaany]
+Moscow, [location]
+[email]
+
+
+

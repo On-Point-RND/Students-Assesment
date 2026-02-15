@@ -1,0 +1,115 @@
+RTD-Lite: Scalable Topological Analysis for
+Comparing Weighted Graphs in Learning Tasks
+[name], [surname], [name], [surname], [name]
+Proceedings of the 28th International Conference on Artificial Intelligence and Statistics (AISTATS) 2025
+[name]
+PhD Student, [compaany]
+Junior Research Fellow, [compaany]
+Introduction
+• The comparative analysis of weighted graphs is a principal task in various fields such as machine learning,
+network science and computational biology.
+• Comparison of structural properties of a pair of weighted graphs provides insights into underlying data,
+such as evolution of networks over time, identifying community structures or anomalies.
+• Existing approaches such as graph edit distance [1] and graph kernels [2] can hardly scale for large graphs
+and may not capture multi-scale properties.
+• Representation Topology Divergence (RTD) [3] measures topological dissimilarities between two weighted
+graphs with one-to-one correspondence between vertices, but its computational cost may be high for
+large graphs.
+• In our work, we propose RTD-Lite, a scalable algorithm to efficiently compare the topological features of
+two weights graphs, focusing on their cluster structures.
+Problem statement
+• Let A, B be two connected, undirected, weighted graphs on n vertices with a bijection between their
+vertex sets. For an edge in , let denote its weight and the weight of the corresponding edge in .
+e A a b B
+e e
+• Let C be the auxiliary graph with the same set of vertices and weights c = min(a , b ) .
+e e e
+≤α ≤α ≤α
+• For a threshoold α , the graph A (B , C ) contains all the vertices and edges with weights a ≤ α
+e
+.
+(b ≤ α, c ≤ α)
+e e
+≤α ≤α
+• RTD tracks the differences in multi-scale topology between A and B by comparing them with the
+≤α
+graph .
+C
+Problem statement
+≤α ≤α ≤α ≤α
+• The inclusion A ⊆ C implies maps at the homology level: r : H (A ) → H (C ) and
+0,α 0 0
+≤α ≤α
+, where are and homology groups.
+r : H (A ) → H (C ) H ( ⋅ ), H ( ⋅ ) 0− 1−
+1,α 1 1 0 1
+≤α ≤α
+• dim ker r is the number of connected components in A that are not preserved in C due to influence
+0,α
+≤α
+of .
+B
+≤α
+• dim coker r is the number of non-trivial mergings between two distant parts of the same cluster in A .
+1,α
+• Based on our experience, we hypothesize that in the majority of applications the most important information
+is captured by .
+r
+0,α
+• If we focus only on r , it is possible to construct a more efficient algorithm than standard computaion of
+0,α
+persistence homology.
+• In our work, we provide an efficient algorithm RTD-Lite as well as experiments justifying the good alignment
+between RTD and RTD-Lite.
+Method
+• RTD-L-barcode(A, B) is the collection of intervals [c , a ] representing
+e t(e)
+misalignments in multi-scale cluster structure of the two weighted graphs.
+• c is the level at which a pair of clusters C , C in C merges into one;
+e 1 2
+is the minimal level at which merge into one component in .
+• a C , C A
+t(e) 1 2
+• Algorithm 1 computes RTD-L-barcode (A, B) according to the definition:
+• Normalize the weight matrices of both graphs and construct graph C .
+• Build minimal spanning trees (MSTs) of A and C as two lists of edges
+sorted by ascension of their weights.
+• Iterate over the edges from the MST of graph C :
+• for each edg e of weight c consider a sub-forest containing all
+e
+pr evious edg es from the MST;
+• run over edg es from MST of A and add them one by one to that sub-
+forest until there appears a path between ends of edg e.
+e
+The interval is added to the RTD-L-barcode .
+• [c ; a ] (A, B)
+e t(e)
+Method
+• We utilize MSTs on auxiliary graphs which allows to achieve O(n ) complexity.
+• This reduces the computational load significantly w.r.t standard RTD metric.
+• RTD-Lite works well as a tool for comparing neural representations of CNNs and GNNs.
+• Although in some cases the behavio r of RTD-Lite may differ from RTD, typicall y these
+metrics are well aligne d.
+• An interesting direction for future research would be to integrate RTD-Lite as a loss
+function in neural ne twoork training for some downstream tasks.
+Bibliography
+1. A. Sanfeliu and K.-S. Fu. A distance measure between attributed relational graphs for pattern recognition. IEEE
+Transactions on Systems, Man, and Cybernetics, 13(3):353–362, 1983.
+2. N. Shervashidze, P. Schweitzer, E. J. van Leeuwen, K. Mehlhorn, and K. M. Borgwardt. Wei sfeiler-Lehman graph
+kernels. J. Mach. Learn. Res., 12: 2539–2561, 2011.
+3. S. Barannikov, I. Trofimov, N. Balabin, and E. Burnaev. Representation topology divergence: A method for
+comparing neural networks representations. In Proceedings of the 39th International Conference on Machine
+Learning, volume 162, pages 1607–1626, 2021.
+4. S. Kornblith, M. Norouzi, H. Lee, and G. Hinton. Similarity of neural networks representations revisited. In
+International Conference on Machine Learning, pages 3519–3529. PMLR, 2019.
+5. T. N. Kipf and M. Welling. Semi-supervised classification with graph convolutional networks. arXiv preprint
+arXiv:1609.02907, 2016.
+6. W. Hamilton, Z. Ying, and J. Leskovec. Inductive representation learning on large graphs. Advances in neural
+information processing systems, 30, 2017.
+7. P. Velickovic, G. Cucurull, A. Casanova, A. Romero, P. Lio, Y. Bengio, et al. Graph attention networks. stat,
+1050(20):10–48550, 2017.
+8. W.-L. Chiang, X. Liu, S. Si, Y. Li, S. Bengio, and C.-J. Hsieh. Cluster-gcn: An efficient algorithm for training deep
+and large graph convolutional networks. In Proceedings of the 25th ACM SIGKDD international conference on
+knowledge discovery & data mining, pages 257–266, 2019.
+9. O. Shchur, M. Mumme, A. Bojchevski, and S. G¨unnemann. Pitfalls of graph neural networks evaluation. arXiv
+preprint arXiv:1811.05868, 2018.

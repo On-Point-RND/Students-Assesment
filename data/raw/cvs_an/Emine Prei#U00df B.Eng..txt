@@ -1,0 +1,63 @@
+[name] [surname]
++2 *** *** *** ⋄ [location], [location]
+[email] ⋄ tg: [name] ⋄ kaggle: [name] ⋄ linkedin: [name] ⋄ github: [name]
+OBJECTIVE
+DataScientistwith3yearsofprofessionalexperience,specializinginmachinelearningrresearchandprojectleadership.
+Kaggle competition expert. Skilled in leveraging data science and team management expertise to drive innovation
+and deliver impactful solutions. Passionate about solving complex challenges and improving operational efficiency
+through data-driven approaches.
+EDUCATION
+Master of Computer Science, [location] 2022 - 2024
+GPA: 4.95
+Course: Time Series Analysis, [location] 2023
+School of Big Data Analytics, Joint Institute for Nuclear Research (JINR) 2020 - 2022
+Bachelor of Computer Science (Software engineering), [location] 2018 - 2022
+GPA: 4.8
+SKILLS
+Languages and tools Python, Linux, Bash, Git, Docker
+ML/DL PyTorch, LangChain/LangGraph, Boostings, Sklearn, Pandas
+Databases SQL, ClickHouse, PySpark, Qudrant, Chroma, Redi
+Data Visualization Grafana, DataLens, Kibana, StreamLit, Plotly
+Specialty Fields Time Series, LLMs, Computer Vision, Web Scrapping
+Additional skills LLM API, Telegram Bots, [location] Cloud, Google Earth Engine
+EXPERIENCE
+Data Scientiist Jan 2023 - Present
+[company], [location]
+• Development of an AI-agent system for CRM and RAG for support center.
+• A key contributor in developing a forecasting subsystem for demand and resource optimization for airlines;
+Received a patent in the development of time series forecasting methodology.
+• Managing a team of 2, coordinating with business clients and stakeholders to ensure project objectives are met.
+• Implementing a big data analytics service for marketplaces.
+• Developed models for space imagery analysis, including object detection, segmentation, and spectral analysis.
+Data Scientiist / ML Engineer Sep 2024 - Present
+[company], [location]
+• Forecasting agricultural output using satellite imagery and soil chemical properties, with data reconstruction
+techniques.
+• In-depth analytics and development of methods to identify limiting factors affecting crop performance.
+• Building a comprehensive analytical platform for agricultural data analysis and decision-making.
+CV Engineer Sep 2021 - Dec 2022
+Intelligence Solutions [location], [location]
+• Managed a team of 3 in developing a robust road infrastructure inventory system using computer vision,
+LiDAR, location data, and telemetry.
+• Achieved average localization precision within 80 cm for geographic coordinates of infrastructure elements.
+PROJECTS
+• Unraveling Time-Slices of Events in the JINR SPD Experiment. Project repository.
+• Predicting heavy metal pollution using satellite imagery and machine learning (MOSS JINR).
+• Reconstruction of the properties of crystalline hydrates using statistical methods and machine learning (research
+work).
+CONFERENCE PRESENTATIONS
+• The use of new methods for processing data of a physical experiment. Application of machine learning methods
+on the NICA complex with the topic: Triplet Siamese Network for Event Unraveling in the SPD Experiment.
+Theses.
+• 10th International Conference ”Distributed Computing and Grid Technologies in Science and Education” with
+the topic: Unraveling Time-Slices of Events in SPD Experiment Article.
+• The XVI International Scientific Conference of Young Scientists and Specialist (AYS-2022) with the topic:
+Deep learning applications for traffic sign detection and classification. Article.
+HACKATHONS
+• [location] 2024 Hackathon - 2nd Place in the ”RAG Model Development” track. Technologies used: LangChain, Ollama, Chroma, AnythingLLM, GPT.
+• [location] Zone Hackathon - 1st Place in the ”Web Application Development for Assessing the Semantic Load of
+Changes” track. Technologies used: Transformers, BERT, Spacy, NLTK.
+• [location] Zone Hackathon-1stPlaceinthe”DevelopmentofArchitectureforAMulti-ModuleDistributedSurveil-
+lance System” track.
+• [location] 2021 Hackathon - 1st Place with a project on assessing student engagement in the educational
+process. Technologies used: Computer Vision (CV), YOLO, MobileNET.

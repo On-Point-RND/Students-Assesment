@@ -1,0 +1,58 @@
+## Summary of the Presentation: Neural Parabolic Wave Equation for Refractivity Estimation
+
+This presentation by Mikhail Lytaev introduces a novel approach to estimating atmospheric refractivity using a neural parabolic wave equation (NPWE). The key innovation lies in formulating the refractivity estimation problem as a physics-informed neural network problem, leveraging the wave propagation equations to guide the learning process.
+
+**Problem:** Estimating atmospheric refractivity profiles is crucial for various applications like radio wave propagation, weather forecasting, and oceanography. Traditional methods often rely on computationally expensive models or require significant prior information about the refractivity distribution.
+
+**Proposed Solution: Neural Parabolic Wave Equation (NPWE)**
+
+The core idea is to represent the refractivity profile as the solution to a parabolic wave equation. This equation describes how disturbances (like radio waves) propagate through a medium. By training a neural network to approximate the solution of this equation, the method can infer the refractivity profile from observed wave propagation data.
+
+**Key Advantages of the NPWE Approach:**
+
+* **Physics-Informed:** The method is grounded in the fundamental physics of wave propagation, leading to more robust and physically plausible results.
+* **Flexibility:** Neural networks can represent arbitrary complex relationships between wave propagation and refractivity.
+* **No Prior Assumptions:** The approach does not require significant prior knowledge about the refractivity distribution, making it applicable in various scenarios.
+* **Real-time Potential:** The use of differentiable programming allows for efficient optimization and potential real-time applications.
+* **Automatic Differentiation:** The method utilizes automatically differentiable programming, simplifying the training process.
+
+**Methodology:**
+
+The presentation details the implementation of the NPWE, which involves:
+
+* **Formulating the refractivity problem as a parabolic wave equation.**
+* **Developing a neural network architecture to approximate the solution of this equation.**
+* **Defining a loss function that penalizes deviations from the true refractivity profile.**
+* **Utilizing automatic differentiation to train the neural network.**
+
+**Experimental Results:**
+
+The presentation showcases successful applications of the NPWE in:
+
+* **Tropspheric Refractivity Inversion:** Demonstrating the ability to estimate refractivity profiles from radio wave propagation measurements.
+* **Underwater Sound Speed Profile Sensing:** Extending the method to estimate sound speed profiles in underwater acoustics.
+* **Comparison with Traditional Methods:** Showing that the NPWE can achieve comparable or better accuracy than conventional inversion techniques.
+* **Convergence Analysis:** Demonstrating the convergence of the optimization algorithm and the robustness of the method across different waveguide types.
+
+**Software and Resources:**
+
+The developed code is available in the **PyWaveProp** library, a Python 3 library built with JAX. The library includes documentation and examples for users and contributors.
+
+**Future Directions:**
+
+The research team plans to explore:
+
+* **AutoML for meta-parameter optimization:** Automating the process of finding optimal neural network architectures and hyperparameters.
+* **Real-time applications:** Developing real-time systems for refractivity estimation in various fields.
+
+**Conclusion:**
+
+The Neural Parabolic Wave Equation represents a significant advancement in refractivity estimation. By combining the power of neural networks with the principles of wave propagation, this approach offers a flexible, robust, and potentially real-time solution for a wide range of applications.
+
+**Resources:**
+
+* **Publications:** The presentation lists three recent publications detailing the research.
+* **PyWaveProp Library:** [https://github.com/mikelytaev/wave-propa...](https://github.com/mikelytaev/wave-propa...)
+* **Documentation:** [https://wave-propaigation.readthedocs.io/](https://wave-propaigation.readthedocs.io/)
+
+The presentation concludes with a thank you and contact information for Mikhail Lytaev.

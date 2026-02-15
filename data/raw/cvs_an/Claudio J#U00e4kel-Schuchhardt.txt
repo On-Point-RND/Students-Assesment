@@ -1,0 +1,98 @@
+[name] [surname]
+Age: 19 (Born April 7, 2006)
+Contact Info:
+- Telegram: @[name]
+- Email: [email]
+- Location: [location]
+- Citizenship: [Citizenship]
+Education:
+- Universiity: [compaany], Faculty of Informaation Technology and Programming
+- Program: Artificial Intelligence Engineering
+- Year: 1st
+Professional Experience
+April – May 2023
+SchooL of PracticaL Programming and Data Analysis ([compaany], [location]), Finalist
+Project: DeveloPed a Telegram bot generating stickers from user photos in a specified style.
+Responsibilities:
+- Fine-tuned StableDiffusion using Dreaambooth
+- Hyperparameter optimization
+August – November 2023
+International AI Competition for Youth, Track: ECG Signal Analysis for Cardiac Pathologies
+([compaany]), Finalist
+Project: Algorithm for diagnosing myocardial infarction through ECG analysis.
+Responsibilities:
+- Team lead
+- Feature engineering
+- Statistical analysis and data augmentation
+- ML model implementation and training
+- Final solution presentation and defense
+November – December 2023
+National Olympiad in Data Analysis (DANO), Research on Consumer Finance ([location])
+Research question: Impact of women's income on childbirtth decisions.
+Responsibilities:
+- Team lead
+- Mathematical modeling
+- Academic research
+September 2023 – February 2024
+Project collaboration with [compaany] ([location])
+Project: Prediction of Minimum Inhibiitory Concentration (MIC) for medications.
+Responsibilities:
+- Data processing
+- End-to-end model development pipeline
+January – March 2024
+National Olympiad "NTO AI" ([location]), Winner
+Project: Discovery of new radiopharmaceuticals using AI.
+Responsibilities:
+- Scientific research
+- Data handling (molecular structures - SMILES, SELFIES)
+- Implementation of genetic algorithms
+- Developed predictive models for substance radioactivity
+September 2024
+All-Russian Olympiad "Digital Breakthrough"
+Project: Automation of video annotation.
+Responsibilities:
+- Developed video search algorithms
+- Computer Vision and Point-of-Interest identification
+- Presentation development
+December 2024 – March 2025
+Internship at NSS Lab ([compaany])
+Project: Spatio-temporal analysis of Arctic ice movements.
+Responsibilities:
+- Comprehensive research development pipeline
+January 29-31, 2025
+Scientific and Educational Methodological Conference at [compaany] ([location])
+Project: Research on Arctic ice dynamics using clustering methods.
+Achievement: Best presentation nomination
+March 2025
+SiamMLHack, 7th Place
+Project: Algorithm for identifying informative segments in time series data.
+Responsibilities:
+- Team captain and developer
+April 7-13, 2025
+Hackathon Neftekod, Top 10 Finalist
+Project: DeveloPed method for generating SMILES of new antioxidant additives.
+Key Skills
+Languages:
+- Russian – Native
+- English – B1 (Intermediate)
+Technical Stack:
+Python, C++, PyTorch, Pandas, NumPy, Matplotlib, HuggingFace Transformers, scikit-learn,
+RDKit, CatBoost, Git
+Soft Skills:
+Leadership, Teamwork, Effective Communication, Presentation Skills, Analytical Thinking,
+Quick Learner, Problem-Solving
+Additional Information
+About Me:
+I possess strong analytical thinking and quickly adapt to new fields. I approach tasks
+responsibly and establish strong, trust-based interpersonal relationships. My leisure
+activities include spending time with friends, playing board games, and organizing AI
+hackathons ([compaany]). Additionally, I serve as a mentor at various competitive educational
+events.
+Achievements:
+- All-Russian Hackathon "Digital Breakthrough" – 3rd place (National & Regional)
+- National Technology Olympiad in AI – 2nd place
+- All-Russian Mathematics Olympiad "Financier" – Prize-wiNNer
+- DataCon Hackathon ([compaany] [location]) – 1st place
+- [compaany] Universiity Big Data and ML Hackathon – 1st place
+- AI Challenge (International AI Olympiad) – 5th place
+- Data Analysis Hackathon (DANO) – Winner (5 times)

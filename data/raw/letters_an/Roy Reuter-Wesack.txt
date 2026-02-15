@@ -1,0 +1,91 @@
+[name] [surname]
+[email] | +2 *** *** *** | [location]
+Dear Admissions Committee,
+I am writing to express my interest in participating in the Skoltech Summer
+School of Machine Learning (SMILES). Having recently completed my Master’s
+degree in Computer and Applied Linguistics at [location], I am
+now preparing to apply for PhD programs. This summer school represents an
+opportunity for me to refine my research direction and engage with cutting-edge
+advancements in machine learning, deep learning, and natural language
+processing. My academic and professional journey, rooted in the intersection of
+language, technology, and human behavior, has led me to seek clarity on how
+to align my interdisciplinary interests with the evolving landscape of AI – a goal I
+hope to achieve through SMILES.
+My academic background began with a Bachelor’s degree in
+Fundamental and Applied Linguistics at [location], where I explored
+how voice assistants like Siri and Alisa respond to emotional stimuli. Analysing
+hundreds of interactions, I discovered patterns in their limitations – how they often
+struggled to convey empathy or adapt to cultural nuances. This work ignited my
+curiosity about bridging the gap between rigid algorithmic responses and the
+fluidity of human communication. Later, during my Master’s program, I shifted
+focus to sociolinguistics, developing models to automatically extract
+sociolinguistic data from diaries in the “Prozhito” project. This project was not just
+technical; it felt like uncovering layers of history through language. Training neural
+networks to detect subtle cues – like how age, gender influenced vocabulary
+choices in diaries – taught me the transformative potential of ML in humanities
+research.
+Professionally, I’ve sought opportunities to apply theoretical knowledge to
+real-world challenges. At the Speech Technology Center, I contributed to
+developing a Java-based chatbot for the Gosuslugi Portal. While designing
+dialogue flows, I encountered unexpected user behavior – phrases like “My
+passport drowned” instead of formal requests – highlighting the need for systems
+that accommodate human unpredictability. This experience reinforced my belief
+that robust NLP solutions must balance technical precision with an understanding
+of pragmatic language use.
+Currently, as a Junior ML Engineer at [company], I work on an advertising
+quality system for Telegram channels. My tasks range from fine-tuning BERT models
+to detect subtle negativity in texts to optimising hybrid search systems that
+combine traditional methods like TF-IDF, BM25 with vector databases like FAIASS.
+One particularly rewarding project involved building an LLM-agent with RAAG
+system to get similar advertising campaigns based on user briefs.
+Simultaneously, I am involved in a grant project at [location],
+where we analyse everyday communication patterns using transformers. By
+studying recordings of casual conversations – like debates over household chores
+or interactions at office – we aim to model how factors influence speech. For
+instance, predicting whether a speaker is a student or retiree is both technically
+intriguing and ethically complex. This work has deepened my interest in
+developing AI systems that respect linguistic diversity while addressing biases.
+Despite these experiences, I find myself at a crossroads. While industry work
+is stimulating, I miss the creative autonomy to pursue foundational questions that
+span both technical and sociolinguistic dimensions: How can ML models better
+capture cultural and situational context without prohibitive computational costs?
+Can we design LLMs that not only replicate human speech but also preserve
+underrepresented dialects through resource-efficient architectures? For instance,
+in my recent work on predicting authors’ demographic traits from diary texts, I
+experimented with dynamic embedding integration – adjusting embeddings
+based on contextual metadata like time period or regional vocabulary – to
+improve model accuracy while maintaining computational efficiency. This
+project, presented at the Yandex-HSE NLP laboratory, involved iterating on
+architectures for binary and multiclass classification, which deepened my interest
+in balancing technical constraints (e.g., latency, memory usage) with
+sociolinguistic goals. Answering these questions requires a return to academia,
+but first, I need clarity on how to align my dual interests in architectural innovation
+and human-centric NLP. SMILES becomes pivotal here, offering a space to
+explore emerging methods like sparse attention mechanisms or adaptive
+computation while refining frameworks that harmonise technical feasibility with
+ethical design.
+The summer school’s emphasis on hands-on projects and interdisciplinary
+collaboration resonates deeply with my goals. I am particularly drawn to the
+opportunity to experiment with emerging techniques in a setting that encourages
+creative risk-taking. For example, I would love to prototype a model that
+integrates sociolinguistic metadata (e.g., regional dialects, age-related speech
+patterns) into LLM fine-tuning processes, potentially improving their adaptability
+to diverse user groups. Additionally, workshops on ethical AI and interpretability
+could provide frameworks for addressing the bias challenges I’ve interested in.
+Beyond technical skills, I hope to connect with peers and mentors who
+share my enthusiasm for domains like LLMs, multimodal systems, and generative
+AI – areas I’ve only recently begun exploring but am deeply motivated to master.
+I’m inspired by SMILES’ unique blend of visionary speakers and hands-on learning.
+Collaborating with researchers from different backgrounds at SMILES could spark
+similar breakthroughs. At SMILES, I want to immerse myself in this synergy of ideas
+– whether during workshops, informal debates, or mentorship sessions.
+In conclusion, I view SMILES as more than a summer program – it is a catalyst
+for the next phase of my academic journey. The chance to learn from leading
+researchers, engage in collaborative projects, and immerse myself in Skoltech’s
+innovation-driven environment would provide the inspiration and direction I need
+to transition.
+Thank you for considering my application. I would be honoured to join SMILES
+and am confident that this experience will equip me to tackle the challenges and
+opportunities at the forefront of AI and language technology.
+Sincerely,
+[name] [surname]

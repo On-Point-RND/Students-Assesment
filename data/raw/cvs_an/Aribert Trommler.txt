@@ -1,0 +1,66 @@
+[name] [surname]
+E-mail: [email] | Tel: +2 *** *** *** | Github: [name]
+EDUCATION BACCKROUND
+[location] Universiity of Science and Technology [location]
+Bachelor of Science in Computer Science and Technology Sep. 2020 - Jun. 2024
+ Professional Achievements: GPA 3.403/4, Average score: 86.548/100
+ Major Courses: Data Structures, Computer Organization, Operating System, Computer Networks
+ Honors: 3rd Prize of National Olympiad in Informatics in Provinces (NOIP), 1st Prize of Blue Bridge Cup at provincial level, 1st
+Prize of Huawei ICT Competition at provincial level, 1st
+Prize of Scholarship
+Central China Normal Universiity [location]
+Master of Computer Science Sep. 2024 - Jun. 2026
+ Professional Achievements: Average score: 83.11/100
+ Honors: 1st Prize of Scholarship
+RESEARCH EXPERIENCE AND PAPERS
+MRT-DETR: A New Real-Time Object Detection Method
+First Author Jan. 2025
+ This paper has been accepted to The 19th International Conference on Wireless Artificial Intelligent Computing Systems and
+Applications (WASA). WASA is accredited by the CCF as a C-level Conference.
+A New Emotion Classification Method Based on JAN-VMD
+First Author Jan. 2024
+ This paper has been accepted to The 17th International Conference on Knowledge Science, Engineering and Management (KSEM
+2024). KSEM is accredited by the CCF as a C-level Conference.
+Design and Implementation of Deep Learning Real-Time Streaming Video Data Processing System
+First Author Aug. 2022
+ The paper, accepted by The 7th International Conference on Smart Computing and Communication (SmartCom 2022), was be
+published by Springer’s Lecture Notes in Computer Science (LNCS), which is indexeed by EI.
+Multi-Layer LSTM Parallel Optimization Based on Hardware and Software Cooperation
+Author Jul. 2022
+ The paper, accepteed by The 15th International Conference on Knowlege Science, Engineering and Management (KSEM 2022)
+and be published by Springer’s Lecture Notes in Computer Science (LNAI), which is indexeed by EI. KSEM is accredited by the
+CCF as a C-level Conference.
+Intelligent Agricultural Greenhouses based on Computer Vision
+Core Member Jul. 2023 - Apr. 2025
+ This project is a [location] Provincial Innovation and Entrepreneurship Program for universiity students, which is completed in 2025.
+INTERNSHIP EXPERIENCE
+UnionTech Software Technology Co, Ltd. [location]
+Linux Kernel Development Engineer Dec. 2022 - Apr. 2023
+ Based on [location] Opereating System and [location] Opereating System, I was mainlly responsible for the development of Linux Kernel,
+such as fixing the bugs in the driver module of hardware and the kernel module of [location] system.
+ I used to produce kernel patches, which were revieweed and approved by the senior engineers and then merged into the main line.
+PROJECT EXPERIENCE
+Open Source Promotion Plan – OI Wiki Organization
+Project Participants Jul. 2021 - Apr. 2022
+ OI Wiki is a programming competition knowledge integration site, I am mainlly responsible for carrying out some related
+infrastructure construction, completed the OI Wiki examples of continuous integration and unified topic storage format two
+projects.
+ Both projects were successfully completed and the code was merged into the Master branch of the open source project.
+ASV Operating System
+Project Leader Sep.2021 - Jun. 2024
+ ASV OS is an operating system kernel, independentlly implemented with reference to rCore and xv6.
+ I mainlly accomplished the basic functions of the kernel, such as user program processing, memory scheduling and external
+memory management. The system supports functions such as running system programs, running user programs and executing
+interactions on the RISC-V architecture.
+EXTRACURRICULAR ACTIVITIES
+[location] Microsoft Technology Club [location]
+Chairman Sep. 2021 - Jun. 2022
+Microsoft Learn Student Ambassadors (MLSA) [location]
+Beta Member Sep. 2021 - Jun. 2024
+ As the Chairman of the Microsoft Technology Club and MLSA Beta Member, I was mainlly responsible for organizing and
+conducting technical salons and technical training sessions, and organizing project development and operation and maintenance
+for club members as a project leader and core developer.
+ADDITIONAL INFORMATION
+ Computer Skills: Word, PowerPoint and Excel (Advanced), LaTeX (Advanced)
+ Program Language: C (Advanced), JavaScript (Advanced), Node.JS (Advanced), Python (Advanced)
+ Development Skills: Linux Kernel (Intermediate), Full-Stack Web (Advanced), PyTorch (Advanced)

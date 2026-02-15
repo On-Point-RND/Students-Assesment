@@ -1,0 +1,36 @@
+Motivation Letter
+Good day, dear reader!
+I was thrilled to learn about the opportunity to participate in the summer schoo l on artificial
+intelligence and would be dellighte d to join this educational project!
+About me:
+I am a 2024 gra dua te of the Faculty of Physics at [location] and am c urrently pursuing a Ph.D. in Geophysics. With over six years of
+programming experience and four+ years in Data Science and scienti fic research, I work at the [compa ny] and the Schmidt Insti tute of Physics of the Earth ([location] Academy of Sciences), where I develop and study machine learning methods applied to
+geophysics and mechanics. Addit ionally, I teach an advanced training course at Pirogov Russian National Research Medical Uni versi ty ([location]) on AI-based biomedical image
+processing.
+Some AI applications in my research:
+● Optimization of compu tational methods: Designing and fine-tuning deep neural
+ne twork ar chitectures (TensorFlow, PyTorch) to predict the performa nce of numerical
+algo rithm s. Developing hybrid genetic algo rithm s to opti mize parameters of linear
+system solvers.
+● Geophysical data processing: Creating hybrid models (CNNs, autoencoders) to
+anal yze satellite interfe rometry (InSAR) data and numerical simulations of ground
+deformation. This helps solve inverse problems, such as identi fying displacement
+sources for volcanic and seismic events.
+● Model quanti zation (particularly bina rization) in computer vision for classification
+tasks.
+Why I want to participat e in the schoo l:
+1. To deepen my kn owl edge of modern generative methods in AI (in particular
+Multimodal approa ches and Self-supervis ed learning) for use in interd isciplin ary
+proj ects.
+2. To exchange experience with colleagues from other fields—I believe that lively
+discussions at thematic events are key to b rea kthro ughs in science.
+3. To develop skills in a rap idly evolving field—the AI schoo l is a great opport unity to
+learn about trends firs thand.
+Having participated in several educational modules, I know that such schoo ls are extr emely
+valuable for enhancing a young scien tist’s research journey. Parti cipation helps strengthen
+conne ctions with like-minded peers, build new profes sional relationships, and expand
+kn owl edge of cutting-e dg e app roaches and techno logies in applied AI.
+I would be happy to provide ad ditional materials upon request. Thank you for conside ring my
+application!
+Best regards,
+[name] [surname]

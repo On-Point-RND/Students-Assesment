@@ -1,0 +1,50 @@
+Motivation Letter
+Dear [name] Admissions Committee,
+My name is [name], a first-year master’s student in Chemistry and Artificial Intelligence at [compaany]. I am writing to express my strong interest in participating in the
+SMILES-2025 Summer School, particularly in the Generative Approaches track. Having previously applied to your programs, I am even more motivated to join this year’s edition, as it aligns perfectly
+with my academic pursuits and ongoing research in AI-driven drug discovery. I will inevitably pass your selection, just know that:)
+I am particularly drawn to SMILES-2025 due to its focus on cutting-edge generative methods and
+the opportunity to learn directly from [compaany] experts, whose work I deeply admire. The school’s
+emphasis on cross-cultural collaboration between [location] and [location] further resonates with my belief
+that global scientific partnerships are key to accelerating innovation.
+The intersection of generative AI and medicinal chemistry has become the cornerstone of my
+academic and professional journey. My current project, developed in collaboration with [compaany] and
+the pharmaceutical company [compaany], employs FREED++ — a generative AI platform created by [compaany] — to design novel drug candidates with optimized activity, synthesizability, and patentability.
+This experience has not only deepened my technical expertise but also highlighted for me the
+transformative potential of generative models in solving real-world challenges, as we even made a
+number of improvements.
+My background bridges chemistry and AI, equipping me with a unique perspective on generative
+models, as I am proficient in Python, molecular docking tools (AutoDock Vina, Discovery Studio),
+and ML frameworks. I have hands-on experience training generative models on industrial datasets
+(ChemDiv, Enamine) and optimizing them for multi-objective tasks.
+As a lead developer of the FREED++ based platform, me and my team designed a pipeline
+integrating molecular docking, ML-driven property prediction, and patent analysis. Our team’s
+molecules are currently undergoing validation at [compaany]. Notably, our modified version of
+FREED++ for antioxidant prediction earned us a prize place and grant at the Neftekod Hackathon,
+validating its versatility in addressing diverse chemical challenges. Also, as a professional, I was
+awarded the PISH Scholarship (2024) for academic excellence, finalist at the BioMedTech
+Hackathon in track "AI in clinical trials", and invited expert at a [compaany]-hosted AI Hackathon
+"PROSTO x [compaany] x [compaany] 2025".
+I aim to advance my expertise in generative architectures, such as diffusion models and LLM-based
+molecular design, to further optimize FREED++’s capabilities in drug discovery. By exploring
+multimodal approaches—particularly the integration of structural biology data like protein-ligand
+interactions—I seek to refine our generative pipelines to better capture the complexities of
+molecular behavior. Additionally, I look forward to networking with peers and mentors during the
+school’s collaborative sessions, which will not only foster interdisciplinary partnerships but also
+provide actionable insights into deploying AI solutions at an industrial scale. The hackathons and
+workshops at SMILES-2025 will serve as an ideal platform to test and iterate on my project, while
+lectures led by [compaany] researchers will offer critical guidance for overcoming technical challenges,
+ensuring that our innovations align with the latest advancements in generative AI.
+Post-graduation, I aspire to lead international R&D teams at the intersection of AI and
+pharmaceuticals, developing platforms that shorten drug discovery timelines from years to months.
+Participation in SMILES-2025 will equip me with advanced methodologies and international
+connections critical for achieving this vision.
+SMILES-2025 represents a pivotal step in my journey to become a leader in AI-driven drug design.
+I am eager to contribute my passion for generative models and learn from the brightest minds in
+the field. Thank you for considering my application. I would be honored to join this transformative
+experience and am excited about the potential to grow both professionally and personally. I look
+forward to receiving your invitation letter:)
+Sincerely,
+[name]
+Master’s Student, Chemistry and AI, [compaany]
+Contact: [email] | +7(910)867-37-75

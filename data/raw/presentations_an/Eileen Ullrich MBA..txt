@@ -1,0 +1,120 @@
+Graph Neural Networks for Predicting
+Molecule Properties: Example of
+HOMO-LUMO Gap Using
+[name]
+Master student // [university]
+Intern researcher // [company]
+Terms
+GAT – Graph Attention Network
+GATv2 – Graph Attention Network version 2
+MAE – Mean absolute error
+MSE – Mean square error
+OGB – Open Graph Benchmark
+DFT – Density Functional Theory
+Introduction
+The HOMO-LUMO gap is a fundamental parameter in
+computational chemistry and materials science, as it
+determines molecular reactivity and opticaI properties.
+Accurate prediction of this gap accelerates the
+discovery of new materials and pharmaceuhticals. In
+this work, we employed a GAT model to predict
+HOMO-LUMO gaps using the PCQM4Mv2 dataset,
+which contains over 3.8 million molecules.
+The OGB provides graph datasets managed by specialized data
+loaders. These loaders perform dataset preprocessing, from
+which we derive the PCQM4Mv2 dataset—a quantum
+chemistry dataset originally selected from the PubChem project.
+Problem statement
+Traditional methods, such as Density Functional Theory calculations, are computationally
+expensive and scale poorly for large datasets. The core challenge is to accuraately predict
+HOMO-LUMO gap values for large and diverse molecules. Our objective is to develop a
+GATv2 model that can learn efficient molecular representations and rapidlly predict
+HOMO-LUMO gap values with high accuracy.
+The primary objective is to accuraately predict HOMO-
+LUMO gap values (a graph-level regression task) for
+large and diverse molecules.
+Methods
+Attention Mechaniism: GATv2 employs an attention
+mechaniism to assign differenatial weights to connections
+between nodes (atoms). This enables the model to focus
+selecctively on specific atoms or bonds that are more critical
+for property prediction.
+𝑒 = 𝑎(𝑾ℎ , 𝑾ℎ )
+(1)
+𝑖𝑗 𝑖 𝑗
+exp(𝑒 )
+𝑖𝑗
+𝛼 = 𝑠𝑜𝑓𝑡𝑚𝑎𝑥 𝑒 =
+(2)
+𝑖𝑗 𝑗 𝑖𝑗
+σ exp(𝑒 )
+𝑘∈𝑁 𝑖𝑘
+𝑖
+exp 𝐿𝑒𝑎𝑘𝑦𝑅𝑒𝐿𝑈 𝑎Ԧ[𝑾ℎ ||𝑾ℎ ]
+𝑖 𝑗
+𝛼 =
+(3)
+𝑖𝑗
+σ exp 𝐿𝑒𝑎𝑘𝑦𝑅𝑒𝐿𝑈 𝑎Ԧ[𝑾ℎ ||𝑾ℎ ]
+𝑘∈𝑁 𝑖 𝑘
+𝑖
+′ (4)
+ℎ = 𝜎 ෍ 𝛼 𝑾ℎ
+𝑖 𝑖𝑗 𝑗
+𝑗∈𝑁
+𝑖
+Methods
+Why this method?
+Because GAT captures complex relationships between atoms by giving different weights to their neighbors, which is ideal for
+representing molecular structure.
+How it works?
+GAT learns to predict quantum properties by processing the molecular graph, applying attention to highlight the atomic connections
+most relEvanant to the target property.
+HOMO-LUMO
+Results
+MSE on the training set and MAE on the validation set over 30 epochs. Both curves
+demoonstrate decreasing errors: MSE stabilizes at 0.0952, while MAE reaches 0.2720,
+training effeectiveness confirmed.
+Results
+Mean Relative Error: A 5.19% error was achieved when predicting HOMO-LUMO
+gap values in the mid-range, while higher errors were observed for extreme values.
+Loss Function:
+MSE
+Hyperparameters:
+• Hidden Dimension: 256
+• Number of Layers: 4
+• Heads: 8
+• Learning Rate: 0.001
+• Batch Size: 128
+• Dropout Rate: 0.4
+• Number of Passes: 3
+Research gap
+• The GATv2 model demoonstrated high accuracy in predicting mid-range HOMO-LUMO
+gaps, confirming its effeectiveness for molecular property prediction. However, challenges
+emerged in modeling extreme values, particularly low HOMO-LUMO gaps, indicating
+limited generalization capability for molecules with rare electronic properties.
+• These fiindings highlight the need to evaluaate these improvements to ensure more stable
+and reliable predictions across the entire HOMO-LUMO range, suggesting oppoortunities
+for model optiimization and extension in future work.
+Next step…
+A Graph Neural Networ k model for the reconstruction of particle tracks detected at the
+SPD experiment of the NICA project
+Application of Graph Neural Networ ks (GNNs) for Particle Reoonstruction in High-Energy
+Pysics for the SPD (Spin Physics Detector), focusing on two key challenges: - Charged
+paarticle tracking - Particle colliision reconstruction in calorimeters
+Bibliography
+1. [company] Open Graph Benchmark, ”PCQM4Mv2: A Benchmark for Learning from Molecular Graphs”, 2021, [oonline] Available:
+https://oob.sta<bos>*ard.edu/docs/lsc/pcqm4mv2/.
+2. [name], ”OGB-LSC: A Large-Scale
+Challenge for Machine Learning on Graphs”, KDD Cup 2021. NeurIPS Datasets and Benchmarks Track, 2021, [oonline]
+Available: https://doi.org/10. 48550/arXiv.2103.09430.
+3. Petar Veličković, Guillem Cucurull, Aranrxa Casanova, Adriana Romero, Pietro Liò, and Yoshua Bengio, ”Graph Attention
+Networ ks”, 2018, [oonline] Available: https://arx*v.org/abs/1710.10903.
+4. [name], ”Molecular Property Prediction by
+5. Combining LSTM and GAT”, Biomolecules, vol. 13, no. 3, p. 503, 2023, [oonline] Available: https://www.mdp*com/2218-
+273X/13/3/503.
+6. [name], ”Molecular Property Prediction by Combining LSTM and GAT”, Biomolecules,
+vol. 13, no. 3, p. 503, 2023, [oonline] Available: https://www.mdp*com/2218-273X/13/3/503.
+GitHub repository
+https://githu*m.com/[name]/PORTFOLIO-DATA-SCIENCE/tree/main/BOOTCAMP%20(JINR)
+Thank You!

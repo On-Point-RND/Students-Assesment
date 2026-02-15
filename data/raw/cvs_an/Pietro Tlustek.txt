@@ -1,0 +1,50 @@
+C [name]
+ML-Engineer(Data Scientist)
++2 *** *** *** ([email]) linkedin.com §github.com/[name] }t.me/[name]
+I am [name], a Data Scientist and AI Researcher based in [location], specializing in cutting-edge
+LLMandmultimodal systems. My work focus is on advancing NLP through innovative research
+while developing practical AI solutions. As an active contributor to [location]'s AI
+community, I lead research initiatives, mentor aspiring data scientists through ods.ai, and
+organize tech conferences. My unique combination of research expertise and production experience enables me to bridge theoretical
+advancements with real-world applications, delivering measurable impact through AI.
+• DeepLearning:NLP,LLM-agents(Mistral,Llama,GPT,Qwen),LangChain,LangGraph,RAG,
+VLMs,ComputerVision,KeyPointDetection,ImageMatchingModels.
+• Programming Languages:Python,R,SQL,Lua.
+• ToolsandTechnologies:Git,Docker,Linux,Milvus,MongoDB,RabbitMQ.
+PROFESSIONAL EXPERIENCE
+• EuroChem-MLEngineer June2024-Present
+· Researching innovative approaches in LLMs for chemical process optimization
+· Developed 2 chatbot systems for SQL database interaction with 90% accuracy
+· Building an automated routing system for more than 100 services using LLMs
+• Research Center for Artificial Intelligence RANEPA-MLEngineer November2023-Present
+· Published research papers on advanced NLP techniques
+· Developed LLM-based services for academic administration
+· Created educational ML simulators for student training
+• SberRobotics Laboratory-MLEngineer September2023-March2024
+· Created specialized LLM agents for learning in virtual environments
+· Fine-tuned language models with reinforcement learning
+· Advanced prompt engineering techniques for improved response quality
+RESEARCH EXPERIENCE
+• SLAVA: Benchmark of the Socio-political Landscape and Value Analysis 2024[Prepriint]—[HugginGFace]
+· Presented at ISPRA Conference on Information Systems and Programming
+· Accepted for publication in ISPRA Proceedings
+· Developed novel benchmark and framework for evaluating VLMs
+ACCELERATORS AND GRANTS
+• SBER academic grant for training in NEON Ensemble models July2023-Present[sberbank.ru]
+· Research NEON Ensemble, experiment with fine-tuning and reinforcement learning
+· Gather data, define metrics, and validate hypotheses to optimize models
+· Integrate models into NEON Ensemble, expanding GigaChat’s capabilities
+• Academy of Innovators2024”Lomonosov Cluster”[academy.innoagency.ru]Top100 and educational grant for “Orion”-service creating personal AI models
+COMPETITIVE SUCCESS (MORE 10 WINS, LEADER Ikanam.AI - [GITHUB])
+• 1stPlace-Digital Breakthrough Vladivostok2024 Intruder detection system using YoloV10 and real-time tracking[GitHub]
+• 2ndPlace-Digital Breakthrough Moscow2024 NLP-based education course recommender[GitHub]
+• 2ndPlace–CheckAIHack2023 generation of scientific articles by gpt models[GitHub]
+• 3rdPlace-RosatomHack2024 Time series forecasting with LSTM and CatBoost[GitHub]
+EDUCATION
+• Master’s in Production ML Systems-ITMO AI Talent Hub September2024-Present
+· Advanced studies in industrial AI applications and production ML systems
+· GPA:5.0
+• Bachelor’s Degree in Digital Economics September2020-June2024
+· Russian Academy of National Economy and Public Administration(RANEPA)
+· Institute of Economics, Mathematics and Information Technology
+· GPA:4.6.Courses:Neural Networks,Algorithmization,Mathematical Statistics

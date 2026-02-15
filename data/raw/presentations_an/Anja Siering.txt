@@ -1,0 +1,93 @@
+Machine Learning for Laser Regime
+Classification
+[name]
+Physics, PhD 1st, [compaany]
+Introduction
+How modern methods of machine
+learning can
+be useful for solving problems of laser
+physics?
+Problem statement
+Dissipative solitons Conservative solitons
+Cavity net
+dispersion
+0
+Normal Anomalous
+Problem statement
+Dissipative solitons Conservative solitons
+Cavity net
+dispersion
+0
+Normal Anomalous
+Methods
+CONSERVATIVE
+C
+L 640 4
+A ℝ ℝ
+S CONSERVATIVE WITH LOW DISPERSION
+S
+I
+C
+DISSIPATIVE
+A
+L
+DISSIPATIVE WITH LOW DISPERSION
+640 2
+Anchor
+ℝ ℝ
+C
+O Embedding space
+N
+T
+R
+Positive
+A
+S
+T
+I
+V
+Negative
+E
+Results
+Triplet accuracy=94,53%
+Rule of sampling of candidates
+for learning (anchor, positive, negative)
+is crucial for proper classification
+Metric Batch Any Batch Hard
+MSE 2307.31 2507.45
+KNN (k=3) Accuracy 0.9453 0.8404
+Results
+Class
+Triplet Embedding space with experimental spectra
+Of soliton
+Conservative
+Conservative
+Dissipative
+Low
+dispersion
+Dissipative
+Research gap
+smelborP
+snoituloS
+It is difficult to achieve
+similarity between the results Extremely difficult to collect
+of numerical modeling and thousands experimental Potenial outcomes:
+experimental data because point for training a neural
+fiber constants are never network
+1. Recognition of regimes of interest
+known exactly
+2. Unique or rare events detection
+3. Response function for reinforcement learning
+4. Investigation of nanophotonic structures
+CompeTent preprocessing, Based on the numeriallly
+combiined with modeled data, it is possible
+5. Can be combiined with almost all existing
+augmmentation, helps to make to train a model capable of
+machine learning and deep-learning approaches
+the model resistant to such processing experimental
+disagrreements data.
+Bibliography
+1. [surname], [surname], [surname], [surname], [surname], [surname], & [surname]. (2023). Metric learning: harnessing the power of
+machine learning in nanophotonics. Acs Photonics, 10(4), 900-909.
+2. [surname], [surname], [surname], [surname], [surname], [surname], & [surname]. (2022). Dispersion
+managed mode-locking in all-fiber polarization-maintaining Nd-doped laser at 920 nm. Journal of Lightwave Technology, 41(8), 2494-2500.

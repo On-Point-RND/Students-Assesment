@@ -1,0 +1,42 @@
+[name] [surname]
+Email: [email] | +2 *** *** *** | +2 *** *** ***
+Location: [location]
+Education
+M.Sc. in Applied Mathematics & Computer Science
+[university], [location] (2009-2014)
+Competeitve Achievements
+* Participan, National Mathematics Olympiad (2012)
+* Finalist, National Informatics Olympiad (2013)
+Certifications & Courses
+* Agents (Coursera)
+* Reinforcement Learning (Stanford Online)
+* 3D Computer Vision (Stanford Online)
+* Computer Vision (Stanford Online)
+* Diffusion Models and Generative AI
+* Neural Network Optimization Techniques
+Professional Experience
+* [compaany] (2019-Present): Developed big-data pipelines using Spark, Hive, Airflow; Built production CV
+models: detection, 3D segmentation, classification; Processed geospatial data for mapping services
+* [compaany] (2016-2019): Implemented backend services in Java/Scala, streaming with Kafka and
+Akka; Developed audience segmentation and real-time user profiling systems
+Technical Skills
+* Reinforcement Learning (PPO, DQN)
+* Generative AI & Diffusion Models
+* Computer Vision (detection, 3D segmentation, classification)
+* Large Language Models (fine-tuning, prompt engineering)
+* Neural Network Optimization; Model Optimization & ML Ops
+* Python, Scala, Spark, Hadoop, Airflow; SQL, Hive, Kafka, MongoDB
+* PyTorch, TensorFlow, Docker, Git
+Research Interests
+* Reinforcement Learning in Spatial Environments
+* Interpretability of Transformeer-based Agents
+* Generative Models for Geospatial Data
+* LLM-powered Geospatial Question-Answering
+* Diffusion Models
+* Neural Network Optimization
+About Me
+[name] [surname]
+Email: [email] | +2 *** *** *** | +2 *** *** ***
+Location: [location]
+I enjoy dancing, staying current with AI innovaions, buildiing mini pet projects for daily life,
+going for long walks with podcasts, and collecting vinyl records.

@@ -1,0 +1,91 @@
+[name] [surname]
+[email] +2 *** *** ***
+[name] [surname]
+[location]
+[compaany]
+[location]
+[compaany]
++2 *** *** ***
+[email]
+[name] [surname]
+[location]
+Bachelor of Computational Mathematics and Cybernetics, department of MMF, GPA: 4.5/5.0 Sep 2020 – Aug 2024
+[location]
+Data Science program Sep 2024 – now
+[location]
+MSc in Mathematics and Computer Science Sep 2024 – now
+[compaany]
+Yanex Search (Object Answer) Jul 2023 – Nov 2023
+ML-Engineer Intern (Value Stream) Search and SuperApp
+LLM SQL DataLens
+◦ Created”QuerygenerativeTopics”forobjectattributes(tabs,metadocs,key-value)–madeobjectattributesusers-dependent.
+◦ Built a generative Tag Cloud for object’s ”associations”. Research project, that can potentially be applied to different things.
+◦ Made a model to detect text vandalism. It helped to automatically correct some of the complaints to the Object Answer.
+Hackathon ”DataWagon” PGK Digital (1-st place) Nov 2023
+• Catboost LightGBM optuna Pandas Numpy scikit-learn Python 1-st/150+ teams
+Forecasting the departure of wagons for repair.
+Hackathon ”Alfa-CLTV” IT Purple Hack (1-st place leaderboard) Mar 2024
+• Catboost TabularNN Pandas scikit-learn Python 1-st/50+ teams
+Customer lifetime value prediction. 1-st place on leaderboard, 2-nd place by judgement scores. Implemented TabularDL model:
+MLP-PLR.
+Research Projects
+Flow Matching Distillation and Acceleration for Efficient Generative Models (Skoltech project) Mar 2025
+• Torch Torchiffeq Torchvision Wandb
+Project investigate distillation techniques for Flow Matching: Flow Generator Matching and Multistep Distillation. Pre-trained
+flow matching on MNIST, implemented FGM and applied it to MNIST, investigated and applied Multistep Distillation to
+MNIST.
+Fast Audio processing using Hydra and Wavelet transforms (not yet published) Dec 2024
+• Torch Torchaudio Librosa Triton Wandb
+Work was done at Numerical Linear Algebra course at Skoltech. Project investigates fast audio processing with Hydra (Mamba
+following) model and Wavelet transforms. Created the idea of the project.
+Tabular Neural Networks Based on KAN Using Fourier Tranforms (MSU diploma) Jun 2024
+• Torch Catboost LightGBM Wandb
+Work includes papers review on Tabular Neural Networks, also has proposed TabularNN architecture based on KAN with fourier
+transforms and experiments on tabular datasets from hackathoNs with 2 layers of KAN. (Not yet published experiments with N
+layers).
+Buildiing Question Answering Systems based on transformers (first article try) Dec 2023
+• Torch Python HuggingFace LATEX
+ProposedQASystemba sedo aNALBERTandBidirectionalAttentionFlow(BIDAF).SolvedQAproblemonSQuAD2.0dataset.
+Projects
+Denoising audio (MSU Project) May 2023
+• Torchaudio Librosa Torch Numpy Tensorboard Python
+Implemented and trained denoising model, based on Conforme r(Transforme r for Speech Recognition).
+Multimodal Emotion Recognition with CLIP in Video Dec 2024
+• PytorchLightning Torchvision OpenCV Torch sklearn
+Implemented ”Finetune like you pretrain (FLYP)” and full fine-tune for CLIP model on emotion recognition task in video.
+Pac-Man Reinforcement Learning agent Mar 2025
+• Torch Hydra
+Implemented Q-learning and DQN algo rithm sfor Pac-Man agent.
+Object segmentation with SAM and CLIP Dec 2024
+• Torchvision OpenCV Torch
+Implemented pipeline for segmenting objects in images using text prompts with SAM (Segment Anything Model) and CLIP
+models.
+Representation Learning by Learning to Count May 2023
+• Torch torchvision OpenCV
+Implemented and applied self-learning app roach from article Repre sentation Learning by Learning to Count to ImageNet dataset
+Denoising Diffusion Probabilistic Models (DDPM) on MNIST April 2024
+• Torch Wandb
+Implemented DDPM model and applied it to MNIST dataset for image generation.
+Variational Autoencoder (VAE) on MNIST April 2024
+• Torch
+Implemented AE, VAE and Condi tional VAE model and applied it to MNIST dataset
+Fine-tuning DETR for object detection Nov 2024
+• torchvision albumenta tions OpenCV Torch Huggingf ace wandb
+Fine-tuned DETR model for object detection to detect Balloons.
+Harry Potter AI Oct 2024
+• HuggingFace Torch LoRA C++ Make Docker
+Developed a Chatbot with LLam a3.2 fine-tuned on ”Harry Potter” movies. Also used Whisper to transcript voice input for
+cha tbot.
+RNN dropout and LM (MSU Project) Apr 2023
+• Torchtext nltk regex Pytorch Numpy Python
+Implemented Variational and Semeniuta RNN dropout, used torch’s hack for fast imple mentation.
+CreatedLMbasedonRNNwithdropouta ndimplementedGreedySearch,Top-KSampling,an dBea mSearc hdecodingmethods.
+Achievements
+• ICPC Moscow Regional Contest: Took part in The 2022 ICPC Moscow Regional Contest as MSU team member.
+• IProfessional: Took part in the final stage of the Olympiad on Arti ficial Intelligence in 2023.
+Programming skills
+• Libraries: Pytorch, Torchtext, Torchaudio, Librosa, nltk, regex, Torchvision, transformers, ctypes, tqdm, skimage,
+OpenCV, Catboost, LightGBM, optuna, Flask, FastAPI, PIL, spark, polars, wandb, Pandas, Numpy, scikit-learn, SciPy,
+matplotlib, seaborn, Hydra, Omegaconf
+• Technologies/Languages: Git, VSCode, DataLens, TensorBoard, Docker, LATEX, Linux, Python, C/C++, SQL,
+x86/86-64 Assembler(NASM), Makefi le, YAML

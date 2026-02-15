@@ -1,0 +1,33 @@
+[name] [surname]
++2 *** *** ***
+[email]
+github github.com/[name][surname]64
+EDUCATION
+• September2021-Present[location] [Department]
+• January2023-August2023[company]
+• December2023[company]
+• January2024-May2024[compaany]"ModernNLP.LargeLanguageModels"Course
+WORK EXPERIANCE
+• October2022-Present[compaany]
+• July2023-November2023[compaany], [job title], [compaany]
+• January2024-Present[compaany]"DigitalMaterialsScience:NewMaterialsaandSubstance"at[location] [University]
+PUBLICATIONS
+• [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname]. AmineaadductssoftriallylboraneashighlyreactiveallylboratingageagentsforCu(i)-catalyzedalllylationofchiralsulfinylimines.Organic&BiomolecularChemistry,22(23):4680–4696,2024. Publisher:RoyalSocietyofChemistry.
+ACHIEVEMENTS
+• WinneroftheRussianSchooLOlympiadinchemistry2021
+• Presentationa tvarioussciencificconferences:18-thV.A.FockMeetingonTheooreticaL,QuantumandComputationalChemistryNovgorodtheGreat2022,XIIIInternationalConferenceo nChemistryforYoungScientiSTS“Mendelee v2024,InternationalYouthScientificForum “Lomonosov-2025”
+PROJECTS AND RESEARCH
+• Physics-informe dBayesianoptimizatio nandGaussia nProcessRegressio nforconforma tionalensembleaugmentation
+• Imple mentingaBayesianapproa chforsensorcalibrationtomimimizeexperimenta lr equirements
+• Tran sforme r-basedmodelsforchemica lstructurepredictio nfrom13C NMRspectrum
+• Generatio npolymerswitha givenpropertiesviatran sforme r-basedVAE-li kemodel,contrastivefine- tuningan dBayesianoptim izationoverla tentspace
+• Deve lopmentaPython-base dAutoMLpackageforGaussia nProcessmo delingandoptimizatio n
+• Deve lopmenta ndimplementatio faRetrieval-AugmentedGenerationassistant
+SKILLS
+Programming Python(Numpy, PyTorch, Tensorflow, PyMC, MatPlotLib, Seaborn, Pandas), C++, Java, SQL,git,Linux,Algorithm sandDatastructures
+Quantum
+Orca,Gaussian,XTB,CREST,Goo dvibe s
+Chemistry
+Languag es Russian(Native),English(B2),MandarinChinese(jus tbegintolearn)
+Other
+Latex,Micr osoftOfficeSuite

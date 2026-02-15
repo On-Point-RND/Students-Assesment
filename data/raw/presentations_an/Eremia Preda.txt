@@ -1,0 +1,68 @@
+Investigation of electronic, optical and thermodynamic properties of 2D material using machine learning methods
+• PhD student, [name] [compaany]
+• 20-04-2025
+2
+Research background and problem statement
+Possible applications:
+• Transistors
+• Electronics and displays
+• Photonic applications
+• Sensors
+[surname], [name], and [surname], [name]. "Electronic-structure methods for twisted moiré layers." Nature Reviews Materials
+3
+Research background and problem statement
+Moiré pattern
+Problem: DFT calculations have high computational complexity for huge structures
+Goal: Investigation of the thermodynamic properties of 2D materials using machine learning techniques
+[surname], [name], and [surname], [name]. "Electronic-structure methods for twisted moiré layers." Nature Reviews Materials
+4
+Moiré Structure
+1) Diamane Structure
+Properties:
+• Predicted in 2009, synthesized in 2021
+• sp3 – hybridized structure
+• high hardness [1]
+• Tunable bandgap (~2-5 eV) [2]
+- covalent bond
+• High thermal conductivity (~2240 W m-1 K-1 at 300K) [3]
+[1] [surname],AlexanderG.,and[surname]B.Sorokin."Lonsdaleitfilmswithnanometerthickness."Thejournalofphysicalchemistryletters5.3(2014)
+[2] [surname],LeonidA.,etal."Moirédiamane sbasedoonthehydrogenatedorfluorinatedtwistedbiGraraphene:Thefeaturesoftomicalandelectronics tructures,Ramanandinfraredspectra."AppliedSurfaceScience
+[3] [surname],Liyan, [surname]Li,and[surname]Ding."Giantthermalconductivityindiamaneandthei nfluenceo fhorizontalreflection symmetryonphononscattering."Nanoscale11.10(2019)
+5
+Moiré Structure
+2) Obtained commensurate Diamane
+~ 7o ~ 15o
+• Unit cell vectors
+• Angle between two layers
+~ 25o ~ 29o
+• Number of atoms in a unit cell
+[surname],AlexanderS.,etal."Interlayerinteraction,shearvibrationalmode,andtribologic propertiesoftwo-dimensionalbiliayerswithacommensuratemoiré pattern."PhysicalReviewB108.8(2023):085411.
+6
+ML Neuroevolution potential
+Radial Descripto
+MLP Loss function
+Energy Loss
+Angular Descriptor Energy of atom Forces Loss
+Forces of atom
+Local
+representation
+Energy
+7
+Thermodynamic properties calculation
+3) Trained Neuroevolution potential (NEP) model
+Structure Relaxation:
+~21o ~27o ~60o
+AIMD:
+T: 500K Ensemble: NVT
+TimeStep: 0.5 fs Steps: 2000
+Dataset: 6000 configurations
+Train model
+8
+Thermodynamic properties calculation
+Entropy
+Heat capacity
+9
+Graph Neural Netwoork for optical properties prediction
+10
+Diffusion model for structure generation
+A – atom types X – coordinates L - lattice

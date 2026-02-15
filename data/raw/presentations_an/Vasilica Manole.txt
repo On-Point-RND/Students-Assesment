@@ -1,0 +1,42 @@
+SYNTAX score prediction for coronary artery
+disease
+[name] [surname]
+[compaany]
+Introduction
+• Cardiovascular diseases remain the leading cause of death worldwide.
+• Coronary angiography is the main tool for diagnosing coronary artery disease.
+• The SYNTAX score is a validated method for quantifying coronary artery complexity and guiding
+treatment decisions.
+Dataset
+• 11,209 patient studies (2015–2019, 2022–2023) with SYNTAX annotations: total score + left and right
+artery sub-scores.
+• Data split into left and right artery domains using a ResNet-based classifier.
+• Left artery data is ~3x more abundant than right artery.
+Model architecture
+• Backbone: ResNet, Head: LSTM.
+• Pretrained on KINETICS400, then fine-tuned.
+• Two-stage training: backbone training, then joint fine-tuning.
+• Class imbalance handled via a weighted sampler across 4 score bins: 0, (0–10], (10–20], >20.
+• Output: Continuous SYNTAX score (regression) and binary classification zero vs non-zero
+SYNTAX
+Design Decisions
+• Separate models for left and right artery due to domain differences.
+• Final SYNTAX score = sum of predictions from both models.
+• Loss Function: MSE + Cross-Entropy.
+• Best weights selected based on MAE performance.
+Contribution
+• Improved model architecture.
+• Trained on a larger dataset, significantly boosting prediction quality.
+Results
+• Precision: 1.0000
+• Recall: 0.8776
+• Balanced Recall: 0.9388
+• Accuracy: 0.9000
+• MCC: 0.7535
+Future work
+• The model performs poorly on SYNTAX score prediction for the right artery and high syntax score, so
+splitting training into subsets for zero and non-zero cases may help.
+• Developing a new benchmark.
+• Testing hypotheses to further improve prediction quality.
+• +2 *** *** ***
+[email]

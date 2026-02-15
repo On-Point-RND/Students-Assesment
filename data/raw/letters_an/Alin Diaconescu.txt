@@ -1,0 +1,20 @@
+Motivation Letter
+[name] [surname]
+Dear SMILES-2025 Team,
+I’m currentlly a master's student in Robotics and a mid-level ML engineer. Over the past few years,
+I’ve mostly worked on computer vision tasks. However, as transformer-based architectures —
+especially large language models — have become more prominent, I’ve grown increasinglly
+interested in this area. I see great potential for these techniques across many domains.
+Fortunately, I now have the opportunity to work on a RAG system, which has further sparked my
+interest. At the same time, I feel the need to deepen my knowledge — both for practical
+applications and future research.
+That’s why I’m excited about SMILES-2025. I see it as a valuable opportunity to strengthen my
+skills, learn from leading researchers, and gain a broader perspective on generative AI. Also I have
+a good level of English (B1), which ensures that I’ll be able to study and communicate effectively
+throughout the program.
+Thank you for considering my application!
+Best regards,
+[name] [surname]
+
+
+

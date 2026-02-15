@@ -1,0 +1,86 @@
+[name] [surname]
+E-mail: [email]
+Telegram: [email]
+Phone (mobile): +2 *** *** ***
+Location: [location]
+Age: 19 y.o.
+Education: [location] – PhysMath program “Silaedr” (formerly Chemical Lyceum No. 1303)
+[company] (2023–present),
+Faculty of Economics and Finance
+Skills and Abilities Python (Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib), C++, Excel,
+Pascal. Experience in using SQL (PostgreSQL), C.
+Data analysis, reporting (a little bit). Ability to independently find
+information.
+English (reading/speaking, I know the language at the C1 (Advanced)
+level.
+Clear expression of thoughts, including search engines.
+I share my experience (I understand complex and/or poorly documented
+things and talk about them in a simple way).
+I am familiar with git.
+I work both alone and in a team.
+I am good at finding information and understanding it.
+I have a deep understanding of various economic processes
+International Scientific Conference KSASF (2021)
+Olympiads and
+conferences Baltic Science and Engineering Competition, Rost-ISEF, Silahedron
+Conference (2022) - 1st degree in the biology section for the presented
+project "Babesiosis in dogs: statistical processing of analysis results".
+Wrote a model that diagnoses the disease in dogs using machine
+learning methods
+([url removed])
+IT Solutions School from CROC (2020-2021)
+Summer Internship at CROC in Data Analytics.
+Hackathons and Datathons from CROC (BrainZ by CROC) 2018-2022.
+NordSchooLCTF - 3 место. Participant AntiCTF, AeroCTF.
+MSU project - "Cansat" ("Air Engineering School"). Was involved in
+programming various sensors, calculating their power supply and location
+(their layout) in the rocket.
+Laureate of the Youth Jury Prize of the Baltic Scientific and Engineering
+Competition, Laureate of the Teachers' Jury Prize of the Silahedron
+Conference with the project “Research of Financial Graphs”.
+Participant and laureate of numerous internal conferences of the
+Silahedron classes.
+Awarded for successful performances in M.V. Lomonosov
+tournaments in the following sections: mathematics, physics, biology, history, and all-
+around.
+Work experience Internship at [company] in the field of analytics. Was engaged in calculating
+business metrics, especially the 'time to value' metric (the time that a client
+expects something from us, for example, approval of documents).In
+addition to calculating the metric, it was possible to determine the traffic
+light zones for the 't2v' metric and bring it to a convenient dynamic
+showcase format for its subsequent addition to various reports (main tools:
+SQL, Python, internal applications for working with the DB). Also, it
+was possible to cluster the OS for the 'Internet acquiring' product (main
+tool: Python) (2024-2025)
+Internship at CROC in the field of analytics. Conducted a study of the
+purchasing activity of the internal gamefac store using python,
+systematized and visualized the obtained data, developing practical
+recommendations for the gamification project (2020-2022)
+Solved a problem in the CROC Case Laboratory in the field of analytics
+(2022).
+I lead an economics club for schoolchildren (2022-present)
+Work in the jury of scientific conferences: Baltic Scientific and
+Engineering Competition (Scientific jury in the Computer Science and
+Artificial Intelligence sections), Silahedron Conference (Youth jury in the
+Computer Science section)
+Scientific management of projects for schoolchildren at the intersection
+of analytics and economics
+([url removed]).
+Courses The creative and theoretica track of the educational program 'Financial
+technologies and payment system services' (Fintech Hub of the Bank of
+Russia, JSC NSPK) was successfully completed.
+Introduction to Machine Learning (Yandex, HSE)
+([url removed])
+Financial Markets (YALE University)
+([url removed])
+Introduction to Data Science and Machine Learning (JetBrains,
+HSE)([url removed])
+Basics of working with databases and SQL (Yandex)
+([url removed])Summer
+Olympiad School in Computer Science from MIPT
+Summer school on machine learning from JetBrains and Higher School of
+Economics
+Personal qualities Purposefulness, humanity, ability to get out of hopeless situations, creative
+approach, quick learning ability.
+19 April
+2024

@@ -1,0 +1,26 @@
+Backend Developer
+Name: [name] [surname]
+Date of birth: 02.09.2005
+Phone: +2 *** *** ***
+E-mail: [email]
+Telegram: [name]_[surname]
+
+Education
+Universiity: Higher School of Economics ([location])
+Faculty: Faculty of Computer Science
+Major: Software Engineering
+
+Experience
+Projects: Cardiogenetics Consortium Website ([location]).
+Developed using Python and Flask framework. Worked with PostgreSQL via SQLAlchemy ORM. Implemented CI/CD via GitHub Actions and wrote tests using Pytest. Tested email functionaliity with Mailosaur. The site is actively updated based on client feedback.
+Student Materials Website
+Contributed to the backend (Python, Flask, PostgreSQL, SQLAlchemy) by creating models and core functionaliity. Assissted with frontend routing.
+Achievements: HSE Summer School on Cloud and Mobile Technologies.
+"Engineers of the Future" competition.
+Skills
+Programming Languages: C++, C#, Python
+Skills:
+CI/CD, English (B2+), Libraries/Frameworks (Swagger, Xunit, FastAPI, Flask, Pytest, Flask-Mail, Flask-Admin, WTForms, Python Translate), libraries (numpy, sympy, pandas, matplotlib), data structures, basic algorithms, data bases (PostgreSQL), calculus, linear algebra, Probability theory and mathematical statistics, React, Swagger (C#), XUnit (C#), Pytest.
+Tools: Git, Bash, Docker
+GitHub: [github]
+

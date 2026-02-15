@@ -1,0 +1,99 @@
+[name], [surname], [location]
+Task is to adversarial attacks object detector with multiply objects.
+It’s important because object detector with multiply objects is most common and sensitive to miss detections.
+Goal of the review is find different methods to attack for black and white boxes object detectors using small
+budget and with small amount of attempts
+Background
+● Adversarial attacks
+○ Most methods are deveveloped for classification
+○ Attacking object detectors is more challenging
+[1] Goodfellow et al. 2015. Explaining and Harnessing Adversarial Examples. ICLR.
+[2] Chow et al. 2020. TOG: Targeted Adversarial Objectness Gradient Attacks on Real-time Object Detection Systems. IEEE TPS.
+Background
+● Black-box attack approaches
+○ Query-based
+○ Transfer-based
+[1] Chen et al. 2017. ZOO: Zeroth Order Optimization Based Black-box Attacks to Deep Neural Networks without Training Substitute Models.
+ACM AISEC.
+Background
+● Contexts in computer vision
+○ Context for visual recognition
+○ Context-awareness of object detectors
+[1] Galleguillos et al. 2010. Context based object categorization: A critical survey. CVIU.
+[2] Li et al. 2020. Connecting the Dots: Detecting Adversarial Perturbations Using Context Inconsistency. ECCV.
+Context-aware transfer attacks
+Quick overview and key ideas
+● Goal is to misclassify the victim object to a target label
+● To do so, we perturb both the victim object and the “context” associated with the victim object
+● We keep adding helper objects to enhance the context if necessary
+Context-aware transfer attacks
+Context Modeling
+A. Co-occurrence graph: models co-occurrence probability of each pair of instances in images
+B. Distance graph: models conditional distance distribution of objects
+C. Size graph: models the conditional distribution of heights and widths of objects
+Context-aware transfer attacks
+Adversarial perturbation generation
+● A diverse set of object detectors (one-stage, two-stages, anchor-free, transformer-based)
+○ one-stage, two-stages for perturbation machine, all four types for victim models
+● Can work with different types of attack methods (variants of I-FGSM)
+Context-aware transfer attacks
+Overall framework (a, b, c, d)
+Experimental setup
+● Attack type:
+○ Mis-categorization attacks at different perturbation levels (L∞ ≤ {10,20,30})
+● Datasets:
+○ PASCAL VOC and MS COCO
+○ Evaluated using 500 images that contain multiple (2 − 6) objects for each dataset
+● Object detection models:
+○ Surrogate model: Use an ensemble of Faster R-CNN and YOLOv3
+○ Victim models: different two-stage, one-stage, anchor-free, and transformer-based detectors
+● Comparisons:
+○ Baseline is where no helper object is added
+○ Random is where the helper objects are added in a randomized fashion (mismatched context)
+● Evaluation metric:
+○ Use attack success rate (or fooling rate) to evaluate the adversarial attack performa performance on any
+victim object detector
+Results
+● Mis-categorization fooling rate at different perturbation levels
+● Tested on different benchmark datasets and used a large variety of object detectors
+● Our approaach performs significantlly better than context-agnostic and mismatched context
+approaches
+Observations on fooling rate w.r.t. # of
+helper objects
+● Mis-categorization fooling rate at perturbation level L∞≤ 20
+● Dot legends are white-box models in surrogate, square legends are black-box models
+● Fooling rate increases with the number of helper objects and plateaus at around #5.
+Visualization examples of
+attacks
+Visualization examples of the attacks
+VOC dataset
+wb0 – Faster R-CNN
+(white box)
+wb1 – YOLOv3 (white
+box)
+bb0 – RetinatNet (black
+box)
+Summary
+● Paper’s context-aware adversarial attack method exploits rich object co-occurrence relationships plus
+location and size information;
+● Paper’s method can effectively improve mis-categorization attack fooling rate against a large variety of
+blackbox object detectors;
+● The attack performa performance significantlly improves and gradually plateaus as we add around 5 helper
+objects;
+● The contextual relationships modeled by our method holds true in different datasets within natural
+image domain, making our methods applicable to a wide range of datasets.
+Acknowlledgements to authoors of this paper: [name], [surname], [name], [surname], [name], [surname], [name], [surname]
+Research gap
+Limitations in current approaches, that can decr ease stable real life efficiency of attacks:
+● Still in many test results below 50% fooling rate
+● Didn’t tested on more than 6-object detection (nowadays common case)
+● Didn’t tested some newer datasets, e.g. VOC 2012
+● Didn’t tested the newest best models like Segment Anything Model 1/2 (SAM), YOLOv11, v12
+Future opportunities:
+● Resolv ecurrent limitations
+● Adapt algo rithm on Face recognition
+● Speed up algo rithm to effici ently attack video trackers
+Additional links
+Code of reproduction with results (they little diverse by official data):
+Paper: https://a rxiv.org/abs/2112.03223
+https://gi thu b.com/SUPERustam/context-aware-attacks

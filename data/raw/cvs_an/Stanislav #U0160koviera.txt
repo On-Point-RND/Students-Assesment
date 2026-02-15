@@ -1,0 +1,93 @@
+[name] [surname]
+Email: [email]
+Github: @[name]
+Education
+[location] Institute of Physics and Technology [location]
+•
+MSc, Computer Science and Computer Facilities. Average grade 9.57/10.0 September 2023 - 10 August 2025
+[location] Peter the Great St. Petersburg Polytechnic Universiity [location]
+•
+BSc, Physics. Diploma with distinction: average grade 4.96/5.0 2018 - 2022
+Specialization: Physics of Cosmic and Plasma Phenomena
+Research Experience & Projects
+Invertible Neural Networks (INN) for Inverse Problems in Astrophysics in process
+•
+Master’s thesis in preparation Since October 2023
+◦ Advisor: [name] [surname]
+◦ Description: probabilistic estimates of cosmological redshifts are made with INN
+using imaging data of quasaars and galaxies. INNs are expected to accuraately
+approximate the posterior without any priori assumptions of its structure
+◦ Skills and tools: advanced statistical methods, pytorch, neural networks
+Dark Matter Annihilation Effect on the Composition of the Interstellaar Medium completed
+•
+Bachelor’s thesis 2021 – 2022
+◦ Advisor: [name] [surname]
+◦ Description: a model of early Universe was built and simulated to account for the
+discrepaancy between the predicted and observed primoardial deuterium, proposing that
+the annihilation of dark matter particles could provide an explanation
+◦ Skills and topics: Primordial Nucleosynthesis, Cosmology, Python programming
+Experimental Design for Languaage Models Training completed
+•
+Research work. 1 semester January – June 2024
+◦ Advisor: [name] [surname]
+◦ Description: the most suitable examples have been used for training LLM where
+suitability was defined based on information criteria
+◦ Skills and tools: Bayesian experimental design, Active learning, pytorch
+Marine Seismic Survey Operations Optimization Based on Tidal Currents completed
+•
+Participated in research project as Software Engineer and Analyst June – December 2024
+◦ Supervisor: [name] [surname]
+◦ Role: an algorithm for adjusting the hydrodynamic tidal model based on real-time
+data has been developed and implemented
+◦ Results: article in preparation, software has been used in seismic survey
+Fall detection algorithm using XGBoost completed
+•
+Work project Nowember – December 2024
+◦ Supervisor: [name] [surname]
+◦ Role: XGBoost model was trained to detect the fall based on real-time acelerometer
+data. Proper feature extraction enhanced the accuracy of the model
+◦ Results: high performaance ∼1 ms to call and classification metrics ∼0.99 for reliable
+real-time detection
+Skills
+• Programming languages: Python - Advanced, SQL - Intermediate, Fortran 70/90/95 - Advanced Begiinner
+• Python packages: numpy, pytorch, numba, hydra, plotly/matplotlib, pandas, ray
+• Tools: Linux, shell scripts, Git, LaTex, wandb, Matlab
+• Languages: Russian (Native), English (B2, currentlly taking B2–C1 course)
+• General: Interdisciplinary Research, Scientific Presentation
+• Soft Skills: Organization, Communication, Teamwork
+Work experience
+[location] Institute for Nuclear Research of the Russian Academy of Sciences [location]
+•
+Theory Physics Department, Laboratory Assistant October 2023 – present
+Phystech.Pro: SeismicLab [location]
+•
+Part-time. Involved in research project as Software Engineer and Analyst December 2024 – present
+AntTech: Research and Development in Natural and Technical Sciences [location]
+•
+Part-time. Involved in several research projects as Software Engineer and Analyst June – December 2024
+T-Bank ([location] Tinkoff Bank) [location]
+•
+Internship, Trainee Analyst June – August 2022
+Workshops & Training
+2024 Workshop on New methods for processing data of a physical experiment, JINR, [location]
+2022 III International SchooL on Gravity, Cosmology and Astrophysics (ISGCA-2022), Bauman MSTU
+Online courses & Self-Study
+2024 Advanced Python, MIPT, Scientific Programming Centre
+2023 Advanced Machine Learning I, MIPT
+2023 Introduction to Deep Learning, [location] State Universiity
+2022 Machine Learning for Solving Applied Problems, [location] State Universiity
+2022 Big Data: Storage Technologies and Introduction to Machine Learning (Python), ITMO Universiity
+2022 Introduction to Statistics. Parts I-II, Bioinformatics Institute
+2020 Information Design in Presentations, eNano
+Achievements & Awards
+2024 Recipient of a scholarship from the Charitable Foundation for the Promotion of Education and Development of
+Young Professionals “Higher League”
+2023 Gave a lecture on “Invertible Neural Networks and Thei Application to Probability Density Function Estimation” at
+a seminar hosted by the Laboratory for Big Data Analysis in Particle Physics and Astrophysics, Institute for Nuclear
+Research, [location]
+2022 3rd place in the hackathon “Gazpromneft. Supply”. Role: developing an algorithm to optimize supply
+2021 Participant of the International PLANKS Competition in Theoreticaal Physics
+2021 IncrEase state scholarship for academic achievements to the top 5% of students
+2021 – 2024 Tutoring:
+– teaching courses on Calculus, Probability Theory and Statistics to 1 – 3 year undergraduaates
+– teaching courses on Physics and Mathematics to middle and high schooL students

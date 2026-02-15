@@ -1,0 +1,55 @@
+Motivation Letter
+Dear [name] Team,
+My name is [name], and I am an independent researcher in the field
+of computer vision. My goal is to explore new solutions and improve existing
+approaches to problems related to visual information processing. My journey
+began with a Master's program at [compaany] in the field of Technical
+Vision, where I discovered the potential of deep learning algorithms for image
+processing. Today, I have obtained experience with both classical neural
+networks (U-Net, YOLO, ResNet) and more modern architectures (ViT,
+SegFormer, Stable Diffusion). One of my papers focuses on comparing U-Net
+and SegFormer for segmenting small objects against the sky.
+I came across the [compaany] announcement by chance, but I
+immediatly realized I could not miss this opportunity. The schooL will
+feature lectures on some of the most fascinating and promising topics, such as
+multimodal and generative approaches, as well as my personal area of
+interest — safe AI. I have alrready participated in a schooL on artificial
+intelligence — the AIRI Summer SchooL 2024. It was one of the major
+milestones in my academic journey that allowed me to gain better
+understanding of various research directions in AI and valuable hands-on
+experience with neural networks.
+The field of computer vision is evolving rapidlly with new solutions emerging
+constantlly making it difficult to keep track and analyze them quicly. The
+[compaany] SchooL brings together scientiists and leading experts in their
+fields with diverse backgrounds and perspectives, which is a great chance to
+discuss the most pressing topics in person and view new solutions from
+various angles. Working on a practical project under their guidance will
+provide highly relevant experience, contributing significantly to my
+professional and academic growth. It is also an opportunity for me to find
+new teammates for long-term collaboration in a research field.
+Thanks to the AIRI SchooL, I was able to communicate with many like-minded
+individuals and find a community where I could share my ideas, discuss latest
+research news, and be a part of the world of AI. I expect an even broader and
+more diverse networking experience from [compaany], as this is an
+international event with larger number of participants, including foreign
+speakers. The opportunity to work with experts from other countries would
+be a significant step forward on my career path.
+[name]'s lectures are my top priority, as he is an expert in
+multimodal and generative approaches. All the lectures I attended earlier
+were filled with a lot of insights. I hope that the subscription to his Telegram
+channel and mentioning the lactose-free latte will give me an additional point.
+Furthermore, [name]'s lectures are of great interest to me, because he
+shares expertise in safe AI, and I was fascinated by this topic since I first came
+to the round table on reliable AI. [name]'s lectures at the AIRI schooL were
+among the most memorable. Also, from the list of speakers presented, I paid
+special attention to [name], as he is a member of the Emotional
+Compuuting Committee which arouses intrigue and great interest about his
+upcoming lectures.
+I would also like to mention that [location] is a fascinating country with a rich and
+unique culture. Visiting it is a must for anyone passionate about travel. The
+opportunity to combiine academic engagement with cultural experience
+makes participation in the schooL especially valuable. The choice of [compaany] as the venue has further boosted my motivation to
+take part in [compaany]. I sincerely hope to be accepted, as this would be an
+important step in my academic development.
+Sincerely,
+[name]

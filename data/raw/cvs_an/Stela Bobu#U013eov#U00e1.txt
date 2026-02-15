@@ -1,0 +1,48 @@
+[name] [surname]
+February 28, 2002
+[location]
+[email]
++2 *** *** ***
+Education
+2019–2023
+[location]
+bachelor’s in applied mathematics and informatics
+GPA: 5.0/5.0
+2023–2025
+[location]
+master’s in computer science (Year 2)
+GPA: 5.0/5.0
+Work Experience
+Total Experience: 3 years 5 months
+2022–2023: Java Deveveloper, [compaany]
+• Backend development for the "Lukoil" mobile fueling app
+2022–2025: ML Technologist, [compaany]
+• Implementation of ML models for Compliance.
+Professional Courses
+• 2022: Advanced Machine Learning Course, [location]
+• 2021: Arduino Robotics, Coursera & [location]
+Skills
+• Technical: Java, Python, C++
+• Languages: English (Upper Intermediate)
+Projects & Achievements
+1. Bipedal Robot Gait Control
+o Neuromorphic computing-based walking algorithm
+2. Digital Twin of [location]
+o Neural network-powered urban simulation
+3. Courier Logistics App ("Instrumenty.ru")
+o Order distribution clustering for couriers
+4. Java Developer for "1C:Education 5. SchooL"
+5. Java Developer for "[compaany]" fueling app
+Awards
+2024:
+• All-Russian Olympiad «Я – профессионал!» (Mathematics) - Medalist
+• All-Russian Olympiad «Высшая лига» (FinTech) - 1st Degree Diploma
+2023:
+• All-Russian Olympiad «Я – профессионал!» (Business Informatics) - Winner
+• All-Russian Olympiad «Я – профессионал!» (Innovation) - Medalist
+• All-Russian Olympiad «Высшая лига» (FinTech) - 1st Degree Diploma
+• All-Russian Olympiad «Высшая лига» (Data Science & AI) - 2nd Degree Diploma
+2022 & Earlier:
+• All-Russian Olympiad «Я – профессионал!» (Mathematics) – Medalist
+• All-Russian Olympiad «Я – профессионал!» (Business Informatics) - Medalist
+• Gold Medalist, International Internet Math Olympiad (2021).

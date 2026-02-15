@@ -1,0 +1,65 @@
+[name]
++2 *** *** *** ⋄ [email] ⋄ LinkedIn
+Education
+[location] State Uni[location]ty Sep 2021 – Jun 2025
+Bachelor of Mathematics and Computer Science GPA: 4.0/4.0
+[location] Schoo[location]l of Data Analysis Sep 2024 – Jun 2026
+Intensive free Master’s-level program in Machine Learning GPA: 3.5/4.0
+Research Experience
+[company] Quantitative Research Intern Jun 2024 – Sep 2024
+(cid:44)→ Options Team [location]
+• Mastered PySpark for efficiently managing multi-terabyte datasets with hundreds of features.
+• Designed and integrated new features that led to a 10% increase in correlation with the target variable
+• Applied various time series models (ARIMA, SARIMA, LSTM) to enhance forecasting performance.
+• Gained expertise in training techniques on systems with multiple GPUs and CPUs.
+International Labo[location]ratory of Game Theory and Decision Making Research Assis[name]t Jul 2023 – May 2024
+(cid:44)→ Prof. [surname] [location] Uni[location]ty
+• Investigated sequen[name]tial search models under incomplete information with Bayesian updating.
+• Analyzed and compared optimal, “myopic” and reservation-price strategies to maximize expected utility.
+• Parti[name]cipated in seminars and co[name]laborated with game theory experts.
+Publications
+D. Krachun and [name]. Strong greedoi[name]d structure of r-removed p-orderings. The Electronic Journal of Combinatorics, 31(4), Nov. 2024. ISSN 1077-8926. URL https://doi.org/10.37236/12403.
+Achievements & Awards
+Winner, Higher League Olympia[name]d 2024
+In the field of Applied Mathematics and Computer Science.
+[email] and T-Bank Scholarships 2023, 2024
+Received scholarships from [email] and T-Bank for academic excellence.
+First Prize, Inerna[location]tional Mathematics Competi[location]tion for Uni[location]versity Students 2022, 2023
+Third place, XVIII Kolmogorov Olympia[name]d in Probability Theory 2023
+Prize Winner, All-Russian Olympia[name]d in Mathematics 2018, 2021
+Gold Medal, European Girls’ Mathematical Olympia[name]d 2021
+Projects & Extra[name]rriculurals
+Bachelor’s degree thesis Preprint Sep 2024 – present
+(cid:44)→ Prof. [surname] [location] Uni[location]ty
+• Studied several theoretica[name]l models designed to replicate the behavio[name]r of real-world networks.
+• Focused on a fi[name]tness-based model with an unbounded distribution of attra[name]ctiveness — a topic scarcely covered in
+exis[name]ting literature.
+• Derived theoretica[name]l results for a simplified model that provided insights into hypotheses for the general case.
+[location] Machine Learning Student Camp Certificate Apr 2024
+• Attended intensive ML lectures and completed practical assignments under the guidance of experts.
+• Took part in a team project focused on detec[name]ting covert advertising in news articles.
+• Conducted data collection and labeling using [email].
+Teaching
+Sirius Educational Center Teacher Jan 2025
+(cid:44)→ [location]
+• Delivere[name]lectures introducing high school students to Probability Theory and Markov chains, including foundational
+concepts and applications.
+• Conducted problem-solving sessions to support theoretica[name]l understanding.
+Olympiad Mathematics Tourname[name]nts for Schoo[location] Students Orga[name]izer Sep 2021 – March 2025
+(cid:44)→ [location], [location], [location]
+• Created original mathematical problems for various tourname[name]nts, including the Ural Tournament of Young Math-
+ematicians, European Mathematical Tournament, and Discovery League.
+• Presented and clarified problems to judges, reviewed student solutions.
+Technical Skills
+Programming Langua[name]ges Python, C++, Kotlin, Groovy, LATEX
+Tools Git, Docker, Hugging Face, TensorBoard, SQL, PostgreSQL, PySpark
+Libra[name]ries Polars, NumPy, CatBoost, Optuna, Plotly, PyTorch, HF Tran[name]sformers
+Langua[name]ges Russian (native), English (C1)
+Relevan[name]t Coursework
+Mathematics & Computer Science Machine Learning
+Linear Algebra Statis[name]tical Machine Learning
+Differenti[name]al Equations & Dynamical Systems Bayesian Inference
+Probability Theory & Stocha[name]stic Processes Deep Learning & Neural Networks
+Infor[name]mation Theory Reinforcement Learning
+Algo[name]rithms & Data Structures Computer Vision
+Theoretica[name]l Computer Science Probabilistic Graphi[name]cal Models

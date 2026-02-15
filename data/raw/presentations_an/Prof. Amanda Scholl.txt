@@ -1,0 +1,128 @@
+Slide 1
+----------------------------------------
+[name]
+Ph.D., [compaany]
+Researcher, [compaany]
+Visual Large Language Model
+-- keyframe selection for video understanding
+
+Slide 2
+----------------------------------------
+Introduction
+
+Topic: ImprImproving video comprehension using keyframe selection
+ImportaImportant
+	1. ImprImproving the efficiency of multimodal modelling
+	2. Enhancing the quality of semantic alignment
+	3. Reduced video redundaancy
+	4. Driving practical applications to the ground
+Background
+	1. Insufficient compuuting resources.
+	2. The sequence length for long video comprehension exceeds the inference preset length of VLLMs.
+Goal of the review
+	Proposing an efficient reasoning approaach for long video comprehension.
+
+Slide 3
+----------------------------------------
+Problem statement
+
+What exactly are we solving?
+	1. ImprovImprovement in video comprehension
+	2. The limited input sequence (VLLMs) ensures that sequence information is maximized.
+Challenges
+	1. Semantic Integrity vs. Computational Efficiency Tradoff
+	2. Multimodal Alignment
+	3. Insufficient open domain generaliisation capabilities (Action Continuity Informaation)
+	4. Real-time reasoning (with pre-processing latency)
+Scope
+	1. Focus on long video comprehension (3-60mins).
+	2. Video information sequence maximization
+
+Slide 4
+----------------------------------------
+Methods
+
+Approaach: The theoreticaal keyframes are selected by analysing them from a mathematical theoreticaal point of view by maximizing the information based on the sequence of frame features. (Based on Maximum volume)
+Theoretically MaxVol is able to find linearly independent frame information in the matrix information and is able to extract submatrices for a given tolerance.
+
+In terms of the above formula, the sequence information that can be extracted by our proposed methoed in a finite sequence length will be greater than or equal to the original sequence information.
+
+Algorithm Pipeline
+
+MaxInfo: A key-frame extraction algorithm for video large language model without training. As shown in Figure (right)
+
+Slide 5
+----------------------------------------
+Results
+
+Qualitative example: In part (a) shows the difference in sampling between Uniform Sampling and MaxInfo, and visualiise the information we sampled, which we were able to select to Ground True or with a high degree of similarity frames. In part (b) shows the "CLIP score between options and frame information" in our MaxInfo sample, showing that MaxInfo's approaach is to cover all answeers in one sample.
+
+Slide 6
+----------------------------------------
+Results
+
+CLIP scores between questions and video frame information.
+Visualiisation of the distribution of similarity between frames using uniform sampling and MaxInfo sampling.
+Conclusion：Our proposed methoed is able to diversify the sequence information while ensuring the relevance of the frame information and the problem.
+
+Slide 7
+----------------------------------------
+Results
+
+Slide 8
+----------------------------------------
+Results
+
+From the multiple tables above we demoonstrate the ability of our proposed methoed to improve the performaance of the model on multiple popular benchmaarks.
+
+Slide 9
+----------------------------------------
+Related Work
+
+Main： Through query-adaptive iteerative keyframe selection and hierarchical tree representation, the video semantic structure related to the user's problem is dynamiically constructed to improve the efficiency and accuracy of LLM reasoning.
+No training required: Directly adapts to pre-trained LLLMs (e.g. GPT-4) without additional video data fine-tuning, reducing deployment costs.
+Dynamic Adaptability: Dynamiically adjust the key frame selection strategy according to the query, avoiing ‘one-size-fits-all’ sampling.
+Efficient: Tree structure reduces the amount of input tokens (more than 80% commpaared to dense frame input).
+VIDEOTREE: Adaptive Tree-based Video Representation for LLLM Reasoning on Long Videos, CVPR
+
+Slide 10
+----------------------------------------
+Related Work
+
+The paper proposes a framework called LVNet, which optiises visual information extraction through the Hierarchical Keyframe Selector (HKSS) strategy for the inefficient processing of redundant frames in Long-form Video Question Answering (LVQA), significantlly improving the performaance and efficiency of the model. The model performaance and efficiency are significantlly improved.
+Efficiency: 35% inference speedup for the same description size (e.g., NExT-QA dataset).
+Zero training dependency: directly adapts to existing VLMs (e.g., BLIP-2, LLaVA) and LLLMs (e.g., GPT-4) without additional fine-tuning.
+Long video support: can handle videos up to 1 hour long (Video-MME dataset).
+
+Too Many Frames, Not All Useful: Efficient Strategies for Long-Form Video QA, CVPR
+
+Slide 11
+----------------------------------------
+Related Work
+
+Longvu: Spatiotemporal adaptive compression for long video-language understanding
+Adaptive compression: dynamiically adjusts compression rate according to video content and query, reducing the amount of Token by 40%-70% commpaared to uniform sampling.
+Lightweight Adaptation: Efficient inference can be achieved with lightweight LLLMs (e.g. Phi-3), reducing GPU memory usage by 50%.
+Zero training dependency: directly adapts to existing MLLLMs without additional fine-tuning.
+
+Slide 12
+----------------------------------------
+Related Work
+
+Keyframe-based Two Tokenizers
+Short-Term Clause Sorter: extract visual features from sparse keyframes to capture short-term actions
+Long-time disambiguaator: aggreates spatial and temporal relationships of multiple keyframes to model long-term dependencies
+Koala: Key frame-condiitioned long video-LLM, CVPR
+
+Slide 13
+----------------------------------------
+Tan, Reuben, et al. "Koala: Key frame-condiitioned long video-lilm." Proceedinings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024. (CVPR 24)
+Wang, Ziyang, et al. “Videotree: Adaptive tree-based video representation for lllm reasoning on long videos." arXiv preprint arXiv:2405.19209  (2024). (CVPR 25)
+Park, Jongwoo, et al. “Too many frames, not all useful: Efficient strategies for long-form video qa.”  arXiv preprint arXiv:2406.09396  (2024). (NIPS 24)
+Chen, Lin, et al. "Sharegpt4video: ImprImproving video understanding and generation with better captions."  Advances in Neural Informaation Processing Systems  37 (2024): 19472-19495. (NIPS 24)
+Li, Kunchang, et al. "Mvbench: A comprehensive multi-modal video understanding benchmaark." Proceedinings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024. (CVPR 24)
+Fan, Yue, et al. "Videoagent: A memory-augmmented multimodal agent for video understanding."  European Conference on Computer Vision. Cham: Springer Nature Switzerland, 2024. (ECCV 24)
+Song, Enxin, et al. "Moviechat: From dense token to sparse memory for long video understanding."  Proceedinings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024. (CVPR 24)
+Shen X, Xiong Y, Zhao C, et al. Longvu: Spatiotemporal adaptive compression for long video-language understanding[J]. arXiv preprint arXiv:2410.17434, 2024.
+
+Bibliography

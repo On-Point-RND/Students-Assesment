@@ -1,0 +1,115 @@
+Bezuglyj [name]
+ [location]  Age: 25 years old
+Work experience Contacts
+█
+■ [compaany] [location] June 2021 — October 2023  +2 *** *** ***
+Research engineer:  [email]
+•Study and analysis of scientific articles, methods and approaches of  [website]
+computer vision in the context of unmanned transportation (SLAM, Visual
+Place Recognition, Segmentation)
+Languages
+•Modification of existing and development of new localization and
+mapping algorithms (semantic 3D maps, HD-maps)
+•Implementation of modern neural network models and reproduction of
+English
+results given in articles
+B2 - Upper Intermediate
+•Development of pipelines for working with 3D simulators (Gazebo, Isaac) -
+integration of 3D robot model into virtual environment to collect synthetic
+datasets Skills
+■ [name] October 2023 — April 2024
+● Python
+Deep Learning Engineer:
+● PyTorch, torch Lightning
+•Research papers on the topic of real-time object detection
+● Mindspore
+•Development of real-time models for detection of people and human
+heads ● ClearML/Wandb
+● C/C++
+■ JSC Kama ([compaany]) April 2024 — Present
+● ROS
+HD maps developer:
+● Docker
+•Development of SLAM system and related algorithms
+● git
+•Development of HD-maps reconstruction algorithms
+● bash
+Education ● [compaany]
+● Gazebo
+█
+■ NRNU MEPHI, Bachelor's degree 2022
+ICIS, Applied mathematics and computer science Достижения и
+■ MIPT, Master's degree 2024 мероприятия
+Phystech SchooL of Applied Mathematics and Informatics, Methods
+and technologies of artificial intelligence
+• Winner of the hackathon
+“Robot Localization at MIPT
+campus” held within the
+Educational Forum on
+█
+■ Техноатом ([email]) 2020 Mathematics and Artificial
+Advanced C/C++ programming Intelligence "I am a
+Professional" (2021).
+■ Sirius & RAAI 2021
+• Winner of the 64th MIPT
+Summer SchooL of the Russian Association of Artificial Intelligence
+Conference, with the paper
+■ AIRI & Innopolis 2023 “Localization of a mobile
+AIRI Summer SchooL robot using a 3D semantic
+Conference map” (2021).
+• Conducted a workshop on
+using Mindspore deep
+learning framework at AI-
+Journey conference (2021).
+• Participated in the poster
+session of MachinesCanSee
+■ Bezuglyi [name], [name]. Localization of a mobile robot by a three-
+dimensional semantic map // Proceedings of the 64th All-
+Russian Scientific Conference of MIPT, : MIPT: 2021. 2021.
+• Participated in the poster
+session of Neuroinformatics-
+2022 conference
+“Reconstruction Of
+3D Semantic Map and its Quality Estimation” (2022).
+■ Bezuglyj [name], Yudin [name]. Reconstruction of 3D Semantic Map and Its
+Quality Estimation //Proceedings of the Sixth International
+Scientific Conference “Intelligent Informa tion Technologies for
+Indus try”(IITI’22). – Cham : Springer Interna tional Publi shing,
+2022. – С. 325-335. November 2022 • Participated in the poster
+■ Bezuglyj [name], and D. A. Yudin. "Sea-SHINE: Semantic-Aware 3D
+Neural Mapping Using Implicit Representa tions." Optical Memory
+and Neural Networks 33.Suppl 3 (2024): S445-S456. 2024
+• Conducted the supervisi on of
+the implemen ta tion of research
+projects within the AIRI
+Summer SchooL in the
+Computer Vision field
+■ Klokov A., Luchinskiy V., Bezuglyj [name]. DAPS3D: Domain Adaptive
+Estimation of Proj ective Segm entation of 3D LiDAR Point Clouds // in IEEE
+Access, doi: 10.1109/ACCESS.2023.3298706. July 2023
+■ [name] I. et al. Localization of Mobile Robot in Prior 3D LiDAR Maps
+using Stereo Image Sequence. (under review) Computer Optics,
+2023. 2023
+• Speaker at IITI (Intelligent
+Informa tion Technologies for Industry) Interna tional
+Conference, Istanbul (2022)
+• Participated in the
+organiza tion of the hacka thon
+“Find your place at MIPT
+campus” held within the
+Educational Forum on
+Mathe matics and Arti ficial
+Intelligence "I am
+Professi onal" (2023).
+• Participan t of the AIRI
+Summer SchooL and winner
+of the compe tition of
+the schooL (2023)
+About me
+While working in a research lab, I encountered challenges that led to
+a period of burnout. This promp ted me to take a long brea k, akin to a
+“GAP year” that lasted several years. During this time, I focused on
+self-d evelo pment and gained significant hands-on experience in
+d evelo pment. I am now feeling better and am fully committed to the
+schooL preparing for gra duate schooL, interested in expanding my
+know ledge in the field of artificial intelligence.

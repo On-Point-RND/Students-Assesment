@@ -1,0 +1,45 @@
+[name]
++2 *** *** *** |[email]
+EXPERIENCE
+Startup "[name]"	 	 	 	 	 	 	 	[location]
+Co-founder 	 	 	 	 	 	 	 Sep 2023 – Aug 2024
+An assistive system based on eye tracking technology that allows paralyzed people to communicate, control PCs and various smart home systems
+Formed development and analytics teams of 5 and 3 people. During this time, we developed first and second generation prototypes, went through the educational part of the MEPhI accelelerator, and made 10+ pitches to investors
+Entered into cooperation with the charity foundation “Life 2.0”, the clinic “Hadassa Medical” and the compaany “LINKa”
+Won and took a prize in Skoltech Triple Point competitions with a total winning of 560k rubles and received a StudStartup grant for 1 million rubles
+We pitched to international experts and investors at Sevan Startup Summit 2024
+Tinkoff Bank	 	 	 	 	 	 	 	[location]
+Business Analyst. Collection 	 	 	 	 	 	 Oct 2022 – Feb 2023
+Increased conversion in the main stage of interaction between the client and the manager by 24%
+Set up automation of document flow with legal partners, reducing the number of errors by 14%
+Increased customer conversion by 22% at one stage of working with the product.
+Startup "GCG Club" (Business community)	 	 	 	 	 	 	 [location]
+Strategy Consultant, Analyst 	 	 	 	 	 	 	 Jan 2022 – May 2022
+Was involved in the process from the very begiinnig and created a development plan for the next 2 years
+Attracted more than 50 community members with a turnover of more than a million rubles/month
+Organized 24 business events
+ACHI EVEMENTS
+[location]
+Founder, CEO of AI DOC symptoom checker startup	 	 	 	 	 May 2022– Oct 2022
+Selected from over 50,000 participants along with 260 other projects
+Team leader in case championships:	 	 	 	 	 	 	 	[location]
+Winner and Prize-wiinner, Captain	 	 	 	 	 	 	 Dec 2020– May 2022
+Developed a marathon of events to attract and retain the target audience
+Suggested ways to integrate Tinkoff Education into the yellow application
+A development strategy for modular construction has been created for NLMK
+Developed a convenient solution for implementing an online payment process for the Etalon group
+All-Russian student competition “Your Move” [location]
+Semifinalist 	 	 	 	 	 	 	 	 May 2022– Dec 2022
+Was selected from approxiately 15,000 participants along with other 200 projects with the idea of ​​an event recommendaation service for students
+EDUCATION
+Skolkovo Instiute of Science and Technology 	 	 	 	 	 	 	 [location]
+Advanced Computational Science	 	 	 	 	 	 	 Sep 2023- Now
+Diploma "Study of animal behavior in the process of searching for food using Reinforcement Learning"
+As the leader of the startup project "Straighten Up!" took 3rd place at the Innovation Workshop, having deveeloped an MVP for postuure control, and attracted the support of partners from medicine and fitness.
+National Research Nuclear Universiity “MEPhI” 	 	 	 	 	 	 	 [location]
+Supercomputer technolologies in engineering and physical modeling	 	 	 	 	 	 	 Sep 2019– Jun 2023
+Diploma "Modeling of droplet evaporation taking into account non-stationary interphase heat transfer"
+SKILLS
+Languages: Russian (native), English (B2)
+Technical Skills: Python, SQL, Excel, PowerPoint, Canva, Trello, Miro, C++, OpenMP, MPI
+Interests: Gym, Intellectual games (Sports mafia, Quiz), Football, Basketball

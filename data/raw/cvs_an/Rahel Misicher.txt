@@ -1,0 +1,38 @@
+[name] [surname]
++2 *** *** ***
+[email]
+Skills
+Algorithm & Data Structures - advanced knowledge; Olympiad-level problem solving
+-Competitive Programming - Python; ICPC Northern Eurasia Finals 2024 ([location]),
+Winner of “Международная олимпиада Молодежи” by [compaany]
+-Python - object-oriented programming, scripting, algorithmic problem solving, backend development with Flask and Django (basic), data manipulation with Pandas and Numpy, Git version
+control
+Data Analysis and Visualization - Experienced with exploratory data analysis using Python,
+confident in data wrangling, cleaning, and visualization using Pandas, NumPy, Matplotlib, Seaborn,
+Plotly, and Folium. Worked with time series data, built geospatial visualizations (maps) and
+interactive dashboards.
+-Machine Learning (basics) - scikit-learn, Pandas, Numpy
+-Hackathon & Startup Experience - Developed MVPs in fast-paced environments; collaborated on
+idea validation, backend/frontend implementation, and pitch preparation; final year project was
+built in a simulated startup environment following hackathon methodology.
+- Git & GitHub (used for coursework and personal projects, familiar with CLI workflow, commits,
+branches, pull requests)
+- Bash (basic terminal operations)
+Education
+2022 –2025
+Techical school of innovation [compaany], [location]
+The program focused on algorithms, data structures, OOP, databases (SQL), and modern software
+development practices. Gained hands-on experience in frontend (React, React Router, Redux,
+Tailwind CSS) and backend (Flask, Django). Also trained in data analysis and visualization (Pandas,
+Mtplotlib, Plotly, Folium), time series, and big data tools. Emphasized applied learning through
+team-based projects and concluded with a startup development in place of a traditional thesis,
+combining real-world product building with academic knowledge.
+2
+Awards & Achievements
+1st Degree Prize Winner, Higher School of Economics ([location]) Olympiad in Informatics
+(2023)
+ICPC Northern Eurasia Semifinalist, [location], 2024 (qualified through regional competitions)
+Machine Learning Olympiad Participant – College-level competition focused on applied ML tasks
+Participant, College-level Machine Learning Olympiad (2024), focused on Machine learning.
+Problem Solving Experience — solved 100+ problems on ACMP, Codeforces and LeetCode (focus
+on DP)

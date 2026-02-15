@@ -1,0 +1,12 @@
+Motivation Letter
+[name] [surname]
+Dear Organizing Committee,
+I am writing to express my strong interest in attending the Summer School on Machine Learning by [compaany]. I am currently an undergraduate student in Applied Mathematics and Computer Science at the [compaany], [location], with a deep passion for machine learning, deep learning, and their real-world applications.
+As part of my academic journey, I recently defended my coursework with a score of 9/10. The project focused on analyzing and forecasting stock market behavior using machine learning and large language models. I developed a Telegram bot that combines time series forecasting (LSTM), chart pattern recognition (CNN), sentiment analysis of financial news (FinBERT), and technical indicators to generate trading signals. I also experimented with a fusion model that integrates multiple modalities, which significantly improved prediction accuracy. This project strengthened my practical skills and sparked a deeper interest in multimodal ML systems.
+Beyond coursework, I actively participate in competitive and academic activities. I was a finalist in the National Data Analysis Olympiad (DANO) and a team member in the ICPC programming contest. These experiences helped me develop strong analytical thinking, coding proficiency, and teamwork — skills that are essential for machine learning research.
+I see this summer school as a unique opportunity to deepen my understanding of modern machine learning methods, engage with leading researchers, and connect with like-minded students from around the world. In the future, I would like to further explore various areas of ML, including computer vision, multimodal models, and their applications to real-world challenges.
+Thank you for considering my application. It would be an honor to take part in this exciting program.
+Sincerely,
+[name] [surname]
++2 *** *** ***
+[email]

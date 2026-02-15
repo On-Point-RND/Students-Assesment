@@ -1,0 +1,150 @@
+Spin Glasses and Neural Networks:
+Multilayer Sherrington–Kirkpatrick Model
+[name]
+[location]
+Motivation
+Analogy between Neural Networks and Spin Glasses:
+Both systems seek out stable configurations by minimizing a cost functional or energy.
+Physical perspective:
+Statistical‑physics tools (e.g. replica analysis, TAP equations) can describe their evolution and
+assess stability.
+Motivation:
+Leverage rigorous physical methods to deepen our understanding of complex ML landscapes
+What Is a Spin Glass?
+A magnetic system where spins interact through random, competing couplings, preventing uniform
+order—even at low temperature.
+Key features :
+Exponenentially many local energy minima
+Mixture of short‑ and long‑range order
+Exponenal number of metastable states
+Interaction types:
+Positive (ferromagnetic)
+Negative (antiferromagnetic)
+The Sherrington–Kirkpatrick Model (MSK)
+An Ising spin system with an infinite radius of interaction - each spin interacts with all the others with
+a random coefficient
+1
+Paramagnetic phase: Freezing transition:
+At high T, spins are uncorrelated and flip the system becomes non‑ergodic, trapping into
+rapidly—system behaves chaotically metastable states
+Replica‑symmetric solution:
+Parisi Ansatz RSB
+Loses stability for T<Tc, leading to negative entropy at zero
+temperature
+1)D. Sherrington and S. Kirkpatrick, “Solvable model of a spin-glass”, Phys. Rev. Lett. 35,1792–1796 (1975).
+Neural Network as Multilayer Spin Model
+Edwards–Anderson (EA): local lattice couplings
+(EA) + (MSK) = (MSM)
+Neuron as spin
+Weight as coupling
+Hamiltonian (Multi‑Layer Spin Model, MSM):
+Simulated Annealing in Spin Systems
+Simulation of the dynamic process of spin flips using the Monte Carlo method:
+1. Start in a high‑temperature, random state.
+2. Propose random spin flips (Monte Carlo)
+3. Compute energy change ΔE.
+4. The Metropolis Criterion:
+If ΔE < 0 — accept
+If ΔE > 0 — accept with probability:
+5. Gradually lower temperature
+6. System "freezes" into one of the energy minima
+Visualizing Annealing
+• High T (Paramagnetic):
+Rapid, random flips; no long‑range order.
+• Phase transition:
+Emergence of stable clusters as T drops.
+• Low T:
+Configuration stabilizes into a glassy or ordered state.
+Training of system
+Stochastic Gradient Descent minimizes a loss
+function → gradually improves predictions.
+Initial state: Weights random ⇒ analogous
+to paramagnetic spins.
+• During training: Loss decrease ⇒
+“energy” of the spin model lowers, leading to a more stable configuration.
+• Effectively: Cooling allows the network to
+settle into a metastable, task‑relevant state.
+График с D. J. Thouless, P. W. Anderson, and R. G. Palmer, “Solution of ‘solvable model of a spin glass’”, Philosophical Magazine 35, 593–601 (1977).
+Recipe for the Binarized Network
+L2-hinge loss :
+SGD with momentum:
+1. Initialization: Random weights (Kaiming normal).
+2. Forward pass: Binary activations.
+3. Backward pass: Straight‑Through Estimator (STE) for gradients through sign:
+surrogate hard‑tanh.
+4. Weight update: SGD with momentum
+5. Iterate until convergence.
+Optionally combine with simulated‑annealing‑style temperature scheduling
+Straight-Through Estimator (STE)
+Activation is non‑differentiable ⇒ zero gradient almost everywhere.
+STE - method of direct approximation of the gradient through a surrogate continuous function
+STE
+Forward pass: use hard sign
+Backward pass: pretend derivative is that of hard‑tanh surrogate
+Critical Temperature & Replica/TAP Analysis
+1
+Replica method (MSK):
+Ensemble‑average yields critical Tc via stability of the replica‑symmetric solution
+2
+TAP (Thouless-Anderson-Palmer):
+Free energy:
+In a real trained network, the weights are fixed
+It is necessary to analyze the energy landscape for a specific set
+1
+1) Barney R., Winer M., Galitski V. Neural Networks as Spin Models: From Glass to Hidden Order Through Training
+2) D. J. Thouless, P. W. Anderson, and R. G. Palmer, “Solution of ‘solvable model of a spin glass’”, Philosophical Magazine 35, 593–601 (1977).
+Calculation of the critical temperature
+Linearization near
+The solution of this system provides a criterion for
+the appearance of a non–trivial solution -
+determines Tc
+We are looking for the minimum eigenvalue of the matrix:
+Algorithm for Tc:
+1. Form a matrix of weights
+2. Calculating the minimum eigenvalue
+3. The critical temperature corresponds to , at which becomes zero:
+Results: Before
+Results: Critical
+Results: training
+MNIST dataset
+Results: training
+Results: training
+Conclusions
+A randomly initialized network is formally equivalent to a layered SK spin glass with
+replica‑symmetry breaking and a well‑defined critical temperature Tc.
+Replica‑method stability analysis and the TAP equations accurately predict Tc and identify the
+glass‑to‑ordered phase transition in the loss landscape.
+SGD with momentum and STE performs a gradual “cooling,” driving the system out of its initial
+glassy state into a single symmetry‑broken configuration (hidden order).
+Throughout training, the effective Tc grows monotonically—signaling that the learned solution
+resides in ever‑deeper, more robust minima less susceptible to perturbations.
+Viewing training through the lens of spin‑glass physics opens new diagnostic tools (eigenvalue
+spectra, TAP‑based stability checks) and suggests physics‑inspired regularizers and annealing
+schedules to improve optimization and generalization in deep networks.
+Bibliography
+1.J. J. Hopfield, “Neural networks and physical systems with emergent collective computational abilities,” Proc. Natl. Acad. Sci. U. S. A. 79,
+2554–2558 (1982).
+2.D. J. Thouless, P. W. Anderson, and R. G. Palmer, “Solution of ‘solvable model of a spin glass’,” Philosophical Magazine 35, 593–601 (1977).
+3.E. Agliari, L. Albanese, F. Alemanno, and A. Fachechi, “Pattern recognition in Deep Boltzmann machines,” arXiv preprint (2021),
+arXiv:2106.08978, DOI:10.48550/arXiv.2106.08978.
+4.Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner, “Gradient‑based learning applied to document recognition,” Proceedings of the IEEE 86, 2278–
+2324 (1998).
+5.R. Barney, M. Winer, and V. Galitski, “Neural Networks as Spin Models: From Glass to Hidden Order Through Training,” arXiv preprint (2024),
+arXiv:2408.06421, DOI:10.48550/arXiv.2408.06421.
+6.D. J. Amit, H. Gutfreund, and H. Sompoliinsky, “Spin‑glass models of neural networks,” Phys. Rev. A 32, 1007–1018 (1985).
+7.N. Zhang, S. Ding, J. Zhang, and Y. Xue, “An overview on restricted Boltzmann machines,” Neurocomputing 275, 1186–1199 (2018).
+8.G. Parisi, “Toward a mean field theory for spin glasses,” Phys. Lett. A 73, 203–205 (1979).
+9.T. Plefka, “Convergence condition of the TAP equation for the infinite‑ranged Ising spin glass model,” J. Phys. A: Math. Gen. 15, 1971 (1982).
+10.S. S. Du, X. Zhai, B. Poczos, and A. Singh, “Gradient descent probably optimizes over‑parameterized neural networks,” in International
+Conference on Learning Representations (ICLR, 2019).
+11.M. Thamm, M. Staaats, and B. Rosenow, “Random matrix analysis of deep neural networks weight matrices,” Phys. Rev. E 106, 054124 (2022).
+Contacts:
+[name]
+[location]
+[email]
++79052484002
+Link to my SMILES2025:
+CV, motivation letter and video presentation
+
+
+

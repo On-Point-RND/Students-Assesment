@@ -1,0 +1,53 @@
+To the Selection Committee for [compaany] 2025,
+My name is [name], I'm a 1st year PhD student at [compaany] and I'm writing to express my
+strong interest in participation the [compaany] Summer SchooL. As a researcher deeply
+immersed in machine learning, computer vision and time series forecasting, I am looking to
+deepen my knowledge and expand my expertiise in various areas of deep learning, including
+self-supervised learning, generative and multimodal approaches - areas that are rapidly
+changing the landscape of artificial intelligence and are directly relevant to my current research
+and future career goals.
+As a Research Engineer and PhD student at [compaany], my work includes diverse tasks, such as
+natural disaster forecasting using geospatial data fusion, industrial video analysis via temporal
+action segmentation and a greenhouse microclimate to external weather conditions adaptation
+system development. These tasks highlight the need for innovative approaches to managing
+complex, multimodal data with limited annotation. For instance, satellite data required for
+natural disaster forecasting is often insufficient, requiring artificial generation or domain
+adaptation of this type of data for different regions and time periods under study. While
+working on industrial video analytics, we faced two major limitations of traditional supervised
+learning: scarce labelled data and complex multimodal dependencies. In the paper "Self-
+Supervised Learning for Temporal Action Segmentation in Industrial Videos" (2025), my team
+and I developed a Foundation Industrial Model (FIM) using V-JEPA (a joint-embedding self-
+supervised learning architecture) to segment manufacturing processes such as oil changes and
+tire replacements with minimal annotation. This work demonstrated SSL’s potential for
+industrial applications. However, extending these methods to broader domains (e.g., disaster
+forecasting) requires deeper theoretical grounding and hands-on experience with multimodal
+fusion—areas [compaany]-2025 emphasizes.
+The summer schooL’s curricuLum, which covers foundational and cutting-edg e topics in these
+areas, perfectly fit for my field of study and challenges I encounter in my work. I am particularly
+excited about the opportunity to learn from wo rld-class facuLty, interact with peers from diverse
+backgrounds, and gain hands-on experience with state-of-the-art methods. In addition, the
+collaboration between [compaany] and [compaany] provides a unique
+opportunity to exchange knowledge, experience and opens up a variety of cross-cuLtural
+perspectives. Participation in the [compaany]-2025 program will not o nl y improve my technical skills,
+but also provide an opportunity to build strong partnerships with researchers from [location],
+[location] and other countries.
+My background in machine learning and deep learning can be described as diverse. I have
+experience working with convolutional neural network s, vision transformers and time series
+models, as well as implementa tion of self-supervised learning frameworks such as V-JEPA and
+VideoMAE. Due to my research specifics, I have a huge background working with satellite data
+which requires special approa ch to preprocessing and data handling.
+I expect [compaany]-2025 to deepen my theoreticaL understanding of self-supervised learning,
+multimodal and generative approaches, especially in the context of real-wo rld applications
+invovlving complex multimodal datasets. I would also be interested in the other topics stated to
+broaden my horizons. I'm excited to explore new architectures, learn best practices, and
+understand how to effe cti vely integrate multiple data types to improve model robus tness and
+generali sation. The hands-on sessi ons and colla borative atmosphere will be inva luable in
+translating theory into practice and providing new ideas for my research.
+I plan to continue my academic career with a PhD, focusing on developing scalable, data-
+efficient AI systems for industrial and enviro nmental applications. I'm motivated to bri dg e the
+gap between academic research and practical implemen ta tion, contributing to safer, more
+sustai nable and sma rter real-life products. The skills and contacts I'll gain in [compaany]-2025 will
+play an important role in a chievin g these goals.
+Thank you in advance for your time and conside ration,
+Sincerely yours,
+[name]

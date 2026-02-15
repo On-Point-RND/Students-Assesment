@@ -1,0 +1,35 @@
+Note
+Presented research has not yet been published thus the results section is very limited. While the main focus
+of my scientific career was in the area of engineering, see my works at [compaany] scolar profile
+(https://scholar.[compaany].com/citations?user=[name]&hl=en), this work is my first one in the area of
+bioinformatics, which I believe is more related to the topic of the SMILE.
+Deleterious Alleles in Consanguineous
+Human Populations
+[name] [surname]
+Researcher (former), [compaany] , [location], [location], [location]
+Introduction
+• The idea of the research is to investigate the associations between consanguineous marriage and
+deleterious recessiive alleles associated with congenital diseases
+• This data has been obtained by many animal species, but never been demonstrated on humans. This
+informaation will help to better understand human evolutionary dynamics, especially during the evolutional
+bottlenecks. It will also help us to understand how different communities can be affected by the congenital
+diseases, which will help to address their health risks.
+Problem statement
+• The work analyze the runs of homozygosity (ROH) in different human populations, and find the correlation
+between them and the genetic markeers of congenital disease (like CADD score, or LoF score) and the
+official data of congenital disease levels presented by the medical agencies for different populations.
+• The main challenges in the amount of the data that need to be analyzed, as even the obtaining and RoH
+from the whole genome sequence require significant amount of the computaional power. The work will be
+performeed on a cluster of the [compaany] , provided by [compaany]
+Methods
+• Main methods will be PLINK (open-source whole genome association analysis tools) and BWA
+and GATK algorithm to get the information about genetic sequence variations from the DNA
+sequence
+• Data & preprocessing will include quality controls (e.g. alignments to a reference genome)
+statistical tests (e.g., chi-square, regression), and combination of variant calls across multiple
+samples for consistency and improved accuracy
+Results
+• The results are expected to be published within this year
+
+
+

@@ -1,0 +1,2085 @@
+2026-02-15 14:58:49,657 - INFO - 
+======================================================================
+2026-02-15 14:58:49,657 - INFO - CLASS DISTRIBUTION DIAGNOSTICS
+2026-02-15 14:58:49,657 - INFO - ======================================================================
+2026-02-15 14:58:49,658 - INFO - 
+school_participation_flag:
+2026-02-15 14:58:49,658 - INFO -   Class 0 (negative): 309 samples (54.12%)
+2026-02-15 14:58:49,658 - INFO -   Class 1 (positive): 262 samples (45.88%)
+2026-02-15 14:58:49,658 - INFO - 
+project_participation_flag:
+2026-02-15 14:58:49,658 - INFO -   Class 0 (negative): 494 samples (86.51%)
+2026-02-15 14:58:49,658 - INFO -   Class 1 (positive): 77 samples (13.49%)
+2026-02-15 14:58:49,658 - INFO - ======================================================================
+
+2026-02-15 14:58:49,659 - INFO - Initialized experiment: K=10, feature_mode='mean'
+2026-02-15 14:58:49,659 - INFO - Starting experiment: mistral_cv_evo
+2026-02-15 14:58:49,659 - INFO - Research focus: Correlation between unsupervised clustering (Silhouette) and supervised metrics
+2026-02-15 14:58:49,659 - INFO - Round 1/1000
+2026-02-15 14:58:49,952 - INFO -   Silhouette: 0.2360 | School ROC: 0.6297 F1: 0.5946 | Project ROC: 0.5632 F1: 0.2243 ✓
+2026-02-15 14:58:49,952 - INFO -     📊 Silhouette improvement → Avg ROC: 0.5964 | Avg F1: 0.4094 | F1/ROC ratio: 0.6865 (F1 < ROC (conservative predictions))
+2026-02-15 14:58:49,953 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:49,953 - INFO - Round 2/1000
+2026-02-15 14:58:50,286 - INFO -   Silhouette: 0.2619 | School ROC: 0.6553 F1: 0.6425 | Project ROC: 0.5959 F1: 0.2385 ✓
+2026-02-15 14:58:50,287 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6256 | Avg F1: 0.4405 | F1/ROC ratio: 0.7042 (F1 < ROC (conservative predictions))
+2026-02-15 14:58:50,288 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:50,288 - INFO - Round 3/1000
+2026-02-15 14:58:50,567 - INFO -   Silhouette: 0.2245 | School ROC: 0.6311 F1: 0.5979 | Project ROC: 0.5820 F1: 0.2500 ✓
+2026-02-15 14:58:50,569 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:50,569 - INFO - Round 4/1000
+2026-02-15 14:58:50,876 - INFO -   Silhouette: 0.2415 | School ROC: 0.6390 F1: 0.6243 | Project ROC: 0.5379 F1: 0.2286 
+2026-02-15 14:58:50,876 - INFO - Round 5/1000
+2026-02-15 14:58:51,170 - INFO -   Silhouette: 0.2173 | School ROC: 0.6593 F1: 0.6277 | Project ROC: 0.5374 F1: 0.2136 ✓
+2026-02-15 14:58:51,173 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:51,174 - INFO - Round 6/1000
+2026-02-15 14:58:51,490 - INFO -   Silhouette: 0.2734 | School ROC: 0.6317 F1: 0.6425 | Project ROC: 0.5738 F1: 0.2476 ✓
+2026-02-15 14:58:51,490 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6028 | Avg F1: 0.4451 | F1/ROC ratio: 0.7384 (F1 < ROC (conservative predictions))
+2026-02-15 14:58:51,494 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:51,494 - INFO - Round 7/1000
+2026-02-15 14:58:51,750 - INFO -   Silhouette: 0.2466 | School ROC: 0.5638 F1: 0.5759 | Project ROC: 0.5355 F1: 0.2430 
+2026-02-15 14:58:51,751 - INFO - Round 8/1000
+2026-02-15 14:58:52,058 - INFO -   Silhouette: 0.2343 | School ROC: 0.5867 F1: 0.6061 | Project ROC: 0.6021 F1: 0.2703 ✓
+2026-02-15 14:58:52,061 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:52,061 - INFO - Round 9/1000
+2026-02-15 14:58:52,536 - INFO -   Silhouette: 0.2008 | School ROC: 0.5968 F1: 0.5889 | Project ROC: 0.5505 F1: 0.2041 
+2026-02-15 14:58:52,536 - INFO - Round 10/1000
+2026-02-15 14:58:52,867 - INFO -   Silhouette: 0.1759 | School ROC: 0.6505 F1: 0.6292 | Project ROC: 0.5950 F1: 0.2286 
+2026-02-15 14:58:52,867 - INFO - Round 11/1000
+2026-02-15 14:58:53,147 - INFO -   Silhouette: 0.2494 | School ROC: 0.6623 F1: 0.6702 | Project ROC: 0.6204 F1: 0.2593 ✓
+2026-02-15 14:58:53,150 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:53,150 - INFO - Round 12/1000
+2026-02-15 14:58:53,525 - INFO -   Silhouette: 0.2553 | School ROC: 0.5984 F1: 0.6211 | Project ROC: 0.5973 F1: 0.3077 ✓
+2026-02-15 14:58:53,531 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:53,531 - INFO - Round 13/1000
+2026-02-15 14:58:53,905 - INFO -   Silhouette: 0.2211 | School ROC: 0.6340 F1: 0.5934 | Project ROC: 0.6364 F1: 0.3208 ✓
+2026-02-15 14:58:53,911 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:53,912 - INFO - Round 14/1000
+2026-02-15 14:58:54,226 - INFO -   Silhouette: 0.2182 | School ROC: 0.5848 F1: 0.5851 | Project ROC: 0.5455 F1: 0.2430 
+2026-02-15 14:58:54,227 - INFO - Round 15/1000
+2026-02-15 14:58:54,544 - INFO -   Silhouette: 0.2380 | School ROC: 0.6149 F1: 0.6270 | Project ROC: 0.6078 F1: 0.3000 
+2026-02-15 14:58:54,545 - INFO - Round 16/1000
+2026-02-15 14:58:54,841 - INFO -   Silhouette: 0.2803 | School ROC: 0.6138 F1: 0.6091 | Project ROC: 0.5426 F1: 0.2222 ✓
+2026-02-15 14:58:54,842 - INFO -     📊 Silhouette improvement → Avg ROC: 0.5782 | Avg F1: 0.4157 | F1/ROC ratio: 0.7189 (F1 < ROC (conservative predictions))
+2026-02-15 14:58:54,847 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:54,848 - INFO - Round 17/1000
+2026-02-15 14:58:55,291 - INFO -   Silhouette: 0.2373 | School ROC: 0.6502 F1: 0.6243 | Project ROC: 0.5464 F1: 0.2105 
+2026-02-15 14:58:55,291 - INFO - Round 18/1000
+2026-02-15 14:58:55,502 - INFO -   Silhouette: 0.2821 | School ROC: 0.6463 F1: 0.6632 | Project ROC: 0.6150 F1: 0.2810 ✓
+2026-02-15 14:58:55,502 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6306 | Avg F1: 0.4721 | F1/ROC ratio: 0.7486 (F1 < ROC (conservative predictions))
+2026-02-15 14:58:55,506 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:55,506 - INFO - Round 19/1000
+2026-02-15 14:58:55,775 - INFO -   Silhouette: 0.2769 | School ROC: 0.5951 F1: 0.6054 | Project ROC: 0.5442 F1: 0.2453 
+2026-02-15 14:58:55,775 - INFO - Round 20/1000
+2026-02-15 14:58:56,073 - INFO -   Silhouette: 0.2333 | School ROC: 0.6294 F1: 0.6044 | Project ROC: 0.6090 F1: 0.2857 
+2026-02-15 14:58:56,074 - INFO - Round 21/1000
+2026-02-15 14:58:56,347 - INFO -   Silhouette: 0.2619 | School ROC: 0.6460 F1: 0.6283 | Project ROC: 0.5728 F1: 0.2586 
+2026-02-15 14:58:56,347 - INFO - Round 22/1000
+2026-02-15 14:58:56,639 - INFO -   Silhouette: 0.2952 | School ROC: 0.6085 F1: 0.5851 | Project ROC: 0.5776 F1: 0.2653 ✓
+2026-02-15 14:58:56,639 - INFO -     📊 Silhouette improvement → Avg ROC: 0.5931 | Avg F1: 0.4252 | F1/ROC ratio: 0.7169 (F1 < ROC (conservative predictions))
+2026-02-15 14:58:56,646 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:56,647 - INFO - Round 23/1000
+2026-02-15 14:58:56,925 - INFO -   Silhouette: 0.2971 | School ROC: 0.6022 F1: 0.6096 | Project ROC: 0.6265 F1: 0.2991 ✓
+2026-02-15 14:58:56,926 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6143 | Avg F1: 0.4543 | F1/ROC ratio: 0.7396 (F1 < ROC (conservative predictions))
+2026-02-15 14:58:56,935 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:56,935 - INFO - Round 24/1000
+2026-02-15 14:58:57,257 - INFO -   Silhouette: 0.3086 | School ROC: 0.6434 F1: 0.6316 | Project ROC: 0.5859 F1: 0.2617 ✓
+2026-02-15 14:58:57,257 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6147 | Avg F1: 0.4466 | F1/ROC ratio: 0.7266 (F1 < ROC (conservative predictions))
+2026-02-15 14:58:57,268 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:57,269 - INFO - Round 25/1000
+2026-02-15 14:58:57,473 - INFO -   Silhouette: 0.2274 | School ROC: 0.6133 F1: 0.5810 | Project ROC: 0.5845 F1: 0.2476 
+2026-02-15 14:58:57,474 - INFO - Round 26/1000
+2026-02-15 14:58:57,813 - INFO -   Silhouette: 0.2651 | School ROC: 0.6692 F1: 0.6162 | Project ROC: 0.6046 F1: 0.2936 ✓
+2026-02-15 14:58:57,824 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:58:57,824 - INFO - Round 27/1000
+2026-02-15 14:58:58,128 - INFO -   Silhouette: 0.2552 | School ROC: 0.6062 F1: 0.5730 | Project ROC: 0.5744 F1: 0.2553 
+2026-02-15 14:58:58,128 - INFO - Round 28/1000
+2026-02-15 14:58:58,430 - INFO -   Silhouette: 0.2067 | School ROC: 0.6026 F1: 0.5486 | Project ROC: 0.5244 F1: 0.2549 
+2026-02-15 14:58:58,430 - INFO - Round 29/1000
+2026-02-15 14:58:58,670 - INFO -   Silhouette: 0.2901 | School ROC: 0.6186 F1: 0.6339 | Project ROC: 0.5537 F1: 0.2128 
+2026-02-15 14:58:58,670 - INFO - Round 30/1000
+2026-02-15 14:58:58,936 - INFO -   Silhouette: 0.2989 | School ROC: 0.6257 F1: 0.6277 | Project ROC: 0.6113 F1: 0.2778 
+2026-02-15 14:58:58,937 - INFO - Round 31/1000
+2026-02-15 14:58:59,208 - INFO -   Silhouette: 0.1965 | School ROC: 0.6156 F1: 0.5907 | Project ROC: 0.5427 F1: 0.2476 
+2026-02-15 14:58:59,208 - INFO - Round 32/1000
+2026-02-15 14:58:59,491 - INFO -   Silhouette: 0.2811 | School ROC: 0.6166 F1: 0.5909 | Project ROC: 0.5775 F1: 0.2247 
+2026-02-15 14:58:59,492 - INFO - Round 33/1000
+2026-02-15 14:58:59,792 - INFO -   Silhouette: 0.2457 | School ROC: 0.6420 F1: 0.6409 | Project ROC: 0.5973 F1: 0.3000 
+2026-02-15 14:58:59,792 - INFO - Round 34/1000
+2026-02-15 14:59:00,040 - INFO -   Silhouette: 0.3223 | School ROC: 0.6254 F1: 0.6383 | Project ROC: 0.5587 F1: 0.2569 ✓
+2026-02-15 14:59:00,040 - INFO -     📊 Silhouette improvement → Avg ROC: 0.5920 | Avg F1: 0.4476 | F1/ROC ratio: 0.7561 (F1 < ROC (conservative predictions))
+2026-02-15 14:59:00,055 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:00,055 - INFO - Round 35/1000
+2026-02-15 14:59:00,324 - INFO -   Silhouette: 0.3439 | School ROC: 0.6058 F1: 0.6263 | Project ROC: 0.5833 F1: 0.2430 ✓
+2026-02-15 14:59:00,324 - INFO -     📊 Silhouette improvement → Avg ROC: 0.5946 | Avg F1: 0.4346 | F1/ROC ratio: 0.7310 (F1 < ROC (conservative predictions))
+2026-02-15 14:59:00,339 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:00,339 - INFO - Round 36/1000
+2026-02-15 14:59:00,605 - INFO -   Silhouette: 0.2328 | School ROC: 0.6024 F1: 0.5730 | Project ROC: 0.5305 F1: 0.2385 
+2026-02-15 14:59:00,605 - INFO - Round 37/1000
+2026-02-15 14:59:00,901 - INFO -   Silhouette: 0.2253 | School ROC: 0.5826 F1: 0.5775 | Project ROC: 0.5279 F1: 0.2549 
+2026-02-15 14:59:00,901 - INFO - Round 38/1000
+2026-02-15 14:59:01,178 - INFO -   Silhouette: 0.2286 | School ROC: 0.6185 F1: 0.6120 | Project ROC: 0.5584 F1: 0.2500 
+2026-02-15 14:59:01,178 - INFO - Round 39/1000
+2026-02-15 14:59:01,511 - INFO -   Silhouette: 0.2479 | School ROC: 0.6147 F1: 0.6073 | Project ROC: 0.5493 F1: 0.2136 
+2026-02-15 14:59:01,511 - INFO - Round 40/1000
+2026-02-15 14:59:01,767 - INFO -   Silhouette: 0.2140 | School ROC: 0.6102 F1: 0.5824 | Project ROC: 0.5718 F1: 0.2376 
+2026-02-15 14:59:01,767 - INFO - Round 41/1000
+2026-02-15 14:59:02,081 - INFO -   Silhouette: 0.3519 | School ROC: 0.6245 F1: 0.6211 | Project ROC: 0.6132 F1: 0.2982 ✓
+2026-02-15 14:59:02,082 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6188 | Avg F1: 0.4596 | F1/ROC ratio: 0.7428 (F1 < ROC (conservative predictions))
+2026-02-15 14:59:02,099 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:02,100 - INFO - Round 42/1000
+2026-02-15 14:59:02,337 - INFO -   Silhouette: 0.2239 | School ROC: 0.6272 F1: 0.6283 | Project ROC: 0.6237 F1: 0.2787 
+2026-02-15 14:59:02,338 - INFO - Round 43/1000
+2026-02-15 14:59:02,639 - INFO -   Silhouette: 0.2170 | School ROC: 0.6989 F1: 0.6593 | Project ROC: 0.6132 F1: 0.2783 ✓
+2026-02-15 14:59:02,654 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:02,655 - INFO - Round 44/1000
+2026-02-15 14:59:02,884 - INFO -   Silhouette: 0.2819 | School ROC: 0.5926 F1: 0.5895 | Project ROC: 0.5153 F1: 0.2478 
+2026-02-15 14:59:02,885 - INFO - Round 45/1000
+2026-02-15 14:59:03,178 - INFO -   Silhouette: 0.2239 | School ROC: 0.6224 F1: 0.6196 | Project ROC: 0.5336 F1: 0.2342 
+2026-02-15 14:59:03,178 - INFO - Round 46/1000
+2026-02-15 14:59:03,436 - INFO -   Silhouette: 0.2543 | School ROC: 0.5735 F1: 0.5859 | Project ROC: 0.5878 F1: 0.2301 
+2026-02-15 14:59:03,437 - INFO - Round 47/1000
+2026-02-15 14:59:03,730 - INFO -   Silhouette: 0.2354 | School ROC: 0.6311 F1: 0.6096 | Project ROC: 0.5967 F1: 0.2617 
+2026-02-15 14:59:03,731 - INFO - Round 48/1000
+2026-02-15 14:59:03,974 - INFO -   Silhouette: 0.2505 | School ROC: 0.6250 F1: 0.6034 | Project ROC: 0.6296 F1: 0.2909 
+2026-02-15 14:59:03,974 - INFO - Round 49/1000
+2026-02-15 14:59:04,274 - INFO -   Silhouette: 0.2518 | School ROC: 0.6098 F1: 0.5778 | Project ROC: 0.5978 F1: 0.2828 
+2026-02-15 14:59:04,274 - INFO - Round 50/1000
+2026-02-15 14:59:04,570 - INFO -   Silhouette: 0.2560 | School ROC: 0.6344 F1: 0.5731 | Project ROC: 0.5712 F1: 0.2243 
+2026-02-15 14:59:04,570 - INFO - Round 51/1000
+2026-02-15 14:59:04,838 - INFO -   Silhouette: 0.3423 | School ROC: 0.6048 F1: 0.6096 | Project ROC: 0.5961 F1: 0.2642 
+2026-02-15 14:59:04,839 - INFO - Round 52/1000
+2026-02-15 14:59:05,083 - INFO -   Silhouette: 0.2403 | School ROC: 0.6066 F1: 0.5824 | Project ROC: 0.5724 F1: 0.2474 
+2026-02-15 14:59:05,084 - INFO - Round 53/1000
+2026-02-15 14:59:05,362 - INFO -   Silhouette: 0.2315 | School ROC: 0.5854 F1: 0.5882 | Project ROC: 0.5372 F1: 0.2200 
+2026-02-15 14:59:05,362 - INFO - Round 54/1000
+2026-02-15 14:59:05,602 - INFO -   Silhouette: 0.2090 | School ROC: 0.6452 F1: 0.6528 | Project ROC: 0.6004 F1: 0.2832 
+2026-02-15 14:59:05,603 - INFO - Round 55/1000
+2026-02-15 14:59:05,875 - INFO -   Silhouette: 0.2065 | School ROC: 0.6213 F1: 0.6243 | Project ROC: 0.5334 F1: 0.2056 
+2026-02-15 14:59:05,875 - INFO - Round 56/1000
+2026-02-15 14:59:06,236 - INFO -   Silhouette: 0.2724 | School ROC: 0.6579 F1: 0.6316 | Project ROC: 0.6465 F1: 0.3519 ✓
+2026-02-15 14:59:06,255 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:06,256 - INFO - Round 57/1000
+2026-02-15 14:59:06,541 - INFO -   Silhouette: 0.2795 | School ROC: 0.5994 F1: 0.5946 | Project ROC: 0.5741 F1: 0.2828 
+2026-02-15 14:59:06,541 - INFO - Round 58/1000
+2026-02-15 14:59:06,770 - INFO -   Silhouette: 0.2560 | School ROC: 0.5697 F1: 0.5761 | Project ROC: 0.5662 F1: 0.2581 
+2026-02-15 14:59:06,771 - INFO - Round 59/1000
+2026-02-15 14:59:07,154 - INFO -   Silhouette: 0.2868 | School ROC: 0.6025 F1: 0.6096 | Project ROC: 0.5840 F1: 0.2642 
+2026-02-15 14:59:07,155 - INFO - Round 60/1000
+2026-02-15 14:59:07,494 - INFO -   Silhouette: 0.2410 | School ROC: 0.5702 F1: 0.5957 | Project ROC: 0.6336 F1: 0.2804 
+2026-02-15 14:59:07,494 - INFO - Round 61/1000
+2026-02-15 14:59:07,737 - INFO -   Silhouette: 0.2589 | School ROC: 0.6358 F1: 0.6196 | Project ROC: 0.5255 F1: 0.2222 
+2026-02-15 14:59:07,738 - INFO - Round 62/1000
+2026-02-15 14:59:07,987 - INFO -   Silhouette: 0.3149 | School ROC: 0.6545 F1: 0.6452 | Project ROC: 0.5765 F1: 0.2376 
+2026-02-15 14:59:07,988 - INFO - Round 63/1000
+2026-02-15 14:59:08,254 - INFO -   Silhouette: 0.2620 | School ROC: 0.6823 F1: 0.6188 | Project ROC: 0.6332 F1: 0.2692 ✓
+2026-02-15 14:59:08,287 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:08,287 - INFO - Round 64/1000
+2026-02-15 14:59:08,501 - INFO -   Silhouette: 0.2902 | School ROC: 0.5953 F1: 0.6064 | Project ROC: 0.5544 F1: 0.2376 
+2026-02-15 14:59:08,501 - INFO - Round 65/1000
+2026-02-15 14:59:08,725 - INFO -   Silhouette: 0.3357 | School ROC: 0.5952 F1: 0.5668 | Project ROC: 0.5905 F1: 0.2430 
+2026-02-15 14:59:08,725 - INFO - Round 66/1000
+2026-02-15 14:59:08,966 - INFO -   Silhouette: 0.2639 | School ROC: 0.6246 F1: 0.6321 | Project ROC: 0.5519 F1: 0.2162 
+2026-02-15 14:59:08,966 - INFO - Round 67/1000
+2026-02-15 14:59:09,218 - INFO -   Silhouette: 0.2678 | School ROC: 0.5993 F1: 0.6044 | Project ROC: 0.5658 F1: 0.2500 
+2026-02-15 14:59:09,219 - INFO - Round 68/1000
+2026-02-15 14:59:09,479 - INFO -   Silhouette: 0.2709 | School ROC: 0.5974 F1: 0.6178 | Project ROC: 0.5503 F1: 0.2222 
+2026-02-15 14:59:09,479 - INFO - Round 69/1000
+2026-02-15 14:59:09,770 - INFO -   Silhouette: 0.2651 | School ROC: 0.6256 F1: 0.5989 | Project ROC: 0.5775 F1: 0.2600 
+2026-02-15 14:59:09,770 - INFO - Round 70/1000
+2026-02-15 14:59:10,026 - INFO -   Silhouette: 0.2503 | School ROC: 0.5964 F1: 0.5833 | Project ROC: 0.5204 F1: 0.2069 
+2026-02-15 14:59:10,027 - INFO - Round 71/1000
+2026-02-15 14:59:10,414 - INFO -   Silhouette: 0.2497 | School ROC: 0.6242 F1: 0.6455 | Project ROC: 0.5978 F1: 0.2679 
+2026-02-15 14:59:10,414 - INFO - Round 72/1000
+2026-02-15 14:59:10,645 - INFO -   Silhouette: 0.2911 | School ROC: 0.6334 F1: 0.6230 | Project ROC: 0.5899 F1: 0.2830 
+2026-02-15 14:59:10,645 - INFO - Round 73/1000
+2026-02-15 14:59:10,917 - INFO -   Silhouette: 0.2908 | School ROC: 0.6278 F1: 0.6237 | Project ROC: 0.5845 F1: 0.2745 
+2026-02-15 14:59:10,917 - INFO - Round 74/1000
+2026-02-15 14:59:11,154 - INFO -   Silhouette: 0.2385 | School ROC: 0.6133 F1: 0.5747 | Project ROC: 0.5633 F1: 0.2523 
+2026-02-15 14:59:11,155 - INFO - Round 75/1000
+2026-02-15 14:59:11,437 - INFO -   Silhouette: 0.3041 | School ROC: 0.6015 F1: 0.5792 | Project ROC: 0.5843 F1: 0.2435 
+2026-02-15 14:59:11,438 - INFO - Round 76/1000
+2026-02-15 14:59:11,695 - INFO -   Silhouette: 0.2540 | School ROC: 0.5720 F1: 0.5635 | Project ROC: 0.4965 F1: 0.2020 
+2026-02-15 14:59:11,695 - INFO - Round 77/1000
+2026-02-15 14:59:11,939 - INFO -   Silhouette: 0.3168 | School ROC: 0.6264 F1: 0.6531 | Project ROC: 0.6274 F1: 0.3243 
+2026-02-15 14:59:11,939 - INFO - Round 78/1000
+2026-02-15 14:59:12,200 - INFO -   Silhouette: 0.2953 | School ROC: 0.5770 F1: 0.5957 | Project ROC: 0.6043 F1: 0.2909 
+2026-02-15 14:59:12,200 - INFO - Round 79/1000
+2026-02-15 14:59:12,487 - INFO -   Silhouette: 0.2139 | School ROC: 0.6157 F1: 0.6000 | Project ROC: 0.6010 F1: 0.2857 
+2026-02-15 14:59:12,487 - INFO - Round 80/1000
+2026-02-15 14:59:12,808 - INFO -   Silhouette: 0.3615 | School ROC: 0.6400 F1: 0.5902 | Project ROC: 0.6158 F1: 0.3063 ✓
+2026-02-15 14:59:12,808 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6279 | Avg F1: 0.4482 | F1/ROC ratio: 0.7138 (F1 < ROC (conservative predictions))
+2026-02-15 14:59:12,834 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:12,834 - INFO - Round 81/1000
+2026-02-15 14:59:13,117 - INFO -   Silhouette: 0.2580 | School ROC: 0.6774 F1: 0.6180 | Project ROC: 0.5400 F1: 0.2435 
+2026-02-15 14:59:13,118 - INFO - Round 82/1000
+2026-02-15 14:59:13,333 - INFO -   Silhouette: 0.2928 | School ROC: 0.6137 F1: 0.6034 | Project ROC: 0.5998 F1: 0.2745 
+2026-02-15 14:59:13,333 - INFO - Round 83/1000
+2026-02-15 14:59:13,611 - INFO -   Silhouette: 0.2490 | School ROC: 0.6024 F1: 0.5946 | Project ROC: 0.5900 F1: 0.2574 
+2026-02-15 14:59:13,611 - INFO - Round 84/1000
+2026-02-15 14:59:13,873 - INFO -   Silhouette: 0.2628 | School ROC: 0.5962 F1: 0.6111 | Project ROC: 0.4615 F1: 0.1224 
+2026-02-15 14:59:13,874 - INFO - Round 85/1000
+2026-02-15 14:59:14,227 - INFO -   Silhouette: 0.1901 | School ROC: 0.6947 F1: 0.6374 | Project ROC: 0.6074 F1: 0.2642 
+2026-02-15 14:59:14,227 - INFO - Round 86/1000
+2026-02-15 14:59:14,455 - INFO -   Silhouette: 0.2830 | School ROC: 0.6126 F1: 0.5856 | Project ROC: 0.5835 F1: 0.2478 
+2026-02-15 14:59:14,455 - INFO - Round 87/1000
+2026-02-15 14:59:14,770 - INFO -   Silhouette: 0.2010 | School ROC: 0.6418 F1: 0.6455 | Project ROC: 0.5543 F1: 0.2321 
+2026-02-15 14:59:14,771 - INFO - Round 88/1000
+2026-02-15 14:59:15,080 - INFO -   Silhouette: 0.3226 | School ROC: 0.6095 F1: 0.6344 | Project ROC: 0.5483 F1: 0.2745 
+2026-02-15 14:59:15,080 - INFO - Round 89/1000
+2026-02-15 14:59:15,334 - INFO -   Silhouette: 0.2680 | School ROC: 0.5921 F1: 0.5838 | Project ROC: 0.5454 F1: 0.2151 
+2026-02-15 14:59:15,334 - INFO - Round 90/1000
+2026-02-15 14:59:15,587 - INFO -   Silhouette: 0.2894 | School ROC: 0.5887 F1: 0.5699 | Project ROC: 0.5750 F1: 0.2574 
+2026-02-15 14:59:15,588 - INFO - Round 91/1000
+2026-02-15 14:59:15,875 - INFO -   Silhouette: 0.2394 | School ROC: 0.6113 F1: 0.5989 | Project ROC: 0.5445 F1: 0.2182 
+2026-02-15 14:59:15,876 - INFO - Round 92/1000
+2026-02-15 14:59:16,233 - INFO -   Silhouette: 0.2342 | School ROC: 0.6195 F1: 0.5955 | Project ROC: 0.6424 F1: 0.3000 
+2026-02-15 14:59:16,233 - INFO - Round 93/1000
+2026-02-15 14:59:16,484 - INFO -   Silhouette: 0.1998 | School ROC: 0.5657 F1: 0.5761 | Project ROC: 0.5398 F1: 0.2353 
+2026-02-15 14:59:16,484 - INFO - Round 94/1000
+2026-02-15 14:59:16,954 - INFO -   Silhouette: 0.2539 | School ROC: 0.6189 F1: 0.6354 | Project ROC: 0.4769 F1: 0.2162 
+2026-02-15 14:59:16,955 - INFO - Round 95/1000
+2026-02-15 14:59:17,253 - INFO -   Silhouette: 0.2305 | School ROC: 0.6795 F1: 0.6595 | Project ROC: 0.6094 F1: 0.2909 
+2026-02-15 14:59:17,253 - INFO - Round 96/1000
+2026-02-15 14:59:17,558 - INFO -   Silhouette: 0.3536 | School ROC: 0.6428 F1: 0.6073 | Project ROC: 0.6138 F1: 0.2909 
+2026-02-15 14:59:17,567 - INFO - Round 97/1000
+2026-02-15 14:59:17,848 - INFO -   Silhouette: 0.2898 | School ROC: 0.6646 F1: 0.6633 | Project ROC: 0.6141 F1: 0.2667 
+2026-02-15 14:59:17,848 - INFO - Round 98/1000
+2026-02-15 14:59:18,101 - INFO -   Silhouette: 0.2213 | School ROC: 0.6480 F1: 0.6162 | Project ROC: 0.5054 F1: 0.1633 
+2026-02-15 14:59:18,101 - INFO - Round 99/1000
+2026-02-15 14:59:18,375 - INFO -   Silhouette: 0.2520 | School ROC: 0.6471 F1: 0.6383 | Project ROC: 0.5791 F1: 0.2407 
+2026-02-15 14:59:18,375 - INFO - Round 100/1000
+2026-02-15 14:59:18,701 - INFO -   Silhouette: 0.2189 | School ROC: 0.6373 F1: 0.5977 | Project ROC: 0.5807 F1: 0.2617 
+2026-02-15 14:59:18,701 - INFO - Round 101/1000
+2026-02-15 14:59:18,977 - INFO -   Silhouette: 0.2665 | School ROC: 0.6188 F1: 0.5843 | Project ROC: 0.6679 F1: 0.3368 ✓
+2026-02-15 14:59:19,021 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:19,021 - INFO - Round 102/1000
+2026-02-15 14:59:19,234 - INFO -   Silhouette: 0.2417 | School ROC: 0.5725 F1: 0.5684 | Project ROC: 0.5365 F1: 0.2545 
+2026-02-15 14:59:19,234 - INFO - Round 103/1000
+2026-02-15 14:59:19,592 - INFO -   Silhouette: 0.3101 | School ROC: 0.5879 F1: 0.5926 | Project ROC: 0.5820 F1: 0.2200 
+2026-02-15 14:59:19,593 - INFO - Round 104/1000
+2026-02-15 14:59:19,839 - INFO -   Silhouette: 0.2827 | School ROC: 0.5858 F1: 0.6042 | Project ROC: 0.5779 F1: 0.2385 
+2026-02-15 14:59:19,839 - INFO - Round 105/1000
+2026-02-15 14:59:20,115 - INFO -   Silhouette: 0.2628 | School ROC: 0.6088 F1: 0.6243 | Project ROC: 0.5352 F1: 0.2778 
+2026-02-15 14:59:20,116 - INFO - Round 106/1000
+2026-02-15 14:59:20,363 - INFO -   Silhouette: 0.3116 | School ROC: 0.6159 F1: 0.6022 | Project ROC: 0.5569 F1: 0.2202 
+2026-02-15 14:59:20,364 - INFO - Round 107/1000
+2026-02-15 14:59:20,645 - INFO -   Silhouette: 0.3240 | School ROC: 0.6382 F1: 0.6328 | Project ROC: 0.5378 F1: 0.2301 
+2026-02-15 14:59:20,645 - INFO - Round 108/1000
+2026-02-15 14:59:20,910 - INFO -   Silhouette: 0.3454 | School ROC: 0.5986 F1: 0.5907 | Project ROC: 0.5947 F1: 0.3048 
+2026-02-15 14:59:20,911 - INFO - Round 109/1000
+2026-02-15 14:59:21,171 - INFO -   Silhouette: 0.2238 | School ROC: 0.6104 F1: 0.6146 | Project ROC: 0.5552 F1: 0.2022 
+2026-02-15 14:59:21,171 - INFO - Round 110/1000
+2026-02-15 14:59:21,565 - INFO -   Silhouette: 0.3659 | School ROC: 0.6605 F1: 0.6489 | Project ROC: 0.6479 F1: 0.3137 ✓
+2026-02-15 14:59:21,566 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6542 | Avg F1: 0.4813 | F1/ROC ratio: 0.7357 (F1 < ROC (conservative predictions))
+2026-02-15 14:59:21,598 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:21,598 - INFO - Round 111/1000
+2026-02-15 14:59:21,860 - INFO -   Silhouette: 0.2684 | School ROC: 0.6711 F1: 0.6667 | Project ROC: 0.6468 F1: 0.3091 ✓
+2026-02-15 14:59:21,896 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:21,896 - INFO - Round 112/1000
+2026-02-15 14:59:22,131 - INFO -   Silhouette: 0.3492 | School ROC: 0.6511 F1: 0.6369 | Project ROC: 0.6150 F1: 0.2979 
+2026-02-15 14:59:22,131 - INFO - Round 113/1000
+2026-02-15 14:59:22,386 - INFO -   Silhouette: 0.2514 | School ROC: 0.6276 F1: 0.6222 | Project ROC: 0.6234 F1: 0.2947 
+2026-02-15 14:59:22,387 - INFO - Round 114/1000
+2026-02-15 14:59:22,709 - INFO -   Silhouette: 0.2651 | School ROC: 0.6088 F1: 0.6120 | Project ROC: 0.5775 F1: 0.2524 
+2026-02-15 14:59:22,709 - INFO - Round 115/1000
+2026-02-15 14:59:22,912 - INFO -   Silhouette: 0.2457 | School ROC: 0.5874 F1: 0.5683 | Project ROC: 0.5652 F1: 0.2549 
+2026-02-15 14:59:22,912 - INFO - Round 116/1000
+2026-02-15 14:59:23,261 - INFO -   Silhouette: 0.2500 | School ROC: 0.6217 F1: 0.6120 | Project ROC: 0.6501 F1: 0.3023 
+2026-02-15 14:59:23,261 - INFO - Round 117/1000
+2026-02-15 14:59:23,526 - INFO -   Silhouette: 0.2487 | School ROC: 0.6052 F1: 0.6120 | Project ROC: 0.6128 F1: 0.2609 
+2026-02-15 14:59:23,526 - INFO - Round 118/1000
+2026-02-15 14:59:23,771 - INFO -   Silhouette: 0.2354 | School ROC: 0.6241 F1: 0.6162 | Project ROC: 0.5576 F1: 0.2549 
+2026-02-15 14:59:23,771 - INFO - Round 119/1000
+2026-02-15 14:59:24,010 - INFO -   Silhouette: 0.2327 | School ROC: 0.5903 F1: 0.5393 | Project ROC: 0.6123 F1: 0.2708 
+2026-02-15 14:59:24,011 - INFO - Round 120/1000
+2026-02-15 14:59:24,282 - INFO -   Silhouette: 0.2589 | School ROC: 0.6448 F1: 0.6339 | Project ROC: 0.6599 F1: 0.2887 
+2026-02-15 14:59:24,282 - INFO - Round 121/1000
+2026-02-15 14:59:24,549 - INFO -   Silhouette: 0.2039 | School ROC: 0.6271 F1: 0.6000 | Project ROC: 0.5814 F1: 0.2376 
+2026-02-15 14:59:24,550 - INFO - Round 122/1000
+2026-02-15 14:59:24,807 - INFO -   Silhouette: 0.3094 | School ROC: 0.6488 F1: 0.6243 | Project ROC: 0.6332 F1: 0.2692 
+2026-02-15 14:59:24,807 - INFO - Round 123/1000
+2026-02-15 14:59:25,061 - INFO -   Silhouette: 0.2619 | School ROC: 0.6429 F1: 0.6034 | Project ROC: 0.5533 F1: 0.2376 
+2026-02-15 14:59:25,061 - INFO - Round 124/1000
+2026-02-15 14:59:25,279 - INFO -   Silhouette: 0.3267 | School ROC: 0.6767 F1: 0.6452 | Project ROC: 0.6312 F1: 0.3019 
+2026-02-15 14:59:25,280 - INFO - Round 125/1000
+2026-02-15 14:59:25,523 - INFO -   Silhouette: 0.2488 | School ROC: 0.5975 F1: 0.5763 | Project ROC: 0.6316 F1: 0.3093 
+2026-02-15 14:59:25,523 - INFO - Round 126/1000
+2026-02-15 14:59:25,801 - INFO -   Silhouette: 0.2417 | School ROC: 0.6014 F1: 0.5746 | Project ROC: 0.4934 F1: 0.1584 
+2026-02-15 14:59:25,802 - INFO - Round 127/1000
+2026-02-15 14:59:26,101 - INFO -   Silhouette: 0.2233 | School ROC: 0.6516 F1: 0.5967 | Project ROC: 0.6018 F1: 0.2500 
+2026-02-15 14:59:26,102 - INFO - Round 128/1000
+2026-02-15 14:59:26,393 - INFO -   Silhouette: 0.3040 | School ROC: 0.6090 F1: 0.6218 | Project ROC: 0.6218 F1: 0.3048 
+2026-02-15 14:59:26,394 - INFO - Round 129/1000
+2026-02-15 14:59:26,652 - INFO -   Silhouette: 0.2517 | School ROC: 0.5815 F1: 0.5882 | Project ROC: 0.5989 F1: 0.2549 
+2026-02-15 14:59:26,653 - INFO - Round 130/1000
+2026-02-15 14:59:26,987 - INFO -   Silhouette: 0.3452 | School ROC: 0.6326 F1: 0.6374 | Project ROC: 0.5969 F1: 0.2917 
+2026-02-15 14:59:26,987 - INFO - Round 131/1000
+2026-02-15 14:59:27,312 - INFO -   Silhouette: 0.3229 | School ROC: 0.6322 F1: 0.6392 | Project ROC: 0.6150 F1: 0.2549 
+2026-02-15 14:59:27,312 - INFO - Round 132/1000
+2026-02-15 14:59:27,595 - INFO -   Silhouette: 0.3537 | School ROC: 0.6577 F1: 0.6598 | Project ROC: 0.6348 F1: 0.3148 
+2026-02-15 14:59:27,595 - INFO - Round 133/1000
+2026-02-15 14:59:27,833 - INFO -   Silhouette: 0.2183 | School ROC: 0.6309 F1: 0.6032 | Project ROC: 0.5835 F1: 0.2453 
+2026-02-15 14:59:27,833 - INFO - Round 134/1000
+2026-02-15 14:59:28,091 - INFO -   Silhouette: 0.2656 | School ROC: 0.6546 F1: 0.6561 | Project ROC: 0.5556 F1: 0.2115 
+2026-02-15 14:59:28,091 - INFO - Round 135/1000
+2026-02-15 14:59:28,348 - INFO -   Silhouette: 0.2304 | School ROC: 0.6343 F1: 0.6528 | Project ROC: 0.6494 F1: 0.2752 
+2026-02-15 14:59:28,348 - INFO - Round 136/1000
+2026-02-15 14:59:28,644 - INFO -   Silhouette: 0.2754 | School ROC: 0.6157 F1: 0.6264 | Project ROC: 0.5528 F1: 0.2523 
+2026-02-15 14:59:28,644 - INFO - Round 137/1000
+2026-02-15 14:59:28,899 - INFO -   Silhouette: 0.3347 | School ROC: 0.6047 F1: 0.6327 | Project ROC: 0.5807 F1: 0.2385 
+2026-02-15 14:59:28,899 - INFO - Round 138/1000
+2026-02-15 14:59:29,252 - INFO -   Silhouette: 0.2384 | School ROC: 0.6454 F1: 0.6154 | Project ROC: 0.6406 F1: 0.3178 
+2026-02-15 14:59:29,252 - INFO - Round 139/1000
+2026-02-15 14:59:29,650 - INFO -   Silhouette: 0.2641 | School ROC: 0.5914 F1: 0.6364 | Project ROC: 0.5516 F1: 0.2364 
+2026-02-15 14:59:29,650 - INFO - Round 140/1000
+2026-02-15 14:59:29,909 - INFO -   Silhouette: 0.1967 | School ROC: 0.6490 F1: 0.6344 | Project ROC: 0.5921 F1: 0.2680 
+2026-02-15 14:59:29,909 - INFO - Round 141/1000
+2026-02-15 14:59:30,154 - INFO -   Silhouette: 0.3553 | School ROC: 0.6202 F1: 0.6277 | Project ROC: 0.5979 F1: 0.2718 
+2026-02-15 14:59:30,154 - INFO - Round 142/1000
+2026-02-15 14:59:30,451 - INFO -   Silhouette: 0.3748 | School ROC: 0.6158 F1: 0.6000 | Project ROC: 0.6223 F1: 0.2804 ✓
+2026-02-15 14:59:30,452 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6190 | Avg F1: 0.4402 | F1/ROC ratio: 0.7111 (F1 < ROC (conservative predictions))
+2026-02-15 14:59:30,490 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:30,490 - INFO - Round 143/1000
+2026-02-15 14:59:30,728 - INFO -   Silhouette: 0.2870 | School ROC: 0.6270 F1: 0.6196 | Project ROC: 0.5330 F1: 0.2222 
+2026-02-15 14:59:30,728 - INFO - Round 144/1000
+2026-02-15 14:59:31,011 - INFO -   Silhouette: 0.2300 | School ROC: 0.6232 F1: 0.6114 | Project ROC: 0.5457 F1: 0.2245 
+2026-02-15 14:59:31,011 - INFO - Round 145/1000
+2026-02-15 14:59:31,255 - INFO -   Silhouette: 0.2367 | School ROC: 0.6059 F1: 0.5730 | Project ROC: 0.5276 F1: 0.1942 
+2026-02-15 14:59:31,255 - INFO - Round 146/1000
+2026-02-15 14:59:31,660 - INFO -   Silhouette: 0.2755 | School ROC: 0.6258 F1: 0.6533 | Project ROC: 0.5907 F1: 0.2364 
+2026-02-15 14:59:31,660 - INFO - Round 147/1000
+2026-02-15 14:59:31,918 - INFO -   Silhouette: 0.2831 | School ROC: 0.6097 F1: 0.6162 | Project ROC: 0.6125 F1: 0.2692 
+2026-02-15 14:59:31,918 - INFO - Round 148/1000
+2026-02-15 14:59:32,202 - INFO -   Silhouette: 0.2330 | School ROC: 0.6003 F1: 0.5882 | Project ROC: 0.5783 F1: 0.2857 
+2026-02-15 14:59:32,203 - INFO - Round 149/1000
+2026-02-15 14:59:32,493 - INFO -   Silhouette: 0.2839 | School ROC: 0.6054 F1: 0.6034 | Project ROC: 0.5899 F1: 0.2745 
+2026-02-15 14:59:32,504 - INFO - Round 150/1000
+2026-02-15 14:59:32,744 - INFO -   Silhouette: 0.3229 | School ROC: 0.5716 F1: 0.5960 | Project ROC: 0.5611 F1: 0.2500 
+2026-02-15 14:59:32,745 - INFO - Round 151/1000
+2026-02-15 14:59:33,081 - INFO -   Silhouette: 0.2761 | School ROC: 0.6622 F1: 0.6087 | Project ROC: 0.6568 F1: 0.2963 ✓
+2026-02-15 14:59:33,126 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:33,126 - INFO - Round 152/1000
+2026-02-15 14:59:33,443 - INFO -   Silhouette: 0.3002 | School ROC: 0.6477 F1: 0.6310 | Project ROC: 0.6399 F1: 0.3191 
+2026-02-15 14:59:33,443 - INFO - Round 153/1000
+2026-02-15 14:59:33,698 - INFO -   Silhouette: 0.3181 | School ROC: 0.6061 F1: 0.6138 | Project ROC: 0.5661 F1: 0.2430 
+2026-02-15 14:59:33,698 - INFO - Round 154/1000
+2026-02-15 14:59:33,966 - INFO -   Silhouette: 0.2088 | School ROC: 0.5878 F1: 0.6091 | Project ROC: 0.5719 F1: 0.2642 
+2026-02-15 14:59:33,967 - INFO - Round 155/1000
+2026-02-15 14:59:34,257 - INFO -   Silhouette: 0.2831 | School ROC: 0.5757 F1: 0.5926 | Project ROC: 0.5926 F1: 0.2574 
+2026-02-15 14:59:34,258 - INFO - Round 156/1000
+2026-02-15 14:59:34,525 - INFO -   Silhouette: 0.3022 | School ROC: 0.5794 F1: 0.5574 | Project ROC: 0.5591 F1: 0.2268 
+2026-02-15 14:59:34,525 - INFO - Round 157/1000
+2026-02-15 14:59:34,786 - INFO -   Silhouette: 0.2190 | School ROC: 0.5922 F1: 0.5838 | Project ROC: 0.4888 F1: 0.1837 
+2026-02-15 14:59:34,786 - INFO - Round 158/1000
+2026-02-15 14:59:35,072 - INFO -   Silhouette: 0.3278 | School ROC: 0.6060 F1: 0.6178 | Project ROC: 0.5795 F1: 0.2617 
+2026-02-15 14:59:35,072 - INFO - Round 159/1000
+2026-02-15 14:59:35,336 - INFO -   Silhouette: 0.3545 | School ROC: 0.5819 F1: 0.6091 | Project ROC: 0.6401 F1: 0.3429 
+2026-02-15 14:59:35,336 - INFO - Round 160/1000
+2026-02-15 14:59:35,591 - INFO -   Silhouette: 0.2694 | School ROC: 0.5993 F1: 0.6000 | Project ROC: 0.5721 F1: 0.2772 
+2026-02-15 14:59:35,592 - INFO - Round 161/1000
+2026-02-15 14:59:35,878 - INFO -   Silhouette: 0.3164 | School ROC: 0.5986 F1: 0.6154 | Project ROC: 0.5820 F1: 0.2453 
+2026-02-15 14:59:35,879 - INFO - Round 162/1000
+2026-02-15 14:59:36,138 - INFO -   Silhouette: 0.3225 | School ROC: 0.5966 F1: 0.6105 | Project ROC: 0.6544 F1: 0.3455 
+2026-02-15 14:59:36,147 - INFO - Round 163/1000
+2026-02-15 14:59:36,400 - INFO -   Silhouette: 0.2357 | School ROC: 0.5912 F1: 0.5618 | Project ROC: 0.5670 F1: 0.2268 
+2026-02-15 14:59:36,400 - INFO - Round 164/1000
+2026-02-15 14:59:36,696 - INFO -   Silhouette: 0.2739 | School ROC: 0.6279 F1: 0.6462 | Project ROC: 0.5568 F1: 0.2456 
+2026-02-15 14:59:36,696 - INFO - Round 165/1000
+2026-02-15 14:59:36,941 - INFO -   Silhouette: 0.2805 | School ROC: 0.5772 F1: 0.6000 | Project ROC: 0.5568 F1: 0.2264 
+2026-02-15 14:59:36,942 - INFO - Round 166/1000
+2026-02-15 14:59:37,249 - INFO -   Silhouette: 0.2521 | School ROC: 0.6273 F1: 0.6667 | Project ROC: 0.5527 F1: 0.2569 
+2026-02-15 14:59:37,249 - INFO - Round 167/1000
+2026-02-15 14:59:37,562 - INFO -   Silhouette: 0.2778 | School ROC: 0.6182 F1: 0.6067 | Project ROC: 0.5992 F1: 0.2600 
+2026-02-15 14:59:37,562 - INFO - Round 168/1000
+2026-02-15 14:59:37,843 - INFO -   Silhouette: 0.2212 | School ROC: 0.6226 F1: 0.5876 | Project ROC: 0.5229 F1: 0.2136 
+2026-02-15 14:59:37,844 - INFO - Round 169/1000
+2026-02-15 14:59:38,106 - INFO -   Silhouette: 0.2885 | School ROC: 0.6298 F1: 0.6667 | Project ROC: 0.6151 F1: 0.2830 
+2026-02-15 14:59:38,106 - INFO - Round 170/1000
+2026-02-15 14:59:38,366 - INFO -   Silhouette: 0.2853 | School ROC: 0.6387 F1: 0.6120 | Project ROC: 0.6167 F1: 0.2941 
+2026-02-15 14:59:38,366 - INFO - Round 171/1000
+2026-02-15 14:59:38,663 - INFO -   Silhouette: 0.3679 | School ROC: 0.6230 F1: 0.6321 | Project ROC: 0.5943 F1: 0.2703 
+2026-02-15 14:59:38,663 - INFO - Round 172/1000
+2026-02-15 14:59:38,906 - INFO -   Silhouette: 0.2872 | School ROC: 0.6206 F1: 0.6054 | Project ROC: 0.5212 F1: 0.2400 
+2026-02-15 14:59:38,907 - INFO - Round 173/1000
+2026-02-15 14:59:39,166 - INFO -   Silhouette: 0.3033 | School ROC: 0.6123 F1: 0.6283 | Project ROC: 0.5909 F1: 0.2936 
+2026-02-15 14:59:39,166 - INFO - Round 174/1000
+2026-02-15 14:59:39,427 - INFO -   Silhouette: 0.3652 | School ROC: 0.6040 F1: 0.6211 | Project ROC: 0.6307 F1: 0.2963 
+2026-02-15 14:59:39,427 - INFO - Round 175/1000
+2026-02-15 14:59:39,718 - INFO -   Silhouette: 0.2485 | School ROC: 0.5821 F1: 0.6000 | Project ROC: 0.5638 F1: 0.2264 
+2026-02-15 14:59:39,719 - INFO - Round 176/1000
+2026-02-15 14:59:39,966 - INFO -   Silhouette: 0.2850 | School ROC: 0.6224 F1: 0.6566 | Project ROC: 0.5757 F1: 0.2783 
+2026-02-15 14:59:39,966 - INFO - Round 177/1000
+2026-02-15 14:59:40,213 - INFO -   Silhouette: 0.3301 | School ROC: 0.6331 F1: 0.6354 | Project ROC: 0.6156 F1: 0.3077 
+2026-02-15 14:59:40,213 - INFO - Round 178/1000
+2026-02-15 14:59:40,511 - INFO -   Silhouette: 0.2516 | School ROC: 0.6582 F1: 0.6344 | Project ROC: 0.5495 F1: 0.2062 
+2026-02-15 14:59:40,512 - INFO - Round 179/1000
+2026-02-15 14:59:40,761 - INFO -   Silhouette: 0.2701 | School ROC: 0.5838 F1: 0.5525 | Project ROC: 0.5522 F1: 0.2286 
+2026-02-15 14:59:40,762 - INFO - Round 180/1000
+2026-02-15 14:59:41,087 - INFO -   Silhouette: 0.3380 | School ROC: 0.6460 F1: 0.6277 | Project ROC: 0.5998 F1: 0.3273 
+2026-02-15 14:59:41,087 - INFO - Round 181/1000
+2026-02-15 14:59:41,315 - INFO -   Silhouette: 0.2412 | School ROC: 0.6385 F1: 0.6250 | Project ROC: 0.6188 F1: 0.2667 
+2026-02-15 14:59:41,316 - INFO - Round 182/1000
+2026-02-15 14:59:41,576 - INFO -   Silhouette: 0.2445 | School ROC: 0.5922 F1: 0.6218 | Project ROC: 0.5573 F1: 0.2655 
+2026-02-15 14:59:41,576 - INFO - Round 183/1000
+2026-02-15 14:59:41,866 - INFO -   Silhouette: 0.2359 | School ROC: 0.6258 F1: 0.6458 | Project ROC: 0.6118 F1: 0.2857 
+2026-02-15 14:59:41,866 - INFO - Round 184/1000
+2026-02-15 14:59:42,195 - INFO -   Silhouette: 0.3309 | School ROC: 0.6043 F1: 0.6000 | Project ROC: 0.5967 F1: 0.2679 
+2026-02-15 14:59:42,195 - INFO - Round 185/1000
+2026-02-15 14:59:42,422 - INFO -   Silhouette: 0.3539 | School ROC: 0.6390 F1: 0.5967 | Project ROC: 0.6513 F1: 0.2857 
+2026-02-15 14:59:42,422 - INFO - Round 186/1000
+2026-02-15 14:59:42,695 - INFO -   Silhouette: 0.4072 | School ROC: 0.6184 F1: 0.6178 | Project ROC: 0.6428 F1: 0.2600 ✓
+2026-02-15 14:59:42,696 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6306 | Avg F1: 0.4389 | F1/ROC ratio: 0.6960 (F1 < ROC (conservative predictions))
+2026-02-15 14:59:42,757 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:42,758 - INFO - Round 187/1000
+2026-02-15 14:59:42,960 - INFO -   Silhouette: 0.2742 | School ROC: 0.6207 F1: 0.6392 | Project ROC: 0.5770 F1: 0.2609 
+2026-02-15 14:59:42,960 - INFO - Round 188/1000
+2026-02-15 14:59:43,215 - INFO -   Silhouette: 0.3089 | School ROC: 0.6420 F1: 0.6392 | Project ROC: 0.5585 F1: 0.2308 
+2026-02-15 14:59:43,216 - INFO - Round 189/1000
+2026-02-15 14:59:43,491 - INFO -   Silhouette: 0.3450 | School ROC: 0.6102 F1: 0.6211 | Project ROC: 0.5725 F1: 0.2759 
+2026-02-15 14:59:43,492 - INFO - Round 190/1000
+2026-02-15 14:59:43,774 - INFO -   Silhouette: 0.2540 | School ROC: 0.6564 F1: 0.6203 | Project ROC: 0.5446 F1: 0.2385 
+2026-02-15 14:59:43,774 - INFO - Round 191/1000
+2026-02-15 14:59:44,025 - INFO -   Silhouette: 0.2756 | School ROC: 0.6290 F1: 0.6310 | Project ROC: 0.5566 F1: 0.2182 
+2026-02-15 14:59:44,025 - INFO - Round 192/1000
+2026-02-15 14:59:44,293 - INFO -   Silhouette: 0.2913 | School ROC: 0.5877 F1: 0.5824 | Project ROC: 0.5636 F1: 0.2308 
+2026-02-15 14:59:44,294 - INFO - Round 193/1000
+2026-02-15 14:59:44,619 - INFO -   Silhouette: 0.2035 | School ROC: 0.6092 F1: 0.6034 | Project ROC: 0.5820 F1: 0.2653 
+2026-02-15 14:59:44,619 - INFO - Round 194/1000
+2026-02-15 14:59:44,822 - INFO -   Silhouette: 0.3106 | School ROC: 0.6072 F1: 0.6283 | Project ROC: 0.6183 F1: 0.3178 
+2026-02-15 14:59:44,822 - INFO - Round 195/1000
+2026-02-15 14:59:45,082 - INFO -   Silhouette: 0.2526 | School ROC: 0.6120 F1: 0.6497 | Project ROC: 0.5124 F1: 0.2182 
+2026-02-15 14:59:45,082 - INFO - Round 196/1000
+2026-02-15 14:59:45,311 - INFO -   Silhouette: 0.2442 | School ROC: 0.6192 F1: 0.6425 | Project ROC: 0.5861 F1: 0.2574 
+2026-02-15 14:59:45,311 - INFO - Round 197/1000
+2026-02-15 14:59:45,644 - INFO -   Silhouette: 0.2848 | School ROC: 0.6183 F1: 0.5934 | Project ROC: 0.6138 F1: 0.3030 
+2026-02-15 14:59:45,644 - INFO - Round 198/1000
+2026-02-15 14:59:45,945 - INFO -   Silhouette: 0.2691 | School ROC: 0.5862 F1: 0.6305 | Project ROC: 0.5576 F1: 0.2542 
+2026-02-15 14:59:45,945 - INFO - Round 199/1000
+2026-02-15 14:59:46,199 - INFO -   Silhouette: 0.1692 | School ROC: 0.6724 F1: 0.6328 | Project ROC: 0.5406 F1: 0.2476 
+2026-02-15 14:59:46,199 - INFO - Round 200/1000
+2026-02-15 14:59:46,470 - INFO -   Silhouette: 0.3417 | School ROC: 0.5981 F1: 0.6277 | Project ROC: 0.6331 F1: 0.2830 
+2026-02-15 14:59:46,470 - INFO - Round 201/1000
+2026-02-15 14:59:46,743 - INFO -   Silhouette: 0.2801 | School ROC: 0.6323 F1: 0.6396 | Project ROC: 0.6002 F1: 0.2703 
+2026-02-15 14:59:46,744 - INFO - Round 202/1000
+2026-02-15 14:59:46,995 - INFO -   Silhouette: 0.2883 | School ROC: 0.5977 F1: 0.6064 | Project ROC: 0.5425 F1: 0.2330 
+2026-02-15 14:59:46,996 - INFO - Round 203/1000
+2026-02-15 14:59:47,362 - INFO -   Silhouette: 0.2967 | School ROC: 0.5963 F1: 0.6010 | Project ROC: 0.6067 F1: 0.2766 
+2026-02-15 14:59:47,363 - INFO - Round 204/1000
+2026-02-15 14:59:47,700 - INFO -   Silhouette: 0.2963 | School ROC: 0.6049 F1: 0.6354 | Project ROC: 0.6074 F1: 0.3178 
+2026-02-15 14:59:47,700 - INFO - Round 205/1000
+2026-02-15 14:59:47,934 - INFO -   Silhouette: 0.2397 | School ROC: 0.6118 F1: 0.5683 | Project ROC: 0.5728 F1: 0.2243 
+2026-02-15 14:59:47,934 - INFO - Round 206/1000
+2026-02-15 14:59:48,284 - INFO -   Silhouette: 0.3191 | School ROC: 0.6169 F1: 0.6120 | Project ROC: 0.6109 F1: 0.2830 
+2026-02-15 14:59:48,284 - INFO - Round 207/1000
+2026-02-15 14:59:48,555 - INFO -   Silhouette: 0.3283 | School ROC: 0.6147 F1: 0.6230 | Project ROC: 0.5859 F1: 0.2476 
+2026-02-15 14:59:48,555 - INFO - Round 208/1000
+2026-02-15 14:59:48,818 - INFO -   Silhouette: 0.2258 | School ROC: 0.6094 F1: 0.6114 | Project ROC: 0.5378 F1: 0.2545 
+2026-02-15 14:59:48,818 - INFO - Round 209/1000
+2026-02-15 14:59:49,154 - INFO -   Silhouette: 0.3418 | School ROC: 0.6539 F1: 0.6316 | Project ROC: 0.6081 F1: 0.3178 
+2026-02-15 14:59:49,154 - INFO - Round 210/1000
+2026-02-15 14:59:49,389 - INFO -   Silhouette: 0.3145 | School ROC: 0.6405 F1: 0.6304 | Project ROC: 0.6030 F1: 0.3019 
+2026-02-15 14:59:49,389 - INFO - Round 211/1000
+2026-02-15 14:59:49,741 - INFO -   Silhouette: 0.3014 | School ROC: 0.6226 F1: 0.6421 | Project ROC: 0.5374 F1: 0.2330 
+2026-02-15 14:59:49,741 - INFO - Round 212/1000
+2026-02-15 14:59:49,997 - INFO -   Silhouette: 0.2842 | School ROC: 0.6279 F1: 0.6277 | Project ROC: 0.6017 F1: 0.2941 
+2026-02-15 14:59:49,997 - INFO - Round 213/1000
+2026-02-15 14:59:50,285 - INFO -   Silhouette: 0.2664 | School ROC: 0.6117 F1: 0.6425 | Project ROC: 0.5890 F1: 0.2400 
+2026-02-15 14:59:50,285 - INFO - Round 214/1000
+2026-02-15 14:59:50,514 - INFO -   Silhouette: 0.2605 | School ROC: 0.6236 F1: 0.6562 | Project ROC: 0.5810 F1: 0.2752 
+2026-02-15 14:59:50,514 - INFO - Round 215/1000
+2026-02-15 14:59:50,809 - INFO -   Silhouette: 0.2329 | School ROC: 0.6171 F1: 0.6277 | Project ROC: 0.5410 F1: 0.2330 
+2026-02-15 14:59:50,809 - INFO - Round 216/1000
+2026-02-15 14:59:51,062 - INFO -   Silhouette: 0.2777 | School ROC: 0.6218 F1: 0.6289 | Project ROC: 0.6303 F1: 0.2857 
+2026-02-15 14:59:51,063 - INFO - Round 217/1000
+2026-02-15 14:59:51,318 - INFO -   Silhouette: 0.2401 | School ROC: 0.5432 F1: 0.5444 | Project ROC: 0.4650 F1: 0.1429 
+2026-02-15 14:59:51,318 - INFO - Round 218/1000
+2026-02-15 14:59:51,684 - INFO -   Silhouette: 0.2651 | School ROC: 0.6200 F1: 0.6250 | Project ROC: 0.6786 F1: 0.3168 ✓
+2026-02-15 14:59:51,727 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 14:59:51,727 - INFO - Round 219/1000
+2026-02-15 14:59:51,958 - INFO -   Silhouette: 0.2440 | School ROC: 0.5722 F1: 0.6138 | Project ROC: 0.5382 F1: 0.2453 
+2026-02-15 14:59:51,958 - INFO - Round 220/1000
+2026-02-15 14:59:52,199 - INFO -   Silhouette: 0.3453 | School ROC: 0.5759 F1: 0.6332 | Project ROC: 0.6005 F1: 0.2735 
+2026-02-15 14:59:52,199 - INFO - Round 221/1000
+2026-02-15 14:59:52,453 - INFO -   Silhouette: 0.3289 | School ROC: 0.6387 F1: 0.6283 | Project ROC: 0.5705 F1: 0.2828 
+2026-02-15 14:59:52,453 - INFO - Round 222/1000
+2026-02-15 14:59:52,795 - INFO -   Silhouette: 0.3402 | School ROC: 0.6121 F1: 0.6129 | Project ROC: 0.6307 F1: 0.3125 
+2026-02-15 14:59:52,796 - INFO - Round 223/1000
+2026-02-15 14:59:53,169 - INFO -   Silhouette: 0.2313 | School ROC: 0.6010 F1: 0.5824 | Project ROC: 0.4848 F1: 0.1856 
+2026-02-15 14:59:53,169 - INFO - Round 224/1000
+2026-02-15 14:59:53,440 - INFO -   Silhouette: 0.2746 | School ROC: 0.6342 F1: 0.6349 | Project ROC: 0.6446 F1: 0.3030 
+2026-02-15 14:59:53,441 - INFO - Round 225/1000
+2026-02-15 14:59:53,692 - INFO -   Silhouette: 0.2726 | School ROC: 0.6265 F1: 0.6270 | Project ROC: 0.6481 F1: 0.3462 
+2026-02-15 14:59:53,693 - INFO - Round 226/1000
+2026-02-15 14:59:53,972 - INFO -   Silhouette: 0.2726 | School ROC: 0.6229 F1: 0.6067 | Project ROC: 0.6350 F1: 0.2963 
+2026-02-15 14:59:53,972 - INFO - Round 227/1000
+2026-02-15 14:59:54,266 - INFO -   Silhouette: 0.3256 | School ROC: 0.5898 F1: 0.5914 | Project ROC: 0.5935 F1: 0.2778 
+2026-02-15 14:59:54,267 - INFO - Round 228/1000
+2026-02-15 14:59:54,551 - INFO -   Silhouette: 0.2915 | School ROC: 0.6198 F1: 0.6528 | Project ROC: 0.5708 F1: 0.2857 
+2026-02-15 14:59:54,551 - INFO - Round 229/1000
+2026-02-15 14:59:54,881 - INFO -   Silhouette: 0.2420 | School ROC: 0.5751 F1: 0.5902 | Project ROC: 0.5641 F1: 0.2653 
+2026-02-15 14:59:54,881 - INFO - Round 230/1000
+2026-02-15 14:59:55,169 - INFO -   Silhouette: 0.2477 | School ROC: 0.5996 F1: 0.5792 | Project ROC: 0.5648 F1: 0.2642 
+2026-02-15 14:59:55,170 - INFO - Round 231/1000
+2026-02-15 14:59:55,458 - INFO -   Silhouette: 0.2602 | School ROC: 0.6526 F1: 0.6700 | Project ROC: 0.5697 F1: 0.2456 
+2026-02-15 14:59:55,458 - INFO - Round 232/1000
+2026-02-15 14:59:55,697 - INFO -   Silhouette: 0.2879 | School ROC: 0.6207 F1: 0.6138 | Project ROC: 0.5996 F1: 0.2970 
+2026-02-15 14:59:55,697 - INFO - Round 233/1000
+2026-02-15 14:59:55,962 - INFO -   Silhouette: 0.3361 | School ROC: 0.6100 F1: 0.6289 | Project ROC: 0.6125 F1: 0.2642 
+2026-02-15 14:59:55,963 - INFO - Round 234/1000
+2026-02-15 14:59:56,267 - INFO -   Silhouette: 0.3449 | School ROC: 0.6094 F1: 0.6032 | Project ROC: 0.5980 F1: 0.2692 
+2026-02-15 14:59:56,268 - INFO - Round 235/1000
+2026-02-15 14:59:56,509 - INFO -   Silhouette: 0.2679 | School ROC: 0.6415 F1: 0.6321 | Project ROC: 0.5953 F1: 0.2569 
+2026-02-15 14:59:56,510 - INFO - Round 236/1000
+2026-02-15 14:59:56,841 - INFO -   Silhouette: 0.2487 | School ROC: 0.6488 F1: 0.6667 | Project ROC: 0.6228 F1: 0.3063 
+2026-02-15 14:59:56,842 - INFO - Round 237/1000
+2026-02-15 14:59:57,151 - INFO -   Silhouette: 0.3410 | School ROC: 0.6102 F1: 0.6105 | Project ROC: 0.6342 F1: 0.3214 
+2026-02-15 14:59:57,151 - INFO - Round 238/1000
+2026-02-15 14:59:57,379 - INFO -   Silhouette: 0.3098 | School ROC: 0.6275 F1: 0.6344 | Project ROC: 0.6221 F1: 0.2963 
+2026-02-15 14:59:57,380 - INFO - Round 239/1000
+2026-02-15 14:59:57,651 - INFO -   Silhouette: 0.2365 | School ROC: 0.6365 F1: 0.6383 | Project ROC: 0.5712 F1: 0.2745 
+2026-02-15 14:59:57,651 - INFO - Round 240/1000
+2026-02-15 14:59:57,925 - INFO -   Silhouette: 0.3543 | School ROC: 0.6140 F1: 0.6122 | Project ROC: 0.5836 F1: 0.2778 
+2026-02-15 14:59:57,925 - INFO - Round 241/1000
+2026-02-15 14:59:58,152 - INFO -   Silhouette: 0.2852 | School ROC: 0.6056 F1: 0.6087 | Project ROC: 0.5489 F1: 0.2478 
+2026-02-15 14:59:58,152 - INFO - Round 242/1000
+2026-02-15 14:59:58,434 - INFO -   Silhouette: 0.3152 | School ROC: 0.6375 F1: 0.6203 | Project ROC: 0.6096 F1: 0.2963 
+2026-02-15 14:59:58,434 - INFO - Round 243/1000
+2026-02-15 14:59:58,683 - INFO -   Silhouette: 0.2836 | School ROC: 0.6505 F1: 0.6559 | Project ROC: 0.6180 F1: 0.2991 
+2026-02-15 14:59:58,684 - INFO - Round 244/1000
+2026-02-15 14:59:58,955 - INFO -   Silhouette: 0.3026 | School ROC: 0.6052 F1: 0.6237 | Project ROC: 0.6172 F1: 0.2800 
+2026-02-15 14:59:58,955 - INFO - Round 245/1000
+2026-02-15 14:59:59,208 - INFO -   Silhouette: 0.2290 | School ROC: 0.5845 F1: 0.6154 | Project ROC: 0.5639 F1: 0.2832 
+2026-02-15 14:59:59,208 - INFO - Round 246/1000
+2026-02-15 14:59:59,502 - INFO -   Silhouette: 0.2813 | School ROC: 0.6056 F1: 0.6211 | Project ROC: 0.6373 F1: 0.3238 
+2026-02-15 14:59:59,503 - INFO - Round 247/1000
+2026-02-15 14:59:59,769 - INFO -   Silhouette: 0.2450 | School ROC: 0.6402 F1: 0.5934 | Project ROC: 0.6121 F1: 0.2523 
+2026-02-15 14:59:59,769 - INFO - Round 248/1000
+2026-02-15 15:00:00,073 - INFO -   Silhouette: 0.3630 | School ROC: 0.6173 F1: 0.6114 | Project ROC: 0.5969 F1: 0.2653 
+2026-02-15 15:00:00,073 - INFO - Round 249/1000
+2026-02-15 15:00:00,406 - INFO -   Silhouette: 0.3573 | School ROC: 0.6299 F1: 0.6634 | Project ROC: 0.6205 F1: 0.2957 
+2026-02-15 15:00:00,406 - INFO - Round 250/1000
+2026-02-15 15:00:00,683 - INFO -   Silhouette: 0.3172 | School ROC: 0.5784 F1: 0.5895 | Project ROC: 0.6237 F1: 0.2692 
+2026-02-15 15:00:00,684 - INFO - Round 251/1000
+2026-02-15 15:00:00,982 - INFO -   Silhouette: 0.3490 | School ROC: 0.6355 F1: 0.6632 | Project ROC: 0.6296 F1: 0.2667 
+2026-02-15 15:00:00,983 - INFO - Round 252/1000
+2026-02-15 15:00:01,364 - INFO -   Silhouette: 0.3933 | School ROC: 0.5845 F1: 0.6091 | Project ROC: 0.5940 F1: 0.2593 
+2026-02-15 15:00:01,364 - INFO - Round 253/1000
+2026-02-15 15:00:01,695 - INFO -   Silhouette: 0.2081 | School ROC: 0.6452 F1: 0.6067 | Project ROC: 0.5366 F1: 0.2222 
+2026-02-15 15:00:01,696 - INFO - Round 254/1000
+2026-02-15 15:00:02,086 - INFO -   Silhouette: 0.3302 | School ROC: 0.6257 F1: 0.6354 | Project ROC: 0.5870 F1: 0.2453 
+2026-02-15 15:00:02,087 - INFO - Round 255/1000
+2026-02-15 15:00:02,335 - INFO -   Silhouette: 0.3597 | School ROC: 0.5928 F1: 0.6146 | Project ROC: 0.5967 F1: 0.2778 
+2026-02-15 15:00:02,336 - INFO - Round 256/1000
+2026-02-15 15:00:02,734 - INFO -   Silhouette: 0.3359 | School ROC: 0.6378 F1: 0.6277 | Project ROC: 0.6357 F1: 0.2600 
+2026-02-15 15:00:02,735 - INFO - Round 257/1000
+2026-02-15 15:00:02,968 - INFO -   Silhouette: 0.3046 | School ROC: 0.6358 F1: 0.6497 | Project ROC: 0.6347 F1: 0.2885 
+2026-02-15 15:00:02,968 - INFO - Round 258/1000
+2026-02-15 15:00:03,203 - INFO -   Silhouette: 0.2265 | School ROC: 0.6108 F1: 0.6064 | Project ROC: 0.5607 F1: 0.2476 
+2026-02-15 15:00:03,204 - INFO - Round 259/1000
+2026-02-15 15:00:03,486 - INFO -   Silhouette: 0.2463 | School ROC: 0.6169 F1: 0.5851 | Project ROC: 0.5464 F1: 0.2609 
+2026-02-15 15:00:03,486 - INFO - Round 260/1000
+2026-02-15 15:00:03,754 - INFO -   Silhouette: 0.2279 | School ROC: 0.5955 F1: 0.6000 | Project ROC: 0.6488 F1: 0.2887 
+2026-02-15 15:00:03,754 - INFO - Round 261/1000
+2026-02-15 15:00:04,042 - INFO -   Silhouette: 0.3397 | School ROC: 0.5953 F1: 0.5820 | Project ROC: 0.5795 F1: 0.2286 
+2026-02-15 15:00:04,042 - INFO - Round 262/1000
+2026-02-15 15:00:04,324 - INFO -   Silhouette: 0.2519 | School ROC: 0.5998 F1: 0.5746 | Project ROC: 0.6307 F1: 0.3061 
+2026-02-15 15:00:04,325 - INFO - Round 263/1000
+2026-02-15 15:00:04,614 - INFO -   Silhouette: 0.3468 | School ROC: 0.6110 F1: 0.6073 | Project ROC: 0.6037 F1: 0.2800 
+2026-02-15 15:00:04,614 - INFO - Round 264/1000
+2026-02-15 15:00:04,893 - INFO -   Silhouette: 0.3234 | School ROC: 0.6310 F1: 0.6528 | Project ROC: 0.6169 F1: 0.2778 
+2026-02-15 15:00:04,894 - INFO - Round 265/1000
+2026-02-15 15:00:05,162 - INFO -   Silhouette: 0.2027 | School ROC: 0.6480 F1: 0.6044 | Project ROC: 0.6113 F1: 0.2626 
+2026-02-15 15:00:05,162 - INFO - Round 266/1000
+2026-02-15 15:00:05,476 - INFO -   Silhouette: 0.2311 | School ROC: 0.6053 F1: 0.6462 | Project ROC: 0.4828 F1: 0.1835 
+2026-02-15 15:00:05,476 - INFO - Round 267/1000
+2026-02-15 15:00:05,735 - INFO -   Silhouette: 0.2842 | School ROC: 0.6424 F1: 0.6316 | Project ROC: 0.5778 F1: 0.2476 
+2026-02-15 15:00:05,735 - INFO - Round 268/1000
+2026-02-15 15:00:06,024 - INFO -   Silhouette: 0.2601 | School ROC: 0.6043 F1: 0.5957 | Project ROC: 0.5444 F1: 0.2062 
+2026-02-15 15:00:06,024 - INFO - Round 269/1000
+2026-02-15 15:00:06,249 - INFO -   Silhouette: 0.3056 | School ROC: 0.6307 F1: 0.6458 | Project ROC: 0.5814 F1: 0.2752 
+2026-02-15 15:00:06,249 - INFO - Round 270/1000
+2026-02-15 15:00:06,528 - INFO -   Silhouette: 0.2821 | School ROC: 0.6200 F1: 0.6462 | Project ROC: 0.5516 F1: 0.2523 
+2026-02-15 15:00:06,528 - INFO - Round 271/1000
+2026-02-15 15:00:06,872 - INFO -   Silhouette: 0.2065 | School ROC: 0.6289 F1: 0.6237 | Project ROC: 0.5757 F1: 0.2524 
+2026-02-15 15:00:06,873 - INFO - Round 272/1000
+2026-02-15 15:00:07,134 - INFO -   Silhouette: 0.2540 | School ROC: 0.6173 F1: 0.6077 | Project ROC: 0.5999 F1: 0.2500 
+2026-02-15 15:00:07,135 - INFO - Round 273/1000
+2026-02-15 15:00:07,414 - INFO -   Silhouette: 0.2363 | School ROC: 0.5937 F1: 0.6129 | Project ROC: 0.6030 F1: 0.2826 
+2026-02-15 15:00:07,414 - INFO - Round 274/1000
+2026-02-15 15:00:07,684 - INFO -   Silhouette: 0.2810 | School ROC: 0.5575 F1: 0.5638 | Project ROC: 0.5763 F1: 0.2500 
+2026-02-15 15:00:07,684 - INFO - Round 275/1000
+2026-02-15 15:00:07,929 - INFO -   Silhouette: 0.3158 | School ROC: 0.6425 F1: 0.6154 | Project ROC: 0.6172 F1: 0.3061 
+2026-02-15 15:00:07,930 - INFO - Round 276/1000
+2026-02-15 15:00:08,182 - INFO -   Silhouette: 0.3631 | School ROC: 0.6221 F1: 0.6250 | Project ROC: 0.6242 F1: 0.3243 
+2026-02-15 15:00:08,182 - INFO - Round 277/1000
+2026-02-15 15:00:08,429 - INFO -   Silhouette: 0.1897 | School ROC: 0.6409 F1: 0.6111 | Project ROC: 0.5251 F1: 0.1895 
+2026-02-15 15:00:08,430 - INFO - Round 278/1000
+2026-02-15 15:00:08,696 - INFO -   Silhouette: 0.2972 | School ROC: 0.6524 F1: 0.6839 | Project ROC: 0.5802 F1: 0.2759 ✓
+2026-02-15 15:00:08,785 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:00:08,785 - INFO - Round 279/1000
+2026-02-15 15:00:08,960 - INFO -   Silhouette: 0.3441 | School ROC: 0.6076 F1: 0.6178 | Project ROC: 0.5887 F1: 0.2474 
+2026-02-15 15:00:08,960 - INFO - Round 280/1000
+2026-02-15 15:00:09,218 - INFO -   Silhouette: 0.2670 | School ROC: 0.6012 F1: 0.6096 | Project ROC: 0.5821 F1: 0.2476 
+2026-02-15 15:00:09,218 - INFO - Round 281/1000
+2026-02-15 15:00:09,518 - INFO -   Silhouette: 0.2334 | School ROC: 0.6328 F1: 0.6277 | Project ROC: 0.6049 F1: 0.2245 
+2026-02-15 15:00:09,518 - INFO - Round 282/1000
+2026-02-15 15:00:09,814 - INFO -   Silhouette: 0.3805 | School ROC: 0.6013 F1: 0.6105 | Project ROC: 0.5770 F1: 0.2523 
+2026-02-15 15:00:09,814 - INFO - Round 283/1000
+2026-02-15 15:00:10,116 - INFO -   Silhouette: 0.2406 | School ROC: 0.6028 F1: 0.5957 | Project ROC: 0.5463 F1: 0.2245 
+2026-02-15 15:00:10,117 - INFO - Round 284/1000
+2026-02-15 15:00:10,378 - INFO -   Silhouette: 0.2555 | School ROC: 0.6086 F1: 0.6294 | Project ROC: 0.5785 F1: 0.2617 
+2026-02-15 15:00:10,379 - INFO - Round 285/1000
+2026-02-15 15:00:10,702 - INFO -   Silhouette: 0.2875 | School ROC: 0.6401 F1: 0.6495 | Project ROC: 0.5897 F1: 0.2593 
+2026-02-15 15:00:10,702 - INFO - Round 286/1000
+2026-02-15 15:00:10,950 - INFO -   Silhouette: 0.3062 | School ROC: 0.6203 F1: 0.6138 | Project ROC: 0.6373 F1: 0.2712 
+2026-02-15 15:00:10,950 - INFO - Round 287/1000
+2026-02-15 15:00:11,210 - INFO -   Silhouette: 0.3002 | School ROC: 0.5969 F1: 0.6105 | Project ROC: 0.5394 F1: 0.2018 
+2026-02-15 15:00:11,210 - INFO - Round 288/1000
+2026-02-15 15:00:11,455 - INFO -   Silhouette: 0.3455 | School ROC: 0.6543 F1: 0.6667 | Project ROC: 0.5909 F1: 0.2727 
+2026-02-15 15:00:11,455 - INFO - Round 289/1000
+2026-02-15 15:00:11,832 - INFO -   Silhouette: 0.1875 | School ROC: 0.6200 F1: 0.6129 | Project ROC: 0.5975 F1: 0.2857 
+2026-02-15 15:00:11,832 - INFO - Round 290/1000
+2026-02-15 15:00:12,069 - INFO -   Silhouette: 0.3178 | School ROC: 0.6258 F1: 0.6321 | Project ROC: 0.5865 F1: 0.2692 
+2026-02-15 15:00:12,070 - INFO - Round 291/1000
+2026-02-15 15:00:12,422 - INFO -   Silhouette: 0.3436 | School ROC: 0.6060 F1: 0.6270 | Project ROC: 0.5915 F1: 0.2727 
+2026-02-15 15:00:12,423 - INFO - Round 292/1000
+2026-02-15 15:00:12,722 - INFO -   Silhouette: 0.2997 | School ROC: 0.5661 F1: 0.5714 | Project ROC: 0.5746 F1: 0.2268 
+2026-02-15 15:00:12,723 - INFO - Round 293/1000
+2026-02-15 15:00:13,094 - INFO -   Silhouette: 0.3710 | School ROC: 0.6173 F1: 0.6349 | Project ROC: 0.6158 F1: 0.2963 
+2026-02-15 15:00:13,094 - INFO - Round 294/1000
+2026-02-15 15:00:13,454 - INFO -   Silhouette: 0.2548 | School ROC: 0.5914 F1: 0.6207 | Project ROC: 0.6166 F1: 0.2881 
+2026-02-15 15:00:13,455 - INFO - Round 295/1000
+2026-02-15 15:00:13,726 - INFO -   Silhouette: 0.2277 | School ROC: 0.6758 F1: 0.6740 | Project ROC: 0.6135 F1: 0.2857 
+2026-02-15 15:00:13,738 - INFO - Round 296/1000
+2026-02-15 15:00:14,003 - INFO -   Silhouette: 0.2504 | School ROC: 0.5836 F1: 0.6042 | Project ROC: 0.6374 F1: 0.2885 
+2026-02-15 15:00:14,003 - INFO - Round 297/1000
+2026-02-15 15:00:14,283 - INFO -   Silhouette: 0.3513 | School ROC: 0.6121 F1: 0.6364 | Project ROC: 0.5912 F1: 0.2881 
+2026-02-15 15:00:14,283 - INFO - Round 298/1000
+2026-02-15 15:00:14,630 - INFO -   Silhouette: 0.3269 | School ROC: 0.6055 F1: 0.6632 | Project ROC: 0.6141 F1: 0.2667 
+2026-02-15 15:00:14,630 - INFO - Round 299/1000
+2026-02-15 15:00:14,933 - INFO -   Silhouette: 0.3509 | School ROC: 0.6015 F1: 0.5870 | Project ROC: 0.5746 F1: 0.2308 
+2026-02-15 15:00:14,933 - INFO - Round 300/1000
+2026-02-15 15:00:15,215 - INFO -   Silhouette: 0.3522 | School ROC: 0.6073 F1: 0.6042 | Project ROC: 0.6301 F1: 0.2991 
+2026-02-15 15:00:15,215 - INFO - Round 301/1000
+2026-02-15 15:00:15,447 - INFO -   Silhouette: 0.2557 | School ROC: 0.6008 F1: 0.5730 | Project ROC: 0.5938 F1: 0.2680 
+2026-02-15 15:00:15,447 - INFO - Round 302/1000
+2026-02-15 15:00:15,704 - INFO -   Silhouette: 0.3125 | School ROC: 0.5900 F1: 0.5957 | Project ROC: 0.6310 F1: 0.3063 
+2026-02-15 15:00:15,704 - INFO - Round 303/1000
+2026-02-15 15:00:15,940 - INFO -   Silhouette: 0.3513 | School ROC: 0.5789 F1: 0.6061 | Project ROC: 0.5610 F1: 0.2435 
+2026-02-15 15:00:15,941 - INFO - Round 304/1000
+2026-02-15 15:00:16,231 - INFO -   Silhouette: 0.3486 | School ROC: 0.6245 F1: 0.5969 | Project ROC: 0.5830 F1: 0.2936 
+2026-02-15 15:00:16,231 - INFO - Round 305/1000
+2026-02-15 15:00:16,468 - INFO -   Silhouette: 0.2736 | School ROC: 0.6089 F1: 0.6364 | Project ROC: 0.5624 F1: 0.2316 
+2026-02-15 15:00:16,468 - INFO - Round 306/1000
+2026-02-15 15:00:16,839 - INFO -   Silhouette: 0.2767 | School ROC: 0.6098 F1: 0.6432 | Project ROC: 0.5473 F1: 0.2243 
+2026-02-15 15:00:16,839 - INFO - Round 307/1000
+2026-02-15 15:00:17,218 - INFO -   Silhouette: 0.2656 | School ROC: 0.6398 F1: 0.6425 | Project ROC: 0.5500 F1: 0.2202 
+2026-02-15 15:00:17,219 - INFO - Round 308/1000
+2026-02-15 15:00:17,478 - INFO -   Silhouette: 0.2532 | School ROC: 0.6224 F1: 0.6270 | Project ROC: 0.6177 F1: 0.2887 
+2026-02-15 15:00:17,478 - INFO - Round 309/1000
+2026-02-15 15:00:17,746 - INFO -   Silhouette: 0.3247 | School ROC: 0.6170 F1: 0.6237 | Project ROC: 0.6227 F1: 0.2708 
+2026-02-15 15:00:17,747 - INFO - Round 310/1000
+2026-02-15 15:00:17,951 - INFO -   Silhouette: 0.2510 | School ROC: 0.6411 F1: 0.6495 | Project ROC: 0.5690 F1: 0.2414 
+2026-02-15 15:00:17,951 - INFO - Round 311/1000
+2026-02-15 15:00:18,296 - INFO -   Silhouette: 0.3341 | School ROC: 0.5746 F1: 0.5833 | Project ROC: 0.6513 F1: 0.3396 
+2026-02-15 15:00:18,296 - INFO - Round 312/1000
+2026-02-15 15:00:18,545 - INFO -   Silhouette: 0.2497 | School ROC: 0.5759 F1: 0.6300 | Project ROC: 0.5690 F1: 0.2632 
+2026-02-15 15:00:18,546 - INFO - Round 313/1000
+2026-02-15 15:00:18,799 - INFO -   Silhouette: 0.2377 | School ROC: 0.6475 F1: 0.6369 | Project ROC: 0.5543 F1: 0.2574 
+2026-02-15 15:00:18,800 - INFO - Round 314/1000
+2026-02-15 15:00:19,151 - INFO -   Silhouette: 0.3365 | School ROC: 0.6264 F1: 0.6421 | Project ROC: 0.6299 F1: 0.3077 
+2026-02-15 15:00:19,151 - INFO - Round 315/1000
+2026-02-15 15:00:19,405 - INFO -   Silhouette: 0.2717 | School ROC: 0.5918 F1: 0.6154 | Project ROC: 0.6415 F1: 0.3093 
+2026-02-15 15:00:19,406 - INFO - Round 316/1000
+2026-02-15 15:00:19,647 - INFO -   Silhouette: 0.3517 | School ROC: 0.6026 F1: 0.6054 | Project ROC: 0.5303 F1: 0.2400 
+2026-02-15 15:00:19,647 - INFO - Round 317/1000
+2026-02-15 15:00:19,981 - INFO -   Silhouette: 0.3078 | School ROC: 0.6324 F1: 0.6633 | Project ROC: 0.6083 F1: 0.2804 
+2026-02-15 15:00:19,982 - INFO - Round 318/1000
+2026-02-15 15:00:20,265 - INFO -   Silhouette: 0.3797 | School ROC: 0.6139 F1: 0.5820 | Project ROC: 0.6104 F1: 0.2991 
+2026-02-15 15:00:20,265 - INFO - Round 319/1000
+2026-02-15 15:00:20,519 - INFO -   Silhouette: 0.2717 | School ROC: 0.6164 F1: 0.6096 | Project ROC: 0.5929 F1: 0.2453 
+2026-02-15 15:00:20,519 - INFO - Round 320/1000
+2026-02-15 15:00:20,796 - INFO -   Silhouette: 0.1947 | School ROC: 0.5806 F1: 0.6178 | Project ROC: 0.6132 F1: 0.2692 
+2026-02-15 15:00:20,797 - INFO - Round 321/1000
+2026-02-15 15:00:21,057 - INFO -   Silhouette: 0.2829 | School ROC: 0.6416 F1: 0.6452 | Project ROC: 0.6331 F1: 0.3000 
+2026-02-15 15:00:21,058 - INFO - Round 322/1000
+2026-02-15 15:00:21,319 - INFO -   Silhouette: 0.2566 | School ROC: 0.6102 F1: 0.5838 | Project ROC: 0.5487 F1: 0.2800 
+2026-02-15 15:00:21,319 - INFO - Round 323/1000
+2026-02-15 15:00:21,564 - INFO -   Silhouette: 0.3140 | School ROC: 0.5905 F1: 0.6170 | Project ROC: 0.5992 F1: 0.2718 
+2026-02-15 15:00:21,564 - INFO - Round 324/1000
+2026-02-15 15:00:21,862 - INFO -   Silhouette: 0.3329 | School ROC: 0.6112 F1: 0.6354 | Project ROC: 0.6116 F1: 0.2727 
+2026-02-15 15:00:21,862 - INFO - Round 325/1000
+2026-02-15 15:00:22,139 - INFO -   Silhouette: 0.2764 | School ROC: 0.5738 F1: 0.5864 | Project ROC: 0.5378 F1: 0.1982 
+2026-02-15 15:00:22,139 - INFO - Round 326/1000
+2026-02-15 15:00:22,385 - INFO -   Silhouette: 0.2224 | School ROC: 0.6254 F1: 0.6146 | Project ROC: 0.6106 F1: 0.2804 
+2026-02-15 15:00:22,385 - INFO - Round 327/1000
+2026-02-15 15:00:22,623 - INFO -   Silhouette: 0.2959 | School ROC: 0.6137 F1: 0.6105 | Project ROC: 0.5956 F1: 0.2885 
+2026-02-15 15:00:22,623 - INFO - Round 328/1000
+2026-02-15 15:00:22,900 - INFO -   Silhouette: 0.2767 | School ROC: 0.6271 F1: 0.6465 | Project ROC: 0.5868 F1: 0.2474 
+2026-02-15 15:00:22,900 - INFO - Round 329/1000
+2026-02-15 15:00:23,170 - INFO -   Silhouette: 0.3619 | School ROC: 0.6369 F1: 0.6211 | Project ROC: 0.6043 F1: 0.3036 
+2026-02-15 15:00:23,170 - INFO - Round 330/1000
+2026-02-15 15:00:23,428 - INFO -   Silhouette: 0.2906 | School ROC: 0.6334 F1: 0.6392 | Project ROC: 0.5671 F1: 0.2703 
+2026-02-15 15:00:23,428 - INFO - Round 331/1000
+2026-02-15 15:00:23,766 - INFO -   Silhouette: 0.2785 | School ROC: 0.6002 F1: 0.5870 | Project ROC: 0.5932 F1: 0.2957 
+2026-02-15 15:00:23,767 - INFO - Round 332/1000
+2026-02-15 15:00:24,010 - INFO -   Silhouette: 0.2368 | School ROC: 0.6058 F1: 0.5843 | Project ROC: 0.6332 F1: 0.3000 
+2026-02-15 15:00:24,010 - INFO - Round 333/1000
+2026-02-15 15:00:24,236 - INFO -   Silhouette: 0.3419 | School ROC: 0.6354 F1: 0.5978 | Project ROC: 0.6481 F1: 0.3178 
+2026-02-15 15:00:24,236 - INFO - Round 334/1000
+2026-02-15 15:00:24,570 - INFO -   Silhouette: 0.3042 | School ROC: 0.6179 F1: 0.6186 | Project ROC: 0.6271 F1: 0.2778 
+2026-02-15 15:00:24,571 - INFO - Round 335/1000
+2026-02-15 15:00:24,802 - INFO -   Silhouette: 0.2711 | School ROC: 0.5881 F1: 0.6105 | Project ROC: 0.5228 F1: 0.2376 
+2026-02-15 15:00:24,802 - INFO - Round 336/1000
+2026-02-15 15:00:25,083 - INFO -   Silhouette: 0.3224 | School ROC: 0.6029 F1: 0.5856 | Project ROC: 0.5944 F1: 0.2609 
+2026-02-15 15:00:25,084 - INFO - Round 337/1000
+2026-02-15 15:00:25,341 - INFO -   Silhouette: 0.2324 | School ROC: 0.5633 F1: 0.5495 | Project ROC: 0.5023 F1: 0.1837 
+2026-02-15 15:00:25,341 - INFO - Round 338/1000
+2026-02-15 15:00:25,658 - INFO -   Silhouette: 0.2157 | School ROC: 0.6044 F1: 0.6170 | Project ROC: 0.5476 F1: 0.2400 
+2026-02-15 15:00:25,658 - INFO - Round 339/1000
+2026-02-15 15:00:25,882 - INFO -   Silhouette: 0.2362 | School ROC: 0.6154 F1: 0.6436 | Project ROC: 0.6490 F1: 0.3036 
+2026-02-15 15:00:25,883 - INFO - Round 340/1000
+2026-02-15 15:00:26,267 - INFO -   Silhouette: 0.2388 | School ROC: 0.6177 F1: 0.6218 | Project ROC: 0.5492 F1: 0.2364 
+2026-02-15 15:00:26,268 - INFO - Round 341/1000
+2026-02-15 15:00:26,474 - INFO -   Silhouette: 0.3281 | School ROC: 0.6154 F1: 0.6256 | Project ROC: 0.5985 F1: 0.2626 
+2026-02-15 15:00:26,475 - INFO - Round 342/1000
+2026-02-15 15:00:26,821 - INFO -   Silhouette: 0.2896 | School ROC: 0.6077 F1: 0.6146 | Project ROC: 0.5662 F1: 0.2286 
+2026-02-15 15:00:26,821 - INFO - Round 343/1000
+2026-02-15 15:00:27,121 - INFO -   Silhouette: 0.2353 | School ROC: 0.6320 F1: 0.6243 | Project ROC: 0.5903 F1: 0.2752 
+2026-02-15 15:00:27,121 - INFO - Round 344/1000
+2026-02-15 15:00:27,583 - INFO -   Silhouette: 0.2949 | School ROC: 0.6309 F1: 0.6500 | Project ROC: 0.5693 F1: 0.2569 
+2026-02-15 15:00:27,584 - INFO - Round 345/1000
+2026-02-15 15:00:27,949 - INFO -   Silhouette: 0.3898 | School ROC: 0.6360 F1: 0.6531 | Project ROC: 0.6447 F1: 0.3091 
+2026-02-15 15:00:27,949 - INFO - Round 346/1000
+2026-02-15 15:00:28,208 - INFO -   Silhouette: 0.2291 | School ROC: 0.5990 F1: 0.6203 | Project ROC: 0.6078 F1: 0.2885 
+2026-02-15 15:00:28,208 - INFO - Round 347/1000
+2026-02-15 15:00:28,455 - INFO -   Silhouette: 0.2419 | School ROC: 0.6109 F1: 0.6256 | Project ROC: 0.5480 F1: 0.2243 
+2026-02-15 15:00:28,456 - INFO - Round 348/1000
+2026-02-15 15:00:28,748 - INFO -   Silhouette: 0.3203 | School ROC: 0.6070 F1: 0.5989 | Project ROC: 0.6316 F1: 0.3301 
+2026-02-15 15:00:28,748 - INFO - Round 349/1000
+2026-02-15 15:00:28,986 - INFO -   Silhouette: 0.2595 | School ROC: 0.6294 F1: 0.6378 | Project ROC: 0.5369 F1: 0.2264 
+2026-02-15 15:00:28,986 - INFO - Round 350/1000
+2026-02-15 15:00:29,290 - INFO -   Silhouette: 0.2787 | School ROC: 0.6207 F1: 0.6562 | Project ROC: 0.5932 F1: 0.2772 
+2026-02-15 15:00:29,290 - INFO - Round 351/1000
+2026-02-15 15:00:29,558 - INFO -   Silhouette: 0.3963 | School ROC: 0.6401 F1: 0.6533 | Project ROC: 0.6282 F1: 0.3273 
+2026-02-15 15:00:29,558 - INFO - Round 352/1000
+2026-02-15 15:00:29,810 - INFO -   Silhouette: 0.2550 | School ROC: 0.6042 F1: 0.6289 | Project ROC: 0.5877 F1: 0.2679 
+2026-02-15 15:00:29,810 - INFO - Round 353/1000
+2026-02-15 15:00:30,204 - INFO -   Silhouette: 0.2763 | School ROC: 0.6264 F1: 0.6257 | Project ROC: 0.6027 F1: 0.2828 
+2026-02-15 15:00:30,204 - INFO - Round 354/1000
+2026-02-15 15:00:30,503 - INFO -   Silhouette: 0.2944 | School ROC: 0.6451 F1: 0.6528 | Project ROC: 0.5865 F1: 0.2617 
+2026-02-15 15:00:30,504 - INFO - Round 355/1000
+2026-02-15 15:00:30,749 - INFO -   Silhouette: 0.2637 | School ROC: 0.6224 F1: 0.5977 | Project ROC: 0.5865 F1: 0.2718 
+2026-02-15 15:00:30,749 - INFO - Round 356/1000
+2026-02-15 15:00:31,038 - INFO -   Silhouette: 0.2957 | School ROC: 0.6246 F1: 0.6561 | Project ROC: 0.6121 F1: 0.2772 
+2026-02-15 15:00:31,039 - INFO - Round 357/1000
+2026-02-15 15:00:31,262 - INFO -   Silhouette: 0.3420 | School ROC: 0.6041 F1: 0.6146 | Project ROC: 0.5632 F1: 0.2703 
+2026-02-15 15:00:31,262 - INFO - Round 358/1000
+2026-02-15 15:00:31,504 - INFO -   Silhouette: 0.2269 | School ROC: 0.6282 F1: 0.6349 | Project ROC: 0.5916 F1: 0.2617 
+2026-02-15 15:00:31,504 - INFO - Round 359/1000
+2026-02-15 15:00:31,808 - INFO -   Silhouette: 0.2820 | School ROC: 0.6227 F1: 0.6354 | Project ROC: 0.5824 F1: 0.2727 
+2026-02-15 15:00:31,808 - INFO - Round 360/1000
+2026-02-15 15:00:32,066 - INFO -   Silhouette: 0.3596 | School ROC: 0.6227 F1: 0.6129 | Project ROC: 0.6208 F1: 0.2913 
+2026-02-15 15:00:32,066 - INFO - Round 361/1000
+2026-02-15 15:00:32,414 - INFO -   Silhouette: 0.2157 | School ROC: 0.6474 F1: 0.6178 | Project ROC: 0.6075 F1: 0.2692 
+2026-02-15 15:00:32,414 - INFO - Round 362/1000
+2026-02-15 15:00:32,716 - INFO -   Silhouette: 0.3177 | School ROC: 0.5771 F1: 0.6061 | Project ROC: 0.5496 F1: 0.2545 
+2026-02-15 15:00:32,716 - INFO - Round 363/1000
+2026-02-15 15:00:33,034 - INFO -   Silhouette: 0.2865 | School ROC: 0.5755 F1: 0.5775 | Project ROC: 0.6228 F1: 0.2772 
+2026-02-15 15:00:33,034 - INFO - Round 364/1000
+2026-02-15 15:00:33,297 - INFO -   Silhouette: 0.2794 | School ROC: 0.6232 F1: 0.6277 | Project ROC: 0.6239 F1: 0.3125 
+2026-02-15 15:00:33,297 - INFO - Round 365/1000
+2026-02-15 15:00:33,534 - INFO -   Silhouette: 0.2752 | School ROC: 0.5921 F1: 0.6096 | Project ROC: 0.5163 F1: 0.2095 
+2026-02-15 15:00:33,534 - INFO - Round 366/1000
+2026-02-15 15:00:33,828 - INFO -   Silhouette: 0.3219 | School ROC: 0.5998 F1: 0.6096 | Project ROC: 0.5584 F1: 0.2718 
+2026-02-15 15:00:33,828 - INFO - Round 367/1000
+2026-02-15 15:00:34,088 - INFO -   Silhouette: 0.2075 | School ROC: 0.5950 F1: 0.6020 | Project ROC: 0.6151 F1: 0.2500 
+2026-02-15 15:00:34,088 - INFO - Round 368/1000
+2026-02-15 15:00:34,352 - INFO -   Silhouette: 0.2919 | School ROC: 0.6224 F1: 0.6458 | Project ROC: 0.5878 F1: 0.2500 
+2026-02-15 15:00:34,352 - INFO - Round 369/1000
+2026-02-15 15:00:34,679 - INFO -   Silhouette: 0.3800 | School ROC: 0.6324 F1: 0.6316 | Project ROC: 0.6199 F1: 0.2642 
+2026-02-15 15:00:34,679 - INFO - Round 370/1000
+2026-02-15 15:00:34,964 - INFO -   Silhouette: 0.3022 | School ROC: 0.6422 F1: 0.6277 | Project ROC: 0.5849 F1: 0.3048 
+2026-02-15 15:00:34,964 - INFO - Round 371/1000
+2026-02-15 15:00:35,215 - INFO -   Silhouette: 0.2780 | School ROC: 0.6358 F1: 0.6562 | Project ROC: 0.5619 F1: 0.2178 
+2026-02-15 15:00:35,215 - INFO - Round 372/1000
+2026-02-15 15:00:35,439 - INFO -   Silhouette: 0.3382 | School ROC: 0.6183 F1: 0.6188 | Project ROC: 0.5759 F1: 0.2424 
+2026-02-15 15:00:35,439 - INFO - Round 373/1000
+2026-02-15 15:00:35,785 - INFO -   Silhouette: 0.1960 | School ROC: 0.6405 F1: 0.5989 | Project ROC: 0.4768 F1: 0.1400 
+2026-02-15 15:00:35,785 - INFO - Round 374/1000
+2026-02-15 15:00:36,008 - INFO -   Silhouette: 0.3195 | School ROC: 0.6287 F1: 0.6321 | Project ROC: 0.6050 F1: 0.2772 
+2026-02-15 15:00:36,008 - INFO - Round 375/1000
+2026-02-15 15:00:36,272 - INFO -   Silhouette: 0.2752 | School ROC: 0.5839 F1: 0.5946 | Project ROC: 0.5301 F1: 0.2200 
+2026-02-15 15:00:36,272 - INFO - Round 376/1000
+2026-02-15 15:00:36,518 - INFO -   Silhouette: 0.2780 | School ROC: 0.6323 F1: 0.6096 | Project ROC: 0.6081 F1: 0.3048 
+2026-02-15 15:00:36,518 - INFO - Round 377/1000
+2026-02-15 15:00:36,821 - INFO -   Silhouette: 0.2646 | School ROC: 0.6473 F1: 0.6383 | Project ROC: 0.6423 F1: 0.2913 
+2026-02-15 15:00:36,822 - INFO - Round 378/1000
+2026-02-15 15:00:37,124 - INFO -   Silhouette: 0.3572 | School ROC: 0.6069 F1: 0.6465 | Project ROC: 0.5411 F1: 0.2200 
+2026-02-15 15:00:37,124 - INFO - Round 379/1000
+2026-02-15 15:00:37,369 - INFO -   Silhouette: 0.2032 | School ROC: 0.6219 F1: 0.6044 | Project ROC: 0.5646 F1: 0.2353 
+2026-02-15 15:00:37,370 - INFO - Round 380/1000
+2026-02-15 15:00:37,657 - INFO -   Silhouette: 0.3416 | School ROC: 0.6138 F1: 0.6096 | Project ROC: 0.6059 F1: 0.2913 
+2026-02-15 15:00:37,657 - INFO - Round 381/1000
+2026-02-15 15:00:37,988 - INFO -   Silhouette: 0.2605 | School ROC: 0.6105 F1: 0.6327 | Project ROC: 0.5249 F1: 0.1980 
+2026-02-15 15:00:37,988 - INFO - Round 382/1000
+2026-02-15 15:00:38,192 - INFO -   Silhouette: 0.2917 | School ROC: 0.5981 F1: 0.5957 | Project ROC: 0.5988 F1: 0.2553 
+2026-02-15 15:00:38,192 - INFO - Round 383/1000
+2026-02-15 15:00:38,447 - INFO -   Silhouette: 0.3130 | School ROC: 0.5998 F1: 0.6263 | Project ROC: 0.6363 F1: 0.2857 
+2026-02-15 15:00:38,448 - INFO - Round 384/1000
+2026-02-15 15:00:38,859 - INFO -   Silhouette: 0.2950 | School ROC: 0.6444 F1: 0.6264 | Project ROC: 0.6048 F1: 0.2692 
+2026-02-15 15:00:38,859 - INFO - Round 385/1000
+2026-02-15 15:00:39,110 - INFO -   Silhouette: 0.2680 | School ROC: 0.5866 F1: 0.5907 | Project ROC: 0.4818 F1: 0.2037 
+2026-02-15 15:00:39,111 - INFO - Round 386/1000
+2026-02-15 15:00:39,393 - INFO -   Silhouette: 0.2705 | School ROC: 0.6606 F1: 0.6196 | Project ROC: 0.5931 F1: 0.2523 
+2026-02-15 15:00:39,406 - INFO - Round 387/1000
+2026-02-15 15:00:39,670 - INFO -   Silhouette: 0.3495 | School ROC: 0.6312 F1: 0.6429 | Project ROC: 0.5950 F1: 0.2703 
+2026-02-15 15:00:39,670 - INFO - Round 388/1000
+2026-02-15 15:00:39,959 - INFO -   Silhouette: 0.2565 | School ROC: 0.6251 F1: 0.6667 | Project ROC: 0.5902 F1: 0.2727 
+2026-02-15 15:00:39,960 - INFO - Round 389/1000
+2026-02-15 15:00:40,198 - INFO -   Silhouette: 0.3303 | School ROC: 0.6008 F1: 0.6633 | Project ROC: 0.5589 F1: 0.2342 
+2026-02-15 15:00:40,198 - INFO - Round 390/1000
+2026-02-15 15:00:40,458 - INFO -   Silhouette: 0.2324 | School ROC: 0.6020 F1: 0.5967 | Project ROC: 0.6659 F1: 0.3232 
+2026-02-15 15:00:40,458 - INFO - Round 391/1000
+2026-02-15 15:00:40,732 - INFO -   Silhouette: 0.2643 | School ROC: 0.6073 F1: 0.5635 | Project ROC: 0.5419 F1: 0.2075 
+2026-02-15 15:00:40,732 - INFO - Round 392/1000
+2026-02-15 15:00:41,038 - INFO -   Silhouette: 0.2239 | School ROC: 0.6181 F1: 0.6138 | Project ROC: 0.5406 F1: 0.2243 
+2026-02-15 15:00:41,038 - INFO - Round 393/1000
+2026-02-15 15:00:41,400 - INFO -   Silhouette: 0.2551 | School ROC: 0.6099 F1: 0.6082 | Project ROC: 0.5090 F1: 0.2018 
+2026-02-15 15:00:41,400 - INFO - Round 394/1000
+2026-02-15 15:00:41,755 - INFO -   Silhouette: 0.2835 | School ROC: 0.6090 F1: 0.6277 | Project ROC: 0.5957 F1: 0.2642 
+2026-02-15 15:00:41,755 - INFO - Round 395/1000
+2026-02-15 15:00:41,998 - INFO -   Silhouette: 0.2960 | School ROC: 0.6148 F1: 0.6230 | Project ROC: 0.6653 F1: 0.3617 ✓
+2026-02-15 15:00:42,078 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:00:42,079 - INFO - Round 396/1000
+2026-02-15 15:00:42,264 - INFO -   Silhouette: 0.2845 | School ROC: 0.5841 F1: 0.6131 | Project ROC: 0.5336 F1: 0.2476 
+2026-02-15 15:00:42,265 - INFO - Round 397/1000
+2026-02-15 15:00:42,519 - INFO -   Silhouette: 0.2470 | School ROC: 0.6374 F1: 0.6105 | Project ROC: 0.6164 F1: 0.2617 
+2026-02-15 15:00:42,519 - INFO - Round 398/1000
+2026-02-15 15:00:42,872 - INFO -   Silhouette: 0.2509 | School ROC: 0.6292 F1: 0.6120 | Project ROC: 0.6050 F1: 0.2653 
+2026-02-15 15:00:42,872 - INFO - Round 399/1000
+2026-02-15 15:00:43,144 - INFO -   Silhouette: 0.3352 | School ROC: 0.6575 F1: 0.6349 | Project ROC: 0.6735 F1: 0.3301 ✓
+2026-02-15 15:00:43,254 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:00:43,254 - INFO - Round 400/1000
+2026-02-15 15:00:43,378 - INFO -   Silhouette: 0.2343 | School ROC: 0.5796 F1: 0.5568 | Project ROC: 0.5986 F1: 0.2800 
+2026-02-15 15:00:43,378 - INFO - Round 401/1000
+2026-02-15 15:00:43,700 - INFO -   Silhouette: 0.2757 | School ROC: 0.6078 F1: 0.6316 | Project ROC: 0.5948 F1: 0.2617 
+2026-02-15 15:00:43,701 - INFO - Round 402/1000
+2026-02-15 15:00:44,117 - INFO -   Silhouette: 0.3454 | School ROC: 0.5784 F1: 0.5970 | Project ROC: 0.5985 F1: 0.2617 
+2026-02-15 15:00:44,118 - INFO - Round 403/1000
+2026-02-15 15:00:44,423 - INFO -   Silhouette: 0.2759 | School ROC: 0.6190 F1: 0.6023 | Project ROC: 0.6245 F1: 0.2830 
+2026-02-15 15:00:44,424 - INFO - Round 404/1000
+2026-02-15 15:00:44,709 - INFO -   Silhouette: 0.2799 | School ROC: 0.5879 F1: 0.6073 | Project ROC: 0.6156 F1: 0.3048 
+2026-02-15 15:00:44,710 - INFO - Round 405/1000
+2026-02-15 15:00:45,081 - INFO -   Silhouette: 0.3140 | School ROC: 0.5872 F1: 0.5907 | Project ROC: 0.5718 F1: 0.2830 
+2026-02-15 15:00:45,081 - INFO - Round 406/1000
+2026-02-15 15:00:45,319 - INFO -   Silhouette: 0.3023 | School ROC: 0.6251 F1: 0.6667 | Project ROC: 0.5999 F1: 0.2222 
+2026-02-15 15:00:45,319 - INFO - Round 407/1000
+2026-02-15 15:00:45,590 - INFO -   Silhouette: 0.2347 | School ROC: 0.6097 F1: 0.6162 | Project ROC: 0.6317 F1: 0.3061 
+2026-02-15 15:00:45,590 - INFO - Round 408/1000
+2026-02-15 15:00:45,821 - INFO -   Silhouette: 0.2441 | School ROC: 0.6028 F1: 0.6138 | Project ROC: 0.6272 F1: 0.2857 
+2026-02-15 15:00:45,821 - INFO - Round 409/1000
+2026-02-15 15:00:46,106 - INFO -   Silhouette: 0.2398 | School ROC: 0.5799 F1: 0.5714 | Project ROC: 0.5522 F1: 0.2449 
+2026-02-15 15:00:46,106 - INFO - Round 410/1000
+2026-02-15 15:00:46,382 - INFO -   Silhouette: 0.2482 | School ROC: 0.6123 F1: 0.6465 | Project ROC: 0.5718 F1: 0.2407 
+2026-02-15 15:00:46,383 - INFO - Round 411/1000
+2026-02-15 15:00:46,779 - INFO -   Silhouette: 0.3508 | School ROC: 0.6181 F1: 0.6316 | Project ROC: 0.5959 F1: 0.2330 
+2026-02-15 15:00:46,779 - INFO - Round 412/1000
+2026-02-15 15:00:47,006 - INFO -   Silhouette: 0.3362 | School ROC: 0.5951 F1: 0.6146 | Project ROC: 0.6338 F1: 0.3025 
+2026-02-15 15:00:47,007 - INFO - Round 413/1000
+2026-02-15 15:00:47,264 - INFO -   Silhouette: 0.3245 | School ROC: 0.6044 F1: 0.6270 | Project ROC: 0.6020 F1: 0.2692 
+2026-02-15 15:00:47,264 - INFO - Round 414/1000
+2026-02-15 15:00:47,567 - INFO -   Silhouette: 0.3333 | School ROC: 0.6597 F1: 0.6250 | Project ROC: 0.6075 F1: 0.2745 
+2026-02-15 15:00:47,568 - INFO - Round 415/1000
+2026-02-15 15:00:47,910 - INFO -   Silhouette: 0.2659 | School ROC: 0.5797 F1: 0.6598 | Project ROC: 0.6453 F1: 0.2679 
+2026-02-15 15:00:47,910 - INFO - Round 416/1000
+2026-02-15 15:00:48,254 - INFO -   Silhouette: 0.2957 | School ROC: 0.6392 F1: 0.6702 | Project ROC: 0.6423 F1: 0.3243 ✓
+2026-02-15 15:00:48,343 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:00:48,344 - INFO - Round 417/1000
+2026-02-15 15:00:48,530 - INFO -   Silhouette: 0.3226 | School ROC: 0.6717 F1: 0.6600 | Project ROC: 0.5798 F1: 0.2655 
+2026-02-15 15:00:48,530 - INFO - Round 418/1000
+2026-02-15 15:00:48,787 - INFO -   Silhouette: 0.3036 | School ROC: 0.6073 F1: 0.6332 | Project ROC: 0.5570 F1: 0.2353 
+2026-02-15 15:00:48,787 - INFO - Round 419/1000
+2026-02-15 15:00:49,126 - INFO -   Silhouette: 0.2469 | School ROC: 0.6121 F1: 0.6122 | Project ROC: 0.5775 F1: 0.2632 
+2026-02-15 15:00:49,127 - INFO - Round 420/1000
+2026-02-15 15:00:49,402 - INFO -   Silhouette: 0.3296 | School ROC: 0.6247 F1: 0.6170 | Project ROC: 0.6497 F1: 0.3019 
+2026-02-15 15:00:49,402 - INFO - Round 421/1000
+2026-02-15 15:00:49,809 - INFO -   Silhouette: 0.2062 | School ROC: 0.6104 F1: 0.5604 | Project ROC: 0.5321 F1: 0.2000 
+2026-02-15 15:00:49,809 - INFO - Round 422/1000
+2026-02-15 15:00:50,083 - INFO -   Silhouette: 0.2836 | School ROC: 0.5819 F1: 0.6289 | Project ROC: 0.6156 F1: 0.2832 
+2026-02-15 15:00:50,083 - INFO - Round 423/1000
+2026-02-15 15:00:50,361 - INFO -   Silhouette: 0.2538 | School ROC: 0.6432 F1: 0.6011 | Project ROC: 0.6201 F1: 0.3333 
+2026-02-15 15:00:50,362 - INFO - Round 424/1000
+2026-02-15 15:00:50,602 - INFO -   Silhouette: 0.2853 | School ROC: 0.5853 F1: 0.5949 | Project ROC: 0.6180 F1: 0.2982 
+2026-02-15 15:00:50,602 - INFO - Round 425/1000
+2026-02-15 15:00:50,844 - INFO -   Silhouette: 0.3665 | School ROC: 0.6242 F1: 0.6105 | Project ROC: 0.6377 F1: 0.3366 
+2026-02-15 15:00:50,844 - INFO - Round 426/1000
+2026-02-15 15:00:51,087 - INFO -   Silhouette: 0.2437 | School ROC: 0.5999 F1: 0.5989 | Project ROC: 0.6325 F1: 0.2500 
+2026-02-15 15:00:51,088 - INFO - Round 427/1000
+2026-02-15 15:00:51,387 - INFO -   Silhouette: 0.1851 | School ROC: 0.6215 F1: 0.5792 | Project ROC: 0.5732 F1: 0.2500 
+2026-02-15 15:00:51,388 - INFO - Round 428/1000
+2026-02-15 15:00:51,658 - INFO -   Silhouette: 0.3338 | School ROC: 0.6062 F1: 0.6011 | Project ROC: 0.6355 F1: 0.3208 
+2026-02-15 15:00:51,658 - INFO - Round 429/1000
+2026-02-15 15:00:51,937 - INFO -   Silhouette: 0.1974 | School ROC: 0.6101 F1: 0.6327 | Project ROC: 0.6049 F1: 0.2500 
+2026-02-15 15:00:51,937 - INFO - Round 430/1000
+2026-02-15 15:00:52,231 - INFO -   Silhouette: 0.2558 | School ROC: 0.6115 F1: 0.6022 | Project ROC: 0.5451 F1: 0.2453 
+2026-02-15 15:00:52,231 - INFO - Round 431/1000
+2026-02-15 15:00:52,646 - INFO -   Silhouette: 0.3926 | School ROC: 0.6169 F1: 0.6146 | Project ROC: 0.5645 F1: 0.2178 
+2026-02-15 15:00:52,646 - INFO - Round 432/1000
+2026-02-15 15:00:52,938 - INFO -   Silhouette: 0.3180 | School ROC: 0.6205 F1: 0.6387 | Project ROC: 0.6094 F1: 0.2593 
+2026-02-15 15:00:52,938 - INFO - Round 433/1000
+2026-02-15 15:00:53,250 - INFO -   Silhouette: 0.3162 | School ROC: 0.6425 F1: 0.6211 | Project ROC: 0.5975 F1: 0.2951 
+2026-02-15 15:00:53,250 - INFO - Round 434/1000
+2026-02-15 15:00:53,589 - INFO -   Silhouette: 0.2775 | School ROC: 0.6162 F1: 0.6277 | Project ROC: 0.6545 F1: 0.3299 
+2026-02-15 15:00:53,590 - INFO - Round 435/1000
+2026-02-15 15:00:53,909 - INFO -   Silhouette: 0.3758 | School ROC: 0.6415 F1: 0.6495 | Project ROC: 0.5940 F1: 0.2667 
+2026-02-15 15:00:53,909 - INFO - Round 436/1000
+2026-02-15 15:00:54,209 - INFO -   Silhouette: 0.2492 | School ROC: 0.6322 F1: 0.6700 | Project ROC: 0.5906 F1: 0.2564 
+2026-02-15 15:00:54,210 - INFO - Round 437/1000
+2026-02-15 15:00:54,630 - INFO -   Silhouette: 0.3545 | School ROC: 0.6056 F1: 0.6224 | Project ROC: 0.6217 F1: 0.2642 
+2026-02-15 15:00:54,630 - INFO - Round 438/1000
+2026-02-15 15:00:54,858 - INFO -   Silhouette: 0.3149 | School ROC: 0.5975 F1: 0.6000 | Project ROC: 0.6087 F1: 0.2800 
+2026-02-15 15:00:54,858 - INFO - Round 439/1000
+2026-02-15 15:00:55,100 - INFO -   Silhouette: 0.2055 | School ROC: 0.6134 F1: 0.6011 | Project ROC: 0.5552 F1: 0.2424 
+2026-02-15 15:00:55,101 - INFO - Round 440/1000
+2026-02-15 15:00:55,367 - INFO -   Silhouette: 0.3140 | School ROC: 0.6283 F1: 0.6316 | Project ROC: 0.6557 F1: 0.3333 
+2026-02-15 15:00:55,368 - INFO - Round 441/1000
+2026-02-15 15:00:55,617 - INFO -   Silhouette: 0.3140 | School ROC: 0.6058 F1: 0.5902 | Project ROC: 0.6183 F1: 0.2553 
+2026-02-15 15:00:55,617 - INFO - Round 442/1000
+2026-02-15 15:00:56,074 - INFO -   Silhouette: 0.3074 | School ROC: 0.6335 F1: 0.6417 | Project ROC: 0.6427 F1: 0.3301 
+2026-02-15 15:00:56,075 - INFO - Round 443/1000
+2026-02-15 15:00:56,306 - INFO -   Silhouette: 0.2706 | School ROC: 0.5929 F1: 0.6495 | Project ROC: 0.5518 F1: 0.2476 
+2026-02-15 15:00:56,306 - INFO - Round 444/1000
+2026-02-15 15:00:56,599 - INFO -   Silhouette: 0.3263 | School ROC: 0.5835 F1: 0.5914 | Project ROC: 0.6242 F1: 0.2913 
+2026-02-15 15:00:56,599 - INFO - Round 445/1000
+2026-02-15 15:00:56,866 - INFO -   Silhouette: 0.1942 | School ROC: 0.5726 F1: 0.6064 | Project ROC: 0.5334 F1: 0.1837 
+2026-02-15 15:00:56,866 - INFO - Round 446/1000
+2026-02-15 15:00:57,141 - INFO -   Silhouette: 0.3031 | School ROC: 0.6296 F1: 0.6495 | Project ROC: 0.6405 F1: 0.3178 
+2026-02-15 15:00:57,142 - INFO - Round 447/1000
+2026-02-15 15:00:57,525 - INFO -   Silhouette: 0.2362 | School ROC: 0.6169 F1: 0.6332 | Project ROC: 0.5662 F1: 0.2783 
+2026-02-15 15:00:57,525 - INFO - Round 448/1000
+2026-02-15 15:00:57,779 - INFO -   Silhouette: 0.2717 | School ROC: 0.5853 F1: 0.6193 | Project ROC: 0.6137 F1: 0.2600 
+2026-02-15 15:00:57,780 - INFO - Round 449/1000
+2026-02-15 15:00:58,053 - INFO -   Silhouette: 0.3058 | School ROC: 0.6164 F1: 0.6631 | Project ROC: 0.6548 F1: 0.3061 
+2026-02-15 15:00:58,053 - INFO - Round 450/1000
+2026-02-15 15:00:58,385 - INFO -   Silhouette: 0.3176 | School ROC: 0.6145 F1: 0.6256 | Project ROC: 0.6367 F1: 0.3226 
+2026-02-15 15:00:58,385 - INFO - Round 451/1000
+2026-02-15 15:00:58,634 - INFO -   Silhouette: 0.2159 | School ROC: 0.6255 F1: 0.5989 | Project ROC: 0.6138 F1: 0.2857 
+2026-02-15 15:00:58,634 - INFO - Round 452/1000
+2026-02-15 15:00:58,962 - INFO -   Silhouette: 0.3077 | School ROC: 0.6034 F1: 0.6300 | Project ROC: 0.6096 F1: 0.2680 
+2026-02-15 15:00:58,962 - INFO - Round 453/1000
+2026-02-15 15:00:59,243 - INFO -   Silhouette: 0.2947 | School ROC: 0.6486 F1: 0.6701 | Project ROC: 0.6500 F1: 0.3091 
+2026-02-15 15:00:59,243 - INFO - Round 454/1000
+2026-02-15 15:00:59,567 - INFO -   Silhouette: 0.3092 | School ROC: 0.6207 F1: 0.6250 | Project ROC: 0.5996 F1: 0.2778 
+2026-02-15 15:00:59,567 - INFO - Round 455/1000
+2026-02-15 15:00:59,803 - INFO -   Silhouette: 0.2480 | School ROC: 0.6194 F1: 0.6321 | Project ROC: 0.5871 F1: 0.2708 
+2026-02-15 15:00:59,803 - INFO - Round 456/1000
+2026-02-15 15:01:00,058 - INFO -   Silhouette: 0.3062 | School ROC: 0.5839 F1: 0.6193 | Project ROC: 0.5610 F1: 0.2602 
+2026-02-15 15:01:00,059 - INFO - Round 457/1000
+2026-02-15 15:01:00,335 - INFO -   Silhouette: 0.2520 | School ROC: 0.5934 F1: 0.5714 | Project ROC: 0.5130 F1: 0.2075 
+2026-02-15 15:01:00,336 - INFO - Round 458/1000
+2026-02-15 15:01:00,595 - INFO -   Silhouette: 0.2862 | School ROC: 0.6288 F1: 0.6289 | Project ROC: 0.6097 F1: 0.2752 
+2026-02-15 15:01:00,595 - INFO - Round 459/1000
+2026-02-15 15:01:00,889 - INFO -   Silhouette: 0.2500 | School ROC: 0.6433 F1: 0.6270 | Project ROC: 0.6672 F1: 0.3368 
+2026-02-15 15:01:00,890 - INFO - Round 460/1000
+2026-02-15 15:01:01,130 - INFO -   Silhouette: 0.2802 | School ROC: 0.6411 F1: 0.6270 | Project ROC: 0.5760 F1: 0.2453 
+2026-02-15 15:01:01,130 - INFO - Round 461/1000
+2026-02-15 15:01:01,462 - INFO -   Silhouette: 0.2823 | School ROC: 0.5960 F1: 0.5969 | Project ROC: 0.5769 F1: 0.2523 
+2026-02-15 15:01:01,463 - INFO - Round 462/1000
+2026-02-15 15:01:01,731 - INFO -   Silhouette: 0.3151 | School ROC: 0.6211 F1: 0.6054 | Project ROC: 0.6011 F1: 0.2680 
+2026-02-15 15:01:01,731 - INFO - Round 463/1000
+2026-02-15 15:01:01,978 - INFO -   Silhouette: 0.2861 | School ROC: 0.5618 F1: 0.5907 | Project ROC: 0.5604 F1: 0.2321 
+2026-02-15 15:01:01,978 - INFO - Round 464/1000
+2026-02-15 15:01:02,293 - INFO -   Silhouette: 0.2865 | School ROC: 0.6240 F1: 0.6421 | Project ROC: 0.6129 F1: 0.2718 
+2026-02-15 15:01:02,294 - INFO - Round 465/1000
+2026-02-15 15:01:02,543 - INFO -   Silhouette: 0.3397 | School ROC: 0.6754 F1: 0.6378 | Project ROC: 0.6494 F1: 0.3276 
+2026-02-15 15:01:02,543 - INFO - Round 466/1000
+2026-02-15 15:01:02,803 - INFO -   Silhouette: 0.2634 | School ROC: 0.6017 F1: 0.6237 | Project ROC: 0.5725 F1: 0.2549 
+2026-02-15 15:01:02,803 - INFO - Round 467/1000
+2026-02-15 15:01:03,137 - INFO -   Silhouette: 0.3478 | School ROC: 0.6301 F1: 0.6310 | Project ROC: 0.6428 F1: 0.2857 
+2026-02-15 15:01:03,137 - INFO - Round 468/1000
+2026-02-15 15:01:03,404 - INFO -   Silhouette: 0.3676 | School ROC: 0.6128 F1: 0.6283 | Project ROC: 0.6385 F1: 0.2857 
+2026-02-15 15:01:03,404 - INFO - Round 469/1000
+2026-02-15 15:01:03,682 - INFO -   Silhouette: 0.3226 | School ROC: 0.6454 F1: 0.6316 | Project ROC: 0.5528 F1: 0.2521 
+2026-02-15 15:01:03,683 - INFO - Round 470/1000
+2026-02-15 15:01:03,921 - INFO -   Silhouette: 0.2954 | School ROC: 0.6458 F1: 0.6492 | Project ROC: 0.6345 F1: 0.2828 
+2026-02-15 15:01:03,921 - INFO - Round 471/1000
+2026-02-15 15:01:04,178 - INFO -   Silhouette: 0.2122 | School ROC: 0.6369 F1: 0.6596 | Project ROC: 0.6075 F1: 0.2941 
+2026-02-15 15:01:04,178 - INFO - Round 472/1000
+2026-02-15 15:01:04,440 - INFO -   Silhouette: 0.3681 | School ROC: 0.6142 F1: 0.6196 | Project ROC: 0.6040 F1: 0.2574 
+2026-02-15 15:01:04,440 - INFO - Round 473/1000
+2026-02-15 15:01:04,686 - INFO -   Silhouette: 0.3490 | School ROC: 0.6235 F1: 0.6178 | Project ROC: 0.6299 F1: 0.3455 
+2026-02-15 15:01:04,687 - INFO - Round 474/1000
+2026-02-15 15:01:05,002 - INFO -   Silhouette: 0.3444 | School ROC: 0.6262 F1: 0.6598 | Project ROC: 0.6121 F1: 0.2936 
+2026-02-15 15:01:05,002 - INFO - Round 475/1000
+2026-02-15 15:01:05,297 - INFO -   Silhouette: 0.2472 | School ROC: 0.5904 F1: 0.5635 | Project ROC: 0.4985 F1: 0.1714 
+2026-02-15 15:01:05,297 - INFO - Round 476/1000
+2026-02-15 15:01:05,557 - INFO -   Silhouette: 0.2665 | School ROC: 0.6085 F1: 0.5820 | Project ROC: 0.6080 F1: 0.2500 
+2026-02-15 15:01:05,557 - INFO - Round 477/1000
+2026-02-15 15:01:05,922 - INFO -   Silhouette: 0.2832 | School ROC: 0.6392 F1: 0.6170 | Project ROC: 0.6230 F1: 0.3119 
+2026-02-15 15:01:05,922 - INFO - Round 478/1000
+2026-02-15 15:01:06,240 - INFO -   Silhouette: 0.3224 | School ROC: 0.6277 F1: 0.6250 | Project ROC: 0.6382 F1: 0.3048 
+2026-02-15 15:01:06,240 - INFO - Round 479/1000
+2026-02-15 15:01:06,524 - INFO -   Silhouette: 0.3050 | School ROC: 0.5998 F1: 0.6162 | Project ROC: 0.6814 F1: 0.3689 ✓
+2026-02-15 15:01:06,644 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:01:06,644 - INFO - Round 480/1000
+2026-02-15 15:01:06,897 - INFO -   Silhouette: 0.2483 | School ROC: 0.6362 F1: 0.6768 | Project ROC: 0.6395 F1: 0.2727 
+2026-02-15 15:01:06,898 - INFO - Round 481/1000
+2026-02-15 15:01:07,234 - INFO -   Silhouette: 0.2581 | School ROC: 0.6265 F1: 0.6087 | Project ROC: 0.5591 F1: 0.2476 
+2026-02-15 15:01:07,234 - INFO - Round 482/1000
+2026-02-15 15:01:07,545 - INFO -   Silhouette: 0.2518 | School ROC: 0.6021 F1: 0.6269 | Project ROC: 0.5639 F1: 0.2308 
+2026-02-15 15:01:07,545 - INFO - Round 483/1000
+2026-02-15 15:01:08,002 - INFO -   Silhouette: 0.2894 | School ROC: 0.6241 F1: 0.5761 | Project ROC: 0.6754 F1: 0.3364 
+2026-02-15 15:01:08,002 - INFO - Round 484/1000
+2026-02-15 15:01:08,279 - INFO -   Silhouette: 0.3020 | School ROC: 0.5922 F1: 0.6186 | Project ROC: 0.6303 F1: 0.2745 
+2026-02-15 15:01:08,279 - INFO - Round 485/1000
+2026-02-15 15:01:08,554 - INFO -   Silhouette: 0.2723 | School ROC: 0.6273 F1: 0.6289 | Project ROC: 0.5600 F1: 0.2545 
+2026-02-15 15:01:08,555 - INFO - Round 486/1000
+2026-02-15 15:01:08,859 - INFO -   Silhouette: 0.2635 | School ROC: 0.6086 F1: 0.5902 | Project ROC: 0.6640 F1: 0.3400 
+2026-02-15 15:01:08,859 - INFO - Round 487/1000
+2026-02-15 15:01:09,118 - INFO -   Silhouette: 0.2074 | School ROC: 0.6190 F1: 0.5824 | Project ROC: 0.6552 F1: 0.3137 
+2026-02-15 15:01:09,119 - INFO - Round 488/1000
+2026-02-15 15:01:09,465 - INFO -   Silhouette: 0.3273 | School ROC: 0.6079 F1: 0.6321 | Project ROC: 0.6145 F1: 0.2400 
+2026-02-15 15:01:09,465 - INFO - Round 489/1000
+2026-02-15 15:01:09,803 - INFO -   Silhouette: 0.2569 | School ROC: 0.6007 F1: 0.6439 | Project ROC: 0.5874 F1: 0.2586 
+2026-02-15 15:01:09,803 - INFO - Round 490/1000
+2026-02-15 15:01:10,106 - INFO -   Silhouette: 0.2795 | School ROC: 0.5966 F1: 0.6392 | Project ROC: 0.5954 F1: 0.2727 
+2026-02-15 15:01:10,106 - INFO - Round 491/1000
+2026-02-15 15:01:10,428 - INFO -   Silhouette: 0.2871 | School ROC: 0.5893 F1: 0.6122 | Project ROC: 0.5439 F1: 0.2366 
+2026-02-15 15:01:10,428 - INFO - Round 492/1000
+2026-02-15 15:01:10,707 - INFO -   Silhouette: 0.2674 | School ROC: 0.6115 F1: 0.6096 | Project ROC: 0.5999 F1: 0.2947 
+2026-02-15 15:01:10,707 - INFO - Round 493/1000
+2026-02-15 15:01:10,977 - INFO -   Silhouette: 0.2066 | School ROC: 0.6374 F1: 0.6044 | Project ROC: 0.4940 F1: 0.2095 
+2026-02-15 15:01:10,978 - INFO - Round 494/1000
+2026-02-15 15:01:11,287 - INFO -   Silhouette: 0.3420 | School ROC: 0.6584 F1: 0.6237 | Project ROC: 0.6472 F1: 0.2857 
+2026-02-15 15:01:11,287 - INFO - Round 495/1000
+2026-02-15 15:01:11,554 - INFO -   Silhouette: 0.3421 | School ROC: 0.5953 F1: 0.5775 | Project ROC: 0.6027 F1: 0.2449 
+2026-02-15 15:01:11,555 - INFO - Round 496/1000
+2026-02-15 15:01:11,819 - INFO -   Silhouette: 0.3320 | School ROC: 0.6171 F1: 0.6354 | Project ROC: 0.6196 F1: 0.2936 
+2026-02-15 15:01:11,819 - INFO - Round 497/1000
+2026-02-15 15:01:12,069 - INFO -   Silhouette: 0.2849 | School ROC: 0.6330 F1: 0.5882 | Project ROC: 0.6331 F1: 0.2832 
+2026-02-15 15:01:12,069 - INFO - Round 498/1000
+2026-02-15 15:01:12,346 - INFO -   Silhouette: 0.2871 | School ROC: 0.5940 F1: 0.5902 | Project ROC: 0.6078 F1: 0.2637 
+2026-02-15 15:01:12,346 - INFO - Round 499/1000
+2026-02-15 15:01:12,577 - INFO -   Silhouette: 0.2523 | School ROC: 0.5861 F1: 0.6044 | Project ROC: 0.5454 F1: 0.2712 
+2026-02-15 15:01:12,577 - INFO - Round 500/1000
+2026-02-15 15:01:12,828 - INFO -   Silhouette: 0.2283 | School ROC: 0.6135 F1: 0.6264 | Project ROC: 0.5608 F1: 0.2474 
+2026-02-15 15:01:12,828 - INFO - Round 501/1000
+2026-02-15 15:01:13,098 - INFO -   Silhouette: 0.3322 | School ROC: 0.6480 F1: 0.6425 | Project ROC: 0.6017 F1: 0.3048 
+2026-02-15 15:01:13,098 - INFO - Round 502/1000
+2026-02-15 15:01:13,331 - INFO -   Silhouette: 0.3516 | School ROC: 0.6043 F1: 0.5989 | Project ROC: 0.6113 F1: 0.2828 
+2026-02-15 15:01:13,331 - INFO - Round 503/1000
+2026-02-15 15:01:13,615 - INFO -   Silhouette: 0.2683 | School ROC: 0.6249 F1: 0.6667 | Project ROC: 0.6032 F1: 0.2642 
+2026-02-15 15:01:13,615 - INFO - Round 504/1000
+2026-02-15 15:01:13,893 - INFO -   Silhouette: 0.2033 | School ROC: 0.6522 F1: 0.6222 | Project ROC: 0.6342 F1: 0.3469 
+2026-02-15 15:01:13,893 - INFO - Round 505/1000
+2026-02-15 15:01:14,157 - INFO -   Silhouette: 0.2342 | School ROC: 0.6258 F1: 0.6034 | Project ROC: 0.5515 F1: 0.2128 
+2026-02-15 15:01:14,157 - INFO - Round 506/1000
+2026-02-15 15:01:14,418 - INFO -   Silhouette: 0.2434 | School ROC: 0.6027 F1: 0.5955 | Project ROC: 0.6472 F1: 0.3265 
+2026-02-15 15:01:14,418 - INFO - Round 507/1000
+2026-02-15 15:01:14,720 - INFO -   Silhouette: 0.3204 | School ROC: 0.6075 F1: 0.6129 | Project ROC: 0.6185 F1: 0.3158 
+2026-02-15 15:01:14,720 - INFO - Round 508/1000
+2026-02-15 15:01:14,994 - INFO -   Silhouette: 0.2937 | School ROC: 0.6065 F1: 0.5902 | Project ROC: 0.6102 F1: 0.2800 
+2026-02-15 15:01:14,995 - INFO - Round 509/1000
+2026-02-15 15:01:15,303 - INFO -   Silhouette: 0.2690 | School ROC: 0.6251 F1: 0.5938 | Project ROC: 0.5372 F1: 0.2407 
+2026-02-15 15:01:15,304 - INFO - Round 510/1000
+2026-02-15 15:01:15,568 - INFO -   Silhouette: 0.2608 | School ROC: 0.6051 F1: 0.6082 | Project ROC: 0.5554 F1: 0.2376 
+2026-02-15 15:01:15,569 - INFO - Round 511/1000
+2026-02-15 15:01:15,897 - INFO -   Silhouette: 0.2812 | School ROC: 0.6071 F1: 0.6531 | Project ROC: 0.5727 F1: 0.2476 
+2026-02-15 15:01:15,897 - INFO - Round 512/1000
+2026-02-15 15:01:16,132 - INFO -   Silhouette: 0.2880 | School ROC: 0.6420 F1: 0.6354 | Project ROC: 0.5925 F1: 0.2667 
+2026-02-15 15:01:16,133 - INFO - Round 513/1000
+2026-02-15 15:01:16,458 - INFO -   Silhouette: 0.3812 | School ROC: 0.6060 F1: 0.6211 | Project ROC: 0.5659 F1: 0.2430 
+2026-02-15 15:01:16,459 - INFO - Round 514/1000
+2026-02-15 15:01:16,718 - INFO -   Silhouette: 0.2777 | School ROC: 0.6230 F1: 0.6378 | Project ROC: 0.5591 F1: 0.2655 
+2026-02-15 15:01:16,718 - INFO - Round 515/1000
+2026-02-15 15:01:16,974 - INFO -   Silhouette: 0.3089 | School ROC: 0.5726 F1: 0.6154 | Project ROC: 0.5762 F1: 0.2857 
+2026-02-15 15:01:16,975 - INFO - Round 516/1000
+2026-02-15 15:01:17,274 - INFO -   Silhouette: 0.2778 | School ROC: 0.6355 F1: 0.6364 | Project ROC: 0.6554 F1: 0.2909 
+2026-02-15 15:01:17,274 - INFO - Round 517/1000
+2026-02-15 15:01:17,543 - INFO -   Silhouette: 0.2443 | School ROC: 0.6799 F1: 0.6522 | Project ROC: 0.6067 F1: 0.2857 
+2026-02-15 15:01:17,543 - INFO - Round 518/1000
+2026-02-15 15:01:17,807 - INFO -   Silhouette: 0.3294 | School ROC: 0.6178 F1: 0.6392 | Project ROC: 0.5741 F1: 0.2735 
+2026-02-15 15:01:17,807 - INFO - Round 519/1000
+2026-02-15 15:01:18,205 - INFO -   Silhouette: 0.2810 | School ROC: 0.6153 F1: 0.6032 | Project ROC: 0.6131 F1: 0.3000 
+2026-02-15 15:01:18,205 - INFO - Round 520/1000
+2026-02-15 15:01:18,479 - INFO -   Silhouette: 0.2794 | School ROC: 0.6344 F1: 0.6077 | Project ROC: 0.6592 F1: 0.3261 
+2026-02-15 15:01:18,480 - INFO - Round 521/1000
+2026-02-15 15:01:18,737 - INFO -   Silhouette: 0.2815 | School ROC: 0.6204 F1: 0.6154 | Project ROC: 0.5848 F1: 0.2832 
+2026-02-15 15:01:18,737 - INFO - Round 522/1000
+2026-02-15 15:01:19,005 - INFO -   Silhouette: 0.3420 | School ROC: 0.6026 F1: 0.6178 | Project ROC: 0.5522 F1: 0.2330 
+2026-02-15 15:01:19,006 - INFO - Round 523/1000
+2026-02-15 15:01:19,248 - INFO -   Silhouette: 0.2019 | School ROC: 0.5817 F1: 0.5561 | Project ROC: 0.5480 F1: 0.2500 
+2026-02-15 15:01:19,249 - INFO - Round 524/1000
+2026-02-15 15:01:19,573 - INFO -   Silhouette: 0.2900 | School ROC: 0.6911 F1: 0.6562 | Project ROC: 0.6027 F1: 0.2545 
+2026-02-15 15:01:19,574 - INFO - Round 525/1000
+2026-02-15 15:01:19,875 - INFO -   Silhouette: 0.3302 | School ROC: 0.6002 F1: 0.6042 | Project ROC: 0.5587 F1: 0.2430 
+2026-02-15 15:01:19,875 - INFO - Round 526/1000
+2026-02-15 15:01:20,217 - INFO -   Silhouette: 0.3389 | School ROC: 0.6043 F1: 0.6000 | Project ROC: 0.6125 F1: 0.2340 
+2026-02-15 15:01:20,217 - INFO - Round 527/1000
+2026-02-15 15:01:20,572 - INFO -   Silhouette: 0.3201 | School ROC: 0.5926 F1: 0.6010 | Project ROC: 0.5411 F1: 0.2115 
+2026-02-15 15:01:20,572 - INFO - Round 528/1000
+2026-02-15 15:01:20,918 - INFO -   Silhouette: 0.2912 | School ROC: 0.6154 F1: 0.5955 | Project ROC: 0.5244 F1: 0.1856 
+2026-02-15 15:01:20,918 - INFO - Round 529/1000
+2026-02-15 15:01:21,174 - INFO -   Silhouette: 0.2788 | School ROC: 0.5866 F1: 0.5464 | Project ROC: 0.5770 F1: 0.3093 
+2026-02-15 15:01:21,175 - INFO - Round 530/1000
+2026-02-15 15:01:21,458 - INFO -   Silhouette: 0.3007 | School ROC: 0.6390 F1: 0.6138 | Project ROC: 0.6010 F1: 0.3048 
+2026-02-15 15:01:21,459 - INFO - Round 531/1000
+2026-02-15 15:01:21,701 - INFO -   Silhouette: 0.2800 | School ROC: 0.6123 F1: 0.6354 | Project ROC: 0.5308 F1: 0.2308 
+2026-02-15 15:01:21,702 - INFO - Round 532/1000
+2026-02-15 15:01:21,967 - INFO -   Silhouette: 0.3084 | School ROC: 0.5813 F1: 0.5714 | Project ROC: 0.6183 F1: 0.2424 
+2026-02-15 15:01:21,968 - INFO - Round 533/1000
+2026-02-15 15:01:22,235 - INFO -   Silhouette: 0.2205 | School ROC: 0.5866 F1: 0.5730 | Project ROC: 0.6301 F1: 0.3107 
+2026-02-15 15:01:22,235 - INFO - Round 534/1000
+2026-02-15 15:01:22,491 - INFO -   Silhouette: 0.3975 | School ROC: 0.6203 F1: 0.6289 | Project ROC: 0.6278 F1: 0.2909 
+2026-02-15 15:01:22,491 - INFO - Round 535/1000
+2026-02-15 15:01:22,732 - INFO -   Silhouette: 0.2639 | School ROC: 0.5743 F1: 0.5684 | Project ROC: 0.5381 F1: 0.2456 
+2026-02-15 15:01:22,732 - INFO - Round 536/1000
+2026-02-15 15:01:23,042 - INFO -   Silhouette: 0.2393 | School ROC: 0.6211 F1: 0.6111 | Project ROC: 0.5874 F1: 0.2857 
+2026-02-15 15:01:23,043 - INFO - Round 537/1000
+2026-02-15 15:01:23,311 - INFO -   Silhouette: 0.3475 | School ROC: 0.6079 F1: 0.6231 | Project ROC: 0.6247 F1: 0.2800 
+2026-02-15 15:01:23,312 - INFO - Round 538/1000
+2026-02-15 15:01:23,572 - INFO -   Silhouette: 0.3738 | School ROC: 0.6005 F1: 0.5820 | Project ROC: 0.5907 F1: 0.2549 
+2026-02-15 15:01:23,572 - INFO - Round 539/1000
+2026-02-15 15:01:23,852 - INFO -   Silhouette: 0.3029 | School ROC: 0.6362 F1: 0.6396 | Project ROC: 0.6199 F1: 0.3148 
+2026-02-15 15:01:23,852 - INFO - Round 540/1000
+2026-02-15 15:01:24,097 - INFO -   Silhouette: 0.2721 | School ROC: 0.6174 F1: 0.6341 | Project ROC: 0.5588 F1: 0.2342 
+2026-02-15 15:01:24,097 - INFO - Round 541/1000
+2026-02-15 15:01:24,378 - INFO -   Silhouette: 0.2986 | School ROC: 0.5981 F1: 0.6020 | Project ROC: 0.5604 F1: 0.2500 
+2026-02-15 15:01:24,379 - INFO - Round 542/1000
+2026-02-15 15:01:24,711 - INFO -   Silhouette: 0.2327 | School ROC: 0.6463 F1: 0.6154 | Project ROC: 0.6268 F1: 0.2680 
+2026-02-15 15:01:24,711 - INFO - Round 543/1000
+2026-02-15 15:01:24,957 - INFO -   Silhouette: 0.2801 | School ROC: 0.6262 F1: 0.6264 | Project ROC: 0.6503 F1: 0.2824 
+2026-02-15 15:01:24,958 - INFO - Round 544/1000
+2026-02-15 15:01:25,274 - INFO -   Silhouette: 0.3052 | School ROC: 0.6354 F1: 0.6203 | Project ROC: 0.6212 F1: 0.3000 
+2026-02-15 15:01:25,274 - INFO - Round 545/1000
+2026-02-15 15:01:25,550 - INFO -   Silhouette: 0.2967 | School ROC: 0.6047 F1: 0.6196 | Project ROC: 0.5877 F1: 0.2366 
+2026-02-15 15:01:25,550 - INFO - Round 546/1000
+2026-02-15 15:01:25,887 - INFO -   Silhouette: 0.3414 | School ROC: 0.6227 F1: 0.6425 | Project ROC: 0.5759 F1: 0.2804 
+2026-02-15 15:01:25,887 - INFO - Round 547/1000
+2026-02-15 15:01:26,218 - INFO -   Silhouette: 0.2364 | School ROC: 0.5902 F1: 0.5683 | Project ROC: 0.5179 F1: 0.1942 
+2026-02-15 15:01:26,219 - INFO - Round 548/1000
+2026-02-15 15:01:26,500 - INFO -   Silhouette: 0.3235 | School ROC: 0.6426 F1: 0.6417 | Project ROC: 0.6458 F1: 0.2963 
+2026-02-15 15:01:26,501 - INFO - Round 549/1000
+2026-02-15 15:01:26,745 - INFO -   Silhouette: 0.2638 | School ROC: 0.6116 F1: 0.6044 | Project ROC: 0.5966 F1: 0.2680 
+2026-02-15 15:01:26,745 - INFO - Round 550/1000
+2026-02-15 15:01:26,998 - INFO -   Silhouette: 0.3192 | School ROC: 0.5958 F1: 0.6154 | Project ROC: 0.6017 F1: 0.2626 
+2026-02-15 15:01:26,998 - INFO - Round 551/1000
+2026-02-15 15:01:27,203 - INFO -   Silhouette: 0.3409 | School ROC: 0.6331 F1: 0.6294 | Project ROC: 0.6053 F1: 0.3119 
+2026-02-15 15:01:27,203 - INFO - Round 552/1000
+2026-02-15 15:01:27,470 - INFO -   Silhouette: 0.2475 | School ROC: 0.6279 F1: 0.6495 | Project ROC: 0.5673 F1: 0.2435 
+2026-02-15 15:01:27,470 - INFO - Round 553/1000
+2026-02-15 15:01:27,752 - INFO -   Silhouette: 0.2326 | School ROC: 0.6125 F1: 0.6146 | Project ROC: 0.6312 F1: 0.2991 
+2026-02-15 15:01:27,753 - INFO - Round 554/1000
+2026-02-15 15:01:28,005 - INFO -   Silhouette: 0.2666 | School ROC: 0.5863 F1: 0.5608 | Project ROC: 0.6167 F1: 0.2970 
+2026-02-15 15:01:28,006 - INFO - Round 555/1000
+2026-02-15 15:01:28,263 - INFO -   Silhouette: 0.3304 | School ROC: 0.6325 F1: 0.6250 | Project ROC: 0.6147 F1: 0.2857 
+2026-02-15 15:01:28,264 - INFO - Round 556/1000
+2026-02-15 15:01:28,544 - INFO -   Silhouette: 0.3159 | School ROC: 0.6034 F1: 0.5882 | Project ROC: 0.5859 F1: 0.2885 
+2026-02-15 15:01:28,544 - INFO - Round 557/1000
+2026-02-15 15:01:28,799 - INFO -   Silhouette: 0.2756 | School ROC: 0.6341 F1: 0.6432 | Project ROC: 0.6132 F1: 0.2906 
+2026-02-15 15:01:28,800 - INFO - Round 558/1000
+2026-02-15 15:01:29,089 - INFO -   Silhouette: 0.2630 | School ROC: 0.6192 F1: 0.6863 | Project ROC: 0.5750 F1: 0.2435 ✓
+2026-02-15 15:01:29,200 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:01:29,200 - INFO - Round 559/1000
+2026-02-15 15:01:29,405 - INFO -   Silhouette: 0.3265 | School ROC: 0.5981 F1: 0.5838 | Project ROC: 0.5245 F1: 0.2330 
+2026-02-15 15:01:29,406 - INFO - Round 560/1000
+2026-02-15 15:01:29,666 - INFO -   Silhouette: 0.3404 | School ROC: 0.6020 F1: 0.5957 | Project ROC: 0.6020 F1: 0.2991 
+2026-02-15 15:01:29,667 - INFO - Round 561/1000
+2026-02-15 15:01:30,042 - INFO -   Silhouette: 0.2553 | School ROC: 0.5672 F1: 0.6224 | Project ROC: 0.5592 F1: 0.2500 
+2026-02-15 15:01:30,042 - INFO - Round 562/1000
+2026-02-15 15:01:30,276 - INFO -   Silhouette: 0.3166 | School ROC: 0.6107 F1: 0.6354 | Project ROC: 0.6352 F1: 0.2593 
+2026-02-15 15:01:30,277 - INFO - Round 563/1000
+2026-02-15 15:01:30,529 - INFO -   Silhouette: 0.3162 | School ROC: 0.5758 F1: 0.5838 | Project ROC: 0.5433 F1: 0.2136 
+2026-02-15 15:01:30,530 - INFO - Round 564/1000
+2026-02-15 15:01:30,782 - INFO -   Silhouette: 0.2651 | School ROC: 0.5962 F1: 0.6667 | Project ROC: 0.5947 F1: 0.2617 
+2026-02-15 15:01:30,783 - INFO - Round 565/1000
+2026-02-15 15:01:31,072 - INFO -   Silhouette: 0.1856 | School ROC: 0.6414 F1: 0.6413 | Project ROC: 0.5020 F1: 0.1739 
+2026-02-15 15:01:31,072 - INFO - Round 566/1000
+2026-02-15 15:01:31,400 - INFO -   Silhouette: 0.3235 | School ROC: 0.6242 F1: 0.6243 | Project ROC: 0.5966 F1: 0.2778 
+2026-02-15 15:01:31,401 - INFO - Round 567/1000
+2026-02-15 15:01:31,676 - INFO -   Silhouette: 0.2175 | School ROC: 0.6468 F1: 0.6277 | Project ROC: 0.6392 F1: 0.3303 
+2026-02-15 15:01:31,676 - INFO - Round 568/1000
+2026-02-15 15:01:31,939 - INFO -   Silhouette: 0.2771 | School ROC: 0.5898 F1: 0.5978 | Project ROC: 0.6611 F1: 0.3333 
+2026-02-15 15:01:31,940 - INFO - Round 569/1000
+2026-02-15 15:01:32,264 - INFO -   Silhouette: 0.3102 | School ROC: 0.6328 F1: 0.5889 | Project ROC: 0.6551 F1: 0.3214 
+2026-02-15 15:01:32,265 - INFO - Round 570/1000
+2026-02-15 15:01:32,607 - INFO -   Silhouette: 0.2558 | School ROC: 0.6275 F1: 0.6188 | Project ROC: 0.6363 F1: 0.2737 
+2026-02-15 15:01:32,607 - INFO - Round 571/1000
+2026-02-15 15:01:32,921 - INFO -   Silhouette: 0.2334 | School ROC: 0.6661 F1: 0.6562 | Project ROC: 0.5872 F1: 0.2885 
+2026-02-15 15:01:32,922 - INFO - Round 572/1000
+2026-02-15 15:01:33,226 - INFO -   Silhouette: 0.2530 | School ROC: 0.6108 F1: 0.6392 | Project ROC: 0.5925 F1: 0.2642 
+2026-02-15 15:01:33,227 - INFO - Round 573/1000
+2026-02-15 15:01:33,482 - INFO -   Silhouette: 0.2546 | School ROC: 0.6585 F1: 0.6522 | Project ROC: 0.5648 F1: 0.2364 
+2026-02-15 15:01:33,483 - INFO - Round 574/1000
+2026-02-15 15:01:33,788 - INFO -   Silhouette: 0.2760 | School ROC: 0.5935 F1: 0.5618 | Project ROC: 0.6328 F1: 0.3030 
+2026-02-15 15:01:33,789 - INFO - Round 575/1000
+2026-02-15 15:01:34,047 - INFO -   Silhouette: 0.2710 | School ROC: 0.6036 F1: 0.6200 | Project ROC: 0.5064 F1: 0.1942 
+2026-02-15 15:01:34,047 - INFO - Round 576/1000
+2026-02-15 15:01:34,364 - INFO -   Silhouette: 0.3023 | School ROC: 0.6335 F1: 0.6310 | Project ROC: 0.6055 F1: 0.2745 
+2026-02-15 15:01:34,365 - INFO - Round 577/1000
+2026-02-15 15:01:34,654 - INFO -   Silhouette: 0.2258 | School ROC: 0.6360 F1: 0.6178 | Project ROC: 0.5446 F1: 0.2264 
+2026-02-15 15:01:34,654 - INFO - Round 578/1000
+2026-02-15 15:01:34,905 - INFO -   Silhouette: 0.3277 | School ROC: 0.6286 F1: 0.6203 | Project ROC: 0.6173 F1: 0.3200 
+2026-02-15 15:01:34,905 - INFO - Round 579/1000
+2026-02-15 15:01:35,158 - INFO -   Silhouette: 0.3049 | School ROC: 0.5937 F1: 0.6096 | Project ROC: 0.5915 F1: 0.2885 
+2026-02-15 15:01:35,158 - INFO - Round 580/1000
+2026-02-15 15:01:35,438 - INFO -   Silhouette: 0.3119 | School ROC: 0.6335 F1: 0.6243 | Project ROC: 0.6096 F1: 0.2885 
+2026-02-15 15:01:35,438 - INFO - Round 581/1000
+2026-02-15 15:01:35,676 - INFO -   Silhouette: 0.2717 | School ROC: 0.5768 F1: 0.5978 | Project ROC: 0.5468 F1: 0.2430 
+2026-02-15 15:01:35,676 - INFO - Round 582/1000
+2026-02-15 15:01:35,946 - INFO -   Silhouette: 0.2903 | School ROC: 0.6322 F1: 0.6344 | Project ROC: 0.5664 F1: 0.2667 
+2026-02-15 15:01:35,946 - INFO - Round 583/1000
+2026-02-15 15:01:36,301 - INFO -   Silhouette: 0.2386 | School ROC: 0.6037 F1: 0.6283 | Project ROC: 0.5356 F1: 0.2308 
+2026-02-15 15:01:36,302 - INFO - Round 584/1000
+2026-02-15 15:01:36,535 - INFO -   Silhouette: 0.2559 | School ROC: 0.6609 F1: 0.6667 | Project ROC: 0.6398 F1: 0.2804 
+2026-02-15 15:01:36,535 - INFO - Round 585/1000
+2026-02-15 15:01:36,819 - INFO -   Silhouette: 0.3674 | School ROC: 0.6078 F1: 0.6170 | Project ROC: 0.6061 F1: 0.2752 
+2026-02-15 15:01:36,820 - INFO - Round 586/1000
+2026-02-15 15:01:37,128 - INFO -   Silhouette: 0.3088 | School ROC: 0.6282 F1: 0.6387 | Project ROC: 0.6023 F1: 0.2400 
+2026-02-15 15:01:37,128 - INFO - Round 587/1000
+2026-02-15 15:01:37,380 - INFO -   Silhouette: 0.2659 | School ROC: 0.6088 F1: 0.6211 | Project ROC: 0.5760 F1: 0.3019 
+2026-02-15 15:01:37,381 - INFO - Round 588/1000
+2026-02-15 15:01:37,643 - INFO -   Silhouette: 0.3079 | School ROC: 0.5900 F1: 0.6077 | Project ROC: 0.6322 F1: 0.2941 
+2026-02-15 15:01:37,643 - INFO - Round 589/1000
+2026-02-15 15:01:37,907 - INFO -   Silhouette: 0.2098 | School ROC: 0.5980 F1: 0.5829 | Project ROC: 0.5744 F1: 0.2759 
+2026-02-15 15:01:37,907 - INFO - Round 590/1000
+2026-02-15 15:01:38,225 - INFO -   Silhouette: 0.3133 | School ROC: 0.5849 F1: 0.6368 | Project ROC: 0.5991 F1: 0.2752 
+2026-02-15 15:01:38,231 - INFO - Round 591/1000
+2026-02-15 15:01:38,523 - INFO -   Silhouette: 0.2810 | School ROC: 0.6645 F1: 0.6595 | Project ROC: 0.6065 F1: 0.2909 
+2026-02-15 15:01:38,523 - INFO - Round 592/1000
+2026-02-15 15:01:38,800 - INFO -   Silhouette: 0.2769 | School ROC: 0.6001 F1: 0.5870 | Project ROC: 0.5851 F1: 0.2828 
+2026-02-15 15:01:38,800 - INFO - Round 593/1000
+2026-02-15 15:01:39,109 - INFO -   Silhouette: 0.2961 | School ROC: 0.6222 F1: 0.6667 | Project ROC: 0.5299 F1: 0.2301 
+2026-02-15 15:01:39,109 - INFO - Round 594/1000
+2026-02-15 15:01:39,410 - INFO -   Silhouette: 0.2879 | School ROC: 0.6013 F1: 0.6077 | Project ROC: 0.6555 F1: 0.3158 
+2026-02-15 15:01:39,411 - INFO - Round 595/1000
+2026-02-15 15:01:39,672 - INFO -   Silhouette: 0.2038 | School ROC: 0.6506 F1: 0.6111 | Project ROC: 0.5045 F1: 0.1935 
+2026-02-15 15:01:39,673 - INFO - Round 596/1000
+2026-02-15 15:01:39,971 - INFO -   Silhouette: 0.3497 | School ROC: 0.6346 F1: 0.6458 | Project ROC: 0.5889 F1: 0.2523 
+2026-02-15 15:01:39,971 - INFO - Round 597/1000
+2026-02-15 15:01:40,244 - INFO -   Silhouette: 0.2656 | School ROC: 0.6214 F1: 0.6526 | Project ROC: 0.5664 F1: 0.2679 
+2026-02-15 15:01:40,244 - INFO - Round 598/1000
+2026-02-15 15:01:40,506 - INFO -   Silhouette: 0.3092 | School ROC: 0.6153 F1: 0.6032 | Project ROC: 0.5305 F1: 0.1961 
+2026-02-15 15:01:40,506 - INFO - Round 599/1000
+2026-02-15 15:01:40,768 - INFO -   Silhouette: 0.3040 | School ROC: 0.5869 F1: 0.5820 | Project ROC: 0.6015 F1: 0.2626 
+2026-02-15 15:01:40,769 - INFO - Round 600/1000
+2026-02-15 15:01:41,046 - INFO -   Silhouette: 0.2396 | School ROC: 0.6107 F1: 0.6122 | Project ROC: 0.6361 F1: 0.2936 
+2026-02-15 15:01:41,046 - INFO - Round 601/1000
+2026-02-15 15:01:41,386 - INFO -   Silhouette: 0.3117 | School ROC: 0.5478 F1: 0.5907 | Project ROC: 0.5830 F1: 0.2545 
+2026-02-15 15:01:41,387 - INFO - Round 602/1000
+2026-02-15 15:01:41,600 - INFO -   Silhouette: 0.3082 | School ROC: 0.5771 F1: 0.6034 | Project ROC: 0.5913 F1: 0.2979 
+2026-02-15 15:01:41,601 - INFO - Round 603/1000
+2026-02-15 15:01:41,858 - INFO -   Silhouette: 0.2878 | School ROC: 0.6405 F1: 0.6277 | Project ROC: 0.6156 F1: 0.2963 
+2026-02-15 15:01:41,859 - INFO - Round 604/1000
+2026-02-15 15:01:42,168 - INFO -   Silhouette: 0.3699 | School ROC: 0.6222 F1: 0.6237 | Project ROC: 0.6382 F1: 0.2626 
+2026-02-15 15:01:42,168 - INFO - Round 605/1000
+2026-02-15 15:01:42,419 - INFO -   Silhouette: 0.3422 | School ROC: 0.6033 F1: 0.6178 | Project ROC: 0.5811 F1: 0.2593 
+2026-02-15 15:01:42,419 - INFO - Round 606/1000
+2026-02-15 15:01:42,668 - INFO -   Silhouette: 0.3149 | School ROC: 0.6267 F1: 0.6458 | Project ROC: 0.6272 F1: 0.3200 
+2026-02-15 15:01:42,669 - INFO - Round 607/1000
+2026-02-15 15:01:42,959 - INFO -   Silhouette: 0.2396 | School ROC: 0.6002 F1: 0.5574 | Project ROC: 0.4841 F1: 0.2018 
+2026-02-15 15:01:42,959 - INFO - Round 608/1000
+2026-02-15 15:01:43,212 - INFO -   Silhouette: 0.2829 | School ROC: 0.6045 F1: 0.6224 | Project ROC: 0.5601 F1: 0.2655 
+2026-02-15 15:01:43,213 - INFO - Round 609/1000
+2026-02-15 15:01:43,489 - INFO -   Silhouette: 0.3224 | School ROC: 0.5998 F1: 0.5989 | Project ROC: 0.6415 F1: 0.2830 
+2026-02-15 15:01:43,490 - INFO - Round 610/1000
+2026-02-15 15:01:43,755 - INFO -   Silhouette: 0.2583 | School ROC: 0.6176 F1: 0.6011 | Project ROC: 0.6691 F1: 0.3232 
+2026-02-15 15:01:43,755 - INFO - Round 611/1000
+2026-02-15 15:01:44,102 - INFO -   Silhouette: 0.3787 | School ROC: 0.6051 F1: 0.6633 | Project ROC: 0.5900 F1: 0.2759 
+2026-02-15 15:01:44,103 - INFO - Round 612/1000
+2026-02-15 15:01:44,494 - INFO -   Silhouette: 0.2523 | School ROC: 0.5879 F1: 0.6316 | Project ROC: 0.5731 F1: 0.2804 
+2026-02-15 15:01:44,495 - INFO - Round 613/1000
+2026-02-15 15:01:44,759 - INFO -   Silhouette: 0.2901 | School ROC: 0.5798 F1: 0.5914 | Project ROC: 0.5149 F1: 0.2385 
+2026-02-15 15:01:44,759 - INFO - Round 614/1000
+2026-02-15 15:01:45,006 - INFO -   Silhouette: 0.2741 | School ROC: 0.6122 F1: 0.6203 | Project ROC: 0.6401 F1: 0.3269 
+2026-02-15 15:01:45,006 - INFO - Round 615/1000
+2026-02-15 15:01:45,368 - INFO -   Silhouette: 0.3563 | School ROC: 0.6066 F1: 0.5934 | Project ROC: 0.6294 F1: 0.3107 
+2026-02-15 15:01:45,368 - INFO - Round 616/1000
+2026-02-15 15:01:45,669 - INFO -   Silhouette: 0.2793 | School ROC: 0.6019 F1: 0.6569 | Project ROC: 0.5578 F1: 0.2453 
+2026-02-15 15:01:45,670 - INFO - Round 617/1000
+2026-02-15 15:01:45,999 - INFO -   Silhouette: 0.3145 | School ROC: 0.6302 F1: 0.6082 | Project ROC: 0.6469 F1: 0.3168 
+2026-02-15 15:01:45,999 - INFO - Round 618/1000
+2026-02-15 15:01:46,268 - INFO -   Silhouette: 0.2807 | School ROC: 0.6094 F1: 0.6186 | Project ROC: 0.5937 F1: 0.2857 
+2026-02-15 15:01:46,268 - INFO - Round 619/1000
+2026-02-15 15:01:46,511 - INFO -   Silhouette: 0.2910 | School ROC: 0.6042 F1: 0.6129 | Project ROC: 0.5541 F1: 0.2449 
+2026-02-15 15:01:46,511 - INFO - Round 620/1000
+2026-02-15 15:01:46,778 - INFO -   Silhouette: 0.2717 | School ROC: 0.6130 F1: 0.5902 | Project ROC: 0.6144 F1: 0.3168 
+2026-02-15 15:01:46,779 - INFO - Round 621/1000
+2026-02-15 15:01:47,016 - INFO -   Silhouette: 0.3251 | School ROC: 0.6024 F1: 0.5775 | Project ROC: 0.6236 F1: 0.3030 
+2026-02-15 15:01:47,016 - INFO - Round 622/1000
+2026-02-15 15:01:47,302 - INFO -   Silhouette: 0.2406 | School ROC: 0.5903 F1: 0.6170 | Project ROC: 0.6169 F1: 0.2667 
+2026-02-15 15:01:47,303 - INFO - Round 623/1000
+2026-02-15 15:01:47,590 - INFO -   Silhouette: 0.3165 | School ROC: 0.6215 F1: 0.6701 | Project ROC: 0.5746 F1: 0.2857 
+2026-02-15 15:01:47,591 - INFO - Round 624/1000
+2026-02-15 15:01:47,868 - INFO -   Silhouette: 0.3310 | School ROC: 0.6335 F1: 0.6064 | Project ROC: 0.6134 F1: 0.3030 
+2026-02-15 15:01:47,869 - INFO - Round 625/1000
+2026-02-15 15:01:48,168 - INFO -   Silhouette: 0.3070 | School ROC: 0.6207 F1: 0.6337 | Project ROC: 0.5690 F1: 0.2645 
+2026-02-15 15:01:48,168 - INFO - Round 626/1000
+2026-02-15 15:01:48,477 - INFO -   Silhouette: 0.3666 | School ROC: 0.6355 F1: 0.6562 | Project ROC: 0.6099 F1: 0.2424 
+2026-02-15 15:01:48,477 - INFO - Round 627/1000
+2026-02-15 15:01:48,792 - INFO -   Silhouette: 0.3731 | School ROC: 0.6249 F1: 0.6531 | Project ROC: 0.6074 F1: 0.2857 
+2026-02-15 15:01:48,792 - INFO - Round 628/1000
+2026-02-15 15:01:49,112 - INFO -   Silhouette: 0.2889 | School ROC: 0.5840 F1: 0.5957 | Project ROC: 0.5390 F1: 0.2407 
+2026-02-15 15:01:49,112 - INFO - Round 629/1000
+2026-02-15 15:01:49,355 - INFO -   Silhouette: 0.3123 | School ROC: 0.6019 F1: 0.6203 | Project ROC: 0.5748 F1: 0.2885 
+2026-02-15 15:01:49,355 - INFO - Round 630/1000
+2026-02-15 15:01:49,625 - INFO -   Silhouette: 0.2299 | School ROC: 0.6406 F1: 0.6417 | Project ROC: 0.6110 F1: 0.2885 
+2026-02-15 15:01:49,625 - INFO - Round 631/1000
+2026-02-15 15:01:49,902 - INFO -   Silhouette: 0.2834 | School ROC: 0.6254 F1: 0.6667 | Project ROC: 0.6331 F1: 0.2963 
+2026-02-15 15:01:49,902 - INFO - Round 632/1000
+2026-02-15 15:01:50,242 - INFO -   Silhouette: 0.2789 | School ROC: 0.5768 F1: 0.6238 | Project ROC: 0.5557 F1: 0.2414 
+2026-02-15 15:01:50,251 - INFO - Round 633/1000
+2026-02-15 15:01:50,565 - INFO -   Silhouette: 0.3413 | School ROC: 0.6217 F1: 0.6064 | Project ROC: 0.6201 F1: 0.2970 
+2026-02-15 15:01:50,565 - INFO - Round 634/1000
+2026-02-15 15:01:50,813 - INFO -   Silhouette: 0.3410 | School ROC: 0.6051 F1: 0.5979 | Project ROC: 0.5983 F1: 0.2778 
+2026-02-15 15:01:50,813 - INFO - Round 635/1000
+2026-02-15 15:01:51,058 - INFO -   Silhouette: 0.3797 | School ROC: 0.6128 F1: 0.5761 | Project ROC: 0.5816 F1: 0.2593 
+2026-02-15 15:01:51,058 - INFO - Round 636/1000
+2026-02-15 15:01:51,332 - INFO -   Silhouette: 0.3744 | School ROC: 0.6051 F1: 0.6256 | Project ROC: 0.6245 F1: 0.3091 
+2026-02-15 15:01:51,332 - INFO - Round 637/1000
+2026-02-15 15:01:51,605 - INFO -   Silhouette: 0.2103 | School ROC: 0.6552 F1: 0.6047 | Project ROC: 0.4997 F1: 0.1556 
+2026-02-15 15:01:51,605 - INFO - Round 638/1000
+2026-02-15 15:01:51,850 - INFO -   Silhouette: 0.2767 | School ROC: 0.6100 F1: 0.6701 | Project ROC: 0.5594 F1: 0.2500 
+2026-02-15 15:01:51,850 - INFO - Round 639/1000
+2026-02-15 15:01:52,171 - INFO -   Silhouette: 0.2963 | School ROC: 0.6326 F1: 0.6087 | Project ROC: 0.6218 F1: 0.3048 
+2026-02-15 15:01:52,171 - INFO - Round 640/1000
+2026-02-15 15:01:52,494 - INFO -   Silhouette: 0.2448 | School ROC: 0.5938 F1: 0.6051 | Project ROC: 0.5287 F1: 0.2222 
+2026-02-15 15:01:52,494 - INFO - Round 641/1000
+2026-02-15 15:01:52,734 - INFO -   Silhouette: 0.2824 | School ROC: 0.6043 F1: 0.6077 | Project ROC: 0.4927 F1: 0.1569 
+2026-02-15 15:01:52,734 - INFO - Round 642/1000
+2026-02-15 15:01:53,012 - INFO -   Silhouette: 0.3804 | School ROC: 0.5881 F1: 0.6010 | Project ROC: 0.6007 F1: 0.2857 
+2026-02-15 15:01:53,012 - INFO - Round 643/1000
+2026-02-15 15:01:53,287 - INFO -   Silhouette: 0.1724 | School ROC: 0.6079 F1: 0.5761 | Project ROC: 0.5565 F1: 0.2857 
+2026-02-15 15:01:53,287 - INFO - Round 644/1000
+2026-02-15 15:01:53,525 - INFO -   Silhouette: 0.2105 | School ROC: 0.6299 F1: 0.6495 | Project ROC: 0.6039 F1: 0.3093 
+2026-02-15 15:01:53,525 - INFO - Round 645/1000
+2026-02-15 15:01:53,796 - INFO -   Silhouette: 0.2857 | School ROC: 0.6173 F1: 0.6667 | Project ROC: 0.5912 F1: 0.2881 
+2026-02-15 15:01:53,797 - INFO - Round 646/1000
+2026-02-15 15:01:54,082 - INFO -   Silhouette: 0.2855 | School ROC: 0.5870 F1: 0.6091 | Project ROC: 0.5861 F1: 0.2703 
+2026-02-15 15:01:54,083 - INFO - Round 647/1000
+2026-02-15 15:01:54,394 - INFO -   Silhouette: 0.3050 | School ROC: 0.6121 F1: 0.6531 | Project ROC: 0.6221 F1: 0.2772 
+2026-02-15 15:01:54,395 - INFO - Round 648/1000
+2026-02-15 15:01:54,698 - INFO -   Silhouette: 0.2907 | School ROC: 0.6258 F1: 0.6633 | Project ROC: 0.5852 F1: 0.2500 
+2026-02-15 15:01:54,698 - INFO - Round 649/1000
+2026-02-15 15:01:54,924 - INFO -   Silhouette: 0.2129 | School ROC: 0.6321 F1: 0.6120 | Project ROC: 0.5378 F1: 0.2376 
+2026-02-15 15:01:54,925 - INFO - Round 650/1000
+2026-02-15 15:01:55,242 - INFO -   Silhouette: 0.3349 | School ROC: 0.6134 F1: 0.6289 | Project ROC: 0.5897 F1: 0.2727 
+2026-02-15 15:01:55,243 - INFO - Round 651/1000
+2026-02-15 15:01:55,497 - INFO -   Silhouette: 0.2390 | School ROC: 0.5927 F1: 0.6105 | Project ROC: 0.6014 F1: 0.2549 
+2026-02-15 15:01:55,498 - INFO - Round 652/1000
+2026-02-15 15:01:55,810 - INFO -   Silhouette: 0.3266 | School ROC: 0.6398 F1: 0.6237 | Project ROC: 0.5859 F1: 0.2642 
+2026-02-15 15:01:55,810 - INFO - Round 653/1000
+2026-02-15 15:01:56,089 - INFO -   Silhouette: 0.2463 | School ROC: 0.6199 F1: 0.6277 | Project ROC: 0.6083 F1: 0.2637 
+2026-02-15 15:01:56,089 - INFO - Round 654/1000
+2026-02-15 15:01:56,454 - INFO -   Silhouette: 0.3560 | School ROC: 0.6211 F1: 0.6316 | Project ROC: 0.6062 F1: 0.3148 
+2026-02-15 15:01:56,454 - INFO - Round 655/1000
+2026-02-15 15:01:56,742 - INFO -   Silhouette: 0.2791 | School ROC: 0.6403 F1: 0.6632 | Project ROC: 0.5878 F1: 0.2735 
+2026-02-15 15:01:56,742 - INFO - Round 656/1000
+2026-02-15 15:01:57,021 - INFO -   Silhouette: 0.2769 | School ROC: 0.6067 F1: 0.5946 | Project ROC: 0.6725 F1: 0.3148 
+2026-02-15 15:01:57,022 - INFO - Round 657/1000
+2026-02-15 15:01:57,318 - INFO -   Silhouette: 0.3865 | School ROC: 0.5919 F1: 0.6138 | Project ROC: 0.6177 F1: 0.2830 
+2026-02-15 15:01:57,318 - INFO - Round 658/1000
+2026-02-15 15:01:57,654 - INFO -   Silhouette: 0.3210 | School ROC: 0.6140 F1: 0.6000 | Project ROC: 0.6011 F1: 0.2600 
+2026-02-15 15:01:57,654 - INFO - Round 659/1000
+2026-02-15 15:01:57,898 - INFO -   Silhouette: 0.2143 | School ROC: 0.6671 F1: 0.6196 | Project ROC: 0.6157 F1: 0.2737 
+2026-02-15 15:01:57,898 - INFO - Round 660/1000
+2026-02-15 15:01:58,189 - INFO -   Silhouette: 0.2666 | School ROC: 0.6094 F1: 0.6054 | Project ROC: 0.6084 F1: 0.3158 
+2026-02-15 15:01:58,189 - INFO - Round 661/1000
+2026-02-15 15:01:58,427 - INFO -   Silhouette: 0.3465 | School ROC: 0.6299 F1: 0.6526 | Project ROC: 0.6074 F1: 0.2885 
+2026-02-15 15:01:58,427 - INFO - Round 662/1000
+2026-02-15 15:01:58,690 - INFO -   Silhouette: 0.2566 | School ROC: 0.6362 F1: 0.6701 | Project ROC: 0.5659 F1: 0.2430 
+2026-02-15 15:01:58,691 - INFO - Round 663/1000
+2026-02-15 15:01:58,979 - INFO -   Silhouette: 0.3141 | School ROC: 0.6178 F1: 0.6096 | Project ROC: 0.5865 F1: 0.2680 
+2026-02-15 15:01:58,979 - INFO - Round 664/1000
+2026-02-15 15:01:59,207 - INFO -   Silhouette: 0.2422 | School ROC: 0.6423 F1: 0.6064 | Project ROC: 0.5802 F1: 0.2549 
+2026-02-15 15:01:59,207 - INFO - Round 665/1000
+2026-02-15 15:01:59,427 - INFO -   Silhouette: 0.3403 | School ROC: 0.6077 F1: 0.6000 | Project ROC: 0.6252 F1: 0.3158 
+2026-02-15 15:01:59,427 - INFO - Round 666/1000
+2026-02-15 15:01:59,700 - INFO -   Silhouette: 0.2424 | School ROC: 0.5935 F1: 0.6387 | Project ROC: 0.6342 F1: 0.2830 
+2026-02-15 15:01:59,701 - INFO - Round 667/1000
+2026-02-15 15:02:00,025 - INFO -   Silhouette: 0.2429 | School ROC: 0.6471 F1: 0.5977 | Project ROC: 0.6352 F1: 0.2692 
+2026-02-15 15:02:00,025 - INFO - Round 668/1000
+2026-02-15 15:02:00,324 - INFO -   Silhouette: 0.3090 | School ROC: 0.6107 F1: 0.6231 | Project ROC: 0.5983 F1: 0.2430 
+2026-02-15 15:02:00,324 - INFO - Round 669/1000
+2026-02-15 15:02:00,534 - INFO -   Silhouette: 0.3774 | School ROC: 0.6361 F1: 0.6218 | Project ROC: 0.6557 F1: 0.3208 
+2026-02-15 15:02:00,534 - INFO - Round 670/1000
+2026-02-15 15:02:00,843 - INFO -   Silhouette: 0.3665 | School ROC: 0.6113 F1: 0.6769 | Project ROC: 0.6377 F1: 0.3393 ✓
+2026-02-15 15:02:01,014 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:02:01,014 - INFO - Round 671/1000
+2026-02-15 15:02:01,242 - INFO -   Silhouette: 0.3234 | School ROC: 0.6748 F1: 0.6237 | Project ROC: 0.6758 F1: 0.3178 ✓
+2026-02-15 15:02:01,402 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:02:01,403 - INFO - Round 672/1000
+2026-02-15 15:02:01,605 - INFO -   Silhouette: 0.2436 | School ROC: 0.6198 F1: 0.6250 | Project ROC: 0.5511 F1: 0.2353 
+2026-02-15 15:02:01,606 - INFO - Round 673/1000
+2026-02-15 15:02:01,952 - INFO -   Silhouette: 0.2509 | School ROC: 0.6410 F1: 0.6077 | Project ROC: 0.4921 F1: 0.1569 
+2026-02-15 15:02:01,952 - INFO - Round 674/1000
+2026-02-15 15:02:02,273 - INFO -   Silhouette: 0.2261 | School ROC: 0.5958 F1: 0.6146 | Project ROC: 0.5783 F1: 0.2667 
+2026-02-15 15:02:02,273 - INFO - Round 675/1000
+2026-02-15 15:02:02,532 - INFO -   Silhouette: 0.2593 | School ROC: 0.6470 F1: 0.6455 | Project ROC: 0.5655 F1: 0.2745 
+2026-02-15 15:02:02,532 - INFO - Round 676/1000
+2026-02-15 15:02:02,796 - INFO -   Silhouette: 0.3362 | School ROC: 0.6299 F1: 0.6489 | Project ROC: 0.5929 F1: 0.2692 
+2026-02-15 15:02:02,796 - INFO - Round 677/1000
+2026-02-15 15:02:03,081 - INFO -   Silhouette: 0.2580 | School ROC: 0.6333 F1: 0.6096 | Project ROC: 0.4775 F1: 0.1905 
+2026-02-15 15:02:03,081 - INFO - Round 678/1000
+2026-02-15 15:02:03,346 - INFO -   Silhouette: 0.3305 | School ROC: 0.6147 F1: 0.6178 | Project ROC: 0.5871 F1: 0.2857 
+2026-02-15 15:02:03,347 - INFO - Round 679/1000
+2026-02-15 15:02:03,740 - INFO -   Silhouette: 0.2887 | School ROC: 0.6563 F1: 0.6354 | Project ROC: 0.4415 F1: 0.1765 
+2026-02-15 15:02:03,741 - INFO - Round 680/1000
+2026-02-15 15:02:03,965 - INFO -   Silhouette: 0.2842 | School ROC: 0.6269 F1: 0.5902 | Project ROC: 0.5476 F1: 0.2500 
+2026-02-15 15:02:03,966 - INFO - Round 681/1000
+2026-02-15 15:02:04,205 - INFO -   Silhouette: 0.2787 | School ROC: 0.5924 F1: 0.6316 | Project ROC: 0.5544 F1: 0.2321 
+2026-02-15 15:02:04,205 - INFO - Round 682/1000
+2026-02-15 15:02:04,430 - INFO -   Silhouette: 0.3449 | School ROC: 0.6226 F1: 0.6111 | Project ROC: 0.5972 F1: 0.2424 
+2026-02-15 15:02:04,430 - INFO - Round 683/1000
+2026-02-15 15:02:04,682 - INFO -   Silhouette: 0.3053 | School ROC: 0.6034 F1: 0.6316 | Project ROC: 0.5080 F1: 0.1980 
+2026-02-15 15:02:04,682 - INFO - Round 684/1000
+2026-02-15 15:02:04,940 - INFO -   Silhouette: 0.3130 | School ROC: 0.6346 F1: 0.6489 | Project ROC: 0.6002 F1: 0.2913 
+2026-02-15 15:02:04,940 - INFO - Round 685/1000
+2026-02-15 15:02:05,177 - INFO -   Silhouette: 0.3720 | School ROC: 0.6099 F1: 0.6131 | Project ROC: 0.5627 F1: 0.2632 
+2026-02-15 15:02:05,178 - INFO - Round 686/1000
+2026-02-15 15:02:05,493 - INFO -   Silhouette: 0.2552 | School ROC: 0.6026 F1: 0.6087 | Project ROC: 0.6329 F1: 0.2626 
+2026-02-15 15:02:05,493 - INFO - Round 687/1000
+2026-02-15 15:02:05,749 - INFO -   Silhouette: 0.3557 | School ROC: 0.6339 F1: 0.6531 | Project ROC: 0.5985 F1: 0.2909 
+2026-02-15 15:02:05,749 - INFO - Round 688/1000
+2026-02-15 15:02:06,036 - INFO -   Silhouette: 0.2833 | School ROC: 0.5523 F1: 0.6105 | Project ROC: 0.5420 F1: 0.2178 
+2026-02-15 15:02:06,036 - INFO - Round 689/1000
+2026-02-15 15:02:06,276 - INFO -   Silhouette: 0.2409 | School ROC: 0.6208 F1: 0.6489 | Project ROC: 0.5944 F1: 0.2885 
+2026-02-15 15:02:06,276 - INFO - Round 690/1000
+2026-02-15 15:02:06,556 - INFO -   Silhouette: 0.3539 | School ROC: 0.6452 F1: 0.6492 | Project ROC: 0.5922 F1: 0.2913 
+2026-02-15 15:02:06,556 - INFO - Round 691/1000
+2026-02-15 15:02:06,863 - INFO -   Silhouette: 0.2467 | School ROC: 0.5759 F1: 0.6122 | Project ROC: 0.4864 F1: 0.2075 
+2026-02-15 15:02:06,863 - INFO - Round 692/1000
+2026-02-15 15:02:07,114 - INFO -   Silhouette: 0.3097 | School ROC: 0.5968 F1: 0.5761 | Project ROC: 0.5713 F1: 0.2376 
+2026-02-15 15:02:07,114 - INFO - Round 693/1000
+2026-02-15 15:02:07,428 - INFO -   Silhouette: 0.2838 | School ROC: 0.6291 F1: 0.6349 | Project ROC: 0.6755 F1: 0.3529 
+2026-02-15 15:02:07,428 - INFO - Round 694/1000
+2026-02-15 15:02:07,705 - INFO -   Silhouette: 0.3119 | School ROC: 0.6448 F1: 0.6162 | Project ROC: 0.6374 F1: 0.2857 
+2026-02-15 15:02:07,705 - INFO - Round 695/1000
+2026-02-15 15:02:07,985 - INFO -   Silhouette: 0.2572 | School ROC: 0.6284 F1: 0.6462 | Project ROC: 0.5854 F1: 0.2745 
+2026-02-15 15:02:07,985 - INFO - Round 696/1000
+2026-02-15 15:02:08,241 - INFO -   Silhouette: 0.3551 | School ROC: 0.6457 F1: 0.6283 | Project ROC: 0.6408 F1: 0.3107 
+2026-02-15 15:02:08,242 - INFO - Round 697/1000
+2026-02-15 15:02:08,490 - INFO -   Silhouette: 0.1937 | School ROC: 0.6549 F1: 0.6023 | Project ROC: 0.5241 F1: 0.2018 
+2026-02-15 15:02:08,490 - INFO - Round 698/1000
+2026-02-15 15:02:08,798 - INFO -   Silhouette: 0.2701 | School ROC: 0.6416 F1: 0.6344 | Project ROC: 0.5762 F1: 0.2376 
+2026-02-15 15:02:08,798 - INFO - Round 699/1000
+2026-02-15 15:02:09,240 - INFO -   Silhouette: 0.2935 | School ROC: 0.6043 F1: 0.5838 | Project ROC: 0.6291 F1: 0.2887 
+2026-02-15 15:02:09,241 - INFO - Round 700/1000
+2026-02-15 15:02:09,463 - INFO -   Silhouette: 0.2605 | School ROC: 0.6079 F1: 0.6061 | Project ROC: 0.6228 F1: 0.2857 
+2026-02-15 15:02:09,463 - INFO - Round 701/1000
+2026-02-15 15:02:09,754 - INFO -   Silhouette: 0.3417 | School ROC: 0.6062 F1: 0.6531 | Project ROC: 0.6115 F1: 0.2857 
+2026-02-15 15:02:09,755 - INFO - Round 702/1000
+2026-02-15 15:02:10,013 - INFO -   Silhouette: 0.2830 | School ROC: 0.6362 F1: 0.6277 | Project ROC: 0.6067 F1: 0.3000 
+2026-02-15 15:02:10,014 - INFO - Round 703/1000
+2026-02-15 15:02:10,273 - INFO -   Silhouette: 0.2072 | School ROC: 0.6817 F1: 0.6127 | Project ROC: 0.5900 F1: 0.2832 
+2026-02-15 15:02:10,274 - INFO - Round 704/1000
+2026-02-15 15:02:10,570 - INFO -   Silhouette: 0.2669 | School ROC: 0.6354 F1: 0.6354 | Project ROC: 0.6700 F1: 0.3200 
+2026-02-15 15:02:10,570 - INFO - Round 705/1000
+2026-02-15 15:02:10,820 - INFO -   Silhouette: 0.2321 | School ROC: 0.6230 F1: 0.6535 | Project ROC: 0.6512 F1: 0.2759 
+2026-02-15 15:02:10,820 - INFO - Round 706/1000
+2026-02-15 15:02:11,142 - INFO -   Silhouette: 0.3477 | School ROC: 0.5958 F1: 0.5926 | Project ROC: 0.6414 F1: 0.3208 
+2026-02-15 15:02:11,143 - INFO - Round 707/1000
+2026-02-15 15:02:11,377 - INFO -   Silhouette: 0.3027 | School ROC: 0.6197 F1: 0.6436 | Project ROC: 0.5708 F1: 0.2500 
+2026-02-15 15:02:11,377 - INFO - Round 708/1000
+2026-02-15 15:02:11,802 - INFO -   Silhouette: 0.2937 | School ROC: 0.6660 F1: 0.6383 | Project ROC: 0.5894 F1: 0.2931 
+2026-02-15 15:02:11,802 - INFO - Round 709/1000
+2026-02-15 15:02:12,067 - INFO -   Silhouette: 0.2577 | School ROC: 0.6501 F1: 0.6203 | Project ROC: 0.5959 F1: 0.2804 
+2026-02-15 15:02:12,068 - INFO - Round 710/1000
+2026-02-15 15:02:12,435 - INFO -   Silhouette: 0.2358 | School ROC: 0.5982 F1: 0.5957 | Project ROC: 0.6484 F1: 0.2857 
+2026-02-15 15:02:12,435 - INFO - Round 711/1000
+2026-02-15 15:02:12,752 - INFO -   Silhouette: 0.3051 | School ROC: 0.6524 F1: 0.6526 | Project ROC: 0.6055 F1: 0.2718 
+2026-02-15 15:02:12,752 - INFO - Round 712/1000
+2026-02-15 15:02:13,008 - INFO -   Silhouette: 0.2001 | School ROC: 0.6394 F1: 0.6310 | Project ROC: 0.5886 F1: 0.2617 
+2026-02-15 15:02:13,008 - INFO - Round 713/1000
+2026-02-15 15:02:13,318 - INFO -   Silhouette: 0.3096 | School ROC: 0.6209 F1: 0.6364 | Project ROC: 0.6023 F1: 0.2453 
+2026-02-15 15:02:13,318 - INFO - Round 714/1000
+2026-02-15 15:02:13,578 - INFO -   Silhouette: 0.2879 | School ROC: 0.6228 F1: 0.6425 | Project ROC: 0.6186 F1: 0.2617 
+2026-02-15 15:02:13,578 - INFO - Round 715/1000
+2026-02-15 15:02:13,841 - INFO -   Silhouette: 0.2331 | School ROC: 0.6155 F1: 0.6310 | Project ROC: 0.6312 F1: 0.2826 
+2026-02-15 15:02:13,841 - INFO - Round 716/1000
+2026-02-15 15:02:14,077 - INFO -   Silhouette: 0.3932 | School ROC: 0.6315 F1: 0.6105 | Project ROC: 0.6522 F1: 0.3495 
+2026-02-15 15:02:14,077 - INFO - Round 717/1000
+2026-02-15 15:02:14,358 - INFO -   Silhouette: 0.3120 | School ROC: 0.5956 F1: 0.5914 | Project ROC: 0.5859 F1: 0.2366 
+2026-02-15 15:02:14,359 - INFO - Round 718/1000
+2026-02-15 15:02:14,654 - INFO -   Silhouette: 0.2849 | School ROC: 0.6261 F1: 0.6344 | Project ROC: 0.6135 F1: 0.2549 
+2026-02-15 15:02:14,654 - INFO - Round 719/1000
+2026-02-15 15:02:14,916 - INFO -   Silhouette: 0.2563 | School ROC: 0.6007 F1: 0.6263 | Project ROC: 0.5684 F1: 0.2545 
+2026-02-15 15:02:14,916 - INFO - Round 720/1000
+2026-02-15 15:02:15,210 - INFO -   Silhouette: 0.2872 | School ROC: 0.6138 F1: 0.6600 | Project ROC: 0.5398 F1: 0.2500 
+2026-02-15 15:02:15,211 - INFO - Round 721/1000
+2026-02-15 15:02:15,470 - INFO -   Silhouette: 0.3164 | School ROC: 0.6126 F1: 0.6327 | Project ROC: 0.5871 F1: 0.2970 
+2026-02-15 15:02:15,470 - INFO - Round 722/1000
+2026-02-15 15:02:15,801 - INFO -   Silhouette: 0.3141 | School ROC: 0.6237 F1: 0.6429 | Project ROC: 0.5862 F1: 0.2476 
+2026-02-15 15:02:15,801 - INFO - Round 723/1000
+2026-02-15 15:02:16,044 - INFO -   Silhouette: 0.2988 | School ROC: 0.6294 F1: 0.5989 | Project ROC: 0.6441 F1: 0.3048 
+2026-02-15 15:02:16,044 - INFO - Round 724/1000
+2026-02-15 15:02:16,390 - INFO -   Silhouette: 0.2359 | School ROC: 0.6132 F1: 0.6531 | Project ROC: 0.5343 F1: 0.2264 
+2026-02-15 15:02:16,390 - INFO - Round 725/1000
+2026-02-15 15:02:16,602 - INFO -   Silhouette: 0.3253 | School ROC: 0.6328 F1: 0.6349 | Project ROC: 0.6404 F1: 0.2970 
+2026-02-15 15:02:16,602 - INFO - Round 726/1000
+2026-02-15 15:02:16,930 - INFO -   Silhouette: 0.2455 | School ROC: 0.6039 F1: 0.6277 | Project ROC: 0.5934 F1: 0.2745 
+2026-02-15 15:02:16,930 - INFO - Round 727/1000
+2026-02-15 15:02:17,193 - INFO -   Silhouette: 0.2704 | School ROC: 0.5965 F1: 0.5635 | Project ROC: 0.5333 F1: 0.2526 
+2026-02-15 15:02:17,193 - INFO - Round 728/1000
+2026-02-15 15:02:17,438 - INFO -   Silhouette: 0.3030 | School ROC: 0.5977 F1: 0.5650 | Project ROC: 0.6278 F1: 0.3191 
+2026-02-15 15:02:17,438 - INFO - Round 729/1000
+2026-02-15 15:02:17,698 - INFO -   Silhouette: 0.3134 | School ROC: 0.6077 F1: 0.5761 | Project ROC: 0.6233 F1: 0.3265 
+2026-02-15 15:02:17,699 - INFO - Round 730/1000
+2026-02-15 15:02:18,023 - INFO -   Silhouette: 0.2595 | School ROC: 0.6094 F1: 0.6224 | Project ROC: 0.6261 F1: 0.2991 
+2026-02-15 15:02:18,023 - INFO - Round 731/1000
+2026-02-15 15:02:18,330 - INFO -   Silhouette: 0.2971 | School ROC: 0.5851 F1: 0.6022 | Project ROC: 0.5398 F1: 0.2041 
+2026-02-15 15:02:18,331 - INFO - Round 732/1000
+2026-02-15 15:02:18,600 - INFO -   Silhouette: 0.2855 | School ROC: 0.6117 F1: 0.6392 | Project ROC: 0.5655 F1: 0.3119 
+2026-02-15 15:02:18,600 - INFO - Round 733/1000
+2026-02-15 15:02:18,993 - INFO -   Silhouette: 0.3332 | School ROC: 0.5957 F1: 0.5556 | Project ROC: 0.5629 F1: 0.2708 
+2026-02-15 15:02:18,993 - INFO - Round 734/1000
+2026-02-15 15:02:19,263 - INFO -   Silhouette: 0.3008 | School ROC: 0.5932 F1: 0.6316 | Project ROC: 0.5816 F1: 0.2885 
+2026-02-15 15:02:19,264 - INFO - Round 735/1000
+2026-02-15 15:02:19,528 - INFO -   Silhouette: 0.3091 | School ROC: 0.6132 F1: 0.6146 | Project ROC: 0.6030 F1: 0.2745 
+2026-02-15 15:02:19,528 - INFO - Round 736/1000
+2026-02-15 15:02:19,822 - INFO -   Silhouette: 0.2444 | School ROC: 0.6203 F1: 0.5914 | Project ROC: 0.5817 F1: 0.2718 
+2026-02-15 15:02:19,823 - INFO - Round 737/1000
+2026-02-15 15:02:20,117 - INFO -   Silhouette: 0.2763 | School ROC: 0.6164 F1: 0.5851 | Project ROC: 0.6046 F1: 0.2832 
+2026-02-15 15:02:20,117 - INFO - Round 738/1000
+2026-02-15 15:02:20,383 - INFO -   Silhouette: 0.3601 | School ROC: 0.6088 F1: 0.6082 | Project ROC: 0.5921 F1: 0.2667 
+2026-02-15 15:02:20,383 - INFO - Round 739/1000
+2026-02-15 15:02:20,625 - INFO -   Silhouette: 0.2313 | School ROC: 0.6568 F1: 0.6178 | Project ROC: 0.6395 F1: 0.2807 
+2026-02-15 15:02:20,626 - INFO - Round 740/1000
+2026-02-15 15:02:20,910 - INFO -   Silhouette: 0.2210 | School ROC: 0.6280 F1: 0.5747 | Project ROC: 0.6334 F1: 0.3299 
+2026-02-15 15:02:20,911 - INFO - Round 741/1000
+2026-02-15 15:02:21,183 - INFO -   Silhouette: 0.2830 | School ROC: 0.6335 F1: 0.6138 | Project ROC: 0.5664 F1: 0.2617 
+2026-02-15 15:02:21,183 - INFO - Round 742/1000
+2026-02-15 15:02:21,449 - INFO -   Silhouette: 0.3039 | School ROC: 0.6233 F1: 0.6170 | Project ROC: 0.5906 F1: 0.2680 
+2026-02-15 15:02:21,450 - INFO - Round 743/1000
+2026-02-15 15:02:21,701 - INFO -   Silhouette: 0.2891 | School ROC: 0.6261 F1: 0.6359 | Project ROC: 0.5772 F1: 0.2679 
+2026-02-15 15:02:21,702 - INFO - Round 744/1000
+2026-02-15 15:02:21,971 - INFO -   Silhouette: 0.3479 | School ROC: 0.5863 F1: 0.6061 | Project ROC: 0.6366 F1: 0.2963 
+2026-02-15 15:02:21,971 - INFO - Round 745/1000
+2026-02-15 15:02:22,294 - INFO -   Silhouette: 0.2625 | School ROC: 0.5881 F1: 0.5957 | Project ROC: 0.5588 F1: 0.2264 
+2026-02-15 15:02:22,294 - INFO - Round 746/1000
+2026-02-15 15:02:22,504 - INFO -   Silhouette: 0.2793 | School ROC: 0.6481 F1: 0.6599 | Project ROC: 0.6167 F1: 0.2752 
+2026-02-15 15:02:22,504 - INFO - Round 747/1000
+2026-02-15 15:02:22,767 - INFO -   Silhouette: 0.3083 | School ROC: 0.6043 F1: 0.5778 | Project ROC: 0.5995 F1: 0.2500 
+2026-02-15 15:02:22,768 - INFO - Round 748/1000
+2026-02-15 15:02:23,005 - INFO -   Silhouette: 0.2581 | School ROC: 0.6648 F1: 0.6667 | Project ROC: 0.6223 F1: 0.2991 
+2026-02-15 15:02:23,005 - INFO - Round 749/1000
+2026-02-15 15:02:23,260 - INFO -   Silhouette: 0.2719 | School ROC: 0.6189 F1: 0.6032 | Project ROC: 0.6624 F1: 0.3107 
+2026-02-15 15:02:23,260 - INFO - Round 750/1000
+2026-02-15 15:02:23,624 - INFO -   Silhouette: 0.2816 | School ROC: 0.6322 F1: 0.6359 | Project ROC: 0.5769 F1: 0.2424 
+2026-02-15 15:02:23,625 - INFO - Round 751/1000
+2026-02-15 15:02:23,874 - INFO -   Silhouette: 0.2841 | School ROC: 0.6186 F1: 0.6528 | Project ROC: 0.6439 F1: 0.2804 
+2026-02-15 15:02:23,874 - INFO - Round 752/1000
+2026-02-15 15:02:24,206 - INFO -   Silhouette: 0.2899 | School ROC: 0.6124 F1: 0.6145 | Project ROC: 0.6226 F1: 0.2885 
+2026-02-15 15:02:24,206 - INFO - Round 753/1000
+2026-02-15 15:02:24,441 - INFO -   Silhouette: 0.2863 | School ROC: 0.6403 F1: 0.6452 | Project ROC: 0.6460 F1: 0.3168 
+2026-02-15 15:02:24,441 - INFO - Round 754/1000
+2026-02-15 15:02:24,718 - INFO -   Silhouette: 0.3141 | School ROC: 0.6102 F1: 0.5978 | Project ROC: 0.6374 F1: 0.3200 
+2026-02-15 15:02:24,718 - INFO - Round 755/1000
+2026-02-15 15:02:25,042 - INFO -   Silhouette: 0.2762 | School ROC: 0.6104 F1: 0.6129 | Project ROC: 0.6004 F1: 0.3009 
+2026-02-15 15:02:25,042 - INFO - Round 756/1000
+2026-02-15 15:02:25,366 - INFO -   Silhouette: 0.2694 | School ROC: 0.6117 F1: 0.6114 | Project ROC: 0.5797 F1: 0.2376 
+2026-02-15 15:02:25,366 - INFO - Round 757/1000
+2026-02-15 15:02:25,594 - INFO -   Silhouette: 0.2404 | School ROC: 0.6260 F1: 0.6310 | Project ROC: 0.6061 F1: 0.2917 
+2026-02-15 15:02:25,594 - INFO - Round 758/1000
+2026-02-15 15:02:25,892 - INFO -   Silhouette: 0.3538 | School ROC: 0.6060 F1: 0.6010 | Project ROC: 0.5800 F1: 0.2330 
+2026-02-15 15:02:25,892 - INFO - Round 759/1000
+2026-02-15 15:02:26,118 - INFO -   Silhouette: 0.2784 | School ROC: 0.6218 F1: 0.6354 | Project ROC: 0.5490 F1: 0.2569 
+2026-02-15 15:02:26,118 - INFO - Round 760/1000
+2026-02-15 15:02:26,361 - INFO -   Silhouette: 0.3291 | School ROC: 0.6074 F1: 0.6634 | Project ROC: 0.6147 F1: 0.2752 
+2026-02-15 15:02:26,362 - INFO - Round 761/1000
+2026-02-15 15:02:26,648 - INFO -   Silhouette: 0.3942 | School ROC: 0.5954 F1: 0.6087 | Project ROC: 0.5702 F1: 0.2783 
+2026-02-15 15:02:26,648 - INFO - Round 762/1000
+2026-02-15 15:02:26,890 - INFO -   Silhouette: 0.3504 | School ROC: 0.6267 F1: 0.6096 | Project ROC: 0.6118 F1: 0.2970 
+2026-02-15 15:02:26,890 - INFO - Round 763/1000
+2026-02-15 15:02:27,153 - INFO -   Silhouette: 0.1999 | School ROC: 0.6234 F1: 0.6054 | Project ROC: 0.6514 F1: 0.3208 
+2026-02-15 15:02:27,154 - INFO - Round 764/1000
+2026-02-15 15:02:27,632 - INFO -   Silhouette: 0.2367 | School ROC: 0.6128 F1: 0.6633 | Project ROC: 0.6050 F1: 0.2679 
+2026-02-15 15:02:27,633 - INFO - Round 765/1000
+2026-02-15 15:02:27,895 - INFO -   Silhouette: 0.2988 | School ROC: 0.5854 F1: 0.6359 | Project ROC: 0.5988 F1: 0.2476 
+2026-02-15 15:02:27,895 - INFO - Round 766/1000
+2026-02-15 15:02:28,126 - INFO -   Silhouette: 0.2480 | School ROC: 0.6064 F1: 0.6146 | Project ROC: 0.5575 F1: 0.2430 
+2026-02-15 15:02:28,126 - INFO - Round 767/1000
+2026-02-15 15:02:28,366 - INFO -   Silhouette: 0.2743 | School ROC: 0.6153 F1: 0.6383 | Project ROC: 0.5944 F1: 0.2857 
+2026-02-15 15:02:28,366 - INFO - Round 768/1000
+2026-02-15 15:02:28,619 - INFO -   Silhouette: 0.2286 | School ROC: 0.5989 F1: 0.6000 | Project ROC: 0.5910 F1: 0.2737 
+2026-02-15 15:02:28,619 - INFO - Round 769/1000
+2026-02-15 15:02:28,881 - INFO -   Silhouette: 0.2783 | School ROC: 0.6219 F1: 0.6129 | Project ROC: 0.4914 F1: 0.1880 
+2026-02-15 15:02:28,882 - INFO - Round 770/1000
+2026-02-15 15:02:29,200 - INFO -   Silhouette: 0.3440 | School ROC: 0.6142 F1: 0.6289 | Project ROC: 0.5989 F1: 0.2500 
+2026-02-15 15:02:29,200 - INFO - Round 771/1000
+2026-02-15 15:02:29,451 - INFO -   Silhouette: 0.3195 | School ROC: 0.6230 F1: 0.6283 | Project ROC: 0.5851 F1: 0.2804 
+2026-02-15 15:02:29,451 - INFO - Round 772/1000
+2026-02-15 15:02:29,836 - INFO -   Silhouette: 0.3185 | School ROC: 0.6492 F1: 0.6364 | Project ROC: 0.6477 F1: 0.3061 
+2026-02-15 15:02:29,837 - INFO - Round 773/1000
+2026-02-15 15:02:30,102 - INFO -   Silhouette: 0.2158 | School ROC: 0.6111 F1: 0.6359 | Project ROC: 0.5870 F1: 0.2667 
+2026-02-15 15:02:30,102 - INFO - Round 774/1000
+2026-02-15 15:02:30,351 - INFO -   Silhouette: 0.3722 | School ROC: 0.5975 F1: 0.6114 | Project ROC: 0.6182 F1: 0.2804 
+2026-02-15 15:02:30,351 - INFO - Round 775/1000
+2026-02-15 15:02:30,727 - INFO -   Silhouette: 0.2110 | School ROC: 0.6663 F1: 0.6182 | Project ROC: 0.6193 F1: 0.3137 
+2026-02-15 15:02:30,727 - INFO - Round 776/1000
+2026-02-15 15:02:31,013 - INFO -   Silhouette: 0.3068 | School ROC: 0.6156 F1: 0.6170 | Project ROC: 0.5827 F1: 0.2574 
+2026-02-15 15:02:31,013 - INFO - Round 777/1000
+2026-02-15 15:02:31,247 - INFO -   Silhouette: 0.2622 | School ROC: 0.6183 F1: 0.6465 | Project ROC: 0.5474 F1: 0.2182 
+2026-02-15 15:02:31,247 - INFO - Round 778/1000
+2026-02-15 15:02:31,526 - INFO -   Silhouette: 0.3524 | School ROC: 0.6256 F1: 0.6383 | Project ROC: 0.6673 F1: 0.3333 
+2026-02-15 15:02:31,526 - INFO - Round 779/1000
+2026-02-15 15:02:31,771 - INFO -   Silhouette: 0.3093 | School ROC: 0.6385 F1: 0.6562 | Project ROC: 0.6097 F1: 0.3243 
+2026-02-15 15:02:31,772 - INFO - Round 780/1000
+2026-02-15 15:02:32,030 - INFO -   Silhouette: 0.2977 | School ROC: 0.6104 F1: 0.5556 | Project ROC: 0.6402 F1: 0.2626 
+2026-02-15 15:02:32,030 - INFO - Round 781/1000
+2026-02-15 15:02:32,312 - INFO -   Silhouette: 0.2490 | School ROC: 0.6060 F1: 0.5763 | Project ROC: 0.4686 F1: 0.1782 
+2026-02-15 15:02:32,312 - INFO - Round 782/1000
+2026-02-15 15:02:32,551 - INFO -   Silhouette: 0.2721 | School ROC: 0.6161 F1: 0.6289 | Project ROC: 0.5194 F1: 0.2136 
+2026-02-15 15:02:32,551 - INFO - Round 783/1000
+2026-02-15 15:02:32,798 - INFO -   Silhouette: 0.3400 | School ROC: 0.6130 F1: 0.6178 | Project ROC: 0.5816 F1: 0.2385 
+2026-02-15 15:02:32,799 - INFO - Round 784/1000
+2026-02-15 15:02:33,031 - INFO -   Silhouette: 0.2486 | School ROC: 0.6438 F1: 0.6034 | Project ROC: 0.6455 F1: 0.3000 
+2026-02-15 15:02:33,031 - INFO - Round 785/1000
+2026-02-15 15:02:33,269 - INFO -   Silhouette: 0.3154 | School ROC: 0.6148 F1: 0.6237 | Project ROC: 0.6402 F1: 0.3125 
+2026-02-15 15:02:33,269 - INFO - Round 786/1000
+2026-02-15 15:02:33,562 - INFO -   Silhouette: 0.3000 | School ROC: 0.5864 F1: 0.5870 | Project ROC: 0.5943 F1: 0.2772 
+2026-02-15 15:02:33,562 - INFO - Round 787/1000
+2026-02-15 15:02:33,822 - INFO -   Silhouette: 0.1976 | School ROC: 0.6139 F1: 0.6000 | Project ROC: 0.5945 F1: 0.2308 
+2026-02-15 15:02:33,822 - INFO - Round 788/1000
+2026-02-15 15:02:34,177 - INFO -   Silhouette: 0.2763 | School ROC: 0.5927 F1: 0.5792 | Project ROC: 0.5899 F1: 0.2745 
+2026-02-15 15:02:34,177 - INFO - Round 789/1000
+2026-02-15 15:02:34,460 - INFO -   Silhouette: 0.3236 | School ROC: 0.6350 F1: 0.6034 | Project ROC: 0.6409 F1: 0.2947 
+2026-02-15 15:02:34,460 - INFO - Round 790/1000
+2026-02-15 15:02:34,759 - INFO -   Silhouette: 0.3809 | School ROC: 0.6247 F1: 0.6533 | Project ROC: 0.6255 F1: 0.3048 
+2026-02-15 15:02:34,759 - INFO - Round 791/1000
+2026-02-15 15:02:34,995 - INFO -   Silhouette: 0.2814 | School ROC: 0.5894 F1: 0.5699 | Project ROC: 0.5832 F1: 0.2247 
+2026-02-15 15:02:34,995 - INFO - Round 792/1000
+2026-02-15 15:02:35,330 - INFO -   Silhouette: 0.2810 | School ROC: 0.5955 F1: 0.5907 | Project ROC: 0.6230 F1: 0.2679 
+2026-02-15 15:02:35,330 - INFO - Round 793/1000
+2026-02-15 15:02:35,587 - INFO -   Silhouette: 0.3204 | School ROC: 0.6245 F1: 0.6359 | Project ROC: 0.5772 F1: 0.2655 
+2026-02-15 15:02:35,587 - INFO - Round 794/1000
+2026-02-15 15:02:35,862 - INFO -   Silhouette: 0.2640 | School ROC: 0.6090 F1: 0.5957 | Project ROC: 0.6406 F1: 0.3238 
+2026-02-15 15:02:35,862 - INFO - Round 795/1000
+2026-02-15 15:02:36,190 - INFO -   Silhouette: 0.2754 | School ROC: 0.6056 F1: 0.5761 | Project ROC: 0.6027 F1: 0.2857 
+2026-02-15 15:02:36,190 - INFO - Round 796/1000
+2026-02-15 15:02:36,512 - INFO -   Silhouette: 0.2691 | School ROC: 0.6045 F1: 0.6170 | Project ROC: 0.6421 F1: 0.3048 
+2026-02-15 15:02:36,513 - INFO - Round 797/1000
+2026-02-15 15:02:36,770 - INFO -   Silhouette: 0.2447 | School ROC: 0.5941 F1: 0.6196 | Project ROC: 0.6503 F1: 0.3191 
+2026-02-15 15:02:36,770 - INFO - Round 798/1000
+2026-02-15 15:02:37,037 - INFO -   Silhouette: 0.2103 | School ROC: 0.6271 F1: 0.6224 | Project ROC: 0.6262 F1: 0.2963 
+2026-02-15 15:02:37,037 - INFO - Round 799/1000
+2026-02-15 15:02:37,306 - INFO -   Silhouette: 0.2114 | School ROC: 0.6200 F1: 0.6321 | Project ROC: 0.6459 F1: 0.3019 
+2026-02-15 15:02:37,307 - INFO - Round 800/1000
+2026-02-15 15:02:37,564 - INFO -   Silhouette: 0.3525 | School ROC: 0.6083 F1: 0.6354 | Project ROC: 0.6212 F1: 0.2970 
+2026-02-15 15:02:37,565 - INFO - Round 801/1000
+2026-02-15 15:02:37,919 - INFO -   Silhouette: 0.3263 | School ROC: 0.5975 F1: 0.6032 | Project ROC: 0.6043 F1: 0.3000 
+2026-02-15 15:02:37,928 - INFO - Round 802/1000
+2026-02-15 15:02:38,222 - INFO -   Silhouette: 0.2947 | School ROC: 0.5961 F1: 0.6432 | Project ROC: 0.6164 F1: 0.3178 
+2026-02-15 15:02:38,222 - INFO - Round 803/1000
+2026-02-15 15:02:38,686 - INFO -   Silhouette: 0.2680 | School ROC: 0.6531 F1: 0.6598 | Project ROC: 0.6007 F1: 0.2549 
+2026-02-15 15:02:38,687 - INFO - Round 804/1000
+2026-02-15 15:02:38,959 - INFO -   Silhouette: 0.2461 | School ROC: 0.5820 F1: 0.6321 | Project ROC: 0.5705 F1: 0.2692 
+2026-02-15 15:02:38,973 - INFO - Round 805/1000
+2026-02-15 15:02:39,204 - INFO -   Silhouette: 0.2528 | School ROC: 0.6215 F1: 0.6120 | Project ROC: 0.5581 F1: 0.2136 
+2026-02-15 15:02:39,204 - INFO - Round 806/1000
+2026-02-15 15:02:39,462 - INFO -   Silhouette: 0.3172 | School ROC: 0.5806 F1: 0.6122 | Project ROC: 0.5605 F1: 0.2703 
+2026-02-15 15:02:39,478 - INFO - Round 807/1000
+2026-02-15 15:02:39,764 - INFO -   Silhouette: 0.3672 | School ROC: 0.6457 F1: 0.6387 | Project ROC: 0.6119 F1: 0.2957 
+2026-02-15 15:02:39,764 - INFO - Round 808/1000
+2026-02-15 15:02:40,033 - INFO -   Silhouette: 0.2531 | School ROC: 0.6095 F1: 0.6224 | Project ROC: 0.5578 F1: 0.2655 
+2026-02-15 15:02:40,033 - INFO - Round 809/1000
+2026-02-15 15:02:40,242 - INFO -   Silhouette: 0.2857 | School ROC: 0.6368 F1: 0.6489 | Project ROC: 0.5743 F1: 0.2178 
+2026-02-15 15:02:40,242 - INFO - Round 810/1000
+2026-02-15 15:02:40,537 - INFO -   Silhouette: 0.2420 | School ROC: 0.5901 F1: 0.5668 | Project ROC: 0.5295 F1: 0.2056 
+2026-02-15 15:02:40,537 - INFO - Round 811/1000
+2026-02-15 15:02:40,963 - INFO -   Silhouette: 0.2759 | School ROC: 0.6221 F1: 0.5934 | Project ROC: 0.6065 F1: 0.2970 
+2026-02-15 15:02:40,963 - INFO - Round 812/1000
+2026-02-15 15:02:41,254 - INFO -   Silhouette: 0.2666 | School ROC: 0.5993 F1: 0.5967 | Project ROC: 0.6052 F1: 0.2424 
+2026-02-15 15:02:41,254 - INFO - Round 813/1000
+2026-02-15 15:02:41,462 - INFO -   Silhouette: 0.2450 | School ROC: 0.6067 F1: 0.6138 | Project ROC: 0.5996 F1: 0.2626 
+2026-02-15 15:02:41,462 - INFO - Round 814/1000
+2026-02-15 15:02:41,684 - INFO -   Silhouette: 0.4103 | School ROC: 0.6324 F1: 0.6087 | Project ROC: 0.6113 F1: 0.2991 ✓
+2026-02-15 15:02:41,684 - INFO -     📊 Silhouette improvement → Avg ROC: 0.6219 | Avg F1: 0.4539 | F1/ROC ratio: 0.7299 (F1 < ROC (conservative predictions))
+2026-02-15 15:02:41,840 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:02:41,840 - INFO - Round 815/1000
+2026-02-15 15:02:41,996 - INFO -   Silhouette: 0.3545 | School ROC: 0.6243 F1: 0.6304 | Project ROC: 0.5816 F1: 0.2524 
+2026-02-15 15:02:41,996 - INFO - Round 816/1000
+2026-02-15 15:02:42,255 - INFO -   Silhouette: 0.2614 | School ROC: 0.6209 F1: 0.6421 | Project ROC: 0.6053 F1: 0.2653 
+2026-02-15 15:02:42,255 - INFO - Round 817/1000
+2026-02-15 15:02:42,541 - INFO -   Silhouette: 0.1905 | School ROC: 0.6507 F1: 0.6270 | Project ROC: 0.5597 F1: 0.2828 
+2026-02-15 15:02:42,542 - INFO - Round 818/1000
+2026-02-15 15:02:42,846 - INFO -   Silhouette: 0.2902 | School ROC: 0.5832 F1: 0.5654 | Project ROC: 0.5200 F1: 0.2281 
+2026-02-15 15:02:42,846 - INFO - Round 819/1000
+2026-02-15 15:02:43,126 - INFO -   Silhouette: 0.3003 | School ROC: 0.6372 F1: 0.6000 | Project ROC: 0.5918 F1: 0.2549 
+2026-02-15 15:02:43,126 - INFO - Round 820/1000
+2026-02-15 15:02:43,467 - INFO -   Silhouette: 0.2585 | School ROC: 0.6279 F1: 0.6087 | Project ROC: 0.5528 F1: 0.2330 
+2026-02-15 15:02:43,467 - INFO - Round 821/1000
+2026-02-15 15:02:43,726 - INFO -   Silhouette: 0.2973 | School ROC: 0.6467 F1: 0.6359 | Project ROC: 0.6043 F1: 0.2991 
+2026-02-15 15:02:43,727 - INFO - Round 822/1000
+2026-02-15 15:02:43,991 - INFO -   Silhouette: 0.2784 | School ROC: 0.6075 F1: 0.5525 | Project ROC: 0.5905 F1: 0.2549 
+2026-02-15 15:02:43,991 - INFO - Round 823/1000
+2026-02-15 15:02:44,265 - INFO -   Silhouette: 0.2628 | School ROC: 0.6280 F1: 0.6444 | Project ROC: 0.6509 F1: 0.3077 
+2026-02-15 15:02:44,265 - INFO - Round 824/1000
+2026-02-15 15:02:44,542 - INFO -   Silhouette: 0.2256 | School ROC: 0.6186 F1: 0.6138 | Project ROC: 0.4825 F1: 0.2162 
+2026-02-15 15:02:44,542 - INFO - Round 825/1000
+2026-02-15 15:02:44,791 - INFO -   Silhouette: 0.3511 | School ROC: 0.6094 F1: 0.6196 | Project ROC: 0.5659 F1: 0.2887 
+2026-02-15 15:02:44,791 - INFO - Round 826/1000
+2026-02-15 15:02:45,159 - INFO -   Silhouette: 0.2981 | School ROC: 0.6398 F1: 0.6321 | Project ROC: 0.5657 F1: 0.2162 
+2026-02-15 15:02:45,159 - INFO - Round 827/1000
+2026-02-15 15:02:45,423 - INFO -   Silhouette: 0.2865 | School ROC: 0.6276 F1: 0.6230 | Project ROC: 0.6434 F1: 0.3137 
+2026-02-15 15:02:45,423 - INFO - Round 828/1000
+2026-02-15 15:02:45,694 - INFO -   Silhouette: 0.3324 | School ROC: 0.5818 F1: 0.6010 | Project ROC: 0.5781 F1: 0.2385 
+2026-02-15 15:02:45,694 - INFO - Round 829/1000
+2026-02-15 15:02:45,954 - INFO -   Silhouette: 0.2397 | School ROC: 0.6503 F1: 0.6304 | Project ROC: 0.5889 F1: 0.3019 
+2026-02-15 15:02:45,954 - INFO - Round 830/1000
+2026-02-15 15:02:46,286 - INFO -   Silhouette: 0.2371 | School ROC: 0.6208 F1: 0.6598 | Project ROC: 0.5552 F1: 0.2500 
+2026-02-15 15:02:46,293 - INFO - Round 831/1000
+2026-02-15 15:02:46,574 - INFO -   Silhouette: 0.3488 | School ROC: 0.6156 F1: 0.6178 | Project ROC: 0.5821 F1: 0.2807 
+2026-02-15 15:02:46,574 - INFO - Round 832/1000
+2026-02-15 15:02:46,893 - INFO -   Silhouette: 0.3335 | School ROC: 0.6060 F1: 0.6114 | Project ROC: 0.5859 F1: 0.2593 
+2026-02-15 15:02:46,894 - INFO - Round 833/1000
+2026-02-15 15:02:47,190 - INFO -   Silhouette: 0.3708 | School ROC: 0.6075 F1: 0.5806 | Project ROC: 0.5827 F1: 0.2885 
+2026-02-15 15:02:47,190 - INFO - Round 834/1000
+2026-02-15 15:02:47,470 - INFO -   Silhouette: 0.2782 | School ROC: 0.6232 F1: 0.6455 | Project ROC: 0.6628 F1: 0.3107 
+2026-02-15 15:02:47,470 - INFO - Round 835/1000
+2026-02-15 15:02:47,794 - INFO -   Silhouette: 0.2348 | School ROC: 0.6505 F1: 0.6237 | Project ROC: 0.5352 F1: 0.2545 
+2026-02-15 15:02:47,794 - INFO - Round 836/1000
+2026-02-15 15:02:48,059 - INFO -   Silhouette: 0.3222 | School ROC: 0.6512 F1: 0.6425 | Project ROC: 0.5805 F1: 0.2830 
+2026-02-15 15:02:48,059 - INFO - Round 837/1000
+2026-02-15 15:02:48,312 - INFO -   Silhouette: 0.2259 | School ROC: 0.6329 F1: 0.6425 | Project ROC: 0.5479 F1: 0.2342 
+2026-02-15 15:02:48,312 - INFO - Round 838/1000
+2026-02-15 15:02:48,618 - INFO -   Silhouette: 0.2987 | School ROC: 0.6346 F1: 0.6034 | Project ROC: 0.6417 F1: 0.3019 
+2026-02-15 15:02:48,618 - INFO - Round 839/1000
+2026-02-15 15:02:48,874 - INFO -   Silhouette: 0.2631 | School ROC: 0.6569 F1: 0.6528 | Project ROC: 0.5222 F1: 0.2456 
+2026-02-15 15:02:48,874 - INFO - Round 840/1000
+2026-02-15 15:02:49,085 - INFO -   Silhouette: 0.2547 | School ROC: 0.6324 F1: 0.5810 | Project ROC: 0.5144 F1: 0.1856 
+2026-02-15 15:02:49,085 - INFO - Round 841/1000
+2026-02-15 15:02:49,379 - INFO -   Silhouette: 0.2587 | School ROC: 0.6349 F1: 0.6316 | Project ROC: 0.5718 F1: 0.2600 
+2026-02-15 15:02:49,379 - INFO - Round 842/1000
+2026-02-15 15:02:49,618 - INFO -   Silhouette: 0.2430 | School ROC: 0.6046 F1: 0.5955 | Project ROC: 0.4571 F1: 0.1802 
+2026-02-15 15:02:49,618 - INFO - Round 843/1000
+2026-02-15 15:02:49,935 - INFO -   Silhouette: 0.2509 | School ROC: 0.6345 F1: 0.6344 | Project ROC: 0.6668 F1: 0.3265 
+2026-02-15 15:02:49,936 - INFO - Round 844/1000
+2026-02-15 15:02:50,223 - INFO -   Silhouette: 0.3326 | School ROC: 0.6267 F1: 0.6316 | Project ROC: 0.5724 F1: 0.2500 
+2026-02-15 15:02:50,223 - INFO - Round 845/1000
+2026-02-15 15:02:50,482 - INFO -   Silhouette: 0.3590 | School ROC: 0.6245 F1: 0.6218 | Project ROC: 0.6561 F1: 0.3364 
+2026-02-15 15:02:50,482 - INFO - Round 846/1000
+2026-02-15 15:02:50,738 - INFO -   Silhouette: 0.2410 | School ROC: 0.6031 F1: 0.5922 | Project ROC: 0.5302 F1: 0.2301 
+2026-02-15 15:02:50,739 - INFO - Round 847/1000
+2026-02-15 15:02:51,014 - INFO -   Silhouette: 0.2371 | School ROC: 0.6034 F1: 0.6120 | Project ROC: 0.5340 F1: 0.2268 
+2026-02-15 15:02:51,014 - INFO - Round 848/1000
+2026-02-15 15:02:51,281 - INFO -   Silhouette: 0.2896 | School ROC: 0.6194 F1: 0.6283 | Project ROC: 0.5633 F1: 0.2264 
+2026-02-15 15:02:51,282 - INFO - Round 849/1000
+2026-02-15 15:02:51,553 - INFO -   Silhouette: 0.3039 | School ROC: 0.5902 F1: 0.5745 | Project ROC: 0.5941 F1: 0.2424 
+2026-02-15 15:02:51,553 - INFO - Round 850/1000
+2026-02-15 15:02:51,824 - INFO -   Silhouette: 0.2990 | School ROC: 0.5881 F1: 0.5914 | Project ROC: 0.6129 F1: 0.3009 
+2026-02-15 15:02:51,824 - INFO - Round 851/1000
+2026-02-15 15:02:52,058 - INFO -   Silhouette: 0.3030 | School ROC: 0.6125 F1: 0.5838 | Project ROC: 0.5915 F1: 0.2268 
+2026-02-15 15:02:52,058 - INFO - Round 852/1000
+2026-02-15 15:02:52,414 - INFO -   Silhouette: 0.2750 | School ROC: 0.6039 F1: 0.6218 | Project ROC: 0.5441 F1: 0.2364 
+2026-02-15 15:02:52,414 - INFO - Round 853/1000
+2026-02-15 15:02:52,697 - INFO -   Silhouette: 0.2626 | School ROC: 0.6175 F1: 0.5683 | Project ROC: 0.5245 F1: 0.2075 
+2026-02-15 15:02:52,698 - INFO - Round 854/1000
+2026-02-15 15:02:52,960 - INFO -   Silhouette: 0.2893 | School ROC: 0.6301 F1: 0.6492 | Project ROC: 0.5816 F1: 0.2828 
+2026-02-15 15:02:52,961 - INFO - Round 855/1000
+2026-02-15 15:02:53,269 - INFO -   Silhouette: 0.3488 | School ROC: 0.5646 F1: 0.5608 | Project ROC: 0.5821 F1: 0.2642 
+2026-02-15 15:02:53,270 - INFO - Round 856/1000
+2026-02-15 15:02:53,525 - INFO -   Silhouette: 0.3016 | School ROC: 0.6320 F1: 0.6096 | Project ROC: 0.5667 F1: 0.2970 
+2026-02-15 15:02:53,526 - INFO - Round 857/1000
+2026-02-15 15:02:53,864 - INFO -   Silhouette: 0.2997 | School ROC: 0.6054 F1: 0.5824 | Project ROC: 0.5191 F1: 0.1633 
+2026-02-15 15:02:53,865 - INFO - Round 858/1000
+2026-02-15 15:02:54,154 - INFO -   Silhouette: 0.2477 | School ROC: 0.6333 F1: 0.6120 | Project ROC: 0.6061 F1: 0.2887 
+2026-02-15 15:02:54,154 - INFO - Round 859/1000
+2026-02-15 15:02:54,496 - INFO -   Silhouette: 0.2693 | School ROC: 0.6083 F1: 0.6162 | Project ROC: 0.5446 F1: 0.2407 
+2026-02-15 15:02:54,496 - INFO - Round 860/1000
+2026-02-15 15:02:54,784 - INFO -   Silhouette: 0.3404 | School ROC: 0.6582 F1: 0.6667 | Project ROC: 0.6923 F1: 0.3301 ✓
+2026-02-15 15:02:55,009 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:02:55,010 - INFO - Round 861/1000
+2026-02-15 15:02:55,198 - INFO -   Silhouette: 0.3156 | School ROC: 0.5968 F1: 0.5870 | Project ROC: 0.5435 F1: 0.2286 
+2026-02-15 15:02:55,199 - INFO - Round 862/1000
+2026-02-15 15:02:55,404 - INFO -   Silhouette: 0.2447 | School ROC: 0.6542 F1: 0.6800 | Project ROC: 0.6151 F1: 0.3091 
+2026-02-15 15:02:55,404 - INFO - Round 863/1000
+2026-02-15 15:02:55,638 - INFO -   Silhouette: 0.2813 | School ROC: 0.6009 F1: 0.6032 | Project ROC: 0.5762 F1: 0.2178 
+2026-02-15 15:02:55,638 - INFO - Round 864/1000
+2026-02-15 15:02:55,918 - INFO -   Silhouette: 0.2618 | School ROC: 0.6567 F1: 0.6188 | Project ROC: 0.5907 F1: 0.2364 
+2026-02-15 15:02:55,918 - INFO - Round 865/1000
+2026-02-15 15:02:56,259 - INFO -   Silhouette: 0.2305 | School ROC: 0.6209 F1: 0.5889 | Project ROC: 0.5817 F1: 0.2316 
+2026-02-15 15:02:56,260 - INFO - Round 866/1000
+2026-02-15 15:02:56,590 - INFO -   Silhouette: 0.2463 | School ROC: 0.6205 F1: 0.6497 | Project ROC: 0.6312 F1: 0.2906 
+2026-02-15 15:02:56,590 - INFO - Round 867/1000
+2026-02-15 15:02:56,888 - INFO -   Silhouette: 0.3904 | School ROC: 0.5785 F1: 0.6061 | Project ROC: 0.5484 F1: 0.2689 
+2026-02-15 15:02:56,888 - INFO - Round 868/1000
+2026-02-15 15:02:57,150 - INFO -   Silhouette: 0.2877 | School ROC: 0.6573 F1: 0.6421 | Project ROC: 0.6545 F1: 0.2991 
+2026-02-15 15:02:57,151 - INFO - Round 869/1000
+2026-02-15 15:02:57,389 - INFO -   Silhouette: 0.3262 | School ROC: 0.6252 F1: 0.6458 | Project ROC: 0.6156 F1: 0.2692 
+2026-02-15 15:02:57,389 - INFO - Round 870/1000
+2026-02-15 15:02:57,677 - INFO -   Silhouette: 0.2724 | School ROC: 0.6085 F1: 0.6256 | Project ROC: 0.5854 F1: 0.2281 
+2026-02-15 15:02:57,677 - INFO - Round 871/1000
+2026-02-15 15:02:57,935 - INFO -   Silhouette: 0.2510 | School ROC: 0.6095 F1: 0.6162 | Project ROC: 0.5623 F1: 0.2553 
+2026-02-15 15:02:57,935 - INFO - Round 872/1000
+2026-02-15 15:02:58,201 - INFO -   Silhouette: 0.3131 | School ROC: 0.6109 F1: 0.6105 | Project ROC: 0.6274 F1: 0.2718 
+2026-02-15 15:02:58,201 - INFO - Round 873/1000
+2026-02-15 15:02:58,555 - INFO -   Silhouette: 0.3697 | School ROC: 0.6535 F1: 0.6701 | Project ROC: 0.6547 F1: 0.3486 ✓
+2026-02-15 15:02:58,724 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:02:58,725 - INFO - Round 874/1000
+2026-02-15 15:02:58,927 - INFO -   Silhouette: 0.2446 | School ROC: 0.6169 F1: 0.6129 | Project ROC: 0.6139 F1: 0.3137 
+2026-02-15 15:02:58,927 - INFO - Round 875/1000
+2026-02-15 15:02:59,206 - INFO -   Silhouette: 0.2908 | School ROC: 0.6164 F1: 0.6294 | Project ROC: 0.5789 F1: 0.2456 
+2026-02-15 15:02:59,206 - INFO - Round 876/1000
+2026-02-15 15:02:59,481 - INFO -   Silhouette: 0.2944 | School ROC: 0.6204 F1: 0.6526 | Project ROC: 0.5636 F1: 0.2243 
+2026-02-15 15:02:59,481 - INFO - Round 877/1000
+2026-02-15 15:02:59,802 - INFO -   Silhouette: 0.2493 | School ROC: 0.6047 F1: 0.5635 | Project ROC: 0.6118 F1: 0.3265 
+2026-02-15 15:02:59,802 - INFO - Round 878/1000
+2026-02-15 15:03:00,062 - INFO -   Silhouette: 0.3515 | School ROC: 0.5913 F1: 0.5683 | Project ROC: 0.5837 F1: 0.2745 
+2026-02-15 15:03:00,063 - INFO - Round 879/1000
+2026-02-15 15:03:00,320 - INFO -   Silhouette: 0.3107 | School ROC: 0.5961 F1: 0.6263 | Project ROC: 0.5268 F1: 0.2393 
+2026-02-15 15:03:00,320 - INFO - Round 880/1000
+2026-02-15 15:03:00,581 - INFO -   Silhouette: 0.2418 | School ROC: 0.6200 F1: 0.6073 | Project ROC: 0.5576 F1: 0.2456 
+2026-02-15 15:03:00,581 - INFO - Round 881/1000
+2026-02-15 15:03:00,905 - INFO -   Silhouette: 0.2985 | School ROC: 0.6234 F1: 0.6203 | Project ROC: 0.5709 F1: 0.2804 
+2026-02-15 15:03:00,906 - INFO - Round 882/1000
+2026-02-15 15:03:01,157 - INFO -   Silhouette: 0.3082 | School ROC: 0.6284 F1: 0.6392 | Project ROC: 0.6125 F1: 0.2632 
+2026-02-15 15:03:01,157 - INFO - Round 883/1000
+2026-02-15 15:03:01,419 - INFO -   Silhouette: 0.1860 | School ROC: 0.6235 F1: 0.6218 | Project ROC: 0.5429 F1: 0.1905 
+2026-02-15 15:03:01,419 - INFO - Round 884/1000
+2026-02-15 15:03:01,686 - INFO -   Silhouette: 0.3764 | School ROC: 0.6524 F1: 0.6304 | Project ROC: 0.6396 F1: 0.2957 
+2026-02-15 15:03:01,687 - INFO - Round 885/1000
+2026-02-15 15:03:02,009 - INFO -   Silhouette: 0.2389 | School ROC: 0.6382 F1: 0.6170 | Project ROC: 0.5871 F1: 0.2642 
+2026-02-15 15:03:02,010 - INFO - Round 886/1000
+2026-02-15 15:03:02,232 - INFO -   Silhouette: 0.3578 | School ROC: 0.6171 F1: 0.5989 | Project ROC: 0.6056 F1: 0.2574 
+2026-02-15 15:03:02,232 - INFO - Round 887/1000
+2026-02-15 15:03:02,505 - INFO -   Silhouette: 0.3068 | School ROC: 0.6200 F1: 0.5914 | Project ROC: 0.5905 F1: 0.2642 
+2026-02-15 15:03:02,512 - INFO - Round 888/1000
+2026-02-15 15:03:02,800 - INFO -   Silhouette: 0.2839 | School ROC: 0.6352 F1: 0.6237 | Project ROC: 0.5118 F1: 0.2182 
+2026-02-15 15:03:02,800 - INFO - Round 889/1000
+2026-02-15 15:03:03,118 - INFO -   Silhouette: 0.3156 | School ROC: 0.5949 F1: 0.5792 | Project ROC: 0.6170 F1: 0.2574 
+2026-02-15 15:03:03,118 - INFO - Round 890/1000
+2026-02-15 15:03:03,379 - INFO -   Silhouette: 0.2753 | School ROC: 0.6256 F1: 0.6154 | Project ROC: 0.5549 F1: 0.2569 
+2026-02-15 15:03:03,380 - INFO - Round 891/1000
+2026-02-15 15:03:03,696 - INFO -   Silhouette: 0.2995 | School ROC: 0.6358 F1: 0.6256 | Project ROC: 0.5668 F1: 0.2500 
+2026-02-15 15:03:03,696 - INFO - Round 892/1000
+2026-02-15 15:03:03,946 - INFO -   Silhouette: 0.2551 | School ROC: 0.6423 F1: 0.6700 | Project ROC: 0.6024 F1: 0.2759 
+2026-02-15 15:03:03,946 - INFO - Round 893/1000
+2026-02-15 15:03:04,214 - INFO -   Silhouette: 0.2803 | School ROC: 0.6383 F1: 0.6087 | Project ROC: 0.6618 F1: 0.3273 
+2026-02-15 15:03:04,215 - INFO - Round 894/1000
+2026-02-15 15:03:04,484 - INFO -   Silhouette: 0.2122 | School ROC: 0.5934 F1: 0.5730 | Project ROC: 0.5587 F1: 0.2083 
+2026-02-15 15:03:04,484 - INFO - Round 895/1000
+2026-02-15 15:03:04,767 - INFO -   Silhouette: 0.2676 | School ROC: 0.6335 F1: 0.6387 | Project ROC: 0.5852 F1: 0.2913 
+2026-02-15 15:03:04,767 - INFO - Round 896/1000
+2026-02-15 15:03:05,006 - INFO -   Silhouette: 0.2463 | School ROC: 0.6149 F1: 0.6283 | Project ROC: 0.5251 F1: 0.2385 
+2026-02-15 15:03:05,006 - INFO - Round 897/1000
+2026-02-15 15:03:05,259 - INFO -   Silhouette: 0.2738 | School ROC: 0.5824 F1: 0.6154 | Project ROC: 0.5457 F1: 0.2182 
+2026-02-15 15:03:05,260 - INFO - Round 898/1000
+2026-02-15 15:03:05,694 - INFO -   Silhouette: 0.3106 | School ROC: 0.6041 F1: 0.6131 | Project ROC: 0.5490 F1: 0.2435 
+2026-02-15 15:03:05,694 - INFO - Round 899/1000
+2026-02-15 15:03:05,953 - INFO -   Silhouette: 0.2817 | School ROC: 0.6352 F1: 0.6105 | Project ROC: 0.5630 F1: 0.2308 
+2026-02-15 15:03:05,953 - INFO - Round 900/1000
+2026-02-15 15:03:06,172 - INFO -   Silhouette: 0.2718 | School ROC: 0.6571 F1: 0.6034 | Project ROC: 0.6056 F1: 0.2617 
+2026-02-15 15:03:06,172 - INFO - Round 901/1000
+2026-02-15 15:03:06,449 - INFO -   Silhouette: 0.2597 | School ROC: 0.6275 F1: 0.5969 | Project ROC: 0.5983 F1: 0.2727 
+2026-02-15 15:03:06,449 - INFO - Round 902/1000
+2026-02-15 15:03:06,722 - INFO -   Silhouette: 0.2701 | School ROC: 0.6317 F1: 0.6526 | Project ROC: 0.6290 F1: 0.2885 
+2026-02-15 15:03:06,722 - INFO - Round 903/1000
+2026-02-15 15:03:06,981 - INFO -   Silhouette: 0.3021 | School ROC: 0.6092 F1: 0.6432 | Project ROC: 0.6673 F1: 0.3689 
+2026-02-15 15:03:06,981 - INFO - Round 904/1000
+2026-02-15 15:03:07,272 - INFO -   Silhouette: 0.3774 | School ROC: 0.6339 F1: 0.6105 | Project ROC: 0.6087 F1: 0.2883 
+2026-02-15 15:03:07,273 - INFO - Round 905/1000
+2026-02-15 15:03:07,596 - INFO -   Silhouette: 0.3407 | School ROC: 0.6041 F1: 0.5882 | Project ROC: 0.5525 F1: 0.2617 
+2026-02-15 15:03:07,597 - INFO - Round 906/1000
+2026-02-15 15:03:07,839 - INFO -   Silhouette: 0.3373 | School ROC: 0.6612 F1: 0.6526 | Project ROC: 0.5588 F1: 0.2569 
+2026-02-15 15:03:07,839 - INFO - Round 907/1000
+2026-02-15 15:03:08,097 - INFO -   Silhouette: 0.1835 | School ROC: 0.6576 F1: 0.6292 | Project ROC: 0.5779 F1: 0.2407 
+2026-02-15 15:03:08,097 - INFO - Round 908/1000
+2026-02-15 15:03:08,346 - INFO -   Silhouette: 0.3404 | School ROC: 0.6423 F1: 0.6000 | Project ROC: 0.5995 F1: 0.2979 
+2026-02-15 15:03:08,347 - INFO - Round 909/1000
+2026-02-15 15:03:08,643 - INFO -   Silhouette: 0.3395 | School ROC: 0.6367 F1: 0.6129 | Project ROC: 0.5832 F1: 0.2727 
+2026-02-15 15:03:08,643 - INFO - Round 910/1000
+2026-02-15 15:03:08,926 - INFO -   Silhouette: 0.2731 | School ROC: 0.6432 F1: 0.6455 | Project ROC: 0.5573 F1: 0.2095 
+2026-02-15 15:03:08,927 - INFO - Round 911/1000
+2026-02-15 15:03:09,285 - INFO -   Silhouette: 0.3437 | School ROC: 0.6578 F1: 0.6633 | Project ROC: 0.6131 F1: 0.3019 
+2026-02-15 15:03:09,285 - INFO - Round 912/1000
+2026-02-15 15:03:09,593 - INFO -   Silhouette: 0.2924 | School ROC: 0.5932 F1: 0.5714 | Project ROC: 0.5617 F1: 0.2268 
+2026-02-15 15:03:09,593 - INFO - Round 913/1000
+2026-02-15 15:03:09,842 - INFO -   Silhouette: 0.2763 | School ROC: 0.6162 F1: 0.6162 | Project ROC: 0.5608 F1: 0.2745 
+2026-02-15 15:03:09,843 - INFO - Round 914/1000
+2026-02-15 15:03:10,103 - INFO -   Silhouette: 0.2686 | School ROC: 0.6301 F1: 0.6222 | Project ROC: 0.6201 F1: 0.2917 
+2026-02-15 15:03:10,103 - INFO - Round 915/1000
+2026-02-15 15:03:10,399 - INFO -   Silhouette: 0.3529 | School ROC: 0.6368 F1: 0.6359 | Project ROC: 0.5658 F1: 0.2523 
+2026-02-15 15:03:10,399 - INFO - Round 916/1000
+2026-02-15 15:03:10,686 - INFO -   Silhouette: 0.3100 | School ROC: 0.6431 F1: 0.6011 | Project ROC: 0.6121 F1: 0.2913 
+2026-02-15 15:03:10,687 - INFO - Round 917/1000
+2026-02-15 15:03:10,986 - INFO -   Silhouette: 0.2430 | School ROC: 0.6107 F1: 0.6300 | Project ROC: 0.5801 F1: 0.2301 
+2026-02-15 15:03:10,986 - INFO - Round 918/1000
+2026-02-15 15:03:11,232 - INFO -   Silhouette: 0.2770 | School ROC: 0.6411 F1: 0.6462 | Project ROC: 0.5430 F1: 0.2393 
+2026-02-15 15:03:11,232 - INFO - Round 919/1000
+2026-02-15 15:03:11,474 - INFO -   Silhouette: 0.3058 | School ROC: 0.6227 F1: 0.6383 | Project ROC: 0.6398 F1: 0.3364 
+2026-02-15 15:03:11,474 - INFO - Round 920/1000
+2026-02-15 15:03:11,775 - INFO -   Silhouette: 0.2697 | School ROC: 0.6477 F1: 0.6111 | Project ROC: 0.5708 F1: 0.2241 
+2026-02-15 15:03:11,776 - INFO - Round 921/1000
+2026-02-15 15:03:12,083 - INFO -   Silhouette: 0.2783 | School ROC: 0.6252 F1: 0.5914 | Project ROC: 0.5878 F1: 0.2500 
+2026-02-15 15:03:12,083 - INFO - Round 922/1000
+2026-02-15 15:03:12,339 - INFO -   Silhouette: 0.2532 | School ROC: 0.6373 F1: 0.6162 | Project ROC: 0.5875 F1: 0.2245 
+2026-02-15 15:03:12,340 - INFO - Round 923/1000
+2026-02-15 15:03:12,578 - INFO -   Silhouette: 0.2789 | School ROC: 0.6640 F1: 0.6458 | Project ROC: 0.5902 F1: 0.2569 
+2026-02-15 15:03:12,578 - INFO - Round 924/1000
+2026-02-15 15:03:12,831 - INFO -   Silhouette: 0.3303 | School ROC: 0.6262 F1: 0.5882 | Project ROC: 0.6113 F1: 0.2772 
+2026-02-15 15:03:12,831 - INFO - Round 925/1000
+2026-02-15 15:03:13,140 - INFO -   Silhouette: 0.2700 | School ROC: 0.6618 F1: 0.6328 | Project ROC: 0.6509 F1: 0.3158 
+2026-02-15 15:03:13,140 - INFO - Round 926/1000
+2026-02-15 15:03:13,455 - INFO -   Silhouette: 0.2864 | School ROC: 0.6015 F1: 0.6383 | Project ROC: 0.5781 F1: 0.2982 
+2026-02-15 15:03:13,455 - INFO - Round 927/1000
+2026-02-15 15:03:13,686 - INFO -   Silhouette: 0.2935 | School ROC: 0.6151 F1: 0.6263 | Project ROC: 0.5798 F1: 0.2353 
+2026-02-15 15:03:13,686 - INFO - Round 928/1000
+2026-02-15 15:03:13,925 - INFO -   Silhouette: 0.3636 | School ROC: 0.5901 F1: 0.5787 | Project ROC: 0.5722 F1: 0.2804 
+2026-02-15 15:03:13,925 - INFO - Round 929/1000
+2026-02-15 15:03:14,218 - INFO -   Silhouette: 0.2679 | School ROC: 0.5885 F1: 0.5926 | Project ROC: 0.5274 F1: 0.2264 
+2026-02-15 15:03:14,219 - INFO - Round 930/1000
+2026-02-15 15:03:14,476 - INFO -   Silhouette: 0.3217 | School ROC: 0.6120 F1: 0.6193 | Project ROC: 0.5489 F1: 0.2321 
+2026-02-15 15:03:14,476 - INFO - Round 931/1000
+2026-02-15 15:03:14,738 - INFO -   Silhouette: 0.2385 | School ROC: 0.6482 F1: 0.5909 | Project ROC: 0.5460 F1: 0.2182 
+2026-02-15 15:03:14,738 - INFO - Round 932/1000
+2026-02-15 15:03:14,999 - INFO -   Silhouette: 0.3870 | School ROC: 0.6569 F1: 0.6186 | Project ROC: 0.6263 F1: 0.3009 
+2026-02-15 15:03:14,999 - INFO - Round 933/1000
+2026-02-15 15:03:15,343 - INFO -   Silhouette: 0.2889 | School ROC: 0.6303 F1: 0.6000 | Project ROC: 0.5891 F1: 0.2804 
+2026-02-15 15:03:15,343 - INFO - Round 934/1000
+2026-02-15 15:03:15,544 - INFO -   Silhouette: 0.3086 | School ROC: 0.6459 F1: 0.6264 | Project ROC: 0.6510 F1: 0.3400 
+2026-02-15 15:03:15,544 - INFO - Round 935/1000
+2026-02-15 15:03:15,802 - INFO -   Silhouette: 0.2555 | School ROC: 0.5990 F1: 0.5889 | Project ROC: 0.5678 F1: 0.2549 
+2026-02-15 15:03:15,802 - INFO - Round 936/1000
+2026-02-15 15:03:16,035 - INFO -   Silhouette: 0.3935 | School ROC: 0.6801 F1: 0.6310 | Project ROC: 0.6316 F1: 0.3364 
+2026-02-15 15:03:16,035 - INFO - Round 937/1000
+2026-02-15 15:03:16,322 - INFO -   Silhouette: 0.2208 | School ROC: 0.6767 F1: 0.6298 | Project ROC: 0.5966 F1: 0.2667 
+2026-02-15 15:03:16,323 - INFO - Round 938/1000
+2026-02-15 15:03:16,644 - INFO -   Silhouette: 0.3689 | School ROC: 0.6244 F1: 0.6462 | Project ROC: 0.5535 F1: 0.2545 
+2026-02-15 15:03:16,644 - INFO - Round 939/1000
+2026-02-15 15:03:16,863 - INFO -   Silhouette: 0.3101 | School ROC: 0.5892 F1: 0.5938 | Project ROC: 0.5143 F1: 0.2330 
+2026-02-15 15:03:16,863 - INFO - Round 940/1000
+2026-02-15 15:03:17,130 - INFO -   Silhouette: 0.2158 | School ROC: 0.5853 F1: 0.5556 | Project ROC: 0.5779 F1: 0.2737 
+2026-02-15 15:03:17,130 - INFO - Round 941/1000
+2026-02-15 15:03:17,436 - INFO -   Silhouette: 0.2474 | School ROC: 0.5987 F1: 0.5846 | Project ROC: 0.5906 F1: 0.2407 
+2026-02-15 15:03:17,436 - INFO - Round 942/1000
+2026-02-15 15:03:17,735 - INFO -   Silhouette: 0.2817 | School ROC: 0.5951 F1: 0.5635 | Project ROC: 0.5283 F1: 0.2178 
+2026-02-15 15:03:17,735 - INFO - Round 943/1000
+2026-02-15 15:03:17,968 - INFO -   Silhouette: 0.2011 | School ROC: 0.6481 F1: 0.6171 | Project ROC: 0.5689 F1: 0.2759 
+2026-02-15 15:03:17,968 - INFO - Round 944/1000
+2026-02-15 15:03:18,206 - INFO -   Silhouette: 0.2873 | School ROC: 0.6019 F1: 0.6429 | Project ROC: 0.5039 F1: 0.1982 
+2026-02-15 15:03:18,206 - INFO - Round 945/1000
+2026-02-15 15:03:18,467 - INFO -   Silhouette: 0.3264 | School ROC: 0.5884 F1: 0.5773 | Project ROC: 0.6186 F1: 0.2830 
+2026-02-15 15:03:18,467 - INFO - Round 946/1000
+2026-02-15 15:03:18,731 - INFO -   Silhouette: 0.3030 | School ROC: 0.6303 F1: 0.6387 | Project ROC: 0.5616 F1: 0.2703 
+2026-02-15 15:03:18,731 - INFO - Round 947/1000
+2026-02-15 15:03:19,126 - INFO -   Silhouette: 0.3270 | School ROC: 0.6075 F1: 0.6178 | Project ROC: 0.5910 F1: 0.2913 
+2026-02-15 15:03:19,128 - INFO - Round 948/1000
+2026-02-15 15:03:19,356 - INFO -   Silhouette: 0.2589 | School ROC: 0.6164 F1: 0.5914 | Project ROC: 0.4968 F1: 0.2222 
+2026-02-15 15:03:19,356 - INFO - Round 949/1000
+2026-02-15 15:03:19,691 - INFO -   Silhouette: 0.2631 | School ROC: 0.5966 F1: 0.5882 | Project ROC: 0.5767 F1: 0.2376 
+2026-02-15 15:03:19,691 - INFO - Round 950/1000
+2026-02-15 15:03:19,940 - INFO -   Silhouette: 0.3091 | School ROC: 0.6575 F1: 0.6203 | Project ROC: 0.5595 F1: 0.2609 
+2026-02-15 15:03:19,940 - INFO - Round 951/1000
+2026-02-15 15:03:20,220 - INFO -   Silhouette: 0.2313 | School ROC: 0.6621 F1: 0.6129 | Project ROC: 0.5751 F1: 0.2655 
+2026-02-15 15:03:20,220 - INFO - Round 952/1000
+2026-02-15 15:03:20,458 - INFO -   Silhouette: 0.3144 | School ROC: 0.5921 F1: 0.5851 | Project ROC: 0.5865 F1: 0.2692 
+2026-02-15 15:03:20,458 - INFO - Round 953/1000
+2026-02-15 15:03:20,760 - INFO -   Silhouette: 0.3002 | School ROC: 0.6149 F1: 0.5978 | Project ROC: 0.5353 F1: 0.2316 
+2026-02-15 15:03:20,761 - INFO - Round 954/1000
+2026-02-15 15:03:21,005 - INFO -   Silhouette: 0.2258 | School ROC: 0.6288 F1: 0.6178 | Project ROC: 0.5334 F1: 0.2222 
+2026-02-15 15:03:21,006 - INFO - Round 955/1000
+2026-02-15 15:03:21,295 - INFO -   Silhouette: 0.2890 | School ROC: 0.6038 F1: 0.5914 | Project ROC: 0.5680 F1: 0.2617 
+2026-02-15 15:03:21,295 - INFO - Round 956/1000
+2026-02-15 15:03:21,622 - INFO -   Silhouette: 0.2793 | School ROC: 0.6360 F1: 0.6298 | Project ROC: 0.6332 F1: 0.2832 
+2026-02-15 15:03:21,623 - INFO - Round 957/1000
+2026-02-15 15:03:21,881 - INFO -   Silhouette: 0.2644 | School ROC: 0.5838 F1: 0.6000 | Project ROC: 0.5858 F1: 0.2430 
+2026-02-15 15:03:21,882 - INFO - Round 958/1000
+2026-02-15 15:03:22,147 - INFO -   Silhouette: 0.3400 | School ROC: 0.6117 F1: 0.6243 | Project ROC: 0.6081 F1: 0.3019 
+2026-02-15 15:03:22,147 - INFO - Round 959/1000
+2026-02-15 15:03:22,568 - INFO -   Silhouette: 0.3379 | School ROC: 0.6452 F1: 0.6564 | Project ROC: 0.6071 F1: 0.3093 
+2026-02-15 15:03:22,569 - INFO - Round 960/1000
+2026-02-15 15:03:22,805 - INFO -   Silhouette: 0.3186 | School ROC: 0.5864 F1: 0.5587 | Project ROC: 0.5779 F1: 0.2430 
+2026-02-15 15:03:22,805 - INFO - Round 961/1000
+2026-02-15 15:03:23,041 - INFO -   Silhouette: 0.1961 | School ROC: 0.6505 F1: 0.5848 | Project ROC: 0.5605 F1: 0.2340 
+2026-02-15 15:03:23,042 - INFO - Round 962/1000
+2026-02-15 15:03:23,382 - INFO -   Silhouette: 0.3296 | School ROC: 0.6461 F1: 0.6735 | Project ROC: 0.6148 F1: 0.2656 
+2026-02-15 15:03:23,383 - INFO - Round 963/1000
+2026-02-15 15:03:23,674 - INFO -   Silhouette: 0.3112 | School ROC: 0.6175 F1: 0.6378 | Project ROC: 0.6332 F1: 0.2931 
+2026-02-15 15:03:23,674 - INFO - Round 964/1000
+2026-02-15 15:03:23,960 - INFO -   Silhouette: 0.3217 | School ROC: 0.6301 F1: 0.6170 | Project ROC: 0.6541 F1: 0.3137 
+2026-02-15 15:03:23,960 - INFO - Round 965/1000
+2026-02-15 15:03:24,240 - INFO -   Silhouette: 0.3123 | School ROC: 0.6215 F1: 0.6054 | Project ROC: 0.5500 F1: 0.2340 
+2026-02-15 15:03:24,240 - INFO - Round 966/1000
+2026-02-15 15:03:24,484 - INFO -   Silhouette: 0.3274 | School ROC: 0.6243 F1: 0.6111 | Project ROC: 0.5785 F1: 0.2500 
+2026-02-15 15:03:24,484 - INFO - Round 967/1000
+2026-02-15 15:03:24,774 - INFO -   Silhouette: 0.1777 | School ROC: 0.5928 F1: 0.5608 | Project ROC: 0.5826 F1: 0.2667 
+2026-02-15 15:03:24,775 - INFO - Round 968/1000
+2026-02-15 15:03:25,192 - INFO -   Silhouette: 0.2573 | School ROC: 0.5902 F1: 0.6114 | Project ROC: 0.5537 F1: 0.2162 
+2026-02-15 15:03:25,192 - INFO - Round 969/1000
+2026-02-15 15:03:25,395 - INFO -   Silhouette: 0.2461 | School ROC: 0.6103 F1: 0.5632 | Project ROC: 0.6138 F1: 0.2826 
+2026-02-15 15:03:25,395 - INFO - Round 970/1000
+2026-02-15 15:03:25,662 - INFO -   Silhouette: 0.3627 | School ROC: 0.6653 F1: 0.6283 | Project ROC: 0.6497 F1: 0.2991 
+2026-02-15 15:03:25,662 - INFO - Round 971/1000
+2026-02-15 15:03:25,927 - INFO -   Silhouette: 0.3358 | School ROC: 0.6297 F1: 0.6120 | Project ROC: 0.6011 F1: 0.2653 
+2026-02-15 15:03:25,928 - INFO - Round 972/1000
+2026-02-15 15:03:26,192 - INFO -   Silhouette: 0.2835 | School ROC: 0.5778 F1: 0.6263 | Project ROC: 0.5085 F1: 0.1905 
+2026-02-15 15:03:26,193 - INFO - Round 973/1000
+2026-02-15 15:03:26,621 - INFO -   Silhouette: 0.2210 | School ROC: 0.6050 F1: 0.5699 | Project ROC: 0.6185 F1: 0.2804 
+2026-02-15 15:03:26,622 - INFO - Round 974/1000
+2026-02-15 15:03:26,878 - INFO -   Silhouette: 0.3532 | School ROC: 0.6509 F1: 0.5969 | Project ROC: 0.6210 F1: 0.2727 
+2026-02-15 15:03:26,879 - INFO - Round 975/1000
+2026-02-15 15:03:27,119 - INFO -   Silhouette: 0.3813 | School ROC: 0.6073 F1: 0.6054 | Project ROC: 0.5836 F1: 0.2885 
+2026-02-15 15:03:27,119 - INFO - Round 976/1000
+2026-02-15 15:03:27,369 - INFO -   Silhouette: 0.2479 | School ROC: 0.5981 F1: 0.5549 | Project ROC: 0.6050 F1: 0.2766 
+2026-02-15 15:03:27,369 - INFO - Round 977/1000
+2026-02-15 15:03:27,682 - INFO -   Silhouette: 0.2633 | School ROC: 0.6416 F1: 0.6383 | Project ROC: 0.5839 F1: 0.2545 
+2026-02-15 15:03:27,682 - INFO - Round 978/1000
+2026-02-15 15:03:27,986 - INFO -   Silhouette: 0.3343 | School ROC: 0.6505 F1: 0.6310 | Project ROC: 0.5757 F1: 0.2692 
+2026-02-15 15:03:27,987 - INFO - Round 979/1000
+2026-02-15 15:03:28,305 - INFO -   Silhouette: 0.2838 | School ROC: 0.6242 F1: 0.6154 | Project ROC: 0.6192 F1: 0.2909 
+2026-02-15 15:03:28,306 - INFO - Round 980/1000
+2026-02-15 15:03:28,555 - INFO -   Silhouette: 0.2876 | School ROC: 0.6383 F1: 0.6316 | Project ROC: 0.5433 F1: 0.2453 
+2026-02-15 15:03:28,555 - INFO - Round 981/1000
+2026-02-15 15:03:28,805 - INFO -   Silhouette: 0.3889 | School ROC: 0.6241 F1: 0.6321 | Project ROC: 0.5943 F1: 0.2807 
+2026-02-15 15:03:28,805 - INFO - Round 982/1000
+2026-02-15 15:03:29,076 - INFO -   Silhouette: 0.2637 | School ROC: 0.6582 F1: 0.6455 | Project ROC: 0.5444 F1: 0.2243 
+2026-02-15 15:03:29,076 - INFO - Round 983/1000
+2026-02-15 15:03:29,414 - INFO -   Silhouette: 0.3558 | School ROC: 0.5983 F1: 0.6064 | Project ROC: 0.5298 F1: 0.2200 
+2026-02-15 15:03:29,414 - INFO - Round 984/1000
+2026-02-15 15:03:29,678 - INFO -   Silhouette: 0.3008 | School ROC: 0.6111 F1: 0.5856 | Project ROC: 0.5852 F1: 0.2178 
+2026-02-15 15:03:29,679 - INFO - Round 985/1000
+2026-02-15 15:03:29,965 - INFO -   Silhouette: 0.2400 | School ROC: 0.6010 F1: 0.6263 | Project ROC: 0.6272 F1: 0.2909 
+2026-02-15 15:03:29,965 - INFO - Round 986/1000
+2026-02-15 15:03:30,233 - INFO -   Silhouette: 0.2737 | School ROC: 0.6064 F1: 0.6042 | Project ROC: 0.5934 F1: 0.2772 
+2026-02-15 15:03:30,233 - INFO - Round 987/1000
+2026-02-15 15:03:30,559 - INFO -   Silhouette: 0.2432 | School ROC: 0.5998 F1: 0.5683 | Project ROC: 0.4968 F1: 0.2182 
+2026-02-15 15:03:30,559 - INFO - Round 988/1000
+2026-02-15 15:03:30,815 - INFO -   Silhouette: 0.2508 | School ROC: 0.6321 F1: 0.6277 | Project ROC: 0.6249 F1: 0.3148 
+2026-02-15 15:03:30,815 - INFO - Round 989/1000
+2026-02-15 15:03:31,063 - INFO -   Silhouette: 0.2702 | School ROC: 0.6705 F1: 0.6845 | Project ROC: 0.5406 F1: 0.2321 
+2026-02-15 15:03:31,064 - INFO - Round 990/1000
+2026-02-15 15:03:31,403 - INFO -   Silhouette: 0.2821 | School ROC: 0.6210 F1: 0.6032 | Project ROC: 0.5696 F1: 0.2703 
+2026-02-15 15:03:31,403 - INFO - Round 991/1000
+2026-02-15 15:03:31,637 - INFO -   Silhouette: 0.2548 | School ROC: 0.5723 F1: 0.5838 | Project ROC: 0.5327 F1: 0.2202 
+2026-02-15 15:03:31,638 - INFO - Round 992/1000
+2026-02-15 15:03:31,942 - INFO -   Silhouette: 0.2883 | School ROC: 0.5951 F1: 0.5684 | Project ROC: 0.6377 F1: 0.3019 
+2026-02-15 15:03:31,942 - INFO - Round 993/1000
+2026-02-15 15:03:32,272 - INFO -   Silhouette: 0.3502 | School ROC: 0.6257 F1: 0.5967 | Project ROC: 0.5887 F1: 0.2828 
+2026-02-15 15:03:32,272 - INFO - Round 994/1000
+2026-02-15 15:03:32,556 - INFO -   Silhouette: 0.2531 | School ROC: 0.5960 F1: 0.5938 | Project ROC: 0.5553 F1: 0.2115 
+2026-02-15 15:03:32,556 - INFO - Round 995/1000
+2026-02-15 15:03:32,795 - INFO -   Silhouette: 0.2771 | School ROC: 0.5917 F1: 0.6146 | Project ROC: 0.5422 F1: 0.2430 
+2026-02-15 15:03:32,795 - INFO - Round 996/1000
+2026-02-15 15:03:33,058 - INFO -   Silhouette: 0.2554 | School ROC: 0.6648 F1: 0.6387 | Project ROC: 0.5992 F1: 0.2632 
+2026-02-15 15:03:33,059 - INFO - Round 997/1000
+2026-02-15 15:03:33,341 - INFO -   Silhouette: 0.2719 | School ROC: 0.6136 F1: 0.6146 | Project ROC: 0.5613 F1: 0.2476 
+2026-02-15 15:03:33,342 - INFO - Round 998/1000
+2026-02-15 15:03:33,630 - INFO -   Silhouette: 0.3539 | School ROC: 0.6264 F1: 0.5856 | Project ROC: 0.5766 F1: 0.2655 
+2026-02-15 15:03:33,630 - INFO - Round 999/1000
+2026-02-15 15:03:33,922 - INFO -   Silhouette: 0.2984 | School ROC: 0.6160 F1: 0.6243 | Project ROC: 0.5290 F1: 0.2056 
+2026-02-15 15:03:33,922 - INFO - Round 1000/1000
+2026-02-15 15:03:34,261 - INFO -   Silhouette: 0.3587 | School ROC: 0.6049 F1: 0.6131 | Project ROC: 0.5607 F1: 0.2449 
+2026-02-15 15:03:34,506 - INFO - Results saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_results.json
+2026-02-15 15:03:37,141 - INFO - Convergence plots saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_convergence_plots.png
+2026-02-15 15:03:39,973 - INFO - Focused correlation analysis saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_silhouette_correlation.png
+2026-02-15 15:03:39,973 - INFO - Correlation values saved to /home/dev/work_main/random/assesment/k_means_selected/miatral/mistral_cv_evo_silhouette_correlations.json
+2026-02-15 15:03:39,973 - INFO - Silhouette Correlation Summary:
+2026-02-15 15:03:39,973 - INFO -   • Silhouette vs School ROC AUC: R=-0.033 (WEAK negative)
+2026-02-15 15:03:39,973 - INFO -   • Silhouette vs Project ROC AUC: R=0.270 (WEAK positive)
+2026-02-15 15:03:39,973 - INFO -   • Silhouette vs Avg. ROC AUC: R=0.198 (WEAK positive)
+2026-02-15 15:03:39,973 - INFO -   • Silhouette vs School F1 Score: R=0.130 (WEAK positive)
+2026-02-15 15:03:39,973 - INFO -   • Silhouette vs Project F1 Score: R=0.288 (WEAK positive)
+2026-02-15 15:03:39,974 - INFO -   • Silhouette vs Avg. F1 Score: R=0.285 (WEAK positive)
+2026-02-15 15:03:39,974 - INFO - Experiment completed!

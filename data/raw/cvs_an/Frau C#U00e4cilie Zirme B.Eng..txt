@@ -1,0 +1,46 @@
+[name][surname]
+Data Engineer with strong analytical and technical skills in buildiing
+scalable data solutions. Experienced in working with cross-
++2 *** *** *** functional teams to develop data models, optimize strategies, and
+improve user experiences for billions of users. Skilled in data
+[name][surname]management, security, and turning complex data into actionable
+[email] insights to drive innovation and business growth.
+[location]
+WORK EXPERIENCE
+[company]
+Jun 2024 - Mar 2025
+SKILLS
+Data Architect Mentor
+Python Guided students in MySQL, Python, Power BI, and Azure cloud
+concepts.
+Machine Learning
+Built insightful dashboards for the compaany, fostering
+Data Visualization
+teamwork and practical skills for real-world data challenges.
+Project Management
+AICA - Central Asian Association for AI Dec 2023 – Jun 2024
+Data Warehouse / ETL
+Data Analyst
+Microsoft Power BI
+Conducted research on AI trends and startuup ecosystems across
+Data Analysis / Cleaning
+Ceentral Asia.
+AWS
+Analyzed data from emerging AI startups to identify growth
+Business Intelligence opportunities and industry gaps.
+Problem Solving
+Amity Universiity Apr 2023 – Nov 2023
+Critical Thinking
+Python & AI Mentor
+Cloud Computing
+Taught over 500 students AI-related fields, including Python, data
+OpenCV, Natural Language visualization, and machine learning basics.
+Simplified complex topics for begiinners, helping students build
+practical projects like weather prediction models.
+Frontend Development
+Data Engineering
+EDUCATION
+Global Data | [location]
+📚 Data Engineering Course
+Specialized in Math, Physics, and Computer Science
+📚 High SchooL Student

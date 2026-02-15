@@ -1,0 +1,42 @@
+[name] [surname]
+[location] · +2 *** *** *** · [email]
+WEBSITES, PORTFOLIOS, PROFILES
+https://github.com/[username]
+PROFESSIONAL SUMMARY
+Researcher in the field of reinforcement learning for solving the spacecraft control problem in
+the field of the gravitational lens of the Sun.
+SKILLS
+ Reinforcement learning
+ Mathematics
+ Neural networks
+ Mechanics of space flight
+ Theoretical mechanics
+ Optimization techniques
+WORK HISTORY
+Teacher
+[company] – [location]
+09/2024 – Current
+ Developed strong relationships with students, parents, and colleagues by maintaining
+open lines of communication and fostering a supportive learning environment.
+ Maintained accurate records of student progress, attendance, and behavior.
+EDUCATION
+Bachelor of Science: Machine Learning in Space Systems
+[company] – [location]
+Expected in 06/2025
+Base organization is the [company] of Applied Mathematics of the Russian Academy of
+Sciences, Department of Applied Mathematics and Mathematical Modeling.
+In my thesis, I solve the problem of controlling a spacecraft in the gravitational lens of the Sun
+using reinforcement learning methods.
+I was undergoing professional retraining in machine learning from [company]. Participated in
+the hackathon.
+Participant of the 67th [company] scientific conference with a report on spacecraft control in the
+gravitational lens of the Sun.
+ACCOMPLISHMENTS
+ Participant of the 67th [company] Scientific Conference
+ Holder of a diploma in machine learning training
+ Participant of the machine learning hackathon in October 2024
+LANGUAGES
+English – Upper intermediate (B2)
+
+
+

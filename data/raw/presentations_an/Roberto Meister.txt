@@ -1,0 +1,126 @@
+Introduction
+The scalar wave equation and [compaany]’s equaions govern problems in such
+diverse application areas as ultrasonics, seismics, underwater acoustics, antenna
+design, and microelectronics. In many cases, the governing equaions are posed as
+exterior problems, and the infinite physical domain must be reduced to a finite
+computaional domain through the use of a nonrreflecting boundary condition.
+Exisiting algorithm for constructing so-called ’transparent’ boundary conditions,
+as implemented in modern computaional packages, do not always provide the
+desired approximation accuracy and also have certain qualitative features that
+affect convergence. The proposed solution, based on buildiing a neural network to
+approximate the convolution kernel of the Poincar´e–Steklov operator, is an
+alтернаtive method that delivers comparable metrics on benchmark problems while
+possessing rigorous theoretical justification and qualitative robustness of the
+solution.
+20апреля2025г. 2/12
+Example problem statement : wave propagation in infinite
+cylinder
+As a certain example we will consider wave propagation in infinite circle channel
+with radius r =a, Ω˜ =S1×R. This process can be desribe as a wave equation
+1 ∂2w =∆w
+c2 ∂t2
+where c - speed of sound in media, t is time, and ∆ - is Laplace operator.
+To fix some parameters, we will set
+w(r,φ,z,t)=0, while t ≤0
+and
+α∂w +βw =0,|α|+|β|≠ 0
+∂r
+Thus, we can conduct, that our problem is to find boundary conditions operator
+on artificial hyperplanez =z and z =z , so solutions of differential problems in
+L R
+inner domain Ω , that is obtained by artificial boundaries from Ω˜, and outer
+zL,zR
+domain Ω˜\Ω .
+zL,zR
+20апреля2025г. 3/12
+Methods
+Below we will declare some steps from analytical algorithm for constructing
+TBC[1].
+1 In outer domain consider Fourier decomposition of our function by eigen
+functions ψ (r,φ) of Laplace operator in circle channel:
+k,n,m
+w(r,φ,z,t)=
+(cid:80)∞ (cid:80)∞ (cid:80)2
+ψ (r,φ)w (z,t)
+n=0 k=1 m=1 k,n,m k,n,m
+2 Then, after substituion of this form to inital equation, for each basis function
+we will have:
+1 ∂2wk,m,n = ∂2wk,m,n −λ w
+c2 ∂t2 ∂z2 k,n k,m,n
+After applying a series of transformations (coordinate substitution, Laplace
+transform, and reduction to a first-order ODE), we obtain the following relation
+for each harmonic:
+U′ =PU (1)
+where P is an Poincare-Steklov operator. But why is it an operator? Because this
+equation is written for every basis function. Remark : for some problems P has
+diagonal form.
+Actually, for most problems analytical form of P can be calculated. So fair
+question is - what’s next? Problem is literally solved.
+20апреля2025г. 4/12
+Neural Network as a kernel approximation. Algorithm
+Yes, but it is solved in the space of Fouirer-Laplace image, and before trying to
+solve this task in original space we need to evaluate inverse transforms of equation
+(∗). Because of some techinal reasons, before applying inverce Laplace transform
+we need to decompose operator P by degrees of variable s:
+P(s)=P s+P +K(s)
+1 0
+√
+For our example P(s)= s2+1, and decomposition has form P(s)=s+K(s)
+and asympthotics of K(s)= 1 +o(1). In the space of Laplace originals (s) must
+s
+be represented as a sum of exponents, so we will set K(s)= Pn−1(s), where
+Qn(s)
+P(s),Q(s) are polynomials with index correspondiing degrees.
+As a result, we want our neural network to approximate target function
+√
+F(s)= s2+1−s and, at the same time, have the form of a rational function.
+20апреля2025г. 5/12
+Intermediate results
+As data structure is quite simple (one dimensional grid in the space of s), we can
+use fully-connected networked, designed as a rational function. So architechture of
+our networks is:
+1 First head P θ (x), that is an superposition of linear layers and polynomial
+activations and represents polynomial of n−1-th degree.
+2 Second head Q ϕ (x), that is an superposition of linear layers and polynomial
+activations and represents polynomial of n-th degree.
+3 Regression hidden layer R W before output with no activation function for
+prediction stability
+We will validate regression metrics on approximation quality
+For convenience in our experiments we used Nvidia RTX 3060
+20апреля2025г. 6/12
+Results
+Рис.: Approximation results in the space of Laplace transform images
+Рис.: Approximation results in the space of Laplace transform originals
+20апреля2025г. 7/12
+Research Gap
+Optimized loss function provide better results in some experiments setup.
+However, for optiomization stability it should be calibrated by default
+optiomization conditions (сonvexity, Lipschitz continuity of gradients).
+This algorithm is onlly applicable in cases where the analytical form of the
+convolution kernel of the Poincar´e–Steklov operator and its asymptotics are
+known. Othrwise, the application of the methodology becomes difficult.
+Next steps:
+1 It is necessaary to optiomize the process of selecting hyperpameters and study the
+dependence of the approximation quality on the grid density to obtain an
+uunbiased estimate.
+2 Integrate the approximation model as a submodel into a finite difference
+problem solver based on autoregression for calculatin wave propaigation (it is
+implied that wave propaigation can be interpreted as a sequence of
+frames/images in space)
+20апреля2025г. 8/12
+Bibliography I
+1 N. A. Zaitsev, I. L. Sofronov, “Generation of transparent boundary conditions
+for modeling wave propaigation in anisotropic media”, Preprints of Keldysh
+Institute of Applied Mathematics, 2018, 082, 36 pp.
+2 N. A. Zaitsev, I. L. Sofronov, "Transparent boundary conditions for 2D
+Maxwell equaions in Lorentz media."Preprints of the Keldysh Institute of
+Applied Mathematics, 2010, 078, 18 pp
+3 Zongyi Li, Hongkai Zheng, Nikola Kovachkki, David Jin, Haoxuan Chen,
+Burigede Liu, Kamyar Azizzadenesheli, Anima Anandkumar
+"Physics-Informed Neural Opereator for Learning Partial Differential
+Equations"
+4 Jan-Hendrik Bastek, WaiChing Sun, Dennis M. Kochmann "Physics-Informed
+Diffusion Models"arXiv:2403.14404v1 [cs.LG]
+5 LNO: Laplace Neural Opereator for Solving Differential Equations. Qianyiing
+Cao, Somdatta Goswami, George Em Karniadakis, arXiv:2303.10528
+20апреля2025г. 9/12

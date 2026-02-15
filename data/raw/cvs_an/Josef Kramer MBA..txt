@@ -1,0 +1,20 @@
+About
+Currently, I'm a web development student at a technical [location]. My portfolio includes projects built with Django, Flask, PHP, Vue, and C. I'm also currently enrolled in the Sber School 21 program and the "Deep Learning School" at [company].
+
+I have experience working on team projects and have implemented linear regression and logistic regression with regularization in Python. I've trained and tested models and visualized data using libraries like Matplotlib, Seaborn, and Plotly. [name], currently, I'm working on a personal project where the model aims to restore the missing parts of an image. I also ML-developer/Data Scientist develop a Telegram bot with artificial intelligence.
+
+I have also participated in machine learning conferences and have worked as a math teacher at a college and as a programming tutor at an online school.
+date of birth: [date]
++2 *** *** ***
+[email]
+Education
+github: [name]
+gitlab: [name] 2021-2023 I studied at the "Center for Gifted Children," where I participated in and won hackathons. I achieved high Skills scores on the Unified State Exam ( ЕГЭ ) and was admitted to university on a government-Python funded scholarship (budget).
+C
+2024 I entered Sber “School 21”, gained experience working in a team, studied new SQL programming languages and new directions PHP Docker
+I have enrolled and am studying Postman 2025 at the “Deep Learning School” courses from [company]. I participate in conferences SQL, MySQL, PostgreSQL,
+Django, Scikit-learn, pandas, numpy, Flask, 
+Matplotlib, Seaborn, Plotly
+
+
+

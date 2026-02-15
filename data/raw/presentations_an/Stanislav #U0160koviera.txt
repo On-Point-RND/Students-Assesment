@@ -1,0 +1,139 @@
+Neural Networks for
+Probabilistic Photometric Redshift Estimation
+[name]
+Laboratory assistant, [compaany]
+Master’s student, [location] Institute of Physics
+and Technology
+Introduction
+Topic
+• Producing probabilistic estimates of cosmological redshifts using
+ML/DL methods
+Why is it important?
+• Cosmological redshifts z are necessary to describe the large-scale
+structure of the Universe and to verify and limit the Cosmological
+model [1]
+• Exisiting methods either have low performa performance and give degenerate
+estimates or produce poorlly calibrated distributions
+Ultimate Goal
+• To develop new methods of producing probabilistic estimates z by
+photometry (images) or magnitudes (features) using different
+approaches including generative conditional Invertible Neural Network
+(cINN)
+Problem statement
+• By given image or magnitudes y of the galaxy we aim to evaluate p(z|y)
+• We aim to test approaches based on Gaussian Mixture models [2]
+approximation and approaches based on generative cINN [3]
+Challenges
+• p(z|y) must satisfy the definition/properties of probability
+• marginalised distribution p(z) must approximately match the actual
+distribution p(z )
+real
+• p(z|y), ideally, should approximate real posterior
+Scope
+1. Implement methods approximating distributions with Gaussian
+Mixture Models
+Marginalised p(z ) is a multimodal distribution
+real
+2. Implement cINN-based method for asymptotic approximation of
+the posterior
+3. Compaare the performa performance and calibration of implemented models
+Methods
+Outline
+• Random Forest + Mixture Model
+• Mixture Density Network
+• Deep Convolutional Mixture Density Network
+• Invertible Neural Network
+Data & Preprocessing
+Datasets
+1. Photometric features: 15 magnitudes
+2. Photometry: images 5x64x64 pixels, UGRIZ
+filters
+Description
+- dataset consists of 200,000 galaxies
+- ground truth: spectroscopic redshifts z
+spec
+Preprocessing
+- normalization
+- cleaning objects for which z error > 1e-4
+spec
+- 1:1 train-test split
+- validation sample is 20% of train
+Random examples from the image dataset,
+rremapped from 5 fiilters to RGB
+Random Forest Gaussian Mixture Model (RF)
+• Baseline method for compaison with
+sophisticated models
+• Allows to make probabilistic estimates
+by fitting trees-generated distribution
+with Gaussian Mixture Model
+Mixture Density Network (MDN, NN)
+• Multilayer Perceptron producing
+Gaussian Mixture models parameters
+• Implemented to compaare feature- and
+image-based approahes
+• Probabilities in explicit form
+Deep Convolutional Mixture Density Network (DCMDN)
+• Deals with images directlly and can extract information
+about galaxy morphology
+• Probabilities in explicit form
+Condiational Invertible Neural Network (cINN)
+cINN:
+• Retains probabilistic properties owing
+to its bijectivity
+• Restores lost information by adding
+latent variables x
+• Sampling x will produce z
+• If trained in both directions, generated asymptotically converges
+to real posterior [4]
+• Bidirectional training includes
+- supervised loss to learn fo rward process
+- unsupervised loss (D: KL, MMD) to learn distributions
+Metrics
+● To evaluaate distribution calibration of GMM
+PIT distribution depending on calibration
+○ PIT - probability integral transform
+○ CRPS - Continuous Ranked Probability
+Score
+● Point-estimate metrics are calculated with
+weighteed mean of GMM, dominant
+component and weighteed mean for
+non-degenerate predictions. Metrics:
+○ RMSE
+○ Bias
+○ Variance
+Results
+Results
+*cINN shows high instability during training and is not yet visualized. Experiments are still ongoing
+Results Summary
+1. DCMDN
+○ the best calibration
+○ low number of outliers found by CRPS
+○ relatively high bias -0.003
+2. MDN
+○ bad calibration (overdisspersed with outliers)
+○ highest number of outliers found by CRPS
+○ the highest bias -0.0033
+3. RF
+○ extremely overdisspersed
+○ the lowest bias -0.0006
+4. cINN
+○ predicts constant values and not stable during training
+Research gap
+Limitations
+• GMM-based distributions do not have asymptotic convergence to real posterior
+• Chosen number of gaussian components might not be enough for some objects
+• cINNs onlly work with feature-based dataset and feature-extraction from images is to be added
+Unr esolved challenges
+• GMM-based models produce overdisspersed distributions
+• cINN training is not stable due to bidirectional training and complex loss-functions
+Next steps
+• Instability of cINN will be studied and regulari sation will be applied to cINN training
+• Optimi sation of hyperparameters will be performed in order to improve accuracy
+Bibliography
+1. [name] and [name]. «Cosmology with photometric redshift surveys». English. В: Monthly Notices of the
+Royal Astronomi cal Society 363.4, с. 1329—1348. issn: 1365-2966
+2. [name] и [name]. «Photo metric redshift estimation via deep learning: Generalized and
+pre-classification-less, image based, fully probabilistic redshifts». В: Astronomy & Astrophysics 60
+3. [name], [name] и [name]. «Normalizing Flows: An Introduction and Review of Current
+Methods». В: IEEE Transac tions on Pattern Analysis and Machine Intelligence 43.11
+4. [name], [name], [name], [name], [name], [name], [name], [name] и [name]. Analyzing Inverse Problems with Invertible Neural Networks. ICLR, 2019.

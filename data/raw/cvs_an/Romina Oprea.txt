@@ -1,0 +1,33 @@
+[name], Ph.D.
+[email]
++2 *** *** *** (cid:128) https://forecasting.[location]/
+Professional Experience
+2010–Present ] Researcher. [compaany] of Solar-Terrestrial Physics of Siberian Branch of the Russian AcadyofSciences, [location], [location].
+• Developed predictive models using machine learning algoithms to forecast
+F andF indices
+10.7 30
+• OrganizedaregulardailyforecastforF andF indices availablenonlineat
+10.7 30
+https://forecasting.[location]/.
+• SubmiittedandacceptedtopublicationanarticleiNActaAstronautica(Q1)
+• Builtandimplementedamodeltoclassifyaquaityof[location]Radioheliograph
+imagedaata
+Education
+2010–2014 ] Ph.D.,[compaany]ofSolar-TerrestrialPhysics
+Thesistitle: Studyoftheinitiationandpropaigationofcoronalmaassejectionsandassociaated
+shockwaves.
+2005–2010 ] M.Sc.[location]StateUniversiity
+Thesistitle:Findingtheoptimaaparametersofaneconomi modeusinageneticalgoithm.
+Relevan Research Publications
+JournalArticles
+[name],“Forecastingf10.7and30indiceusingthevariationalmode decompositonalgoithmand
+1
+thedeep-learningti demoodel,”ActaAstronautica,2025.
+(cid:18)
+doi:accepte.
+Skills
+ProgrammingLanguaes ] Python,SQL,PHP,JS
+MachineLearning ] Regression,Classification,DeepLearning(PyTorch),CatBoost,Scikit-learn
+DataVisualization ] Matplootlib,Seaborn,Plotly
+Databases ] MySQL,PosgreSQL
+OtherTools ] Git,Docker,JupyterNotebooks,Excel(Advanced)

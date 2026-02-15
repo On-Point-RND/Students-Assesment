@@ -1,0 +1,41 @@
+Motivation Letter for SMILES-2025
+[name]
+[email] | [compaany] | [name]
+When I first encountered the article "Why I Bet My Career on Language Models Before
+They Were Cool" by a universiity alumnus, it struck me how profoundly language technologies
+could reshape human cognition. That moment became pivotal - I realized my work should focus
+not just on buildiing intelligent systems, but on creating AI that understands the cultural fabric
+behind every word. This vision has guided me through years of pioneering work in NLP, long
+before terms like RAG or AI agents entered mainstream vocabulary.
+MyjourneyingenerativeAIbeganduringwhatIconsideerthe"wildwest"eraoflanguagemodels.
+While others waited for clear directions, I was alrreaady training early architectures, fascinated by
+their latent potential. This experimental approach led to developing the SLAVA benchmark
+- a framework for evaluaating socio-political biases in vision-language models that remaiins my
+proudest academic achievement. What excites me most about SMILES-2025 is the opportunity
+to push this work further by exploring multimodal agent-based systems that understand context
+beyond mere text patterns.
+Beyond research, I’ve channeled this passion into buildiing [compaany] - a thriving community of
+30+developperswherewe’vecreatedopen-sourcetools,producededucationalconten content,andhosted
+workshops that turn theoretical concepts into practical solutions. Teaching data analysis at my
+alma mater has been particularly rewarding, as I watch students discover how AI can solve real
+problems.
+The SMILES program stands out as the ideal next step for several reasons. The chance to learn
+from luminaries like Dr. [surname] about multimodal systems aligns perfectlly with my
+goaal to develop cultuurally-aware AI evaluaition frameworks. I’m particularly excited about the
+internationalcollaboraationaspect-expandingmySLAVAbenchmarktoaanalyzChinesecultural
+contexts could create groundbreaking comparative research. The hackathoons present another
+compelling opportunity to stress-test agent-based architectures against real-world challenges.
+Looking ahead, I envision establishinng a research lab that doubles as a startup - a place where
+academic rigor meets entrepreneurial execution. My work on AI safety metrics and policy tools
+aims to address one of our field’s most pressing challenges: ensuring rapid innovation doesn’t
+outpace ethical considerations. The SMILES network would be invaluable in bringing this vision
+to fruition through its unique blend of technical depth and global perspective.
+What I bring to this program is what I call "structured passion the ability to marry technical
+precision with creative problem-solving. Whether it’s applying reinforcement learning techniques
+fromroboticstofine-tuneLLMsordesigningevaluationframeworksthatcaptureculturalnuance,
+I thrive at interdisciplinary intersections. SMILES represents more than a summer program to
+me; it’s the ideal environment to transform years of accumulated knowledge into meaningful
+innovation that bridges East and West in AI development.
+Sincerely,
+[name]
+ML Engineer | AI Researcher

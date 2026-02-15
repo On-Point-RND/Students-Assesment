@@ -1,0 +1,177 @@
+[name]
+[compaany]
+Image-To-Image translation tasks with DDPM
+Do not adjust the width of this textbox, just type within it
+1
+
+Introduction
+
+Focus on colored MNIST dataset, specifically:
+Source Domain: Digit "3" with various colors
+Target Domain: Digit "2" with various colors
+Goal: Transform images of digit "3" into digit "2" while preserving the original color style
+Explored two main methods:
+Reproduction of the DDIB (Diffusion-based Image Bridges) framework
+Implementation of DDPM latent space transformations to guide the image translation process
+
+2
+
+Dataset
+
+3
+
+DDIM generations, η=0
+
+4
+
+DDPM generations
+
+5
+
+Latent space
+ODE DDIM, η=0
+500 steps, linear scheduler noising
+DDPM
+
+6
+
+DDIB
+*Su, X., Song, J., Meng, C., and Ermon, S. Dual diffusion implicit bridges for image-to-image translation.
+arXiv preprint arXiv:2203.08382, 2022
+
+7
+
+DDIB (Article results reproduction)
+Can the results be improved?
+
+8
+
+Latent transformation approach (Proposed)
+
+SDE encoding
+DDPM
+decoding
+
+9
+
+Noising strategy and metrics
+Encoder metrics:
+
+10
+
+DDPM sampling
+50 steps for latent SDE encoding, SNR=9.3 dB
+500 steps for denoising
+
+Source
+Latent
+Transformeed latent
+
+DDPM from latent
+DDPM from transformed latent
+
+11
+
+DDPM sampling
+100 steps for latent SDE encoding, SNR=2.77 dB
+500 steps for denoising
+
+Source
+Latent
+Transformeed latent
+
+DDPM from latent
+DDPM from transformed latent
+
+12
+
+DDPM sampling
+200 steps for latent SDE encoding, SNR=-6.2 dB
+500 steps for denoising
+
+Source
+Latent
+Transformeed latent
+
+DDPM from latent
+DDPM from transformed latent
+
+13
+
+DDPM sampling
+250 steps for latent SDE encoding, SNR=-10.8 dB
+500 steps for denoising
+
+Source
+Latent
+Transformeed latent
+
+DDPM from latent
+DDPM from transformed latent
+
+14
+
+DDPM sampling
+300 steps for latent SDE encoding, SNR=-16 dB
+500 steps for denoising
+
+Source
+Latent
+Transformeed latent
+
+DDPM from latent
+DDPM from transformed latent
+
+15
+
+DDPM sampling
+400 steps for latent SDE encoding, SNR=-28 dB
+500 steps for denoising
+
+Source
+Latent
+Transformeed latent
+
+DDPM from latent
+DDPM from transformed latent
+
+16
+
+DDPM sampling, SNR=-2 dB
+DDPM with latent transform
+DDPM without latent transform
+Source image
+
+17
+
+DDPM sampling, SNR=-2 dB
+DDPM with latent transform
+DDPM without latent transform
+Source image
+
+18
+
+Evaluation metrics
+FID
+Color difference
+
+19
+
+Results
+
+20
+
+Qualitative analysis
+
+Source
+DDIB from latent, DDIM solver
+DDPM from transformed latent
+
+21
+
+DDPM and DDIM inference
+DDIM
+DDPM
+
+22
+

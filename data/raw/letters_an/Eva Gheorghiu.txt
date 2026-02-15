@@ -1,0 +1,27 @@
+Motivational letter.
+My name is [name], I am a 2nd year Master student at [compaany], doing research at Mobile Robotics Lab. I am also working in [compaany] in Sensor Lab. We are buildiing systems for Pedestrian Read Reckoning using Neural Networks. The idea is the following: we have IMU data from the phones and watches, target poses from ground truth device. We preprocess IMU and target data to bring it to one cooardinate system. The we predict 2D velocity from IMU data using CNN/RNN/LSTM models. It’s a solid setup but I would like to
+expand it.
+That’s why for my thesis, I am exploring a novel approach to PDR task using end-to-end
+Differentiable Factor Graph Optimization (DFGO). The goal is to combine the global
+consistency of factor graphs with the learning ability of neural networks. I’ve shared about this
+in my video.
+I would like to try other approaches for this task. One of them is multimodal systems
+especially since sensor fusion is a natural fit for PDR. Right now I am working with other
+students of Mobile Robotics lab on a project of Multi IMU PDR system for the new [phone]
+phone consisting of two IMUs. Also, in a context of multimodal systems it could be possible to
+do a fusion with other signals (for example, gnss) which are inconsistent or unreliable for some
+time.
+Another area I’ve been thinking about is self-supervised learning. In many cases, it’s just
+not possible to get accurate ground truth data — GPS doesn’t work well in the city center, and
+visual methods don’t do well in crowded streets. Learning from raw data without labels would be
+a useful for us.
+It is also interesting how generative models could help us simulate realistic human
+movement. Collecting IMU data is time-consuming and resource-heavy — so using generative
+models to create human-like training data would be very helpful.
+Overall, I’m really excited by the themes of this summer schooal — LLMs, self-
+supervised learning, multimodal and multi-agent systems, generative models, and safe AI —
+because they’re exactly the kinds of tools and ideas I want to bring into my own work. I’d love
+the opportunity to learn from others who are thinking about these problems from different
+angles, and to connect my research with the broader field of AI.
+Thank you for considering my application
+[name]

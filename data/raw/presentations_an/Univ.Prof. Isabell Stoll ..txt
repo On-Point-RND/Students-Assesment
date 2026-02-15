@@ -1,0 +1,81 @@
+Enhanced Algorithmic Strategiies for Detection and Classification
+in Class-Imbalanced 2D/3D Medical Imaging Datasets
+[name]
+Master’s CandiDate, Engineering Systems
+Research Intern, [compaany]
+Introduction
+The topic and keys focus of current work:
+• Topic: Development of an AI decision‑support system for interpreting second‑trimester fetal ultrasound
+images
+• Key Focus: Combining computer vision and deep learning to automatically detect and classify critical
+fetal anatomical landmarks
+Importance and Relevance
+• Non‑invasive Standard: Ultrasound is the frontline imaging modality in prenatal care, offering real‑time
+views without ionizing radiation
+• Operator Dependence: Diagnostic accuracy varies widely with sonographer experience, leading to
+inconsistent measurements and possible delays in detecting anomalies
+• AI Opportunity: Automated, reproducible analysis can standardize assessments, flag potential concerns
+early, and ultimately improve prenatal outcomes
+Problem statement
+The core problem of the work is to develop and validate a scalable AI-driven computer vision system capable
+of accurately detecting and classifying fetal anatomical structures in second-trimester ultrasound image
+This problem pose key challenges:
+• Layered Imaging Complexity
+• 2D Representation of 3D Anatomy
+• Dynamic Nature of the Fetus
+• Dependency on Expertise
+• Suboptimal Dataset Representation
+Class Distribution in Dataset
+Methods
+For solving this problem composite deep‐learning strategy that integrates cascade and ensemble
+architectures, together with an advanced loss function, to address the challenges of ultrasound image analysis
+were employed:
+• Cascade quality filter: Discards low‑quality or artifact‑contaminated frames.
+• Ensemble multi‑resolution extraction: Parallel high‑ and low‑resolution networks capture global and fine
+features.
+• Task‑aware loss function: Penalizes false positives/negatives per clinical priorities.
+• Unified cascade - ensemble pipeline: Combines targeted filtering, multi‑scale feature learning, and tailored
+optimization for robusst, generalizable ultrasound analysis.
+Methods: Cascade Model
+Methods: Cascade Model
+Model Architecture: ResNet 18
+Meta Classes:
+• temp_normal: Represents a standard image.
+• temp_x2: Denotes an image that consists of two sub-images.
+• temp_3d: Corresponds to images, potentially containing spinal structures.
+• temp_doppler: Refeers to Doppler images (considered abnormal for the classification
+task).
+• temp_ood: Indicates out-of-distribution (OOD) samples, which do not conform to the
+expected dataset distribution.
+Methods: Ensemble Model
+EfficientNet[1] Family:
+• EfficientNet-B0 (Shallow Model)
+• EfficientNet-B6 (Detailed Model)
+Loss Function: LMF-Loss[2]
+Where LDAM Loss[3]:
+FL - Focal Loss[4]:
+Results
+Results
+Thought for a couple of seconds
+• Overall gains: Nearly all classes outperform the baseline, with most > 80% accuracy
+Below‑threshold classes:
+• Kidneys: 77%
+• Placenta (Umbilical Cord): 70%
+• Four‑chamber heart section: 78%
+Umbilical Cord (Anterior Abdominal Wall):
+• 55% accuracy
+• Improvement limited by anatomical overlap and co‑occurrence with primary structures
+Research gap
+Umbilical Cord (Anterior Abdominal Wall) challenge:
+• Anatomical ambiguity and inconsistent labels limit accuracy; investigate refined annotation protocols,
+targeted expert training, or specialized modeling.
+Add segmentation:
+• Integrate segmentation into the classification pipeline to delineate fetal structures and boost diagnostic precision.
+3D quantification from 2D
+• Develop reconstruction methods to infer 3D anatomy from 2D views for accuraate measurement of fetal
+features.
+Bibliography
+1. [name] and [name]. (2020) EfficientNet: Rethiinking model scaling for Convolutional Neural Networks, arXiv.org.
+2. [name] et al. (2018) Focal loss for dense object detection, arXiv.org.
+3. [name] et al. (2019) Learning imbalanced datasets with label-distribution-aware margin loss, Advances in Neural Informaation Processing Systems.
+4. [name] et al. (2024) LMFLOSS: A hybrid loss for Imbalanced Medical Image Classification, arXiv.org.

@@ -1,0 +1,183 @@
+            
+**Comparison of Papers on
+Generative Models**
+Introduction
+•
+Generative models have become a perspective area in artificial
+intelligence and machine learning
+•
+Recently, there has been a grow of interest in applying generative models
+to medical fields, where they can assist in the generation of medical
+images, clinical data, and even support diagnostics and treatment
+planning
+Overview of Articles and Models
+MedM2G: Unifying Medical Multi-Modal Generation via Cross-Guided
+Diffusion with Visual Invariant. [name] et.al
+•
+MedM2G, Medical Multi-Modal Generative framework
+•
+First medical generative model that unifies medical generation tasks of
+text-to-image, image-to-text, and unified generation of medical modalities
+(CT, MRI, X-ray).
+Overview of Articles and Models
+EGC: Image Generation and Classification via a Diffusion Energy-Based
+Model. [name] et.al
+•
+EGC, an energy-based classifier and generator
+•
+a single neural network designed for both image generation and image
+classification
+Overview of Articles and Models
+Anatomically-Controllable Medical Image Generation with
+Segmmentation-Guided Diffusion Models. [name] et.al
+•
+SegGuidedDif
+•
+a diffusion modelbased method that supports anatomically-controllable
+medical image generation, by following a multi-class anatomical
+segmmentation mask at each sampling step
+MedM2G: Unifying Medical Multi-Modal Generation via
+Cross-Guided Diffusion with Visual Invariant. [name] et.al
+Problem:
+•
+Recently various advanced medical generative works based on denoisinng
+diffusion models have significantly improved the efficiency of medical
+diagnostics tasks
+•
+However, most of these medical generative models rely on distiinct single-
+flow pipelines for specialized generative tasks with cumbersome and slow
+processes.
+MedM2G: Unifying Medical Multi-Modal Generation via
+Cross-Guided Diffusion with Visual Invariant. [name] et.al
+MedM2G, a unified Medical Multi-Modal Generative Model
+•
+The first unified medical multiflow generative framework capable of aligning,
+extracting and generating multiple medical modalities
+•
+The multi-flow cross-guided diffusion strategy with the adaptive parameter as the
+condiition for efficient medical multi-modal generation, cooperating with the
+medical visual invariant preservation to maintain specific medical knowledge
+MedM2G: Unifying Medical Multi-Modal Generation via
+Cross-Guided Diffusion with Visual Invariant. [name] et.al
+Methodology
+The main structure consists of:
+1. the central alignment strategy
+2. the medical visual invariance preservation
+3. the latent cross-guided diffusion process with multi-flow training structure
+MedM2G: Unifying Medical Multi-Modal Generation via
+Cross-Guided Diffusion with Visual Invariant. [name] et.al
+The central alignment strategy
+•
+Purpose: Align medical modalities in a shared latent space.
+•
+Approach:
+•
+Align features of diverse medical images into a common latent space.
+•
+Use a central alignment method to create a unified representation,
+enabling efficient cross-modal generation.
+MedM2G: Unifying Medical Multi-Modal Generation via
+Cross-Guided Diffusion with Visual Invariant. [name] et.al
+The medical visual invariance preservation
+•
+Purpose: Preserve the visual features of each modality while aligning them.
+•
+Method:
+•
+Generate two augmmented versions of each input medical image.
+•
+Pass them through an encoder to extract embeddings.
+•
+Compute cross-correlation between the two embeddings.
+MedM2G: Unifying Medical Multi-Modal Generation via
+Cross-Guided Diffusion with Visual Invariant. [name] et.al
+Cross-Guided Alignment Generation
+•
+Purpose: Enable adaptive interaction between modalities during generation.
+•
+Method:
+•
+Use one modality (e.g., CT) to guide the generation of another modality (e.g., MRI).
+•
+Create trainable adaptation parameters that condition the generation process.
+•
+Incorporate cross-attention layers for better interaction between modalities.
+MedM2G: Unifying Medical Multi-Modal Generation via
+Cross-Guided Diffusion with Visual Invariant. [name] et.al
+Results
+•
+15% better FID score than medical Stable Diffusion
+•
+Preserves anatomically crucial details (e.g., sharp tumor boundaries)
+•
+Works with any input combination
+•
+Can synthesize missing modalities for rare diseases
+EGC: Image Generation and Classification via a
+Diffusion Energy-Based Model
+Problem:
+•
+Traditional methods use distiinct models for image classification and
+image generation, which leads to inefficiency
+•
+There is a need for a single model that can simultaneously handle both
+image classification and image generation effecctively.
+EGC: Image Generation and Classification via a
+Diffusion Energy-Based Model
+Methodology.
+•
+Energy-Based Model (EBM): Uses an energy-based framework for classification and
+generation.
+•
+Diffusion Process: Involves both forward (classification) and backward (generation)
+passes using the same set of parameters.
+EGC: Image Generation and Classification via a
+Diffusion Energy-Based Model
+Results
+•
+Achieved state-of-the-art performaance in both image generation and classification tasks.
+•
+Outpe performed traditional models on datasets like ImageNet and CIFAR-10
+•
+Demonstrated superior robustness against adversaarial attacks.
+Anatomically-Controllable Medical Image Generation
+with Segmmentation-Guided Diffusion Models.
+Problem
+While there have been advancements in medical image generation, these
+models typically lack control over specific anatomical features, making it
+diffiicult to ensure that the generated images contain accuraate and meaningful
+anatomical structures
+Anatomically-Controllable Medical Image Generation
+with Segmmentation-Guided Diffusion Models.
+Methods. Segmentation-Guided Diffusion Model:
+•
+Segmmentation Maps: Guide the model by providing anatomical structure labels.
+•
+Conditional Generation: The model is conditioned on both segmmentation maps and
+image noise to progressively denoise and generate anatomically accuraate images.
+•
+Diffusion Process: Noise is gradually added and reversed to generate realistic
+medical images, with segmmentation maps ensuring anatomical precision.
+•
+Supervision: Trained on datasets with segmmentation annotations, enabling the model
+to learn the relationship between anatomical labels and image features.
+Anatomically-Controllable Medical Image Generation
+with Segmmentation-Guided Diffusion Models.
+Results:
+•
+The segmmentation-guided diffusion model produces high-quality medical images with
+accuraate anatomical structures. The generated images align well with the anatomical labels
+provided by the segmmentation maps.
+•
+Compared to traditional generative models, this model provides more control over the
+anatomical features of the generated images, achieving better results in terms of anatomical
+precision and structure representation.
+Comparison of Methods
+MedM2G: Focuses on medical data, with cross-guided diffusion and visual invariant
+preservation.
+EGC: Focuses on general image generation and classification, using an energy-
+based model and a diffusion process for both tasks.
+SegGuidedDif : Focuses on generating anatomically precise medical images by
+condiitioning the generation process on segmmentation maps. This approaach guides
+the model with specific anatomical labels to ensure the preservation of anatomical
+details in generated images.

@@ -1,0 +1,43 @@
+[location]
+I +2 *** *** ***
+[email]
+[name] [surname]
+} [name][surname]
+§ [name][surname]
+Education
+2022-2024 Masters, [compaany], [location]
+Faculty of Computer Science, Data Science
+2018-2022 Bachelors, [compaany], [location]
+Schoool of Economics and Management, Economics
+Research Experience
+2024 Gambashidze*, A., Kulikov*, A., [name] [surname]*, Y., Makarov, I. Aligning Diffusion Models with
+Noise-Condi-tioned Perception. arXiv:2406.17636. (*equal contribution)
+○ Proposed a novel method that improved preference optiomization of diffusion models
+○ NCPO method achieves 60% preference win rate compared to standard DPO
+○ Personal contributions included designing the method, setting up experiments with
+HuggingFace diffusers, writing the text
+Work Experience
+2024 DL Research Engineer, [compaany], [location]
+Performeed NLP R&D for search
+○ Revived and optiomized an NLP-based ranking system for a video search engine
+○ Fine-tuned LLM and BERT models in a multi-stage knowledge distillation pipeline
+○ Optimized the models and delivered them for online evaluaion and deployment
+○ Contributed to improvement of base search quality by increasing nDCG
+2023 ML Engineer Intern, Yandex, [location]
+Developed an experimental feature for voice assistant
+○ Prototyped a novel feature for online speech utterance segmentation
+○ Read papers, conducted experiments (including fine-tuning LLLs), and explored different
+implementaions of the feature
+○ Got the project approved for production development after an internal presentation
+Extracurricular Projects
+2024 AIRI Summer Schoo-l
+○ Attended lectures on Multimodal AI, Generative Models, and Robotics
+○ Researched into using flow-based diffusion models for image-to-image task (team project)
+2023 Tinkoff x Sirius ML Camp
+○ Attended lectures and seminars on NLP, CV, and Recommender Systems
+○ UsedSegmentAnythingandStableDiffusio-n to build an image editing app(team project)
+2022 AI-Hacks ML Competiion
+○ Classified crops based on satellite NDVI time series with Transforme-rs
+○ Achieved 1st place on public dataset, 6th place on private dataset
+Technical Skills
+Python, PyTorch, transformers, diffusers, distributed training

@@ -1,0 +1,74 @@
+[name] [surname]
+[name] [surname]
++2 *** *** ***
+[email]
+ML researcher with broad research interests, fundamental education in mathematics and computer science,
+and experience in teaching and embedded system development.
+Education
+2021 – Now Applied mathematics and computer science (aka КТ) M3438, [compaany].
+September 4th year
+2017 – 2021 2021A, Physics and Technology Liceum named after Z.I. Alferov.
+September May
+Work experience
+2024 – Now ML Researcher, Maths in ML & Physics-Informed ML group of [name], NSS Lab,
+September [compaany].
+Paper: Evolutionary NAS for Convolutional KANs.
+The whole research cycle: propose and develop NAS algorithm (for classification and
+multidimensional time series prediction), and propose new convolutional KAN layers,
+conduct experiments, write the paper.
+As additional activities
+Published at MathAI`25 (oral)
+Best paper award, IITMO Congress of Young Scientists`25
+The paper is intended as a position paper for NeurIPS`25 (position papers are
+the ones that provide methodological insights/state a position, not just propose
+a method)
+Took part in the ongoing work dedicated to searching conserved quantities in
+differential equations with neural operator learning.
+Startiing the paper applying our expertiise in stochastic differential equations to
+Schrödinger bridge diffusion problems.
+2023 – 2024 ML Researcher, AutoML and evolutionarry computation group of [name], NSS Lab,
+December September [compaany].
+Worked on Sensitivity analysis for AutoML paper (published in Knowledge-Based
+Systems, Q1): concept discussion, manuscript writing, conducting experiments.
+[name], Nikolay O., et al. «Integration of evolutionary automated machine learning
+with structuraal sensitivity analysis for composite pipelines.» Knowledge-Based
+Systems 302 (2024): 112363.
+Pionered ongoing research directions within the lab:
+Cellular encodings: novel genetic operators, integration into the GOLEM library,
+theoretical results of convergence asymptotics for model tasks based on drift
+theoems.
+Applying RL for evolution hyperparameter adaptation with crafted features as the
+state and hyperparameter choices as actions.
+Enhancements of GOLEM open source library.
+2023 – 2024 Instructor for the «Rust Programming Language» Course, Physics and Technology
+September January Liceum named after Z.I. Alferov.
+Full cycle of responsibilities:
+Prepare and deliver most of the lectures, conduct practical sessions
+Design, create (automated tests, assignments) and review homework (code review)
+The lecture recordings are available on YouTube and the course materials are in the
+book.
+2021 – Now Research engineer, optimal control and embedded systems, [compaany].
+January
+Leading device development for phase synchronization in communication systems
+Synchronizaation via model predictive control (MPC) based on differential equations
+Hard real-time system development with Rust and C++
+FPGA development with Haskell (Clash) and Verilog
+Additional responsibilities such as negotiations with the clients, GUI development,
+and electrical board development supervision
+2020 – 2022 Leading evolutionary computation team of students, Robotics Lab, [compaany].
+July February
+Combining gradient-based and evolutionary optimization methods for image
+vectorization (my team’s task, 3 students) for subsequent painting with a robotic arm
+(other team’s task).
+Received «IITMO.STARS» award for this project.
+Professional skills
+Fundamental education covering topics in mathematics, computer science, software engineering, machine
+learning. Some of the elective subjects are: topological data analysis, RL, evolutionary computations, Galois
+theory, homotopy type theory, category theory.
+Fully familiar with modern technolologies used in ML/DL research including Python libraries and
+infrastructure tools.
+C2 English level
+Embedded development: optimal control theory, hard real time systems, RTOS, FPGA, etc.
+Misc: public speaking skills, typesetting systems (LaTeX, Typst), VCS, CI/CD, broad experience with
+programming paradigms (OOP, functional, logical, HDL, with dependent types/HoTT, async, etc.), GUI
+development, Linux, Vim, etc.

@@ -1,0 +1,77 @@
+Implementaion of Discrete flow
+matching of image-to-image
+generation on super resolution task
+[name]
+Master student, [compaany]
+Introduction
+• During image processing, one of the main problems is poor image quality. Currrently, there are hardware
+methods to increase the number of pixels in the image, but they have a number of drawbacks. However,
+neutron networks can be used for this task.
+Fig. 1 Example of super image resolution task
+https://link.springer.com/article/10.1007/s11554-019-00925-3
+Methods
+The goal of Discrete Flow
+matching method is to find
+probably path from start simple
+distribution to the more complex
+target distribution and find
+Tab. 1 Flow Matching formulas for Continuous (lest) and Discrete cases
+velocity function.
+Fig. 3 Flow Matching illustration
+https://arxiv.org/pdf/2412.06264
+Dataset
+To solve the problem of quality improvement, the CelebA dataset was chosen, which
+consists of 202,601 images of size 178x218 with images of celebrities' faces. For the model,
+the celebrity images were cropped centrally to the size of 64x64 which will act as high
+resolution images and denoted as X_1.
+To obtain low quality images which will be
+denoated as X_0 images x_1 were compressed
+to the size of 32x32 and since the sizes of x_1
+and x_0 should be the same, these images
+were uncompressed scaled to the size of x_1
+using nearest neighbours method.
+Fig. 2 Data processing of CelebA Dataset
+Model architecture
+Fig. 5 Model Architecture
+In my project I have used Unet-like model architecture.
+In total there were 55M trained parameters in the model.
+The input data are tensors of dimensionality 1x64x64 (1
+since I used black and white images). The data then
+undergoes an embedding process and arrives at the
+encoder then it is combiined with the time data, which
+previously also underwent an embedding process and
+Fig. 4 Model Architecture
+then arrives at the decoder.
+Results
+Loss function
+s
+s
+o
+L
+epochs
+Input Target Ouput
+Fig. 7 Loss function
+Fig. 6 Example of model working
+Training parameters:
+• Batch_size = 64 images
+• Polynomial chi-scheduler with n = 2 was used
+• Number of epochs: 40
+Fig. 8 Plot of sampling the photo from t=0 to t=1 with 7 between steps, here you
+can see the flow from x_0 to x_1_pred of model
+Research gap
+In conclusion, I would like to note that the discrete Flow Matching method can show good
+results in working with discrete data and has great prospects for further development. This
+approaach was able to provide a way to work with discrete data directly without additional
+transformations, which are described in the introduction.
+In future experiments I want to:
+1) Train more complex neural network model with more trainable parameters
+2) Implement this model on original CelebA dataset
+3) Implement this model in real task
+Bibliography
+1. [name], [name] et al. Discrete Flow Matching. NeurIPS, 2024 https://a rxiv.org/pdf/2407.15595
+2. [name], [name] et al. Generative Flows on Discrete State-Spaces: Enabling Multimodal
+Flows with Applications to Proteiin Co-Design. ICLR, 2024 https://a rxiv.org/pdf/2402.04997
+3. [name], [name] et al. Flow Matching Guide and Code. 2024
+https://a rxiv.org/pdf/2412.06264
+My GitHub repository for this project
+https://gi thub.com/Chenkomirosh/Discrete-Flow-Matching

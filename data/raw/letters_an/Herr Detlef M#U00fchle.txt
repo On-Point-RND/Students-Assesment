@@ -1,0 +1,21 @@
+Dear [compaany] organizers.
+The SMILES Summer School will open up new opportunities for me to acquire useful skills and valuable knowledge, and, most importantly, gain experience working in a team of people who are [location] equally passionate about this particular field under the guidance of experienced mentors. My parents are doctors who work with children whose diseases
++2 *** *** ***
+are associated with a gene mutation. In the fourth grade, I discovered a new science - genetics, and a
+[email] little later I became interested in machine learning.
+At school, I actively participated in Olympiads, and
+https://github.com/[name] also attended various courses and schools related to
+the intersection of these two sciences. Therefore,
+after enrolling in the university, the priority was
+machine learning and the second was
+bioinformatics. I have dreams, and I have ideas
+related to high-tech development and research. I am
+currently working in the bioinformatics laboratory
+on a research project. It is important for me to study
+right now, gain valuable experience and the
+necessary knowledge for my further development in
+this direction. Thanks for reading. Yours sincerely,
+[name]
+
+
+

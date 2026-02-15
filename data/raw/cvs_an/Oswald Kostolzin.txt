@@ -1,0 +1,103 @@
+[name] [surname]
+Education
+Sep 2018 – Bachelor's Degree in Chemistry
+June 2022 Institute of Chemistry, [location]
+Sep 2022 – Master's Degree in Chemistry and Artificial Intelligence
+June 2024 ChemBio Cluster, ITMO University, [location]
+Sep 2024 – PhD in Artificial Intelligence and Machine Learning
++2 *** *** ***
+Present National Center for Cognitive Technologies, ITMO University, [location]
+[email]
+GitHub
+
+Work Experience
+Google Scholar
+Scopus
+Researcher
+ORCID
+Scientific group “Separation and Concentration Methods”, ArXiv
+Sep 2019 –
+Analysis of the stability of hydrophobic eutectic solvents used for
+June 2022
+the extraction of dyes from nutritional products.
+Skills
+St. Petersburg State University, Institute of Chemistry
+Language Skill
+ML engineer
+Sep 2023 Russian (Native)
+Project work on the ML-based recommendation system,
+– Jun 2023 English, C2
+Poustupi Online
+Researcher
+Computer Science Skill
+Scientific group “Center for Artificial Intelligence in Chemistry”,
+C/C++, C#, R, Python
+Aug 2023 Application of artificial intelligence to problems in chemistry, in Python frameworks
+– Aug 2024 particular to predict the morphology of nanomaterials using large (Pandas, Matplotlib, Scikit-
+learning models, generative systems and classical machine learn, PyTorch, PyTorch
+learning, Lightning etc.)
+ChemBio Cluster, ITMO University, [location]
+Researcher
+Multiagent systems
+development (LangGraph
+and LangChain
+frameworks)
+Scientific group “Natural Systems Simulation Lab”,
+Developing multi-agent systems based on large language models
+Aug 2024
+– Present to create frameworks that help scientists solve various problems in Chemistry skill
+fields such as chemistry and materials science,
+Solving of various
+National Center for Cognitive Technologies, ITMO University, [location]
+analytical chemistry
+Skills Development problem
+Organic synthesis
+Course - Introduction to Data Science, Machine Learning and Infrared spectroscopy,
+Sep 2022
+Neural Networks HPLC, spectrophotometry,
+gas and ion
+Aug 2022 Course - Python Programming, Fundamentals of Statistics chromatograph
+Nov 2022 Course - Big Data: Storage Technologies and Introduction to eutectic solvents
+Machine Learning
+Course - Advanced Machine Learning (Python) and Text
+Mar 2023
+Processing
+Nov 2023 Course - GPT Week School of data analysis
+Jun 2024 Course - Introduction to large language model prompting
+Teaching Activities
+Oct 2023 Mentor on the course “Programming of chemical tasks” at ITMO University
+Dec 2023 Manager/Lecturer at the “Artificial Intelligence in Chemist's Work” online course at ITMO University
+Apr 2024 Manager/Lecturer on the course “Algorithms and Big Data in Chemistry” at ITMO University
+Publications
+A* Conferences, Main track
+[name] [surname], Dmitrenko Andrei, Dmitrenko Aleksei, Serov N., Vinogradov V. (2024) Unveiling the Poten­tial of AI for
+Nanomaterial Morphology Prediction. Proceedings of the 41st In­terna­tional Con­ference on Machine Learning. PMLR.
+Vol 235. (preprint avail­able on arXiv).
+
+Q1 Journals
+Shiashov A., Pochivalov A., [name] [surname], Bulatov A. (2023) Deep eutectic solvents with low viscosity for automation of
+liquid-phase microextraction based on lab-in-syringe system: Separation of Sudan dyes. Talanta. Vol. 255. pp. 124243
+Shiashov, A., [name] [surname], Kirichenko, S., & Bulatov, A. (2022). Behave­ior of quaterna­ry ammo­nium salts and terpеnoids-
+based deep eutectic solvents in aqueous phase. Journal of Molecular Liquids, 347, 117987.
+Conferences
+A multi-agent system based on large language models for solving problems in chemistry ChemCoScientist - Future
+Technologies Forum 2025, [location]
+Text-to-Image generative system for predicting the morphology of nanomaterials produced by solution chemistry
+based on synthetic procedures and the BERT natural language processing model, XXIX Kargin Readings (Tvеr) 2023,
+Congress of Young Scientists (St. Petersburg) 2023, Interna­tional Sci­entific Student Con­ference (Novo­sibirsk) 2023,
+Problems of theoretica­l and experimental chemistry (Ekateri­nburg) 2023, Chemistry and Chemical Technology in the XXI
+Century (Tomsk) 2023, Lomonosov-2023 (Moscow)
+Stability of hydrophobic deep eutectic solvents, “Science and Progress-2020”, St. Petersburg, [location].
+Other Achievements
+Winner of Data Science Scholarship 2022, Principal Engineers Scholarship Program, St. Petersburg Government
+Scholarship, State Academic Scholarship, Russian Pre­sident Scholarship
+Publishing on the Habr.com platform - “How image generation in chemistry can be applied to predict nanomaterials”
+SCAMT Workshop Week (SWW) - project participant “Rational design of nanomaterial catalytic activity”, project mentor
+“Text-to-image generative model of nanomaterial morphologies”
+Mentor at the BootCamp Hackathon
+Mentor at the Sirius summer program, project “Predicting the conditions of dyeing cotton fabric with natural dyes to
+obtain a given color”
+Internship - Aktobe Energy Efficient Settlement, Tatnift
+Hackathon "DataCon" - 2nd place winner
+Hackathon "Future Data" - 2nd place winner
+ITMO MegaContest - Winner's Diploma.

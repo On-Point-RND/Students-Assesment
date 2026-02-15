@@ -1,0 +1,44 @@
+[name] [surname]
++2 *** *** ***
+[email]
+Summary:
+Highly motivated and results-oriented Python programmer. Eager to apply
+Machine Learning techniques to solve real-world problems, particularly in
+assisctive technology. Currrently pursuing a Masters’s degree in Biotechnical
+Systems and Technologies, with a focus on integrating Machine Learning into a
+“locator for the blind” thesis project. Proficient in Python, Flask, and Jupyter
+Notebook. Seeking to expand knowledge and skills at the [company] to contribute to cutting-edge research in AI.
+Education:
+[location] State Technical Universiity, [location]
+Bachelor of Biotechnical Systems and Technologies, Profile: Biotechnical
+and Robotics Systems | Graduation: 2024
+Relevant Coursework: Algorithms and Data Structures, Probability and
+Statistics.
+Thesis Project: Developing a “locator for the blind” using Python and
+exploring the integration of Machine Learning algorithms (specifically computer
+vision and object recognition) to provide real-time environmental information for
+visually impaired users.
+Skills:
+Programming Languages: Python, 1C Programming
+Web Development: Flask
+Data Science Tools: Jupyter Notebook, scikit-learn (Familiar)
+Other Skills: Object-Oriented Programming (OOP), Medical Equipment
+Maintenance, LabVIEW, Biotchnology
+Languages: Russian (Native), English (B1 - Intermediate)
+Experience:
+1C Franchisee, [location] | March 2023 - August 2023 (6 months)
+Provided support for 1C:ITS (Information Technology Service).
+Installed and maintained 1C:ITS services and software.
+Developed software solutions and provided systems integration services.
+Projects:
+“Locator for the Blind” Thesis Project
+Developing a wearable device to assist visually impaired individuals with
+navigation.
+Utilizing Python to process sensor data and build a prototype interface.
+Exploring the integration of computer vision and object recognition
+algorithms using Machine Learning to enhance the accuracy and functionaliity of
+the device.
+My research was published in the collection “INTELLECTUAL
+POTENTIAL OF [location] 32nd Regional Scientific Student Conference,
+[location], May 20-25, 2024, Part 3,” following my participation and award at
+the “Science.Technology.Innovation” conference.

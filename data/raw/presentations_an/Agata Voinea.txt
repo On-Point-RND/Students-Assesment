@@ -1,0 +1,165 @@
+Papers overview for [name]
+April 20, 2025
+[name][surname] Papersoverviewfor[location]SMILES April20,2025 1/17
+Outline
+1 CDaug: Self-Supervised Learning Using Controlled Diffusion Image
+Augmentation
+2 DIFFUSEMIX: Label-Preserving Data Augmentation
+3 Fake It Till You Make It: Synthetic ImageNet Clones
+4 Comparative Analysis
+5 Conclusion & Future Directions
+[name][surname] Papersoverviewfor[location]SMILES April20,2025 2/17
+CDaug: Problem Statement
+Core Challenges:
+Domain Gap: Synthetic images from diffusion models often deviate from
+real data distribution
+Fine-Grained Limitations: Subtle class distinctions (e.g., bird species
+markiinings) are poorly preserved
+Computational Cost: Fine-tuning diffusion models per dataset is prohibiitive
+Key Objective:
+Develop zero-shot augmentation that:
+Preserves semantic fidelity using original images as anchors
+Requires no model fine-tuning
+Works for both few-shot and full-data regimes
+[name][surname] Papersoverviewfor[location]SMILES April20,2025 3/17
+CDaug: Method
+Technical Framework:
+Twofold Conditioning:
+Structural: Canny edge maps from input images
+Semantic: Captions from LLaVA2 (e.g., ”A white dog with black
+spots”)
+ControlNet Architecture: Guides diffusion process using edge+text
+embeddings
+Algorithm Steps:
+1 For input image I, extract edge map E =Canny(I)
+2 Generate caption C =LLaVA2(I)
+3 Synthesize image Iˆ=ControlNet(E,C)
+4 Augment dataset with Iˆwhile retaining original I
+Key Innovation
+Dual conditioning ensures generated images respect both structure (edges) and
+semantics (captions)
+[name][surname] Papersoverviewfor[location]SMILES April20,2025 4/17
+CDaug: Results
+Fine-Grained Classification:
+Stanford Cars: 91.02% vs 86.78% (baseline)
+FGVC Aircraft: 85.76% vs 80.29% (baseline)
+Few-Shot Learning (5-way):
+10-shot: 77.14% vs 59.14% (vanilla)
+15 variations per image
+Cross-Architecture Generalization:
+Consistent gains across ResNet, Swin Transformer, MobileNet
+[name][surname] Papersoverviewfor[location]SMILES April20,2025 5/17
+DIFFUSEMIX: Problem Statement
+Core Challenges:
+Label Pollution: Traditional mixup interpolate labels across classes
+Saliency Loss: Critical regions get occluded during mixing
+Adversarial Vulnerability: Lack of structural diversity limits robustness
+Key Objective:
+Create class-consistent augmentaions that:
+Preserve original labels
+Enhance spatial diversity
+Improve adversarial robustness
+[name][surname] Papersoverviewfor[location]SMILES April20,2025 6/17
+DIFFUSEMIX: Method
+Technical Framework:
+Hybrid Generation:
+Concatenate real/synthetic parts using binary masks
+H =(I ⊙M )+(I ⊙(1−M ))
+iju real u synth u
+Fractal Blendiing:
+A =λF +(1−λ)H (λ=0.2)
+ijuv v iju
+Algorithm Steps:
+1 Generate synthetic image Iˆ=SD(I,prompt)
+2 Create hybrid image via mask M u (horizontal/vertical splits)
+3 Blend with fractal pattern F v from precomputed dataset
+Key Innovation
+Fractal blendiing introduces structural noise without label corruption
+[name][surname] Papersoverviewfor[location]SMILES April20,2025 7/17
+DIFFUSEMIX: Results
+General Classification:
+ImageNet-1K: 78.64% Top-1 vs 75.97% (vanilla)
+CIFAR-100: 82.50% Top-1 vs 76.33% (vanilla)
+Adversarial Robustness (FGSM):
+CIFAR-100: 17.38% error vs 23.67% (vanilla)
+Computational Efficiency:
+50% faster than PuzzleMix (mask optimization not needed)
+[name][surname] Papersoverviewfor[location]SMILES April20,2025 8/17
+Fake It: Problem Statement
+Core Challenges:
+Semantic Drift: Class names alone produce incorrect generations (e.g.,
+”papillon” → butttefly)
+Diversity Collapse: Generated images lack real-world variations
+Transfer Limitations: Models trained on synthetic data underpperform on real
+tasks
+Key Objective:
+Build synthetic ImageNet that:
+Matches real data distribution
+Enables transfer learning
+Requires zero real images
+[name][surname] Papersoverviewfor[location]SMILES April20,25 9/17
+Fake It: Method
+Technical Framework:
+Generative Model: Uses a generative model (likely a diffusion model) conditioned on text prompts.
+Prompt Engineering: Carefully crafted prompts to guide the generation process and improve semantic accuracy.
+Data Augmentation: Generates a large dataset of synthetic images to augment existing datasets.
+Algorithm Steps:
+1 Define a set of text prompts covering various categories.
+2 Use a generative model to create images based on these prompts.
+3 Augment existing datasets with the generated synthetic images.
+[name][surname] Papersoverviewfor[location]SMILES April20,25 10/17
+Fake It: Reults
+ImageNet-1K: 78.8% Top-1 (with prompt engineering)
+COCO: Performance comparable to or slightly better than some existing synthetic data methods.
+Qualitative Results: Demonstrates improved semantic accuracy and diversity compared to methods relying solely on random noise.
+[name][surname] Papersoverviewfor[location]SMILES April20,25 11/17
+Cross-Method Re Results Analysis
+Stanford Cars (Top-1 Acc):
+CDaug: 91.02% (full data), DIFFUSEMIX: 91.26%, Fake It: 85.65%
+Insight: DIFFUSEMIX’s fractal blendiing edges out CDaug’s edge-text
+alignment.
+AdveRSArial Robustness (CIFAR-100 FGSM):
+DIFFUSEMIX: 17.38% error vs CDaug: 34.53% vs Fake It: N/A
+Insight: Fractal noise introduces ”natural adveRSArial” patterns.
+TranRSAer Learning (Avg. 10 datasets):
+Fake It: 68.4% vs CDaug: 63.2% vs DIFFUSEMIX: N/A
+Insight: Synthetic diversity ¿ real-data fidelity for tranRSAer.
+[name][surname] Papersoverviewfor[location]SMILES April20,25 12/17
+Trade-offs and Practicaal Implications
+CDaug:
+Strength: Pixel-perfect alignment for microscopy/medical imaging.
+Limitation: Requires high-quality real images for edg e/text extraction.
+DIFFUSEMIX:
+Strength: ”Free” robustness via fractals; ideal for autonomous
+systems.
+Limitation: Limited to datasets with clear spatial semantics.
+Fake It:
+Strength: Democratizes large-scale training (no real data needed).
+Limitation: Strugles with highly specialized domains (e.g., rare
+specie s).
+[name][surname] Papersoverviewfor[location]SMILES April20,25 13/17
+Unified Insights
+The Paradox of Control:
+Tighter control (CDaug’s edg e) improves fidelity but limits diversity.
+Loose r control (Fake It’s WordNet) aids generalization but risks drift.
+The Role of Noise:
+DIFFUSEMIX shows structured noise (fractals) ¿ random noise.
+Challeges traditonal ”clean data” assumptions.
+Synthetic Data Maturity:
+Fake It proves synthetic data can rival real data in tranRSAer tasks.
+Marks a shift from ”synthetic as augment” to ”synthetic as sou rce”.
+[name][surname] Papersoverviewfor[location]SMILES April20,25 14/17
+Future Directions
+Hyb rid Pipelines:
+CDaug’s edg e conditioning + DIFFUSEMIX’s fractals.
+Fake It’s WordNet + DIFFUSEMIX’s hyb rid mixing.
+Dynamic Guidance:
+Learn opti mal prompts/fractals via RL ins tea d of heuristics.
+Ethical Conside rations:
+Bias propa gation in synthetic data (e.g., Fake It’s WordNet
+racial/gender biases).
+Need for synthetic data auditing frameworks.
+Final Takeaway
+The era of ”diffusion-native” training has b egun – synthetic data is no
+longer just a supplement but a fo undational tool.
+[name][surname] Papersoverviewfor[location]SMILES April20,25 15/17

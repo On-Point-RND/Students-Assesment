@@ -1,0 +1,58 @@
+This is a comprehensive document describing a research project focused on anomaly detection in time series data, specifically using data from the WIND satellite. Here's a breakdown of the key aspects, organized for clarity:
+
+**1. Project Goal:**
+
+*   **Anomaly Detection:** The primary goal is to develop and evaluate machine learning models for identifying anomalies (specifically, "AKR" blocks, likely related to a particular phenomenon observed by the WIND satellite) within time series data.
+*   **Improve Space Weather Forecasting:**  The ultimate aim is to improve the accuracy of space weather forecasting for satellite communications by better understanding and predicting anomalous events.
+
+**2. Data Source:**
+
+*   **WIND Satellite:** The data originates from the WIND satellite, a spacecraft that studies the solar wind.
+*   **Data Availability:** The data is publicly available through NASA's Goddard Space Flight Center (GSFC) data archive.
+
+**3. Methodology:**
+
+*   **Time Series Analysis:** The project uses time series analysis techniques to analyze the data.
+*   **Machine Learning Models:**  Several machine learning models are evaluated:
+    *   **Random Forest:** A classic ensemble learning method.
+    *   **K-Nearest Neighbors (KNN):** A non-parametric method for classification.
+    *   **ResNet34:** A deep convolutional neural network (CNN) architecture, adapted for time series.
+    *   **Xception:** Another deep CNN architecture, known for its efficiency.
+    *   **ViT (Vision Transformer):** A transformer-based model originally designed for image recognition, adapted for time series.
+*   **Data Preprocessing:**  Preprocessing steps are crucial for preparing the time series data for the models.
+*   **Feature Extraction:**  The project explores different feature extraction methods, including the Short-Time Fourier Transform (STFT) to analyze frequency components.
+*   **Evaluation Metrics:** The models are evaluated using:
+    *   **TPR (True Positive Rate):**  Measures the ability to correctly identify anomalies.
+    *   **TNR (True Negative Rate):** Measures the ability to correctly identify non-anomalous data.
+    *   **F1-Score:**  A harmonic mean of precision and recall, providing a balanced measure of performance.
+
+**4. Key Findings & Results:**
+
+*   **Model Performance:** ViT and Xception models achieved the highest F1-scores (0.97 and 0.98 respectively) when using 32-minute block lengths.
+*   **Block Length Impact:** Increasing the block length generally improved the classification quality of the computer vision models.
+*   **Computational Trade-off:** Classical machine learning models (Random Forest, KNN) train faster but have lower accuracy compared to deep learning models (ViT, Xception).
+*   **Data Preprocessing Importance:**  Preprocessing significantly impacts the results.
+
+**5. Research Gaps & Future Directions:**
+
+*   **Limited Scope:** The current analysis is limited to July 2020 and doesn't account for seasonal variations or mixed anomalies.
+*   **Real-time Processing:** The methods aren't optimized for real-time streaming data.
+*   **Computational Resources:** ViT and Xception require significant computational resources, limiting their use in embedded systems.
+*   **Future Research:**
+    *   **Lightweight Architectures:** Explore more efficient architectures like MobileViT or EfficientNet.
+    *   **Active Learning:** Integrate semi-supervised learning for handling partially labeled data.
+    *   **Multimodal Analysis:** Combine time series data with spectrograms using architectures like TimeTransformer.
+    *   **Domain Adaptation:** Transfer models to data from other satellites.
+    *   **Explore other feature extraction methods:**  Investigate shapelets and other techniques.
+
+**6. Resources:**
+
+*   **GitHub Repository:**  Provides the source code for reproducing the experiment: [https://github.com/QQQiwi/diploma](https://github.com/QQQiwi/diploma)
+*   **Data Link:**  Links to the WIND satellite data archive: [https://cdaweb.gpfc.nasa.gov/pub/data/wind/waves/wav_h1/2020/](https://cdaweb.gpfc.nasa.gov/pub/data/wind/waves/wav_h1/2020/)
+*   **Telegram:**  Contact the author for questions and clarifications: @qqq_iwi
+
+**7. Bibliography:**
+
+A list of academic papers cited in the document, covering topics like time series analysis, anomaly detection, deep learning, and signal processing.
+
+**In summary, this document details a research project using machine learning to detect anomalies in WIND satellite data. It highlights the performance of various models, identifies limitations, and proposes future research directions to improve the accuracy and applicability of anomaly detection in space weather forecasting.**

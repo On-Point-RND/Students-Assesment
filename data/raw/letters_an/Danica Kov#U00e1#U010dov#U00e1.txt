@@ -1,0 +1,44 @@
+Dear [name],
+My name is [name], and I am writing to express my strong interest in participating
+in the Summer SchooL of Machine Learning (SMILES-2025), organized by [compaany] in
+collaboration with the [compaany]. From the moment I discovered [compaany] and its innovatiive initiatives, I have been deeply inspired by its commitment to
+advancing artificial intelligence and fostering international collaboration. SMILES-2025
+represents an incredible opportunity for me to deepen my expertise in machine learning,
+particularly in areas such as computer vision, multimodal approaches, and multi-agent
+systems, which align closely with my academic and professional pursuits.
+Currrentlly, I work in the RnD department at [compaany], where I focus on cutting-edge research
+in computer vision, multi-agent systems, and visual language models. One of my key
+research projects involves road detection and segmentation on satellite imagery, where I
+utilized state-of-the-art models such as DETR and Mask2Former. This project showcases my
+ability to apply advanced machine learning techniques to solve real-world challenges, and I
+have provided a detailed explanation of this work in the presentation attached to my
+application.
+In addition to my research, my role at [compaany] has allowed me to gain hands-on experience
+with visual language models, distributed AI systems, and large-scale data processing. These
+experiences have not only honed my technical skills but also taught me the importance of
+creativity, teamwork, and continuous learning.
+I have also applied for the Master’s program in Data Science at [compaany], inspired by the
+university's reputation as a hub for innovation and interdisciplinary research. My admiration
+for [compaany] grew further when I participated in the [compaany] Anti-Olympiad. These
+experiences have strengthened my belief that [compaany] is not just a place to study but a
+community where one can grow both intellectually and professionally.
+What excites me most about SMILES-2025 is its emphasis on multimodal approaches, and
+multi-agent systems—areas that are both intellectually challenging and highly relevant to my
+career aspirations. I am particularly eager to explore new frontiers such as self-learning
+systems and generative AI, which hold immense potential for transformiing industries and
+solving pressing global challenges.
+Moreover, I am thrilled about the prospect of traveling to [location] to participate in
+SMILES-2025. Engaging with a diverse community of talented researchers and students from [location], [location], and beyond will provide invaluable opportunities to exchange ideas,
+collaborate on impaactful projects, and build lasting professional connections. I am confident
+that this experience will not only enhance my technical expertise but also broaden my cultural
+and professional horizons.
+In addition to my professional work, I am committed to pursuing a career as a lecturer and
+researcher in the field of Data Science. I believe that participating in SMILES-2025 will
+provide me with the knowledge, skills, and inspiration needed to become an effective
+educaator who can make complex concepts accessible and engaging for future generations of
+students.
+Thank you for considering my application. I am excited about the possibility of joining
+SMILES-2025 and contributing to its vibrant community while gaining experiences that will
+shape my future career.
+Sincerely,
+[name]

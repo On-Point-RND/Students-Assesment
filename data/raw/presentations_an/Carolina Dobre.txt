@@ -1,0 +1,105 @@
+Comparison of deep learning models' results
+in predicting the effects of multiple protei
+[name]
+1st year student of Applied Machine Learning and Big Data master's program
+[location]
+SMILES-2025 application
+2025
+The object of study is proteins and mutations
+Fouad Shaker, Ashraf. (2023) 10.13140/RG.2.2.11687.25763.
+2
+Deep Mutation Scan
+Replacement effect:
+Faure, A. J., Lehner, B. MoCHI: neural networks to fit interpretable models and quantify energies, energetic couplings, epistasis, and
+allostery from deep mutational scanning data. (2024). https://doi.org/10.1186/s13059-024-03444-y 3
+Data presentation
+Original AA Position Mutant AA Score
+A 623 L 0.0
+A 623 C 1.2
+P 640 T -0.2
+S 649 T -0.7
+S(A623C) = 1.2
+What is the effect of multiple substitutions?
+S(P640T) = -0.2
+S(A623C + P640T) = ?
+4
+Epistasis
+- Dependence of the phenotype caused by a mutation on other mutations in the
+gene
+- Definition in terms of DMS:
+The sum of the effects of mutations is not equal to the effect of multiple mutations of
+a protein!
+Epistatic interactions are few => Suggestion that current prediction methods do
+not have sufficient generalization power to detect these effects.
+5
+Goals
+- Collect and pre-process DMS data
+- Reproduce the results of modern approaches in mutation effect prediction
+task
+- Set up an experiment to evaluate the quality of model prediction as a function
+of the number of mutations
+6
+ProteinGym - Data collection and models benchmarking -
+A collection of deep mutation sscanning data and benchmark methods for
+predicting variant effects in proteins.
+More than 200 DMS datasets, of which 10 representative ones were selected
+(>1000 single and double substitutions at >100 positions)
+7
+Data sample
+8
+Different data transformations were
+applied depending on the algorithm
+[name].
+9
+VenusREM
+- Retrieval-Enhanced Mutation Mastery: Augmenting
+Zero-Shot Prediction of Protein Language Model
+Retrieval-Enhanced Mutation Mastery: Augmenting Zero-Shot Prediction of Protein Language Model Yang Tan, Ruilin Wang, Banghao
+Wu, Liang Hong, Bingxin Zhou arXiv:2410.21127; doi: https://doi.org/10.48550/arXiv.2410.21127 17
+VenusREM
+- Retrieval-Enhanced Mutation Mastery: Augmenting
+Zero-Shot Prediction of Protein Language Model
+Retrieval-Enhanced Mutation Mastery: Augmenting Zero-Shot Prediction of Protein Language Model Yang Tan, Ruilin Wang, Banghao
+Wu, Liang Hong, Bingxin Zhou arXiv:2410.21127; doi: https://doi.org/10.48550/arXiv.2410.21127 18
+Dataset Type Singles Doubles Multiple
+ProteinGym Number of
+mutations
+RASK_HUMAN_Weng_2022_abund Expression
+ance 0.585 0.349 0 0.374 0.362 26012
+GFP_AEQVI_Sarkisyan_2016 Activity
+0.338 0.438 0.649 0.688 0.695 51714
+D7PM05_CLYGR_Somermeyer_202 Activity
+2 0.508 0.417 0.503 0.594 0.579 24515
+GRB2_HUMAN_Faure_2021 Organismal
+fitness 0.778 0.711 0 0.716 0.713 63366
+PABP_YEAST_Melamed_2013 Organismal
+fitness 0.591 0.719 0 0.718 0.712 37708
+DLG4_HUMAN_Faure_2021 Organismal
+fitness 0.560 0.728 0 0.721 0.722 6976
+SPG1_STRSG_Olson_2014 Binding
+0.699 0.712 0 0.712 0.722 536962
+Q8WTC7_9CNID_Somermeyer_202 Activity
+2 0.344 0.233 0.293 0.325 0.315 33510
+RASK_HUMAN_Weng_2022_bindin Binding
+g-DARPin_K55 0.299 0.638 0 0.662 0.671 24873
+Q6WV12_9MAXI_Somermeyer_202 Activity ! Err ! Err ! Err ! Err 0.314 31401
+2
+Mean 0.522 0.549 0.482 0.612 0.581
+Table 3 - Spearman rank correlation coefficient values between experimental DMS scores and predictions of VenusREM.
+19
+Mean Spearman correlation coefficient
+Model name Model type Singles Doubles Multiple All
+VenusREM Sequence + structure 0.522 0.549 0.482 0.518
++ homoology
+PoET Sequence + 0.490 0.480 0.496 0.470
+homology
+SaProt Sequence + structure 0.375 0.357 0.250 0.457
+20
+Results
+- Succeeded in reproducing the benchmark results with high accuracy
+- Evolutionary information helps to improve model predictions quality
+(VenusREM).
+- Most likely, prediction quality does not depend on the number of mutations in
+the query for consideered algorithm. But I am looking further to investigate if
+the epistasis interactions does.
+21

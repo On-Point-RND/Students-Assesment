@@ -1,0 +1,46 @@
+[name]
+[email] fl LinkedIn (cid:135) Github
+[location]
+EXPERIENCE EDUCATION
+Middle+ Research Engineer [compaany]
+[location] Oct2024–Present, 6months
+[name] MasterDegree in DataScience Sep2022–June2024
+Working on the development of MERA-benchmark for evaluating capabilities of Large Language Models (LLMs), with focus on Thesis topic: Measuring the impact of knowledge graphs on question answering
+two key areas: graphs for question answering
+• MERACode-Lead in collaboration between several industry partners to create a coding benchmark for Russian LLMs. Responsible for developing a ITMO University taxonomy of coding tasks and skills, maintaining the codebase, reviewing datasets, and designing evaluation methodology. Aggregated diverse datasets into a unified benchmark.
+• MERAMulti-Designed an evaluation algorithm for open-ended generations of multimodal models. Collected and curated the dataset and trained the evaluation system combining classical ML, LLM-as-a-Judge, and semantic similarity techniques. 
+Honours degree: GPA 4.83
+BachelorDegree in Intelligent Robotics Sep2018–Jul2022
+Honours degree, GPA: 4.85
+Thesis topic: Shortterm solar irradiance forecasting
+Yandex School of Data Analysis
+DataScience Sep2022–June2024
+Computer Science Center
+Middle Research Engineer
+[location] Oct2023–Oct2024, 1year
+Huawei Technologies DataScience Sep2020–May2022
+• Preparing dataset for multilingual LLM pretraining stage. Developing data filtering and semantic deduplication algorithms. As a result, the training was accelerated by 2times.
+• Exploring algorithms for distillation of LLMs with vocabularies of different sizes. The resulting algorithms based on Optimal Transport techniques and lead to an improvement in the quality of the student model up to 10%.
+• Developing a machine translation pipeline for the Chinese-English language pair. Project: Improving methods of automatic assessment of translation quality
+Intern Research Engineer
+[location] May2023–July2023, 3months
+AIRI Summer School
+SamsungElectronics
+• Exploring capabilities of conditional diffusion generative models for Speech Enhancement, Voice Conversation and Text-to-Speech problems. Building a proof-of-concept algorithm, with ConceptNet in the backend to address all the mentioned problems. The algorithm delivers near-SOTA performance, while being versatile and easy to implement.
+SKILLS
+Junior Research Engineer
+[location], Sep2021–Sep2022, 1year
+EnapterAG NLP GraphNeuralNetworks
+• Developing machine learning algorithm of short-term solar irradiance forecasting. Building the end-to-end solution pipeline, encompassing data collection, preprocessing, model training and deployment into production.
+Generative models Reinforcement Learning
+Python PyTorch Transformers
+Scikit-Learn Numpy Pandas
+ACHI EVEMENTS
+• Olympiad«I am a professional» Prize winner X2
+Track«Artificialintelligence»
+• Hackathon«Leadersofdigitaltransformation» top3 outof45teams
+Problem«Building optimal collection routes for payment terminals»
+• Hackathon«Digitalbreakthrough»,VK top1 outof30teams
+Problem«Machinelearningongraphsforpredictinguser’s propensity for philanthropy»
+• XICongressofYoungScientists Winner
+Nomination«BestBachelor’sThesisPresentation»

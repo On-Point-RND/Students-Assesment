@@ -1,0 +1,77 @@
+[name] [surname]
+CONTACTS  WORK EXPERIENCE
+ [email]
+ since24/10/2022
+ @hardesttype  [company], [location] SeniorDataScientist
+ +2 *** *** *** • ModelDevelopment:
+– DevelopedseveralPDmodelsusingCreditBureaudata.
+ [location]
+– DevelopedaVLMforrecognizingcourtdocuments.
+ @hardesttype – Researcheanconfirmedthefeasibilityofuusingunsupersedeuralneowrkmodelsfor
+creditriskpredictionusingtabulardaata.
+k @hardtype
+– Analyzedtqhequalityofexternaalserviicesandperformedad-hcaanlytics.
+– Settasksformodeldeploymenantdpformeprre-productiontesting.
+• ModelMonitoring:
+SKILLS – Implemented calculation of PSI (Population Stability Index) and other metrics into SQL
+procdeures,dashbaords,andtiggersystems,whichreducedtthetimespentsearchingfor
+deviationsinprodutionmodelperformaance.
+ProgrammingLanguaes – ImprovedtthemoodelqualityreportbydeveloingaPythoomodule.
+Python – Maintenanceofmonitoriingreferenceguidesandinvestigationofincidents.
+– Elaboration of model monitoring requirements with external contractors and internal
+SQL
+staheholders.
+Software&Tools – Regulrreportsnomodelqualitfymanageent.
+• ModelValidation(PD,Collection):
+DataAnalysis
+– Collection:Identifieidnumerouserrorsiinthecolletionofnewfeaturemarts(leaks,typos),
+reduced the number of models by using multiclass and uplift modeling, refined model
+MachineLearning requirementsaccordingtostaheholderinterests,supporteedproductiondeploymennt.
+(LightGBM,CatBoost,...) – PD:Durinrreviws,refinedmodelbyselectngmorestablefeatures,correctingreference
+guidesandfeatures,conductedadditionalresearchbasedonstaheholderhypotheses.
+DeepLearning
+(Pytorch,Tranfomers,...)  12/11/2021–9/12/2021
+ExternalAnnotator
+BigData  [location]
+(MapRduce,Spark,Dask) • Annotation,processing,andpreparatiofdatafortrainingamodeltodetectthepresencoe
+of slaginacontinuouuscatingmachine(CCM)ladle.
+Bash
+Git  08/07/2021–08/10/2021
+Intern,Information
+ [company], [location]
+Languages
+TechnologyAudit
+English
+Department
+(Upper-Intermediate)
+• PartiicpatinioninauditssasaDataScientist(DS).
+• Graphanalytics,processmining,workingwithRESTAPI.
+ACHIEVEMENTS
+• NLP,Hanwdwrittentextrecognition:colab
+ 01/04/2021–19/06/2021;
+• (11/12/2021) 3rd place in the HSE Student TeachingAssisstant
+01/10/2019-31/12/2019
+ResearchPaperCompetitonin thefieldofApplied
+ [university], [location]
+Economics. ”Forecasting Economic and Financial
+IndicatorsBasedonNewsTexts” • Consultingstudentsonthe’MultivariaeteStatiscticalMethods’course,gradingasigmnentsinR
+• (28-29/08/2021)2ndplacein theDigitaLLeagueAI andPython.
+ChallengeHackaton.TargetImageClassification.
+Newslink
+• (April-May2021)3rdplacein thePaymenstsystems  EDUCATION
+detection competiton. Detection of bank card
+paymenstsystems.Newslink
+ 2018-2022
+FacultyofEconomicSciences
+CERTIFICATES  [university], [location]
+ GPA:8,16 EconomicsandStatisics
+HuggingFace:
+ PROJECTS
+ AIAgentsFundamentals
+Coursera:
+ PythoPgrammingBasics  2025
+ DeepLearning.AISpecialization  Project’Switch-Tokenizer:PretrainingLanguaeModelstoUseMultipleTokenizers’.githu
+ 2022-2023
+ Diploma ’The Impaact of Information About the Coronavirus Pandemic on Financial Markets’
+whereweusedfinancialmaarketinindicators,newstextsandotherinindicatorstoeexplainthemarket
+behavioer.githu

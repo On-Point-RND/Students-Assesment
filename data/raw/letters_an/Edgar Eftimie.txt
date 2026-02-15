@@ -1,0 +1,28 @@
+Dear [name],
+I am writing to express my enthusiasm for joining your Summer School on Large Language Models (LLMs). With a robust background in machine learning research and production-grade AI development, I am eager to deepen my expertise in LLMs, collaborate with leading researchers, and contribute to advancing this transformative field.
+Motivation
+My fascination with AI’s potential to solve complex, real-world problems has driven my career across both industry and research. At [company], I contributed to GigaChat, [location]'s top-performing Russian-language LLM, where I engineered safety-focused multimodal moderation systems (0.5% false positive rate) and embedding models for RAG applications. This experience exposed me to the challenges of scaling LLMs while maintaining safety and usability.
+Simultaneously, my work at [company] in computer vision—developing mobile-first GAN frameworks, optimizing Stable Diffusion pipelines, and deploying models for 100M+ users—taught me to balance innovation with practical constraints like latency and scalability.
+This summer school represents a unique opportunity to bridge my hands-on engineering experience with cutting-edge LLM theory. I aim to explore advanced techniques in model architecture, alignment, and multimodal integration, which are critical to my long-term goal of enhancing GigaChat’s capabilities and democratizing safe, multilingual AI tools.
+Technical Experience
+My work spans both research and deployment:
+• LLM Development:
+• Co-developed GigaChat’s safety infrastructure, including a multimodal content moderation system and embedding models for discriminative tasks.
+• Optimized RAG pipelines to improve contextual accuracy in enterprise applications.
+• Computer Vision ([company]):
+• Engineered a C++-based retouch filter achieving <0.1 sec inference on-device.
+• Built a lightweight GAN framework for real-time face beautification (Persona App) and scaled 50+ image-to-image filters to 100M+ users.
+• Improved production metrics (FID, Conversion Rate) by 30%+ via data pipeline upgrades.
+• Deployed diffusion/GAN models on mobile (CoreML, TFLite) and servers (TensorRT), prioritizing speed and efficiency.
+• Research: Conducted experiments in deepfake detection, face reenactment, and singing voice synthesis, refining my ability to iterate on novel architectures.
+Expectations & Career Goals
+I hope to gain:
+• Advanced LLM Insights: Deeper understanding of retrieval-augmented generation, multilingual training, and safety alignment.
+• Collaboration: Exchange ideas with peers tackling similar challenges in LLM scalability and ethics.
+• Practical Tools: Frameworks to build and deploy multi-agent LLM systems.
+Long-term, I plan to:
+• Pursue a PhD in ML, focusing on multimodal LLM safety and reasoning.
+• Teach and mentor in [location], fostering a new generation of AI practitioners.
+• Elevate GigaChat into a globally competitive, ethically grounded LLM while advancing tools for non-English languages.
+This program aligns perfectly with my mission to merge research with impactful engineering. I am confident my industry experience and passion for open, safe AI will enable me to contribute meaningfully to your cohort.
+Thank you for considering my application.

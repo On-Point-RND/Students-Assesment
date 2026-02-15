@@ -1,0 +1,190 @@
+Emotional TTS: A Review
+[name] [surname]
+MSc, Senior DS/MLE
+Introduction
+• What is the topic?
+Due to my huge sympathy to Speech Processing, I would like to consider one of most recent problems of
+current text-to-speech (TTS) systems – ability of the system to utilize emotion data and wisely induct it when
+generating human speech from text.
+• Why is it important?
+This is one of the last problems on our path to voice assistants and speech generation technologies which
+are able to produce rich emotional speech. Nowadays TTS works pretty good in general, but control of
+emotion or ”style” of speech is not that evident to access. We have very few examples of now where this
+concept is under implementation, but still there is a space to make it better and robust.
+Introduction
+• What is the topic?
+Due to my huge sympathy to Speech Processing, I would like to consider one of most recent problems of
+current text-to-speech (TTS) systems – ability of the system to utilize emotion data and wisely induct it when
+generating human speech from text.
+• Why is it important?
+• Background (if needed)
+• Goal of the review
+Problem statement
+• What exactly are we solving?
+Let us consider a system which inputs
+textual data and produces speech as a signal
+(waveform). Generally it is constructed as a
+combination of submodule: text
+preprocessor to induce linguistic features
+(transcript), acoustic model (to generate
+some parametric representation, usually mel-
+spectrogram) and vocoder that produces
+waveform.
+Problem statement
+• What exactly are we solving?
+Acoustic model and vocoder split has proven
+its importance due to end2end solution from
+transcript to waveform is rather hard. Thus we have
+a model that produces mel-spectrograms, which
+contain most valuable information about volume,
+tones, etc. and vocoder to vocalize it. By now it is
+clear that we aim to enrich specifically acoustic
+model with extra info to obtain mel-spectrograms
+with emotion or ”style” info.
+Methods
+• Approach: Name the ML techniques/algorithms used.
+• Why these methods? Briefly justify your choices.
+• How it works (simply): Give a 1–2 line intuition.
+• Data & preprocessing: Mention key steps like cleaning data, feature extraction, or splitting into
+train/test sets.
+Methods
+Let us consider most prominent recent results in the field.
+My report was conducted on five papers. For every paper I have made sections with authors Key
+Contribution (key idea proposed), Venue (resource where the work is presented, preferably A*
+conferences), Datasets used, Results obtained and current/further Challenges to solve.
+Methods
+UMETTS: Unified Multimodal Prompt-Induced Emotional TTS
+•Key Contribution:
+• Proposes a multimodal framework (text, audio,
+visual) with two modules:
+• EP-Align: Contrastiive learning to align emotional
+features across modalities
+• EMI-TTS: Integrates aligned embeddings with TTS
+models (e.g., VITS, FastSpeech2) for expressive
+synthesis.
+• Solves the limitation of single-modality emotion
+control by leveraging cross-modal cues.
+https://a rxiv.org/pdf/2404.18398
+Methods
+UMETTS: Unified Multimodal Prompt-Induced Emotional TTS
+•Venue: ICASSP 2025
+•Datasets: Combines RAVDESS, IEMOCAP, and
+proprietary multimodal data (~50 hours)
+•Results:
+• Emotion Accuracy: 80% (15% improvement over
+unimodal methods).
+•Challenges:
+• High computational cost for multimodal alignment.
+• Subjective bias in visual emotion labels.
+https://a rxiv.org/pdf/2404.18398
+Methods
+EmoSphere++: Emotion-Controllable Zero-Shot TTS via Spherical
+Vectors
+•Key Contribution:
+• Introduces spherical emotion vectors (arousal, valence, dominance) for continuous
+intensity/style control.
+• Uses pseudo-labels from SER models (e.g., wav2vec 2.0) to avoid manual annotation.
+• Enables zero-shot emotion transfer via a conditional flow-matching decoder
+https://a rxiv.org/pdf/2411.02625
+Methods
+EmoSphere++: Emotion-Controllable Zero-Shot TTS via Spherical
+Vectors
+•Venue: IEEE Transactions on Affective Computing 2025.
+•Datasets: IEMOCAP + proprietary SER-labeled data (~20
+hours).
+•Results:
+• SECS (Spherical Emotion Control Score): 0.89.
+• MOS: 4.3 for intensity control.
+•Challenges:
+• Limited interpretability of spherical coordinate for
+end-users.
+• Dependency on SER model quality.
+https://a rxiv.org/pdf/2411.02625
+Methods
+Emotional Dimension Control in LM-Based TTS
+•Key Contribution:
+• Controls pleasure-arousal-dominance
+(PAD) dimensions using a predictor
+trained on categorical labels.
+• Integrate with LM-based TTS (e.g.,
+CosyVoice) for zero-shot emotion
+rendering.
+https://a rxiv.org/pdf/2409.16681
+Methods
+Emotional Dimension Control in LM-Based TTS
+•Venue: IEEE Transactions on Affective
+Computing 2025.
+•Datasets: Combines ESD (Emotional Speech
+Dataset) and VCTK (~30 hours).
+•Results:
+• Naturalness MOS: 4.1.
+• Outperforms baselines in zero-shot
+speaker cloning.
+•Challenges:
+• Requires careful calibration of PAD
+values for target emotions.
+• Limited to coarse emotion categories
+during training.
+https://a rxiv.org/pdf/2409.16681
+Methods
+EmoVoice: LLM-based Emotional TTS with Freestyle Text Promptiing
+•Key Contribution:
+• Uses GPT-4o-audio/Gemini to interpret
+natural language prompts (e.g.,
+"supportiive joy").
+• Parallel phoneme/audio token generation
+(inspired by Chain-of-Thought) improves
+content consistency.
+• Releases EmoVoice-DB (40-hour
+English dataset with synthetic labels).
+https://a rxiv.org/pdf/2504.12867
+Methods
+EmoVoice: LLM-based Emotional TTS with Freestyle Text Promptiing
+•Venue: arXiv preprint (targeting NeurIPS
+2025).
+•Datasets: EmoVoice-DB + Chinese Secap
+dataset.
+•Results:
+• MOS: 4.2.
+• Emotion Accuracy: 85% (evaluaated via
+GPT-4o-audio).
+•Challenges:
+• Reliability of synthetic data.
+• Scalability to low-resource languages.
+https://a rxiv.org/pdf/2504.12867
+Methods
+GOAT-TTS: LLM-based TTS with Dual-Branch Archi tecture
+•Key Contribution:
+• Leverages LLLMs for natural language prompts and catastrophic
+forgetting mitigation.
+• Dual-branch architecture for faster inference.
+• 20% faster inference than monolithiic LLLM-TTS.
+• Speaker Similarity MOS: 4.4.
+•Challenges:
+• Complex architecture requires careful
+hyperparameter tuning.
+• Limited to English datasets.
+https://a rxiv.org/pdf/2504.12339
+Results
+The main approaches presented and key findings on the field are as follows:
+• LLLM Integration:
+o EmoVoice and GOAT-TTS leverage LLLMs for natural language prompts and catastrophic
+forgetting mitigation, respectively.
+• Continuous Emotion Control:
+o Spherical vectors (EmoSphere++) and PAD dimensions enable fine-grained intensity adjustment.
+• Multimodal Fusion:
+o UMETTS demonstrates the superiority of text-audio-visual alignment for richer expressiveness.
+• Data Efficiency:
+o Pseudo-labeling (EmoSphere++) and synthetic data (EmoVoice) reduce reliance on costly human
+annotations.
+Challenges, outcomes
+These works present decent results for speech processing, however we should understand that proper
+evaluation in terms of quality should be conducted carefully. Emotional TTS implies to assess quality both in terms of proper emotion and speech quality, and it is known that assessment of generated data
+(speech in our case) is not standardized, that is why I am looking forward to try out these or similar models
+on real products (voice assistants, audiobooks, etc.)
+Bibliography
+• UMETTS: Unified Multimodal Prompt-Induced Emotional TTS
+• EmoSphere++: Emotion-Controllable Zero-Shot TTS via Spherical Vectors
+• Emotional Dimension Control in LM-Based TTS
+• EmoVoice: LLLM-based Emotional TTS with Freestyle Text Promptiing
+• GOAT-TTS: LLLM-based TTS with Dual-Branch Archi tecture

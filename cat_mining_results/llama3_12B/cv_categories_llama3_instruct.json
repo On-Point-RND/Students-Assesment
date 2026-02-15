@@ -1,0 +1,334 @@
+{
+  "Quantifiable Achievements": {
+    "question": "Does the candidate provide quantifiable achievements, such as specific metrics or percentages, to demonstrate the impact of their work?",
+    "count": 2
+  },
+  "Depth of Technical Expertise": {
+    "question": "How well does the candidate demonstrate expertise in relevant technical skills and tools?",
+    "count": 97
+  },
+  "Relevance of Experience": {
+    "question": "How relevant are the candidate's work experiences to the job requirements?",
+    "count": 136
+  },
+  "Technical Skills": {
+    "question": "Does the candidate have a comprehensive and relevant set of technical skills for the position?",
+    "count": 3
+  },
+  "Research Experience": {
+    "question": "How well does the candidate demonstrate a strong research aptitude through publications, presentations, and research experience?",
+    "count": 111
+  },
+  "Interdisciplinary Knowledge": {
+    "question": "Can the candidate demonstrate a deep understanding of the intersection of multiple fields, such as linguistics, AI, and neuroscience?",
+    "count": 1
+  },
+  "Professional Experience": {
+    "question": "Can the candidate clearly and concisely describe their professional experience and achievements?",
+    "count": 1
+  },
+  "Education Quality": {
+    "question": "How well does the candidate's education align with their field of interest and demonstrate academic achievement?",
+    "count": 49
+  },
+  "Publication Presence": {
+    "question": "Can the candidate demonstrate a presence in reputable academic publications?",
+    "count": 34
+  },
+  "Relevant Coursework": {
+    "question": "Does the candidate demonstrate relevant coursework that aligns with the job requirements?",
+    "count": 1
+  },
+  "Education Variety": {
+    "question": "Can the candidate demonstrate a diverse range of academic and professional experiences?",
+    "count": 12
+  },
+  "Transferable Skills": {
+    "question": "Can the candidate effectively apply skills and knowledge from one field to another?",
+    "count": 2
+  },
+  "Work Experience": {
+    "question": "Can the candidate demonstrate a clear and consistent career progression with relevant job titles and responsibilities?",
+    "count": 74
+  },
+  "Education Depth": {
+    "question": "Can the candidate demonstrate a clear progression of education and specialization in their field?",
+    "count": 9
+  },
+  "Project Quality": {
+    "question": "Can the candidate demonstrate high-quality, impactful projects that showcase their skills?",
+    "count": 33
+  },
+  "Achievement Consistency": {
+    "question": "Does the candidate consistently achieve high levels of success in competitions and projects?",
+    "count": 12
+  },
+  "Award Authenticity": {
+    "question": "Are the candidate's awards and recognition authentic and verifiable?",
+    "count": 2
+  },
+  "Work Experience Depth": {
+    "question": "How well does the candidate demonstrate depth and variety in work experience?",
+    "count": 4
+  },
+  "Research Focus": {
+    "question": "Can the candidate demonstrate a clear and focused research agenda?",
+    "count": 1
+  },
+  "Education and Certifications": {
+    "question": "Can the candidate demonstrate a clear and relevant educational background and any relevant certifications or professional development?",
+    "count": 43
+  },
+  "Contact Information Clarity": {
+    "question": "Can the candidate provide clear and concise contact information?",
+    "count": 16
+  },
+  "Depth of Experience": {
+    "question": "Can the candidate provide evidence of significant and relevant work experience, including leadership roles and industry connections?",
+    "count": 1
+  },
+  "Relevant Education": {
+    "question": "Does the candidate have relevant education in the field of bioinformatics or a related field?",
+    "count": 37
+  },
+  "Education Level": {
+    "question": "What is the candidate's highest level of education completed?",
+    "count": 8
+  },
+  "Consistency of Information": {
+    "question": "Is the candidate's resume consistent in terms of formatting, grammar, and accuracy of information?",
+    "count": 11
+  },
+  "Academic Focus": {
+    "question": "How well does the candidate's academic background align with their professional goals?",
+    "count": 1
+  },
+  "Quantitative Experience": {
+    "question": "Can the candidate provide specific, measurable achievements in their work experience?",
+    "count": 1
+  },
+  "Professional vs. Personal Projects": {
+    "question": "Can the candidate distinguish between professional and personal projects, with clear descriptions of their roles and responsibilities?",
+    "count": 1
+  },
+  "Relevant Skills": {
+    "question": "Does the candidate have relevant skills and competences in the field they are applying to?",
+    "count": 4
+  },
+  "Clear Career Goals": {
+    "question": "Can the candidate clearly articulate their career goals and demonstrate a clear direction for their professional development?",
+    "count": 9
+  },
+  "Specific Technical Skills": {
+    "question": "Can the candidate list specific and relevant technical skills, including programming languages, frameworks, and tools?",
+    "count": 5
+  },
+  "Clear Professional Summary": {
+    "question": "Can the candidate clearly and concisely summarize their professional experience and skills?",
+    "count": 11
+  },
+  "Specific Work Experience": {
+    "question": "Can the candidate provide specific and detailed descriptions of their work experience?",
+    "count": 3
+  },
+  "Specific Project Experience": {
+    "question": "Can the candidate provide specific examples of project experience that demonstrate their skills and accomplishments?",
+    "count": 10
+  },
+  "Communication Clarity": {
+    "question": "Can the candidate clearly and effectively communicate their research, experience, and skills in a concise and well-organized manner?",
+    "count": 3
+  },
+  "Technical Proficiency": {
+    "question": "Can the candidate demonstrate expertise in multiple technical domains?",
+    "count": 1
+  },
+  "Skill Breadth": {
+    "question": "Can the candidate demonstrate a broad range of relevant skills, including programming languages, tools, and methodologies?",
+    "count": 2
+  },
+  "Professional Network": {
+    "question": "Does the candidate demonstrate a strong professional network and connections in the industry?",
+    "count": 4
+  },
+  "Professional Writing Style": {
+    "question": "Can the candidate write in a clear, concise, and professional style?",
+    "count": 2
+  },
+  "Academic vs. Practical Experience": {
+    "question": "Does the candidate's resume emphasize academic or practical experience, and how does this reflect their career goals and expertise?",
+    "count": 1
+  },
+  "Technical Skill Disclosure": {
+    "question": "Can the candidate clearly and accurately disclose their technical skills and proficiency levels?",
+    "count": 1
+  },
+  "Relevant Research Interests": {
+    "question": "Can the candidate demonstrate relevant and up-to-date research interests that align with the job requirements and industry trends?",
+    "count": 1
+  },
+  "Project Description": {
+    "question": "Can the candidate describe their projects in detail, including goals, methods, and outcomes?",
+    "count": 1
+  },
+  "Relevant Projects": {
+    "question": "Does the candidate have relevant projects that demonstrate their skills and experience?",
+    "count": 3
+  },
+  "Achievements and Awards": {
+    "question": "Does the candidate have notable achievements and awards that demonstrate their expertise and accomplishments?",
+    "count": 11
+  },
+  "Work Experience Length": {
+    "question": "Can the candidate demonstrate a minimum of 3 years of relevant work experience?",
+    "count": 1
+  },
+  "Detailed Employment History": {
+    "question": "Does the candidate provide a detailed and accurate employment history, including job titles and dates?",
+    "count": 1
+  },
+  "Academic Background": {
+    "question": "Does the candidate's academic background and qualifications meet the requirements of the position?",
+    "count": 2
+  },
+  "Age Disclosure": {
+    "question": "Does the candidate disclose their age?",
+    "count": 1
+  },
+  "Relevant Experience": {
+    "question": "Can the candidate demonstrate relevant work experience in the field of data science and machine learning?",
+    "count": 3
+  },
+  "Professional Online Presence": {
+    "question": "Can the candidate demonstrate a professional online presence through a personal website or a well-maintained GitHub profile?",
+    "count": 3
+  },
+  "Education Consistency": {
+    "question": "Does the candidate consistently demonstrate a clear and well-structured educational background?",
+    "count": 1
+  },
+  "Technical Skills Clarity": {
+    "question": "Can the candidate clearly and concisely list their technical skills, with a focus on relevance to the position?",
+    "count": 3
+  },
+  "Technical Skill Variety": {
+    "question": "Does the candidate demonstrate a diverse range of technical skills?",
+    "count": 1
+  },
+  "Name Format": {
+    "question": "Is the candidate's name formatted consistently throughout the document?",
+    "count": 1
+  },
+  "Consistent Anonymization": {
+    "question": "How well does the candidate consistently apply anonymization rules across the entire resume?",
+    "count": 1
+  },
+  "Removed PII": {
+    "question": "Does the candidate remove all personally identifiable information (PII) not covered by the anonymization rules?",
+    "count": 1
+  },
+  "Technical Leadership": {
+    "question": "Can the candidate demonstrate leadership experience in technical projects or teams?",
+    "count": 1
+  },
+  "Professional Focus": {
+    "question": "Is the candidate's professional focus and goals clearly aligned with the position and industry?",
+    "count": 1
+  },
+  "Achievements and Recognition": {
+    "question": "Can the candidate demonstrate achievements and recognition in their field?",
+    "count": 3
+  },
+  "Education": {
+    "question": "Can the candidate provide a strong educational background with relevant specializations?",
+    "count": 2
+  },
+  "Research and Publication History": {
+    "question": "Can the candidate demonstrate a history of research and publication in their field?",
+    "count": 1
+  },
+  "Professional Language": {
+    "question": "Can the candidate use professional language and avoid informal or unprofessional tone in their resume?",
+    "count": 1
+  },
+  "Quantitative Research Focus": {
+    "question": "Can the candidate demonstrate a clear focus on quantitative research and its applications?",
+    "count": 2
+  },
+  "Leadership and Mentorship": {
+    "question": "Can the candidate demonstrate leadership and mentorship skills, particularly in guiding academic projects and fostering engagement in applied engineering and computational research?",
+    "count": 3
+  },
+  "Relevant Tools and Technologies": {
+    "question": "Does the candidate demonstrate proficiency in relevant tools and technologies for the job?",
+    "count": 1
+  },
+  "Relevant Project Experience": {
+    "question": "Can the candidate provide specific examples of relevant projects they have worked on?",
+    "count": 2
+  },
+  "Project Diversity": {
+    "question": "Does the candidate have a diverse range of projects that demonstrate their skills and interests?",
+    "count": 1
+  },
+  "Education Relevance": {
+    "question": "Can the candidate demonstrate relevant and recent education in the field of interest?",
+    "count": 1
+  },
+  "Industry Experience": {
+    "question": "Can the candidate demonstrate relevant and consistent industry experience?",
+    "count": 1
+  },
+  "Relevant Skills and Tools": {
+    "question": "Can the candidate list relevant technical skills and tools that align with the job requirements?",
+    "count": 1
+  },
+  "Technical Skill Depth": {
+    "question": "Can the candidate demonstrate a deep understanding of technical skills relevant to the job they are applying for?",
+    "count": 1
+  },
+  "Clear Education History": {
+    "question": "Can the candidate clearly and concisely present their education history?",
+    "count": 1
+  },
+  "Relevant Conference Experience": {
+    "question": "How well does the candidate demonstrate relevant conference experience in their field?",
+    "count": 1
+  },
+  "Relevance of Education": {
+    "question": "Is the candidate's educational background relevant to the job requirements, and do they have a clear path of academic progression?",
+    "count": 1
+  },
+  "Relevance of Achievements": {
+    "question": "Are the candidate's achievements and projects relevant to the job requirements and industry standards?",
+    "count": 1
+  },
+  "Research Experience Depth": {
+    "question": "How well does the candidate's research experience demonstrate a clear progression from internships to independent research?",
+    "count": 1
+  },
+  "Interdisciplinary Skills": {
+    "question": "Can the candidate demonstrate a range of skills beyond their primary field of study?",
+    "count": 1
+  },
+  "Technical Skills and Education": {
+    "question": "Can the candidate demonstrate a strong foundation in technical skills and education relevant to the position?",
+    "count": 1
+  },
+  "Relevant Work Experience": {
+    "question": "Does the candidate have relevant work experience in the field, with clear descriptions of job responsibilities and achievements?",
+    "count": 2
+  },
+  "Relevance of Education to Job Requirements": {
+    "question": "Does the candidate's education align with the job requirements and demonstrate relevant specializations?",
+    "count": 1
+  },
+  "Education and Research Background": {
+    "question": "Can the candidate demonstrate a strong education and research background in computer science, mathematics, and artificial intelligence?",
+    "count": 1
+  },
+  "Publication Quality": {
+    "question": "How well does the candidate's publication record demonstrate expertise in their field?",
+    "count": 2
+  }
+}

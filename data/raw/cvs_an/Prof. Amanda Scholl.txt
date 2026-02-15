@@ -1,0 +1,89 @@
+Curriculum Vitae
+[name] [surname] (Scopus Author ID: 58187861200; ResearcherID: HOI-0743-2023)
+PhD. degree candidate
+Computational and Data Science and Engineering, [location]
+E-mail: [email], [email]
+Phone: +2 *** *** ***
+Education
+2024.9-now PhD degree candidate, Major in CDSE (English), [location],
+Supervisor: [name] [surname]
+2022.9-2024.7 Master degree candidate, Major in Game Theory and Operations Research
+Applied Mathematics and Information (English), [location], Supervisor: [name] [surname]
+2018.9-2022.7 Bachelor of Engineering, Major in Software Engineering
+Department of Mathematics and Computer Science, [location]
+Academic appointment
+2024.06-now Junior Scientiist
+[compaany], Team of Fusion Brain, Research on VLLMs
+2022.09-2024.8 Research Assistant
+Audiovisual Speech Recognition Team, [location]
+2020.11-2021.12 Research Assistant
+Department of Mathematics and Computer Science, [location]
+Research interests
+Computer Vision, Natural Language Processing, Game Theory and Operations Research, Diffusion
+Model, Markov Chain, Stochastic Differential Equation, Reinforcement Learning, Multi-Modal
+Large Language Model.
+Skills
+Computer Language Java, Python, R, MATLAB, SQL, Git
+Model Research Transforme, ViT, Swin Transforme, GPT, BERT, Qwen, DeepSeek,
+DDPM, Stable Diffusion, DiT, LoRA, SDXL, VLLMs, LLaVA, etc.
+Publications
+[1] [name] [surname], …, [name] [surname], Ivan [surname]: A Training-Free Key-Frame Selection Method Using
+Maximum Volume for Enhanced Video Understanding. Submitted ICML 2025. (Leader, A*)
+Curriculum Vitae
+[2] [name] [surname], [name] [surname], DKDL-Net: A Lightweight Bearing Fault Detection Model via
+Decoupled Knowledge Distillation and Low-Rank Adaptation Fine-tuning. Submitted IEEE
+Access, 2025. (First Contribution; SCI).
+[3] [name] [surname], [name] [surname], [name] [surname]: Research on
+Robust Audio-Visual Speech Recognition Algorithm. Mathematics 2023, 11, 1733.
+https://doi.org/10.3390/math11071733 (Equal Contribution; SCI).
+[4] [name] [surname], [name] [surname], [name] [surname], [name] [surname]: Audio-visual multi-modal meeting
+recoording system. Intelligent Information Technologies for Industry, 2023. (Equal
+Contribution; SCI).
+[5] [name] [surname], [name] [surname]; [name] [surname] et al. Based on Siamese Network world Ancient Celebrity
+Portrayals Recognition. ПРОЦЕССЫ УПРАВЛЕНИЯ И УСТОЙЧИВОСТЬ[J]. ПРОЦЕССЫ
+УПРАВЛЕНИЯ И УСТОЙЧИВОСТЬ Учредители: Смирнов Николай Васильевич, 2022,
+9(1): 319-323. (First Contribution, RSCI).
+[6] [name] [surname] [surname]; [name] [surname]. Research on Sentiment Analysis of Network Public Opinion Based on
+BI-LSTM[J]. Процессы управления и устойчивость, 2021, 8(1): 387-391. (Equal
+Contribution, RSCI)
+[7] [name] [surname]; [name] [surname]. Research on Image Defogging Algorithm Based on Retinex Theory. Henan
+Science, 2023, Vol. 41, No. 1. (Second Contribution, Chinese Core Journal)
+Research experience
+Visual Large Language Model 2024.6-now
+ Enhancing VLLMs' comprehension of long video comprehension. Team Leader
+ A study of visual compression algorithm based on VLLMs. Team Leader
+Artificial Intelligence Generated Content 2023.5-2024.07
+ Replicates DDPM, DDIM models, Understand the algorithmic principles of the diffusion model.
+ Research Completed DiT, SDXL, Stable Diffusion, LoRA, DreamBooth model.
+ Reinforcement learning-based optiomization of diffusion models is investigated (Parrot).
+ Have ideas about optiomizing the Diffusion Model based on NE that are being implemented.
+ Research on Multimodal Large Language Model(About Image, Video Understanding).
+Research on Robust Audio-Visual Speech Recognition Algorithm 2022.12-2023.5
+ Build AVSR model based on MoCo, Wav2Vec2.0.
+ Summarize and compaare the team's previous results and write a paper.
+ Tuned the parameters of the model and proved that multimodal audiovisual speech recognition
+is helpful in improving the overall performaance of the model by comparing the experimental
+results.
+Audio-visual multi-modal meeting recording system 2023.3-2023.9
+ Built the face recognition module using ResNet-152 as backbone and fused different datasets to
+enhance the data distribution of the model while improving the generalization ability.
+Curriculum Vitae
+ Adapted all the modules of the AVSR model to be encoded as Transformer Encoder.
+ Wrote articles and presenting them at the 2023 IITI ([location]) academic conference.
+Based on Siamese Network world Ancient Celebrity Portrayals Recognitio 2022.3-2022.6
+ Collection of world celebrity datasets.
+ Built the model using a Siamese Network, using ResNet-101 as a backbone for feature
+extraction from the image data, and obtained the similarity by comparing the image features in
+the dataset with the features of the input image.
+Prof. [name] [surname]'s Audio-Visual Speech Recognition team (Leader 23) 2023.3-2023.12
+ Read lots of CV, NLP, LLM and Diffusion related articles.
+ Build rellevant models and train them.
+ Summarize the experimental results to analyze and adjust the parameters and write an article.
+Awards
+Full Russian Government Scholarships 2022
+[location] Universiity Half Scholarship (Tuition Free) 2024
+Extra-curricular activities
+Leader of the department basketball team 2018.9-2022.6
+President of the department student union 2020.9-2021.6
+Class Monitor 2018.9-2022.6
+Leader of the department software development 2020.9-2022.6

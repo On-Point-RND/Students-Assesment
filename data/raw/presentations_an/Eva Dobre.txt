@@ -1,0 +1,161 @@
+Safe AI
+[name] [surname]
+Student, [location] [Institute] of Physics and Technology
+Machine-proofiing
+Reliance on AI systems in making decisions
+·
+Expansion AI applications
+·
+Demand for fair, explainable and resistant to unexpected data AI systems
+·
+AI systems have discriminated against vulnnerable groups
+·
+Quantifying Harm
+How to formally measure harm?
+·
+Without definition of harm we can’t trace biases in AI systems. For example, discriminatory loan denials
+·
+based on race, will go undetected
+Challenge: harm is dynamic, depends on context; causality measuring is a high-dimensional data
+·
+Quantifying Harm
+Quantifying Harm
+Quantifying Harm
+What’s missing?
+Limited to static datasets; real-world harm evolves.
+·
+Lacks practical implementation guidance.
+·
+Unresolved challenges
+Measuring harm in dynamic, real-time systems.
+·
+Scaling causal models to complex AI.
+·
+FEAMOE:
+Fair, Explainable and adaptive Mixture of
+Experts
+Fairness is dynamic
+·
+Statistics in population change over time
+·
+The model which was fair at the time can discriminate against groups after some time has passed
+·
+FEAMOE:
+Fair, Explainable and adaptive Mixture of
+Experts
+Toy example: color —original class label, diamonds —underprivileged group, circles — privileged group
+Experts are pink and blue in the picture
+MoE(Mixture of Experts) — Technique, which where multiple learners are used to softly divide the problem
+space into regions. Gating network then decides which expert to weigh more heavily for each region
+Protected Attribute — discriminated group
+FEAMOE:
+Fair, Explainable and adaptive Mixture of
+Experts
+Fairness Constraints:
+Demographic parity
+Statistical parity difference (SPD) —
+measures the difference between the
+probability of getting a positive outcome
+between protected attribute groups.
+Equalized odds
+Average odds difference (AOD) — measures
+the difference in true and false rates between
+protected attribute groups
+Burden-based fairness
+Burden — measures the difference between
+the expected distances to the decision
+boundary for two groups — typically the
+privileged and the unprivileged group
+FEAMOE:
+Fair, Explainable and adaptive Mixture of
+Experts
+Online learning
+FEAMOE:
+Fair, Explainable and adaptive Mixture of
+Experts
+Online learning
+FEAMOE:
+Fair, Explainable and adaptive Mixture of
+Experts
+Experiment
+Two Datasets:
+Fairness study with [compaany] and [compaany] datasets
+Drift Study with [compaany] — mortgage dataset, where data statistics changed over time
+Protected attribute — [name]
+FEAMOE:
+Fair, Explainable and adaptive Mixture of
+Experts
+None All SPD AOD None
+Experiment
+All
+FEAMOE:
+Fair, Explainable and adaptive Mixture of
+Experts
+Experiment
+FEAMOE:
+Fair, Explainable and adaptive Mixture of
+Experts
+What’s missing?
+Limited to table datasets
+·
+Limited to linear and tree models(because of SHAP)
+·
+Adapts to the drift but doesn’t detect it
+·
+Unresolved challenges
+Explainability using SHAP which limits models and also doesn’t account for causality
+·
+Other types of data
+·
+SECL:
+A Self-explaining Neural Architecture for
+Generalizable Concept Learning
+In high-stake applications there is a demand for explainability
+·
+DNN provide state-of-art-performance but are black-box in nature
+·
+LIME, Integrated Gradients, influence functions and data Shapley provide onlly post-hoc interpretation
+·
+Present concept learning approaches lack concept fidelity and concept interoperability
+·
+SECL:
+A Self-explaining Neural Architecture for
+Generalizable Concept Learning
+Representative Concept Extraction
+SECL:
+A Self-explaining Neural Architecture for
+Generalizable Concept Learning
+Self-supervised Contrastive Concept
+Learning
+SECL:
+A Self-explaining Neural Architecture for
+Generalizable Concept Learning
+Prototype-based Concept Grouning
+Co
+nc
+ept
+Fid
+elit
+y
+Re
+gul
+ari
+zat
+ion
+SECL:
+A Self-explaining Neural Architecture for
+Generalizable Concept Learning
+Results
+Visual Datasets
+Thei[compaany] model achieves better generalization to unseen domains compa[compaany] to SENN, BotCL, and DiSENN.
+·
+It provides higher concept fidelity
+·
+It produces interpretable explana[compaany] via prototypes
+·
+Research gap
+Isolated dimensi[compaany] of trustworthiness
+·
+Yet to be a single scalable architecture
+·
+Conclusion

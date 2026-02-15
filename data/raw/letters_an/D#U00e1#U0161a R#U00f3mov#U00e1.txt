@@ -1,0 +1,59 @@
+Motivation
+Letter
+To the organizers of the Skoltech Summer School of Machine
+Learning (SMILES-2025)
+My name is [name], and I am currently pursuing a Master's degree at the [compaany] for Cognitive Modeling at the [compaany], with a focus on reinforcement learning (RL), deep learning and cognitive
+architectures. My academic journey has been consistently shaped by my interest in
+understanding intelligence through the lens of computational modeling, and I am
+particularly passionate about model-based reinforcement learning and self-supervised
+representation learning.
+Previously, I worked as a junior researcher at the [compaany] at [location], where I was involved in applied machine learning projects across diverse fields.
+I developed a clustering algorithm for passive radar signals based on DBSCAN and
+designed a sensor fusion system (UWB/IMU/Kalman) for robust mobile robot
+localization in GPS-denied environments. As an alternative approach to sensor fusion, I
+applied visual odometry techniques based on computer vision, including Haar cascades
+and YOLO. I also explored RNN-based methods for neural source localization from
+M/EEG data. These projects gave me a solid foundation in signal processing, machine
+learning and probabilistic modeling.
+In my current work, I focus on object-centric model-based RL, where the agent
+perceives the world not as raw pixels, but as compositions of dynamic, interacting entities
+- objects. This approach provides clear advantages in generalization, interpretability and
+sample efficiency—especially in visually complex or partially observable environments.
+Crucially, this line of research relies heavily on advances in self-supervised learning: to
+build world models, the agent must learn compact, meaningful representations of
+sensory inputs without access to dense supervision. I believe that the future of RL lies in
+tight integration with these domains.
+I am deeply motivated to participate in SMILES-2025 for several reasons. First and
+foremost, I am enthusiastic about the school’s focus on generative models, self-
+supervised methods, and large language models, which I believe will play a
+foundational role in the next wave of reinforcement learning research — especially in robotics. My
+long-term goal is to build agents that can learn compact, generalizable models of the
+world using self-supervised signals from rich modalities such as video, text, and audio.
+The ability to reason, plan, form memory, and adapt in a human-like manner is, in my
+view, inseparable from the so-called world model problem — that is, the challenge of
+constructing rich, structured internal representations of the environment that support
+predictive and counterfactual thinking. Generative models are essential for simulating
+possible futures and modeling uncertainty, allowing agents to plan and generalize
+beyond direct experience. Self-supervised learning offers a scalable path to building
+structured perceptual representations from unlabeled data, while large language models
+introduce powerful priors over abstract knowledge, sequence understanding, and goal
+inference. Together, these methods form the backbone of intelligent behavior that is
+grounded in an internal model of the world. In this regard, I am convinced that solving
+the world model problem — creating effective, general-purpose environment models —
+is central to advancing RL, more so than refining existing policy optimization techniques.
+Looking ahead, I aim to combine careers in both academic research and industrial
+R&D. I hope to continue exploring foundational questions in machine learning,
+particularly those that bridge the gap between perception, cognition, and decision-
+making. I believe that participating in SMILES-2025 will provide me with both the
+conceptual tools and practical experience to contribute meaningfully to these domains.
+Moreover, SMILES-2025’s international and collaborative setting is of great importance
+to me as an aspiring scientist. I am convinced that modern AI research must be global
+and interdisciplinary by nature. Engaging with peers and mentors from both [location] and
+[location] will broaden my perspective, introduce me to new methodologies, and allow me
+to build connections that are essential for a successful academic and research-oriented
+career. The combination of cutting-edge lectures, hands-on workshops, and real-world
+challenges makes this school a rare and valuable opportunity.
+Thank you for considering my application.
+
+
+

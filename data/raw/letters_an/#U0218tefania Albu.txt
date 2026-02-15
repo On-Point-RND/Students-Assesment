@@ -1,0 +1,33 @@
+Subject: Application for Participation in the SMILES Summer School of Machine Learning
+Dear Organizing Committee!
+My name is [name] [surname]. In 2014, I graduated from the [location] [university] with a degree in Materials Science and Technology of New Materials (specialization 150601), with earning the qualification of Engineer. My graduation thesis was titled "Nanocomposite Silicon-Caibon Films Containing Molybdenum."
+Currently, I work as an AI Systems Specialist at the electrical engineering company [compaany]. My professional focus includes the development of AI assistants for business applications, classical machine learning models, and big data analytics. I also regularly publish my work in my personal technical blog.
+Some time ago, while studying the work of Professor A.R. Oganov, I became inspired by the idea of using AI to optimize the discovery of materials with desired properties. Since graduating from [university], I have continued to reflect on the strategic importance of materials science for the economic development of [location] and allied countries. As a result, I am now actively exploring the application of neural networks in this field.
+I have consolidated my research into a project titled GNN_for_materials, aimed at accelerating and reducing the cost of scientific research in materials science through the use of Graph Neural Networks (GNNs), particularly the Crystal Graph Convolutional Neural Network (CGCNN).
+The essence of this technology is quite elegant: crystal structures are represented as graphs, where nodes correspond to atoms and edges represent chemical bonds. The model is trained to predict physicochemical properties (e.g., formation energy) based on these graphs, effectively replacing expensive DFT calculations. Project results show that the model achieves R² ≈ 0.82 during training and to 0.85 on test data (for simple structures), with a MAE of approximately 0.2–0.3 eV/atom.
+Future plans for the project include:
+Expanding with additional neural network architectures,
+Introducing multi-target predictions,
+Applying these models to a wide range of real-world R&D tasks.
+Looking ahead, I intend to develop dedicated software, integrate it with cloud services for remote access, and potentially connect it with robotic lab equipment. This would make the project a powerful tool for industrial R&D, significantly reducing the time and cost of developing new materials.
+At this stage, several key steps have already been taken:
+Identified GNNs as a promising research direction,
+Studied various existing neural network architectures in the context of predicting formation energy,
+Created a GitHub project for ongoing development,
+Built an LLM-based assistant to support users. While the LLM tool aligns with the theme of the Summer School, it also plays a crucial role in helping users quickly find guidance on solving their specific research problems using the project. This part of the project will also be developed and supplemented. (In Telegramm:   @[name]_Materials_Science_bot) or QR-code 
+
+I kindly ask you to consider my application to participate in the SMILES Summer School of Machine Learning.
+I understand that I may not be the youngest participant, but I am certainly among the most motivated. Moreover, I am planning a career transition into the field of Development of materials based on AI, and I guess, this might be of interest to the School’s partners. My goals for participating include acquiring new knowledge, receiving expert feedback on my research, and making meaningful connections in the field.
+Regarding logistics, I am fully flexible and ready to participate in any format the School offers.
+Thank you very much for your time and attention.
+Sincerely,
+[name] [surname]
+AI Systems Specialist, Data Scientist
+Department of Information Technology
+[compaany]
+[location]
+Tel. +7 [phone number], ext. [extension]
+Tel. +7-[phone number]
+E-mail: [email] 
+Personal e-mail: [email]
+Website: [website]

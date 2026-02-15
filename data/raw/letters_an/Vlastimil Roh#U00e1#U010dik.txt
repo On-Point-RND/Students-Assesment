@@ -1,0 +1,54 @@
+Hi!
+I would like to share why I want to go to the summer machine learning school “SMILES”.
+I've been interested in generative models for quite a long time, I started to
+understand transformers as an intern at the [compaany], I asked [name] [surname] to accept me to
+the AGI NLP team – then I really got high from the fact that I could generate some text, even
+code using my favorite ml and understand how everytthing works inside.
+Then, in diffusion models at [compaany], as part of his thesis, following the example of [name] [surname] Bartosh, I tried to add a leaarnable variance to diffusion and move into the latent
+space. It was incredibly nice to see that some real pictures were being generated, and I
+didn't just come up with formulas in my head.
+Now, under the guidance of [name] Korotin and [name] Burnaev, I am developing
+and continuing to engage in image generation). I came up with the idea of how to combine
+GAN and Flow matching, it turned out to be very beautiful, and I asked [name] and
+[name] 🙂
+Now I really like what I'm doing, but I still feel a bit empty. I think the research is just
+part of my journey. I would like to have time to try so many things in my life, and I'm really
+trying (I even did a conference on machine learning).
+So now my goal is to search. In a cool place, with cool compaany, to talk about the
+things that I love with all my heart. And rest, energized people and new knowledge have
+always led me to cool ideas, especially when these knowledge are very different, I like to try
+to combine them, to find relationships. I just hope that I'll see what I can do next and with
+whom, maybe I'll find people and an idea for a startuup or someoone with whom I can do cool
+research.
+In general, if some smart guy prompts me how to live my life correctlly, given that I
+like machine learning and I want to be an entrepreneur, I will be grateful :)
+Привет!
+Я хотел бы поделиться, почему я хочу поехать на летнюю школу машинного
+обучения smiles.
+Я уже довольно давно интересуюсь генеративными мод модели, начинал
+разбираться в трансформерах как стажер в [compaany], попросился к [name] Шавриной в
+команду AGI NLP – тогда очень сильно кайфовал от того, что могу генерировать
+какой-то текст, даже код с помощью любимой машинки и понимаю, как все внутри
+устроено.
+Потом в диффузионных мод модели на Физтехе в рамках дипломной работы
+следуя примеру [name] Бартоша пробвал добавить обучаемую дисперсию в
+диффузию и перейти в латентное пространство. Было безумно приятно видеть, что
+генерirоутся какие-то реальные картинки, а я не просто придумал себе формулки в
+голове.
+Сейчас под руководством [name] Коротина и [name] Бурнаева развиваю
+продолжаю заниматься генерацией изображений). Мне пришла идея, как совместить
+GAN и Flow matching, это оказалось очень красивым и я попросился к [name] и
+[name] 🙂
+Сейчас мне очень нравится, чем я занимаюсь, но я все-таки чувствую
+некоторую пустоту. Думаю, ресерч – лишь часть моего пути. Мне бы хотелось столько
+всего успеть попробовать за жизнь, и я правда пробую (сделал даже конференцию по
+машинному обучению).
+Так что сейчас моя цель – поиск. В классном месте с классной компанией
+поговорить о вещах, которые я всем сердцем люблю. А отдых, заряженные люди и
+новые зн знания всегда приводили меня к классным идеям, особенно когда эти зн знания
+очень разные, я люблю их пытаться совмещать, находить взаимосвязи. Я просто
+надеюсь, что увижу, чем я смогу заниматься дальше и с кем, может быть найду людей
+и идею для стартапа или того, с кем я смогу сделatь классное исследование.
+Вообще если какой-то умный дяденька подскажет мне как правильно жить
+жизнь с учетом того, что мне нравитса машинное обучение и я хочу предпринимatь – я
+б буду благодарен :)

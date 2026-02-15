@@ -1,0 +1,44 @@
+[name] [surname]
+📍 [location] | 📧 [email] | ☎ +2 *** *** ***
+🔗 [email] | 🏆 Diplomas
+Education
+2023–2027: Bachelor's in Computer Science and Engineering
+[location] [company]
+• GPA: 5.0/5.0
+• Key Coursework:
+o Mathematics: Mathematical Analysis, Linear Algebra & Analytical Geometry
+o Programming: OOP (C++/Java/Python), AI Systems (Python), Algorithms
+o Systems: Computer Architecture (Logisim), DB Design, OS & System Software
+o Applied: IT Infrastructure, System Modeling
+Academic Projects:
+• Two-Key Safe Lock Simulation (Hardware security modeling)
+• Retail IT Infrastructure Design (Specialized store systems)
+• Client-Server Procurement System (Automation for retail managers)
+Research & Technical Skills
+Research:
+• "Comparative Analysis of Neuromorphic vs. Traditional Chips" (Performance benchmarking)
+ML/DL Tools:
+• Python (PyTorch, TensorFlow), C++, Java, SQL
+• Logisim, Kompas 3D, Git
+Languages: English (B1), German (A1)
+Achievements
+🏆 Competitions:
+• Winner, All-Russian "Your Move" Competition (2023)
+• Finalist, "I Am a Professional" Olympiad (Software Engineering track)
+• Prize Winner:
+o "Big Change" (Engineering track: "Create the Future")
+o "Talent NTO" (Complex Engineering Solutions)
+🔬 Academic:
+• Finalist, [location] "Start in Innovation" Conference (Tech Entrepreneurship)
+• Participant, [location] International Economic Forum (2024)
+• "Engineering Olympus" Forum (Olympiad selection)
+Projects & Leadership
+Founder | Local Arts (2022–2024)
+• Digital platform connecting 150+ creatives; secured grants through [compaany]
+Developer | Digid (2024–2025)
+• Built NLP-powered Telegram bot for virtual museum tours
+Eco-Community App
+• ML-driven environmental challenge system (Python + Firebase)
+Career Goals
+• Bridge technical innovation and social impact through startups
+• Specialize in AI hardware acceleration (neuromorphic computing)

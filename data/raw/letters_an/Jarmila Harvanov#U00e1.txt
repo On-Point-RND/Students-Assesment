@@ -1,0 +1,36 @@
+Motivation Letter
+Dear [name] Committee,
+My name is [name] [surname] and I am currently pursuing the degree of MSc at Data
+Science at [compaany]. I am writing to you to show my strong interest in participating in
+SMILES-2025 as it perfectlly aligns with my desire, career and future goals
+Nowadays rapid evolution of AI changed the world completely thanks to LLMs,
+Generative AI and etc. My own big dreaam is to increase longevity of people. AI has provided
+big opportunities to enhance the level of healthcare. For instance now it is easier to
+diagnose some diseases using neural networks or other approaches. Furthermore, in
+future, I believe, there will be integration of AI among with human brain in order to enhance
+cognitive abilities of everyone
+Therefore, SMILES aligns with my ideation and can help to bring my dreaams to life,
+because this schooal provides a unique opportunity to learn from leading experts in AI, gain
+hands on experience in technologies like multi-agent systems, which are critical for
+generation of autonomous AI. Also the learning process will be together with foreign
+students which extends my appreciation for this golden opportunity to work with them.
+Currrently my academic and research background is classical ML (classification,
+regression, clustering), DL (image classification, segmentation), RecSys (collaborative
+filtering and autoregressive approaches), Generative AI (VAE, GAN, DiQusion). My diploma
+thesis is associated with EEG analysis using DL techniques
+You may ask again: Why SMILES? Well, I look for deepening expertise in generative
+approaches, learn Safe AI with [name] Rogov and find people who are interested in healthcare
+AI. Furthermore, I expect beautiful lectures and seminars from diQerent experts that will
+help me to understand current topics in data science and AI
+After this schooal I aim to apply the knowledge in my own thesis and extend it to the
+level of PhD thesis. Also I have investigated the field of potential startups and found out the
+idea to build a software for diagnosing dementia on early stages by the speech analysis
+(just an idea of applying the knowledge from SMILES). Also knowledge from this schooal will
+be beneficial in terms of my researches on topics of neuronal activity in a sense of EEG
+data which is actually sequential data.
+To sum up, SMILES-2025 is the ideal platform to connect and enhance my technical
+skills with visionary AI applications. I would be honored to work with and join the future of
+AI leaders. Also I want not only to participate in learning process but also help schoo as a
+volunteer - hope it will provide me both hard and soft skills evolvement
+Best regards,
+[name] [surname]

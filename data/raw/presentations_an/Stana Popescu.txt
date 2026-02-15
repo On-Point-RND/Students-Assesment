@@ -1,0 +1,220 @@
+Personalized Image Generation
+[name]
+[location]
+[location]
+[compaany]
+2024
+Research objective
+Task
+To generate high-resolution human images with diverse variations.
+Goal
+To enhance the quality of images produced by diffusion models.
+Challenge
+Current limitations include low generation accuracy, partial misalignment between generated images and their textual descriptions, and insufficient output image quality.
+Problem statement
+Let the dataset be defined as D={(x,τ):i =1,...,n}, where x i i i denotes an image and τ represents its corresponding textual prompt. We consider a model ϵ from the class of diffusion models. During the training phase, at each step, an image x (where j ∼U{1,...,n}) is removed from D.
+Problem statement
+We define the loss function as:
+L(ϵ,ϵ )=E ∥ϵ−ϵ (c ,c,t,cj)∥2, (1)
+θ ϵ∼N(0,I),cτ,ci,t,cj
+t
+where:
+▶ c =Γ (τ ) denotes the textual features of the removed image,
+τ τ j obtained by applying the text encoder Γ to the text prompt τ ;
+τ j
+▶ c =G(Γ(x ),...,Γ(x ),Γ(x ),...,Γ(x )) represents the
+i i 1 i j−1 i j+1 i n
+features of the remaining images, resulting from applying the
+aggregation function G to image embeddings produced by the
+image encoder Γ;
+i
+▶ cj =Γ(x ) corresponds to the features of the removed image;
+i j
+▶ t ∈[0,T] is the timestep in the diffusion process;
+▶ cj =α cj +σ ϵ represents the noised data of the removed image at
+t t t
+timestep t;
+▶ α ,σ are predefined functions of t that govern the diffusion process.
+t t
+4/20
+Problem statement
+We address the following optimization problem:
+ϵ∗ = argminL(ϵ,ϵ ), (2)
+θ θ
+ϵ
+θ
+5/20
+Problem statement
+To assess the model quality, we introduce the following image generation
+metrics: Frechet Inception Distance (FID) and Inception Score (IS):
+FID =∥µ −µ ∥2+Tr(Σ +Σ −2(Σ Σ )1/2) (3)
+p q p q p q
+where µ and µ represent the feature means of real and generated
+p q
+images respectively, and Σ , Σ denote the covariance matrices of
+p q
+feature distributions for real and generated images.
+IS(x)=exp(E [D (p(y|x)∥p(y))] ) (4)
+x KL
+where D is the Kullback-Leibler divergence between two distributions;
+KL
+p(y|x) indicates the class probability y for image x; and p(y) represents
+the uniform distribution over the class labels.
+6/20
+DrreamBooth
+Fine-Tuning Inference
+Input Output
+Unique
+identifier
+"[V]"
++ "man" Personalized
+DrreamBooth "A serious [V] man" text-to-image
+model
+Pretrained Personalized
+text-to-image text-to-image
+model model
+▶ Input: multiple images of a target object with associated class
+label.
+▶ Ouput: unique identifier token for the object.
+▶ Integration: the token is incorporated into text prompts for
+conditional image generation.
+7/20
+DrreamBooth
+The loss function takes the following form:
+E (cid:2) w ∥xˆ (α x+σ ϵ,c)−x∥2+λw ∥xˆ (α x +σ ϵ′,c )−x ∥2(cid:3) ,
+x,ϵ,ϵ′,c,t t θ t t t′ θ t′ pr t′ pr pr
+where:
+▶ x denotes the original image;
+▶ c=Γ(P) represents the condition vector (Γ is the text encoder, P is
+the text prompt);
+▶ t ∈[0,T] indicates the timestep in the diffusion process;
+▶ α , σ , and w are predefined functions of t governing the diffusion
+t t t
+process;
+▶ x =xˆ(z,c ) denotes generated data using a sampler based on a
+pr pr
+pretrained diffusion model with random initial noise z ∼N(0,I) and
+c=Γ(f(”a [class noun]”)), where f is the
+pr
+tokenizer;
+▶ λ represents the weightiing coefficient.
+8/20
+IP-Adapter
+A serious man Text Encoder Text Features
+Decoupled Cross-Attention
+U-Net
+Cross Cross
+Attention Attention
+E I n m c a o g d e e r Lin LN F I e m a a tu g r e e s s
+Frozen
+Modules
+Trainable
+Modules
+▶ Image encoder for feature extraction;
+▶ Modified modules with cross-attention architecture.
+9/20
+Decoupled Cross-Attention
+The output of the Cross-Attention layer for textual features c is given by:
+(cid:18)QK T(cid:19)
+Z′ =Attention(Q,K,V)=Softmax √ V, (5)
+d
+where Z represents the query features, Q=ZW , K=c W , and
+q t k
+V=c W denote the query, key, and value matrices of the attention
+t v
+mechanism for textual features, respectively, with W ,W ,W being the
+q k v
+corresponding weight matrices.
+The output of the Cross-Attention layer for image features c is:
+(cid:18) Q(K′)T(cid:19)
+Z′′ =Attention(Q,K′,V′)=Softmax √ V′, (6)
+d
+where Q=ZW , K′ =cW′, and V′ =cW′ represent the query,
+q i k i v
+and value matrices of the attention mechanism for image features,
+respectively, with W′ and W′ being the corresponding weight matrices.
+k v
+10/20
+Decoupled Cross-Attention
+The output of the Decouped Cross-Attention layer is given by:
+Znew = Attention(Q,K,V)+λ·Attention(Q,K′,V′), (7)
+where λ denotes the weighting coefficient.
+11/20
+IP-Adapter + Aggregation Function
+A serious man Text Encoder Text Features
+Decoupled Cross-Attention
+U-Net
+Cross Cross
+Attention Attention
+E I n m c a o g d e e r M Av a g x P P o o o r o o l l i i n n g g Lin LN F I e m a a tu g r e e s s
+Frozen
+Modules
+Image Image Image
+Encoder Encoder Encoder
+Trainable
+Modules
+▶ Accepts multiple input images;
+▶ Applies either Max Pooling or Average Pooling to the input
+image embeddings.
+12/20
+IP-Adapter + Self-Attention
+A serious man Text Encoder Text Features
+Decoupled Cross-Attention
+U-Net
+Cross Cross
+Attention Attention
+E I n m c a o g d e e r Lin LN F I e m a a tu g r e e s s
+Frozen
+Modules
+Image Image Image
+Encoder Encoder Encoder
+Trainable
+Modules
+▶ Learning objective: The model learns to predict the excluded
+image based on its textual prompt and the embeddings of the
+remaining images.
+13/20
+Dataset
+The LFW Deep Funneled dataset consists of facial images
+accompanied by personal names. This dataset contains at least 10
+distinct photographs for each of the 100 individuals represented.
+14/20
+Experiments results
+Method IS ↑ FID ↓
+IP-Adapter 15.37 8.92
+DrreamBooth 17.64 9.61
+IP-Adapter + Max Pooling 14.12 10.10
+IP-Adapter + Avg Pooling 13.56 11.82
+IP-Adapter + Self-Attention 18.72 7.56
+15/20
+Generation results
+DrreamBooth
+IP-Adapter
+IP-Adapter +
+Max Pooling
+IP-Adapter +
+Avg Pooling
+IP-Adapter +
+Self-Attention
+16/20
+Conclusion
+▶ The modified IP-Adapter method incorporating Self-Attention
+demonstrated superior performance according to both IS and FID metrics;
+▶ Future improvements could involve further modifications
+through the integration of LoRA, FaceNet, and other advanced
+techniques.
+17/20
+My Contributions
+My specific contributions include:
+▶ Implementation of code for:
+▶
+DrreamBooth framework
+▶
+IP-Adapter with Max/Average Pooling integration
+▶
+FID and IS metric evaluation
+▶ Comprehensive literature review
+▶ Manuscript preparation and scientific writing
+18/20
+Link to the project on GitHub
+19/20

@@ -1,0 +1,252 @@
+BillBoard Splatting: [name]able Textured Primitives
+for Novel View Synthesis
+[name], [name], [name] and [name]
+[location]
+Splat
+Motivation
+3DGS 2DGS
+(NVS) (Mesh Extraction)
+Splat
+NVS && Mesh Extraction
+Inspiration
+• Billboards were used for extreme 3D scene
+simplification;
+• Each object in the scene is represented as a set of
+textured planes.
+[name] et. al. Billboard clouds for extreme model simplification. In SIGGRAPH 2003
+Arbitrary Shaped and Colored Primitives
+• Flat primitives similar to 2DGS
+are trained by gradient-based
+optimization on a set of input
+images;
+• Each primitive has a trainable
+color and transparency texture;
+• High NVS quality and mesh
+reconstruction accuracy.
+PSNR↑: 21.11
+SSIIM ↑: 0.7592
+LPIPS↓: 0.3094
+PSNR↑: 22.21
+SSIIM ↑: 0.8145
+LPIPS↓: 0.1998
+Input
+Update with gradients
+Input S
+G
+𝜇 , 𝑠 , 𝑟 , 𝑆𝐻 , 𝑜
+D 𝑖 𝑖 𝑖 𝑖 𝑖
+2
+opacity
+features
+rotation
+scale
+position
+Learned Gaussians
+Update with gradients
+Input S
+G
+𝜇 , 𝑠 , 𝑟 , 𝑆𝐻 , 𝑜
+D 𝑖 𝑖 𝑖 𝑖 𝑖
+2
+opacity
+features
+rotation
+scale
+position
+Learned Gaussians
+Update with gradients
+t
+a 𝑅𝐺𝐵 𝛼
+l 𝜇 , 𝑠 , 𝑟 , 𝑆𝐻 , 𝑇 , 𝑇
+p 𝑖 𝑖 𝑖 𝑖 𝑖 𝑖
+S
+B
+B
+Optimized texture and alpha
+map
+𝑣
+𝑢2 +𝑣2
+Update with gradients
+𝒢(𝑢,𝑣) = exp(− )
+2
+g
+n
+i
+r 𝑢
+e
+Input S d
+G
+𝜇 , 𝑠 , 𝑟 , 𝑆𝐻 , 𝑜 n
+D 𝑖 𝑖 𝑖 𝑖 𝑖 e
+2 r
+opacity S
+G (𝑢,𝑣)
+features
+D
+rotation
+scale 2 (𝑥,𝑦)
+position
+Learned Gaussians
+Update with gradients
+t
+a 𝑅𝐺𝐵 𝛼
+l 𝜇 , 𝑠 , 𝑟 , 𝑆𝐻 , 𝑇 , 𝑇
+p 𝑖 𝑖 𝑖 𝑖 𝑖 𝑖
+S
+B
+B
+Optimized texture and alpha
+map
+𝑣
+𝑢2 +𝑣2
+Update with gradients
+𝒢(𝑢,𝑣) = exp(− )
+2
+g
+n
+i
+r 𝑢
+e
+Input S d
+G
+𝜇 , 𝑠 , 𝑟 , 𝑆𝐻 , 𝑜 n
+D 𝑖 𝑖 𝑖 𝑖 𝑖 e
+2 r
+opacity S
+G (𝑢,𝑣)
+features
+D
+rotation
+scale 2 (𝑥,𝑦)
+position
+Learned Gaussians
+v
+u2 +v2
+Update with gradients
+𝒢(𝑢,𝑣) = exp(− )
+2
+g
+n
+i
+r 𝑢
+e
+Input S d
+G
+𝜇 , 𝑠 , 𝑟 , 𝑆𝐻 , 𝑜 n
+D 𝑖 𝑖 𝑖 𝑖 𝑖 e
+2 r
+opacity S
+G (𝑢,𝑣)
+features
+D
+rotation
+scale 2 (𝑥,𝑦)
+position
+Learned Gaussians
+Update with gradients
+g 𝒢(𝑢,𝑣) = 𝑡𝑒𝑥𝑡𝑢𝑟𝑒[𝑢,𝑣]
+n
+i
+r
+e
+t d 𝑢
+a 𝑅𝐺𝐵 𝛼 n
+l 𝜇 , 𝑠 , 𝑟 , 𝑆𝐻 , 𝑇 , 𝑇 e
+p 𝑖 𝑖 𝑖 𝑖 𝑖 𝑖
+r
+S
+B t
+B a
+l (𝑢,𝑣)
+p
+S
+B
+(𝑥,𝑦)
+B
+Optimized texture and alpha
+map
+Render
+u2 +v2
+Update with gradients
+𝒢(𝑢,𝑣) = exp(− )
+2
+g
+n
+i
+r 𝑢
+e
+Input S d
+G
+𝜇 , 𝑠 , 𝑟 , 𝑆𝐻 , 𝑜 n
+D 𝑖 𝑖 𝑖 𝑖 𝑖 e
+2 r
+opacity S
+G (𝑢,𝑣)
+features
+D
+rotation
+scale 2 (𝑥,𝑦)
+position
+Learned Gaussians
+ℒ
+image
+v
+Update with gradients
+g 𝒢(𝑢,𝑣) = 𝑡𝑒𝑥𝑡𝑢𝑟𝑒[𝑢,𝑣]
+n
+i
+r
+e
+t d 𝑢
+a 𝑅𝐺𝐵 𝛼 n
+l 𝜇 , 𝑠 , 𝑟 , 𝑆𝐻 , 𝑇 , 𝑇 e
+p 𝑖 𝑖 𝑖 𝑖 𝑖 𝑖
+r
+S
+B t
+B a
+l (𝑢,𝑣)
+p
+S
+B
+(𝑥,𝑦)
+B
+Optimized texture and alpha
+Ground Truth
+map
+Regularization Terms
+║ ║ ║ - ║
+= 0 = 0 = 106 = 429
+No regularization No regularization Regularization Regularization
+Texture Compression
+𝑁 Bytes 𝑀 Bytes
+-
+𝑁 + 𝑀 Bytes
+𝑁+𝑀
+Quantization Bytes
+4
+𝑁+𝑀
+Compression Bytes
+~7
+Model Size
+• Despite the fact that each billboard contains two 16x16 textures, BBSplat
+is more compact than other 3DGS compression methods;
+• At the same time, BBSplat achieves higher quality than other methods;
+• For the DTU dataset, BBSplat is x17 times more compact than 3DGS.
+Inference Speed
+• Texture sampling does not reduce inference efficiency
+compared to other flat primitive-based method 2DGS.
+Qualitative Results: Novel Views Synthesis
+Qualitative Results: Novel Views Synthesis
+Qualitative Results: Novel Views Synthesis
+The Use of Alpha Maps
+• Transparency maps allow to extract an accurate mesh
+even with a small number of billboards;
+• Defining the scene as a set of explicit planes allows to
+implement ray-tracing effects such as reflections.
+Qualitative Results: Mesh Extraction
+[name] A., [name] V. Sugar: Surface-aligneed gaussian splatting for efficient 3d mesh reconstruction and high-quality
+mesh rendering // CVPR 2024
+Qualitative Results: Ray-tracing
+Thank you
+https://david-svitov.github.io/BBSplat_project_page

@@ -1,0 +1,91 @@
+[name] [surname]
++2 *** *** ***
+[email]
+https://istinna.[location]/profile/[name][surname]/
+https://github.com/[name]49
+EDUCATION
+PhD|PhysicalChemistry Aug. 2024–June2028
+[location]
+Specialist|Major: OrganicChemistry,Minor: ComputationalChemistry Aug. 2018–June2024
+[location]
+MSU.AIMachineLearningOneyearCourse Feb. 2023–Feb. 2024
+[location]
+WORK EXPERIENCE
+MachinelearningEngineer September2023–on
+[compaany] [location]
+• Createda model to predict the antibacteria activity of biocide compounds
+MachinelearningEngineer September2023–on
+[compaany] [location]
+• Created a implementation docking and ML-models for cosmetic products preparation
+• Created a model for toothshade recognition
+OrganicChemistryLaboratoryJuniorAssistant September2018–March2024
+[compaany] [location]
+• Work with organic fluorichemistry and photorexcatalysis
+QuantumChemistryLaboratoryJuniorAssistant September 2020–on
+ThermochemistryLaboratoryof[location]
+• Investigation of photodynamic properties of substituted benzophenones
+• CreateDeepLearningmodelsforpredictionphotophysical properties of complex compounds
+LaboratoryAssistant July2022–August2022
+SGS”VosтокLimited” [location]
+• Determined the quantitative content of heavy metal impurities in mineral fuel.
+• Optimized the process for determining the content of mercury in mineral fuels
+Internshipstudent December2021–June2022
+GlusacLab [location]
+• Consultant inorganic chemistry
+MachineLearningInternshipStudent December2020–June2021
+Skoltech [location]
+• Applied machine learning algorithm for drug design
+PROJECTS AND RESEAARC
+SynergeticEffectsofAloeVeraExtractwithTrimethylglycine... Spring2024
+Molecules V.29,№7,P.1540
+Onepervertedrearrangement: detailedquantum-chemicalstudy... Winter2024
+Phy. Chem. Chem. Phys. ASAP
+MolecularModelingandInVitroResearchofNewSubstancesfor... Autumn2023
+Chem. Proc V.14(1),51
+DevelopmentandValidationofaGasChromatography–MassSpectrometry.. Autumn2023
+Antibiotics V.12(10),1558
+Generationoffluoro(thio)carbenesfromMe3SiCF2SAr Summer2022
+JournalofFluorineChemistry V.261-262,110025
+Diallylaminoboratesasefficientreagentsfordifluorocarbene trapping Spring2020
+ChemicalCommunications V.56,№52,P.7140-7142
+CONFERENCES AND PRESENTATIONS
+SMILES2024Skoltech August2024
+Saint-Peterburg, [location]
+Developmentofdrugsbasedonsmallmolecules March2024
+Sirius [location]
+SMILES2023Skoltech August2023
+Belokurikha, [location]
+ReactionofFrustratedLewisPairwithdifluorocarbene September2021
+VIInternationalSymposium≪TheChemistryofDiazoCompoundsandRelatedSystems≫ Saint-Peterburg, [location]
+HONORS AND AWARDS
+WinneroftheRussianSchoolOlympiadinchemistry Spring2018
+Arkhangelsk, [location]
+Firstplaceinthepostersession November2020
+Conference”Lomonosov2020” [location]
+Grantfromthe”TalentandSuccess”Foundation November2018-September2024
+Laureate [location]
+WinneroftheTechnoSnabServiceScholarship Autumn2022
+Scholarship [location]
+FirstplaceonMSU.AImachinelearninghackathon Autumn2023
+Hackathon [location]
+TEACHING EXPERIENCE
+HighSchoolChemistry(11WeeksTeaching/Observing) Fall2019
+Lyceum№84 [location]
+REFERENCE
+Prof.[name] [surname] [email]
+InstitutofOrganicChemistry [location]
+Prof.[name] [surname] [email]
+InstitutofOrganicChemistry [location]
+[name] [surname] [email]
+SmartNova [location]
+Prof. [name] [surname] [email]
+UniversityofIllinoisChicago [location]
+Ph.D.NataliaLukoнина [email]
+[location]
+SKILLS
+Chemistry: Organsynthesis,Metall-organic synthesis,Fluoro-Organic compounds,Siliconorganic compounds,Photoredox,NMR,Massspectrometry,GCMS
+QuantumChemistry: Orca,FireFly,DFT,DiffDock,AutoDock,Pmol,CHemCraft
+Languages: Russia(Native),English(B2),French(A1)
+Programming: Python(NumPy,SciPy,Matplotlib,Pandas,PySimpleGui,Tkinter),JS(React,Node.js,React Native),HTML,CSS,C)
+MachineLearning:PyTorch,Lightning,ClearML,LightAutoML,Sklearn,GpyTorch,Gymnasium,Transformers,Pytorch-Geometric,Bgmol,Bgflow,OpenCV
+DocumentCreation: MicrosoftOfficeSuite,LaTex,Notion,Obsidian

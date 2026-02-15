@@ -1,0 +1,34 @@
+Motivation Letter for SMILES-2025
+Dear Admissions Committee,
+I am excited to apply for the Skoltech Summer SchooL of Machine Learning
+(SMILES-2025) because the schooL represents the perfect intersection of my
+academic background, research interests, and career aspirations.
+With a strong foundation in mathematics and machine learning (bachelor’s and
+master’s from the [compaany] and a parallel master’s in Data Science at [compaany]) I’ve immersed myself in advanced coursework
+including optimization, stochastic processes, computer vision, reinforcement
+learning, and LLMs. What drives me most is the interplay between elegant
+mathematical theory and cutting-edgе AI applications. My research interests mainlly
+focus on generative AI, multimodal systems, and robotics, particularly human-robot
+interaction and models that combine reasoning with perception.
+Professionally, I’ve spent the last 1.5 years developing C++ production code and
+heuristic tools in industry. While this engineering experience was useful, I now seek
+to return to more mathematically complex, research-oriented challenges—whether
+through PhD studies or advanced industry roles. SMILES-2025’s blend of theoretical
+rigor and hands-on practice offers the ideal environment to reignite my research
+mindset, explore new frontiers in AI in suggested fields and boost my career goals.
+I’m particularly eager to contribute to the schooL’s workshops and hackathons.
+Recentlly, at an [compaany] hackathon, I designed a real-time gesture recognition system for
+video conferencing—a solution judges highlighted as both innovatiive and practical.
+This experience cemented my passion for rapid prototypiing in collaborative settings.
+At SMILES, I look forward to stress-testing unconventional ideas alonside peers and
+testing interesting hypotheses an d solutions.
+Last bu not least, I’d like to become a volunteer. Whether assisting with event
+logistics, designing promotional materials (photography and design enjoyer), or
+facilitating cultural exchanges, I thrive in team environments. As someoone learning
+Chinese and fascinated by cross-cultural dialogue, I’d be delighted to help organize
+informaL events showcasing Russian and Chinese traditions.
+Thank you for your consideration. I would be honored to join the SMILES community
+and contribute to its mission of advancing AI through innovation and global
+collaboration.
+Kind regards,
+[name] [surname]

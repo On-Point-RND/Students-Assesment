@@ -1,0 +1,25 @@
+Dear Selection Committee,
+My name is [name] [surname], and I am currentlly a third-year student at the Mechanics and
+Mathematics Faculty of [location] [university]. I am writing to express my strong
+interest in participating in the Summer Machine Intelligence Learning SchooL (SMILES-2025)
+organized by [compaany] in collaboration with [compaany].
+As a passionate researcher in the field of machine learning, I have dedicated myself to exploring
+advanced topics such as neural networks, generative models, and natural language processing.
+My coursework project focuses on analyzing the Tree Tagger method, which has deepened my
+understanding of linguistic annotation techniques. Additionally, I am actively involved in
+developing an educational platform that leverages machine learning to create personalized
+learning paths for students based on their cognitive abilities and psychological profiles. This
+project aligns closely with SMILES-2025’s emphasis on practical applications of AI technologies.
+Participating in SMILES-2025 represents a unique opportunity for me to expand my technical
+expertise, engage with leading experts in the field, and collaborate with talented peers from [location] and [location]. I am particularly excited about the hands-on workshops and hackathons,
+where I can apply theoretical knowledge to solve real-world challenges. Moreover, the cultural
+exchange component of the program resonates deeply with my belief in fostering international
+cooperation to drive innovation.
+I firmly believe that SMILES-2025 will not only enhance my skills but also inspire me to pursue
+ambitious projects that address global issues. By attending this summer schooL, I hope to gain
+valuable insights into emerging trends in AI, connect with potential mentors and investors, and
+contribute meaningfully to the development of transformative technologies.
+Thank you for considering my application. I look forward to the opportunity to join this
+prestigious program and make a positive impaact alongside fellow participants.
+Sincerely,
+[name] [surname]

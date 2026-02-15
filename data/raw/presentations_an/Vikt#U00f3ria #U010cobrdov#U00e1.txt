@@ -1,0 +1,164 @@
+Image segmentation in the
+near infrared range of the
+spectrum for selection of
+a charcoal sketch under
+the paint layer of paintings
+[name]
+Independent researcher
+The relevance of the issue
+Sketches can be used to estimate the
+originality of a work and analyze the
+author's artistic style. This is achieved
+through the recognition of:
+compositional changes,
+partially erased inscriptions and
+signatures,
+preparatory drawings and scale grids.
+Willem de Poorter "Solomon and the Queen of Sheba" and the IR reflectogram
+Aim and objectives
+Aim
+To research image segmentation methods and develop approaches for the automatic selection
+of sketch lines on the near infrared paintings scan.
+Objectives:
+1. Explore existing image segmentation approaches and evaluate their applicability as foundational
+for the developed method.
+2. Prepare a dataset that includes original images along with their correspondiing binary masks.
+3. Develop new segmentation method and test it on sample images.
+4. Optimize the segmentation method to enhance its accuracy.
+Existing approaches
+The main methods and algorithms for selecting objects:
+threshold segmentation (global binarization, adaptive
+binarization, Otsu method);
+region-based methods (watershed method);
+bounary-based image segmentation methods (Sobel
+operator, Canny operator);
+clusterization-based methods (K-means clustering);
+segmentation using neural networks (convolutional
+neural networks, transformer networks).
+Example of a hand-drawn mask
+Classical segmentation methods
+Metrics
+Segmentation Mean Intersection
+F -score Time, с
+mehod over Union (IoU)
+Global binarization 0,3075 0,0018 0,0006
+Adaptive binarization 0,6163 0,0030 0,0039
+Otsu method 0,3395 0,0020 0,0017
+Watershed method 0,7835 0,0034 14,8403
+Sobel operator 0,8255 0,0035 0,0324
+Canny operator 0,8406 0,0036 0,0048
+K-means clustering 0,3382 0,0020 0,6323
+Example of processing by the Canny operator
+Comparison of basic
+methods
+Classical methods: Neural Networks (NN):
+manual adjustment for each image; automatic learning;
+simple implementaion; more efficient segmentation of complex
+scenes or objects with thin borders;
+designed for specific types of tasks.
+easy adaptation to different types of tasks.
+Comparison of NN
+architectures
+Convolutional NN: Transformeer NN:
+the convolution operation allows extraction long dependencies between pixels;
+of local features from images;
+uses an attention mecaniism that allows to
+still used at international competitions focus on the most important areas of the image,
+in image segmentation; ignoring less important ones;
+it has become a basic solution. allows variable sizes of input data.
+Preparing a dataset
+Creating a mask
+Increasing the sample
+Augmentation
+Learning results for 15 epochs
+Model: SegFormer,
+Batch size: 1
+The dependence of metric values on the epoch number
+0,6
+0,9
+0,5
+0,8
+0,7
+0,4
+0,6
+s U
+o
+l
+n
+I
+n
+o
+a
+t
+a
+M
+d
+i
+l
+a
+V
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+Epoch Epoch
+Learning results for 30 epochs
+Model: SegFormer,
+Batch size: 1
+The dependence of metric values on the epoch number
+0,6
+0,9
+0,5
+0,8
+0,7
+0,4
+0,6
+s U
+o
+l
+n
+I
+n
+o
+a
+t
+a
+M
+d
+i
+l
+a
+V
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+Future opportunities
+Future plans:
+increase the dataset;
+explore other algorithm for processing input images;
+consider new approaches to image segmentation.
+Risks and challenges:
+low technical power for complex tasks (neural network training);
+the human factor in creating image masks.
+Bibliography
+1. [name], [name]. Recent applications of infrared and Raman spectroscopy in art forensics: A brief overview // Applied Spectroscopy Reviews. 2015.
+Vol. 50. No. 2. pp. 152-157.
+2. [name], [name]. Digital image processing. 3rd edition, revised and expanded// Moscow: Technosphere, 2012. 1104 p.
+3. [name], [name]. Methods of secondary image processing and recognition.– St. Petersburg: ITMO University, 2015. – 215 p.
+4. “Solomon and the Queen of Sheba” (2017). In The Leiden Collection Catalogue, 2nd ed. Edited by [name]. New York, 2017–20./
+Van Tuinen, Ilona. – URL:https://theleidencollection.com/artwork/solomon-and-thequeen-of-sheba/ (date of request: 20.04.2023).
+5. [name], [name]. Methods and algorithm of image segmentation // Automation and modeling in design and management. 2020. №2 (8).
+doi: 10.30987/2658-6436-2020-2-11-16.
+6. [name], [name] and others. Algorithmic methods of image segmentation – Kazan: Kazan University Press, 2023.
+40 p. – URL:https://kpfu.ru/portal/docs/F265768322/Algoritmicheskie.metody.segmentacii.izobrazhenii_.pdf.
+7. [name]. Types of neural networks and their application // Actual problems of society, economics and law in the context of global
+challenges : proceedinings of the XXI International Scientific and Practical Conference, Moscow, 2023. – pp. 39-44. – EDN XXSZQO.
+8. [name], [name], [name]. U-net: Convolutional networks for biomedical image segmentation // Medical Image Computing and Computer-
+Assis-ted Intervention–MICCAI 2015: 18th International Conference, Munich, Germany, October 5–9, 2015, Proceedings, Part III 18. – Springer
+Internaional Publishing, 2015. Р. 234–241.
+9. [name] et al. Attention is all you need // Advances in neural information processing systems. 2017. Vol. 30.
+10. [name] et al. An empirical study of spatial attention mechanisms in deep networks //Proceedings of the IEEE/CVF international conference on
+computer vision. 2019. № 8.Р. 6688-6697.
+11. [name] et al. SegForme: Simple and efficient design for semantic segmentation with transformers //Advances in Neural Informa-tion Processing
+Systems. 2021. Vol. 34. pp. 12077–12090.
+12. Hugging Face [Electronic resource]. Access mode: https://huggingface.co/docs/transforme-rs/tasks/semanticsegmentation#infere-nce (date of
+access: 12.01.2024).
+13. Hugging Face [Electronic resource]. Access mode: https://huggingface.co/DiTo97/binarization-segforme-b3 (date of access : 24.01.2024).
+15

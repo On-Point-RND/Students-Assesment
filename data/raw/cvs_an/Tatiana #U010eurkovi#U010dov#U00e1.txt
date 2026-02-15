@@ -1,0 +1,38 @@
+[name] [surname]
++2 *** *** *** | [email] | [name]K04 | GoogleScholarPage
+Experience
+[company]
+JUNiORQUANTUMMACHiNELEARNiNGRESEARCHER August,2023‑Present
+• Developed a Hybrid‑QuantumCycle‑GAN model for small molecule drug design, which outstands its competitors in terms of chemoinformatics metrics, such as QED score, up to 30%
+• Introduced a machine learning pipeline for time series process optimization, which suggests to utilize two machine learning models as a predictor and optimizer respectfully and surpasses pipelines with classical solvers by 5 times in iron‑making process stabilization (L2 metrics)
+• Introduced time series transformer model to the [company] platform
+• Worked on industrial applications of quantum ML algorithms in various fields, such as natural resources development (Seismic‑Well tie) and sales prediction.
+Laboratory of Relativistic Astrophysics MIPT, [location]
+INTERN DATA ANALYST Febrary,2023‑September.2023
+• Created the API (https://github.com/[name]K04/SaoCATS_Parser) for automatic collection of data and articles from CATS (Astrophysics Catalogs) and NASA/ADS databases
+• Performed the analysis of cosmic source spectra (SciPy+Difmap) in search of quasar candidates
+Publications
+HybridQuantumCycleGenerativeAdversarialNetwork for Small Molecule Generation Q1 publication
+[name] [surname], [surname]ASELSAGiNGALIEVA, CHRISTOPHERMANSELL, DMiTRYZHiGANOV, ViSHALSHETE, MARKUSPFLITSCH, ALEXEY MELNIKOV
+10.1109/TQE.2024.3414264
+Multi‑stream Physics Hybrid Networks for solving Navier‑Stokes equations Preprint
+TATJANA PROTASEVICH, MiKHAiLSURMACH, ALEKSANDRSEDYKH, OLGA SURKAN, [name] [surname], VADIMLOPATKIN, LEONID FEDICHKIN
+arxiv.org/abs/2504.01891
+Education
+Moscow Institute of Physics and Technology [location]
+BSC.APPLIED MATHEMATICS AND PHYSICS August.2022‑August.2026
+• Achieved a GPA of 4.85/5
+• Awarded a scholarship for excellent academic performance (February2023‑February2025) and a scholarship for scientific achievements (February2025‑Now)
+Awards
+Russian Physicists’ Tournament [location]
+GOLD MEDAL AND BEST SOLUTION WINNER February2025
+International Physicists’ Tournament Zurich, [location]
+SEMiFINALIST April2024
+Workshops
+The Skoltech Summer School of Machine Learning (SMILES) [location]
+SUMMER SCHOOL FOCUSING ON LLMs AND MULTIMODAL AGENTS August,2024
+• Conducted research on the vulnerability of SOTA sequential data transformer models to adversarial attacks, and explained adversarial attack on time series classifier in terms of Fourier components (https://github.com/[name]K04/AdversarialAttacks_SMILES2024)
+• Won a postersession
+ITMO, SCAMT Workshop Week [location]
+ML FOR CHEMISTRY RESEARCH WORKSHOP January,2024
+• Reproduced SOTA pipeline combining classical ML (as differentiable chemical property descriptor) and genetic algorithms for discovery of new cancer‑treatment based on nano‑particles

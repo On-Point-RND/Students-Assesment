@@ -1,0 +1,60 @@
+[name] [surname]
+ [email]  +2 *** *** ***
+Education
+[location] State [University], Faculty of Economics
+Bachelor’s Degree, Advanced Academic Group
+Expected graduation: 2025
+GPA: 5.0/5.0
+[location] State [University], Institute of Artificial Intelligence
+AI Masters Program
+Expected graduation: 2025
+Relevant coursework: Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Optimization, Reinforcement Learning.
+Conducted study projects on Maximum volume principle in cross approximations of matrices; Algorithms for computing Tucker decomposition and tensor train decomposition (NLP), Chinese word segmentation (NLP)
+Research Experience
+Research Intern
+Game Theory and Decision Making Laboratory, Higher School of Economics
+July - August 2024
+• Conducted research on ”A column generation heuristic for a petrol station replenishment problem with complex unloading rules”
+• Implemented optimization algorithms using C++ and Google OR-Tools
+• Co-authored research paper with Prof. [surname] accepted for presentation at the International Conference on Mathematical Optimization Theory and Operations Research (MOTOR 2025)
+Bachelor’s Thesis Research
+Faculty of Economics, [location] State [University]
+2023 - 2024
+• Developed a Neo-Keynesian Dynamic Stochastic General Equilibrium (NK DSGE) model adapted to high-inflation economic conditions
+• Applied Kalman filtering to estimate time-varying coefficient autoregressive models for analyzing fiscal-monetary policy interactions in [location]
+• Derived analytical approximation of the unconditional mathematical expectation of the social welfare function
+• Implemented Markov switching coefficients in the Taylor rule to model regime changes
+• Calibrated model parameters using the Metropolis-Hastings algorithm on [location] economic data
+• Quantitatively compared different policy regimes using second-order approximation of the welfare function
+Professional Experience
+Analytics Intern
+[company]
+June - August 2023
+• Developed automated SQL reports for business analytics
+• Conducted data mining and hypothesis testing
+• Created data visualizations and presented findings to team members
+• Assisted in developing analytical tools for market performance monitoring
+1
+Academic Achievements
+• Winner, All-Russian Olympiad in Economics (2019)
+• Silver Medalist, ”Ya Professional” Olympiad in Economics (2023)
+• Medalist, ”Higher League” Olympiad in Economics (2024)
+• Winner, Lomonosov Universityade in Econometrics (2024)
+• Bronze Medalist, ”Ya Professional” Olympiad in AI (2024)
+Technical Skills
+• Python (data processing: pandas, numpy; machine learning: scikit-learn, XGBoost, CatBoost, LightGBM; deep learning: PyTorch)
+• C++ (including optimization libraries, STL, OR-Tools)
+• R (statistical analysis, econometrics, gggplot2, dplyr)
+• SQL (data querying and database management)
+Research Interests
+• Applied game theory and decision making
+• Econometric modeling and economic forecasting
+• Optimization and operations research
+• Computational economics
+• Reinforcement learning for economic modeling
+Additional Information
+• English Proficiency: C1
+• Jury Member, All-Russian Olympiad in Economics (since 2024)
+• Mathematics instructor for 9th grade students at the Economics and Mathematics School, Faculty of Economics, [location] State [University]
+• Academic focus: intersection of economic theory, game theory, and artificial intelligence
+2

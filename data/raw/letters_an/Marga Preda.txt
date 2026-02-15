@@ -1,0 +1,39 @@
+Motivation Letter for [compaany] Summer School
+Hello [name],
+My name is [name], and I am currently a third-year medical student at [compaany].
+Last summer, I had the chance to experience the [compaany] School for the
+first time although it was in an online format, it left a lasting impression on
+me. It felt like a whole new world opened up. That experience introduced
+me to machine learning and helped me realize how deeply fascinating and
+promising this field is.
+Since then, I’ve been trying to apply what I learned to my own field. The
+knowlege I gained allowed me to expand the horizons of my work and
+propoose my own ideas for using ML in the research projects I'm involved in
+at my universiity department.
+I have always dreamed of becoming a bioinformatician, not only working
+with code but also contributing to wet-lab experiments. Now, I can bring
+value to my lab team in both areas — not only running PCRs and preparing
+biological samples but also performiing statistical and bioinformatic
+analysis. Moreover, I’m now capable of applying ML methods to uncover
+complex dependencies in biological data.
+My learning didn’t stop after the schooL. I’ve been continuing my ML journey
+with another mentor from the [compaany] in [location]. With his guidance, I have been exploring how
+different ML and DL approaches can be used to study brain activity, extract
+meaningful patterns, and build functional models of neural systems.
+Many people I met over the past year have inspired me to continue
+studying ML. [compaany] has played a significant role in this journey — not
+just as a summer schooL, but as a turning point that continues to help me
+grow.
+From the upcoming schooL, I hope to gain even more in-depth knowledge,
+take part in engaging and competitive activities, and meet people who are
+also passionate about machine learning and science. I also look fo rwward to
+connecting with the instructors, asking questions, and getting va lua ble
+fee dback and insights from them.
+I believe that this year’s schooL will not o nl y give me new tools and
+perspectives but will also allow me to once again be part of a vibrant
+community of curious minds and passionate mentors. Going abroad for
+such programs is a lways a unique and uplifting experience. It helps you
+discover yourself, feel the spirit of science, and retu rn home full of energy
+and new ideas.
+For me, [compaany] is not just a summer schooL - it’s an adventure, a journey
+that makes you want to climb even higher peaks.

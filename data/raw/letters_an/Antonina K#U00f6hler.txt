@@ -1,0 +1,13 @@
+[name]
+[email]
++2 *** *** ***
+[location]
+Dear SMILES-2025 Organizing Committee,
+I am writing to express my enthusiastic interest in participating in the Skoltech Summer School of Machine Learning (SMILES-2025) at the [institution]. As a Master’s student in Engineering Systems at the [company], with a strong background in robotics, computer vision, and programming, I am eager to deepen my expertise in generative AI methods and contribute to the collaborative environment of this prestigious program.
+My academic and project experiences have equipped me with a solid foundation in machine learning and robotics, which aligns closely with SMILES-2025’s focus on advanced AI techniques. At [company], I am building on my Bachelor’s degree in Mechatronics and Robotics from [university], where I developed proficiency in modeling, programming, and simulation. My recent projects, such as developing a computer vision system for industrial robot pick-and-place operations using ArUco markers and point clouds, and designing systems with dynamic control, demonstrate my ability to apply machine learning and AI to real-world challenges. These experiences have sparked my interest in multimodal methods and self-supervised learning, both key topics of SMILES-2025.
+Participating in SMILES-2025 would be a transformative opportunity to advance my skills in generative models and large language models, particularly in the context of human-robot interaction—an area I am passionate about. I am excited to engage in hands-on workshops and hackathons, where I can collaborate with international peers to tackle industry-relevant problems.
+I am particularly drawn to SMILES-2025’s emphasis on fostering global collaboration and knowledge exchange. As a [nationality] student studying in [location], I have navigated diverse academic and cultural settings, which has strengthened my adaptability and teamwork skills. I am eager to contribute my unique perspective and technical expertise to the program while learning from leading experts and peers from [location], [location], and beyond.
+SMILES-2025 represents a critical step toward my goal of developing AI-driven solutions for collaborative robots that seamlessly integrate into industrial and human-centric environments. I am confident that the program’s lectures, seminars, and project work will enhance my technical capabilities and inspire innovative approaches to my ongoing and future projects.
+Thank you for considering my application. I am thrilled at the prospect of contributing to and learning from the SMILES-2025 community.
+Sincerely,
+[name]

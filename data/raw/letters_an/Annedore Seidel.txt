@@ -1,0 +1,24 @@
+How I Got Into Programming and Why I Chose Analytics
+Like most of my peers, my journey into programming began with preparing for the Unified State
+Exam (EGE) in computer science. I started learning Python because it was the simplest language
+for the exam, and along the way, I grew fond of it. Python captivated me with its simplicity, yet
+incredible potential, which I wanted to harness :)
+After passing the exam, I became curious about where Python is used (I didn’t want to part with
+it) and discovered the field of analytics, where about 90% of the work is done in Python.
+I didn’t participate in programming competitions, but to improve my skills, I enrolled in School
+21 — a development project by [compaany]. Somewhere online, I read that they had an "ML"
+(machine leaning) track, and I decided that was exactly what I needed.
+For me, digging into data and finding patterns is fascinating (I’ve always been good at it), and
+it’s amazing that you can train models to help you make predictions. It feels almost "magical" to
+be able to predict, for example, the price of a car based on just a few thousand numbers.
+At universiity, I encountered assignments in C++, but it wasn’t quite what I wanted to focus on.
+However, I do know the C language well, as I studied it extensively at School 21.
+That’s how I started learning Python for data analytics through books, video tutorials, and at
+School 21.
+Why I Decided to Apply to This School
+I understand that my knowledge in this field is still limited, but I am eager to gain experience and
+improve myself, steadily moving towards my goal — landing my first full-time job.
+I chose this schoo lbecause I see great potential in it and believe that it can teach me a lot.
+
+
+

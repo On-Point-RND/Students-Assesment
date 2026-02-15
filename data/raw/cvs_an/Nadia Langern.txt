@@ -1,0 +1,65 @@
+[name]
+Machine learning programmer
++2 *** *** *** [email]
+EDUCATION WORK
+Applied Mathematics and Physics, 09/2021 - Present Team member of [name]
+Department of Electronic and Photon Physics [location] Institute of Physics and Technology,
+Department of discrete mathematics
+[location] Institute of Physics and Technology
+02/2024 – Present
+• In-depth study of mathematics, including linear algebra, We develop several ML and DS courses at [compaany], one of them I took at 02/23-12/23 and
+• Learning programming languages Python, C, C++, computer modeling, then joined the team
+computational mathematics
+• Creating learning materials. I sometimes
+• Study of theoretical and applied physics and chemistry, including lab work design homework and seminar
+Average grade 8.07/10.0 assignments for students
+• Seminar Assistant. I help students understand lecture materials and write
+code
+Oxford Machine Learning Summer SchooL 07/2024 understand lecture materials and write
+code
+Oxford university, online
+• I check seminar notebooks and homework
+assignments.
+• Representation learning & Generative AI
+Technician at the Research
+[compaany]
+Machine learning and data analysis course
+02.2023-12.2023
+[location] Institute of Molecular
+Electronics.
+• Additional one-year course from the Department of Applied Mathematics Advanced Research Department of the
+and Computer Science Research Institute of Molecular Electronics
+09/2024 – Present
+• In-depth study of mathematical statistics, including constructing confidence intervals,
+conducting A/B tests, t-test, MDE and stratification • I'm doing research for my graduaate thesis
+• Studying the mathematical foundations of machine learning models and their • I have written a universal and stable
+implementation in Python, applying them to classification and regression problems on algorithm for detection of R peaks for the
+tabular data, time series, solving computer vision problems on data from physics, cardiosensor «Bisence» under
+economics and biology development at RIME.
+• Completed this course with honors (10/10 for both semsters)
+SKILLS
+Introduction to Competitive Data Science
+Online course
+CNN · RNN · Transformer · Linear models
+• Create multiple baseline solutions for tabular data processing, NLP, · MLP · Optuna · Boostings · Blending &
+CV tasks for quick start on Kaggle competitions and ML Olympiads Stacking · PyTorch Lightning · Git
+• Advanced Feature Engineering and model tuning techniques
+Python · C · C++
+• Blending and model stacking methods
+• Parsing of external data
+Excel · LaTex · PowerPoint
+• Fundamentals of multi-core model learning
+ACHIEVEMENTS LINKS
+Participan with a report and publication of thesis in [name] · GitHub
+a poster in «Lomonosov 2025» conference
+Telegram: @[name]
+An 8 out of 10 score on the state math exam 2024
+A 7 out of 10 score on the state physics exam 2024 Kaggle: [name]
+Prize-winner of the Olympiad of schoolchildren "Phystech 2021"
+in Physics VOLUNTEERING
+Confirmation code 234 6805-59792, [compaany], [location]
+Kurchatov School Olympiad
+At 2024 I ran 3 half marathons, 1 marathon and
+Kurchatov Institute, 2022
+2 ultramarathons (52 km and 60 km)
+Assistance in organizing the Olympiad

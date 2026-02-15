@@ -1,0 +1,12 @@
+Protein protein docking
+
+[name] is my love
+
+So we have protein. But there is something better, or more precisely 2 proteins!
+
+Machine learning models require numerical features as input, so the first step of all these methods involves convertiing the features into a format that can be processeed by the machine learning model. The features include the physicochemical properties of each protein and the topological properties
+
+Why is it necessary to imagine two protein structures when there are single ones?Everything fits into one sentence - The connection of proteins with each other!that is, we can study how proteins will behave in connection with others, from which we can understand and create new drugs!
+
+
+

@@ -1,0 +1,59 @@
+Slide 1
+----------------------------------------
+[name]
+Mathmatics enthusiast
+Received a Bachelor's degree in Applied Mathematics and Informatics with honors
+The winner of the Olympiad “I am a professional” in mathematical modeling
+Earned a black belt in karate
+Participant of the World Youth Festival 2024
+
+Slide 2
+----------------------------------------
+The topic of the thesis: "Investigation of time series of percolation sensor currents under conditions of potentiostatic chronoaamprometry of liquid media. "
+Work purpose:
+To test the possibility of analyzing the reaction-diffusion equations using the Takens theory.
+Develop Python code to analyze time series obtained by measuring dynamic system data
+Identify the key factors qualitatively influencing the process.
+
+My Bachelor thesis
+
+Slide 3
+----------------------------------------
+
+Slide 4
+----------------------------------------
+Other projects and achievements
+
+Fluid Storage Control using PID Controller
+Investigated control methods for liquid storage optimization.
+
+A project for [compaany] on modeling pressure drop in a pipe for various types of flows
+
+Published six articles, with one more in progress (articles of the RSCI)
+Have an internship at [compaany] in the Hydrodynamics Department. I wrote a script in python and for internal software, which, based on the results of oil production, restored the soil porosity field.
+Made an Invariant Embedding Method project for solving nonlinear equations.
+
+Participant of the final stage of the Higher League Olympiad in the fields of applied mathematics and informatics, applied mathematics and mathematics
+Participant of the 7th International Conference on Nonlinear Analysis and Extremal Problems (2022) with the talk “Fluid Storage Control with a PID solver”
+
+
+
+Slide 5
+----------------------------------------
+Skills & Expertise
+
+Future Plans
+Continue research in the analysis of time series and complex multidimensional systems using neural networks.
+Study various fields of science: Natural Language Processing courses, Blockchain courses, Models of Sequential Data, Deep Learning and Machine Learning.
+Collaborate with [compaany] labs.
+
+Slide 6
+----------------------------------------
+Bibliography
+
+[name], [name], [name], [name], [name]. Schrödinger Equation and Conservation Laws. In: Ufa Autumn Mathematical School - 2023. Proceedings of the International Scientific Conference. In 2 volumes. Ufa, 2023. Pp. 249-251.
+[name], [name], [name], [name], [name]. Conservation Laws for Nonlinear Schrödinger Equation. Bulletin of Bashkir University. 2023. Vol. 28. No. 1. Pp. 15-21. (3 citations)
+[name], [name]. Liquid Storage Control Using PID Regulator. In: Proceedings of the 7th International Conference on Nonlinear Analysis and Extremal Problems (NLA-2022). Conference Proceedings. Irkutsk, 2022. Pp. 110-111.
+[name], [name], [name]. Conservation Laws for a System of Two Special-Type Evolutionary Equations. In: Fundamental Mathematics and Its Applications in Natural Sciences: Companion to the International Conference "Ufa Autumn Mathematical School-2022". Abstracts of the XIII International School-Conference for Students, Postgraduates and Young Scientists. Ed. L. Gabdrakhmanova. Ufa, 2022. P. 8. (2 citations)
+[name], [name], [name]. Comparison of Relative Errors in Numerical Methods for Solving Boundary Value Problems. In: 90 Years of UGATU in Service of Science, Education and Business. Proceedings of the All-Russian Scientific-Practical Conference. Ufa, 2022. Pp. 92-93.
+[name], [name], [name]. Characteristic Lie Ring of the Equation UY = UX + F(U). In: Mavlyutov Readings. Proceedings of the XVI All-Russian Youth Scientific Conference. In 6 volumes. Ufa, 2022. Pp. 1203-1213.

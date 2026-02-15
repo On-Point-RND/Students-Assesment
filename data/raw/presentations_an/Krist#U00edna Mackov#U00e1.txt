@@ -1,0 +1,37 @@
+Pattterns detection in time
+series using Clusterization
+General Problem
+Goaal: Find common patterns via clustering methods
+Problem is motivated by [name].
+Data preprocessing
+● Data are collected during one particular event
+● Data are obtained with random time steps
+● The frequency of data collection indicates some similarity/difference in patterns
+To overcome irregular time grid, we use following:
+1) Divide data with chosen window_size;
+one data in window_size - one sample
+2) Use linear interpolation with chosen time_step
+to get uniform grid
+3) To analyse a few performaance features,
+4) apply MinMaxScaler
+DataSet have more than 100000 samples
+Raw number of features: 400
+Feature engineering
+● The frequency of data collection reflects how often context switch happens — we
+want to save this info in our model — domain-aware feature extraction
+● However, applying linear interpolation reduces this info from raw data
+● The main focus of clusterization stage — separate samples based on its dynamics
+● Popular dimensionality reduction or signal processing methods on raw interpolated
+data do not allow to achieve goal with suitable samples separation — no frequency
+of events are used and too much feature-to-feature comparisons blurrs difference
+between semi-constant patterns and dynamics one.
+● Our main focus to analyze dynamics — need to overcome time shift problems
+Feature engineering — my contribution
+Construct feature space:
+● use diffs of 1st order and sort them;
+● use diffs of 2st order and sort them.
+Result:
+● Models are aware of dynamica
+● Models are aware of frequency of events
+● Models clusterize samples based on common patterns — no time shifts
+problem

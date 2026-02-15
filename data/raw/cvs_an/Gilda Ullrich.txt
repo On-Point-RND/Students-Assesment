@@ -1,0 +1,51 @@
+[name] [surname]
++2 *** *** *** # [email]
+Education
+[compaany] 2020 – 2026
+Faculty of Bioengineering and Bioinformatics (specialist)
+Relevant courses: Calculus, Linear Algebra, Probability Theory, Statistics, Algorithms and Data Structures, Python
+Programming, Machine Learning.
+Skills
+Languages: Python, R.
+Technologies and libraries: Python data science stack (Numpy, pandas, matplotlib, seaborn), ML&DL (PyTorch,
+scikit-learn, Catboost, XGBoost, Transformeers, Optuna, NLTK, SHAP), Linux, Git, SQL.
+General skills: scientific papers reading and writing, oral presentations, programming teaching, self-education.
+Research experience
+Data analysis in bioinformatics lab at [compaany] 2021 – Present
+• Comparative analysis of data on molecular interactions in cell nucleus. Analysis of high throughput sequencing
+data with Python data science libraries and command line tools.
+• Mentoring of a students project: I formulated an introduction project for a new student in a lab and helped
+him to learn important technologies for research in lab‘s theme.
+• Modeling of the noise in RNA-DNA interactions data using ML methods to improve background contacts level
+estimation (in progress).
+Papers
+• A Joint Analysis of RNA-DNA and DNA-DNA Interactomes Reveals Thei Their Strong Association.
+[name] [surname], [surname], [surname], [surname]. Published in 2025 in the ”International Journal of
+Molecular Sciences” (Q1, IF: 4.9)
+Oral and poster presentations at conferences
+• Poster presentations at the ”[compaany]” conference of [compaany] (2022, 2023).
+• Poster presentations at the ”Information Technologies and Systems” conference of [compaany] for
+Information Transmission Problems (2022, 2023).
+• Oral presentation at the ”Moscow Conferece on Computational Molecular Biology” (2023).
+Teaching experience
+Assistance and teaching informatics seminars 2024 - Present
+• Theoretical and practical seminars on Algorithms and Data Structures and Python programming courses.
+Assistance at several practical seminars.
+• Assistance at the practical class in Machine Learning course.
+Courses
+T-Education Machine Learning course 2022
+I learneed machine learning fundamentals, classic algorithm and applied them doing practical homeworks.
+T-Education Deep Learning 2022-2023
+I learneed neural network fundamentals, CV and NLP methods, metric learning, knowlage distillation and NNs
+interpretability.
+I completed practical tasks on these topics and course laboratory work. I applied convolutional recurrent neural network
+architecture to number plate recognition. My approaach got the fourth highest score in the ranking.
+T-Education Advanced Deep Learning course 2023
+I learneed about semantic segmentation, object detection, GANs, diffusion models, large languaage models and RL
+methods.
+Yandex training: Machine Learning 2023
+I repeated classic ML algorithm, and implemented them doing homeworks.
+SMILES ML schoo by [compaany] (online) 2024
+I learnt about the current state of SSL, multimodal approahes, diffusion, RAG, efficiency and other areas of ML
+research. I participated in the project on self-supervised learning on event sequence bank data. We applied several
+multimodal SSL approahes and showed quality improvements compared to most baselines.

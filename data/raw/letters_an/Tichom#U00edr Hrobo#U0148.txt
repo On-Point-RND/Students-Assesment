@@ -1,0 +1,11 @@
+Dear Members of the Selection Committee,
+I am excited to apply for the Skoltech Summer School of Machine Learning (SMILES-2025). I am currently pursuing my MS in Data Science at [location], and my academic journey has been driven by my deep interest in mathematics and its real-world applications, especially in the field of artificial intelligence (AI).
+During my BS in Mathematics, I developed a strong foundation in problem-solving, which naturally led me to explore machine learning (ML), deep learning (DL), and large language models (LLMs). The mathematical concepts behind generative models and transformer architectures fascinated me, and I have been eager to explore how these theories come to life in real-world AI applications.
+My recent work in multilingual emotion detection and my experience with implementing LLMs has only deepened my passion for AI. Through these projects, I’ve seen how theory translates into impactful solutions, and I’m now eager to learn more about the practical aspects of generative AI, multimodal methods, and Agentic AI.
+The SMILES-2025 program offers the ideal environment to expand my knowledge in these areas. I am excited about the opportunity to learn from leading experts, collaborate with peers, and apply my mathematical background to real-world challenges in AI.
+Thank you for considering my application. I am eager to contribute to and learn from the SMILES-2025 community, and I believe this experience will help me advance my career in AI.
+Sincerely,
+[name]
+MS Data Science Student
+[location]
+[email]

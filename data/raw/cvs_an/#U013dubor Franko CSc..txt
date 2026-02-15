@@ -1,0 +1,63 @@
+[name] [surname]
+[location]
+23 years old, Male +2 *** *** ***
+[email] @[compaany].ru @[compaany]
+[location]
+Lomonosov [location] State [university] Aug. 2019 – Jun. 2023
+Bachelor of Science in Computational Mathematics and Cybernetics [location]
+Relevant Coursework: Data Analysis, Game Theory, Econometrics: “Luxury Goods Market Research During the Crisis”
+•
+Relevant Graduate Work: Data Analysis, Machine Learning, Discrete Math: “Staff Outflow Research”
+•
+Developed ML model which predict employee’s outflow and define reasons of the future firing
+[compaany] Jul. 2022 – Mar. 2023
+Profile: stepik.org/users/439595076 Remote
+Probability theory: Certificate with distinction (top 2.5% of course)
+•
+Discrete stochastic processes: Certificate with distinction (top 0.5% of course)
+•
+[compaany] Sep. 2023 – Present
+Joint Master Program: Data Science and Math of Machine Learning [location]
+Current Research: LLM, Uncertainty Estimation, Statistics, QA in LLM, Fine-Tuning, NLP
+•
+Awards: Conference AINL Best Paper Award with paper arxiv.org/abs/2503.01688 as first author
+•
+[compaany] Sep. 2023 – Present
+Joint Program: Data Science + Economic and Data Science (NLP, DeepCVG, RL, RecSys, Speech, Algo-2, MultiModal) [location]
+[compaany] May. 2024 – April. 2025
+Middle Machine Learning Engineer & LLM Researcher| Git, Postgres, Python, Hadoop, Cloud, HuggingFace [location]
+Collected datasets for the SFT part of LLM pipeline which increase GigaChat rating on LLM Arena in 2 times
+•
+Created multi-agent data generation pipeline for QA, Captioning and Long-Summarization problems for the GigaChat SFT
+•
+Provided and researched Audio Benchmarks for the GigaChat evaluation via auto-metrics and LLM-eval
+•
+Tinkoff Bank, Tinkoff Quality Management Team (TQM) Jul. 2022 – Mar. 2023
+Junior Product Analyst in AI center| SQL, Postgres, Python, Hadoop, Jupyter Notebook, Tableau, GitLab [location]
+Calculated the main product metrics and implemented monitoring of all ML models in the TQM team
+•
+Discovered and eliminated vulnerability in the auto-evaluation model, which made it possible to evaluate 1.6 times fewer
+•
+Successfully simulated A/B tests to check the quality of staff outflow and objection classification models
+•
+Department of Mathematical Cybernetics Laboratory Sep. 2021 – Dec. 2021
+Intern Developer | C++, Git, GitLab [location]
+Developed the contact circuit class structure for library of [university] Math Cybernetics labo laboratory
+•
+Developed the DFS-based algorithm for contact circuit conduction verification
+•
+Honors & Awards
+All-Russian Mathematics Olympia (Заключительный этап Всерос) Apr. 2019
+[location] Team [location]
+Took 81 place of more than 500k participants
+•
+[university] Olympia “Higher League”, Applied Mathematics and Informatics Mar. 2023
+Diplomas of the second and third degree in the tracks “Data Analytics and AI” and “Financial Technologies”
+•
+Grants Dec. 2020
+Received a grant for a special abilities and high achievements in math from the Ministry of Education of [location]
+•
+Skills
+Programming Languages: Python with libs (numpy, pandas, Django, etc), SQL, Postgres, C++, C, Assembly
+Developer Tools: Git, GitHub, VS Code, Pycharm, CLion, Google Collab, Jupyter Notebook, Hadoop, Cloud, HuggingFace
+Language skills: RU – Native, ENG – C1, Main soft skills: Communicative, Teamwork, Adaptability

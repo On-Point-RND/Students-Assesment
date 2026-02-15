@@ -1,0 +1,39 @@
+Maниfold regularization task to
+improve recommender system
+quality
+[name] [surname]
+Machine Learning Engineer, [compaany]
+Introduction
+Recommender systems play a key role in enhancing user experience, but they face several
+challenges:
+Data sparsity
+Complex structures
+Introduction
+Recommender systems play a key role in enhancing user experience, but they face several
+challenges:
+Data sparsity
+Complex structures
+Less is more
+Solution
+≈
+Shifting the focus from complex neural network architectures to
+data-driven perspectives
+Methods
+⟶
+Results
+The results of averaged 5 runs
+show that Euclidean
+regularization shows the worst
+results, while regularization
+with the metric on the Poincaré
+disk performs about the same
+as the baseline, losing to
+embeddings based on
+hyperbolic distances from the
+geopt library.
+Future research should focus
+on refining hyperbolic
+parameter tuning to ensure the
+expected benefiits of hyperbolic
+geometry in recommendation
+systems

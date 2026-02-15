@@ -1,0 +1,49 @@
+Full Name: [name] [surname]
+Phone Number: +2 *** *** ***
+Email: [email]
+Location: [location]
+About me:
+I am a first-year student at [compaany], Faculty of Automation and Computer Engineering (AVTF),
+majoring in Control in Technical Systems.
+From the very beginning of my studies, I’ve been deeply interested in the practical application of
+artificial intelligence, particularly in the areas of neural networks, predictive analytics, and
+intelligent control systems.
+I constantly strive to deepen my knowledge beyond the university curriculum — I study
+advanced materials on machine learning, take online courses, and implement what I learn in real-
+world projects. I strongly believe in continuous self-development and see education as a
+powerful tool to shape the future.
+Currently, I am working on a startup that focuses on forecasting demand for specific goods using
+machine learning. Together with my teammate, we have already developed the core concept of
+our product and are now building a working prototype.
+Additionally, I am involved in a separate project focused on predicting cryptocurrency prices
+using time series analysis and neural networks.
+I am highly motivated to grow in this field, and I am confident in my potential. I am ready to
+dedicate time and energy to learning, building projects, and contributing to cutting-edge
+developments in AI and control systems.
+Experience:
+ Co-founder of a startup aimed at developing a demand forecasting product using
+machine learning and data analysis techniques.
+ Developer of a predictive system for cryptocurrency price forecasting using time series
+data and deep learning models.
+ Independent study and application of neural networks, machine learning algorithms,
+and data preprocessing methods in practical tasks.
+ Participation in various collaborative projects with peers focused on intelligent systems and automation.
+Education:
+ Full secondary education
+ Currently pursuing a Bachelor's Degree in Control in Technical Systems, 1st year, [compaany], Faculty of Automation and Computer Engineering
+Skills:
+Hard Skills:
+ Python (NumPy, Pandas, Scikit-learn, XGBoost, TensorFlow, PyTorch)
+ Time Series Analysis, Forecasting Models, Data Visualization
+ C, C++, C#, HTML, SQL
+ Feature Engineering, Hyperparameter Tuning, Model Evaluation
+ Git, basic understanding of system design
+Soft Skills:
+ Responsible and highly self-motivated
+ Analytical thinker with a strong interest in solving real-world problems
+ Fast learner with the ability to adapt quickly to new technologies
+ Strong communication skills, able to work well both independently and in a team
+ Passionate about innovation and always eager to learn something new
+Languages:
+ Russian (Native)
+ English (Intermediate)

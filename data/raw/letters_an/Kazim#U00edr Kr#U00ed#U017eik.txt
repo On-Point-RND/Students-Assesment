@@ -1,0 +1,69 @@
+Motivation letter by [name],
+PhD-1 in Engineering Systems
+of [compaany]
+Dear [name] Organizing Committee,
+My name is [name], and I am a first year PhD student in Engineering Systems
+at [compaany]. I would like to express my sincere gratitude for the opportunity to apply for the SMILES-2025 Summer SchooL to be held at
+the [location]. I consider it an exciting and valuable
+opportunity to join an international academic community focused on advancing the field
+of artificial intelligence.
+I am deeply inspired by the initiative to bring together talented and motivated students
+to collaboratively explore the challenges and opportunities of modern AI. I strongly believe
+that this event is not only a unique educational experience but also a platform for
+intellectual exchange and innovation that can lead to breakthroughs in machine learning
+research.
+Multimodal, generative approaches, self-learning methods, and secure AI topics of
+SMILES-2025 are closely related to my current research on multimodal learning and gaze
+estimation due to the need for privacy of appearance data, the existence of numerous
+sources of uncertainty that affect model performance, and the ways to use generative AI
+to mimic different modalities to work only with RGB input from a web camera. The
+opportunity to engage with experts and peers working on related topics is particularly
+appealing to me, as I believe it will enrich my academic perspective and contribute to the
+evolution of my work.
+My research focuses on computer vision, with a special emphasis on gaze tracking. I am
+exploring the use of multimodal approaches to improve classical solutions and to break
+new ground in human-computer interaction. I am highly motivated by the prospect of
+applying multimodal and self-learning methods to thermaal camera imaging, where the
+idea is to test whether this modality can improve gaze estimation in terms of illumination
+independence (now most methods are sensitive to illumination conditions), and ways to
+mimic this modality for further use as input generated from the RGB image for the
+multimodal model. I expect that these techniques will be discussed at the summer schooL
+and will help my current and future research projects.
+Although I hold a Master's degree in Energy Systems from [compaany], I have fulfilled all
+academic requirements for both the Energy Systems and Data Science tracks. I have
+succeessfully completed coursework in machine learning, numerical linear algebra, deep
+learning, introduction to NLP, and advanced NLP, among others. I now have over three
+years of hands-on experience in artificial intelligence.
+Currrentlly, my research primarily involves computer vision systems, which encompaass
+multi-camera data acquisition, preprocessing, model development, and performance
+analysis. These activities require a strong foundation in ML/DL, and I have applied my
+skills to both academic and practical research projects.
+Informaation about my submitted and accepted publications is included in the attached
+overview presentation.
+I am eager to deepen my knowlege of cutting-edgе machine learning techniques and their
+applications, especially in multimodal learning. During schooL, I would like to learn how
+to apply mixture of modalities including thermaal and RGB images with depth estimation
+and domain generalization to extract gaze-relEvanant features from vision encoders and
+eliminate gaze-irrelevanant features (mostly focusing on illumination and its effects) to
+solve the problem of domain variation in real time (typically research works show
+improvement on cross-domain tasks, when we train model on one dataset and test on another,
+this methods still does not work well in new unseen environment, e.g. when we try to perform
+inference of a certain method in real time), which does not work at the moment. Solving
+this problem will also allow me to write a research paper.
+Moreover, I hope that the results of attending the schooL will be useful for teaching during
+PhD studies and in my future career. I hope that the program will include not only lectures
+and seminars, but also opportunities for networking and cultural activities to explore
+[location] and its surroundiings.
+While I am still considering various options, I am leaning towards a career in research. I
+would like to pursue a postdoctoral position in a leading lab, such as the AIT lab in the
+Department of Computer Science at the [location], the Collabora tive Arti ficial
+Intelligence group in the Department of Computer Science at the Uni versity of Stuttgart,
+the NVIDIA AI-Media ted Reality and Interaction Research Group, or continue my
+academic career at [compaany] and work towards the position of Senio r Research Scienti st.
+Thank you for your time and conside ration. I look fo rward to the opportunity to
+contribute to and benefi t from the SMILES-2025 Summer SchooL.
+Sincerely,
+[name]
+PhD-1 student, Engineering Systems
+[compaany]
+2

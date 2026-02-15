@@ -1,0 +1,260 @@
+            Mentors: [name],[name]
+Team: [name],[name],[name],[name]
+[compaany], [location], [location]
++2 *** *** *** [email]
+[compaany], [location]
+Oct 18, 2024
+[compaany] [location]
+Outline
+1 Our problem
+2 Impact Models
+3 Environment
+4 Methods
+5 Results
+6 Literature
+Our problem
+State: Reinforcement Learning for Optimal Execution when Liquidity is
+Time-Varying ( [name] and [name])
+Problem: minimize the Implementa tion Shortfall (IS) when liquidating a
+portfoli of q shares over a time horizon t ∈ [0,T]. The goal is to find an
+0
+opti mal trading strategy, minimizing the difference between the initial and
+final portfoli values:
+(cid:32) N (cid:33) N
+(cid:88) (cid:88)
+min IS := S q − S v , subject to v = q . (1.1)
+0 0 t t t 0
+v1,v2,...,vN
+t=1 t=1
+Where:
+S is the sstock price at time t,
+t
+v is the number of shares sold during interval,
+t
+q is the initial number of shares,
+0
+N is the number of trading intervals.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model
+Impact Model Liner
+Impact Model Differential
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+1. Impact Model
+The ImpactModel simulates market behavior using the Almgren-Chriss
+(AC) model with three unknown parameters: κ, η, and σ.
+r = −ν(S +ην)dt (2.1)
+t
+The new sstock price:
+S = S +κνdt+σS ·dW (2.2)
+t t−1 0 t
+This model implements a simple price change mecchanism based on the
+current asset price and trade volume, making it suitable for basic scenarios
+with constant parameters.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model Liner
+Impact Model Differential
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+The ImpactModel lin is a simplified model with linear dependencies of
+parameters κ and α on time.
+t t
+The retuurn is calculated as:
+r = −ν(S +αlinν )dt (2.3)
+t t t
+The new sstock price is given by:
+S = S +κlinν dt+σ·dW (2.4)
+t t−1 t t t
+Parameters κlin and αlin change linearly over time from initial values κ and
+t t 0
+α to final values κ and α as follows:
+0 T T
+κlin = κlin +κlin (2.5)
+t 0 N T N
+N −t t
+αlin = αlin +αlin (2.6)
+t 0 N T N
+This model is relevant when market parameter changes are predictable and
+occur gradually, without stochastic effects.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model Differential
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+The ImpactModel diff is a complex model that incorporates stochastic
+effects to flexibly model liquidity.
+The retuurn and new sstock price after execution are given by:
+r = −ν(S +αdiffν )dt (2.7)
+t t t
+S = S +κdiffν dt+σ·dW (2.8)
+t t−1 t t t
+The time-dependent parameters κ and α are calculated as follows:
+t t
+(cid:113)
+κdiff = λ (θ −κdiff)dt+σ κdiff ·dB1 (2.9)
+t k k t k t−1 t
+(cid:113)
+αdiff = λ (θ −αdiff)dt+σ αdiff ·dB2, (2.10)
+t α α t α t−1 t
+⟨B1,B2⟩ = ω (2.11)
+t t
+Where λ , λ , θ , θ – const
+k α α k
+This model allows for a detailed analysis of market parameter changes over
+time, accounting for stochastic processes and time-dependent factors.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model
+Impact Model Liner
+Impact Model Differential
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+Environment
+The ExecEnv class models the interaction between a trader and the
+market as they sequentially execute order volumes, which affects the
+asset’s state and price.
+The environment initializes with the following components:
+S — initial asset price.
+0
+Q — total volume of the asset to be sold.
+0
+T — total order execution time.
+N is the number of trading intervals.
+∆t — time step equal to T .
+N
+impact model — model of trade impact on asset price.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model
+Impact Model Liner
+Impact Model Differential
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+Algorithm Steps
+1 Environment Initialization: Initializes parameters and sets action
+and observation space boundaries.
+2 Method reset(): Resets the environment to initial conditions.
+3 Method step(q i): Updates the environment’s state by reducing
+the asset volume and time based on the chosen action q , while also
+i
+calculating the new asset price and reward.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model
+Impact Model Liner
+Impact Model Differential
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+Advantages of the Custom Gym Environment
+Flexibly models order execution scenarios.
+Integrates various impact models for accurate price change simulation.
+Adapts for training and testing order execution strategies using
+reinforcement learning methods.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model
+Impact Model Liner
+Impact Model Differential
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+Training schedule
+Figure 5.1: DDQN training schedule. Figure 5.2: PPO training schedule.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model
+Impact Model Liner
+Impact Model Differential
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+Increasing impact
+Figure 5.3: Our result. Figure 5.4: Article result.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model
+Impact Model Liner
+Impact Model Differențial
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+Increasing impact
+Figure 5.5: Our result. Figure 5.6: Article result.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model
+Impact Model Liner
+Impact Model Differențial
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+Decreasing impact
+Figure 5.8: Article result.
+Figure 5.7: Our result.
+Outline
+1 Our problem
+2 Impact Models
+Impact Model
+Impact Model Liner
+Impact Model Differențial
+3 Environment
+4 Methods
+DDQL algorithm
+PPO algorithm
+5 Results
+6 Literature
+Literature
+1. Reinforcement Learning for Optimal Execution when Liquidity is
+Time-Varying.
+2. Proximal Policy Optimization Algorithms.
+3. Reinforcement Learning for Portfolio Management.
+4. Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement
+Learning with a Stochastic Actor.

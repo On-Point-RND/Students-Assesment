@@ -1,0 +1,199 @@
+Presented at ICLR 2020 Workshop on Fundamental Science in the era of AI
+DEEPLY UNCERTAIN:
+COMPARING METHODS OF
+UNCERTAINTY QUANTIFICATION
+IN DEEP LEARNING ALGORIHTMS
+By [name], [name]
+1
+Given enough measurements to
+characterize the motion of a pendulum,
+calculate the gravitational acceleration
+g
+Introduction
+2
+Motivation and objectives
+Motivation
+-> Uncertainty quantification (UQ) is crucial for applying deep learning to the physical sciences
+-> Different UQ methods have different conceptualizations and interpretations of uncertainty
+Objectives
+– Compare UQ methods in deep learning for a single pendulum experiment
+– Bridge machine learning and physical sciences with a common language and a simple example.
+– Evaluate DE, BNN, and CD methods and compare them
+– Discuss different types of uncertainty and how they affect data and predictions
+– Highlight pitfalls and challenges of UQ methods and makerecommendaations
+3
+Types of uncertainties
+● In machine learning, uncertainties are classified as aleatoric or epistemic
+a. Aleatoric uncertainty originates from noise or variability in the input data
+b. Epistemic uncertainty reflects the model’s lack of knowledge or confidence in its predictions
+● In physics, uncertainties are classified as statistical or systematic
+a. Statistical uncertainty describes the variation of repeated measurements under the same conditions
+b. Systematic uncertainty describes the deviation of measurements from the true value due to model assumptions,
+calibration errors, etc.
+4
+Experiment setuup
+Inputs: mass m, length L, angle θ, ten independent
+measurements of the period T
+The output is g - gravitational acceleration
+5
+Sources of uncertainty
+Aleatoric statistical uncertainty Aleatoric systematic uncertainty
+adding noise in the 10 measurements of the period, all measurements of L are drawn from a normal
+T -> νT (ν - amount of measurement noise) distribution with standard deviation 0.02L
+Epistemic systematic uncertainty
+model fidelity, test data is far from the training set
+6
+Mathematical formulation of the
+problem
+3 methods of UQ: DE, BNN, CD
+Inputs: mass m, length L, angle θ, ten independent
+Calculate statistical uncertainty:
+measurements of the period T
+- The spread of predictions between
+different models is used as an estimate of
+model-relatated (i.e., epistemic)
+uncertainty
+- Aleatoric uncertainty is related to the
+The output is g - gravitational acceleration amount of observation noise in a given
+region of the input space. The effect of
+The sources of uncertainty is noise
+that noise on the result is estimated by
+in the measurements of T and L fitting both the mean and standard
+deviation of a normal distribution to
+maximize the log likelihood of the data.
+The standard deviation obtained is an
+estimate of aleatoric uncertainty
+7
+Mathematical formulation of the
+problem
+For each model and experiment, then, one will
+obtain N = 10 estimates of the prediction mean
+and aleatoric uncertainty, (µi, σi). Then combiine
+the N estimates as a mixture of Gaussians, and
+obtain
+the following predictions:
+8
+Different UQ methods have different
+conceptualizations and interpretations of
+uncertainty
+Authors compaare three UQ methods: Bayesian
+Neural Networks (BNN), Concrete Dropout (CD),
+and Deep Ensembles (DE)
+METHODS:
+EXPERIMENTAL SETUP AND
+UNCERTAINTY ANALYSIS
+9
+Bayesian Neural Networks
+Key Features
+Primary Usage:
+● weights of each layer form a valid
+probability distribution
+by looking at different outputs
+● training via approxiate Bayesian
+produced when sampling multiple
+infereence on probability distributions
+times from the posterior weight
+● Approximation using the evidence
+distributions
+lower bound (ELBO) and
+Kullback-Leibler (KL) divergence
+10
+DEEP ENSEMBLES
+Key Features
+● a simpler alternative to Bayesian
+methods
+● conceptual simplicity
+● uses baggiing (bootstrap
+aggregating) for additional
+randomness
+11
+CONCRETE DROPOUT
+Key Features
+● form of regularization in neural
+networks
+● omitting a certain percentage of
+neurons at each layer
+● drop of a different set of neurons on
+each pass
+● estimates epistemic uncertainties
+12
+TRAINING
+BNN
+- 200 epochs
+- learning rate 10^-4
+GENERAL SETTINGS
+- fully-connected networks
+CD
+- 3 hidden layers
+- 200 epochs
+- 100 nodes on each hidden layer
+- Adam optimizer with
+- learning rate 10^-3 - 90000 training points
+- TensorFlow 2
+DE
+- 100 minutes - training time
+- 40 epochs
+- Adam optimizer
+- learning rate 10^-3
+13
+RESULTS:
+PERFORMING THE
+EXPERIMENTS AND
+UNCERTAINTY ANALYSIS
++ Link to the notebook
+14
+Aleatoric statistical uncertainty
+Compaison of the relative aleatoric statisical uncertainty in
+g to the relative analytic uncertainty estimate of g for each
+method, with increasing ranges of noise in T
+OUTCOMES
+- for larger values of noise in T (middle), DE and CD
+correlate better with the analytic estimate
+- for much larger values of noise in T (right): all
+methods follow a similar trend to the analytic estimate
+- tendency: after an initial stage of training, models will
+often predict the mean value of the training set
+independentlly of inputs
+15
+Exploring Epistemic
+Uncertainties
+Experiments with test sets far from the training distribution
+Expectaion: the predictions for this uncertainty should
+increase the farther the input data is from the training
+distribution
+OUTCOMES
+- The expected trend is present for both DE and BNN
+to varying degrees
+- CD epistemic uncertainty is very small for a large
+majority of the points in the test sets presented here,
+even with increasing distance from the training distribution
+16
+Exploring Epistemic Uuncertainties
+Testing if the epistemic uncertainties are accuraate as the inputs move far from the training manifold,
+while keeping the outputs inside the training distribution
+General tendency: they all achieve roughly compaable correlations with the analytic uncertainty
+estimates, though the correlation achieved by DE is higher
+17
+Conclusion and takeaaways
+● The authors conclude that UQ is a vital component of deep learning for the physical sciences
+● They find that DE is the best method for UQ in this setuup, as it has the best performaance and simplicity
+● They also find that all methods underestimate the epistemic uncertainties when the test data is far from the
+training distribution
+● For aleatoric uncertainties, all methods perform well if the training set has enough variation in noise
+● They recommend using reliability diagrams and analytic estimates to assess the calibration and accuracy of
+UQ methods
+Now, to the Notebook! Link below:
+https://colab.research.google.com/drive/1O8Mos1lFPtF9Q6s
+l-YAdMannhPHW2b4J?usp=share_link
+18
+MY RESULTS
+19
+MY RESULTS
+20
+MY RESULTS
+21
+Limitations and directions
+22
+Thank you!
+23
+24

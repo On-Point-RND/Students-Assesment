@@ -1,0 +1,40 @@
+NeuroRisk.AI: Predicting Outcomes After Traumatic Brain Injury
+NeuroRisk.AI is a student-led research project focused on predicting the risk of complications and poor outcomes in patients with traumatic brain injury (TBI) using machine learning and medical data analysis. This project combines clinical insight with computational techniques to support better decision-making in acute neurotrauma care.
+Background and Motivation
+Each year, millions suffer from TBI. Outcomes range from full recovery to severe disability or death.
+Clinical decisions in the early hours after injury are crucial and depend on many factors. AI and data science tools can support clinicians by offering risk stratification and outcome prediction models.
+Clinical Relevance
+Traumatic brain injury is a leading cause of long-term disability and mortality worldwide. Developing early prediction tools is essential for triage, ICU planning, and rehabilitation strategy optimization.
+Dataset and Selected Features
+This project uses a synthetic dataset simulating 300 TBI patient records. Selected features include:
+- Glasgow Coma Scale (GCS) on admission
+- Patient age
+- Presence of CT abnormalities
+- ICU stay duration (days)
+The target variable is binary: poor outcome (1 = yes, 0 = no).
+Data Visualization
+Machine Learning Approach
+Logistic regression was chosen for its clinical transparency and simplicity. The model was trained on 80% of the data and tested on the remaining 20%. The features were standardized using a scaler.
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+X = data[['GCS_initial', 'Age', 'CT_abnormality', 'ICU_stay_days']]
+y = data['Outcome_poor']
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2)
+model = LogisticRegression()
+model.fit(X_train, y_train)
+Results and Interpretation
+Initial testing showed promising results in identifying high-risk patients. ROC AUC score was used to evaluate model performance. The model correctly identified patients with poor prognosis with a reasonable balance between sensitivity and specificity.
+Feature Importance
+Logistic regression coefficients revealed that lower GCS scores and presence of CT abnormalities were strongly associated with poor outcomes. Older age and longer ICU stay also had a moderate influence.
+Conclusion and Future Plans
+NeuroRisk.AI illustrates how AI can support medical decisions in real-world scenarios. Future steps include:
+- Validation on real clinical datasets
+- Inclusion of imaging and laboratory data
+- Testing deep learning models
+This is the foundation for a long-term research journey in neuroscience and neurorehabilitation.
+Project Repository
+You can access the full source code, dataset simulation, and instructions for reproduction in the official GitHub repository of this project:
+https://github.com/loteco90657/NeuroRiskAI

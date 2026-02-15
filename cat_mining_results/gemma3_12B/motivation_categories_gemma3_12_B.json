@@ -1,0 +1,182 @@
+{
+  "Proactive Skill Development": {
+    "question": "How comprehensively does the candidate demonstrate proactive efforts to address gaps in their background or skillset, beyond standard coursework, and with verifiable outcomes (e.g., specific courses, rankings, project results)?",
+    "count": 19
+  },
+  "Specificity of Research Interest": {
+    "question": "How precisely and concretely does the candidate articulate their research interests, providing specific examples of problems, techniques, and potential applications, demonstrating a depth of understanding beyond general statements?",
+    "count": 62
+  },
+  "Integration of Theory and Practice": {
+    "question": "How effectively does the candidate connect their practical experience with a desire to deepen their theoretical understanding, and articulate how the program will bridge this gap, rather than simply stating a need for more knowledge?",
+    "count": 9
+  },
+  "Project Depth & Detail": {
+    "question": "How thoroughly does the candidate describe their research projects, including methodologies, results, and challenges encountered?",
+    "count": 165
+  },
+  "Alignment with Program Focus": {
+    "question": "How explicitly and specifically does the candidate connect their existing skills and research interests to the specific topics and techniques covered in the program?",
+    "count": 121
+  },
+  "Proactive Engagement": {
+    "question": "Does the candidate demonstrate a proactive and enthusiastic approach to learning and networking, going beyond simply attending lectures to actively seek out opportunities for interaction and contribution?",
+    "count": 52
+  },
+  "Specificity of Interest": {
+    "question": "Can the candidate articulate specific aspects of the program (e.g., themes, workshops, faculty) that genuinely excite them, beyond generic statements about 'learning' or 'collaboration'?",
+    "count": 84
+  },
+  "Depth of Technical Detail": {
+    "question": "How well does the candidate demonstrate a nuanced understanding of relevant technical areas, providing concrete examples of tools, techniques, and specific models they've explored?",
+    "count": 119
+  },
+  "Specificity of Goals": {
+    "question": "How concretely does the candidate articulate their future aspirations and how they believe the program will directly contribute to achieving them?",
+    "count": 81
+  },
+  "Connection to Mathematics": {
+    "question": "Does the candidate effectively articulate the intersection and synergy between their mathematical background and their interest in machine learning, providing concrete examples of relevant mathematical concepts?",
+    "count": 1
+  },
+  "Evidence of Achievement": {
+    "question": "Does the candidate provide quantifiable achievements (e.g., rankings, awards, specific grades) or concrete examples to support claims of ability and dedication?",
+    "count": 56
+  },
+  "Clarity & Structure": {
+    "question": "How clearly and logically is the motivation presented, with a coherent narrative flow and well-defined reasons for pursuing the program?",
+    "count": 65
+  },
+  "Prior SMILES Engagement": {
+    "question": "Can the candidate demonstrate a history of active participation and successful completion of the SMILES program, including exams and project presentations?",
+    "count": 1
+  },
+  "Demonstrated Practical Application": {
+    "question": "How well does the candidate demonstrate applying their knowledge and skills to a concrete project with tangible goals and stakeholder feedback (e.g., clinicians, users)?",
+    "count": 32
+  },
+  "Professional Presentation": {
+    "question": "How well does the candidate present their experience and skills in a clear, concise, and professional format, utilizing standard conventions like summaries, skills sections, and work experience descriptions?",
+    "count": 6
+  },
+  "Ethical Considerations": {
+    "question": "Does the candidate explicitly address the ethical implications of their work, beyond simply mentioning accuracy, and demonstrate an understanding of the broader societal impact (e.g., 'one-percent miss rate is an ethical problem')?",
+    "count": 1
+  },
+  "Narrative Storytelling": {
+    "question": "How effectively does the candidate use a compelling narrative to introduce their interest in the field and connect their experiences to their aspirations?",
+    "count": 52
+  },
+  "Demonstrated Mentorship": {
+    "question": "Can the candidate clearly articulate the influence of specific mentors and how their guidance shaped their skills and direction?",
+    "count": 3
+  },
+  "Contextualized Motivation": {
+    "question": "How well does the candidate connect their motivation to a specific, existing research or professional context?",
+    "count": 8
+  },
+  "Depth of Research Experience": {
+    "question": "Can the candidate demonstrate a history of independent research projects and publications beyond coursework, showcasing a proactive pursuit of knowledge and contribution to the field?",
+    "count": 41
+  },
+  "Prior Program Engagement": {
+    "question": "Has the candidate previously participated in similar programs, and if so, can they specifically describe what they gained from the experience and how it impacted their subsequent work (e.g., publications, project development)?",
+    "count": 3
+  },
+  "Demonstrated Curiosity": {
+    "question": "Does the candidate express genuine intellectual curiosity and a desire to learn beyond their current skillset, or does the letter primarily focus on showcasing existing accomplishments?",
+    "count": 5
+  },
+  "Problem-Solution Focus": {
+    "question": "Does the candidate clearly define a specific problem they aim to solve and how their proposed approach, leveraging the program's offerings, will contribute to a solution?",
+    "count": 6
+  },
+  "Professional Leadership": {
+    "question": "Can the candidate provide concrete examples of leading projects and teams, detailing their responsibilities and the impact of their contributions?",
+    "count": 3
+  },
+  "Alignment with Program": {
+    "question": "How effectively does the candidate connect their skills, experience, and research interests to the specific focus and opportunities offered by the program?",
+    "count": 3
+  },
+  "Passion Articulation": {
+    "question": "How effectively does the candidate convey genuine passion and motivation for the specific field (medical AI) beyond a general interest in AI?",
+    "count": 4
+  },
+  "Research Context & Awareness": {
+    "question": "Does the candidate demonstrate awareness of the broader research landscape in their field, referencing relevant models, techniques, and recent advancements (e.g., GenCast, ERA5, CMIP6)?",
+    "count": 2
+  },
+  "Demonstrated Adaptability": {
+    "question": "How effectively does the candidate demonstrate adaptability and resilience in the face of changing circumstances or setbacks?",
+    "count": 4
+  },
+  "Focus & Coherence": {
+    "question": "Does the candidate maintain a clear and consistent focus on their primary interests (e.g., machine learning, data science) or does the letter meander across unrelated topics (e.g., Chinese language, volunteer work)?",
+    "count": 1
+  },
+  "Professional Tone & Language": {
+    "question": "Does the candidate maintain a professional and concise tone, avoiding excessive hyperbole or overly enthusiastic language while still conveying genuine interest?",
+    "count": 21
+  },
+  "Self-Awareness & Gap Identification": {
+    "question": "How effectively does the candidate articulate specific knowledge gaps and how does this align with the program's offerings?",
+    "count": 17
+  },
+  "Motivation Depth": {
+    "question": "Does the candidate articulate a nuanced and insightful understanding of their motivations for attending, beyond a general desire for learning?",
+    "count": 3
+  },
+  "Breadth of Experience": {
+    "question": "How well does the candidate demonstrate a diverse background and experience across multiple related fields (e.g., mathematics, statistics, computer science) and how do they connect these experiences to machine learning?",
+    "count": 1
+  },
+  "Demonstrated Cross-Disciplinary Collaboration": {
+    "question": "Does the candidate provide compelling evidence of successful collaboration across different disciplines (e.g., engineering, science, business), highlighting their ability to adapt communication and problem-solving approaches?",
+    "count": 2
+  },
+  "Reflective Insight": {
+    "question": "Does the candidate demonstrate critical reflection on their experiences, identifying both successes and limitations, and articulating how these experiences have shaped their research goals?",
+    "count": 2
+  },
+  "Career Exploration": {
+    "question": "Can the candidate demonstrate a consistent pattern of exploring diverse career paths and extracting valuable skills from each experience, even if those paths ultimately didn't lead to a long-term commitment?",
+    "count": 1
+  },
+  "Clear Value Proposition": {
+    "question": "Does the candidate clearly articulate the value they bring to the program, beyond simply expressing interest, highlighting skills or experiences that would benefit the community?",
+    "count": 2
+  },
+  "Specificity of Research": {
+    "question": "Can the candidate articulate a specific research contribution (e.g., algorithm, benchmark improvement) with quantifiable results?",
+    "count": 4
+  },
+  "Career Transition Justification": {
+    "question": "How convincingly does the candidate explain the rationale behind a career shift, demonstrating both practical motivations (e.g., job market) and genuine intellectual interest in the new field?",
+    "count": 1
+  },
+  "Personal Connection/Uniqueness": {
+    "question": "How effectively does the candidate articulate a unique perspective or personal experience that informs their interest in the program and differentiates them from other applicants?",
+    "count": 1
+  },
+  "Publication Record": {
+    "question": "How comprehensively and demonstrably does the candidate present their research output through a detailed list of publications and conference presentations?",
+    "count": 5
+  },
+  "Clarity of Technical Depth": {
+    "question": "How clearly and concisely does the candidate explain their technical work, demonstrating a nuanced understanding of the underlying concepts without relying on jargon or overly complex phrasing?",
+    "count": 1
+  },
+  "Strategic Vision & Impact": {
+    "question": "How clearly and convincingly does the candidate articulate a long-term vision for applying the program's learnings to achieve significant, measurable impact in their chosen fields (finance, healthcare, venture capital, etc.)?",
+    "count": 1
+  },
+  "Collaboration Focus": {
+    "question": "How effectively does the candidate highlight the value of collaboration and interdisciplinary work in driving innovation and research progress?",
+    "count": 1
+  },
+  "Project-Based Learning": {
+    "question": "Can the candidate provide specific examples of how their project experience has shaped their understanding of AI's practical application and limitations, beyond stating they 'help connect the technical work with user needs'?",
+    "count": 1
+  }
+}

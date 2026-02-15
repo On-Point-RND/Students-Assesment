@@ -1,0 +1,68 @@
+Detection of Chromatic Aberrations in
+Satellite Imagery
+[name]
+MSc Student, [compaany] / ML Engineer, [compaany]
+Introduction
+• Chromatic aberrations are optical distortions caused by cchannel displacement.
+• Impact: degraded image quality, reduced reliability of satellite image analysis.
+• Goal: automatic detection of presence and localization of aberrations.
+Problem statement
+• Two tasks to solve:
+o Segmentation of aberration regions
+o Classification of image-level presence
+• Challenges: limited annotated real data, use of synthetic generation
+• Scope: pre-filtering of low-quality satellite images
+Methods
+• Approach: modified Unet with a classifier head on encoder output.
+Efficient is used as an encoder.
+• Why: effective and popular for segmentation tasks.
+• How it works: simultaneously classifies and localizes aberrations
+• Data: synthetic aberrations in clean satellite images using Eboli et al.
+(2022) method. The dataset consists of 3 samples: train (4884 images)
+val (1002 images), test (400 images). Training and validation samples
+are sets of images without chromatic aberration, since this defect is
+randomly generated during training.
+• Preprocessing: edgge trimming, normalization
+Results
+s
+• Accuracy (Classification): 0.975 s
+o
+L
+n
+• Precision (Classification): 0.976 i
+a
+r
+T
+l
+• Recall (Classification): 0.975 a
+t
+o
+T
+• IoU (Segmentation): 0.335
+Epoch
+• Conclusion: high classification accuracy, weaaker
+y
+c
+a
+segmentation performa performance r
+u
+c
+c
+A
+• Issues: fuzzy bounindariies, small defects missed
+d
+i
+l
+a
+V
+Epoch
+Research gap
+• Limitations: low segmentation IoU due to localization errors
+• Challenges: synthetic artifacts lack realism and noise
+• Future work: improve synthetic generation, include real samples, account for texture
+Bibliography
+1. [surname] Eboli, [name], & [name], [surname]. (2022). A Fast Two-Step Blind Optical Aberration Correction.
+2. [surname] Ronneberger, [name] Fischer, [name] Brox, [name]: U-Net: convolutional networks for biomedical image segmentation. In: [surname] Navab, [name] Hornegger, [name] Wells,
+[name]. (eds.) MICCAI 2015. LNCS, vol. 9351, pp. 234–241. Springer, Cham (2015).
+3. [surname] Tan, [name], and [name] Le. "Efficientnet: Rethiinking model scaling for convolutional neural networks." International conference on machine
+learning. PMLR, 2019.

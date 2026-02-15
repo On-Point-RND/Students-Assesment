@@ -1,0 +1,12 @@
+Motivation Letter
+Candidate:
+[name] [surname]
+I am writing to express my strong interest in applying for the SMILES-2025 Summer School. I currently work as a researcher at [company], where I focus on recommender systems, especially how generative recommenda tion models, which are often inspired by advances in LLM area, can be applied to sequen tial recomme ndations and user modeling, and how multimodal external data could be fused to improve the quality of recomme ndations.
+With a background in data science from [university] and [school], I’ve been actively involved in research and have published on topics like autoregres sive generation for recomme ndations. I’m especially interested in learning more about generative and multimodal AI methods, as they directly relate to my current projects.
+I also look forw ard to conne cting with international researchers, learn from the recognized profesional in the field of AI, and getting practical skills working on a research project. I hope some of my research skills could also be beneficial for the project team, and our research, I want to present, “Autoregres sive Generation Strategies for Top‑K Sequen tial Recomme ndations”, will be an interesting addition to the participants’ poster session.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
+
+
+

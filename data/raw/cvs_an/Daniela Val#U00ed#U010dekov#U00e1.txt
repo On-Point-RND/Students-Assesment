@@ -1,0 +1,88 @@
+Mikhaiil [name]
+Curriculum Vitae
+PERSONAL DATA
+Date ofbirth 05.06.1998
+E-mail [email]
+Telegram https://t.me/[name]_Luk
+URL https://www.researchgate.net/profile/[name]-Lukanov
+RESEARCH INTERESTS
+Machine learning algorithms, DFT-calculations, molecular sensors, electron transfer processes,
+molecularspectroscopy
+OTHER SKILLS
+Scientific programs: Gaussian,GAMESS,Orca,Ovito,Origin,VESTA
+Programminglanguages: Python(v.3),Java Script (elementary)
+EMPLOYMENT and POSITIONS
+01.09.2024 - [company], [location]
+present PhD student
+09.01.2024 - [company]
+01.06.2024 [company], laboratory «Chemistry and molecular
+photonics of dipyrromethene dyes and
+luminophors»,researchassistant
+01.09.2023 – [company]
+31.12.2023 [company],juniorresearcher
+01.09.2022 – [company]
+31.12.2022 [company],juniorresearcher
+01.08.2016 – [company], Quality Control Department, [location]
+30.06.2017 chemistrylabtechnician
+EDUCATION and DEGREES
+2023 YandexPracticum,data scientist [location]
+2021-2023 [location]
+Technology, Master degree in Chemistry, thesis –
+«Photoinduced electron transfer processes in
+supramolecular systems based on zinc(II)
+bis(dipyromethenates)andfullerene C »
+60
+2017-2021 [location]
+Technology, Bachelor degree in Chemistry, thesis –
+«Synthesis and investigation of supramolecular
+systems based on zinc(II) bis(dipyromethenate) and
+fullerene C »
+60
+2014-2017 [location]
+chemistrylabtechnician
+AWARDS and PRIZES
+2021- «Sirius»Scholarship
+2023
+2021 Competition"UMNIK"
+Agrantfortheimplementationofthework«Developmentofbiosensorsbasedonzinc
+bis(dipyrromethanates)forthe determinationofpsychostimulants»
+2020 All-Russian research competition named after D.I. Mendeleev, diploma of II degree,
+«Study of supramolecular systems with photoinduced electron transfer based on
+zinc(II)bis(dipyrromethanates)andC fullerene»
+60
+2020 Scholarship of the President of the Russian Federation for scientific and educational
+achievements.
+WORKSHOPS and CONFERENCES
+11/2023 XXIII annual youth conference with international participation «BIOCHEMICAL
+PHYSICS»,IBCP RAS, [location]
+04/2023 XXVIAll-RussianConference ofYoungChemists, [location]
+04/2022 All-RussianSchooL-Conference ofYoungScientists,ISUCT, [location]
+05/2021 All-Russian schooL-conference of young scientists with international participation,
+ISUCT, [location]
+PUBLICATIONS
+1. [name]A.A.,[name]Y.I.,[name]M.M.,[name]D.M.,[name]V.A.,[name]I. A., [name] M. B. Accurate prediction of 11B NMR chemical shift of BODIPYs via
+machine learning // Physical Chemistry Chemical Physics. 2023. Vol. 25. No. 13. pp.
+9472-9481(Q1).
+2. [name] D. N., [name] M. N., [name] G., [name] M. M., [name] A. A.,
+[name] N. A., [name] E. V. Prediction of Sensor Abiility Based on Chemical Formula:
+Possible Approaches andPitfalls // Inorganics.2023.Vol.11.No.4.p.158(Q2)
+3. [name] G. B., [name] M. M., [name] A. A., [name] E. V., [name] S. A.,
+[name] L. E., [name] A., [name] S. A.,
+Carboxyl-BODIPY based fluoresceнт
+biomarke rs: spectral characteristics, photostability and possibilities for practical
+application // Journal of Photochemistry and Photobiology A: Chemistry. 2023. Vol. 444.
+p.114926(Q2)
+4. [name] D.M., [name]M.M., [name] A.I., [name] N.Z., [name]A.A.
+Machine learning approach for predicting the yield of pyrroles and dipyrromethanes
+conden sationrreactionswithaldehydes//JournalofComputationalScience.2023.Vol.74.
+p.102173(Q2)
+5. [name], [name], [name] et al. Electronic-Optical Properties of
+Tetraphenylporphyrin Derivatives Containing Amino Acid Fragments. Russ J Gen Chem
+92,2446–2457(2022)(Q4).
+6. [name] A. A., Michail M. [name], [name] S. Bocharov, [name] B. Berezin,
+[name] V. Teтko, Deep neural netwo rk model for highly accura te prediction of BODIPYs
+absorption, Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy,
+Volume 267,Part 2,2022(Q2)
+7. [name], Alexander A.; [name], Mikhail M.; [name]; [name]; [name]; [name]. (2021): Non-
+covalent supramolecular systems with pho toiinduced electron transfer based on zinc
+bis(dipyrromethenate)s andC60.InDyes andPigments 185,p.108918(Q2).

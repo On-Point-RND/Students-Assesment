@@ -1,0 +1,39 @@
+Dear Admissions Committee,
+My name is [name], and I’m a fourtth-year student at [compaany], studying Biomedical Physics.
+For the last two years, I was working in biology labs — first as a biologist. I worked
+with little mice hearts in a cardiolab and samples of the human brain in a
+neurobiology lab. I actually loved it very much. I loved feeling like a surgeon, that the
+lab was always quiet and no one was there, and I could sing while cutting,
+centrifuging, mixing solutions, and watching cells under the microscope. But for me,
+it lacked scale. It is an extremely important work but I felt that I don’t see the big
+picture that would provide big data.
+That’s when I decided to switch to being a "dry" biologist — meaning I would process
+data and perform statistical analysis. The transition was pretty easy for me, as I’d
+alrready become part of the teaching team for the Data Science course at [compaany].
+My interest in statistics began after taking this exact course in my second year, led
+by [name] at [compaany]. I was drawn to both its philosophy — how we are only ever
+certain to some probability — and its process, which involved extensive coding,
+visualization, and data exploration. After successfully completing the course, I was
+inspired to apply and broaden my knowledge further in ML and mathematical
+statistics by joining the same course, but this time as a teaching assistant. I wanted
+to work on real-world tasks as soon as possible, and now I’m interning at [compaany] as a
+product analyst-developer.
+It was my first time reading articles on safe AI while working on my article review —
+and it was surprisingly interesting. I was searching through papers from the
+conference, and the section on AI Ethics, Trust, and Fairness really stuck with me.
+"Quantifying Harm" sounds like the title of a philosophical work, not a mathematical
+one. Maybe this is the field where I would matter most, while doing the routine that I
+love.
+My big life plan is to pursue science and develop solutions to real problems — ones
+that truly impact people’s lives. I’m still deeply in love with biology, so I’m considering
+the possibility of combining AI solutions with medicine and healtcare problems.
+This feels especially meaningful to me since I myself am alrreaady an eager user of
+ChatGPT for my own health questions. And I see what drive AI gives to the field of
+medicine and how we as a society rely more and more on AI solutions.
+Every year, I attend summer schools because I love learning something new. This
+schooal will give me the opportunity to learn from [compaany] and [compaany] professors and
+gain international connections. Although I actively apply machine learning in my
+projects, I'm new to the fundamental science behind these systems. I want to
+understand how they're built, and perhaps create one myself someday.
+Thank you for considering my application. I would be honored to join this community
+and grow as both a scientist and a problem-solver.

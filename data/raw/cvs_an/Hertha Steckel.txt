@@ -1,0 +1,60 @@
+[name]
+Contacts
+[name][surname]
+Telegram: @WocherZ
+LLM Researcher Email: [email]
+scientific activity
+I am currently studying for a Master's degree and researching the
+topic of "Automatic creation of multi-agent systems based on LLM".
+The goal of my research is to find ways to automatically create
+agent and multi-agent systems that will provide the highest quality
+in solving industrial and scientific problems.
+The result of the work to date has been the submission of an
+article to the IITI-2025 international conference.
+Professional experience
+R&D engineer (ML & LLM)
+[compaany] - 3 years
+Research on solving the text2sql problem for an assistant inside a
+bank
+Development of a RAG-based assistant for answering internal
+documentation
+Working with LLM, agents, and RAG
+Publishing an article on Habr
+Paper submitted to Coling 2025 conference (unfortunately it was
+rejected)
+Education
+National Research Nuclear University MEPhI
+2020 - 2024 Bachelor's degree
+Applied mathematics and informatics
+2024 - 2026 Master's degree (at the present time)
+Software Engineering
+MAIN Achievements
+AtomSkills winner in the competence ‘Machine Learning and Big
+Data’ (All-Russian competition)
+Winner of the Student Olympiad in “Computer Vision Technologies
+and Digital Services” (2024)
+Teaching EXPERIeNCE
+I teach project practice to junior students. Under my supervision,
+three projects are being carried out on the following topics:
+Multi-agent system for solving machine learning problems
+Generation presentations based on a given context
+Graph RAG
+diploma work bachelor's degree
+The task of the work was to study the methods of constructing SQL
+queries on user questions in Russian. The main difficulty was when
+working with large databases, as a large amount of information
+about the structure of tables and columns prevented the model from
+giving the correct answer.
+The work consists in implementation and testing of methods on own-
+developed benchmarks, which allow to evaluate the quality of
+text2sql in Russian.
+The result was the successful obtaining of a bachelor's degree and
+sending a paper to the B rank conference Coling 2025.
+The research project was also presented at the IT conference DUMP
+EKB 2024.
+(National Research Nuclear University MEPhI)
+skills
+Python, PyTorch, Transformers, Bert
+Fine-tuning NLP models (LoRA, Child-Tuning)
+LangChain, smolagents, autogen
+Vector Databases (qdrant, faiss, weaviate)

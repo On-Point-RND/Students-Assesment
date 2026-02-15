@@ -1,0 +1,13 @@
+[name]
+[location]
+[email]
+April 2025
+Motivation Letter for SMILES-2025
+Dear Members of the Selection Committee,
+I am currently a Junior Research Scientist at [compaany] and a Ph.D. student at [university]. My primary research interests lie in the application of machine learning and deep learning to microelectronics and computer-aided design (CAD). I am also part of a research group focused on neuromorphic computing, where we aim to adapt modern state-of-the-art models to work efficiently on neuromorphic chips.
+I am eager to join SMILES-2025 to deepen my understanding of current AI methodologies, explore new and exciting developments in the field, and connect with like-minded researchers. I see this summer school as an opportunity to grow both professionally and personally, and to discover potential collaborators for future scientific projects.
+In our main research project, we develop machine learning methods to predict key performance metrics of microchips during the early stages of the design process. Microelectronic design is an iterative process—a mistake at any stage may require restarting the entire process over. Predictive models could significantly reduce design time and the number of CAD tool iterations. Many problems in microelectronics are combinatorial and are traditionally solved via exhaustive search within CAD tools. However, there is a wide opportunity here to apply artificial intelligence methods — from standard machine learning techniques like gradient boosting to advanced neural network approaches, including graph neural networks and computer vision algorithms.
+In addition to my research, I regularly present our findings at scientific conferences, where I actively engage with the research community and receive valuable feedback from both academic and industry experts. Several of my papers have been published in conference proceedings and journals, including an international publication indexed in IEEE Xplore. These experiences have not only sharpened my communication skills, but also helped me refine our research based on expert input.
+I would be honored to be considered for participation and, if possible, for in-person attendance. Thank you very much for considering my application.
+Sincerely,
+[name]

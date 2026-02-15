@@ -1,0 +1,120 @@
+Web of Science CV
+Prepared on April 18th 2025
+[name]
+https://www.webofsience.com/wos/author/rid/N-3093-2019
+Web of Science ResearcherID: N-3093-2019
+Current affiiliation:
+- Institute of Applied Physics, [location]
+Publication Metrics
+For manuscripts published from date range January 2011 - April 2025
+10 299
+H-index Sum of Times Cited
+36 30
+Total Publications Web of Science Core Collection Publications
+For all time
+10 299
+H-index Sum of Times Cited
+38 30
+Total Publications Web of Science Core Collection Publications
+Publishing Summary
+For manuscripts published from date range January 2011 - April 2025
+(7) Chaos (4) Physical Review E
+(4) ArXiv (3) Radiophysics and Quantum Elect…
+(3) Izvestiya Vysshikh Uchebnykh Za… (2) Communications in Nonlinear Sc…
+(2) Physics-Uspekhi (2) Chaos, Solitons & Fractals
+(1) The European Physical Journal S… (1) Scientific Reports
+(1) Nonlinear Dynamics (1) AIP Conference Proceedings
+(1) Philosophical Transactions of the… (1) Optics Express
+(1) Frontiers in Computational Neuro…
+Publications
+For manuscripts published from date range January 2011 - April 2025 (32)
+Extending dynamic memory of spiking neuron networks
+Published: May 2024 in Chaos, Solitons & Fractals
+DOI: 10.1016/J.CHAOS.2024.114850
+Topological features of spike trains in recurrent spiking neural networks that are trained to
+generate spatiotemporal patterns
+Published: Feb 2024 in Frontiers in Computational Neuroscience
+DOI: 10.3389/FNCOM.2024.1363514
+Internal dynamics of recurrent neural networks trained to generate complex spatiotemporal
+patterns
+Published: Sep 2023 in Chaos
+DOI: 10.1063/5.0166359
+Multitask computation through dynamics in recurrent spiking neural networks
+Published: Mar 2023 in Scientific Reports
+DOI: 10.1038/S41598-023-31110-Z
+Nonlinear dynamics and machine learning of recurrent spiking neural networks
+Published: Oct 2022 in Physics-Uspekhi
+DOI: 10.3367/UFNE.2021.08.039042
+Disordered quenching in arrays of coupled Bautin oscillators
+Published: Jun 2022 in Chaos
+DOI: 10.1063/5.0093947
+Dynamics of a Recurrent Spiking Neural Network in the Two-Alterna-tive Choice Task
+Published: Mar 2022 in Radiophysics and Quantum Electronics
+DOI: 10.1007/S11141-022-10175-2
+Dynamics of an artificial recurrent neural network for the problem of modeling a cognitive
+function
+Published: 2021 in Izvestiya Vysshikh Uchebnykh Zavedeniy-prikladnaya Nelineynaya Dina-mika
+DOI: 10.18500/0869-6632-2021-29-5-799-811
+Dynamics of spiking map-based neural networks in problems of supervised learning
+Published: Nov 2020 in Communications in Nonlinear Science and Numerical Simulation
+DOI: 10.1016/J.CNSNS.2020.105399
+Stimulus-induced sequential activity in supervisely trained recurrent networks of firing rate
+neurons
+Published: Jul 2020 in Nonlinear Dynamics
+DOI: 10.1007/S11071-020-05787-0
+Dynamics of a network of map-based model neurons for supervised learning of a reservoir
+computing system
+Published: Feb 2020 in Izvestiya Vysshikh Uchebnykh Zavedeniy-prikladnaya Nelineynaya
+Dinami-ka
+DOI: 10.18500/0869-6632-2020-28-1-77-89
+Collective dynamics of rate neurons for supervised learning in a reservoir compu-ting system
+Published: Oct 2019 in Chaos
+DOI: 10.1063/1.5119895
+Effects of structure-dynamics correlation on hierarchical transitions in heterogeneous oscillatory
+networks
+Published: Dec 2018 in The European Physical Journal Special Topics
+DOI: 10.1140/E2018-800071-7
+Hie-rarchical transitions in multiplex adaptive networks of oscillatory units
+Published: Dec 2018 in Chaos
+DOI: 10.1063/1.5077075
+Tran-sient chaos in the Lorenz-type map with periodic forcing
+Published: Mar 2018 in Chaos
+DOI: 10.1063/1.5018265
+Nontilinear dynamical models of neurons: Review
+Published: 2018 in Izvestiya Vysshikh Uchebnykh Zavedeniy-prikladnaya Nelineynaya Dina-mika
+DOI: 10.18500/0869-6632-2018-26-4-5-58
+Third-order-nontilinear effects in single crystals with arbitrary orientation and in ce-ramics
+Published: Nov 2017 in Optics Express
+DOI: 10.1007/978-3-319-10759-2_7
+Modular networks with delayed coupling: Synchroni-zation and frequency control
+Published: Jul 2014 in Physical Review E
+DOI: 10.1103/PHYSREV.90.012901
+Map-Based Approa-ch to Problems of Spiking Neural Net-work Dynamics
+Published: Nov 2013
+DOI: 10.1007/978-3-319-02353-3_5
+Emergence of antiphase bursting in two popu-lations of randomly spiking elements
+Published: Oct 2013 in Physical Review E
+DOI: 10.1103/PHYSREV.88.042907
+Dynamic boun-dary crisis in the Lorenz-type map
+Published: Jun 2013 in Chaos
+DOI: 10.1063/1.4811545
+Discrete model of the olivo-cerebellar system: structure and dynamics
+Published: Aug 2012 in Radiophysics and Quantum Electronics
+DOI: 10.1007/S11141-012-9360-6
+Synchroni-zation in time-discrete model of two electri-cally coupled spike-bursting neurons
+Published: May 2012 in Chaos, Solitons & Fractals
+DOI: 10.1016/J.CHAOS.2011.12.018
+SPIKE-BURST SYNCHRONIZATION IN AN ENSEM-BLE OF ELEC-trically coupled discrete model
+NEURONS
+Published: Jun 2011 in Radiophysics and Quantum Electronics
+DOI: 10.1007/S11141-011-9271-Y
+Verified Reviews
+Reviewer Summary
+For manuscripts reviewe-d from date range January 2011 - April 2025
+(5) Chaos (2) The European Physical Journal S…
+(2) Physical Review E (2) Discrete Dynamics in Nature and…
+(2) Journal of the Royal Society Inter… (1) Brain Sciences
+(1) Russian Journal of Nontilinear Dyn… (1) New Journal of Physics
+
+
+

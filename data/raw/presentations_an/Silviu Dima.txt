@@ -1,0 +1,213 @@
+Student: [name]
+RAG System for
+Research Advisor: [name]
+Mobile Robot
+MSc, Data Science
+Visual Navigation
+January 30, 2025
+Introduction
+Visual Navigation (VisualNav):
+Navigating robots using visual input without relying on pre-built dense
+•
+metric maps.
+Key Areas in VisualNav:
+Vision-and-Language Navigation (VLN)
+•
+ObjectGoal Navigation (ObjectGoal)
+•
+Current Methods:
+Reinforcement Learning
+•
+Imitation Learning
+•
+LLM-based Planning
+•
+Emerging Approach:
+Topological Image Graphs
+•
+Topological graph connects
+images with edges that define
+exact or approximate distances
+Learnable models are used for
+localization and navigation
+Interaction with topological
+graphs is not a well-studied
+problem
+Topological graph example. Image from [1].
+1. [surname] et al. ViNG: Learning Open-World Navigation with Visual Goals, 2020.
+Motivation
+Retrieval-Augmented Generation (RAG): Enhancing reasoning capabilities of LLMs by
+interacting with document databases. We can view graph of images as a database.
+Our Proposal: Combine RAG with visual topological graphs for robot navigation.
+Objective: Enable prompt-based interaction with the topological graph to define
+reasonable goals.
+Project Overview
+1. Data Collection: Video tour of the target environment ([location] campus) and keyframes extraction or environment exploration in
+simulator ([compaany]).
+2. Data Extraction:
+Image Captions: General scene descriptions.
+•
+Scene Graphs: Fine-grained object and segment relationship.
+•
+Detailed Captions: Detailed descriptions of selected segments.
+•
+3. RAG Database Construction: Build a vector database using extracted
+data.
+4. Method evaluation: Qualitative assessment of the goals selected by the
+RAG system
+Data ([location] campus)
+6
+Data ([compaany])
+7
+Data Preparation
+Dataset Description: We have 2 datasets.
+Images captured from [location] campus (65 images after sampling)
+•
+Exploration of [compaany] simulator (125 images).
+•
+Data Processing Steps: We have 2 approaches
+Scene captions + Scene graphs
+Generate captions using image captioning models.
+•
+Create scene graphs using object detection and relationship
+•
+extraction.
+Scene captions + Segment captions
+Also generate image caption
+•
+Select top k image segments and make captions of them
+•
+Methodology
+Scene caption + Scene graph Scene caption + Segments caption
+Scene captions: high-level description Scene captions: high-level description
+of the scene using LLaVA. Captures of the scene using LLaVA. Captures
+general context of the scene. general context of the scene.
+Open-vocabulary object detections: key Details segmentation: Visual
+fine-grained details that can interested segmentation and crop extraction.
+for general purposes. Using Detic Keeping top k elements based on area.
+model
+Object captions: Description of cropped
+Detections graph (spaia] relationships): top k elements
+captures topological structure of the
+scene.
+9
+Methodology (Scene caption + Scene graph)
+10
+Methodology (Scene caption + Segment caption)
+11
+Query and Retrieval
+Vector Database Construction:
+• Use embeddings from HuggingFace's "thenlper/gte-small" model.
+• Build separate FAISS indexes for each context.
+No Chunking Applied: Preserve the full context of each document.
+User Query Example: "I'm looking for a lounge room with a red sofa that is in front of
+a large window. Give me the ID of this image and explain why you chose it."
+Retrieval Process:
+• Embed the user query.
+• Perform similarity search in the vector database.
+• Retrieve top K relevan relevant documents.
+12
+Reader model
+LLM Used: LLaMA-2 7B Chat model.
+Prompt Template:
+• System prompt with instructions.
+• User prompt containing context and question.
+Generation Settinings:
+• No sampling (do_sample=False).
+• Temperature set to 0 for deterministic output.
+Purpose: Generate a coherent and context-aware answer.
+13
+Experimental setuup
+Baseline for Compaison:
+• Sentence Transformeer CLIP Model
+Approaches Tested (Total of 5):
+• General captions Only
+• Scene Graphs Only
+• Combined General captions and Scene Graphs
+• Segment captions
+• Combined General captions and Segment captions
+14
+Evaluation process
+User Prompts:
+• 10 different prompts were designed to test the system.
+• Examples include queries requiring understanding of object
+relationships and context.
+Manual Evaluation:
+• The results were manually evaluaated
+• The limited number of prompts serves as a proof of concept.
+15
+Prompts ([location] campus)
+1.Find me a bottle of water that is right next to the chair.
+2.I'm looking for a photo of a room with several chairs, but no tables.
+3.Find an image of a corridor with a reflective floor.
+4.Please find a photo of a place where two corridors intersect.
+5.Please find an image of a corridor with carpeted flooring.
+6.I'm looking for a lounge room with a red sofa that is in front of a
+large window.
+7.Find a place where there might be an open laptop next to a cup of
+coffee.
+8.I lost my vehicle, which I use to ride in the lab.
+9.Find me an arcade machine.
+10.Show me an image, where I can teach my friend.
+Prompts ([compaany])
+1.Where can I find a place to have a dinner?
+2.Where can I sleep?
+3.​Where can I connect and play my gaming console?
+4.Where can I throw away trash?
+5.Find me a place with two paintings.
+Results ([location] campus)
+Approach Correct results (out
+of 10)
+CLIP (Baseline) 4
+Captions only 3
+Scene Graphs only 3
+Combined Captions + Scene graphs 5
+Detailed captions 3
+Combined Captions + Detailed captions 5
+Perfomance of 10 prompts
+18
+Results ([compaany])
+Approach Correct results (out
+of 5)
+CLIP (Baseline) 3
+Captions only 5
+Scene Graphs only 3
+Combined Captions + Scene graphs 5
+Detailed captions 5
+Combined Captions + Detailed captions 4
+Perfomance of 5 prompts
+19
+Example of output ([location] campus)
+Given prompt: Find me an arcade machine.
+Caption + Scene Graph Caption Scene Graph
+Caption + Detailed caption Detailed Caption CLIP
+20
+Example of output ([compaany])
+Given prompt: Where can I find a place to have a dinner?
+Caption + Scene Graph Caption Scene Graph
+Caption + Detailed caption Detailed Caption CLIP
+21
+Observations
+Captions + Scene Graphs provide the best balance between scene
+understanding and structured object relationships.
+Captions-Only lack spatial information, while Scene Graphs-Onlly
+are not effective for navigation.
+Future improvements include integrating the Chores Bencbenchmark (SPOC)
+for standardized evaluaion and compaison with other methods.
+Last Mile Naviagation will be introduced to enhance object visibility and
+improve retrieval metrics.
+Conclusion
+• The obtained results serve as proof of work in both real-world
+environments and simulations.
+• A key advaantage of our metho is that it does not require sensors for
+constructing dense metric maps.
+• Future improvements include integrating the Chores Bencbenchmark (SPOC)
+for standardized evaluaion and compaison with other methods.
+• Last Mile Naviagation will be introduced to enhance object visibility and
+improve retrieval metrics.
+25
+Acknowledgements
+[name] – Research supervision
+[name] – Idea development, mentoring
+I sincerely apprciate their guidance and support throughout my research.
+26

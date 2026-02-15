@@ -1,0 +1,68 @@
+[name] [surname]
+Email: [email]
+Phone number: +2 *** *** ***
+Telegram: @[name]
+Location: [location]
+Citizenship: [location]
+Relocation: Not ready to relocate | Ready for business trips
+Work Experience:
+1. Full stack Developer (React + Django + Docker Compose) at [compaany]
+(August 2023 - January 2024)
+○ Delivered projects for [compaany], [compaany], the National Football Team,
+and private clients (including developing a web messenger).
+○ Team: 9 designers + 4 developers.
+2. Backend Developer (React, Redux, Tailwind) at [compaany] (January 2024 –
+May 2024)
+○ Developed a design studio + CRM system (direct service link: [link]; portfolio:
+[link]; Behance: [link]; Dribbble: [link]).
+3. Backend Developer at [compaany]’s “Platform V Pangolin SE” Team (May 2024 – August
+2024)
+4. Backend Developer at [compaany] Tech Platform Team (September 2024 – January
+2025)
+○ Developed a web service (Swagger with 100+ backend resources for
+[compaany]).
+○ Contributed to ConfigManager (configurable API endpoints) and CI/CD
+pipelines.
+○ Conducted team demos.
+5. Software developer at [compaany] Team (Search and Advertising Technologies
+Business Group) (January 2025 – Present)
+○ Focus: storage, validation, and runtime monitoring of production models for
+Search and Ads.
+Key skills
+Teamwork, business communication, diligence, punctuality, initiative,
+determination.
+Programming & Tools:
+○ Python (backend, pandas, matplotlib, unittesting, pytest)
+○ Backend: Django, REST API, PostgreSQL
+○ Production: Nginx, Docker, Docker Compose
+○ Ansible, Jenkins
+○ Databases: PostgreSQL, MongoDB, Redis, Red Database
+Management System (RDBMS)
+○ JavaScript (frontend), React, Redux, Tailwind
+○ Figma (created messenger mockups)
+○ C, C++ (algorithms, data structures, OOP)
+About me
+I am [name] [surname], a 4th-year student at [university] (Faculty of Applied
+Mathematics and Informmatics, GPA: 8.57), passionate about building a career in
+IT.IT is a dynamic field where innovation thrives. I aim to develop hard skills and
+grow into a strong team leader, contributing to impactful products and
+company success.At [compaany] (2023–2024), I built a web messenger (fullstack) and
+later focused on frontend components (e.g., search feature). At [compaany] (2024–2025), I designed a Swagger-based web service and CI/CD pipelines
+while engaging in team activities. Currently at [compaany], ensuring reliability of
+production ML models.
+Projects:
+● Actively maintain a self-hosted application used in my projects. Portfolio:
+[link].
+● Detailed programming experience: [link].
+Education:
+● [university], Faculty of Applied
+Mathematics and Informmatics, Department of Business Information
+Technologies (4th year, GPA: 8.57).
+● Completed courses in probability theory and statistics, sparking interest in
+data analytics.
+● Full grades: [link].
+Extracurricular:
+● Competitive swimmer for 10+ years; multiple regional and city
+championship wins. Currently swim at [university].
+My goal is to work in a company fostering creativity and innovation, or build my
+own, where people aspire to contribute.

@@ -1,0 +1,52 @@
+[name] [surname]
++2 *** *** *** | [email] | [location]
+WORK EXPERIENCE
+[company] [compaany] [location]
+Machine Learning Engineer Feb 2025 – Present
+Project: "Multimodal Data Infrastructure"
+• Designing data storage infrastructure for multimodal datasets (text, images, function, audio, structured data)
+• Developing automated validation pipelines to ensure data quality (e.g., deduplication, factchcheck, etc.)
+Project: "Reasoning Model Development"
+• Collecting, preprocessing and validating data for reasoning-focused models to enhance step-by-step
+problem-solving capabilities.
+International Laboratory of Applied Network Analysis [location]
+Research Intern Jan 2024 – Dec 2024
+Project: "Interview Analysis Using LLMs" | R&D Project ID: 5.0134-2024
+• Trained FastText and fine-tuned BERT models to extract key elements from interviews.
+• Calculated interview similarity using graph-based metrics and visualized results with NetworkX.
+✓ Designed a pipeline for the R&D project "Discourse Analysis Tool for Russian Interviews Using LLMs"
+✓ Replicated the pipeline across 3+ projects, improving workflow efficiency by 20%.
+Project: "NER and Sentiment Analysis in Sociological Surveys"
+• Fine-tuned LLMs for domain-specific sentiment analysis (public opinion on social issues).
+• Implemented NER to extract targeted entities (organizations, locations, personalities) from survey responses.
+PROJECTS & RESEARCH
+"Evaluating Emotion Prompting Methods in LLM" (Yandex StudentCamp with AIRI) July 2024
+• Developed a YaGPT-based agent interaction logic for emotion simulation.
+• Compared prompting methods to optimize emotional cohrence.
+Bachelor’s Thesis: "Semantic Analysis of Russian Adverbs with the Meaning Sept 2023 – June 2024
+of Futility by ML Methods"
+• Built a text annotation pipeline for the RuWAC corpus to analyze contextual adverb usage.
+• Trained classifiers to identiify key semantic parameters.
+"Exploring the effect of Data Pruning Methods for Pretrained Russian LLMs" Nov 2023 – Mar 2024
+• Implemented perplexity-based data filtering (arXiv:2309.04564).
+• Fine-tuned two LLM architectures on Russian data, visualized and compared validation metrics.
+EDUCATION
+National Research Universiity Higher School of Economics (HSE) [location]
+Bachelor’s in Fundamental and Computational Linguistics, GPA: 7.99/10 2020 – 2024
+Relevant Courses: NLP, ML, Algorithms & Data Structures, Python, Databases; Linear Algebra,
+Mathematical Analysis, Probability Theory, Statistics; Theory of language.
+Yandex SchooL of Data Analysis [location]
+Data Science Specialization, GPA: 4.66/5 2024 – 2026
+Courses: Advanced ML, Python, Algorithms & Data Structures, A/B Testing, Statistical Methods in ML.
+✓ Collected dataset and implemented CycleGAN for image-to-image style transfer between real and
+Pixar-style cars as part of coursework.
+Innopolis University [location]
+Mathematics in AI, Percentile: 15% July 2024
+Courses: Optimization for ML, Applied Multilinear Algebra, Generative Adversaial Networks,
+Markov chain Monte Carlo.
+SKILLS
+• Programming: Python (Pandas, NumPy, Matplotlib, Seaborn, NetworkX, etc.), SQL, Git, Docker
+• Generative AI: LLM Fine-Tuning (BERT, GPT), RAG, Prompt Engineering, GANs.
+• ML Tools: PyTorch, Hugging Face, Scikit-learn, WandB, StreamLit.
+• NLP: Word2Vec, FastText, SpaCy, NLTK, transformers, sentiment analysis, NER.
+• Languages: English (C1), Korean (B1), Japanese (A2).

@@ -1,0 +1,80 @@
+Scale recurrent memory transformers
+infere**nce** with diagonal batching
+[name]
+Research engineer at [compaany],
+1st year PhD at [compaany]
+Introduction
+Tran**s**forme**r**-based llm models
+1. Struggle to scale on long context tasks.
+2. Attention is qua**d**ratic over context length.
+One app**r**oach is to use blocked atten**t**ions, like star-attention [1].
+But this app**r**oach will fail to attend between blocks. To solve this - memory tokens and specialized ”memorization” operations can be used [2][3].
+This add recurrent dependency between blocks compute, leading to low utilization of GPU.
+Just using big batch size is u**n**acceptable, because KV cache is huge for each long context request.
+In my research, I am developing algo**r**ithm to solve this problem.
+Problem statement
+As**s**ume recurrent memory transformer [2][3]:
+1. Split context into several segments of equal size.
+2. Add memory tokens to segment.
+3. (Optional) Add memory states to layers (some lea**r**nable parameter).
+4. Pass segments to model one by one, updating memory tokens and states.
+5. Concatenate resulted logi**t**s together to get final result.
+Note, that we have linear compute compl**e**xity for pr**e**fill pass (phase before autoregres**s**ive generation):
+𝑂(𝑐𝑜𝑛𝑡𝑒𝑥𝑡_𝑙𝑒𝑛/𝑠𝑒𝑔𝑚𝑒𝑛𝑡_𝑠𝑖𝑧𝑒 ∗ 𝑡𝑖𝑚𝑒_𝑡𝑜_𝑐𝑜𝑚𝑝𝑢𝑡𝑒_𝑠𝑒𝑔𝑚𝑒𝑛𝑡) = 𝑂(𝑐𝑜𝑛𝑡𝑒𝑥𝑡_𝑙𝑒𝑛)
+So, segment size should not be big. Ot**h**erwise, we will not gain significant memory influence and speedup.
+Pra**c**tically, au**t**hors used segment size from range [32, 4096].
+As we should use rela**t**ively small segment – GPU can’t be utilized with each segment’s fo**r**ward pass,
+especial**ly** on bf16 and fp8 types.
+So appears the problem:
+How we can use smaller segments sizes and still utilize GPU with no or sma**ll**es**t** batch size?
+Ot**h**erwise, we cant really use this me**t**hod in production.
+Methods
+As**s**ume dependency:
+Every (𝑠𝑒𝑔𝑚𝑒𝑛𝑡_𝑖, 𝑙𝑎𝑦𝑒𝑟_𝑗) fo**r**ward pass is o**n**ly depends on
+(𝑠𝑒𝑔𝑚𝑒𝑛𝑡_𝑖 − 1, 𝑙𝑎𝑦𝑒𝑟_𝑗) and (𝑠𝑒𝑔𝑚𝑒𝑛𝑡_𝑖, 𝑙𝑎𝑦𝑒𝑟_𝑗 − 1).
+This includes earlier parallel recurrent memory transformer [2]
+and recent SOTA associative recurrent memory transformer [3].
+We have noticed, what we can group compu**t**ations:
+o**n** k’th i**t**eration compute all pairs (𝑠𝑒𝑔𝑚𝑒𝑛𝑡_𝑖, 𝑙𝑎𝑦𝑒𝑟_𝑗) such that
+𝑠𝑒𝑔𝑚𝑒𝑛𝑡_𝑖 + 𝑙𝑎𝑦𝑒𝑟_𝑗 = 𝑘
+This is a diagonal o**n** rectangle of fo**r**ward passes scheme.
+I had implemented this me**t**hod, using GroupedGemm operations
+from cu**t**lass.
+Results
+Table below is obtained from adding memory
+to [compaany] 1b model (and finetuned by armt team):
+1. Diagonal batching gives significant adva**n**tage
+o**v**er naïve compu**t**ations o**n** small segments.
+2. Memory models starts beating **t**orch a**f**ter
+ap**p**roximatel**y** 50k context (remember we have
+additional memory tokens and operations o**n** top
+o**f** original [compaany]. And better quality metrics
+fo**r** long context tasks).
+Results
+Same [compaany]1b se**t**ups but o**n** the plot.
+Notic**e**:
+Non linear scaling o**n** long context due to
+s**t**art/finish additional compute costs (can be
+amo**r**tized, so under load we will have better speedup).
+This is not huge limitation of algo**r**ithm,
+we haven’t really addressed this issue o**n**
+technical level yet.
+Research gap
+Current limitation:
+• Method o**n**ly addresses ar**c**hitecture**s** with parallel memory. For now, such models con**s**ide**r**ed most
+promising in terms o**f** quality metrics. Not sure, if we should address other models in the future.
+Next research:
+• Co-design o**f** memory parameters and diagonal me**t**hod. To make better overall speed-quality balance.
+• Explore pipelining to overlap small memory operations with main model ones. First experiment was bad.
+Work in progress:
+• I don’t finished experiments o**n** training in diagonal se**t**up. Fo**r** now, we con**s**ide**r** me**t**hod more for
+infere**n**ce usage, but need to obtain numbers fo**r** training.
+• Work is not published. We rus**h** to NeurIPS 2025. So you can see o**n**ly current version o**f** code here.
+Or ask me di**r**ectly to access latest version o**n** closed gi**t**hub repo.
+Bibliography
+1. Acharya S., Jia F., Ginsburg B. Star attention: Efficient llm inference o**v**er long sequences //arXiv
+preprint arXiv:2411.17116. – 2024.
+2. Bulatov A., Kuratov Y., Burtsev M. Recurrent memory transformer //Advances in Neural Info**r**mation
+Processing Systems. – 2022. – Т. 35. – С. 11079-11091. (183 citations)
+3. Rodkin I. et al. Associative recurrent memory transformer //arXiv preprint arXiv:2407.04841. – 2024.
+(prepring, accepte**d** o**n** NeurIPS 2024 workshop)

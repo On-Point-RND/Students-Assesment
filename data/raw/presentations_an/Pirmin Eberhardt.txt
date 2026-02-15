@@ -1,0 +1,91 @@
+Proteiin-RNA interaction prediction
+[name]
+Student at the Department of Bioengeneering and Bioinformatics, [location]
+& [name]
+Central dogma of molecular biology
+Many RNAs do not encode proteins and play a regulatory role insteaad
+Experimental data about protein-RNA interactions lacks too much
+NN
+NaN NaN
+NaN
+NaN
+So there is a hope that ML will help
+NN
+NaN NaN
+NaN
+NaN
+Formally, it’s just binary classification
+For each protein we
+want to train an
+independent model
+that takes RNA
+features as input and
+predicts probability
+that this RNA binds
+the protein.
+How do we process RNA sequence?
+First idea: standard NLP
+approaches.
+AUCACACAC...AAU
+But what if we will try to take
+into
+account the specifics of the
+biological domain?
+What makes biological sequences so special?
+Extremely small alphabet: {A, U, G, C
+Proteins usually bind RNAs by
+recognizing a small “subword” in a big
+RNA “word”
+Why not to directly count all possible subwords?
+Such subwords of a given length (and alphabet) are called kmers.
+We count all 3-mers and 5-mers and thus obtain a - dim
+vector representation. We also fix the length of RNA to 200.
+Probably, we can’t afford such a huge representation
+Such subwords of a given length (and alphabet) are called kmers.
+Taking into consideration that for most of proteins available data consists of
+~100`000 examples, input size in 1088 is too large (# params >> # examples).
+Hashing: reducing the dimenshionality in a non-parametric way
+AUCACACAC...AAU Our hashing can be expressed as a
+column-stochastic linear operator.
+Consider a low-dimensional example:
+Model architecture
+raeniL
+ULeR
+tuoporD
+kmer
+ hash
+FC
+ FC
+ FC
+ FC
+p
+counting
+499 x 512 512 x 256 256 x 128 128 x 1
+fcnn_layer
+Results
+RNAs of arbitrary length can be splitted into bins of length 200. Then model
+independentlly assigns a binding probability for each bin.
+Results
+Hashing not only reduces the embedding size, but improves quality.
+Results
+Our models outperform more sophisticated existing approaches.
+Gaps & future work
+false positive
+interpretation will allow us to figure out essential kmers and calculate only
+theiir frequencies, on the basis of it we can construct a distilled mode
+probably, via hashing we can afford to calculate frequencies of kmers for
+k >
+Is MLP really the best choice?
+Bibliography
+1) [surname] K. V., [surname] J. S. The rise of regulatory RNA //Nature Reviews Genetics. – 2014. – Т. 15. – №. 6. – P. 423-437.
+2) [surname], Eric L., et al. Robust transcriptoome-wide discovery of RNA-binding protein binding sites with enhanced
+CLIP (eCLIP) // Nature methods. No 13.6. 2016. P. 508- 514.
+3) [surname] Winther et al. Hash Embeddings for Efficient Word Representations // NIPS 2017.
+4) [surname] L. et al. Predicting dynamic cellular protein–RNA interactions by deep learning using in vivo RNA structures // Cell
+research. – 2021. – Т. 31. – №. 5. – P. 495-516.
+5) [surname] H. et al. Dynamic characterization and interpretation for protein-RNA interactions across diverse cellular conditions
+using HDRNet // Nature Communications. – 2023. – Т. 14. – №. 1. – P. 6824.
+6) [surname] et al. RNAincoder: a deep learning-based encoder for RNA and RNA-associated interaction. // Nucleic Acids
+Research. - 2023. Vol. 51, P. 509.
+7) [surname] et al. TabM: Advancing Tabular Deep Learning With Parameter-Efficient Ensembling // ICLR 2025.
+GitHub

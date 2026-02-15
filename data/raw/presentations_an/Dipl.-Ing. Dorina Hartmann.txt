@@ -1,0 +1,45 @@
+[name] [surname]
+Analyst and Developer/[compaany]
+
+Topic
+
+Why is it important? 
+Background (if needed)
+Goal of the review
+
+Problem: Pretrained LLMs lack instruction-following capabilities
+Challenge: Manual curation of datasets is labor-intensive
+Scope: Automatic generation of instruction-completion pairs
+Using models to generate their own training data (bootstrapping)
+
+Approach:
+Use GPT-3 to generate instruction prompts
+Generate completions using the same or another model
+Filter, clean, and structure data
+Fine-tune open-source models (e.g., GPT-J, T5)
+Why it works:
+LLMs contain latent task understanding — we leverage that
+Data & Preprocessing:
+Generation filtering
+De-duplication
+Format normalization
+Train/test splitting
+
+Key findings:
+Improves zero-shot instruction following
+Comparable to models trained on human-labeled data
+Particularly effective on tasks from FLAN and BIG-Bench
+
+Metrics used:
+Exact match
+Accuracy
+Human evaluation (for cohrence)
+GitHub Repo: https://github.com/[name]/self-instruct
+
+Limitations:
+	Single-turn onl only (no dialogue)
+	No multimodal input/output
+	Filtering pipeline is rule-based, not safety-optimized
+
+Why it matters:
+	Real-world use requires safety, cohrence, context handling

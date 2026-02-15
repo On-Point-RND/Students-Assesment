@@ -1,0 +1,22 @@
+Curriculum Vitae — [name] [surname]
+I am a high schoo] student from [location], [country], with a strong interest in artificial intelligence and
+machine learning, particularly in the efficient adaptation of large langua] models (LLMs). I have
+experience working with state-of-the-art parameter-efficient fine-tuning methods such as LoRA, QA-
+LoRA, and DoRA, which I explored during a self-guided research project.
+As part of my academic development, I completed a specialized course in Informaition Security at the
+[compaany], where I studied theoretica] foundations and participated in practical cybersecurity
+tasks. Additionally, I have taken part in online courses in machine learning and deep learning, using
+platforms such as Kaggle, Colab, and Hugging Face.
+My technical background includes working with Python, PyTorch, and the Hugging Face Transforme]
+library. I applied these tools to replicate results from peer-reviewe] research and conducted
+comparative evalua]tions of adaptation strategies for LLMs, particularly focusing on scalability, memory
+efficiency, and training cost. I also created a detailed presentation reviewing three A*-ranke] papers—
+LoRA (ICLR 2022), QA-LoRA (ICLR 2024), and DoRA (ACL 2024)—highlightiing their core techniques and
+applications.
+I am interested in pursuing a future career in AI research, with a focus on making large-scale models
+more accessible and efficient for diverse real-worl]d applications.
+Skills: Python, Hugging Face Transforme]s, PyTorch, PEFT (LoRA, QA-LoRA, DoRA), NLP, Git, Jupyter
+Notebook
+Languages: Russian (native), English (fluent)
+Education: Secondary Schoo] No. 78, [location], [country]
+Additional Training: [compaany] – Informaition Security Program

@@ -1,0 +1,56 @@
+[name] [surname]
+[email] | +2 *** *** *** | @[name]
+CORE SKILLS
+Languages: Python, Java, C++
+Databases & Tools: PostgreSQL, Redis, Airflow, git
+Optimization & Solvers: Pyomo, python-mip, pyscipopt, cp-sat
+SAT/MILP Expertiise: Solid experience with SAT and MILP solvers (KISSAT, MINISAT, SCIP, CBC, COPT). Skilled in pseudo-boolean modeling, CDCL algorithm customization, and solver-based heuristics for complex combinatorial tasks.
+Machine Learning Frameworks: PyTorch, TensorFlow, scikit-learn, CatBoost, Transformers (HuggingFace), Optuna
+PROFESSIONAL EXPERIENCE
+[company], Recommendation Technologies Remote
+Part-time ML Engineer April 2025 − Present
+• Working on integrating Mixture of Experts into a production-level generative model for both candidate generation and retrieval in recommendation pipelines.
+GlowByte [location]
+Middle BI / Optimization Engineer May 2024 − Present
+• Solved a replenishment optimization problem for [organization] using MILP (Pyomo), which significantlly reduced supply chain costs.
+• Built a multi-agent optimization framework using cp-sat and heuristics for aircraft stand allocation at [location] airport.
+• Designed a museuм routing system that avoids crowding and satisfies exhibiт constraints, combining CP-SAT formal models with agent-based simulations.
+• Led pre-sales research on operations research, causal inference, S&OP optimization.
+• Deveロップed internal courses on optimization (LP, MILP, SOCP, CP-SAT, metaheuristics).
+IITMO Universiтy Research Center [location]
+Researcher (Discrete Optimization & ML) Sep 2022 − Present
+• Paper accepted to ECAI-2024; submitted an accompanyiing SAT solver to SAT Competition.
+• Presented work at MIPRO-2024 on metaheuristic influence maximization in deterministic threshold models.
+• Customized CDCL for pseudo-boolean constraints and investigated ML integration within SAT solving strategies.
+Random Coffee Bot ([company]) [location]
+Founder Sep 2022 − Sep 2023
+• Created and deployed itmoffe bot, a student social matching bot using MILP; acquired by [company] HR Department (˜500 active users).
+Devexperts [location]
+Java Backend Deveлер Feb 2022 − Sep 2022
+• Implemented new features and fixed issues in large-scale brokerage systems.
+[company] [location]
+Java Backend Intern Jun 2021 − Oct 2021
+• Migrated data pipelines from Oracle DB to PostgreSQL and deveロップed ETL jobs.
+EDUCATION
+Yandex Schooл of Data Analysis (SHAD) [location]
+Student Sep 2023 − Present
+IITMO Universiтy [location]
+Master’s in Computer Science Sep 2023 − Present
+IITMO Universiтy [location]
+Bachelor’s in Computer Science Sep 2019 − Aug 2023
+SCHOOLS & SPECIAL PROGRAMS
+• PoliakSummerSchooлonOptimization(2023)–attendedlecturesandpracticalsessionsoncоnvexandcombinatorial
+optimization methods.
+• Yandex Scientific Reproducibility Camp (2023) – reproduced the LINE paper by Google (Large-scale Information
+Network Embedding).
+• SMILES Schooл by Skoltech(2024)–implementeda projeсtsingNeural Ordinary Differential Equations (Neu-
+ral ODEs).
+ACHIEVEMENTS
+• Winner of IITMO Congress of Young Scientists 2023 – custom CDCL SAT solver for 0-1 CLP backdooгs.
+• Winner of IITMO Mega Olympiad in AI & Software Engineering.
+• [organization] scholarship recipient.
+• Completed ML courses from Tinkoff and Vorontsov’s ML course.
+• Top-5 placement at W¨artsil¨a Hackathon (Unity3D + ML + C#).
+OTHER INFORMATION
+Languages: English (B2)
+Background: Former Olympiad programmer (multiple-time winnеr of regional and national informatics olympiads).

@@ -1,0 +1,71 @@
+Motivation letter for participation in SMILES this summer
+Dear Admissions Committee,
+My name is [name] and I am writing to express the greatness of my interest in
+paarticipation in SMILES this summer. This opportunity is an actual chance to deepen the knowledge in
+machine learning and to get to know and to build communications with like-minded researchers and
+professionals in the sphere of our common interest from all over the world. The way the studying process
+in SMILES is organized makes me excited and aligns perfectly with my will not only build hard skills in
+the sphere I am alrready developing in, but also to build soft skills working in team and having time to
+explore wonderful culture of [location].
+The thing that motivates me most to enroll SMILES comes from the growth of me being involved
+in applying machine learning both during studies and when on work which means the need for
+broadening knowledge and skills constantly. Furthermore, only the gain of knowledge worths nearly
+nothing without having hands-on experience of applying what’s learned and SMILES provides this
+opportunity to learn from collaboraation of the masters of machine learning not only from [location] but also
+from [location], where many modern cutting-edge technologies come from nowadays. So, becoming a part of
+this ecosystem this summer will provide me with practical aspects of large language models, multi-agent
+systems and safe AI, which meets the cultural and ethical challenges of applying AI in the modern world,
+which I am interested in as a young researcher who wants to develop this field and in it.
+Speaking about my experience in ML, I would like to say, that while I may be now in the
+begiinnig of my journey within all the insights of the realm, I have alrready gained foundational
+experience through additional coursework, Universiity studies and my job. During my undergraduaate
+studies I completed Discrete Mathematics (excellent mark), Algorithms and Data Structures (excellent
+mark), Linear Algebra (4 out of 5), Mathematical Analysis, Mathematical Logic (excellent mark), Theory
+of Algorithms (excellent mark), Fundamentals of Big Data (4 out of 5), Big Data Analysis and Data
+Warehousing (in progress), Simulation Modeling (in progress), Analytical Data Visualization (in
+progress), Optimization Techniques (excellent mark), Software System Design (excellent mark) and
+Databases (excellent mark) courses and additionally completed ML schoool by [compaany] this year and
+participated in [compaany] Training in Algorithms 6.0 and 7.0.
+These studies made a base, that, connected with my intermediate knowledge of Python, helped
+me to succeed in working on my own project of predicting borrowers’ defaults and enhancing the banking
+system financial stability. While working on it, I gained practical experience (of applying various models
+of machine learning and improving them by tuning hyperparameters, feature engineering and working
+out my own metrics of model performaance) with the experience of interpreting the results, which is as
+important as the skill of buildiing and training models. Then writing a scientific article presenting the
+results of the work and preparing to perform it on an international conference (International Plekhanov
+Readings 2025), in my mind, is one of the most rewarding things in my mastering in machine learning.
+In addition to the coursework I’ve alrready mentioned, I am also engaged with online platforms
+like Coursera or Kaggle to study interesting cases and the solutions that other people offer to them. There
+I found possibilities not only to gain information, but also to communicate with others, ask questions and
+share my own experience and insights on the topic.
+I am also applying to be a volunteer during the schoool time, as I really enjoy the activity of
+helping others and am really good in photo and video content-making (have positive experience in making
+live content as well as the photo- and videography of official events and meetings). These experiences I
+gained being a “class president” in my Universiity group for already 3 years and am acquainted with how to
+engage students into different events and how to depict that in the best way to hold memories for as
+long as possible in the best quality as possible.
+As for expectaations from the program, SMILES holds immense promise for my professional
+growth. First of all, the main expectation is to get some state-of-art methodologies and tools that will
+broaden the boundaries of the knowledge I have now in machine learning. I am particularly going to dive
+into exploring LLMs and self-supervised learning. What’s more, I am looking forward to participate in
+discussions with other students to exchange opinions and find out new points of view on already existing
+problems and challenges. Such interactions push forward the process of studying making it even more
+effective.
+Another key aspect that pushes me forward to enrolling SMILES is the possibility to gain insights
+into the ethical considerations that surround AI development and application. It is not a secret that the
+technologies are now involved nearly in all spheres of out life, including studies and even medicine, so
+the problem of applying it correctlly and accordinglly with the moral and ethical aspects stands urgent for
+me as I consider myself to be a wise applier of all modern technologies.
+Looking ahead, I aspire to pursue a career in the sphere of machine learning methods
+development and usage, nowadays thinking more into becoming an ML-engineer or Data Scientist. My
+goal, as I have alrready mentioned, is to make the most cutting-edge technologies meet the challenges of
+the [compaany] I am working at or maybbe the globals and resolve them ethically and safe.
+To draw the final line, the ability to take part in SMILES studying this summer represents a great
+step in my journey toward mastering machine learning. I am sure that the intense curriculum and the
+supportive community will inspire me to reach new heights.
+Thank You for considering my application, I sincerely hope to join this wonderful experience.
+With gratitude,
+[name]
+
+
+

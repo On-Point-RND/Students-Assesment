@@ -1,0 +1,58 @@
+[name] [surname]
++2 *** *** *** | [email] | [compaany].com/[name][surname]
+About Me
+Third-year undergraduate at the [location] [university],
+majoring in Applied Mathematics and Information Science, with over one year of hands-on Data Science experience
+at leading tech companies and a track record of delivering production-grade ML solutions
+Education
+Data Analysis School [location]
+ML & Data Science Program Sep. 2023 – Sep. 2024
+[location] [university]
+BSc in Applied Mathematics and Information Science Sep. 2022 – Present
+[location] [lyceum] [location]
+Secondary Education Sep. 2015 – May 2022
+Work Experience
+Data Analyst Intern Dec. 2024 – Apr. 2025
+[compaany] [location]
+• Built a profession-prediction model using CatBoost and NLTK on heterogeneous data sources.
+• Enhanced an NLP classifier for credit-risk data; experimented with boosting techniques.
+Research Intern, Bioinformatics Lab Aug. 2024 – Nov. 2024
+[location] [university]
+• Studied protein–ligand interactions via LSTM and RNN architectures for the SEP-290 compound.
+Teaching Assistant, Discrete Mathematics Sep. 2023 – Feb. 2024
+[location] [university]
+• Graded home assignments and exams in discrete mathematics.
+Data Scientist Intern Feb. 2023 – Aug. 2023
+[location] [university] [lab] [location]
+• Analyzed product usage data and econometric literature.
+• Applied linear regression, boosting, and neural nets to forecast customer flow and optimal site selection.
+Math and Economics Olympiad Coach Jan. 2023 – May 2023
+[location] [lyceum] [location]
+• Organized and taught math and economics training sessions for high-school students.
+• Prepared students for national Olympiads.
+Projects
+Russian-Language Vocal Generation Model | Python, ML, librosa, Text-to-Speech
+• Fine-tuned T5 and VOSK-TTS on a song+lyrics dataset.
+• Built the dataset via Yandex Music and Genius APIs.
+• Experimented with diffusion models (Bark, Riffusion).
+Employee Activity Tracking System “Big Brother” | Python, ML, Computer Vision, Excel, PyQt
+• Fine-tuned YOLOv8/YOLOv9 for action recognition.
+• Developed PyQt GUI with openpyxl integration for visualization.
+• Packaged CLI and Dockerized versions.
+Court Information Database | Python, SQL
+• Designed and implemented a relational database for court case metadata.
+• Built a CLI interface for data querying and reporting.
+Telegram Bot for Retail Network Locator | Python, Telegram API, ML, Analytics, Econometrics
+• Formulated hypotheses using the Huff model.
+• Trained two models to predict top 5 outlets on Avito and mapped demand flows.
+• Developed an async Telegram bot integrating ML models and web scraper.
+Real Estate Data Scraper | Python, Beautiful Soup
+• Built a scraper to gather property listings from multiple websites.
+• Performed data cleaning and visualization of market trends.
+Concrete Mixer Fault Detection Prototype | Python
+• Applied ML and discrete Fourier transform for predictive maintenance.
+Technical Skills
+Languages: Python, C++, Bash, SQL
+Frameworks & Tools: NumPy, Pandas, scikit-learn, Matplotlib, BeautifulSoup, Selenium, PyTorch, YOLO, openpyxl, PyQt
+Languages: Russian (native), English (Upper-Intermediate)
+Other: Unix, Git, Docker, Apache Airflow, Power BI, LATEX

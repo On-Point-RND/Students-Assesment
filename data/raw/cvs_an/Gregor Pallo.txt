@@ -1,0 +1,50 @@
+Experience
+Nov. 2023 – Present. Researcher in Robotics
+[compaany], [location]
+I developed open-vocabulary semantic mapping approaches. I
+tested and evaluated mapping algorithm.
+Oct. 2019 – Nov. 2023. Intern Data Analyst
+[name]
+[compaany], [location]
+I used Matlab and Python to analyze earthquake data,
+[location]
+refactored existing code, and took part in publications in a
+first-quartile journal.
+[email]
+[name]
+Publications
+(cid:135) [name]
+[name], [name], [name], [name], [name].
+Scientific interests
+(2025). OSMa-Bench: Evaluating Open Semantic Mapping
+Under Varying Lighting Conditions arXiv Preprint .
+◦ AI for Robotics
+◦ 3D Mapping and Perception [surname], [surname], [name], [surname], [name]. (2022).
+◦ Multimodal Models and RL Seismogenic patches in a tectonic fault interface Frontiers in
+Earth Science .
+Education
+[surname], [surname], [surname], [surname], [name]. (2021). Acoustic emission reveals multiple slip modes on a
+Present. Masters in Robotics
+frictional fault Frontiers in Earth Science .
+and AI
+[compaany]
+Achivements
+[name]. (2024). Advanced Training in Winner of MTS True Tech Champ 2024 "Robotics programming"
+Machine learning
+[name] wiinner in “IT” and “Robotics” in 2023/2024
+[name]
+Winner of AI Generative Product Hackathon 2023
+[location], [location] –
+Practical thesis - development of RTC for Eurobot competitions
+(Slides , GitHub )
+2023. Bachelor in Industrial
+and Service Robots Numerical tools Languages
+[compaany]
+Python •••◦
+English: Advanced (EF SET)
+[location] – [location]
+C++ •••◦
+2022. Advanced Training in
+Robotics Computer Science Center
+Online
+Last updated: April, 2025.

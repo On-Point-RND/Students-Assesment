@@ -1,0 +1,68 @@
+[name] [surname]
+ [email]  +2 *** *** ***
+Education
+[location]
+B.Sc. in Applied Mathematics and Computer Science Oct2020–Jul2025(Expected)
+• CurrentGPA:4.79/5.00(Top3%)
+• Advisor: Prof. [surname]
+[location]
+Ph.D. candidate in Computer Science and Engineering Aug2025–Jun2029(Expected)
+• Advisor: Dr. [surname]
+• MainArea: Agent-Based Mechanism Design
+Research Interests
+Traditionally speaking, I am interested in algorithm design. Beyond conventional approaches, I also explore how AI-driven methods can enhance problem-solving in these domains, particularly in competitive programming and optimization challenges.
+Publications
+The Subinterval Cover Problem IJTCS-FAW2025
+[name], [name], [name] and [name]
+Experience
+[location]
+Research Intern, Mathematical Modeling and Optimization Algorithm Lab Jul2022–Oct2023;Jan2025–Present
+• Established graph and optimization models for telecommunication problems and conducted research on the models.
+• Proposed an algorithm (keywords: community detection, dense subgraphs) on 5G Uplink MU-MIMO problem, resulting in ~2% increase throughput and ~69% reduction in correlation calculation.
+• Designed competitions based on communication challenges TECHARENAMSUChallenges2022 and 2023. Analyzed the solutions of participants and explored applications to real-world business scenarios.
+• Contributed to the 2023 ICPC World Finals Huawei Challenge: Configured the problem, proved the NP-hardness.
+• Optimized the algorithm structure of Multi-Sell Coordinate Scheduleding problem for ~3x speed up and 8% throughput improvement.
+• Proposed an algorithm for Full-Mesh Scheduling Problem, achieved a ~8.5x speed boost without performance loss.
+• Optimized the runtime of an AI inference operator with convolution, transposition, and multiplication by23%.
+• For a scene-specific LLM weights matrix, proposed a compression method with a compression rate of ~37% and a loss of accuracy of ~4% (meeting the requirements).
+[location]
+Teaching Assistant, DSAII; Course Instructor, DSAIII Feb2023–Jun2023;Feb2025–Present
+• Led weekly lectures/seminars and prepared corresponding materials.
+• Refined course content and designed problem sets for online judge platforms.
+[location]
+Research Assistant, advised by Prof. [surname] Jun2023–Jul2023
+• Attended a summer school on graph neural networks and time series.
+• Proposed an algorithm for a power system resource scheduling problem based on time series, in an R&D project from State Grid Research Institute, aiming to maximize expected economic profits.
+ShanghaiJiaoTongUniversity Shanghai,China; Remote
+Research Assistant, advised by Prof. [surname] Jul2023–Aug2023;Sep2023–Apr2024
+• Investigated topics on online algorithms and approximation algorithms.
+• Worked on an interval scheduling problem, resulting in a paper.
+University of Michigan Remote
+Research Assistant, advised by Prof. [surname] Apr2024–Jul2024;Dec2024–Present
+• Investigated topics on expanders and fast graph algorithms. Completed the course EECS498.
+• Working on a flow augmentation problem.
+HuaweiTCSLab Shanghai,China
+Research Intern, advised by Dr. [surname] Oct2024–Nov2024
+• Investigated topics on mechanism design and the Steiner tree problem.
+• Worked on a variant of the Steiner tree problem. Proved some relevant bounds.
+Projects
+LiveCodeBenchPro: ADynamic Benchmark for Competitive Programming with LLMs
+• A contamination-free evaluation framework for large language models (LLMs) by automatically integrating the latest competitive programming problems from platforms like Codeforces.
+• Designed and maintained a unified evaluation system without automated scoring. Implemented faster Codeforces rating calculation system and real-time leaderboard. Bypassed Caltha and PoW Proof to achieve automatic submission.
+• Analyzed model performance across major LLMs including o4-mini, Claude 3.7, and DeepSeek, comparing to human competitors’ solution. Categorized the mistakes of LLMs and working on a related paper.
+Honors and Awards
+Algorithm Competitions
+• Interschool Collegiate Programming Contest(ICPC)
+BronzeMedal*,Asia-EastContinentFinal Dec2019
+• National Olympiad in Informatics in Province(NOIP)
+1stPrize Nov2018,Nov2019
+• ITMOUniversity’sInternationalOpenCompetitioninComputerScience
+1stPlace Mar2020
+• CodeforcesRating: master,22102
+Scholarships
+• RussiaNationalScholarship 2020–2025
+• MIPTInnovativeEducationDevelopmentScholarship(Top2%) 2024
+Skills
+• Natural languages: Chinese(Native),English(TOEFL100),Russian(Intermediate)
+• Programming languages: C++,Python
+2In Pre-LLM Era

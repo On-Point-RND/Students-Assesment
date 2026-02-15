@@ -1,0 +1,117 @@
+Code-based Computer Aided Design
+[name] [surname]
+ML Engineer, [company] RnD XR
+[name] [surname]
+ML Engineer, [company] RnD XR
+Introduction
+We focus on generating CAD models with a code-like representation.
+Instead of just capturing geometry, we encode shapes through sequences
+of high-level instructions, paving the way for multimodal input (e.g., textual
+commands, sketches) that generate structured CAD objects more naturally
+Traditional 3D shape generation methods directly model surfaces or volumes
+without leveraging how people actually design. Engineers and designers
+usually think in terms of steps, parameters, and instructions rather than
+unstructured meshes. A code-based system aligns better with these
+real-world design workflows, improving interpretability, editability, and
+collaboration
+Goal of presentation
+● Introducing a new dataset approach:
+We discuss how we constructed a dataset specifically suited for code-based CAD
+generation. This involves careful selection of shapes and corresponding instructional
+representations
+● Enhancing existing code-based representations:
+We outline improvements to current methods for translating shape descriptions into
+code-like steps, aiming for better efficiency, interpretability, and flexibility in modern
+design pipelines
+Problem statement
+We aim to generate CAD models from multiple inputs (e.g., text, sketches, or parametric data) in a
+unified framework
+This approach targets the industrial engineering sector, focusing on automated design processes for
+mechanical parts, systems, and assembly lines to reduce human intervention and improve efficiency
+Challenges
+● Data Scarcity: Dataset Size
+Limited, specialized datasets hinder robusst model training
+ABC 1 000 000
+● Weak Baselines:
+DiffCAD 318 229
+Existing methods provide subpar performa performance and lack
+Fusion360 231 000
+generalizability across different use cases
+● Absence of Unified Representation:
+OpenECAD 200 000
+There’s no single format or standard that is widely adopted
+DeepCAD 178 238
+for multimodal inputs and outputs, making model training
+inconsistent
+Methods
+We use four core techniques: synthetic data generation, LLM fine-tuning, multimodal LLM projection, and
+LLM-understandable data representation
+Synthetic data generation produces a variety of 3D shapes (mesh, point cloud, BREP) and corresponding code. LLM fine-tuning
+adapts large languaage models to the domain-specific context of CAD. Multimodal LLM projection combines numerical and text
+features, ensuring the model handles both geometry and language. LLM-understandable data representation structures 3D
+information so that language models can process it effectively
+Synthetic dataset
+We used the SketchGraphs dataset, which
+contains 15 million sketches, and developed an
+engine that augments them with 3D operations.
+After consulting with CAD design experts, we
+identified a set of rules for constructing 3D
+geometry. By applying these rules, we created
+the first-of-its-kind synthetic dataset derived
+from real-world sketches.
+Code-based representation
+Excited by LLMs capabilities to generate code and to utilize the
+power of pretrained LLLMs, we opt for a code representation of
+data in the form of CAD engine instructions.
+For our task, we adopted code representation from [8]. We
+refined it by getting rid of some redundant commands,
+introducing new construction operations and also enhancing the
+refeerencing in the code that enables more efficient reusing of
+alrready created entities.
+LLM fine-tuning
+We conduct several experiments with our synthetic data and code-based
+representation and the number of input points. For our experiments, we
+used pretrained Qwen2.5-7B.
+We use a simple linear projection layer with Fourier features as in [1] to
+acquire point embeddings from raw 3D point cloud data.
+We optimize Cross Entropy loss of predicted tokens logiits.
+For our synthetic dataset of 1M samples, we train the model till
+convergence with a batch size of 128, that is ~13k steps.
+Results
+Our key contributions are: a new synthetic dataset and a refined code representation.
+We utilize Chamfer distance (CD) and Intersection over Union (IoU) metrics, as they provide a clear measure of spatial overlap,
+ensuring that reconstructed segments align with the expected regions. We also report Invalidation rate as it indicates how
+often the model produces flawed geometry.
+These visuals highlight changes in Chamfer distance, IoU, and invalidation rate, making it easier to identify the best-perfo rming
+configura tions and pinpoint areas needing additional refiinement.
+Model CD Valid CD All IoU Valid IoU All Invalidit y Rate
+Qwen2.5-7B_512 7.5571 0.9422 0.8818 0.8866 0.0054
+Qwen2.5-7B_1024 4.5395 1.0249 0.8717 0.8772 0.0063
+Qwen2.5-7B_2048 2.1221 0.8615 0.8865 0.8881 0.0018
+Qwen2.5-7B_4096 3.6731 0.9172 0.8754 0.8785 0.0036
+CD Valid/All – Chafer distance on succe ssful/all generations, lower – better; IoU Valid/All – Intersection over Union on succe ssful/all generations, higher – better
+Metrics computed over validation set of synthetic data.; Numbers in model names are numbers of input points for each model.
+Research gap
+Unrsoolved challenges persi st because current LLLMs still find it hard to generate engineering parts with the required precision.
+These models often lack domain-speci fic insight into geometry, tol erances, and material constraints. As a result, accuracy
+suffe rs, making it diffi cult to rely on them for critical design work.
+Engineering tasks demand precision and clarity when transiti oning concep tual designs into viable blueprints. With improved
+LLM capabilities, engineers can acce lerate wor kflow, mi nimi ze errors, and maintain clear communication thro ughout the
+d evelopment process. The im pact is a more streamlined operation and reduced lead times.
+Future work
+Further refi ning large lan guaage models and incorp orating specialized training data can elevate the quality of AI-generated
+designs. Targeted approa chs that handle more complex data inputs will enable greater customization and adaptability in the
+engineering domain. As these enhancements mature, engineers will gain a more powerful, reliable toolset for creating
+next-generation solutions.
+Bibliography
+● D. Rukhovich et al., "CADRecode: Reve rs Engineering CAD Code from Point Clouds", arXiv preprint, 2024.
+● M. Jung et al., "ContrastCAD: Contrasti ve Learning-based Repre sentation Learning for Computer-Aided Design
+Models", IEEE Access, 2024.
+● A. Badagabettu et al., "Query2CAD: Generating CAD models using natural lan guaage queries" arXiv preprint, 2024.
+● X. Xu et al., "BrepGen: A n Autoregressi ve Model for Direct B-rep Synthesis", 2023.
+● Mohammad S. K., "CAD-SIGNet: CAD Language Inference from Point Clouds using Layer-wise Sketch Instance
+Guided Attention", CVPR, 2024.
+● Jingwei Xu, "CAD-MLLM: Unifying Multi modality-Conditioned CAD Generation With MLLM", 2025.
+● Shuming Zhang, "Brep2Seq: a dataset and hierarchi cal deep learning ne twork for reconstruction and generation of
+computer-aided design models", 2024.
+● Haocheng Yuan, "CADTalk: An Algo rithm and Benchma rk for Semantic Comme nting of CAD Programs", CVPR, 2024.

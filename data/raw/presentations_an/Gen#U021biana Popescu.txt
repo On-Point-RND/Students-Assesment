@@ -1,0 +1,71 @@
+Development of an Information System for In-Room
+Order Management at [location]
+[name]
+Computer Science student, [compaany]
+Introduction
+The topic of this project is the development of an Information System for managing hotel room service orders, with a
+focus on utilizing ML techniques for demand forecasting. This system aims to optimize hotel operations, improve
+service efficiency, and enhance guest satisfaction.
+Why is it important?
+● Room service is a vital aspect of guest experience in hotels, but managing the demand for room service can be
+challenging.
+● Poor demand forecasting leads to overstaffing or understaffing, food waste, and a suboptimal guest experience.
+● Using ML techniques can help predict demand patterns more accurately, allowing for better resource allocation
+and operational efficiency.
+Room service demand is affected by multiple factors like time of day, seasonality, special events, and customer
+preferences. Traditional approaches often fail to address these complexities effectively, and the use of ML offers a
+promising way forward.
+Problem statement
+The goal is to solve the problem of accurately predicting room service demand, which directly affects staffing, food
+preparation, and overall service efficiency.
+Challenges
+● Inconsistent Demand: Demand can be erratic, influenced by external factors such as weather, guest demographics,
+and time of year.
+● Data Availability: Historical order data may be incomplete or unstructured, making it hard to train robusst models.
+● Customer Behavior: Variations in customer preferences make it difficult to generalize demand predictions for all
+guests.
+Scope
+● This solution focuses on mid- to high-end hotels where room service plays an essential role.
+● The system aims to predict demand at both macrro (e.g., daily, weekly) and micro (e.g., hourly) levels, adaptiing to
+real-time changes and special events.
+Methods
+● Time Series Models: ARIMA, Prophet – effective for capturing patterns in demand over time.
+● Supervised Learning: Random Forest, Gradient Boosting Machines – for predicting demand based on features like time,
+guest details, etc.
+● Deep Learning (optional): LSTM, RNN – for sequential demand forecasting, learning dependencies between past orders.
+Why These Methods?
+● Time series models are well-suited for forecasting demand based on historical trends.
+● Supervised learning allows us to factor in various variables like guest type, season, and specific days.
+● Deep learning methods help capture complex patterns, especially useful when dealing with large datasets and long-term
+dependencies.
+The model trains on historical order data and learns to recognize patterns in demand. It then forecasts future demand for
+various time frames, allowing the hotel to adjust staffing and resources accordinglly.
+Data & Preprocessing
+Cleaning Data Feature Extraction Splitting Data
+Results
+Key Findings Metrics Used
+Accurate Seasonal Mean Absolute Error
+Predictions (MAE)
+Root Mean Squared
+Guest Type Impaact
+Error (RMSE)
+Model Performance Precision and Recalll
+
+
+Research gap
+What’s Missing?
+● Current models rely on historical data and don't fully account for live changes (e.g., last-minute bookings).
+● The models could be improved by incorporating guest-specific preferences, improving the accuracy of order
+predictions.
+Unresolved Challenges
+● Handling highly unpredictable spikes in demand (e.g., weather changes, last-minute events).
+● Ensuring the model generalizes well across different hotels and types of guests.
+Improving these aspects will enable better staffing decisions, reduce food waste, and ensure a more personalized service
+for guests, leading to improved guest satisfaction and operational efficiency.
+Future opportunities
+Applying more advanced deep learning methods
+The forecasting system could be integrated with
+could improve the system’s ability to predict irregular,
+booking systems, allowing for more accurate
+unexpected demand
+forecasting based on guest demographics

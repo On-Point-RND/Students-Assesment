@@ -1,0 +1,29 @@
+[name] [surname]
+[location]
++2 *** *** ***
+[email]
+To [compaany] 2025 Summer School Organizers April 20, 2025
+Dear Admissions Committee,
+My name is [name] [surname], and I’m writing to express my interest in participating in your summer
+school in machine learning. I see this as an important oppopportunity to cconnect with a
+research-focused community, and to take a concrete step toward contributing meaningfully to the
+field.
+I recently completed a Master’s degree in Data Science at the [compaany] ,
+following a Bachelor’s in Economics. During my studies, I focused on learning about machine
+learning independently, and actively participated in projects and competitions. For my Master’s
+thesis, I researched preference optiimization in diffusion models — something that sparked a strong
+interest in generative CV and deep generative models in general. After graduaation, I’ve been
+working in an applied ML engineering role at [compaany]— while it’s been valuable experience, I’ve found it
+diffiicult to continue pursuing ML research, the kind of exploratory, research-focused work that
+motivates me.
+I’m particularly excited by the opportuntity to engage with others who care about developing ideas
+and advancing the field. I’m ready to contribute with curiosity, drive, and knowlledge, and I see this
+program as a step toward transitioning into research. I hope it will help me build connections that
+are hard to find when working independently.
+Thank you for consideering my application. I’m excited about the posssibility of joining this program
+and would bring my full attention and energy to it.
+Sincerely,
+[name] [surname]
+
+
+

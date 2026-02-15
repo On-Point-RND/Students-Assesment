@@ -1,0 +1,114 @@
+[name]
+[surname]
+EDUCATION
+[location]
+Bachelor of Science Oilfield and Mining Geophysics (2019 – 2023)
+[location]
+Faculty of Geology and Geophysics
+CITIZENSHIP:
+Thesis: “Impact of CO₂ Injection on the petrophysical properties of
+[location]
+carbonate rocks based on laboratory and tomographic investigations”
+AGE:
+[location]
+22
+Master of Science in IT-Geophysics (2023 – 2025, expected)
+[location]
+Faculty of Geology and Geophysics
+CONTACT INFORMATION
+Faculty of Geology and Geophysics
+PHONE: Thesis: "Analysis of repeated x-ray CT data to study microstructural changes
++2 *** *** *** in samples and their correlation with petrophysical properties".
+E-MAIL: [email]
+PROFESSIONAL EXPERIENCE
+[compaany] — [location]
+Laboratory Assistant | Feb 2022 – Dec 2022
+Kazakh – native;
+English – B2 • Conducted petrophysical core analysis including permeability and
+acoustic measurements
+• Processed CT data and developed digital rock models for
+petrophysical analysis
+Scientific Laboratory Center, JSC Geologika — [location]
+Laboratory Engineer | Dec 2022 – Dec 2023
+• Performeed laboratory experiments to determine petrophysical
+properties of core samples
+• Participated in CO₂ injection research projects
+Research and Education Center "Gazprom Neft - NSU" — [location]
+Laboratory Assistant | Feb 2023 – Aug 2023
+• CT data acquisition and processing
+• Built digital rock models for petrophysical simulations
+Gazprom Neft Scientific and Technical Center – [location]
+Specialist | July 2024 – July 2024
+• The developed of automated system for filtration data processing
+Research and Education Center "Gazprom Neft - NSU" — [location]
+Engineer | Sep 2023 – present
+• CT application development and topological modeling based on
+digital cores
+• Applied ML/DL algorithms for segmentation and analysis of CT
+images
+Tomsk Polytechnic Universiity – [location]
+Engineer Programmer | Feb 2024 – present
+• Developed ML/DL algorithms for CT image segmentation and
+denoising
+• Integrated ML/DL solutions into scientific software
+PROJECTS
+• Implementaion of semantic segmentation for CT images using
+supervised approaches
+• Automation of segmentation procedures using self-supervised
+learning
+• ML-based microseismic monitoring system with event
+classification. I was responsible for the development of CNN-based
+module for automatic event detection
+• Developed software module for estimating relative permeability
+curves by solving inverse problems — complete pipeline implementation
+• Parallelized Kirchhoff migration algorithm with neural network-
+based travel time approximation
+MAIN CONFERENCES
+• Data Science in the Oil and Gas Industry (5th scientific and practical
+conference) – Application of Machine Learning Methods to
+Accelerate the Segmentation of CT Core Images
+• Scientific and Technical Conference: "Digital Technologies in
+Hydrocarbon Production – Modern Challenges" – Automatic
+Segmentation of Tomographic Images Using a Combined Self-
+Supervised and Supervised Approach
+• VII All-Russian Youth Scientific and Practical SchooI-Conference
+"Earth Sciences: Current State" – Estimation of Relative Phase
+Permeabilities Based on CT Visualization of Two-Phase Non-Steady-
+State Displacement
+• VII International Geological and Geophysical Conference &
+Exhibition "GeoEurasia-2024: Exploration Technologies — Science
+and Business" – Investigation of the Impact of CO₂ Injection on the
+Pore Structure of Carbonate Rocks Using CT Imaging
+• BalticPetroModel 2023, VII Baltic Scientific and Practical Conference
+– Changes in Reservoir Properties of Carbonate Rocks During CO₂
+Injection: Insights from Laboratory and CT Studies
+• 7th Scientific and Practical Conference “GeoBaikal-2022” –
+Detection of Bulk and Rod Waves in Acoustic Studies of Cylindrical
+Core Samples
+• 60th International Student Scientific Conference – Distributed
+Kirchhoff Migration Algorithm with Neural Network Travel Time
+Approximation
+TECHNICAL SKILLS
+• Programming Languages: Python, C, C++, Bash
+• Python Libraries: Keras, TensorFlow, PyTorch, Scikit-learn,
+OpenPNM, PoreSpy, Django, OpenCV
+• Databases: SQLite, PostgreSQL, InfluxDB
+• Machine Learning: Clustering (K-means, DBSCAN, OPTICS),
+Classification, Regression (KNN, Naive Bayes, SVM, Linear
+Regression, etc.)
+• Deep Learning: FCN, CNN, GAN, Self-Supervised Learning (SSL),
+Transformers
+• Parallel Computing: Parallel programming in C; experience working
+on HPC clusters
+• Digital Rock Analysis: Laboratory methods for petrophysical
+property determination
+• CT Data Analysis Software: Dragonfly, Avizo, PerGeos
+• TUTORING AND COMMUNITY ENGAGEMENT
+• Lead practical programming classes in Python for undergraduaate
+students
+• Mentored participants at the Technohack-24 hackathon
+• Delivered popular science lectures on machine learning for high
+schooI students
+• Actively involved in the Novosibirsk SEG Student Chapter: organized
+guest lectures and field schooIs and participated in open day events
+to promote geosciences among students

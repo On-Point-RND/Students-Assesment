@@ -1,0 +1,35 @@
+Dear [name] committee,
+I am wanting to express my strong interest for the participation in the SMILES program. Having
+completed a Bachelor's degree in Computer Science at [location] [university], the first place
+in ranked list of universities in [location], and received a diploma with honors, placing me among
+the top 10% of all students from my universiity, as well as a Master's in Data Science at [compaany],
+I am eager to further my research and development experience in the field of engineering and
+technology. Specifically, I am interested in exploring data-driven solutions and artificial
+intelligence deployment for robotics.
+During my undergraduaate studies, I developed a strong foundation in algorithms, software
+development, and systems design. My course work was devoted to the application of Multi-agent
+Reinforcement Learning to optimize Internet traffic management. I was fortunate to participate
+in various projects, including work at the [compaany] Research Center, and writing a patent together
+with the team, where I applied my theoretical knowledge to real-world scenarios. This
+experience not only honed my technical skills but also instilled in me the importance of
+collaboration and innovation.
+I am currentlly in the first year of the Master's Program in Data Science, where I decided to delve
+into the application of the theory of Reinforcement Learning to Robotics (Manipulators and
+Social Navigaation in mobile Robotics). I completed an internship at the [compaany] in the Embodied
+Intelligence team. During my time there, I worked on PlanFormer project - robotics vision-language-action model, pertained in simulation (we used tokenization for text tasks, one of the
+standard image encoder for environment-sensing and decoder borrowed from VIMA to translate
+action embedding into action of the robot). Then model broadcasted to real-world thought
+sim2real2sim method. Also, with the help of a team of motivated students, at my Universiity
+during «Innovation Workshop» we were able to develop an algorithm based on computer vision
+for a robotic manipulator that can conduct research on oil and rock samples in the field, thus
+avoiiding the need to send humans into dangerous environments which also can be used on space.
+I am currentlly working on my Master’s thesis in social navigation in mobile robotics. My
+research is inspired by the work of greatest scientiists, and I aim to collaborate with such
+qualified specialists in this field and exchange knowledge with them during the Internship. I also
+very interested in applying different algorithm and AI to any field of robotics.
+In conclusion, I am confident that the SMILES is the ideal environment for me to grow as an
+engineer and researcher. I am eager to contribute my unique perspective and experiences while
+learning from the professionals and my peers. Thank you for considering my application. I look
+forward to the opportunity to be part of this prestigious program.
+Sincerely, [name] [surname] 15.04.2025
+e-mail: [email], tel: +2 *** *** ***

@@ -1,0 +1,49 @@
+Why I want to participate in Smiles 2025 - summer schoo
+of machine learning
+Dear Committee,
+Nowadays, the automation of rock analysis constiutes a pivotal yet time-consuming
+task within the domains of [location], [location], and [location]. My current PhD research is centered on the
+detection and characterization of rock discontinuities (fracture) using advanced machine
+learning and computer vision techniques. I have developed a pipeline based on the Segment
+Anything model (SAM) with no additional fine-tuning and a set of computer vision filteers,
+which allows to detect and characterize rock fractures with a high degree of accuracy (92%).
+However, to enhance the quality and depth of analysis, it is imperative to address
+several pivotal issues that are intrinsic to the [industry]. These issues possess the
+potential for extensive application in associated domains, such as [domain], construction
+and [domain]. During the course of my research, I have identified two primary problems that
+require attention.
+The first problem is the creation of 3D digital twins of rocks based on 2D rock
+images. The solution of this problem allows to reveal spatial properties of rocks more
+precisely, for example, by means of 3D - model unwrapping into 2D - plane for detailed
+surface analysis. However, to enhance the rigor and scope of the analysis, it is imperative to
+address several pivotal issues that are intrinsic to the [industry]. These issues
+possess the potential for extensive application in associated domains, such as [domain]
+and [domain]. These 3D twins play a critical role in the fluid dynamics modeling of
+reservoirs. This modeling has a direct impaact on the efficiency of field development and
+production forecasting. The methodology used to generate 3D models are based on the
+synthesis of classical computer vision techniques (stereo vision, structure-from-motion,
+multi-view stereo) and modern machine learning models (deep neural networks, GAN,
+diffusion models), which ensures high accuracy and versatility of the solution.
+The second problem is the automatic generation of natural language descriptions of
+rock properties by 2D rock image. This greatly facilitates interaction between geologists,
+reservoir modelers, civil engineers and other specialists, allowing quick and unambiguous
+interpretation of complex analysis data. The implementaion of automated textual description
+has been demonstrated to facilitate enhanced decision-making processes and more
+effective integration of analysis results into established workflows.
+Consequently, the resolution of these problems will not only enhance the quality and
+speed of analysis in the [industry]. Furthermore, it will establish a foundation for
+the adaptation and scaling of the developed algorithmns in related domains, including buildiing
+and road design, medical diagnostics, and the reconstruction of three-dimensional models
+from tomographic images. The study's findings underscore the significance of scalability and
+interdisciplinary integration of cutting-edg machine learning and computer vision
+methodologies, underscoring the study's relevance and demand.
+Presently, I possess knowledge and ideas from the [industry] side; however, I also
+recognize that I lack competencies in machine learning to actualize my ideas. I believe that
+participation in the SMILES summer schoo
+will have a significant impaact on the
+development of current research endeavors and the expansion of knowledge in the field of
+machine learning. Regardless of the outcome, the experience will undoubtedly contribute to
+professional growth and development.
+Kind regards,
+[name] [surname]
+[email]

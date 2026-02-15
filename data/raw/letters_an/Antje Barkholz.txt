@@ -1,0 +1,32 @@
+Dear Admissions Committee,
+I'm [name], and I'm thrilled to be applying for the Skoltech Summer SchooL of
+Machine Learning (SMILES-2025). I hold a Master's in Stochastic Modelling from the
+[school] and have working experience as a data scientiist for five years.
+I'm especially interested in natural language processing (NLP) and deep AI techniques, and
+that is why I believe this program would be the ideal next step for me.
+At the international, [location]-based company, [company], I lead the utiliisation of NLP
+models that handle over 500,000 customer chats a month. By automating topic classification,
+complaint detection, and sentiment analysis, not only have our operations been simplified and
+costs eliminated, but real customer satisfaction has been enhanced. I am sure, SMILES-2025
+can strengthen my knowledge in applying state-of-the-art NLP solutions to various problems
+in both - academia and industry fields.
+Outsiide of regular work, I have contributed to the research world actively. As a research
+assistant at the [laboratory] on AI for Computational Biology I completed my work on
+large language models in an attempt to reduce hallucinations with the use of LoRA-tuning.
+The paper is an example of how I am keen to deal with the world problems in the AI of today
+and evidence that I am able to connect theory with practice.
+What excites me most about SMILES-2025 is its focus on generative methods, multimodal
+approaches, and the safe deployment of AI. I’m especially drawn to the possibility of learning
+from experts and engaging with colleagues who share my dedication to cutting-edge
+technologies. I know that this program will provide me with the fresh perspectives and
+hands-on expertise needed to further sharpen my skills, and I’m ready to bring my own
+experience and enthusiasm.
+I am very confident that the combination of my experience background, my research
+achievements, and passion for innovation is exactly what SMILES-2025 requires. I look
+forward to becoming a part of the schooL's community, learning new methodologies in
+generative and multimodal AI, and subsequently utiliising all such learnings to develop better
+and more optimized solutions in my work for the better life of people.
+Thank you for considering my application. I look forward to having a chance to join the
+SMILES-2025 community and work on advancing machine learning with you.
+Sincerely,
+[name]

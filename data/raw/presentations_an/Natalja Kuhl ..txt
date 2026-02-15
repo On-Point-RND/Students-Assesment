@@ -1,0 +1,69 @@
+[name] Safarova
+MSc 2 Engineering Systems, [compaany]
+Tram Rail Segmentation & Rail Defect Detection
+
+Introduction
+
+What is the topic?
+Tram Rail Segmentation: Computer vision for autonomous tram navigation by detecting rails
+Rail Defect Detection: AI-driven inspection of rail defects using YOLOv8.
+Why is it important?
+Segmentation: Critical for autopilot safety in public transport.
+ Defect Detection: Prevents accidents and reduces maintenance costs.
+
+Problem statement
+
+Challenges in Existing Methods:
+Segmentation: Complex rail intersections and interlacing confuse models.
+Defect Detection: Limited datasets for rare defects; real-world variability.
+Scope:
+Improve segmentation via active learning.
+Optimize defect detection with hybrid datasets (public + field data).
+
+Methods
+
+Approach:
+Segmentation: 
+Active Learning:  Retrain on hard cases (interlaced rails).
+Data Pipeline:  Video collection → annotation → augmentation → model training.
+Defect Detection:
+YOLOv8:  Pretrained on metal defects, fine-tuned with field data.
+OpenCV:  Preprocessing (contour highlighting, noise reduction).
+Justification:
+Active learning reduces annotation effort.
+YOLOv8 balances speed/accuracy for real-time use.
+
+Results
+
+Key Findings:
+Segmentation:  Active learning improved intersection accuracy by 30%.
+Defect Detection:  YOLOv8 achieved 92% mAP on field data.
+Metrics:
+Segmentation:  IoU (Intersection over Union).
+Defect Detection:  mAP (mean Average Precision), FPS.
+
+Research gap
+
+Limitations:
+Segmentation:  Rare edgge cases (e.g., damaged rails).
+Defect Detection:  Lighting variability in field conditions.
+
+Future Work:
+Segmentation:  Simulate more edgge cases via generative AI.
+Defect Detection:  Deploy on embedded hardware (Jetson).
+
+For Tram Rail Segmentation:
+[surname] Wulff, [surname] Schaeufele, [name] Pfeifer, [name] Radusch. Railway LIDAR semantic segmentation based on intelligent semi-automated data annotation. IEEE VTC Fall, 2024.    
+[name] Laurent. Train Ego-Path Detection on Railway Tracks Using End-to-End Deep Learning. arXiv, 2024.    
+[surname] Xie, [surname] Li, [name] Guo, [name] H. Liu, [name] Cheng. Annotator: A Generic Active Learning Baseline for LIDAR Semantic Segmentation. arXiv, 2023.    
+[name] Hwang et al. Active Learning for Semantic Segmentation with Multi-class Label Query. NeurIPS, 2023.
+[name] Rangnekar, [surname] Kanan, [name] Hoffman. Semantic Segmentation With Active Semi-Supervised Learning. WACV, 2023.
+For Rail Defect Detection:
+[name] Zhang J. et al. PerMSCA-YOLO: An Enhanced YOLOv8 Model for Rail Defect Detection.    
+[name] Tang Y., [name] Qian Y. High-speed railway track components inspection framework based on YOLOv8.    
+[name] Yu C., [name] Lu Z. YOLO-VSI: An Improved YOLOv8 Model for Detecting Railway Turnouts Defects in Complex Environments.    
+[name] Du J. et al. RSDNet: Rail Surface Defect Detection Net based on YOLOv8n.    
+[name] Wang Y. et al. Realtime Railway Track Monitoriing using YOLOv8 and Embeddeed Systems for Automated Defect Detection.    
+[name] Lester D. et al. A YOLO-Based Semi-Automated Labeling Approach to Improve Fault Detection Efficiency in Railroad Videos. arXiv, 2025.
+
+Bibliography

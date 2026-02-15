@@ -1,0 +1,23 @@
+Motivation Letter for SMILES-2025
+Dear Organizers,
+My name is [name] [surname], and I am a first-year Computer Science and Technology student at [location] [university]. From the very beginning of my academic journey, I have consciously chosen to specialize in computer technologies and machine learning because I see it not just as the future of technology, but as a field with limitless potential for solving real-world problems. Generative models and their rapid development particularly inspire me, and I am genuinely eager to contribute to this domain.
+For me, SMILES-2025 represents a unique opportunity to immerse myself in cutting-edge AI methodologies that are not yet fully covered in my undergraduate curriculum. I believe in learning by doing, which is why I am especially drawn to your school’s hackathons and hands-on workshops. Working on real-world challenges alongside talented peers and industry experts will undoubtedly provide me with far more valuable experience than traditional lectures alone.
+My ML journey already includes several interesting projects:
+1. Development of a Telegram bot for olympiad participants with reminder, scheduling, and results tracking functionality (Python, Telebot, SQL). The project was successfully delivered to the client, though the bot is currently not maintained as it fulfilled its temporary purpose.
+2. Research on neural network training methods for solving ICPC-level problems, where I combined algorithmic approaches with machine learning techniques.
+Additional Technical Projects:
+• RISC-V Processor Simulator with Cache Support
+Developed a RISC-V processor model with ASM-to-machine code translator and cache memory support (LRU/bit-pLRU policies, write-back/look-through implementations)
+Tech: Java, Assembly, IntelliJ IDEA
+• Parallel 3D Shape Calculation (Monte Carlo + OpenMP)
+Implemented volume calculation via Monte Carlo method with single-threaded, auto-distributed multithreaded, and manual OpenMP approaches
+Tech: C++, C, Visual Studio 2022, CLion
+*While these projects aren’t directly AI-related, I plan to enhance them with ML capabilities after completing SMILES-2025.
+Following the summer school, I plan to revamp my olympiad bot by adding intelligent features based on generative models - particularly a personalized recommendation system that would analyze participants’ progress and suggest optimal preparation strategies.
+Participating in SMILES-2025 would allow me not only to learn from the international best practices but also establish meaningful connections with like-minded researchers from other countries.
+As a first-year student, I fully acknowledge that I still have much to learn. However, my motivation goes beyond mere curiosity—I am committed to putting in the effort required to excel. I am already independently exploring transformers and reinforcement learning, and after the school, I plan to apply my new knowledge to practical projects, potentially even in collaboration with technology companies like [company] that are actively investing in AI solutions.
+I would be thrilled to demonstrate how my enthusiasm and dedication can add value to your program. Thank you for considering my application!
+Best regards,
+[name] [surname]
+[email]
++2 *** *** ***

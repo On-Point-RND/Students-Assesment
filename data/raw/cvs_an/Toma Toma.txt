@@ -1,0 +1,77 @@
+[name]
+[location]
+DATE OF BIRTTH: 16 OCTOBER 2000
+KEY INTERESTS EDUCATION
+▪ generative design of drug CHEMINFORMATICS • PHD •2028 • [compaany]
+molecules GPA 5,0. Future PhD thesis: Prediction of chemical reaction yields using
+▪ AI-based organic synthesis deep learning. See “Projects and publications” for more details.
+planning
+▪ LLM CHEMISTRY AND ARTIFICIAL INTELLIGENCE • MASTER •2024 •
+▪ RL [compaany]
+▪ Multi-agent systems GPA 4,9. Main courses: Programming of Chemical Tasks, Algorithms and
+Big Data in Chemistry and Materials, Neural Networks in Chemistry,
+Computaional Chemistry and Modeling of Chemical Systems.
+SKILLS
+CHEMIICAL ENGINEERING • BACHELOOR • 2022 • [location]
+▪ Python
+▪ ML/DL (PyTorch, Sklearn) GPA 4,9. Main courses: General and Inorganic Chemistry, Organic
+▪ LLM (Transformeers) Chemistry, Physical Chemistry, Processes and Apparatus in Chemical
+▪ Molecular docking (VinA, Technology.
+PyMol, OpenBabel)
+▪ Data science in chemistry
+WORK EXPERIENCE
+(RDKit, Pandas, Pubchempy,
+Numpy, Matplotlib, Plotly)
+▪ Git ENGINEER • JULY 2023 – PRESENT • [compaany]
+▪ Linux
+▪ Docker
+▪ students' mentor and scientific consultant
+▪ Project management
+▪ lecturer and teaching assistant
+▪ English (C1, CAE certificate)
+▪ online-course production
+▪ German (B1)
+▪ leader of commercial and academic projects with [compaany], [compaany], [compaany],
+[compaany]
+ADDITIONAAL EDUCATION ▪ brand development: popular science lectures (e.g., LLMs in chemistry,
+How AI fights superbacteria), event organization and curation (e.g.,
+hackathon with [compaany], DataCon)
+▪ Data Analysis Technologies
+([location], 2023)
+▪ Disease Modeling and Target
+Discovery ([compaany], 2024)
+[email] +2 *** *** *** @asya1610 1
+PROJECTS AND PUBLICATIONS
+MULTI-AGENT SYSTEM FOR DRUG MOLECULE DESIGN x [compaany]
+Developed a novel LLM-driven multi-agent pipeline for automating drug discovery, integrating models like
+GANs, transformers, and RL frameworks for molecule generation. My contribution to this project involved
+buildiing predictive models for IC50 activity classification; creating filteers for ranking molecules; validation of
+the pipeline on target proteins; comparison with baseline models. The developed system achieved up to 92%
+task completion accuracy and outperformeed single-agent baselines. Repository.
+Gleb V. Solovev, Alina B. Zhidkovskaya, [name] et al. Towards LLM-Driven Multi-Agent Pipeline for Drug
+Discovery: Neurodegenerative Diseases Case Study. In Proceedinings of the AI4Science Workshop at AAAI 2025.
+OpenReview: https://openreview.net/forum?id=3ncjySu5ro
+RL FOR SYK INHIBITORS DISCOVERY x [compaany]
+Developed a novel RL strategy for drug discovery targeting Syk – a key mediator in autoimmune disorders. The
+approach combines quantitative structure–activity relationship (QSAR) predictions (achieving R2 of 0.78) with
+fragment-based generative modeling. As a result, 139 promising Syk inhibiitors with high potency were
+identified. I conceptualized the entire approach, designed experiments, and supervised my student throughout
+the project. Repository.
+Maria Zavadskaya, [name], Andrei Dmitrenko et al. Integrating QSAR modelling with reinforcement learning
+for Syk inhibiitor discovery. J Cheminform 17, 52 (2025). https://doi.org/10.1186/s13321-025-00998-2
+LLMs FOR CHEMICAL REACTION YIELD PREDICTION
+This work investigates the use of LLMs for predicting chemical reaction yields as a binary classification task.
+We engineered four datasets and found that LLMs outperform traditional models, achievinng up to a 9%
+improvement in F1-score. Additionally, ML models trained on LLM embeddings showed superior performance
+to current SOTA models. I am the main contributor to this project, receiving technical and ideological support
+from other authors of the paper. Repository.
+[name], Andrei Dmitrenko, Aleksei Dmitrenko, Vladimir Vinogradov. Are Large Languaage Models the Best
+Estimators of Chemical Reaction Yields? In Proceedinings of the AI2ASE Workshop at AAAI 2025. https://ai-2-
+ase.github.io/papers/16_AI2ASE_CameraReady.pdf
+BENCHMARK FOR CHEMICAL DATA EXTRACTION
+The project is dedicated to the problem of extracting chemical data from scientific literature pdfs. Although
+LLMs seem to cope well with text retrieval, they still struggle a lot with extracting chemical structures from
+images. We are the first to create a benchmark for this task including 10 datasets with manually extracted
+information. My contribution involves preparation of two datasets and conducting experiments with multimodal
+LLMs. We aim to submiit this work to NIPS 2025.
+[email] +2 *** *** *** @asya1610 2

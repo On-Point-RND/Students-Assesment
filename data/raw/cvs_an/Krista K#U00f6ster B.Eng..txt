@@ -1,0 +1,15 @@
+[name] [surname]
+Email: [email]
+telegram: @[name][surname]
+2022- [compaany] (St. [location] National Research University of Information Technologies, Mechanics and Optics), Faculty of Applied Informatics (FPIn), Intelligent Systems in the Humanitarian Sphere
+1.07.2024- Summer internship at [compaany]
+26.08.2024 as a " Technical Documentation Machine Development Engineer" Educational program Fintech Hub of the Bank of [location] and [compaany].
+Learning LITE: Basic level".
+Skills 2024 Completed the course on retraining “bonus_track (Methods of data analysis)", [compaany].
+● Foreign language: English, level B2 - Upper Intermediate
+● Python, R, C#, SQL 2024- Educational program on AI and machine learning
+● databases: PosgreSQL, MongoDB, Redis; To this days "YADRO AI school” from [compaany] and Higher School of Digital Culture [compaany].
+● notations for describing and modeling business processes (DFD, BPMN, UML) and ER database models;
+● Docker, Github;
+● DITA, BitBucket, Jenkins, Oxygen Publishing Engine; February [compaany] Educational Intensive "AI Learning Lab”
+● python libraries for data analysis (Pandas, NumPy, SciPy, Matplotlib, Plotly, scikit-learn, TensorFlow, PyTorch), Dash web framework

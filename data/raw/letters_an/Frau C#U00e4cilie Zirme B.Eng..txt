@@ -1,0 +1,14 @@
+[name][surname]
+[email] | +2 *** *** *** | www.linkedin.com/in/[name]-[surname]/
+13.03.25
+Hiring Committee
+[compaany]
+Subject: Application for Data Analytics Internship
+Dear Hiring Team,
+I am excited to apply for the Data Analytics Internship at [compaany], as it perfectly aligns with my passion for data-driven insights, artificial intelligence, and international development. As a data enthusiast with hands-on experience in AI and analytics, I am eager to contribute to [compaany]'s mission by leveraging my skills in Python, SQL, and Power BI to drive impactful solutions.
+Currently, I am actively engaged in AI development, data analytics, and teaching, having educated over 500 students in Python, NumPy, and machine learning basics. My experience also includes developing AI-powered solutions, such as [name], a voice assistant supporting the [location] language, and [name], a startup integrating AI and VR to support women artisans. These projects reflect my ability to analyze complex datasets, extract meaningful insights, and apply technology to solve real-world challenges.
+Beyond technical expertise, I have strong research and organizational skills, having been involved in [organization], [organization], and AI for Good initiatives. These experiences have enhanced my ability to work in diverse, global teams while handling data-driven projects in fast-paced, impactful environments.
+I am eager to bring my analytical skills, problem-solving mindset, and passion for data science to [compaany]. This internship presents an invaluable opportunity for me to contribute meaningfully while growing in an international setting. I look forward to the possibility of discussing how my background can add value to your team.
+Thank you for your time and consideration. I look forward to your response.
+Best regards,
+[name]

@@ -1,0 +1,45 @@
+[name]
+Tel.: +2 *** *** *** | Email: [email]
+Education
+[location] Institute of Physics and Technology ([location]), September 2019 – June 2023
+Bachelors in Applied Mathematics and Computer Science
+Courses: Math, Probability Theory, Mathematical Statistics, Discrete Optimization, Programming on Python,
+Deep Learning Schoo
+[location] - [location], September 2023 – June 2025
+MSc in Intelligent Systems
+Generative Models, Signal Processing
+[compaany], September 2023 – June 2025
+MSc in Data Science
+Machine learning, Deep Learning, Numerical Linear Algebra, Software Engineering
+Professional Experience
+Institute for Informaation Transmission Problems ([location]) – [location], July 2021 – March 2023
+Researcher – Lab «Reproduction and synthesis of color»
+● Designed a novel color vignetting correction method, outperformiing existing techniques by 3x in
+key metrics.
+● Published results in a peer-reviewed journal ([compaany]).
+AIRI Institute – [location], June 2024 – now
+Researcher – Fusion Brain Lab
+● Designed regularization methods for text-to-image diffusion models, improving personalization
+quality by 15-20% in CLIP-T metrics and speeding up the method’s operation time by 2 times.
+● Developed a knowledge distillation DreamBooth+LoRA-based framework, enabling adaptable and
+30% faster fine-tuning.
+● Proposed a hybrid training pipeline integrating latent space optiomization with cross-attention
+guidance, reducing artifacts in generated images.
+● Extended personalization techniques to SDXL and Flux, adaptiing methods for larger-scale models
+while maintaining computaional efficiency.
+● Conducted ablaation studies on loss functions and noise schedules, identifying key factors for stable
+training of personalized diffusion models.
+Languages and IT Skills
+Languages: English (advanced), Russian (native)
+IT skills: ML, DL, Diffusion Models, Python (Numpy, PyTorch, Pandas, Matplotlib, Scikit-learn,
+Scipy, Seaborn, etc.), SQL, C & C++, Git, LaTeX, Microsoft Office
+Additional Experience
+Projects 2023 – 2025
+● Adaptation of text-to-image diffusion model Kandinsky for image editing and personalized
+generation task
+● Diffusion Dictionary Learning marrying SAE and Diffusion models
+● Machine learning for functional brain mapping improved a surface-based convolutional neural
+network to predict individual task contrasts)
+● Robustness of time-series models to adversaarial attacks (trained 3 time series NNs with LSTM, CNN,
+Transformer; implemented attacks IFGSM, DeepFool, SimBA; compare metrics)
+● The Hidden Linear Structure in Score-Based Models and its Application

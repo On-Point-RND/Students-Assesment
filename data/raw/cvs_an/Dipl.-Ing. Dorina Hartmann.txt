@@ -1,0 +1,44 @@
+[name] [surname]
+Machine Learning Enthusiast | Data Analyst & Developer | LLM Contributor
+Email: [email]
+Education
+[location] [University], [location]
+Bachelor’s Degree in Economics, 2016
+Professional Experience
+Data Analyst & Developer
+2016 – Present
+• Over 7 years of experience working with big data in large [compaany] such as [compaany], [compaany], [compaany], and [compaany].
+• Deep expertise in analytics, automation, and software development, blendiing economic knowledge with data-driven solutions.
+• Programming languages: Python, SQL, Go, C/C++, R.
+• Applied machine learning techniques to automate and optimize business
+processes.
+• Experience with ML/DL frameworks: scikit-learn, TensorFlow, PyTorch.
+LLM Training Project – [compaany]
+Contributor / Developer of Question-Answer Datasets
+• Developed complex, multi-level Q&A datasets for training large language models
+(LLMs).
+• Crafted questions with deep logic, recursion, nested conditions, and multi-topic
+reasoning (e.g., ML, statistics, R, distributed systems).
+• Focused on high-quality prompt engineering to simulate real human cognitive
+processes.
+• Supportiing LLM-based AI solutions in both applied and research contexts.
+Scientific and Educational Involvement
+• Regular participant (as a listener) at academic and applied conferences and
+seminars on AI, ML, and data science.
+• Delivered an informal internal lecture: “How Artificial Intelligence is Changing
+Human Life for the Better”.
+• Passionate about ethical AI, public understanding, and interdisciplinary impact of
+technology.
+Key Skills & Tools
+• Languages: Python, SQL, Go, C/C++, R
+• Frameworks: scikit-learn, TensorFlow, PyTorch
+• Tools: Git, Docker, Apache Airflow, Apache NiFi
+• Focus Areas: Data preprocessing, automation, analytics, LLM question generation
+• Soft Skills: Communication, collaboration, mentorship, continuous learning
+Research Interests
+• Large Language Models (LLMs)
+• Multimodal Learning
+• Multi-Agent Systems
+• Generative AI
+• Self-Supervised Learning
+• Safe and Ethical AI

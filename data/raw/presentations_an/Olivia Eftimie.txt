@@ -1,0 +1,132 @@
+            
+G e n e r a t i n g S y n t h e t i c
+D a t a s e t s f o r D i v e r s e
+E D A C o - P i l o t s
+[name]
+Head of the department at [company]
+Paper for [company] startup
+I n t r o d u c t i o n
+This research focuses on methods for
+generating and evaluating specialized
+synthetic datasets designed for training
+AI assistants (co-pilots) in the field of
+Electronic Design Design Automation (EDA)
+Importance of the research: AI tools in EDA, such as RTL code generators
+from text descriptions, conversational systems for engineers, and automatic
+testbench generators, require large volumes of high-quality data for
+training. Real-world data is often limited, proprietary, or expensive to collect.
+Synthetic data offers a scalable solution to this problem, enabling the
+creation of diverse and task-specific datasets necessary for the effective
+operation of AI assistants.
+Goal of the review: To review and systematize current approaches for
+generating and evaluating synthetic datasets tailored for various AI
+assistant tasks in EDA, drawing on findings from recent research, thereby
+informing strategies for data generation within [company].
+Background
+The field of Electronic Design Automation is witnessing a surge
+in the application of AI, particularly Large Language Models
+(LLMs), to automate and assist in complex chip design tasks.
+This research is conducted in the context of [company], a startup
+dedicated to developing specialized LLMs tailored for chip
+design. [company] aims to create powerful AI co-pilots that can
+significantly accelerate the design cycle and enhance engineer
+productivity. However, the performance and capabilities of
+[company]'s models, like other AI systems in this domain, are
+fundamentally dependent on the quality, diversity, and
+relevance of the data they are trained on. Addressing the data
+scarcity challenge through effective synthetic data generation is
+therefore critical to [company]'s mission.
+P r o b l e m S t a t e m e n t
+The core problem is the need to create high-
+quality, diverse, and task-specific synthetic
+datasets for training AI assistants in EDA. Different
+tasks (e.g., RTL generation, conversational
+support, testbench generation) require data with
+different formats and content.
+Scope: The review focuses on methods for generating
+synthetic data for three key types of EDA co-pilots: prompt-
+to-RTL code generators, conversational design support
+systems, and testbench generators, using insights from the
+attached research papers.
+C h a l l e n g e s
+Functional Correctness Domain Complexity
+Ensuring that generated RTL code is syntactically correct, EDA requires deep knowledge of hardware design
+synthesizable, and functionally accurate is a primary specifics, Hardware Description Languages (HDLs), and
+challenge. verification methodologies.
+Data Diversity Quality Evaluation
+Generating data that covers a wide range of design
+styles, complexity levels, and edge cases is necessary
+is difficult .
+M e t h o d s
+Large Language Models (LLMs) Diffusion Models
+Models like GPT, CodeLlama, and their domain-adapted An alternative generative approach explored in RTL-
+variants (ChipNemo, RTLLM, Verilog-CodeLlama ). Diffusion.
+Domain-Adaptive Pre-Training (DAPT) Fine-Tuning
+Pre-training or continued training of models on large Further training models on smaller, task-specific
+corpora of text and code from the EDA domain. datasets (real or synthetic), Includes Parameter-Efficient
+Fine-Tuning (PEFT) methods like LoRA.
+Prompt Engineering Retrieval-Augmented Generation (RAG)
+Using text prompts to guide LLM generation. Includes Using external knowledge bases to provide context to the
+"hard" and "soft" prompts. LLM during generation.
+M e t h o d s
+Why these methods? LLMs excel at text and code
+generation. Diffusion models offer different
+inductive biases potentially useful for structured
+code. DAPT/FT adapt general models to EDA
+specifics. Prompts direct generation. RAG enhances
+factual accuracy.
+How it works: LLMs predict the next token in a
+sequence. Diffusion models reconstruct data from
+noise. DAPT/FT update model weights on domain
+data. Prompts provide input context. RAG retrieves
+relevant information before generation.
+Data & preprocessing: Data is collected from
+various sources (GitHub, articles, proprietary
+databases, textbooks). Key preprocessing steps
+include cleaning (filtering by size, quality, removing
+duplicates), creating "instruction-code" or "problem-solution" pairs for training, and splitting the data.
+Future opportunities:
+Hybrid models (generative + formal methods), improved generation control
+mechanisms, focus on artifact consistency.
+F u t u r e O p p o r t u n i t i e s
+Controllable Generation: Researching techniques for explicit control over the characteristics of
+generated code (PPA, architectural style, standard compliance).
+Artifact Consistency: Developing methods for simultaneously generating related design artifacts
+(RTL, testbench, synthesis scripts, documentation) while ensuring their mutual consistency.
+Adaptive and Interactive Systems: Creating frameworks where models adapt generation based on
+feedback (from tools or humans) or interactively request clarification.
+Comprehensive Benchmarks: Developing and publishing more complex and diverse open
+benchmarks for evaluating AI tools across a broad spectrum of EDA tasks.
+Generation Efficiency: Optimizing synthetic data generation processes using PEFT and specialized
+model architectures.
+Open Collaboration: Encouraging the creation and sharing of open synthetic datasets and
+benchmarks to accelerate community progress.
+1. Anna Goldie, Azalia Mirhoseini, Hao Zhou, Irene Cai, Christopher D. Manning - Synthetic Data
+Generation & Multi-Step RL for Reasoning & Tool Use, 2025
+2.Zeyu Qin, Qingxiu Dong, Xingxing Zhang, Li Dong, Xiaolong Huang, Ziyi Yang - Scaling Laws of
+Synthetic Data for Language Models, 2025
+3.Jiyuan Ren, Zhaocheng Du, Zhihao Wen, Qinglin Jia, Sunhao Dai, Chuhan Wu, Zhenhua Dong -
+Few-shot LLM Synthetic Data with Distribution Matching, 2025
+4.Giulia DeSalvo, Jean-Fraçois Kagy, Lazaros Karydas, Afshin Rostamizadeh, Sanjiv Kumar - NO MORE
+HARD PROMPTS: SOFTSRV PROMPTI NG FOR SYNTHETIC DATA GENERATION, 2024
+5.Qingxiu Dong, Li Dong, Xingxing Zhang, Zhifang Sui, Furu Wei - SELF-BOOSTING LARGE
+LANGUAGE MODELS WITH SYNTHETIC PREFERENCE DATA, 2024
+6.Andre Nakkab, Sai Qian Zhang, Ramesh Karri, Siddharth Garg -Rome was Not Built in a Single Step:
+Hierarchical Prompting for LLM-based Chip Design, 2024
+B i b l i o g r a p h y
+7.Zenng Wang, Lilas Alrahis, Likhitha Mankali, Johann Knechtel and Ozgur Sinanoglu - LLLMs and the
+Future of Chip Design: Unveiling Security Risks and Building Trust, 2024
+8.Xu Guo and Yiqiang Chen - Generative AI for Synthetic Data Generation: Methods, Challenges and
+the Future, 2024
+9.Mingjie Liu, Teodor-Dumitru Ene, Robert Kirby, Chris Cheng, Nathaniel Pinckney, Rongjian Liang,
+Jonah Alben, Himyanshu Anand, Sanmitra Banerjee, Ismet Bayraktaroglu, Bonita Bhaskaran, Bryan
+Catanzaro, Arjun Chaudhuri, Sharon Clay, Bill Dally, Laura Dang, Parikshit Deshpande, Siddhanth
+Dhodhi, Sameer Halepete, Eric Hill, Jiashang Hu, Sumit Jain, Ankita Jindal, Brucek Khailany, George
+Kokai, Kishor Kunal, Xiaowei Li, Charley Lind, Hao Liu, Stuart Oberman, Sujeet Omar, Ghasem
+Pasandi, Srreedhar Pratty, Jonathan Raiman, Ambar Sarkar, Zhengjiang Shao, Hanfei Sun, Pratik P
+Suthar, Varun Tej, Walker Turner, Kaizhe Xu, Haoxing Ren - ChipNemo: Domain-Adapted LLMs for
+Chip Design, 2024
+10.Yonggaan Fu, Yongan Zhang, Zhongzhi Yu, Sixu Li, Zhifan Ye, Chaojian Li, Cheng Wan, Yingyan
+(Celina) Lin - GPT4AIGChip: Towards Next-Generation AI Accelerator Design Automation via Large
+Language Models, 2025
+T h a n k y o u !

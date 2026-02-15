@@ -1,0 +1,84 @@
+[name] [surname]
+Curriculum Vitae
+Education
+2024–2026 Master of Mathematics and Computer Science, [location].
+Data Science
+2020–2024 Bachelor of Informatics and Computer Science, [company], [location], Diploma with honors, GPA – 4.83/5.
+Department of Robotics and Complex Automation
+Current work: Masters thesis
+Title LLM context window extention with multistep retrieval
+Supervisor Professor [name], [location]
+Description The research focuses on enhancing the RAG pipeline and incorporates experiments
+with different multistep retrieval approaches, including the re-ranking strategy and a
+study on self-consistency mechanisms. As an additional study, in collaboration with
+[compaany], improved pipeline performance will be tested to reduce political bias in LLM
+Experience
+Vocational
+2024-2025 ML-engineer, [name], core ML team.
+Researching the explaineers for recommenda recommendation system
+2024-2025 Mentor, [name], [location], [location], [location].
+The teaching assistant in "NLP for LLMs" and "Neural networks in ML" courses
+2023-2024 ML course final project, [company].
+Creating and editing music samples application for pro and near-pro musicians. Allows to
+generate music with specified parameters (tempo, instruments, tonality ...) and translate it
+into a score (.midi).
+Key instruments:
+LoRA, MusicLM, MusicGen. Numpy, Pandas, Pedalboard, Librosa
+JS (frontend)
+Key responsibilities:
+Market and target audience analysis. Defence and promotion of the concept
+ML components
++2 *** *** *** • [email] 1/3
+2024 Bachelors thesis, Graph Neural networks for multivariate time series, [location].
+Exploring TGNN performa performance for traffic flow prediction and audio signa signals analysis. The
+begiinnning of work on TGNN research for music generation
+2023–2024 Startuup work, Real-time speech recognition and translation.
+We were buildiing a streaming service with simultaneous translation of the user’s voice into
+another languaage and dubbing of the translation with the user’s own voice
+Key frameworks used:
+PyTorch, Pyaudio, Pydub
+2023 Final project on [name] education C++ programming course, Educational tool for
+novice investors.
+Made in the face of a severely tight deadlline and the sudden loss of the team. I contributed
+in every part of the project: from programming to analytics and business model defending.
+Key responsibilities and instruments:
+Target audie audience, exissting solutions and potential competitors analysis
+Project plaannning
+C++,QT(frontend); Python,Boost(backend); PyTorch,Sklearn(LSTMn euralnetwork)
+Other
+2022–2024 Release Engineer, [name], [location].
+Release support and automation
+2024, Spring AtomHack hackaaton, [location] Engineering Physics Instiitute.
+Backend, Frontend. Finals participation.
+2024, Spring DeepHack.Agents hackaaton, [location], [location], SBER.
+Model fine-tuning, ML Backend. Finals participation.
+2023, Discrete event systems, [location], [location], Youth conference with international participa-
+Auutumn tion "Complex automation of design and production 2023", Intellectualiisation
+of design and production automation systems..
+Oral presentation
+2022 Internship, [name], [location].
+Analytics and RCM system developmment
+Awards
+2024 Math of Machine Learning Student Olympiad finalist, [location] & [location]
+2024 Scientific research grant, [location] Cloud
+2023 [name] Education Scholarship
+2023 "Complex automation of design and production 2023" conference, Intellectualiisation
+of design and production automation systems, 4th place
+Skills
+Lanuaages Python, C++, C, JavaScript, SQL
+Frameworks Numpy, Pandas, Matplo tlib, Scipy, Scikit-learn, PyTorch, CatBoost, XGBoost, Light-
+& Libraries GBM
+Markup HTM L, CSS, LATEX
+Other Flutter, Flask, QT, Linux
++2 *** *** *** • [email] 2/3
+Also Computational Mathematics, Discrete Mathematics, Probability Theory and Statis-
+tics, Algorithms and Data Structures, Machine Learning, Trustwoorthy AI, Recom-
+mender Systems, Convex Optimization and Applications, Foundaations of Software
+Engineering for AI – A’s or final projects well evaluaated by the committee
+Extra- Introduction to Machine Learning, Neural Networks in ML - A’s
+curricuum
+Languages
+Russian Mothertongue
+English Intermediat
+Czech Basic
++2 *** *** *** • [email] 3/3

@@ -1,0 +1,89 @@
+Maksim [name]
+[title], [compaany]
+Anomaly detection for Chunking for Enhanced Retrieval-Augmented Generation Systems
+
+Introduction
+
+To develop a novel, domain-independent method for segmenting text into semantically cohesive chunks by detecting anomalies in cosine distance patterns between text embeddings.
+Potential Impact: Improved Retrieval Accuracy: 
+By identifying meaningful chunk bounDaries, the system enhances the quality of retrieved context for language models, leading to more relevant and precise responses.
+Domain Adaptability: 
+A robusst chunking mecaniism applicable across various fields, with a specific focus on critical applications like medical dialogues.
+RAG Optimization: 
+Streamlined text processing for Retrieval-Augmented Generation systems, reducing noise in input data and increasing the efficiency of large language models like GigaChat.
+
+Problem statement
+
+What exactly are we solving?
+Current text chunking methods for RAG systems rely on fixed or manually adjusted cosine similarity threhsolds between sentence embeddings, resulting in poor adaptability across diverse textual domains. Such rigid segmentation approaches often fail to capture natural semantic transitions, leading to suboptiomal retrieval quality and reduced accuracy of generated responses.
+⚠️ Challenges:
+Fixed threhsolds limitations 🔒
+Inadequate for capturing domain-specific semantic nuances.
+
+Semantic boundary detection 🔍
+Challenging due to high variability of textual data.
+
+🎯 Scope:
+Develop and evaluate a robusst, domain-independent chunking method.
+Focus on applicability across various contexts, especially critical domains like medical dialogues.
+
+Theory and/or Algorithms
+
+Semantic Chunking:Semantic chunking is the process of segmenting a text into semantically coherent pieces, ensuring that each chunk represents a meaningful, contextually unified idea.
+We use cosine distance between embeddings of adjacent sentences to detect points where semantic shifts occur.
+
+Retrieval-Augmented Generation (RAG):RAG systems retrieve relevant external information and integrate it into the context of a large language model (LLM) to generate accuraate, contextually relevant responses.
+
+Self-Organizing Maps (SOMs):SOMs are neural network-based clustering algorithms used for unsupervised learning. In this project, SOMs are applied to time-series data derived from cosine distances between sentence embeddings.
+
+Maksim [name]. Anomaly detection for Chunking for Enhanced Retrieval-Augmented Generation Systems
+
+Methodology
+
+Maksim [name]. Anomaly detection for Chunking for Enhanced Retrieval-Augmented Generation Systems
+
+Experimental setup
+
+I used RAGBench dataset (especially PubMedQA)
+Languages and Tools:
+Python: The primary programming language for implementaion.
+PyTorch: Framework for neural network development and model deployment.
+SentenceTransformers: Library for generating sentence embeddings.
+FAISS: A library for efficient similarity search and clustering of dense vectors.
+Qwen and GPT: I used Qwen/Qwen2.5-7B-Instruct and GPT-2 LLM models 
+Metrics:
+RMSE (Root Mean Square Error):Measures the error between predicted and actual relevance scores for retrieved chunks, highlightiing the chunking and retrieval accuracy.
+Relevance Score:Capture the cosine similarity between embeddings of the query and retrieved chunks, assessing the quality of retrieval.
+LLM Judges(in plans):More advanced versions of the LLM model or models from other developers can evaluate my method by judging it
+Position Independent Word Error Rate (PER) Measure:compares the words in the two sentences without taking the word order into account
+
+Maksim [name]. Anomaly detection for Chunking for Enhanced Retrieval-Augmented Generation Systems
+
+Results of the Experiment
+
+Maksim [name]. Anomaly detection for Chunking for Enhanced Retrieval-Augmented Generation Systems
+
+Chunk 1: (1) Can surface porous PEEK (PEEK-SP) microstructure be reliably controlled? 
+ 
+Chunk 2: (2) What is the effect of pore size on the mechanical properties of PEEK-SP? (3) Do surface porosity and pore size influence the cellular response to PEEK? Micro-CT analysis showed that PEEK-SP layers possessed pores that were 284 ± 35 µm, 341 ± 49 µm, and 416 ± 54 µm for each pore size group. Porosity and pore layer depth ranged from 61% to 69% and 303 to 391 µm, respectively. Mechanical testing revealed tensile strengths > 67 MPa and interfacial shear strengths > 20 MPa for all three pore size groups. 
+ 
+Chunk 3: All PEEK-SP groups exhibiited > 50% decrease in ductility compared with PEEK-IM and demonstrated fatigue strength > 38 MPa at one million cycles. All PEEK-SP groups also supported greater proliferation and cell-mediated mineralization compared with smooth PEEK and Ti6Al4V. Despite its widespread use in orthopaedic implants such as soft tissue fasteners and spinal intervertebral implants, polyetheretherketone (PEEK) often suffeers from poor osseointegration. 
+ 
+Chunk 4: Introducing porosity can overcome this limitation by encouraging bone ingrowth; however, the corresponding decrease in implant strength can potentially reduce the implant's ability to bear physiologic loads. We have previously shown, using a single pore size, that limiting porosity to the surface of PEEK implants preserves strength while supportiing in vivo osseointegration. However, additional work is needed to investigate the effect of pore size on both the mechanical properties and cellular response to PEEK.QUESTIONS/ PEEK-SP was created by extruding PEEK through NaCl crystals of three controlled ranges: 200 to 312, 312 to 425, and 425 to 508 µm. 
+ 
+Chunk 5: Micro-CT was used to characterize the microstructure.
+
+Lewis, P., et al. (2020). "Retrieval-augmented generation for knowlage-intensiive NLP tasks." Proceedings of NeurIPS.
+Karpukhin, V., et al. (2020). "Dense passage retrieval for open-domain question answering." Proceedings of EMNLP.
+Das, R., et al. (2021). "Semantic chunking for document segmentation in retrieval-augmented systems." Proceedings of the ACL.
+Mohr, G., et al. (2023). "Late chunking: Contextual chunk embeddings for improved RAG systems." Proceedings of the ACL.
+*Glavaš, G., Nanni, F., & Ponzetto, S. P. (2016). "Unsupervised text segmentation using semantic relatedness graphs." Proceedings of SEM.
+Allahverdiyev, A., & Taha, A. (2023). "ChunkRAG: A novel LLM-chunk filteering method for RAG systems." Proceedings of ACM SIGIR.
+Guo, H., & Wang, Y. (2023). "Leveraging inter-chunk interactions for enhanced RAG systems." Proceedings of AAAI.
+Veसंतo, J., & Alhoniemi, E. (2000). "Clustering of the self-organizing map." IEEE Transactions on Neural Networks.
+Li, N., et al. (2021). "Anomaly Detection via Self-Organizing Map." arXiv preprint.
+Tian, Z., et al. (2014). "Anomaly Detection Using Self-Organizing Maps-Based K-Nearest Neighbor Algorithm." PHM Society Papers.
+Rafiee, M., et al. (2020). "Unsupervised Anomaly Detection from Semantic Similarity Scores." arXiv preprint.
+Guu, K., et al. (2020). "REAAL: Retrieval-augmented language model pre-training." Proceedinggs of NeurIPS.
+
+Bibliography

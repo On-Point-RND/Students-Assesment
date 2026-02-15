@@ -1,0 +1,22 @@
+April 20, 2025
+Organizing Committee
+[compaany]
+Dear Organizing Committee,
+I am writing to express my enthusiastic interest in participating in the SMILES (Summer School of Machine Learning at [compaany]) program at [compaany]. The exceptional reputation of [compaany], combined with the unique opportunity to delve deeply into cutting-edge topics in machine learning and deep learning, strongly motivates my application.
+I hold a Bachelor’s degree in Applied Mathematics and Computer Science from [university], where I am currently pursuing my master’s studies. My research and professional experiences are centered around applying machine learning and artificial intelligence to complex real-world problems, especially in the medical diagnostics domain.
+One of my significant achievements includes developing and successfully deploying EPI-FAT, an AI-driven module for the automated segmentation of epicardial adipose tissue on cardiac CT images, implemented at the [institute]. This project integrated advanced computer vision, deep learning techniques, and radiomics, demonstrating the profound impact of ML solutions on enhancing medical diagnostics accuracy.
+Additionally, my internship at the [institute] provided valuable experience in optimizing machine learning algorithms for particle track reconstruction for the [collider]. This involved advanced applications of discrete optimization and data recovery methods, aligning closely with the innovative approaches taught at SMILES.
+Further, I have actively worked on advanced tensor-based modal decomposition (TBMD) methods, significantly improving upon traditional approaches like POD (Proper Orthogonal Decomposition). TBMD has allowed efficient handling of high-dimensional data, reducing computational complexity while maintaining precision, proving its effectiveness across diverse applications, from medical imaging to fluid dynamics modeling.
+By attending SMILES, I expect to:
+• Deepen my understanding of state-of-the-art machine learning techniques and their theoretical foundations.
+• Engage directly with distinguished experts, benefiting from their insights and guidance to refine my research methodologies.
+• Expand interdisciplinary perspectives by interacting with a diverse group of peers and professionals, fostering innovative approaches to complex problems.
+My motivation to join SMILES is fueled by my dedication to developing elegant and impactful solutions to challenging real-world problems. The intensive and collaborative environment of SMILES perfectly aligns with my goals to enhance my methodological expertise, driving my ambition to become a leading researcher in applied mathematics and machine learning.
+Looking forward, I aim to further integrate deep learning methodologies with optimization theory to create hybrid algorithms capable of tackling complex predictive and diagnostic tasks more effectively. Participation in SMILES represents a crucial milestone towards achieving these career objectives, equipping me with the essential knowledge and network to advance my research and professional aspirations.
+I am excited about the possibility of contributing actively to the SMILES program and confident in my ability to add valuable perspectives and experiences to the discussions and collaborative projects.
+Thank you very much for considering my application. I look forward to the opportunity to be part of this prestigious school.
+Sincerely,
+[name]
+Faculty of Applied Mathematics and
+Computer Science
+[university]

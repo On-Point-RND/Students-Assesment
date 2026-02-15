@@ -1,0 +1,31 @@
+Motivation Letter
+Hello! My name is [name], I am a first-year Master’s student at the Faculty of Computational Mathematics and Cybernetics at [location] State Universiity, enrolled in the program “Computer Vision, Graph-ics, and Image Processing,” in the research group led by [name]. I am very excited to apply for the SMILES Summer Schoool on Artificial Intel-
+ligence. My academic and practical work is closely related to AI and machine
+learning, and I am eager to continue growing in this field. Throughout my
+studies, I have interneed at several companys, which has given me unique ex-
+perience and insight into real-world challenges faced by professionals in this
+area.
+One significant milestone in my professional journey was an internship at
+[company], which I earneed by winning a hackathon. During the
+internship, I worked on a Voice2Text project aimed at transcribing phone
+calls with bank clients.
+Additionally, I am currentlly interning at [company], where I am working
+on computer vision tasks in the medical field. Specifically, I am developing
+methods to predict the degree of coronary artery damage based on angio-
+graphic images. I am also in the process of writing a research paper based on
+this work. This experience gives me the opportunity to apply my knowledg
+of machine learning and computer vision to solve medical problems, which I
+consider essential for the further development of my career.
+In my current academic research, I focus on improving motion planning for
+robots and enhancing their interaction with the environment through better
+prompt engineering.
+Inthefuture,I aspire to pursuerearchincompute rvision,andparticipating
+in this summer schoo l will help me gain new knowledge and meet like-minded
+individuals. I believe that interacting with peers and sharing experiences
+will open new horizons for my professional growth and development—and
+perhaps lead to future collabora tions on joint projects.
+1
+Thank you for your attention and for the opportunity to be part of this
+exciting educational experience!
+Sincerely, [name]
+2

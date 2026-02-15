@@ -1,0 +1,36 @@
+The primary focus of the work is the pressing task of calculating the dynamics of charged particle beams in complex electromagnetic fields of modern accelerator systems being developed at the [company] of Nuclear Physics ([location]) (LIA, SKIF, KISI-2, Super C-Tau Factory, and others). The practical use of such systems requires the highest possible quality of the generated beams. Effects related to the beam's spacecharge play a significant role in this task, and precise tuning of accelerator systems demands fast and accurate optimization calculations on limited computational resources.
+
+Directly solving this problem based on first principles is infeasible due to the high computational power required. Therefore, [name] divided the complex problem into several parts, for each of which he identified the most efficient solution method. This approach allowed him to create several independent software modules, each with its own logic for operation and development, unified into a single system optimized for effectively solving the overarching task while accounting for future advancements.
+
+Thus, [name]'s work included, first, the creation of efficient code for calculating the envelope of a high-current charged particle beam in an accelerating system with axial symmetry and quadrupole focusing based on the Kapchinsky-Vladimirsky model. Second, he applied the macroparticle method to simulate the kinetics of intense charged particle beams based on the Vlasov-Maxwell equations.
+
+During his studies at [location] State [University] ([location]) and work at [company], [name] identified areas where the developed software system could be applied. He also described a method for quickly calculating the envelope for axially symmetric and elliptical relativistic beams with high current and uniform density distribution across the cross-section. The stability conditions and accuracy of the finite-difference scheme for numerically solving the system of differential equations were determined. Simulations of acceleration and transportation of a high-current electron beam in a linear induction accelerator were conducted. These simulation results showed good agreement with experimental data and other computational programs. Using the developed code, beam envelope tuning in a linear induction accelerator was performed, as well as envelope reconstruction based on experimental data using a genetic algorithm. The developed software demonstrates significant potential for applying machine learning algorithms in tuning complex modern accelerator facilities. This tool has become fundamental in designing, tuning, and operating induction accelerators for customers, as well as for other single-particle tracking tasks at [company] facilities.
+
+[name] also presented a solution to the problem of microscopic kinetics for a beam of interacting relativistic charged particles in external nonlinear electromagnetic fields. This is necessary to calculate the contribution of individual nonlinear optical elements to the increase in the beam's phase volume. Fundamental principles were considered and applied to develop flexible software optimized for further enhancement of individual modules' capabilities. Adherence to these principles saves time and effort when improving code, including interactions with pre-existing codes. A significant part of [name]'s work involves testing the code and analyzing its performance on both central processing units (CPUs) and graphics processing units (GPUs), which not only enhance its functionality but also confirms the reliability of calculations. The strengths of [name]'s work include its high practical value in a critically important area for [location], made possible only by maintaining an exceptionally high standard of execution. In addition to his primary work, [name] participates in administering the computing server at [company] ([location]) for the needs of LaboLaboratory 5-1 and Sector 5-13, introduces new techniques and practices from IT fields into team workflows, and develops a new course for the engineering track of the undergraduate program at [location] State [University]'s Faculty of Physics.
+
+List of Publications:
+1. High-current electron-beam transport in the LIA-5 Linear Induction Accelerator / [surname], [surname], [name] et al.//*Physics of Particles and Nuclei Letters*.––2020.––Vol.17.––P.197–203.
+2. HighCurrentElectronBeamTransportandFocusingattheLinearInductionAccelerator/S.L.[surname], E.S.[surname], D.I.[surname] et al.//*2020IEEE International Conference on Plasma Science(ICOPS)*.
+––2020.––P.191–191.
+3. Investigationofhighcurrentelectronbeammadynamicsinlinearinductionacceleratorforcreationofahigh-powerTHzradiationsource / [surname], [surname], S.L. [surname] et al. // *Journal of Instrumentation*.––2021.––Nov.––Vol.16,no.11.––P.P11024.
+4. [name]. Online book: *Solving problems in Algorithms courses*. — 2019.— URL: https://github.com/fuodorov/yalgorithms.
+5. [name]. Online book: *Microservices Scalable sites*. — 2019.— URL: https://github.com/fuodorov/backend-deveveloper-course.
+6. [name]. *KENV Kapchinsky Envelope Code*.— 2019.— URL: https://github.com/fuodorov/kenv.
+7. [name]. *REDPIC Relativistic Difference Scheme Particles-In-Cell*. — 2020.— URL: https://github.com/fuodorov/redpic.
+8. [name], [surname]. *REDPIC*, Certificate of State Registration for Software No. 2023688768, dated25.12.2023.—2023.
+9. [name], [surname], [surname]. *KENV*, Certificate of State Registration for Software No. 2024611244, dated18.01.2024.—2024.
+10. [name] Institute-wide seminar: *Machine Learning in Physics: Optimization and Envelope Reconstruction Using a Genetic Algorithm*. — 2024-03-25.— URL: https://inp.nsk.su/sobytia/nauchnye-seminary/details/13/325/машинное-обучение-в-физике?layout=listonestart=0.
+11.Publicationintheabstractbookofthe*62ndInternationalStudentScientificConference(ISSC-2024)*:
+*Developmentofasoftwarepackageforparticledynamicscalculationsinexternalelectromagneticfields*.
+12. Publication in the abstract book of the *3rd All-Russian School of the National Center for Physics and Mathematics (NCPM) on High Energy Physics, Nuclear Physics, and Accelerator Technology (2024)*:
+*OptimizationandEnvelopeReconstructionUsingaGeneticAlgorithm*.
+13. [name] Online guide for the course: *"Using Python in Physical Research"*. — 2024.— URL: https://fuodorov.github.io/physicist-deveveloper-book.
+
+List of Achievements:
+1. Recipient of the [company] Prize, [location] for 2024–2025.
+2. Recipient of the [location] City Mayor's Scholarship for 2023–2024.
+3. Awarded for the best graduation project in the program "Digital Transformation: Introduction to Artificial Intelligence"(Digital Departments, [location]) for 2023–2024.
+4. First-degree diploma at the *62ndInternationalStudentScientificConference(ISSC-2024)*.
+5. Participant in Yandex Summer School:*Courses on Information Technology(KIT-2024)*.
+6. Diploma for the best presentation at the *3rd All-Russian School of NCPM on High Energy Physics, Nuclear Physics, and Accelerator Technology(2024)*.
+7. Best result in a competition on top-quark identification from a dataset, hosted by HSE University with support from Yandex cloud services (*3rd All-Russian School of NCPM on High Energy Physics, Nuclear Physics, and Accelerator Technology,2024*).

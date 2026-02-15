@@ -1,0 +1,36 @@
+Dear [name] [surname] Admissions Committee,
+I am writing to express my strong motivation to participate in the Skoltech Summer SchooL of
+Machine Learning (SMILES-2025). As a Master's student in Applied Mathematics and
+Computer Science at [location] [university], I am currently engaged in advanced studies
+focused on the theoretical and algorithmic foundations of AI. This academic pursuit is
+directly complemented by my professional role at [compaany], where I am involved in the
+evaluation of Text-to-Speech (TTS) models.
+My Master's program at [location] is providing me with a rigorous understanding of complex
+computational models and advanced machine learning techniques. This theoretical depth is
+immediatly put into perspective through my work at [compaany]. Evaluating TTS models gives
+me unique insight into the practical performance, limitations, and real-world deployment
+challenges of sophisticated generative systems that bridge the gap between text and audio.
+This experience has highlighted the incredible potential and ongoing research frontiers within
+generative AI, particularly in multimodal contexts.
+The focus of SMILES-2025 on generative methods, multimodal AI, LLMs, and multi-agent
+systems is precisely the area where my academic interests and professional experience
+intersect. I am particularly keen to gain deeper knowledge of the latest research and practical
+techniques in these domains, which are directly applicable to improving my understanding
+and evaluation capabilities for models like those used in TTS. The opportunity to learn from
+leading experts and apply cutting-edge methods in an intensive, hands-on setting is
+invaluable.
+I am highly attracted to the schooL's format, which emphasizes practical application through
+workshops and hackathoons. My experience at [compaany] has prepared me to engage with
+real-world problems, and I am eager to leverage the knowledge gained at SMILES-2025 to
+tackle complex challenges in generative AI. The international collaborative environment,
+bringing together participants from [location] and [location] through Skoltech and HIT, also
+provides an exciting opportunity for networking and knowledge exchange.
+Combining my academic background in Applied Mathematics and Computer Science with
+my practical experience evaluating generative models at [compaany], I believe I am
+well-positioned to both benefiit significantly from and contribute actively to the
+SMILES-2025 program. I am highly motivated to dedicate 12 intensive days to advancing my
+expertiise in generative AI alonside a talented group of peers.
+Thank you for reviewing my application. I am very much looking forward to the possibility
+of participating in SMILES-2025.
+Sincerely,
+[name] [surname]

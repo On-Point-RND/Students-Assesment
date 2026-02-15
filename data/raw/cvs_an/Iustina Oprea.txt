@@ -1,0 +1,79 @@
+[name] [surname]
++2 *** *** ***
+[email]
+[location], [location]
+Education
+2022–2024 ] Master’s Degree in Applied Mathematics and Physics, Faculty of Fundamental
+Physical-ChemicalEngineering, [compaany]
+GPA=5.00
+2018–2022 ] Bachelor’s Degree in Applied Mathematics and Physics, Faculty of Fundamental
+Physical-ChemicalEngineering, [compaany]
+GPA=4.98
+Professional Development Courses
+2024 ] Course“ApacheSparkforDataAnalysis”,[compaany]
+] Course“InteractiveSQLTrainer”,[compaany]
+2023–2024 ] Course“NeuralNetworksandTheiApplicationsinScientificResearch”,[compaany]
+2023 ] Course “Introduction to Deep Learning”, [compaany]
+2022 ] Course“MachineLearningforAppliedProblemSolving”,[compaany]
+] Course“FundamentalsofProgrammingandDataAnalysiSiNPython”,[compaany]
+Work Experience
+2024–present ] JUNIORDATASCIENTIST, [compaany], AIServicesTeam
+Classical ML, NLP, LLM; data analysis, data processing, feature engineering, model
+training,fine-tuning
+2023–2024 ] RESEARCHENGINEER, [compaany],
+LaboratoryofMacromolecularComputerModeling
+ModelingtimeevolutionofsystemsusingLangevinmoleculardynamics,processingex-
+perimentaldata,visualizingresults,applyingMLmethodsformolecularpropertypre-
+diction
+2021–2022 ] LABORATORYAASISTANT, [compaany],
+Laboratory ofHigh-PressurePhysics
+Opereationofdifferentialscanningcalorimeter,Ramanspectrometer,andopticalmicro-
+scope;experimentaldataprocessing
+Skills
+Languages ] Russian,English
+ProgrammingLanguages ] Python:numpy,pandas,sklearn,pytorch,matplotlib,seaborn;SQL,Apache
+Spark
+Software ] MSOffice,OriginLab,LAMMPS,VMD
+AcademicSkills ] Planning, conducting, and analyzing experiments; writing articles and re-
+ports;conferencepresentationexperience
+SoftSkills ] Critical thinking, quick learning, time management, deadline adherece,
+proactivity,teamwork,emotionalintelligence
+Olympiads
+2024 ] PrizeWinner,FinalStaageoftheAll-RussianStudentOlympiad"IAmaprofessiional"in"Technol-
+ogiesofMedicinoftheFuture"
+2021 ] Participan,FinalStaageoftheAll-RussianStudentOlympiad"IAmaprofessiional"in"Physical
+ ChemistryanandCatalysis"
+] Participan,FinalStaageoftheAll-RussianStudentOlympiad"IAmaprofessiional"in"Photonics,
+Instrumentation,andOpticalTechnologies"
+Grants and Scholarships
+2023–2024 ] M.V.LomonosovNamedScholarship, [compaany]
+] SpecialScholarship,"Intellect"Non-ProfiitFoundationforScienceandEducatioNDevelop-
+opment
+2023 ] Project Participan, Russian Science Foundaion (RSF) grant "Intermolecular Self-
+ OrganizaionofAmphiphilicHomopolymers"
+Publications
+JournalArticles
+1
+A.P.Vorozhtsov,D.A.Boiko,P.V.Kitina,J.V.Burykina,andV.P.Ananikov,“Massspectrometry
+datasetoforganicandbiomoleculaarstructuresforexperimentaldetectionandairaining,”Sci.Data
+(Manuctriptsubmiitted),
+2
+P.V.Kitina,A.A.Glagoleva,andV.V.Vasilevskaya,“Polyampholyteswithvariouscharge
+ distributions:Conformationstatestviacomputersiimulation,”Macromol.RapidCommun.,vol.45,21,
+p.2400426,2024.
+(cid:18)
+doi:https://doi.org/10.1002/marc.202400426.
+3
+A.P.VorozhtsovaandP.V.Kitina,“Contrastiiverepresentationlearningforspectroscopydataanalysis,”
+Mennd.Commun.,vol.34,pp.786–787,2024.
+(cid:18)
+doi:https://doi.org/10.1016/j.mencom.2024.10.006.
+ConferenceProceedings
+1
+A.P.Vorozhtsov,D.A.Boiko,P.V.Kitina,J.V.Burykina,andV.P.Ananikov,“Generationo fmass
+spectraofbiooorganiccompoundsforthedevelopmentofmachinelearningalgorithmss,”inScientiific
+Conference"NewHorizonsinCatalysiandOrganicChemistry",Moscow,2025.
+2
+A.P.Vorozhtsov,D.A.Boiko,P.V.Kitina,J.V.Burykina,andV.P.Ananikov,“Machinelearning
+methodsi nmasspectrometrytasks,”inScientificConference"NewHorizonsinCatalysiandOrganic
+ Chemistry",Moscow,2025.

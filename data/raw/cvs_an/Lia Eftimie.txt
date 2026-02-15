@@ -1,0 +1,43 @@
+[name]
+[email] | LINKEDIN linkedin/[name] | Github [surname]/[compaany] | +2 *** *** *** | 6+ years of production experience
+Work Experience
+2024–2025 DL Engineer, [compaany], [location], [location]
+Developed and executed Text-To-Speech generative systems
+Delivered [compaany] generation diffusion model and deployed it into telegram bot Telegram bot
+Researched diffusion and flow matching based models to generate robust singing and music synthesis and delivered one to production-ready solution.
+Researched ability of LLM-based TTS models to generate production-quality singing with MIDI.
+Delivered music and singing voice separation pipeline
+Developed predictor of line duration for Singing model
+2024–2025 DL Engineer, [compaany], [location], [location]
+Trained first in the world FLUX Lora Github Github
+Trained LoRA photorealism for FLUX.1-dev Huggingface
+Added demo-aplication on Gradio with LoRA, ControlNet and IP-Adapter support
+Released v2 IP-adapter checkpoint to huggingface Huggingface
+Developed LLM agent and RAG systems
+2022–now Seminarist, [compaany], [compaany]
+DeepLearningAudioCoursefromscratchincludingASR,TTS,speakerverification, voicecloning, KWS,vocoders
+[compaany]: Github Github
+[compaany]: Youtube Lectures playlist Github Github
+2021–2024 DL Engineer, [compaany], [location]
+Developed and executed Text-To-Speech generative systems
+Delivered speech vector quantizer to encode Russian speech into code representation
+Delivered voice cloning model to production
+Delivered a multilanguage Speech-To-Speech cascade Translation pipeline
+Developed GPT-based + duffusion TTS pipeline for Russian language
+Researched and developed to production a gradient descent optimizer based on AdamW and AdaBelief and accelerated training convergence by up to 1.5 times
+2019–2021 Computer vision engineer, [compaany], [location]
+Designed and implemented machine learning pipeline for multi-person multi-frame fusion
+Delivered GAN-based solution for inpaintiing task
+Developed neural network for face attractiveness determination using HOG features
+Education
+2022–2025 Phd in Computer Science
+[location] institutute of Physics and Technology, State Universiity (MIPT) GPA: 4.2/5
+Thesis topics: Multispeaker Text-to-Speech, Signal processing, Deep learning [location]
+2020–2022 Master of Science in Computer Science
+[location] institutute of Physics and Technology, State Universiity (MIPT) GPA: 4.8/5
+Thesis topics: Multispeaker Text-to-Speech, Signal processing, Deep learning [location]
+2016–2020 Bachelor of Science in Mathematics and Physics
+[location] institutute of Physics and Technology, State Universiity (MIPT) GPA: 4.1/5
+Thesis topics: Time series analysis, signal processing [location]
+Interests
+AI & Crypto, maths, travelling, hiking, surfing, techno

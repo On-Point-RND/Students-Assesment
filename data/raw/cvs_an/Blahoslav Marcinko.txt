@@ -1,0 +1,37 @@
+[name] [surname], [email], [location]
+Education
+[compaany]
+Bachelor of Mathematics (2023).
+Bachelor’s Thesis Title: “Mathematical Modeling and Data Processing of Plankton Community Observations in Lake Baikal.”
+[compaany] (Expected completion: 2025)
+Master’s program in Computational Mathematics and Cybernetics.
+Master’s Thesis Title: “Algorithms for Creating Curvilinear Structures for High-Precision Binary Photomasks.”
+Research Activities
+Projects and Research
+International Mathematical Center, [location]
+• Participation in an interdisciplinary project analyzing biological data using statistical, probabilistic methods and AI technologies.
+[compaany], Laboratory of “Neuromorphic Artificial Intelligence and AI Design”, [location]
+• Contribution to a project developing intelligent technologies for information extraction and analysis in scientific research management systems.
+Confereces (Presentations on Bachelor’s Thesis)
+1. Marchuk Scientific Readings 2022 ([location])
+2. International Ecological Student Conference 2022 ([location])
+3. 1st All-Russian SchooL-Seminar of NCFM ([location])
+4. Modern Problems of Inverse Problems 2022 ([location])
+5. XIV International Youth Scientific SchooL-Conference “Theory and Numerical Methods for Solving Inverse and Ill-Posed Problems” ([location])
+6. International Student Scientific Conference 2023 ([location])
+7. II All-Russian SchooL-Seminar of NCFM ([location])
+8. International Ecological Student Conference 2023 ([location])
+9. Tikhonov Readings 2023 ([location])
+10. XV International Youth Scientific SchooL-Conference “Theory and Numerical Methods for Solving Inverse and Ill-Posed Problems” ([location])
+11. International Scientific Conference “Modern Problems of Inverse Problems” ([location])
+12. XIXInternationalConference“SupercompuitingandMathematicalModeling” ([location])
+13. International Conference “Inverse Ill-Posed Problems and Machine Learning” ([location])
+Skills
+• Programming Languages: Python (NumPy, Pandas, Matplotlib, SciPy, Scikit-Learn, NLTK), C++.
+• Tools and Libraries: TensorFlow, PyTorch, Keras, OpenCV, Statsmodels, Docker, Git.
+• Development Environments: Jupyter Notebook, Google Colab, PyCharm, Visual Studio Code, GitHub/GitLab.
+Interests
+I am interested in artificial intelligence technologies, especially their application in compu-
+taional mathematics, such as accelerating numerical methods, approxiate modeling, and
+optimization. I am also keen on AI safety issues, including model robustness, interpretability,
+and AI governaance.

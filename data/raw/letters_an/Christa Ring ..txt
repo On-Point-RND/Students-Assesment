@@ -1,0 +1,49 @@
+Dear Organizers of SMILES 2025,
+My name is [name] at [university] and [university] in Applied Math and Informatics.
+My academical path has followed me through these different
+universities, respondiing to my internal intentions to get
+acquainted to different scientific societies. I am existing in self-
+constructed balance of research and industry, trying my best at
+research and delivering results of ML applications development
+to users. I experienced myself in numerous teams in IT
+corporations like [company], [company], [company], [company], currently
+working under retail problems in [company].
+Since my first acquaintance to the world of Data Science and
+Machine Learning it became clear to me that the question about
+my path and profession is solved. However, at different period of
+time, whatever team I belong, my close connection to ML
+research was approxiately at constant level. I am glad that I
+may be proud to take part in development of several products
+like multiaccount speaker verification feature for [company],
+improvement in both terms of quality and time efficiency for [company]
+recommender products and [company] Browser, my recent
+succesees were about integrating LLM agents for education
+products. That is why, my intenetion to visit your schoo is rather
+clear.
+My presentation is devoted to Emotional TTS, subtask in my
+favourite (one of!) Speech Processing domain. My strong belief is
+that a man of research should not be limited to solutions in one
+specific domain, that is why my ML interests are rather broad: I
+may name myself rather experienced in NLP, Speech Processing,
+GNN, Time Series processing, RecSys. I also had some projects
+in Computer Vision and multimodality, but I am rather fair and
+not going to state that I am a big expert in these fields. Now we
+as humanity found ourselves in LLM era, and surely I am getting
+in touch with all the news and trying out new agnets and AI
+products, that is why I have great request in communication with
+different experts in the field to discuss most recent results in
+different ML domains and to elaborate on what we may expect
+from the future (and how we can influence on it!)
+My successes as a scientist is not that great, however my
+industrial experience is rather broad. With different product
+features and ML models implemented I have vision on how
+specific ML approahes may get usage in industry, therefore I
+would be very pleased to discuss such questions.
+To sum up, It would be great opportunity for me to expand my
+contacts, extend network of fancy specialists in modern science
+and to say hello and hang out with my good friends from
+[university], I am looking fo rwward to it very much. And yep, with
+great pleasure I would take part as a volunteer, I have
+experience in organizing activities for ML people =).
+Yours sincerely,
+[name]

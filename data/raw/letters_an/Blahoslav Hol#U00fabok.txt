@@ -1,0 +1,47 @@
+A motivation to smile
+[name]
+I have a Pet project. The [name] robot on [compaany] is based on a racing car. Its main goal is to
+solve SLAM task at the highest possible speed for off-board on-premise computing. But his second goal
+is to create a sense of consciousness in the absence of it for real. A 6-D neck and head are being
+designed right now. The neck is an excellent mimic tool. My wife and I are working on animations and
+transitions, but for a high-quality simulation, the implementation of agent-based AI will be necessary.
+My goals are to finish the first prototype of the robot by the end of 2025, and I need knowledge about
+the current state of SOTA multimodal, agent systems, and I also dream of adding self-learning
+capabilities to the robot, but I do not yet know the technologies that are suitable for me.
+Your school turned out to be a big luck for me, it combines all these topics together. They are all
+very interesting to me and I am ready to put a lot of effort into absorbing the knowledge I can gain
+about them from you. I am well acquainted with LLM and generative CV like diffusion models, but I
+really want to refresh this knowledge in a circle of unfamiliar but intelligent people who can share
+interesting thoughts with me, and I am with them.
+Besides, I really need English language practice. I want to meet guys from another country, to
+feel that they understand me and I understand them. Maybe find friends among them. This is an
+invaluable experience for me. There are international students at [location], but it is very difficult to cross
+paths with them, and therefore I am looking for an opportunity for international socialization at the
+school.
+I am sure that my competencies are sufficient to participate. At the moment, I have 2 years of
+experience in the field of computer vision. Thanks to the partnership of [compaany] and [compaany], I
+participated in one their project, and some of my code is integrated into the image processing pipeline
+in their flagship line. Because of my love to robots, I’ve joined [compaany] staruup. We make industrial robots
+for conveyor sorting and implement them in production facilities. I myself go on business trips to
+factories and agricultural complexes to collect primary data and determine working conditions. Since
+2025, I have been involved in the organizational process, directing the work of the mechanical turks and
+providing technical specifications for experiments.
+In this regard, I am well acquainted with the basic ML/DS tools such as MLflow, Wandb, DVC, CVAT, Jira,
+Confluence; PyTorch and HuggingFace libraries. I also have competencies in C++ (10k lines of code in my
+portfolio), ONNX, TensorRT for inference. I am ready to put the new tools that I learn from you into
+practice.
+I expect from the school that I can learn about new approaches, primarily in multimodal and self-
+learning systems, and secondly about multi-agent systems and secure AI. It will also be useful for
+[name]. I expect to find cool guys from [location] and [location], and I will try to establish good relations with
+them outside of school. Maybe find new cool teachers for yourself. As a volunteer, I would like to
+organize the coolest leisure time for myself and the guys.
+The experience I can gain in [location] will definitely help me in building an international career. First of all,
+I consider companies with the opportunity to try new approaches. I'm a fan of my direction – R&D. My
+diploma, which I am currently doing, is directly related to work, and in the future I plan to maintain this
+connection, not just by making robots in the industry, but by bringing new approaches to the scientific
+community that are applicable in the industry. I am currently preparing to apply to a master's degree
+program that combines AI and robotics.
+Finally, in order not to be unfounded, I am attaching a telegram chat with progress on the creation of
+[name]. Despite the approaching deadlines of the diploma, I can't help but do at least something about
+it.
+https://t.me/making_leosha

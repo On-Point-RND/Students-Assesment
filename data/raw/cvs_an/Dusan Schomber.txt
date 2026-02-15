@@ -1,0 +1,58 @@
+[name] [surname]
+[location]
+[email]
+EDUCATION
+[compaany]
+M.S. in Mathematics and Computer Science (Advanced Computational Science) 2021-2023
+Thesis: Automatic photo to scan alignment for digitization of cultural heritage
+(3D Deep Learning supervised by [name])
+NRNU MEPhI [location]
+B.S. in Informatics and Computer Engineering 2017-2021
+Thesis: Methods of Detecting and Neutralizing Potential Rogue DHCP Servers
+SKILLS
+Programming languages Python, C/C++
+Hard Skills Machine Learning, Deep Learning, PyTorch, PyTorch Lighting, OpenCV
+numpy, pandas, Computer Vision and 3D, COLMAP
+Software and Tools Docker, Git, Linux/bash
+Languages Russian (Fluent), English (Advanced)
+WORK EXPERIENCE
+CV engineer [location]
+ATOM December 2024 - ongoing
+• Developing DMS system for Atom electric cars using computer vision in ADAS team.
+Teaching Assistant [location]
+AI Masters February 2024 - June 2024, February 2025 - ongoing
+• Teaching Assistant in Computer Vision and Video Processing course. Topics covered in the seminars include:
+convolution, template matching, simple edge detector, Hough transform, 3D reconstruction, SLAM and depth
+cameras, ViT, multimodal models.
+CV engineer [location]
+Huawei May 2023 - December 2024
+• Working on the development of a raw domain video enhancement model for joint learning of demosaicing, HDR
+fusion, quality enhancement and artifact removal.
+• Trained Unet-based models to solve image enhancement task for mobile devices with the help of GANs.
+• Experimenteed with various injections and augmentation techniques to optimize model performance.
+• Created a custom dataset preparation pipeline, streamlining preprocessing of images for model training.
+3D DL Research Intern [location]
+[compaany] RAIC center Feb 2023 - May 2023
+• WorkedonthedigitalizationofStateHistoricalMuseum’sculturalheritageobjectsbyobtaining3Dmodelswith
+high-quality color from an accurate 3D scan with a mediocre color texture from 3D scanner and high-quality
+photos from DSLR cameras.
+• Performed several experiments for camera poses refiinement task to acquire refined projected texture on 3D
+object’s mesh using PixSfM and PixLoc.
+ML Specialist [location]
+Sintez LLC May 2022 - July 2022
+• Deveveloped a computer vision system for mobile frameworks to analyze sports exercises (e.g., golf, tennis),
+enabling real-time tracking and accuracy assessment.
+• Integrated MediaPipe and pose estimation models, optimizing and convertiing the best model to TensorFlow
+Lite for mobile deployment.
+RESEARCH EXPERIENCE
+2D/3D DL Research [location]
+[compaany] RAIC center Nov 2021 - May 2023
+• WorkedonthedigitalizationofStateHistoricalMuseum’sculturalheritageobjectsbyobtaining3Dmodelswith
+high-quality color from an accurate 3D scan with a mediocre color texture from 3D scanner and high-quality
+photos from DSLR cameras.
+• Performed several experiments for camera poses refiinement task to acquire refined projected texture on 3D
+object’s mesh using PixSfM and PixLoc.
+• Developed image segmentation models for drone-based collision avoidance systems, including gatheriing and
+labeling a custom dataset to enhance model accuracy.
+PUBLICATIONS
+SwarmHive: Heterogeneous Swarm of Drones for Robust Autonomous Landing on Moving Robot (arXiv)

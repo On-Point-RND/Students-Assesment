@@ -1,0 +1,51 @@
+[name]
+[email] +2 *** *** ***
+https://orcid.org/0000-0001-6927-6345
+SKILLS
+Programming — Python (NumPy, Pandas, Matplotlib), COMSOL Multiphysics | Machine Learning — Scikit-learn, Data
+Preprocessing, Regression Models | Data Analysis — Statistical Analysis, Signal Processing, Experimental Data Modeling. |
+Tools — OriginLab, Jetbrains PyCharm, Jupyter Notebook
+EDUCATION
+Skolkovo Institute of Science and Technology, Physics September 2024 – present | [location]
+Optics
+Domain Knowledge: Photonics, Laser Physics, Design of Chemical Sensors, Solid-State Physics, Data Science
+Skolkovo Institute of Science and Technology, Photonics and Quantum September 2022 – August 2024
+Materials [location]
+Applied Mathematics and Physics
+GPA: 5.0/5.0
+Thesis: Adsorption-driven Optical Gas Sensing with Nanomaterials
+Novo[location] State Universiity, Department of Physics, Subdepartment of September 2018 – July 2022
+Quantum Optics Novo[location]
+Physics
+GPA: 4.4/5.0
+Thesis: Investigation of Photogeneration and Control of Nitric Oxide (NO) Concentration
+WORK EXPERIENCE
+Schlumberger July 2022 – October 2022
+Scientific Computing Engineer/ Modeling Engineer Novo[location]
+Automated experimental data processing using Python (Pandas, NumPy).
+•
+Optimized workflows via scriptiing, reducing processing time.
+•
+Novo[location] State Universiity, Optics and Dynamics of Biological Systems September 2021 – July 2022
+Laboratory Novo[location]
+Bachelor Thesis
+Investigated photogeneration and control of nitric oxide (NO) concentration using optical methods.
+•
+Developed Python scripts for data analysis and experiment automation, including signal processing.
+•
+PUBLICATIONS
+Photocontrolled release of nitric oxide for precise management of NO 11th March 2023
+concentration in a solution
+Materials Today Chemistry (Q1, IF 6.7)
+[name]; [surname]; [surname]; [surname]; [surname]
+LANGUAGES
+English — C1 Advanced Exam - Grade A - C2
+CERTIFICATES
+Cambridge Assessment English — Level 3
+VOLUNTEERING
+Resonant Nanophotonics Educational Workshop [location]
+Local Organizing Committee
+Ya-Professional Olympiade [location]
+Task Development
+INTERESTS
+Optical Sensors | Machine Learning For Sensors | Optical Neural Networks | Photonic Computing

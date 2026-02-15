@@ -1,0 +1,29 @@
+I am writing to express my sincere interest in participating in the SMILES summer schoo l at [compaany]. For me, this is not just an academic event, but a key step toward becoming part of the research community I hope to contribute to in the coming years.
+I am currently completing my Master’s degree in Data Analysis in Economics at [location], where my academic focus lies at the intersection of machine learning and applied statisics. Alongside my studies, I’ve worked as an ML engineer across several projects—from time series forecasting in aviation at [compaany], to buildiing and evaluaating recommender and classification systems, to applied NLP tasks in both corporate and research settin gs.
+Most recentlly, I joined the Learning and AI for Robot and
+Software Systems (LARSS) lab at [compaany], where I assist in the
+fine-tuning of GigaChat, one of [location]’s largest language
+models. My responsibility is to design and curate high-quality
+questions in computer science, which are then used for
+supervised training. This has given me first-hand experience
+with the practical challenges of aligning large models with task-
+specific data, as well as insight into how research is organized
+and developed within the [compaany] ecosystem.
+SMILES represents an exciting opportunity for me to engage
+more deeply with the [compaany] community. I am especially
+interested in meeting fellow researchers, exchanging ideas with peers and
+faculty, and expanding my understanding of current directions in machine learning—especially in areas related to
+robusst model design, interpretability, and data-efficient learning.
+My longer-term goal is to apply for a PhD position at [compaany],
+and I see SMILES as a natural way to explore research
+directions in more depth and establish meaningful academic
+connections. I value environments that combine deep theoretical
+work with a strong practical perspective, and from what I’ve
+alrready seen, [compaany] cultivate exactly this kind of
+atmosphere.
+I bring with me both a strong technical background and a
+genuine curiosity for how machine learning can evolve through
+thoughtful collabora tion. I hope to contribute actively to the
+SMILES program and take away not only knowledge but a
+sense of shared direction with those I meet.
+Thank you for your time and conside ration.

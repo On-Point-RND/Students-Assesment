@@ -1,0 +1,40 @@
+[name] [surname]
++2 *** *** *** | [email]
+Education
+[compaany] [location]
+Bachelor of Applied Mathematics and Information Science Expected July 2025
+• GPA: 8.29/10
+• Currently I am in the 4th year and my specialization is ”Machine Learning and Applications”, I successfully completed the following courses:
+• Algorithms and Data Structures
+• Linear Algebra
+• Probability theory and mathematical statistics
+• Machine Learning
+• Deep Learning
+• Bayesian Methods in Machine Learning
+• Deep Learning in Audio Processing
+• Convex analysis and optimization in [compaany]
+• Python course in [compaany]
+• Natural Language Processing
+• Self-Supervised Learning
+• Large Scale Machine Learning
+• Reinforcement Learning
+Projects
+Telegram Bot for Music | Python, Web Scraping July 2021
+• Bot that automatically posts music news to telegram channel
+Fraud score prediction for [compaany] | Python, Machine Learning October 2022
+• A model that reports whether a company is fraud using the SHAP library to explain the results
+Telegram Bot for Movies | Python, Web Scraping December 2022
+• Bot that can find you a link to watch a movie by your requests and show you some basic information about this movie. For [compaany] asignment
+CNN Image Classifier | Python, Deep Learning December 2022
+• Implemented a custom ResNet-based network for image classification with tailored hyperparameters and data augmentations.
+DE-EN translator | Python, Deep Learning March 2023
+• Transformer based architecture that translates text from German to English
+LLaMA implementation | Python, Deep Learning October 2024
+• Built a LLaMA-inspired Transformer model from scratch, implementing key architectural components like Pre-Norm, SwiGLU, RoPE embeddings, and multi-head attention.
+Mechanistic Analysis of LLM Alignment using Sparse Autoencoders | LLM, Alignment, SAE February 2025
+• Developed a novel activation steering approach using sparse autoencoders to achieve interpretable and reversible AI alignment, eliminating the need for costly model retraining.
+Technical Skills
+Programming Languages:Python, C++, HTML/CSS
+Developer Tools: Git, Bash, Clion, PyCharm
+Libraries: Pandas, Numpy, SciPy, PyTorch, BeautifulSoup4, Requests
+Languages: English(advanced), Russian(native)

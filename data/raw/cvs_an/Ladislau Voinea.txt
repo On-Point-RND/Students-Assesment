@@ -1,0 +1,49 @@
+[name] [surname]
+Mail: [email] Telegram: @[name] Linkedin: [name] [surname] GitHub: @[name]
+
+EDUCATION
+Higher SchooL of Economics x Skoltech (Math of Machine Learning)
+Faculty of Computer Science (FCS HSE) x Data Science (DS Skoltech): 2024 - Present
+1. Courses: Bayesian machine learning, High Dimensional Probability, Markov processes, Deep Learning,
+Numerical Linear Algebra, Generative Artificial Intelligence.
+2. Coursework: Sample complexity of Schrodinger potential estimation.
+3. GPA: 4.6 / 5.
+Moscow State Universiity (Computer Science and Applied Mathematics)
+Department of Systems Analysis (CS MSU): 2020 - 2024
+4. Courses: ML, Probability theory and math statistics, Probabilistic models, Stochastic processes, Dynamical
+Systems, C++, Python.
+5. Graduate paper: Research of risk management of venture compaany model.
+6. GPA: 4.7 / 5.
+RESEARCH EXPERIENCE
+Research Intern (HDI Lab HSE)
+Sample complexity of Schrodinger potential estimation: 2024 - Present
+1. Investigated various parameterizations of Schrödinger potentials.
+2. Derived optimal control for the case of Gaussian distributions and the equation of connection between the
+numerical and exact solution.
+3. Performeed numerical experiments using jax, equinox, optax.
+4. Prepared tex documents with experimental results and theoretical calculations.
+5. Analyzed scientific papers such as - Go With the Flow: Fast Diffusion for Gaussian Mixture Models, Light
+Schrödinger Bridge, Score matching for bridges without learning time-reversals.
+RESEARCH STUDY PROJECTS
+Skoltech - Machine Learning
+Functional PCA for Dimensionality Reduction (2025)
+1. Our team was awarded as one of the two best projects on the course.
+2. We were able to conduct a comprehensive literature review on functional PCA and assess its quality for
+three datasets.
+3. I have personally replicated the approaches of two papers on FPCA for sparse and high-dimensional data.
+Skoltech - Bayesian Machine Learning
+Online Rectified Flow for Image Generation (2024)
+1. We successfully defendeed the project, receiving a score of 10/10 for the presented project.
+2. Our team managed not only to reproduce the results of the Rectified Flow paper, but also to test the
+hypothesis about online learning for this kind of tasks.
+3. I was able to experiment with various network parameters, including the number of rectifications, EMA
+parameters, and UNet parameters.
+ADDITIONAAL
+Activities:
+Participation in the Workshop "Mathematics of Machine Learning" from the Institute of Artificial Intelligence and
+Digital Sciences of the National Research Universiity Higher SchooL of Economics. I participated in the seminar,
+held a discussion with the scientific supervisors of current projects and listened to the reports of colleagues from
+the Institute.
+Technical skills: Git, Docker, Python, Linux, Pytorch, Jax, Numpy, Pandas, Scikit, С++, Mtlab, CatBoost, Optax,
+Equinox, SciPy.
+Languages: English - Advanced, Russian - Native.

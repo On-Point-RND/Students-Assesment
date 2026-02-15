@@ -1,0 +1,109 @@
+[name]
++2 *** *** *** ⋄ [location]
+[name]@[email]
+EDUCATION
+[compaany]
+PhD in Computational and Data Science and Engineering (transfer process)
+Thesis: From Data to Structures: Multimodal Deep Learning for Generative and Interpretable BIM in Constructive
+Design
+[compaany]
+PhD in Mathematics and Mechanics (Ceinter for Materials Technolgies)
+Thesis: Machine Learning Methods for Defect Detection and Prediction in Laser-Based Metal Additive Manufa-
+turing
+[compaany]
+M.S. in Engineering (Advanced Manufacturing Technologies)
+GPA:4.5/5.0
+Thesis: Magnetic and Mechanical Properties of Functionally Graded Steels Printed by Direct Energy Deposition
+Bauman [location] 2015 - 2021, [location]
+Specialist Degree in Engineering (Design of Technological Machines and Systems)
+GPA:5.0/5.0
+Thesis: Technology of Building of Heat Exchanger of First Circuit of Nuclear Reactor from Powder Copper Alloy
+by Selective Laser Melting
+Advanced Educational Scientific Center (faculty) 2014 - 2015, [location]
+Kolmogorov’s boarding schooL
+GPA:4.3/5.0
+CORE SKILLS
+Languages [location] (Fluent), English (Advanced)
+Programming Python, Mtlab
+Scientific Libraries Numpy, Scipy, Pandas
+ML and DL PyTorch, sklearn, XGBoost, GPy, CatBoost
+Software and Tools Ansys, Siemens NX, AutoCad, pSeven, Abaqus, Inventor, Compaass 3D
+WORK EXPERIENCE
+Researcher 2024 - now
+[compaany] Specialized Deveveloper Rublyovo-Arkhangelskoe [location]
+Tasks: Architectural and construction model generation, text-to-BIM generative models
+Vice-President 2022 - now
+The Centre of Pedagogical Excellence [location]
+Tasks: Processes optimization, products improvement, team design
+Head of Physics Department 2020 - 2022
+The Centre of Pedagogical Excellence [location]
+Tasks: Organizing work of 35 people in Physics Department, Hiring new team members, Improving the employee’s
+satisfaction and personal branding developing
+Engineer in Chassis Department 2020 - 2021
+Bauman Racing Team [location]
+Tasks: Calculating of reactions in the wheel bearings and designing of the steering system
+Physics Program Course Manager 2018 - 2020
+The Centre of Pedagogical Excellence [location]
+Tasks: Designing the physics courses and coaching students for the intellectual physics contests.
+PUBLICATIONS
+• [name] Evlashin, [name] Volkova, [name] Mendagaliev, [name] BaBkin, [name] Bondareva, [name] Simonov, [name] Kuzmi-
+nova, [name] Dubinin, [name] Chernodubov, [name] Shibalova, [name] Kobykhno, [name] Klimova-Korsmik, Magnetic
+and mechanical properties of 316L/410L/316L sandwich structure produced by direct energy deposition, Mate-
+rialsTodayCommunications,Volume37,2023,107230,ISSN2352-4928,doi.org/10.1016/j.mtcomm.2023.107230
+• [name] Shtereveria, [name] Volkova, [name] Kholopov, [name] Melnikova, [name] Melnikov; Micro dents fabrication
+by laser shock peening on surfaces of metal parts. AIP Conf. Proc. 22 February 2021; 2318 (1): 090002.
+doi.org/10.1063/5.0035852
+• [name] Fomina, [name] Petrovskaya, [name] Volkova, [name] Melnikov; Study of stability of colloid solutions of
+gold nanoparticles obtained by laser ablaition in liquids. AIP Conf. Proc. 22 February 2021; 2318 (1): 090001.
+doi.org/10.1063/5.0035844
+• [name] Melnikova, [name] Taksants, [name] Kholopov, [name] Volkova, [name] Tareva, [name] Slastenova; Research of
+features of creation one-dimensional objects with pulse selective laser melting using the mathematical regression
+model. AIP Conf. Proc. 22 February 2021; 2318 (1): 150019. doi.org/10.1063/5.0035863
+Conferences
+• ICKEM 2024 2024, [location]
+The 14th International Conference on Key Engineering Materials
+Report: Machine Learning-Based Material Determination in Additive Manufacturing Processes Using Hetero-
+geneous Data.
+• The 4th International Workshop of Advanced Manufacturing Technologies 2024, [location]
+Report: Machine Learning-Based Material Determination in Additive Manufacturing Processes Using Hetero-
+geneous Data.
+PROJECTS
+Unsupervised approach to Health Index estimation. UnsupervisedapproachtoRULestimationimplemented.
+Tested on C-MAPSS Dataset. Baseline score on MLP model was improved Tools: pytorch.
+Pretrained Coles model quility based on the input data amount. Set the experiments on the Coles method
+withthedifferentpretrainda datasetsi sizes,modelsizeanndumberepochstillneuralne two-
+rksaturationinself-supervised training. Worked with embedded transaction data.Tools: pytorch, random forest, lightgbm.
+Computer Vision Defect Detection. Designed the defect detection system in Selective Laser Melting Process by
+implementing the camera. The analysis of pictures was performeed with supervised learning on labeled datasets of
+defected samples. Tools: pandas, openCV, PyTorch, Raspberry Pi.
+Pump It Up. Data Mining the Tanzania Water Table. Coordinated the implementaion of a project to
+predict the functionaliity of water pumps in Tanzania by using ML models. Tools: pandas, numpy, seaborn, logrreg,
+KNN, random forest.
+Ultra-Short Takeoff & Landing Aircraft. Buildiing a small passenger aircraft capable of taking off and landing
+on short and unrefined runways with flight range enough to cover the distance between adjacent towns and cities.
+TheprojectincludeMarketresearch,High-leveldesign,Mathematicalmodeloptiomization,Subsystem1Dmodelling,
+CAD modelling, CFD analysis, FE analysis. Tools: Teamcenter, Siemens NX, Matlab, Ansys, pSeven, Simcenter
+LMS Amesiim.
+COMPETITIONS AND IMMERSIONS
+AIRI Summer SchooL 2024 2024, Saint-Petersburg, [location]
+ArtificialIntelligenceResearchInstitutesummerschooL based on Innopolis Universiity
+Final project: Unsupervised approach to Health Index estimation
+AIRI Summer SchooL 2023 2023, Innopolis, [location]
+Artificial Intelligence Research Institute summer schooL based on Innopolis Universiity
+Final project: Unsupervised approach to Health Index estimation
+Travel grant for academic mobility 2023, Sirius, [location]
+Digital Methods in Petroleum Engineering awarded by Sirius Universiity
+Final project: Mapping of various facies zones according to GIS data
+Travel grant for industrial immersion 2022, Saint-Petersburg, [location]
+Industrial Immersion to the Institute of Laser and Weldiing Technologies by [compaany]
+Final project: Magnetic Structure and Mechanical Characteristics of Functionally Graded Material Composed
+by 316L Stainless Steel and 410 Ferritic Steel Produced by Direct Energy Deposition
+EXTRA-CURRI-CULAR ACTIVITIES
+• Teaching Assistant of the ”Data-driven Modelling and Analysis for Applied Dynamic Systems” course.
+• Teaching Assistant of the ”Innovation Workshop” course.
+• The Student Council President at [compaany]
+• The Sport-Club Leader in Just Dance Club at [compaany]
+• The Volunteer, Clubs Coordinator and Event Manager at [compaany]
+
+
+

@@ -1,0 +1,39 @@
+[name] [surname], Ph.D. student
+[email] (cid:128) [name] [surname] (Scholar)
+Employment History
+2023–···· ] ML/DLEngineer→Middleresearchfellow→ResearchtechLead [compaany], [location]
+2021–2023 ] AircraftEngineDesignEngineer"[compaany]",[location], [location].
+Education
+2023–(2026) ] Ph.D.Artificialintelligenceandmachinelearning.
+Thesis title: Methods and algorithms for generative design of physical objects with graph structure representation using deep learning models
+2016–2022 ] [location]
+Specialty.Designofaircraftengines
+Research Publications
+SelectedConferenceProceedings(A/A*-rankCORE)
+1 N.Gubina,A.Dmitrenko,[name] [surname],etal.,,“Hybridgeneerativeaiforde novo design of co-crystals with enhanced tabletability,”2024.
+SelectedJournalArticles(Q1Scopus)
+1 [name] [surname],A.Kalyuzhnaya,A.Hvatov,N.Starodubcev,O.Petrov,andN.O.Nikitin,“Ai framework for generative design of computational experiments with structures in physical environment,”2023.
+SelectedJournalArticles(Scopus)
+1 [name] [surname],A.B.Zhidkovskaya,A.Orlova,etal.,Towardsllm-driven multi-agent pipeline for drug discovery:Neurodegenerative diseases case study.
+2 [name] [surname],A.Hvatov,O.Petrov,A.Kalyuzhnaya,A.Klímova,andN.O.Nikitin,Evolutionary optimization for inverse problem engineering:The case study of defects shape reconstruction,Springer, 2024.
+Selected projects and grants (technical performer)
+2024–2026 ] Development and integration of monitoring and control systems for automation of production processes on the example of laser welding A Consultant, technical performer
+2024–2024 ] Development of an algorithm for generating pharmaceutical compounds based on large language models and agent-based technologies., technical performer
+Selected projects and grants (technical performer) (continued)
+2022–2024 ] TheRussianScientificFoundation"Algorithms for the generative design of physical objects interacting with continuous media",Agreement#22-71-00094,technical performer
+2025–2027 ] Development of hybrid AI methods and algorithms for solving knowledge-intensive generative design problems on small samples of training data,Agreement#25-11-00367tech-
+technical performer
+Skills
+Languages ] Native[location]Russian,strongreading,writingandspeakingskillsforEnglish.
+Coding ] Python,Git,Pytorch,MLFlow,Docker
+Science ] Optimization,ML,GenerativeDeepLearning,LLM
+Misc. ] Academic research,engineeringLATEXandpublishing.
+Open-source maintainer
+GEMCODE–GenerativeAIforchemical ] https://github.com/ai-chem/GEMCODE
+GEFEST–generativedesign ] https://github.com/aimclub/GEFEST
+Miscellaneous Experience
+AwardsandAchievements
+2024 ] BestReviewerattheAI4ResearchWorkshop.
+] BestreportbyayoungscientistCongressofYoungScientists.
+References
+AvailableonRequest

@@ -1,0 +1,40 @@
+[name]
+[location]
+18.04.2025
+Dear Members of Organizing Committee,
+I am writing to apply for the SMILES summer schoo]. My name is [name] and I am
+passionate about deep learning and mathematics. I believe SMILES schoo] is a perfect opportunity for me
+to develop my skills and deepen my knowledge.
+I am currentlly receiving bachelor’s degree in “Applied Mathematics and Infoormatics” at [location] Universiity.
+During my studies, I became interested in deep learning and have chosen a specialization in Machine
+Learning and Applications. As a part of my specialization, I have taken advanced courses in deep learning
+and completed several projects that have provided me with practical programming experience.
+Concerning my hard skills, I am experienced in Python and Pytorch, I have implemented and trained
+various types of neural networks from diffusion to speech recognition models during my studies. I admire
+recent developments in deep learning and I am going to continue studying DL in my master's degree.
+I started doing research under the supervision of [name] during my 2nd year and continue
+working on applications of linear algebra to deep learning as an intern in laboratory of “Matrix and
+Tensor Methods in Machine Learning”. I have gained a strong foundation in mathematics through courses
+in linear algebra, statistics and optimization and I am thrilled to see how beautiful mathematical ideas
+arise in applications to neural networks. For example, during my 3d year, I worked on coursework on
+convolutional networks and took a course on tensor computaions. Unexpectedlly, spectral norm of kernel
+tensor, which we discussed in class, turned out to be a new accurate upper bound for the spectral norm of
+convolution up to a constant factor. This finding was exciting for me. I proved inequalities and ran
+experiments for our paper “Tight and Efficient Bound on Spectral Norm of convolutional layers”, which
+was accepteed to ECCV 2024. This experience strengthened my desire to pursue a career in deep learning
+and contribute to advancing its mathematical foundations. At present, I am working on a method for
+compressing LLMs using matrix factorizations and orthogonal transformations, for which I have
+implemented an iterative algorithm and conducted experiments with models. We hope to publish our
+results soon. I think there is still much potential for research in DL and I want to continue working on
+projects at the junction of mathematics and DL.
+I took part in SMILES-2024 last summer in online format and it was a really great experience for me! I
+really enjoyed the lectures because they introduced me to new methods in DL and provided a deep
+immersion into the theory, underlying the methods, which is very valuable to me. I am eager to take part
+in SMILES-2025 in offline, because the offline format gives more opportunities to get immersed into
+studies and get to know talented participants and experienced scientists.
+In the long term, I aim to work as a research scientist in academia or industry, developing novel methods
+that address real-world challenges. I believe that SMILES schoo] will help me to expand my knowledge
+of the modern methods in DL and enhance my skills.
+Thank you for considering my application!
+Sincerely,
+[name]

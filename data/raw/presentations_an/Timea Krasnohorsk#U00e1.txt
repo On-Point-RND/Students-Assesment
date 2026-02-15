@@ -1,0 +1,140 @@
+            Assessing Adversarial Robustness
+of Multimodal Medical AI Systems
+Keywords: adversarial robustness, multimodal AI, medical AI systems, vulnerability analysis, modality interactions
+This research explores the adversarial robustness of multimodal medical AI systems, examining
+vulnerabilities and modality interactions.
+The goal is to understand the correlation between multimodality and adversarial robustness.
+Authors
+[name] [compaany])
+Associated authors: [name] [compaany], United Kingdom), [name] [compaany], United Arab Emirates), [name] [compaany]), [name] [compaany])
+#The research is under review stage in "Frontiers"
+Introduction: Adversarial Attacks
+Adversarial attacks were first introduced in the paper by [name] et al. and represent a significant vulnerability in AI
+systems.
+Adversarial attacks involve small, often imperceptible changes made to input data (such as medical images or text)
+that are intentionally designed to mislead AI models into making incorrect predictions. Adversarial attacks highlight a
+critical weakneess in deep learning systems, particularly in high-stakes domains like healtcare. Understanding these
+attacks is essential for developing more robusst, reliable, and secure AI models.
+Famous types of attacks: FGSM Fast Gradient Sign Method), PGD Projected Gradient Descent), C&W Carlini & Wagner Attack)
+Introduction: Multimodal Medical AI
+Data heterogeneity makes the healthcare domain an ideal
+use case for multimodal AI systems. Medical data types
+include:
+● Images (e.g., X-rays, CT scans, MRIs)
+● Text (e.g., clinical notes, prescriptions)
+● Structured records (e.g., Electronic Health Records –
+EHRs with lab results, vitals, demographics)
+● Signals (e.g., ECG, EEG
+The medical domain demands high robustness and
+reliability, making research in this area particularly valuable.
+Idea of the Research
+Our hypothesis is that multimodality enhances the
+robustness of AI models.
+Key research questions include:
+● Does multimodality truly improve AI model
+robustness?
+● Is one modality more influential than others in this
+context?
+Focus on the most popular modalities:
+● texts
+● images
+Methodology
+Idea Behind Attack Framework
+This framework evaluates adversarial attacks targeting
+both image and text modalities in multimodal AI systems.
+1. First, attacks are conducted on images using a visual model.
+2. Next, attacks target text inputs using a language model.
+3. Finally, attacks are applied to the multimodal model in three
+scenarios: attacking only text, only images, and both simultaneously.
+The results from these scenarios are then compared to assess
+robustness across modalities.
+Dataset
+Our multimodal dataset was collected by [universiity] and consists of two main parts:
+1. indiana_reports.csv
+This file contains the following fields:
+• uid
+• MeSH
+• Problems
+• Image
+• Indication
+• Comparison
+Frontal and Lateral view of Chest X-ray images • Findings
+• Impression
+• Label
+2. indiana_projections.csv
+This file includes:
+• uid
+• Filename
+• Projection (lateral or frontal)
+Text modality example from the dataset
+Methodology
+Model Framework
+1. Pretrained SENet-154 as a visual model [name].
+2. Pretrained Bio clinical BERT as a language model [name].
+3. Implemented fusion techniques: late fusion and early fusion to create multimodal models [name]
+and [name] derived from models [name] and [name].
+IT_late_fusion
+IT_early_fusion
+Combines outputs of separate unimodal models after Combines features from image and text modalities
+independent processing. early before joint learning.
+Methodology
+We used pretrained models and post-trained them on a part of the Indiana dataset.
+The training parameters are:
+CNN Training. SENet-154 Language Model Training. Bio clinical BERT
+• Batch size: 128 • Epochs: 5
+• Epochs: 13 • Optimizer: Adam
+• Optimizer: Adam • Scheduler: ReduceLROnPlateau
+• Learning Rate: 1e-4
+• Scheduler: ReduceLROnPlateau
+Multimodal Fusion Training
+• Loss Function: Cross Entropy Loss
+Early Fusion:
+SENet Model Facts • Loss Function: Cross Entropy Loss
+• Learning Rate: 1  104
+• State-of-the-art on ImageNet classification
+• improves representation by cchannel interdependencies Late Fusion:
+• Loss Function: Binary Cross-Entropy Loss BCEWithLogitsLoss)
+• Learning Rate: 1  105
+Methodology. Attack Configurations
+Attacks on images
+FGSM attacks with different levels of severity
+Text attacks
+• Synonym replacement
+• Word deletion.
+Why FGSM for Images?
+FGSM is one of the most common and straightforward adversarial
+attacks for images, allowing evaluaion of model robustness with varying
+severity levels.
+Why Synonym SubstiTution and Word Deletion?
+Synonym replacement simulates realistic adversarial scenarios while
+preseerving meaning. Word deletion tests model sensitivity to missing
+information
+Results
+● Single-modality models (image-oonly or text-oonly) are vulnreable even to mild adversarial attacks.
+● The multimodal model [VisionBERT], which combiines image and text data:
+● Achieved higher baseline accuracy than individual models.
+● Was more robusst to adversaial attacks than single-modality models.
+Results
+● [VisionBERT] benefits from the language modelʼs strength, which helped compenstate for weaknesses in the image
+model.
+● Under stronger attacks (ε ≥ 0.1), multimodal accuracy still dropped, but not as drastically as single-modality
+models.
+● Fusion of modalities can contribute to both:
+• Improved performaance
+• Increased adversaial robustness
+Limitations and Future Research Directions
+Limitations Future Research
+• Onlly white-box attacks were tested. • Study black-box attacks for real-world
+relevance.
+• Limited number of attack types.
+• Fusion strategies in multimodal models were • Improve and analyze fusion techniques.
+not deeply explored. • Investigate how information flows across
+• Develop defenses tailored to multimodal
+modalities.
+models.
+Assessing Adversaial Robustness
+of Multimodal Medical AI Systems
+Authors
+[name], Contacts: mozhegova04@gmail.com, @fire0Foxy
+Associated authoers: [name], [name], [name], [name]
+#The research is under review stage in "Frontiers"

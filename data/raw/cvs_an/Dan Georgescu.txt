@@ -1,0 +1,51 @@
+[name] [surname]
++2 *** *** *** # [email]
+[name] [surname] § [name][surname]
+[location] Available for business trips
+Work Experience
+[compaany] June 2024 – Present
+Engineer 11 months
+Developmentandconductofscientificresearchinthefieldsofphysicsandcrystallization. Developmentofalgorithmsof data processing and analysis of experimental results. Application of machine learning methods for data analysis and interpretation.
+Profi.ru February 2018 – Present
+Mathematics Tutor 7 years 3 months
+Preparation of students for olympiads, State Exams, and other assessments. Individual lessons with students who have been admitted to top [location] universiities. Achievements: several students became olympiad wi winners and were admitted to leading universiities.
+Federal Scientific Research Center for Crystallography and Photonics, Russian Academy of Sciences
+November 2021 – August 2022
+Laboratory Assistant 10 months
+Laboratory work, participation in scientific research in the field of proteiin crystallization. Writing scientific articles.
+Using machine learning for processing and analyzing experimental data.
+Online School ”Study Up” October 2022 – January 2023
+Mathematics Teacher 4 months
+Conductingonlinemathematicsclassesforstudentsofdifferentagasandpreparationlevels. Developmentofindividual
+teaching plans and programs.
+Private School ”All Together” September 2022 – October 2022
+Mathematics and Physics Teacher 2 months
+Teaching mathematics and physics. Preparing students for tests and exams.
+Orthodox School of St. Demetrius of Thessaloniki September 2022 – October 2022
+Mathematics and Physics Teacher 2 months
+Conducting mathematics and physics classes. Development of teaching materials and monitoring of academic
+performance.
+Online School Tetrika October 2020 – June 2021
+Mathematics Teacher 9 months
+Conducting online mathematics classes. Working with students of different age groups.
+Education
+Lomonosov [location] State Universiity 2022 – 2025
+Master’s Degree, Faculty of Physics
+Specialization: ”Nanophysics”
+Lomonosov [location] State Universiity 2018 – 2022
+Bachelor’s Degree, Faculty of Physics
+Specialization: ”Physics”
+Professional Development and Courses
+ITMO National Research Universiity, [location] 2024
+”Knowledge Convergence: Interdisciplinary Skills for IT Transformaation Leaders” (72 hours)
+SF Education 2020
+Data Science
+Skills
+Technical Skills Professional Skills
+• Python, PyTorch, TensorFlow • Machine Learning, Deep Learning
+• Keras, Scikit-learn • Data Analysis, Scientific Research
+• Pandas, Numpy • Mathematics, Physics, Olympiad Preparation
+• SQL, MS Excel
+Languages Soft Skills
+• Russian — Native • Teamwork, Project Management
+• English — C1 (Advanced) • Responsibility, Leadership

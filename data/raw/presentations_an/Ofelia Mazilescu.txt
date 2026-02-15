@@ -1,0 +1,75 @@
+Feature selection for
+meta-learning on tabular data
+[name]
+Student, [location] Uni[versity]
+Introduction
+• Meta-learning on tabular data uses meta-features, which can number in
+the hundreds or even thousands
+• Studies show that certain meta-features correlate with the performa[nce]
+of different algo[rithm]s
+• Selec[ting] rel[evant] meta-features can enhance various meta-learning
+tasks (predicting algo[rithm] perf[ormance], choosing the best model, etc.)
+• The goal of this review is to determine whether meta-feature selection
+can improve meta-learning on tabular data
+Problem statement
+• Problem: Identi[fying] meta-feature sets with the highest predictive
+power for different target metrics and eva[luating] the efficiency of
+meta-models
+• Challenges:
+○ creating a meta-dataset
+○ handling a poten[tially] large number of meta-features with a small
+number of a[vai]lable datasets
+○ selecting from a wide range of feature selection methods
+○ per[forming] meta-learning across different target variables
+Scope
+• Data sou[rce]: results from study [1], providing metrics for 19 algo[rithm]s
+on 176 classification datasets from OpenM[L] and >1000 meta-features
+• Meta-features: general, statis[tical], info-theo[retic], landmarki[ng],
+model-based with various aggregation methods
+• Meta-learning task:
+○ 6 target models: Logis[tic] Re[gression], Random Forest, XG[Boost],
+MLP, ResNet, and FT-Tran[sformer]
+○ binary classification of F1 score (above/below median)
+○ meta-models: KNN, XG[Boost], MLP
+1. D. [name], S. [name], J. [name], V. [name], B. [name], C. [name], G. [name], M. [name], C. [name]. When Do Neural
+Net[s] Outpe[rform] Boo[sted] Trees on Tabular Data? 2023. eprint: 2305.02997.
+Data preprocessing
+• Data cleaning:
+○ removed meta-features with many undefined, constant, or infinite values
+○ excluded datasets with exces[sive] missing data or undefined target values
+○ dropped hig[hly] correlated meta-features
+○ final meta-dataset: 134 datasets, 123 meta-features
+● Cross-Validation Strategy: StratifiedKFold
+○ 5 outer folds for eva[luation]
+○ 3 inner folds for model tuning
+● Per-fold processing:
+○ Imputed missing values using mean
+○ Scaled features with Yeo-Johnson transform
+Feature selection methods
+Embbedde[d] Causal-based
+Filter methods Wrapper methods
+methods methods
+Spearman's rank Recu[rsive] Feature Average Treatm[ent]
+correlation Elimination (RFE) Effect (ATE)
+Mutual information
+importa[nce] based selection
+ANOVA F-Test
+Meta-learning methods
+Classification based on the majority label of
+KNN Classi[fier]
+nearest neig[hbors]
+Sequen[tial] ensemble of decision trees
+XG[Boost]
+Classifier
+Feedfo[rward] neural ne[twork] with layers of
+MLPClas[sifier]
+interconnected neurons with nonlinear acti[va]tions
+Results
+Results
+Research gap
+• Expanding meta-dataset
+• Exploring ad[ditional] meta-learning tasks:
+○ best model class prediction (baseline, GBDN or NN)
+○ model ranking
+• Testing and integration with AutoML pipelines
+• Evaluating i[mpact] of meta-feature selection on pipeline runti[me]

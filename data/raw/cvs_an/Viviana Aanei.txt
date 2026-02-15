@@ -1,0 +1,43 @@
+[name] [surname]
+[location]
++2 *** *** ***
+[email]
+ABOUT MYSELF WORK EXPERIENCE
+DATE OF BIRTH [location]
+November 1 2002 February 2024 - I currentlly work here
+GENDER Specialist of the Department of Scientific Work of the
+Oriental Institute
+Female
+EDUCATION [location]
+Bachelor's degree September 2024 - I currentlly work here
+SPECIALLIST OF THE ACADEMIC DEPARTMENT OF ENGLISH OF THE
+COUNTRY
+Oriental Institute
+Russia
+EDUCATION
+[location]
+2024
+FIELD OF STUDY International Relations
+LEVEL OF EDUCATION Bachelor's degree
+LOCATION [location], RU
+[location]
+2025
+FIELD OF STUDY Digital Diplomacy
+LEVEL OF EDUCATION Master's degree
+LOCATION [location], RU
+ADDITIONAL INFORMATION
+LANGUAGES
+Russian - Native Language, English - B2-C1, Chinese - HSK3
+SKILLS AND QUALITIES
+Basic skills in working with the following Python libraries:
+NumPy, Matplotlib, Seaborn, NetworkX, and Scikit-learn
+ABOUT ME
+I am actively engaged in research activities. Recently I am
+actively exploring AI tools.
+I have more than 15 publications in national and international
+journals on topics related to international relations.
+I am a recipient of a grant from the President of the Russian
+Federation.
+
+
+

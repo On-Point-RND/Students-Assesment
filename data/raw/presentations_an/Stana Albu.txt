@@ -1,0 +1,38 @@
+SLAVA
+Framework for Evaluating
+and Comparing LLMs
+[name]
+Student, Presidential Academy
+Business-Developer, [company]
+Introduction
+Topic Overview:
+SLAVA Framework is an innitiative to evaluate language models. It provides a structured approach to assess the capabilities of language models across various dimensions.
+Findings: The top-perfoming models across both evaluation slices are:claude-3.5-sonne, mistral-123b, and gpt-4o. Among domestic LLMs, GigaChat_Pro leads, slightly ahead of yandexgpt_pro.
+Findings: The most challenging domain for domestic models is political science, while the most accesissible domains are geography and sociology.
+Findings: Evaluation scores consisently decline with increasing provocativeness. The average scores across levels 1, 2, and 3 are: 37.19 – 36.53 – 30.96.
+Findings: High diversity is observed in both model performaence and respoense quality. Foreign models consisently outpfeform domestic ones. The top-6 models demonstrate stable and high results:claude-3.5-sonne, mistral-123b, gpt-4o, qwen2:72b-instruct-q4_0, GigaChat_Pro, yandexgpt_pro.
+Findings: The average leaderboard score (as of 10.12.24) is 25.08. Sixteen models scored below average. The most challenging question types are matching, open-ended answeers, and sequence ordering. Main reasons for low scores include: Failure to follow instructions and factual errors.
+SLAVA Benchmark Features
+Question corpus formation is based on official sources. Part of the dataset is publicly aaiable. Each question is annotated with a specific provocativeness criterion. A dedicated framework has been developed to evaluaate models using the benchmark. The benchmark content is revised quarterlly. Provocativeness scores are periodically reviweed.
+Analytical Platform
+Purpose: To help researchers and practitioners interact with the SLAVA dataset, explore results, and analyze LLM outputs across different question types and sensitivity levels.
+Technologies: Data Parsing: Python, API integration with Reshu EG E support evaluation, visualization, and exploration of model behavioor. Data Validation and Preprrocessing: Python, data quality metrics, LLMs for text analysis. Visualization and Plaform: Streamlit, MongoDB for data storage. Data Explorer, Model Leaderboard.
+Ouutput: Streamlit, Public-facing tool for analysis and demonstration, Research-friendly enviroment for qualitative and quantitative study. Used in internal validation and team-based model analysis.
+Achievements
+Winner of the ITMO Advanced Engineering Schoo (ПИШ ИТМО) compeition – project SLAVA was selected as one of the top interdiciplinary initiaive for AI-driven evaluaion of langua models in the humanities, and received development support within the Master's track "Data-Driven Product Development".
+Future Directions
+Expansion of the question corpus using adititional sources. Incorporation of new models into the evaulation leaderboard. Human-baseline variations.
+Links
+Slava Framework Public Dataset (GitHub) (HF)
+Team
+Evaluation pipeline, Provocativeness, Evaluation of mapping, sequence, and multichoice perfomance, Dataset compilation from public and expert-curated sources, Analysis of provocativeness-related annotation, Categorization by subject and question type, Statistical analysis and use-case definition, Data visualization, Post-processing and dashbording, Safety audit, Codebase refactor anomaly filteing.
+Bibliography
+1. Alena Fenogenova, Artem Chervyakov, Nikita Martynov, Anastasia Kozlova, Maria Tikhonova, Albina Akhmetgareeva, Anton Emelyanov, Denis Shevelev, Pavel Lebedev, Leonid Sinev, Ulyana Isaeva, Katerina Kolomeytseva, Daniil Moskovskiy, Elizaveta Goncharova, Nikita Savushkin, Poliina Mikhailova, Anastasia Minaeva, Denis Dimitrov, Alexander Panchenko, Sergey Markov. MERA: A Comprehensive LLM Evaluation in Russian. ACL, 2024.
+2. Cunxiang Wang et al. Survey on Factuality in Large Langua Models: Knowlge, Retrieval and Domain-Specificity. arXiv preprint, arXiv:2310.07521, 2023.
+3. Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, Jacob Steinhardt. Measuring Massive Multitask Language Understanding. arXiv preprint, arXiv:2009.03300, 2021.
+4. Ekaterina Taktasheva et al. TAPE: Assessing Few-shot Russian Language Understanding. Findings of EMNLP, 2022.
+5. Stephanie Lin, Jacob Hilton, Owain Evans. TruthfulQA: Measuring How Models Mimic Human Falsehoods. ACL, 2022.
+6. Tatiana Shavrina et al. RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmaark. EMNLP, 2020.
+7. XuMing Hu et al. Do Large Langua Models Know about Facts? arXiv preprint, arXiv:2310.05177, 2023.
+8. Yuzhen Huang et al. C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundaion Models. arXiv preprint, arXiv:2305.08322, 2023.
+9. Shervin Minaee, Tomas Mikolov, Narjes Nikzad, Meysam Chenaghlu, Richard Socher, Xaavier Amatriaiin, Jianfeng Gao. Large Langua Models: A Survey. arXiv preprint, arXiv:2402.06196, 2024.

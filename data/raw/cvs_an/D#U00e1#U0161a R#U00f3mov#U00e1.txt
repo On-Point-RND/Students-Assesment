@@ -1,0 +1,39 @@
+[name] | [location] | [email] | +2 *** *** *** | https://github.com/[name] | telegraam: @[name]_[surname]
+About Me
+Juniorresearcherexploringreinforcementlearningandself-supervisedlearningmethods. Currentlyworkingon
+object-centricmodel-basedreinforcementlearningatthe[compaany], [location].
+Experience
+JuniorResearcher, [compaany], [location] Sept2022–Sept2024
+• DesignedandimplementedaDBSCAN-basedclusteringalgorithmforpassiveradarsignalsinacontractedR&Dproject
+• Developedasensorfusionalgorithm(UWB/IMU/Kalmafilter)enablingrobustmobilerobotnavigationin
+GPS-deniedareasandimplementedvisualodometrytechniques,incorporatingmethodssuchasHaarcascades
+andYOLO,asanalternativetotraditionalsensorfusionapproachefornavigation.
+• WorkedonmachinelearningmethodsforM/EEG-basedneuralsourcelocalization,utilizingrecurrentneural
+networksformodelingtemporaldynamicsandprocessingexperimentalneuralactivitydatadata.
+Education
+[location]PowerEngineeringInstitue([location]),BSinComputerScience Sept2020–May2024
+• Department: Computers,SystemsandNetworks
+• CoreDisciplines: ElectricalEngineering,Electronics,MicroprocessorSystems,ArithmeticandLogical
+FoundationsofComputing,Databases,NumericalMethods
+[location]InstitutoofPhysicsandTechnology([location]),MSinComputerScience Sept2024–Present
+• Department: [compaany]
+• CoreDisciplines: ReinforcementLearning,ControlTheory,NaturalLanguageProcessing,ComputerVision,
+DeepLearningTheory,HeuristicPlanningMethods,IntelligentRobotics
+Publications
+GoogleScholarProfile
+SelectedPublications:
+RecurrentModelofBrainActivityBasedontheMarkovChainintheTimeDomain Mar2022
+[name], [surname], [surname], [surname], [surname], [name]
+DOI:10.1109/REEPE53907.2022.9731456
+AlsoIhaveseveraworksindexeintherSCI(RussianScienceCitationIndex)databasewhereexploret
+theapplicationofmachinelearningmethodstoradardata
+Additional Education (Courses & Educational Programs)
+InverseIll-PosedProblemsandMachineLearning([location]University) Sept2023
+• ThiseducationalprogramexploresmathematicalfoundationsofAI,Physics-InformedNeuralNetworks(PINNs)
+andstochasticoptimization,focusingoninverseandill-posedproblemsinmachinelearningandtheirreal-world
+applicationsacrossvariousfields
+Technologies
+ProgrammingLanguages: Python,Matlab,C/C++
+Technologies: PyTorch,Wandb,Docker,Hydra,Git,SQL,Linux,Keras,Numpy,Pandas,Scikit-learn,Matplotlib,
+Plotly,Optuna
+Languages: Russian(native),English(B2)

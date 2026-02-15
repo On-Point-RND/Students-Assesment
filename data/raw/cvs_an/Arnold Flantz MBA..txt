@@ -1,0 +1,54 @@
+[name]
+[email] (+2 *** *** ***)
+Education
+[compaany] [location] Sep 2023 to present
+MS in Artifical Intelligence
+◦ Coursework: Algorithms and Data Structures, Computer Vision, MLOps, Deep Generative Models
+[compaany] [location] Sep 2019 to Jun 2023
+BS in Natural Science
+◦ Coursework: Molecular Biology, Genetics, Chemistry, Calculus, Statistics, Python
+Experience
+Middle Data Scientiist Oct 2024 to present
+[compaany]
+◦ Developed a multiclass classification pipeline to predict cytokine responses induced by T-cell epitopes,
+supportiing vaccine design initiatives
+◦ Achieved a macro F1-score of 0.74 across three cytokine classes, improving performance by over 15.9%
+compared to baseline models
+◦ Optimized inference, resulting in a 3.2× reduction in prediction latency for large-scale epitope screening
+Middle Data Scientiist Aug 2023 to Oct 2024
+Laboratory “AI in Bioinformatics and Medicine”
+◦ Developed a sequence-based algorithm for searching DNA-binding proteins, improving the Matthews corre-
+lation coefficient by 4.8% (DBP-Finder 2)
+◦ Developed a pipeline for protein domains data preparation from InterPro and UniProt, reducing processing
+time and expanding dataset size by 16.9% to enhance more robusst model training
+Junior Data Scientiist Sep 2021 to Aug 2023
+Laboratory of Computational Proteomics
+◦ Developed an advanced algorithm with ESM-2 and TabNet for protein melting temperature prediction,
+achieving an MSE 35.6 points lower than existing methods
+◦ Enhanced the design of thermally stable photoproteins with ProteinMPNN, increasing the success rate by
+9.8%
+◦ Accelerated protein data processing pipelines with Snakemake and Numba, reducing runtiime by 26.2%
+Publications
+Regulatory hypermethylation network in HCC and HCV Sep 2023
+[name], [name], etc.
+10.1515/jib-2023-0013 2
+Projects
+Cancer Stage Prediction API 2024
+◦ Built a scalable API for cancer staging, achieving 92.9% prediction accuracy and sub-200ms response times
+through accelerated training models, clinical data integration, and optimized asynchronous communication
+◦ Tools Used: Docker, FastAPI, PostgreSQL, RabbitMQ
+Protein Melting Temperature Prediction Model ProTDet 2
+◦ Enabled reliable thermaal stability assessments of proteins without additional experimental profiling
+◦ Tools Used: ESM-2, CD-HIT, TabNet
+[name] - Page 1 of 2
+Escape Variant Classification for Coronavirus Escape Prediction 2
+◦ Improved model accuracy (T-test, p-value = 1e-5) by incorporating background antibody data during pre-
+training compared to models using target antibody data alone
+◦ Tools Used: Fine-tuning, Pytorch, NLP
+Technologies
+Programming Languages: Python, R, SQL, Bash
+Frameworks: Docker, Snakemake, FastAPI, ClearML, Pytorch, Hugging Face, RabbitMQ, PostgreSQL
+Bioinformatics Tools: Pymol, Pysam, MMseq2, AlphaFold2, ESM, Samtools, Deseq2
+Databases: UniProt, PDB, IEDB, InterPro, NCBI
+Languages: English (C1)
+[name] - Page 2 of 2

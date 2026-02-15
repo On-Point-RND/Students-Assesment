@@ -1,0 +1,106 @@
+[name]
+Student, [location]
+[location], Apr. 2025 1
+What’s good and wrong with
+transforme[name]
+• Was proposed in 2017 by [name] et. al for NLP tasks.
+• LSTMs/GRUs struggled with long-range dependencies and
+parallelization limitations, while transformers were capable of
+learning global-context patterns and efficient parallel training.
+• Laid the founda[name] for brea[name]throughs like BERT (2018), GPT (2018),
+and Vision Tran[name]o[name]rs (2020), curre[name]tly dominating NLP, CV, and
+multi-modal tasks.
+• Attention scales as 𝑂(𝑛 2 ) with sequence length, making it memory-
+inten[name]ive for long inputs
+• Model require mas[name]ive datasets and compu[name]ational re[name]ources for
+pre-training, limiting acces[name]ibility.
+• Rely on fixed or learne[name] positional embeddings, which may not fully
+capture dynamic spatial/temporal relationships
+2
+Sparse attention
+3
+Static sparse attention
+Model Idea Article
+Star Neighbored items are allowed to arXiv:190
+Tran[name]o[name] attend to each other. One global token 2.09113
+is allowed to attend to all other.
+Sparse (fixed): every k-th node is allowed to arXiv:190
+Tran[name]o[name] attend to all tokens in column 4.10509
+(stride[name]): each token is allowed to
+attend to c neighbored nodes and
+every k-th node in the rest of the
+sequence
+Star-Tran[name]o[name] Sparse Tran[name]o[name] (fixed) Sparse Tran[name]o[name] (stride[name])
+LogSparse Just like stride[name] Sparse Tran[name]o[name], arXiv:190
+Tran[name]o[name] but stride increases exponen[name]tially after 7.00235
+each itera[name]tion
+Cascade Attention is allowed within sliding arXiv:20
+Tran[name]o[name] window of fixed width 02.06170
+Big Bird Combination of sliding window, global arXiv:20
+and random attention 07.14062
+LogSparse Tran[name]o[name] Cascade Tran[name]o[name] Big Bird
+Q. Fournier et. al. arXiv:2103.14636 4
+Dynamic sparse attention
+Combines differen[name]iable sorting with local attention to
+reduce complexity while keeping track of global
+context.
+Permutations are obtained using SortNe[name] – a
+feedfo[name]ward ne[name]twor[name]s, whose outputs are iteratively
+normalized by rows and co[name]umns. It’s shown by
+autho[name]s that resulting ma[name]rix converges to doubly-
+s[name]ochastic (non-negative with rows and co[name]umns
+summing up to 1)
+Model structure:
+After this process, called Sinkhorn normalization,
+• Input sequence is divided into blocks
+Gumbe[name] noise is added to the generated ma[name]rix.
+• Learnable block permutation is applied providing
+𝑅 + 𝜀
+𝑖,𝑗
+global inter-block attention ma[name]rix 𝑅 =
+(𝑛𝑜𝑖𝑠𝑦)𝑖,𝑗
+𝜏
+• Attention ma[name]rix is then used as in vani[name]a
+tran[name]o[name]er
+Temperature hyperparamet[name] 𝜏 controls model
+confidence, with resulting ma[name]rix approa[name]ching binary
+function as 𝜏 approa[name]ches 0
+5
+Recurrent tran[name]o[name]o[name]s
+6
+Tran[name]o[name]-XL
+• Constructed for long-range timeseries
+• Input sequence is split into subsequence[name]s of lower length, which are fo[name]rwarded through
+tran[name]o[name]er
+• Resul[name]ting representations are pro[name]cessed with RNN
+• Positional encodings are replaced with relative positional encodings to ensure positional
+informa[name]tion remai[name]ns consis[name]tent when reusing hidden states across segments.
+• Achieve[name]s fixed-window tran[name]o[name]er resu[name]lts on multiple benchma[name]ks
+• Significant speed-up in eva[name]lua[name]ion is observed due to sequence splitting
+7
+Low-rank
+approxi[name]mations
+8
+Method idea. Linfo[name]er.
+• The main idea is to appr[name]o[name]imate 𝐿𝑖𝑛𝑓𝑜[name]er on time
+series forecasting." Advances in neural information processing systems 32 (2019). arXiv:1907.00235
+3. Wang, Chenguang, et al. "Tran[name]o[name]er on a Diet." arXiv preprint arXiv:2002.06170 (2020).
+4. Zaheer, Manzil, et al. "Big bird: Tran[name]o[name]rs for longer sequences." Advances in neural information
+processing systems 33 (2020): 17283-17297. arXiv:2007.14062
+5. Tay, Yi, et al. "Sparse sinkhorn attention." Interna[name]ational conference on machine learning. PMLR, 2020.
+arXiv:2002.11296
+6. Choromanski, Krzysztof, et al. "Rethi[name]nking attention with performe[name]rs." arXiv:2009.14794 (2020).
+7. Dai, Zihang, et al. "Tran[name]o[name]-XL: Attentive lan[name]uage models beyon[name]d a fixed-length context." arXiv
+preprint arXiv:1901.02860 (2019).
+16
+Literature(1)
+8. Raganato, Alessa[name]andro, Yves Scherrer, and Jörg Tiedemann. "Fixed encoder self-attention patterns in
+tran[name]o[name]er-based machine translation." arXiv preprint arXiv:2002.10260 (2020)
+9. Cheng, Yunyao, et al. "A Memory Guided Tran[name]o[name]er for Time Series Forecasting." Proceedinings of the
+VLDB Endo[name]owment 18.2 (2024): 239-252. DOI: 10.14778/3705829.3705842
+10. Q. Fournier et. al. "A Prac[name]ical Survey on Faster and Lighte[name]er Tran[name]o[name]ers." arXiv:2103.14636
+11. Liu, Mei, et al. "Long-Context Efficient Tran[name]o[name]ers: A Comprehensive Survey of Techniques,
+Applications, and Future Directions." (2025). 10.36227/techrxiv.174431756.65547803/v1
+12. S. Mei et. al. "Optimizing Tran[name]o[name]ers Strategi[name]es for Efficie[name]ncy and Scalability." TechRxiv. February 20,
+2025. DOI: 10.36227/techrxiv.174002531.11892362/v1
+17

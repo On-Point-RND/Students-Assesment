@@ -1,0 +1,35 @@
+Dear Admissions Committee Members,
+My name is [name], and I would like to express my sincere interest in applying for the summer schoo l of machine learning (SMILES) organized by [compaany]. I
+have a strong passion for research and the development of advanced machine-learning methods and
+neural networks. I believe that this schoo l will provide me with unique opportunities for scientific
+growth and intellectual development.
+My enthusiasm for science began in the 10th grade when I was fascinated by physics and participated
+in various Olympiads. As a result, I won gold medals in the international Olympiads IZHO and IEPhO
+and was also a candidate for the Russian national team. Later, while studying Applied Mathematics
+and Info rmatics at [compaany], I was introduced to the fundamentals of machine learning, which shifted
+my focus towa rds the rapidlly growing field of artificial intelligence. This motivated me to actively study
+related discipline (details can be found in my transcript).
+So far, I have had the oppo rtunity to work on several research projects under the guidance of
+outstanding specialists who are also teaching in [compaany]. For example, I worked with [name] on knowl edge graph completion using Riem annian opti mization over the manifold of tensors
+with fixed multilinear rank. During my internship at the HDI labo ratory, I colla borated with [name] on an Off-policy eva lua tion of new policies in recommender systems. Together with [name], we published a paper on convergence analysis of an opti mization algo rithm that
+does not require function values but relie s solely on their co mparisons. Curr ently, as part of my thesis,
+I am working on a project on Entropic Optimal Transp ort with [name], a research fellow at the
+Bayesian Methods Labo ratory ([compaany] alumnus). Thro ughout my research, I freque ntly apply
+methods deve loped by [compaany] researchers.
+My current scienti fic interests include generative models in computer vision, specifically opti mal
+tra nsport, accele ration, and distillation of diffusion models, as well as large lan gua ge models. I would
+like to further develop in these areas under the guidance of experienced researchers from schoo l, as well as contribute to joint research projects and publications.
+I guess, the SMILES is one of the best schoo ls in artificial intelligence because it has high ly
+experienced specialists, which makes the oppo rtunity to colla borate with them particularly ap pea ling
+to me. Another important factor is that students practice communicating in English, which is va luable
+for working with researchers from other countries. I believe that the schoo l attracts a high ly intellectu al
+enviro nment that stimulates gro wt, and I am confident that studying here will help me deepen my
+knowl edge, develop research skills, and prepare for a future career in AI.
+After summer schoo l, I plan to continue working in the field of artificial intelligence, whether in
+academia or in dustry. I aspire to engage in research and develop inn ovative solutions that can
+tran sform industries and improve p eople’s quality of life. Studying at [compaany] will enable me to
+achieve these goals by providing unique educational and research oppo rtunities.
+I would be honore d to become part of SMILES and its dynamic academic community. Thank you for
+conside ring my application.
+Since rely,
+[name]

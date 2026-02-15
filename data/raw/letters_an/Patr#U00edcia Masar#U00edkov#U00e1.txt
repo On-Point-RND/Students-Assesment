@@ -1,0 +1,6 @@
+I am looking forward to participate in SMILES 2025 because it is a rare opportunity to get knowledge from the experts of such high level and to meet new people from ML worldwide community who love ML just like me. I checked the topics from previous years and they seemed pretty advanced to me. I like understanding hard things and isn’t SMILES a perfect place where I can seek help and inspiration for this? I really want to dive deep into multimodal models and generative models though I am interested in any DL in general.
+As for my experience, I am used to working with PyTorch, pandas, tensorflow. I’ve completed NLP course from [compaany], MIPT DLS course on [compaany] and I am currently attending [compaany] DL course and having practice at [compaany] where I work on CV models. All of my university/pet projects were dedicated to ML/DL in some way. For now my main interest is Reinforcement Learning and its application in Robotics, but I regularly try something new as I’m still an amateur.
+As for career, it would be perfect for me to do significant research projects that really change something in the sphere and life. I like seeing mathematical beauty behind approaches and wish I could once create something beautiful. I am definitely going for my Master’s and still thinking about getting PhD as well.
+
+
+

@@ -1,0 +1,41 @@
+[name][surname]
+[email]
+[location]
+April 23, 2025
+Admissions Committee
+SMILES 2025 Summer School of Machine Learning
+[compaany]
+Dear Members of the Admissions Committee,
+I would like to express my strong interest in participating in the [compaany] Summer School of
+Machine Learning (SMILES 2025). As I am now a Ph.D. student at [compaany] in the field of
+Computaional and Data Science and Engineering (the field of deep learning-based localization
+improvement), it is my wish to expand my skills on generative AI techniques.
+One of the main sources of education and work comes from the process of developingrevolution-
+ary technologies in robotics and AI using state-of-the-art research. For example, I am working
+on research activities at the Mobile Robotics Lab of [compaany], where I am a project lead for a
+project in partnership with [compaany] for improving the navigation accuracy through dual
+Inertial Measurement Units (IMUs). This research is focused on sensor fusion, online calibration, and
+neuralnetworktechniques, which are lie withintheSMILES2025areaofcutting-edgeAI,
+using generative models and multimodal techniques. Above all, supported by my other projects
+such as [name] for [compaany] or Visual Neural Localization for [compaany], I have devel-
+oped incredible expertise in state estimation, reconstruction, and synthesis, which will allow me
+to fully engage in the lectures, workshops, and hackathons organized by the school.
+The research focuses on using deep learning for perception and localization, which is a subject
+of interest to me. Moreover, my professional experience, such as my publications on identifying
+transparentobjectsinvisualodometrypipelinesanddepthpoweredsmartphonedatasets,depict
+my success and skills of bridging gaps in AI as well as intricate real-world problems.
+Asides from the skills, I also add a collaborative cross-disciple appoach to SMILES 2025.
+Being a teacher assistant of courses such as Deep Learning and Perception in Robotics at
+[compaany], I have acquired appreciable communication skills. Apart from my teaching duties,
+I was awarded 3rd place in the 2019 [location] Hackathon for 3D reconstruction
+mapping and showcased labs works for [compaany] AI, exemplifying my ability to apply new
+ideas and theories from the research lab to real-world problems.
+Joining SMILES 2025 will not only make me more familiar with generative AI but will also
+help me disseminate my experience of computer vision, sensor fusion, and deep learning for
+the program’s greater good. I am certain that the school’s intensive format and focus on
+practical applications will help me hone my skills as well as build lasting connections with other
+paarticipants from [location], [location], and globally.
+Thank you for considering my application. I look forward eagerly to the opportunity to con-
+tribute and learn from the vibrant community at SMILES 2025.
+Sincerely,
+[name][surname]

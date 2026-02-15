@@ -1,0 +1,40 @@
+[name] [surname] (cid:211)+2 *** *** *** [email]
+[location]
+EDUCATION
+2021-2025 Phystech-School of Biological and Medical Physics [compaany]
+EXPERIENCE
+02.2025–Present Product Analyst-Developer [compaany]
+Interning in the department responsible for developing the internal A/B testing platform, Trisigma.
+• Building solutions for metric forecasting and automated alerting systems
+• Tools used: SQL, Python, BI-instruments, mathematical statistics, time series modeling
+06.2024–09.2024 Product Analyst [compaany]
+Worked in the Client Analytics Department. My responsibilities included:
+• Working with databases, analyzing trends to identify patterns
+• Creating dashboards for reporting on interaction channels and team performance
+• Developing ML models for client scoring
+• Designing and conducting A/B tests, ad-hoc/post-hoc, and formulating new hypotheses
+• Tools used: SQL, Python, BI-instruments, mathematical statistics, CatBoost, LightGBM, shap, Scikit-learn, pandas, NumPy, Plotly, Matplotlib, CUPED, CUPAC
+02.2024–Present Zelman Center for Neurobiology and Neurorehabilitation [compaany]
+Work on the project:"Lipid composition changes in the cingulum bundle of the brain in patients with schizophrenia or major depressive disorder":
+• Dissection and preparation of postmortem brain samples
+• Performing statistical analysis of mass spectrometry lipidomic data using Python, including ANOVA for group comparisons
+• Visualizing data and identifying significant lipidomic differences across patient groups
+• Skills used:Python, mathematical statistics(ANOVA,ANCOVA,t-test,hypergeometrictest,correlation analysis, Kruskal-Wallis, and others)
+01.2024–Present Phystech@DataScience [compaany]
+Assistant at the Phystech@DataScience course.The course covers topics in mathematical statistics,machine learning, and neural networks. My responsibilities include:
+• Developing practical materials for classes,finding new datasets.Created materials from scratch for lectures on analytics and AI tools
+• Assisting students during practical sessions
+• Skills used: Mathematical statistics (A/B tests, Causal Inference, parametric and non-parametric tests), ML (Random Forest, Linear and Logistic Regression, CatBoost, Naive Bayes classifier), DL (PyTorch, Lighting, CNN, RNN)
+07.2023–01.2024 Laboratory of Experimental and Cellular Medicine (LECM) [compaany]
+Worked on the project:"The effect of drug X on the ability of cardiomyocytes to conduct electrical signals and its cytotoxicity."
+EXTRACURRICULAR ACTIVITIES
+2023 Hackathon Winner [location]
+First place in the [location] hackathon for developing an MSI/MSS-calling tool. Our solution involved analyzing sequencing data of specific DNA regions and developing multiple models using Random Forest, XGBoost, LightGBM, and a convolutional neural network.
+2022 Hackathon Runner-Up [location]
+Second place in the [location] hackathon on studying the impact of psycho-emotional states on heart rate variability parameters. We used open-source experimental data to correlate physiological states with basic emotions through data analysis methods in Python.
+2019-2021 Student [location]
+Completed the [location] course on Python fundamentals and OOP in grades 10-11, graduating with distinction.
+2023-2024 Student [location]
+She completed the program of additional education "AI in medicine, VR"
+LANGUAGES
+Russian - Native, English - C1, Spanish - B1

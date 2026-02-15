@@ -1,0 +1,86 @@
+Novel discoveries in LLMs
+post and pre-training
+SELF-IMPROVEMENT IN LANGUAGE MODELS: THE SHARPENING MECHA-NISM
+Key points:
+● LLMs are good judges, but the responses can be not qualitative enough;
+● Nowadays it is hard to get new training data for LLMs;
+● Recently the LLMs’ ability to self-improve was discovered;
+● In this paper the “sharpening” framework is introduced and formalized;
+● Both SFT and RLHF post-training methods are considered;
+● The results are empirically justified;
+● The convergence guarantees and complexity are provided;
+● Both the percent lift in accuracy and the increase in log likelihood are demonstrated;
+Self-rewarding
+● The base model is a good verifier!
+● The self reward function is used to measure the model certainty
+● Popular examples of self-rewards: sequenced likelihood*, confidence**, etc.
+● is desired
+Practically is considered:
+* - arXiv:2010.02650, [surname] et al.
+** - arXiv:2402.10200, [surname] et al.
+Sharpening
+Definition: Sharpening is any process that tilts towards the responses with
+higher Therefore, the sharpened model is a model that:
+Sharpening is an optimization over responses (at the sequence level), not over
+the tokens!
+Methods
+For the SFT-Sharpening sampled responses are filtered with BoN:
+And the following optimization problem is solved (standard SFT):
+In case of RLHF-Sharpening the following problem is defined:
+Where the is a standard KL divergence
+Results (Theoretical)
+The SFT-Sharpening is minimax optimal in the sample-and evaluate framework
+with a total sample complexity:
+For the RLHF-Sharpening the total sample complexity is:
+Results (Empirical)
+● Best-of-N sharpening beats the greedy decoding across the all datasets;
+● Best-of-N sharpening beats the naive sampling with temperature 1;
+Results (Empirical)
+CONTEXT-PARAMETRIC INVERSION: WHY INSTRUCTION FINETUNING CAN WORSE
+CONTEXT RELIANCE
+Key points:
+● Standard practice: LLM should process users prompts supplied with a new context ;
+● If the user context is conflicting with a knowledge from pretrain the model is struggle to
+follow the context reliably;
+● Instruction tuning is usually used to improve this ability;
+● The benchmarks performance is increasing during the all procedure of IFT;
+● After some moment the context reliance starts to gradually decrease;
+● This phenomenon is called context-parametric inversion;
+● This paper deeply explores this phenomenon and provides some ideas in order to
+mitigate this deficiency
+Context parametric inversion
+●
+● The context reliance is firstly increasing and then decreases while the
+benchmark performance is growing; (a)
+● Instruction tuning datasets contains both types of samples in terms of
+context criticalness; (b)
+Possible reasons: overfitting?
+● Context parametric inversion is not caused due to the overfitting.
+● Consider the comparison between filtered dataset and the common one!
+Possible reasons: Lack of the context reliance datapoints
+● Let’s call “context reliance datapoints” a datapoints which require attention to
+the context in order to provide the response.
+● CPI is still observed both for context-only Alpaca (b) and for the context
+based finetuning dataset SQuAD (c)
+Solutions
+● Counter-Factual augmentation (a) and (b)
+● QK only finetuning (c)
+SYNTHETIC CONTINUED PRETRAINING
+Key points:
+● Pre-training requires lot’s of diverse data, it is data-inefficient;
+● This poses a challenge of model adaptation to the corpus of the domain-specific
+documents;
+● This is gap is closed with the synthetic continued pretraining;
+● Special algorithm is proposed to generate large corpus of data from small one in order
+to perform the pre-training efficiently;
+● Synthetic data helped to rearrange knowledge to enable more data-efficient learning;
+EntiGraph
+1. The list of entities is extracted from the basic corpus;
+2. More formally we got something like the following set:
+3.
+4. The relations are analyzed;
+EntiGraph
+5. More formally:
+6. For instance, if the is “Linear space” and is a “vector” then they may
+for a relation if there is a sentence in a corpus like “Linear (vector) space is …”
+Results

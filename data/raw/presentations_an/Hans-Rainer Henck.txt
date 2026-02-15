@@ -1,0 +1,15 @@
+## Summary of the Document: "Automated Recognition of Linear Objects (Roads) using Machine Learning"
+
+This document outlines a research project focused on automating the recognition of roads in aerial imagery using machine learning, specifically deep learning techniques. It details the problem, methodology, results, and future work planned for the project.
+
+**Key aspects covered:**
+
+* **Problem Statement:** The need for automated road recognition for updating geospatial data, particularly for forest transportation modeling.
+* **Methodology:** The project utilizes various neural network architectures (specifically mentioning NL34_LinkNet and DLkNNet) and evaluates their performance on a dataset of aerial imagery. It also includes a plug-in for the open-source GIS software QGIS to facilitate the process.
+* **Results:** The research indicates that modern neural network architectures show promising results in road recognition, with paved roads without tree cover being the most accurately detected. However, road segments with tree cover remain a challenge. The best results achieved an IoU (Intersection over Union) of 0.611.
+* **Future Work:** The project plans to further investigate and test more advanced neural network architectures like Spin Road Mapper, Sat2Graph, and RNGDet, specifically within the context of Russian forest transportation modeling.
+* **Dissemination:** The findings will be used in lectures and seminars at HSE University in 2025.
+* **Related Publications:** A list of recent publications and conference presentations in Russian related to machine learning and remote sensing in forestry is provided.
+* **Technical Information:** Details about the project's GIS tools and the process of configuring road recognition parameters are included.
+
+**In essence, this document presents a research effort to leverage the power of machine learning, particularly deep learning, to automate the identification of roads in satellite and aerial imagery, with a specific focus on applications within the forestry sector in Russia.**

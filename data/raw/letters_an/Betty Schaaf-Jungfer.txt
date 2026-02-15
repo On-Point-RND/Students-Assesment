@@ -1,0 +1,45 @@
+Dear [name],
+My name is [name], and I am deeply enthusiastic to submit my application for
+the SMILES Summer School of machine learning.
+I have a double degree from [location] and the Higher School of Economics ([compaany]), I work with medical
+data as a data scientist at [compaany], and I've had the chance to teach and learn at some
+top [compaany], but I still feel like there’s a lot I haven’t tried, and a lot I’m
+hoping to change in myself.
+One of the main reasons I want to join SMILES is personal. Lately, I’ve been
+growing aware of how much my comfort zone is centered on quiet, solo work. I
+know that science is a team effort, and I see how my own anxiety sometimes gets
+in the way of speaking up, asking questions, or connecting with peers about
+difficult topics. I want to break free from that a bit (or to try at least)—not just to
+be a better worker, but to be more open and confident in myself. This summer
+school, with its mix of new faces and hard technical topics, feels like the perfect
+place for me to practice and grow.
+Professionally, I think SMILES would let me step away from my usual rush of
+deadlines and practical deliverables and let me focus again on deeper, more
+research-driven work. As I prepare to apply for a master’s degree this year, I want
+to reconnect with the excitement and curiosity that actually got me into data
+science to begin with: the medical projects I work on now are fast-moving and
+real-world, but I often miss the space to think, experiment. Additionally, I am
+driven by a desire to refine the skills I’ve recently developed through practice.
+“Practice makes progress” they say;
+My experience in machine learning covers a range of things (some are presented
+in my CV): from building data pipelines and engineering solutions to deploying
+classifiers and working with real medical data at [compaany] now. I started out as a
+Teaching Assistant in statistics at [compaany], spent some time as a trading intern.
+Recently, I’ve been fascinated by the internals of large language models—
+especially after reading Anthropic's “On the Biology of a Large Language Model”
+series. I try to keep up with the latest research and challenge myself to understand
+how these models actually work, not just how to use them. I have that FOMO
+thing (“fear of missing out”) about endless new ideas and concepts, and I love the
+chance to discuss and debate with people who feel the same.
+I’m especially eager to see sessions on Multi-Agent Systems or Safe/Consistent/
+Reliable AI. The hype around agents makes me curious, but what I want most is
+to understand how to make AI reliable, especially since unpredictability in large
+models is a real issue in my daily work in the medical field.
+Looking ahead, I want this summer school to fuel my drive, both as a signal to future master’s programs (at places like [location], [location], [location]…). Any new
+experience helps, I think SMILES could be a turning point for me: academically ,
+professionally, and personally.
+Thank you for considering my application. I hope you’ll give me the opportunity
+to join, learn, struggle, and grow together with everyone at SMILES — whether
+it’s in [location] or online.
+Regards,
+[name]

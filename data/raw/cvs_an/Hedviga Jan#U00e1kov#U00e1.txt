@@ -1,0 +1,42 @@
+[name] [surname]
+Contacts: +2 *** *** *** | [email] | [location]
+Telegram: @[name]
+English language:: Upper-Intermediate - B2
+TECHNOOLOGY STACK
+Skills: Python, SQL, Pandas, PyTorch, Matplotlib, Numpy, Scikit-learn, CatBoost, HuggingFace,
+transformers, sentence-transformers, loralib, PEFT, OpenCV, Qdrant, PostgresSQL,
+FastAPI, LangChain
+Tools: LaTeX, Git, Linux, Docker, AirFlow, MLFlow
+EXPERIENCE - 3,5 YEARS
+Digital Region. [location] March 2024 - Present
+Developed project designs, led the development team, created specifications for data labeling, developed models based on CV/NLP technologies, deployed models to PRODUCTION, monitored the lifecycle of models during
+operation.
+• Implemented a road damage detection model using (Ultralytics), which allowed to detect 96.5% of road surface
+damages. Created an algorithm for estimating the area of damages and extracting coordinates with subsequent
+recording to PostgreSQL database.
+• Developed a service for selecting activity clubs for children. Based on YandexGPT and a knowledge base of
+clubs (RAG). Set up API requests using FastAPI and wrapped in Docker container. As a result, the number
+of club registrations increased by 5%.
+• Implemented RAG Pipeline for responding to user requests. Preprocessed and vectorized documents using E5,
+automatically labeled the dataset and trained a reranker. Stored the resulting vectors in the Qdrant vector
+database and configured API interactions. Wrapped the service in a Docker container.
+Stack: PyTorch, ultralytics, OpenCV, SQLAlchemy, Transformers, LangChain, FastAPI, Docker, Qdrant,
+Pillow, OpenCV, timm, PostgreSQL
+Subscale AI January 2022 — March 2024
+Developed and implemented solutions based on NLP and CV technologies, conducted experiments with
+models, deployed and configured monitoring.
+• Developed a document preparation pipeline using LangChain and a system for LLM interaction with the
+corporate knowledge base (RAG). Deployed the solution on a local server using FastAPI and Docker. As a
+result, information search time was reduced by 5 times
+• Performed fine-tuning of LLAMA 2 and LLAMA 3 models using (LoRA) for technical support automation.
+Developed a process for preprocessing corporate data and deployed the solution in a Docker container. As a
+result, the number of requests to operators decreased by 15%.
+• Created a system for detecting and replacing confidential data (NER) in emails based on BERT. Developed
+an algorithm for contextual replacement while preserving business logic. Implemented API and deployed the
+solution in Docker, achieving f1-mcrro 73% and accuracy 98%.
+Stack:PyTorch,Transformers,LangChain,FastAPI,Docker,Qdrant,Librosa,Pillow,Sklearn,Pandas,NumPy,
+LoRA, Kubernetes, SQLAlchemy, PostgreSQL
+ACHIEVEMENTS
+• Won competitions in DS
+• Our project team won the AIJ award
+• And the most important achievement - I love doing all this :)

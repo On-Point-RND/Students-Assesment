@@ -1,0 +1,53 @@
+[name] [surname]
++2 *** *** ***
+[email]
+[name]
+telegram: @gem_nya
+[location]
+ABOUT ME SKILLS
+My main ML interest is NLP, I have a COMPSCI SKILLS:
+practical experience of working on NLP Python, PHP
+projets during my bachelor’s degree. I HTMHTML, CSS, JavaScript, XML
+also have experience in working with LaTeX, Google Sites, Tilda
+databases, ontologies, corpora and UML-diagrams, ERD
+chatbots. My goal is to earn more SQL, Oracle, Microsoft Access, SQLAchemy
+experience in ML and develop new skills, as NLP: text classification, NER, corpus annotation
+well as work with colleagues in the field. ML SKILLS:
+Fine-tuning BERT/training from scratch
+SCIENTIFIC WORK
+LLM promptiing, API pipelines
+Logistic regression, TF-IDF, word2vec
+Term paper “Creating a Russian Synonyms Libraries: PyTorch, scikit-learn, kaggle,
+And Hypernyms Dictionary Using Hugging Face libraries
+Automatic Pre-markup”, 2024
+LANGUAGES:
+Russian (native), English (С1), Spanish (B1),
+Korean (A1)
+Bachelor’s thesis “Development of a
+Language Model for Processing
+Mathematical Formulae in Context for the SOFT SKILLS:
+Russian Language”, 2025
+Problem solving
+Critical thinking
+CONFERENCES
+Time management
+Teaamwork
+“How to view the entire Wikipedia and not Attention to detail
+go crazy: The history of creating the wiki-
+synonyms library”
+DataFest [location] 5, 2024 EDUCATION
+“RuMathBERT: A Russian-Language Model Bachelor’s | [location] State Universiity
+for Mathematical Formula Interpretation”
+Fundamental and Applied linguiistics (45.03.03)
+AINL 2025
+GPA: 5.0/5.0
+August 2021 – June 2025
+PUBLICATIONS
+VOLUNTEER WORK
+[name], [surname] (2024).
+Development of Pre-markup Methods for
+Extracting Synonyms and Hypernyms in Participation in organizing and conducting
+Russian Texts. Abstracts of the XXV All-
+the Summer Schoool of the Humanities
+Russian Young Scientists Conference on Faculty of [location] State University
+Math Modelling & IT, P. 48. EDN GJPEXP. July 2022, 2023, 2024

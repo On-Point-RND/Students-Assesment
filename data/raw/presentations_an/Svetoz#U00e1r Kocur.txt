@@ -1,0 +1,103 @@
+Beyond Quadratic: Three Methods for
+Scaling Down Transformeer Complexity
+[name]
+[location]
+Introduction
+● Topic: review of three distiinct approaches to reducing computaional complexity in sequence modeling architectures:
+○ Performeer (FAVOR+ linear attention) – [name] et al., 2021
+○ Nystromformeer (Nystrom-method approximation) – [name] et al., 2021
+○ Mamba (input ‑ aware structured state ‑ space models) – [name] et al., 2024
+● Why Importaant: Standard Transformeers incur O(n²) time and memory in self ‑ attention, limiting sequence length and
+driving up resource costs.
+● Background: Self ‑ attention ( [name] et al., 2017) captures global dependencies but scales poorly with sequence
+‑
+length. Prior solutions include sparse attention, low rank kernels, and local windows.
+● Goal of Review: To survey and contrast three paradigms and assess their trade ‑ offs in scalability, accuracy, and
+generality.
+Problem statement
+‑
+We aim to reduce the quadratic time and memory cost of the Transformeer’s self attention mechanism whose time and space
+complexity of computing are and , limiting input to a few thousand tokens.
+● Challenges:
+○ Model Performaance: Approximations can degrade the model’s ability to capture long ‑ range dependencies.
+○ Training Stability and Convergence: altering the attention computaion can affect gradient flow.
+○ Hardware efficiency: designing algorithms that map well to GPUs/TPUs without excessive memory overhead.
+● Scope: We review three paradigms for subquadratic self ‑ attention:
+○ Performeers achieving time and optiomal space complexity.
+○ Nyström approximation of softmax attention has time complexity , memory complexity .
+○ Mamba has scaling and hardware ‑ aware parallelism.
+Performer
+● Approach – Fast Attention Via positive Orthogonal Random features (FAVOR+):
+○ Generalized kerneliizable attention: FAVOR+ can efficientlly model attention mechanisms beyond softmax based on kernel functions. Examples include using the ReLU function as a kernel.
+○ Orthogonal Random Features (ORFs): ORFs (Regular ORFs (R-ORFs), Hadamard/Givens ORFs (H/G-ORFs))
+are used to reduce the variance of Monte Carlo estimators for kernel approximations.
+○ Random features: kernel function approximations via feature maps such as trigonometric and exponential.
+● Why These Methods? Achieve linear time and space without sparsiity or low ‑ rank priors. Provable guarantees:
+‑
+unbiased or nearly unbiased attention estimation with low variance.
+● Data:
+○ Text Models (LM1B, PG ‑ 19), Pixel Prediction (ImageNet64), Proteiin Sequence Modelling (TrEMBL).
+○ Benchmarks: Reformer, Linformer, Regula full-rank attention Transformers, Long Range Arena,
+other efficient sparse and dense attention methods.
+Nystromformer
+● Approach
+○ Nyström Method: applies Nyström low-rank approximation to self-attention matrices using sampled
+landmark points.
+○ Moore-Penrose Pseudoinverse: reconstructs the full matrix via an efficieently approximated pseudoinverse
+from landmarks using an iterative method.
+○ Segment-means Landmark Selection: introduces Segment-means (local average pooliing) insteaad of
+K-means for simpler landmark selection.
+● Why These Methods? Linear scaling in sequence length without sparsiity/low ‑ rank priors. Theoretical
+‑
+guarantees: unbiased or low variance estimation of attention matrix. Simple GPU/TPU mapping.
+● Data: Pre-training: similar to BERT (BookCorpus and English Wikipedia. The pre-training objective used was
+MLM and SOP. Fine tuning: GLUE benchmark, LRA benchmark: ListOps, Text and others, Pathfinder
+(sequences up to 8 K tokens).
+Mamba
+● Approach – Selective State Space Models (SSMs): sequence models enhancing structured state space
+models by dynamiically adjusting their parameters based on input content.
+○ Hardware-aware Parallel Algorithms (Scan): Efficient GPU-optimized scan-based algorithms for
+selective SSM computaion.
+○ Discretization: Converts continuous-time parameters to discrete forms, relating to RNN gating.
+○ Zero-shot Evaluation: Performance tested on unseen downstream tasks without fine-tuning.
+● Why These Methods? Content ‑ Based Reasoning: Prior subquadratic models (e.g. fixed SSMs, linear attention)
+‑
+lack input adaptive behavior, limiting performance on discrete modalities like language or genomics. Parallel
+‑
+Efficiency: hardware aware scan recovers parallelism and memory locality.
+● Data: Synthetic Tasks: Selective Copying and Induction Heads. Pretraining: The Pile (text), HG38 (DNA),
+YouTubeMix (music), SC09 (speech). Language Modeling Zero-shot Eval: LAMBADA, HellaSwag,
+PIQA, ARC-e/challenge, WinoGrande.
+Main results
+● Performeer. On single sequence proteiin modeling (TrEMBL) the bidirectional Performeer lifts accuracy from 33.32% to
+‑
+36.09% and lowers perplexity from 9.22 to 8.36 compared with a size matched Transformeer. On the 4K token “Text”
+‑ ‑
+task in the Long Range Arena benchmark, the Performeer attains 65.40% accuracy – just shy of the quadratic
+Transformeer’s 64.27 %.
+● Nystromformer. In the Long ‑ Range ‑ Arena benchmark it attains 58.95% average accuracy, topping Reformer,
+‑
+Linformer and Performeer by ≥ 3 pp while matching vanilla attention quality but with memory + time. Compares
+‑
+favorably to BERT base across all tasks (e.g. IMDB 93% vs 92 – 93 %).
+● Mamba. At 2K token prompts a 6.9В parameter Mamba reaches ~5× higher inference throughput than a
+similarly-sized Transformeer on an NVIDIAВ A100. 370 M: 8.28 — 790 M: 7.33 — 2.8 B: 6.22 — matches or beats
+Transformers that are ~2× larger.
+Research gap
+● What’s still missing across Performeer, Nyströmformeer & Mamba?
+○ None of the three methods has yet been stress ‑ tested on multi ‑ million ‑ token natural ‑ language sequences, so their
+true upper bound on context length is still unknown.
+○ Performeers depend on feature redrawing, Nyströmformeer on landmark choice, and Mamba on careful gate
+‑ ‑
+initialisation, which complicates plug and play adoption.
+● Why it matters?
+○ Fixing these gaps would let industry run long ‑ context LLMs on commoditity hardware, lower inference cost per
+‑ ‑
+token, and enable genome scale or hour long audio modelling outsiide of large research labs.
+● Future opportunities:
+○ Hybrid stacks that mix Mamba blocks with Transformeer layers ( [name] Lenz et al., 2025 appeared recentlly).
+○ Neural‐architecture ‑ search for linear attention: let NAS decide how many
+Mamba/Performer/attention layers a model needs at each depth and sequence length.
+
+
+

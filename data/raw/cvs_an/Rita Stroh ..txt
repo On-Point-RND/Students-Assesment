@@ -1,0 +1,69 @@
+[name] [surname] Email : [email]
+Mobile : +2 *** *** ***
+Education
+M. V. Lomonosov [location], [location]
+•
+PhD student in aeromechanics Aug. 2022 – Present
+[compaany]
+This numerical and experimental study examines the merging dynamics of two Lamb-Oseen vortices in a viscous incompressible fluid. The merging process progresses through four characteristic stages: mutual rotation, rapid approach, deceleration, and final coalescence. Results show excellent agreement with experimental data at small Reynolds numbers.
+M. V. Lomonosov [location], [location]
+•
+01.05.01 Fundamental Mathematics and Mechanics September. 2016 – June. 2022
+Qualifying paper: The expansion of HII region in the thin layer Approximation
+This study examines the expansion of ionized regions (HII) around massive stars using a simplified
+hydrodynamic model. The research focuses on the transition from rapid initial ionization to subsequent
+shock-driven expansion, with analysis confirming that radiation pressure has negligible impact under typical
+condiitions. Results show good agreement with classical theoretical solutions.
+Wave Formation on the Surface of a Liquid Film
+This work investigates nonlinear waves in thin liquid films using spectral Fourier methods. Stability analysis
+reveals waves become unstable below critical wavenumber (α < 1). Numerical solutions via Fourier spectral
+decomposition coupled with Runge-Kutta integration demonstrate distiinct wave regimes. Results provide
+quantitative predictions for wave amplitudes across different α values, with applications in coating processes
+and microfluidiics.
+Publications
+• Towards Robust Full Low-Bit Quantization of Super Resolution Networks
+Authors: [name] [surname], [name] [surname], [name] [surname], [name] [surname] & [name] [surname]
+Conference/Journal: ECCV, 2024
+Abstract—This paper introduces a method for fully quantizing Super Resolution (SR) networks to 4-bit
+precision by leveraging natural image properties. The approach redistributes quantization errors to edge pixels
+using differential operators and reconstructs images via a regularized PDE solver.
+Experience
+[compaany] [location]
+•
+DL-reasecher Jan 2023 – Present
+◦ Joint Demosaicing and Denoising of RAW Images with a CNN:
+Goal: Develop a CNN-based model for simultaneous RAW image demosaicing and denoising to enhance mobile
+photography.
+Contributions:
+∗ Implemented model distillation to improve image quality and performance.
+∗ Created deployment scripts for embedded devices, including layer replacement and generation of .onnx and
+.omc files.
+∗ Conducted experiments with various loss functions to enhance color fidelity and detail.
+∗ Performed hyperparameter tuning to optimize model performance.
+∗ Applied Variance Stabilization Transf (VST) for input preprocessing that increase quality in dark area.
+◦ Swimming Style Classification:
+Goal: Build a system to classify swimming styles using smartwatch inertial sensor data.
+Contributions:
+∗ Quantized and calibrated the model for embedded use with no loss in accuracy.
+∗ Addressed misclassification issues by enriching the dataset with newlly labeled samples using LabelStudio.
+∗ Removed noisy data and wrote validation scripts.
+∗ Selected and optimized architecture for low-resource devices.
+◦ Data-Driven Inertial Navigaation:
+Goal: Estimate human velocity from IMU sequences for indoor navigation and gait analysis.
+Contributions:
+∗ Integrated model into the MindSpore framework for edge inference.
+∗ Replaced unsupported blocks with compatible alternatives.
+∗ Analyzed and cleaned datasets to improve performance.
+[compaany] [location]
+•
+Developer 2020 – 2023
+◦ Automation of Mortgage and Consumer Lending:
+∗ Developed risk assessment rules to evaluate client creditworthiness.
+∗ Created data marts and prepared datasets for scoring model training.
+∗ Integrated with external APIs to enrich data and expand functionaliity.
+∗ Helped automate credit scoring processes to improve efficiency and reduce risk.
+Programming Skills
+• Languages: Python, C++, SQL
+• Frameworks & Libraries: PyTorch, MindSpore, OpenCV, NumPy, Docker, ONNX
+• Model Optimization: Quantization, Pruning, Acceleration Techniques
+• Specialization: Computer vision, Image Processing, Human Activity Recognition

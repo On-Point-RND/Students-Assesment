@@ -1,0 +1,184 @@
+Knowlege Editing in LLMs
+Research Overview
+[name]
+April 20, 2025
+[location]
+Knowlege Editing Motivation
+Fewer Precise
+● Models store outdated
+Params Control
+or incorrect knowledge
+Finetune
+● Knowlege editing
+PEFT
+claims to update specific
+RAG
+facts only
+● Balances precision with Continual
+Learning
+model stability
+● Avoids costly full model Model
+Unlearning
+retraining
+Knowledge
+editing
+(Zhang et al., 2024)
+Task Definition
+Deployed models may still make unpredictable errors. For example, LLLMs notoriously hallucinate, perpetuate bias, and
+factually decay, so we should be able to adjust specific behaviors of pre-trained models.
+Knowlege editing aims to adjust base model's (f ) behavior on the particular edit descriptor [x ,y ] efficiently.
+θ e e
+Knowlege Editing Task
+● Procedure F translates the initial model
+to the edited one
+● Knowlege Insertion adds new knowledge editing procedure
+knowlege to the model
+● Knowlege Modification altering
+knowlege insertion
+knowlege alrready stored in the model
+● Knowlege Erasure targets excision of
+knowlege modification
+pre-existing knowledge
+knowlege erasure
+Task Definition
+Deployed models may still make unpredictable errors. For example, LLLMs notoriously hallucinate, perpetuate bias, and
+factually decay, so we should be able to adjust specific behaviors of pre-trained models.
+Knowlege editing aims to adjust base model's (f ) behavior on the particular edit descriptor [x ,y ] efficiently.
+θ e e
+Knowlege Editing Example
+● WikiData Counterfact
+● Edit Request
+○ Prompt: The name of the country of citizenship of
+[name] is
+○ Ground Truth: USA 󰑔
+○ Target New: Syria 󰑁
+● Evaluation Prompts:
+○ Portability: The name of the currency in the country
+of citizenship of [name] is
+■ Expected: Syrian pound
+Syrian [name]
+○ Locality: The place of birth of [name] is
+■ Expected: Los Angeles
+Knowlege Editing Approaches
+● Memory based: Dynamic,
+no permanent changes
+● Additional parameters:
+Com pact, scalable
+updates
+● Intrinsic modification:
+Precise, but risks side
+effects
+(Zhang et al., 2024)
+Metrics
+● Edit Success: Measures factual
+update accuracy
+● Locality (In-Distribution):
+Ensures unrelated knowledge
+preservation
+● Locality (Out-of-Distibution):
+Assesses general capabilities
+preservation
+● Portability: Tests propagation
+across reasoning chains
+Datasets
+Task Knowledge Knowledge Modification Knowledge
+Insertion Erasure
+Datasets Wiki ZsRE WikiBio WikiData Convsen Sanitation
+recent counterfact
+t
+Type Fact Question Hallucinatio Counterfact Sentime Unwanted Info
+Answering n nt
+# Train 570 10,000 592 1,455 14,390 80
+# Test 1,266 1230 1,392 885 800 80
+https://huggingface.co/datasets/zjunlp/KnowEdit
+Easy Edit
+https://github.com/zjunlp/EasyEdit
+Memory Based Methods
+● IKE (In-context Knowledge Editing):
+Dynamic, no permanent changes
+needed
+● PROMPT: Simple implementation,
+limited reasoning capability
+(Ce Zheng et al., 2023)
+Additional Parameters Methods
+● LoRA: Parameter-efficient, risks
+overfitting sequentially
+● AdaLoRA: Adaptively allocates
+parameter budget based on
+importance scores
+● QLoRA: Combines quantization with
+LoRA, enabling fine-tuning of large
+(Edward J. Hu et al., 2021)
+models on limited hardware
+Intrinsic Modification Methods
+● ROME: identifies a
+specific layer that is most
+responsible for the fact
+● MEMIIT: multi-layer
+updates, gradient
+decomposition
+(Kevin Meng et al., 2023)
+● MEND: trainable gradient
+transformation
+Transformeer-Squared
+● Singular Value Fine-Tuning
+(SVF) for efficiency
+● Modular expert training with
+frozen parameters
+● Dynamic adaptation during
+infererence via experts
+● Compositional updates
+reduce catastrophic
+forgetting
+dynamic SVF experts activation
+Training Procedure
+● Decompose original model parameters
+● In each epoch process batches
+weights decomposition
+○ generate output
+○ compute reward
+○ applying Adam step with loss composed reward
+○ updating model weights
+loss function
+weights update
+Results
+● SVF outperforms baselines
+LoRA IKE PROMPT SVF
+on Edit Success (76.3%)
+● LoRA shows strong Locality
+Edit 75.4 73.2 67.8 76.3
+Success
+(82.1%) but risks overfitting
+● IKE excels in Portability
+Locality 82.1 80.5 77.4 79.8
+(72.6%) due to dynamic
+updates Portability 70.3 72.6 66.5 71.2
+● Requires two-pass inference
+Evaluation Results
+● Training requires much
+memory
+source code
+Supervised Knowledge Editing
+● Addresses locality issues through
+Batch of facts
+teacher-student supervised
+Multi-agent
+fine-tuning approaach system
+● Levereages PROMPT's effectiveness PROMPT
+at small edit scales
+Teacher
+● Optimizes prompt capacity to
+SFT
+maxiimize fact density
+● Multi-agent system designs Student
+superior prompts for knowledge
+transfer
+Conclusion
+● Knowlege Editing is a technique of cost-effective
+modification of LLLM knowlege
+● Most of the methods struggle with locality
+● Transformeer-square approaach is promising, but
+requires two-pass inference
+● Supervised Knowlege Editing require classic
+knowlege editing (PROMPT), SFT procedure and
+teacher model

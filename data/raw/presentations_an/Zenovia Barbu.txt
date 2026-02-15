@@ -1,0 +1,104 @@
+
+
+TEXT-TO-SPEECH SYNTHESIS  
+Review by [name] [surname]  
+April 2025  
+SMILES-2025  
+ARTICLES  
+1. Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale  
+[company], [company]  
+[name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname]  
+2. Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers  
+[company]  
+[name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname]  
+3. NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and  
+Singing Synthesizers  
+[company] & [company]  
+[name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname] [name] [surname]  
+SMILES-2025  
+TASK & CHALLENGES  
+Voicebox: VALL-E NaturalSpeech 2  
+Task: Multilingual speech Task: Zero-shot TTS via neural Task: Zero-shot TTS and singing  
+generation (TTS, denoising, codec token prediction synthesis conditioned on text and  
+editing, style transfer) short speech prompts  
+Challenges: Scaling to noisy, Challenges: Modeling long Challenges: Error propagation in  
+diverse data; coherent infilling discrete token sequences, autoregressive models, prosody  
+with future context; disentangling speaker similarity, and content instability, singing synthesis  
+attributes accuracy alignment  
+Main idea: Focuses on speech  
+Main idea: General-purpose Main idea: Primarily English TTS and singing quality,  
+model for multiple tasks without with in-context learning from 3- duration/pitch prediction, and  
+task-specific training second prompts robustness  
+SMILES-2025  
+DATA & PREPROCESSING  
+Voicebox: VALL-E NaturalSpeech 2  
+Data: 50K–60K hours of Data: 60K hours of English Data: 44K hours of English  
+multilingual audiobooks (6 audiobooks (LibriLight) speech/singing data  
+languages) (MLS, LibriSpeech, VCTK)  
+Preprocessing: ASR transcripts, Preprocessing: Phoneme  
+Preprocessing: Forced alignment EnCodec tokenization with 8 alignment via internal tools,  
+(Montreal Forced Aligner), Mel residual quantizers residual vector quantization (RVQ)  
+spectrogram extraction, for latent vectors  
+multilingual upsampling  
+SMILES-2025  
+APPROACH & WORKFLOW  
+Voicebox: VALL-E NaturalSpeech 2  
+Approach: Flow-matching with Approach: Autoregressive (AR) + Approach: Latent diffusion model  
+optimal transport paths, non-autoregressive (NAR) (LDM) with RVQ-based codec,  
+classifier-free guidance language models on EnCodec duration/pitch predictors.  
+tokens  
+Why: Flow-matching enables Why: Diffusion models avoid  
+efficient non-autoregressive Why: AR models capture autoregressive error propagation;  
+sampling and future context sequential dependencies; NAR RVQ preserves high-fidelity  
+utilization models speed up inference details.  
+Workflow:  
+§ Train CNF to infill masked Workflow: Workflow:  
+speech segments § Predict first codebook tokens § Encode speech to latent  
+§ Decouple duration and audio autoregressively vectors via RVQ  
+modeling for alignment § Predict remaining codebooks § Train diffusion model on  
+control non-autoregressively latents conditioned on  
+phonemes, duration, pitch  
+§ Use speech prompts for in-  
+SMILES-2025  
+context learning  
+RESULTS & METRICS  
+Voicebox: VALL-E NaturalSpeech 2  
+Metrics: WER, SIM-o (similarity Metrics: WER, SIM (speaker Metrics: CMOS (quality), SMOS  
+to original), FSD (Frechet Speech similarity), CMOS (similarity), WER, prosody  
+Distance), MOS similarity (pitch/duration)  
+Results: Results: Results:  
+§ 1.9% WER on LibriSpeech, § 5.9% WER on LibriSpeech, § Outperforms VALL-E in CMOS  
+SIM-o 0.681 (vs. VALL-E’s SIM-r 0.580 (vs. Voicebox’s (+0.31) and SMOS (+0.30)  
+0.580) 0.681)  
+§ Achieves 1.9% WER on  
+§ 20× faster than VALL-E; § Preserves emotion/acoustic LibriSpeech, comparable to  
+cross-lingual TTS with 5.2% environment of prompts ground truth  
+avg WER  
+§ Zero-shot singing synthesis  
+§ Trains ASR models with with speech prompts  
+synthetic data (6.7% WER on  
+test-other)  
+SMILES-2025  
+SUMMARY & TAKEAWAYS  
+Voicebox: VALL-E NaturalSpeech 2  
+Architectural Innovations: Architectural Innovations: Architectural Innovations:  
+Flow-matching for efficiency and AR/NAR codec token modeling Latent diffusion + RVQ for singing  
+multilingual tasks for in-context learning synthesis  
+Takeaways:  
+§ Voicebox leads in speed and versatility, NaturalSpeech 2 in singing synthesis,  
+VALL-E in early zero-shot TTS  
+§ Data Scale: All use >44K hours, but Voicebox’s multilingual data enables broader  
+applications  
+§ Ethics: All address misuse risks (e.g., spoofing), with Voicebox proposing a  
+detection classifier  
+SMILES-2025  
+REFERENCES  
+[name] [surname]. Neural codec language models are zero-shot text to  
+speech synthesizers //arXiv preprint arXiv:2301.02111. – 2023.  
+[name] [surname]. Voicebox: Text-guided multilingual universal speech  
+generation at scale //Advances in neural information processing systems.  
+– 2023. – Т. 36. – С. 14005-14034.  
+[name] [surname]. Naturalspeech 2: Latent diffusion models are natural and  
+zero-shot speech and singing synthesizers //arXiv preprint  
+arXiv:2304.09116. – 2023.  
+SMILES-2025

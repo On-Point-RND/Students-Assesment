@@ -1,0 +1,101 @@
+Annotation and prioritizaion
+of non-coding variants using
+modern neural networks
+[name]
+Student, [location] Universiity
+Introduction
+• Human genome is functionally “heterogeneous”: 10% of DNA encodes proteins (aka сoding DNA sequence, CDS), while the rest plays regulatory role (non-coding DNA, ncDNA)
+• 80-90% of genomic variants associated with hereditary diseases and tumors are located in non-coding
+regions of the genome
+• Yet, the prediction of the effect of mutation in non-coding regions remaiins a challenge
+• The goal of my work was to fine-tune state-of-the-art models to improve such predictions
+Introduction
+The most widely used tool, CADD, predicts SNP
+pathogenicity based on evolutionary conservation
+(assuming mutations preserved since
+human-chimpanzee divergence are benign).
+CADD incorporates multiple data types:
+Conservation metrics (GERP, phastCons, phyloP)
+●
+DNase accessibility
+●
+Transcription factor binding sites
+●
+Distance to exon-intron boundaries
+●
+Expression levels
+●
+Introduction
+Legnet ([autosome.org]) is a CNN model that takes a DNA sequence as input and predicts its
+regulatory activity. Thus, it is not directly predicting the pathogenicity, but rather assumes that
+significant activity alteration would result in disbalance and probably disease.
+Problem statement
+• State-of-the-art models like transformer-based Enformer or LegNet (CNN) often overlook the effects of
+single-nucleotide mutations, despite their critical role in disease development.
+• My goal is to train neural networks on personalized genomes to address this limitation and make such
+models applicable for personalized medicine.
+Methods
+In [1] authors compared multi-task and single-task models for tissue-specific predictions and
+concluded that multitask ones tend to “overgeneralize” signaals in different cell lines.
+Besides, we chose single-task LegNet insteaad of multi-task Enformer to make it more applicable in
+real-life: the predictions with LegNet can be performeed on CPU and take much less time (hours
+rather than days for Enformer)
+[1]
+Methods
+In CAGE (experiment type used to measure gene activity) data follows ~log-normal distributions with
+a few extreme outliers (highly active genes) => we applied log transformation
+Img 1. CAGE data distribution
+Genes located nearby on the same chromosome tend to have same activity patterns. To
+exclude data leakage we used chromosome-stratified train-test split
+Fine-tuning
+Default Configuration:
+● ef_block_sizes = [80, 96, 112,
+128]
+● pool_sizes = [2, 2, 2, 2]
+→ 4 blocks, moderate capacity
+Fine-tuned:
+● ef_block_sizes = [80, 96, 112,
+128, 256, 512]
+● pool_sizes = [2, 2, 2, 2, 2, 2]
+→ 6 blocks, expanded feature
+learning
+Key Improvements:
+● Deeper network
+● Larger receptive field
+● Enhanced pattern detection
+Methods
+VCF annotation tool
+VCF is a file format, containing information about mutations. We developed a VCF-processing
+tool utilizing optimized LegNet models to predict mutation effects.
+Genomic Region Selection
+● Initial intuition suggested analyzing sequences near the begiinnning of a gene
+● However, there are other types of regulatory elements (enhancers) that may be distal from
+the gene
+● Consequentlly, we implemented user-selectable region options: centering around the mutation
+and the gene start
+Methods
+VCF annotation tool
+Mutation Scope
+● Option A: Evaluate all mutations within a genomic window (captures combinatorial effects)
+● Option B: Focus on individual SNVs (enables precise variant interpretation)
+Results
+• We were unable to outperform Clipnet on MPRA data
+• Training on CAGE data yielded better results compared to PRO-Cap experiments
+• Model performance showed strong dependence on dataset size, with the smallesst dataset (HepG2)
+exhibiiting the lowest predictive accuracy.
+Research gap
+• We have yet to outppeform ClipNet on PRO-Cap datasets
+• We plan to evaluaate our model on additional genomic datasets (ADASTRA and UDACCHA) to assess its
+generalizability
+• Small datasets provide insufficient signal for robusst training. Given the high cost of biologicaal data
+generation, it is a serious restriction.
+• The current receptive field cannot capture distal genomic interactions. Since many regulatory elements
+(e.g., enhancers) are located >1kb from their target genes, expanding this window should significantlly
+improve prediction accuracy
+Bibliography
+1. Current genomic deep learning models display decreaseed performance in cell
+type-speciific accessible regions [name], [name], [name] et al.
+Genome Biol 25, 202 (2024) doi: https://doi.org/10.1101/2024.12.08.627402
+2. [name], [name], [name]: a best-in-class deep learning model for short DNA
+regulatory regions, Bioinformatics, Volume 39, Issue 8, August 2023, btad457,
+https://doi.org/10.1093/bioinformatics/btad457

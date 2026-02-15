@@ -1,0 +1,55 @@
+Assessment of the shape and
+location of neurons in the third
+layer of the entorhinal cortex
+[name] [surname]
+Student / [name] [compaany]
+Supervisor: [name] [surname]
+[compaany]
+Introduction
+The Entorhinal cortex are the key to understanding
+memory, navigation, and cognitive impairments, as
+well as creating new neural technolologies.
+doi:10.1002/cne.24024.
+Introduction
+• Place cells - are one of the
+types of neurons in the
+hippocampaal formation that
+activate when an animal is in a
+certain place.
+• According to modern concepts,
+place neurons, head direction
+neurons, grid neurons,
+boundary neurons, and velocity
+neurons collectively form the
+basis of the brain's navigation
+system.
+Data and experiment
+Area in brain Number of
+neurons
+CA1 4239
+MEC 3904
+LEC 2017
+doi.org/10.1101/2023.10.09.561557
+Theory
+• We know that the place fields in CA1
+modeled using Gaussian functions
+!
+• At the moment, the size of the place fields in the Entorhinal cortex is unknown.
+• We want to know the paramtetrs
+doi.org/10.1101/2024.12.12.627755
+Methods
+• Supervised learning
+• Multi-Gaussian function
+• MSE
+• Gradient descendding
+Results
+CA1
+LEC
+MEC
+Metrics
+CA1 (AUC = 0.96)
+LEC (AUC = 0.84)
+MEC (AUC = 0.92)
+Research gap
+• What next?
+Thanks for watching

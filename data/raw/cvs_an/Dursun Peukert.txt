@@ -1,0 +1,85 @@
+[name] [surname]
+§ [email] | [email] | +2 *** *** ***
+Summary
+Experience in algorithmic optimization of inference and the development of Neural Network training
+pipelines. Proficient in end-to-end pipeline creation, of particular interest is computer vision tasks, I
+have presented and provided results to HQ and conducted RD projects with top universities, received
+two awards for research projects. Having succeSSFully deployed two project into production and currently
+developing one more.
+Work Experience - 3y9m
+AI Engineer at [compaany] Feb 2023 - present
+Key Achievements:
+- Designed and delivered real-time video analytics solutions for up to 40 objects across dozens of live video
+cameras, utilizing a cascade of 10+ models. Two projects are in production, with one in development in
+collaboration with [compaany].
+- Built end-to-end pipelines (data collection, training, optimization, deployment) for both cloud and edg e
+environments.
+- Designed a custom post-processing pla tform to automate metric calculations and AI operational track-
+ing with creating a digital footprint, significa ntly improving efficiency in a resou rce-constrained banking
+environment (98per corr ectly covered events).
+- Optimized models using distillation, quantiza tion, tackled complex data challenges, including severe
+imba lances and limited infrastructure.
+- Mentored several engineer, fostering team gro wt and knowl edge sharing.
+Skills:
+- Specializes in Computer Vision tasks such as OCR, detection, object tracking, classification, regression,
+image enhancement, a nomaly detection.
+Part-time Lecturer Dec 2023 - present
+- Middle DS course at [compaany] , 2023/2024. Neural Ne twork opti mization block.
+- Computer Vision course at [compaany], 2025. Neural Ne twork opti mization block.
+AI Research Engineer at [compaany] Russian Research Insti tute Oct 2021 - Feb 2023 — 1y 5m
+- Neural Ne twork compression and inference time speed up. Especially, CV models, achieved 1.37x
+improvementoverSOTAo nmetricinfere ncetimewith0accdrop,appreciatedbyNNRCTimelyIncentives
+Award;
+- Optimization training pipeline, achieved 5per improvement over SOTA( [compaany] internal) on metric
+Accuracy; Researched, presented, trained and opti mized CV pipelines: object detection, classification,
+segm entation; Deve loped modern and novel ML/DL architectures using PyTorch framework; Optimized
+of mathematical libraries and DL algo for target har dware.
+Part-time Laboratory assistant at Dept. of Differen tia l Equations, [uni versity] Sep 2022 - May 2023 — 9 m
+Co-authored paper ’Mathematical Modelling and Optimization of Scheduling for Processing Beet in Sugar
+Production’. Publication in the approva l process.
+Junior C++ Sof tware Engineer at [compaany] May 2021 - Oct 2021 — 6m
+Mid level debugging; Legacy C/C++(till 17st) code fixing; New futures imple mentation; Clients supports;
+Proje ct planning; Work with Unix, OSI, SS7h.
+Projects
+Publications
+– Performa nce eva lua tion of parity strategy for sugar beet processing. A.I.Egamov, A.O.Gertel,
+O.V.Pristavchenko. Eurasian Union of Scienti sts. Series: Technical, Physical and Mathematical Sci-
+ences;
+– Optimalscheduleforprocessingp erishablerawmaterialswithlowdegradati oncoefficients. A.I.Egamov,
+A.O.Gertel, O.V.Pristavchenko. The Scienti fic Heritage;
+– Mathematical substantiation of recomme ndations for drawing up a production schedule for sugar beet
+processing. D. V. Balandi n, O. A. Kuzenkov, A. I. Egamov, A. O. Gertel. Proceeding of the Voronezh
+State Uni versi ty. Series: System Analysis and Info rmatio n Technology
+Olympics, competitions, conferences, etc Link to Demo
+– Speaker on True Tech AI meetup MTS, 2024 link.
+– Speaker on T-Conf [compaany], 2024.
+– Speaker on Belar usian Academy of Sciences, [compaany] Open Day, 2021;
+– Winner Intel Summer Camp, 2021 link;
+– Google Jam to IO for Women, 2021(2571-th); Google Hash Code, 2021(4230-th);
+– Speaker on Youth Schoo l MMST (Mathematical Modelling and Supercomputer Technologies), 2020.
+Hackathons
+– TeploEnergo Hacka thon: Dashb oa rd for visualizing data behavio ur of special vehicles (2nd place);
+– LeadersOfDigital Hacka thon, Medicine, healthcare, science track: Automated service for operational
+examination of the quality of medical care based on information from the HIS(17th place);
+Courses
+– Diffusion models [uni versity], 2025;
+– C++ Intel Progr amming Schoo l, 2022;
+– Intel Summer Camp, 2021; link.
+– Intel Winter Camp, 2021; link.
+– Case-Labo ratory CROC (ADD Automatic Distribution Data), 2020.
+Education
+2023 - 2025 Applied Info rmatics and Mathematics Master’s Degree at [uni versity]
+2019 - 2023 Applied Info rmatics and Mathematics Bachelor’s Degree at Lobachevsky State Univer-
+sit y of Nizhny Novgorod
+Graduation thesis
+– Graduation thesis: ”Automatic Detection of Audio Degrada tion”, 2025
+– Graduation thesis: ”Dynamic Neural Ne tworks”, 2023
+– Term Papers: ”Improving CNN accuracy through data augm entation”, 2022; ”Env ironments and tech-
+nologies for imple menting AutoEncoders”, 2021.
+Skills
+C++, Python3, Docker, Kafka, Ignite, PyDan tic, OpenShift, Jenkins, Numpy,
+Numba, PyTorch, OpenVino, OpenCV, Jira, Bash, OOP, Git, NPU processors, ONNXRu nTime, PIL,
+CV, MindSpore, Triton, IoT research, Algo rithms research, Optimized mathematical libraries,
+Optimize DL algo rithms for target har dware, Develop modern and novel ML/DL architectures using PyTorch frameworks,
+AVRO, unittest, ONNX, TorchScript, TRT, Ffmpeg, albumentations.
+Last updated: March 24, 2025

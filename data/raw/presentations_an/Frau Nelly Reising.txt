@@ -1,0 +1,127 @@
+
+
+SMILES-2025  
+  
+Bio-Inspired Self-Organization:  
+From Spiking Networks to Transformer  
+Architectures  
+[name] [surname]  
+ [company] (Alumnus)  
+ Summer School of Machine Learning Application  
+ Neural Networks  Transformers  Bio-Inspired  
+ [name] [surname]  SMILES-2025  1/9  
+  
+⚠  
+⚠ Challenge  
+Transformers excel, yet suffer high energy cost, scalability limits, low  
+interpretability  
+ [company]  
+  
+ Alternative  
+Spiking Neural Networks promise event-driven efficiency and bio-plausibility  
+  
+ Key Question  
+Can complex networks emerge from simple local rules rather than fixed layers?  
+ [name] [surname]  SMILES-2025  2/9  
+  
+ LIF Neuron Circuit Model  
+ Neuron Model  
+Leaky Integrate-and-Fire (LIF) - integrates until threshold, then  
+resets  
+ [company]  
+ Structure  
+2D Cellular Automaton (CA) - each neuron connects to an r×r  
+neighborhood  
+ [company]  
+ Circuit components:  
+⚡ Leak conductance (gleak)  Membrane capacitance (Cm)  
+ Plasticity  
+> Threshold detection (Vth)  Refractory period (τrefrac)  
+TSO short-term plasticity - local synaptic weight adaptation  
+ Simulation  
+[company] + [company] GPU  
+ [name] [surname]  SMILES-2025  3/9  
+  
+ Figure 6: Stable Clusters  
+ From random start, local CA+TSO rules yield:  
+Stable Clusters  
+  
+Emergent formation of responsive neuron groups creates stable  
+processing units  
+ Spontaneous formation of stable processing units through local  
+CA+TSO rules  
+Oscillators  
+  
+Ring-like wave generators that fire only when perturbed  
+ Figure 7: Oscillatory Patterns  
+No global controller  
+  
+Patterns emerge purely from local interactions  
+ Ring-like structures demonstrating emergent wave propagation  
+behavior  
+ [name] [surname]  SMILES-2025  4/9  
+  
+Parameter Effect on Dynamics Performance  
+ CA neighborhood size ↑ Larger, more complex clusters  
+ Plasticity time step ↑ Stability ↓, chaos ↑  
+ Simulation speed - 100-120 FPS @1K×1K  
+ Small CA Radius Small Neighborhood  Large CA Radius Large Neighborhood  
+ Uniform distribution with minimal pattern formation  Complex patterns with visible clustering  
+ [name] [surname]  SMILES-2025  5/9  
+  
+Making connections between biological and artificial  
+  CA to Attention Mapping  
+neural networks  
+Structural analogy  
+  
+CA rules ⇔ sparse/adaptive attention patterns  
+ From local CA connectivity to sparse attention patterns  
+Local learning  
+  
+TSO/RL ideas ⇔ continuous adaptation in attention heads  
+ The diagram illustrates how local cellular automata rules can inspire more  
+efficient and biologically plausible attention mechanisms in transformers  
+Efficiency lessons  
+⚡  
+Event-driven spikes → low-power transformer variants  
+ [name] [surname]  SMILES-2025  6/9  
+  
+2021 1997  
+Spikformer Bio-inspired plasticity  
+⚡   
+Spiking transformer hybrid architecture combining biological TSO model foundations for synaptic adaptation in neural  
+plausibility with transformer efficiency networks  
+ [company]  [company]  
+2020 2022  
+Hopfield Layers RL for attention  
+   
+Modern implementation of associative memory as Dynamic head allocation using reinforcement learning  
+attention mechanism principles  
+ [company]  [company]  
+ [name] [surname]  SMILES-2025  7/9  
+  
+Current Limitation  
+  
+Full RL training loop not yet implemented (compute constraints)  
+ [company]  
+⏩ Next Steps  
+PyTorch Implementation  
+  
+Prototype spiking-CA attention mechanisms  
+Hopfield Integration  
+  
+Implement sleep-like cleanup cycles  
+Reinforcement Learning  
+  
+Add TD-RL for adaptive attention heads  
+Performance Evaluation  
+  
+Benchmark on NLP tasks (perplexity, BLEU)  
+ [name] [surname]  SMILES-2025  8/9  
+  
+Thank you!  
+ Questions?  
+ ✉   
+Name Email Social  
+[name] [surname] [email]  LinkedIn  GitHub  
+ [name] [surname]  SMILES-2025  9/9

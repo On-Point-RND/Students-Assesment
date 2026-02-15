@@ -1,0 +1,98 @@
+Hierarchical LLM Planning
+Using Scene graph from visual
+perception
+[name]
+[surname]
+[location]
+[compaany]
+Researcher at the [compaany] Cognitive
+Dynamic Systems lab
+Introduction: the topic
+This work focuses on developing a hierarchical planning system for
+embodied AI agents that integrates scene graphs derived from
+visual perception with large language models (LLMs) to enable
+robus object manipulation in dynamic environments.
+Objects relation graph:
+"box_on_box": true,
+Scene graphs act as an intermediate representation, encoding object
+"boxes_output": [
+{"box_id": 998, "placed_on_shelf_with_id": 2}, ...
+relationships, ensuring alignment between symbolic reasoning (e.g., ],
+"shelves": [
+{"shelf_id": 2, "occupied_by_box_with_id": 313}, …
+"place the cup on the space") and perceptual grounding (e.g., ],
+"graph_box_on_box": {
+"id_1": 998,
+identiifying a stable, unoccupied surface). "id_2": 313,
+"rel_id": 2,
+"class_name_1": "box",
+"rel_name": "on_top",
+"class_name_2": "box"
+}
+Introduction: importance
+Embodied AI systems are transitioning from controlled lab
+environments to real-world deployment in industries like
+manufacturing, healtcare, and domestic services.
+However, existing planners perform well only on a small
+number of tasks that require very few steps.
+The goal of this presentation is to show the achieved
+performaance increase of the deveveloped system on
+complex planning tasks
+Problem statement
+General goal: The planning system needs to take in a textual instruction
+Query:
+in natural language that describes a task and return an action plan. A
+" Take box 990 from shelf 4 and put it on shelf 1 , then
+simple example can be seen to the right:
+take box 313 from shelf 2 and move it to shelf 4"
+This brings up following challenges:
+Action plan:
+[
+● Long-horizon reasoning: Maintaining coherence across nested { ’ name ’: ’ go_to ’ , ’ args ’: { ’ waypoint_id ’: 2} } ,
+{ ’ name ’: ’ pick_up ’ , ’ args ’: { ’ box_id ’: 990} } ,
+subtasks. This is especially challenging for the small LLMs (<15B
+{ ’ name ’: ’ go_to ’ , ’ args ’: { ’ waypoint_id ’: 1} } ,
+parameters) often used in Embodied AI. { ’ name ’: ’ drop ’ , ’ args ’: { ’ shelf_id ’: 1} } ,
+● Context retention: Tracking object state changes over extended
+{ ’ name ’: ’ go_to ’ , ’ args ’: { ’ waypoint_id ’:1} } ,
+sequences.
+● Error recovery: Diagnosing and correcting errors in the plan.
+Abiility to find free surfaces
+Research gap
+Still, some limitations in the field of LLM Plaannning stay:
+● Small LLMs still struggle with complex tasks with multiple steps
+● If we learn how to utilise small llms better we can use this approaach even on the
+smallesst systems like raspberry pie
+Future steps that I would like to implement:
+● Adapt existing code to handle parallel processing, as it would greatly increase
+the processing speed
+Source code
+Thank you for your attention, here is link to the private github repository with the code
+using read onl only link using gitfront.io:
+https://gitfront.io/r/tenebrissilvam/PEr63zk3QAbv/SMILES2025-graph-pla nner/
+Please contact me if you have any issues with repository access or questions about the
+submiitted work
+Bibliography
+1. S. Colombani, L. Brini, D. Ognibene, G. Boccignone, Time is on my sight: scene graph filte ring for dynamic environment perception in an
+LLM-driven robot (2024). arXiv:2411.15027, doi:10.48550/arXiv.2411.15027. URL https://doi.org/10.48550/arXiv.2411.15027
+2. L. Lucignano, F. Cutugno, S. Rossi, A. Finzi, A dialogue system for multimodal human-robot interaction, in: Proceedings of the 15th ACM on
+International conference on multimodal interaction, 2013, pp. 197–204. 17
+3. C. Galindo, J. Fern´andez-Madrigal, J. Gonz´alez, A. Saffiotti, Robot task pla nning using semantic maps, Robotics and Auto nomous Systems 56
+(2008) 955–966.
+4. T. Brown, B. Mann, N. Ryder, M. Subbiah, J. D. Kaplan, P. Dhariwal, A. Neelakantan, P. Shyam, G. Sastry, A. Askell, et al., Lan guaage models are
+few-shot learners, Advances in neural information processing systems 33 (2020) 1877–1901.
+5. W. Huang, F. Xia, T. Xiao, H. Chan, J. Liang, P. Florence, A. Zeng, J. Tompson, I. Mordatch, Y. Chebotar, et al., Inner monologue: Embo died
+reasoning through pla nning with lan guaage models, arXiv preprint arXiv:2207.05608 (2022).
+6. J. Wei, X. Wang, D. Schuurmans, M. Bosma, F. Xia, E. Chi, Q. V. Le, D. Zhou, et al., Chain-of-thought prompti ng elicits reasoning in large lan guaage
+models, Advances in neural information processing systems 35 (2022) 24824–24837.
+7. S. Garrido-Jurado, R. Mu˜noz-Salinas, F. J. Madrid-Cuevas, M. J. Marin-Jimenez, Automatic generation and detection of highl y reliable fiducial
+marke rs under occlusion, Pattern Recognition (2014).
+8. R. Khanam, M. Hussain, YOLOv11: An Overview of the Key Architec tural Enhancements (2024). arXiv:2410.17725. URL
+https://a rxiv.org/abs/2410.17725
+9. W.-L. Chiang, Z. Li, Z. Lin, Y. Sheng, Z. Wu, H. Zhang, L. Zheng, S. Zhuang, Y. Zhuang, J. E. Gonzalez, I. Stoi ca, E. P. Xing, Vicuna: An open-sou rce
+cha tbot impressing gpt-4 with 90%* chatgpt quality (March 2023). URL https://lm sys.org/blog/2023-03-30-vicuna/
+10. A. Q. Jiang, A. Sablayrolles, A. Mensch, C. Bamford, D. S. Chaplot, D. de Las Casas, F. Bressand, G. Lengyel, G. Lample, L. Saulnier, L. R. Lavaud,
+M.-A. Lachaux, P. Stock, T. L. Scao, T. Lavril, T. Wang, T. Lacr oix, W. E. Sayed, Mistral 7b, ArXiv abs/2310.06825 (2023). URL
+https://api.semanticschola r.org/CorpusID:26383049418
+11. A. Yang, B. Yang, B. Zhang, B. Hui, B. Zheng, B. Yu, C. Li, D. Liu, F. Huang, H. Wei, et al., Qwen2. 5 technical report, arXiv preprint
+arXiv:2412.15115 (2024)

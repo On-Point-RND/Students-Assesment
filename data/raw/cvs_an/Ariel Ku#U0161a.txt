@@ -1,0 +1,69 @@
+[name]
+[location]
+I +2 *** *** *** • [email] • } @[name]
+Education
+[compaany] [location]
+Master of Science in Information Technology and Engineering 2023–Present
+GPA 5.0/5.0
+[compaany] [location]
+Bachelor of Science (Hons) in Biotechnical Systems and Technologies 2019–2023
+GPA 4.98/5.0
+Experience
+Center of Excellence of the NTI “Wireless Technologies and IoT” [compaany] [location] 2024–Present
+○ Conducted research on 5G/6G wireless networks, focusing on signal processing and machine learning applications
+○ Developed algorithms for optimizing network performance using Python and MATLAB
+○ Collaborated with a team to publish research papers in top-tier conferences
+○ Hardware and software development for a GHz radar for near-range tasks
+[compaany] [location]
+Junior Engineer Intern 2024
+○ Development of precoding algorithms for a Hybrid beamforming MIMO system
+○ Investigation of the effect of various precoding schemes on channel capacity in HBF MU-MIMO system
+[compaany] institute of science and technology [location]
+Research Intern 2024
+○ Algorithms for adapting radiated power, evaluating the quality of communication channels, and methods to reduce interference
+○ Development of algorithms for bitwidth optimization
+Projects
+[compaany]
+Machine learning for crest-factor reduction in hybrid beamforming systems 2024
+○ Neural network architecture development
+○ Development of algorithms for peak decorrelation
+○ Tools: Python, Torch, Docker, Matlab, CVX optimization
+[compaany]
+High sampling rate radar 2024
+○ Hardware and software development for a GHz radar for near-range tasks
+○ Radar can detect 0.2 m2 objects at a distance of 20 meters, with a sampling rate of 1 kHz.
+○ Tools: Python, Matlab, C++, MicroCAP
+[compaany]
+CPRI compression in Massive MIMO Receiver 2024
+○ I was working on a compression algorithm to optimize the bitwidth of the beamspace in a MIMO system.
+○ Up to 28-fold signal compression with an error of 1.6%
+[compaany]
+Virtual Sectorization to Enable Hybrid Beamforming in mm-Wave mMIMO 2023-2024
+○ The development of algorithms for the construction of analog combiners and user scheduling based on hierarchical clustering
+○ Compared to fully digital antenna array, the SNR loss is 1.4 dB
+Publications
+2024: R. Bychkov, [name], [name], [name] and [name], ”Performance Analysis
+of Fronthaul Compression in Massive MIMO Receiver,” 2024 International Scientific and Technical
+Conference Modern Computer Network Technologies (MoNeTeC), [location],
+2024, pp. 1-6, doi: 10.1109/MoNeTec60984.2024.10768136.
+2024: R. Bychkov, [name], [name], V. Lyashev and [name], ”Virtual Sectorization to
+Enable Hybrid Beamforming in mm-Wave mMIMO,” 2024 26th International Conference on Digital
+Signal Processing and its Applications (DSPA), [location], 2024, pp. 1-6, doi:
+10.1109/DSPA60853.2024.10510119.
+Skills
+Programming: Python, Matlab, C++
+Machine Learning: PyTorch, Scikit-learn, SciPy, NumPy
+Wireless Technologies: 5G/6G, LTE, Signal Processing
+Tools: Git, Linux, LaTeX, Docker
+Engineering: MicroCAP, DipTrace, STM32Cube
+Languages: English (Professional proficiency), Russian (Native)
+Certifications
+2023-2024: Algorithmizing and software development, qualification ”Programmer”
+2022-2023: “InternetofThings”oftheeducationalprogram”SamsungITAcademy”, graduation
+project (an IoT solution prototype)
+Scholarships and Honors
+[compaany] Scholarship for Development, Academic Excellence
+Twice scholarship holder of the President of the Russian Federation
+Scholarship holder of the Government of the Russian Federation
+Winner, Olympiad ”I am a Professional”, Radio Engineering section
+The best thesis at 5 student conferences

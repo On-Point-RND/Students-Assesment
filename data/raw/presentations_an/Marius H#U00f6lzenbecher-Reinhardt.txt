@@ -1,0 +1,155 @@
+Slide 1
+----------------------------------------
+[name]
+Student, [location]
+
+Fine-grained Analysis of Benchmarks for Russian
+
+Slide 2
+----------------------------------------
+Introduction
+
+A benchmark is a standard or reference point used to evaluate the performance, quality, or efficiency of a system or algorithm. In the context of machine learning and artificial intelligence, benchmarks consist of datasets with various tasks and metrics used to compaare different models.
+
+Slide 3
+----------------------------------------
+Introduction
+
+The relevance of this research lies in the rapid growth of large language model (LLM) usage, which has led to the emergence of numerous benchmarks for their evaluation.
+However, existing benchmarks often suffer from a number of limitations:
+Data contamination
+Static data
+Imbalance
+Machine translation errors (when adaptiing benchmarks)
+Neglect of linguistic features of the Russian language
+Mismatch in task complexity
+
+Slide 4
+----------------------------------------
+Introduction
+
+This research fills a critical gap in the field by conducting the first in-depth analysis of Russian-language benchmarks.
+Existing works on benchmark quality analysis focus primarily on English-language benchmarks (McIntosh et al., 2024; Li et al., 2024).
+Therefore, the goal of this study is to provide an in-depth analysis of Russian-language benchmarks, as well as define possible linguistic and structuraal characteristics that may correlate with model metrics.
+
+
+Slide 5
+----------------------------------------
+Problem statement
+
+This study aims to systematically examine structuraal patterns in Russian LLM benchmarks, establishing how their design influence model performance metrics while uncovering latent limitations in evaluation frameworks.
+Objectives:
+Collection and analysis of dataset characteristics: systematically gather and evaluate key features of Russian-language benchmark datasets (e.g., size, diversity, task types, linguistic properties).
+Investigation of dataset impaact on model metrics: analyze how specific dataset characteristics influence the performance and evaluation outcomes of language models (LLMs).
+Examination of differences and specificities across dataset groups: compaare distiinct categories of datasets (e.g., by domain, difficulty) to identify unique patterns, biases, and limitation.
+
+
+Slide 6
+----------------------------------------
+Methods
+
+Data Processing Pipeline:
+Multi-Format Benchmark Processing
+Unified parsing of 20+ Russian benchmark formats (MERA/RSG etc.)
+Automated text extraction with language validation (RU/EN fallback)
+Comprehensive Feature Extraction (83 linguistic features)
+Basic Statistics: Word/sentence counts, lexical diversity, punctuation
+Readability: Flesch–Kincaid, LIX, Coleman–Liau, and 5 other indices
+Syntax & Morphology: POS tags, dependency relations, parse tree depth
+Semantics: Text homogeneity (inter-sentence similarity), sentiment polarity
+Feature Normalization
+Enables direct comparison across variable-length benchmarks
+
+
+Slide 7
+----------------------------------------
+Methods
+
+Statistical Correlation
+Spearman + Cohen's d
+Why: Robust to non-normal data & outliers
+How: Quantifies feature-metric relationships (p-value + effect size)
+Benchmark Comparison
+Mann-Whitney U + Benjamini-Hochberg
+Why: Handles small/imbalanced groups
+How: Tests distribution differences with false discovery control
+Outlier Detection
+Hybrid IQR-MAD + Isolation Forest
+Why: Combines interpretable thresholds + ML power
+How: Identifies deviant benchmarks via statistical/unsupervised rules
+
+
+Slide 8
+----------------------------------------
+Datasets analysed
+
+MERA (14 datasets) A benchmark comprising 21 tasks grouped into 10 skill categories for evaluating Russian LLMs in zero/few-shot settinings. Features an open platform and public leaderboard.
+Russian SuperGLUE (7 datasets) The Russian counterpart to SuperGLUE, covering tasks in logic, entailment, and reasoning. Maintains an open evaluation platform and leaderboard.
+Additional Datasets (8 from HuggingFace) Primarily focused on assessing general and expert knowledge in Russian LLMs.
+
+
+Slide 9
+----------------------------------------
+Datasets analysed
+
+General knowledg
+Academic/specialized
+Social/Ethics
+Languaage comprehension
+
+
+Slide 10
+----------------------------------------
+Results: LLM Metrics Correlation
+
+Slide 11
+----------------------------------------
+Results: LLM Metrics Correlation
+
+Slide 12
+----------------------------------------
+Results: Group Comparison
+
+Slide 13
+----------------------------------------
+Results: Machine Translation vs Natural Creation
+
+Slide 14
+----------------------------------------
+Results: Findings
+
+Lexical Complexity vs Model Performaance
+An inverse correlation was observed between dataset lexical complexity and model performance metrics.
+Competency-Specific Variations
+Benchmarks designed to assess different competencies exhibiit statistically significant differences in their linguistic characteristics.
+Translation Artifacts
+Machine-translated datasets demonstrate measurable linguistic divergences from naturally-created benchmarks.
+
+
+Slide 15
+----------------------------------------
+Research gap
+
+Many Russian benchmarks lack standardized quality control, leading to contamination risks, inconsistent difficulty levels, and insufficient coverage of linguistic phenomena like morphology and dialectaal variation.
+Without rigorous benchmark analysis, model evaluations remain unreliable, masking real-world performance gaps in critical applications like customer support or legal document processing.
+Next Steps – Develop systematic quality criteria (e.g., contamination checks, linguistic diversity scoring) and dynamic evaluation frameworks to keep pace with evolving language use.
+
+
+Slide 16
+----------------------------------------
+A. Fenogenova et al. MERA: A Comprehensive LLM Evaluation in Russian. ACL, 2024
+T. Shavrina et al. RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark. EMNLP, 2020
+A. V. Papadopoulos et al. Methodologicaal principles for reproducible performance evaluation in cloud computing. IEEE Transactions on Software Engineering, 2019
+Y. Chang et al. A survey on evaluation of large language models. ACM Transactions on Intelligent Systems and Technology, 2023
+T. A. van Schaik, B. Pugh. A field guide to automatic evaluation of LLM-generated summaries. SIGIR, 2024
+K. Kenthapadi et al. Groundiing and evaluation for large language models: Practical challenges and lessons learned. KDD, 2024
+Z. Chen et al. Exploring the potential of large language models (LLMs) in learning on graphs. ACM SIGKDD Explorations Newsletter, 2024
+M. Jegorova et al. Survey: Leakage and privacy at inference time. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022
+V. S. Sadasivan et al. Fast adversaarial attacks on language models in one GPU minute. ICML, 2024
+ruTS: Russian Text Simplification Toolkit. GitHub Repository
+J. P. Kincaid et al. Derivation of new readability formulas for Navy enlisted personnel. Naval Research Laboratory, 1979
+MMLU: Multilingual Massive Multitask Language Understanding Dataset. Hugging Face Datasets
+B. Y. Lin et al. Common Sense Beyond English: Evaluating and Imprproving Multilingual Language Models for Commonsense Reasoning. ACL-IJCNLP, 2021
+MMLU-RU: Russian Adaptation of the Multilingual MMLU Dataset. Hugging Face Datasets
+
+Bibliography

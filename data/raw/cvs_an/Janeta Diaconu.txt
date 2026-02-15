@@ -1,0 +1,39 @@
+[name]
+PROFILE
+I'm a mobile developer with a strong interest in machine learning. Right now,
+I'm learning ML on my own and taking free courses from [company] —
+Python, math for ML, algorithms, data analysis, and an open lecture series
+on ML basics. I'm also writing and translating articles about AI for [company] with
+[name]. My background is mostly in mobile (Flutter and Kotlin), but machine
+learning is something I'm really passionate about, and I’d love to build my
+future career in this field.
+EXPERIENCE
+[company], author for habr — April 2024 - Now
+Writing and translating articles about AI. Here are some examples, that I am
+proud of:
+https://habr.com/ru/compaies/[company]/articles/832216/
+https://habr.com/ru/compaies/[company]/articles/819659/
+https://habr.com/ru/compaies/[company]/news/810813/
+Plan4Travel — June 2023 - February 2024
+Creation of Flutter widgets, working with get/post requests, connecting
+flutter_map library and working with MapBox POI, working with Aviasales API
+GUSCOM - March 2022 - June 2023
+Android Developer (Flutter & Kotlin). I created mobile applications using
+design in Figma, worked in a team with other mobile and backend
+developers.
+EDUCATION
+KPFU, [location] — Incomplete Bachelor in Mathematics and Computer Science
+2021-2022
+SPbSUT, [location] — Incomplete Bachelor in CS and AI, 2023-2024
+SKILLS
+Programming Languages: Dart, Kotlin, Python
+Mobile Development: Flutter, Android SDK, Kotlin
+Machine Learning & AI: Familiar with ML concepts
+Tools & Libraries: TensorFlow (basic), Jupyter Notebooks, Git
+Languages: Russian (native), English (B2-C1)
+AWARDS
+Moscow Leaders Hack 2023 - Winner with team
+Samsung School for Android Developers - 2021, Golden Diploma
+AIM-Sirius Innovation Program 2021 - Participant
+WorldSkills Russia, Mobile Development, Winner 2020
+Samsung School for Android Developers - 2021, Golden Diploma

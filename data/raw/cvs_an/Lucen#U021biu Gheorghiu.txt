@@ -1,0 +1,68 @@
+[name]
++2 *** *** *** | [email] | [name] | tg:[name]
+Education
+[location][location]
+MasterofScience,MathmaticsandComputerScience&AppliedMathematicsandInformatics Sept2024‑Jul2026
+• Jointprogram:DataScience([location])&MathofMachinelearning([location])
+• GPA:9.5/10(in5pointgrading:4.92/5)
+• [location]Courses:GenerativemodelsbasedonDiffusion‑9/10,MarkovChains‑8/10,HighDim.ProbabilityandStatisitics‑ongoing.
+• [location]Courses:BayesianMethodsofMachineLearning‑A,MachineLearning‑A,ComputationalLinearAlgebra‑A.
+HigherSchoolofEconomics [location]
+BachelorofScience,Economics(withDistinctioninResearchTrack) Sept2020‑Jul2024
+• GPA:8.9/10
+• CummulativeRating:27/212
+• Minor:DataScience
+• Thesis:”NumericalcomparisonoftheQuasi‑MaximumLikelihoodandtheSimulatedMethodofMomentsestimationforStochasticVolatility
+model”(Grade:10/10)
+• FacultyofComputerSciencescourses::MachineLearning‑9/10,DeepLearning‑10/10,AppliedDataAnalysis‑10/10,MachineLearning2‑
+10/10,TimeSeries‑10/10,SQL‑10/10,ReinforcementLearning‑10/10.
+• FacultyofEconomicSciencescourses::Stochasticprocesses‑9/10,Econometrics1&2‑9/10,Microeconomics1&2‑9/10,Macroeconomics
+1&2‑7/10.
+Universiity Projects and Scientific Work
+ClassifierfreeGuidanceforPFGM(researchworkinprogress) [location]
+[location] March2025‑ongoing
+• RunseveraltoyexperimentsonGaussians.
+• EvaluatedandcomparedcondiitionalPFGMandguidanceoncoloredMNIST.
+Image‑to‑ImageSchrödingerBridgeforImageRestoration [location]
+[location] Dec2024‑Dec2024
+• ImplementedandranImage‑to‑ImageSchrödingerBridgealgorithmfromscratch
+• EvaluatedandanalyzedmodelonRestorationtask
+ComparisonDDIBandSDEditforUnpairedStyleTransfer [location]
+[location] Nov2024‑Nov2024
+• ImplmentedSDEdit/DDIBandanalyzedchangeofqualiitydependingonsteps
+• ComparedtwomethodsbyFIDand”similarity”onColoredMNIST
+TheRainbowDeepQ‑NetworkonBreakOUT [location]
+[location] Jun2024‑Aug2024
+ImplementedRainbowRLalgorithm:DeepQ‑network,DoubleQ‑learning,DuellingQ‑learning,NoisyQ‑learningandPrioritizedBuffer.
+Stochasticoptiomizationmethodsandthei applications [location]
+[location] Sep2022‑Aug2024
+• Implementedseveraloptimizationalgoarithmslikesimulatedannealing,Particleswarmiing,geneticalgorithm
+• ImplementedandcompaaredSimulatedMethodofMomentsandQuasi‑LikelihoodOptimizationforSV‑model
+Replicationofalgorithmicstrategiies [location]
+CenterofMathematicalFinance June2022‑Jan2023
+• ImplementedofLinearProcessApproachtoShort‑termTTradingUsingtheVIXbyusingGARCH‑modelandTechnicalAnalysis
+• ImplementedselectionofaPortfolioofPairsBasedonCointegrationAStatisicaalArbitrageStrategy
+Teaching Assistance
+HigherSchoolofEconomics [location]
+FacultyofComputerSciences Sept2023‑Jul2024
+TimeSeriesModelling,AppliedDataAnalysisProblems,IntroductiontoDeepLearning
+FacultyofEconomicSciences Sept2023‑Jul2024
+Econometrics2(Advancedcourse),Econometrics1(Advancedcourse),Probabilitytheo ryandstatistics
+CenterforContinuingEducation Jan2022‑Jul2024
+MachineLearning(3times),Pytho nforautomationandDataAnalysis(3times)
+APRiL20,2025 1
+Skills
+Programming Python(advanced),Matlab(advanced),Stata(medium),PostgreSQL(advanced).
+Miscellaneous LATEX(Overleaf),MicrosoftOffice,Git.
+Language Russian(native),English(C1)
+Achievements
+2024 First‑degr ediploma,HSECompe titionforResearchPape rsamongstudents(economics) [location]
+2023 ReceivedGratitude,Teachingassistantin2022atHSEFacultyEconomicSciences [location]
+2021 Finalist,HackathonChange llengeHack&Change [location]
+Interests
+Generativemodels Mymai nr esear chworkisin diffusio nmodels,mainlyinpoisso nflowgene rativemodels.
+Stochasti cp rocess DuringBachelorandMastersI took4coursesonadvancedStochasti cp rocess.
+TimesSeri esmodelling Intereste dhowtoconsider time dependence,modelaildi stributionsinthedata.
+Rei nforceme ntlearning Interestedi ncombinationofRLanddiffusio nmodels.
+Referenc esava ilableuponrequest.
+APRiL20,2025 2

@@ -1,0 +1,56 @@
+[name]
+[email]
+ABOUT ME
+Since school, I’ve been interested in a wider range of fields: from robotics to front-end-
+development. Currently, my strongest skills includedesign and machine learning research.
+I’m especially interested in topics that include world modeling, more effective ways of
+unsupervised learning, generalization abilities of Transformer models.
+I have participated in numerous hackathons, scientific and practical conferences, ex-
+hibitions, and competitions since about the 7th grade. Since 1st year at University, I’ve
+accomplished my first ML research project and worked at a startup.
+I am currently a second-year student at Innopolis University, studying Data Science
+and Artificial Intelligence. My goal is to develop brilliant software products rooted in solid
+scientific research, build a strong personal brand, and engage in cutting-edge research
+that pushes the development of advanced technologies.
+EDUCATION
+Innopolis University, Innopolis, [location] 2023–Present
+– Bachelor’s degree in Data Science and Artificial Intelligence
+SESCNCFU, Stavropol, [location] 2021–2023
+– Advanced science and engineering education
+Liceum№1, Nevinnomyssk, [location] 2019–2021
+– High school with focus on mathematics and physics
+School№20, Nevinnomyssk, [location] 2012–2019
+– General secondary education
+RESEARCH PROJECTS
+USING INTERNAL REASONING CAPABILITIES OF LANGUAGE MODELS TO OPERATE WITH
+A LARGE NUMBER OF TOOLS
+✓ Presented TALC method - Tokenwise Autoregressive Lexical Classification
+Transformers with Causal-Aware Embeddings: Shamelessly deforming embedding
+space
+✓ Implemented causal-aware embeddings into LLMs
+ACHIEVEMENTS&PARTICIPATION
+– IT_ONE Cup. ML Challenge – Participant, Online (2025)
+– Siam ML Hack – Participant, Online (2025)
+– International Summer School&Conference on Artificial Intelligence, Saint Petersburg (2024)
+– International Youth Scientific Forum “Lomonosov”, Moscow – Participant (2024)
+– All-Russian Project Competition Kazańforum.doc, Kazan – Prize Winner (2022)
+– Yakutia International Science Fair, Yakutsk – Winner (2022)
+– “Perspektiva” Conference, Ekaterinburg / Stavropol – Contestant (2022)
+– Innocamp Hackathon, Ekaterinburg / Stavropol – Prize Winner (2021, 2022)
+– “Research and Design” Competition, Yakutsk – Prize Winner (2021)
+– “University Gymnasium” Conference, Saint Petersburg – Prize Winner (2021)
+– WorldSkills Russia Juniors – Regional Level Winner (2021)
+– Skolkovo Junior Challenge – Contestant (2020)
+– AndreyMelnichenko’sFoundationScienceCompetition,Barnaul–Contestant(2018,
+2019)
+WORK
+– “DIPLIT LLC” – deeplit.ru, CTO (2024)
+ML/DL SKILLS
+✓ PyTorch
+✓ Apple MLX
+✓ Weights&Biases
+✓ HuggingFace Transformers
+✓ Overleaf
+✓ Scikit-learn
+✓ Plotly
+✓ Docker / FastAPI / Flask

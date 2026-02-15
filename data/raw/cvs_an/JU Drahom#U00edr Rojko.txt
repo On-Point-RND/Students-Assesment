@@ -1,0 +1,40 @@
+[name]
+Nationality: [location] Mobile: +2 *** *** ***
+[email]
+www.linkedin.com/[name]-[surname]-
+50919b77
+EDUCATION
+Barcelona SchooL of Economics / Pompeu Fabra Universiity Barcelona, [location]
+Master Program in Data Science Methodology 09/2025– 07/2025
+Universiity of Warwick Coventry, [location]
+Master’s Degree in Economics 09/2016– 12/2017
+Moscow State Institute of International Relations ([location])
+Master’s Degree in Economics 09/2012– 07/2015
+PROFESSIONAL EXPERIENCE
+AIM Management [location]
+Chief Economist 10/2023–06/2024
+● Macroeconomic analysis and forecasting: scenario analysis, nowcasting
+BCS Global Markets [location]
+Chief Economist 10/2021–10/2023
+● Macroeconomic analysis and forecasting ([location] and [location]): scenario analysis, nowcasting
+Eurasian Fund for Stabilizaation and Development [location]
+Head of Unit 07/2019–10/2021
+● Debt sustainability analysis, macroeconomic analysis and forecasting ([CIS-countries])
+Alfa-Bank [location]
+Senior Analyst 08/2018–07/2019
+● Short-term forecasting, leading indicators estimates, economic research projects
+PricewaiterhouseCoopers [location]
+Manager 02/2018–08/2018
+● Estimated of multiplier effects of government expenditures, analysis of social protection measures
+VnesheconomBank [location]
+Project Manages 01/2015–02/2018
+● Economic outlooks for [location] and [location], labor market analysis
+Ceinter for Transatlantic Relations Washington D.C, [location]
+Research Fellow 12/2012–08/2013
+● Research project related to productivity and potential output, productivity growth
+LANGUAGES & TECHNICAL SKILLS
+Language skills: [location] ([Native]), English ([Fluent]), [location] ([Basic])
+Technical skills: Eviews, Python, R, Mtlab ([basic]), Stata
+ADDITIONAAL INFORMATION
+● 2016 The Chevening Scholarship ([United Kingdom])
+● 2012 The Yegor Gaidar Fellowship Program in Economics ([location])

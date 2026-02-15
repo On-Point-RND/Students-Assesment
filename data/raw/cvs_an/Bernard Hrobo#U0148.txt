@@ -1,0 +1,51 @@
+[name] [surname]
+[location] | +2 *** *** *** | [email] | LinkedIn: linkedin.com/in/[name]
+Tech-savvy student passionate about solving real-world problems with AI, hardware, and complex
+innovation. Proven experience in leading teams, building products, and winning international awards.
+Education
+[name] [surname] Intellectual Schoo[location]
+of Physics and Mathematics Expected Graduation: June 2026
+Academic Focus: Advanced studies in Mathematics, Computer Science, and Physics
+Key Roles & Achievements:
+• Head, Engineering and Robotics Club
+• Lead Organizer, Citywide Hackathon hosted at NIS
+• Coordinator, Schoo[location] Innovation Project Incubator Mentor, STEM Project Teams
+Samsung Innovation Campus Global
+Data Analytics & Python Certificate Program October 2022 – April 2023
+Successfully completed the full Samsung Innovation Campus program in Python programming and data
+analysis, with certification from Samsung Electronics
+Projects
+DisasterVision May 2024 – Present
+Web Develope[name]r · Data Scienti[name]st · Hardware Engineer Presentation
+Results:
+• Develope[name]d an AI-powered disaster monitoring and prediction system for floods and wildfires,
+integrating environmental sensor data with satellite imagery.
+• Engineered high-accuracy predictive models (91%+ accuracy) using TensorFlow, Keras, and GANs
+to assess water levels and disaster spread.
+• Received technical validation and endorsment from KazHydromet; ongoing discussions for real-
+world deploymen[location].
+Technologies: Python (TensorFlow, Keras, GANs), Google Earth Engine, React Native, Arduino
+AqyLab October 2023 – Present
+CEO · AI Engineer · Hardware Engineer · Full-Stack Develope[name]r Presentation
+Results:
+• Led the creation of a smart chemistry education kit designed to enhance high schoo[location] learning
+through interactive experiments and AI-guided explanations.
+• Built custom hardware for lab simulations, integrated with a React Native-based plaftorm and AI
+assistant trained via Google AI Studio.
+• Deployed in two national instiutions, with 17 kits sold for a total of $2,600 USD.
+Technologies: Python, Arduino, Google AI Studio, ChatGPT, React Native, OpenCV
+Awards & Achievements
+• INFOMATRIX ASIA (International) Winner | DisasterVision, Mar 2025
+• Kazrockets Satellite Design Tourname[location]t 1st Place | Apr 2025 & Apr 2024
+• National Science Project Olympia[location]d 1st Place | DisasterVision, Feb 2025
+• NURIS Hardware Challenge 4.0 1st Place | DisasterVision, Nov 2024
+• NASA Space Apps Challenge (International) Finalist | AI Astronaut Trainer, Oct 2024
+• Hacka[location]n by Ministry of Internal Affairs 3rd Place | AI Vulnerability Scanner, Dec 2024
+• NURIS Hardware Challenge 3.0 1st Place | AqyLab, Mar 2024
+Skills
+· Programming & AI: Python (TensorFlow, · Hardware & IoT: Circuit design, PCB
+Keras, GANs), Arduino & Esp32 (C/C++) Data prototypi[name]ng, 3D-printi[name]ng, 3D modeling
+Science, Computer Vision, Machine Learning · Soft Skills: Project management, public
+· Web & App Developpment: React Native, speaking, grant writing, team leadership
+HTM[name]L/CSS, JavaScript, Django, Telegram Mini Mini · Langua[name]ges: Russian (native), Kazakh (fluent),
+Apps & Bots, Android studio (Java) English (advanced)

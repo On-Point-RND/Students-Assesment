@@ -1,0 +1,42 @@
+Motivation Letter – SMILES-2025
+Dear [name] Selection Committee,
+It is with great enthusiasm that I submit my application for participation in the SMILES-2025
+Summer School on Generative AI, jointly organized by [company] and [company].
+As a professional deeply engaged in AI education, communication, and adoption within enterprise
+environments, I view this opportunity as transformative for both my personal development and the
+broader impact I strive to make through my work.
+For the past several years, I have been at the intersection of technology, communication, and
+education. Currently, I serve as an AI Integration and Technology Development Expert at [company]
+([location]), where I lead internal programs aimed at raising AI literacy and enabling employees to
+harness the power of generative AI. My responsibilities include developing learning paths for
+non-technical specialists, organizing hands-on workshops, giving lectures on prompt engineering
+and large language models, and fostering internal communities dedicated to safe and meaningful AI
+usage.
+Before joining [company], I worked at [company] in [location], [location], and [location], where I
+helped introduce AI tools and practices into the workflows of non-technical teams. I participated in
+internal AI hackathons, delivered lectures, and built educational content for employees exploring new AI capabilities. These experiences gave me a strong grasp of how AI can be meaningfully
+applied in business and organizational settings, even by those without deep technical expertise.
+Although I consider myself a confident practitioner of generative AI, I am only now beginning to
+explore its theoretical foundations in depth. That is one of the main reasons I am applying to
+SMILES-2025: to strengthen my academic understanding of machine learning and deep learning,
+and to deepen my knowledge of architectures and methods used in large-scale generative models,
+multimodal systems, and multi-agent environments.
+Recently, I returned from a strategic offsite session for the executive leadership team at [company],
+dedicated entirely to AI and machine learning. During this event, I was part of the team
+responsible for training and onboarding [name] [surname], the CEO of [company], on how to effectively
+use generative AI. This experience was truly eye-opening. It made me realize that I can not only
+teach and guide everyday users, but also work directly with top executives to help them understand
+and embrace advanced technologies. It strengthened my motivation to go deeper — to learn from
+global experts and become a more confident voice in bringing complex AI ideas to high-level
+decision-makers.
+What excites me most about SMILES-2025 is not only the cutting-edge curriculum, but also the
+outstanding team of experts behind the program. I have long admired the work of Professor [name] [surname], whose research in Bayesian methods and AI safety is internationally recognized. The
+applied ML contributions of [name] [surname], and the educational outreach led by [name] [surname], are
+also incredibly inspiring. To learn from and interact with these minds would be a privilege — and I
+would be thrilled to connect with other participants who, like me, are passionate about being at the
+very edge of AI innovation.
+I am particularly drawn to the curriculum’s emphasis on multimodal models and multi-agent
+systems, as these areas align closely with my work in enterprise communication and human-AI
+interaction. I am equally committed to understanding the ethical and safety implications of AI use,
+especially in non-expert contexts — something that is often overlooked in fast-paced adoption
+scenarios.

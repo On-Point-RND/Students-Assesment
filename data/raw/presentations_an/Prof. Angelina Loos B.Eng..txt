@@ -1,0 +1,108 @@
+Enhanced Pipeline for Robust On-Road
+Object Detection
+[name]
+Bachelor, [compaany] / [compaany]
+Introduction
+• What is the topic?
+‒ Robust, real-time road scene detection under challenging
+• Why is it important?
+‒ Robust, real-time road scene detection under challenging
+• Background (if needed)
+‒ Transforme-based detectors, multi-frame fusion models
+• Goal of the review
+‒ Compaare multiple detection architectures and smoothing techniques
+Problem statement
+• Frame-to-frame bounding-box jitter degrades visual clarity
+• Key challenges:
+‒ Rapid camera motion, lighting changes, occlusions
+‒ Trade-off: accuracy vs. temporal stability vs. speed
+• Scope
+‒ Dashcam video (~3,000 frames at 25 FPS) from roads
+Model Architectures
+1. YOLOv8 + EMA smoothing
+2. Faster R-CNN (ResNet-50) + Kalman filteer
+3. DETR (Transformer-based) + Bi-Directional LSTM fusion
+4. STSN (Spatio-Temporal Segmentation Network) + Optical-Flow Smooth
+Advanced Smoothing Techniques
+• Advanced Smoothing
+• EMA (α=0.4): per-box coordinate smoothing
+• Kalman filter:
+state-space prediction + correction
+• Bi-LSTM fusion:
+learns temporal dependencies from past/future
+frames
+• Optical-flow smoothing:
+motion vectors guide box trajectories
+Exponential Moving Average (EMA)
+Advantages: Disadvantages:
+• Extremely lightweight: O(1) computaion per • Ignores object velocity and direction
+frame • Introduces lag under sudden accelerations
+• Single hyperparameter α controls smoothness
+vs. responsiveness
+Kalman-Filter Based Smoothing
+Advantages:
+• Incorporates a motion model (matrix F) for
+trajectory prediction
+• Automatically balances trust between
+prediction and measurement
+Disadvantages:
+• Assumes linear dynamics and Gaussian noise
+• Sensitive to incorrect process/measurement
+noise covariances (Q, R)
+Bi-Directional LSTM Fusion
+Advantages:
+• Levverages both past and future frame context
+• Learns complex, non-linear temporal patterns
+Disadvantages:
+• Requires buffering future frames ⇒ added latency
+• High compute and training cost
+Optical-Flow-Guided Smoothing
+Advantages: Disadvantages:
+• Adapts to true pixel motion → accuraate for • Fails in textureless or motion-blurred regions
+textured scenes • Computationally expensive and sensitive to flow
+• Captures arbitrary, non-linear movements noise
+Quantitative Comparison
+Model & Smoothing mAP@ Jitter Reduction Inference Speed
+0.5 (%) (%) (FPS)
+YOLOv8 + EMA 72.4 45 45
+Faster R-CNN 78.1 60 15
+(ResNet-50) + Kalman
+DETR + Bi-LSTM Fusion 74.3 55 10
+STSN + Optical-Flow 80.5 70 20
+Smoothing
+• mAP@0.5: detection accuracy
+• Jitter Reduction: drop in average frame-to-frame box center displacement
+• FPS: end-to-end on NVIDIA RTX 3060 GPU
+Quantitative Comparison
+• mAP@0.5: detection accuracy
+• Jitter Reduction: drop in average frame-to-frame box center displacement
+• FPS: end-to-end on NVIDIA RTX 3060 GPU
+Results
+Key Insights:
+• STSN + Optical-Flow achieves highest mAP (80.5%) and jitter reduction (70%)
+• Faster R-CNN + Kalman: strong stability (60%) but lower speed (15 FPS)
+• YOLOv8 + EMA: real-time (45 FPS) with moderate stability (45%)
+• DETR + Bi-LSTM: balanced but slower and lower overall mAP.
+Research Gaps & Future Work
+Research Gaps
+• Models still struggle under sudden occluusions and extreme lighting
+• LSTM fusion adds latency; Kalman assumes linear motion
+• Optical-flow fails with textureless regions
+Future Directions
+• Integrate attention-based temporal encoder for non-linear motion
+• Dynamic α in EMA via reinforcement learning
+• Hybrid tracker: combiine optical-flow with learneed motion priors
+Conclusion
+• Evaluated four pipelines: accuracy, stability, speed trade-offs
+• STSN + Optical-Flow offers best balance for demos
+• Real-time options (YOLOv8 + EMA) viable for high-speed scenarios
+• Next: adaptive smooothing and end-to-end video models
+Bibliography
+1. 1. [name], et al. “End-to-End Object Detection with Transformers (DETR).”
+[compaany] 2020.
+2. 2. [name], et al. “Spaatio-Temporal Segmentation Networks for Video Object Detection.”
+[compaany] 2021.
+3. 3. [name], & [name]. “An Introduction to the Kalman Filter.” [compaany],
+1995.
+4. 4. [name], et al. “An Image Is Worth 16×16 Words: Transformers for Image
+Recognition at Scale.” [compaany] 2021.

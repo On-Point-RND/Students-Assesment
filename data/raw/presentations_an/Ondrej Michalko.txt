@@ -1,0 +1,133 @@
+Spaatio-Temporal Graph Neural Netwoorks (ST-GNNs)
+for Long-Term Hydrocarbon Production Forecasting
+[name]
+PhD Student, [compaany]
+Introduction
+• Development planning is crucial element of petroleum field
+P
+SK
+dewelopment. It requires evaluation of development scenarios
+Production
+subgraph
+(i.e. long-horizon forecasting and analysis) that typically takes days
+i, i
+to months to complete using physics-based simulators.
+Well
+influence
+subgraph
+• Data-driven approaches have also been applied to the problem,
+I P
+j, j
+however, they ignore physical structure of the problem and do
+total
+not consider surface production/injection system that is crucial for subgraph
+long-term production forecasting as they control the production.
+2
+Research gap
+The current data-driven models usually focus on subsurface
+dynamics predictions completely ignore production network:
+Example 1: PI-GNN[1]
+● Calculate PINN loss based on CRM[2] equaions;
+● Build or learn adjacency matrix by physics or (PI-)GNN
+● Use time as explicit input (sic!)
+● Only takes into account injections and bottom-hole pressures
+Example 2: AST-GCN[3]
+● Uses graph convolution inside GRU module
+● Encodes dynamic and static attributes Hybrid PI-GNN [1]
+● Only takes into account injections
+Problem statement
+The problem can be stated in following ways:
+Technical
+Designing a DL model that would: 1) use available data about petroleum field reservoir and production system
+effectively and efficiently, 2) give robusst and accurate long-horizon prediction of well HC production.
+Scientific
+What parameters of surface network (structure, properties) can positively affect the performance (accuracy,
+robustness or interpretability) when included into the forecasting model as an inductive bias?
+Challenges
+High-dimensionality, noisiness and sparsity of the data; problem of representation of complex data.
+Methods
+Why ST-GNNs?
+1) alrready used in the literature in subsurface task [1 3];
+,
+2) both surface network topoology and flows in the reservoir can be described as a graphs.
+Steps:
+• Apply existing models: this is to identify key advantages and weaknesses of their approaches
+• Modification/combination: no prior art GNN model satisfies the criteria fully (see Ideal model);
+• Data provenance: data used: 1) synthetic (analytic model data), 2) semi-synthetic (reservoir
+simulations) and 3) real (field data).
+• Data preparation: temporal data should be padded, denoiseed. Events like shutting should be
+marked. Most likely initial guesses for adjacency matrix will be needed.
+Ideal model
+Proposed architecture: Spatio-temporal PI-GNN (most probabily GCN+Transformer).
+Criteria:
+● Inputs and outputs: well rates, node pressures, sink pressures should be predicted as time-series;
+● Node/ege types: not all nodes/eges are the same (e.g. well vs. manifold) → node/ege attributes;
+● Dynamic graph: Networ changes during the whole history and so model should account for this;
+● PI-loss: formulated probably only for subsurface part avoiing grid;
+● Auxiliary ege attributes: inputs are sparse (defined only on some nodes), but the outputs are dense,
+they will be very sensitive. Additional physics-informe informed ege attributes (pipe parameters, well parameters
+quantify productivity etc) could help
+Experiments on toy model
+I’ve generated synthetic data with non-linear relations between
+production and controls and applied several existing models.
+Production rates are affected
+Simplified production system:
+by changes in sink pressures and
+9 producers, 4 injectors,
+injection rates immediatly
+2 sinks
+Model 1: ST-GCN
+➕ Models temporal relations using
+Temporal Convolution block;
+➕ Models spatial relations between nodes
+using GCN block;
+➖ No way to assign exogenous variables.
+➖ No way to assign node/ege types.
+➖ Adjacency matrix needs to be provided.
+ST-GCN structure [4]
+Results & Gaps: ST-GCN
+ST-GCN is not very accuraate and suffeers
+from cross-contamination (see →)
+Practical limitations:
+● Models two-way relations, so we also
+get predictions for control variables (!)
+and can’t specify them for future;
+● Only one time series per node;
+● Not very extendable approaach in
+practice.
+noitcudorP
+lortnoC
+Model 2: AST-GNN
+➕ Models temporal relations using GRU
+block;
+➕ Models spatial relations between
+nodes using GCN block;
+➕ Encodes both dynamic exogenous
+variables (D) and static (S) attributes;
+➖ All attributes are defined onlly on nodes;
+➖ Adjacency matrix has to be provided.
+AST-GCN Cell [3]
+Results & Gaps: AST-GNN
+More accuraate than ST-GNN, however
+Practical limitations:
+● Injectors are not represented as nodes,
+insteaad injector rates are distributed acc.
+Whole injection rate (GI)
+Transfer coefficient
+to transfer coefficents (see [Guo et al., will be produced (GR)
+depends on geology
+2023]);
+● Dynamic attributes are included in input
+as a fixed window;
+● Sink pressure cannot be incorporated
+as a control.
+noitcudorP
+Conclusions
+● I described research gap in literature on application of data-driven
+models to hydrocarbon production forecasting — they do not account
+for reservoir interaction with a surface network;
+● I hypotheized that ST-GNNs could be helpful for this tasks;
+● I tested existing models on production forecasting on synthetic data
+from toy model that captures main relations in a network;
+● I identified practical limitations in applying these models and
+propo sed an ideal model framework and criteria it should satisfy.

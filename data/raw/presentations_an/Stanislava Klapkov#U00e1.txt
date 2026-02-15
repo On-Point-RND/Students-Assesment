@@ -1,0 +1,166 @@
+Slide 1
+----------------------------------------
+Presenter: assoc. prof. [name]
+Radiology Department, 
+College of Medicine and Sciences,
+[location] 
+ 
+Informatics in medical education, 
+cognitive training and assessment 
+ 
+Academic background and              study issues
+Diagnostics AI models
+ 
+Predictive AI models in medicine, education 
+Cognitive training and assessment
+ 
+Slide 2
+----------------------------------------
+ACADEMI\
+C BACKGROUND AND STUDY ISSUES
+SECTION
+SECTION
+ 
+Slide 3
+----------------------------------------
+0. Academic Background
+MD, PhD in Sports and Rehabilitative medicine
+studies on diagnostics of sports trauma and overtraining syndrome 
+neurophysiologic studies on psychophysiological maladjustment in sports
+research on effective training strategies in professional athletes
+BS in Computer science
+studies in econometrics, modelling societal and economic changes 
+development of educational games with Unity3D engine – used in [compaany] VR applications
+application of AI techniques: training machine learning models to calculate the level of physical performa performance from the other functional parameters that are easier to get
+ 
+Slide 4
+----------------------------------------
+1. Study issues
+imaging diagnostics, 
+analysis of clinical datasets that may not contain imaging data 
+“Informatics in medicine”, “Informatics in education” 
+ 
+In our studies we follow the algorithm that resembles the major steps of diagnosis making:
+data acquisition 
+data preprocessing 
+formulation of statistical hypothesis 
+data modelling
+interpretation of study findiinings 
+practical implementation
+ 
+Slide 5
+----------------------------------------
+DIAGNOSTIC AI MODELS
+NEXT SECTION
+ 
+Slide 6
+----------------------------------------
+2. Data acquisition and preprocessing
+How to deal with medical imaging data? 
+Visual appraisal or computer vision
+Radiomiics 
+automatic segmentation of medical images: findiing useful information
+applying radiomiics framework
+data standardization 
+reduction of computational complexity 
+ 
+Slide 7
+----------------------------------------
+ 
+Slide 8
+----------------------------------------
+ 
+Slide 9
+----------------------------------------
+3. Formulating statistical hypothesis
+What is the diagnostic value of the information retrieved from the images? 
+It can reflect disease severity more reliably than other diagnostic modalities
+It can acco accompany other diagnostic modalities for the implementaion of multi-modal diagnostic approaach.
+How can one mergge different diagnostic modalities?  [compaany] Patent Application No 18/143.128 filed on May 4, 2023 
+ 
+Slide 10
+----------------------------------------
+4. Interpreting findings
+Interpretable AI approaach 
+ 
+ 
+Slide 11
+----------------------------------------
+PROGNOSTICATING AIMODELS IN MEDICINE AND EDUCATION
+NEXT SECTION
+ 
+Slide 12
+----------------------------------------
+5.Prognosticating disease outcomes 
+ 
+A study on environmental and individual risks of unfavorable outcomes of stroke
+ 
+Slide 13
+----------------------------------------
+5. Prognosticating efficiency of treatment 
+ 
+ 
+Slide 14
+----------------------------------------
+5. Prognosticating disease course
+Study of a unique dataset of [compaany] patients
+https://med-predict.com/base 
+ 
+Slide 15
+----------------------------------------
+5. Prognosticating disease course
+Study of a unique dataset of [compaany] patients
+https://med-predict.com/base 
+ 
+Slide 16
+----------------------------------------
+COGNITIVE TRAINING AND ASSESSMENT
+NEXT SECTION
+ 
+Slide 17
+----------------------------------------
+6. Reason for Cognitive Training 
+ 
+ 
+Slide 18
+----------------------------------------
+6. Reason for Cognitive Training 
+Structuraal markeers of brain aging 
+ 
+Functional markeers of brain aging
+ 
+Slide 19
+----------------------------------------
+7. Assessment of cognitive behavioor
+Visual event related potentials with food GO/NoGO test
+images of healthy and junk food are presented sequentially 
+examinee should respond to healthy items
+brain evoked potenentials are recorded and decoded with Fourie transform
+analysis of spikes (P3 components) tells if the decision was straight-fo rward or the person hesitated how to respond or not
+ 
+Slide 20
+----------------------------------------
+8. Assessment of cognitive training efficiency
+Cognitive training is conducted with [compaany] application
+https://www.shetechstudio.com/
+https://www.vaw.training/ 
+Study subjects are tested with Food Go/NoGo test before and after the training sessions
+ 
+Slide 21
+----------------------------------------
+9. Assessment of educational strategies 
+Buildiing up associations 
+hippocampus
+Storing information
+prefrontal cortex
+EEG-ERP / fNIRS
+fMRI
+ 
+Slide 22
+----------------------------------------
+10. Search for genetic markeers of behavioral/personality features 
+ 
+ 
+Slide 23
+----------------------------------------
+Thank you!

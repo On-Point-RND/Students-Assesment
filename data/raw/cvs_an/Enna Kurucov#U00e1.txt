@@ -1,0 +1,43 @@
+[name]
+[location] ● [email] ● [email] ● +2 *** *** ***
+I am a fourth-year student at [company]. During the school and university, most of my time was devoted to studying chemistry and biology, which later helped me win the Russian National Olympiad and be enrolled in the university without exams. However, over time, I have realized that I am much more interested in math and data science, with their precision, logic, and endless possibilities. With great motivation, I am eager to study all aspects of generative and probabilistic machine learning, Bayesian statistics, and computer vision. My background in life sciences has given me a unique perspective, and I am excited to see how this interdisciplinary approach will shape my future in machine learning and mathematics.
+Education
+Moscow Institute of Physics and Technology (MIPT)
+ Bachelor of Science in Biotechnology, School of Biological and Medical Physics
+ Grade Point Average 9.3/10 (GPA = 4.93/5). Top 1/100 students at School
+Work Experience
+Assistant at the applied statistics and ML course
+ Grading homeworks, assisting and answering questions during seminars and preparing educational materials in the course Phystech@DataScience
+Teacher of the Olympiad chemistry course
+ Teaching a course of Olympiad Chemistry for advanced high-school students; preparing them for academic competitions and olympiads
+ Two students twice became the winners of the Russian National Chemistry Olympiad
+Skills
+Languages: English (Upper-Intermediate), Russian (Native)
+Statistics: AA-tests, t-test, CUPED, stratification, bootstrap, GLM
+Classical machine learning: linear regression, logistic regression, forest, boosting, PCA, clustering algorithms
+Neural Networks: CNN, ViT, U-Net, YOLO, RNN, Transformers, VAE, Normalizing Flows
+Interpretable AI: SHAP, LIME, PDP, CAM, SmoothedGrad, permutational feature importances
+Python: NumPy, Pandas, OpenCV, SciPy, Matplotlib, Seaborn, Sklearn, CatBoost, PyTorch, Lightning
+Biological data analysis: RNA-seq, ChIP-seq, ATAC-seq, Hi-C, scRNA-seq, scHi-C
+Others: Bash, Docker, R, Origin, Latex
+Research Experience
+Ekaterina Khrameeva’s group ([company])
+ Working on the changes in chromatin openness during the Duchenne muscular dystrophy, using RNA-seq and ATAC-seq data
+ Research on the connection between domain structure of DNA (TADs) and epigenetics in neurons and glial cells, analyzing ChIP-seq, Hi-C and scHi-C data
+ Contribution to the package for the hyperparameter search for TAD-calling algorithms (optimalTAD)
+Center of Applied Genomic Technologies ([company])
+ Projects connected to analysis of microbiome data in patients with Diabetes Mellitus type 2, applying statistical analysis, discovering the clusters and diversity of species
+Stephan Kellenberger Laboratory ([location])
+ Internship with the Summer Undergraduate Research Programme (SUR) at the University of Lausanne
+ Project about MTSES and MTSET effects on hASIC1a functionality, where I worked with Xenopus Laevis oocytes, made RNA injections and measured the current through channels by the voltage clamp
+Achievements
+Winner in the Microbiology Section of Lomonosov Conference
+“Change of the Gut Microbiome during Diabetes Mellitus type 2”, statistical analysis of bacteria abundance and connection with the disease duration
+Hackathon by BostonGene company
+The first place on the problem “Developing MSI-calling tool for a cfDNA assay” achieved by making convolutional neural network
+Winner of the International Mendeleev Chemistry Olympiad
+Winner of the Russian National Chemistry Olympiad
+Activities
+ Practice social dancing (Boogie Woogie, Lindy Hop, Bachata)
+ Play table tennis
+ Study history of the modern Russian and French arts

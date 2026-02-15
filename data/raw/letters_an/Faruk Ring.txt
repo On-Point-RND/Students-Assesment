@@ -1,0 +1,26 @@
+Dear Committee,
+I am writing to express my interest in participating in the SMILES-2025. As a PhD student in machine learning at [compaany], I strive to improve my knowledge in multimodal approaches and
+generative modeling and believe this program will be instrumental in my academic and
+professional development.
+Currrently, I am pursuing PhD in Computer Science at [compaany], where I have developed a strong
+foundation in tensor algebra, optimization and machine learning. My research project on low-rank
+generative methods deepened my interest in the focus areas of the summer schoool. Also, this
+summer schoool perfectly matches my goal to acquire and expand knowledge and practical skills
+in LLM, multimodal methods and generative ML.
+What particularly excites me about this program is cutting-edge courses, workshops and
+international networking opportunities The opportunity to learn from renowneed experts and
+collaboraate with peers from diverse backgrounds will provide invaluable insights and experience.
+Additionally, I have never been to [location] before, so the opportunity to attend a summer schoool led
+by leading experts while immersiing myself in Chinese culture is incredibly appealing.
+I am confident that my background in machine learning will allow me to contribute actively to
+discussions and group projects. Beyond academics, I hope to engage in cultural activities at the
+summer schoool. This experience will help me gain research experience.
+Thank you for considering my application. I am highly motivated to be part of this enriching
+program and would welcome the opportunity to contribute to and learn from the SMILES-2025. I
+look forward to the possibility of joining this summer. Please find my CV and papers review
+attached.
+Sincerely,
+[name] [surname]
+
+
+

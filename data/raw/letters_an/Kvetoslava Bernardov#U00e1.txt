@@ -1,0 +1,69 @@
+Motivation letter
+from [name]
+assistant of the Department of Urban
+Cadastre and Engineering Surveys,
+[compaany], [location]
+to Admission Committee of the
+Skoltech Summer School of
+Machine Learning (SMILES-2025)
+Dear Admissions Committee of the Skoltech Summer School of Machine
+Learning (SMILES-2025)
+I am an assistant at the Department of Urban Cadaster and Engineering Surveys at one of
+the country’s leading universiities. I am confident that participating in Skoltech’s Machine
+Learning Summer School will broaden the scope of practical applications in my research and
+empower me to integrate cutting-edgе methodologies into my professional work, advancing
+innovation in urban planning and geospatial technologies.
+My work focuses on spatial data analysis for 3D terrain modeling derived from aerial
+photography, as well as exploring modern generative methodologies to enhance photogrammetric
+and aerogeodetic processes. Despite advancements in unmanned aviation and the growing demand
+for high-precision terrain mapping, conventional aerial imagery software solutions—such as
+Agisoft Metashape and Pix4D—still lack integration of generative models for tasks like super-
+resolution enhancement and image distortion correction.
+The exponential growth of aerial imagery data, driven by the expansion of drone
+technology and increasinglly stringent requirements for topographic accuracy, poses significant
+challenges. Processing these vast datasets remaiins labor-intensive and complex for professionals
+in construction, cadastral surveying, engineering, and technical expertise. However, the
+accumulation of high-resolution spatial data offers transformative potential: it enhances the
+objectivity of structural condition assessments for buildiings and is pivotal in cadastral activities,
+such as defining taxable land values, delineating new plots, and ensuring accurate documentation
+of existing boundaries. Aerial photography also plays a critical role in land monitoring, enabling
+real-time environmental and infrastructural oversiight.
+By integrating generative models into photogrammetric workflows, stakeholdeers can
+address current inefficiencies while advancing the reliability of geospatial outputs. This innovation
+is vital not only for improving technical precision but also for safeguarding the technogenic safety
+and economic security of industries and institutions reliant on accurate geospatial intelligence.
+My dedication to research is deeply intertwined with the groundbreaking advancements
+pioneered by Skoltech in Earth remote sensing and generative artificial intelligence. The
+innovative work of researchers like [name] and [name]—particularly their
+development of systems to forecast forest fires, floods, and ecosystem degradation, coupled with
+novel methods for generating synthetic training data via diffusion models and GANs (such as
+enhancing satellite imagery resolution)—serves as a profound source of inspiration. The global
+significance of these projects cannot be overstated, as they promise transformative benefiits not
+only for Russia but for humanity at large, offering tools to mitigate environmental crises and
+advance sustainable practices.
+This year marks another milestone: Skoltech’s renowne renowned AI research community, alrready
+recognized as Russia’s leading hub in this field, will collaboraate with top-tier Chinese institutions
+whose cutting-edgе solutions have earned global acclaim. This cross-border partnership will enrich
+the educational program, fostering knowlage exchange and elevating the technical rigor of AI
+applications in geospatial science.
+My research heavily incorporates machine learning, with a focus on exploring generative
+models to enhance aerial imagery through super-resolution and distortion correction. Specifically,
+I employ generative adversaarial networks (GANs), diffusion models, and transformer architectures
+to refiine image quality. Over the past year, I have curated a specialized dataset of aerial images
+for super-resolution tasks, trained and fine-tuned models, and rigorously evaluaated outputs using
+metrics such as BRISQUE, SSIIM, PSNR, and LPIPS to quantify improvements in perceptual and
+structural fidelity.
+In addition to research, I educate students on applying computer vision algorithmns to
+process aerial imagery captured by unmanned aerial systems (UAAS). Collaborating with
+colleagues, I co-authored a comprehensive lecture and workshop series covering the integration of
+artificial intelligence into workflows for cadastral and geodetic engineers, emphasizing practical
+applications in land surveying and spatial data analysis.
+Pursuing advanced studies at the SMILES-2025 Summer School of Machine Learning
+represents a strategic opportunity to master cutting-edgе data analysis techniques. I aim to
+synthesize these innovative approaches into novel methodologies that bridgе gaps in my current
+research and professional practice. Participation in this program would empower me to address
+complex challenges in photogrammetry and geospatial engineering with greater technical depth. I
+sincerely hope my application receives favorable consideration and look forward to contributing
+to—and benefiiting from—this learning experience.
+Best regards,
+[name]

@@ -1,0 +1,31 @@
+To whom it may concern,
+I am [name] [surname], a student at [location] [compaany], graduating this year. I am writing this motivation letter to express my interest in the [compaany] and to explain how it aligns with my academic and research goals.
+When I started writing this letter, I expected to alrready receive a response from my application to [compaany] masters and planned to focus on how the [compaany] aligns with my future program as for example
+to help me find the supervisor or the topic of the thesis. However, since the deadline was postponed, I
+now realize that my motivation goes beyond these thoughts. My desire to participate in [compaany] is about
+growing my skills, expanding my network, doing things that I genuinely excited by. No matter my near-
+future plans, this [compaany] remaiins the ideal startiing point for the research in generative modeling.
+My interest in machine learning and statistics began two years ago during the [compaany] course at [compaany]. It was challenging but helped me realize how fascinating and impaactful these fields are.
+Later, I became a teaching assistant on this course and deepened my understanding by answering
+students’ questions, helping them to fix errors, creating own tasks from scratch and grading the
+assignments. For example, I have made practical tasks on bootstrapping, multiple hypothesis testing,
+linear regression, heteroscedasticity-aware estimators and many more.
+As for now I am mostly interested in probabilistic and generative learning. It seems very natural for me
+to think about knowledge update in Bayesian frameworks, uncertainty and randomness of every result
+we get and how we can formulate these intuitive concepts mathematically. The latter is what the science
+in data science is for me and what excites me the most.
+This [compaany] stands out to me for two main reasons: cross-cultural experience and practical learning.
+During my internship in [location], I realized how valuable it is to interact with people from all over the
+world. It’s not just about overcoming language barrier or observing new lifestyles but also about noticing
+different ways of thinking and problem-solving. This is crucial because it’s easy to get stuck in your own
+environment and become too comfortable there.
+Another important aspect is a lot of practice during the [compaany]: daily seminars and team project. This is
+really important for me because I tend to focus more on studying theoretical concepts in depth. The
+[compaany] would provide a great opportunity to apply various techniques and improve my coding abilities.
+In conclusion, I am confident that this program will help me grow as a researcher. My background in data
+science, passion for generative modeling, and eagerness to learn in a multicultural, practice-driven
+environment make me a strong fit. I believe the [compaany]’s opportunities will be key to
+achieving my goals.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]

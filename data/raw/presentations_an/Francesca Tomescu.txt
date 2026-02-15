@@ -1,0 +1,109 @@
+Slide 1
+----------------------------------------
+Investigating of different Adversarial Domain Adaptations
+
+Slide 2
+----------------------------------------
+Problem statement
+The biomedical imaging field is consistently confronted with several challenges: 
+limited data availability
+class imbalance
+heightened sensitivity to model errors. 
+ 
+Beyond these difficulties, researchers and engineers face an additional
+critical challenge: enhancing model generalization capability for cases where patient data originates from multiple sources that were not represented in training datasets.
+ 
+In this work, we specifically address this challenge in solving 
+Diabetic Retinopathy (DR) prediction task using ocular image data.
+
+
+Slide 3
+----------------------------------------
+Datasets
+During our research, we use 5 different DR datasets : DDR [1], Messidor [2], IDRiD [3], APTOS [4], FGADR [5]
+
+
+Slide 4
+----------------------------------------
+Datasets
+Datasets have strong class imbalance, classes 1, 3, 4 are not really frequent.
+Inside a dataset splits of Train, Validation and Test have same labels distribution
+Labels distribution across the datasets varies a lot
+
+Slide 5
+----------------------------------------
+Datasets
+Each dataset is specific.
+
+We can’t train on one 
+and have good quality on all of them.
+
+Slide 6
+----------------------------------------
+Metrics
+Motivation:
+Ensure rare severe cases are  weighteed equally
+
+Motivation:
+Accuracy is misleading in imbalance. Cohen’s Kappa asks: ‘Is the model smaarteer than a random guess?’
+F1-macro score
+Cohen’s Kappa score
+N - number of classes
+
+Slide 7
+----------------------------------------
+Baseline model
+We use DDR for base checkpt as it has the biggest amount of samples. 
+
+ 	 After finetune it shows poor performaance on other datasets. 
+
+Slide 8
+----------------------------------------
+Classical domain adaptation
+But the model forgets DDR dataset and overfits for a new one!
+
+Slide 9
+----------------------------------------
+Idea: Adversarial domain adaptation 
+
+Our key idea is to make model forget about domain difference, but make it still remember about class difference
+We organize training procedure in GAN manner. 
+
+Algorithm:
+	Step 1.
+	 	Train simple classifier on the top of ViT reprs. for N steps
+	Step 2.
+Train ViT for DR classification + “domain forgetting” for M steps
+
+Slide 10
+----------------------------------------
+Adversarial domain adaptation. Step 1. 
+
+Practical insight: the weaker classifier is, the more information we use from embeddings
+
+Slide 11
+----------------------------------------
+Adversarial domain adaptation. Step 2. 
+
+Slide 12
+----------------------------------------
+Results
+Kappa Score
+F1-macr
+
+Slide 13
+----------------------------------------
+Results
+Accuracy
+Cross-Entropy
+
+Slide 14
+----------------------------------------
+Conclusions
+
+Slide 15
+----------------------------------------
+GitHub Repo
+
+Slide 16
+----------------------------------------

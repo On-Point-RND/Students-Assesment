@@ -1,0 +1,107 @@
+[name]
+[location]
+Telegram - @[name]
+[email]
+[surname]
+SKILLS
+RESEARCH INTERESTS ● Programming languages:
+Control theory, Reinforcement Learning, ML/DL, Computer Vision Python, C/C++
+WORK EXPERIENCE ● ROS1/ROS2, Gazebo, Rviz
+● ML: OpenCV, TensorFlow,
+[company], Reinforcement Learning Engineer PyTorch, MLflow, Apache
+April 2025 - currently Airflow, Streamlit
+Developed reinforcement learning algorithms for locomotion and control of ● Isaac Gym, Legged Gym
+quadruped robots with Legged Gym and IsaacLab. Trained policies in ● Mujoco, Pinocchio, CasADi
+simulation environments and deployed them on real quadruped hardware.
+● CAD: Siemens NX, Fusion 360,
+Focused on sim-to-real transfer for robust real-world performance. Worked
+at the intersection of control and learning, integrating classical control SolidWorks
+insights with modern RL techniques. ● Hardware: Arduinno, Raspberry,
+Jetson, FPGA, ESP, STM
+[company], Optimal Control Engineer
+August 2024 - April 2025 ● Docker
+Developed and deployed model-based control algorithms for humanoid robots.
+Applied advanced control techniques, including linear, nonlinear, and optimal
+control (LQR, MPC) for high-DOF robotic systems. Developed robotics
+simulators involving multithreading and real-time systems in C++.
+Innopolis University
+Basic Tech Stack : Python, C++; JAX, PyTorch; NVIDIA Isaac Gym/Isaac Sim Innopolis – bachelor
+September 2022 – July 2026
+“Robotics”
+Skoltech University
+"Mobile platform", Lead Software Engineer Skolkovo - exchange student
+Innopolis Robotics LaboRatory, January 2025 – May 2025
+May 2024 - October 2024
+“Engineering Systems”
+The project included development of both hardware and software for an
+autonomous wheeled platform for warehouses. I was a lead of a software
+team (backend and frontend). The team was developing SLAM
+Technology, and path planning for a general-purpose mobile platform, I was mainly
+responsible for control module development. Beijing Institute of
+developers team
+China - exchange student
+September 2023 – January 2024
+Basic Tech Stack : ROS2; C++, Python, JavaScript
+“Computer Science”
+Shaoxing University, 绍兴
+⽂理学院
+"Digital Alliance", Python Backend developer
+China – bachelor
+September 2023 - November 2023
+September 2022 – July 2023
+The project is a backend router service development – backend part of “Computer Science”
+the web interface of a Russian router. The task of the service is to provide
+the frontend service with a simple interface to control the router. The
+backend part acted as a layer between the frontend and drivers.
+Basic Tech Stack: Python, FastAPI, REST API, UNIX Socket, Pydantic
+JOB
+[company]
+RESEARCH Optimal Control Engineer,
+Reinforcement Learning Engineer
+Since August 2024
+Robotics LaboRatory of
+[company]
+"Assessing the Adversarial Robustness of Multimodal
+Since January 2024
+Medical AI Systems: Insights into Vulnerabilities and
+Robotics LaboRatory of
+Modality Interactions”
+Innopolis University
+Publication in progress Software Robotics Engineer
+Since January 2024
+Research supervisors : [surname] ([location]), [surname] ([location])
+LANGUAGES
+SHORT-TERM PROJECTS
+● English - C1 (Advanced)
+● “Concealment of personal data with medical specificity
+using AI”, Computer Vision Engineer
+HiRUS
+Processing of medical video and post-processing to conceal personal data
+● "Follow My Reading", Project Lead/ML Engineer
+Innopolis University
+API service for image and text extraction, audio-to-text transcription, and
+audio splitting by sentences.
+Basic Tech Stack: Python, FastAPI, Whisper, Pytesseract.
+● "Autonomous mobile platform AgileX"
+Developed a method of tracking a moving object with UWB beacons for a
+general-purpose mobile platform.
+● "Computer vision for drones"
+Developed a computer vision system for a competition on unmanned
+technologies.
+Basic Tech Stack : YOLO, INAV, Ardupilot
+● "Surgeon Helmet Prototype"
+HiRUS
+Developed a prototype of a surgeon helmet for a medical startup.
+RESEARCH SPHERES OF INTEREST
+● Unsupervised learning. Adversarial attacks:
+https://github.com/illusoryTwin/Adversarial-robustness
+● Control : quadruped robots (currently work with unitree a1)
+https://github.com/illusoryTwin/mujoco_unitree_a1
+OTHER PROJECTS
+● My implementation of kinematics, dynamics, path planning:
+https://github.com/illusoryTwin/FoR
+https://github.com/illusoryTwin/robot-bapti
+● My implementation of Transformer:
+https://github.com/illusoryTwin/Vanilla2Vanille
+● Deployed ML project (MLOps course project):
+https://github.com/illusoryTwin/ClairAir

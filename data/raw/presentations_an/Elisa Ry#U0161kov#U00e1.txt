@@ -1,0 +1,172 @@
+Nonlinear dynamics of supervisely trained spiking neural networks in problems of cognitive and computational neuroscience
+[name]
+Institute of Applied Physics of the Russian Academy of Sciences, [location]
+Introduction: cognitive neuroscience, models, dynamics
+Sussillo, D. (2014). Neural circuits as computational
+Krieger, N., & Douglas, P. K. (2018). Cognitive computational dynamical systems. Current opinion in neurobiology, 25,
+Nature neuroscience, 21(9), 1148-1160. 156-163.
+Manthe, V., Sussillo, D., Shenoy, K. V., & Newsome, W. T. (2013). Context-dependent computation by recurrent
+dynamics in prefrontal cortex. Nature, 503(7474), 78-84.
+Introduction: computation through dynamics
+Recurrent neural networks for cognitive
+computational neuroscience:
+● One network for one task
+● Rate-based neurons
+Introduction: computation through dynamics
+Recurrent neural networks for cognitive
+computational neuroscience:
+● One network for one task
+● Rate-based neurons
+In this work:
+● Multiple target tasks
+● Spiking neurons
+(a) Random-dot motion visual stimulus with different ratios of coherently moving
+dots. (b) A monkey observing the screen and the positions of the fixation and
+Cognitive tasks:
+target points. (c) Sequence of events during the trial.
+(d) Context decision making task. First, the context signal turns on (blue cross or
+yellow square), then two target (red and green) points appear. After that, a
+random-dot diagram is shown with controlled predominant color and direction
+(an arrow) of coherently moving dots. After the delay period, the animal is
+Cognitive tasks
+expected to respond by saccading the preferential color or direction depending
+on the context signal.
+(e) Working memory task. First, bringing the probe to the monkey’s hand (PD),
+(target tasks)
+then the monkey puts its free hand on a stationary key (KD), after that two
+vibrotactile stimuli with different frequencies are given separated by the delay.
+Finally, the monkey releases the key (KU) and presses one of two push-buttons to
+indicate its choice of which stimulus had a higher frequency (PB).
+(f) Example of the go/no-go task. First, the fixation point turn on the screen, then
+a cue appears at one of 8 or 4 peripheral locations. After the delay period, the
+monkey is expected to saccade to the indicated target. (g) Example of the
+go/no-go task. First, human subjects are presented with a fixation visual
+stimulus, then one of two possible cues turns on. After the delay period, the go or
+no-go signal appears, indicating whether the subject should or should not press
+the corresponding button in his hand.
+5
+Target tasks used to train the spiking neural network. The top
+Target tasks:
+subplots (a-f) show inputs where the blue lines correpond to the
+mathematical formulation
+fixation input ufix , the yellow and red lines show the input stimuli
+umod1 and umod2 , respectively. The bottom subplots (g-l) show target
+outputs where the blue lines indicates the fixation output yfix , the
+green and orange lines show outputs y1 and y2 , respectively. (a)
+Decision making (DM) task: if the input stimulus u1 is higher on
+average than the threshoold (the dotted line) then the target
+outputs are y1 = 0 and y2 = 1 (g). In the opposite case, (y1, y2) = (1,
+0). (b) Context decision making (CtxD) task: the context signal
+indicates which of the stimuli u1, u2 should be compared with the
+threshold (the dotted line). The outputs (h) are analogous to DM.
+(c) Inputs and (i) corresponding outputs of the go task (Go). (d)
+Inputs and (j) corresponding outputs of the go task with reaction
+time (GoRt). (e) Inputs and (k) corresponding outputs of the
+delayed go task (GoDl). (f) Working memory Romo task (Romo): if
+the second input stimulus is larger than the first one then the
+target output (l) is (y1, y2) = (1, 0), otherwise (y1, y2) = (0, 1). The
+blue vertical lines show the termination of the fixation phase.
+6
+Neural network model
+Input size: Nin = 15
+Network size: N = 256;
+Output size: Nout = 3
+Input vector
+Adaptive exponential neuron (AdEx)
+Output layer
+7
+AdEx neuron: dynamics
+Adaptive exponential neuron
+under the rectangular input
+pulses: dynamics of (a) the
+adaptation variable a(t), (b) the
+injected input current u , (c) the
+in membrane potential V(t), (d)
+the resulting spike sequence
+determined by the Heaviside
+step function H(x).
+Network performance versus the adaptation time τa. The
+performance is computed separately for the testing trials
+consisting of the tasks with delay (Romo, GoDl) and the
+tasks without delay (CtxD, DM, Go, GoRt). Each points is
+obtained after averaging over 1000 trials for each task
+with varying input stimuli and phase durations
+8
+Weights update
+Learning method
+Superspike method:
+Pseudo-derivatives
+Regularization: 9
+Trained network
+Network performance versus the standard deviation of
+the input noise σ during the testing trials for three
+different noise levels used during training: σ = 0, σ =
+train train
+0.5, σ = U(0, 0.5).
+10
+Clusters of specialized neurons and mixed selectivity
+Cluster structure of the neural network after training,
+The network performance of different tasks shown below the table
+where the color codes the normalized average firing rate of
+when particular clusters numerated on the left-hand side are
+each neuron during each task performance. The
+lesioned (top part) or switched on (bottom part). The lowest row indicates the
+dendrograms on the left and on the top show the
+mean-squared error of the original network performance of particular
+hierarchical structure with respect to the tasks and
+target tasks. Each data point is obtained for the network of 256
+neurons trained with the regularized loss function after averaging over
+neurons trained with the regularized loss function. Averaging 200 test trials. 11
+was performed over 100 test trials of each task.
+Spike sequences
+Spike sequences of two neural
+subgroups of the trained network
+when performing the DM task (a, b)
+and the Go task (c, d).
+The first subgroup dynamics is given by
+(a) and (c),
+the second subgroup dynamics is given
+by (b) and (d).
+(e) Full network spiking activity when
+performing the Romo task.
+12
+Sequential multiple tasks performance:
+transient dynamics
+Projections of the neural activity
+trajectories into the subspace of the first
+three principal components for variables v
+j
+(a) and a (b) for the network of 256 neurons
+j
+when performing the task sequence. The
+state of the network at the end of each task
+is the initial condition for the next one.
+13
+Performing tasks through dynamics
+(a) (b)
+Projections of the neural activity trajectories into the
+subspace of the first three principal components for
+variables v (left column) and a (right column) for the
+j j
+network of 256 neurons when performing CtxD (a, b),
+and Romo (c,d) tasks. The black star indicates the
+b eginning of each trial and the colored stars show the
+termination. The black point indicates the beginning of
+response phase. The ”+” symbol separates the delay on
+the graph (d). On the graph (c), points are highlighted with
+a blue stroke that correspond to the second stimulus.
+Colored dots are displayed only for the first and the last
+trials on all graphs. The colored asterisks for the left
+column of the graphs show the 100th iteration of the
+response phase. The colored asterisks for the right
+column of the graphs show the last iteration of the
+response phase
+14
+Conclusions
+● A recurrent spiking neural network is designed and trained to
+perform a set of cognitive tasks.
+● Dynamic mechanisms are found underlying the completion of the
+tasks.
+● Functional clusters of specialized neurons are identified, and their
+contribution to the task performance is found.
+15

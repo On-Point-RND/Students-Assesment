@@ -1,0 +1,110 @@
+Unveiling the Potential of AI
+for Nanomaterial Morphology
+Prediction
+[name]
+Relevance
+Relevance of nanomaterials.
+2
+Relevance
+Classical approach.
+Data-driven approach.
+3
+Purpose
+The main purpose of this work
+is to investigate the posssibility
+of using artificial intelligence
+to predict the morphology of
+nanomaterials.
+Main scheme of the project.
+4
+Objectives
+Prepare the dataset by creating texts
+from parameters and using statistical
+testing for filtering unimporta important
+parameters.
+Use LLMs such as Mistral or
+OpenaI’s GPT in order to
+predict the shape of
+nanomaterials from its
+synthesis text by applying
+few-shot method.
+Develop ML models to predict the
+shape and size of a nanomaterial from
+its synthesis conditions.
+5
+Current research
+So far, researchers have developed onl only a
+few narrowlly focused systems for
+nanomaterial size prediction [1].
+LLMs have alr already found widespread use
+in many areas of science and life and
+even in materials science [2].
+[1] [surname], [name], et al. "Nanoparticle synthesis assisted by machine learning." Nature Reviews Materials 6.8 (2021): 701-716.
+[2] [surname], [name], et al. "14 examples of how LLMs can transform materials science and chemistry: a reflection on a
+large languaage model hackathon." Digital Discovery 2.5 (2023): 1233-1250
+6
+Results. Creating data for the dataset
+Our dataset was based on
+215 pr eviously conducted
+co-precipiitation experiments
+on obtaining calcium
+carbonate nanoparticles.
+Dataset creation scheme.
+7
+Results. ML predictions
+By conducting several statistical tests
+Accuracy F1 score
+#
+Shape & size
+samples
+some parameters were excluded from
+XGB RF XGB RF
+the dataset as unimporta important. Cube small 25 0.85 ± 0.01 0.82 ± 0.04 0.58 ± 0.07 0.57 ± 0.08
+Cube medium 49 0.64 ± 0.05 0.64 ± 0.03 0.48 ± 0.05 0.52 ± 0.06
+Cube large 66 0.67 ± 0.04 0.70 ± 0.03 0.61 ± 0.02 0.64 ± 0.03
+Shape # samples Accuracy F1 score Stick small 30 0.83 ± 0.03 0.82 ± 0.03 0.52 ± 0.04 0.54 ± 0.04
+Cube 140 0.76 ± 0.02 0.73 ± 0.03 Stick medium 28 0.83 ± 0.06 0.81 ± 0.07 0.61 ± 0.07 0.59 ± 0.09
+Stick 84 0.78 ± 0.01 0.77 ± 0.01 Stick large 26 0.79 ± 0.04 0.79 ± 0.04 0.64 ± 0.05 0.63 ± 0.05
+Sphere small 11 0.70 ± 0.36 0.68 ± 0.34 0.37 ± 0.19 0.37 ± 0.18
+Sphere 40 0.82 ± 0.06 0.67 ± 0.08
+Sphere
+Flat 16 0.82 ± 0.11 0.52 ± 0.09 19 0.86 ± 0.04 0.84 ± 0.07 0.55 ± 0.06 0.55 ± 0.10
+medium
+Amorphous 34 0.80 ± 0.02 0.62 ± 0.04
+Sphere large 10 0.72 ± 0.27 0.61 ± 0.28 0.44 ± 0.16 0.40 ± 0.18
+Average 0.80 ± 0.04 0.66 ± 0.05 Average 0.77 ± 0.10 0.75 ± 0.13 0.69 ± 0.11
+Top performa nce achieved by the LLLMs in prediction of nanomaterial shapes
+with 8 training examples.
+11
+Conclusion
+This work was accepte d for publication as a part of International Confere nce on
+Machine Learning (ICML 2024). Preprint is currently a vaileble on arXiv.
+12
+Conclusion
+Main results:
+• Machine learning models were created and showed the importance of the same
+parameters as in statistical tests. Average accuracy was 0.8.
+• 6 LLMs were tested with few-shot metho d, and it was shown that this kinds of
+tasks can be done with LLMs on par with classical ML models.
+• The best LLM was GPT-4, althou gh the most interesting result is high scores of
+Mistral-small model, as it is cheaper and faster than GPT-4.
+13
+References
+• [surname], [name], et al. "Hierarchical text-conditional image generation with clip latents."
+arXiv preprint arXiv:2204.06125 (2022).
+• [surname], [name], et al. "Nanoparticle synthesis assisted by machine learning." Nature
+Reviews Materials 6.8 (2021): 701-716.
+• [surname], [name], et al. "Deep-Learning-Assisted Focused Ion Beam Nanofabrication."
+Nano letters 22.7 (2022): 2734-2739.
+• [surname], [name], et al. "Bert: Pre-training of deep bidirectional transformers for lan guaage
+understanding." arXiv preprint arXiv:1810.04805 (2018).
+• [surname], [name], et al. "14 examples of how LLMs can transform materials science
+and chemistry: a reflection on a large lan guaage model hackathon." Digital Discovery 2.5
+(2023): 1233-1250
+• [surname], [name], et al. "Text-mined dataset of gold nanopar ticle synthesis proc edures,
+morphologies, and size entities." Scientific data 9.1 (2022): 234.
+• [surname], [name], et al. "Extracting structured seed-mediated gold nanorod growt h
+procedures from scientific text with LLMs." Digital Discovery 2.6 (2023): 1768-1782.
+• [surname], [name], et al. "Combining variational autoe ncoders and physical bias for improved microscopy data analysis∗." Machine
+Learning: Science and Technology 4.4 (2023): 045004.
+14

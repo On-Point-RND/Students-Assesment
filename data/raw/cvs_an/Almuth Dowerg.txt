@@ -1,0 +1,31 @@
+[name] [surname]
+22 yo, [location]
+Education
+2020 - 2024 Bachelor’s degree
+Computer Science and Engineering (with honors), [company]
+Thesis “Automatic search of neural network topology in reinforcement learning tasks”
+2024 - Present Master’s degree
+Neurotechnoology and programming engineering, [company]
+Research “Imagined pitch classification based on EEG and fMRI”
+Scientific research and publications
+Research
+- Imagined pitch classification based on EEG and fMRI
+Publications and conferences
+- XIV Congress of Young Scientists, theme “Method of data collection for creating a classifier of imaginary sounds based on EEG and fMRI”
+Professional experience
+2024 - Present [company]
+Data collection and processing specialist
+- Analysis and processing of data for further training of mathematical models
+- Maintaining up-to-date development, testing servers
+- Development of system modules in Python
+- Development, testing of machine learning models
+- Preparation of data for training, testing of developed software
+Interests Languages
+BCI Russian (native)
+Cognitive Science English (B2-C1)
+Science fiction Mandarin (Standard Chinese) (A1-A2)
+Game of Go French (duolingo A1 :)
+Indie GameDev
+
++2 *** *** ***
+[email]

@@ -1,0 +1,570 @@
+{
+  "Problem Domain Specificity": {
+    "question": "Does the presentation define a problem specific to a particular engineering or industrial domain (e.g., mechanical CAD, robotics) rather than a general machine learning task?",
+    "count": 5
+  },
+  "Core Technical Approach": {
+    "question": "Does the presentation's methodology center on generating or interpreting structured, symbolic representations (like code or instructions) versus modeling raw sensory data (like pixels or video frames)?",
+    "count": 1
+  },
+  "Dataset Construction Focus": {
+    "question": "Does the presentation explicitly detail the creation or curation of a novel synthetic dataset as a central component of the work?",
+    "count": 1
+  },
+  "Technical Content Depth": {
+    "question": "Does the presentation demonstrate a clear, structured, and detailed explanation of a technical project, including its methodology, implementation, and results?",
+    "count": 171
+  },
+  "Visual and Structural Support": {
+    "question": "How effectively does the presentation use visual aids (e.g., figures, tables, diagrams) and a logical structure (e.g., sections like Introduction, Methods, Results) to support its content?",
+    "count": 242
+  },
+  "Bibliography Detail": {
+    "question": "Does the presentation include a detailed, formatted bibliography with full citations for referenced works?",
+    "count": 10
+  },
+  "Visual/Textual Balance": {
+    "question": "Does the presentation rely primarily on textual content versus visual or graphical elements?",
+    "count": 7
+  },
+  "Solution Implementation Detail": {
+    "question": "Does the presentation provide specific, quantifiable results from the implementation of the proposed solution?",
+    "count": 42
+  },
+  "Clarity of Problem Statement": {
+    "question": "How clearly does the candidate define the specific problem being addressed, including the scope and key challenges?",
+    "count": 81
+  },
+  "Results and Evaluation Clarity": {
+    "question": "How clearly does the candidate present experimental results, evaluation metrics, and their interpretation?",
+    "count": 43
+  },
+  "Presentation Completeness": {
+    "question": "Does the presentation include a clear title, introduction, body, and conclusion?",
+    "count": 58
+  },
+  "Quantitative Data Presentation": {
+    "question": "Does the presentation effectively present quantitative results (e.g., metrics, comparisons) in a clear, tabular or summarized format?",
+    "count": 30
+  },
+  "Research Objective Clarity": {
+    "question": "Does the presentation clearly state a specific, measurable research objective and the tasks required to achieve it?",
+    "count": 17
+  },
+  "Methodological Detail": {
+    "question": "Does the presentation provide specific, technical details about the data collection methods or experimental setup?",
+    "count": 84
+  },
+  "Data Characterization": {
+    "question": "Does the presentation explicitly describe the dataset's composition, including its size, class distribution, and inherent challenges?",
+    "count": 1
+  },
+  "Data Presentation Specificity": {
+    "question": "How well does the candidate present specific, measurable data points (e.g., metrics, dataset details, sensor IDs) to support their methodology and results?",
+    "count": 12
+  },
+  "Problem-Solution Specificity": {
+    "question": "How well does the presentation define a specific problem and propose a concrete solution with a clear operational mechanism?",
+    "count": 13
+  },
+  "Audience and Application Focus": {
+    "question": "Does the presentation explicitly identify the target users and the practical application context of the research?",
+    "count": 4
+  },
+  "Future Work Specificity": {
+    "question": "How specific and actionable is the candidate's plan for future research or development, including defined steps, datasets, and outcomes?",
+    "count": 2
+  },
+  "Original Contribution Clarity": {
+    "question": "Can the candidate articulate the unique contribution of their own work versus existing literature?",
+    "count": 2
+  },
+  "Presentation Structure Type": {
+    "question": "Does the presentation structure follow a review format (summarizing multiple works) or a research report format (detailing a single study)?",
+    "count": 14
+  },
+  "Research Gap Identification": {
+    "question": "Does the candidate clearly identify a specific research gap and propose a novel solution to address it?",
+    "count": 8
+  },
+  "Literature Integration": {
+    "question": "Does the candidate effectively situate their work within existing literature, comparing and contrasting relevant methods?",
+    "count": 3
+  },
+  "Topic Focus": {
+    "question": "Does the presentation maintain a consistent, singular focus on its core subject matter?",
+    "count": 4
+  },
+  "Results and Self-Critique": {
+    "question": "Does the candidate present concrete results and a balanced self-assessment, including limitations and future improvements?",
+    "count": 3
+  },
+  "Professional Polish": {
+    "question": "How polished and professionally formatted is the presentation, including grammar, spelling, and layout?",
+    "count": 9
+  },
+  "Original Results Presentation": {
+    "question": "Does the presentation include original experimental results, such as loss curves, output samples, or performance metrics, from the candidate's own work?",
+    "count": 6
+  },
+  "Technical Implementation Detail": {
+    "question": "Does the presentation describe specific, actionable components or modules of a proposed system?",
+    "count": 6
+  },
+  "Mathematical Notation Usage": {
+    "question": "Does the candidate use formal mathematical notation and definitions to present core concepts?",
+    "count": 8
+  },
+  "Presentation of Theoretical Results": {
+    "question": "Does the candidate present and explain known theoretical bounds or probabilistic guarantees (e.g., inequalities, convergence proofs) as part of the methodology?",
+    "count": 2
+  },
+  "Project Stage": {
+    "question": "Does the candidate present a project as a proposed idea/plan or as completed research with published results?",
+    "count": 8
+  },
+  "Structural Abstraction": {
+    "question": "Can the candidate articulate the core structural or topological assumptions of their proposed model?",
+    "count": 1
+  },
+  "Applied Contextualization": {
+    "question": "How effectively does the candidate connect their methods to a specific, real-world application or dataset?",
+    "count": 4
+  },
+  "Research Focus Specificity": {
+    "question": "How well does the candidate define and maintain a specific, coherent research focus throughout the presentation, as opposed to presenting multiple disparate topics?",
+    "count": 2
+  },
+  "Content Personalization and Narrative": {
+    "question": "To what extent does the candidate personalize the content by integrating their own journey, motivations, and specific past projects into the presentation narrative?",
+    "count": 2
+  },
+  "Algorithmic Detail vs. Application Focus": {
+    "question": "Does the presentation focus on explaining a novel algorithm's mechanics and theoretical bounds, or on applying a model to a specific domain task?",
+    "count": 4
+  },
+  "Content Presence": {
+    "question": "Does the presentation contain any substantive content beyond a title?",
+    "count": 3
+  },
+  "Content Density": {
+    "question": "How well does the presentation convey detailed, substantive information versus relying on visual or placeholder elements?",
+    "count": 5
+  },
+  "Supporting Evidence": {
+    "question": "Does the presentation include specific data, results, or references to substantiate its claims?",
+    "count": 12
+  },
+  "Project Scope and Application": {
+    "question": "Does the candidate present a project focused on a novel, complex research problem or a more straightforward, applied integration of existing tools?",
+    "count": 1
+  },
+  "Content Completeness": {
+    "question": "Does the presentation contain substantive slides with detailed content, figures, and explanations beyond a bibliography?",
+    "count": 9
+  },
+  "Visual Complexity": {
+    "question": "Does the presentation use complex, data-rich visuals like graphs, mathematical notation, and technical diagrams?",
+    "count": 3
+  },
+  "Evidence of Process": {
+    "question": "Does the candidate explicitly describe the challenges faced and the specific adjustments made to their methodology?",
+    "count": 1
+  },
+  "Clarity of Contribution": {
+    "question": "How clearly does the candidate articulate their specific role and contributions within the project, distinguishing them from team or background work?",
+    "count": 2
+  },
+  "Problem Formulation Specificity": {
+    "question": "Does the candidate define a clear, quantitative optimization problem (e.g., with a specific cost/error function) for their research topic?",
+    "count": 4
+  },
+  "Background Detail Scope": {
+    "question": "Does the candidate provide detailed background on standard evaluation metrics and datasets specific to their field?",
+    "count": 2
+  },
+  "Solution Maturity": {
+    "question": "Does the presentation describe a fully implemented and tested solution versus a proposed dataset or benchmark?",
+    "count": 1
+  },
+  "Primary Output Type": {
+    "question": "Is the main contribution a functional tool/application or a diagnostic dataset for evaluation?",
+    "count": 1
+  },
+  "Methodological Scope": {
+    "question": "Does the work focus on applying an existing AI model to a specific domain problem or on creating a new resource for general model evaluation?",
+    "count": 1
+  },
+  "Content Type": {
+    "question": "Does the presentation primarily focus on a specific research project or on the presenter's personal background and aspirations?",
+    "count": 13
+  },
+  "Critical Analysis": {
+    "question": "How well does the candidate evaluate limitations, research gaps, and future directions of the presented work?",
+    "count": 2
+  },
+  "Presentation Language Consistency": {
+    "question": "Does the candidate maintain a single, consistent language throughout the entire presentation?",
+    "count": 3
+  },
+  "Content Focus": {
+    "question": "Does the presentation focus on presenting original research findings and theoretical analysis versus describing a personal project's methodology and background?",
+    "count": 1
+  },
+  "Content Abstraction Level": {
+    "question": "Does the candidate present a high-level overview of a framework/concept, or a detailed case study of a specific applied project?",
+    "count": 1
+  },
+  "Research Specificity": {
+    "question": "How well does the candidate articulate a specific research problem, methodology, and objectives?",
+    "count": 4
+  },
+  "Methodological Narrative": {
+    "question": "How well does the candidate structure the presentation to tell a coherent story about the method's development and components?",
+    "count": 1
+  },
+  "Conceptual Abstraction Level": {
+    "question": "Can the candidate articulate and connect high-level theoretical concepts across different domains?",
+    "count": 2
+  },
+  "Audience and Purpose": {
+    "question": "Is the presentation tailored as a formal research proposal versus a personal motivational statement?",
+    "count": 1
+  },
+  "Presentation Structure Clarity": {
+    "question": "How clearly does the presentation structure follow a logical problem-solution-evaluation framework?",
+    "count": 30
+  },
+  "Solution Specificity": {
+    "question": "Does the presentation describe a concrete, novel method or algorithm as a proposed solution?",
+    "count": 4
+  },
+  "Research Focus": {
+    "question": "Is the presentation structured around explaining and analyzing novel research findings from academic papers?",
+    "count": 1
+  },
+  "Visual Hierarchy Clarity": {
+    "question": "Can the candidate use layout and typography to clearly distinguish between titles, subtitles, and body content?",
+    "count": 1
+  },
+  "Information Redundancy Control": {
+    "question": "How effectively does the candidate minimize repetition of identical or near-identical content across slides?",
+    "count": 2
+  },
+  "Key Finding Clarity": {
+    "question": "Can the candidate clearly articulate the most important findings, such as optimal conditions or key predictors?",
+    "count": 1
+  },
+  "Conclusion Conciseness": {
+    "question": "How effectively does the candidate summarize the core contribution in a concise, non-technical statement?",
+    "count": 1
+  },
+  "Content Scope and Synthesis": {
+    "question": "Does the candidate synthesize and compare multiple distinct models or papers within a unified analytical framework, rather than presenting separate, disconnected summaries?",
+    "count": 1
+  },
+  "Research Scope Ambition": {
+    "question": "Does the candidate present work that addresses a fundamental or theoretical advancement in machine learning, rather than a specific applied task?",
+    "count": 1
+  },
+  "Conclusion Clarity": {
+    "question": "Does the candidate provide a clear, explicit conclusion or summary of the research findings?",
+    "count": 3
+  },
+  "Objective vs. Subjective Focus": {
+    "question": "Does the candidate primarily present objective data and analysis, or personal motivations and goals?",
+    "count": 1
+  },
+  "Theoretical vs Applied Focus": {
+    "question": "Does the presentation primarily focus on theoretical analysis and frameworks, or on practical implementation and tool development?",
+    "count": 2
+  },
+  "Mathematical Rigor": {
+    "question": "How well does the candidate present and explain complex mathematical formulations and theorems?",
+    "count": 3
+  },
+  "Research Contribution Type": {
+    "question": "Does the candidate present a novel methodological contribution or a systematic review/application of existing methods?",
+    "count": 1
+  },
+  "Evaluation Strategy Design": {
+    "question": "Does the candidate design and justify a custom evaluation dataset or protocol tailored to their specific problem?",
+    "count": 1
+  },
+  "Professional Effort": {
+    "question": "Does the candidate demonstrate preparation and effort in delivering a complete presentation?",
+    "count": 1
+  },
+  "Primary Content Focus": {
+    "question": "Is the presentation's primary focus on explaining a specific technical method/experiment or on presenting an evaluation framework and its findings?",
+    "count": 1
+  },
+  "Research Scope Definition": {
+    "question": "Does the candidate clearly define the scope of their reproduction study, including datasets, models, and baselines used?",
+    "count": 1
+  },
+  "Conciseness of References": {
+    "question": "Does the candidate present references in a concise, relevant manner, avoiding excessive or redundant listings?",
+    "count": 1
+  },
+  "Methodological Pipeline Clarity": {
+    "question": "How clearly does the candidate outline the step-by-step experimental or computational pipeline?",
+    "count": 2
+  },
+  "Audience Adaptation": {
+    "question": "How effectively does the candidate tailor the presentation's technical depth and terminology to the intended audience's background?",
+    "count": 6
+  },
+  "Data & Methodology Focus": {
+    "question": "Does the presentation primarily discuss theoretical models, architectures, and research challenges, or does it focus on practical implementation steps, tools, and system integration?",
+    "count": 1
+  },
+  "Output & Application Specificity": {
+    "question": "Does the presentation conclude with research gaps and future academic opportunities, or does it conclude with a functional product demo, export format, and direct application integration?",
+    "count": 1
+  },
+  "Conclusion & Synthesis Clarity": {
+    "question": "How clearly does the candidate synthesize the presented information into a definitive conclusion or answer?",
+    "count": 1
+  },
+  "Argument Development": {
+    "question": "Does the presentation develop a coherent argument or narrative, moving from problem statement through evidence to implications, rather than just presenting isolated facts or data?",
+    "count": 2
+  },
+  "Specificity of Technical Contribution": {
+    "question": "Does the presentation explicitly state the novel technical method or framework being proposed and its direct application?",
+    "count": 1
+  },
+  "Theoretical Framework Integration": {
+    "question": "How well does the candidate integrate and explain theoretical concepts or frameworks (e.g., Information Bottleneck Theory) to support their work?",
+    "count": 1
+  },
+  "Audience Orientation": {
+    "question": "Is the presentation structured as a formal, self-contained document or as a set of personal notes/speaking points for a reviewer?",
+    "count": 1
+  },
+  "Research Context Framing": {
+    "question": "How effectively does the candidate frame their specific work within broader trends, challenges, and interdisciplinary relevance of the field?",
+    "count": 3
+  },
+  "Data Handling Rigor": {
+    "question": "Can the candidate describe their data preparation, validation, and testing methodology with clear, reproducible steps?",
+    "count": 1
+  },
+  "Comparative Analysis Depth": {
+    "question": "How effectively does the candidate compare their proposed method against established benchmarks or alternative approaches?",
+    "count": 2
+  },
+  "Presentation of Original Data": {
+    "question": "Does the candidate present and explain original, collected data (e.g., from experiments or crowdsourcing) to support their work?",
+    "count": 1
+  },
+  "Evaluation Metrics Justification": {
+    "question": "Does the candidate explicitly justify the choice of evaluation metrics for their specific task?",
+    "count": 1
+  },
+  "Practical Application Focus": {
+    "question": "Does the candidate explicitly state the practical impact, advantages, or implementation plan of their work?",
+    "count": 1
+  },
+  "Slide Content Type": {
+    "question": "Does the candidate use slides primarily for bibliographic references or for presenting structured scientific content?",
+    "count": 1
+  },
+  "Content Coherence": {
+    "question": "Does the presentation deliver a coherent, substantive message with a clear topic and supporting details?",
+    "count": 1
+  },
+  "Methodology Justification": {
+    "question": "How well does the candidate justify the choice of methods by linking them to the problem's requirements and constraints?",
+    "count": 1
+  },
+  "Audience Engagement & Context": {
+    "question": "How well does the candidate tailor the presentation's content and narrative to engage a specific audience, providing necessary background and explaining the broader impact or relevance of the work?",
+    "count": 1
+  },
+  "Focus on Application vs. Reproduction": {
+    "question": "Does the presentation primarily focus on surveying/explaining a novel application or method, or does it focus on the process of reproducing and implementing an existing study?",
+    "count": 1
+  },
+  "Project Scope and Impact": {
+    "question": "How well does the candidate articulate the practical application and potential impact of their work?",
+    "count": 1
+  },
+  "Evaluation Rigor": {
+    "question": "How thoroughly does the candidate define and justify their evaluation metrics and dataset for assessing results?",
+    "count": 3
+  },
+  "Mathematical Formulation Depth": {
+    "question": "Does the presentation define and explain core mathematical concepts or equations central to the problem?",
+    "count": 2
+  },
+  "Clarity of Core Message": {
+    "question": "Does the presentation clearly state the core problem, solution, and key results in a concise, structured summary?",
+    "count": 1
+  },
+  "Audience Accessibility": {
+    "question": "How well does the presentation explain technical concepts and results in a way accessible to a non-specialist audience?",
+    "count": 2
+  },
+  "Visual & Textual Detail": {
+    "question": "Does the candidate use concise, bullet-point summaries, or does the candidate include dense textual descriptions, mathematical formulations, and detailed figure captions?",
+    "count": 1
+  },
+  "Solution Novelty": {
+    "question": "Does the candidate present a novel, physics-informed computational method or a direct application of existing machine learning models?",
+    "count": 1
+  },
+  "Presentation of Original Proof": {
+    "question": "Does the candidate explicitly present and contextualize their own original theoretical result (e.g., a theorem or hardness proof) within the presentation?",
+    "count": 1
+  },
+  "Structural Completeness": {
+    "question": "Can the candidate present a fully articulated narrative with complete sentences and coherent paragraphs, as opposed to relying primarily on bullet points or fragmented slide titles?",
+    "count": 1
+  },
+  "Evaluation Framework": {
+    "question": "How well does the candidate define and justify the metrics, datasets, or benchmarks used to assess the proposed solution?",
+    "count": 1
+  },
+  "Research Stage Clarity": {
+    "question": "Does the presentation clearly distinguish between completed work and planned future work?",
+    "count": 4
+  },
+  "Project Accessibility Information": {
+    "question": "Does the candidate include direct links or clear instructions for accessing the project materials or code?",
+    "count": 1
+  },
+  "Structure: Modular vs. Narrative": {
+    "question": "Is the presentation structured as a series of distinct, labeled technical modules or as a cohesive narrative describing a project's problem and solution?",
+    "count": 1
+  },
+  "Conclusion Specificity": {
+    "question": "Does the presentation conclude with concrete, actionable takeaways or next steps directly derived from the presented results?",
+    "count": 1
+  },
+  "Project Context and Motivation": {
+    "question": "How well does the candidate articulate the background, motivation, and real-world relevance of the project?",
+    "count": 1
+  },
+  "Visual Design Consistency": {
+    "question": "How consistently does the candidate use visual elements (icons, layout, color coding) to structure information across slides?",
+    "count": 2
+  },
+  "Conceptual Analogy Use": {
+    "question": "How effectively does the candidate use analogies or mappings to connect complex concepts to more familiar domains?",
+    "count": 1
+  },
+  "Stated Purpose": {
+    "question": "Is the primary purpose of the presentation to present research findings/project work or to introduce a candidate and their motivation?",
+    "count": 1
+  },
+  "Project Scope and Maturity": {
+    "question": "Does the candidate present a project that has been deployed or tested in a practical environment?",
+    "count": 1
+  },
+  "Specificity of Research Contribution": {
+    "question": "Does the presentation precisely define and detail a specific, measurable research contribution or finding?",
+    "count": 1
+  },
+  "Presentation Structure Focus": {
+    "question": "How well does the presentation structure align with its stated objective, such as a progress review versus a theoretical exposition?",
+    "count": 1
+  },
+  "Visual Evidence Type": {
+    "question": "Does the candidate use visual aids primarily for theoretical convergence plots or for qualitative results and comparisons (e.g., rendered images, meshes)?",
+    "count": 1
+  },
+  "Content Originality": {
+    "question": "Does the candidate present original research work, including a defined problem, methodology, and results, rather than a general summary of interests and background?",
+    "count": 2
+  },
+  "Specific Project Focus": {
+    "question": "Can the candidate focus on a single, well-defined research project with a clear problem statement and proposed innovation?",
+    "count": 1
+  },
+  "Problem Context Explanation": {
+    "question": "Can the candidate clearly articulate the problem's novelty, relevance, and real-world application?",
+    "count": 2
+  },
+  "Narrative and Explanation Depth": {
+    "question": "How well does the presentation explain the core concepts, limitations, and broader implications of the work?",
+    "count": 1
+  },
+  "Content Precision": {
+    "question": "How precisely and correctly does the presentation use technical terms, citations, and data without typographical errors or inconsistencies?",
+    "count": 1
+  },
+  "Audience Engagement Strategy": {
+    "question": "How effectively does the candidate use rhetorical questions, interactive elements, or narrative to engage the audience?",
+    "count": 1
+  },
+  "Methodological Focus": {
+    "question": "Does the presentation primarily focus on explaining and validating a novel methodological approach, rather than describing an applied system?",
+    "count": 1
+  },
+  "Data and Citation Specificity": {
+    "question": "Does the presentation provide specific, quantitative performance metrics and model parameters, and include a formal bibliography with citations?",
+    "count": 1
+  },
+  "Results Completeness": {
+    "question": "Does the candidate present a complete set of results with specific metrics and findings?",
+    "count": 1
+  },
+  "Slide Content Structure": {
+    "question": "Does the candidate organize slide content with clear headings and bullet points, or does the slide primarily consist of a bibliography list?",
+    "count": 1
+  },
+  "Information Density per Slide": {
+    "question": "Does the candidate limit the amount of text on each slide to key points, or does the candidate overload slides with dense blocks of citation information?",
+    "count": 1
+  },
+  "Research Scope & Rigor": {
+    "question": "Does the presentation describe a formal research study with a hypothesis, defined methodology, and dataset, or does it describe a personal project or prototype development?",
+    "count": 1
+  },
+  "Publication & Validation Context": {
+    "question": "Does the presentation frame the work within an academic or industry research context (e.g., under review, citing specific literature) or as a personal engineering challenge with practical deployment goals?",
+    "count": 1
+  },
+  "Project Scope and Practicality": {
+    "question": "Does the presentation focus on a concrete, applied project with physical prototypes and real-world implementation stages?",
+    "count": 1
+  },
+  "Solution Practicality Emphasis": {
+    "question": "Does the candidate present a practical, demonstrable system or tool as a core part of their solution?",
+    "count": 1
+  },
+  "Clarity of Core Mechanism": {
+    "question": "How clearly does the candidate articulate the core functional mechanism or workflow of their proposed solution?",
+    "count": 1
+  },
+  "Technical Methodology Focus": {
+    "question": "Does the presentation focus on evaluating and comparing technical methods or architectures?",
+    "count": 1
+  },
+  "Empirical vs. Theoretical Focus": {
+    "question": "Does the presentation primarily present empirical results and benchmarks or focus on theoretical derivations and mathematical models?",
+    "count": 1
+  },
+  "Professional Affiliation Clarity": {
+    "question": "Does the candidate clearly state their professional or institutional affiliation?",
+    "count": 1
+  },
+  "Content Depth per Slide": {
+    "question": "How detailed and explanatory is the content presented on each individual slide?",
+    "count": 1
+  },
+  "Theoretical Foundation": {
+    "question": "Does the candidate explicitly ground their work in established theory or literature?",
+    "count": 1
+  },
+  "Content Relevance": {
+    "question": "Does the candidate present information directly relevant to the application purpose?",
+    "count": 1
+  },
+  "Results Presentation Structure": {
+    "question": "How effectively does the candidate structure the presentation of results to support a clear conclusion?",
+    "count": 1
+  }
+}

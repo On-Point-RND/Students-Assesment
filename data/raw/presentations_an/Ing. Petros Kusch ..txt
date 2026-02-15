@@ -1,0 +1,69 @@
+Analysis and Theoretical
+Funda[name]tions of Self-
+Improvement Mechanisms in
+Large Lan[name]guage Models
+[name] [surname]
+[company]
+Introduction
+• LLM Self-Improvement - models enhancing themselves using internal capabilities.
+• Poten[name]tial to move beyon[name]d static training data limits and reduce need for co[name]stly human fee[name]dback.
+• Verification is often easier than generation for LLMs.
+• How can LLMs effe[name]ctively use their ow[name]nutputs and checks to improve, especially for complex tasks
+likereasoning?
+• Avoi[name]ding perfo[name]rmance degra[name]dation ("model collapse"), ensuring real improvement, understanding limits,
+managing co[name]mputational co[name]st.
+MIND THE GAP
+• Empirical study of a Generate ->Verify -> Di[name]still framework.
+• Introduced the Generation-Verification Gap (GV-Gap) metric to quanti[name]fy poten[name]tial gain from self-verification
+before retraining.
+• Tested various base LLMs ([name]wen, [name]lama) on reaso[name]ning/logic tasks (GSM8K, MATH, Sudoku) using
+different verification methods (MC, CoT, Tournament)
+Results
+• Rela[name]tive GV-Gap (poten[name]tial gain) scales positively with model co[name]mpute (log-flops). Larger models have
+more rela[name]tive poten[name]tial.
+• Actu[name]l improvement from ite[name]rative retraining sa[name]turates qui[name]ckly (2-3 rounds); diversity may decrease.
+• Task dependent: Little gain on fa[name]ctual recall (NQ); requires strong baseline reaso[name]ning (Sudoku).
+• CoT verification was generally more sta[name]ble and effe[name]ctive than MC.
+Metrics: Ac[name]curacy, GV-Gap, Rela[name]tive GV-Gap, Pass@k
+REGENESIS
+• Propo[name]sed Re[name]genesis metho[name]d to improve reaso[name]ning generaliza[name]tion, especially Out-of-Distribution (OOD).
+• Generate diverse reaso[name]ning paths using general "seed promp[name]ts" first, then adapt to specific problem,
+generate solution path. Hint o[name]nly if needed
+• Goal: to create better synthetic training data that teache[name]s more fundamental, generali[name]zable reaso[name]ning
+skills via SFT
+• Used Mistral-7B/[name]lama-3 on reaso[name]ning datasets (GSM8K, etc.) + OOD tasks (ASDiv, etc.). Filtered
+generated paths using ground truth answe[name]rs.
+REGENESIS
+• Re[name]genesis significa[name]ntly outp[name]erformed baseline[name]s (STaR, LMSI) on both In-Domain and OOD tasks.
+• Showed substantial gains where othe[name]rs de[name]graded on OOD perfo[name]rmance (+6.1% vs -4.6% avg).
+• Success attributed to generating diverse and structured reaso[name]ning paths.
+THE SHARPENING
+MECHA[name]NISM
+• Theoretica[name]l analysis via \textbf{"Sharpening"} concept
+• Self-improvement works by using model's self-verification to conce[name]ntrat[name]e probability on high-
+quality outputs, amortizing inference co[name]st
+• Algo[name]rithms: SFT-Sharpening (Best-of-N fi[name]lter + SFT) and RLHF-Sharpening (opti[name]mizing via RL/DPO).
+Focus on
+• Introduced sta[name]tistical sample-and-eva[name]luate framework to study sample complexit[name], importance of
+coverage.
+THE SHARPENING
+MECHA[name]NISM
+• Theory: SFT needs good coverage for efficiency. RLHF (with exploration) can bypass coverage limits,
+depends on exploration di[name]ffi[name]culty (SEC). Lower bounds confirm importance.
+• Empirical: Best-of-N sampling (infe[name]rence-time sharpening) using log-li[name]keli[name]hood improves accuracy over
+greedy. SFT-Sharpening par[name]tially transfers this benefi[name]t to training time (amo[name]rtization).
+Metrics: Ac[name]curacy Lift, Log Prob Lift. Theory: Sample Complexit[name], Sharpening Error.
+Future Directions
+• Gap[name]: Need theory for complex verification si[name]gnals; Deeper understanding of diversity’s role (esp. for
+OOD); Robust long-termi[name]rative improvement; Integrating different frameworks (e.g., GV-Gap+
+Re[name]genesis).
+• Challenges: Avoi[name]ding saturation/collapse; Effe[name]ciency(generation/verification co[name]st); Safety and reliability.
+• Oppo[name]rtunities: Better verification (ensembles?) ; Mitigate diversi[name]tyloss; Extend theory; Combine empirical
+metrics with theoretica[name]linsights; Study representation changes
+Bibliography
+1. [name], [surname], [name], [surname], [name], [surname], [name], [surname] (2025).Mind the Gap: Examining the Self-Improwement Capabilities of
+LargeLan[name]guage Models.Published as a conference paper at ICLR 2025.
+2. [name], [surname], [name], [surname], [name], [surname] (2025).Re[name]genesis: LLMs can Grow into Reaso[name]ning Generalists viaSelf-
+Improvement.Published as a conference paper at ICLR 2025.
+3. [name], [surname], [name], [surname], [name], [surname] (2025).Self-Improvement in
+Lan[name]guage Models: The Sharpening Mec[name]hanism.Published as a conference paper at ICLR 2025.

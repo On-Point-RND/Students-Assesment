@@ -1,0 +1,65 @@
+[name] Shiriaeva
+Middle ML Engineer, [compaany]
+
+Decision Transformer:
+Reinforcement Learning as Sequence Modeling
+
+Introduction
+
+Decision Transformer – a new take on Reinforcement Learning (RL)
+
+Topic
+Why it matters
+Transforms RL into a sequence modeling problem, using powerful Transformer networks
+Traditional RL
+Often struggles with value functions and policy gradients
+Goal
+
+Understand how Decision Transformers work and why they're useful
+
+Problem statement
+
+Reinforcement Learning is hard, especially with limited, imperfect data
+Problem
+Challenges
+Errors build up, values get overestimated, and it's tough to figure out which actions lead to long-term rewards
+Focus
+Decision Transformers tackle this by learning the relationships between states, actions, and rewards
+
+Methods
+
+Uses a Transformer architecture (like GPT, but with modifications)
+Method
+Why Transformers?
+Great at understanding long sequences and assigning credit through self-attention.
+How it works
+The Transformer looks at desired rewards, past states, and actions to decide what to do next
+
+PPO vs. Decision Transformer
+
+This experiment compares two reinforcement learning algorithms – PPO and DT
+Methods
+Environment
+HalfCheetah-v4. A simulated 2D cheetah robot that must learn to run forward. This environment demands long-term planning and efficient exploration
+
+Results
+
+PPO initially learns faster and achieves good performance with reasonable hyperparameter tuning (e.g., average reward ~4200 after X episodes).
+DT, with sufficient training data and careful hyperparameter optimization, can surpass PPO’s performance (e.g., average reward ~5700 after Y episodes, with specific tuning of sequence length, embedding dimensions, and learning rate).
+
+What’s Missing?
+
+Decision Transformers can be computationally expensive and sensitive to settings
+Limitations
+Unresolved Issues
+Offline RL still has challenges that Decision Transformers don't completely solve
+Why it's important
+Addressing these limitations can make RL more practical in real-world situations
+Future
+Combining Decision Transformers with other techniques and applying them to new areas
+
+Chen, L., Lu, K., Rajeswaaran, A., Lee, K., Grover, A., Laskin, M., Abbeel, P., Srinivas, A., & Mordatch, I. (2021). Decision Transformer: Reinforcement learning via sequence modeling. arXiv. https://arxiv.org/abs/2106.01345
+Schuulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proximal policy optimization algorithms. arXiv preprint arXiv:1707.06347.
+
+Github link: [name] /desicion_transformer
+Bibliography

@@ -1,0 +1,31 @@
+[name] [surname]
+[location] | [email]
+Educational Background
+[location] Power Engineering [Institute]
+B.Sc. and M.Sc. in Deep Learning & Artificial Intelligence
+Graduated: 2025 | GPA: 4.5 / 5 (both degrees)
+• Master Thesis: Neural Network Image Compression — focused on reducing image
+storage size using convolutional autoencoders and quantization techniques.
+• Bachelors Thesis: Image Generation using Diffusion Models — implemented and
+trained diffusion-based generative models for image synthesis, exploring noise
+scheduling and reverse sampling optimization.
+Research & Project Experience
+ML-Based Data Center Cooling Control Software
+Research Project, [Institute]
+Developed a software prototype for automated cooling management in data centers using
+machine learning for temperature prediction and adaptive control. Applied different models and
+real-time sensor data analysis.
+AI Hackathons
+• Wildlife Detection via Camera Traps: Participated in an image recognition competition
+aimed at animal detection in natural environments.
+• KYC Challenge: Worked on customer identity verification using voice and video
+processing.
+Technical Skills
+• Deep Learning Frameworks: TensorFlow, Keras, PyTorch
+• Data Analysis & ML Tools: Pandas, Scikit-learn, SciPy, NumPy
+• Version Control & Platforms: Git, GitHub, GitLab, Google Colab, Jupyter
+Research Interests
+• Computer Vision (CV)
+• AI Agents and Autonomous Systems
+• Retrieval-Augmented Generation (RAG)
+• Generative Models (Diffusion, GANs)

@@ -1,0 +1,48 @@
+[name] [surname] [compaany]
+[location] [location]
+20th April 2025
+Dear Members of the Selection Committee,
+I am writing to express my strong interest in participating in the SMILES 2025 summer schoo,
+organized in collaboration with [compaany]. As a fifth-year student specializing
+in "Underwater Shipbuildiing" with almost 3 years of industry experience, I aim to bridge advanced
+machine learning (ML) methodologies and autonomous systems to use it in marine robotics and
+digital shipbuildiing. I am sure that only cross-functional collaboration with engineers and
+programmers and international cooperation could ensure it.
+Currrentlly employed at a design bureau developing autonomous underwater vehicles (AUVs),
+tethered underwater robots (TUVs), and unmanned surface vessels (Usvs), I focus on data-driven
+design optimization and design of underwater vehicles constructions.
+During my studies, I actively contributed to student-led projects, including the concept design of
+intelligent marine systems and modern information technologies.
+During my participation in the educational program “Modern Methods of Robotics and Control
+Theory” at the Scientific Center for Informaation Technologies and Artificial Intelligence by [university], I presented a poster titled “Analysis of Prospects for Creating an Unmanned Marine
+Robotic Complex for Scientific Research.” This work aimed to comprehensively analyze
+the
+potential for developing an unmanned marine robotic complex designed for oceanographic
+research, consisting of multiple agents—specifically, an unmanned surface vessel (Usv) and a
+remotely operated underwater vehicle (ROV). The project focused on designing a control system
+for such a multi-agent marine robotic complex, enabling coordinated operation between surface
+and underwater platforms. This research addressed key challenges in the field of multi-agent
+marine systems, which are increasinglly important for expanding the autonomy, efficiency, and
+scientific capabilities of ocean observation and exploration missions.
+During the Floating Universiity Winter Schoo (2025) "ML in Earth Sciences", I applied machine
+learning techniques to analyze geodata, focusing on spatial pattern clustering and
+multidimensional data visualization.
+In August 2024, I completed a 60-hour [language] language course at [university], which significantly improved my skills while deepening my understanding of modern
+life in [location] within an international student enviroment. The course combined intensive learning
+with cultural activities, helping me gain confidence in using [language] in real-life situations.
+Additionally, my international collaboration experience includes participating in the 2023 Naval
+Architecture Summer Schoo, where I worked alongside [nationality] peers on marine robotics
+projects, developing valuable cross-cultural communication skills and teamwork abilities in
+scientific research.
+The maritime industry needs for autonomy, energy efficiency, and multi-agent coordination, as
+highlighted in recent research on marine robotic complexes. That's why the SMILES curriculum
+will allow me to develop in improving underwater robotics objects, optimizing energy
+consumption for Auvs and developing multi-agent systems.
+I am committed to comprehensive personal and professional growth and confident in my ability
+to successfully master all core aspects of the program. My diverse experience and proficiency in
+both English and [language] will definitely support me in it.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
+[email]
++2 *** *** ***

@@ -1,0 +1,32 @@
+[location]
+V [name]
++2 *** *** ***
+[email]
+[surname]
+Data Scientist, ML
+WORK EXPERIENCE
+PROMPT-ENGINEER
+[company]
+December 2024 – March 2024
+I have been developing AI assistants to connect to Avito and Telegram to automate communication with clients. I also
+worked on creating knowlage bases, training models on these databases, writing templates, fine-tuning, analyzing and
+testing models.
+EDUCATION
+INFORMATICS AND COMPUTER ENGINEERING
+Higher Schoo[location] [location]
+Graduation year - 2027
+• GPA: 8,5
+• I am a teaching assistant in the discipline "Python in Data Science"
+• I am studying at the Data Mining major
+• I gradua[location] with hono[location] from the discipline "Artificial Intelligence in Engineering education", during which I
+dewelo[location] the ResuMatch application (available on githu[location])
+SKILLS
+• Python, SQL, C++ (basics), + libraries for data visualization • Knowlage of English and German at B2
+(matplo[location], seaborn) and for working with data and models level
+(pandas, nu[location], scikit-learn), Excel, A/B testing • Develo[location] soft skills
+• Fundamentals of machine learning, algo[location]m
+• Develo[location]ment enviro[location]nments and DBMS: VSCode, Pycharm,
+Anaconda, Google Cola[location], Ju[location]ter Notebook, Postgres
+• Probability theory and mathematical statis[location]cs
+GITHUB
+Link - https://githu[location].com/[name]

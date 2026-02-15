@@ -1,0 +1,27 @@
+[name] [surname]
+Age: 31
+Work: Project Specialist in Urban Management ([compaany])
+City: [location]
+PRIMARY EDUCATION
+Bachelor’s Degree in Finance & Credit, [location] State Agrarian
+Universiity (2011-2015)
+TECHNICAL SKILLS
+Data Analyst Certification | [compaany]
+(2023)
+Regression & Statistical Modeling
+● Correlation analysis (Pearson/Spearman), scatter plots, hypothesis
+testing (Student’s t-test)
+● Linear/multiple regression (OLS, [name]'s method),
+full/fractional factorial experiment design
+● Coefficient interpretation, multicollinearity diagnostics
+Dimensionality Reduction & Clustering
+● PCA (Principal Component Analysis), feature selection techniques
+● Clustering: k-means, fuzzy c-means, hierarchical clustering; elbow
+method evaluation
+Classification & Machine Learning
+● Algorithms: k-NN, SVM; performa performance metrics (confusion matrix,
+accuracy, ROC-AUC)
+● Neural networks & deep learning, neuro-fuzzy systems
+Time Series Analysis
+● Preprocessing (stationarity, trend removal), ARMA/ARIMA
+models

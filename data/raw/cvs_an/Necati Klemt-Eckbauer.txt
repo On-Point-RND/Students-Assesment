@@ -1,0 +1,118 @@
+Personal Infoirmaation
+Name: [name] [surname]
+Gender: Female
+Age: 22 years (born May 13, 2002)
+Phone: +2 *** *** *** (preferred contact method)
+Telegram: @[name][surname] or by phone
+Email: [email]
+Website: https://project10913309.tilda.ws/
+Location: [location]
+Citizenship: Russian, work permit for Russia
+Relocation: Not willing to relocate, open to business trips
+Work Experience
+Total Experience: 3 years 6 months
+[company]
+September 2024 – Present (8 months)
+[location]
+Author and Mentor for Machine Learning Courses
+● Self-employed status
+● Responsibilities:
+○ Developing course modules
+○ Reviewing student work
+○ Conducting classes with students
+○ Organizational tasks
+○ Meetings with clients
+[university]
+February 2025 – March 2025 (2 months)
+Automation of Azodye Synthesis Process
+● Scientific and project activities, participation in a conference on modeling the azodye synthesis process.
+● Worked with the ROZUM robotic manipulator.
+Central Bank of the Russian Federation
+February 2023 – August 2024 (1 year 7 months)
+[location], www.cbr.ru
+Data Engineer
+● Sector: Financial (Banking)
+● Projects:
+○ Inтернаtional ratings
+○ Quotations
+○ Insurance reserves
+● Responsibilities:
+○ Creating reports and final data exports
+○ Data preprocessing
+○ ETL processes
+○ Working with Hadoop
+○ Distributed computing
+○ Data quality monitoring and management
+○ Ad hoc tasks for business department collaboration
+● Tech Stack: Spark, Hadoop, Superset, ClickHouse, Hive, Python, PySpark, SQL, Bash, Impala, BI tools
+Neurosputnik
+June 2022 – September 2022 (4 months)
+Data Scientiist
+● Developed neural networks for retinal vessel segmentation and brain aneurysm detection (SegNet, U-Net, ResNet, image annotation).
+SbierDevices
+August 2021 – July 2022 (1 year)
+rabota.sber.ru
+Data Analyst
+● Sector: Financial (Banking)
+● Developed neurointerfaces:
+○ Researched non-invasive methods
+○ Converted EMG data into motion trajectories (including handwriting symbols)
+● Developed a Linux driver for ADC array control:
+○ Interrupt signal handling (data updates in BRAM)
+○ Device-tree parameter parsing
+○ Error handling with kernel logs (printk)
+Sbier
+November 2021 – April 2022 (6 months)
+rabota.sber.ru
+Behavior Developer for Robots
+● Project: Eurobot 2022 at Sber Robotics Lab
+● Developed robot behavior algorithms.
+SbierAI
+July 2021 – February 2022 (8 months)
+rabota.sber.ru
+Big Data Annotation Specialist
+● Annotated data using CVAT.
+Education
+Master's Degree (Expected 2026)
+National Universiity of Science and Technology "MISIS," [location]
+● Field: Computer Science and Engineering (Master of Engineering and Technology)
+Bachelor's Degree (2024)
+National Universiity of Science and Technology "MISIS," [location]
+● Field: Applied Mathematics
+Professional Development & Courses
+● 2024: Summer ML SchooL, Higher SchooL of Economics
+● 2023:
+○ ClickHouse for Data Engineers (AIS)
+○ Basic Agile: Scrum, Kanban, Teamwork (ScrumTrek)
+○ Impala Fundamentals (IBS)
+○ Cognitive Skills Development (SbierEducation)
+○ Social Skills Development (SbierEducation)
+○ Emotional Skills Development (SbierEducation)
+● 2021: Navigator Innovator (Skolkovo)
+Skills
+Languages
+● Russian: Native
+● English: B2 (Upper Intermediate)
+● German: A1 (Begiinner)
+● Chinese language(A1)
+Technical Skills
+Python, SQL, Statistical Analysis, MS SQL, Data Analysis, Big Data, Data Science, Machine Learning, Deep Learning, Spark, Hadoop, Hive, ETL, Tableau, Power BI, Linux, Pandas, ClickHouse, Superset, ROS, CVAT
+Soft Skills
+Analytical Thinking, Mathematical Modeling, Business Communication,
+Problem-Solving
+Additional Information
+● Personal Website: http://project10913309.tilda.ws
+●
+● Professional Summary:
+○ Proficient in Python (pandas, PySpark, NumPy, Seaborn, Matplotlib,
+Juputer Notebook, Colab).
+○ Experienced with Spark, Hadoop, Hive, Bash, Impala, SQL (aggregate
+functions, nested queries, window functions).
+○ Database management (MySQL, PostgreSQL, ClickHouse).
+○ Dashboaard creation (Superset).
+○ A/B testing.
+○ Applied machine learning algorithm: regression models, k-means,
+k-NN, SVM, decision trees, random forest, gradient boosting, etc.
+○ Microsoft Office (Excel, Word, PowerPoint).
+● Work Ethic: Highly focused on work processes, motivated to learn and
+improve skills.

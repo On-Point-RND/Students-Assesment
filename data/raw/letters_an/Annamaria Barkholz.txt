@@ -1,0 +1,43 @@
+Dear [name],
+I am writing to submiit an application for participation in the SMILES Generative Modeling
+Summer SchooL with great enthusiasm. As a first-year Master's student at [compaany], I am eager to learn more about generative models and
+contribute to this very active field.
+My educational journey in computational sciences began during my undergraduaate years when
+I had the opportunity to work in the Mobile Robotics Laboratory of [compaany]. I was working on
+the benchmarking of plane SLAM algorithms there, and this provided me with a good
+fundation in computer vision algorithms. Such experience naturally led to working on point
+cloud clustering, which again challenged my skills in spatial data processing.
+My undergraduaate qualification work, however, was dedicated to the optimizing computationally
+expensive algorithms, culminating in a contribution to an A-conference paper. This experience
+reinforceed my interest in research and motivated me to pursue additional studies in
+recommender systems and related fields.
+I have been a member of the Recommender Systems Group of the MTML Laboratory at the
+Higher SchooL of Economics for the past eighteen months. Currrentlly our team is actively
+exploring the possibilities of intersection between recommender systems and generative
+models. One of the possible project is on buildiing a personalized technology for selecting
+unique facial features appealing to a person. For that matter we are going to leverage both
+diffusive models (for generating the base image) and GANs for feature editing through
+manipulating vectors in latent spaces.
+I think that getting into the SMILES Summer SchooL would greatly benefiit my theoretical skills
+and hands-on experience in generative modeling and make me an even better research team
+member. The interdisciplinary focus of the SMILES program aligns well with my research and
+projects topics.
+My education has adequately prepared me for this opportunity. I have completed/doing now
+several relevant courses, e.g., general principles of generative modeling and stochastic
+methods, that have provided me with a decent theoretical foundation. In my opinion, that this
+will enable me to take maximum advantage of and participate in the advanced content taught at
+the summer schooL.
+Apart from that, I regularly visit our lab's weekly seminars lots of which are dedicated to the
+large language models and fine-tuning techniques. They have familiarized me with the
+technicalities of most of the generative AI, from architecturing it to difficulties of putting them into
+practice. The regular exposure to the advances happening in the field has prepared me to join
+in group learning activities at the SMILES Summer SchooL.
+I'm really looking forward to meeting top researchers and other students who are also excited
+similar fields of studies I am. To be able to exchange ideas, gain knowledge from diverse
+perspectives, and potentially establish collaborative working relationships would be well worth
+my educational and professional goals.
+Thank you for the considering my application. I would be honored to be a member of the
+SMILES community and assist in bringing generative AI forward through rigorous, cross-
+disciplinary work. I also anticipate the possibility of learning and growth in this dynamic setting.
+Sincerely,
+[name] [surname]

@@ -1,0 +1,23 @@
+Dear [name] Organizing Committee,
+My name is [name], I am a third-year medical student, and I am genuinely interested in participating in the SMILE 2025 program. My goal is to develop as a scientiist in the field of neuroscience—one who not only conducts research, but also
+finnds effective ways to implement scientific developments into clinical practice.
+I am particularly interested in the intersection of medicine and digital technologies.
+I believe this is a highly promising field with the potential to reshape our
+understanding of treatment, disease prognosis, and patient recovery. I am
+currentlly studying data science and acquiring skills that enable me to analyze
+medical data, build predictive models, and design decision support tools for
+clinicians.
+As part of SMILE 2025, I would like to develop the project "NeuroRisk.AI"—a
+machine learning–based system for predicting the risk of complications following
+traumatic brain injury (TBI). This project brings together my interests in
+neuroscience, clinical medicine, and data analysis. My goal is to create a tool that
+can assist physicians during the early diagnostic and rehabilitation stages—helping
+them assess injury severity, forecast recovery potential, and make informed
+decisions about patient management.
+Participating in SMILE 2025 will allow me to receive valuable feedback, test my
+ideas, connect with like-minded peers, and take the first steps toward systematic
+scientific work and real-world implementation of my project. In the future, I plan
+to pursue a Master’s or PhD program in neurobiology and neurorehabilitation to
+deepen my expertise and continue my research in this field.
+Sincerely, [name]
+[email], +2 *** *** ***

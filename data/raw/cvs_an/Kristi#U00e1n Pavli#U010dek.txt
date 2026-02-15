@@ -1,0 +1,62 @@
+[name] [surname]
++2 *** *** ***
+[email]
+[location]
+EDUCATION
+[location]
+[location] Sep2020-June2024
+[location]
+AppliedPhysicsandMathematics,DRECDepartment,Bachelordegree GPA8.95/10
+[location] Sep2024-June2026
+AppliedPhysicsandMathematics,DRECDepartment,Master’sstudent
+SKILLS
+Languages: Python,C/C++,Bash
+Software&Tools: PyTorch,ML,DL,Git,Linux
+Math: MathAnalysis,LinearAlgebra,Mathematicalstatistics,CalculusApplied
+OtherSkills: English(B2),LATEX,Russian(C2)
+PROJECTSANDPAPERS
+NTIRE2024Nightimagerenderingchallenge Jan2024-May2024
+The goal of the challenge was to find solutions that process raw camera images taken in nighttiime conditions, and
+thereby produce a photo-quality output images in the standard RGB (sRGB) space. In this project I was responsible
+forsubmiisssionvalidation. ThepaperwitheresultswasacceptedforCVPR2024. NTIRE2024
+ColoRVignettingeffectinsmartphonecameras Jul2022-Jul2024
+The project focuses on color vignetting in smartphone cameras, exploring elimination methods and leveraging it to
+reducecolorrenderingerrorsiinimageprocessing. Itresultedinthecreationofthewoorld’siniitialstereo-hyperspectral
+image dataset. Despite its prominence in smartphone cameras, publicly accessible research on color vignetting is
+scarce. Ourpioneeringworkaddresse sbotheliminationtechniquesandpotentialspecializedapplicationsoftheeffect.
+Classificationofcamera lenscontaminationbasedonpeople’spreferences Jun2023-Jun2024
+The research was born during the creation of a smartphone camera contamination classifier for commercial partner [company]. The project examines the salience of image contamination to the average user. The research article and
+europeanpatentforcontaminan tionsimulatotoriin theapprovals phasewithacomme rcialpartner. Our neural networks
+arenowrunningonflagship devices.
+WORKEXPERIENCE
+[company]
+Datascientiist&Master’sstudent Sep2024-March2025
+In the company, I was responsib le for developing, deploying, and optimizing a RAG service for working within internal
+documentation. I configured and fine-tuned the service using LLM and Triton Inference Server, ensuring efficientin-
+ferenceandscalability. Additionally, I worked with speech-to-text models, setting up and optimizing their deployment
+throughthesame infrastructure. Ialsodesignedandimplementedsyntheticevaluatio nmetrics to assess the
+qualityofboth the RAG and speech-to-text systems. Beyond technical work, I completed several internal courses on financial
+markets,financialinstruments,derivativesandfinanci alanalysisofcompanies.
+Institute for Information Transmision Problems of the Russian Academy of Sciences (Kharkevich Institute)
+Junior researcherofColorreproductionandsynthesislab Jul2022-Jun2024
+In the laboratory, I mainly worked on elements of the image processing pipeline and computer vision tasksin
+industrialprojets. In the process of research work, several Russian-langua gearticle saboutColorspacetransformswerewritten.
+I have completed a 9-month R&D project with a Huawei parter company. Our team was researching the
+possibilitiesofdetectingcontaminationonasmartphonecamerausingfastandaccurate neural networksandalsocreatinga math
+model for contaminated images and a contamination simulator. In this project, I was leading data direction, which
+includes creating setup for dataset collection, managing collection process and markup with crowdsourcing (Mean
+opinion scores). Our partners highly appreciated the research conducted and the resulting products. In this project, I
+was able to not only go through all the stages of creating an ml product, but also explore the complextopicof
+creatingandanalyzingmetricsfortheaverageuser. After the project, I managed a team of 5 researchers in the process of
+analyzingt heresul tsan dp reparingafin alpublicationonthetopicof theproject.
+FINISHEDADDITIONA LCURSES
+IntroductiontoIndustrialProgrammingan dDatastructures,ILAB Sep2020-Jan2021
+Lecturer-I.Dedinsky
+C++Basi cCourse,ILAB Sep2021-May2022
+Lecturer-K.Vladimirov
+Colorc omputationalphotography,ColorsyntesisandreproductionLab(IITPRAS) Jul2022-Sep2022
+Lecturer-E.Ersho v
+STM32MicrocontrollersIntroduction,MIPTDREC Sep2020-Jan2021
+ArtificialIntelligenceSummerSchoo l,AIRI(ArtificialIntelligenceResearchInsti tute) Jul2023
+MachineLearningSummerSchoo l,SMILES(Skoltech) Aug2024
+MLOpsCourse,Girafe.ai Jan2025-March2025

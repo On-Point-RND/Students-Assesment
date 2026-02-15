@@ -1,0 +1,111 @@
+Application of artificial intelligence in forecasting
+gas field development parameters
+[name]
+ETL Dev, [compaany]
+PhD Student, [universiity]
+Introduction
+Topic: Predicting gas well flow rates using production data
+Importance: Enables efficient field development management, early detection of complications, and timely,
+effective reservoir management
+Data Source: Data from [location]'s largest gas field
+Goal: To develop and evaluate ML/DL models for accurate short-to-medium term flow rate prediction,
+enabling the early detection of production complications and supporting timely reservoir management
+Problem statement
+Problem: Time-series forecasting of individual well gas flow rate
+Input Data: Historical time-series measurements (Q, T, P ,P ,dP=P −P ) and static well characteristics (X
+static buffer reservoir bhp surface/Bottom
+,Y , TD, TVDSS, d θ , D )
+hole surface/Bottom hole casing, max packer/tubing
+Challenges:
+• Temporal dependencies and non-stationarity
+• Missing data and potential outliers
+• Complex, non-linear relationships between features and flow rate
+• Varying behavior across different wells and time periods
+• Need for careful feature engineering and time-aware validation
+Scope: Well-level prediction on a time-ordered hold-out test set. Focus on denormalized metrics for real-world interpretation.
+Methodology
+Data Cleaning: Datetime conversion, categorical encoding (LabelEncoder for simplicity).
+Missing Value Imputation:
+• Static Features:Grouped forward/backward fill per well (maintains well consistency) + global mean/median for remaining NaNs.
+• Dynamic Numerical Features:KNNImputer(captures inter-feature relationships).
+Feature Engineering:
+• Temporal Features:Year, Month, DayOfWeek, DayOfYear
+• Lag Features:Previous values of Qand P (crucial for time context).
+buffer
+• Rolling Window Features: Mean/Std Dev of Qand P over 7, 14, 30 day windows (captures recent trends/volatility).
+buffer
+Outlier Handling:IQR-based clipping (limits extreme values without data loss).
+Scaling:StandardScaler on features; separate StandardScaler on the target variable (Q)to facilitate accurate denormalization for evaluation.
+Methodology
+Models Compared:
+• RandomForestRegressor:Ensemble baseline, robust to defaults.
+• XGBRegressor: Gradient Boosting, often state-of-the-art for tabular data.
+• SVR: Support Vector Regresssion, different paradigm (kernel methods). Tuned via GridSearchCV with TimeSeriesSplit (essential for time-
+series CV)
+• LSTM: Recurrent Neural Network, designed for sequntial data. Used n lookback sequences, Dropout, EarlyStopping, ModelCheckpoint.
+Train/Test Split: Strict time-based split (last 20% of data as test set) to simulate real-world deployment.
+Evaluation Metrics: Calculated on denormalized (original scale) predictions:
+• MAE(Mean Absolute Error)
+• RMSE(Root Mean Squared Error)
+• R² (Coefficient of Determination)
+Results
+Model MAE MSE RMSE R2
+Random
+24,92 1450,81 38,09 0,885
+Forest
+XGBoost 27,08 1504,35 38,79 0,881
+LSTM 39,34 2959,09 54,40 0,765
+SVR 73,28 8923,94 94,47 0,292
+Methods - Data & Feature Overview
+LIMITATIONS:
+•Limited hyperparameter optimization for RF/XGB.
+•Basic LSTM architecture explored.
+•Static features (e.g., spatial coordinates - distances were not used)
+potentially underutilized.
+:SEITINUTROPP
+ERUTUF
+Tree ensembles (RF, XGB) provided robust and
+accurate predictions on this dataset with the current
+KEY
+feature set. LSTM shows promise but requires further •Advanced hyperparameter optimization (e.g.,
+TAKEAWAYS
+tuning/architecture exploration. SVR less suitable Bayesian Optimization, Optuna).
+•Explore more complex RNN architectures (GRU,
+•Incorporate domain-specific features (interventions,
+BiLSTM, Attention).
+•Feature interaction analysis (e.g., revisit polynomial
+choke changes, water cut).
+•Feature interaction analysis (e.g., revisit polynomial
+features).
+•Implement SHAP for model interpretation.
+•Consider multi-well or field-level modeling
+approaches.
+•Consider multi-well or field-level modeling
+approaches.
+Bibliography
+1. [name], [name], [name], [name] (2017) Application of PSO LS-SVM forecasting model in oil and gas production forecast / IEEE 16th Inernaational
+Conference on Cognitive Informatics & Cognitive Computing, pp. 470-474.
+2. [name], [name]. Neural network modeling. Forecasting well production indicators under non-stationary flooding conditions // Business
+magazine Neftegaz.RU. 2022. No. 5-6(125-126). pp. 26-32. / [name], [name]. Nejrosetevoe modelirovanie. Prognozirovanie pokaizatlej
+dobychi skvazhin v usloviyah nestacionarnogo zavodneniya // Delovoj zhurnal Neftegaz.RU. 2022. № 5-6(125-126). S. 26-32.
+3. [name], [name] (2023). Advanced deep regression models for forecasting time series oil production //arXiv preprint arXiv:2308.16105.
+4. [name], [name], [name], [name] (2024). A Machine Learning Workflow to Support the Identification of Subsurface
+Resource Analogues. Energy Exploration & Exploitation, 42(2), 603-625.
+5. [name] (2023). Generalization with Reverse-Calibration of Well and Seismic Data Using Machine Learning Methods for Complex Reservoirs Predicting
+During Early-Stage Geological Exploration Oil Field. arXiv preprint arXiv:2304.03048.
+6. [name], [name]. Neural network analysis, forecasting and optimization of gas-lift well operation // Business magazine Neftegaz.RU. 2024.
+No. 7 (151). P. 22-27. / [name], [name]. Nejrrosetevoj analiz, prognozirovanie i optimizaciya gazliftnogo sposoba ekspluaatacii skvazhin //
+Delovoj zhurnal Neftegaz.RU. 2024. №7 (151). S. 22-27.
+7. [name], [name], [name], [name] (2021). Application of machine learning to predict reservoir pressure in oil field development //
+Bulletin of Tomsk Polytechnic Universiity. Georesources engineering. 2021. Vol. 332. No. 10. P. 140-149. / [name], [name], [name],
+[name]. Primenenie mashinnogo obucheniya dlya prognozirovaniya plastovogo davleniya pri razraboтке neftyanyh mestorozhdenij // Izvestiya
+Tomskogo politehnicheskogo universiiteta. Inzhiniring georesursov. 2021. T. 332. №. 10. S. 140-149.
+8. [name], [name], [name], [name] (2021). Development of deep transformer-based models for long-term
+prediction of transient production of oil wells. SPE Russian Petroleum Technology Conference. SPE.
+9. [name], [name], [name], [name] (2022). Application of machine learning algoorithm in forecasting the result of
+pyrolytic analysis // News of higher educational instiutions. Geology and exploration. 2022. Vol. 63. No. 6. Pp. 8-19. / [name], [name], [name],
+[name]. Primenenie algoritmov mashinnogo obucheniya v prognoe rezulata piroliticheskogo analiza // Izvestiya
+vysshih uchebnyh zavedej. Geologiya i razvedka. 2022. T. 63. №. 6. S. 8-19.
+
+
+

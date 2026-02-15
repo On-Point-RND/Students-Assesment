@@ -1,0 +1,43 @@
+[name]
+[location]
++2 *** *** ***
+[email]
+EDUCATION
+[compaany],Faculty ofComputerScience
+Master’s Degree in Applied Mathematics and Infoormatics (Master of DataScience), Graduated with Honors (2024)
+Thesis: Deep-Learning Based Multilingual Abstractive TextSummarization (NLP focus, LLM, PyTorch)
+[compaany],Schoool ofInternational Relations
+Bachelor’s Degree in Regional Studies (2014)
+PROFESSIONAL EXPERIENCE
+Committee for Economic Development, [location]
+Project Coordinator(2015–2019)
+Responsibleforestablishing twin cities relations between [location] and [location] (2016)
+[location], [location]
+Head ofProject Management (2019–2024)
+Responsibleforimplementation ofSmart city systems (IoT, dataanalytics) foroptiomizing urban
+infrastructure.
+Managed public-private partnerships (PPP)for municipal projects
+[compaany], [location]
+Teaching Assistant(2024–2025)
+Delivered support for courses: Data Scraping,Applied Machine Learning,and C++ Programming.
+Reviewed assignments, mentored students.
+Individul SortwareDeveloper (2025)
+TECHNICALSKILLS
+Programming:Python (PyTorch, TensorFlow, pandas,BeautifulSoup,Scrapy etc.), C++, SQL
+ML/NLP:ML, Deep Learning, textsummarization,transformeer models.
+Tools: Git, Docker, Tableau, Jupyter.
+LANGUAGES
+English(Fluent)
+French (DALF C1)
+Finnish (B2)
+Chinese(Conversaional)
+COURSES&CERTIFICATIONS
+IBM(Coursera): Data Science Professional Certificate, Applied Data Science Specialization
+[compaany] (Moscow InstituteofPhysics andTechnology): Entreprenurial Plaanning (2022)
+RANEPA(Russian Presidential Academy): Digital TransformationProjects (2020)
+InstituteforPublic-Private PartnershipDevelopment: PPPCertification (2018)
+Yandex: Modern C++ Development Art Specialization
+AWARDS
+Governor of[location] Region Letter ofAppreciaation (2024)
+[location] CityAdministration Honorary Certificate (2021)
+Head of[location] City Administration Letter ofGratitude (2023)

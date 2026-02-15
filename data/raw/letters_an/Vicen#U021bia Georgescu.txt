@@ -1,0 +1,13 @@
+I am writing to express my sincere interest in participating in the SMILES-2025 Summer School on Generative Methods in Artificial Intelligence. As a graduate of [location] with a strong academic foundation in economics and mathematical methods, I am deeply motivated to deepen my expertise in machine learning and contribute to real-world applications of generative AI.
+My studies at the Higher School of State Audit and the Faculty of Economics and Mathematical Methods provided rigorous training in quantitative analysis, mathematical modeling, and statistical reasoning. During my master’s program, I developed a strong interest in artificial intelligence, particularly in the intersection between economic systems and data-driven decision-making. This led me to explore Python-based tools for data analysis, as well as foundational courses in machine learning and neural networks.
+I have since been independently studying modern ML techniques, focusing on supervised and unsupervised learning, deep learning architectures, and generative models. I am particularly fascinated by the capabilities of large language models, multimodal learning systems, and multi-agent coordination — all of which are central themes of SMILES-2025.
+What excites me most about this program is its practical orientation and international scope. The opportunity to work on real industrial tasks in collaboration with experts from both [location] and [location] is incredibly motivating. I am eager to participate in workshops and hackathons that will not only challenge my technical abilities but also allow me to contribute to collaborative innovation.
+Furthermore, the prospect of engaging in a vibrant academic environment, with access to lectures by world-class scientists and mentoring from industry professionals, perfectly aligns with my career aspirations. I see SMILES-2025 as a gateway to becoming part of a global AI research community and to translating mathematical and theoretical knowledge into impactful technological solutions.
+Thank you for considering my application. I look forward to contributing to, and learning from, the diverse and dynamic cohort at SMILES-2025.
+Sincerely,
+[name] [surname]
++2 *** *** ***
+[email]
+
+
+

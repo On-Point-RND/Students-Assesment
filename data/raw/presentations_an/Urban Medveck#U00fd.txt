@@ -1,0 +1,51 @@
+Developing a locator for the
+[name]
+Master's student, [location] State Technical [compaany]
+Introduction
+Vision is one of the most important sensory channels
+providing perception of the surrounding world. It plays
+a key role in spatial orientation, object recognition, and
+movement coordination. Therefore, a violation or
+absence of visual function leads to serious changes in
+the functioning of the entire body.
+Problem statement
+Many people still face challenges due to vision impairment.
+Traditional tools (canes, guide dogs) have limitations:
+• Can’t detect all obstacles
+• Expensive and time-consuming
+Goal: Create a low-cost, efficient locator using microcontrollers.
+Methods
+Here’s how the device functions: The
+ultrasonic sensor scans the area in front of
+the user. If an obstacle is detected within 1
+to 1.5 meters, it sends a signal to the
+microcontroller.
+The microcontroller then activates two kinds
+of alerts — an audible beep and a vibration
+motor — so that the user can safely avoid
+the obstacle.
+To keep the device running reliably, I used a
+rechargeable 18650 battery. It charges via microUSB using a TP4056 module.
+The MT3608 boost converter ensures that
+all components receive the correct voltage.
+A mini switch is also included to turn off the
+device and save battery when it’s not in use.
+Results
+To summarize, a working prototype of a locator for the blind has been
+created.
+It’s affordable, customizable, and easy to use — and it has the
+potential to significantly improve safety and independence for
+visually impaired individuals.
+Research gap
+In the future, I plan to continue this work by developing a proper casing for the
+device.
+It should be ergonomic, lightweight, and provide protection to the internal
+components.
+Another important area is software improvement. I aim to implement algorithms
+that can recognize the type of obstacle — for example, distinguishing between
+walls, people, or soft materials like curtains.
+This could help users better understand their surroundings and make more
+informed decisions.
+
+
+

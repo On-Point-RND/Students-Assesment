@@ -1,0 +1,53 @@
+Motivation Letter
+Dear Organizers of the [compaany] Annual Summer SchooL on Machine
+Learning (SMILES),
+My name is [name] and I am writing to express my strong
+interest in participating in SMILES 2025. I am currently a PhD student at
+the [compaany] in the Department
+of Applied Mathematics and Artificial Intelligence. The research is in the
+area of intelligent driving using neural networks.
+Last year, I had the privilege of attending SMILES-2024, and it was a
+rewarding experience. The intensive sessions on generative AI, large-scale
+language modelling, and other deep learning greatly broadened my
+technical horizons. In addition, mentorship from industry experts and the
+opportunity to network with peers from diverse backgrounds inspired me
+to continuously refiine my research methods and explore interdisciplinary
+applications of AI.
+My academic journey has focused on bridging machine learning with
+intelligent transportation systems. Key accomplishments include:
+Research Publications:
+•
+1. [surname], [surname], [name], et al. (2021). DADA: Driver
+Attention Prediction in Driving Accident Scenarios. IEEE Transactions on
+Intelligent Transportation Systems, 23(6), 4959–4971. (Q1)
+https://arxiv.org/pdf/1912.12148
+2. [surname], [name], [name], et al. (2022). Traffic Accident
+Detection via Self-Supervised Consistency Learning in Driving
+Scenarios. IEEE Transactions on Intelligent Transportation Systems, 23(7),
+9601–9614. (Q1) https://ieeexplore.ieee.org/abstract/document/9733965
+3. [surname], [name], [name], et al. (2023). Vision-Based Traffic
+Accident Detection and Anticipation: A Survey. IEEE Transactions on
+Circuits and Systems for Video Technology. (Q1)
+https://a rxiv.org/pdf/2308.15985
+DADA-2000 Dataset: I co-deveveloped this large-scale driver
+•
+attention prediction dataset , which addresses critical challenges in
+autonomous driving under emergency scenarios.
+Building on my hands-on experience with generative AI and
+collaborative projects gained at SMILES-2024, my focus at SMILES-2025
+is threefold. Firstlly, I aim to deepen my work on generative modelling as
+well as multimodal generative modelling, in particular the alignment
+between text-to-scene, and to improve the performance of the methods
+studied. Second, I plan to take advantage of my participation in the
+hackathon to improve my personal expertise by learning from each other
+and from other scholars. Finally, having participated in several
+collaborative exchanges between Chinese and Russian institutions as a
+teaching assistant at the schooL, I am eager to contribute to this international
+collaboration at SMILES.
+Thank you for considering my application. I would be honored to
+contribute to and learn from the SMILES-2025 community. Please feel free
+to contact me for any additional details.
+Sincerely,
+[name]
++2 *** *** *** | [email]
+[compaany]

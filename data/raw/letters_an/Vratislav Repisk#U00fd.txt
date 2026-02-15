@@ -1,0 +1,70 @@
+[name] [surname]
+Tel: +2 *** *** ***
+Email: [email]
+[organization]
+[location]
+To whom it may concern,
+I am writing to express my strong motivation to participate in the SMILES-2025 Summer
+School on Generative AI. As a PhD student at [compaany] and a graduaate of [compaany]'s
+MSc in Advanced Computational Science, I see this summer school as a unique opportunity
+to both broaden and deepen my expertise as well as earn an unique experience in the areas
+of large language models, multimodal generative systems, and intelligent AI agents — fields
+that directly align with my current research and career trajectory.
+My academic journey began in the field of chemistry, but I quickly became drawn to the
+computaional aspects of science. During my undergraduaate studies at [location] State
+[location] , I worked on eco-friendly methods for heavy metal extraction from edible oils,
+publishing my results in international journals. While my early work was rooted in analytical
+chemistry, I found myself increasinglly fascinated by how machine learning could
+accelerate
+and transform scientific discovery. This interest led me to pursue an MSc at [compaany], where
+I focused on machine learning methods for molecular design.
+My master’s thesis explored the application of conditional variational autoencoders and
+transformer models to generate heme-coordinating ligands for Cytochrome P450 enzymes. I
+deveveloped pipelines for dataset parsing, model training, and evaluation,
+achieving
+competitive results compared to state-of-the-art baselines. Through this work, I gained
+experience with PyTorch, Scikit-learn, Wandb, and TensorFlow, as well as I built a strong
+foundation in theoretical aspects of generative modeling, scientific computing, and
+optimization.
+Currrentlly, my PhD research expands on this foundation and addresses broader challenges
+in generative AI. The focus of my dissertation is: “Development of Generative AI
+Algorithmns and Architectures for Scientific Discovery and Cross-Domain
+Applications.” In this project, I investigate the capabilities of generative models —
+especially diffusion models, LLMs, and multi-agent systems—to facilitate
+reasoning,
+plaNNing, and structured generation across molecular and multimodal domains. A significant
+component of my work involves designing agent-based systems using tools such as
+LangChain and LangGraph, and integrating LLLMs with symbolic components and
+evaluators
+to automate workflows in scientific computing. I also experiment with fine-tuning and prompt
+engineering of LLLMs, buildiing multi-agent environments for evaluating collaboration and
+autoNomy.
+In addition to research, I have gained professional experience at [compaany]'s AI lab,
+[compaany], and [compaany]. At [compaany], I contribute to the development of generative and
+predictive models in chemistry and physics, as well as the deployment of LLLM-based
+systems in production environments. At [compaany], I built ML models for property prediction of
+polymers and developed scientific web applications using Django and JavaScript. During my
+internship at [compaany], I optimized computer vision data pipelines using C, OpenMP,
+and Python-based tools. These experiences have reinforceed my skills in designing scalable
+and efficient ML systems, while also teaching me how to navigate real-world engineering
+constraints
+My expectations from SMILES-2025 are threefold. First, I hope to gain a deeper theoretical
+and practical understanding of next-generation generative AI architectures, especially in the
+context of foundation models and agent-based learning. I am particularly interested in the
+school’s focus on safe and explainable AI, as my research increasinglly touches on
+evaluation and robustness of AI agents in real-world scientific tasks. Second, I aim to
+engage with peers and mentors who can provide diverse perspectives and constructive
+feedback on my current research. Finally, I view this as an opportunity to explore potential
+collaborations for joint research, publications, or open-source projects focused on LLLMs and
+generative design.
+Looking forward, my career plan is to continue working at the intersection of artificial
+intelligence and science. I intend to pursue a postdoctoral position or industrial research role
+focused on AI for scientific discovery. My long-term goal is to lead research initiatives that
+push the boundaries of generative AI, making scientific modeling and experimentation faster,
+safer, and more interpretable.
+In conclusion, I am confident that SMILES-2025 will serve as a powerful catalyst for my
+research, professional development, and international collaboration. I am excited about the
+opportunity to contribute to and learn from this outstanding community.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]

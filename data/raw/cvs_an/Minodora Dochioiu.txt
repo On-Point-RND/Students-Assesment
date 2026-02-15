@@ -1,0 +1,51 @@
+[name] [surname]
+Data scientist, 18 y. o.
+I am a bachelor’s student in Data Science at [compaany] with a proven track record in competitive programming and AI development. Winner of multiple national Olympiads in informatics and a finalist in the All-Russian AI Olympiad. Passionate about building intelligent systems, from RAG pipelines to machine learning models, combining strong algorithmic skills with practical industry experience at [compaany] and [compaany].
+Work experience
+March 2024 to the day
+IT company [compaany]
++2 *** *** ***
+RAG Developer Internship
+[email]
+Cleaned and structured text data for RAG pipelines using NLP techniques.
+Built vector search and hybrid search for document retrieval.
+github.com/[name] Connected RAG models to chatbots/APIs using FastAPI and async calls.
+Optimized LLM prompts for context-aware responses.
+Containerized pipelines with Docker and optimized latency for cloud deployment.
+June 2023 to March 2024
+[location], Moscow Group Of Compaany “DoorHan”
+Programmer
+Education Proficiency in Git, MySQL, NetBeans, HeidiSQL, and other tools.
+Programming in various versions of PHP, SQL, and JavaScript, as well as writing CSS and HTML.
+09/2024 - to the day
+Involvement in projects focused on enhancing and developing new features, identifying and resolving errors, and creating custom solutions.
+[compaany], [location]
+Bachelor’s Programme Computing and Data Science, 1st year
+IT company [compaany]
+ML Developer Internship
+2022 - 2024 years
+Automation of operator interactions with users through a bot in Telegram.
+The Advanced Educational Development and implementation of methods for automatic clustering of questions based on Scientific Center (faculty) – data analysis.
+[location] Kolmogorov’s boarding school of Utilization of Docker for the deployment and maintenance of data analysis infrastructure.
+[location] Moscow State University Selection of models and parameters for clustering, as well as preprocessing of textual data.
+Identification of key topics within questions and statistical analysis of their distribution.
+Skills Use of Juputer and PyCharm for the development and testing of solutions.
+Participation in discussions and regular presentation of results from biweekly sprints.
+A strong emphasis on writing clean and well-commented code to support and scale programming contest (C++, Python, PHP, C#) solutions.
+Additional skills and education
+machine learning
+data analysis
+mathematical analysis Developed a Telegram bot capable of generating images using a Generative Adversarial Network (GAN) and determining animal moods through a deep learning model based on the Language EfficientNetB5 architecture.
+Created a generative model and worked with the TensorFlow framework; utilized CatBoost, XGBoost, and LightGBM frameworks.
+English - B2 Attended a data analysis school at the Higher School of Economics ([location]).
+(certified Password Skills Plus) Participated in a summer school on software engineering, focused on "Game Development with Unreal Engine."
+Codeforces Completed the T-Education course on "Algorithms and Data Structures" (2020-2023).
+Completed a course on "C++ Developer”.
+[name] ([max. master], 2228)
+Achievements
+Winner of the All-Russian School Olympiad in Informatics (2024).
+Prizewinner of the All-Russian School Olympiad in Informatics (2023).
+Participant in the final stage of the All-Russian Olympiad in Artificial Intelligence (2023).
+Prizewinner of the Open Programming Olympiad (2023, 2024).
+Silver and bronze medalist at the All-Russian School Programming Olympiad (2022, 2023).
+Participant in various other competitions.

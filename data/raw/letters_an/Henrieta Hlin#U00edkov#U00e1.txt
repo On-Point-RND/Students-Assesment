@@ -1,0 +1,35 @@
+Dear Admissions Committee,
+I am writing to express my strong interest in the Skoltech Summer
+School of Machine Learning.
+Currently, I am a first-year Master's student in Data Science at Skoltech.
+I graduated with honors from the Higher School of Economics with a
+Bachelor's degree in Computer Science and Computer Engineering
+(GPA 8.27). My academic and professional journey is centered around
+ensuring the safe and responsible use of artificial intelligence.
+My current research focuses on LLM safety. I lead a project aimed at
+developing a system for monitoring and protecting large language
+models from prompt injection and jailbreak attacks. I actively promote
+awareness of LLM-related security issues - for instance, in March I gave
+an overview seminar at [company] on attacks targeting LLM-controlled robots.
+This effort reflects my ongoing commitment to fostering a deeper
+understanding of AI safety within the research community.
+In addition to my academic work, I am a Data Scientist at [company], where I integrate LLM-based systems into SOC services. One of
+my main contributions is KIRA, an AI assistant for SOC analysts, which
+was recognized as one of the key innovations of 2024.
+I am honored to have received several awards for my work, including the
+Eugene Kaspersky Personal Scholarship, the Gennady Komissarov
+Foundation grant for young scientists, and a national scholarship for
+innovative research.
+[location] is undoubtedly one of the global leaders in AI, and I see
+SMILES-2025 as a unique chance to engage in international
+collaboration with the Harbin Institute of Technology. This would not only
+deepen my understanding of Safe AI but also expand my professional
+network and expose me to new global perspectives on trustworthy and
+secure AI development through collaboration.
+My technical background, combined with strong communication and
+leadership skills, makes me confident in my ability to contribute
+meaningfully to the program.
+Thank you for considering my application. Please find my CV attached
+for further details on my qualifications and experience.
+Sincerely,
+[name] [surname]

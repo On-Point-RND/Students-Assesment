@@ -1,0 +1,994 @@
+{
+  "Publication Record": {
+    "question": "Does the candidate have peer-reviewed academic publications in their field?",
+    "count": 177
+  },
+  "Thesis Focus": {
+    "question": "Has the candidate completed a dedicated, research-oriented master's thesis?",
+    "count": 2
+  },
+  "Teaching Experience": {
+    "question": "Does the candidate have formal, long-term teaching experience in a core subject?",
+    "count": 31
+  },
+  "Core Technical Specialization": {
+    "question": "Does the candidate demonstrate deep, project-specific expertise in a focused area of ML/AI (e.g., time-series, AutoML) beyond general coursework?",
+    "count": 50
+  },
+  "Tool & Language Diversity": {
+    "question": "Does the candidate's experience extend beyond Python/ML stacks to include systems-level languages (e.g., C#, Kotlin) or classical CV/SW engineering?",
+    "count": 2
+  },
+  "Primary Research Domain": {
+    "question": "Does the candidate's research and work experience focus on computer vision/robotics or on recommendation systems/graph machine learning?",
+    "count": 31
+  },
+  "Technical Stack Specialization": {
+    "question": "Is the candidate's primary programming and library expertise in C++/CUDA for robotics/3D vision or in Python/PySpark for data science and big data systems?",
+    "count": 8
+  },
+  "Professional Experience Domain": {
+    "question": "Does the candidate's professional internship experience directly align with their stated research field?",
+    "count": 9
+  },
+  "Research Experience Depth": {
+    "question": "How extensive and sustained is the candidate's professional research experience in a specialized field?",
+    "count": 37
+  },
+  "Academic Credentials": {
+    "question": "Does the candidate hold or are they pursuing a doctoral degree with a clear research focus?",
+    "count": 19
+  },
+  "Industry vs. Academic Research": {
+    "question": "Does the candidate's professional experience include applied research and development roles within corporate or industrial settings (e.g., tech companies, research institutes) as opposed to primarily academic or grant-funded research?",
+    "count": 47
+  },
+  "Technical Skill Specificity": {
+    "question": "Does the candidate explicitly list concrete programming languages, frameworks, and algorithms (e.g., Python, PyTorch, PPO, DQN) as core technical skills, rather than implying skills through research topics?",
+    "count": 43
+  },
+  "Professional Experience Detail": {
+    "question": "Does the candidate provide specific, quantifiable details about their professional roles and accomplishments?",
+    "count": 26
+  },
+  "Resume Structure and Format": {
+    "question": "Is the resume organized with clear sections (e.g., experience, education, skills) and professional formatting?",
+    "count": 23
+  },
+  "Relevance to Target Role": {
+    "question": "Does the resume content directly align with the skills and qualifications required for the target job position?",
+    "count": 5
+  },
+  "Technical Project Scope": {
+    "question": "Does the candidate's work demonstrate contributions to large-scale, open-source computer vision or NLP projects?",
+    "count": 2
+  },
+  "Project Impact Quantification": {
+    "question": "Can the candidate quantify the performance improvement or efficiency gain (e.g., percentage increase, speed-up factor) delivered by their key technical projects?",
+    "count": 29
+  },
+  "Technical Skill Breadth": {
+    "question": "How extensive and specialized is the candidate's technical skill set across multiple advanced sub-fields (e.g., interpretable AI, biological data analysis, specific neural architectures)?",
+    "count": 8
+  },
+  "Achievement Specificity": {
+    "question": "Can the candidate point to concrete, high-stakes achievements (e.g., competition wins, published research, significant project impact) with clear outcomes?",
+    "count": 11
+  },
+  "Project Scope & Ownership": {
+    "question": "Can the candidate describe a project from initial exploratory data analysis through to model deployment and reporting?",
+    "count": 18
+  },
+  "Professional Experience Scope": {
+    "question": "Does the candidate have documented, full-time professional work experience in data engineering or analysis roles?",
+    "count": 15
+  },
+  "Technical Project Complexity": {
+    "question": "Does the candidate's project experience demonstrate original research or development of novel algorithms?",
+    "count": 7
+  },
+  "Skill Application Context": {
+    "question": "How well does the candidate demonstrate applying core data skills (e.g., Python, SQL, data modeling) in a professional or large-scale project environment, as opposed to academic or mentoring contexts?",
+    "count": 2
+  },
+  "Technical Skill Application": {
+    "question": "How extensively does the candidate apply technical skills (e.g., programming, ML) to solve practical business problems versus academic research questions?",
+    "count": 1
+  },
+  "Leadership and Project Scope": {
+    "question": "Can the candidate demonstrate experience in leading teams, managing cross-functional projects, and delivering measurable business outcomes?",
+    "count": 24
+  },
+  "Technical Skill Depth": {
+    "question": "Does the candidate demonstrate depth in programming languages and technologies relevant to ML (e.g., Python, Torch, OpenCV) through projects or work?",
+    "count": 7
+  },
+  "Advanced Modeling Experience": {
+    "question": "Has the candidate independently developed and calibrated a sophisticated economic model (e.g., DSGE) using advanced statistical methods (e.g., Kalman filtering, Metropolis-Hastings)?",
+    "count": 2
+  },
+  "Research Publication Stage": {
+    "question": "Has the candidate already presented research at conferences and won awards, or are they in the preparation stage for their first publication?",
+    "count": 1
+  },
+  "Academic Specialization": {
+    "question": "Does the candidate's academic background specialize in computational linguistics or theoretical physics?",
+    "count": 3
+  },
+  "Core Technical Domain": {
+    "question": "Is the candidate's primary technical experience in environmental/geospatial modeling and data analysis?",
+    "count": 4
+  },
+  "Research Project Focus": {
+    "question": "Has the candidate conducted research on physical environmental processes (e.g., hydrology, soil science) rather than core computer science/ML theory?",
+    "count": 2
+  },
+  "Project Detail Depth": {
+    "question": "Can the candidate describe their project contributions with specific technical details and outcomes?",
+    "count": 8
+  },
+  "Experience Duration Clarity": {
+    "question": "How clearly does the candidate specify the duration and timeline of their work experience and education?",
+    "count": 1
+  },
+  "Formal Education Level": {
+    "question": "Does the candidate possess a formal, recent bachelor's degree in a quantitative field like economics or data science?",
+    "count": 10
+  },
+  "Career Stage & Recency": {
+    "question": "Is the candidate's most recent, primary professional role a full-time, current position as an analyst or data scientist?",
+    "count": 2
+  },
+  "Grant Acquisition Experience": {
+    "question": "Has the candidate successfully secured competitive research or development grants?",
+    "count": 6
+  },
+  "Document Type": {
+    "question": "Is the document a formal job offer letter or a detailed professional resume?",
+    "count": 3
+  },
+  "Personal Contact Details": {
+    "question": "Does the document include multiple personal contact methods (e.g., GitHub, Telegram, mobile) or only a single contact method?",
+    "count": 1
+  },
+  "Current Education Status": {
+    "question": "Is the candidate currently enrolled in an advanced, specialized degree program relevant to their professional field?",
+    "count": 2
+  },
+  "MLOps & Production Deployment Experience": {
+    "question": "Can the candidate describe their experience deploying and maintaining end-to-end MLOps pipelines in production?",
+    "count": 23
+  },
+  "Academic Performance Metrics": {
+    "question": "Does the candidate provide specific, quantified academic achievements such as GPA or honors?",
+    "count": 8
+  },
+  "Educational Background Alignment": {
+    "question": "Is the candidate's highest or most relevant degree directly aligned with the technical field of the role?",
+    "count": 8
+  },
+  "Project Implementation Depth": {
+    "question": "Does the candidate demonstrate the ability to implement core machine learning algorithms from scratch without relying on high-level libraries?",
+    "count": 1
+  },
+  "Professional Experience Level": {
+    "question": "Does the candidate have professional, full-time work experience as a software developer, with demonstrated progression in roles and responsibilities?",
+    "count": 1
+  },
+  "Work Experience Duration": {
+    "question": "How many years of relevant work experience does the candidate have?",
+    "count": 29
+  },
+  "Education and Skills Listing": {
+    "question": "Does the candidate list their educational background, professional courses, and technical skills?",
+    "count": 3
+  },
+  "Project Leadership Scope": {
+    "question": "Has the candidate independently led a long-term, multi-faceted research project from conception to public demonstration?",
+    "count": 8
+  },
+  "Public Scientific Engagement": {
+    "question": "Does the candidate have a demonstrated record of presenting scientific work to broad public audiences through media, forums, and national events?",
+    "count": 2
+  },
+  "Professional Experience Focus": {
+    "question": "Does the candidate's professional experience primarily demonstrate applied project management and public sector coordination, or is it concentrated in specialized NLP/AI research and development roles?",
+    "count": 3
+  },
+  "Competitive Programming vs. Academic Focus": {
+    "question": "Is the candidate's primary technical distinction based on competitive programming/olympiad achievements or on applied academic/specialized coursework in AI/ML?",
+    "count": 4
+  },
+  "Publication List Format": {
+    "question": "Does the candidate provide a complete, formatted list of publications within the resume, or only a link to an external profile?",
+    "count": 2
+  },
+  "Formal ML/DL Education or Training": {
+    "question": "Does the candidate have formal education or structured training directly related to engineering, computer science, or machine learning fundamentals?",
+    "count": 2
+  },
+  "Professional Experience Context": {
+    "question": "Does the candidate's work experience involve applying computational skills in a formal, established industry or academic laboratory setting?",
+    "count": 5
+  },
+  "Industry Application Focus": {
+    "question": "Does the candidate's experience demonstrate applied machine learning in a specific industry domain, such as biomedical research or commercial software development?",
+    "count": 14
+  },
+  "Publication Record Emphasis": {
+    "question": "Does the candidate's profile emphasize a prolific publication record in academic conferences/journals, or emphasize applied project work and technical reports?",
+    "count": 1
+  },
+  "Core Technical Toolset": {
+    "question": "Is the candidate's core technical expertise centered on NLP libraries and deep learning frameworks, or on geospatial software (GIS) and hydrological modeling tools?",
+    "count": 3
+  },
+  "Professional Engineering Experience": {
+    "question": "Does the candidate have listed, sustained employment in dedicated ML/AI engineering roles (e.g., DL Engineer, ML Engineer) at technology companies?",
+    "count": 7
+  },
+  "Research Focus and Output": {
+    "question": "Does the candidate's research focus on applied engineering problems with tangible outputs (e.g., systems, publications in top-tier venues), rather than primarily theoretical or coursework-based analysis?",
+    "count": 2
+  },
+  "Domain Specialization": {
+    "question": "Does the candidate have specialized expertise in high-performance computational physics for particle accelerators?",
+    "count": 4
+  },
+  "Software Development Scope": {
+    "question": "Has the candidate developed and unified a complex, modular software system for a specific scientific domain from first principles?",
+    "count": 1
+  },
+  "Publication & Validation Focus": {
+    "question": "Has the candidate's work involved direct validation against experimental data and integration into operational scientific facilities?",
+    "count": 1
+  },
+  "Specialization in AI Subfield": {
+    "question": "Does the candidate have specialized, hands-on experience in low-level hardware optimization and high-performance computing for AI, as opposed to higher-level application development and robotics integration?",
+    "count": 5
+  },
+  "Academic Discipline Focus": {
+    "question": "Does the candidate's education and core coursework demonstrate a primary focus on computer science/engineering or linguistics/humanities?",
+    "count": 5
+  },
+  "Project Scope & Leadership": {
+    "question": "Does the candidate's project experience include founding or leading initiatives with a clear social/entrepreneurial component?",
+    "count": 2
+  },
+  "Advanced Degree Focus": {
+    "question": "Is the candidate's highest degree and primary research experience in a specialized, non-CS STEM field (e.g., chemistry, physics, biology)?",
+    "count": 3
+  },
+  "Content Focus": {
+    "question": "Does the document primarily describe an individual's qualifications or report organizational news?",
+    "count": 1
+  },
+  "Research vs. Development Focus": {
+    "question": "Does the candidate have demonstrable experience in conducting and publishing original research, or is their experience primarily in software development and implementation?",
+    "count": 6
+  },
+  "Career Stage & Role Clarity": {
+    "question": "Is the candidate's primary professional identity and current role (e.g., employed engineer vs. PhD student/researcher) clearly defined and supported by their experience timeline?",
+    "count": 2
+  },
+  "Professional Experience Depth": {
+    "question": "How many years of full-time, industry-specific engineering experience does the candidate have?",
+    "count": 14
+  },
+  "Technical Infrastructure Skills": {
+    "question": "Does the candidate possess hands-on experience with large-scale data infrastructure tools like Spark, Hive, and Airflow?",
+    "count": 1
+  },
+  "Technical Leadership & Impact": {
+    "question": "Has the candidate led the creation and deployment of a significant, publicly recognized technical framework or tool used by professionals?",
+    "count": 1
+  },
+  "Project Deployment & Integration": {
+    "question": "Has the candidate developed and deployed integrated, real-world applications or services using a full-stack of technologies (e.g., APIs, backends, databases)?",
+    "count": 1
+  },
+  "Academic Trajectory Clarity": {
+    "question": "Does the candidate's resume show a clear, linear progression in advanced academic research roles (e.g., Ph.D. candidate, consistent Junior Research Fellow positions)?",
+    "count": 4
+  },
+  "Career Progression Trajectory": {
+    "question": "Does the candidate's work history show a clear, sustained progression into senior technical and leadership roles within a single organization, as opposed to diverse roles across multiple short-term positions?",
+    "count": 3
+  },
+  "Academic Specialization Level": {
+    "question": "Does the candidate have postgraduate academic research experience in a technical field?",
+    "count": 4
+  },
+  "Publication Venue Prestige": {
+    "question": "Has the candidate published research in top-tier, peer-reviewed conferences (e.g., ECCV) versus more general or unspecified venues?",
+    "count": 8
+  },
+  "Project Technical Depth": {
+    "question": "Does the candidate's project work demonstrate low-level systems implementation (e.g., processor simulation, cache design, parallel computing)?",
+    "count": 2
+  },
+  "Machine Learning Specialization": {
+    "question": "Does the candidate have formal coursework and project experience specifically in machine learning and deep learning?",
+    "count": 1
+  },
+  "Professional Work Experience": {
+    "question": "Does the candidate have verifiable, full-time professional work experience at established companies?",
+    "count": 7
+  },
+  "Team Collaboration Scale": {
+    "question": "Has the candidate worked in a structured, multi-person development team on commercial projects?",
+    "count": 1
+  },
+  "Technical Project Specificity": {
+    "question": "Does the candidate describe technical projects with clear methodologies, tools, and evaluation metrics?",
+    "count": 8
+  },
+  "Work Experience Structure": {
+    "question": "Is the candidate's work experience presented in a clear, chronological format with detailed project bullet points?",
+    "count": 3
+  },
+  "Technical Tool & Framework Proficiency": {
+    "question": "Does the candidate possess hands-on experience with a wide array of specialized ML deployment and optimization frameworks (e.g., TensorRT, CoreML, TFLite) for production systems?",
+    "count": 2
+  },
+  "Open-Source Contribution": {
+    "question": "Has the candidate developed and maintained public, open-source software repositories related to their field?",
+    "count": 3
+  },
+  "Industry Work Experience": {
+    "question": "Does the candidate have direct, professional work experience in a relevant industry role?",
+    "count": 5
+  },
+  "Technical Project Portfolio": {
+    "question": "Does the candidate have demonstrable, completed technical projects using advanced computational methods (e.g., GNNs, DFT, sensor fabrication) in their field?",
+    "count": 8
+  },
+  "Domain Specialization Depth": {
+    "question": "Does the candidate demonstrate specialized expertise in a specific applied domain (e.g., geophysics, computational science) through both academic and professional work?",
+    "count": 12
+  },
+  "Advanced Academic Pursuit": {
+    "question": "Is the candidate actively enrolled in or has completed an advanced degree (e.g., Master's) in a technical field?",
+    "count": 1
+  },
+  "Technical Implementation Breadth": {
+    "question": "Can the candidate demonstrate hands-on experience with the full software development lifecycle, including architecture design, database systems, CI/CD, and deployment tools like Docker/Kubernetes?",
+    "count": 1
+  },
+  "Educational Background Depth": {
+    "question": "Does the candidate possess advanced, specialized academic credentials in both technical and management fields?",
+    "count": 1
+  },
+  "Industrial MLE Role Progression": {
+    "question": "Has the candidate demonstrated progression to a mid-level engineering role in an industrial setting?",
+    "count": 1
+  },
+  "Educational Background Inclusion": {
+    "question": "Does the document explicitly state formal education details like university, program, and year?",
+    "count": 1
+  },
+  "Technical Stack Sophistication": {
+    "question": "Does the candidate demonstrate proficiency in advanced, industry-standard tools and frameworks for software engineering, machine learning, and infrastructure (e.g., C++, PyTorch, Kubernetes, Triton)?",
+    "count": 1
+  },
+  "Achievement Recognition Type": {
+    "question": "Are the candidate's primary accolades from academic competitions and conferences, or from demonstrating business impact in professional roles?",
+    "count": 1
+  },
+  "Educational Degree Attainment": {
+    "question": "Has the candidate completed a master's degree or higher from internationally recognized institutions?",
+    "count": 2
+  },
+  "Industry Experience Focus": {
+    "question": "Does the candidate have professional experience in mainstream tech/software companies, specifically in deploying and scaling machine learning systems for large user bases?",
+    "count": 4
+  },
+  "Technical Leadership Scope": {
+    "question": "Has the candidate led a team to develop and release widely adopted technical products or benchmarks in the field of machine learning?",
+    "count": 3
+  },
+  "Professional AI/ML Experience": {
+    "question": "Does the candidate have hands-on experience in developing and deploying AI/ML models for real-world applications?",
+    "count": 6
+  },
+  "Educational Background Focus": {
+    "question": "Is the candidate's educational background and skillset centered on applied mathematics and algorithms versus technology and information systems?",
+    "count": 1
+  },
+  "Achievement Type": {
+    "question": "Does the candidate demonstrate success primarily through competitive robotics/engineering achievements or through academic scholarships and publications?",
+    "count": 1
+  },
+  "Research vs Administrative Experience": {
+    "question": "Does the candidate's work experience primarily involve technical research/engineering roles or administrative/internship roles in non-technical fields?",
+    "count": 1
+  },
+  "Project Lifecycle Stage": {
+    "question": "Does the candidate's described work primarily involve the early stages of a project (research, prototyping, algorithm comparison) or the later stages (optimization, integration, deployment, and monitoring of high-load systems)?",
+    "count": 2
+  },
+  "Project Complexity and Scope": {
+    "question": "Do the candidate's projects demonstrate the application of ML to complex, domain-specific physical systems (e.g., batteries, reservoirs) or to more general software/data pipeline problems?",
+    "count": 4
+  },
+  "Academic Competition Pedigree": {
+    "question": "Has the candidate achieved high-level, competitive recognition in their field (e.g., international olympiad medals, major research awards)?",
+    "count": 22
+  },
+  "Educational and Research Background": {
+    "question": "Does the candidate present a structured educational background with relevant coursework, research focus, and academic achievements?",
+    "count": 1
+  },
+  "Academic Degree Level": {
+    "question": "Has the candidate completed a postgraduate degree (Master's) or is the candidate primarily an undergraduate student?",
+    "count": 12
+  },
+  "Academic Trajectory Focus": {
+    "question": "Does the candidate's highest academic credential emphasize theoretical research (e.g., a thesis-driven MSc/PhD) or applied, production-oriented engineering?",
+    "count": 2
+  },
+  "Research Output and Recognition": {
+    "question": "Has the candidate authored or co-authored a framework or systematic review for a specific AI subfield, and do their achievements include competitive, external recognitions like hackathon placements?",
+    "count": 2
+  },
+  "Technical Validation Level": {
+    "question": "Has the candidate's technical work received external validation from industry or government bodies?",
+    "count": 1
+  },
+  "International Award Recognition": {
+    "question": "Has the candidate won or been a finalist in multiple international, project-based competitions?",
+    "count": 1
+  },
+  "Role Seniority Level": {
+    "question": "Does the candidate's work experience demonstrate senior leadership (e.g., CEO, Curator) or is it focused on technical execution and research (e.g., Engineer, Junior Researcher)?",
+    "count": 2
+  },
+  "Education and Training Detail": {
+    "question": "Does the candidate provide granular details for education, certifications, and professional development (e.g., dates, institutions, program names, qualifications) or only high-level categories?",
+    "count": 1
+  },
+  "AI/ML Specialization Level": {
+    "question": "How well does the candidate demonstrate hands-on experience with modern AI/ML frameworks and production deployment?",
+    "count": 2
+  },
+  "Research-to-Application Focus": {
+    "question": "Does the candidate show evidence of applying research findings to practical technical implementations?",
+    "count": 1
+  },
+  "Role Focus: Research vs. Integration": {
+    "question": "Is the candidate's primary role focused on hands-on research and development of core AI/ML algorithms, as opposed to the integration, education, and evangelism of existing AI tools?",
+    "count": 2
+  },
+  "Evidence of Technical Output": {
+    "question": "Does the candidate provide specific, measurable evidence of technical output, such as publications, hackathon prizes, or detailed project implementations?",
+    "count": 1
+  },
+  "Academic Background Relevance": {
+    "question": "How directly does the candidate's formal education align with their stated research interests?",
+    "count": 1
+  },
+  "Highest Academic Degree": {
+    "question": "What is the candidate's highest completed academic degree?",
+    "count": 4
+  },
+  "Generative AI & LLM Application": {
+    "question": "Does the candidate demonstrate specific, project-based experience in applying generative AI, LLMs, or deep generative models to design or discovery problems (e.g., drug design, material design)?",
+    "count": 1
+  },
+  "Theoretical Academic Foundation": {
+    "question": "Does the candidate possess a formal, advanced degree in a core theoretical discipline (e.g., physics, mathematics) with a high GPA?",
+    "count": 1
+  },
+  "Professional Certification Breadth": {
+    "question": "How extensive is the candidate's record of completed professional certifications and courses?",
+    "count": 1
+  },
+  "Quantitative Finance Experience": {
+    "question": "Does the candidate have direct, professional experience applying quantitative methods (e.g., machine learning, statistical modeling) to financial markets or trading?",
+    "count": 2
+  },
+  "Core Programming Proficiency": {
+    "question": "Can the candidate demonstrate professional or project-based experience with core programming languages and libraries (e.g., Python, C++, NumPy, Pandas) relevant to quantitative development?",
+    "count": 1
+  },
+  "Educational Stage and Focus": {
+    "question": "What is the candidate's current educational level and the specific field of their primary degree or study?",
+    "count": 2
+  },
+  "Industry Application Breadth": {
+    "question": "How diverse is the candidate's experience in applying data science/machine learning across multiple distinct business domains (e.g., banking, telecom, retail) in a corporate setting?",
+    "count": 1
+  },
+  "Mathematical Modeling Depth": {
+    "question": "Does the candidate demonstrate experience with advanced mathematical modeling (e.g., PDEs, control theory) in applied projects?",
+    "count": 2
+  },
+  "Applied NLP/LLM Experience": {
+    "question": "Has the candidate built and deployed projects using modern NLP tools and Large Language Models (LLMs) in a production-like setting?",
+    "count": 1
+  },
+  "Applied Engineering vs. Systems Development": {
+    "question": "Does the candidate's experience emphasize deploying models to embedded/edge devices (e.g., creating .onnx files, model quantization for hardware) or building and optimizing multilingual NLP pipelines and systems (e.g., using Kafka, Docker, API integrations)?",
+    "count": 1
+  },
+  "Professional Role Progression": {
+    "question": "Has the candidate demonstrated a clear career progression from technical roles (e.g., Technician, Geophysicist) to a lead analytical/business role (e.g., Lead Business Analyst)?",
+    "count": 1
+  },
+  "Tangible Project Outcomes": {
+    "question": "Has the candidate produced documented, industry-specific project outcomes such as winning innovation grants, developing proprietary software, or receiving formal awards?",
+    "count": 1
+  },
+  "Industry Internship Sophistication": {
+    "question": "Has the candidate completed an internship at a major tech company where they developed and implemented a specific, complex technical tool or system?",
+    "count": 2
+  },
+  "Academic Field & Focus": {
+    "question": "Is the candidate's primary academic background and project experience in Computer Science/Technology or in Medicine/Healthcare?",
+    "count": 1
+  },
+  "Professional Experience Type": {
+    "question": "Does the candidate's primary professional experience consist of formal, long-term roles (e.g., tutoring, research assistant) or concentrated project/volunteer event participation?",
+    "count": 1
+  },
+  "Educational Background Detail": {
+    "question": "Does the candidate's education section specify degree types, institutions, dates, grades, and thesis topics with clear structure and completeness?",
+    "count": 2
+  },
+  "Academic Stage & GPA": {
+    "question": "Is the candidate a current undergraduate student with a very high GPA, or a graduate student with a master's focus?",
+    "count": 1
+  },
+  "Advanced Optimization Method Development": {
+    "question": "Has the candidate developed novel optimization algorithms (e.g., zeroth-order, decentralized) with theoretical analysis and empirical validation?",
+    "count": 1
+  },
+  "Embedded Systems Experience": {
+    "question": "Does the candidate have professional experience developing embedded systems for hardware like satellites or industrial robots?",
+    "count": 1
+  },
+  "Domain-Specific Technical Skills": {
+    "question": "Does the candidate possess specialized technical skills (e.g., Buildroot, Gstreamer, FFmpeg, Gnuradio) relevant to embedded Linux or signal processing applications?",
+    "count": 1
+  },
+  "LLM Quantization Experience": {
+    "question": "Does the candidate have hands-on experience developing novel quantization techniques for large language models?",
+    "count": 1
+  },
+  "RAG System Optimization": {
+    "question": "Can the candidate demonstrate specific work in optimizing retrieval-augmented generation (RAG) platforms, such as improving document embeddings?",
+    "count": 1
+  },
+  "AI Agent & Bot Integration": {
+    "question": "Has the candidate led the integration of an AI assistant into a user-facing platform like a Telegram bot?",
+    "count": 1
+  },
+  "Research Focus & Methodology": {
+    "question": "Does the candidate's research primarily involve theoretical/computational modeling of neural dynamics or applied AI/ML for generative design and engineering?",
+    "count": 1
+  },
+  "Educational Background Specificity": {
+    "question": "Does the candidate specify their degree program, institution, and dates of attendance?",
+    "count": 1
+  },
+  "Research Leadership Experience": {
+    "question": "Has the candidate held a formal team leader or project lead role in a research setting?",
+    "count": 1
+  },
+  "Academic Stage": {
+    "question": "Is the candidate currently in an undergraduate program or has completed a doctoral degree?",
+    "count": 3
+  },
+  "Research Role Progression": {
+    "question": "Does the candidate show a clear, multi-year progression in formal academic research roles (e.g., from assistant to researcher)?",
+    "count": 2
+  },
+  "Research Project Scope": {
+    "question": "Does the candidate's research experience demonstrate a focus on developing novel algorithms and systems for specific, applied problems (e.g., disaster forecasting, water monitoring) versus primarily improving existing models and pipelines within a defined domain (e.g., medical imaging)?",
+    "count": 2
+  },
+  "Academic Course Emphasis": {
+    "question": "Does the candidate's coursework emphasize advanced mathematics and theoretical computer science or software engineering and programming languages?",
+    "count": 1
+  },
+  "Career Objectives Clarity": {
+    "question": "Does the candidate clearly state their desired position, salary expectations, and readiness for relocation or business trips?",
+    "count": 1
+  },
+  "Project Scope and Impact": {
+    "question": "Does the candidate's work involve research, publication, and government/industrial R&D projects with tangible physical systems, as opposed to primarily hackathon, course, and freelance software projects?",
+    "count": 1
+  },
+  "Advanced AI Specialization": {
+    "question": "Can the candidate design and implement complex generative AI architectures (e.g., Diffusion models, VAEs, multi-agent LLM systems) for scientific applications?",
+    "count": 1
+  },
+  "Primary Professional Background": {
+    "question": "Does the candidate have a formal, extensive background in medicine or a formal, extensive background in computational/data science?",
+    "count": 1
+  },
+  "Publication Volume and Type": {
+    "question": "Does the candidate have a high volume of publications primarily in medical/clinical journals, or a focused set of publications primarily in computational/AI conferences and journals?",
+    "count": 1
+  },
+  "Project Portfolio Scope": {
+    "question": "Does the candidate present a portfolio of completed, technically complex projects with clear implementation details?",
+    "count": 1
+  },
+  "Project Deployment Context": {
+    "question": "Has the candidate's work primarily resulted in academic conference submissions or in securing institutional accreditations/product deployments?",
+    "count": 1
+  },
+  "Academic Content Presence": {
+    "question": "Does the resume contain substantive academic and professional content such as education, work experience, and publications?",
+    "count": 1
+  },
+  "Research Output Visibility": {
+    "question": "Has the candidate presented original research at academic conferences or in competitive forums?",
+    "count": 2
+  },
+  "Technical Stack Complexity": {
+    "question": "Does the candidate's experience involve building and publishing custom libraries or tools to solve domain-specific problems?",
+    "count": 1
+  },
+  "Library/Product Integration Experience": {
+    "question": "Has the candidate developed and integrated features into a major open-source library or commercial product?",
+    "count": 1
+  },
+  "Educational Stage": {
+    "question": "Is the candidate currently an undergraduate student or do they hold advanced graduate degrees?",
+    "count": 1
+  },
+  "Technical Engineering Experience": {
+    "question": "Does the candidate possess hands-on experience in low-level systems programming (e.g., embedded, FPGA) and software development?",
+    "count": 1
+  },
+  "Academic Research Focus": {
+    "question": "Does the candidate have a documented, sustained research focus in a specific technical domain, evidenced by a thesis and multiple publications?",
+    "count": 3
+  },
+  "Professional Work Scope": {
+    "question": "Has the candidate led the implementation of a complex, deployed computer vision system with stated business impact?",
+    "count": 1
+  },
+  "Academic Achievement Recognition": {
+    "question": "Has the candidate received prestigious, discipline-specific scholarships or awards for academic excellence?",
+    "count": 1
+  },
+  "Educational Stage & Specialization": {
+    "question": "Is the candidate's highest completed degree a Master's in a specialized AI field, and does their academic focus align with applied industry roles rather than theoretical linguistics?",
+    "count": 1
+  },
+  "Educational and Credential Clarity": {
+    "question": "Does the candidate clearly present their educational background and relevant certifications or degrees?",
+    "count": 1
+  },
+  "Project Portfolio Visibility": {
+    "question": "Does the candidate provide a detailed, publicly accessible portfolio of technical projects (e.g., via GitHub, Hugging Face) with competition results and deployed models?",
+    "count": 2
+  },
+  "Industry Domain Expertise": {
+    "question": "Does the candidate have specialized, hands-on experience in a specific engineering or industrial domain (e.g., oil and gas, medical devices) beyond general data science?",
+    "count": 3
+  },
+  "Software Engineering & Backend Skills": {
+    "question": "Can the candidate demonstrate experience with backend web frameworks (e.g., Flask, FastAPI) and software engineering practices (e.g., version control, testing)?",
+    "count": 1
+  },
+  "Production System Scale": {
+    "question": "Has the candidate developed and optimized ML systems that handle high-load, real-time, or large-scale data (e.g., millions of daily operations) in a professional setting?",
+    "count": 1
+  },
+  "Technical Stack Breadth": {
+    "question": "Does the candidate demonstrate proficiency with a broad production-oriented tech stack beyond core ML libraries (e.g., deployment tools, cloud services, backend frameworks, message brokers) relevant to ML engineering?",
+    "count": 1
+  },
+  "Primary Development Environment": {
+    "question": "Does the candidate's work involve physical hardware/simulation (e.g., robots, CAD/CAM) or software/data-centric systems (e.g., APIs, language models)?",
+    "count": 2
+  },
+  "Blockchain/DeFi Technical Skills": {
+    "question": "Can the candidate demonstrate practical experience with blockchain technologies, smart contract development, or DeFi applications?",
+    "count": 1
+  },
+  "Financial Trading Systems Development": {
+    "question": "Has the candidate developed or backtested trading algorithms, indicators, or market analysis systems?",
+    "count": 1
+  },
+  "Educational Pedigree Clarity": {
+    "question": "Is the candidate's educational background and current enrollment status clearly and professionally presented?",
+    "count": 1
+  },
+  "Core Technical Discipline": {
+    "question": "Is the candidate's foundational education and core expertise in life sciences (e.g., Biology, Chemistry) rather than in mathematics, computer science, or applied informatics?",
+    "count": 1
+  },
+  "Robotics System Development": {
+    "question": "Does the candidate have hands-on experience in full-cycle robotics development, including mechanics, electronics, and firmware?",
+    "count": 1
+  },
+  "Industrial Production Management": {
+    "question": "Has the candidate managed production workflows, including assembly optimization and automated quality control?",
+    "count": 1
+  },
+  "Sensor Integration Expertise": {
+    "question": "Can the candidate integrate and calibrate advanced sensor systems (e.g., cameras, IMUs) for robotics applications?",
+    "count": 1
+  },
+  "Project Portfolio Nature": {
+    "question": "Do the candidate's key projects showcase the development of business/web applications (e.g., CRMs, task managers) or the implementation and optimization of AI/ML models (e.g., object detection, text generation)?",
+    "count": 1
+  },
+  "Resume Content Quality": {
+    "question": "Does the resume contain substantive, structured information about the candidate's education, experience, and skills?",
+    "count": 1
+  },
+  "Technical Skills Listing": {
+    "question": "Does the resume include a dedicated, categorized section listing technical skills and tools?",
+    "count": 2
+  },
+  "Technical Implementation Scope": {
+    "question": "Can the candidate demonstrate hands-on experience in full-cycle hardware/software system development, from PCB design and soldering to embedded programming and machine learning deployment?",
+    "count": 1
+  },
+  "Technical Implementation Depth": {
+    "question": "Can the candidate describe a specific, complex technical system they have architected and deployed (e.g., microservices, automated grading pipelines)?",
+    "count": 1
+  },
+  "Specialized Advanced Coursework": {
+    "question": "Has the candidate completed a formal, structured track of advanced courses (e.g., Bayesian methods, causal inference, generative models) as part of their degree program?",
+    "count": 1
+  },
+  "Research Implementation Depth": {
+    "question": "Can the candidate detail specific model architectures, optimizations, and comparative analyses they have implemented in a research project?",
+    "count": 1
+  },
+  "Domain Specialization Breadth": {
+    "question": "Is the candidate's technical expertise concentrated in a specific domain like medical imaging, or broad across NLP, multimodal AI, and general machine learning?",
+    "count": 1
+  },
+  "Research Leadership & Initiative": {
+    "question": "Has the candidate initiated, led, or organized significant research activities (e.g., seminars, being a pioneering program member) beyond assigned project tasks?",
+    "count": 1
+  },
+  "Academic & Award Relevance": {
+    "question": "Does the candidate present relevant formal education and competitive awards/accomplishments?",
+    "count": 1
+  },
+  "Applied Engineering Experience": {
+    "question": "Has the candidate developed and tested hardware or software systems for specific engineering applications?",
+    "count": 1
+  },
+  "Professional Presentation Focus": {
+    "question": "Is the candidate's resume structured around concrete professional achievements and technical deliverables, rather than personal narrative and academic interests?",
+    "count": 1
+  },
+  "Academic Honors": {
+    "question": "Has the candidate received notable academic scholarships, grants, or olympiad awards?",
+    "count": 1
+  },
+  "Research in Coding Theory": {
+    "question": "Does the candidate have specific, project-based research experience in error-correcting codes and syndrome decoders using deep learning?",
+    "count": 1
+  },
+  "Primary Role and Output": {
+    "question": "Is the candidate's primary work output focused on building and deploying AI models/software, or on data analysis, product analytics, and hypothesis testing to support business decisions?",
+    "count": 1
+  },
+  "Deployment Platform Focus": {
+    "question": "Does the candidate have specific experience deploying models to edge/embedded devices versus desktop/cloud applications?",
+    "count": 1
+  },
+  "Project Portfolio Complexity": {
+    "question": "Does the candidate's portfolio include multiple, self-directed, end-to-end projects with publicly available code repositories?",
+    "count": 1
+  },
+  "Core Technical Focus": {
+    "question": "Does the candidate's experience primarily demonstrate backend web development or machine learning/data science?",
+    "count": 1
+  },
+  "Project Complexity Scope": {
+    "question": "Does the candidate's project work involve building and maintaining full-stack web applications or developing and evaluating novel machine learning models?",
+    "count": 1
+  },
+  "Primary Development Tools": {
+    "question": "Does the candidate's skill set emphasize web frameworks (e.g., Flask) and associated tools (CI/CD, ORM) or machine learning libraries (e.g., PyTorch, sklearn) and theoretical ML concepts?",
+    "count": 1
+  },
+  "Educational Specialization": {
+    "question": "Does the candidate's education include a specialized, advanced degree program in a technical field?",
+    "count": 2
+  },
+  "Academic Recognition Level": {
+    "question": "Has the candidate received formal academic or conference awards (e.g., best presentation, poster awards) for their work?",
+    "count": 1
+  },
+  "Research Focus Area": {
+    "question": "Does the candidate's research focus on theoretical/computational neuroscience and nonlinear dynamics, or on applied machine learning in computational biology?",
+    "count": 1
+  },
+  "Professional Experience Stage": {
+    "question": "Is the candidate's experience primarily in established academic research roles or in early-career research and educational roles?",
+    "count": 1
+  },
+  "Academic Ranking Distinction": {
+    "question": "Did the candidate achieve a top academic rank (e.g., #1) in a competitive graduate program?",
+    "count": 1
+  },
+  "Publication and Conference Detail": {
+    "question": "Does the candidate provide detailed descriptions of their research contributions in publications or conference presentations?",
+    "count": 1
+  },
+  "Formal ML Coursework": {
+    "question": "Has the candidate completed a formal, structured curriculum of advanced machine learning courses (e.g., Deep Learning, NLP, Reinforcement Learning) as part of their degree?",
+    "count": 1
+  },
+  "Primary Achievement Focus": {
+    "question": "Are the candidate's primary achievements centered on academic/research projects and competition placements, rather than commercial product development?",
+    "count": 1
+  },
+  "Research Leadership Scope": {
+    "question": "Has the candidate led a research team and authored papers in a specialized AI domain?",
+    "count": 1
+  },
+  "Research Depth in Optimization": {
+    "question": "Has the candidate conducted research contributing to theoretical improvements in core machine learning optimization algorithms (e.g., establishing lower bounds for SGD variants)?",
+    "count": 1
+  },
+  "Medical/Biomedical AI Focus": {
+    "question": "Does the candidate have demonstrable research or project experience applying AI/ML to medical data (e.g., EEG, MRI, clinical diagnostics)?",
+    "count": 1
+  },
+  "Academic Research Role": {
+    "question": "Does the candidate's experience include formal roles as a researcher or teaching assistant within a university or research institute?",
+    "count": 1
+  },
+  "Experience Depth in NLP/LLMs": {
+    "question": "Does the candidate have documented, project-based experience engineering complex pipelines with multiple Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG)?",
+    "count": 1
+  },
+  "Technical Skill Demonstration": {
+    "question": "Can the candidate demonstrate applied technical skills through concrete examples in areas like robotics, machine learning, or software development?",
+    "count": 1
+  },
+  "Educational Background Clarity": {
+    "question": "Does the candidate clearly list and describe their educational qualifications, including degrees, institutions, and relevant coursework?",
+    "count": 1
+  },
+  "Applied Computer Vision Focus": {
+    "question": "Does the candidate have documented, applied experience in building and optimizing computer vision pipelines for real-world tasks?",
+    "count": 1
+  },
+  "Achievement Type and Recency": {
+    "question": "Are the candidate's most notable achievements from recent professional work, such as hackathon wins or project integrations, rather than academic competitions?",
+    "count": 1
+  },
+  "Formal Project Management Training": {
+    "question": "Does the candidate hold formal certifications in project or product management?",
+    "count": 1
+  },
+  "Technical Breadth vs. Depth": {
+    "question": "Does the candidate's skill set show broad proficiency across many tools and domains, or deep specialization in a specific technical area?",
+    "count": 2
+  },
+  "Project Complexity & Scale": {
+    "question": "Has the candidate demonstrated experience with end-to-end, production-relevant AI projects (e.g., hackathons, frameworks, published work) beyond small-scale educational demonstrations?",
+    "count": 1
+  },
+  "Advanced Degree Portfolio": {
+    "question": "Does the candidate hold multiple advanced, specialized degrees (e.g., PhD, MBA) and professional certifications (e.g., CFA, ACCA)?",
+    "count": 1
+  },
+  "Domain Application Breadth": {
+    "question": "Has the candidate applied technical skills (e.g., AI, data analytics) to drive measurable business/financial outcomes across multiple high-stakes industries (e.g., private equity, pharmaceuticals, agriculture, nuclear energy)?",
+    "count": 1
+  },
+  "Industry Application Experience": {
+    "question": "Has the candidate applied machine learning and data analysis techniques specifically to optimize the performance of large-scale physical systems like particle colliders?",
+    "count": 1
+  },
+  "Advanced RL Application": {
+    "question": "Has the candidate implemented complex reinforcement learning methods (e.g., for robotics or multi-agent systems) in a simulated or real-world environment?",
+    "count": 1
+  },
+  "Experience Breadth": {
+    "question": "Does the candidate's work history show concurrent roles in multiple laboratories/academic institutions or focused progression within a single industry domain?",
+    "count": 1
+  },
+  "Technical Skill Specialization": {
+    "question": "Does the candidate's technical skill set demonstrate deep specialization in backend web development, DevOps, and database management, as opposed to a focus on data science, machine learning, and biological data analysis?",
+    "count": 1
+  },
+  "Industrial Automation Experience": {
+    "question": "Does the candidate have hands-on experience in automating industrial or manufacturing processes using engineering and ML tools?",
+    "count": 1
+  },
+  "Technical vs. Business Focus": {
+    "question": "Is the candidate's primary expertise in technical engineering/automation or in business development/financial analysis within tech-driven contexts?",
+    "count": 1
+  },
+  "Academic Rank and Tenure": {
+    "question": "Does the candidate hold a senior academic position (e.g., Associate Professor) with a long-term institutional affiliation?",
+    "count": 1
+  },
+  "Technical Skill Self-Assessment": {
+    "question": "Can the candidate provide a specific and honest self-assessment of their technical proficiencies and gaps (e.g., programming, AI)?",
+    "count": 1
+  },
+  "Motivation and Goal Specificity": {
+    "question": "How well does the candidate articulate a clear, specific motivation for pursuing further training, linking it to their past experiences and future research goals?",
+    "count": 1
+  },
+  "Academic Stage & Degree": {
+    "question": "Is the candidate currently pursuing a Bachelor's or a Master's degree, and what is their field of study?",
+    "count": 1
+  },
+  "Academic Focus Depth": {
+    "question": "Does the candidate have a deep, continuous academic background in a core quantitative field (e.g., Mathematics, Computer Science) from secondary through postgraduate levels?",
+    "count": 1
+  },
+  "Industry Experience Specificity": {
+    "question": "Does the candidate have specific, named professional experience in major tech or finance companies (e.g., as a Data Analyst at a leading bank or e-commerce firm)?",
+    "count": 1
+  },
+  "Research Output Nature": {
+    "question": "Has the candidate produced formal, theoretical academic research (e.g., a Bachelor's thesis with mathematical proofs and generating functions) as opposed to applied project implementations?",
+    "count": 1
+  },
+  "Professional Role & Output": {
+    "question": "Has the candidate held formal research/teaching positions and produced peer-reviewed publications, or have their contributions been primarily through coursework and personal/academic projects?",
+    "count": 1
+  },
+  "Primary Technical Methodology": {
+    "question": "Is the candidate's core technical expertise centered on machine learning implementation (e.g., TensorFlow, PyTorch) versus mathematical modeling and experimental biophysics (e.g., COMSOL, microscopy, microfluidics)?",
+    "count": 1
+  },
+  "Academic Leadership Experience": {
+    "question": "Has the candidate supervised graduate students or led research teams in an academic/professional setting?",
+    "count": 1
+  },
+  "Project Portfolio Focus": {
+    "question": "Does the candidate's project portfolio consist primarily of deployed software applications (e.g., web apps, APIs) with clear business/engineering logic, rather than academic research and data analysis projects?",
+    "count": 1
+  },
+  "Technical Project Leadership": {
+    "question": "Has the candidate led the development of a deployed, team-based technical project (e.g., a hackathon-winning application) from concept to implementation?",
+    "count": 1
+  },
+  "Industry-Specific Technical Skills": {
+    "question": "Does the candidate demonstrate direct, hands-on experience with industry-specific tools and platforms (e.g., Bloomberg Terminal, KNIME, Azure) relevant to the target role?",
+    "count": 1
+  },
+  "Multimodal System Development": {
+    "question": "Has the candidate built and integrated end-to-end multimodal (e.g., visual + audio) data analysis systems?",
+    "count": 1
+  },
+  "Robotics & SLAM Expertise": {
+    "question": "Does the candidate have hands-on experience with robotics software (e.g., ROS, Gazebo) and SLAM algorithm benchmarking?",
+    "count": 1
+  },
+  "Project Scope and Autonomy": {
+    "question": "Does the candidate's project experience demonstrate leading research initiatives or implementing defined business solutions?",
+    "count": 1
+  },
+  "Technical Experience Depth": {
+    "question": "Can the candidate demonstrate hands-on experience with a wide range of advanced ML tasks (e.g., model quantization, edge deployment, LLM training) beyond basic model building?",
+    "count": 1
+  },
+  "Advanced Research Experience": {
+    "question": "Has the candidate conducted and published original research involving fine-tuning LLMs for a specific, complex application?",
+    "count": 1
+  },
+  "Professional Work Tenure": {
+    "question": "Does the candidate have over a year of professional, non-internship experience in a role directly applying their technical skills?",
+    "count": 1
+  },
+  "Industry-Specific Technical Experience": {
+    "question": "Does the candidate have hands-on project or internship experience in a specific, mature industry (e.g., power systems, electrical engineering)?",
+    "count": 2
+  },
+  "Academic Teaching Appointment": {
+    "question": "Does the candidate hold a formal, ongoing faculty position (e.g., Associate Professor) at a university?",
+    "count": 1
+  }
+}

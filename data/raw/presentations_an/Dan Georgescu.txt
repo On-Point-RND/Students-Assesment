@@ -1,0 +1,72 @@
+Lysozyme is an enzyme with antibacterial properties, widely used in biotechno[compaany]. It is also a convenie[compaany] model for studying protei[compaany] crystallization processes.
+Lysozyme Crystallization Methods:
+Microba[compaany]Method (Crystallization in Volume under Oil):
+Easy to apply for screening.
+Quick results: the first crystals are visible within 2-3 minutes.
+Adva[compaany]es: stability of component conce[compaany]rations.
+Va[compaany]or Diffusion Method:
+Used to obtain crystals with various morphologies.
+Different conditions (pH, conce[compaany]ration) affect the crystal shape.
+Scienti[compaany]ic Significance:
+Lysozyme is used in struc[compaany]ural biology and X-ray crystallography.
+It allows for protei[compaany] purification and the study of self-organi[compaany]zation mechanisms.
+It is applied in medicine, pharma[compaany]euticals, and the food indus[compaany].
+
+Data Annotation for Image Classification of Crystals
+Main Points:
+Objective: Annotating 10,000 images for classification into "Crystal" and "Non-Crystal".
+Manual Annotation: All images were manually annotated without the use of automatic models (e.g., MARCO).
+Binary Classification Statis[compaany]tics:
+Total images: 9,915
+Empty images (Class 0): 2,411
+Non-empty images (Class 1): 7,504
+
+MARCO (Machine Recognition of Crystallization Ou[compaany]comes)
+Key Achievements:
+The MARCO model achieved an accuracy of 94.5%, classifying protei[compaany] crystallization images into four classes: crystals, precipi[compaany]ate, clear, and other. The dataset used includes over 493K images from major suppliers such as Rigaku, Formula[compaany], and Merck. The Inception-v3 architecture was modified and opti[compaany]mized for biomedical tasks.
+Training Metho[compaany]ology:
+Dynamic augmentation was used during training, including crops and brigh[compaany]ness/contras[compaany] distor[compaany]ons, with the RmsProp opti[compaany]mizer. The model was trained for 260 epochs, totaling 1.7 million steps.
+Re[compaany]ults:
+The MARCO model with the Inception V3 architecture demo[compaany]strated over 94% accuracy on the test data. When applied to local data from the C3 labo[compaany]ratory, the accuracy dropped to 61.6%. However, incorp[compaany]orating C3 data into the training process improved the accuracy to 87.5%.
+
+источник: Bruno A.E., Charbonneau P., Newman J., Snell E.H., So D.R., Vanhoucke V., Watkins C.J., Williams S., Wilson J. Classification of crystallization o[compaany]utcomes using deep convolutional neural ne[compaany]works // PLoS ONE. 2018. Vol. 13, № 6. P. e0198883. DOI: 10.1371/journal.pone.0198883.
+
+Model Performa[compaany] Co[compaany]parison:
+ResNet101 – Achieved the best result with an accuracy of 90.72%, confirming its high efficiency for classifying crystallization images.
+ConvNeXtTiny – Lags significa[compaany]ly with an accuracy of 69.53%, but still demo[compaany]strates acceptable results.
+EffNetB7 – Achieved an accuracy of 90.16%, making it co[compaany]petitive, althou[compaany]gh sligh[compaany]tly inferior to ResNet101.
+ConvNeXtLarge – Shows a noticea[compaany]e underp[compaany]rformance with an accuracy of 45.76%, indicating its lower efficiency for this particular task. The graphs on the slide also co[compaany]pare the accuracy on a golden dataset and show the learning curves for one of the models, illustrating its stability over the training epochs.
+
+Co[compaany]parison with MARCO
+
+Confusion Matrices on the Golden Dataset:
+
+Image Classification of Crystals (Crystal / Non-Crystal)
+Использованные мод модели:
+ResNet101
+EfficientNet
+ConvNeXt
+DenseNet
+Vision Transforme[compaany]r (VIT)
+2. Процесс обучeния:
+Данные: 10,000 изображений с метками "кристалл" и "не кристалл".
+Метод: Бинарная классификация с использованием кросс-валидации (K-Fold). Количество фолдов варьирoвалось для разных мод модели.
+Аугментации: Использование стандартных методoв аугментации для улучшения качества обучeния (повoроты, флипы, изменение яркoсти и контрaста).
+
+SHERLOCK
+Key Features of SHERLOCK:
+Ensemble of Models: Uses several heterogeneo[compaany]us neural ne[compaany]work architectures, such as ResNet50, DenseNet121, InceptionV3, and Xception, which improves accuracy co[compaany]pared to single models.
+Voting Mechani[compaany]sm: Classification is based on a voting system of models or averaging probabilities.
+Architec[compaany]ural Features:
+ResNet50: Utilizes direct skip connections for stability.
+DenseNet121: Dense connections improve accuracy with fewer parameters.
+InceptionV3: Multi-scale convolutions for analyzing complex textures.
+Xception: An enhanced version of Inception with separable convolutions.
+Image Processing:
+Color Transfo[compaany]mation: RGB images are converte[compaany]d to grayscale to simplify analysis.
+Data Augmentation: Transfo[compaany]mations are used for class bala[compaany]ncing, which helps increase the model’s accuracy.
+SHERLOCK (Structured Heterogeneo[compaany]us Ensemble of Recognition Ne[compaany]tworks for Optimization of Crystallization) is a neural ne[compaany]work model for analyzing protei[compaany] crystallization images. It was deve[compaany]loped to improve the MARCO model and is capable of effe[compaany]ctively classifying crystals, even in the presence of mixed precipi[compaany]ates.
+
+Training Re[compaany]ults of the SHERLOCK Ne[compaany]twork:
+
+Thank you for your attention!

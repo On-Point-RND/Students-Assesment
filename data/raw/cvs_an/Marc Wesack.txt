@@ -1,0 +1,81 @@
+[name] [surname]
++2 *** *** ***
+[email]
+LinkedIn GitHub
+SUMMARY
+I am an enthusiastic who is engaged in leveraging tech in programming, circuit design, and interested in the rapid advancement of technology globally, mostly in the field of machine learning. As a student in the field of Artificial intelligence and machine learning, I am interested in opportunities that will provide a platform for me to learn and develop myself by working on new innovations as well as already existing innovations which may require improvement.
+I'm excited to build a foundation that will shape the future of technology.
+LANGUAGE: English: - C1 (Writing & Speaking) Kinyarwanda: - Native
+EDUCATION
+B. Tech Artificial Intelligence and Machine Learning Oct 2022 – June 2026
+[university] [location] [CGPA: 8.90/10]
+Related Course Work: Artificial Intelligence, Machine Learning, Embbeeded Systems, Programmable Logic Control, Computer Organization, Switching Circuit and Logic Design
+RESEARCH INTEREST
+• Computer Vision
+• Artificial intelligence & Machine Learning
+• Deep Learning
+• Embbeeded System & IoT
+PROJECT & EXPERTISE
+▪ PROJECT I | Supervisor: DR. SUKAANT KISHORO BISOY | [university]
+Student Behavior Detection Using YOLOv8: Python, YOLOv8, OpenCV, PyTorch Git: CODE
+- Monitor classroom activities.
+- Enhance teaching strategies based on behavioral analysis.
+- Identify engagement levels of students.
+▪ PROJECT II | Supervisor: DR. ROJALINA PRIYADARSHINI | [university]
+Real Estate Price Prediction Using Random Forest and XGboost: Python, Random Forest, XGBoost, Flask Git: CODE
+- Predicting house prices based on property features.
+- Visualizing trends like regional price differences and market conditions.
+- Providing insights into customer preferences and feature importance.
+▪ PROJECT III | Supervisor: DR. SUKAANT KISHORO BISOY | [university]
+Fooftball Video Analysis: Python, OpenCV, KNN, YOLOv8 Git: CODE
+- Player Detection & Tracking: Identify and track players across frames.
+- Team Classification: Classify players into their respective teams.
+- Jersey Number Recognition: Recognize jersey numbers of players.
+- Event Detection: Detect specific actions like goals, tackles, or passes.
+- Pitch Detection and Segmmentation: Detect the football pitch and its key points.
+▪ PROJECT IV | Supervisor: ASS. PROF DILLIP ROUT | [university]
+Flight Route Planner: Python, Dijkstra's Algorithm, NetwoorkX
+- We worked in team of three students to implement graph algorithm to be specific, Dijkstra's algorithm to find the
+most efficient routes, considering factors such as distance, time, or cost.
+- Integrated real-world datasets for airport and flight schedules, optimizing route selection with additional constraints
+with creation of a user-friendly interface to visualiize routes and provide recommendaations for the most efficient
+flight paths.
+▪ PROJECT V | Supervisor: ASS. PROF TUSAR KANTI DASH | [university]
+UART Control with ADC and Peripheral Interfacing: STM32F445RE, Embbeeded C
+- Worked with a team of two students in developing a menu-driven utility program through Baremetal programming
+of peripherals on STM32 with the knowledge of embedded C to control multiple functionalities using UART
+communication protocol
+- We made use of the on-board Analog-to -Digital Converter (ADC) with another peripheral for functionaliity
+TECHNICAL SKILLS
+▪ General Skills: Machine Learning, IT Automation, Deep Learning
+▪ Soft Skills: Communication, Problem Solving, Critical Thinking, Project Management, Leadership
+▪ Research: Empirical Research, Data Analytics, Statisitical Analysis & Predictive Modeling, Repoртиng
+▪ Programming Languaages: C/C++ (Advanced), Python (Advanced), Java (Advanced)
+▪ Database Management: Oracle, MySQL
+▪ Frameworks & Libraries:
+- Machine Learning & Deep Learning: PyTorch, TensorFlow, Keras
+- Natural Language Processing: NLTK, spaCy
+- Data Analysis & Visualization: Matplotlib, seanborn, Numpy, Pandas, Scikit-learn, Matalab
+- Other Libraries /Tools: OpenCV, Git, Linux, Streamlit, Flask, Microsoft Suite, STM32 Microcontroller
+PUBLICATION
+Conference paper accepteed for publication (Pending Presentation):
+1. E.Isack, M.Vincent, [name], P.K.Dash, M.K.Sherpba and U.K.Bhadan, “Inclusive and Intelligent Traffic
+Management System for Physically Impaired” in proceeding of IEEE 3rd International Conference on
+Advancement in Computation & Computer Technologies (InCACCT2025).
+2. E.Isack, M.Vincent, [name], P.K.Dash, P.N.Yogi and E.Robert, “Integrated Multi-stage Algorithm for
+Personalized Skincare Product” in proceeding to International Conference on Electrical, Computer and
+Communication Technologies (IECCT2025).
+TRAINING AND EXPERIENCE
+STM32 Embbeed C Training Program
+▪ Gained Hands-On Experience through Bare-Metal Programming on STM32 Microcontroller
+▪ Learnt and implemented different communication protocols like UART and SPI.
+Foundaition of Data Visualization
+▪ Deveelopeed interactive visualizations using Python libraries (Matplotlib, Seaborn, Plotly) to analyze and
+interpret machine learning model outputs, enhancing the understanding of model performaance and data trends.
+▪ Implemented data preprocessing and visualization pipelines to clean and visualiize large datasets, facilitating
+more effective feature selection and model evaulation in machine learning projects.
+CERTIFICATIONS
+▪ IT Automation November, 2024 Verify
+Courses: Automating Real-World Tasks with Python, Configuration Management and the Cloud, Using Python to Interact with Operating System.
+REFERENCE
+Reference upon the request

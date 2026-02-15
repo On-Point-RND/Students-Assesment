@@ -1,0 +1,12 @@
+Motivation Letter for SMILES-2025
+Dear SMILES-2025 Committee,
+My fascination with AI began during my computational linguistics studies at [location], where I first explored machine learning for text analysis. This passion has since taken me through [location] to my current role at [company]'s GigaChat team, where I design infrastructure for multimodal LLMs.
+While I've developed strong engineering skills, I'm now eager to transition into AI research - and SMILES-2025 is the ideal platform for this transformation.
+What particularly draws me to your program is how perfectly it complements my technical background. My experience spans: working with LLMs for various NLP applications at the International Laboratory of Applied Network Analysis; developing emotional AI agents at [location]; and building reasoning-focused data pipelines at [company], where I improved model efficiency through data pruning.
+These projects have given me practical exposure to key SMILES focus areas - from reinforcement learning to multimodal systems - though primarily from an implementation perspective.
+While my direct research experience is still developing, I bring solid technical foundations and relentless curiosity. I'm especially excited by the prospect of delving deeper into reinforcement learning for adaptive agents and advancing multimodal reasoning systems at SMILES. The opportunity to learn from leading researchers while collaborating with international peers would be invaluable for my growth as an aspiring AI researcher.
+I believe SMILES-2025's intensive, research-focused environment will provide the perfect bridge between my engineering background and academic research. The program's emphasis aligns perfectly with my goal to transition into research roles focused on innovative applications of multimodal models and reinforcement learning.
+Thank you for considering my application. I would be thrilled to join this year's cohort and embark on my research journey at SMILES-2025.
+Sincerely,
+[name] [surname]
+Machine Learning Engineer, [company]

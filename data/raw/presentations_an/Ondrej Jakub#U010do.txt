@@ -1,0 +1,72 @@
+Slide 1
+----------------------------------------
+NeuroDecon: a Neural Network-based method for volumetric deconvolution of microscopic images
+[name],*, [surname], A.S. [surname], [name], [surname], V.S. [surname], [name], [surname]
+1Laboratory of Biomedical Image and Data Analysis, [location]
+2 Department of Applied Mathematics, [location]
+3 Laboratory of Molecular Neurodegeneration, [location]
+#e-mail: [email]
+
+
+Вступление
+Формулировка проблемы
+Методы 
+
+
+Slide 2
+----------------------------------------
+Fluorescent microscopy is a widespread method of obtaining biological data
+The obtained images are a result of convolution of the real image of the object with the point spread function (PSF) of the optical system of the microscope
+To obtain higher-quality images, deconvolution methods are employed
+The existing iterative methods deconvolution are computationally expensive, require precise PSF estimation and hyperparameter value optimization (the optimal values are unknown)
+An example of an object image aberrated by PSF
+
+1
+Introduction
+
+We propose a Neural Network-based solution ti the problem: NeuroDecon
+
+
+Slide 3
+----------------------------------------
+Feature pyramid network
+A global link to calculate the difference
+The architecture employs residual block integration insteaad of convolution layers
+Example of I* 
+Example of I 
+2
+NeuroDecon structure and data generation
+
+
+Slide 4
+----------------------------------------
+Параметры изображения
+3
+
+Validation on biological data I
+The performance of NeuroDecon was assessed on images of neuronal endoplasmatic reticulum (ER) and compared to an analytical metod RLTV (Richardson-Lucy total variation). 
+NeuroDecon showed an increase in resolution while maintaining a higher signal-to-noise ratio and angular second moment than RLTV.
+NeuroDecon results also showed higher structuraal similarity to a skeleton reconstruction of ER.
+
+
+Slide 5
+----------------------------------------
+4
+
+Validation on biological data II
+The performance of NeuroDecon was assessed on images of neuronal endoplasmatic reticulum (ER) and compared to an analytical metod RLTV (Richardson-Lucy total variation). 
+The parameters of ER network for NeuroDecon and RLTV results were then assessed, revealing that NeuroDecon results retained biological sense and were suitable for further analysis, and RLTV were not. 
+The tubule width for RLTV was shown to be below the established minimal tubule width, and the cisternae could not be segmented properly.
+RLTV
+NeuroDecon
+Confocal
+
+
+Slide 6
+----------------------------------------
+5
+
+Conclusion
+The developed method works faster and produces higher quality results than its analytical alternatives, such as Richardson-Lucy method. 
+NeuroDecon does not require hyperparameter search and is capable of capturing the PSF of any confocal microscope without the need for its precise calculation.
+The results produced by NeuroDecon can be interpreted for biological data harvest and meet the quality standards imposed by machine learning-based analysis methods.

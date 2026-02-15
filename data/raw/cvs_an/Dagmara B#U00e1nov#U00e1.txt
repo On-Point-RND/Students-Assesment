@@ -1,0 +1,84 @@
+[name] [surname]
+[email]
+Practical experience
+Project for [compaany]
+[compaany]
+now «[compaany]»
+Implementation of automatic creation of a voice radio broadcast based on newspapers from the [location] library on a given date
+Course Project
+[compaany]
+«Forecasting Demand for Credit Products»
+2024-2025
+URL to GitHub: https://github.com/[name]-[surname]/ForecastingDemand
++2 *** *** *** Summer Data Analytics Practice
+[compaany]
+[email] 2024 Earned perfect score (10/10) for practice performance and completed 2 major analytics projects:
+Education:
+Customer churn analysis E-commerce hypothesis testing
+[location]
+Data Analytics Internship
+[compaany]
+2016-2023
+2023-2024 Received positive feedback and a deferred offer upon completion.
+Higher SchooL of Economics During the internship, worked with the International Search Analytics Faculty of Computer Science Team, focusing on:
+Applied Mathematics and Informatics
+Log analysis Process regularization
+(Pilot track with advanced mathematics)
+Statistical research Data quality assessment
+2023-2027
+Dashboar development and maintenance
+[compaany]
+Mathmatics and Computer Science
+2024-2028 Hardskills Softskills
+Courses:
+Machine Learning Algorithms Experience Creativity & Idea Generation
+Programming Languages: Python, C++, Kotlin Eagerness to Learn
+[compaany] ML training
+Databases: PostgreSQL, ClickHouse Long-Term Planning Skills
+2025
+Advanced Mathematical Proficiency Teamwork & Communication
+Student Camp MIPT & [compaany]
+AI program Olimpiads
+2025
+Russian National Math Olympiads (Tier I–III)
+2022-2023
+Competitive ML
+Winner & Prize Winner
+2024
+2022 DANO Data Analysis Olympiad
+[compaany] Program
+Prize Winner
+management course
+WorldSkills Regional Championship (Big Data)
+2021
+2024
+Prize Winner
+Course «Data Warehousing»
+PostgreSQL Other activities
+2024
+Teaching at Winter Math Camps
+[school] 2025
+olympiad math courses
+Congress of Young Scientists
+2022-2023 2024 год
+[program] Satellite Event of the Congress of Young Scientists in [location]
+mathematics and theoretical Auto nomous Okrug
+computer science 2024
+2022
+1st Place in the «Ticket to the Arctic» Competiion with business case on
+[company] mineral extraction and processing (PhoosAgro)
+2024
+olympiad math course
+2021-2022 Shortlisted for Changellenge >> Cup Moscow 2024
+2024
+[company]
+algo rithm and data structures (C) Teaching at Summer Math Camps
+2024
+2021-2022
+Victory with an AI implemen taion business case (kick-sharing project, Urent)
+Grants:
+[university]
+[company] 2024
+2025 2024-2025 Authored Data Analysis Problems for DANO Olympiad
+[company] VK education [university]
+2024 2023-2024 2023

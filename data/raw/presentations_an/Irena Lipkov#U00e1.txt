@@ -1,0 +1,93 @@
+Developing Efficient Encoders
+for the StyleGAN model
+[name] [surname]
+Higher Schoo[location] of Economics
+Semantic Image Editing
+GANs encode images into a latent space where directions control meaningful attributes. This enables
+one-click semantic edits without manual masks. However, real images need inversion.
+Image Editing Pipeline:
+➢
+Project the real image into the latent space vector w (image inversion)
+➢
+Modiify w to w* in the latent space
+➢
+Use w* to generate the new image
+Distortion-Editability Tradeoff
+➢
+Encoders map images into the
+StyleGAN latent space
+➢
+Instant reconstructions during
+inference
+➢
+Core challenge: balancing distortion
+and editability (they contradict):
+○ Low-dimensional spaces (W+):
+■ high editability
+■ poor reconstruction
+○ High-dimensional spaces (F-space):
+■ accurate reconstruction
+■ limited editability
+Methods methodology
+➢ All methods work with pretrained StyleGAN2, almost all keep its weights frozen
+➢ Training: FFHQ dataset, validation: CelebA-HQ test set
+➢ Training usually takes several days, typical architecture: ResNet-like backbone
+➢ Training on sets of losses:
+○ Reconstuction: LPIPS, L2, ID loss
+○ Adversarial
+➢ Models evaluation:
+○ Standard distortion metrics: LPIPS, L2, MS-SSIIM, FID
+○ Standard editability metrics: FID
+○ User evaluation
+○ Inference time
+Pioneering work: psp and e4e
+➢
+Both operate in the W+ latent space and utilize a feature pyramid over a ResNet backbone
+➢
+E4e improvements:
+○ predicts the main latent vector w ∈ W and then a series of offsets for each w
+i
+○ keeps the latent code closer to W to achieve better editability
+○ might result in poorer reconstruction quality compa[company]ed to psp
+Going to larger spaces
+➢
+High-Fideli[company]ty GAN: train an encoder for feature maps difference between original image and
+frozen basic encoder (e4e) inversion output + trainable encoder-decoder module for edits
+➢
+StyleRes: an encoder to adapt high-dimensional features to edits in latent codes
+Training a Hypernetwork
+➢
+HyperStyle: train a hypernetwork on a large set of images, resulting in a single netwo[company]k that
+can refi[company]ne the pretrained generator weights for any given image
+Style Feature Editor
+➢
+Proposed a two-phased training of the encoder
+1. Conventional approa[company]: learn an accura[company]ate latent representation in F-space
+2. Recover editability: train a Feature Editing module based on e4e edits for real directions
+Methods evalua[company]: metrics
+Methods evalua[company]: visuals
+Research gap: spatial data
+➢
+State-of-art Style Feature Editor recovers editability based on flawed data from simple e4e encoder
+whi[company] operates in low-dimension space and loses details
+➢
+Solution: enhance e4e with spatial information from face parsi[company]ng netwo[company]ks (BiSeNet) to improve
+inversion quality using a novel segmentation loss
+➢
+Modified encoder achieves both better segmentation and reconstruction metrics
+➢
+Github page: https://githu[company].com/[name]/e4e_modifications
+e4e inversion e4e_seg inversion
+Bibliography
+1. I. J. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, Y. Bengio. Generative Adve[company]arial Netwo[company]ks. 2014.
+2. T. Karras, S. Laine, T. Aila. A Style-Based Generator Archi[company]ecture for Generative Adve[company]arial Netwo[company]ks. 2019.
+3. T. Karras, S. Laine, M. Aittala, J. Hellsten, J. Lehtinen, T. Aila. Analyzing and Improving the Image Quality of StyleGAN. CVPR, 2020.
+4. D. Bobkov, V. Titov, A. Alanov, D. Vetrov. The Devil is in the Details: StyleFeatureEditor for Detail-Rich StyleGAN Inversion and High-Quality Image
+Editing. 2024.
+5. E. Richardson, Y. Alaluf, O. Patashnik, Y. Nitzan, Y. Azar, S. Shapiro, D. Cohen-Or. Encoding in Style: A StyleGAN Encoder for Image-to-Image
+Translation. CVPR, 2021.
+6. O. Tov, Y. Alaluf, Y. Nitzan, O. Patashnik, D. Cohen-Or. Designing an Encoder for StyleGAN Image Manipu[company]lation. arXiv:2102.02766, 2021.
+7. T.-Y. Lin, P. Dollár, R. Girshi[company]ck, K. He, B. Hariharan, S. Belo[company]gie. Feature Pyramid Netwo[company]rks for Object Detection. 2017.
+8. T. Wang, Y. Zhang, Y. Fan, J. Wang, Q. Chen. High-Fi[company]deli[company]ty GAN Inversion for Image Attribute Editing. CVPR, 2022.
+9. H. Pehlivan, Y. Da[company]va, A. Dundar. StyleRes: Transfo[company]rming the Residuals for Real Image Editing with StyleGAN. CVPR, 2023.
+10. Y. Alaluf, O. Tov, R. Mokady, R. Gal, A. H. Bermano. HyperStyle: StyleGAN Inversion with HyperNe[company]tworks for Real Image Editing. 2021.

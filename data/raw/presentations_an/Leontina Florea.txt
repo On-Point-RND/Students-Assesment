@@ -1,0 +1,16 @@
+Topological and Node Noise Filtering on
+3D Meshes Using Graph Neural Networks
+(Student Abstract)
+[name] [surname], [location]. [name] [surname]
+[company], [location]. [company], [location]. [company], [location].
+[email]
+Method
+Experiments & Results
+Experiments & Results
+Ablation studies
+Ablation studies
+Ablation studies
+Demo
+
+
+

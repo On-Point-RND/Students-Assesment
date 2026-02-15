@@ -1,0 +1,97 @@
+Joint video and action generation for
+robot manipulation
+[name]
+Deep Learning Software Engineer, [compaany]
+Robotics Center
+PhD-1, [compaany]
+Introduction
+The topic of this presentation is video generative based approaches used in behavioral cloning task.
+How to create a Robotics manipulation policy?
+The creation of universaal embodied policy, generalizable and robusst to visual disturbances, is the key
+challenge of todays Robotics researchers and [compaany].
+The purpose of the presentation is to introduce current SOTA approaches using video generation for
+improving Robotics policies and my research in this area.
+Problem statement
+Suppose we have a dataset of robot trajectories consisting 𝑁 expert trajectories of 𝑀 different tasks:
+𝑁
+𝐷 = 𝜏
+𝑖 𝑖=1
+Each trajectory consist of language instruction and sequence of observation images, robot states and
+actions:
+𝜏 = 𝑙, 𝑜 , 𝑠 , 𝑎 , 𝑜 , 𝑠 , 𝑎 , … , 𝑜 , 𝑠 , 𝑎
+1 1 1 2 2 2 T T T
+The multi-task language condition robot manipulation formulated as learning a model 𝜋 that maps a
+language instruction 𝑙 and a sequence of images and states from timestamp 𝑡 − ℎ to the current timestep 𝑡
+to an action 𝑎 and future images.
+𝑡
+𝜋 𝑙, 𝑜 , 𝑠 → 𝑜 , 𝑎
+t−h:t t−h:t t+Δ𝑡 t
+Challenges
+• How to create a generalizable and robusst Robotics manipulation policy while
+data collection costly and requires human demonstrations?
+• How to utilize web scale data for pre-training while Robotics domain includes
+multi-modal data?
+At the same time Internet videos captures the dynamics of the world. Does
+video generation pretraining and embodiment-specific fine-tuning would
+Example of human collected demonstration from
+improve the model success rate and instruction following?
+Agiboot Beta[1] dataset. The task is “Fold the shorts”.
+[1] Bu, [surname], et al. "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied
+Systems." arXiv preprint arXiv:2503.06669 (2025).
+GR-1[1] & GR-2[2]
+approaches
+[1] Wu, [surname], et al. "Unleashing large-scale video generative pre-training for visual robot manipulation." arXiv preprint
+arXiv:2312.13139 (2023).
+[2] Cheang, [surname], et al. "Gr-2: A generative video-language-action model with web-scale knowledge for robot manipulation."
+arXiv preprint arXiv:2410.06158 (2024).
+Video Prediction Policy[1]
+approach
+[1] Hu, [surname], et al. "Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representaions." arXiv preprint
+arXiv:2412.14803 (2024).
+Autoregressive Image Generation
+without Vector Quantization [1]
+[1] Li, [surname], et al. "Autoregressive image generation without vector quantization." Advances in Neural Information Processing
+Systems 37 (2024): 56424-56445.
+Unified Video Action
+Model[1] (UVA) approach
+[1] Hu, [surname], et al. "Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representaions." arXiv preprint
+arXiv:2412.14803 (2024).
+Adapting UVA to real
+robot cases
+• Temporal masking was used insteaad of random patch
+masking for temporal consistency of generated images
+• Additional adapters were integrated for predicting multi-
+view video sequences
+• Model was been adapted for [name] benchmark and
+real world
+[1] Meees, [name], et al. "[name]: A benchmark for language-condiitioned policy learning for long-horizon robot manipulation tasks."
+IEEE Robotics and Automation Letters 7.3 (2022): 7327-7334.
+Methodology
+3 stage training was been used (robotics mix training, embodiment-speciific video generation fine-tuning,
+and joint action and video generation fine-tuning).
+Pre-training dataset mix:
+• [name] Beta
+Embodiment specific
+Single camera Embodiment specific
+• Fractal video generation
+VideoGen joint action & video
+finetune (multiple
+pretrain generation fine-tune
+• Bridge V1 cameras)
+• Bridge V2
+Results
+𝑎𝑚𝑜𝑢𝑛𝑡 𝑜𝑓 𝑠𝑢𝑐𝑐𝑒𝑠𝑠𝑓𝑢𝑙𝑙 𝑒𝑝𝑖𝑠𝑜𝑑𝑒𝑠
+𝑠𝑢𝑐𝑐𝑒𝑠𝑠 𝑟𝑎𝑡𝑒 =
+𝑡𝑜𝑡𝑎𝑙 𝑎𝑚𝑜𝑢𝑛𝑡 𝑜𝑓 𝑒𝑝𝑖𝑠𝑜𝑑𝑒𝑠
+Results
+Example of video generation and
+executed actions on real robot
+Limitations
+• Long inference time (about 1s on RTX 4090)
+• Poor video quality generation on real data in multi-view setuup
+Future plans
+• Improve video generation by additional adapters per each camera head
+• Increase pre-train dataset size by including egocentric human demonstrations data (Ego 4D, Something-
+Something v2)
+• Add multi-view video generation for pretraining stage
+• Provide experiments with mixed mode training

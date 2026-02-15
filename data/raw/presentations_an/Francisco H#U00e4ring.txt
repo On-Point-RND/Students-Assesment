@@ -1,0 +1,92 @@
+“Antibody-Inspired Aptamer Generation”
+[name]
+1st year Master’s student, [compaany]
+Introduction
+Antibodies are immunoglobulins that specifically bind to an antigen.
+Antibodies are used in diagnosis and therapy (diagnostics of cancer, pneumonia, hepatitis, HIV, infertility, therapy of rheumatoid arthritis, systemic lupus erythematosus, Crohn's disease and many others).
+Aptamer
+Despite the widespread use of antibodies, there are a number of disadvantages. For these reasons, alternative solutions began to appear. And one of these alternatives is aptamers
+Aptamers are synthetic single-stranded DNA or RNA molecules capable of binding specifically to a variety of target molecules.
+The purpose is to create a model that takes information about an antibody at the input, such as its amino acid sequence, and information about a target molecule, and outputs the nucleotide sequence of an aptamer at the output.
+22
+Antibody
+- Aptamers have several advantages over antibodies as molecular probes for clinical diagnostics, including superior specificity, reproducibility, and stability.
+- Despite the advantages of aptamers, their adoption in clinical diagnostics has been slow, likely due to a widespread use of antibodies and significant financial investments in antibody development
+Aptamer
+Antibodies Aptamers
+Production method In vivo, cell culture Chemical Synthesis, SELEX
+Storage conditions At subzero temperatures At room temperature
+Production price and time antibodies requires prolonged and expensive in vivo procedures production
+Can bind certain epitopes that antibodies cannot bind (toxic substances)
+Lower immune response 33
+Antibody
+Design and Prediction of Aptamers Assisted by In Silico Methods
+New in silico methods open up new possibilities in the field of aptamer development.
+Deep learning and machine learning techniques are being applied for prediction of aptamer-target interactions and for predicting the 2d and 3d structures of aptamers.
+Secondary structure:
+CentroidFold, RNAstructure, Vfold2d
+Tertiary structure:
+RNAComposer, 3dRNA, Vfold3D, and SimRNA
+4
+AptaNet as a deep learning approach for aptamer–protein interaction prediction
+AptaNet, a deep learning model, achieved high performance in predicting aptamer-protein interactions on a benchmark dataset.
+Aptamers were encoded by using two different strategies, including k-mer and reverse complement k-mer frequency.
+The amino acid composition and pseudo-amino acid composition were employed to encode the protein sequences
+5
+stages of work
+Data cleaning Encoder and Validation: filters and predictive models, augmentation training experiment
+Generation of an aptamer for a given protein
+Data collection from protein and aptamer databases
+Embedding
+Calculation
+8
+Methods
+• Approach: Name the ML techniques/algorithms used.
+• Why these methods? Briefly justify your choices.
+• How it works (simply): Give a 1–2 line intuition.
+• Data & preprocessing: Mention key steps like cleaning data, feature extraction, or splitting into train/test sets.
+Databases
+12
+9
+Search for matches by target names
+Save if:
+Using the script, we get the Uniprot ID for the target from the antibody and apta
+the first matches
+Uniprot ID 70% of the matches UniprotID
+10
+Triplets are intersections that are necessary for training the model
+Number of intersections: 16693
+11
+Proposed architecture
+Antibody sequence
+IgBert/IgT5/
+antibody
+Antiberty μ
+embedding
+5'GGAGGCCCUCCUCCCAGU3'
+σ
+target
+Protbert
+The apta
+embedding
+sequence
+The target sequence
+target
+embedding
+trebanr
+Prospects for scaling up the project
+Testing more complex architectures
+Extending the approach to other types of proteins
+Adding data on the structure of molecules
+13
+Bibliography
+https://doi.org/10.3390/molecules24234377
+1.
+2.
+DOI:10.3390/biomedicines11020356
+DOI https://doi.org/10.1038/s41598-020-79682-4
+3.
+DOI https://doi.org/10.1038/s41598-021-85629-0
+4.
+DOI https://doi.org/10.1038/s41598-020-79682-4
+5.

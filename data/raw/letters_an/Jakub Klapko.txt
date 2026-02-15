@@ -1,0 +1,14 @@
+[name] [surname], M.Sc. Student, Data Science [compaany]
+Email: [email] Phone: +2 *** *** ***
+April 20, 2025
+Introduction
+My name is [name], and I am currently a Master’s student in the Data Science program at [compaany]. Prior to this, I graduated from the [location] Aviation Institute ([compaany]), where I studied Applied Mathematics. During my undergraduate studies, I worked as a software engineer focused on flight dynamics simulation and modeling of aircraft. This experience sparked my interest in intelligent control systems.
+Later, I became particularly fascinated with robotics and reinforcement learning (RL), which led me to develop my graduation project on the topic of “Reinforcement Learning for Aircraft Control”. Currently, I am working as a research engineer, focusing on 3D reconstruction in computer vision.
+My research interests
+My main scientific interests lie in the field of computer vision, specifically in 3D scene reconstruction and its applications in robotics. At present, I am involved in a project aimed at constructing a knowledge graph based on 3D scene reconstructions obtained using the recent method known as Gaussian Splatting. The quality of the reconstructed environments is high enough to be integrated into simulation frameworks, which allows us to use them for training and testing autonomous navigation algorithms
+Summer school for me and me for summer school
+But after two parts of my research and scientific life it’s still not clear, why I want to participate in summer school. In a few sentences below I will describe why I am a beneficial choice for the Summer School and vice versa why the School is valuable for me.
+I suppose that the best candidates should be researchers which are already make some steps in research in AI area, which are familiar with fundamental concepts and have experience working on some problems. Here am I. The person who is familiar with many concepts in deep learning and also has experience working on projects. Perfect match.
+From the backwardside, I also suppose that summer school can give me research inspiration. The situation is that I want to continue to make a research in the “Computer Vision” domain, since it’s very high hopeful topic, but my current research theme exhausted itself, as is very beautiful technology, which have very narrow application area. This encouraged me to look at other research in this area. Since the School offers several topics that could be interesting to me as a potential area of research (generative models, multimodal approaches, etc.), I believe this is a great opportunity for me to explore issues and approaches, and to inspire a new research topic.
+Thanks to those who read this letter, I hope it will help you form an opinion about me and make a decision.
+Sincerely, [name] [surname]

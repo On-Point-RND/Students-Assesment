@@ -1,0 +1,31 @@
+[name] [surname]
+[email]
++2 *** *** ***
+
+[location]
+[email]
+
+[compaany]
+[location]
+[email]
+
+SMILES-2025
+19/04/2024
+Subject: Motivation Letter for SMILES-2025
+Dear SMILES-2025 Selection Committee,
+Growing up, my favorite question was always: How does it work?
+This curiosity started when I built my first Lego truck at the age of two and a half—an advanced set intended for seven-year-olds. Ever since, I have been captivated by how machines think, move, and interact with the world. My journey began in robotics, but it is artificial intelligence that now fuels my ambition.
+At school, I immersed myself in engineering challenges: I built green walls with moisture sensors, designed robots for competitions, and experimented with 3D modeling and computer vision. As my projects grew in complexity, I realized that sensors and mechanical precision alone were not enough.
+To make a machine truly intelligent—capable of adaptation, autonomy, and understanding—it needs a brain. That is when I discovered machine learning.
+Since then, I have been actively expanding my skills in AI and data science. My first major project applied decision trees to trading strategies using only technical indicators. The goal was to test the common belief in algorithmic trading. The results were humbling: while the algorithm outperformed most existing models in terms of structure and interpretability, it could not guarantee consistent profitability. This experience taught me the value of explainable ML and the importance of understanding not just the data, but its limits.
+My most recent and significant research project, “The Knowledge Tree: To Reveal Concepts in Natural Texts with Complex Networks,” pushes deeper into the intersection of AI and knowledge systems. I developed a method to convert scientific texts into complex interpretable networks, producing a knowledge graph with over 52,000 nodes and 200,000 edges. I implemented clustering algorithms (DBSCAN, Wishart) with word embeddings (CBOW) to reveal deep thematic connections between disciplines. Using spaCy, NetworkX, and Fuzzy RDF Query algorithms, I laid the groundwork for subgraph isomorphism search—a tool that could one day generalize scientific knowledge and even propose new hypotheses. I am proud that this project contributes to the long-term goal of expanding scientific knowledge.
+Alongside research, I have also tested my applied skills in real-world settings. In a hackathon hosted by [compaany], my team created a novel scoring system using machine learning to evaluate credit risks, increasing prediction precision by 17%. I also took part in the Robotics & Innovation program at [compaany], where I developed algorithms for mapping and path planning in autonomous robots. These diverse experiences—from symbolic networks to localization algorithms—fuel my passion for one day integrating them into intelligent systems.
+I am currently pursuing a degree in Applied Mathematics and Computer Science at one of [location]'s leading universities ([compaany]), where I rank in the top 10% of students. My academic focus is on AI and ML, and I also work as a teaching assistant in linear algebra, helping others grasp the mathematical foundations that underpin modern artificial intelligence.
+What excites me about SMILES-2025 is its unique blend of technical rigor, international collaboration, and forward-looking themes. The program’s focus on large language models, multimodal systems, and AI safety is directly aligned with my current interests. I am particularly drawn to the emphasis on multi-agent systems and generative models, which I believe are essential to the next generation of AI-powered robotics.
+Moreover, SMILES-2025 stands out by fostering Russian-Chinese collaboration. China’s AI ecosystem is one of the most dynamic and visionary in the world. Engaging with researchers from both countries and being mentored by global experts will be an invaluable experience. The hands-on seminars and hackathons, as described, promise to sharpen my practical skills and help me test my ideas in new domains.
+Looking ahead, my career goal is to build autonomous systems capable of operating in environments that are unreachable or dangerous for humans—space, deep oceans, underground. In the next decade, I believe AI will become the irreplaceable core of robotics: replacing algorithmic or human control with learning agents, enabling real-time adaptation, and allowing machines to reason and plan. I want to be part of this transformation.
+Participating in SMILES-2025 will not only deepen my understanding of cutting-edge AI technologies but also connect me with peers and mentors who share the vision of building intelligent systems for the future. I am confident that this experience will be a pivotal step in my journey toward becoming a leading researcher and engineer in the field.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
+[name] [surname] Cover Letter

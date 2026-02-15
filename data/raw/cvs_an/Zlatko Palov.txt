@@ -1,0 +1,89 @@
+[name] [surname]
+PERSONAL INFORMATION
+Date of birth: August 8, 2002
+Citizenship: [location], residencial: [location] or [location]
+Github: https://github.com/[name]
+EDUCATION
+Bachelor graduation, [location] Universiity of Science and
+Sep 2021 - Aug
+Technology, Applied mathematics and informatics .
+2024:
+GPA: 4.75 (out of 5.0). Diploma with Honours.
+Sep 2024 - Current: [location] Universiity of Finance and Economics,
+language year. Have passed HSK 4.
+RESEARCH EXPERIENCE
+Sep 2021 - Current: Published 6 scientific articles in RSCI on different
+mathematical topics
+Bachelor degree project is Investigation of time
+series of percolation sensor currents under
+condiitons of potentiostatic chronoamperometry
+of liquid media
+SCOLARSHIP
+Jul-Aug 2023: Search [compaany] Rn-Bashnipineft in Hydrodynamics department
+ADDITIONAAL TRAINING
+Introduction to Python. The workshop
+Aug 2023:
+Participating in winter schoo l made by HSE Faculty
+Feb 2024:
+of Computer Science
+Aug 2024- Current: Introduction to machine learning, series of lectures
+by [name] (MIPT), The Python Generation: a
+course for begi nners and a course for advanced
+students, Introduction to Data Science and
+Machine Learning ([compaany])
+SKILLS
+Programming: Python (NumPy, Pandas, Matplotlib), MATLAB, MapleGeneral:
+Mathematical Modeling: PDEs, Fluid Dynamics, Control Theory
+Machine Learning: Linear & Lo gistic Regression, Decision Trees, SVM, K-Means,
+PCA, Random Forest, XGBoost
+Mathematical Founda tions: Probability Theory, Optimization (Gradient
+Descent, L-BFGS), Bayesian Methods
+Tools: Micr osoft Office (Word, Excel, PowerPoint)
+ACHIEVEMENTS
+Winner of the Mathematical modeling Olympiad “I am a professi onal”,
+pa rticipated in the Interna tional Youth Fe sti val for scienti fic publications.
+PROJ ECTS
+Time Series Analysis in Percolation Sensor Currents
+Developed a model to anal yze percolation sensor data under
+chronoa mpemetry conditions.
+Applied PCA metho d to anal yze time series infinite-dimensional dynamical
+systems with a global attractor and use Python libraries for pattern
+recognition.
+Fluid Storage Control using PID Controller
+Investigated control methods for liquid storage opti mization.
+Implemented a simulation in MATLAB to co mpa re control strategies.
+PUBLICATIONS
+1. SCHRODI NGER EQUATION AND CONSERVATION LAWS
+[name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname]
+2. CONSERVATION LAWS OF THE NONLINEAR SCHRODI NGER EQUATION
+[name] [surname], [name] [surname], [name] [surname], [name] [surname],
+[name] [surname]
+3. CONTROL OF THE LIOUID STORAGE USING THE PID CONTROLLER
+[name] [surname], [name] [surname],
+4. THE LAWS OF CONSERVATION OF THE SYSTEM OF TWO EVOLUTI ONARY
+EQUATIONS OF A SPECIAL KIND
+[name] [surname], [name] [surname], [name] [surname]
+5. COMPARISON OF RELATIVE ERRORS OF NUME RICAL METHODS FOR
+SOLVING BOUNDARY VALUE PROBLEMS
+[name] [surname], [name] [surname], [name] [surname], [name] [surname]
+6. THE CHARA CTERISTIC LIE RING OF THE EQUATION UY = UX + F(U)
+[name] [surname], [name] [surname], [name] [surname]
+CONFERENCE PRESENTATIONS
+The 7th Interna tional Confere nce NONLI NEAR ANALYSIS AND EXTREMAL
+PROBLEMS(2022) with the talk “Fluid Storage Control with a Propor tional-
+integrally Differen tiating Solver”
+LANGUAGES
+Russian (native), English (fluent), Chinese (hs k 4)
+EXTRACU RRICULAR AC TIVITIES AND HOBBIES
+Kara te (black belt), social events (uni versity’s activity, dance, photography)
+REFEE REES
+[name] [surname]
+[name] [surname]
+Assis tant professor Department of
+Chief Researcher of the labo ratory
+”Mechanics of Multiphase Systems”,
+Mathe matical Research, [location]
+phone: +2 *** *** ***
+E-mail: said52@mail.ru
+phone: +2 *** *** ***,
+E-mail: reginaufa@yandex.ru

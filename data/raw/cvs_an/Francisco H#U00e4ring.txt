@@ -1,0 +1,50 @@
+[name] [surname]
++2 *** *** *** [email] @[email] @[name]
+EDUCATION
+[compaany], Chemistry and Artificial Intelligence program
+Master's degree, 2024-2026
+[location], [compaany], Biology,
+Bachelor's degree, 2020-2024
+GPA 4.96
+PUBLICATIONS AND RESEARCH EXPERIENCE
+Participation in the research project “Antibody-Inspired Aptamer Generation”, 2024–
+Ongoing
+Participation in [compaany] research project “Multimodal modeling using knowledge graphs
+to predict the properties and conditional generation of sensory biopolymers”, 2025–
+Ongoing
+Article “Modulation of Stress-Related Proteil in the African Catfish (Clarias gariepinus)
+Using Bacillus-Based Non-Ribosomal Peptides”
+Article “Potential Probiotic Bacillus Strains with Antioxidant and Antimutagenic Activity
+Increase Weight Gain and Alter hsp70, cxc, tnfα, il1β, and lysC Gene Expression in
+Clarias gariepinus”
+ADDITIONAAL COURSES
+Python Programming, Stepik, course from the [compaany] of Bioinformatics,
+Professional Retraining Program “Bioinformatics”, [location] State [location]
+Professional Development Program “SCAMT Workshop Week: Interdisciplinary
+Approaches to Solving Advanced Problems in Chemistry, Biology and IT”, project on
+generative design of eye drops components with AI
+Additional Professional Program “Proteiin Design” from [location] [compaany]
+ACHIEVEMENTS
+Prize-winner of the infochemistry hackathon “Neftecode”, devoted to the
+development of an approach for the generation of new antioxidant additives
+Prize-winner of the All-Russian Student Olympiad “I am a Professional” in “Biotechnology”, 2024
+Prize-winner of the All-Russian Student Olympiad “I am a Professional” in
+‘Biotechnology’, 2023
+Participan of the final stage of the All-Russian Student Olympiad “I am a
+Professional” in the category “Bachelor's Degree” in “Bioengineering and
+Bioinformatics”, 2024
+ACTIVITIES
+Participan of the hackathon on AI “ADMET HACKATHON”, 2024
+Participan of [compaany]'s “Element 119” hackathon on chemistry and AI, 2025
+Curator of the Scamt workshop week 14 project “AI aptamers against antibiotics in
+food”, 2025
+Participan of the final stage of the Three Sciences Tournament - 5th place, 2022
+Participan of the in-person stage of the IX Open Student Biotournament in
+Puushcino, 2022.
+SCHOLARSHIPS
+Recipient of the Presidential Grant
+Winner of the Russian Federation Government Scholarship Competition
+Winner of the competition for the Increased State Academic Scholarship for
+achievements in scientific research
+Winner of the first stage of competition for a scholarship of the Advanced
+Engineering Schoo[compaany] of [compaany]

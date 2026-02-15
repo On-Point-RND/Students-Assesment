@@ -1,0 +1,50 @@
+Name: [name]
+Current Position: Master’s Student in Data Science, [location]
+Research Focus: NLP, AI, and Multilingual Bot Detection
+Contact: [email] | +7 *** *** ***
+Academic Background
+ Master’s in Data Science ([location] University)
+ Thesis: Semantic Trajectories Analysis for Bot Detection
+ Focus: Differentiating human vs. bot-generated text in underrepresented languages (Lao, Luxembourgish).
+ Methods: Word2Vec, FastText embeddings + Wishart clustering.
+ Impact: Contributes to NLP tools for content authenticity.
+ BSc in Software Engineering ([location] Taxila, Pakistan)
+ Final Project: Android app for home maintenance services (full-stack development).
+Research & Technical Expertise
+ Key Areas:
+ NLP & AI:
+ Bot detection, multilingual text analysis, embeddings (Word2Vec/FastText).
+ Publication on Blockchain + IoT + AI for Supply Chain Security (ResearchGate).
+ Data Science:
+ Wildfire prediction (ML models), plastic waste mapping (remote sensing).
+ Software Development:
+ Android, Java, Python, PHP, SQL.
+ Tools: Juypter, Orange, SPMF, Android Studio, Firebase.
+Professional Experience
+ IT Manager ([compaany]):
+ Network maintenance, digital marketing, event logistics.
+ Test Engineer ([compaany]):
+ QA testing, project scoping, collaboration with dev teams.
+ Internships:
+ Leverify ([location]): Web dev (WordPress/PHP).
+ FHA Tech: Android development.
+Projects & Achievements
+ Projects:
+ Hotel/Library/Hospital Management Systems (OOP, Web Dev).
+ Ball Tracking (Image Processing).
+ Awards/Certifications:
+ Google IT Support (Coursera), AI modules (PIAIC), SEO/Graphic Design.
+ Workshop: IT Awareness & Network Security.
+Why Skoltech?
+ Alignment: Skoltech’s strengths in AI, NLP, and Data Science match my research (bot detection, multilingual NLP).
+ Goals:
+ Expand expertise in GeoAI (remote sensing, environmental modeling).
+ Collaborate with Skoltech’s research labs on AI-driven solutions.
+ Unique Contribution:
+ Multilingual NLP experience + software engineering skills.
+Conclusion & Future Vision
+ Short-term: Enhance NLP techniques for low-resource languages.
+ Long-term: Develop AI tools for content authenticity and environmental monitoring.
+ Quote: "Bridging language barriers and ethical AI—one algorithm at a time."
+ Thank You!
+Q&A

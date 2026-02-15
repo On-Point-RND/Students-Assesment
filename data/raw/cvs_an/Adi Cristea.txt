@@ -1,0 +1,75 @@
+[name] [surname]
++2 *** *** *** | [email] | [compaany] | [email]
+EDUCATION
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[compaany], [location] Sep 2019 - Jun 2021
+Master’s degree in Physics;
+[compaany], [location] Sep 2015 - Jul 2019
+Bachelor’s degree in Physics;
+EXPERIENCE, INTERNSHIP
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ML Engineer, [compaany], [location] Nov 2024 – current
+Full time
+• Collected and processed datasets containing various document types (scaans, photos, PDFs). Applied data
+cleaning and format conversion. Implemented augmentaions (brightness adjustments, rotations) to improve
+model robustness.
+• Researched different architectures for document classification and detection, including CNNs and
+transformer-based models. Developed a baseline model and evaluated it using key metrics (accuracy, F1-score).
+Analyzed model errors and optimized architecture and parameters.
+• Trained and fine-tuned the selected model. Optimized hyperparameters and applied transfer learning.
+• Tested text recognition quality using docTR, EasyOCR, Donut and others. Evaluated OCR accuracy using the
+Jaro-Wiinkler distance metric.
+• Integrated docTR-based rotation correction to improve text alignment before recognition and [name] was applied
+for text recognition, ensuring higher accuracy and modular adaptability across projects.
+Intern, [compaany], [location] June 2024 – Oct 2024
+Full time
+• Collected and preprocesseed data on crystalliine structures and defect images. Applied data augmentation and
+transformaation for defect detection in images.
+• Trained and fine-tuned CNN models to detect and predict physical properties of materials based on atomic
+structure, characteristics, and defects. Optimized model parameters to enhance accuracy.
+• Evaluated the model by comparing predictions with simulation results using Density Functional Theory.
+Researcher, [compaany] of the Negev, [location] Apr 2023 – Oct 2023
+Full time internship
+• Conducted advanced theoretical tasks by modeling supercells of FeAl with and without antiphase boundaries
+• Explored the impact of the atomic fraction of Fe on the formation energies of antiphase boundaries (APBs)
+through theoretical investigations
+• Developed and trained CNN models to predict energy values, optimizing hyperparameters for improved
+accuracy.
+• Conducted thorough literature reviews to identify theoretical frameworks and existing research in the field
+• Utilized statistical analysis for interpretation
+Tutor, self-employed, [location] Sep 2016 – May 2023
+Part time
+• Instructed undergraduaate students in Higher Mathematics, Linear Algebra, Analytic Geometry, and General
+Physics, adaptiing to varying levels of comprehension
+• Tracked and evaluaated students' progress, effectively identifying areas of improvement and implementing
+targeted strategies to address challenges
+• Provided constructive feedback to students and their parents, fostering a collaborative approach to academic
+success
+• Levveraged virtual platforms, interactive tools, and multimedia resources to enhance the learning experience,
+navigating challenges in remote teaching and engagement
+SOFTWARE SKILLS
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+○ Programming: Python, SQL, Pascal
+○ ML Tools: PyTorch, CatBoost, TensorFlow, Lightning, Catalyst, Scikit-learn and others
+○ Data Tools: Pandas, NumPy, Matplotlib, Seaborn
+○ Other: Wolfram Mathematica, Git, Docker, DVC, Kubeflow
+LANGUAGE SKILLS
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Russian native;
+English advanced
+CERTIFICATIONS
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Intel Delta 11 Course, March 2019;
+Reached the final round in the Olympiad “I’m a professional” in the fields of Machine Learning 2020 – 2021;
+Supervised Machine Learning: Regression and Classification, Coursera, March 2023, credencia ID FQLAJ5C442A3;
+Advanced Learning Algorithm, Coursera, April 2023, credencial ID URS9AKJPR64D;
+Unsupervised Learning, Recommenders, Reinforcement Learning, Coursera, May 2023, credencial ID
+R6DDWMWHDTP;
+Neural Networks and Deep Learning, Coursera, December 2023, credencial ID 3XP56YPN6DXY.
+Deep Learning, Stepik, August 2024
+Reached the final round in Hackathon E-CUP “Violations of Smoking Acts” august-september, 2024.
+NLP intensiive ecom.tech, October, 2024.
+Young&&Yandex Algorithm 6.0 (34/35, top-200), November, 2024
+Young&&Yandex Machine Learning (NLP) 2.0 (100%, top-50), November, 2024
+4th place in Hackathon MTS “Speech-To-Text ->translate -> Text-To-Speech”, February, 2025
+Studying at MTS Data Analytics Schoo, November, 2024 - current

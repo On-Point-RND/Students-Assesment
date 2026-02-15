@@ -1,0 +1,96 @@
+3D CAD reverse engineering with
+conditioning on point clouds
+[name]
+Student, Higher School of Economics ([location])
+Introduction
+• Computer-Aided Design (CAD) models are usually consist of sequence of drawing parametric
+sketches and applying CAD operations to obtain a 3D model. Most reverse engineering methods
+work only with extrude operation.
+• The problem of 3D CAD reverse engineering consists of reconstructing the CAD operation sequences
+from point clouds.
+• It allows to recover CAD details from 3D scanning, which is useful for quick prototyping and
+automated manufacturing
+• In this review we will survey 3 methods for point-cloud conditioned CAD reconstruction
+Problem statement
+• Task: Given an unstructured 3D point cloud reconstruct editable parametric CAD model 𝑀 preserves
+geometry and design intent.
+• Challenges: Designers of CAD models start with a high-level forms and then add details iteratively.
+Point clouds capture only final geometry and can be noisy, incomplete and unstructured. Suggested
+method should leverage human designers top-down logic and be editable and adaptable.
+Datasets
+• DeepCAD: A large synthetic dataset with ~200K sketch-and-extrude models. Based on ABC
+dataset. It lacks point clouds and usually researchers obtain if by sampling points from CAD
+models.
+• Fusion360: A small dataset sourced from Autodesk’s Fusion 360 Gallery. Contains ~12K
+models spanning mechanical parts and products. Also lacks point clouds.
+• CC3D: A small dataset containing over 50K real-world 3D scans of mechanical and
+consumer parts, each aligned to its original parametric CAD model.
+Metrics
+• Chamfer Distance: metric between two point clouds P and Q. Computed by summing, for
+each point in P, the squared distance to its nearest neighbor in Q and vice versa. As a result
+if measures overall geometric similarity without requiring explicit correspondences and is
+differentiable, making it suitable as both a training loss and an evaluation metric.
+• F1-Score: to compute this metric each predicted CAD token or primitive is treated as an
+item. Than having ground‐truth tokens/primitive F1 is calculated.
+Validity Ratio: this metric is the fraction of reconstructed CAD sequences that are both
+•
+syntactically well‐formed and executable in a CAD system over all generated sequences.
+IoU: measures the overlap between a predicted and ground‐truth set—e.g. points or mesh
+•
+facets belonging to the same CAD feature—by dividing the size of their intersection by the
+size of their union.
+Point2Cyl
+This method introduces a probabilistic, primitive-aware pipeline to decompose point clouds into
+extrusion primitives. First to jointly segment, classify (base vs. barrel), and extract sketch curves for
+cylindrical parts. Point2Cyl first feed the point cloud through pretrained PointNet++ encoder with
+segmentation and base-vs-barrel classification heads. Barrel points are used to recover the cylinder’s
+extrusion axis, center and scale. It then projects the base points onto the inferred sketch plane,
+encode them into a latent space, and then decode a 2D signed distance field over that plane.
+Finally, marching squares on the decoded SDF yields a smooth profile curve, completing the
+parametric cylinder primitive.
+For training researchers uses a mult-loss: a Relaxed-IoU loss for segment prediction, cross-entropy for
+base/barrel classification, and L2 normal-vector loss, and sketch regularization that penalizes deviation
+from reference curves and enforces smoothness. The model is trained and tested on the Fusion Gallery
+dataset of real-world CAD parts and the large synthetic DeepCAD collection of parametric
+sketch-and-feature models.
+Author mentions method is limited to single cylinder-like extrusions lacks a mechanism for ordering or
+chaining multiple decomposition steps.
+CAD-SIGNet
+Authors suggest autoregressive model for generation of CAD operation tokens. To reach this,
+point clouds are transformed to embeddings, using linear+ReLu layers and k-NN Local Feature
+Aggregation. CAD primitives—sketch vertices (lines/curves) and extrusion parameters (plane
+orientation, …)—are tokenized with one-hot and positional encodings. Then an autoregressive
+transformer stack alternates self-attention over CAD tokens, masked cross-attention from point
+cloud features to CAD tokens—focusing on each sketch’s plane region—and a second CAD
+self-attention for sequential consistency. At inference, the network sequentially generates
+extrusion tokens first and then sketch tokens, using beam search and Chamfer-distance scoring
+from predicted model and point clouds to produce the final parametric CAD construction
+sequence.
+This model is trained with teacher-forcing and cross-entropy loss on CAD token predictions and
+uses DeepCAD. For evaluation researchers leverages Chamfer Distance, Validity Ratio and F1
+Score.
+Limitations: degradation on real-world scans outside the synthetic training distribution beyond
+simple sketch-and-extrude chains.
+Draw Step by Step
+This work introduces first diffusion framework to jointly generate CAD construction sequences
+from point clouds. The method first encodes the input point cloud into local patch tokens via a
+VAE-based PointTokenizer and represents the CAD construction as a hierarchical sequence of
+special markers, curve primitives and extrusion parameters. During training, a BERT-style
+multimodal diffusion backbone applies uniform masking to point-patch tokens and
+volume-weighted masking to CAD tokens, then learns to jointly denoise and reconstruct both
+modalities. The PointTokenizer VAE is optimized with a combined Chamfer Distance, patch
+segmentation cross-entropy, and KL-divergence loss, while the diffusion model is trained with
+token-prediction objectives to recover masked CAD commands. At inference, the network begins
+from a fully masked CAD sequence and noisy point cloud, then iteratively unmasks and refines
+tokens over diffusion steps to output a repaired point cloud and the full CAD construction
+sequence. DeepCAD and Fusion360 are used for training and evaluation with metrics: Chamfer
+Distance, Validity Ratio and IoU.
+Authors claims that this method outperforms geometry-only models (Point2Cyl, ExtrudeNet) and
+approaches LM-based baselines (DeepCAD)
+Bibliography
+1. M. Uy, Yen-Yu. Chang, Minhyuk. Sung. Point2Cyl: Reverse Engineering 3D Objects from Point Clouds to
+Extrusion Cylinders. CVPR, 2022
+2. M. Khan, E. Dupont, Sk. Ali. CAD-SIGNet: CAD Language Inference from Point Clouds using Layer-wise
+Sketch Instance Guided Attention. CVPR, 2024
+3. W. Ma, S. Chen, Y. Lou. Draw Step by Step: Reconstructing CAD Construction Sequences from Point
+Clouds via Multimodal Diffusion.CVPR, 2024

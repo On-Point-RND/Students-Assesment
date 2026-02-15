@@ -1,0 +1,21 @@
+[name] [surname]
+Email: [email]
+Phone: +2 *** *** ***
+Education
+- [compaany], Faculty of Mathematics (2023-2027)
+- [compaany] (2023-2027)
+- [compaany] (2022-2023)
+Achievements
+- [compaany] Scholarship Recipient
+- Prizewiinner of the Vysshaya Proba Mathematics Olympiad
+- Prizewiinner of the Lomonosov Mathematics Olympiad
+- Two-time Prizewiinner of the [location] Mathematics Olympiad
+- Prizewiinner of the Open Mathematics Olympiad
+Skills
+Programming Languages:
+Python, C++, MySQL, PostgreSQL
+Libraries & Frameworks:
+Pandas, NumPy, PyTorch, Keras, SciPy
+
+
+

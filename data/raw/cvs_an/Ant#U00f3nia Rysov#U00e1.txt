@@ -1,0 +1,67 @@
+[name]  Contacts
+ [location]  Age: 21 years old
+ +2 *** *** ***
+ [email]
+ @[name]
+ Education  Languages
+2027
+English
+Expert: [compaany]
+C1 - Advanced
+Faculty of bioengineering and bioinformatics
+Spanish
+B1 - Intermediate
+French
+B1 - Intermediate
+ Courses
+2022
+Machine learning: [compaany]
+MSU
+2023
+Chinese
+MSU
+A2 - Elementary
+ Skills
+Deep Learning: [compaany]
+MSU
+2024
+● Python
+Deep learning schoo[compaany] (DLS): FPMI
+MIPT Expert
+● R
+2025
+Artificial Intelligence schoo[compaany]: FPMI MIPT, Yandex, Experienced
+● SQL
+ Projects Skilful
+● bash
+•Course project "Annotation and prioritization of non-coding variants Skilful using modern neural networks " (scientific supervisors D. D. [surname],
+A.O.[surname])
+•Project "Application of parenclitic networks to fraud detection in ● Deep Learning
+banking" (scientific supervisor I.A.[surname]) ● Mathematical statisitics
+•Pet Project "Development of a Multi-Task Recommenda[compaany] System
+for Predicting User Actions (Clicks/Add-to-Cart/Purchases) in E-
+● Algorithms and data structures
+Comme[location]"
+•EDA Project "Analysis of Physiological Parameters in Diabetic Patients ● Bioinformatics, Bioa[algorithms]
+and Disease Progr[ession] Prediction Using Machine Learning Models" ● Git
+•Statis[tical] Analysis "Differentia[l] Gene Expression Analysis" (R langua[ge]
+p[roject])
+•Course project "Compa[rative] genomics of RBFOX RNA-binding
+protei[ns]" (scientific supervisors: D.D. [surname], S.A. [surname]) Deve[loped]
+an algo[rithm] querying genomic databases, conducted bioinfo[r]matic
+analysis (identi[fying] novel evolutionar[y] elements in gene sequences)
+Conferences:
+•Winter Schoo[l]-Conf[erence] on Bioinfo[r]matics at the Faculty of
+Computer Science, HSE (2025)
+•Lomonosov Interna[tional] Scie[ntific] Conf[erence] for Students and Young
+Scie[ntists], Bioengineering and Bioinfo[r]matics Section (2025)
+Algo[rithms] in Biology:
+•Modeling nucleo[tide] sequences with Markov models of varying orders
+•Implemen[tation] of EM clustering algo[rithm]
+•Construction of Hidden Markov Models for restriction sites
+•Smith-Waterman algo[rithm] imple[mentation] with linear/affine gap
+pena[lties] (based on Levenshtei[n] distance mi[nimization])
+•Motif discovery using MEME and FIMO
+•HMM profile construction for protei[n] families
+For details on these and other projects, please visit my academic por[tfolio]
+website.

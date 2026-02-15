@@ -1,0 +1,33 @@
+[name] [surname]
++2 *** *** *** | [email] | [compaany].com/[name][surname]
+Education
+Higher SchooL of Economics [location]
+BSc: Applied Mathematics and Informatics, 3rd year August 2022 – May 2026
+Technical Skills
+Languages: Python, C/C++, SQL (Postgres), Java
+Frameworks: torch, tensorflow, lightning, hydra
+Dev Tools: Git, PyCharm, VS Code, IntelliJ, Docker
+Libraries: numpy, pandas, ultralytics, sklearn, tensorboard
+Projects
+Vintix Domain Exploration | pytorch, numpy, gym, docker, pytest February 2025 – June 2025
+• Created a Docker image to work with the HumEnv environment
+• Integrated Metamotivo as an expert demonstrator
+• The repository is private and not yet released, so unfortunately I cannot prove this work
+SmartTrafficLight | Python (Torch, sumo-rl, traci) May 2024 – June 2024
+• Trained a speed-recommending agent in the SUMO simulator using Deep-Q-Learning
+• Added a Value Decomposition modification that improved metrics and outperformed the classical GLOSA
+algorithm
+LLM Fine-tuning for Generating Negative IMDB Reviews | Python (torch, transformers, transformers-rl)
+November 2024
+Course project for [compaany] NLP course
+• Trained an evaluator model (BERT-like) before training the main model
+• Used PPO and the evaluator model to fine-tune GPT2 for generating more negative reviews
+Statistically Informed Normalizing Flows | Python (Torch, numpy, nflows, scipy, tensorboard)
+August 2024 – January 2025
+• Implemented a pipeline for context-conditioned modeling of complex probability distributions using simpler ones
+• Implemented AR(p) and MA(q) process classes for use as base and target distributions
+More detailed project description
+ARHammer40000 | Python (gymnasium, opencv, torch), CVAT July 2023
+• Implemented a basic Q-Learning agent based on the FrozenLake game from gym
+• Converted top-down photos into game board inputs and generated actions for a robot
+P.S. More detailed project note

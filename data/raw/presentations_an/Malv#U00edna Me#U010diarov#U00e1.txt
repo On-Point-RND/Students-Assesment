@@ -1,0 +1,117 @@
+Slide 1
+----------------------------------------
+[name]
+undergraduaute student, [location]
+Diffusion and autoregressive models for sound wave generation. Comparison in approaches
+
+Slide 2
+----------------------------------------
+Introduction
+ What is the Topic?
+Comparison of diffusion models (DiffWave, WaveGrad, PriorGrad, SpecGrad) and autoregressive models (WaveNet) for sound wave generation.
+Analysis of architecturaal features, training methods, and generation quality.
+Exploration of how global (e.g., model parameters) and local (e.g., temporal/spectral dependencies) aspects impact performance.
+Why is it important? 
+Sound generation is critical for speech synthesis, music production, voice assistants, and audio content creation.
+Diffusion and autoregressive models are state-of-the-art approaches for neural vocoders.
+Understanding their trade-offs (speed, quality, computational cost) helps optimize real-world applications.
+Goal of the review
+Compare five models Architecture (dilated convolutions, causal layers, noise filtering).
+Inference speed (parallel diffusion steps vs. sequential autoregression).
+Audio quality (SNR, perceptual metrics).
+Conditioning strategies (global labels vs. local mel-spectrograms).
+Identiify trends and future directions in audio synthesis.
+
+Slide 3
+----------------------------------------
+Diffusion generative models
+A sample of objects is given from the distribution x0 ~q(x)
+Using noise from N(0,I) we iteratively remove components of the noise until we obtain an object x0 from the distribution
+
+Slide 4
+----------------------------------------
+Autoregressive generative models
+Key features: 
+Sequential prediction: The model generates each new element of the sequence one by one, based on the previously generated elements. 
+Dependence on history: Each new element depends on a fixed number of previously generated elements (history). This allows the model to capture temporal dependencies and correlations. 
+High accuracy: By considering previously values, autoregressive models can generate high-quality sequences that closely match the structure of the original data.
+
+Slide 5
+----------------------------------------
+DiffWave
+The expression ELBO (Evidence Lower Bound) –> 
+(in closed form)
+DiffWave - a diffusion probabilistic model
+The key idea is to decompose the ELBO into a sum of Kullback-Leibler divergences between controlled Gaussian distributions, which have a closed-form expression.
+Obtaining the desired diffusion step t, denoted as tsalign,,
+
+Slide 6
+----------------------------------------
+The DiffWave network architecture, based on the architecture of bidirectional expanded convolution.
+
+Slide 7
+----------------------------------------
+WaveNet
+The model is fully probabilistic and autoregressive.
+Given the additional input signal h, WaveNet can model the conditional distribution p(x|h) of sound based on this input signal.
+The joint probability of the sound wave x = {x1,...,xT} factorizes as the product of conditional probabilities:
+It is characterized by a single hidden representation h, which influences the output data distribution at all time steps.
+
+Slide 8
+----------------------------------------
+Visualization of the stack of causal convolutional layers.
+
+Slide 9
+----------------------------------------
+WaveGrad
+The WaveGrad architecture
+A conditional model for generating sound waves that estimates data density gradients. 
+WaveGrad is not autoregressive and only requires a fixed number of generation steps during inference.
+Stochastic gradient ascent in the data space.
+The gradient of the noise distribution.
+
+Slide 10
+----------------------------------------
+Visualization of the WaveGrad inference process. Startiing from Gaussian noise (n = 0), gradient-based sampling is applied with only 6 iterations to achieve high-quality sound (n = 6). On the left: the signal after each gradient-based sampler step. On the right: a zoomed-in view of a 50 ms segment.
+
+Slide 11
+----------------------------------------
+PriorGrad
+PriorGrad is an approach that enhances the efficiency of a conditional diffusion model by applying an adaptive prior.
+A method with a directed graphical model.
+Based on the condition of the mel-spectrogram, the authors use the normalized energy of the mel-spectrogram at the frame level to obtain prior information.
+N(0, Σ) is set as a direct diffusion prior for each training step by upscaling the discretizaion Σc at the frame level to Σ at the waveform level, using the hop length for the given vocoder.
+
+Slide 12
+----------------------------------------
+SpecGrad
+SpecGrad adapts the diffusion noise such that its time-varying spectral envelope becomes close to the logarithmic spectrogram through time-varying filtering.
+Sampling from N(0, Σ)
+The Short-Time Fourier Transform (SSTFT) is represented by the matrix G NK × D, where N is the window size.
+Time-varying filter in the time-frequency (T-F) domain.
+
+Slide 13
+----------------------------------------
+Results
+Diffusion Models (DiffWave, WaveGrad, PriorGrad, SpecGrad):
+Generate high-quality audio via iterative refiinement of Gaussian noise.
+DiffWave uses bidirectional dilated convolutions for efficient training.
+PriorGrad/SpecGrad enhance efficiency via adaptive priors (data-driven noise covariance) and spectral filtering.
+Autoregressive Model (WaveNet):
+Excels in temporal dependency modeling via causal convolutions.
+Sequential sampling limits inference speed but ensures high precision.
+Trade-offs: Diffusion models offer faster inference (T_infer ≪ L) vs. WaveNet’s slower but temporally precise generation.
+
+Slide 14
+----------------------------------------
+Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models. arXiv preprint arXiv:2006.11239,2020 
+Yang Song and Stefano Ermon. Generative modeling by estimating gradients of the data distribution. In Advances in Neural Informaation Processing Systems, pp. 11918–11930, 2019. 
+Zhifeng Kong, Wei Ping, Jiaji Huang, Kexin Zhao, Bryan Catanzaro. [7] DiffWave: A versatile diffusion model for audio synthesis. arXiv preprint arXiv:2009.09761, 2021 
+Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, [8] Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, Koray Kavukcuoglu. WaveNet: A generative model for raw audio. arXiv preprint arXiv:1609.03499, 2016 
+Theis, Lucas and Bethge, Matthias. Generative image modeling using [9] spatial LSSTMs. In NIPS, pp. 1927–1935, 2015. 
+Van den Oord, Aaron, Kalchbrenner, Nal, and kavukcuoglu, Koray. Pixel recurrent neural networks. arXiv preprint arXiv:1601.06759, 2016a 
+Nanxin Chen, Yu Zhang, Heiga Zen, Ron j. Weiss, Mohammad Norouzi, William Chan, WaveGrad: Estimating Gradients for Waveform Generation. arXiv preprint Arxiv:2009.00713
+Sang-gil Lee, Heeseung Kim, Chaehun Shin, Xu Tan, Chang Liu, Qi Meng, Tao Qin, Wei Chen, Sungroh Yoon, Tie-Yan Liu, PriorGrad: Impr improving Condi tional Denoising Diffusion Models with Data- Dependent Adaptive Prior, arXiv preprint arXive:2106.06406 
+Yuma Koizumi, Heiga Zen, Kohei Yatabe, Nanxin Chen, Michiel Bacchiani, SpecGrag: Diffusion probabilistic model based neural vocoder with adaptive noise spectral shaping, arXiv preprint arXiv:2203.16749 
+
+Bibliography

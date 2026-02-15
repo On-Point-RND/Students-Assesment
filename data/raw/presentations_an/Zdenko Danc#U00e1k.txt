@@ -1,0 +1,99 @@
+Neural [compaany]-Based Routing Congestion Prediction Using Initial Layout Parameters
+[name], [name], [name], [name], [name]
+SMILES-2025
+20.04.2025
+Problem Statement
+• Routing congestion is the ratio of
+routed wires to available routing
+tracks within a specific area (e.g.,
+a grid square).
+• A higher congestion value
+indicates a more difficult routing
+situation and may lead to design
+rule violations or failed routing.
+Congestion map in OpenRROAD tool
+2
+Importance of Early Congestion
+Estimation
+Floorplan
+• The ability to estimate routing
+congestion early in the design flow
+Placement
+allows engineers to adjust the layout
+— such as cell placement — to
+mitigate problematic areas in Routing
+advance.
+• This can significantly reduce the Physical
+Verification
+number of EDA tool iterations and
+decrease total design time.
+Timing Analysis
+3
+Overview of Existing Approaches
+• Routing congestion prediction has been addressed using classical
+machine learning and deep learning models:
+– Gradient Boosting
+– Convolutional Neural Networks (CNNs)
+– Graph Neural Networks (GNNs)
+– Generative models (e.g., U-Net)
+• Most existing approaches rely on post-placement features
+• Initial layout parameters (e.g., core utilization, power grid, number of
+metal layers) are typically not taken into account, despite their significant
+influence on routability.
+4
+Routing Congestion Prediction Using Initial Layout
+Parameters
+● Core utilization
+● Power grid type
+● Number of metal layers
+● Layer adjustment
+Hypothesis: These parameters have a significant impaact on final routing
+congestion.
+5
+Impact of Initial Parameters on Final Congestion
+Map
+6
+Models
+● U-Net
+● Attention U-Net
+● Pix2pix
+Attention U-Net and Pix2pix are
+variations of vanilla U-Net
+U-Net architecture from the
+original paper
+Input Features
+RUDY Cell density
+Partition
+8
+Pipeline
+9
+Results
+10
+Results
+UNet Attention Unet Pix2pix
+w/o params 0.488 ± 0.015 0.484 ± 0.016 0.469 ± 0.024
+w/o partition 0.559 ± 0.046 0.553 ± 0.007 0.520 ± 0.056
+w/o density 0.575 ± 0.012 0.572 ± 0.019 0.572 ± 0.009
+ours 0.603 ± 0.010 0.602 ± 0.008 0.616 ± 0.007
+Kendall Correlations
+11
+Results
+UNet Attention Unet Pix2pix
+w/o params 0.708 ± 0.058 0.651 ± 0.027 0.643 ± 0.02
+w/o partition 0.815 ± 0.001 0.809 ± 0.006 0.713 ± 0.009
+w/o density 0.780 ± 0.014 0.777 ± 0.013 0.765 ± 0.025
+ours 0.817 ± 0.019 0.812 ± 0.006 0.834 ± 0.006
+Pearson Correlations
+12
+Conclusions
+• The proposed approach allows estimating routing congestion
+without performiing the routing stage.
+• Initial layout parameters significantlly affect both congestion
+and prediction accuracy.
+• The main challenge lies in choosing an appropriate data split
+strategy for training and testing.
+• Future work includes expanding the dataset by a factor of
+50–100.
+12
+Thanks for your attention!
+[email]

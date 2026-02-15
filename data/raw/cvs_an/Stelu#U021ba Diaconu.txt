@@ -1,0 +1,44 @@
+[location], 420124,
+ZA K I R O V A
+[location], ul.
+Chetaeva, d. 46,
+AI N U R A kv.149
++2 *** *** ***
+[name][surname]aynura_zakirova
+[email]
+Professional • AI Engineer at [compaany] specializing in Python development for artificial intelligence Profile solutions. Passionate about advancing my AI expertise through continuous learning and implementation. Hard-working, responsible, and always eager to expand my technical knowledge.
+Education • 2018 – 2022 BSc Applied Mathematics and Informatics, [location] Federal University (GPA – 5.0/5.0)
+2020 – 2023 Additional Education Program: Translator in the Field of professional communication (English)
+[location] National Research Technical University named after A. N. Tupolev – KAI
+2022 - 2024 MSc Data Science and Artificial Intelligence, [location] University (GPA – 5.0/5.0)
+Professional • 01.08.2021 – 20.11.2021 Streamline Consulting, [location]
+Experience Business consultant
+Responsibilities: Check and supplement the TOR; work with Jira, SAP, and SAC; check data for errors.
+Sometimes I had to deal with SQL and R languages.
+• 04.07.2024 – [compaany], [location]
+Assistant Engineer
+Responsibilities: Build models and train them for specific tasks, analyze results, improve performance. Work with data.
+Projects • Course work (bachelor)
+The task was data analysis and statistical research of the causes of stroke.
+Namely, it was necessary to study the data to predict which characteristics have the greatest impact on stroke.
+Technologies: regression models - linear, logistic, and Lasso. Factor analysis was used, and a ROC-curve was constructed.
+• Thesis (bachelor)
+Task: To make a forecast of the dollar exchange rate based on previous exchange rate values, taking into account the impact of news.
+Technologies: library for news parsing (feedparser, data processing (SpaCy, nltk, Natasha, navec), training (Dostoevsky, RuBert, TF-IDF Vectorizer, CNN), Forecasting (ARIMA, XGBoost).
+• Scientific Work
+Writing an article "Image generation using a text description."
+• Work on a machine learning project related to generation of images from a text description for an online store.
+• Work on a big data project related to prediction of transaction fraud.
+• The Smart Search AI Hackathon project. Creating a chat for document search using LLM (won 2nd place).
+• A project on the ML-PRO course from the Bank of Russia and VTB Bank on generating content for PDF Oiles (OCR, NLP) (participation in Data Fusion conference as speaker).
+• Participation in AI autumn school ASCOMP 2024 in [location] University and presenting the poster with the thesis work.
+• Thesis(master): a framework for recommendation systems based on LLM (LangChain, RecBole). (https://github.com/ainura-z/llm-for-rec) (Work together with professor from AIRI Dmitry Kiselev)
+Technical Skills • Programming languages: Python (middle - Pytorch Framework), Spark (junior), MongoDB(junior), Neo4J(junior), SQL (junior), MATLAB (junior); R (junior).
+• Design: Adobe XD (beginner), Figma (beginner).
+Linguistic Skills • Russian – native;
+• Tatar - native
+• English – B2
+Certificates • nd
+Certificate for 2 place in AI Hackathon
+Topics of interest • Generative models, optimization methods, Agent Systems.
+Personal qualities • I am a responsible person. I know how to work in a team. I am interested in new tasks and open to new projects. I love mathematics.

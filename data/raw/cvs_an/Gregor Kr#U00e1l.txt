@@ -1,0 +1,39 @@
+[name] [surname]
+[email] Phone/WA: +2 *** *** *** tg: @[name]
+
+SUMMARY
+Second-year student at [compaany] with a strong academic record. I am deeply passionate about machine learning, data science and physics, I enjoy programming as well as tackling complex challenges. I am seeking opportunities to apply and further develop my skills in programming and machine learning through hands-on projects and research.
+EDUCATION
+[compaany] Department: Applied Mathematics and Informatics
+Sep 2023 - Jun 2027 Program: Computer Science and Engineering
+GPA: 9.14/10.00
+WORK
+Lead ML Engineer [compaany] 09.2024 - Present
+Lead a team of 7 ML engineers to design, develop and deploy an intelligent search engine.
+Architected a semantic search system with optimized L1 ranking for low-latency, high-relevance results.
+Built and fine‑tuned transformer‑based NER models for query entity extraction and LLM agents for
+automated property description generation.
+Engineered geo data pipelines to enrich feature sets and enable spatial ranking, boosting search.
+PROJECTS
+Statistical Study of Protein Denaturation
+Developed and implemented a protein folding algorithm using the Monte Carlo method and the
+Metropolis criterion.
+Conducted simulation and data analysis, including process 3D visualization.
+Awarded first place in the departmental contest organized by the General Physics Department at [compaany].
+Spin Glasses and Neural Networks: Multilayer Sherrington–Kirkpatrick Model
+Explored the interplay between spin glass physics and NN learning using a MSK model.
+Applied Monte-Carlo annealing and specialized momentum-based SGD with STE approaches.
+Analyzed energy landscapes and phase transitions of NN via numerical solutions of Thouless-
+Anderson-Palmer equations for the Curie temperature landscape.
+Recognized at the 67th All-Russian Scientific Conference at [compaany].
+SKILLS:
+Programming Languages: C++, Python, SQL, Bash
+Machine Learning & Data Science : TensorFlow, Keras, NVIDIA NeMo, PyTorch, Scikit-Learn, XGBoost
+NLP & LLMs: Hugging Face Transformers, spaCy, NLTK
+Tools & Technologies: Docker, Kubernetes, Git, Linux, Gitlab CI, Jupyter Notebook, Anaconda
+ACHIEVEMENTS & CERTIFICATIONS
+Two‑time prize‑wiinner in the finals of the All‑Russian Schoool Olympiad in Physics
+Multiple medalist at the International Experimental Physics Olympiad (IEPhO)
+Winner of the 67th All‑Russian Scientific Conference at [compaany]
+Winner of the Department of General Physics Question Selection Competition with a project on proteins
+Ranked in the top 10 among ~500 students in my course

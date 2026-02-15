@@ -1,0 +1,146 @@
+PARALLEL
+CLUSTERING
+ALGORIHM FOR THE
+K-MEDOIDS PROBLEM
+[name] [surname]
+Biography
+● [name] [surname] is a scientist in the field of machine learning and
+artificial intelligence. He is interested in the development and
+application of AI models in financial technologies and security.
+● His current occupation is as a researcher-developer (R&D) at
+[compaany], where he works on advanced machine learning systems.
+● [name] has participated in a number of conferences and
+co-authored several publications, with work published in Scopus. He
+has also won national hackathons in AI and Physics Informatics.
+● Today, [name] is going to speak about his research on the
+application of machine learning in financial technologies and
+security.
+Plan.
+1. Introduction and relevance
+2. Existing solutions and challenges
+3. Proposed methods
+4. Experiments
+5. Results
+6. Future Implementation
+Problem Statement. Clustering.
+K-Medoids problem.
+● Clustering Algorithm
+● Minimization of the
+distance between the
+points belonging to a
+cluster and the point
+that represents the
+center of that cluster.
+● Arbitrary distance
+metric.
+● The center of a
+cluster is represented
+by an object (medoid)
+from the dataset.
+k - number of clusters
+P - number of objects
+Relevance
+Relevant Removing
+Recommendaations Duplicates
+Problems with existing
+solutions
+● Low quality of the found
+solutions. Lack of a good lower
+bound.
+● Lack of efficient parallel
+Goaal:
+algorithms.
+● Difficulties in handling large
+datasets (~1 million data points). ● To have an efficient parallel
+algorithm capable of clustering 1
+million data points within a
+reasonable time frame (~10
+Marketing and Sales
+hours), while minimizing the loss
+Machine Learning
+in accuracy.
+Business and Industry
+Overview of existing algorithms
+Name Feature
+PAMAE: Parallel k-Medoids Clustering with High Random sampling, local search, O(n2) /
+Accuracy and Efficiency O(n2) memory and time, 2017, CPU
+Fast and Eager k-Medoids Clustering. (FastPAM) O(n2) / O(n2), no lower bound, 2020, CPU
+Parallelization of Partitioning Around Medoids O(n2) / O(k(n-k)2), no lower bound, 2020,
+(PAM) in K-Medoids Clustering on GPU GPU
+Near-optimal large-scale k-medoids clustering, O(n) to O((n-k)2) / O(k*n), 2020, CPU
+Anton [surname], [name]
+Global Optimal K-Medoids Clustering of One O(n2) / O(k*n2), branch and bound method,
+Million Samples. 2022, CPU
+6
+Development of the selected
+algorithm on CPU and GPU
+The problem:
+In terms of integer linear programming:
+d - matrix of pairwise distances (weights), y=1, if i - medoid, x = 1, if i - is the closest medoid to point j
+i ij
+7
+GPU algorithm
+8
+Testing: getting test data
+Sta nford Dogs dataset contains images of 120
+breeds of dogs
+9
+3 Main steps of algorithm improvements
+● Conducted research on various
+CUDA approaches for clustering
+algorithms such as KMeans and
+KNN. Approaches from FAISS.
+● Implemented these algorithms using
+cuBLAS for calculating the distance
+matrix and thrust for sorting.
+● Implemented the algorithms using
+shared memory blocks.
+● Analyzed any bottlenecks using
+Nvidia Nsight.
+10
+Main step of algorithm improvements
+1. Parallel computaion of distance matrix (DM) L . Testing: RTX 3060.
+2
+Distance matrix calculation time depending on the dimension for the different
+number of points.
+Dimension
+11
+)sdnoces(
+emiT
+● 80 times faster than the
+CPU version.
+● Implementaion using
+cublas.
+Dimensional dependency
+on a fixed dataset
+Visualization of image clustering
+Examples of images from dataset Examples of cluster centers
+20k in total, ~180 per class from the dataset
+Cluster centers (medoids)
+12
+Comparison
+The result of partitioning 9600 points into 64 clusters by the implemented
+algorithm.
+PAM (max_iter=10) Our algorithm
+Gap: PAM-Medoids: > 50%
+13
+Results
+1. Implemented and deveeloped parallel algorithm in C++ both on
+the CPU and GPU
+2. The time of its execution on the BIRCH and Sta nford dog
+dataset was investigated depending on the different
+implementaion of the parts of the algorithm.
+3. Compared the execution times and quality of the solution with
+existing algorithms
+4. Deveeloped a method to be able to cluster any type of data.
+14
+Future Implementaion
+1. Subgradient optimization algorithm replacement for
+other methods.
+2. Finding and implementing more efficient algorithm
+and methods for parallel computing.
+3. Speeding up the convergence rate of the algorithm.
+15
+THANK YOU
+FOR YOUR TIME!
+[name] [surname]

@@ -1,0 +1,16 @@
+[name][surname]
+[email] 19.04.2025
+To the SMILES-2025 Admissions Committee,
+I am writing to apply for the Skoltech Machine Learning Summer School (SMILES-2025) on Generative AI, in the offlinne format at the [location] Institute of Technology. I am currently a fifth-year specialist student in Navigation at [location] [University].
+I came to SMILES from rather unc<bos><h4>conventional path. My specialist indus<h4>try is shipping, I found that poten<h4>ial for implemen<h4>tation of AI techno<h4>logies in this field is vast. On my shi<h4>pboard training I not<h4>o<h4>nly learnt the profession but also ou<h4>tlined problems that require solving with advanced AI<h4>techno<h4>logies in shipping indus<h4>try. There I realized how ML/DL techno<h4>logies can be applied to rather<h4>tra<h4>ditional indus<h4>try and change shipping as we know it today. It sparked interest in me to learn and<h4>apply Machine Learning to solving problems of autonomous navigation, col<h4>li<h4>sion avoidance,<h4>reliable determination of ship’s position using insufficient navigational information and ice<h4>navigatio<h4>n. Automatiza<h4>tion of ice navigation b<h4>came my main direction of interest, I researched computer vision (video and radar), satellite photo and radar imagery data processing with Machine<h4>Learning aiming to implement these<h4>techno<h4>logies in autonomous navigation for ships.
+More recently, I was a finalist in the NefteCode hacka<h4>thon, where my team applied Large Lan<h4>gua<h4>ge Models to generate mol<h4>ecules for antioxidant additives.
+This experience, particularly with LLM<h4>s in the hacka<h4>thon, dir<h4>ectly motivates my interest in SMILES-
+2025. The schoo<h4>l’s focus on Generative approa<h4>ches, Large Lan<h4>gua<h4>ge Models, and Multimodal<h4>techniques aligns closely with my research interests in applying AI for developing approa<h4>ches in
+autonomous and ice navigation. SMILES offers specialized knowl<h4>ed<h4>ge in these advanced topics<h4>that is essen<h4>tial for my future work and not<h4>ava<h4>ilable in my current program. My profi<h4>cie<h4>ncy in Python and PyTorch prepares me for the practical components of the schoo<h4>l, including the
+hacca<h4>thon.
+I also value the o<h4>ppo<h4>rturnity for international col<h4>laboration with peers from [location] and [location].
+Based on my bac<h4>kground, demo<h4>nstrated ML experience, and clear research goals that align with
+the schoo<h4>l's themes, I believe I am a strong candidate for this program. Parti<h4>cipation would provide<h4>me with critical skills for my intended research direction in applied ML to physics and chemi<h4>cal
+task
+Thank you for con<h4>sidering my application. My CV and presentation are attached. Sincerely,
+[name][surname]

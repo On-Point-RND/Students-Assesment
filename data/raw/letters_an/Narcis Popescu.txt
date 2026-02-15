@@ -1,0 +1,34 @@
+Dear Selection Committee,
+I am writing to express my sincere interest in joining your upcoming Machine
+Learning & Deep Learning Summer School. As someone who is deeply passionate
+about artificial intelligence, I view it not just as a techno logical trend but as a
+transformative force capable of changing lives — and I aspire to be among those who
+steer this transformation. Attending your school is a unique opportunity to strengthen
+my technical foundation, connect with like-minded peers, and grow both as a
+researcher and a person.
+My primary motivation in pursuing machine learning is to use technology to
+improve people’s lives and health. One of my long-term goals is to contribute to
+increasing human lifespan and improving its quality through medical AI applications.
+I believe that well-designed models can support early diagnosis, monitoring, and
+personalized treatment — and I want to be part of that future. My Master’s thesis,
+which focuses on classifying ECG signals using Transformers and KAN models,
+directly aligns with this ambition. I was able to compress the model 30-fold while
+maintaining performance, making it deployable on simple microcontrollers — a
+crucial step for use in everyday healthcare devices.
+In addition to my academic work, I’m deeply inspired by sharing knowledge. I
+believe that knowledge is one of the most powerful forces that drive our world
+forwards — and I am committed to contributing to this movement by helping others learn and grow. Whether it's organizing AI hackathons or creating resources for
+beginners, I find joy and purpose in enabling others to discover the power of machine
+learning.
+Beyond the classroom, multi-agent systems are a personal area of fascination.
+As a hobby, I develop agent-based games and simulations that explore emergent
+behavior, coordination, and decision-making — a creative outlet that reinforces my
+understanding of autonomous systems and intelligent agents.
+What excites me most about your summer school is the opportunity to combine
+cutting-edge theoretical insights with hands-on practical challenges, all while
+engaging with a vibrant and driven community. I am especially eager to explore
+advanced topics in computer vision and AI agents, and to collaborate with other
+participants who share a passion for building meaningful and responsible AI.
+Thank you for considering my application. I would be honored to contribute to your program and learn from its distinguished faculty and participants. I hope to bring my unique perspective, technical experience, and deep motivation to use AI for
+the greater good.
+Sincerely, [name] [surname]

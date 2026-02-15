@@ -1,0 +1,35 @@
+Dear [name] [surname] Admissions Committee,
+My name is [name], and I am currentlly pursuing a Master’s degree in Data Science. With two years
+of hands-on experience in machine learning and computer vision, I am eager to take part in the SMILES
+2025 Summer SchooL to deepen my understanding of cutting-edg e machine learning techno lologies,
+collaborate with peers and mentors, and further develop my research work in the field.
+My academic founda tion was built at [location] State Uni versi ty, where I earned a bachelor’s degree
+in Applied Computer Science. During my undergra dua te studies, I led the deve lopment of a real-time
+drone detection and tracking system using PTZ cameras and neural ne tworks. This project formed the
+basis of my bachelor’s thesis and was presented at the Interna tional Confere nce on Control Processes and
+Stability at the [location] Institute of Technology. That visit left a lasting impression on me — I was truly
+inspired by the knowl edge and opennes s of the academic community at HIT, and I would be honored to
+r eturn and learn from them again through SMILES.
+Curr ently, as part of my Master’s research, I am working on improving the YOLOv12 architecture. The
+original model utilizes area attention, which limits its ability to interpret the full visual context. I am
+d eveloping a more globally r esponsi ve architecture by integrating Mamba blocks and their variants,
+enabling faster and more accura te object detection. We have alr eady achieved results that outp erform the
+original model and are preparing a submis sion to NeurIPS. This work reflects my deep interest in
+fundamental model design and efficient real-wo rld deplo yment, and SMILES represents an ideal
+oppo rtunity to further this line of research.
+In parallel, I am leading a medical AI project to automate syphilis test interpretation using computer
+vision and deep learning. Our team has deve loped a working test prototype and validated it through
+real-wo rld trials in a labo ratory setting with excellent results. The goal is to reduce diagnostic errors and
+acce lerate testing in clinical practice. I believe participation in SMILES could provide va luable insights to
+enhance this project further and take it to the next stage.
+Beyond these efforts, I have also explored super-resolution through flow-matching on the CelebA dataset
+and exper imented with domain adaptation methods for diabetic retinopathy classification using retinal
+sca ns. These inde pendent projects reflect my passion for applying machine learning to socially i mpactful
+problems and my motivation to continue growing as a researcher.
+SMILES 2025’s focus on topics like generative models, multimodal learning, and safe AI aligns closely
+with both my current work and my aspirations. I am especially excited about the opport unity to engage in
+colla borative projects, hands-on workshops, and discussions with leading researchers from Skoltech and
+HIT. My long-term goal is to remain in research, contribute to high-i mpact AI solutions, and publish in
+top conferences — and I am confident that SMILES will be a key step in that path.
+Thank you for conside ring my application. I look fo rward to the opport unity to contribute to and grow
+within the SMILES 2025 community.

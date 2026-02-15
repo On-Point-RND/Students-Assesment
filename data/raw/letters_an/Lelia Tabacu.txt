@@ -1,0 +1,10 @@
+Dear Organizing Committee,
+I am writing to express my interest in participating in the SMILES Summer School. As a recent graduate with a strong theoretical background and active research experience in machine learning, I see this program as an important opportunity to deepen my technical skills, engage with the international ML community, and contribute to cutting-edge research.
+One of the main reasons I want to attend SMILES is to connect with researchers and professionals who share a passion for theory-driven machine learning. While individual study (such as reading papers) is essential, I believe that collaborating with peers and exchanging ideas spark the most exciting ideas that might not emerge through solitary work alone. SMILES offers a unique environment to exchange knowledge, share my own research, and gain insights that can shape the direction of my future work.
+My current research focuses on neural network compression and quantization methods. Alongside this, I work with generative models, multimodal systems, and large language models in practical settings, gaining substantial experience in managing and optimizing cutting-edge architectures. Because of this, the themes of the SMILES summer school strongly align with my research interests. At the same time, I am eager to explore these areas from new perspectives—diving deeper into theoretical foundations, alternative modeling approaches, and research beyond my current scope. I believe the supervised projects and lectures at SMILES will provide exactly that opportunity, helping me grow as a researcher and broaden the impact of my work.
+Participating in SMILES presents a great opportunity to discover new research interests, deepen my technical skills, and collaborate with a community of researchers passionate about shaping the future of AI.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
++2 *** *** ***
+[email]

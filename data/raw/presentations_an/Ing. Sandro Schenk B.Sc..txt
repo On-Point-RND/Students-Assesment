@@ -1,0 +1,17 @@
+Diffusion models
+[name] [surname]
+
+Introduction and motivation
+Diffusion models are a class of generative models in deep learning capable of synthesizing data (e.g., images, audio). Theiir core idea involves gradually perturbing data with noise and then learning to reverse this process.
+
+Forward Process
+
+Reverse Process
+
+Variational Perspective
+
+SDE appoach
+
+Literature
+
+Thank you for your attention!

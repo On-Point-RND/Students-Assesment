@@ -1,0 +1,79 @@
+ploskin0107@gmail.com
+GitHub: [name]-[surname] Mobile: +2 *** *** ***
+ABOUT
+I am a Software Engineer with growing expertise in natural language processing and machine learning, with
+expertise in language model architecture, optimization, and knowledge representation techniques. My research
+focuses on developing methods for efficiently updating semantic data in complex neural networks without
+complete retraining, where I explore the intersection of model adaptation and knowledge fusion. With
+hands-on experience in deploying production-level retrieval-augmented systems and experimenting with
+state-of-the-art methods like Transformer-Squared for model adaptation, I bring both theoretical
+understanding and implementation skills to complex computational challenges. My background combines solid
+mathematical foundations and software engineering proficiency, allowing me to position myself to contribute
+effectively towards cutting-edge research in language understanding, multimodal methods, and multi-agent
+systems. I’m fascinated with further advancing self-supervised learning techniques and designing more reliable
+computational systems through improved knowledge management. My combined experience in industrial
+application and academic research provides me with a unique perspective on how to merge theoretical
+advances with real-world applications in the rapidly evolving field of natural language processing.
+EDUCATION
+[university] [location]
+B.Ss in Math and Software Engineering, Mathematics and Mechanics Faculty September 2019 – June 2024
+[institute] [location]
+M.S. in Data Science, Computational and Data Science and Engineering September 2024 – June 2026
+INDUSTRIAL EXPERIENCE
+[company], [location] Apr. 2024 – Present
+ML Engineer
+• Developing and deploying a production-grade RAG system for information retrieval and processing from massive
+document datasets using FastAPI, Qdrant vector database, and NVIDIA Triton inference server.
+• Deploying end-to-end MLOps pipelines on LangGraph as an orchestration system to manage intricate LLM
+pipelines with heavy logging, monitoring, and CI/CD practices for robust production deployment.
+[company], [location] Jul. 2023 – May. 2024
+Full Stack Developer (ML Integration)
+• Developed and deployed a full-stack web application for an agricultural yield prediction framework, mapping the
+output of ML models to an easy-to-use user interface by utilizing React frontend and Django backend.
+• Translated complex forecasting model specifications into working application features through competitive
+benchmarking and stakeholder consultation, resulting in a tailored solution for agricultural analytics.
+Mobile Robotics Lab, [institute], [location] Sep. 2022 – Jun. 2023
+Desktop Development Engineer
+• Directed technical development of a niche debugging tool for SLAM frontend algorithms, managing a team of three
+developers.
+• Developed responsive GUI using TornadoFX framework and implemented automated CI pipelines with GitHub
+Actions to optimize development and testing efficiency.
+[company], [location] Jul. 2021 – Jul. 2022
+Desktop Development Engineer
+• Enhanced WPF component library with performance improvement and incorporated accessibility features to
+achieve WCAG 2.1 conformity requirements for corporate apps.
+• Created a Visual Studio extension that performs automatic data binding between ORM frameworks and Data Grid
+controls through Roslyn C# compiler API for code analysis and generation to increase developer productivity.
+SCHOLARLY ACTIVITIES
+[institute] Natural Language Processing, [location] Dec. 2024 – Present
+Research Intern
+• Researching LLM knowledge editing methods to mold model behaviors, comparing various methods from recent
+research while comparing performance measures across varying fact modification scales, and learning their
+impact on overall model quality and knowledge retention capacities.
+• Investigating Transformer-Squared framework for effective knowledge updates using selective weight matrix updates
+in language models.
+• Applying knowledge editing techniques to industrial settings and investigating supervised fine-tuning as a second
+knowledge integration approach as part of massive industrial project.
+PROJECTS
+Scalable Block-Based Muon Optimizer for Efficient LLM Training | PyTorch, CUDA
+Apr. 2025 – present
+• Adapting Newton-Schulz iterations to execute on partitioned weight matrices, reducing inter-GPU communication.
+• Setting up distributed training of Llama-3-8B model with implemented Block-Based Muon
+• Evaluating pre-training and fine-tuning efficiency against AdamW and vanilla Muon, measuring throughput,
+convergence, and task accuracy.
+AsyncDiffEval – Benchmarking Framework for Asynchronous Diffusion Models | PyTorch, CUDA, Stable Diffusion
+Dec. 2024 – Jan. 2025
+• Developed an empirical test framework for measuring quality-speed-resource trade-offs in asynchronous sampling for
+denoising process, with extensive benchmarking on MS-COCO 2017 dataset with multi-GPU parallelization and
+performance metrics tracking.
+• Deployed support for various scheduler types (DDPM, Euler) and parallelization factors, facilitating systematic
+comparison of various sampling techniques for different diffusion model setups.
+TECHNICAL STRENGTHS
+Programming Languages: Python, C++, TypeScript, C#, Kotlin
+Machine Learning: PyTorch, Transformers, LangChain, LangGraph, Scikit-learn, NumPy, Pandas
+LLM & NLP: RAG systems, Embedding models, Fine-tuning, Prompt engineering, Evaluation metrics
+MLOps & Inference: NVIDIA Triton, vLLM, RunPod, Model quantization, Monitoring
+Web Development: FastAPI, Django, React, Redux Toolkit, Queue systems, High-load API design
+Vector & Relational Databases: Qdrant, MongoDB, PostgreSQL
+DevOps & Infrastructure: Docker, Kubernetes, GitHub Actions, AppVeyor, CI/CD pipelines
+Areas of Expertise: Retrieval-Augmented Generation, LLM orchestration, Generative AI, Production ML systems

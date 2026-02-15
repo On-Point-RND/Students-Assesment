@@ -1,0 +1,104 @@
+Ekaterina [name]
+Engineer&Master's student,
+[compaany],
+[location]
+Introduction
+He who controls the spice proteins’ functions controls the universe
+Protein design is the process of generating new amino acid
+sequences correspondiing to proteins with desired
+functionaliity. We would like to develop proteins with defined
+functions due to their potential in drug discovery, cancer
+treatment, agricultural engineering, etc.
+Protein large language models (pLLMs) have a great
+potential in the field. Are they good enough? Which
+architectures are the best? Let’s find out!
+Main goal: Compaare 3 different approaches for pLLM and
+find out their applicability for the creation of proteins de novo
+https://doi.org/10.1038/s41580-024-00718-y
+with defined functions.
+Compaaring LLMs for Protein Design
+We aim to design protein sequences that not only fold into
+stable 3D structures but also perform specific or complex
+biological functions. It’s major challenge in de novo protein
+design.
+We are going to assess tools from 3 cutting-edgge studies of
+applying pLLMs to protein design, check their ability to build
+proteins with emergent, system-level functions (such as
+membrane remodeling) and find out which approach is the
+best.
+https://doi.org/10.1038/s41467-024-46203-0
+Articles Revieweed
+ PoET: A generative model of protein families as sequences-of-sequences (NeurIPS 2023)
+ Structure-informed Languaage Models Are Protein Designeers (ICML 2023)
+ BindGPT: A Scalable Framework for 3D Molecular Design via Languaage Modeling and Reinforcement
+Learning (AAAI 2025)
+Compaaring main features
+Model Core Architecture Design Objective Data Modalities
+Transformer (Seq2Seq) Generate valid proteins MSA (multiple
+PoET
++ Family Modeling within known families sequence alignments)
+GGeenneerraattee sseeqquueenncceeess
+SSttrruuccttuurree--iinnffoorrmmeeedd TTrraannssffoorrmmeeerr ++ SSttrruuccttuurree SSeeqquueennccee ++ 33DD
+that fold into specific 3D
+topoolologies
+Generate
+GPT + Reinforcement ligands/binding partners Sequence + 3D
+LM Fusion cooordinates
+BindGPT
+Learning (RLHF-style) with favorable binding docking feedback
+energy
+PoET
+Goal: Generative modeling of protein families as sequences-of-sequences.
+ Uses tiered Transformeer:
+ Within-sequence attention (token order matters)
+ Between-sequence attention (order-invariant)
+ Trained on UniRef50; generalizes to unseen families
+ No MSA required; supports retrieval-augmented design
+ Generates diverse, novel sequences with high structuraal fidelity (via AlphaFold2)
+Applicability:
+Well-suited for de novo design within known families, mutation generation, and exploration of functionally
+plausible variants.
+The approach of Structure-informeed LM
+Goaal: Generate protein sequences that accuraately fold into predefined backbone structures.
+The idea: LM-DESIGN Framework
+ Enhances pretrained protein LMs (e.g., ESM-1b) with a lightweight structuraal adapter
+ Combines sequence and structure modalities
+ Uses Conditional Masked Languaage Modeling (CMLM) to reconstruct and refiine sequences
+ Base pLM (e.g., ESM) + Structuraal Adapter
+ Iterative refiinement using Markovian decoding to improve sequence quality
+Applicability:
+Highly effective for structure-constrained de novo design, especially when accuraate backbone templates
+are known.
+BindGPT
+Goaal: Design protein sequences that are not only structurally sound but also possess targeted binding
+capabilities to specified molecular partners (ligands, proteins, or nucleiic acids).
+The idea: Binding-aware Languaage Modeling (BaLM):
+ Fine-tune large protein LMs (e.g., ProtGPT2, ESM) with ligand-binding context embeddings.
+ Introduces a Binding Adapter Module trained on BioLiP and PDBbind to incorporate structuraal and interaction
+features.
+ Uses cross-modality attention between sequence tokens and binding interface residues.
+ Predicts and evaluaates binding via a co-trained lightweight docking predictor (BindEvalNet).
+Applicability:
+Optimized for functional design tasks such as binding-site engineering, epitope optimization, etc. Especially
+useful in therapeutics and synthetic biology where interaction specificity is key.
+Results
+Poet excels at modeling protein families and generating diverse sequences without needing MSAs, but
+lacks structure or function control.
+Structure-informeed LM shines in folding-accuraate sequence recovery when a target backbone is
+known, using structuraal adapters for precise design.
+BindGPT goes a step further by integrating binding specificity, making it ideal for function-driven protein
+generation like epitope or ligand design.
+For de novo protein creation with defined functions, BindGPT is the most targeted and versatile, while
+Poet and Structure-informeed LM offer strong support for diversity and structure, respectively.
+Research gap
+• Unfortunately, no one of the approaches lead us to tune the cellular environment (ph, temperature), that
+is a significant disadvantage.
+Bibliography
+1. T. Truoong, T.Bepler. PoET: A generative model of protein families as sequences-of-sequences. NeurIPS, 2023
+2. Z. Zheng, Y. Deng, D. Xue, Y. Zhou, F. Ye, Q. Gu. Structure-informed Languaage Models Are Protein Designeers . ICML, 2023
+3. A. Zholus, M. Kuznetsov, R. Schutski, R. Shayakhmetov, D. Polykovskiy, S. Chandar, A. Zhavoronkov. BindGPT: A Scalable
+Framework for 3D Molecular Design via Languaage Modeling and Reinforcement Learning. AAAI, 2025
+4. Listov, D., Goverde, C.A., Correia, B.E. et al. Opportunities and challenges in design and optimization of protein function. Nat
+Rev Mol Cell Biol 25, 639–653 (2024). https://doi.org/10.1038/s41580-024-00718-y
+5. Kohyama, S., Frohn, B.P., Babl, L. et al. Machine learning-aided design and screening of an emergent protein function in
+synthetic cells. Nat Commun 15, 2010 (2024). https://doi.org/10.1038/s41467-024-46203-0

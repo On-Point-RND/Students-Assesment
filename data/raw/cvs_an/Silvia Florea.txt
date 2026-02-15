@@ -1,0 +1,45 @@
+[name]
+Tel: +2 *** *** ***
+E-mail: [email]
+GitHub: github.com/[name]
+Telegram: @[name]
+EDUCATION
+M.Sc., Applied Mathematics and Computer Science
+[compaany]
+Expected Graduation in 2026
+BS, Applied Physics and Mathematics
+Department of Radio Engineering and Cybernetics
+[compaany]
+Graduated: 2024
+EXPERIENCE
+Center for Cognitive Modeling
+January, 2024 – Present
+Field of Study: Navigation of a Wheeled Robot Using Reinforcement Learning
+Programming language: Python(NumPy, PyTorch, gymnasium, stable baselines3, rl games)
+Software: Nvidia Isaac Sim, Isaac Lab, ROS
+Supervisor: [name]
+Institute of Control Sciences RAS, Laboratory No. 16 ”Nonlinear Control Systems named
+after E.S. Pyatnitsky”
+December, 2023 – February, 2025
+Field of Study: Stabilization of a Ball on a Hexapod Platform
+Programming language: Python, Mtlab
+Supervisor: [name]
+Laboratory of Skolkovo Institute of Science and Technology, Space Center
+October, 2020 – March, 2021
+Field of Study: Scheduling and path planning for autonomous robots in precision agriculture.
+Programming language: Python (NumPy, SciPy, Matplotlib, CVXPY)
+Supervisor: [name]
+COURSES
+Technotrack (industrial programming in C/C++) from [compaany] and [compaany]
+Septebmer 2019 - January, 2020
+SKILLS
+ProgrammingLanguages: Python(NumPy,Pandas,SciPy,PyTorch,gymnasium,stable baselines3,
+rl games) / C
+Languages: Intermediate English level
+Software: Nvidia Isaac Sim, Isaac Lab, Gazebo, ROS
+AWARDS AND SCHOLARSHIPS
+The 1st place of the schoool [compaany] Physics Olympiad
+May, 2018
+ACTIVITIES
+An organizer of All-Russian Olympiad of schoolchildren in computer science 2021
+A Counselor-mentor of physics in [location] (foxford.ru) 2019-2020

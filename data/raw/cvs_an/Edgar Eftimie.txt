@@ -1,0 +1,65 @@
+[name] [surname]
+[email]
++2 *** *** ***
+
+EXPERIENCE
+[compaany]: GIGACHAT DEVELOPMENT TEAM 05.2023 — PRESENT
+SENIOR NLP ENGINEER
+• Contributed to the development of GigaChat, a state-of-the-art large language model (LLM) recognized as
+the leading Russian-language AI system, enhancing capabilities in natural language understanding,
+generation, and multilingual applications.
+• Designed a multimodal content moderation model to detect and filter unsafe or provocative queries,
+achieving a 0.5% false positive rate while aligning with modern AI safety standards and ethical guidelines.
+• Engineered a versatile text embedding model leveraging GigaChat’s architecture to power discriminative
+tasks (e.g., classification, clustering) and Retrieval-Augmented Generation (RAG) systems, enabling high-
+accuracy semantic analysis and knowledge retrieval. [video]
+GRADIENT & PERSONA: AI PHOTO & VIDEO MOBILE EDITORS 06.2020 — 05.2023
+SENIOR COMPUTER VISION ENGINEER
+• Created a retouch filter using classic computer vision (without using neural networks) in pure C++, which
+worked quickly (< 0.1 sec) on the device
+• Developed a lightweight GAN framework for mobile devices (iOS/Android), which resulted in app for real-
+time (on device) face beautification masks: Persona App.
+• Developed a framework for solving arbitrary image-to-image translation tasks. Brought to production
+more than 50 GAN based filters for more than 100 million audience of the Gradient App.
+• Conducted a lot of experiments with image-to-image translation, deepfake and face reenactment models,
+etc. Also worked with singing voice synthesis tasks.
+• Increased key production metrics like FID & Conversion Rate on 30% and above by upgrading the
+training and data pipeline.
+• Speed-up and deployed a lot of models (stable diffusion, pix2pix, etc.) for efficient use in production both
+on the device and on the server, using TensorRT, Template AI, CoreML, TFLite.
+YANDEX 07.2019 — 09.2019
+INTERN ANALYST
+• Have improved infrastructure, conducted user research and AB-testing.
+EDUCATION
+MOSCOW INSTITUTE OF PHYSICS AND TECHNOLOGY
+PhD in Computer and Information Science 09.2023 — 09.2026
+Major: Artificial Intelligence and Machine Learning
+Master’s in Applied Mathematics and Computer Science 09.2020 — 09.2023
+Major: Machine Learning, Advanced Track
+Bachelor’s in Applied Mathematics and Computer Science 09.2016 — 09.2020
+Major: Data Science
+YANDEX SCHOOL OF DATA ANALYSIS 09.2019 — 09.2021
+Yandex schooal of data analysis — is a Post Graduate Program (Post-Bachelor's Program in Data Science) with
+leading developers and teachers from Yandex
+Major: Data Science
+TEACHING EXPERIENCE
+SBERUNIVERSITY 05.2021 — present
+Courses: Machine Learning; Introduction to LLMs
+Position: Lecturer & Assistant
+CENTRAL UNIVERSITY 09.2024 — present
+Courses: NLP
+Position: Assistant
+ITMO 01.2025 — present
+Courses: NLP
+Position: Assistant
+MOSCOW INSTITUTE OF PHYSICS AND TECHNOLOGY 09.2019 — 05.2021
+Course: Applied Statistics and Data Analysis
+Position: Assistant
+SKILLS
+• Languages: Python, C++, Java, R
+• Machine learning: PyTorch, TensorFlow, TensorRT, OpenCV, CoreML, TFLite, Sklearn
+• Technologies: Git, Docker, SQL, HTML, CSS, JavaScript
+RELEVANT COURSES
+DISTRIBUTED DEEP LEARNING • GENERATIVE MODELS • COMPUTER VISION • NATURAL LANGUAGE PROCESSING •
+DEEP LEARNING • A/B TESTING • REINFORCEMENT LEARNING • CROWDSOURCING DATA COLLECTION • APPLIED
+STATISTIC

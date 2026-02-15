@@ -1,0 +1,42 @@
+[name] [surname]
++ [location] # [email] (cid:132) +2 *** *** *** § [name][surname]
+Education
+[compaany] 2024 - 2028
+Computer Technologies (01.03.02 Applied Mathematics and Informatics)
+◦ GPA: 3.67
+◦ Courses:C++Programming,ProgrammingParadigms,AlgorithmsandDataStructures,DiscreteMathematics,
+Computer Architecture, Mathematical Analysis, Linear Algebra
+Projects
+RISC-V Processor Simulator with Cache Support github/cache 2
+◦ Developed a RISC-V processor model with an ASM-to-machine code translator and cache memory support
+featuring LRU and bit-pLRU eviction policies. Implemented write-back and look-through policies for write
+and eviction operations.
+◦ Technologies used: Java, Assembly, Intellij IDEA
+Parallel 3D Shape Calculation (Monte Carlo + OpenMP) github/OpenMP 2
+◦ Implemented Monte Carlo method for 3D shape volume calculation with three approaches: single-threaded,
+multi-threaded with automatic distribution, and manual thread management via OpenMP.
+◦ Technologies used: C++, C, Visual Studio 2022, CLion
+Telegram Chatbot Development github/TelegramBot 2
+◦ Competition assistant bot for olympiad participants: reminders, schedules, results tracking. Developed in
+Python (Telebot library) with API integration and database support
+◦ Technologies used: Python, PyCharm, SQL, Excel
+Technical Skills
+Languages: C++, C, Java, Python, SQL, JavaScript, Clojure
+Tools: VS Code, Docker, Git, IntelliJ IDEA, CLion, PyCharm, Visual Studio 2022
+Work Experience
+Summer 2024 Neural Network Training Research
+◦ DevelopedalgorithmsusingcompetitiveprogrammingtechniquestotrainneuralnetworksforsolvingICPC-
+level problems
+◦ Implemented novel approaches combining algorithmic problem-solving with machine learning
+2023–Present Programming Tutor (Part-time)
+◦ Provide private tutoring in computer science and programming
+◦ Prepare students for national standardized exams
+◦ Develop personalized learning plans and practice problems
+Achievements
+Competitions:
+◦ ICPC Quarterfinalisist (2024-2025), advanced to 1/8 finals
+◦ Winner of regional stage of Russian National Olympiad in Informatics (grades 9-11, annual)
+◦ Championandprizewiinnin7universiity-levelcompetitionsinmathematicsandcomputerscience(grades
+9-11). Including Technocup finalist (MIPT, 2024) and wiinner of [compaany] Universiity Open Mathematics
+Olympiad (2024).
+◦ Finalist of the All-Russian team Olympiad of students in programming

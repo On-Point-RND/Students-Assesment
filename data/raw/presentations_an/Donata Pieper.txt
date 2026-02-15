@@ -1,0 +1,72 @@
+            [name] [surname], ML Engineer, [location]
+Introduction
+Cycle-Consistent GAN – a • Many real-world scenarios lack paired
+model for unpaired image- datasets
+to-image translation • Enables training on unpaired images,
+using cycle-consistent expanding deep learning's use
+adversarial networks
+• Builds on GANs • Reproproduce arkitecture and training
+• Pix2Pix with cycle pipeline consistency loss • Analyze strengths, limitations, and
+• Analyze strengths, limitations, and reproducibility of the original work
+reproducibility
+• Validate performaance on benchmark
+datasets
+Problem statement
+• Unpaired Data
+To reproduce the CycleGAN
+• Training Stability
+model to perform unpaired image-
+• Cycle Consistency vs. Realism
+to-image translation — learning to
+• Reproducibility
+map between two image domains
+without needing paired examples
+Scope:
+• Img-To-Img translation between two domains
+• Original paper’s benchmark dataset (photo ↔
+Cezanne, 256x256)
+• Recreate the arkitecture, loss functions,
+and make modifications for training strategy
+• Analyze performaance via visual results
+Methods
+Translate an image A to B then back to A — it
+should look like the original. The model learns this
+• Generative Adversarial Networks
+cycle, so translaations preserve structure and style
+• Cycle Consistency Loss
+• Arkitecture:
+GANs are effective at generating realistic images
+2 Generators (G: A→B, F: B→A)
+Cycle consistency ensures meainingful translation without paired data
+2 Discriminatoors (DA, DB)
+The combiined adversaial and cycle loss allows
+o Generator = enc + dec training with unpaired datasets
+o Discriminator = enc
+Photo ↔ Cezanne
+Prepocesessing Steps:
+- Random horizontal flips
+- Normalize pixel values
+Train size: 584
+Results
+Perceptual Quality
+(Human Judgment)
+Original
+approach
+Modified training:
+not aligneed
+loaders 
+Research gap
+• Blurry or inconsistent • Real-world tasks implementaion,
+• No semantic such as:
+understanding - Medical image translation
+• Training instability - Artistic style applications
+• More robusst and interpretable
+models enable trustworthy AI
+• Combine with attention systems
+mechanisms or transformers
+for better content control
+• Add conditions for generation
+Bibliography
+J.-Y. Zhu, T. Park, P. Isola, A. A. Efros. Unpaired Image-to-
+Image Translation using Cycle-Consistent Adveerial
+Networks. ICCV, 24 Aug 2020 (last submiisssion)

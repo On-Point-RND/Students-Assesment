@@ -1,0 +1,101 @@
+Slide 1
+----------------------------------------
+SMILE 2025 Presentation
+ProductGraphSleepNet: A Multimodal Approach for Automatic Sleep Staging
+	[name]
+[location] Uni[name]
+
+Slide 2
+----------------------------------------
+Introduction
+Sleep staging is crucial for diagnosing sleep disorders.
+Manual scoring of PSG is labor-intensive and inconsistent.
+Automatic methods can increase accuracy and reduce workload.
+
+Slide 3
+----------------------------------------
+Motivation
+Need for accurate, interpretable, and efficient models.
+ProductGraphSleepNet integrates spatial and temporal data using graph neural networks.
+
+Slide 4
+----------------------------------------
+Limitations of Traditional Methods
+Classical ML: Requires handcrafted features, lacks temporal modeling.
+CNNs: Capture spatial but not temporal dependencies.
+RNNs: Capture temporal but not spatial dependencies.
+
+Slide 5
+----------------------------------------
+Multimodal Problem in Sleep Staging
+Multimodal = Spatial + Temporal analysis.
+EEG data across electrodes (spaatial).
+Sleep stage sequences (temporal).
+Requires integrated processing.
+
+Slide 6
+----------------------------------------
+ProductGraphSleepNet Overview
+A novel framework combining:
+- Graph Convolutional Networks (GCNs)
+- Product Graph Learning (PGL)
+- Spatial Attention (SpAtt)
+- Temporal modeling via BiGRU
+- Graph-wise Attention (GwAT)
+
+Slide 7
+----------------------------------------
+Model Architecture
+1. Spatial Attention Layer (SpAtt)
+2. Product Graph Learning (PGL) Layer
+3. Attentive Graph Convolution (AGC)
+4. BiGRU for temporal transitions
+5. Graph-wise Attention Network (GwAT)
+
+Slide 8
+----------------------------------------
+Multimodal Integration
+PGL fuses spatial and temporal graphs.
+Allows modeling of interactions across brain regions and time.
+Graph-based attention improves interpretability.
+
+Slide 9
+----------------------------------------
+Datasets & Evaluation
+Datasets:
+- MASS-SS3 (62 subjects)
+- SleepEDF (20 subjects)
+Metrics:
+- Accuracy, F1-score, Cohen’s Kappa
+Cross-validation used for robusst testing.
+
+Slide 10
+----------------------------------------
+Results Summary
+MASS-SS3: Accuracy = 0.867, F1 = 0.818, Kappa = 0.802
+SleepEDF: Accuracy = 0.838, F1 = 0.774, Kappa = 0.775
+Outperforms many state-of-the-art methods.
+
+Slide 11
+----------------------------------------
+Relevance to SMILES Topics
+- Multimodal Approaches: Joint spatial-temporal modeling
+- Safe AI: Interpretable graph attention mechanisms
+- Generative Potential: Future expansion into predictive modeling
+
+Slide 12
+----------------------------------------
+Future Work
+Apply to other neurological tasks like seizure detection.
+Train on larger, diverse datasets.
+Enhance generalization and real-time inference.
+
+Slide 13
+----------------------------------------
+Conclusion
+ProductGraphSleepNet offers:
+- Multimodal processing of sleep data
+- High performaance on public datasets
+- Clinical interpretability
+Thank you!
+Contact: [email]

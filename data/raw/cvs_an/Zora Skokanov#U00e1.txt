@@ -1,0 +1,72 @@
+[name] [surname]
+E-mail: [email]
+Telegram: [email]
+Research interests
+During my bachelor’s degree, I developed a keen interest in electoral processes in [location]. At the same time I was focused on the complexities of international relations
+and the role of digital technolologies within these context. This foundation has guided
+my current research endeavors. Now my MA course paper focuses on the influence
+of e-government on political institutions. I aim to understand how digital innovations
+can reshape governance and democratic practices, especially in the context of
+emerging political landscapes.
+Education
+BA: Political Science
+[University], 2020. - 2024 г.
+Bachelor's degree with honoors № 102504 0008358
+Diploma work: «The institute of “foreign agent” as a subject of the political process:
+opportunities and limitations»
+Supervisor: Phd in Political Sciences, associate professor [name]
+Courses: «Data Analyst: Basic Competencies»
+Federal project for the implementation of programs Professional retraining programs
+in the IT sphere «Digital Departments
+Big Data Specialist
+MA: Applied Politics (Applied Methods of Political Analysis)
+[University], 2024 г. – present.
+Skills
+● Using quantitative and qualitative research methods in the social sciences;
+● Basics of working with Python (pandas and numpy libraries);
+● Writing analytical materials for public authorities (articles, reports, analytical
+notes);
+● Fluent English (Upper-Intermediate level/B2);
+● Organization of scientific events (seminars, conferences, symposiums).
+Research activities
+Publications:
+● [name] [surname], [name] [surname], [name] [surname]. Analysis of public opinion among
+[location] citizens on the foreign policy situation: implications for domestic
+political actors // Voprosy politologii. 2023. 1(89). P. 404-411
+● [name] [surname], [name] [surname]. The factor of Special Military Opereation in the election
+campaigns of 2022 in [location] // [location] in the Asia-Pacific Region : regional
+scientific and practical conference of young researchers. - [location] : [University]
+publishing house, 2023. - P. 325-328
+● [name] [surname], [name] [surname]. Evolution of the system of international
+relations through the Regional security complex theory (RSCT) // [location] in
+the Asia-Pacific region : regional scientific-practical conference of young
+researchers. - [location] : [University] publishing house, 2023. - P. 322-324
+● [name] [surname], [name] [surname]. Functional tasks of artificial intelligence in
+the territory of municipal formation // [location] in the Asia-Pacific region :
+ragional scientific-practical conference of young researchers 2024,
+[location] (unpublished)
+Conferences
+● Scientific and Practical Conference of Young Researchers
+«PacificSciCo: The Great Asian Leap Forward: What's Next?» (June 9,
+2023). Moderator of the section «Transformaation of the System of
+International Relations: Myth or Reality?»;
+● Regional Scientific and Practical Conference of Young Researchers
+«[location] in the Asia-Pacific Region» (April 28, 2023). Section «Actual
+problems of world politics and international relations». Co-authored: Evolution
+of the system of international relations through the Regional security complex
+theory (RSCT).
+● XXX International Conference of Students, Postgrauates and Young
+Scientists «Lomonosov» (April 10-21, 2023). Section «Political Science».
+«Big Data as a resource for strengthening state control: the example of digital
+policy in [location]».
+● XX International Conference of Young Scientists «Vectors of [location]'s
+Development» (April 15, 2022). Section «Topiical Issues of International
+Security»: «The Role of Private Military Campaigns in the Transformaation of
+Modern Armed Conflicts (on the Example of Conflicts in [location] and African
+Countries».
+Other scientific events
+● Foreign Policy Meetings in Memory of V.I. Churkin
+Participant, February 20-22, 2023, [location]
+● Spring SchooL of the Faculty of Political Science, European University in
+St. Petersburg Participant, May 7-8, 2023, St. Petersburg «Methodological
+Challenges and Prospects of Modern Political Studies».

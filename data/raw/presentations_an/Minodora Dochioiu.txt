@@ -1,0 +1,135 @@
+Slide 1
+----------------------------------------
+Diffusion Models: From Theory to Personalized Image Generation
+[name]
+Intern at [compaany], [location] student
+
+Slide 2
+----------------------------------------
+Introduction
+Generative AI has made remarkable progress in recent years, with diffusion models emerging as a powerful approach for high-quality image synthesis. These models iteratively refiine noise into realistic samples, offering unparalleled control over content creation—from text-to-image generation to personalized edits.  
+Why does this matter?
+Enables creative applications  
+Supports domain-specific customization
+Pushes boundaries of human-AI collaboration.  
+This review explores the theoretical foundaions, key advancements, and practical techniques behind modern diffusion models.
+
+Slide 3
+----------------------------------------
+Problem statement
+1. How to generate high-quality, diverse images while maintaining precise alignment with user inputs (e.g., text prompts or reference images) ?
+2. How can we scale diffusion models to high resolution without incurring prohibiitive computational costs?
+3.Adapting pretrained models to user-specific concepts (e.g., personal objects, styles) with minimal data.
+
+Slide 4
+----------------------------------------
+Forward Process:
+Gradually adds Gaussian noise to data over T steps:
+Variance schedule βt controls noise addition.
+Denoising Diffusion Probabilistic Models
+
+Slide 5
+----------------------------------------
+Revers Process:
+Learns to denoise data step-by-step:
+Parameterized by a neural network predicting noise ϵθ(xt, t)
+
+Denoising Diffusion Probabilistic Models
+
+Slide 6
+----------------------------------------
+Denoising Diffusion Probabilistic Models
+Maximize likelihood by minimizing:
+
+Simplified objective (weighted MSE):
+Predicting noise ϵ simplifies training and improves sample quality.
+
+Slide 7
+----------------------------------------
+Compaison with GAN
+Diffusion models are more stable, as noise is added gradually.
+Diffusion models are often superior to GAN in terms of quality and detail of generated images.
+
+Examples created by the Diffusion Model
+
+Slide 8
+----------------------------------------
+Stable Diffusion Model
+Stable Diffusion is a modern diffusion model operating in latent space to reduce computational costs. Uses CLIP for text conditioning.Process:
+, where y is a text object, and c is its vector representation. This vector c
+is used for conditioning (conditional generation) in the process of reverse diffusion.
+Reverse diffusion:
+
+Slide 9
+----------------------------------------
+Textual Inversion
+1. A few images and a special token (e.g., `S*`) are fed into the text encoder.  
+2. The token’s embedding vector is optimized so that prompts like "Photo of [S*]" reproduce the input images.  
+3. Latent Diffusion Model (LDM) loss measures the gap between generated and real images.  
+4. Only the `S*` vector is trained (via gradient descent); the generative model’s weights remain frozen.  
+5. The diffusion model uses `S*` as part of the text condition for image generation. 
+
+Slide 10
+----------------------------------------
+DrreamBooth
+1. 3–5 images of a subject.  
+2. Associates the subject with a rare token (e.g., [V]) to avoid semantic conflicts.
+3. Lightweight training on the input images using prompts like "[V] [class]" (e.g., "[V] dog").
+4. Keeps the base model’s weights intact to maintain generalizability. 
+5. Balances new concept learning with existing knowledge retention.
+
+Slide 11
+----------------------------------------
+Custom Diffusion
+1. Fine-tune the diffusion models for new concepts using minimal examples (3-5 images).
+2. Optimizes only key/value matrices in cross-attention layers (5% of total weights), preserving text-visual alignment.
+3.Learn unique text embeddings per concept (like Textual Inversion).
+
+Slide 12
+----------------------------------------
+Datasets and training
+All methods use Stable Diffusion pre-trained on LAION-5B (5B text-image pairs)
+Fine-tuning:
+Small custom datasets (3-5 images per concept)
+Evaluated on COCO/Flickr30k benchmarks
+Evaluation: Unified test set from Custom Diffusion paper
+
+Slide 13
+----------------------------------------
+Evaluation metrics
+
+Slide 14
+----------------------------------------
+Evaluation metrics
+Text-Alignment (CLIP-T)Measures similarity between text prompt and generated image, (c = CLIP text embedding, v = CLIP image embedding)
+Image-Alignment (CLIP-I)Evaluates how well generated images match reference concept (vgen= generated image embedding, vref = reference image embedding)
+KID (Kernel Inception Distance)Quantifies similarity between real and generated image distributions
+
+Slide 15
+----------------------------------------
+Results compaison
+
+Slide 16
+----------------------------------------
+Resouce Efficiency
+
+Slide 17
+----------------------------------------
+Conclusion
+Diffusion models often outperform GAN in terms of the quality and detail of the generated images.
+For Textual Inversion and Custom Diffusion, training is relatively fast, since only part of the model is updated, not all of the model parameters.
+The methods allow you to combiine several learneed concepts, which makes them flexible for different tasks.
+
+Slide 18
+----------------------------------------
+Link to my repository
+https://github.com/Kseniiashk/Running-diffusion-models
+
+Slide 19
+----------------------------------------
+Original articles
+Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models. In Confeference on Neural Informaation Processing Systems (NeurIPS), 2020. https://a rxiv.org/pdf/2006.11239
+Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommerю High-Resolution Image Synthesis with Latent Diffusion Models, 2022. https://a rxiv.org/pdf/2112.10752
+Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H Bermano, Gal Chechik, and Daniel Cohen-Or. An image is worth one word: Personalizing text-to-image generation using textual inversion. arXiv preprint arXiv:2208.01618, 2022. https://a rxiv.org/pdf/2208.01618
+Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinsteiin, and Kfir Aberman. Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation. arXiv preprint arXiv:2208.12242, 2022. https://a rxiv.org/pdf/2208.12242
+Nupur Kumari, Bingliang Zhang, Richard Zhang, Eli Shechtman, Jun-Yan Zhu. Multi-Concept Customization of Text-to-Image Diffusion. arXiv preprint arXiv:2212.04488, 2023. https://a rxiv.org/pdf/2212.04488

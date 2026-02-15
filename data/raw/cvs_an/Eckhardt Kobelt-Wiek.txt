@@ -1,0 +1,63 @@
+[name]
+[location]
+[email] | +2 *** *** ***
+Date of birth: July 23, 2002
+Education
+[location] State [University] ([compaany])
+Master’s program in Data Analysis in Economics, Faculty of
+Computational Mathematics and Cybernetics
+Expected graduation: 2026
+Current research focuses on machine learning methods for credit
+scoring and risk evaluation
+Work and Research Experience
+Machine Learning Engineer – [compaany] (Aug 2024 – present)
+Working on buildiing predictive models to support operational
+and financial decision-making. Projects include demand
+forecasting, time series modeling, and customer segmentation.
+Developed tools that are currently used by multiple departments
+to plan resources more efficiently.
+[compaany], LARSS Laboratory (Jan 2025 – present)
+Part of the team working on fine-tuning GigaChat, a large
+language model developed by [compaany].
+Data Analyst – Technologies of Trust (Nov 2023 – Aug 2024)
+Analyzed IT infrastructure risks and system performance for
+large-scale clients. Built internal dashboards and contributed to
+optimization of business processes using SQL and Python-based
+analytics.
+Data Scientist – Robot MIA (Sep 2022 – Nov 2023)
+Participated in developing speech recognition modules for voice
+assistants. Focused on improving NLP model accuracy and
+deploying updates into production environments. Collaborated
+closely with developers to test and integrate models into end-
+user applications.
+Data Analyst – EY [location] (Jun 2021 – Aug 2022)
+Involved in consulting projects across industries, with a focus on
+financial data. Worked on data pipelines, dashboards, and
+reporting solutions using Tableau and Power BI. Supported
+decision-making with insights derived from structured datasets.
+Technical Skills
+Python (Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch)
+SQL (PostgreSQL), Git, R
+Power BI, Tableau, KNIME
+Experience with ML model deployment, LLMs, time series
+forecasting, NLP, and A/B testing
+Languages
+Russian – native
+English – B2 (Upper-Intermediate)
+Certifications and Courses
+Large Language Models – Higher School of Mathematics
+(2025)
+Machine Learning and AI – [University] ([compaany]) (2024)
+Machine Learning (NLP) – SHIFT Intensive, CFT (2024)
+Selected Projects and Achievements
+At [compaany], developed a passenger flow prediction model based
+on ML algorithms (XGBoost, Prophet), currently adopted by
+500+ employees. The model significantly outperforms
+traditional Excel-based forecasts.
+In 2023, participated in the “Gaagarin Hackathon” with a project
+analyzing market sentiment via Telegram channels. Also a
+finalist of an HSE-FNL case championship and attended HSE’s
+Summer School on Machine Learning in Bioinformatics.
+Built a simplified version of a transformer-based chatbot during
+the Large Language Models course, including implementation
+of quantization and fine-tuning methods.

@@ -1,0 +1,73 @@
+Hello!
+My name is [name], and I am very eager to apply for participation in
+the international summer school SMILES-2025. Artificial Intelligence is not
+just a fashionable trend, but an area where I think the future of science,
+technology, and communications is really taking shape. For me, this trip is an
+opportunity to join a new ecosystem with innovative ideas, different experiences
+and a lot of people with interesting research.
+I study and develop in the field of statistics and machine learning - these
+fields attract me, as I am interested in real applied problems, building rigorous
+algorithms, also very interesting in big data analytics, as the results can
+sometimes be very surprising. Biology has also entered into the spheres of my
+interest. This science is so diverse that it has links to many other sciences.
+Nowadays, a lot of people involved in programming are interested in the field of
+artificial intelligence, but I think that bioinformatics and how programming can
+be used to study the human body, the genome, and processes in nature is just as
+fascinating.
+My introduction to these fields started in 8th grade with classical
+problems: regression, clustering, feature selection and basic model building. But
+over time I realised that ML/DL is a very fast growing field, especially with the
+advent of AI, and what interesting perspectives are opened up with deeper
+learning. However, it is also surprising that with such possibilities, many
+processes in important fields such as medicine are still performed by humans,
+although many analyses, interpretation of results and similar processes can
+be performed by machine algorithms.
+Among other things, I am currently interested in large language models. I
+follow with great interest how approaches to text generation, integration of
+visual and linguistic information are developing. Although it would seem that
+not so long ago, entering text by voice was something in the realm of science
+fiction or super high technology, now even a mid-level programmer can write
+his own primitive language system. It seems that this is where the major
+discoveries are happening right now. And I would very much like not just to
+watch them from the sidelines, but to participate in these processes, to try my
+hand, to learn from those who are already at the forefront of these
+developments.
+SMILES-2025, with its rich programme, lectures and international
+context, is just the right environment where you can maximise your potential. I
+am particularly close to the idea of the school as a space for real co-operation:
+when you work not alone, but in a team, where everyone brings their
+experience, their knowledge, their questions. I am sure that intercultural
+interaction is not just a ‘nice bonus’, but one of the most powerful sources of
+growth. Exchanging ideas with participants from [location] and other countries can
+give a whole new perspective on familiar problems and open up unexpected
+solutions.
+What do I expect from the school? Firstly, a deep dive into cutting-edge
+AI topics - from generative models and multimodality to LLM architecture and
+multi-agent applications. I don't just want to ‘hear about them’, I want to work
+hands-on, experiment, and try them out in practice. Secondly, I am looking
+forward to the opportunity to communicate with mentors - people who not only
+have a wealth of experience, but are willing to share it and think of something
+new together. I want to ask questions, discuss possible career paths, understand
+where and how I can apply my knowledge to the best advantage. Thirdly, I'm
+looking forward to a lot of collaborative communication. Energy, ideas, joint
+coding, discussions until the night - all the things for which I want to participate
+in such projects.
+As for my career plans, I see myself in the research and application field.
+My goal is to continue to develop in the field of statistics and machine learning,
+to deepen my understanding of both theoretical foundations and practical
+applications. Also to improve my language level in order to be able to travel and
+communicate with people of other cultures and other views on life.
+But at the same time it is important for me to stay close to practice. I want
+my research to be applicable - to be able to build it into a product, into a system,
+into a solution that brings concrete benefits. I am inspired by examples where
+AI technologies help doctors to make diagnoses, cities to manage traffic, and
+companies to better understand their customers. I believe that the right
+combination of statistics, ML and good engineering implementation is the key
+to creating such solutions.
+I really hope to have the opportunity to be part of SMILES-2025. As I am
+ready to actively get involved, learn, share my knowledge, listen to others,
+argue, propose ideas, participate in projects and do everything to make this
+school not just an event in the calendar, but a real stage of growth - personal,
+professional, research.
+Thank you for your attention and for the opportunity to apply.
+Sincerely, [surname]

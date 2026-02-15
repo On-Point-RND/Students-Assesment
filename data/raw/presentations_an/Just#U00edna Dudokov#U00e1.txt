@@ -1,0 +1,93 @@
++2 *** *** ***
+[email]
+[location]
+[compaany]
+“International [compaany] Readings”
+April, 2025
+Introduction Research Results Conclusion
+Problem
+• Many people who start learning machine learning cannot understand the meaning of ensemble methods and why they
+are used.
+Introduction Research Results Conclusion
+Relevance
+• Although neural networks are very popular and in demand now, ensemble methods remain the most effective when working
+with tabular data and are used in many areas of modern economics.
+• Therefore, I decided to conduct a review study of ensemble machine learning methods so that people would know more
+about them.
+Introduction Research Results Conclusion
+Preparing for the research
+• The most useful resources for me were the textbook of the School of Data Analysis and the course "Machine Learning" of
+the FCS of the HSE, thanks to which I was able to understand the theoretical aspects of classical machine learning well.
+• I collected data from these sources, aggregated them, made a plan for my research. Then I downloaded many datasets, tested
+different models, compared metrics to make sure when ensemble methods work best.
+Introduction Research Results Conclusion
+Bias-variance decomposition
+Loss function
+Models with high bias are
+too simple
+Bias
+Models with high variance are
+too complex.
+Variance
+Introduction Research Results Conclusion
+Bias-variance tradeoff
+underfitting zone overfitting zone
+Introduction Research Results Conclusion
+Bootstrap aggregation (bagging)
+We have a sample.
+We will generate new samples using the bootstrap method,
+train the same algorithms on them.
+The average value of the models' predictions will be the
+prediction of our ensemble.
+Bagging will reduce prediction variance.
+Introduction Research Results Conclusion
+Bootstrap aggregation (bagging)
+Introduction Research Results Conclusion
+Bagging base models
+• Recall the bias-variance tradeoff: complex models have a high
+spread of predictions, and simple models have a high bias.
+• Therefore, for bagging, you need to take complex models that
+are prone to overfitting (for example, decision trees with a large
+depth), since bagging will reduce the variance.
+Introduction Research Results Conclusion
+Boosting
+• Each model in boosting aims to reduce the average error of
+previous models in the ensemble.
+• Basic algorithms are simple models prone to underfitting.
+Introduction Research Results Conclusion
+Stacking
+• In stacking, the initial dataset is divided into training and testing
+parts. The training dataset is then split into k folds.
+• The base model is trained on k-1 folds and makes a prediction
+on the remaining fold, as in cross-validation.
+• The model's prediction on the remaining fold becomes a meta-
+factor. This process is repeated for each fold.
+• The meta-model is trained on the resulting meta-factors and
+the final prediction is made.
+Introduction Research Results Conclusion
+Stacking
+Introduction Research Results Conclusion
+Stacking
+• In stacking, you can use base models of different types together
+• Stacking allows you to combine different approaches to
+learning, which increases the accuracy of predictions
+Introduction Research Results Conclusion
+Results
+Thus, ensemble methods allow models to adapt to complex data and avoid
+overfitting. Bagging, boosting, and stacking provide reliable and accurate
+forecast results. Their use opens up new opportunities in solving a wide
+variety of problems.
+They are used in:
+Finance: credit scoring, automated trading, risk assessment and reduction,
+stock price forecasting.
+Medicine: treatment outcome forecasting, disease diagnostics.
+Marketing: user behavior analysis, targeted advertising setup.
+Ecology: climate change forecasting, environmental monitoring.
+Introduction Research Results Conclusion
+Conclusion
+• The presentation of my research went well and was liked by the jury and
+the audience.
+• During this research, I gained a lot of experience working with different
+sources and better understood the theory of classical machine learning.
+• I plan to continue doing research in the field of artificial intelligence and I
+hope that the summer school will give me a good opportunity to do so.

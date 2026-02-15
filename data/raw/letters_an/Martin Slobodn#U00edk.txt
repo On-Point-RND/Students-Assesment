@@ -1,0 +1,13 @@
+Dear [name]!
+ 
+I’m very glad to apply for the summer schoo l in [location]. I have a lways been deeply interested in Machine Learning and Artificial Intelligence. I’m eager to gain new experience and knowl edge in this field. It’s a fascinating area for me, and I believe that I will learn a lot from the experts in Machine Learning.
+I didn’t choo se your program by chance. I truly admire your innovative approa ch to developing solutions for the market. I’ve heard a lot of positive fee dback about your organization from my uni versi ty peers who have worked with you, and I was genuinely impressed by your projects. That’s what motivated me to apply for your summer schoo l.
+Curr ently, I’m a s econ d-year student at the Higher Schoo l of Economics, studying at the Faculty of Computer Science. I’m consta ntly looking for ways to expand my knowl edge and explore new areas that I’m passionate about — and this program is a perfect oppo rtunity for that.
+My IT-skills include: knowl edge in calculus, linear a lgebra and probability theory, mathe matical statis tics, algo rithms and data structures. I have programming experience with Numpy, Symp y, and Pandas Python libraries. Moreover, I’ve deve loped backend for [compa ny] website using PostgresSQL db and Flask framework. I also have practice with FastAPI, Docker, CI/CD Deve lopment and a skill of writing unit tests and technical do cumentation. I’m also a r esponsib le person, attentive to fee dback, and I’m not scared of trying out new s tack and new app roaches for developing. 
+#Не я-я а, взяв меня, ваша компания получит то-то тото человека, плюсы компании
+I am sure, after internship I will better understand how profes sionals work in international comp anies, develop and organize processes, and give me a unique prospec tive on how to grow as a programmer.
+ 
+I will be glad to discuss my candidacy
+ in detail if you find it interesting.
+ 
+ 

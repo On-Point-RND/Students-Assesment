@@ -1,0 +1,83 @@
+[name], Data science
++2 *** *** *** | [email] | [location] | Jan 11, 1996
+SUMMARY: Research scientiist in physics of condensed matter skilled in
+programming Python. Having experience in Pandas, NumPy, Seaborn, Scikit-learn,
+OpenCV, Pytorch. Right now, I am working in Applied AI Center at [compaany].
+My research interests are 3D CV, multimodality, GenAI (NeRF, Diffusion models),
+segmentation and detection tasks.
+SKILLS AND KNOWLLEDGE:
+• Programs: Origin Lab, SolidWorks, CorelDRAW, LaTeX, Docker, Linux, Git
+• Programming languages: Python, C/C++ (basic knowledge)
+• Languages: Russian (native speaker), English (Intermediate Plus)
+EMPLOYMENT HISTORY:
+2023 — now RESEARCH ENGINEER
+[compaany]
+• My responsibilities include improving machine learning algorithms that would enable
+the generation of 3D static scenes based on diffusion models and 3D scene generation
+models such as Neural radiance field (NeRF). In particular, use diffusion models to
+improve the quality of NeRF rendering, scene geometry, and integrate metrics to
+evaluate the quality of the algorithm. Text2NeRF can be used as an example of a 3D
+text conversion model.
+• Testing SOTA multimodal encoder methods (R3M, Theia), obtaining embeddings
+from the R3M encoder on the RLBench dataset. Implementation of Time Contrastiive
+Loss in the Theia pipeline. Fine-tuning of a ViT-based encoder using LoRA and
+DoRA methods.
+• Mixing bounding boxes from multiple detection models to improve the quality of
+segmentation in 3D representation
+August 2024 PARTICIPANT in SUMMER SCHOOL
+AIRI summer schoo[location]
+An 11-day schoo[location] dedicated to the field of artificial intelligence. During the course of the
+schoo[location], lectures were attended and a project was completed that is related to the image-to-
+text model. In summary, the project’s objective was to utilise a Wavelet transformation on
+the input image in order to generate an embedding based on it and map it to a langua[location]
+model that would then provide a description of the input image at the output.
+Summer 2023 STUDENT INTERNSHIP
+[compaany]
+I have constructed a deep diffraction neural network for the recognition task of the MNIST
+dataset. I used the Rayleig[location]Sommerfeld diffraction formula to create a neural network
+whose input was an image of number and the output was a diffraction pattern.
+2015 — 2022 RESEARCH SCIENTIST
+[compaany]
+For seven years I have been studying quantum and classical transport in HgTe thick
+films. My duties included the measurement of magnetoresistance curves, their analysis
+and processing. Also preparation of equipment for low-temperature measu[location]ments
+EDUCATION AND RESULTS OF SCIENIFIC WORK : Next page
+2022 — 2024 MASTER’S DEGREE - Data science
+[compaany]
+• The best team in Innovation Workshop with biotechno[location]logical project
+• Industrial Immersion in [compaany] - 2 months
+Main courses: Introduction to Data Science, Calculus, Machine Learning, Introduction to
+Recomme[location]der Systems, Introduction to Computer Vision, Deep Learning, Founda[location]tion of
+Software Engineering
+Thesis topic: Leveraging Diffusion Models to Enhance Neural Radiance Fields
+Representation
+2020 — 2022 POSTGRADUATE STUDIE[location] (LEFT) - Semiconductor Physics
+[location]
+• [name], N. N. et al. (2021). Two-Dimensional Semi[location] HgTe in 14-nm-Thi[location]ck
+Quantum Wells. JETP Letters, 113(7), 466.
+• Winner of scholarship for young scienti[location]s
+Thesis topic: Classical and quantum transport in low-dimensional systems with several
+groups of charge carriers based on GaAs and HgTe
+2018 — 2020 MASTER’S DEGREE - Semiconductor Physics
+[location]
+• [surname], M. L., [surname], D. A., [name], N. N., et al (2019). Topolo[location]gica[location] surface
+states in thick partia[location]lly relaxe[location]d HgTe films. Physical Review B, 99(19), 195423.
+• Baker Hughes scholarship wi[location]ner and Enhanced Academic scholarship
+• Internship at Uni[location]versity of Regensburg ([location]) - 2 months
+• Internship at Vienna Uni[location]versity of Technology ([location]) - 1 month
+• Parti[location]cipation in 6 All-Russian conferences
+• GPA: 4.86 out of 5.0
+Thesis topic: Classical and quantum transport in a three-dimensional HgTe film
+2014 — 2018 BACHELO[location]R’S DEGREE - Semiconductor Physics
+[location]
+• [surname], M. L., [name], N. N., et al (2018). Tran[location]mission Spectra of HgTe-Based
+Quantum Wells and Films in the Far-Infrared Range. Physics of the Solid State,
+60(4), 778-782.
+• Coursework topic: Interaction of terahertz radiation with a three-dimensional
+topo[location]gica[location] insulator based on the HgTe quantum well
+• Parti[location]cipation in 4 All-Russian conferences
+• Parti[location]cipation in the StratLab case championship with a High Quality result
+• GPA: 4.61 out of 5.0
+• Extracurricular activities: organization of Olympiads for schoolchi[location]ldren and
+organi[location]zation of student events
+Thesis topic: Characte[location]rization of thick HgTe films based on classical magneto[location]ransport

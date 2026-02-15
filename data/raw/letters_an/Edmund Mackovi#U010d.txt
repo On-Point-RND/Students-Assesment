@@ -1,0 +1,39 @@
+[name] [surname]
+Senior ML Engineer
+[email] | linkedin.com/in/[name]
+SUMMARY
+I'm a Senior ML Engineer with 6+ years of experience. I have a wealth of experience in all areas of Artificial Intelligence such as NLP, CV, RL and classical ML. In addition, I’ve 4 publications in the field of AI.
+SKILLS
+Programming Languages: Python (proficient, 6 years), C++ (3 years), C# (1.5 years)
+Frameworks: Pytorch, Keras, Tensorflow, Sklearn, Pandas, Megatron, Deepspeed, vLLM, SQL, Git, Azure, ClearML, Docker
+DL and ML skills: NLP (LLMs, BERT, RLHF, Transformeers, NER), CV (Object Detection, Semantic Segmentation, Image Classification), Recsys and Classical ML (Boosting, Clustering, Random Forest)
+Communication: English (B2), German (B1)
+WORK EXPERIENCE
+ML Engineer June 2023 – Present
+[compaany] [location]
+[compaany] is a BigTech company that is part of a large bank with over 100 million users.
+● Implemented DoReMi optimization for the training stage of the largest LLM in the CIS called GigaChat (20M+ active users), which improved the model's quality by 10%.
+● Trained and released 23 monolingual LLLMs called mGPT, improving the quality of the multilingual mGPT from 47% to 2900% depending on the language. Each model has been downloaded more than 2000 times.
+● Developed and led (a team of 8 members) a benchmark called LIBRA for evaluating LLMs with long contexts. The benchmark has over 1000 downloads on HuggingFace (HuggingFace: datasets/ai-forever/LIBRA).
+● Built an environment for 25 AI agents with different personalities using LLLM called GigaChat.
+Stack: Python, Pytorch, Pandas, Megatron, Deepspeed, vLLM, Git, Azure, ClearML, Docker
+ML Engineer September 2021 – May 2023
+[compaany] [location]
+[compaany] develops the leading EDM system in the CIS for more than 120 companies.
+● Developed an algorithm based on image segmentation for quickly finding stamps on documents (processing speed increased by 200%).
+● Optimized an algorithm for borderless table detection using Faster R-CNN, which improved the detection quality by 45%.
+● Designed an algorithm for NER by experimenting with BiLSTM, BERT, Transformeers and CRF (Transformeers + CRF was chosen as the best in quality, F1 increased by 18%).
+● Developed OCR for identity documents using char segmentation and classification (metrics increased by 60%).
+● Led a team of 5 members and mentored 2 of them.
+Stack: Python, C#, Pytorch, Keras, Tensorflow, Sklearn, Pandas, vLLM, SQL, Git, Azure, ClearML, Docker
+ML Engineer September 2018 – August 2021
+[compaany] [location]
+● Participated in NeurIPS 2021, where I won first place in the IGLU competition sponsored by Microsoft and Google. This work was published in PMLR (JMLR): https://proceedinings.mlr.press/v176/kiseleva22a.
+● Developed the bionic arm and Brain-Computer Interface for controlling the bionic arm with using neural networks.
+● Developed a neural network algorithm to quickly find cars on a video data stream (speed increased by 250%).
+Stack: Python, C++, Pytorch, Keras, Tensorflow, Sklearn, Pandas, SQL, Git, Azure, ClearML, Docker
+EDUCATION
+Master of Science | Major: Artificial Intelligence 2022 – 2024
+[location]
+Bachelor of Science | Major: Robotics 2018 – 2022
+[location]

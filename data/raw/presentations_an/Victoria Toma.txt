@@ -1,0 +1,144 @@
+From Data to Structures:
+Multimodal Deep Learning for
+Generative and Interpretable
+BIM in Constructive Design
+[name]
+PhD student, [compaany]
+Introduction
+Construction:
+6% Civil
+3% Infrastructure
+Construction ≈ 13 % global GDP* ≈ 13·1012 $
+4% Industrial
+13%
+The Market of Engineering Services for
+Construction ≈ 4·1011 $
+87%
+Construction Software Market ≈ 2·1010 $
+Rest of the world economy
+*GDP stands for Gross Domestic Product
+McKinsey report “Delivering on construction productivity is no longer optional”
+1. 1
+Oxford Economics report “Global Construction Futures”
+2.
+Introduction
+Research and
+Decommissioning Demolition
+Feasibility Study Construction Operation
+Design
+Duration in years
+Industrial from 1 to ∞ from 1 to 2 from 1.5 to 4 from 15 to 50 from 1 to 2 from 0.5 to 1
+Infrastructure from 1 to ∞ from 1 to 2 from 1 to 3 from 15 to ∞ from 1 to 2 from 0.5 to 1
+Civil and
+from 0.5 to 1 from 0.5 to 1 from 0.5 to 2 from 20 to ∞ from 1 to 2 from 0.5 to 1
+Commercial
+Most expected effect of AI application
+2
+Introduction
+2% Construction industry losses
+Errors
+Delays
+These losses take 1/6 part of all
+Inefficiency
+11%
+construction expenses which are
+2% or global GDP resulting in
+annual loss of 2 · 1012$
+87%
+1. McKinsey report “Reinventing construction: A route to higher productivity”
+2. [name], [surname] and [name], [surname] (2021), "Quality issues related to the design and construction stage of a project in the Indian construction industry", Frontiers in Engineering and
+Built Enviro Environment, Vol. 1 No. 2, pp. 188-202. https://doi.org/10.1108/FEBE-05-2021-0024
+3. [name], [surname], [name], [surname] (2019). Causes of Delay in Various Construction Projects: A Literature Review. In: [name], [surname] , [name] (eds) Advances in Human Factors, 3
+Sustainable Urban Pla nning and Infrastructure. AHFE 2018. Advances in Intelligent Systems and Computing, vol 788. Springer, Cham. https://doi.org/10.1007/978-3-319-94199-8_47
+Introduction
+Problems:
+Lack of skilled engineers
+•
+Data corruption when transferred between departments
+•
+High cost of delays and errors
+•
+Low scalability
+•
+Task:
+Design process accele ration and assis tance with
+•
+generative AI
+4
+Introduction
+Goal:
+Reduce the architectura l construction timeline and costs by implementa tion of generative AI to BIM
+modeling
+Key objectives:
+•
+Data preprocessing for the elaboration of brand-new storage type
+•
+Design the framework which automatically generates 3D Buildi ng Info rmation Models (BIM)
+Scienti fic novelty:
+•
+Core methodology uses graph-based Industry Founda tion Classes (IFC) processing and information
+extraction for the BIM model generation from the text prompts
+Application:
+•
+Colla boration with industry partners to implement the model
+5
+Problem statement
+The main goal is BIM data interpretation and the system of IFC code parsi ng
+elaboration for the next aims:
+1. Construction generation in BIM format from the text prompts
+2. BIM data enrichment to fulfill the missing properties
+3. Model information parsi ng from the IFC code
+4. Questions answering with BIM data
+6
+Methods
+BIM format contains following data:
+- Geometry
+- Relationships between objects
+- Properties of objects and materials
+- Project information
+.IFC example:
+Bridge model IFC-graph House model IFC-graph
+Fig.1 – Illustration of IFC-graphs for simple objects [4].
+7
+[name], [surname], [name], [surname], IFC-graph for facilitating buildi ng information access and query, Automation in Construction, Vo lume 148, 2023.
+Methods
+IFC format contain the information about the objects,
+thei r properties and the relations between the objects.
+For the BIM enrichment the multilingua l LLMs were
+used for the preprocessing and matching
+Fig. 2 –IFC storage scheme for geometrical properties saving and
+enchasing the semantic bonds [5]. Fig. 3 –IFC storage scheme for geometrical properties saving and
+enchasing the semantic bonds [6].
+5. [name], [surname], Semantic enrichment for BIM-based buildi ng energy performa nce simulations using semantic textu al similarity and
+fine-tuning multilingua l LLM, Journal of Buildi ng Engineering, Vo lume 95, 2024, 110312, ISSN 2352-7102,
+https://doi.org/10.1016/j.jobe.2024.110312.
+6. [name], [surname], «[name]/ifcopenshell-notebooks: Initial release of IfcOpenShell Notebooks». Zenodo, ноя. 29, 2021. doi:
+10.5281/ze nodo.5733973.
+7. [name], [surname], [name], [surname], Generating Buildi ng Models Using a Large Lan gua ge Model-based Multi-Agent Framework,
+https://a rxiv.org/abs/2408.08054
+8
+Research gap
+• Problem: Multi-agent system requires huge context for the agents communication.
+Suggestion: Omit natural lan gua ge decoding and force agents to communicate more efficiently
+• Problem: Existing datasets are suitable onl y for the civil buildi ngs (i.e., apartments) limiting generalization
+Suggestion: Combination of novel benc hmark with various constructions. The IFC format is unive rsal, but
+the data specific is unique for the one field.
+• Problem: The Revi t software allows custom properties, which leads to unphysical properties in resulting
+BIM models (e.g., water walls)
+Suggestion: Train agent to revise the model formats and properties
+13
+Bibliography
+1. [name], [surname], “Reinventing construction: A route to higher productivity”
+2. [name], [surname], [name], [surname] (2021), "Quality issues related to the design and construction stage of a project in the Indian construction
+indus try", Frontiers in Engineering and Built Enviro Environment, Vol. 1 No. 2, pp. 188-202. https://doi.org/10.1108/FEBE-05-2021-0024
+3. [name], [surname], [name], [surname] (2019). Causes of Delay in Various Construction Projects: A Literature Review. In: [name], [surname] , [name] (eds) Advances in Human Factors, Sustai nable Urban Pla nning and Infrastructure. AHFE 2018. Advances in Intelligent Systems and Computing,
+vol 788. Springer, Cham. https://doi.org/10.1007/978-3-319-94199-8_47
+4. [name], [surname], [name], [surname], IFC-graph for facilitating buildi ng information access and query, Automation in Construction, Vo lume 148, 2023
+5. [name], [surname], Semantic enrichment for BIM-based buildi ng energy performa nce simulations using semantic textu al similarity and
+fine-tuning multilin gua l LLM, Journal of Buildi ng Engineering, Vo lume 95, 2024, 110312, ISSN 2352-7102,
+https://doi.org/10.1016/j.jobe.2024.110312.
+6. [name], [surname], «[name]/ifcopenshell-notebooks: Initial release of IfcOpenShell Notebooks». Zenodo, ноя. 29, 2021. doi:
+10.5281/ze nodo.5733973.
+7. [name], [surname], [name], [surname], Generating Buildi ng Models Using a Large Lan gua ge Model-based Multi-Agent Framework,
+https://a rxiv.org/abs/2408.08054
+8. [name], [surname]

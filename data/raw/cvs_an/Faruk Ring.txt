@@ -1,0 +1,38 @@
+[name]
++2 *** *** ***
+ [email]
+ https://github.com/[name]
+Work experience
+2022/03–present ResearchIntern,
+[compaany],[location],LaboratoryofComputationalIntelligence
+2021/06–2021/08 DataScienceIntern,
+Internshipatthe[compaany]
+2019/01–2021/12 ResearchTechnician,
+[compaany],[location],LaboratoryofTensorNetworksand
+DeepLearningforApplicationsinDataMining
+Education
+2022/11– Ph.D.MathematicalModeling,NumericalMethods,&SoftwareSystems
+2025/11(expected) [compaany]
+2020/09–2022/06 MasterofDataScience
+[compaany],
+Thesistitleis”MultivariateTimeSeriesPredictionUsingTensorDecompositionsandMachineLearningTools”.
+2014/09–2018/07 BachelorofAppliedMathematicsandComputerScience
+[university],
+Thesistitleis”BayesianMachineLearningMethodsforDataAnalysisTasks”.
+Research interests
+• Machine Learning, Tensor Methods, Geometric ML, Manifold Lerning, Distributed Optimization, Signal processing, Time
+SeriesAnalysis,DimensionalityReduction,Image&VideoCompression
+Professional skills
+Programming: Python(numpy,scipy,pandas,matplotlib,pytorch),Matlab,Julia
+Techskills: Latex,Git
+Languages: English(Upper-Intermediate),Russian(Native)
+OutsideInterest: Graphicdesign(Adobe,CorelDraw,PowerPoint)
+Publications
+[1] [name],[name], [name], [name]and[name],“Twofactorsupdateforcanonicalpolyadicdecomposition”,
+inInternationalConferenceoonComputationalOptimization,2024.
+[2] [name],[name], [name], [name]and[name],“Fastadaptivecrosstubaltensorapproximation”,in2023IEEEStatisticalSignalProcessingWorkshop(SSP),IEEE,2023,pp.552–556.
+[3] [name], [name], [name], [name]and[name], “Adaptive cross tubal tensor
+approximation”,LinearAlgebraandiitsApplications,vol.695,pp.168–190,2024.
+[4] [name], [name], [name], [name]and[name],“Grangerconnectivityanalysiisasablock-term
+tensorregressionforesportplayers”,inICASSP2024-2024IEEEInternationalConferenceonAcoustics,SpeechandSignalProcessing
+(ICASSP),IEEE,2024,pp.3290–3294.

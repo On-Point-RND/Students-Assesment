@@ -1,0 +1,13 @@
+Motivation Letter for SMILES Skoltech Summer School
+[name],
+4 course [compaany], 
+MLE at [compaany], 
+
+I am very interested in studying at the SMILES summer school from [compaany], I like this [compaany] and the programs it provides. 
+Especially the Master's program Advanced computational science and Data science are my priority options for this summer. I have confidence that such strong programs will help me in my future research activities and with their help I will be able to progress towards a PhD in computer science. 
+Among the organizers, I am most impressed with [name] as a lecturer of my favorite course Bayesian ML . 
+Also important are the opportunities for professional networking and career development, mentorship from industry experts, and I am delighted that the school's speakers are leading experts from [compaany] ([name]) and [compaany] ([name]).
+I would be very happy to have the opportunity to dive into such interesting topics as Generative Approaches, Self-learning Methods, Secure AI, to participate in practical research of advanced level on the territory of the Computer Science Department of [compaany] in [location], plunging into the amazingly rich Chinese culture. 
+My experience of industrial development as a machine learning engineer at [compaany] (full cycle of implementing ml models in search and recommendation, as well as developing and implementing better metrics), scientific activity in researching the application of machine learning methods for a wide class of problems (Travel Demand Estimation, diffusion generation, modern methods of information retrieval) will help me to successfully master the course program and implement the project, sharing knowledge and skills with colleagues. 
+ 
+I look forward to meeting you at the best machine learning summer school 

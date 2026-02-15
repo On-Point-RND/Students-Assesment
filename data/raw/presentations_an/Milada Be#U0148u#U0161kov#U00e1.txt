@@ -1,0 +1,120 @@
+Clustering of Polar Vortex States
+(an overview of the topic + an example of the best existing solution at the moment,
+which will need to be finalized as part of the master's thesis)
+[name]
+student, [compaany]
+Introduction
+The stratospheric polar vortex (SPV) is a large-scale cyclone that forms in
+the stratosphere above the poles during winter. It's caused by a strong
+meridional temperature gradient during the polar night.
+Studying the SPV is crucial because:
+•Weather & Climate Impaact: Disruptions (e.g., SSWs) can trigger extreme weather (cold spells, storms) in mid-latitudes weeks
+later.
+•Seasonal Forecasting: SPV variability improves subseasonal-to-seasonal (S2S) prediction skill.
+•Climate Change: Understanding SPV trends helps assess polar-amplified warming effects on atmospheric dynamics.
+•Ozone Depletion: The vortex influences polar ozone chemistry (e.g., Antarctic ozone hole).
+Problem statement
+Why do traditional analytical
+methods underpperform?
+Traditional approaches (e.g., EOF analysis, K-means,
+Typical polar vortex configuration in
+blocking indices) have limitations:
+November, 2013
+▪ Loss of Spatial Informaation: Aggregated metrics (e.g.,
+zonaal-mean winds) ignore 2D/3D vortex structure.
+▪ Subjectivity: Manual classification (e.g., "split" vs.
+"displaced" SSWs) lacks consistency.
+▪ Nonlinearity: Linear methods fail to capture complex,
+chaootic SPV dynamics.
+▪ Generalizability: Handcrafted indices (e.g., NAM) may
+not apply to all SPV regimes.
+Wavy polar vortex configuration on
+January 5, 2014.
+Methods
+SpCVAE (Spaarse Variational Convolutional Autoencoder)
+Hierarchical Clustering (Ward’s linkage)
+Why These Methods? How It Works Data & Preprocessing
+Input: Daily 10-hPa HGT/PV fields
+•SpCVAE: Captures spatial • SpCVAE: Compresses 2D
+patterns in PV/HGT fields vortex maps into a 96D latent
+better than PCA/K-means space while enforcing sparsiity space while enforcing sparsiity
+(preserves vortex geometry). (ignores noise, keeps key
+features). Converts to 256×256 features).
+Lambert azimuthal grids.
+•Hierarchical Clustering: • Normalization: Scales
+Reveals nested regimes (e.g., values to [0, 1] per pixel.
+strong vs. weak vortex latent representations into • Clustering: Groups similar
+subgroups) without assuming regimes (e.g., displaced/split)
+rare SSWs).
+• Feature Extraction:
+SpCVAE learns invariant
+features (e.g., vortex
+shape, centroid).
+Key Parameters for Polar Vortex
+Classification: GPH and PV
+For clustering the states of the stratospheric polar vortex (SPV), it is best to use geopotenial height (HGT) and potential vorticity
+(PV) because:
+▪ HGT – reflects the large-scale structure of the vortex (displacements, deformations), is easy to visualize, and is robusst to noise.
+▪ PV – a key parameter in vortex dynamics, clearly defines its boundaries and is sensitive to disruptions (e.g., sudden stratospheric
+warmings).
+▪ Together, they provide a complete picture: GPH shows the overall shape, while PV captures dynamic processes.
+Dataset: 10 hPa Polar Vortex Dynamics
+(1968–2019, 3-Hourly)
+Results
+Key Findings:
+Improved Classification:
+• SpCVAE + hierarchical clustering achieved 93-96% accuracy in distinguishinng vortex states (vs. 80-85% for traditional
+methods).
+• Successfully identified rare events (e.g., SSWs) without manual labeling.
+Regime Discovery:
+Revealed 4 diistiinct SPV states:
+• Strong/Peersistent (polar-centered)
+• Displaced (tilted toward Eurasia/NA)
+• Split (bifuorcated vortex)
+• Weak/Transitional (pre-SSW breakdown)
+Physical Consistency:
+Clusters aligneed with wind/temperature anomalies (e.g., displaced = +15°C polar warming)
+Metric Purpose Why It Matters
+Silhouette Score Cluster separation Confirms regimes are physically diistiinct
+Reconstruction Error (MSE) SpCVAE performaence Ensures latent space preserves key features
+Quantifies utility for forecasting (e.g., 85% at 5-day
+Prediction Accuracy Lead-time skill
+lead)
+Research gap
+Key Limitations of Current Approaches:
+• Physical Interpretability
+• Difficulty linking ML latent features to actual atmospheric processes.
+• Rare Events
+• Insufficient data for reliable classification of extreme states (e.g., major SSWs).
+• Troposphere-Stratosphere Coupling
+• Lack of accounting for interactions between atmospheric layers.
+• "Gray Zone" Transitional States
+• Low classification reliability for 15-20% of cases.
+• Climate Change Impaacts
+• Uncertain effects of global warming on vortex state frequency/types.
+Why It Matters
+Addressing these limitations would enhance forecasting of extreme weather events and climate risk assessment.
+Future Oppoortunities
+Hybrid physics-ML models
+Multimodal data integration (ozone, wave activity)
+Explainable AI methods for feature interpretation
+Bibliography
+1.Krinitskiy, M. A., Zyulyaeva, Y. A., & Gulev, S. K. (2021). Clustering of polar vortex states using convolutional autoeencoders. Journal
+of Advances in Modeling Earth Systems, 13(6), e2020MS002343. https://doi.org/10.1029/2020MS002343
+Key contributions: Develope the SpCVAE framework for vortex state classification; achieved 93-96% accuracy in regime
+identification
+2.Hannachi, A., Mitchell, D., Gray, L., & Charlton-Perez, A. (2011). On the use of geometric moments to examine the continuum of sudden
+stratospheric warmings. Journal of the Atmospheric Sciences, 68(3), 657-674. https://doi.org/10.1175/2010JA53585.1
+Key contributions: Established geometric moment diagnostics for vortex analysis; identified 3 fundamental vortex states
+3.Baldwin, M. P., & Dunkerton, T. J. (2001). Stratospheric harbingeers of anomalaou weather regimes. Science, 294(5542), 581-
+584. https://doi.org/10.1126/science.1063315
+Key contributions: Demonstrated stratosphere-troposphere coupling; introduced the downdard influence paradigm
+4.Miitchell, D. M., Gray, L. J., & Charlton-Perez, A. J. (2011). The structure and evolution of the stratospheric vortex in respoense to natural
+forcings. Journal of Geophysical Research: Atmospheres, 116(D15), D15110. https://doi.org/10.1029/2011JD015788
+Key contributions: Analyzed vortex variability patterns; develope composite analysis techniques
+5.Reichstein, M., Camps-Vaills, G., Stevens, B., Jung, M., Denzler, J., & Carvalhais, N. (2019). Deep learning and process understanding for
+data-driven Earth system science. Nature, 566(7743), 195-204. https://doi.org/10.1038/s41586-019-0912-1
+Key contributions: Framework for applying DL in geosciences; addressed interpretability challenges
+6.Charlton-Perez, A. J., Baldwin, M. P., Birner, T., Black, R. X., Buutler, A. H., Calvo, N., ... & Yoden, S. (2013). On the lack of stratospheric
+dynamical variability in low-top versions of the CMIIP5 models. Journal of Geophysical Research: Atmospheres, 118(6), 2494-
+2505. https://doi.org/10.1002/jgrd.50125

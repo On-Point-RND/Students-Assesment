@@ -1,0 +1,17 @@
+Motivation Letter for SMILES-2025
+Dear SMILES-2025 Selection Committee,
+My name is [name], a Computer Science and Physics undergraduate at the [location] [compaany], and I am writing to express my strong enthusiasm for participating in the SMILES-2025 Summer School on Generative AI. As someone deeply engaged in both theoretical machine learning and its interdisciplinary applications, I am particularly motivated by the school’s focus on bridging Russian and Chinese AI expertise while tackling cutting-edge challenges in multimodal systems and safe AI development.
+My academic foundation (GPA 9.21/10, top 1%) and hands-on experience with generative architectures position me to actively contribute to the school’s collaborative projects. Below are highlights of my relevant background:
+• Research in Generative AI: Currently interpreting chemical language models. Preparing two publications on ML applications in mass spectrometry interpretation and DL-based high-information-content graph representation of bacterial biofilms.
+• Production ML Systems: At [compaany] (2024 Summer Internship), engineered anomaly detection systems for time-series data using transformer-based architectures, reducing false positives by 25% through novel hyperparameter optimization strategies.
+• Multimodal Applications: Led computer vision development at a biotech startup, creating an end-to-end pipeline integrating microscopy imaging with cellular dynamics prediction models (40% throughput improvement).
+• Academic Leadership: Teach AI courses at [location] University, mentoring 100+ students in transformer architectures and their applications – particularly relevant to SMILES’ focus on large language models.
+• International Collaboration: Presented research at Neuroinformatics 2024 (poster) and Postgenome 2024 (oral) conferences, demonstrating ability to communicate technical concepts across cultural boundaries.
+What excites me most about SMILES-2025 is the unique opportunity to:
+• Collaborate with Chinese peers on cutting-edge developments in the field of generative artificial intelligence
+• Learn from world leaders about emerging paradigms like self-supervised learning for multimodal integration
+• Engage in cultural exchange that mirrors the global nature of AI advancement
+As someone who has competed internationally (Mendeleev Chemistry Olympiad Winner) and led cross-functional teams (KPMG Healthcare Case Champion), I am particularly motivated to help foster the Russian-Chinese AI research bridge that SMILES-2025 aims to strengthen.
+I would be honored to join this intensive 12-day journey of learning and innovation. Thank you for considering my application.
+Best regards,
+[name]

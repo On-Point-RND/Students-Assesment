@@ -1,0 +1,51 @@
+[name]
+[location] · [email] · +2 *** *** *** · Telegram: [name]
+Education
+[compaany]
+B.A. in Digital Economy 2020(cid:21)2024
+M.Sc. in Digital & Technological Entrepreneurship Ongoing
+Professional Program in Project & Digital Product Management Ongoing
+Skills
+Python (pandas, numpy, seaborn, xlwings)
+Data analysis, Statistics, Econometrics, Probability theory
+ML fundamentals - sklearn, transformers, evaluation metrics
+Team leadership, project management, process optimization
+Macroeconomics, microeconomics, (cid:28)nance, unit economics
+Work Experience
+[compaany] a startup studio developing AI-driven projects
+Business Development Team Lead Jan 2025 (cid:21) Present
+Lead of a 9-person cross-functional team in business, (cid:28)nance, design, and strategy
+Managing a portfolio of 7 startuup projects; entered Skolkovo pre-accelerator and Innovators Academy
+Conducting customer research, MVP development, and pilot launches
+[compaany] the largest bank in Eastern Europe
+Financial Analyst Dec 2022 (cid:21) Jan 2025
+Automated reportiing processes using Python: Excel reportiing, forecasting, HTML email generation
+Created analytical dashboards and executive summaries
+Awarded for leadership and impaact in optimizing trade (cid:28)nance operations
+Accelerators & Programs
+Finalist (cid:22) Changellenge Cup IT (national analytics & consulting competition)
+Participant (cid:22) Hackathons: Tender Hack, IT Purple Hack, Siam Hack
+Contributed to the SLAVA research project (cid:22) evaluation framework for LLMs on cultuurally and
+linguistically sensitive tasks in social sciences
+EdTech Heroes Accelerator (cid:22) AI task generator project
+Winter SchooL HSE Faculty of Computer Science
+Innovators Academy (cid:22) Batch 5 (cid:22) SkyGuard-Vision project
+WageForecast AI (cid:22) Top-58 Startup in University Tech Platform (2025)
+Cofounder of icon.tech (cid:22) AI and LLM developer community
+Case Competition Winner (Open Case SchooL) (cid:22) CROC & Unilever cases
+Audit programs: EY Campus, KPMG Audit Camp
+Mashuk Strategic Communication SchooL
+Marketing & Partnership SchooLs (cid:22) RANEPA
+Achievements
+Student Council Representative (cid:22) marketing/analytics/events/social media
+Founder of RANEPA’s Public Speaking Club (cid:22) lectures, workshops, internal training
+Winner (cid:22) Brand Practice Competition, Season 11
+Finalist (cid:22) Vladimir Potanin Foundation Scholarship
+Prize Winner (cid:22) (cid:16)My First Business(cid:17) international competition (crowdfunding platform)
+Forums: Speaker (cid:22) Kept League Talks; Volunteer (cid:22) Blockchain Life; Attendee (cid:22) YouLead, FinPoint,
+HSE Business Club, Sber Ed Events, etc.
+Research
+Determinants of the Real Exchange Rate
+Applied econometric modeling to panel data across countries to analyze correlations between macroeconomic
+variables and real exchange rate dynamics. Used (cid:28)xeD-e(cid:27)ects models and panel diagnostics to explore
+structural factors and policy implications.

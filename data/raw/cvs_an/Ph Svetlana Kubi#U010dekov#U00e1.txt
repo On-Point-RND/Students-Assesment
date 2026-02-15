@@ -1,0 +1,65 @@
+[name]
+[surname]
+Managment & Finance, ML engineer, System engineering
+CEO [compaany]
+PhD student in
+Automation of technological processes and
+production
+Winner of the NTI Olympiad "IRS", [location];
+Winner of "Startup tour 2022", [location];
+Awardee of "Open Innovation Startup tour 2022", [location];
+Awardee of the NTI Olympiad "Aerospace Systems", [location];
+Awardee of the I-professional Olympiad "Robotics", [compaany];
+Awardee of the international competition "Robosub", [location]. (Nominee in the field of technology report)
+[compaany] | 2020-Present [compaany] | 2022-present
+Team Lead in sofware development Senior engineer, Research engineer
+Microservice development Development of automatic control
+Analysis of data from technological systems for production cells processes of the agro-complex Development of object detection
+Development of cloud architecture algorithm
+Analysis of customers data
+Sb[compaany] | 2021-2022 [compaany] Undewater robotics | 2018-2021
+Junior Data Science engineer Software engineer
+Development of an automatic Development of an automatic control
+calibration system for scoring system based on computer vision models Development of algorithm
+Design of scoring models autonomous mission execution
+Analysis of data from robot sensors
+The Concept of the Unmanned Surface Vehicle for the Observation-class ROV // International Multi-Conference on
+Industrial Engineering and Modern Technologies, [location], 2020
+Prospects of using neural networks for recognition of certain stages in plant growt // IOP Conference Series Earth
+and Environmental Science DOI:10.1088/1755-1315/988/3/032085, 2021
+AI-Driven Agriculture & Vertical Farming Systems
+Developed a computer vision-based crop monitoring system
+using CNN (Convolutional Neural Networks) to analyze plant
+health, detect diseases, and predict yields in vertical farming
+environments. Integrated reinforcement learning algorithm
+to automate climate control (light, humidity, temperature),
+reducing energy consumption by 22% while improving crop
+yield by 18%. Deployed edg AI solutions on IoT devices for real-
+time data processing in resource-constrained settings.
+Tools: Python, TensorFlow, OpenCV, ROS (Robot Operating
+System).
+Auto nomous Undewater Robotics for Marine
+Exploration
+Designed an AI-powered undewater robot for seabed mapping
+and object detection in low-visibility environments.
+Implemented semantic segmentation models (U-Net
+architecture) to classify marine flora/fauna from sonar and
+camera data. Trained reinforcement learning agents for
+adaptive path pla nning, enabling colli sion avoidance in
+dynamic c urrents. Achieved 95% accuracy in identifying target
+objects (e.g., shi pwrecks, coral reefs) during field tests in the
+[location].
+Tools: PyTorch, Gazebo (simulation), SLAM algorithm s, custom
+hardware based on STM.
+AI-Driven Robotic System for Additive Manufac turing
+Developed a computer vision-powered robotic system to
+autonomously calibrate industrial print heads by analyzing
+droplet dynamics in real time. Designed custom object
+detection algorithm s (YOLOv5 architecture) to track and
+measure micron-level droplets ca ptured by high-speed
+cameras (1,000+ fps). Integrated CNN-based regression models
+to predict opti mal print head parameters (wawe-form) and
+mi nimi ze misprints. Achieved 99.3% droplet detection accuracy,
+reducing material waste by 27% and improving print resolution by 18% across metal/polymer additive manufa cturing
+workf lows.
+Tools: Python, OpenCV, PyTorch, ROS, high-speed cameras.

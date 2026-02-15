@@ -1,0 +1,153 @@
+Modeling regulatory grammar
+of transcription initiation
+with tissue specificity
+[name]
+Faculty of Bioengineering and Bioinformatics,
+[location]
+Skeletal muscles are extremely diverse
+More than 50% MuscleDB transcripts are differentially expressed
+between skeletal muscle tissues
+Peculiarities of various skeletal muscles regulation
+Fast Myosin super enhancer (fMyh) dictates muscle fiber phenotype
+CAGE-seq
+PuffinD
+Predicts CAGE-Seq
+Input sequence length: 100 000 нт
+Prediction length: 100 000 нт
+However, accuracy of this model is questionable.
+Atlas with a plethora of tissues FANTOM5
+CAGE-seq profiles with 1 nt resolution
+Combined CAGE-seq profiles
+CAGE-seq on a wide range of tissue and cell
+line samples (1816 profiles)
+Muscle atlas FANTOMUS
+225 samples, 76 muscle types (~10%)
+3 male & 1 female, 56-67 y.o.
+Aim
+1 Train model for prediction of FANTOM CAGE-seq
+2 Train model for prediction of FANTOMUS CAGE-seq (muscle atlas)
+3 Assess quality of model predictions
+Training and testing
+CosineAnnealingWarmRestarts:
+50 epochs, 2000 steps per epoch
+T_0: 2000
+T_mult: 1
+eta_min: 1e-6
+last_epoch: -1
+Gradient clipping, unit norm
+AdamW(weight decay=0.01)
+100 batch size
+Random genomic intervals +
+intervals with peaks
+Holdout set
+Prediction in log(x+1) scale
+1 2 15
+Increasing context during training
+2048 nt
+512 nt
+256 nt
+Our architecture Conformer
+1M parameters Designed for speech recognition,
+10М parameters
+Attention
+11) Custom backend 22) SDPA backend
+33) FlashAttention-2 backend
+Positional embeddings
+1 Dynamic Position Bias
+Uses MLP
+2 RoPE 3 ALiBI
+Rotational Position Embeddings Attention with Linear Biases
+Differential transformer
+Uses difference between two attention maps to reduce noise
+Other options
+● # of attention heads — standard value
+is 4, more degrades quality of predictions .
+● Softmax temperature — standard value
+is 1, fractional values result in a sharper
+softmax.
+● Count tokens — additional tokens
+(<CLS>-like) counts. Can be used insteaad of
+AdaptiveAvgPool1d(1) average over the
+whole sequence. According to tests, 4 is
+optimal.
+● Multinucleotide tokens — grouping of
+several nucleotides into 1 token for MSHA.
+Values other than 1 degrade quality.
+Other options
+Softmax counterparts
+Spaersmax
+Euclidean projection of a vector z
+onto a probabilistic simplex. More
+abrupt.
+Entmax
+They allow attention values to be exact zeros,
+but they were found to perform worse, than softmax.
+Something in between softmax and
+sparsemax. More smooth.
+xLSTM
+Parallelizable version of LSTM with matrix memory
+Attention: best combination
+r
+Pearson
+Flash + ALiBi
+Flash + RoPE
+Custom + RoPE
+Flash + RoPE + Diff
+Custom + DynPos
+SDPA + RoPE
+Step
+FlashAttention2
++RoPE / +ALiBi
+-Diff
+Counts prediction
+Position-wise Total
+Σ
+Puffin:
+Artificial increase in correlation due to genome areas empty of regulatory elements
+100 000 nt 4096 nt
+Total counts
+Σ FANTOM
+Puffin Ours
+25
+Profiles
+FANTOMUS
+Puffin Ours
+26
+Comparing models
+PuffinD Ours
+Input sequence 100 000 nt 4096 nt
+Output prediction 100 000 nt 2048 nt
+Количество
+20 M 1 M
+параметров
+Время обучения
+~ 1.5 d ~ 4 h
+(Σ FANTOM)
+r (Total) 0.28 0.95
+Pearson
+r (Position-wise) 0.27 0.58
+Pearson
+27
+Total counts prediction
+Gene vs tissue specificity
+28
+Total counts prediction
+FANTOMUS, gene specificity
+29
+Total counts prediction
+FANTOMUS, tissue specificity
+30
+CAGE-seq prediction on fMyh region
+31
+CAGE-seq prediction on single window
+32
+Future work
+Train individual model for each muscle type and compare
+1
+2 Extract motifs that enable model predictions (using TF-MoDISco)
+3 Study single nucleotide effects
+4 Perform validation on EXTRA-seq data
+5 Develop generative framework for designing tissue-specific promoter and
+enhancer regions
+6 Expand to heart muscles and other organisms
+33

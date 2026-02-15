@@ -1,0 +1,85 @@
+[name] [surname]
++2 *** *** ***
+[email]
+[location]
+SUMMARY
+Highly motivated Machine Learning Engineer with 5+ years of experience in developing and
+implementing ML algorithms, particularly focusing on Transformer-based models, computer vision,
+and reinforcement learning. Proven ability in full-cycle model development, optimization for
+specialized hardware (NPUs), and leading R&D teams. Seeking to deepen expertise in generative
+methods and foster international collaboration at the SMILES-2025 summer school. My current
+interests lie in the processing and generation of high-dimensional data using diffusion and transformer
+models across various domains, from commercial and medical applications to robotics, as well as the
+development of local neural network agents.
+EDUCATION
+• M.Sc. in Digital Technologies and Systems (2018 – 2023)
+• [location], Faculty of Applied Mathematics and Control
+Processes, [location]
+• Master's Thesis: Reinforcement Learning for Spiking Neural Networks
+• B.Sc. in Applied Mathematics and Physics (2014 – 2018)
+• [location], Faculty of Applied Mathematics and Control
+Processes, [location]
+• Bachelor's Thesis: Reinforcement Learning for Bipedal Robot Control
+• Certificate in Startuup Development Management (2023)
+• Graduate School of Management, [location]
+WORK EXPERIENCE
+• Lead Developer, [compaany] (August 2024 – Present)
+• Developing neural network and multimodal agents based on Transformer models.
+• Building RAG (Retrieval-Augmented Generation) systems.
+• Designing and implementing object detectors and managing databases.
+• Head of R&D Department, [compaany] (May 2023 – March 2024)
+• Integrated image generation services (Diffusion & Transformer models) into development
+environments.
+• Managed the development workflow for hardware-software systems.
+• Formed and led an R&D team, ensuring effective collaboration.
+• Made key technical decisions for projects and generated business ideas.
+• Worked with neural network detectors.
+• Developer, ELVIS-NeoTek ([location]) (July 2021 – July 2024)
+• Developed real-time video analytics processing systems.
+• Managed the full lifecycle of neural network model development.
+• Generated synthetic data using GANs/VAEs for model training.
+• Lead Developer, Gazprom-CR ([location]) (June 2020 – July 2021)
+• Performed procurement and logistics data analysis.
+• Developed customer dashboaards (using Qlik Sense).
+• Built recommendaation models.
+• Project Lead / Data Analyst, Independent Developer (April 2020 – April 2021)
+• Led a two-person team in developing mobile applications (iOS/Android) for food delivery.
+• Analyzed population distribution data in [location] to build a neural network-
+based recommendaation system.
+• Managed client communication and project coordination.
+RESEARCH & INTERNSHIP EXPERIENCE
+• Intern, Electronic Vision(s) Group ([location]) (October 2019 – March 2020)
+• Heidelberg Universiity, [location] (via student exchange program)
+• Worked with the "Spikey" neuromorphic chip and its software stacck.
+• Investigated practical applications of the neuromorphic chip.
+• Participated in the "Spikey School" program.
+PROJECTS & HACKATHONS
+• Team Captain, NGINX/Megafon Hackathon (July 2024)
+• Analyzed telecom operator preferences for retail space owners.
+• Assessed advertising materials and store compliance with marketing policies.
+• Developped a Docker application, trained models, and led the team.
+• Development Lead, "Digital Breakthrough" Hackathon (April 2024)
+• Implemented a system for collecting and analyzing information from printed and handwritten
+price tags.
+TEACHING & LEADERSHIP EXPERIENCE
+• Arduino Club Leader ([Укажи даты, например: 2017-2018])
+• [location]
+• Organized and led workshops teaching microcontroller programming and electronics using the
+Arduino platform.
+SKILLS
+• Programming Languages: Python (Advanced), C++ (Intermmediate), Go (Basic)
+• ML/DL Frameworks & Libraries: PyTorch, TensorFlow, NumPy, Pandas, Langchain, VLLM,
+GANs
+• Tools & Platforms: Docker, Linux, Git, GitLab, Jira, PostgreSQL, SQL, N8N, ComfyUI, Gradio
+• Data Visualization/BI: Qlik Sense
+• Concepts: RAG, Machine Learning, Deep Learning, Computer Vision, NLP, Reinforcement
+Learning
+• Hardware Acceleration: NPU optimization (Amlogic, Rockchip), Quantization.
+• Languages: Russian (Native), English (B2 - Upper-Intermmediate)
+TOPICS OF INTEREST
+• Primary: Structure-based Learning and Inference of Transformer Models, Local Neural Network
+Agents.
+• Broad: Large Language Models (LLMs), Multimodal Approaches, Multi-Agent Systems, Generative
+Models (Diffusion, Transformers), Self-Supervised Learning, Safe AI, Robotics Applications of ML.
+PUBLICATIONS
+• No publications to date.

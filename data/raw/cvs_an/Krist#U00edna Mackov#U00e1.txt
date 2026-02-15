@@ -1,0 +1,64 @@
+[name] [surname]
++2 *** *** *** ⋄ [email] ⋄ https://github.com/[name][surname]
+EDUCATION
+Higher SchooL of Economics, [location] 2022 - now
+PhD student, SchooL of Engineering Science
+Topic: Computational methods for modeling complex systems.
+Higher SchooL of Economics, [location] 2020 - 2022
+Master’s Programme Supercomputer Simulations in Science and Engineering
+The Master Thesis: Globule-coil Transition in Models of Linear Magnetic Polymers.
+Applied mathematics courses : Distributed Calculations and Parallel Programming, Stochastic
+Methods, Principles of Mathematical Models Design
+Bioinformatics courses: Population models in genomics, Algorithms in Bioinformatics, Applied
+Bioinformatics,Methods for modeling the 3D structure of proteins.
+Uppsala UniversiTy, [location] Fall 2021
+Erasmus Scholarship for an exchange semester
+Courses: Accelerator-Based Programming
+Mini-project: A Monte-Carlo Generator for Hyperons
+Higher SchooL of Economics, [location] 2016 - 2020
+Bachelor’s Programme Applied Mathematics
+RESEARCH EXPERIENCE
+Project Development of methods of computer analysis and characterization of systems
+with dynamic geometry from 2019-2021
+RFBR project No 19-07-01117
+PUBLICATIONS
+Critical and geometric properties of magnetic polymers across the globule-coil transition
+[name] [surname], [name] Pchelintsev, and [name] Burovski
+Phys. Rev. E 104, 054501 – Published 5 November 2021
+Globule-coil transition in the dynamic HP model
+[name] [surname], [name] Burovski
+Journal of Physics: Conference Series, Volume 1740, International Conference on Computer Simulation
+in Physics and beyond (CSP 2020) 12-16 October 2020, [location]
+CONFERENCES
+APS March Meeting, 12-18 March 2022
+Virtual meeting, presentation ”Critical and geometric properties of magnetic polymers across the
+globule-coil transition”
+WORK EXPERIENCE
+Research Lab, R&D, OS Lab, [location] from February 2022
+Data analysis for bottlenecks detection
+Techsoft from February 2020 to August 2021
+Junior C++ developer.
+Programming utilities for interface using MFC
+Higher SchooL of Economics from January 2018
+Teaching Assistant. Job Responsibilities: preparation study material
+Courses: Probability Theory and Mathematical Statistics, Stochastic Methods
+TECHNICAL STRENGTHS
+Python NumPy, Pandas, Matplotlib, Pytorch, RDKit
+C++ OOP, basic CUDA
+bash bioinformatics tools
+ONLINE COURSES
+Neural Networks and Deep Learning by DeepLearning.AI via Coursera
+Convolutional Neural Networks by DeepLearning.AI via Coursera
+Dynamical Modeling Methods for Systems Biology via Coursera
+Computational Neuroscience via Coursera
+ADDITIONAL TRAINING
+Neuromatch Academy 2020 July 2020, 13 - 31
+An online schooL for Computational Neuroscience
+EMBL, [location], Germany July 2019, 15-26
+Summer SchooL in Systems Biology
+Center for Systems Biology and IMPRS, [location], Germany August 2018, 11-18
+Summer SchooL in Systems Biology
+Mini-project: Simulations of the PAR system of cell polarity in C.elegans egg.
+Bioinformatics InstiTute, [location], Russia July 2018, 23-28
+Bioinformatics Summer SchooL
+Mini-project: Application of the Monte Carlo method for a phylogenetic tree

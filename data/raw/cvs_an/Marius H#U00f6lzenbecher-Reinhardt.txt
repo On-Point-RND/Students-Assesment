@@ -1,0 +1,30 @@
+[name] [surname]
+[email] +2 *** *** *** @[name]
+I aspire to build a career in natural language processing, where I can apply my ML and NLP
+expertise to solve complex problems and develop innovative solutions.
+Education
+[location] State [compaany]
+Bachelors: Fundamental and Applied Linguistics (2021-2025)
+GPA: 4.98/5.00
+Thesis: “Development of a System for Analyzing the Quality of Text Data Used for
+Evaluating Language Models”
+Conference Participation & Publications
+MNSC 2024: Presented "Methods for Preliminary Automatic Data Labeling in NLP"
+(published abstracts).
+Young Scientists Conference 2024: Presented "Pre-labeling Methods for
+Synonym/Hypernym Extraction in Russian Texts" (published abstracts).
+MNSC 2025: Presented "Analysis of Text Data for Language Model Evaluation" (published
+abstracts, 3rd-place diploma).
+DataFest [location] 5: Talk on "Building the wiki-synonyms Library" (applied project).
+Teaching & Outreach
+Deputy Head of "Computational & Applied Linguistics" track, [compaany] Summer SchooL 2024
+Organized workshops, mentored students in NLP projects.
+Technical Skills
+Proficient in Python for ML/NLP, with experience in data processing (Pandas, NumPy,
+SQL), NLP libraries (spaCy, NLTK, Natasha, Yaargy), and ML frameworks (PyTorch, scikit-
+learn,TensorFlow).
+Experienced with development environments (Juputer, Git) and production data
+pipelines (annotation schemas, corpus preprocessing, model validation).
+Strong mathematical foundation in statistics, probability, optiomization, and linear
+algebra.
+Native English and Russian fluency.

@@ -1,0 +1,62 @@
+[name] [surname]
+Age: 24 y. o. E-mail: [email]
+Address: [location] Telegram: @[name]_[surname]
+Phone: +2 *** *** ***
+GitHub LinkedIn LeetCode CodeForces
+EDUCATION
+Bachelor degree [compaany] 2018 – 2022
+Diploma ArXiv
+Master degree (double degree), [compaany] & [compaany], Data Science 2022 – present
+PUBLICATIONS
+1. Self-supervised similarity models based on well-logging data 2022 ArXiv
+Time series in oil&gas; explored the posssibilities of transfer learning
+for contrastive (Triplet & Siamese) and autoencoders (VAE & AAE)
+2. Universal representations for well-logging data via ensembling of self-supervised models 2024
+Doklady Mathematics (Q2), AI Journey Conference 2024 Winner
+ADDITIONAAL EDUCATION
+2022 Github
+1. ML State-of-the-art intensive [compaany] & [compaany], Replication of SOTA algorithms for minimization and saddle-point problems
+2. Math of Machine Learning Olympiad Finals, [compaany] & [compaany]
+3. IT Camp, [compaany] & [compaany] 2023 GitHub
+4. Trusted AI, [compaany] RAS & [compaany], Workshop Winners, NeurIPS Workshop 2024 Erasing the Invisible Challenge 5th place, 2024
+Image Watermarks Black-box Attacks, details in the presentation
+5. AIRI Summer SchooL, Rectified Flow / Optimal Transport and Diffusion Process Distillation for Img2Img 2024 Github
+WORK EXPERIENCE
+1. [compaany], Applied AI Center, Junior ML Research Engineer. 2021 – 2023
+SOTA reproducibility in the field of TimeSeries, DL programming, scientific articles writing/reading/
+reviewing. "Data Science" course for [compaany] - seminars (metrics, loss functionals, optimization, non-
+neural models from the point of view of statisics and probability theory)
+2. [compaany], Clatch (Monthly calendar), Junior ML Engineer. A/B tests, Classical ML/DL, MLOps. 2024
+Fix problem with non regular menstrual cycles predictions using DL
+3. [compaany], Quant ML Researcher. HFT (Market making execution)
+2024 – present
+ML trading strategy development (more accurate order execution time/price than non-ml algorithms)
+SKILLS PROJECTS
+• Languages: Russian (native), English (C1) Loss function optimization in Deep RL for Trading
+the click prediction models pet-project for Quant
+• Programming: Python, C++
+semester project on stochastic interviews. Deep Q-
+• Dev tools: bash, Git, Docker, MySQL
+optimization for recommendation Network with support for
+• Exploratory data analysis: numpy,
+systems (Github) GAN-generated synthetic
+pandas, scipy (Github)
+data (Github)
+• Applied Statistics & Visualization:
+Diving to WebUI, Tinkoff
+statsmodels, matplotlib, plotly, seaborn (Github)
+pet-project for ML event in [location] HFT-Intervievs
+• Machine Learning: sklearn, xgboost,
+as an example of a 2-day research Solving problems on quant
+SOTA CV models: Stable interviews (Github)
+lightgbm, catboost
+Diffusion, BLIP, SwinIR, etc.
+• DL: tensorflow, pytorch, pytoch-lightning, (Github, task) (Github) [compaany] State-of-the-Art
+transformers Intensive Contests
+• Reinforcement Learning: ods.ai Deep RL (Github) Forecasting atmospheric (3/3 passed)
+pressure [compaany]'s annual ML
+implementaion of compression/ Intensive
+decomposition of the time series (Github, 2022, 2023, 2024)
+Algorithms, Methods of Optimization, Probability
+Theory, Random Processes & Math Statistics,
+Bayesian Methods of Machine Learning (Github)

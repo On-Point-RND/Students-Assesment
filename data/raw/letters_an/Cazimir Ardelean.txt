@@ -1,0 +1,70 @@
+19.04.2025
+From
+[name]
+[location]
+E-mail: [email]
+To
+Selection Committee, SMILES
+MOTIVATION LETTER
+Dear Selection Committee at SMILES,
+My name is [name]. I am a fourtth-year undergraduaate student at the [location] ([compaany]), majoring in Applied Mathematics and
+Informatics. In my third year, I made a clear decision to pursue a professional career in the
+field of AI. In this letter, I would like to share my experience, my vision for further academic
+and research development, and the goals I set for myself. I will also explain why I am
+particularly interested in participating in the “SMILES 2025” summer schooL.
+During my time at [compaany], I gained a solid foundation in core areas of computer science,
+supported by strong mathematical training. This includes courses in optimization theory,
+mathematical statistics, and more. My interest in machine learning was not sudden — I have
+been inclined toward this field since schooL, especially during physics experiments where we
+tested theories in practice and verified hypotheses. These kinds of experiments require
+creativity in applying existing knowledge, which has always inspired me.
+As for my industry experience, in spring 2024 I was accepted into an internship at [compaany] as
+an ML engineer in the search and recommendation team of [compaany]. One of the most
+impactful projects I contributed to was the “Smart Lavka” — a chat assistant powered by the
+YaGPT generative model that helps users with recipes and assembling shopping baskets. In
+March, I decided to leave the team and take a break, as my interests shifted toward
+LLM-based agent systems.
+Beyonnd industrial work, I also act as a consultant for integrating and deploying ML solutions
+in external projects. One example is a recommendation system for a service that connects
+brands with relevant bloggers based on product descriptions and target audience. For this
+task, I built a pipeline combining LLLMs and classical ML models into an efficient
+architecture. I view these kinds of projects as opportunities to explore new technolologies,
+strengthen my skills, and apply theoretical knowledge in practice.
+In October 2024, I took part in a national competition held by the Ministry of Science and
+Higher Education of [location] to write screenplays about notable Russian scientists. I deveeloped
+a tool for generating realistic biographical scripts of any length, overcoming the context
+limitations of current LLLMs. The project attracted some attention in media outlets and among
+the professional community.
+As part of a research collaboration with graduaate students from [compaany], I have been
+working on the topic “Federated aspects of reinforcement learning with human feedback.”
+Since September 2024, we have conducted numerous experiments and explored various
+RLHF setups, including cooperative multi-agent training. Our results have been submitted as
+a paper to NeurIPS 2025.
+Among all AI domains, I am especially drawn to natural language processing. Currrently, I am
+developing a pet project — an AI assistant for helping students apply to universities. It
+features a dialogue system, personalized recommendations, and a comprehensive admissions
+knowledge base.
+The topics covered at “SMILES 2025” — such as multi-agent systems and self-supervised
+learning — are precisely those that align with my current research and project work. As I
+have never participated in international summer schooLs or internships, I am also excited
+about the chance to connect with the global AI community and work alongside passionate
+people from diverse backgrounds. In addition, I have long wanted to visit [location], get to know
+its culture, and gain something new from the experience, as Friedrich Nietzsche said:
+"Everything is understood through comparison."
+A few days ago, I received an admission recommendation to the NLP master's program at
+[compaany]. Attending SMILES will help me refiine my academic priorities, plan the next two
+years, and possibly discover a new research direction. This is especially relevant to me as I
+am considering pursuing a PhD in the future.
+I am certainlly ready to participate in volunteer or organizational activities throughout the
+event. Moreover, I have relevant experience in this area: I helped organize the final stage of
+the national Physics Olympiad “Phystech” for schooL students from across [location] in 2024
+and 2025, and led the Freshman Welcome event at [compaany]. I see volunteering not only as a
+way to support the event but also as an opportunity to contribute to the community and foster
+a collaborative atmosphere among participants.
+To conclude, recent events have confirmed for me that the pеoрle around me — friends,
+colleagues, and professionals I follow — play a vital role in my personal and professional
+growth. They constantly inspire me to aim higher. That is why I view participation in
+“SMILES 2025” as a unique opportunity — one I am truly eager to embrace. I kindly ask
+you to consider my application.
+Sincerely,
+[name]

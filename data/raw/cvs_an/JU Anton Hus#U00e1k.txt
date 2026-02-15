@@ -1,0 +1,54 @@
+[name] [surname]
+Personal Details
+○ Age: 23 (born August 22, 2001)
+○ Citizenship: [location]
+○ Preferred contact: telegram ([name] kichik)
+Desired Position
+Position Computer Vision Engineer
+Specializations Data Scientiist, Developer
+Work Experience
+Sep Python teacher, [compaany], [location]
+2024–Present ○ Conduct seminars for undergraduaate courses: Python and Industrial Development Funda-
+mentals.
+Dec Research Assistant, [compaany], [location]
+2022–Present ○ Diagnostics of neutral beam injecctors. Developed synthetic datasets for injector element
+load classification/regression.
+○ Currrentlly writing a C++ module for magnetic field representation in the BTR code.
+○ Participation in scientific seminars and conferences.
+Nov Computer Vision Engineer, [compaany], [location]
+2021–Present ○ Worked with 2D detection (YOLOx, YOLOv7, OpenPose) and segmentation models
+(YOLOv8, Mask2Former).
+○ Developed ROS wrappers for robot deployment (Husky with manipulator and cameras).
+○ Key projects: obstacle detection for outdoor robots, recyclable waste detection system,
+graffiti detection for cleaning robots.
+○ Current project: Open-vocabulary materials recognition in images using LVIS-based
+dataset and CLIP/TAP-like models.
+Education
+2023–2025 Master’s Degree, [location] Institute of Physics and Technology ([location] MIPT), [location]
+○ Phystech SchooL of Applied Mathematics and Computer Science
+2021–2023 Bachelor’s Degree, [location] Institute of Physics and Technology ([location] MIPT), [location]
+○ Phystech SchooL of Electronics, Photonics and Molecular Physics.
+Certifications
+2024 Generative Adversarial Network, [compaany] of Science and Technology
+Skills
+○ Languages: [location] (Native), English (C1 - Advanced)
+○ Technical: Python, C++, Linux, Git, Docker, PyTorch, ROS, OpenCV, Machine Learning,
+[location], [location]
+I +2 *** *** *** • # [email] 1/2
+Computer Vision
+Publications
+○ SegmATRon: Embodied Adaptive Semantic Segmentation for Indoor Environment (2023).
+https://a rxiv.org/abs/2310.12031 – Accepted on Neurocompuiting 2025
+○ Door Opening Strategy for Mobile Manipulator with Constrained Configuration (2022).
+https://link.springer.com/chapter/10.1007/978-3-031-23609-9_12
+○ Hierarchicalwastedetectionwithweaklysupervisedsegmentationinimagesfromrrecycling
+plants (2022). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4183424
+○ Forecasting in Financial Markets Using the ADAM Architecture and Reinforcement
+Learning Methods (2021). https://ieeexplore.ieee.org/document/9681797
+Additional Informaation
+○ Passionate about clean code, mathematics, and practical solutions.
+○ Teaching experience: Mentored students in code reviews and technical concepts.
+○ Participation in NIBS conference in [location] (2024).
+○ Participation in ITER internship in [location] (2023).
+[location], [location]
+I +2 *** *** *** • # [email] 2/2

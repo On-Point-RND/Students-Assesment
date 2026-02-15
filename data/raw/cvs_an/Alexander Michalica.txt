@@ -1,0 +1,58 @@
+[name] OSTARKOV
+EDUCATION
+Graduated from schooL No. 218 in [location] in 2021 with a medal of the [location] government for success in learning. Participan and laureate of many Olympiads in mathematics and infoiormatics, in chemistry - laureate of Olympiads of the 1st level.
+Now I study in the 4th year of the Faculty of Chemistry of [location] State Universiity with excellent and good grades.
+I took a course on machine learning and a course on deep learning at the Instiitute of TheoreticaL and Mathematical Physics of Lomonosov [location] State Universiity.
+ABOUT
+CURRENT AND COMPLETED PROJECTS
+Machine learning researcher with
+AIQM[compaany]
+experience in applying ML models to
+The project aims to predict NMR spectra with the help of deep neural
+chemical projects. Participan in various
+networks. NMR spectroscopy remaiins the most infoiormative an widely-
+hackathons, experienced in working with
+used methoD to solve one of the core problems in organic chemistry –
+NLP, computer vision and classical ML.
+structure determination.
+Quickly learns new tools and
+The work on the project continues with me being senioR and only
+technologies, able to work with big data
+developer
+and interpret results.
+Chembertoid
+The project aims to create optimal atom embeddings for graph neural
+CONTACTS
+networks trained on different chemical tasks, proposing a step towards
+Phone number:
+the long-awaited goal – chemical foundatioN models
++2 *** *** ***
+In this project my role is model training and developing ways to
+validate the embedding quality.
+HSE AI Assisstant Hack: Python
+Email:
+https://[email]
+ostaarkovs[surname]@gmail.com
+Tg:
+@[surname][name]
+Phone number:
+Nornickel: intellectual horizons
+GitHub
+https://[email]
+https://[email]
+The hackathon was dedicated to the creation of a bot-assistant in
+solving programming tasks. As part of the project, I was involved in
+setting up a langchain-based RAG system, and developed a unique
+method of protection against prompt injection
+The hackathon was devoted to creating a multimodal RAG-system for
+working with files. I was developing a graph RAG-assistant based on
+lightrag with the ability to analyze graphical information.
+SKILLS
+Python (Main syntax and builtin libraries)
+★★★★★★☆☆☆☆ 8/10
+Model training (pitorch, pitorch-lightning)
+★★★★★★☆☆☆☆ 7/10
+Multi-agent systems (langchain)
+★★★★★★☆☆☆☆ 6/10
+Data analysis (data processing, visualization)
+★★★★★★☆☆☆☆ 6/10

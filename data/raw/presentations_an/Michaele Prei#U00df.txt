@@ -1,0 +1,43 @@
+Slide 1
+----------------------------------------
+[name] [surname]
+Data Scientiist, [compaany]
+Development of software code for methods of detecting anomalies in sensor data of the high-speed electric train "Lastochka"
+
+Slide 2
+----------------------------------------
+Introduction
+
+As the complexity and volume of data collected by sensors in various industries increases, the task of finding anomalies in multivariaate time series is becoming increasiingly important. In particular, in the rail transport sector, where reliability and safety are critical aspects, analyzing data from train sensors can significantly improve service efficiency and prevent potential accidents.
+This study presents the development of methods for detecting anomalies in multivariaate time series using train sensor data. Various machine learning algorithms and their application to time series analysis are considered, and the effectiveness of the proposed methods on real data is assessed. The aim of the study is not only to identiify anomalies, but also to provide tools for their interpretation and further analysis, which will improve the safety and reliability of rail transport.
+
+Slide 3
+----------------------------------------
+Problem statement
+
+Train sensor data available:
+• 1568: [name] input voltage
+• 1592: [name] three-phase AC bus voltage
+• 1600: [name] PSN input current
+• 1624: [name] charger power consumption
+• 1632: [name] battery 1 voltage
+• 1640: [name] battery 2 voltage
+• 1648: [name] charger output current
+• 1656: [name] battery charging current
+• 1664: [name] control unit temperature
+• 1672: [name] pulse inverter radiator temperature
+• 1680: [name] coolaant temperature when supplied to PSN
+
+
+
+Slide 4
+----------------------------------------
+Methods
+
+Autoencoders were chosen for the anomaly detection task because they have several advantages over other methods: when there is little or no anomaly data, autoencoders can effecctively learn from normal data, creating a model of its behavior. This allows them to detect anomalies based on the reconstruction error when new data does not match the trained model. They can handle multivariaate time series, making them suitable for analyzing complex data sets containing many variables.
+
+Slide 5
+----------------------------------------
+Results
+
+In the course of this work, methods for detecting anomalies in the data of electric train sensors using autoencoders were developed and implemented. The main principles of autoencoders, their architecture and the advantages they offer for analyzing multidimensional time series were considered. The results of the experiments showed that autoencoders effecctively cope with the task of detecting anomalies in data collected from various sensors. The model demonstrated the ability not only to detect deviations from normal system behavior, but also to ensure high accuracy of restoring the original data, which confirms its ability to learn on complex patterns.

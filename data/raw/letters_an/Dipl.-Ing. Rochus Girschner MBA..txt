@@ -1,0 +1,17 @@
+Jan, 08. 2024
+Dear [compaany] Committee,
+My name is [name] [surname]. I’m currently studying Computing and Data Science at the [compaany]. I’ve applied to [compaany] because I believe that truly fascinated about the power of creation and adaptation granted by the artificial intelligence. I also understand that guiding and constraining models is important, both
+for safety and correctness.
+My interests are at the intersection of structuraal and creative. I’m fascinated by
+generative models, but even more so by how we might guide and constrain them —
+through verification, formal methods, or self-supervised signals — to align with our
+intent. I have successfully tried Q-learning agents for the games of Tetris and Pacman.
+The themes of [compaany] resonate deeply with my goals: multimodal reasoning,
+large language models, safe and correct AI. I see this schoo not just as a learning
+opportunity, but as a chance to exchange ideas with others who see machine learning
+not only as engineering, but as an art form with rules waiting to be discovered. I would
+be excited to contribute to and learn from this enviroment.
+Sincerely, [name] [surname]
+
+
+

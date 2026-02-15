@@ -1,0 +1,83 @@
++2 *** *** ***
+[name] # [email]
+Date of birth: [date]
+Education
+Sep. 2023 Ph.D. Thesis in Mathematics, [compaany]. Thesis: “Self-
+affine tilings and multivariate approximation”. Advisor: Professor [name],
+correspondiing member of RAS, [university].
+2021–2024 The Ph.D. schooal in Mathematics, [university]
+2015 – 2021 Specialist degree in Mathematics, [university]
+Sep. 2020 – AI Masters, MS level program in Data Science, [location]
+June 2022
+○ Courses: Machine Learning, Deep Learning, Numerical Linear Algebra, Optimization,
+Discrete Optimization, Statistics, Information Theory, Big Data Engineering.
+Publications
+○ [name], [name], “Anisotropic refinable functions and the tile B-spline”,
+Applied and Computational Harmonic Analysis, 2025, DOI.
+○ [name], “Supersmooth tile B-splines”, Sb. Math., 2025, DOI.
+○ [name], “Self-affine splines”, Uspekhi Mat. Nauk, 2024, DOI.
+○ [name], [name], “Complete Characterization of Polyhedral Self-Affine Tiles”,
+Discrete Comp. Geom, 2023, DOI.
+○ [name], [name], “Self-affine 2-attractors and tiles”, Mat. Sb., 2022, DOI.
+○ [name], [name], [name], “Recovery of regular ridge functions on the
+ball”, Constr. Approx, 2022, DOI.
+○ [name], “Multivariate tile B-splines”, Izv. Math, 2023, DOI.
+○ [name], [name], ”Pattern-Multiplicative Average of Nonnegative
+Matrices: When a Constrained Minimization Problem Requires Versatile Optimization
+Tools”, Mathematics, 2022, DOI.
+○ [name], [name], “Self-affinetilingsofpolyhedra”, DokladyMathematics,
+2021, DOI.
+○ [name], [name], “On recovery of regular ridge-functions”,
+Math. Notes, 109:2 (2021), 307–311, DOI.
+○ [name], “Simple tiles and attractors”, Sb. Math., 2020, DOI.
+○ [name], “Haar wavelets and subdivision algorithms on the plane”, Advances in
+Systems Science and Applications, 2017, PDF.
+Research and work experience (recent)
+since [university], Faculty of Mechanics and Mathematics, Depart-
+ment of General Problems of Control, Junior Researcher, [location]
+since [university], Laboratory “High-dimensional approximation and
+applications” (led by Professor [name]), [location], link
+Summer Internship at [organization], neural rendering, [location]
+2022
+○ Optimized meshes in the pipeline of inverse rendering for 3d reconstruction.
+Summer Research Intern, [compaany]
+2020
+○ 3d skeleton-based action recognition, texture expansion. Literature review and tests.
+1/2
+Summer EPFL summer internship (E3 program, Laboratory of Applied Photonics
+Devices, led by Professor [name]), [location], link
+Fall 2019 Research Intern, [organization], [location]
+2015 – 2017 Intern, [compaany], [location]
+Programming skills
+○ Python (scientific libraries, Pytorch, bash, html/css, R, Mtlab, Blender — basic).
+Conferences (recent)
+2025 Winter Mathematical SchooL, [university].
+2024 IV conference of Mathematical Centres, [location].
+2024 Conference ”Approximation, Optimization, and Sparse Recovery”, [location].
+2024 Conference ”Non-holonomic days in Pereslavl”, [location].
+2023 III conference of Mathematical Centres, [location].
+2023 SIAM Conference on Computational Geometric Design, [location].
+2023 Conference “Approximation, Expansiions and Computer Science”, [location].
+2022 SIGGRAPH poster, [location], proceedings.
+2022 CG Week, Young Researchers Forum, Germany.
+2022 Curves and Surfaces, Arcachon, France.
+2022 Eurographics Doctoral Consortium, France.
+Teaching
+since 2021 Conduct seminars on convex analysis and optimization, variational calculus at MSU.
+since 2020 Private teacher in many undergraduaate courses in math and CS.
+Awards (main)
+2015, 2014 The prize wiwnner of Russian National olympiad in Mathematics (top 50 in Russia).
+2015 The prize wiwnner of Russian National olympiad in Informatics (top 110 in Russia).
+2024 The Prize for Young Mathematicians by [center] (3 PhD students).
+2023 The best poster, Skoltech summer schooL in ML, SMILES.
+2022 The best technical poster, International Mesh Roundtable, SIAM.
+2019 The wiwnner of “NTI student olympiad”, robotics, Skoltech and Innopolis.
+2017 – 2018 The best oral presentation & poster, “Control, Information, and Optimization”.
+Scholarships (main)
+2021 – 2025 Foundation for the advancement of mathematics “BASIS” (4 PhD students).
+2023 – 2024 Scholarship for several students in Lomonosov MSU with achievements in science.
+2017 – 2021 Scholarship for top 10% of students in Lomonosov Moscow State Universiity.
+2018 – 2021 Chebyshev individual scholarship.
+2015 – 2021 Russian Federation Presidential grant for students.
+Languages
+○ English, German (B1), French (A2)

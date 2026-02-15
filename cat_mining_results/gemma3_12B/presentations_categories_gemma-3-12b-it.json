@@ -1,0 +1,186 @@
+{
+  "Presentation Structure": {
+    "question": "How effectively does the presentation organize information with clear headings, subheadings, and logical flow compared to the other presentation? Does it prioritize a narrative structure or a detailed technical breakdown?",
+    "count": 168
+  },
+  "Visual Aids & Formatting": {
+    "question": "To what extent does the presentation utilize visual aids (e.g., tables, diagrams, figures) to enhance understanding and engagement, and how consistently is formatting applied for readability and aesthetic appeal?",
+    "count": 196
+  },
+  "Technical Depth vs. Accessibility": {
+    "question": "How well does the presentation balance technical detail with accessibility for a potentially diverse audience? Does it explain complex concepts clearly, or does it assume a high level of prior knowledge?",
+    "count": 68
+  },
+  "Mathematical Rigor": {
+    "question": "Can the candidate clearly and precisely define the mathematical concepts and notations used in their work, and demonstrate a consistent application of these concepts throughout the presentation?",
+    "count": 12
+  },
+  "Problem Motivation & Context": {
+    "question": "How well does the candidate establish the significance of the problem they are addressing, and clearly articulate the limitations of existing approaches that motivate their proposed solution?",
+    "count": 171
+  },
+  "Project Specificity": {
+    "question": "Can the candidate clearly articulate a specific, well-defined project with demonstrable technical components and a tangible goal?",
+    "count": 3
+  },
+  "Research Depth": {
+    "question": "How comprehensively does the candidate describe their research, including specific findings, methodologies, and publications?",
+    "count": 8
+  },
+  "Future Vision": {
+    "question": "To what extent does the candidate articulate a clear and compelling vision for future research directions and potential impact?",
+    "count": 4
+  },
+  "Result Presentation": {
+    "question": "How clearly and concisely are the key findings presented, including the metrics used and a comparison to baselines or expected outcomes?",
+    "count": 44
+  },
+  "Methodological Justification": {
+    "question": "Does the candidate provide a clear rationale for the chosen methods, explaining why they are suitable for the specific data and problem?",
+    "count": 86
+  },
+  "Citation Style": {
+    "question": "Can the candidate consistently and accurately cite sources throughout the presentation, adhering to a recognizable citation style (e.g., APA, MLA) and providing complete bibliographic information?",
+    "count": 14
+  },
+  "Framework Detail": {
+    "question": "To what extent does the candidate provide concrete, observable details about the proposed framework's components, functionality, and implementation, beyond high-level descriptions?",
+    "count": 11
+  },
+  "Literature Integration": {
+    "question": "How well does the candidate integrate relevant prior work, demonstrating a clear understanding of the existing landscape and positioning their contribution within it?",
+    "count": 32
+  },
+  "Quantitative Detail": {
+    "question": "How well does the candidate incorporate specific numerical data (e.g., percentages, dollar amounts, statistics) to support claims and provide context, as seen in Document B's use of GDP figures and market sizes?",
+    "count": 2
+  },
+  "Content Focus": {
+    "question": "How clearly and consistently does the presentation maintain a focused narrative around a central topic or research question? (Document B centers on Zipfian whitening, while Document A presents a broad, unfocused overview of personal background and skills.)",
+    "count": 13
+  },
+  "Comparative Analysis": {
+    "question": "To what extent does the candidate provide a rigorous and insightful comparison of the different approaches, highlighting both strengths and weaknesses with supporting evidence?",
+    "count": 9
+  },
+  "Visual Structure": {
+    "question": "How effectively does the presentation utilize visual cues (e.g., headings, bullet points, whitespace) to guide the audience through the information and enhance readability?",
+    "count": 35
+  },
+  "Result Interpretation": {
+    "question": "How well does the candidate interpret the results, connecting them back to the problem statement and discussing the implications of their findings, including limitations and potential future work?",
+    "count": 11
+  },
+  "Conciseness": {
+    "question": "Can the candidate convey the core information using the fewest possible words without sacrificing clarity?",
+    "count": 9
+  },
+  "Technical Detail": {
+    "question": "Does the candidate demonstrate a clear understanding of technical concepts by using precise terminology?",
+    "count": 47
+  },
+  "Algorithm Novelty": {
+    "question": "How well does the candidate articulate the Adaptive Collocation Point Refinement (RAR) algorithm, including its core mechanism and the expected impact on convergence speed and accuracy?",
+    "count": 1
+  },
+  "Software Component": {
+    "question": "Can the candidate describe the key features and intended user base of the developed Python library, and explain how it simplifies the application of PINNs?",
+    "count": 1
+  },
+  "Dataset Specificity": {
+    "question": "How explicitly does the candidate describe the characteristics and limitations of the dataset used for evaluation, and how do these characteristics influence the design of their method? (Document A mentions Golos and Semdedup, but Document B provides significantly more detail about the FORGE site and its data.)",
+    "count": 6
+  },
+  "Limitations Acknowledgment": {
+    "question": "Does the candidate explicitly and honestly acknowledge the limitations of their approach, and do these limitations appear to be well-considered and relevant to the study's scope?",
+    "count": 4
+  },
+  "Alignment with Program": {
+    "question": "Does the candidate explicitly connect their interests and skills to the specific goals or areas of focus of the SMILES-2025 program?",
+    "count": 1
+  },
+  "Narrative Flow": {
+    "question": "How well does the presentation establish a clear and logical flow of information, guiding the audience through the problem, solution, and results in a coherent manner, or does it feel disjointed and lack a clear narrative?",
+    "count": 45
+  },
+  "Technical Detail Clarity": {
+    "question": "To what extent are the technical approaches (e.g., Transformer architecture, GANs, RL techniques) explained in a manner accessible to an audience with a reasonable, but not necessarily expert, understanding of the field?",
+    "count": 13
+  },
+  "Technical Detail & Notation": {
+    "question": "How well does the candidate balance technical detail (equations, model architectures) with accessibility for the intended audience, ensuring notation is defined and explained appropriately?",
+    "count": 48
+  },
+  "Data Handling & Justification": {
+    "question": "How well does the candidate justify their data choices (size, source, splitting strategy, augmentation techniques) and address potential biases or limitations?",
+    "count": 1
+  },
+  "Data Context": {
+    "question": "Does the candidate provide sufficient detail about the data used (e.g., SRG/eROSITA survey, types of data, data volume, data heterogeneity) to understand the scale and complexity of the analysis?",
+    "count": 1
+  },
+  "Audience Engagement": {
+    "question": "Does the candidate employ techniques to maintain audience interest and understanding, such as posing questions, using relatable examples, or incorporating interactive elements?",
+    "count": 2
+  },
+  "Model Focus": {
+    "question": "Can the presenter clearly articulate the specific type of models being discussed (e.g., generative, diffusion, code-based) and their intended application domain (e.g., medical imaging, CAD design)?",
+    "count": 1
+  },
+  "Visual Clarity & Conciseness": {
+    "question": "To what extent are the visuals (slides) clear, concise, and directly supportive of the spoken content, avoiding information overload and maximizing audience comprehension?",
+    "count": 3
+  },
+  "Visual Communication": {
+    "question": "How effectively are visuals (e.g., diagrams, charts, equations) used to enhance understanding and support the presentation's arguments?",
+    "count": 13
+  },
+  "Technical Depth vs. Clarity": {
+    "question": "Does the candidate strike a balance between demonstrating technical depth and explaining the work in a way that is accessible to a broader audience, avoiding excessive jargon without sacrificing accuracy?",
+    "count": 31
+  },
+  "Mathematical Detail": {
+    "question": "Can the candidate clearly present and explain relevant mathematical formulations (e.g., geodesic equations, Christoffel symbols) within their presentation, demonstrating understanding of their significance?",
+    "count": 7
+  },
+  "Professional Tone": {
+    "question": "Does the candidate maintain a formal and professional tone throughout the presentation, avoiding colloquialisms and subjective language?",
+    "count": 1
+  },
+  "Feature Importance Explanation": {
+    "question": "Can the candidate clearly explain the rationale behind the selection of input features and interpret their relative importance in the model's performance, demonstrating an understanding of feature engineering and potential correlations?",
+    "count": 1
+  },
+  "Model Iteration": {
+    "question": "Can the candidate clearly articulate a progression of model development, including initial approaches, identified limitations, and subsequent improvements (e.g., adding technical indicators, fusion models)?",
+    "count": 1
+  },
+  "Methodological Comparison": {
+    "question": "Does the candidate demonstrate an ability to compare and contrast different modeling approaches (e.g., CNN vs. LSTM, classical vs. deep learning), and justify the choice of methods based on observed performance and limitations?",
+    "count": 1
+  },
+  "Technical Depth": {
+    "question": "Can the candidate articulate specific technical details of the methods employed, including relevant metrics and architectures (e.g., Residual-in-Residual Dense Block, PSNR, MSE) and their significance, or does the description remain at a high-level conceptual overview?",
+    "count": 15
+  },
+  "Problem Framing": {
+    "question": "How well does the candidate define the problem with measurable objectives and clearly outline the scope of the solution, including specific use cases (e.g., condensate production optimization, pipeline transportation)?",
+    "count": 1
+  },
+  "Methodological Rigor": {
+    "question": "Does the candidate describe a structured, iterative approach to model development and evaluation, including the use of multiple models, ensemble methods, and performance metrics (e.g., flowchart of decomposition algorithm)?",
+    "count": 1
+  },
+  "Contact Information": {
+    "question": "Does the presentation include clear and complete contact information (name, surname, location, company, email, and at least one phone number)?",
+    "count": 1
+  },
+  "Leadership & Teamwork": {
+    "question": "To what extent does the candidate showcase leadership experience and collaboration, providing details about team size, roles, and outcomes?",
+    "count": 1
+  },
+  "Technical Detail Density": {
+    "question": "To what extent does the presentation delve into technical details (e.g., architectural specifics, mathematical formulations, experimental setups) without overwhelming the audience, striking a balance between rigor and accessibility?",
+    "count": 1
+  }
+}

@@ -1,0 +1,102 @@
+Slide 1
+----------------------------------------
+[name]
+Student, [compaany]
+
+Generative Molecular Design for Medicinal Chemistry Using AI Platform FREED++
+
+Slide 2
+----------------------------------------
+Introduction
+
+In June 2023, [compaany]'s drug INS018_055, designed to treat idiopathic pulmonary fibrosis, became the first drug entirely discovered and designed by AI to reach phase 2 clinical trials.
+The company also has two other drugs in clinical trials that were partially created using AI:
+For the treatment of CCOVID-19
+For the treatment of solid tumors
+
+Drug discovery
+
+Classical approach
+7-10 years
+
+Using AI
+from 18 months
+
+Drug
+
+Our goal is to develop an AI-driven platform to generate novel drug candidates optimized for therapeutic efficacy, intellectual property potential, and manufacturability.
+
+Slide 3
+----------------------------------------
+Problem statement
+
+Traditional drug discovery is time-consuming and inefficient. Existing AI models often neglect patentability and synthesizability.
+Our Solution: A generative AI model (FREED++) that simultaneously optimizes:
+ Affinity using AutoDock Vina + ML-based pharmacophore analysis.
+ Patentability using patent database screening (collaboration with [compaany]).
+ Synthesizability using retrosynthetic accessibility prediction.
+ Toxicity?
+
+Main focus on ERα antagonists for hormone-dependent cancers, but can be adapted for other projects.
+
+Comparison table of similar platforms
+
+Slide 4
+----------------------------------------
+Methods
+
+Modified FREED++ as RL-model
+Batch processing
+SMILES canonicalization
+Deduplication
+
+Data
+
+Slide 5
+----------------------------------------
+Methods
+
+Why FREED++?
+Possibility of setting the starting molecular fragment based on the company's requirements
+Can combine molecular docking, ML, patent data analysis in one pipeline
+Flexible reward function
+
+Slide 6
+----------------------------------------
+Results
+
+Generated 1,000 novel molecules, with Top-10 ranked by QED (drug-likeness) and DockingScore.
+Zero overlap with PubChem (Top-100 molecules), ensuring patentability.
+Molecules sent to [compaany] for experimental testing.
+
+Metrics:
+Quantitative Estimate of Drug-likeness.
+DockingScore (Binding affinity to ERα PDB: 1ERE)
+Patentability (in progress)
+
+Slide 7
+----------------------------------------
+Research gap
+
+Current Limitations at hand:
+Limited integration of ADME/Tox data (e.g., CYP450 inhibition, hERG cardiotoxicity).
+Scalability issues with large datasets (>1.5M molecules).
+Adaptation of the model for simultaneous calculation of all scaffolds, and not 50 per batch
+
+Our molecules could be too toxic, already patented, or both. It Matters, because the goal is a drug, not a lawsuit with side effects.
+Future Opportunity is to implement multimodal AI (diffusion models + LLLMs) for enhanced generative accuracy.
+
+Slide 8
+----------------------------------------
+FREED++ Documentation. AIRI, 2024.
+[compaany]. Case Study: INS018_055. 2023. https://www.insilico.com
+Zhavoronkov, A. et al. Deep learning enables rapid identification of potent DDR1 kinase inhibitors. Nature Biotechnology, 2019. DOI: 10.1038/s41587-019-0224-x
+Elton, D. C., et al. Deep learning for molecular generation and optimization – a review of the state of the art. Molecular Systems Design & Engineering, 2019. DOI: 10.1039/C9ME00039A
+Coley, C. W., et al. A graph-convolutional neural network model for the prediction of chemical reactivity. Chemical Science, 2019. DOI: 10.1039/C8SC04228D
+Schwaller, P., et al. Molecular Transformer: A model for uncertainty-calibrated chemical reaction prediction. ACS Central Science, 2019. DOI: 10.1021/aacs.9b00576
+Cheng, F., et al. admetSAR: a comprehensive source and free tool for assessment of chemical ADMET properties. Journal of Chemical Information and Modeling, 2012. DOI: 10.1021/ci300367a
+Wu, Z., et al. MoleculeNet: a benchmark for molecular machine learning. Chemical Science, 2018. DOI: 10.1039/C7SC02664A
+Homeyer, N., Gohlkke, H. Free energy calculations by the Molecular Mechanics Poisson–Boltzmann Surface Area method. Molecular Informatics, 2012. DOI: 10.1002/minf.201100135
+Wang, J., et al. End-to-end differentiable learning of protein–ligand binding affinity with molecular dynamics. Nature Machine Intelligence, 2022. DOI: 10.1038/s42256-021-00424-6
+
+Bibliography

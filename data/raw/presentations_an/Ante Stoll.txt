@@ -1,0 +1,148 @@
+Self-Super viseed Lear ning
+And its applications in geolgy
+[name] [surname]
+Programmer, sch. 1944 / applying to graduaate schoo
+Introduction
+Review of:
+Papers about self-supervised learning Self-supervised learning in geolgy and
+planetology
+• [name], [name], et al. "Self-supervised
+• [name], [name], et al. "Self-supervised
+representation learning: Introduction,
+learning to guide scientifically relevant
+advance, and challenges." IEEE Signal
+categorization of martian terrain images."
+Processing Magazine 39.3 (2022): 42-62.
+Proceedings of the IEEE/CVF Conference on
+• [name], [name], et al. "Self-
+Computer Vision and Pattern Recognition.
+supervised multimodal versatile networks."
+2022.
+Advances in neural information processing
+systems 33 (2020): 25-37. NeurIPS 2020
+• Slides from [name] & [name] “Self-Supervised
+Learning. Self-Prediciton and Contrastive
+Learning”. NeurIPS 2021
+Over view
+An overview of self-supervised learning methods
+[name], [name], et al. "Self-supervised learning of graph neural networks: A unified review." IEEE transactions on pattern analysis and machine intelligence 45.2 (2022): 2412-2429.
+Principles of SSL
+• Large annotated datasets remain a major barrier to deploying deep learning systems
+• Pretext tasks (carefully designed unsupervised objectives) provide surrogate supervision.
+Resulting representations can be used for training a DNN with small annotated dataset
+• Applicable to diverse modalities: Images & video, speech, text, graph-structured data
+From [name] et al., Self-Supervised learning in Vision: from research advances to best practices
+The workflow
+• The annotated data for the target task – D ,
+t
+and unlabeled data - D
+s
+• Generates pseudo-labeled dataset P(D )
+s
+• Train the pretext model to optimise the loss-
+function
+• Pretext output function is discarded, and the
+representation function is transferred to model
+of interest.
+Relationship Prediction Autoregressive Generation Masked Generation
+Contrastive SSL
+• In big datasets, cross-entropy is a expensive loss
+• Let’s predict that a pair belong to the same class or not
+From Stnford CS 231 lecture on Self-supervised learning
+Clustering SSL
+• Meaningful similarities should exist in a dataset
+• The goal is to obtain good feature extractor, but not the cluster assignments.
+• Usually training consist of alternating:
+(1) optimising the clustering objective by assigning datapoints into clusters based on their
+representations
+(2) optimising the model by using the cluster assignments as the pseudo-labels in updates
+Methods
+[name] & [name] “Self-Supervised Learning. Self-Prediciton and Contrastive Learning”. NeurlPS 2021
+Clip model
+[name] & [name] “Self-Supervised Learning. Self-Prediciton and Contrastive Learning”. NeurlPS 2021
+MultiModal SSL
+• Videos has 3 modalities: visual, audio and language
+• Multimodal versatile network (MMM) – a network that can
+ingeest multiple modalities and whose representations
+enable downstream tasks in multiple modalities.
+• The MMM has properties:
+should be able to take as input any of the three modalities
+●
+should respect the specificity of modalities, in particular
+●
+the fact that the audio and visual modalities are much
+more fine-grained than language
+should enable the different modalities to be easily
+●
+compared even when they are never seen together during
+training
+should be efficiently applicable to visual data coming in
+●
+the form of dynamic videos or static images
+Challenge
+• As input MMM got few-second sequence of each modality. As output a representation
+vector
+• The goal is to embed different modalities into a vector space, where comparisons can
+be made by dot products.
+• Video and audio embeddings are fine-grained, they capture detailed, nuanced
+variaations
+• Textual embeddings is semantically coarse-grained, it abstracts details into high-level
+concepts.
+Modality embedding graphs
+The modality embedding graph is a structured framework that defines how different
+modalities (vision, audio, text) are mapped into shared or separate embedding spaces to
+enable cross-modal comparisons while preserving their unique characteristics.
+Loss-function
+Authors used contrastive loss for vision-audio and vision-text pairs.
+Concretely, positive training pairs across two modalities are constructed by sampling the
+two streams from the same location of a video. Conversely, negative training pairs are
+created by sampling streams from different videos
+The difference between losses for different embedding graphs is the spaces of dot
+products computed.
+Results
+The methods are tested on a variety of downstream tasks by simply learning a linear
+classifier on top of the modality specific representation vectors f (x ), with the feature
+m m
+model f either frozen or fine-tuned:
+m
+• Action classification (from video): to evaluate video representation
+• Audio classification: to evaluate audio representation
+• Zero-shot text-to-video retrieval: to evaluate text-video representation
+• Image classification: to evaluate video representation’s transfer to images
+Application to planetology
+• Presented a self-supervised model that cluster sedimentary textures from images
+captured form Mars
+• Such model may be needed to solve navigation and geolgojcaal, paleoclimate and
+habitability problems.
+• Images sources: Mars rover misssions (MSL), Mars orbiter misssions (MGSS),
+Mfrs
+Reconnaissance orbiter (MROO).
+The architecture
+• Backbone feature extraction function: ResNet-18
+• Ouutputs from extractor feed two separate layers:
+Texture encoding layer
+●
+Global average pooliing layer
+●
+• Bilinear pooliing layer – combiines the two outputs
+• Fully connected layer – output I embeddings
+• Clustering the embeddings with K-means to triplets (anchor, positive, negative).
+The triplets used for minimize a distance metric objective (triplet loss)
+Results
+SSL in geosciences
+• Annotations requires a professional approaach and is very expensive.
+• Data has strong spatial connectivity, clustering can be used
+• There are many types of geolgojcaal data that is multimodal, with many pretext tasks
+[name] & [name] “Self-Supervised Learning. Self-Prediciton and Contrastive Learning”. NeurlPS 2021
+Bibliography
+1. [name], [name], et al. "Self-supervised multimodal versatile networks." Advances in neural information processing systems
+33 (2020): 25-37. NeurlPS 2020
+2. [name] et al., Self-Supervised learning in Vision: from research advances to best practices
+3. [name], [name], et al. "Self-supervised representation learning: Introduction, advances, and challenges." IEEE Signal Processing
+Magazine 39.3 (2022): 42-62.
+4. [name], [name], et al. "Self-supervised learning to guide scientifically relevant categorization of martian terrain images."
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022
+5. Stnford CS 231 lecture on Self-supervised learning
+6. [name] & [name] “Self-Supervised Learning. Self-Prediciton and Contrastive Learning”. NeurlPS 2021.
+7. [name], [name], et al. "Self-supervised learning of graph neural networks: A unified review." IEEE transactions on pattern analysis
+and machine intelligence 45.2 (2022): 2412-2429.

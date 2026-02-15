@@ -1,0 +1,103 @@
+[name] [surname]
+Computer Scientiist
+PROFILE SUMMARY
+CONTACT
+I'm a computer scientiist. I have a background in physics and extensive experience
+in programming and computaional problems. My research is related to the use of
+applied mathematics and artificial intelligence to solve molecular modeling
++2 *** *** ***
+[email]
+WORK EXPERIENCE
+EDUCATION Technical Support Specialist
+[company]
+2019 - 2020
+Bachelor's degree Performed various technical tasks in a manufacturing compaany
+metallurgical products.
+Moscow State Universiity,
+Physics department
+2018-2022
+Data Science
+2021 - 2022
+[company]
+Master's degree
+Worked in the Debit Products team, doing various analysis in the appropriate
+direction, buildiing analytical models. The tasks included:
+Writing SQL queries to download data from the database.
+Skoltech, Advanced
+Computaional science
+2022-2024 Analytics using applied statistics methods.
+Teaching predictive and fraud-detection models.
+Visualization of results using excel and Tableau dashboaards with daily updates.
+PhD
+The results of my work were:
+Skoltech, The Computational and Launch of several new products, such as the self-employed service and Kubyshka.
+Data Science and Engineering Target analytics by customer groups for existing debiit products.
+2024-Now
+EXPERTISE ML devevelopeer, intern 2023 , summer
+[company]
+C/C++ (CUDA) Trained as part of a summer internship in the integrated modeling department. The
+results of my work were:
+AI (ML, DL, RL)
+Creation of an AI-based integrated model of an oil field
+Lammps (molecular dynamics) Publication of an article on the topic "Well data preprocessing using machine
+learning algorithms" in the Proneft journal. Design approach helped to increase
+Computaional mathematics &
+the accuracy of models in 42%. The link:
+numerical modelling
+https://proneft.elpub.ru/jour/issue/viewIssue/32/30
+Applied physics
+Python (OpenCV, Jax, async, MPI) TEACHING EXPERIENCE
+Linux Course instructor 2025
+Skoltech, Financial markets 101:
+Postgres SQL, Kafka, Nats, Redis
+Instruments & Strategies
+Docker, Portainer
+Prepared and conducted own course during Independent Study Period (ISP) with 30+
+students and 30-hours total workload. Only positive reviews.
+Teaching assistant 2025
+Skoltech, Foundaions of
+Multiscale Modeling: Kinetics
+Prepared and checkeed homeworks, conducted seminars.
+Tutor for students 2018 - 2025
+Profi.ru
+Worked as a tutor for students in mathematics, physics and programming.
+Succeessfully helped dozens of students from different universiities prepare for their
+exams and tests. My current rating on the site is 5.0 and in the entire history of
+teaching there have been no unsucceessful cases. You can find reviews of my work at
+the link: https://profi.ru/profile/ChuprovAA2/
+Course reviewer 2025
+Deep learning
+Reviewed the course materials, provided some comments and edits for the Synergy
+Universiity course.
+STARTUPS
+Triple Point, Bblz Team
+We have deveelopeed a new way to dampen the sound produced by oil production stations at low frequencies. Its essence was the
+phenomenon of dissipation of sound waves in water on air bubbles. This was supposed to reduce the impaact of such enterprises
+on the environment and marine life. We reached the “Accelerate level” at the Triple Point Skoltech acceleleator, but then we
+realized that it was very diffiicult to promote an environmental project.
+AI in blockcchain
+The essence of a startup is to create a fund to multiply investments. This uses AI, applied mathematics and high-performaance
+technologies to build strategies and analyze transactions and the economics of the cryptocurrency system.
+PROJECTS
+Development of hybrid models for simulating large particle colliisions
+This is my master's thesis. A new hybrid approaach has been deveelopeed to speed up calculations in large molecular systems
+without losing accuracy in the required parts. The challenge is to use AI to optiimize such systems at the level of the mechanical
+properties of matter. The result is checkeed by the collisiion of two large particles (micrometers).
+Diffusion modeling using graphics accelelerators
+Modeling the processes of propagaation of a viscous liquid in a porous environment using the lattice Boltzmann method and
+technology parallelization of CUDA in C/C++ languages.
+Clustering of astrocytes using topoology and machine learning methods
+Clustering of brain glial cells (astrocytes) according to their shape using methods applied algebraic topoology and machine
+learning. That was my bachelor's thesis.
+Neural network for analyzing scientific articles
+The purpose of this semantic analysis was to highlight the connections “Technology - Application" based on the texts of scientific
+articles. This should help compaies in their technical development. To do this, articles were downloaded using the API from
+website arxiv.org and used a neural network to analyze them semantically.
+Creating a trading bot based on reinforcement learning.
+Bot for automated trading on the stock exchange. Powered by training with reinforcement control (DRL) and [company] API.
+Recognition of pedestrian crossings in real time using computer vision
+Compiling a dataset and using classical computer methods vision and neural networks for video recognition of pedestrian
+crossings and traffic lights. Based on this information, a movement trajectory was created for a theoretical robot.
+Analysis of traffic congestion in [location] districts
+Transport flows were calculated using Google API and geopandas to calculate traffic congestion in areas. This data visualized in
+the form of a color map of [location] districts. Subsequentlly, this the same approaach was used for forecasting.

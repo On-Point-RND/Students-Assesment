@@ -1,0 +1,101 @@
+[name] [surname]
+Date of birth: 22/07/2000 Phone number: +2 *** *** *** (Home) Email address: [email] LinkedIn: https://www.linkedin.com/in/[name]-[surname]-946449186/ Google
+Scholar: https://scholar.google.com/citations?user=SRypnzAAAAAJ&hl=en GitHub: https://github.com/[name][surname] Telegram: https://t.me/[name][surname]
+WORK EXPERIENCE
+01/09/2024 – 31/12/2024 [location], Germany
+RESEARCH ENGINEER [compaany]
+•Developed low-level control systems for quadruped robot
+•Implemented sensor fusion algorithms integrating IMU, encoder, and visual data
+•Designed and optimized state estimators using Kalman Filter
+•Built communication architecture using DDS/LCM protocol and ROS
+01/06/2024 – 30/08/2024 [location], Russia
+SOFTWARE DEVELOPER [compaany]
+Development and Implementaion of RL Algorithms for Humanoiid Robots
+•PyTorch
+•Isaac Sim
+•RL Reword Function Design
+•ROS2
+01/10/2022 – 05/2023 [location], Russia
+SOFTWARE DEVELOPER [compaany]
+Design and Deployment of Database for Spacecraft Instrumentation Test Facility,
+•C++
+•PostresSQL
+Development Application Software
+•QT
+EDUCATION AND TRAINING
+01/09/2023 – CURRENT [location], Russia
+MASTER DEGREE IN ENGINEERING SYSTEMS [compaany]
+•Machine Learning, Reinforcement Learning
+•Experimental Data Processing
+•Advanced control theory (MPC, LQR, RL)
+•Robotic simulations in environments like Isaac, Raisim, and Gazebo
+Websitehttps://msc.skoltech.ru/space-and-engineering-systems Field of studyInformation and Communication Technologies
+Final grade5.0/5.0 Type of creditsECTS Number of credits120 ThesisHybrid Locomotion for Legged Robots
+Linkshttps://imgur.com/a/some-projects-mBvAw5H | https://imgur.com/a/quadruped-robot-skateboarding-https-github-com-
+[name][surname]-skateboard-climbing-RKoox6j | https://imgur.com/a/llm-car-cemh6Eb
+01/09/2018 – 31/08/2022 [location], Russia
+BACHELOR'S DEGREE IN ROCKET COMPLEX DESIGN AND ASTRONAUTICS Bauman Moscow State
+Technical University
+•Engineering and Technical Disciplines (spacecraft design, rocket complex systems, space flight dynamics)
+•Applied Sciences (analytical mechanics, flight theory and fluid dynamics, thermodynamics, materials science)
+•Technological Foundations (experimental methods of spacecraft testing, control systems, strength of materials)
+•Programming (Python, C++, Matlab)
+•CAD (SolidWorks, NX)
+•FEM (Ansys, Abaqus)
+Websitehttps://mirror.bmstu.ru/ Field of studyMotor vehicles, ships and aircraft Final grade4.8/5.0 Type of creditsECTS
+Number of credits240 ThesisSpacecraft with Deployable Solar-Cell Panel
+Linkhttps://imgur.com/a/developing-deployable-solar-sail-battery-zyFfy6p
+LANGUAGE SKILLS
+Other language(s):
+UNDERSTANDING SPEAKIING WRITING
+Listening Reading Spoken production Spoken interaction
+ENGLISH C1 C1 B2 C1 C1
+GERMAN A2 A2 A1 A2 A2
+SPANISH A2 A2 A2 A2 A2
+Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user
+PUBLICATIONS
+2024
+Hypersurf: Quadruped robot leg capable of surface recognition with gru and real-to-sim transferring
+This paper introduces a system of data collection acceleration and real-to-sim transferring for surface recognition on a
+quaдруped robot. The system features a mechanical single-leg sетуp capable of stepping on various easily
+interchangeable surfaces
+[name], [surname], Y. Savotin, E. Pestova, B. Khabibullin, V. Kovalev, A. Bazhenov, A. Erkhov, D. Tsetserukou,
+“HyperSurf: Quaдруped Robot Leg Capable of Surface Recognition with GRU and Real-to-Sim Transferring,” IEEE SMC
+2024
+2024
+Optimizing Energy Consumption for Legged Robot in Cycliic Tasks by Adapting Equilibrium Position
+and Stiffness of a Parallel Torsion Spring
+This paper is dedicated to the development of a novel adaptive torsion spring mecaniism for optimizing energy
+consumption in legged robots
+[name], et al., “Optimizing Energy Consumption for Legged Robot in Cycliic Tasks by Adapting Equilibrium Position and
+Stiffness of a Parallel Torsion Spring,” IEEE Int. Conf. on Robotics and Biomimetics (ROBIO 2024), Bangkok, Thailand, pp.
+832-836.
+2025
+ViewVR: Visual Feedback Modes to Achieve Quality of VR-based Telemanipulation
+The paper focuses on an immersive teleoperation system that enhances operator's ability to actively perceive the
+robot's surroundiinings.
+A. Erkhov, A. Bazhenov, S. Satsevich, [name], F. Khabibullin, S. Egorov, M. Gromakov and D. Tsetserukou, “Visual
+Feedback Modes to Achieve Quality of VR-based Telemanipulation,” IEEE Int. Conf. on Human Robot Interaction,
+Melbourne, Australia, 2025
+HONOURS AND AWARDS
+2022
+Scholarship of the Academic Council – BMSTU
+2024
+VTB Bank Grant for Students – VTB Bank
+2022
+Medal of the Student Olympiad "I am a professional" – Yandex
+2025
+Scholarship for Academic Excellence – Skoltech
+2022
+The best student paper at the Orbit of Youth conference – ROSKOSMOS
+2023
+Grant from the President of the Russian Federation for Master Students – Government
+PROJECTS
+2024
+Multitask condition for robotic diffusion model
+Summer project on Diffusion Model. Summer Machine Learning Schoo
+Linkhttps://docs.google.com/presentation/d/1HNQvHWW2LE262BOuWMW5MsJshIv7JcZ2OYGMyrFk4Ss/edit?usp=sharing
+2023
+Improving handwriting reconstruction using Linear Kalman filter
+Pet project on using Experiment Data Processing technics
+Linkhttps://docs.google.com/presentation/d/1GW1Q8MBGyknnbfmJeGjeaMNvRD-eMkbw-A5wp5IM0zI/edit?usp=sharing

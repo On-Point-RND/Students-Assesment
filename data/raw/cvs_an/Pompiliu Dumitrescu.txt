@@ -1,0 +1,23 @@
+[name] [surname]
++2 *** *** *** ⋄ [location]
+[email]
+OBJECTIVE
+Student with 7+ years of experience in competitive programming, seeking educational and internship opportunities.
+EDUCATION
+Bachelor of Applied Mathematics and Information Science, [company] 2024 - 2028
+SKILLS
+Technical Skills C++, Python — strong knowledge of data structures, algorithms, and STL.
+Soft Skills Fast learner, self-driven, excellent under pressure, team collaboration,
+problem-solving and analytical thinking.
+Mathematical Skills Combinatorics, Graph Theory, Number Theory, Probability, Discrete Math,
+Linear algebra and geometry, Algebra, Calculus
+ACHIEVEMENTS
+• ROI 2023 — winner, ROI 2024 — winner
+• Open Olympiad in Informatics 2024 — First degree diploma (7th place)
+• Codeforces max rating — 2326
+• IATI 2024 — silver medal
+EXPERIENCE
+PROJECTS
+
+
+

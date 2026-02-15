@@ -1,0 +1,1 @@
+ python category_mining.py --input_dir /home/dev/work_main/random/assesment/data/raw/cvs_an --output_file ./cat_mining_results/cv_categories_gemma3_12B.json --api_key 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 --num_pairs 400 --doc_type resume --model google/gemma-3-12b-it

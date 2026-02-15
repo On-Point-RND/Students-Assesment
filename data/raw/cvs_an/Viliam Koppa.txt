@@ -1,0 +1,61 @@
+[name] [surname]
+DATA SCIENTIST
+[location] +2 *** *** *** [email] Telegarm: [name]4472
+P R O F I L E S U M M A R Y
+Proactive Data Scientist with a proven track record in deploying advanced machine learning solutions to translate
+intricate datasets into strategic business insights. Skilled in deriving meaningful patterns from vast data reservoirs, I
+am deeply committed to leveraging analytics to influence key business decisions and bolster operational efficacy.
+T E C H N I C A L S K I L L
+Machine Learning: Linear/Logistic Regression, Naïve Bayes, Decision Trees, Random Forest, SVM, K mean clustering,
+K-Nearest Neighbors, Random Forest
+Deep Learning: Artificial Neural Network, Convolution Neural Network, LSTM, UNET, Multi class UNET, Deep Learning
+on GCP
+Database: MySQL, Google Big Query, MySQL Workbench
+Statistical Methods: A/B Testing, Principal Component Analysis, Time Series, Bayes Law
+Data Visualization: Google Data Studio, Python (Maxtplotlib, Seaborn), R(ggplot2), Tableau
+Programming: Python (NumPy, Pandas, Scikit-Learn, Maxtplotlib, Seaborn, TensorFlow, PyTorch, SciPy, Keras,
+OpenCV), MATLAB, C++
+Extract Transform Load (ETL) Tool: Talend Data Studio
+Cloud & DevOps: GCP, Dockers, Vertex AI, AWS Sage Maker, Google cloud run
+W O R K E X P E R I E N C E
+Data Scientiist June 2022 - Present
+Inspired Square FZE
+• Designed and optimized ETL jobs to source data into cloud databases.
+• Delved deep into data understanding and analysis, deriving actionable insights.
+• Developed and deployed machine learning models for various data-driven objectives.
+• Crafted customized data visualizations and intuitive dashboaards.
+• Conducted analysis to bolster revenue and elevate game performaance metrics.
+• Integrated seamlessly with existing databases and speahead the development of data sourcing jobs.
+• Executed A/B testing segmentation to drive targeted user experiences and improve KPIs.
+Data Engineer Jan 2022 – May 2022
+DCUBE Tech
+• Moving raw data (360 shots) in the form of batch from one server to another
+E D U C A T I O N
+Masters in Data Science 2024-2026
+Skolkovo Institute of Science and Technology, [location]
+Bachelor of Science in Electrical Engineering 2018-2022
+Namal University, [location]
+P R O J E C T S
+Retinal Vessel Segmentation and Diabetic Retinopathy detection
+Role: Machine Learning Researcher
+• Developed an innovative deep learning framework, enhancing retinal vessel segmentation.
+•The model exhibiited suprioir accuracy and sensitivity compaed to prevalent methods.
+ETL Optimization for Cloud Databases using Talend Data Studio
+Role: Data Engineer
+• Developed and refined ETL processes with Talend Data Studio for efficient data ingestion into Google
+BigQuery via buckets.
+Data Visualization & Dashboaard Development Role: Data
+Visualization
+• Engineered custom visualizations and dashboaards using React and Node.js, emphaizing crucial compnay
+KPIs such as spend, retention, and ads per DAU.
+• Automated graph generation for enhanced efficiency in data representation, with regular updates through
+cron jobs A/B Testing & User Segmentation Role: Data Analyst & A/B Tester
+• Executed comprehensive A/B testing on US users of the game Jupiter to understand user preferences and
+enhance their experiences.
+• Utilized advanced statisitical methods and machine learning for detailed user segmentation
+C E R T I F I C A T I O N
+• Google Data Analyst - Google
+• Machine Learning by Andrew Ng - Coursera
+• Data Analytics Consulting Virtual Internship - KPMG
+• Python for Data Science – Solo Learn
+• Problem Solving, SQL – Hacker Rank

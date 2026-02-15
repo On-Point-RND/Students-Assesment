@@ -1,0 +1,48 @@
+[name]
+[email]
+# [location],theterritoryoftheinnovationcenter"Skolkovo",BolshoyBoulevard,30,buildiing1,[location]
++2 *** *** *** §@[email]
+EXPERIENCE SKILLS
+Python NeuralNetwork
+CNN-based research of semantic segmentation methods in biomed- MachineLearning DeepLearning
+ical applications
+Computervision 3Dprinting
+MS’s thesis CNC SolidWorks
+z Sep2024–Nowdays * ArtificialIntelligenceInDynamicActionLaboratory
+• Developed a model (CNN/U-Net-based) for semantic segmentation of polypsin endoscopic images. Enhanced segmentation accuracy using data augmentation and transfer learning, improving early detection capabilities.
+MOST PROUD OF
+Estimation of transport load capacity with complex surface ge- RESETteammember
+ometry cargo Team8timewinnersof
+RussianEUROBOT
+IndustrialImmersion
+z June2024–Sept2024 * VISME ¢ Bestproject
+BestIndustrialImmersion
+• Developed a 2D LiDAR solution for real-time truck cargo volume estimation using advanced algorithms, improving accuracy and efficiency. Integrated with production systems to optimize inventory/logistics workflows.
+Head of the Mechanics Team
+♀ MostCreativeMultitasker
+EUROBOT SkoltechAcademicAward
+z 2023-Present * IntelligentSpaceRoboticsLaboratory
+• Management and organization of the work of the mechanic team
+• Designing, assembling and testing the construction of an omni-wheeled robot
+• Designing, assembling and testing a swarm of three robots
+LANGUAGES
+* SkolkovoInstituteofScienceandTechnology
+• SLAM with semantic segmentation, a functional monocular SLAM system operating on the basis of package configuration with ArUco initialization. The system is capable of not only creating a camera tracking and mapping, but also using a Neural Network to identify stationary objects.
+• github:SssssSLAM
+B.S. Mobile Communications and Internet of Things
+Estimation of a car position to solve a case of a bank robbery using GPS MoscowTechnicalUniversityof
+InformaticsandCommunication
+Course “Experimental data processing"
+z 2019-2023
+z Sep2023–Oct2023 * Skoltech
+• Extracting useful signal from noisy experimental data, searching for the best method for evaluating dynamic processes and making a forecast of its further development
+Development of software "SparkSat" for tracking system of satellites
+Bachelor’sthesis
+z 2022–2023 * MTUCI
+• Creating software based on Lidar data for satellite tracking
+• Using Godot and Python
+• Develop UI/UX design
+PUBLICATIONS
+• Factors affecting the service life of CubeSat satellites/D.Chekina,E.ProninaCollectionofworksoftheyouthscientificforumMTUCI
+• Overview of existing satellite tracking systems/D.Chekina,E.ProninaTelecommunicationsandinformationtechnology.–2022–.9.–№2.–.52-58.
+• D.Chekina,D.Kalugina,A.Svirskaya,E.Pronina:MicroboardsonsatellitesoftheCubeSatsatellites.CollectionofworksoftheyouthscientificforumMTUCI.2023.

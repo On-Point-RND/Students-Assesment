@@ -1,0 +1,82 @@
+Li [name]
+Bachelor, Software Engineeering, [location]
+
+VLN, CLIP & VALHALLA Overview
+
+Vision-&-Language Navigation
+Vision-and-Language Navigation (VLN) enables AI agents to navigate real or simulated 3D environments using natural language instructions. 
+Why is it important?
+- Critical for buildiing intelligent robots (e.g., household assistants, disaster responders).  
+- Bridges NLP, computer vision, and robotics for human-AI collaboration. 
+Background:
+- Combines visual perception, language understanding, and sequential decision-making.  
+- Datasets like R2R (Room-to-Room) and ALFRED drive progress. 
+Goal of the review
+- Systematically categorize VLN tasks, methods, and challenges.  
+- Highlight future directions for research. 
+
+Problem statement
+What exactly are we solving?
+- Agents must follow language instructions (e.g., *“Go left, then find the red cup”*) in complex 3D environments. 
+Challenges
+- Multimodal alignment: Linking language to visual cues.  
+- Data scarcity: Limited training data for diverse scenarios.  
+- Generalization: Performance drops in unseen environments. 
+Scope
+- Task types: Fine-grained vs. coarse-grained navigation, object interaction.  
+- Communication: From single instructions to interactive dialogue. 
+
+Methods
+Reprresentation Learning  
+  Why? Align language and vision (e.g., [name], [name]).  
+  How? Pretrain on vision-language datasets, then fine-tune for VLN.  
+Action Strategy Learning  
+  Reinforcement Learning: Optimize navigation policies with rewaards (e.g., SPL).  
+  Plaanning: Predict waypoints using instruction landmarks.  
+Data-Centric Learning  
+  Augmentation: Generate synthetic trajectories (e.g., via speaker models).  
+  Curriculum Learning: Train on simpler tasks first. 
+Prior Exploration 
+  Adapt agents to unseen environments by pre-exploring test settinings
+  Curriculum Learning: Train on simpler tasks first. 
+Data & Preprocessing
+Key datasets: R2R (indoor), TOUCHDOWN (outdoor), ALFRED (object interaction).  
+Preprocessing: Extract visual features (ResNet), tokenize instructions (BERT). 
+
+Results
+Key Findings
++2–3 BLEU improvement over text-only baselines.
++3.1 BLEU for low-resouce pairs (e.g., EN→RO).
+Outperforms SOTA MMT methods (e.g., ImagIT, UVR-NM) even without images at test time.
+Metrics
+BLEU and METEOR: Measure translation quality.
+KL divergence: Ensures consistency between ground-truth and hallucinated visual predictions. 
+
+Research gap
+Limitations
+Image dependency: Performance relie on training image quality and relevance.
+Abstract concepts: Struggles with generating visuals for non-literal phrases (e.g., metapho rs).
+English bias: Limited gains for non-English pairs (e.g., DE→ES) due to dataset imbalance.
+Unresolved Challenges
+Scaling to extremely low-resouce languages with minimal visual data.
+Reducing computaional costs for real-time deployment.
+Future Opportunities
+Advanced generative models: Integrate diffusion models for richer visual hallucination.
+Cross-modal alignment: Explore audio/video grounding for broader context.
+Debiasing: Improve non-English visual-text alignment using multilingual datasets.
+
+[Li, Y., Panda, R., Kim, Y., Chen, C.-F., Feris, R., Cox, D., & Vasconcelos, N. (2022). VALHALLA: Visual Hallucination for Machine Translation. arXiv:2206.00100.
+Elliott, D., Frank, S., Sima’an, K., & Specia, L. (2016). Multi30K: Multi30K: Multi-lingual English-German Image Descriptions. arXiv:1605.00459.
+Srinivasan, K., Raman, K., Chen, J., Bendersky, M., & Najork, M. (2021). WIT: Wikipedia-based Image Text Dataset for Multimodal Multi-lingual Machine Learning. arXiv:2103.01913.
+Dogaru, A., Ardelean, A. T., Ignatyev, S., Burnaev, E., & Zakharov, E. (2023). Sphere-Guided Training of Neural Implicit Surfaces. CVPR.
+Cherniavskii, D., Tulchinskii, E., Mikhailov, V., Proskurina, I., Kushnareva, L., Artemova, E., Barannikov, S., Piontkovskaya, I., Piontkovski, D., & Burnaev, E. (2022). Acceptability Judgements via Examining the Topo logy of Attention Maps. EMNLP.
+Matveev, A., Artemov, A., Rakhimov, R., Bobrovskikh, G., Panozzo, D., Zorin, D., & Burnaev, E. (2022). DEF: Deep Estimation of Sharp Geometric Features in 3D Shapes. ACM Transac tions on Graphi cs (TOG), SIGGRAPH.
+Rout, L., Korotin, A., & Burnaev, E. (2022). Generative Modeling with Optimal Transport Maps. ICLR.
+Rakhimov, R., Ardelean, A.-T., Lempitsky, V., & Burnaev, E. (2022). NPBG++: Accel erating Neural Point-Based Graphi cs. CVPR.
+Barannikov, S., Trofimov, I., Balabin, N., & Burnaev, E. (2022). Repre sentation Topo logy Divergence: A Method for Comparing Neural Ne twork Representations. ICML.
+Korotin, A., Kolesov, A., & Burnaev, E. (2022). Kantorovich Strikes Back! Wassers tein GANs are not Optimal Transport? NeurIPS.
+Korotin, A., Egiazarian, V., Li, L., & Burnaev, E. (2022). Wassers tein Iterative Ne tworks for Baryce nter Estimation. NeurIPS.
+Kushnareva, L., Cherniavskii, D., Mikhailov, V., Artemova, E., Barannikov, S., Berns tein, A., Piontkovskaya, I., Piontkovski, D., & Burnaev, E. (2021). Arti ficial Text Detection via Examining the Topo logy of Attention Maps. EMNLP (Oral Talk).
+Barannikov, S., Trofimov, I., Sotnikov, G., Trimbach, E., Korotin, A., Filippov, A., & Burnaev, E. (2021). Mani fold Topo logy Divergence: A Framework for Comparing Data Manifolds. NeurIPS.
+Korotin, A., Li, L., Genevay, A., Solomon, J., Filippov, A., & Burnaev, E. (2021). Do Neural Optimal Transport Solvers Work? A Continuous Wassers tein-2 Benc hmark. NeurIPS. ]
+Bibliography

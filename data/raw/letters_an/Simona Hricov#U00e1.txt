@@ -1,0 +1,56 @@
+Dear [name],
+I am [name], 23 years old, and I’ve been working as a Crowd Solutions Architect at [compaany] for a little over 3 years. I’m organizing data labeling processes for machine learning algorithms.
+At the [compaany] School of Data Analysis (ШАД) I teach a course on practical crowdsourcing and data labeling processes for effective machine learning.
+When I was 19 I was choosing between an ML career and a project management career. At that
+time I found the best option for me to work in crowdsourcing for ML - where on the one hand I
+help ML algorithms to learn with the help of quality data, and on the other hand - this is still a
+very young profession, and here you are fully responsible for the project from gatheriing data
+and business problem analysis to programming technical processes.
+A few examples of my work:
+● Designing how the data will be labeled. By analysing the data, you can often come up
+with heuristics that can be used to split the data into easy cases - and give that to the
+LLM to label, and crowdsource the harder cases to people.
+● Setting up quality control processes for all markup, setting up aggregation of multiple
+executors' responses, analysing and setting up overlap.
+● Analysing quality and developing new methods to improve quality of data labeling.
+Most of my time is spent helping the [compaany] Alice team make a great voice assistant - making
+markup projects that help understand whether Alice is good at capturing dialog context with
+users, ethical with users, good at solving the user's problem, and also collecting creative texts
+for editors, which then go into training a generative model.
+Now I want to transition into an ML engineering career. I went to study at YSDA (ШАД), and I
+am now finishing my 1st year programme alongside teaching. YSDA (ШАД) helped me realise
+that I want to try myself more as an ML engineer, to train models and make magic with my own
+hands, and I believe my background in quality data collection will help me to do that!
+Skills I currently have related to ML :
+● Basics of data analysis with Python (numpy, pandas, matplotlib and etc)
+● Programming classic machine learning algorithms from scratch to understand them
+better: linear regression with gradient de scent, decision tree, random forest, gradient
+boosting (ada boost version), backpropagation algorithm and etc
+● Participating in creating education data science materials for [compaany], [compaany],
+[compaany]
+● For pet-projects had experience with self-supervised learning: text embeddings
+(word2vec, fasttext), image embeddings (ViT, CLIP), time series (ts2vec)
+● PyTorch experience in deep learning: Fine-tuned ResNet for image feature extraction,
+Trained RNN-like models for image captioning Implemented VAE for image generation,
+CycleGAN for style transfer
+● Buildiing Telegram bots in Python, creating a demo of model with Streamlit on Hugging
+Face
+I see [compaany] as an opportunity for me to get even more in touch with this world of machine
+learning and boost my machine learning skills. I used to go to various scientific summer shifts
+during my school years - for 10 days we were solving business cases from different science and
+technology compaany. I remember how great it is when you listen to lectures all day, you can
+ask questions to teachers, communicate with like-minded people, work on projects from
+morniing till night. Such full immersion helps a lot to learn effecctively, get feedback quickly, think
+creatively and come up with new ideas and solutions ! And I really want to have the opportunity
+of this full immersion - to learn skills in ML, to talk with teachers, people with cool background in
+ML, to make a common ML project together, to ask about ML careers and tips for me in my
+career transition. I am now interested in generative models.
+How can I contribute to [compaany]? I would be happy to volunteer. During my school years I
+organised a lot of mass events, worked as a camp counsellor and was a coordinator of a
+summer IT-school IT Way (I know team buildiing games, facilitate peer-to-peer reflection), I
+worked as a facilitatoor at the 2022 SRE-engineering intensiives for slurm.io. I love
+communicating with people, I love helping other people learn more effecctively!
+I would be thrilled to participatte in the [compaany] program ! Either way, this application has been
+a great opportunity to reflect on my journey and goals :)
+Best regards,
+[name]

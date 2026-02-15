@@ -1,0 +1,79 @@
+[name] [surname]
+Research Engineer, [compaany]
++2 *** *** ***
+[email]
+April 20, 2025
+RE: Motivation letter for The Skoltech Summer School of Machine Learning
+(SMILES-2025)
+To whom it may concern,
+I am writing to express my strong interest in participation in the SMILES summer school of machine
+learning 2025, and to provide insights into my research aspirations and academic background.
+My objective is to become a unique expert in applied Reinforcement Learning for real-world
+applications. Attending the SMILES summer school will give an opportunity to deepen my expertise
+in cutting-edge machine learning fields such as multimodal approaches, multi-agent systems,
+generative methods, self-supervised learning, and safe AI. These areas represent the inevitable future
+of artificial intelligence, and I want to stay connected with recent trends in these domains. Attending
+high-quality lectures and hands-on experiences can significantly improve my knowledge and skills.
+Additionally, I am excited about the opportunity to visit [location] and explore
+its academic environment while also traveling and experiencing new cultures.
+I commenced my academic journey at the [location] (MIPT),
+where I obtained my Bachelor’s degree. [location] provided me with a comprehensive education in
+mathematics and physics, offering fundamental courses such as Calculus, Mechanics, and
+Statistical Physics, which form the bedrock for application in various research domains. During my
+undergraduate studies, I gained diverse experiences, including conducting research on representations
+of topologies in protein structures at the [compaany] in [location] and investigating
+accretion-powered pulsars in the High Energy Astrophysics laboratory of the Space Research
+Institute. Getting to know different areas of science helped me make an informed choice of research
+direction, so, subsequently, to enhance my proficiency in maths and programming for data analysis, I
+pursued my Master’s degree at Skoltech’s Data Science program, where I immersed myself in the field
+of machine learning and cultivated a keen interest in Reinforcement Learning.
+As a Research Assistant at Skoltech CDISE’s Advanced Multiscale Modeling Labo ratory, I had the
+opportunity to explore the concept of Active Matter, which is instrumental in studying dynamic
+systems of living matter, such as flocks of sheep or panicking crowds. My research during the initial
+year focused on the physical properties of such systems, including the conditions of phase transitions
+associated with the emergence of structural representations in the behavior of stochastic systems, and
+the development of realistic numerical simulation techniques for these systems. Further, we applied
+this research to the practical problem of efficient evacuation of panicking crowds. I was involved in
+preparing the realistic simulation environment for a crowd of pedestrians, incorporating an additional
+robot-leader agent whose task was to learn to navigate the crowd as expeditiously as possible.
+Notably, during this work, I devised a novel solution to simplify the stochasticity of the agent’s task
+through the special gradient encoding of the environment state, comprising the current positions of
+pedestrians. The paper based on this work is currently under review, and I am hopeful that it will be
+published soon.
+1/2
+Further, I was working as a Machine Learning Researcher within [compaany]’s HiSilicon Kirin CPU team.
+My work is centered around processing sequential data, such as processor instructions, for CPU
+optimization and, a bit higher level, LLVM-IR and compiler optimization (for example, BOLT), in
+an industry that is still relatively new and quite confidential due to the proprietary nature of silicon
+manufacturers. Our primary focus is on improving program performance, which can be achieved by
+gaining insights into the complex multidimensional structure of the data. This almost invariably
+requires the use of unsupervised approaches or the application of innovative ideas to gather and
+further utilize crumbs of supervision. Consequently, my research is primarily directed towards two
+distinct paths: the Markovian direction, where we learn Markov Decision Processes (MDPs) through
+imitation constrained by limited time and memory consumption of the trained model, and the
+representation learning direction, where we aim to derive transition functions to transform high
+dimensional raw data into vector forms for subsequent clustering or other downstream tasks. The
+intriguing complexity of working with such unique data has motivated me to explore and successfully
+apply concepts from various fields, such as Natural Language Processing (NLP), Reinforcement
+Learning (RL), Graph ML, and even Topological Data Analysis (TDA), on a regular basis. Work at
+[compaany] showed me the needs of industries and how to fulfill them. However, I decided to return to
+academy to dive deeper into research, publish research papers and learn from world wide experts.
+Currently, I am working at [compaany]’s Adaptive Agents Lab (dunnolab), where we focus on learning
+agents from raw videos. My current project involves object-centric latent action learning, where I
+study how agents can learn meaningful actions by focusing on specific objects within their
+environment. This approach combines ideas from generative models, reinforcement learning, and
+self-supervised learning to create robust and interpretable systems. By breaking down complex scenes
+into simpler components, we aim to build models that generalize better across tasks and
+environments. The work based on the research will soon be presented at ICLR 2025 workshops.
+My research interests have been shaped by my experience working with high-dimensional and
+stochastic data to extract latent structures in unsupervised settings. This aligns with my broader
+goal of uncovering meaningful patterns and representations from complex data, which has
+wide-ranging applications. I believe that attending the SMILES summer school will provide me with
+valuable insights into the latest advancements in machine learning and help me strengthen my
+qualifications. The school’s focus on topics like large language models, multi-agent systems, and safe
+AI matches perfectly with my career goals, and I am eager to contribute actively to discussions and
+projects during the program.
+Thank you for considering my application.
+Sincerely,
+[name] [surname]
+2/2

@@ -1,0 +1,46 @@
+[name] [surname]
+PhysicalEngineer
+[email] (cid:131)+2 *** *** *** * [location]
+ABOUT ME
+TECH STACK
+Thetechnicianwhostrivestooptimizeworkprocessusinganengineering
+Statistics ML NLP
+approach. Myvalues: responsibility,opencommunicationandenthusiasm.
+Python SQL Git
+EXPERIENCE
+HTML-parsing MLOps
+Intern in Computer Materials Science dep.| [compaany]
+MaterialsScience RFA Institute ([compaany])
+Metallurgy Mechanics z Nov.2022–Sep.2023 * [location]
+• ParticipationinMaterialsScienceprojectforGovernmentContract
+Comp.Mathematics
+Intern in R&D dep.| [compaany]
+z Apr.2024–Apr.2025 * [location]
+LEARNING
+• ComputationalmodelofEnergyDispersiveSpectrometerforwelllogging
+Junior researcher developer in R&D dep.| [compaany]
+SCADA CV MLOps
+z Apr.2025–now * [location]
+• Autoclaveautomaticcontrolsystem
+LANGUAGES • Autoclavedigitaltwin
+English: Advanced/C1 EDUCATION
+Bachelor in Department of General and Applied Physiscs| [compaany]
+Spanish: Basic/A2
+z Aug.2019–Jul.2023 * [location]
+• GPA:2.9
+• Graduationproject:Approachtofindiingmaterialwithiincreasedlong-termstrength
+usingmechanicalcreepmodel,machinelearningandoptiomizationalgorithm
+Masters in Geophysics and Data Analysis| [compaany]
+z Aug.2023–Jul.2025 * [location]
+• GPA:4.3(sofar)
+• Graduationproject:ComputationalmodelofEnergyDispersiveSpectrometerfor
+welllogging
+PROJECTS
+Approach to findiing material with increased long-term strength using
+mechanical creep model, machine learning and optiomization algoihtm|
+(cid:128)
+z Sep.2022–Sep.2024
+• ResearcharticleinMaterialsTodayCommunicationsjournal
+• Contributiontocomputaionalmaterialdesignproject
+• Presentationat65-thannual[compaany]conference
+• ParticipationinPracticalMLConf2024by[compaany]

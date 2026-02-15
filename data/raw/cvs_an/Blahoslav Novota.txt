@@ -1,0 +1,48 @@
+[location], [name]
+[name] [surname]
+[location]
++2 *** *** ***
+[email]
+ML engineer, C / C++ developer
+WORK EXPERIENCE SKILLS
+• C, C++, Python, Matlab
+[company], [location] AI Foundation and Algorithm Lab
+JULY 2024 - Current date • Social-media management
+(vk.com/[name][surname]_mipt + t.me/[name][surname]_mipt,
+vk.com/profkom_[location]_mipt +
+t.me/profkom_[location]_mipt)
+• Event management
+[location] Institute of Physics and Technology, [location] –
+bachelor / 3 year
+PROFESSIONAL INTERESTS
+SEPTEMBER 2022 – 2025
+Department of Radio Engineering and Cybernetics, Applied mathematics and Physics. • Large language models
+• Development and design of
+Higher School of Economics, [location] – bachelor microprocessors architectures
+SEPTEMBER 2021 – JULY 2022
+• Programming on C, C++
+Department: [location] Institute of Electronics and Mathematics, Information Science and
+Computer Technology.
+• Compilers design and
+• Social-media management
+implementation
+• Project management
+ADDITIONAL COURSES
+Advanced computer networks – The course covers modern approaches
+to the implementation of large data transmission networks such as L3VPN,
+RTBH, BGP, and is in addition to the institute's computer networking course.
+Introduction to Computer Architecture – The course consists of digital (elementary)
+circuits basics and general concepts of modern CPUs architecture: branch
+prediction methods, superscalarity, out-of-order execution and others.
+GITHUB
+PROJECTS
+github.[name]
+Matrix – Implementation of a two-dimensional matrix class in C++
+for calculating the determinant and working out move semantics. To
+be continued.
+Diffrentiator –The program calculates function's derivative in a
+particular point 'x' by representing expression in tree structure.
+Expression was parsed with a recursive descent algorithm.
+Processor – The program executes simple x86_64 asm code with
+simulated RAM, labels, and branches.
+Other projects can be found on GitHub.

@@ -1,0 +1,76 @@
+RL Strategy for Scalp Trading
+using Time Series Generation
+[name] [surname], [name] [surname], [name] [surname], [name] [surname] and [name] [surname]
+Introduction
+Objective: a new trading strategy using
+machine learning and scalp trading
+GANs Scalp trading RL
+Limitations of day trading and hft
+Day-Trading:
+● Limited to few trades per day, reducing profiit potential.
+● Relies on coarse-grained data (hourly/daily), missing microtrends critical for
+scalping.
+High-Frequency Trading:
+● Requires costly infrastructure (co-located servers, FPGA/AASIC hardware).
+● Focuses on subsecond arbitrage, inaccessible to retail traders and small
+institutions.
+Data
+● [location] stock exchange
+● LKOH
+● 24 from April 2024 to 28 from
+March 2025
+● 1 minute 4-dimensional time
+series: open, high, low and
+close price
+Generative adversarial networks
+Bootstrap
+X X … X B B … B
+1 2 N 1 2 N
+Original time-series data Bootstrap data
+STL
+Add back seasonality
+and trend
+S S … S S S … S
+1 2 N 1 2 N
+Decomposed seasonality/trend portion Decomposed seasonality/trend portion
+R R R R R … R
+1 2 3 4 4 N
+R R … R R R R R R … R R R … R
+1 2 N 1 2 3 4 4 N 1 2 N
+Data residual part R R R R R … R Real data remainder part
+1 2 3 4 4 N
+Reinforcement learning
+Result
+● At the moment, we are learning RL and we do not have the final results, in
+general, we got a sharp ratio = 1.8 on real data. A 20% increase in quality is
+expected based on synthetic GAN data.
+Research gap
+● Problem
+○ long training time and instability of the model
+○ time series limitations
+● Next step
+○ adding volume
+○ complex GAN models
+Bibliography
+1. [name], [name], and [name]. "Generative adversarial networks for financial trading strategies
+fine-tuning and combination." Quantitative Finance 21.5 (2021): 797-813.
+2. [name], et al. "Quant GANs: deep generation of financial time series." Quantitative Finance 20.9 (2020): 1419-1440.
+3. [name], et al. "Beating the stock market with a deep reinforcement learning day
+trading system." 2020 International Joint Conference on Neural Networks (IJCNN). IEEE, 2020.
+4. [name], [name], and [name]. "Time Series Generation with GANs for Momentum Effect Simulation
+on [location] Stock Exchange." 2024 IEEE Symposium on Computational Intelligence for Financial Engineering and Economics
+(CIFEr). IEEE, 2024.
+5. [name]. "Day Trading Strategy Based on Transforme**r Model, Technical Indicators and Multiresolution
+Analysis." International Journal of Advanced Computer Science & Applications 15.4 (2024).
+6. [name], et al. "Time-series representation learning via temporal and contextual contrasting." arXiv preprint
+arXiv:2106.14112 (2021).
+7. [name] and [name]. "Scalp the Foreig**n Exchang**e Market with Deep Reinforcement Learning." Informa**tion
+Modelling and Knowl**edg**e Bases XXXIV. IOS Press, 2023. 81-91.
+8. [name], et al. "Comparison of financial models for stock price prediction." Journal of Risk and
+Financial Management 13.8 (2020): 181.
+9. [name], et al. "Market Efficie**nc**y And Stability In The Era Of High-Freq**u**ency Trading: A Comprehensive Revi**e**w."
+International Journal of Business and Economics 1.3 (2024): 1-13.
+10. [name] and [name]. "CPU and GPU Implemen**t**ations for High Freq**u**ency Trading in Algorithm**ic** Finance."
+Proc**e**e**din**gs of the Internaional Confe**re**nce on Info**r**mation Technologies. 2018.
+11. [name] and [name]. "Can GANs Learn the Stylized Facts of Financial Time Series?. " Proc**e**e**din**gs of the 5th
+ACM Internaional Confe**re**nce on AI in Finance. 2024.

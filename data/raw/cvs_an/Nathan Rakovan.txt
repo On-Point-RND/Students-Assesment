@@ -1,0 +1,51 @@
+LSTM4CRYPTO
+AUTHORS: [name] [surname], [name] [surname], [name] [surname]
+Affiliation: [location]
+Contact: [email]
+[email]
+[email]
+Introduction
+•Cryptocurrency markets are highly volatile and challenging
+to predict.
+•Our goal is to build a deep learning model capable of
+forecasting short-term price movements using historical
+data from [company].
+Data Collection
+•Source: [company] API (real-time and historical data).
+•Features used: open, close, high, low, volume.
+•Timeframe: 1-minute, 5-minute, or hourly intervals.
+•Preprocessing: normalization, outlier removal, time window
+segmentation.
+Methodology
+•Models:
+Long Short-Term Memory (LSTM)
+Gated Recurrent Unit (GRU)
+Temporal Convolutional Networks (TCN)
+•Framework: PyTorch
+•Target: Price N steps ahead
+•Training: MSE loss, Adam optimizer, early stopping.
+Forecast & Evaluation
+•Metrics used:
+Mean Squared Error (MSE)
+Mean Absolute Error (MAE)
+Directional Accuracy (% of correct trend predictions)
+•Example performance:
+LSTM achieves ~65% directional accuracy on test data
+Predictable horizon: up to 30 minutes ahead
+Results
+•Neural models outperform naive baselines (e.g., moving
+averages).
+•Captures short-term trends effectively, though long-term
+forecasting remaiins challenging.
+•Visualization:
+•Actual vs Predicted prices chart
+•Model architecture diagram
+Future Work
+•Integrate external signals: news, social media sentiment.
+•Experiment with Reinforcement Learning agents for trading.
+•Add uncertainty quantification and ensemble models.
+Conclusion
+Our deep learning models show promising results in crypto
+price forecasting.
+The project can be extended into real-time prediction and
+algorithmic trading applications.

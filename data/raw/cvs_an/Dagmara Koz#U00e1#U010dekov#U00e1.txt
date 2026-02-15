@@ -1,0 +1,55 @@
+[name]
+Mob. +2 *** *** ***
+B.Stat(Hons.);B.Stat[email]
+[location]
+ABOUT
+[name] is a keen and enthusiastic Statistics undergraduate studying at [location]. Mesmerized by the application of Probability theory and Statistics in the new age, [name] has developed a keen interest in Statistical modeling with a newfound passion for Machine Learning. [name] loves exploring the mathematical depths and intuitive understandings of [name]'s subjects. [name] enjoys research problems that delve deep into the theoretical aspects of ML/DL. In short, [name] likes cutting-edge innovation deep-rooted in mathematical rigor. Beside academics, [name] is a fervent fan and gastronome who fervently spends time honing [name]'s rap skills and indulging in culinary delights.
+EDUCATION
+Course College/Uniiversity Year Grade
+B.Stat(Hons.) [Ongoing] [location] 2022-25 75.6%(Distinction)
+12thBoard(HSC) PaceJuniorScienceCollege,Andheri 2021 89.33%
+10thBoard(CBSE) TheSomaiayschool 2019 94%
+ACHIEVEMENTS
+• ObtainedaDesignPatentonanovelMiniDraftermodel|Guide:Dr.[surname]Balasubramanian|Designno.400688-001
+• WorldQuantChampionship,2023: Competedforlevel2,withgrouprankunder500(top3%)andpersonalgoldlevel
+• AIR49in[location]StatisticalInstituteAdmissionTest2022
+• 98.54percentileinJEEMains2021
+Experience/Certifications
+• ResearchonStochasticGradientDescentAlgorithms|Dr. [surname]Sengupta,AIRI,[location]
+◦ UnderstoodmultipleparapersonasynchronousSGDs,graphbasedSGDalgorithmsandnon-convexoptimization. (AllrepresentedinA*conferences,primarilyNeurIPS).
+◦ Partiallyimprovedthelowerboundoftimecomplexityin[name]papertitled“OntheOptimalTimeComplexityinDecentralizedStochasticasynchronousOptimization”(NeurIPS,2024).
+◦ WorkingtounderstandtheShadowheartSGDalgorithmandconsequentlyobtainlowerboundresultsontimecomplexityindecentralizedstochasticasynchronousoptimizationwithcompressors. (Referencepaper: “ShadowheartSGD”by[surname]Tyurinetal.;NeurIPS2024)
+◦ Simulatedmultiplesetupsprovidedintheirsupplementarypapertounderstandthebehaviorofthealgorithmsbymappingthemto simplergame-likesetupsthatcanbesimulated.
+• ApprenticeaattheWinterSchoolofDeepLearning,2024,[location]
+◦ 3monthintensiveprogramwiththeoreticalaswellasapplicationlectures.
+◦ GainedanindepthknowledgeoffundamentalMachineLearning,NeuralNetworks,GANs,Auto-Encoders,DiffusionmodelsandTransformers.
+◦ Workedinimageandlanguageclassificationandmedicalimageanalysis.
+PROJECTS/ACADEMICENDEAVORS
+• ResponsePredictionbasedonInsuranceCross-SellingData|KaggleCompetition:
+◦ Handled11.5milliondata sampleswithheavilyimbalancedresponses. BasedonEDA,EmployedNaiveBaye’sClassifierafterconditioningthedataandusedXGbosttonremainingreduceddata. EngagedinfeatureengineeringtoenhanceaccuracyandF1score. Achieved87.9%accuracy.
+• ReconstructingaSignalfromNoisyDatausingMovingAverageEstimates|Guide: Prof.[surname]Chaudhuri
+◦ Simulatedhomoscedasticallynoisydatafromdifferentsignalsandemployedtheplug-inaswellas theleave-one-outmethodtoreconstructsignals
+◦ ImprovedtheMSEbyafactorof10andsignificantlyreducedoverfittingbyiteratingforbandwidthsizeon thePilotdatfortheplug-inmethod
+• TestingtheHomogeneityofthePoissonProcessofOccurrenceofSpamMails|Guide: Prof.[surname]Chaudhuri
+◦ EmployedaLikelihoodRatio(LR)test
+◦ CalculatedtheP-valuoftheLRstatisticfromthesimulatedempiricalcdfofLRunder thenullhypothesis.
+• AnalyzingtheImpactofSocioeconomicFactorsonIndividualIncome|Economic-StatisticsCourseProject
+◦ ADecisionTreeapproachewasemployedtoevaluate theimpactofdifferentvariablesonunemployment.
+◦ ANOVAmodelswereusedtostudyincomedeterminants. TheperformancewasassessedusingAICandBIC.
+◦ IncomedisparitieswithinandbetweenthestateswereexaminedusingtheThiel’sIndexduetoitsdecomposableproperty.
+• MultivariateAnalysisonLifeExpectancy|Guide: Dr.[surname]Das
+◦ Enhancedthemultiplelinearregressionmodeloflifeexpectancypredictionby20%bycategorizingcountriesbasedondevelopmentstatusandquantiletoperformquantileregression.
+• ExploratoryDataAnalysisonthefluctuationoftheUKPoundduringLizTruss’stenureasPrimeMinisteroftheUK|Guide: Dr.[surname]Das
+RELEVANTCOURSES
+• ProbabilityTheory|IntroductiontoMeasureTheory|LinearAlgebraandMatrixCalculus|StochasticProcesses|LinearStatisticalModels|HypothesisTesting|ParametricInference|NonparametricInference|MultivariateStatistics|Graphtheory|StatisticalMethodsinGenetics|BayesianStatistics
+• EnsembleMethods|ClusteringAlgorithmsandDimensionalityReduction|NeuralNetworkArchitecture(Convolutional,Graph,Recurrent)|VariationalAutoencoders|GAN|Diffusionmodels|Transformers|ArchitectureofLLMs
+SKILLS
+• ProgrammingLanguages: Python,R,C
+• Tools&Libraries: Tensorflow,Pytorch,Pandas,NumPy,Matplotlib,MSExcel,LATEX
+• Stronginterpersonalanddiplomaticcommunicationskills
+EXTRACURRICULARACTIVITIES
+• Verypassionateaboutcomposingandrecordingrapmusic.
+• Lovetoindulgeinfoodandmaintainanactivefoodbloggingaccount,sharingmydelightfulculinaryexplorations.
+• Spearheadedtheorganizationofthefirst-everModelUnitedNationsconferenceofISI.
+• Chairedanddelegatedin15ModelUnitedNations(MUN)conferences,winningmorethan8awards.
+• Pursuedspeechanddramaticsfor5years,performedmultipletimesatTheFineArtsSociety,Chembur.

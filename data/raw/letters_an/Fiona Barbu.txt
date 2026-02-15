@@ -1,0 +1,39 @@
+Motivation letter
+[name] [surname]
+[email]
+[location]
+[location]
+March 2025
+Dear Members of the Organizing Committee,
+I am writing to express my sincere gratitude for the opportunity to apply to
+the "Summer School of Machine Learning" in [location]. This program is a unique
+chance to advance my academic and professional goals.
+As a psychology student at [location], I am actively engaged
+in clinical psychophysiology research, focusing on the brain-behavior relationship.
+My proficiency in programming and experience with statistical tools have equipped
+me with a strong foundation in data analysis and machine learning. I have also
+studied neural activity mechanisms, particularly in gastropoda, which has furthered
+my understanding of complex biological systems.
+My motivation to attend the Summer School is driven by my interest in
+artificial intelligence and brain-computer interfaces, which I believe are crucial for
+revolutionizing healthcare and improving quality of life. I am eager to deepen my
+knowledge in these areas and to apply it to develop innovative solutions in
+psychophysiology. In recent years, I have become increasingly interested in the
+application of artificial intelligence and the development of interfaces between brain
+and computer. These areas offer tremendous opportunities for transforming health
+care and improving people’s lives. I am convinced that attending the Summer School
+of Machine Learning in [location] will allow me to deepen my knowledge and skills in
+these advanced areas. My dream is to become a scientist in the field of
+psychophysiology, popularizing psychology. My interest is not only in theoretical
+study, but also in real improvement of people’s lives. My researches have great
+potential for applications in different fields: from psychology and medicine to the
+field of business.
+I am deeply grateful to you for this opportunity and hope that my
+achievements and aspirations will be worthy of participation in the Summer School
+of Machine Learning. I look forward to learning from leading experts, sharing
+experiences with colleagues around the world and contributing to the development
+of science and technology.
+Thank you for your attention to my application and hope for a positive
+response.
+Yours sincerely,
+[name] [surname]

@@ -1,0 +1,85 @@
+Slide 1
+----------------------------------------
+The Impact of Parameter and Token Balance on Fine-Tuning (In the Task of Generating News Headlines and Leads)
+[name]
+Master’s student, [location]
+
+Slide 2
+----------------------------------------
+Introduction
+
+We investigate how the balance between model parameters and training data volume affects fine-tuning quality in ruGPT-3 for generating news headlines and leads.
+Fine-tuning large language models is resource-intensive; optimizing data and parameter balance can enhance efficiency and performance in text generation tasks.
+Studies ( [name] et al., 2019; [name] et al., 2020; [name] et al., 2022 and others) suggest that data volume can compensate for fewer parameters, but this is underexplored in fine-tuning.
+Our goal is to compare ruGPT-3 Medium (350M parameters, less data) and ruGPT-3 Small (125M parameters, more data) to assess their performance in headline and lead generation.
+
+Slide 3
+----------------------------------------
+Problem statement
+
+Can manipulating the balance between model parameters and training data volume improve fine-tuning outcomes for generating news headlines and leads?
+Challenges:
+- Resource constraints in fine-tuning large models.
+- Variability in generated text quality across different data volumes and model sizes.
+- Ambiguity in evaluating generative tasks like summarization.
+We focus on ruGPT-3 Medium (350M parameters, 4800–5900 articles) and ruGPT-3 Small (125M parameters, 12000–15000 articles) for news text generation.
+
+Slide 4
+----------------------------------------
+Methods
+
+We fine-tune ruGPT-3 Medium and Small models for headline and lead generation, evaluated using ROUGEL, BLEU, ChrF, and BERTScore metrics.
+RuGPT-3 models are well-suited for Russian text generation and provide a variability in parameters.
+The chosen metrics provide a comprehensive assessment of text similarity and quality. 
+Models are fine-tuned on news articles, then generate headlines/leads, which are scored against reference texts using automated metrics.
+Datasets: 
+- Lenta.ru for headlines in categories: Science, Sports, Russia, Economy, Internet & Media) 
+- Rossiyskaya Gazeta for leads in categories: Economy, Incidents, Sports, Culture, World).
+Preprocessing: Cleaning text, categorizing articles, splitting into training sets (4800–5900 articles for Medium, 12000–15000 articles for Small).
+
+Slide 5
+----------------------------------------
+Results
+
+ruGPT-3 Medium outperforms ruGPT-3 Small in 3/5 headline generation metrics and all 5 lead generation metrics, despite using less data.
+Metrics used:
+ROUGE, BLEU, ChrF: Measure text similarity and fluency.
+BERTScore: Evaluates semantic similarity, crucial for generative tasks.
+
+
+
+Slide 6
+----------------------------------------
+Results
+
+Results for headline generation (the best scores are in bold and underlined)
+
+
+
+Slide 7
+----------------------------------------
+Results
+
+Results for lead generation (the best scores are in bold and underlined)
+
+
+
+Slide 8
+----------------------------------------
+Research gap
+
+Limited exploration of parameter-data balance in fine-tuning compared to pre-training.
+Ambiguity in evaluating generative tasks, as generated headlines may differ from originals yet convey the same meaning.
+Why it matters? Optimizing fine-tuning can reduce resource costs and improve AI applications in a variety of fields.
+Future opportunities:
+Test parameter-data balance in analytical tasks (e.g., QA, NER, classification) for clearer quality assessment.
+Explore hybrid models combining small and large architectures for efficient fine-tuning.
+
+
+
+Slide 9
+----------------------------------------
+[name] et al., 2019. RoBERTa: A Robustly Optimized BERT Pretraining Approach. arXiv:1907.11692. https://arxiv.org/abs/1907.11692
+[name] et al., 2020. Scaling Laws for Neural Language Models. arXiv:2001.08361. https://arxiv.org/abs/2001.08361
+[name] et al., 2022. Training Compute-Optimal Large Language Models. Proceedings of NeurIPS ’22, Article 2176, 30016–30030. https://proceedings.neurips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf
+Bibliography

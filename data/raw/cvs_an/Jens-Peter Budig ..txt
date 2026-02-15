@@ -1,0 +1,68 @@
+[name] [surname]
+Professionalinterests: Recomendationmodels,GenerativeAI,
+CONTACT (cid:273) [email]
+(cid:263) 06/2020-08/2020
+(cid:215) +2 *** *** *** (cid:560) [location] Moscow Universiity20.35
+(cid:97) [email] InternDataScientist.Creatingawebsiteformarkiingupdatawithinacampaignanddevevelopinga
+textclassificationmodelforchat-bot.
+(cid:373) tg-@nice_daredevil (cid:80) 06/2023-11/2023
+medtech.moscow
+(cid:560) [location] Moscow
+InternDataScientist.AprojecttoautomatePetridishresearch.ReaReadingandprocesinglabelson
+SKILLS dishesandsolvingtheproblemofdeterminingantibioticresistancethroughsegmentationresults.
+(cid:80) 02/2024-now
+SbierAILab
+programminglanguages (cid:560) [location] Moscow
+JuniorML-Researcher.ResearchinSequentialRecommendationsandLLMinRecommendaions
+Python
+C++
+R (cid:373) EDUCATION
+Opereatingsystems
+Linux (cid:80) 2020-2024
+RTUMIREA
+(cid:560) [location] Moscow
+DataAnalyse/BigData BachelorofAppliedmathematics.Thesistopic:”Generatinghumanfacesfromtextdescription”
+Visualisation
+(e.g. matplotlib,seaborn,pyplot) ACHI EVEMENTS
+Datahandling/analysis
+(e.g. nu mpy,scipy,pandas,polars,... )
+(cid:212) 3rdplaceattheuniversiityhackerthonondeepfakes(2022).
+Hadoop
+ApacheNiFi (cid:212) 1stp laceaatthehackerthonoftheeducationalforumonarti ficialintelligence,mathematics
+andphysicsinthetrack”Increasingthedimensionalityo faerodynamicfields”(2023).
+PySpark
+SQL (cid:97) HackProfi2023
+PostgreSQL
+(cid:212) 3rdplaceaatthehackerthon”DigitalBreakthrough”intheSouthernFederalDistrictinthetrack
+ML/DL
+”Researchandforcastingthedynamics ofloyaltyo fNGOparticipants”(2024).
+wandb,ClearML,MLFlow
+(cid:97) loyalityanalysis
+tensorflow,pyto rch,pyto rch-lightning
+tran sforme rs,diffuse rs
+implicit,RePlay (cid:212) 1stp lacetothesiteattheAll-Russi anhackerthonITAcademyHack2024”Scientifi cVolunteer-
+ing+Ecology”(2024)and2ndl aceacros sallsitesin the”Samsung’sChoi ce”nomination.
+scikit-learn,LightAutoML
+hydra (cid:212) 2ndl aceattheInternati onalHackerthon”DigitalBreakthrough”inthet rack”Electrocor-
+ticogramClassificationSystem”(2024).
+LLM
+(cid:97) Electrocorti cogramclassificationsystem
+vLLM,TensorRT
+LangChain,LangGraph
+PEFT,TRL
+(cid:537) PROJEC TS
+Otherskills
+Git
+• Creationo famultilingualmodulefortheDeepPavlovDreamplatformaspartoftheAIRIsum-
+LaTeX merschool
+Docker (cid:97) dream
+Office
+• Pe tprojectr elat edtoTran sferStylei mages.Videoprocessingisintheworks.
+(e.g. MSExcel,MSWord,... )
+(cid:97) Comi csBot
+Languages
+English:B2 • WithintheAIRIschool,theideofmasking latentpaddin gpatches(liketheFITmodel)forthe
+U-ShapedDiTarchitecture-U-DiT-hasbeeinplemented.Thecodenameforsuchamodel
+Spain:A2
+isU-FiT
+(cid:97) U-FiT

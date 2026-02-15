@@ -1,0 +1,70 @@
+Motivation letter
+NAME: [name] [surname]
+Program: SMILES-2025 Summer SchooL on Machine Learning ([compaany] Machine Intelligence Lab Summer SchooL)
+Dear Organizing Committee,
+My name is [name] [surname], and I am a third-year undergraduaate student at [location] Industrial [location], majoring in “Information Systems and Technologies: Artificial Intelligence and Programming.” I am applying to participate in the SMILES-2025 Summer SchooL because my
+future specialization and practical experience lie in the field of machine learning and embedded
+intelligent systems. Through this letter, I would like to express my sincere interest in taking part
+in SMILES-2025, a 12-day intensiive machine learning program organized by [compaany] in
+collaboration with the [compaany] of Technology. For me, participating in this program is a
+unique opportunity to deepen my knowlege of generative models, connect with the international
+research community, and make an important step toward
+achieving my academic and professional
+goals.
+My interest in engineering and digital technologies began in schooL when I started learning
+the basics of programming and mathematical modeling. At universiity, this interest took a practical
+turn — I actively sought opportunities to participate in projects that allowed me to apply theoretical
+knowledge to real-world challenges. Some of these projects were not directly related to artificial
+intelligence but played a key role in developing my understanding of digital tools, system
+architecture, and working with data.
+One of the milestone projects was the development of an interactive 3D map of [location]
+Industrial [location]’s campus on the Unity platform. Our team created an MVP of a mobile
+application that provided 3D visualization of buildings, navigation both inside and between
+facilities, and integration with universiity events and schedules. This project was featured twice at
+the International Scientific and Practical Conference "New Information Technologies in the Oil
+and Gas Industry and Education. Mechatronics, Robotics, and Artificial Intelligence." In 2023, it
+was awarded a third-degree diploma, published in eLibrary, and presented at both the XXI
+International Scientific and Practical Conference “Innovative Processes in Science and
+Technology of the 21st Century” and the International Conference “New Technologies for the Oil
+and Gas Region.” The project demonstrated its practical significance as part of the universiity’s
+digital transformation and allowed me to deeply explore information system development, 3D
+modeling, and digital interaction design.
+In the “Telereanimation” project, I worked as a data analyst and ML specialist, developing
+an intelligent module for predicting critical patient conditions based on a comprehensive analysis
+of vital signs and medical history. Our team processeed and analyzed medical datasets (MIMIC-III,
+Amsterdam UMC, HiRID), performeed exploratory data analysis to identify key variables, formed
+data requirements, and developed a methodological basis for ML, including feature engineering,
+data validation, and evaluation metrics. These efforts laid a solid foundation for building early
+warning systems to detect patient deterioration in intensive care units.
+Another project that sparked my interest was the application of AI in automated control
+systems (ACS) in the oil and gas industry, presented as part of the sector’s IT championship. I
+developed a concept for integrating ML into the management of oil and gas separators. We
+explored cloud-based data storage, SCADA system integration, IoT sensor deployment, and
+methods for optimizing equipment control. This experience broadened my understanding of the
+industrial applications of AI and the significance of cyber-physical systems.
+During my internship at [compaany], I participated in a project involving natural
+language processing for automating request routing in a Service Desk system. I worked with Saiga
+and ruRoberta language models to perform semantic analysis and classify incoming tickets. I
+implemented text vectorization using PostgreSQL with the pgvector extension, developed the
+backend on Node.js (including API integration), built a user interface with HTML/CSS, and
+configured DevOps tools for deployment and system monitoring.
+In a separate project focused on automating receipt processing, I helped develop an
+intelligent system that used Tesseract OCR for data extraction, GigaChat LLM for semantic
+structuring, and ML algorithms to automatically calculate and split costs among users. The MVP
+was succeessfully integrated with a Telegram bot to improve user interaction and accuracy in
+collective expense management.
+Currrently, I am involved in a large-scale project for the Department of [location]
+focused on developing a forecasting system for economic indicators in construction and
+invеstmеnt. We are buildiing a full machine learning pipeline — from collecting and preprocessing
+data from heterogeneous sources to developing predictive models using AutoML technologies for
+automated algorithm selection and optimization. The project also involves creating a centralized
+Data Lake for storing and managing both structured and unstructured data efficiently.
+Studying in this program will not only deepen my knowlеdgе in machine learning and
+generative models but also give me unique research experience essential for reaching my
+professional goals. Partiсipation in this summer schooL and collaboration with international experts
+will lay the foundation for future academic projects.
+In particular, I aim to further develop my expertise in the following cutting-edgе areas:
+large language models, multimodal approaches, multi-agent systems, generative methods, self-
+supervised learning, and safe and trustworthy AI. Mastering these topics will provide me with the
+tools necessary to create rеsponsible, scalable, and innоvative solutions capable of addressing real-
+world challenges in science, healtcare, and industry.

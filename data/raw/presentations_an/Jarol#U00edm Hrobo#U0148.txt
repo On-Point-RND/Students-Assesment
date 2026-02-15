@@ -1,0 +1,93 @@
+Optimizing Quality and Diversity of Multimodal
+Sensor Data for Robust Robotic Manipulation
+[name]
+[compaany]
+Introduction
+• Manipulation is a key capability in intelligence robotics.
+• Decision making and accurate actions require high-quality sensory data.
+• Classical approaches are often limited to a single modality, which reduces robustness to noise, omissions
+and failures. [1]
+Introduction
+Goal: Prove that improving data quality and structure and using multimodal approaches are critical to
+success in manipulative action learning
+Introduction
+Reasons why the process of sensing and estimation is crucial
+1. Accurate Environmental Interaction: Sensing allows robots to
+understand and respond to their surroundiinings for effective manipulation.
+2. Real-time Adjustments: Estimation enables continuous adaptation to
+dynamic changes, improving task performaance.
+3. Error Minimization: Accurate sensing and estimation reduce uncertainties,
+ensuring precise movements and decisions. [2]
+Problem statement
+• Low-accuracy sensors →force robots to take longer routes to minimize uncertainty.
+• Incorrect sensor parameters (e.g., overestimated precision) → error accumulation in probabilistic maps →unreliable
+navigation.
+• Inaccuraate measurements→ higher posterior distribution variance → reduced confidence in localization. [3]
+Problem statement
+Existing datasets are frequent:
+Random or unrepresentative
+Do not cover errors and recoveries
+Do not have multimodality (video + text + taps)
+•
+→ This leads to poor generalization, especially in real-world
+•
+settings
+Success: Put orange bottle in drawer Failure: Put blue marker in drawer
+Challenges
+Challenges
+• High cost of manual annotation
+• Limitations of tactile or depth sensors
+• Inconsistency between modalities
+• Presence of noises, errors and failures
+The problem is not just the quantity of data - quality, structure and multimodality play a crucial role [1]
+Existing limitations
+• Use only RGB or depth
+• Focusing on individual tasks: graspinng, pushing
+• Narrow generalisation: works well in a trained environment - poorly in a new environment
+Existing approaches
+•VLA-модели (Vision-Language-Action);
+•The main impaact from RT-2 [4], OpenVLA [5], VoxPoser [6];
+•Using multimodal data approaches: language, visual, actions[1].
+Case Study:
+• AgiBot World Colosseo [4]:
+Case Study:
+• Efficient Data Collection [5]:
+Why Multimodal Fusion Helps
+Han et al. (2025)[1]:
+• Visual + textual + tactile data → better alignment of semantics;
+• Most rellevant examples: RoboMamba [6], DeeR-VLA [7], VoxPoser [8];
+• Improved generalisation, resilience and explanatoory capacity.
+Existing mechanisms:
+• Transformeer architectures
+• Cross-modal attention
+• Graph Neural Networks for semantic integration
+Existing mechanisms
+•Transformeer architectures on RT-2 [4] example
+Existing mechanisms
+• Cross-modal attention on VIMA example [9]
+Existing mechanisms
+•Graph Neural Networks for semantic integration on PerAct [10]
+Research Gaps
+• Lack of well-organised, realistic, multimodal datasets
+• Weak attention to error recovery data
+• No standards for assessing data quality and diversity
+Bibliography
+1. Han, X., Chen, S., Fu, Z., Feng, Z., Fan, L., An, D., … Xu, S. (2025). Multimodal Fusion and Vision-Language Models: A Survey for Robot Vision.
+arXiv E-Prints, arXiv:2504.02477. doi:10.48550/arXiv.2504.02477
+2. Siciliano,B., &Khatib,O. (Eds.). (2016).Springerhandbooofrobotics(2nded.). Springer.
+3. Thrun,S., Burgard,W.,&Fox,D.(2005).ProbabilisticRobotics(IntelligentRoboticsandAutonomous Agents).TheMIT Press
+4. AgiBot-World-Contributors,Bu, Q., Cai,J.,Chen,L., Cui,X., Ding,Y.,Feng, S., Gao, S.,He, X., Huang, X., Jiang,S., Jiang,Y., Jing,C., Li, H., Li,J., Liu, C.,
+Liu, Y., Lu, Y., Luo, J., … Zhu, J. (2025). AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems (No.
+arXiv:2503.06669;Версия2). arXiv. https://doi.org/10.48550/arXiv.2503.06669
+5. Gao, J., Xie, A., Xiao, T., Finn, C., & Sadigh, D. (2024). Efficient Data Collection for Robotic Manipulation via Compositional Generalization (No.
+arXiv:2403.05110).arXiv. https://doi.org/10.48550/arXiv.2403.05110
+6. Liu,J., Liu,M.,Wang,Z., An,P., Li,X.,Zhou,K., Yang,S., Zhang,R.,Guo, Y.,&Zhang,S. (2024). RoboMamba:EfficientVision-Language-ActionModelfor
+RoboticReasoningandManipulation(No.arXiv:2406.04339).arXiv. https://doi.org/10.48550/arXiv.2406.04339
+7. Yue, Y., Wang, Y., Kang, B., Han, Y., Wang, S., Song, S., Feng, J., & Huang, G. (2024). DeeR-VLA: Dynamic Inference of Multimodal Large Language
+Modelsfor EfficientRobotExecution(No.arXiv:2411.02359).arXiv. https://doi.org/10.48550/arXiv.2411.02359
+8. Huang,W.,Wang,C., Zhang,R., Li,Y.,Wu,J., & Fei-Fei,L. (2023). VoxPoser: Composable 3D ValueMaps for Robotic ManipulationwithLanguageModels
+(No.arXiv:2307.05973).arXiv. https://doi.org/10.48550/arXiv.2307.05973
+9. Jiang,Y., Gupta, A., Zhang,Z., Wang, G., Dou, Y., Chen, Y., Fei-Fei,L., Anandkumar, A.,Zhuz, Y., & Fan, L. (2023). VIMA: General Robot Manipulation with
+MultimodalPrompts (No.arXiv:2210.03094).arXiv. https://doi.org/10.48550/arXiv.2210.03094
+10. Shridhar, M., Manuelli, L., & Fox, D. (2022). Perceiver-Actor: A Multi-Task Transformeer for Robotic Manipulation (No. arXiv:2209.05451). arXiv.
+https://doi.org/10.48550/arXiv.2209.05451

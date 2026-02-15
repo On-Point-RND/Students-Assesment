@@ -1,0 +1,36 @@
+Motivation Letter for SMILES-2025 Summer School
+Dear Admissions Committee,
+I am writing to express my enthusiastic interest in participating in the Skoltech Summer School of Machine Learning (SMILES-2025) at [location]. As a Senior Managing Director at [company] with more than a decade of experience in venture capital and a PhD focused on AI-driven financial modeling, I am eager to deepen my expertise in generative AI and contribute to the school’s mission of fostering international collaboration.
+Motivation
+My career has been driven by the intersection of finance and technology, particularly the transformative potential of AI in investment decision-making. As a Senior Managing Director at [company], I’ve led RUB13 billion in high-tech investments, including AI startups, and developed ML-based risk assessment frameworks. However, the rapid evolution of generative models (LLMs, multimodal systems) demands structured, cutting-edge knowledge to stay ahead.
+SMILES-2025’s focus on applied generative AI aligns perfectly with my goal to:
+ Enhance my technical toolkit for deploying AI in venture capital (e.g., automating monitoring of investment portfolio, predictive analytics for portfolio optimization).
+ Bridge the gap between research and industry by integrating generative methods into real-world financial workflows.
+ Expand my professional network by collaborating with peers and experts from [location] and [location], fostering cross-border innovation in AI and fintech.
+ML/DL Experience
+While my formal education is in finance, I’ve actively pursued ML/DL through:
+ Self-study: Completed Coursera’s Deep Learning Specialization (Python, TensorFlow) and applied these skills to build prototypes for investment screening (e.g., NLP for startup pitch analysis).
+ My PhD research focused on data-driven financial modeling, and I’ve published papers like "Machine Learning for assessment of venture projects" (2023). I also advise portfolio companies on data strategy and AI integration.
+ Tools: Proficient in Pandas, Scikit-learn, and SQL for financial modeling; currently exploring LangChain for LLM-augmented deal sourcing.
+Though I’m not a full-time data scientist, my hybrid background allows me to approach ML/DL problems with a unique perspective - balancing technical rigor with real-world applicability.
+Expectations from SMILES-2025
+I hope to:
+1. Master generative AI techniques (e.g., diffusion models, LLM fine-tuning) through hands-on workshops, then adapt them to automate repetitive tasks in venture capital (e.g., generating term sheets, extracting insights from unstructured data).
+2. Collaborate on hackathons tackling industry challenges - perhaps a project on "Generative AI for VC Investments."
+3. Learn from [location] and Skoltech faculty about [location]'s AI ecosystem, a critical market for my portfolio companies.
+Career Plans
+Post-SMILES, I aim to:
+ Launch an AI lab within [company] to pilot generative tools for investment workflows.
+ Build [location]-China tech bridges through joint AI/fintech roundtables and data-sharing initiatives.
+ Continue teaching at Financial University, incorporating SMILES insights into my courses on AI in Finance.
+ Boost venture portfolio efficiency of [company] by implementing ML-driven monitoring of investment portfolio, predictive analytics for portfolio optimization.
+Why Me?
+I bring a blend of industry experience, academic rigor, and a global mindset to the SMILES cohort:
+ Industry perspective: A track record of scaling AI startups and a network of 50+ tech founders.
+ Academic rigor: PhD research on venture financing and 10+ publications at the finance-AI nexus.
+ Global mindset: Fluency in English/Russian and experience collaborating with international teams.
+SMILES-2025 is a unique opportunity to merge my financial expertise with frontier AI knowledge. I am eager to learn, collaborate, and bring fresh ideas back to my work. Thank you for considering my application - I would be honored to join this year’s cohort.
+Thank you for your consideration.
+Best regards,
+[name] [surname]
++2 *** *** ***| [email]

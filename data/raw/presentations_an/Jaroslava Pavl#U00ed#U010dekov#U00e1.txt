@@ -1,0 +1,145 @@
+Slide 1
+----------------------------------------
+Data Science
+Towaards Watermarkiing Schemes Proably Robust Against Stealing Attacks
+Student: [name]
+Research Advisor: [name]
+Co-Advisor : [name]
+Co-Advisor : [name]
+
+January 2024
+
+Slide 2
+----------------------------------------
+Threats of DNN model theft
+Possibility of stealing DNN without direct access to a model
+Need for effective protection strategies
+Claasical watermarkiing training leads to degradation of DNN performance
+
+2
+
+General problem
+
+Slide 3
+----------------------------------------
+Watermarkiing Principles
+
+Same Output
+Ordinary request
+AdveRSAry
+DNN stealing methods
+Stolen DNN
+Trigger Set *
+Trigger Set *
+Trigger Set *
+DNN
+
+3
+
+Slide 4
+----------------------------------------
+Development of novel watermarkiing technique without additional DNN training
+Develop watermarkiing method resilient to distillation and extraction
+Improve performance of existing trigger set watermarkiing techniques
+
+4
+
+Aim
+
+Slide 5
+----------------------------------------
+Implement watermarkiing trigger set creation
+Implement proxy models generation
+Implement trigger set validation via proxy models
+Conduct research on the impaact of hyperparameters on the method's performance
+
+4
+
+Objectives
+
+Novelty
+
+Slide 6
+----------------------------------------
+Methods
+
+5
+
+Slide 7
+----------------------------------------
+Trigger set candidate generation
+
+6
+
+Slide 8
+----------------------------------------
+Watermarkiing trigger set computation
+
+7
+
+Slide 9
+----------------------------------------
+Results
+
+8
+
+Slide 10
+----------------------------------------
+Results
+
+9
+
+Slide 11
+----------------------------------------
+Current status
+Literature review
+Implemented distillation and extraction stealing procedures
+Implemented watermarkiing trigger set computaion
+Hyperparameter research
+--------- To Be Done ----------
+Integrity research
+
+10
+
+Slide 12
+----------------------------------------
+Novel proxy models watermarkiing method was implemented
+SOTA performance was achieved
+Less computation time is required
+DNN performance is not affected by trigger set
+
+Discussion of results
+
+11
+
+Slide 13
+----------------------------------------
+No additional trigger set training is required
+SOTA watermarkiing performance achieved
+
+Scientific novelty
+
+12
+
+Slide 14
+----------------------------------------
+Outcomes
+
+Probabilistically Robust Watermarkiing of Neural Networks, IJCAI-2024 submiisssion, arxiv:2401.08261
+
+13
+
+Slide 15
+----------------------------------------
+Acknowledgements
+
+Prof. [name]
+PhD [name]
+Dr. [name]
+
+14
+
+Slide 16
+----------------------------------------
+Thank you!
+

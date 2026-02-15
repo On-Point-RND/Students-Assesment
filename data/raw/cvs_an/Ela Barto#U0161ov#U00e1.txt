@@ -1,0 +1,94 @@
++2 *** *** ***, [location] [email]
+[name] [surname]
+https://github.com/[name][surname]
+Experience March – Oct 2023 [compaany]
+Internship in the laboratory of the Scientific Center for
+Cognitive Research at [compaany]. As part of the
+internship, EEG recordings were processeed and filtered, ERP
+potentials were isolated, and specific EEG segments were
+isolated based on oculomotor activity data. Data
+visualization from the EEG recording was performed
+Education 2021-2025 National Research Nuclear [location] [name]I (MEPhI)
+BA International Relations (International Scientific,
+Technological and Industrial Cooperation)
+Thesis: “Analysis of crisis situations based on news
+reports on the created platform”
+Feb-June 2023 [compaany]
+Academic mobility program
+Honors and Sep – Dec 2023 The winner of the «Student of the Year» Competition awards
+Research
+experience
+2023 Competition of scientific initiatives of students "Recognition" at
+the NRNU [MEPhI]
+Participation with the project “Prosthesis controlled by a
+non-invasive neurointerface”
+2023 Physics Research Hackathon at the NRNU [MEPhI]
+[name] [surname] | RESUME 1
+Winner of the 2nd degree
+2023 Scientific conference: VI Scientific and Practical conference
+"Step into Science" at the NRNU [MEPhI]
+Prizewiinner
+Participation with the project “A manipulator robot that
+repeats actions”
+2022 II Winter scientific session of the Student Scientific Society of
+NRNU [MEPhI]
+Prizewiinner
+Participation with the project “A manipulator robot that
+repeats actions”
+2022 – present Permanent membership in the student scientific society of the
+NRNU [MEPhI]
+2023 Successful completion of the additional educational program
+"STARTUP HUB" of NRNU [MEPhI]
+2022 – 2023 All-Russian student project "Your Move"
+Participation with the project “Prosthesis controlled by a
+non-invasive neurointerface”
+All-Russian youth entrepreneurship development program
+2022 – 2023 "I'm in business"
+Participation with the project “Prosthesis controlled by a
+non-invasive neurointerface”
+Accelerator of technological projects of ROSA[MEPhI] NRNU
+2023
+[MEPhI]
+Participation with the project “UniveRSAI neurointerface for
+controlling prosthesis / orthosis for rehabilitation after stroke
+/ drones and other robotic systems”
+2023 - present [MEPhI]
+Participation with the project “UniveRSAI neurointerface for
+controlling prosthesis / orthosis for rehabilitation after stroke
+/ drones and other robotic systems”
+[name] [surname] | RESUME 2
+Professional Oct 2022-2023 Professional development program “Data analysis and
+machine learning”
+training
+Digital Department of the NRNU [MEPhI], [location]
+The program is devoted to the study of mathematical
+models, methods and approaches of machine
+learning and data analysis, modern software libraries for
+buildiing and analyzing machine learning models
+Oct 2023-present Professional development program “Big Data Processing
+Technologies”
+Big Data Processing Technologies
+The program covers a wide range of topics, including big
+data processing system architectures, data storage systems,
+and software development. During the training
+program, skills are acquired in creating batch and
+embedded big data processing systems, testing
+software for big data processing
+Oct – Dec 2022 Professional development program “Neurointerfaces: from
+biology to data analysis”
+[location] Moscow State Universiity, [location]
+During the course, students learned about the current state of
+the field of neurointerface development. The course covered
+both the biological aspects of brain-computer interfaces and
+the structure of the devices themselves. Special emphasis is
+placed on the analysis of brain activity data obtained from
+such devices
+Languages [location] Native language
+English Upper-intermediate (B2)
+Spanish Intermediate (B1)
+Chinese BegiNNer (A2)
+Computer skills Programming Python, C++, HTML, CSS, MNE python, pandas, matplotlib,
+seaborn, numpy
+Applications ArduinO
+Platforms Excel, Word, PowerPoint, Access
+[name] [surname] | RESUME 3

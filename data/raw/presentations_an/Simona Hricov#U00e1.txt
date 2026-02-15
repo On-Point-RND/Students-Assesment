@@ -1,0 +1,173 @@
+Evolution of GANs:
+A Review of Early
+Modifications (2014-2017)
+[name] Silova
+Crowd Solutions Architect at [compaany],
+Student at [institution]
+Introduction
+One of SMILES topics 2025 – generative models.
+One of milestone generative model architecture – Generative Adversarial Network.
+Personal motivation: Had the experience of training GANs from scratch and found them to be very
+unstable. It became interesting to figure out how they developed.
+Goal review: Analyze the architectural progression of GANs from 2014-2017
+Why is it important:
+Lessons from early GANs remain relevant for developing stable and high-performance generative models
+Understanding evolutionary steps helps comprehend current state-of-the-art techniques
+Outline
+1. Original concept of GAN
+2. Early modifications of original GAN
+2.1. DCGAN
+2.2. WGAN
+2.3. PGGAN
+3. Comparison analysis
+Generative Adversarial Network
+“Generative Adversarial Nets”, 2014
+There are 2 MLP neural networks
+Discriminator(D) learns to distinguish fake data from real data
+Generator(G) learns to produce fake data that can fool the discriminator
+Objective function
+Training algorithm
+a - initializing (poor G, poor D)
+b - training D (k iterations)
+c - training G (1 iteration)
+d - convergence
+Generative Adversarial Network
+Experiments & Results
+Datasets: MNIST, Toronto Face Database (TFD), CIFAR-10
+Evaluation: Parzen window-based log-likelihood estimate
+MNIST* TFD* CIFAR-10*
+*Rightmost column shows the nearest training example of the neighboring sample
+Generative Adversarial Network
+Summary results
+Advantages
+• No difficulties in sampling (unlike models requiring Markov chains)
+• Wide variety of functions can be incorporated into the model
+• Computational efficiency
+Disadvantages
+• Unstable training dynamics (non-convergence)
+• Vulnerable to mode collapse (“Helvetica scenario” by authors)
+• Diminished gradient: discriminator stronger than generator
+• High sensitivity of the algorithm to hyperparameters
+Generative Adversarial Network
+Experiments & Results
+Datasets to train: LSUN bedrooms dataset,
+Imagenet-1K, random web Faces dataset (3M
+images from 10K people)
+Evaluation: accuracy/error-rate on classification
+tasks where GAN is used as a feature extractor
+Results on SVHN classification 1000 labels
+generated results of GAN
+Generative Adversarial Network
+Summary results
+Advantages
+• More stable algorithm than original (using convolutions, batchnorm,
+other activations)
+• Useful feature representation learning in the discriminator
+• Better visual quality of generated images with clear structural details
+Disadvantages
+• Still vulnerable to mode collapse in complex distributions
+• Training can remain unstable in certain scenarios
+• High sensitivity of the algorithm to hyperparameters
+WGAN-GP
+“Improved Training of Wasserstein GANs”, NIPS 2017
+Idea
+Improving Wasserstein GAN (using Wasserstein distance as loss
+function) with adding gradient penalty that enables stable training
+Objective function
+Wasserstein distance + gradient penalty
+Training features
+No batchnorm, conflicts with GP
+Adam optimizer
+Lambda=10, 5 iterations of critic, 1 iterations of generator
+WGAN-GP
+Experiments & Results
+Datasets to train: LSUN bedrooms dataset,
+CIFAR-10
+Evaluation: Inception score
+Results on CIFAR-10
+generated results of WGAN
+WGAN-GP
+Summary results
+Advantages
+• More stable algorithm than original WGAN (using gradient penalty
+instead of weight clipping)
+• More accurate approximation of Wasserstein distance leading to better
+convergence
+• Significantly reduces mode collapse compared to original GANs (though
+not eliminating it entirely)
+Disadvantages
+• Significantly higher computational cost due to second-order gradient
+calculations
+• Additional memory requirements for storing interpolated samples and
+their gradients
+• Requires multiple critic updates per generator update, increasing
+training time
+PGGAN
+“Progressive Growing of GANs for Improved Quality, Stability,
+and Variation”, ICLR 2018
+Idea
+Growing both G and D progressively, starting from
+easier low-resolution images, and add new layers that
+introduce higher-resolution details
+Objective function
+Wasserstein distance + gradient penalty
+PGGAN
+Experiments & Results
+Datasets to train: CELEBIA, LSUN, CIFAR-10
+Evaluation: MS-SSIIM, SWD, Inception score
+LSUN bedrooms CELEBIA
+Results on CIFAR-10
+PGGAN
+Summary results
+Advantages
+• Ability to generate high-resolution images (up to 1024×1024) with
+photorealistic quality
+• Improved diversity of output images and reduced likelihood of mode
+collapse
+• Significantly reduces training time by starting with simple low-resolution
+tasks
+Disadvantages
+• Increased architecture complexity and need for careful tuning of
+transition parameters between layers
+• Significantly higher computational resource requirements when reaching
+high resolutions
+Comparison analysis
+Original GAN DCGAN WGAN-GP PGGAN
+Publication date 2014 2015 2017 2017
+Loss function Minimax Minimax (BCE) Wasserstein distance + Wasserstein distance +
+gradient penalty gradient penalty
+Architecture MLP CNN + CNN + LayerNorm Prgressive growing CNN
+BatchNorm
+Key Improvements GAN as a Architecture: Loss function: BCE -> Wasserstein distance +
+gradiant penalty
+concept MLP -> CNN growing in training
+gradiant penalty
+Training stability Low Medium Medium High
+Collapse mode High prob to Medium prob to Low prob to collapse Low prob to collapse
+collapse
+Max resolution Low (till 64*64) Medium (till 128*128) Medium (till 256*256) High (till 1024*1024)
+Generation quality Low Medium Medium High
+Inception score - 6.16 + .07 7.86 + .07 8.80 + .05
+(unsupervised on
+CIFAR-10)
+Research gap and next steps
+Limited Architectural Scope: Reviewing only 4 GAN architectures provides insufficient basis for comprehensive
+conclusions about early GAN evolution. Important variants like Conditional GAN, Laplacian GAN and others should
+be included for a more complete analysis.
+Temporal Constraints: The 2014-2017 timeframe captures only initial developments. Extending the review to more
+recent periods would bridge the gap between foundational models and contemporary state-of-the-art techniques.
+Application Domain Analysis: Current review lacks exploration of real-world GAN applications. Domain-specific
+implementations like image-to-image translation GANs and medical data generators (e.g., AsynDGAN) demonstrate
+practical impact beyond theoretical advances.
+Bibliography
+1. I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, and Y. Bengio.
+Generative adversarial nets. In Advances in neural information processing systems, pages 2672–2680, 2014
+2. A. Radford, L. Metz, and S. Chintala. Unsupervised representation learning with deep convolutional generative
+adversarial networks, ICLR 2016
+3. M. Ajarovsky, S. Chintala, and L. Bottou. Wasserstein gan, 2017
+4. I. Gulrajani, F. Ahmed, M. Ajarovsky, V. Dumoulin, and A. C. Courville. Improved training of Wasserstein GANs,
+NIIPS 2017
+5. T.Karrs, T.Aila, S. Laine, J. Lehtinen. Progressive Growing of GANs for Improved Quality, Stability and Variation,
+ICLR 2018
+6. Denton, Emily, Chintala, Soumith, Szlam, Arthur, and Fergus, Rob. Deep generative image models using a
+laplacian pyramid of adversarial networks.

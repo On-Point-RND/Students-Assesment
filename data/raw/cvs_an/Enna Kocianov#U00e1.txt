@@ -1,0 +1,46 @@
+[name] [surname] email: [email]
+github: https://github.com/[name][surname]
+[location]
+phone: +2 *** *** *** (tg, wa)
+________________________________________________________________________
+Work Experience
+July '23 – [company]
+Present research assistant
+* Built a pipeline that processes unstructured descriptions of crops varieties and hybrids with large‑language models, automating extraction of key characteristics through prompt engineering, fine‑tuning, and output validation.
+* Developing a benchmark to evaluate large‑language models on text‑processing and answer‑generation tasks in the agronomic domain (plant breeding, seed production, crop science) in Russian.
+* Contributed as a back‑end developeer to an information‑analytical system «PochvaHub» that solves the problem of optimizing and automating monitoring of land use of breeding and seed centers.
+June '22 – [compaany]
+Present engineer
+* Designed and maintain a desktop GIS application for local soil–geochemi cal studies at the Satino Educational‑Scienti fic Base with basic GIS functions implemented including input, storage, editing, sampling, visuali sation and export of spatial soil-geochemi cal data localised at transect points. The application has been succe ssfully in use since July 2023.
+July '23 – [compaany]
+October '23
+freelance specialist
+* Deployed a Git architecture for storing and using geoinfo rmation products and adapted data loading from an automated information system into the insti tute’s GIS.
+________________________________________________________________________
+Education
+2023 M.Sc., [compaany]
+Faculty of Geography, Department of Cartography & Geoinfo rmatics
+Thesis: Development of a geoinfo rmation system for local soil and geochemi cal studies: a case of Satino field station
+2021 [compaany]
+Faculty of Geography, Department of Cartography & Geoinfo rmatics
+Thesis: Integration of Pseudo‑Cylin drical Projections into GIS Package
+Professional Skills
+ Designing client–server architectures and user interfaces for GIS tools
+ Colla borative development with Git
+ Applying large‑language models for text analysis: prompt engineering, fine‑tuning,
+validation
+ Geospa tial data processing in GIS software and automated workflows
+ GIS design and development
+ Production of comprehensive cartographic products, including interactive maps
+Languages: Russian — Native; English — Upper‑Interm ediate (B2)
+Technology Stack: Python, JavaScript, TypeScript, R, C | Vue.js, React, D3.js, Electron | SQL
+Software: ArcMap, QGIS, Visual Studio Code, Adobe Photoshop, Adobe Illu strator, Micr osoft
+Office
+________________________________________________________________________
+Publications
+1. [name] [surname], [name] [surname], [name] [surname]. “Info rmation Extraction on Plant Varieties and Hybrids Using Large Lan guage Models” Soil Science: Horizons of the Future (Proc. 8th All‑Russian Conf. with Int. Parti cipation), [location], 16–20 Sep 2024, pp. 245‑246.
+2. [name] [surname], [name] [surname], [name] [surname]. “Info rmation Extraction on Plant Varieties and Hybrids Using Large Lan guage Models” Soils — the Founda tion of Russia (Abstracts of the IX Congress of the V.V. Dokuchaev Soil Scienti sts Society), [location], 12–16 Aug 2024, p. 353.
+3. [name] [surname], [name] [surname], [name] [surname]. “Development of The Geoinfo rmation System for Local Soil-Geochemi cal Studies (Using The Example of The Satino Teaching And Research Station)“ Proc. XVI Int. Symposium “Eco‑Info rmatics Problems”, [location], 3–5 Dec 2024, pp. 219‑224.
+4. [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname], [name] [surname]. “Variability of Carbon Dioxi de and Methane Fluxes on The Coa stal Site of The Carbon Polygon, Krasnodar Regi on“ Proc. II Int. Interdisci plinary Scienti fic Conf., [location], 2024,
+pp. 284‑291.
+5. [name] [surname], [name] [surname], [name] [surname]. “Pseudo‑Cylin drical Projections for Data Integration in a GIS” Izvestiya RAS: Geographi cal Series, 2021, 85 (3), 458–466.

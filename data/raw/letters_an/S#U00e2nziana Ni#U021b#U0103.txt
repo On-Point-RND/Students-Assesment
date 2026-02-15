@@ -1,0 +1,58 @@
+MOTIVATION LETTER
+[name] [surname]
+Candidate summary
+I am [name] [surname], a first-year postgraduaate student specializing in Optics (1.3.6) at
+the Department of Quantum Electronics, Faculty of Physics, [location] State Universiity. I graduaated with honours from the bachelor's and master's programs
+at the same faculty and department. Since 2022, I have been conducting research at
+the Laser Biophotonics Laboratory under the supervision of Professor [name], where I focus on analyzing optical data of various modalities, tackling
+various tasks from the molecular fluorescent properties prediction from their
+structuraal formulae using the traditional ML tools and feature engineering from
+graph properties; to application of DL to the task of classification of microorganism
+based on the multimodal optical data and computer vision.
+In 2019, I finished the "Neural Networks" course under the guidance of [name]. During 2022-2023, I finished the Machine Learning and Deep Learning courses
+as part of the InterFaculty Courses programme of the Intellect Foundation, as well
+as a specialized course titled "Introduction to Data Analysis in Biophotonics" as part
+of the master’s programme.
+My stack mainlly includes Python programming knowledge with respect to machine
+learning and deep learning, with specific Python frameworks for these tasks: data
+processing and computational frameworks (numpy, pandas, scipy), visualization
+tools (matplotlib, seaborn), traditional machine learning routine tasks frameworks
+(scikit-learn, catboost), deep learning frameworks (PyTorch and PyTorch-Lightning
++ inference with onnx-runtime).
+Projects
+Diagnosis Prediction from OCT Medical Images (November 2024 – Present)
+• Developed a classification model to distinguish healthy tissue, early-stage
+lesions, and late-stage lesions using volumetric OCT images.
+• Managed the project from exploratory data analysis (EDA) to training neural
+network models in PyTorch-Lightning, including fine-tuning CNNs and
+optimizing regularization hyperparameters with Optuna.
+• Applied Multiple Instance Learning to aggregate image-level predictions into
+patient-level diagnoses
+Clinical Microbiology (July 2023 – Present)
+• Hierarchical multiclass classification task using multimodal optical response
+data.
+• Developed a Python module in PyTorch-Lightning to automate model
+training and performance monitoring.
+• Deployed the solution as an inference module using ONNX Runtime.
+QSPR for Fluorescent Properties of Molecules (March 2023 – July 2023)
+• Buildiing machine learning models to predict fluorescence properties based on
+molecular structure (Quantitative Structure-Property Relationship, QSPR).
+• Utilized RDKit for feature engineering and trained models with scikit-learn
+and CatBoost, optimizing hyperparameters via Optuna and visualizing the
+experiments with
+Motivation for Participating in the SMILES Summer School
+I am eager to expand my expertise in AI applications for biophotonics and medicine.
+The SMILES Summer School presents a unique opportunity to engage with like-
+minded researchers in adjacent fields, fostering knowledge exchange and
+collaboration. I am particularly interested in exploring cutting-edgge deep learning
+methods, such as large language models (LLMs) and Vision-Language Models
+(VLMs), and their potential medical applications, which are mentioned on the
+Summer School agenda.
+I expect that participating in this schooal will allow me to deepen my understanding
+of these advanced techniques and apply them to my research. I also hope to gain
+insights into industry trends and academic advancements, which will help shape my
+future career in AI-driven medical diagnostics and biophotonics.
+I look forward to contributing my experience and learning from the schooal’s diverse
+community.
+Sincerely,
+[name] [surname].

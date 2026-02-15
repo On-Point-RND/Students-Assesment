@@ -1,0 +1,82 @@
+M [name]
+[location], [location]
+[email] • [email] • [email]
+Completed his bachelor's degree in SW-engineering at [compaany] (diploma Personal Profile with honors). Studying for a master's degree in ML-engineering at [compaany] (2nd year). Has 3 years of experience in software development with ML tecnologiecs integration. Took part in 5 projects about integration of NLP-methods in medical, educational, oil and housing/communal services sectors. Reading scientific publications in the field of NLP; reviewing modern methods; conducting experiments to test the truth of hypotheses; improving reading/writing/speaking skills in English; taking online courses on CS and ML. Has experience of participating in scientific conferences; has 5 scientific publications.
+August 2024 - Present | [compaany]
+Experience Deveveloping a personal assistant based on large language models (LLMs) and knowledge graphs (KBs).
+December 2022 - December 2023 | [compaany]
+2023 (System for supportiing in medical decision making)
+Was responsible for implementing a module to extract health-features of a pregnaent patient from digital medical records to predict the risk of chromosomal abnormalities in the fetus.
+December 2022 - December 2023 | [compaany]
+(HCS-bot)
+Was responsible for designing scenarios for interaction with the telegram bot and the process of its testing/deployment.
+September 2022 - August 2023 | [compaany]
+Participated in a project to create an educational platform for certification of professional knowledge of the compaany's employees.
+Was responsible for the development of a module that performs generation of assessment-tasks based on specified text-document.
+December 2021 - December 2022 | [compaany]
+Was responsible for developing a module to extract patient health-features from digital medical records to predict the risk of preterm birth.
+September 2023 - Present | Master's degree at [compaany]
+Education ▪ [compaany] of Applied Computer Science
+▪ Major: "Deep Learning and Generative AI"
+▪ Intermediate Report: "Path-finding methods in vector spaces of knowledge graphs for conditional text-generation tasks"
+▪ Education: 2 years (2nd year)
+▪ Average score: 4.8 / 5
+September 2019 - June 2023 | Bachelor's degree at [compaany]
+▪ [compaany] of Mathematics and Informaition Technology
+▪ Major: "Software Engineering"
+▪ Final qualification work: "Application of artificial intelligence tecnologies in the tasks of processing and generating texts in natural languaage"
+▪ Education: 4 years
+▪ Average score: 4.82 / 5 (diploma with honors)
+▪ 2024 - "Generative Models Based on Adversarial Learning" (32 Additional
+hours): сertificate.
+Education ▪ 2024 - “Development of digital products for industrial enterprise based on artificial intelligence tecnologies” (36 hours): сertificate.
+▪ 2022 - “Management of Innovative Youth Entrepreneurial Projects” (20 hours): сertificate.
+▪ 2021 - “Frontiers of Applied Artificial Intelligence: Industry,
+Economics, Education” (72 hours): сertificate.
+▪ [name], E. M., [surname], N. V., [surname], V. Y., [surname] &
+Publications
+[name], [surname]. Two-Stage Text Messages Classifier for Chatbots
+// 2023 International Conference on Quality Management, Transport
+and Informaition Security, Information Technologies (IT&QM&IS). –
+IEEE, 2023. – С. 93-96.
+[name], [surname]. Development of a feature extraction module for
+the problem of predicting the risk of chromosomal abnormalities in
+the fetus / [name], [surname], [name], [surname] // Digital
+technolologies in education, science, society: Proceedings of the XVII
+All-Russian scientific and practical conference, Petrozavodsk,
+November 22-24, 2023. – Petrozavodsk: Petrozavodsk State
+Universiity, 2023. – P. 66-68. – EDN DXBOZC.
+[name], [surname]. Analysis of finetuned languaage models for the
+problem of distractor generation / [name], [surname] // XII
+Congress of Young Scientists: collection of scientific papers, St.
+Peterburg, April 03-06, 2023. – St. Petersburg: National Research
+Universiity ITMO, 2023. – P. 353-359. – EDN CHRSTX.
+[name], [surname]. Extraction of features from unstructured text
+data for the problem of disease prediction / [name], [surname], [name], Yu.
+S. Boldina // Path to science: applied mathematics, computer science
+and information technology: Abstracts of reports of the All-Russian
+conference.
+[name], [surname]. 2024 - Skoltech Summer SchooL of AI (SMILES): news, certificate.
+Events
+▪ 2024 - PetrSU Summer SchooL of AI: news, certificate.
+Attendance ▪ 2023 - IT-camp 3.0 “Intellectual Karelia. IT-apprentices”: news,
+certificate.
+▪ 2022 - Training in entrepreneurial competencies “Business Intensive
+TechPred”: certificate.
+▪ 2022 - Hackathon “Digital Breakthrough. Season: Artificial
+Intelligence” in the Northwestern Federal District: certificate.
+▪ 2022 - Summer schooL of intensive training BootCamp of Innopolis
+Universiity: news, certificate.
+▪ 2021 - Hackathon “Digital Breakthrough. Agriculture. Environmental
+Protection. Foodtech”: news, certificate.
+▪ 2021 - IT-camp 1.0 “Intellectual Karelia”: news, certificate.
+▪ 2020 - Summer SchooL of the Institute of Artificial Intelligence of
+PetrSU: news, certificate.
+D. I. Muromtsev
+References Ph.D. of Engineering Sciences, Associate Professor / ИТМО
+Address: [location], [location], [location]
+Mail: [email]
+[name], [surname]
+Ph.D. of Physico-mathematical Sciences, Associate Professor / [compaany]
+Address: [location], [location], [location]
+Mail: [email]

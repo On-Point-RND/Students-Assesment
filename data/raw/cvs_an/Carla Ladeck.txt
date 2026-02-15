@@ -1,0 +1,20 @@
+[name] [surname]
+E-mail: [email]
+Telegram: @[name]_[surname]
+Phone: +2 *** *** ***
+GitHub: https://github.com/[name][surname]
+Key Skills
+• Languages: Python, SQL
+• ML Stack: Basic ML, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, PyTorch
+• Other: Git, LaTeX, Jira
+Projects
+• Current project: Design and software implementation for a quadcopter drone as part of a team project at [compaany]. Engineering tasks: 3D modeling, printiing, assembly, and test bench setup. Implementaion of a physical model (calculating torque, center of mass, etc.). Trajectory planning using autopilot and computer vision (CV).
+• Clothing item recognition project using neural networks with various architectures, data annotation, and processing approaches.
+• Participation in algorithmic competitions: MTS True Tech, X5 Tech Sprint.
+Education
+• [compaany] (2022 – 2026):AppliedMathematics (Mathematical Methods of Artificial Intelligence)
+About Me
+Responsible, proactive, and communicative professional with analytical thinking and a drive for growth. Highly self-organized, capable of effective teamwork and independent work. Experience as a mathematics tutor (preparing students for OGE and EGE exams). Chess player.
+Additional Education
+• Coursera, Stanford: Supervised Machine Learning: Regression and Classification.
+• Yandex Lyceum: ML Specialization Spring 24/25.

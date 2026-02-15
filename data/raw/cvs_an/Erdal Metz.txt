@@ -1,0 +1,45 @@
+[name] [surname], PhD Student, [compaany]
+Mathematical Modeling, Numerical Methods and Software
+EDUCATION
+• BSc Physics (2022): [location] Lomonosov MSU.
+o Thesis: “Supersymmetric Higher-Spin BF Action in AdS2,” supervised by Prof. [surname] [surname].
+• MSc Data Science (2024): [compaany] Skoltech.
+o Thesis: “Neural Network as Body Fitted Curvilinear Coordinate System,”
+supervised by Prof. [surname] [surname].
+• PhD Student (current): [compaany], Computational and Data Science and
+Engineering (HPC Laboratory under the supervision of prof. [surname] [surname]).
+PUBLICATIONS & CONFERENCES
+• Paper: Scientific Reports (Nature), 2025
+o Neural Networks for Structured Grid Generation. [link]
+• Paper: Математика. Физика. Информатика (Потенциал), 2024
+o Знакомимся с ИИ. [link]
+• Conference: International Conference on Computational Optimization, 2024
+o Neural Networks for Structured Grid Generation. [link]
+TEACHING EXPERIENCE
+• [compaany] (2025):
+o Teaching Assistant, High Performance Computing and Modern
+Architectures course.
+• [compaany] (2024-present):
+o Lecturer, parallel computaions for ML-engineers.
+o Lecturer, Kolmogorov-Arnold Neural Networks.
+• London Gates Educational Group (LGEG, 2022-present):
+o Teacher, mathematics and physics for A-Level (UK) exam; all lessons are
+conducted in English.
+• [location] Lomonosov MSU Student Center of Education (2020) [link]:
+o Seminarist, Analytical Geometry.
+o Seminarist, Experimental Data Analysis.
+PROFESSIONAL EXPERIENCE
+• ML Engineer at [compaany] (2022-2024):
+o Built predictive models for HR processes.
+o Took part in internal conferences.
+o Reprased the bank at the “Russia” forum at VDNH.
+TECHNICAL SKILLS
+• Deep Learning: PyTorch, TensorFlow, JAX.
+• Machine Learning: CatBoost, XGBoost, scikit-learn, pandas, SHAP.
+• Parallel Computing: Dask, Rapids, Ray, OpenMP, MPI.
+• Others: Linux, Git, SQL, Docker.
+RESEARCH INTERESTS
+• Physical simulations and structured grid generation for compuational physics.
+• Combining HPC and deep learning methods to model wave processes.
+• Applying modeling techniques in mechanical engineering and related
+industries.

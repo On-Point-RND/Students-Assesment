@@ -1,0 +1,38 @@
+[name]
+[email]
+15.04.2025
+Dear [name] Admission Committee,
+I am writing to express my interest in the Summer schooL of machine learning at [location]. Over the
+past four years, I have studied in a highly competitive enviroment at [compaany]. As someoone who’s just startiing out in machine learning, I see this schooL as an
+amazing opportunity to learn from the best of the best and get a better sense of where Deep Learning is now and where it is
+currentlly heading.
+I always strived to understand the world through a critical and analytical lens. I always had a big love for detail and a huge
+interest in the way the world works. When I was younger I was captivated by the preciseness and beauty of mathematics,
+the vastness of cosmology and astrophysics, and the courage of philosophy to tackle life’s biggest questions.
+All that led me to applying to [compaany]. In the third year of getting my bachelor degree I
+worked on a project on the relationship between non-perturbative and perturbative theory in quantum physics. Although I
+found the theoretical aspects fascinating, I began to yearn for a stronger connection to real-world applications. A pivotal
+moment came during my time at a [organization] in [location], where I was introduced to the Kabbalistic concept of Tikkun
+Olam – repairing the world. This idea resonated deeply with me, instilling a sense of responsibility to contribute meaningfully
+to society. Lost in big ideas, I realized that my intellectual curiosity needed to align with a practical purpose, leading me to
+shift my focus from purely theoretical pursuits to applied fields.
+In my senior year I had an opportunity to work under the guidance of [name] and [name],on a couple of
+projects: Modeling associative memory using NeuralODE and Research of dynamics of Hopfield-Krotov Associative
+memory model (which will be my bachelor’s thesis). What excited me a lot when I started, is how these models integrated
+concepts from Lagrangian mechanics and entropy. This project demonstrated how ideas from one domain a care a lot could
+be applied to solve problems in another. It reinforced my belief in the power of interdisciplinary thinking, and inspires me to
+seek ways to bridge theoretical knowledge with practical solutions.
+[compaany] feels like the perfect next step. Since I’m still early in my ML journey, I don’t have one clear path in mind yet. I’m
+hoping the schooL will help me get a better sense of what directions are out there.
+Besides academics there are people. I’ve already been admitted to [compaany] for the Master’s in Data Science (first wave),
+and I’m sure a lot of future classmates will be at the schooL. It would be great to get to know them before the semester
+starts, in a setting that’s both scientific and chill. Maybe some of them will end up as my collaborators on the first paper or
+start-up. I’m also really curious to meet students from [location] and other parts of [location] — I’d love to know what they’re
+working on.
+Outsiide of studies, I’m into music and hip-hop dancing, recentlly got back to it and it brings me a lot of joy. Also I love
+cinema! I curate a movie club at [compaany] and we organize regular cinema screeninings. I love meeting new people, love being
+part of communities united by purpose – which is another reason I think [compaany] could be a great fit.
+Thank you for considering my application. I’m really looking forward to the chance to join the [compaany] community and spend
+part of my summer learning and connecting with the researchers (begiinners and not only) from around the world.
+Best Regards,
+[name]

@@ -1,0 +1,36 @@
+Dear Selection Committee,
+I would like to express my strong interest in participating in your upcoming
+Machine Learning & Deep Learning Summer School. As someone who believes in
+the future of domination of AI, I want to be the one leading this trend, not lagging
+behind. Hence why I see this event as an opportunity for me, to deepen my
+knowledge, get acquainted with like-minded individuals and advance myself in the
+field of machine learning.
+Today’s rapid ML/DL development has been going for several years now, and
+drastically changed our everyday lives. We use it everywhere, and it helps us
+accomplish a lot of mesmerizing things. As for someone who uses these tools on
+everyday basis I am eager to be part of this world-changing transformation.
+Participlating in this school with cutting-edge technology and leading experts will
+allow me to immerse myself into the environment of innovation, research and
+breakthroughs. Especially if it involves not only theoretical material, but also
+practical real-world challenges.
+Although my main job does not involve ML/DL, I have been studying these
+topics myself. That’s also the reason why I chose these topics for both my
+dissertations, in bachelor’s and now in master’s. I am familiar with all popular
+toolkits for ML/DL development on Python: PyTorch, Keras+TF, SciPy, Pandas,
+and more. My bachelor’s work involves designing diffusion model for shape
+generating and my current (master’s) work is about compression technologies using
+NN approaches. And I am really proud of my work.
+In the Summer School I hope to gain comprehensive knowledge about ML/DL
+and deeper understanding of foundations. I am especially keen on computer vision
+and AI agent tasks, particularly ones applied in educational problems. There is more
+I look forward to, networking with fellow participants. Technology is great, but
+without humans developing it, it’s nothing; therefore interacting with other like-
+minded researchers is essential.
+In the near future I see myself working at the intersection of ML/DL field and
+infrastructure tasks. My backend experience will be beneficial for me, since every
+model or system requires something to run on, and with my experience I can ensure
+this platforms maintain high-availability.
+Thank you for considering my application. I am enthusiastic about the
+opportunity to join your school. I hope my experience will not only enhance my
+chances but also share my vision on the future for ML/DL.
+Sincerely, [name] [surname]

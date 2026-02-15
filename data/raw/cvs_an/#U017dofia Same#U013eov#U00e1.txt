@@ -1,0 +1,43 @@
+[name] [surname]
++2 *** *** *** | [email] | github.com/[name][surname]
+Education
+2021-2025 [compaany], Faculty of Computer Sciences
+Bachelor of “Applied Mathematics and Information Science”
+GPA: 9.04 / 10 | Rating: 27 / 266
+Relevant courses:
+• Machine Learning, Deep Learning
+• Computer Vision, Deep Learning in Audio, Generative Models
+• Bayesian Methods for Machine Learning
+Schools on Machine Learning
+2024 Summer with [compaany], [location]
+• Worked on a group project “Internal Representaions of Language Models”
+2024 [compaany], [location]
+• Worked on a group project “Compression of Code Language Models”
+2024 Spring into ML, [compaany]
+2023 Summer with [compaany], [location]
+• Worked on a group project “Segmentation and Tracking of Objects by Text Requests”
+2023 SchooL on Machine Learning in Bioinformatics, [compaany]
+Experience
+2023 - Now Intern at laboratory of “Matrix and Tensor Methods in Machine Learning”, [compaany]
+Publications
+2024 [name] [surname], [name] [surname], and [name] [surname]. Tight and Efficient Upper Bound
+on Spectral Norm of Convolutional Layers. In European Conference on Computer Vision, pages
+19–34. Springer, 2024
+2025 [name] [surname], [name] [surname], and [name] [surname]. ProcrustesGPT: Compressing
+LLMs with Structured Matrices and Orthogonal Transformations. Under review
+Achievements
+2024 Winner of “I am professional” Olympiad in “Artificial Intelligence”
+2024 Second-degree diploma at “Vysshaya Liga” Olympiad in “Applied Mathematics and Informatics”
+2024 Winner of Yandex scholarship
+Projects
+2023 Coursework “Analysis of Singular Values of Convolutional Layers of Neural Networks”,
+supervisor – Associate Professor, PhD [name] [surname].
+2024 Group project on Audio Visual Source Separation
+github.com/free001style/AVSS
+2024 Implementaion of HiFi-GAN
+github.com/[name][surname]/hifi gan
+2024 Group project Implementaion of “One-step Diffusion with Distribution Matching Distillation”
+github.com/[name][surname]/diffusion distillation
+Technical Skills
+Programming languages: Python, Pytorch, C++, basics of HTML and SQL.
+Experienced with GitHub and GitLab.

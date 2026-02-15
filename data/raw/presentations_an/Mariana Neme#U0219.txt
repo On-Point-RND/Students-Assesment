@@ -1,0 +1,25 @@
+Machine Learning Application in Formula 1
+[name], [surname], [location]
+HSE [compaany]
+
+Why ML in Formula 1
+Formula 1 generates massive amount of data 
+Teams use real-time analytics to gain competitive advantage
+ML helps make smarter and faster decisions 
+
+What problems can ML solve in F1
+When should a driver make a pit stop?
+Will the tires last one more lap?
+Which strategy is better depending on the weather?
+Machine learning offers data-driven answers to these questions. 
+
+Methods and technologies
+Supervised learning
+Reinforcement learning
+Clustering and PCA
+
+Predicting the perfect pit stop
+Uses classification models
+Inputs: tire age, lap time, weather, traffic
+Outputs: pit stop recommendation
+

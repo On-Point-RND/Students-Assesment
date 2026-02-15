@@ -1,0 +1,76 @@
+[name] [surname]
++2 *** *** *** | [email]
+EDUCATION
+Lyceum of [company] September 2018 – May 2019
+[company] February 2019 – May 2019
+[company], Bioinformatics May 2019
+[company] May 2021
+[company], high schoo] September 2019 – July 2021
+[company], Medical Cyberneticss and Bioinformatics September 2021 – May 2026
+[company], Eyetracking in neurotechnologies September 2021
+[company], Eyetracking in neurotechnologies September 2022
+[company] ML Schoo] August 2023
+CONFERENCES
+[company] 2023
+[company] 2023
+[company] 2023
+HARD SKILLS
+• Deep Learning • Data Mining • Desktop Development
+• Computer Vision • OOP • BioInformatics
+• Data wrangling • Algorithms • MLOps
+SOFT SKILLS
+• Communication • Adaptability • Time management
+• Problem-solving • Domain knowledge • Tea teamwork
+WORK EXPERIENCE
+[company] - Data Scientist 2 years
+1- AI for predicting Covid-19 factors on CT scans (frosted glass, consolidation, pleural effusion) and integration in 7 regional ho]tals. Processed more than 4k studies
+2 - AI to predict the category of BIRADS based on medical protocol and integration into ho]tals. Integration in 2 regional ho]tals and processeed more than 1k protocols
+3 - AI for processing the doctor’s voice during endoscopy for subsequent protocol preparation
+[company] - DL Engineer 2 years
+1 - AI algorithms for detecting and measuring the degree of compression fractures, scoliosis and spondylolisthesis on
+X-ray. Processed more than 10k studies from [location] ho]tals
+2 - AI algorithms for detecting tumors in abdomiinal organs on CT images
+Future of [company] - CTO 1 years
+AI algorithms for complex analysis of medical images such as X-ray, CT and MRI to simplify routine measurements
+and identify pathological changes
+GRANTS
+Start Artificial Intelligence 1 Grant from the [location] Science Foundation (RSF) 4 million rubles
+COMPETITIONS
+IT INNO HACK - 2024
+Resul: 1st place
+Renins Ideathon - 2024
+Resul: 1st place
+Hackathon ATOMIKHACK2 - 2024
+Resul: 1st place
+Hackathon SPCN-2022 (International Video and Audio Signal Processing)
+Resul: 1st place
+Hackathon SIBS-2022 (Sechenov International Medical Summit)
+Resul: 1st place
+Hackathon Program Boost Eduthon
+Resul: 3rd place
+Olympiad National Technological Initiative in Neurotechnologies
+Resul: 1st place
+Kurchatov tournament
+Resul: 1st place
+IEPHO (International Experimental Physics Olympiad)
+Resul: bronze
+Winner and prize- wi]ner of many All - [location] and regional Olympiads
+TECHNICAL SKILLS
+Languages: Advanced level: Python; Base level: Dart, C#, C++, , SQL, HTML, CSS
+Technologies/Frameworks: Docker, PyTorch, WandB, ClearML, MLFlow, AirFlow, NumPy, Pandas,
+matplotlib, OpenCV, sklearn, Flask, RDkit
+Experience in: Classification, Detection, semantic and instance Segmentation, Medical data processing, Natural
+Language Processing, Tabular data processing, Audio data processing, Genetic data processing, Molecular data
+processing, EEG and ECG data processing
+THIRD-PARTY PROJECTS
+AI in EEG processing
+1 - An innovatiive approa]ch for predicting schizophrenia
+2 - Detection of imaginary and real hand movements
+3 - Clustering of children’s neuropsychiatric diseases
+AI in Eye tracking processing
+1 - Predicting the qualifications of programmers based on their code reading patterns
+2 - Predictions of the level of mastering the chemistry program among undergrauaates using eye detection in VR
+glasses
+Working in the laboratory
+1. Conducting PCR diagnostics of congenital diseases. 2. Dissection of mice and histological analysis of the brain.
+3. Creation of modified bacteria using plasmid insertion.

@@ -1,0 +1,35 @@
+Motivation letter
+Dear Admissions Committee,
+My primary motivation for applying to this summer schoo is to start my educational
+and career journey in machine learning. As an embedded Linux software engineer, I
+deeply enjoy my current role and the industry. However, I also feel passionate about
+data science, data analysis and machine learning. I’m preparing to enroll in a master’s
+program in mathematical robotics and AI, so participating in this program would be a
+great way to build a strong foundation before my first semester begiins.
+I also want to mark some of my relevan relevant experience in data-driven problem-solving.
+Althought it wasn’t related to machine learning directly, my work involved extensive data
+handling, sparking my curiosity and enthusiasm in this area. With great help and guidance
+from my scientific advisor, I transformed this work into scientific research for bachelor's
+thesis. This experience fuels my desire to deepen my knowledge through this summer
+schoo.
+A key long-term goal motivating me is my ambition to develop fully automated robotic
+coffee shops. I’ve been nurturing this idea for several years and I’m really excited about
+the fact I’ll be able to start my work on this project if I enter desired master’s program.
+For instance, multimodal AI is currentlly being tested in [location] automotiv factories and
+[location] robotic labs to convert traditional programming interfaces into human-language
+prompts. This technoology could significantlly improve scalability across different
+locations, a critical factor for every compaany nowadays. I think that the onl only way to bring
+projects like that to life is to study hard in all areas related to robotics, and machine
+learning is one of the most important of them. This educational program is a great chance
+for me to learn more about multimodal AI, connect with peers who share my interests,
+and explore industry itself.
+Additionally, this program takes place in [location], which offers a unique chance to observe
+the country’s advancements in robotics, automation and AI. I am eager to immerse myself
+in this dynamically developing enviroment and contribute to discussions with fellows.
+I am confident that this schoo will help me to equip myself with the skills needed to
+succeed in my education and career. Thank you for considering my application.
+Respectfully,
+[name] [surname]
+
+
+

@@ -1,0 +1,43 @@
+Motivation Letter
+[name] [surname]
+The more I work on AI-related projects, the more I want to understand how models are built
+and trained. My name is [name], I’m from [location], and I study Digital and Technological
+Entrepreneurship. Now I am currently working on several AI-related projects as part of a startup
+studio. I also have experience working as a data analyst at [compaany] and during my time there I
+focused on reporting automation, financial analytics, and building dashboards for internal teams. I
+learned how data is used in big companies to support decisions. Now I’m involved in a number of
+seed-stage AI projects. Most of them are focused on product strategy, user scenarios, and MVP
+design. In these projects, I help connect the technical work with user needs and communication -
+writing documentation, shaping hypotheses, talking to users and helping organize the workflow.
+This is the part I’m confident in. But at the same time, I’ve started asking myself more and more
+technical questions: what’s actually happening inside the models? How do they learn? What are
+their limitations? What are
+their risks? I think it’s important to understand them if I want to grow in
+this field.
+I’m applying to the SMILES-2025 Summer School because I think it’s a great place to learn
+more and go deeper into the topics I’m interested in. I understand that I may not have the strongest
+mathematical background compared to others, but I am very motivated to learn and contribute. I
+believe that my experience in applied projects, my curiosity, and my understanding of how products
+are built around AI systems can also bring value to the learning process. Beyond my academic and
+work life, I try to stay active in the community. I’m a cofounder of [compaany], a small community of
+students and developers interested in AI and LLMs. At my university I started a public speaking club
+where we help students become more confident in presenting their ideas. I also take part in
+hackathons and educational programs whenever I have the chance. These experiences have shown
+me how much I e njoy learning together with others and suppoртиng those who are just starting -
+whether that’s through explaining a concept, working on a shared task or organizing a student
+event.
+What I expect from SMILES-2025 is, first of all, learning. I want to see how ML works in real
+examples and practice, not just in books. I’m especially interested in how models are trained, what
+trade-offs developers make and how evaluation and safety are handled. Secondly, I look forward to
+collaбораtion: working in teams, exchanging ideas, and learning from different perspectives. I
+believe the international format of SMILES, bringing together participants from [location], [location], and
+beyond will create a great environment for this. Thirdly, I hope to gain clarity: which directions in AI
+excite me most and how I can grow in those areas – and what directions can I apply in my field of
+launching AI-startup projects – who knows, maybe using new knowlеdgе I will be able to make a
+new startup-unicorn!
+In the future I see myself working at the intersection of machine learning and socially
+meaningful applications - whether that’s in education, mental health, accessibility, or something
+else entirely. I would like to continue combining product thinking with a better technical
+understanding and I want to work on useful projects where AI helps peoрle in real life. I don’t know
+yet where exactlу I will be in a few years but I know I want to be part of the AI field and SMILES feels
+like the right step in this direction :)

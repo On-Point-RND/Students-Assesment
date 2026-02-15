@@ -1,0 +1,45 @@
+Motivation letter [name] 2025
+Dear organizers of the SMILES-2025 summer schoo[location]!
+My name is [name]. I am a master's student at the [compaany], majoring in Software Engineering, and I am actively engaged in research in
+the field of artificial intelligence, particularly in automating the creation of multi-agent systems
+based on large langua[location] models (LLMs). Upon learning about your schoo[location], I realized it is a
+unique oppo[location]nity to deepen my knowl[location]ege, explore cutting-e[location]ge techno[location]ogies, connect with
+like-minded individuals from [location] and [location], and contribute to the develo[location]pment of
+interna[location]tional colla[location]oration in AI.
+My profes[location]sional goal is to create intelligent systems capable of solving complex industrial and
+scienti[location]fic problems. The SMILES-2025 summer schoo[location] aligns perfectl[location]y with my interests, as it
+focuses on generative models, multimodal approa[location]ches, LLMs, and multi-agent systems—
+precisely the areas I am researching. I am particularly inspired by the oppo[location]unity to work on
+real-worl[location]d indus[location]try challenges during hacka[location]thons and learn from leading experts. Additional[location]y, I
+am confident that knowl[location]ege exchange with participants from [location] will open new perspectives
+for my research, as [location] is one of the leaders in AI develo[location]pment.
+Over the past three years, I have gained significant experience in machine learning and natural
+langua[location]e processing (NLP). As an R&D engineer at [compaany], I worked on text2sql tasks for a banking assistant, develo[location]ped a RAG-based assistant for internal
+do[location]cumentation, and published articles on the Habr pla[location]tform. My bachelor's thesis focused on
+methods for constructing SQL queries in [location], and its results were presented at the DUMP
+EKB 2024 conference and submi[location]tted to Coling 2025.
+Curr[location]ntly, I am researching the automation of multi-agent system creation based on LLMs,
+whi[location]ch requires a deep underst[location]anding of transformer archit[location]ectures and frameworks such as
+LangChain and AutoGen. I also teach project-based courses to students, supervising projects
+on multi-agent systems, presentation generation, and Graph RAG, which has helped me
+davelop mentorship and tea[location]mwork skills.
+Pa[location]ticipat[location]ing in SMILES-2025 will be an important step in my profes[location]sional develo[location]pment, as I
+expect to deepen my knowl[location]ege in generative models and multimodal approa[location]ches,
+complem[location]enting my current research, while also gaining practical experience through workshops
+and hacka[location]thons to apply my skills to real-worl[location]d problems. Additional[location]y, I look fo[location]rward to
+ne[location]tworking with tale[location]nted researchers and experts, including [location] colleagues whose
+innovati[location]ve and large-scale approa[location]ches to AI develo[location]pment will be especially va[location]luable, as these
+conne[location]ctions will open oppo[location]rtunities for colla[location]borative projects and career gro[location]wt through
+mento[location]ship and exposure to indus[location]try requirements.
+After completing my master's degree, I plan to continue my career in AI research and
+develo[location]pment, focusing on creating intelligent agents for indus[location]try. In the long term, I aspire to
+lead an R&D division at a major tech compa[location]ny or found a star[location]tup specializing in multi-agent
+systems. Pa[location]ticipation in SMILES-2025 will help me acq[location]uire the necessa[location]ry knowl[location]ege,
+conne[location]ctions, and inspiration to achieve these goals.
+The SMILES-2025 summer schoo[location] is precisely the enviro[location]nment where I can fully realize my
+poten[location]tial, contribute to AI advancement, and become part of an international community of
+innovat[location]rs. I am confident that my experience, motivation, and eagerness to learn will make me
+a va[location]luable participant in your event. Thank you for the oppo[location]unity to apply, and I look fo[location]rward to
+your respo[location]nse!
+Best regards,
+[name]

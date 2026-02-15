@@ -1,0 +1,99 @@
+ReAct: Synergizing
+Reasoning and
+Acting in
+Language Models
+by [name] [surname] et al. (2023)
+Article’s overview,
+results reproduction and new findings
+by [name],
+3rd year student of
+[location] [university],
+Faculty of Mathematics and Mechanics
+The ReAct Paradigm
+General setup:
+Observation 𝑜 ∈ O => action 𝑎 ∈ A following some policy π(𝑎 |𝑐 ), where 𝑐 = (𝑜 , 𝑎 , · · · ,
+𝑡 𝑡 𝑡 𝑡 𝑡 1 1
+𝑜 , 𝑎 , 𝑜 ) is the context to the agent.
+𝑡−1 𝑡−1 𝑡
+ReAct’s setup:
+Augmented agent’s action space to A* = A ∪ L, where L is the space of language.
+action 𝑎 ∈ L in the language space (thought) => no observation feedback.
+𝑡
+𝑎 => reasoning over the current context 𝑐 => update the context 𝑐 = (𝑐 , 𝑎 )
+𝑡 𝑡 𝑡+1 𝑡 𝑡
+Methodology
+• Prompt Design
+Few-shot examples demonstrate ReAct's
+thought-action format.
+• Action Space
+Task-specific actions (e.g., search, answer) are
+predefined.
+• Environment
+External systems execute actions and return
+observations.
+• Execution
+Model alternates thoughts and actions until task
+completion.
+Benchmark Tasks
+• Question Answering (HotpotQA): A • Text-based Game (ALFWorld): Navigating and
+multi-hop QA dataset requiring completing household tasks in a text-based
+reasoning across multiple pieces of
+virtual environment (organized text environment)
+information
+• Web Shopping (WebShop): Finding products
+• Fact Verification (FEVER):
+Determining whether claims are on a simulated e-commerce website based on supported, refuted, or unverified natural language instructions (noisy
+based on evidence environment, unstructured texts)
+The authors used frozen PaLM-540B (prompted with few-shot in-context examples)
+Key Results: HotpotQA, FEVER
+CoT (CoT-SC) vs ReAct
+* CoT-SC (self-consistent CoT) - sampling 21 CoT trajectories
+with decoding temperature 0.7 during inference and adopting
+the majority answer
+Key Results: HotpotQA, FEVER
+*Finetuning PaLM-8b, -62b
+Reproduction of experiments
+Setup:
+• Qwen-8b (quantized,
+temperature 0.1)
+• ReAct framework (initial author’s
+version)
+• CoT (Qwen-8b prompted to think
+step-by-step)
+• 200 questions/claims
+• Learning = prompt
+HotpotQA Benchmark
+• CoT outperforms
+HotpotQA
+• Label ambiguity
+HotpotQA Benchmark
+• Correlation between number of steps
+and EM / answer’s length
+HotpotQA Benchmark
+• Optimal number of steps < 5
+• Entering infinite loops (reaching
+maximum 8 steps) leads to
+empty string as an answer
+HotpotQA Benchmark
+• Three-step
+trajectory results in
+longer answer (?)
+FEVER Benchmark
+• Without proper prompting, agent becomes trapped in iterative loops of unproducive
+reasoning or action sequences.
+• Solution: add to context a message to follow strict pattern
+(e. g. “In the last line of your answer write only in format: Action i: Finish[], nothing else.”)
+Conclusions
+In summary:
+• Reproduced results align with the
+original authors' findings.
+• ReAct demonstrates superior
+performance over Chain-of-
+Thought (CoT) when given
+optimal prompting or fine-tuning.
+• Agent performance scales with its
+ability to learn the correct
+environment interaction format.
+Thank you!
+All results and code are available on
+Github: https://github.com/[name][surname]/ReAct_experiments

@@ -1,0 +1,36 @@
+Do you know what machine learning, bioinformatics, and my life have in common? All
+three are full of mistakes, but someoone stubbornly calls it "the learning process." I'm 16,
+I study at [compaany], and I'm here to fill the email with enthusiasm and blah blah, but I
+wouldn't mind turning mistakes into crutches, and from crutches into features. We all
+know about “It's not a bug, it's an undocumented feature”.
+Bioinformatics without ML is like trying to eat soup with a fork: theoretically possible, but
+in practice you'll just smear your genes all over the table. So you're trying to predict the
+structure of a protein. It used to take years, but now you just throw data into a neural
+network, cross yourself, and wait. And guess what? It says something like, "Here's your
+protein, but it looks like origami made by a drunk robot. 72% accuracy, but only if you
+don't breathe." And you're happy because 72% is almost "normal" in a world where p-
+value is considered a success if it's less than your age.
+Algorithms in bioinformatics are real jokers. Random Forest? It's when you ask 100
+trees how to cure cancer, and they answer in unison: "Chop us all down and build a
+boat." SVM? It's like trying to fence off cancer with a fence, but the fence is crooked
+because the data smells of overfitting. And clustering? It's when you divide genes into
+groups, like guests at a wedding: "You go with the relatives, you go with the alcoholiics,
+and you go over there, you have a weird expression."
+You ask why I want to come to you? I will answer point by point, like a matrix in Excel,
+which no one will check for adequacy, since there are too many incomprenhensible
+columns to which it is better to simply say "begon, ye feisty devils!":
+Because I already know that machine learning is not about "machines", but about
+making code ashamed of its predictions. I can explain how a random forest differs from
+a random walk through the forest at 3 a.m. I can prove that SVM is not about "super-
+important machines", but about shoving a hyperplane where it is not welcome. But I
+want to learn something that can't be googled in three clicks. I want my models to predict not only grades, but also the apocalypse. Or at least the Bitcoin rate. Or better
+yet, [name]'s actions.
+Because I've seen how k-means clusters data, and now I can't look at the world as it is.
+Do you know what it's like to explain to your friends that t-SNE is not a swear word?
+And I hope you have people who will understand that ROC curves are not about a rock
+concert. And that precision-recall is not advice from glossy magazines.
+And because I can calculate loss functions better than calories in chips. My gradients
+descend faster than motivation after the eighth cup of coffee. But I want my neural
+networks to stop confusing neurons with neurons. Yes, all that: "Let's add another
+layer!" - and then cry when the model asks for a psychotherapist.
+So, that's all, and the hope of being accepteed for my pretty eyes doesn't leave me.

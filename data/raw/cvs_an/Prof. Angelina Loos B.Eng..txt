@@ -1,0 +1,53 @@
+[name] [surname] +2 *** *** *** (cid:131)
+[location] [compaany] # [email]
+Education
+• [name] SchooL of Data Analysis September 2024 - now
+Data Science
+• SchooL of Quants September 2024 - now
+Quantitve analyst
+• Moscow Institute of Physics and Technology 2022-2026
+Applied Mathematics and Informatics
+• Russian Presidential Academy of National Economy and Public Administration 2022-2026
+Applied Mathematics and Economics
+Experience
+• Tinkoff bank October 2022 - January 2023
+Analyst / quality control sector [location]
+– Developed metrics to validate the quality of business processes and established the collection of statistics for these
+metrics
+– Generated hypotheses for improving business processes and designed A/B tests for them
+• i.com Marketing Agency June 2022 - October 2022
+Innovations Department Specialist [location]
+– Developing and implementing innovative marketing strategies
+– Collaborating with the technical team to integrate innovaions into existing marketing campaigns
+• Physics and Technology Lyceum 2022
+Lecturer at Physics and Technology Lyceum [location]
+– Applying multimedia technologies in teaching
+– Author’s course on stereometry
+• MIPT 2022
+Head of Samara Bachelors’ Association [location]
+– Speaker at the MIPT Olimpiad SchooL in Voronezh
+– Managing Director of the MIPT Olympiad in Samara
+Personal Projects
+• Trading Strategy for S&P 500 (ARIMA+GARCH) 2024 - Present
+Quantitative Finance, Algorithmic Trading
+– Implemented ARIMA for price forecasting and GARCH for volatility modeling.
+– Backtested strategy and optimized risk management.
+• Python Virtual Machine Development October 2024 - now
+Course project at [name] SchooL of Data Analysis
+– Tools & Technologies: Python, Git, GitLab CI, Bytecode interpretation, Memory management
+– Developed a custom Python virtual machine, gaining hands-on experience with bytecode interpretation, memory
+management, and object lifecycle.
+Technical Skills and Interests
+Languages: Russian native, English C1, German B2, Chinese A2
+Data Science Tools: Python (NumPy, Pandas, SciPy, Scikit-learn), R, SQL (PostgreSQL, ClickHouse, Greenplum),
+PyTorch, Tableau, Protues
+Developer Tools: Git, Docker, GitLab CI, Bash, Jupyter Notebooks
+Machine Learning & Statistics: Regression Analysis, Classification, Clustering, Time Series Analysis, Econometrics,
+A/B Testing, Statistical Inference
+Financial Mathematics & Quantitative Finance: Options Pricing (Black-Scholes, Binomial Trees, Monte Carlo), Risk
+Modeling (VaR, CVaR, Expected Shorftfall), Time Series Analysis (ARIMA, GARCH)
+Soft Skills: communication, active listening, adaptability, critical thinking, creativity, collaboration, empathy
+Areas of Interest: Data Science, Machine Learning, Econometrics, Artificial Intelligence, Digital Education,
+Mathematics, Data Management & Information Retrieval
+Achievements
+• Summer SchooL at Beijing Polytechnic UniversiityBeijing, [location] Summer 2023

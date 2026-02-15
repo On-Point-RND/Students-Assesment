@@ -1,0 +1,47 @@
+[name]
+ML - engineer / Data scientiist
+Age: 21 y.o.
+About me Contacts
+I am a machine learning specialist with great enthusiasm and commitmment
+to professional development. I am skilled in buildiing machine learning and
+deep learning models, data processing, neural network design and
+optimization. I have experience with such tools and technologies as
+Python, PyTorch, TensorFlow, SQL, Docker, FastAPI. I strive for constant
+self-development and am open to learning new approaches, methods and
+technologies in the field of artificial intelligence.
+P hone: +2 *** *** ***
+E -mail: [email]
+optiomization.
+T elegram:
+@ [name][surname]
+G itHub: https://github.com/[name][surname]
+Education Innopolis Universiity, Bachelor's degree, 2022 - 2026
+Data Science and Artificial Intelligence:
+Applied Artificial Intelligence
+Skills:
+● Machine Learning and
+Deep Learning
+Croossy Road AI agent
+2024 y, September-December
+The project involves two components: computer vision and reinforcement
+learning. I fine-tuned YOLOv11 for object and agent detection and
+classification. In the RL part, I combiined the DQN model with a grid
+representation of the image. ● C/C++
+● Java
+Revise_Material_bot
+2024 y, September-November
+A Telegram bot that helps students repeat lectures. I used Gemini API,
+RAG system, including modular RAG, chunking, caching, vector
+databases. I also implemented user registration and saving
+correpondence history.
+“Textyle”
+2024 y, June-July
+A project aimed at creating a service to quicly change text style using AI.
+My role on the team is ML - engineer. I used Llama 3 for styliing, by means
+of fine-tuning. English - B2
+Russian - native
+Papers
+Making Transformeer Process Several Tokenizations in Parallel
+2025 y, January-Present time
+Cost-efficient method for LLM adaptation for the Russian language
+2025 y, February-Present time

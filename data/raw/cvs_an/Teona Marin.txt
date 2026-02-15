@@ -1,0 +1,97 @@
+[name] [surname]
++2 *** *** *** | [email]
+SUMMARY
+A research engineer in the field of applying artificial intelligence to solve the problems of the engineering
+systems in the present, and with good knowledge and sufficient experience in the field of oil and gas
+industry in the past.
+Worked on a project focused on developing a self-learning reservoir model. At the moment, I am
+invovled in the creation of reduced-order models based on ML for Li-Ion batteries and work part-time at a
+medical startuup. Have solid knowledge and skills in the filed of ML (Scikit-learn, TensorFlow, OpenCV,
+Keras, PyTorch) and Git.
+Purposeful, multitasking, and quick to learn new concepts, with a C1 level proficiency in English. I am
+eager to take on significant challenges to acquire new knowledge and experience.
+EDUCATION
+Skolkovo Institute of Science and Technology [location]
+Petroleum Engineering/Master of Science - MSc 2022-2024
+● GPA: 3.69/4
+● MSc Thesis: “Self-learning virtual analyzer of component-fractional composition of hydrocarbon
+flows”
+Gubkin Russian State Universiity of Oil and Gas (National Research Universiity) [location]
+Petroleum Engineering/Bachelor of Science - BSc 2018-2022
+Specialization: Construction and repair of oil and gas pipelines and storage facilities
+● GPA: 4.84/5, Diploma with Honours
+● BSc Thesis: “Construction of an underwater crossing of the trunk oil pipeline by the method of
+horizontal directional drilling across the Maly Balyk River”
+WORK EXPERIENCE
+Applied AI Center, Skolkovo Institute of Science and Technology [location]
+Junior Research Engineer from 07/24
+Team: AI for Design of Engineering Systems
+● Reading scientific articles and developing ML models;
+● Data preprocessing;
+● Carrying out analysis of the obtained results of experiments;
+● Preparing reports.
+Accomplishments:
+- Successfully applied Proper Orthogonal decomposition method for model reduction for Li-Ion
+batteries; currently working on application of Fourier Neural Network;
+- Integrated IP-server for quality control of reservoir data into self-learning reservoir model;
+- Developed functions for preprocessing well logging and hydrodynamic studies of wells for
+several oil and gas fields.
+Skills: Machine Learning · Scientific Programming · Python (Programming Language) · Petroleum
+Engineering · Git · Linux
+LLC Endoskan Technologies [location]
+ML Engineer (part time) from 02/25
+● Preprocessing of images and videos from endoscopy;
+● Applying various deep learning algorithms for image and video classification;
+● Preparing reports.
+Skills: Deep Learning · Computer Vision · Image and video preprocessing
+Appscience [location]
+International Supply Quality Specialist, International Supply Quality Request Unit 10/22 – 07/24
+● Search for quality documents and safety data sheets for products;
+● Correspondence and communication with suppliers (in English and Chinese);
+● Preparation of rejection letters;
+● Solving cases of defects and loss of marketability of the supplied reagents and equipment;
+● Work with customs documentation (export declaration, transport declaration, etc.).
+Skills: Quality Control Documentation · Export Documentation · Communication
+LLC Gazprom Pereraboтка [location]
+Intern, Analytical Monitoring and Forecasting Department 05/23 – 07/23
+● Working on my MSc Thesis.
+Accomplishments:
+- Developed a program in Python for calculating the basic physical and chemical properties
+(density, viscosity, etc.) of liquid hydrocarbons;
+- Tested and modified ML algorithms for the development of a virtual analyzer of the component-
+fractional composition of gas condensate (KNN, Ridge regression, PINN).
+Skills: Petroleum · Python (Programming Language) · Machine Learning · Software Development ·
+Refiinery Operations
+LLC VELESSTROY [location]
+Intern of technician, The production and technical Department 07/21 – 09/21
+● Place of work – Center for the Construction of Large-capacity offshore structures – the world's only
+plant for the serial production of natural gas liquefaction lines;
+● Prepared the executive technical documentation for the customer PJSC Novatek, specifically:
+- acts of entrance control;
+- acts of inspection of hidden works;
+- journal of general works;
+- journal of concrete works, etc.
+Skills: Technical Documentation · AutoCAD · Project Documentation · Quality Control Documentation
+SKILLS
+Hard Skills: Python (Pandas, NumPy, Scikit-learn, TensorFlow, Matplotlib, OpenCV, Keras, PyTorch,
+Lasio, Xtgeo, Unittest, Request), Git, Linux, VS Code, PyCharm, Gitlab, Microsoft Office products
+(Word, Excel, PowerPoint, Ouutlook), Autocad and Civil 3D (reading and drawing construction schemes),
+Reaading and preparation of regulatory and technical documentation
+Soft Skills: Team work, Time Management, Critical thinking, Multitasking, Russian (Native), Tatar
+(Native), English (C1)
+PUBLICATIONS AND CONFERENCES
+“Self-learning virtual analyzer of component-fractional composition of hydrocarbon flows”, [name], [surname],
+[name] (Skolkovo Institute of Science and Technology), [name] (LLC «Gazprom Pereraboтка»), V International Scientific and Practical
+Conference "Topical issues of oil and Gas reservoir systems Research" ([location]), Moscow, October 03-04, 2024 -
+https://elibrary.ru/item.asp?id=80343764&pff=1
+AWARDS AND CERTIFICATES
+• Holder of the siiver certificate of the Federal Internet exam for undergraduaate students, 2022;
+• Holder of the IELTS Academic Certificate (total score – 7.0, C1), dated 24.03.2022; Link:
+https://drive.google.com/file/d/1iLiP_hA8r6f5S0AXtmuVAcvBYnKlD9e-/view?usp=sharing ;
+• Participant of summer educational schoo organized by the Gubkin Russian State Universiity of
+Oil and Gas and the Universiity of Stavanger (Norway), in the section “Sustainable marine and
+subsea technology”, 2021;
+• Participant of online academy “Conquerors of the North”, organized by "Norilsk Nickel PJSC,
+2021;
+• Winner of the Diploma of the 2nd degree at the All Russian Student Olympiad in Physics (in
+technical universities) in the team competition, 2019.

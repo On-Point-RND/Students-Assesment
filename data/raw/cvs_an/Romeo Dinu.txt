@@ -1,0 +1,37 @@
+[name] +2 *** *** *** ⋄ [location]
+[email] ⋄ t.me/[name] ⋄ github.com/[name]
+EXPERIENCE
+ML Engineer 2024 - Now
+[company], Department of Management and Mathematical Modeling [location]
+• Contrastiive Learning for Financial AI. Developed deep learning models for tabular transaction data, leveraging self-supervised contrastive learning to improve credit scoring robustness.
+• FederatedLearningFrameworkAdaptation. Enhanced IBMFL for privacy-preserving credit risk modeling, optimizing neural network training.
+• Generative AI for Text Classification. Built a fine-tuned transformer model to automate Service Desk ticket classification, reducing mislabeled applications by 48% via prompt-based refinement.
+Data Scientiist 2024 - Now
+[company], Laboratory of Methods for Big Data Analysis (LAMBDA) [location]
+LingvaInterpreter: framework for code generation in machine learning pipelines.
+• Designed a self-correcting pipeline for error detection and repair in AI-generated code, improving output reliability through iterative LLM feedback.
+• Performed benchmarking studies on generation accuracy, computational efficiency and robustness across different LLMs.
+• Explored prompt engineering, fine-tuning strategies, and retrieval-augmented generation (RAG) to enhance code synthesis for ML workflows.
+Data Scientiist 2021 - 2023
+[company], Faculty of Computational Mathematics and Cybernetics [location]
+(Distributed Traffic Engineering, Compute First Networking) DTE CFN project.
+Distributed system for Traffic Engineering that implements an architecture that combines Multi-Agent Reinforcement Learning (MARL), Graph Neural Network (GNN) and Consistent Hashing (CH) technologies.
+• Implemented hashing algorithm and algorithm for partitioning the network topology graph into subgraphs.
+• Developed parallel launch of MARL-GNN in separate processes on all subgraphs, including aggregation of results and balancing of flows based on the obtained hashes. Parallel version of MARL-GNN-CH speeds up the algorithm by 1.4 times.
+• MNN parameter tuning. Tested the convergence of the algorithm and its sensitivity to changes in traffic matrix.
+• Modified the agent policy optimization algorithm, integrated with the network simulator NS-3.
+EDUCATION
+Master of Computer Science, National Research University Higher School of Economics 2023 - 2025
+Master’s Programme Financial Technologies and Data Analysis
+Bachelor of Applied Math and Computer Science, Lomonosov Moscow State University 2019 - 2023
+Faculty of Computational Mathematics and Cybernetics
+Specialization: Computer Science and Software Engineering
+SKILLS
+ML Tools: Pytorch, XGBoost, LightGBM, Hugging Face, Pytorch Lifestream.
+Languages: Python, C/C++, SQL, Unix shell scripting, Intel x86 assembly, LaTeX.
+Technologies: Multithreaded programming, Network programming, Docker, Proxmox API, Version Control Systems (Git), POSIX API.
+Native languages: English (Advanced); Russian (Native).
+PROJECTS
+SFC Monitoring System 2022
+Developed prototype of the Service Function Chain (SFC) performance monitoring system, which provides automation of SFC deployment in the Network Function Virtualization (NFV) infrastructure, 6 types of monitoring and aggregation of performance metrics in a single database.
+Python, SQLite, Proxmox API.

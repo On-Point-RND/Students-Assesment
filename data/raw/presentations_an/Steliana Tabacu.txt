@@ -1,0 +1,32 @@
+Revolution of
+Multi-modal LLLMs
+[name]
+ML Engineer, [compaany]
+Introduction
+Introduction
+Problem statement
+- Connecting Different Data Types
+- Making AI understand world and solve problems like humans
+CLIP
+CLIP (Contrastive Language–Image Pre-training) - a bidirectional transformer architecture with separate encoders for images (ResNet or ViT) and text (CBOW or Text Transformer).
+Flamingo
+What CLIP Couldn't Do:
+❌ Process sequences like videos
+❌ Understand context across multiple visuals
+Flamingo
+InstructBLIP
+TinyGPT-V
+DeepSeek-V3
+A critical analysis of evolution
+● From contrastive to interactive
+CLIP → InstructBLIP demonstrates the transition from passive just a position to active dialog
+● Efficiency paradox
+TinyGPT-V achieves 95% LLaVA-1.5 accuracy at 10% computational cost
+Conclusion
+Bibliography
+1. [name], [name], [name], [name], [name], [name], [name], [name], [name], [name], [name], and [name]. Learning transferable visual models from natural language supervision, 2021.
+2. [name], [name], [name], [name], [name], [name], [name], [name], [name], [name], et al. Flamingo: a visual language model for few-shot learning, 2022.
+3. [name], [name], [name], [name], [name], [name], [name], [name], and [name]. InstructBLIP: Towards Generalpurpose Vision-Language Models with Instruction Tuning, 2023.
+4. [name], [name], and [name]. TinyGPT-V: Efficient multimodal large language model via small backbones, 2023.
+5. [name], [name], [name], [name], [name], [name], [name], [name], [name], et al. Deepseek-v3 technical report, 2024.
+6. [name], [name], [name], and [name]. Visual instruction tuning, 2023.

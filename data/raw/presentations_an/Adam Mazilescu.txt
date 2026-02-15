@@ -1,0 +1,196 @@
+Prediction of motifs of transcription factor binding sites from amino acid sequences of proteins by artificial intelligence methods
+Student [name], [location]
+Academic advisor: Ph.D. in Technology
+[name]
+ICG SB RAS, Lab computer proteomics.
+[location] – 2025
+Introduction
+• Transcription factors (TF) are regulatory proteins
+that control the rate of transcription by binding to
+short sections of DNA called transcription factor
+binding sites (TFBS).
+• The task of detecting TFBS is one of the most
+important task of modern bioinformatics.
+• The detection of TFBS is essential for
+understanding transcription regulation in cells.
+• For example, the HOCOMOCCO database
+contains 1,120 TF whose motifs are known[1], but
+there are about 1,600 in total [2].
+[1] https://doi.org/10.1093/nar/gkad1077 - HOCOMOCO in 2024: a
+RCSB-PDB: 1A02
+rebuild of the curated collection of binding models for human and
+mouse transcription factors
+[2] 10.1016/j.cell.2018.01.029 - The Human Transcription Factors
+2
+Introduction
+TFBS Search Methods
+An experimental approach The computer approach
+• ChIP-seq • Based on alignment
+(CONSENSUS)
+• TF-SELEX • Based on probabilistic
+models (BaMMotif)
+• Electrophoretic mobility • Based on SVM (Kmer-
+shift assay (EMSA) SVM)
+• Based on deep learning
+• DNase footprinting (DeeperBind)
+They are based only on the nucleotide
+sequence and do not take TF information.
+3
+Protein language models (pLM)
+1. [name]
+2. [name]
+(a) Secondary Structure (b) Fold Prediction (c) Contact Prediction
+Prediction 3. [name]
+4. [name] (d) Fluorescence Prediction (e) Solubility Prediction (f) Localization Prediction
+[name] A. et al. [name]: Optimized Protein Language Model Unlocks General-Purpose Modelling 2023.
+4
+Goal and objectives
+The goal of the work:
+Development of a method for predicting transcription factor binding sites from
+protein sequences using generative artificial intelligence models.
+Objectives:
+1) Preparation of a sample of transcription factors and motifs necessary for
+training and evaluating the model.
+2) Reprresentation of amino acid sequences in the form of numerical matrices using
+the [name] Protein Language Model.
+3) The cnoice of a generative AI model for predicting the motifs of binding sites.
+4) Training a generative AI model to predict the motives of the binding site.
+5) Evaluation of the quality of motifs prediction.
+5
+Data
+PFM
+• The data was taken from databases –
+[name] v13, [name] (2014), [name].
+• Total unique motifs – 1110 (65% [name],
+35% [name]).
+• The motifs of only Vertebrate animals were
+selected.
+• Each motif is a positional frequency matrix
+(PFM)
+6
+Approaches to motif generation
+g g
+n n
+… M i d i d CGGCGCGC
+K 0 d d W
+L K 5 6 e b e b l e CGTCGCGC L A f i t
+Approach №1 [name] m m d T o
+A A
+S
+M 2 - e
+n
+e
+n
+o M
+G
+…
+GCAAC
+S U
+L
+M
+M S i e i a C
+E
+t m
+o
+o
+r
+P D
+1 × 𝑛
+𝑛 × 1280 𝑑 × 1280
+g g
+n n
+… M i d i d
+K L K 0 5 6 d e b d e b l e f i 𝑛 – length of the amino acid sequence;
+Approach №2 T m m d t o 𝑑 – The length of the DNA-binding domain.
+A A
+S
+M 2 - e
+n
+e
+n
+o M M
+M S i e i a
+E
+t m
+o
+o
+r
+1 × 𝑛 P D
+𝑛 × 1280 𝑑 × 1280
+https://github.com/Nikita17012002/Master_diploma/tree/main
+7
+Model prot2motif
+Protein embedding
+prev_hidden encoder hiddens
+attention
+Conv1D
+𝑠𝑐𝑜𝑟𝑒 = 𝑉𝑇 ∗ tanh(𝑊 𝑠 + 𝑈 ℎ )
+scores
+𝑎 𝑎 𝑖−1 𝑎 𝑗
+Linear
+exp(𝑠𝑐𝑜𝑟𝑒 )
+𝑖𝑗
+𝛼 =
+attn weights 𝑖𝑗 σ𝑑
+exp(𝑠𝑐𝑜𝑟𝑒 )
+𝑖𝑗
+Dropout 𝑘=1 𝑖𝑘
+𝑑
+𝑐 = ෍ 𝛼 ∗ ℎ
+Embbeedded context vector 𝑖 𝑖𝑗 𝑗
+𝑗=1
+hidden
+GRU
+GRU softmax Matrix
+encoder_outputs
+Encoder Decoder
+Neural Machine Translation by Jointly Learning to Align and Translate, Dzmitry Bahdanau, 2015 8
+The result of training the prot2motif model
+Loss function:
+𝑚 𝑛
+1
+𝑀𝑆𝐸 = ෍ ෍(𝐴 − 𝐵 )2
+𝑖𝑗 𝑖𝑗
+𝑚 ∗ 𝑛
+𝑖=1 𝑗=1
+𝑚 - the length of the motif (𝑚=25);
+𝑛 - the number of nucleotides (𝑛=5);
+𝐴 - the probability of the 𝑗 at position 𝑖
+𝑖𝑗
+source matrix;
+𝐵 - the probability of the 𝑗 at position 𝑖 the
+𝑖𝑗
+generated matrix;
+Training parameters:
+1) Optimizer – AdamW
+2) Learning rate = 0.001
+3) Dropout (Encoder) = 0.3
+4) Dropout (Decoder) = 0.2
+9
+The result of training the prot2motif model
+The Score-SW metric[3]:
+σ𝑚 (2 − σ (𝐴 − 𝐵 )2)
+𝑖=1 𝑗∈{𝐴,𝐶,𝐺,𝑇} 𝑖𝑗 𝑖𝑗
+𝑆𝑊𝑠𝑐𝑜𝑟e =
+2𝑚
+𝑚 - the length of the motif (𝑚=25);
+𝐴 - the probability of the 𝑗 at position 𝑖
+𝑖𝑗
+source matrix;
+𝐵 - the probability of the 𝑗 at position 𝑖 the
+𝑖𝑗
+generated matrix;
+The reference model of the motif MA0650.4
+The generated motif model MA0650.4
+10
+[3] https://doi.org/10.1016/j.jmb.2004.02.048 - Constraind Binding Site Diversity within Families of Transcription Factors Enhances Pattern Discovery Bioinformatics
+Conclusions
+1) A selection of transcription factors and motifs necessaary for training and
+evaluaating the model has been prepared.
+2) Matrix representations of amino acid sequences were obtained using the
+[name] proteiin language model.
+3) A generative model of the seq2seq type has been chosen to solve the
+prediction problem.
+4) The prot2motif generative model has been trained to predict binding site
+motifs.
+11

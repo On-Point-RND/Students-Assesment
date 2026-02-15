@@ -1,0 +1,72 @@
+This is a comprehensive and well-structured presentation on the topic of machine unlearning in large language models (LLMs). Here's a summary of the key takeaways from each slide:
+
+**Slide 1: Introduction**
+* **Topic:** Machine Unlearning in LLMs
+* **Presenter:** Borisiuk Anna, Research Scientist at AIRI x Sbier AI Lab
+* **Focus:** Briefly introduces the concept of selectively removing the influence of specific training data from pre-trained LLMs.
+
+**Slide 2: Introduction - Importance**
+* **Definition:** Explains what machine unlearning entails – removing the impact of certain data points while preserving the model's overall knowledge.
+* **Key Motivations:** Highlights the importance of unlearning for:
+    * **Privacy:** Implementing "right to be forgotten" principles (e.g., GDPR).
+    * **Safety:** Mitigating harmful or biased content.
+    * **Efficiency:** Avoiding costly retraining when specific data needs to be removed.
+
+**Slide 3: Introduction - Challenges**
+* **Complexity:** Mentions the inherent difficulty in precisely targeting and removing specific knowledge from LLMs.
+* **Ongoing Research:** Indicates that this is an active area of research with many approaches being explored.
+
+**Slide 4: Introduction - Overview of the Presentation**
+* **Structure:** Outlines the topics to be covered in the presentation, including benchmarks, metrics, and research gaps.
+
+**Slide 5: Benchmarks**
+* **Purpose:** Discusses the various benchmarks used to evaluate unlearning techniques.
+* **Examples:** Mentions CLEAR (Character Unlearning in Textual and Visual Modalities) as a key benchmark.
+
+**Slide 6: Metrics**
+* **Purpose:** Explains the different metrics used to assess the effectiveness of unlearning methods.
+* **Key Metrics:**
+    * **ROUGE-L Recall:** Measures the overlap of recovered reference words.
+    * **Probability Score:** Assesses the model's confidence in the correct answer.
+    * **Truth Ratio:** Compares the model's confidence in the correct answer versus incorrect options.
+
+**Slide 7: Metrics - Analysis of Methods**
+* **Evaluation of Techniques:** Provides a summary of how different unlearning methods perform based on the discussed metrics.
+* **Key Findings:**
+    * Many classic methods (KL, GA, GD) are too destructive, leading to a significant drop in performance on retained data.
+    * LLMU shows promise on Mistral but is less effective on LLaMA-2.
+    * RUM and SCRUB have limitations in scalability to large models.
+    * IDK, DPO, and SCRUB are generally reliable at preserving the retain set but less effective at forgetting.
+
+**Slide 8: Conclusion**
+* **Current Status:** Concludes that selective untraining is achievable but not perfect.
+* **Key Trade-offs:** Identifies the important trade-offs between forgetting quality, utility preservation, and efficiency.
+* **Future Directions:** Emphasizes the ongoing research and the need for more robust benchmarks and metrics.
+
+**Slide 9: Research Gap**
+* **Lack of Understanding:** Highlights the limited understanding of how knowledge is stored within LLM parameters and activations.
+* **Unresolved Challenges:** Lists several key challenges in the field, including:
+    * Handling entanglement and other difficulty axes.
+    * Achieving provable unlearning guarantees.
+    * Scaling techniques to billion-parameter models.
+    * Developing holistic forgetting metrics.
+
+**Slide 10: Research Gap - Importance**
+* **Real-World Applications:** Explains the practical importance of unlearning for:
+    * Regulatory compliance (privacy).
+    * Safety and bias mitigation.
+    * Efficient content management.
+
+**Slide 11: Research Gap - Future Opportunities**
+* **Potential Research Directions:** Suggests promising avenues for future research, such as:
+    * Developing more nuanced difficulty profiling.
+    * Utilizing meta-learning for unlearning schedules.
+    * Exploring parameter-efficient fine-tuning modules for unlearning.
+    * Creating standardized evaluation frameworks.
+
+**Slide 12: Bibliography**
+* **List of Key Papers:** Provides a list of important research papers in the field of machine unlearning for LLMs.
+
+**Overall Impression:**
+
+This presentation provides a clear and informative overview of machine unlearning in LLMs. It effectively explains the motivations, challenges, current approaches, and future research directions in this rapidly evolving field. The inclusion of benchmarks, metrics, and a list of key papers makes it a valuable resource for anyone interested in this topic. The emphasis on the ongoing research gaps and future opportunities highlights the active and important nature of this area.

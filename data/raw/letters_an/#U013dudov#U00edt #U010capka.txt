@@ -1,0 +1,39 @@
+SMMIILLEESS 22002255
+Hello everyone!
+My name is [name], I am currentlly a 4th year student of program "Applied mathematics and
+informatics" at the faculty of Computational Mathematics and Cybernetics of [location] [university]. I am very inspired to participate in the SMILES Summer SchooL of machine learning,
+as I am very interested and passionate about this field.
+My introduction to machine learning started in my 3rd year of universiity. As I built my first models, I
+realized how fascinating this process can be. As I gradually completed assignments, trained models,
+and tried to improve their quality, I became more and more passionate about this field. During my
+studies, I was introduced to classical machine learning algorithms and explored ways to work with
+text, images, and sound in a deep learning course.
+I participated in two research projects that applied classical machine learning techniques to real
+medical data. The first study aimed to predict the presence of certain risk factors in patients based on
+their lifestyle, medical history, and questionnaire results. The CatBoost gradient bousting algorithm
+was chosen as the basic algorithm, and after careful work on data cleaning, feature selection, and
+normalization, a quite good result was achieved: F1 score on the test sample was 0.95.
+The second study was designed to predict the occurrence of infectious complications in patients
+following colorectal cancer surgery. Based on preoperative and operative patient characteristics,
+three machine learning algorithms were compared: Random Forest, CatBoost, and SVM with
+nonlinear kernel. The best result was achieved by CatBoost with an F1 score of 0.84 on the test
+sample. In both studies, careful preprocessing and feature selection played a key role, a step I paid
+special attention to because it largely determines the success of the model.
+For me, the Summer SchooL is a unique opportunity to deepen my knowledge about large language
+models, multimodal solutions and generative approaches in a short period of time. I especially like
+the format of getting up-to-date knowledge from the leading researchers in the field. In addition to
+gaining knowledge, I see the schooL as a platform for live interaction with like-minded people and
+sharing experiences. The opportunity to work on a real team project is particularly valuable to me.
+And of course, it is a chance to visit [location] and experience a completely different culture.
+From participating in the schooL, I expect not only to increase my hard skills, but also to develop a
+more holistic understanding of where the field of artificial intelligence is heading globally.
+In the future, I plan to work in the field of computer vision, specifically in the development of self-
+driving vehicles. I am inspired by the opportunity to create technologies that make our world safer
+and more comfortable. I am sure that the knowledge gained during the summer schooL, especially in
+the area of multimodal models, will be a solid foundation for further work in this field.
+Thank you very much for considering my application. I look forward to participating in the SMILES
+2025 and being immersed in an intensive learning environment.
+Sincerely,
+[name]
++2 *** *** ***
+[email]

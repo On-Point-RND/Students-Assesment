@@ -1,0 +1,45 @@
+[name] [surname]
+ML engineer
+[email] +2 *** *** *** t.me/[name] github.[compaany].com/[name][surname]
+Education Hackathons
+BusinessInformatics
+TOP3HSESBERRecSysHack(2024)
+TOP624hoursat[compaany](2024)
+[location]Uni[compaany] Plekhanov
+09/2022-06/2026
+Extracurricular activities
+Projects
+Participantof the Winter School of Analytics and DS
+SentimentAnalysis(2024) of the Higher School of Economics
+As a service for recognizing positive and negative comments.(BERT,LSTM,RNN,TF-
+Participantof the CVSchool of Data Analysis
+IDF+LogReg)
+intensive course & [compaany]
+HSESBERRecSysHack(2024)
+Cross-domain recommendations(ALS,
+CatBoost,Most popular) Scientific article
+[name]."Analysis of wav2vec2 and whisper-
+24hours at [compaany](2024) medium speech recognition models for computer
+control"
+As a service that receives an article and
+converts it into an audio dialogue (Prompt
+engineering, [compaany] VoiceKit)
+Courses
+Automatic Speech Recognition(2024)
+Professional retraining "Machine Learning for Data
+Wav2Vec2,Whisper-medium Analysis"(2024) [location]Uni[compaany]
+Economics
+DeepLearningSchool(2024) MFTI
+Work experience
+Docker(2024) [compaany] courses
+Assistant to the ML/DL seminar in
+Data Science(2024) [compaany].Practicum
+[location]Uni[compaany]
+Checking and correcting the code
+Explanation of the b-wear material Languages
+Correction of materials
+English
+Professional Working Proficiency
+Head
+REUDS Club
+was the organizer of about 40 ds events

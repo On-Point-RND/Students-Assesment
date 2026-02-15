@@ -1,0 +1,48 @@
+[name] [surname]
++2 *** *** ***
+[location]
+[email]
+Datascientist
+[email]
+[location]
+[location]
+[compaany]
+[email]
+[email]
+EDUCATION
+Master of Science in Data Science, [compaany] 2023-2025
+Bachelor of Science in Software Engineering, [location] Technological University-MIREA 2019-2023
+JOB EXPERIENCE
+Junior Researcher (prev. Intern for 5 months)-[compaany] Feb2025–Current
+• implementededitingalgorithms(Guide&Rescale,Prompt-to-prompt) for Kandinsky-3 architecture
+• adaptation and enhancement of person-adapted for distilled diffusion models
+Teaching Assistant-Standard Data July 2024–Current
+• development of course materials about diffusion models for [compaany]
+Teaching Assistant-Skoltech Sep2024–Sep2024
+• developed materials and organized new educational event at Skoltech as part of Innovation Workshop 2024
+C# Desktop developer-Freelance Oct2020–Nov2021
+• developed desktop application with .Net WPF for educational purposes in aviation
+SKILLS
+Tools and Languages Python(numpy,torch,scikit-learn,pytorch,pandas,matplotlib,etc.), catboost, xgboost, streamlit, Bash, Linux, Git, Github, PostgreSQL, Docker, LATEX
+Theoretical background Data Structures & Algorithms, Numerical Linear Algebra, Machine Learning, Deep Learning, Generative Models
+Communication English(fluent,C1 certified by TOEFL), leadership, public speaking, presentation
+PROJECTS
+Developer,Researcher/Adaptation of editing methods to Kandinsky-3 model June2024—July2024
+[compaany]
+• Adapted "Guide&Rescale" and "Prompt-to-prompt" editing methods with various inversion methods to Kandinsky-3 model
+• Validated all methods on selected datasets of images and editing prompt pairs, showed "Guide&Rescale" superiority compared to others
+• Literature analysis and presentation on group meetings, debugging and reverse-engineering code of used methods, re-implementation for new architecture and parameter tuning
+Developer,Researcher/TextGraph-17 Workshop-Knowledge Graph Question Answering March—July 2024
+Skoltech-DLinNLP
+• Published a paper at ACL workshop about solving question answering with knowledge graphs and LLMs, available here
+• Performed EDA on texts and graphs, prepared fine-tuning baseline with LoRA, paper writing and editing
+Study of GLOW: Generative Flows within inevitable 1x1 Convolutions Dec2023
+Skoltech-Bayesian Methods of ML
+• Reverse-engineered and studied architecture of GLOW model
+• Measured image quality by binary turning on and inner blocks of architecture, studied its effect on latent representations interpolations
+• Literature review related to generative flows, writing code for training and manipulation of network blocks and interpolations
+Developer,Manager,UX/ColorJoy: telegram bot for generating coloring pages September 2023
+Skoltech-Innovation Workshop
+• Developed telegram bot for generating coloring pages for kids from textual description
+• Validated product quality through custom dev and in front of jury at IW-2023, successfully defended project in front of jury with high grade (>80%)
+• Ideated project goal, structure, organized working process, developed backend of bot, interaction with StabilityAI API, content generation

@@ -1,0 +1,123 @@
+Detection of Covolcanic
+Ionospheric Disturbances Using
+GNSS Data and Machine
+Learning
+[name]
+Junior Research Fellow, Computing Center of [compaany],
+[location]
+Introduction
+• Volcanic eruptions (VEI 2–6) can generate covolcanic ionospheric disturbances (CVIDs) in ionosphere
+• To study CVIDs, we analyze time series of Total Electron Content (TEC), reconstructed from Global
+Navigation Satellite System (GNSS) data (GPS, GLONASS etc.).
+• CVID research is important both for understanding their amplitude–frequency characteristics and for
+practical applications such as monitoring hazardous geophysical events – volcanic eruptions
+Problem statement
+• What exactly are we solving?
+Automatic Detecting of covolcanic ionospheric disturbances (CVIDs) in GNSS-derived TEC data.
+• Challenges
+Large-scale GNSS dataset: thousands of files to process and analyze.
+Existing detection methods (STA/LTA, DROT) often fail to distinguish volcanic signaals from non-
+volcanic anomalies.
+• Scope
+Develop a machine learning–based approach capable of automatically classifying TEC time
+series.
+Methods
+• Approach: Gradient boosting (XGBoost) and FCN for binary timeseries classification
+CVID
+Classifier
+Noise
+Methods
+• Approach: Gradient boosting and FCN for binary timeseries classification.
+• Why these methods? ML/DL approaches are widely used for time series classification in
+geophysics domain. TEC signaals are often noisy and non-stationary, making classical methods
+(e.g. STA/LTA, DROT) unreliable.
+• How it works (simply): Machine learning model to recognize patterns in TEC time series that are
+typiical for covolcanic disturbances. It learns to distinguish them from other types of anomalies
+based on labeled examples.
+Methods
+• Data & preprocessing:
+• TEC time series reconstructed from GNSS data
+• Detrending to highlight disturbances
+• Feature extraction: some statistical and FFT-based features (spectral entropy, skewness etc.)
+• Labeling: manual annotation of CVIDs vs. Noise
+• Splitting: train/test split with temporal separation to avoid leakage
+• A training dataset was created with two labeled classes: Noise — 18,441 samples, CVID — 318
+samples, each sample corresponds to a 45-minute segment of TEC time series.
+• The dataset is highly imbalanced, which presents additional challenges for classification.
+Methods
+• Data & preprocessing:
+Explosi
+TEC
+Geographic ve GNSS
+Volcano Event time GNSS Network timeseries Purpose
+Place index stations
+count
+(VEI)
+June 14-15 [location], 2009, 18:51 (http://www.igs.o
+4 318 18958 Train
+[location], KurilNet,
+UTC KamNet
+April 22 [location] Chile 2015, 21:04 4 25 (http://www.igs.o
+962 Test
+UTC rg/)
+January 15 [location]
+[location] Tonga 2022, ~4:02 5 11 (http://www.igs.o 336
+[location] Hunga Haapai
+UTC rg/)
+Methods
+• Algorithm for CVIDs detection
+2. 1.
+w
+t+
+1
+TEC Series
+w
+t
+Features calculation
+Classification
+3.
+4.
+No Is Yes
+Store window
+CVID
+time Detected CVIDs
+class?
+Results
+• Main Metrics used: Matthews Correlation Coefficient (MCC) — robusst to class imbalance
+𝑇𝑃 ⋅ 𝑇𝑁 − 𝐹𝑃 ⋅ 𝐹𝑁
+𝑀𝐶𝐶 =
+𝑇𝑃 + 𝐹𝑃 𝑇𝑃 + 𝐹𝑁 𝑇𝑁 + 𝐹𝑃 𝑇𝑁 + 𝐹𝑁
+𝑟𝑒𝑐𝑎ll ⋅ 𝑝𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛 𝑇𝑃
+𝐹 = 2 =
+1
+𝑟𝑒𝑐𝑎ll + 𝑝𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛 𝑇𝑃 + (𝐹𝑃 + 𝐹𝑁)/2
+𝑇𝑃 𝑇𝑃
+𝑝𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛 = , 𝑟𝑒𝑐𝑎ll =
+𝑇𝑃 + 𝐹𝑃 𝑇𝑃 + 𝐹𝑁
+Results
+• Evaluation of Classifier's Performa nce in CVID Detection Algorithm
+Total
+Files with Detected CVIDs False positives
+Event TEC Classifier
+CVID count (average per file)
+files
+[location], [location] Hnga [location], 2022 FCN 26 (81.25%) 90 (0.27)
+336 32
+[location], [location] Hnga [location], 2015 XGBoost 27 (84%) 58 (0,17)
+[location], [location] Calbuco, 2015 962 100
+FCN 98 (98%) 213 (0,22)
+[location], [location] [location] 2023 STA\LTA 53 (53%) 866 (0,9)
+Research gap
+• Limitations: High class imbalance affects detection stability (especially for NN classifier)
+• Existing models still produce false positives on non-volcanic noise
+• Apply semi-supervised learning to reduce reliance on manual labels
+• Use GNNs or transformers to capture temporal and spatial dependencies
+• Apply semi-supervised learning to reduce reliance on manual labels
+• Use GNNs or transformers to capture temporal and spatial dependencies
+Bibliography
+1. A. [name]. Compa rison of ML and DL Methods in the Problem of Classifying TEC Waveforms. Informational techno logies and computational
+systems, 2025
+2. A. [name], A. [name], N. [name], M. [name], N. [name]. Detecting covolcanic ionospheric distu rbances using GNSS data and a machine learning
+algo rithm. Advances in Space Research, 2025
+3. A. [name], A. [name], N. [name], N. [name], M. [name], H. [name]. Application of machine learning methods for detection of covolcanic
+ionospheric distu rbances by GNSS observations data. 2023

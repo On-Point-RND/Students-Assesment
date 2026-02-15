@@ -1,0 +1,33 @@
+[name] [surname]
+WEB AND MOBILE DEVELOPER
+[email]
++2 *** *** ***
+’ [company], [location]
+§ GitHub ID: [name][surname]
+(cid:18) tg:@[name][surname]
+(cid:9) Skills
+(cid:2) Technical skills
+(cid:19) ı Databases
+MySQL
+(cid:19) — Datascience
+Python • C++ • C# • HTML • CSS • JavaScript
+(cid:19) { Tools
+Git • Docker • LATEX
+(cid:19) (cid:242) OS
+Ubuntu
+· Soft skills
+(cid:19) Problem-solvingandcriticalthinking
+(cid:19) Communication
+(cid:19) Self-awareness
+(cid:19) Self-learning
+(cid:19) Timemanagement
+(cid:19) Accountability
+(cid:135) Education
+TheBachelorofComputerScienceandDataAnalysis 2022-now
+highschoolofeconomics-[location], [location]
+« Hobbies & Interests
+(cid:19) f Art
+(cid:19) s Videogames
+(cid:19) c F1race
+(cid:19) t Pets
+(cid:19) G Sleeping

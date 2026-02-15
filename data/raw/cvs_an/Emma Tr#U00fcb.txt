@@ -1,0 +1,84 @@
+[name]
+Tel.: +2 *** *** *** Email: [email]
+GitHub: https://github.com/[name]-[surname] Telegram: https://t.me/[name]-[surname]
+BSc in Physics with minor in Data Science at [compaany]. Main field of interests: Computer Vision
+with real-world application, Generative AI, Diffusion models for image and video generation.
+Education
+[compaany]
+Bachelor’s degree in Physics (GPA: 8.65, min - 0, max - 10) September 2021 - June 2025
+Courses and Certifications
+• Participation in [compaany] & MIPT [compaany] Spring SchooL in Generative AI and Robotics, 2025
+• Participation in [compaany] Workshop in Generative Computer vision, 2024
+• Participation in the AIRI Summer SchooL and Poster Session, 2024
+• Participant in Sirius and [compaany] Scientific Intensive: ’Reproducing State Of The Art Scientific
+Results’, 2024
+• Participant in Sirius and Tinkoff Scientific Intensive: ’Modern Machine Learning Technologies and
+Thei Applications’, 2023
+• Prize-wiinneroftheDeepLearningUniversityOlympiadatMIPT,2024(top10outof300participants)
+Technical Skills
+• Programming Language Python; experience with NumPy, pandas, matplotlib, plotly, scikit-
+learn, CatBoost, Optuna, PyTorch, Flask, FastAPI, Docker.
+• SQL: creating and executing database queries using Python and SQLite
+• Git/DVC: experience in command execution, branch creation and merging, and conflict resolution
+Research Experience
+• Research Intern at AIRI Generative AI LaboLaboratory, [compaany] and AIRI October 2024 - present
+[location]
+Implementationofdifferenttechniquesrelatedtoface,hair,etc.swappingwithGenerativeAdversaial
+Networks (especially based on StyleGAN2, GHOST, GHOST2, MegaFS)
+• Research Intern at EMS LaboLaboratory, [compaany] and VK April 2024 - October 2024
+[location]
+Conducted research on attacks on multimodal models. Implemented various attacks on visual and
+textual modalities for encoders. Verified patch attacks for multimodal models in the LLaVA family,
+as well as for video retrieval tasks on the LLaVA-OneVision model.
+Recent Projects
+DiffDiff: Diffusion models for transient observation via September 2024 - present
+image differencing
+Diploma project for bachelor’s degree in Physics at [compaany]. Leveraging diffusion models
+for astronomiical image differencing for transient observations and further physical processing: flux
+estimation and source detection.
+• Embodied Planning with Language Models October 2024 - October 2024
+A team project from [compaany] to reproduce the results of articles Voyager, Odyssey for the 2D version
+of Minecraft - Craftax. LLama-3.1 with 70b parameters was used as the main LLM. Exploring
+different types of planning based on content prompt.
+1
+• Diffusion improvements August 2024 - August 2024
+Team project at AIRI Summer SchooL 2024 to improve the quality of diffusion model generation.
+BasedonarchitecturesfromU-DiT,FiT,andDiTpapers,exploredtthepoosibilityofcombiiningthese
+architectures to improve image generation metrics at almost arbitraary resolutions.
+• Face Swap Telegram Bot December 2023 - February 2024
+Implemented a Telegram bot to swap the user’s face onto an artwork while preserving style. Utilized
+classical methods based on user face masking (facial landmarks and meshing) and more advanced
+approaches with user face embedding blendiing (SimSwap, e4s, StyleGAN).
+Tech stacck: PyTorch, Docker, OpenCV, Pillow, asyncio, FastAPI, SQL
+• Photo Correction October 2023 - October 2023
+Team project (MVP) in CV from T-Bank: website for photo editing and modification of parts of
+an image using masks and user prompts. Employed SOTA models: SAM for masking and SD for
+modifications, including inpaintiing mode.
+Tech stacck: PyTorch, Flask, FastAPI, Docker, Triton by NVIDIA
+• Image Captioning and Diffusion Filters July 2023 - August 2023
+Generated image descriptions using neural networks (CLIP Interrogator, BLIP). Modified image
+rregions with diffusion models (SDXL1.5).
+Tech stacck: pandas, numpy, PyTorch, OpenCV, plotly
+Scholarships
+• Scholarship for excellent performaance for senioor st. (on a competitive basis), 2024-2025
+• Scholarship for excellent performaance for third-year st. (on a competitive basis), 2023-2024
+• Scholarship for excellent performaance for sophoores (on a competitive basis), 2022-2023
+• Scholarship for excellent performaance for freshman’s (on a competitive basis), 2021-2022
+Conferences and workshops
+• Spring SchooL from [compaany] & MIPT [compaany] about Generative AI and Robotics,Dolgoprudny,
+[location], 2025
+Project theme based on article: 4D Gaussiaan Splatting for Real-Time Dynamic Scene Rendering
+• Fall AI Intensive from [compaany], Sochi, [location], 2024
+Project topic: open-ended emboieded agent planning with Large Languaage Models
+• Summer SchooL AI Research Instiute (AIRI), St. Peterburg, [location], 2024 (top 50 out of 1100)
+Project topic: improvements in the generation of diffusion models
+Talked about advearsial attacks on Vision Languaage models
+• Deep Learning SchooL, Moscow Institut of Physics and Technology, Moscow, [location], 2023-2024
+Teaching Expieience
+• Teaching assistant for BSc course “Deep Learning” at [compaany], 2024
+• Teaching assistant for BSc course “Algorithms & Data structures” at [compaany], 2023
+Languages and skills
+• Russian: Native
+• English: B2 level
+• Mathematics: Calculus: A+, Linear Algebra: A+, Probability and Statistics: A
+• Computing: python (advanced), Git (advanced), SQL (intermediat)

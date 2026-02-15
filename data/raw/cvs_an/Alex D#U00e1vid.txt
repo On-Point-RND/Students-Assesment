@@ -1,0 +1,42 @@
+[name] [surname] (cid:131) +2 *** *** ***
+[location] [compaany] (national Research [location]), [location]
+§ GitHub Profile
+EDUCATION
+•[location] [compaany] (national Research [location]) 2021-present
+Phystech School of Aerospace Technology,Applied mathematics and physics GPA: 8.7
+WORK EXPERIENCE
+•Arctic and Antarctic Research [compaany] 2023-2025
+leading engineer [location]
+– Thermodynamic model refinement in the INMIO global ocean model.
+Programming language: Fortran/C++
+•[location] [compaany] (national Research [location]) 2025-present
+technician [location]
+– Modeling of physical processes using numerical simulation and machine learning.
+Programming language: Python
+Projects
+•Modeling of the growth process of crystal structures Programming developer
+– Process visualization using SFML library
+– The theoretical dependencies were confirmed
+– Used OOP to structure the code
+– Multithreaded programming was used, speeding up the process by 150%
+•Modeling of turbulent transport of impurities in ABL Programming developer
+– Application of numerical LES model for physical process modeling
+– Application of statistical machine learning models
+– Use of various methods of data processing and analysis
+– Used OOP to structure the code
+•Satellite data acquisition and processing Programming developer
+– Receiving satellite audio signal and converting to color image
+– Used PIL library for image output
+– Used pyorbital library to obtain cordinates
+SKILLS
+Programming language: С++, Python, Fortran, Go
+Technology: git, cmake, HDFS
+Frameworks: Clion, Pycharm, Visual Studio, GoLand
+Operating system: Windows, Linux
+Positive qualities: Responsibility, punctuality, motivation
+Hobbies: Sports (Skiing, chess)
+COURSES COMPLETED
+•Math and Python for data analysis Coursera
+•Multithreaded programming on С/С++ Stepik
+•Go SHAD programming course as part of the MIPT education course MIPT
+•ML SHAD programming course as part of the MIPT education course MIPT

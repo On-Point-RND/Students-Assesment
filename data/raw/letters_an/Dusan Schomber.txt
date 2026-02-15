@@ -1,0 +1,53 @@
+Motivation Letter for SMILES-2025
+Ever since I began my studies at [location] and discovered the world of deep learning,
+I’ve been captivated by the applications of 2D computer vision and its intersection with the
+physical world through various sensors and 3D geometry. My journey began with research
+(which later led to a thesis) in 3D reconstruction, where I first encountered the power of
+combining data-driven models with spatial understanding. This experience was very
+important: it opened my eyes to the potential of learning from visual data and inspired me to
+seek out every opportunity to further explore computer vision, sensor integration, and
+geometric learning.
+From that point forward, I deliberately searched for research and professional projects
+that allowed me to work with 3D geometry, classic computer vision, or sensory data. I’ve
+always been fascinated by how machines can perceive and understand the world around them
+— especially when combining multiple modalities. And the more I surrounded myself with
+people who shared this interest, the more inspired I became. Being part of such a community,
+exchanging ideas, and imagining the kinds of solutions we can create together — these
+experiences constantly fuel my desire to grow and innovate in this field.
+Currently, I work at [company], a company developing driver monitoring systems (DMS)
+based on in-cabin infrared cameras. My role involves working at the intersection of sensors,
+perception algorithms, and real-time applications. This hands-on experience with real-world
+computer vision systems has deepened my appreciation for the challenges and importance of
+robust perception in safety-critical environments. As [company] began expanding into
+autonomous driving technologies, I find myself eager to transition into this direction as well.
+In particular, I am deeply interested in how multimodal learning can be applied to the
+challenges of autonomous driving. Fusing different types of data — images, LIDAR, radar,
+GPS, even audio — holds enormous promise in making autonomous systems safer and more
+context-aware. I see SMILES-2025 as an opportunity to not only dive deeper into multimodal
+approaches but also learn about other cutting-edge ideas, such as generative models in the
+context of autonomous systems (e.g. to synthesize useful training datasets). I want to
+understand how such models can improve perception, planning, or simulation capabilities for
+self-driving cars.
+Beyond learning, I’m also excited about the community aspect of the school. I believe
+that some of the best learning comes from discussions with others — hearing how different
+people approach the same problem, what assumptions they challenge, and what ideas they
+bring from their own experience. I hope to meet new colleagues and collaborators who can
+challenge my thinking, inspire new projects, and perhaps even shape the direction of my
+future research.
+At the same time, I’m committed to becoming a better professional and sharing my
+knowledge with others. As a teaching assistant for a video processing and computer vision
+course in AI Masters, I lead seminars for students just starting their journey into this field.
+Teaching helps me stay up to date with the latest architectures and ideas, and keeps me
+grounded in the fundamentals. It’s important to me to remain in touch with the broader
+trends in deep learning, and I believe SMILES-2025 will help me gain deeper insights into
+current methods and challenges — especially those that go beyond traditional vision tasks
+and involve the rich complexity of multimodal learning.
+Ultimately, I see participation in this school as a step forward — not just in my career,
+but in my ability to contribute meaningfully to a field that I truly care about. I want to create
+things that help others, that can be used in the real world, and that push the boundaries of
+what we believe is possible with machine perception. I hope this school will be a place where I
+can grow, exchange ideas, and continue building that future — together with others who are
+just as passionate about it as I am.
+Thank you for considering my application.
+Sincerely,
+[name]

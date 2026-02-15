@@ -1,0 +1,10 @@
+{
+  "silhouette_correlations": {
+    "School ROC AUC": -0.1045,
+    "Project ROC AUC": 0.2582,
+    "Avg. ROC AUC": 0.1543,
+    "School F1 Score": -0.1477,
+    "Project F1 Score": 0.3092,
+    "Avg. F1 Score": 0.1416
+  }
+}

@@ -1,0 +1,195 @@
+Review of articles
+[name] [surname]
+1. Integrating Multimodal
+Data for Joint Generative
+Modeling of Complex
+Dynamics
+Introduction
+Objective - Develop a framework for
+reconstructing nonlinear dynamical
+systems (DS) from multimodal time
+series (e.g., continuous, discrete,
+categorical).
+Motivation - Real-world systems (e.g.,
+neuroscience, climate) generate
+heterogeneous data (spike counts,
+behavioral labels, continuous signals).
+Existing DS reconstruction (DSR)
+methods assume unimodal, Gaussian
+observations.
+Introduction
+Key Idea:
+Combine multimodal variational
+autoencoders (Movies) with teacher
+forcing (TF) to guide DSR training.
+Enable reconstruction from
+symbolic data alone (e.g.,
+behavioral labels).
+● Data Heterogeneity: Mixed
+Problem
+continuous/discrete
+observations.
+Statement
+● Training Instability: Chaotic
+systems exacerbate gradient
+issues (exploding/vanishing).
+● Latent Alignment: Fusing
+modalities into a shared
+dynamical representation.
+Methods
+Framework: Multimodal Teacher Forcing (MTF)
+1. DSR Model:
+dendPLRNN (piecewise-linear RNN) to approximate latent dynamics.
+Captures chaos via sparse, interpretable structure.
+2. Modality-Specific Decoders:
+Gaussian: Continuous signals (fMRI).
+Ordinal/Categorical: Behavioral labels.
+Poisson/Negative Binomial: Spike counts.
+3. MVAE for TF Signal:
+Encodes multimodal data → shared latent space.
+Generates sparse TF signals to stabilize training.
+Results
+1. Multimodal Integration Improves DSR:
+- MTF outperforms SVAEs (Table 1):
+- Lower Dstsp (geometric error) and DH
+(temporal error).
+- Robust to high sparsity (Figure 1).
+- Example: fMRI + behavior labels → better
+latent trajectories (Figure 5).
+2. Reconstruction from Discrete Data:
+- Ordinal-only observations → recover Lorenz
+attractor (Figure 4).
+- Symbolic coding (4×4×4 grid) → preserves
+topoology.
+3. TF vs. Alternative:
+- MTF > Multiple Shooting: Better long-term
+stability.
+- MTF > Gaussianized Data: Preserves
+modality-specific statistics.
+1. Multimodal Integration Improves DSR:
+- MTF outperforms SVAEs (Table 1):
+- Lower Dstsp (geometric error) and DH
+(temporal error).
+- Robust to high sparsity (Figure 1).
+- Example: fMRI + behavior labels → better
+latent trajectories (Figure 5).
+2. Reconstruction from Discrete Data:
+- Ordinal-only observations → recover Lorenz
+attractor (Figure 4).
+- Symbolic coding (4×4×4 grid) → preserves
+topoology.
+3. TF vs. Alternative:
+- MTF > Multiple Shooting: Better long-term
+stability.
+- MTF > Gaussianized Data: Preserves
+modality-specific statistics.
+1. Multimodal Integration Improves DSR:
+- MTF outperforms SVAEs (Table 1):
+- Lower Dstsp (geometric error) and DH
+(temporal error).
+- Robust to high sparsity (Figure 1).
+- Example: fMRI + behavior labels → better
+latent trajectories (Figure 5).
+2. Reconstruction from Discrete Data:
+- Ordinal-only observations → recover Lorenz
+attractor (Figure 4).
+- Symbolic coding (4×4×4 grid) → preserves
+topoology.
+3. TF vs. Alternative:
+- MTF > Multiple Shooting: Better long-term
+stability.
+- MTF > Gaussianized Data: Preserves
+modality-specific statistics.
+2.Generative Active Learning
+for Long-Tailed Instance
+Segmentation
+Introduction
+Recent advances in large-scale
+language-image generative models
+(e.g., Stable Diffusion) have enabled
+the synthesis of high-quality data for
+perception tasks like instance
+segmentation. However, not all
+generated data benefiits downstream
+models equally, and existing methods
+lack systematic approaches to select or
+filter this data effectively.
+● Traditional Active Learning:
+Designed for limited real data
+Problem
+with expensive human
+annotation.
+Statement
+● Naive Generative Data Usage:
+Either mixes all generated data
+or uses simple heuristics (e.g.,
+CLIP filtering), ignoring
+per-sample utility.
+Methods
+The method focuses on estimating the contribution of each generated sample to
+model performance, then selectively using the most beneficial samples.
+1. Contribution Estimation:
+Uses gradient-based approach to estimate how much each generated sample
+improve model performance
+Employs first-order Taylor approximation for efficiency
+2. Batched Streaming Processing:
+Handles data in batches to fit practical training scenarios
+Makes online accept/reject decisions for each batch
+3. Gradient Cache:
+Maintains momentum-based gradient history for stable estimation
+Balances stability and diversity
+Results
+1. BSGAL outperforms both
+unfiltered and CLIP-filtered
+baselines
+2. Particularly effective for rare
+categories in long-tailed
+distribution
+3. More efficient use of generated
+data compared to naive
+approaches
+3.On the Role of Edge
+Dependency in Graph
+Generative Models
+Introduction
+Graph generative models are crucial
+for modeling complex networks across
+domains like social science, biology,
+and economics. However, existing
+methods face a fundamental trade-off:
+Reprresentation Power: Abiitly to
+generate graphs with realistic
+properties (e.g., high triangle counts in
+social networks).
+Ovrelap: Diversity of outputs versus
+regurgitation of training data.
+Limitations of Prior Work:
+Problem
+● Most theoretical analyses focus
+Statement
+on EI models, ignoring modern
+AD/NI methods.
+● No unified framework to
+compaare models across
+dependency levels.
+Methods
+Theoretical Analysis - proofs use integral inequalities (generalizing
+Cauchy-Schwarz) to bound expected triangle counts, tight examples (e.g., planting
+cliques with probability p) show bounds are asymptotically optiomal.
+Proposed Models:
+1. MCEI/MCNI/MCAD: Generate graphs by sampling maximal cliques from the
+input with probability p, then filling residual edges via an odds-product model.
+2. Key Insight: Dense subgraphs (cliques) naturally encode edge dependencies.
+Results
+1. Trade-off Confirmed: AD models (e.g., MCAD)
+achieve higher triangle counts at lower overlap
+than EI/NI models (Figure 1).
+2. Simple Baselines Competitive:
+MCEI/MCNI/MCAD match or outpfeform deep
+learning methods (CELL, GraphVAE) in
+low-overlap regimes.
+3. Deep Learning Limitations: Graphview strugbles
+to generalize beyond memoization; GAME fails to
+capture sparsiity and triangles simultaneously.
+4. Datasets: Evaluated on real-world networks (e.g.,
+POLBLOGS, PPI) and synthetic graphs.

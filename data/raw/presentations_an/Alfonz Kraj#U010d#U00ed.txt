@@ -1,0 +1,35 @@
+Ethics and Explainability in AI
+[name] [surname]
+[location]
+Ethics and Explainability in AI – Analyzing ethical concerns in AI and
+developing methods to enhance model interpretability.
+As AI systems become more pervasive, ensuring they are ethical and transparent is critical to
+prevent bias, ensure fairness, and build trust.
+Many AI models (e.g., deep neural networks) operate as "black boxes," making their decisions
+difficult to interpret. This lack of transparency can lead to ethical issues, such as discrimination in
+hiring, biased loan approvals, or unfair judicial decisions.
+Goal:To explore ethical challenges in AI and investigate techniques (e.g., SHAP, LIME, rule-based
+explanations) to improve model explainability.
+What needs to be decided:
+-How can we make AI models more transparent and  accountable?
+- How can we detect and mitigate biases in AI decision-making?
+Challenges:
+- Trade-off between model complexity and explainability.
+- Lack of standardized evaluation metrics for fairness and interpret
+Scope:
+- Focus on supervised learning models (e.g., classifiers, regressors).
+- Examine fairness metrics (e.g., demographic parity, equalized odds).
+- Test explainability methods on real-world datasets (e.g., credit scoring, healtcare).
+SHAP
+-is a method of explainability of machine learning models that is based on game theory and
+uses Shapley values to estimate the contribution of each feature to the model's prediction.
+Shapley values were developed within the framework of cooperative game theory and serve to
+determine a fair distribution of the payoff between players based on their contribution.
+• How it works:
+• 1. Cooperative game: Each feature is consideered as a "player" that contributes to the overall
+model prediction.
+• 2. Feature contribution: To estimate the contribution of each feature, SHAP considers all possible
+combiinations of features and calculates how a change in state (inclusion or exclusion of a
+feature) affects the model prediction.
+• 3. Additivity: SHAP assumes that the model prediction can be represented as the sum of the
+Shapley values of all features.

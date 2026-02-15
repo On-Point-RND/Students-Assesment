@@ -1,0 +1,32 @@
+[name] [surname]
+Machine Learning Engineer
+Summary
+Specialist in Machine Learning Engineering with 3+ years of experience building high-load ML systems.
+Proficient in the full ML lifecycle: from requirements gathering and architecture design to deployment and
+monitoring. Competitive programmer, finalist, and winner of ML and backend hackathons.
+Professional Experience
+[company]
+Machine Learning Engineer (Jan 2025 – Present)
+Developed ML solutions for perception systems in autonomous vehicles.
+Optimized production models for real-time performance using TensorRT and ONNX.
+Integrated multimodal data processing algorithms for enhanced system accuracy.
+Tech Stack: C++, Python, PyTorch, ROS, TensorRT, ONNX.
+[company]
+Middle Software | ML Engineer (Jun 2023 – Dec 2024)
+Built ML systems for marketplace process automation, handling 1M+ product cards daily.
+Developed algorithms for structured and unstructured data processing.
+Tech Stack: Kotlin, Spring Boot, Camunda, Redis, Pandas, Scikit-learn.
+[company]
+Junior Software Engineer (Sep 2021 – May 2023)
+Engineered an inter-exchange arbitrage system processing 500+ transactions/second.
+Created and analyzed trading bots with predictive algorithms.
+Tech Stack: Java 8, gRPC, Kafka, Prometheus.
+Education
+[location] National Research Nuclear University MEPhI
+Bachelor’s in Applied Mathematics and Informatics (2020 – 2024)
+Higher School of Economics (HSE), Center for ML
+Master’s in ML Engineering (2024 – 2026, ongoing)
+Focus: Advanced ML algorithms and scalable system design.
+
++2 *** *** ***
+[email]

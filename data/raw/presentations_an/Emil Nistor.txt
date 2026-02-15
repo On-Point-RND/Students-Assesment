@@ -1,0 +1,127 @@
+[name] [surname]
+Human Action Recognition
+Problem Statement:
+(1)Detect actors
+(2)Localize them in space
+(bounding boxes)
+(3)Classify their actions
+Sourcehttps://www.youtube.com/watch?v=7_mcWCB76Ps&list=PL18uP4AzeyVuqH7dRNmyLGR1USnSgfliV 2
+AVA 2.2 Dataset
+Atomic Visual Actions
+• 430 videos
+• 1.58 million annotations
+• 80 atomic actions
+• 15-minute video segments,
+annotated every second
+Example of annotation: Orange – main action, Blue – interaction
+with another person, Red – interaction with an object
+Source Gu C. et al. Ava: A video dataset of spatio-temporally localized atomic visual actions //Proceedings of theIEEE conference on computer vision and 3
+patternrecognition.–2018. –С.6047-6056.
+Architecture Evolution
+Top Performing Models on AVA 2.2 Dataset (2019–2023)
+4
+Source https://paperswithcode.com/sota/action-recognition-on-ava-v2-2
+SlowFast (mAP = 27.5)
+Slow
+Fast
+Source Feichtenhofer C. et al. Slowfast networks for video recognition//Proceedings of theIEEE/CVF international conference on computer vision. –2019. 5
+–С. 6202-6211.
+ACAAR-Net (mAP = 31.7)
+ACAAR-Net: Actor-Context-Actor Relation Network
+• Detects actors in keyframes using object detection
+• Extracts spatio-temporal features using SlowFast as a backbone
+• Builds a relational graph between actors and context
+• Performs high-level action analysis
+Source Pan J. et al. Actor-context-actor relation network for spatio-temporal action localization //Proceedings of the IEEE/CVF Conference on Computer 6
+Vision and PatternRecognition.–2021. –С.464-474.
+MViTv2 (mAP = 34.4)
+Enhanced attention mechanism using
+Hierarchical architecture with multilevel scaling: pooling, decomposed relative position
+Lower spatial resolution per level, but increased embeddings, and residual pooling blocks.
+feature channels
+Source Li Y. et al. MviTv2: Improved multiscale vision transformers for classification and detection //Proceedings of the IEEE/CVF conference on computer 7
+vision and patternrecognition.–2022.–С. 4804-4814.
+MaskFeat (+MViTv2) (mAP = 39.8)
+• Self-supervised Visual Pretraining
+• Pretraining for the main transformer
+model
+• Improves contextual understanding
+Randomly masks spatial-temporal embeddings, then attempts to recover
+the hidden properties
+Source Wei C. et al. Masked feature prediction for self-supervised visual pre-training //Proceedings of the IEEE/CVF conference on computer vision and 8
+patternrecognition. –2022. –С. 14668-14678
+Self-Supervised Transformers
+InternVideo VideoMAE v2 Hierarchical
+• mAAP: 41.4% • mAAP: 42.6% • mAAP: 43.3%
+• Combines • Improved frame • Hierarchical structure
+generative and masking with a dual of video blocks
+discriminative
+masking strategy
+• Progresses from local
+training objectives
+• Hierarchical to global context
+• Learns internal video
+autoencoder-based understanding
+representations from
+architecture
+textual descriptions
+9
+LART (mAAP = 45.1)
+Pose
+Fusion
+Classification
+Learning Action Recognition with 3D Poses and Contextual Features
+● Tracks each person, then encodes each detection as a pose vector +
+contextual features ●3D poses represented by SMPL parameters and
+estimated 3D position ● Contextual features extracted using MaskFeat +
+MViTv2 ● Transformer trained to predict actions from tracks
+10
+Model Architecture Approach Input mAAP
+SlowFast CCNNNN Supervised RGB 27.5
+ACAAR-Net CNN Supervised RGB 31.7 (+4.2)
+CNN
+MViTv2 Transformer Supervised RGB 34.4 (+2.7)
+Transformer
+MaskFeat Transformer Self-Supervised RGB 39.8 (+5.4)
+Transformer
+InternVideo Transformer Self-Supervised Text + RGB 41.4 (+1.6)
+Transformer
+VideoMAE v2 Transformer Self-Supervised RGB 42.6 (+1.2)
+Transformer
+Hiera Transformer Self-Supervised RGB 43.3 (+0.7)
+Transformer
+GCN CNN
+LART CNN + GCN Supervised 3D Pose + RGB 45.1 (+1.8)
+Transformer
+Comparative Analysis
+11
+Conclusions
+Key Trends:
+1. Transition from CNN-based to Transformer-based architectures
+2. Increasing use of self-supervised learning for better generalization
+3. Integration of multimodal data, including pose and text
+12
+References
+1. Gu C. et al. Ava: A video dataset of spatio-temporally localized atomic visual actions //Proceedings of the IEEE
+conference on computer vision and pattern recognition. – 2018. – С. 6047-6056.
+2. Feichtenhofer C. et al. Slowfast networks for video recognition //Proceedings of the IEEE/CVF international
+conference on computer vision. – 2019. – С. 6202-6211.
+3. Pan J. et al. Actor-context-actor relation network for spatio-temporal action localization //Proceedings of the
+IEEE/CVF Conference on Computer Vision and Pattern Recognition. – 2021. – С. 464-474.
+4. Li Y. et al. MviTv2: Improved multiscale vision transformers for classification and detection //Proceedings of the
+IEEE/CVF conference on computer vision and pattern recognition. – 2022. – С. 4804-4814.
+5. Wei C. et al. Masked feature prediction for self-supervised visual pre-training //Proceedings of the IEEE/CVF
+conference on computer vision and pattern recognition. – 2022. – С. 14668-14678.
+6. Wang Y. et al. Internvideo: General video foundation models via generative and discriminative learning //arXiv
+preprint arXiv:2212.03191. – 2022.
+7. Wang L. et al. Videomae v2: Scaling video masked autoencoders with dual masking //Proceedings of the IEEE/CVF
+conference on computer vision and pattern recognition. – 2023. – С. 14549-14560.
+8. Ryali C. et al. On the benefits of 3d pose and tracking for human action recognition //Proceedings of the
+IEEE/CVF conference on computer vision and pattern recognition. – 2023. – С. 640-649.
+9. Southern Federal University,
+Institute of Mathematics, Mechanics
+and Computer Sciences
+ANALYSIS OF THE SOLUTION DEVELOPMENT
+BASED ON THE AVA DATASET FOR THE
+TASK OF HUMAN ACTION RECOGNITION
+[name]

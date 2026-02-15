@@ -1,0 +1,25 @@
+Prompt Optimization for NER using LLMS
+[name]
+
+Prompt Optimization
+2
+Using prompt optiomization as low cost universaal solution for cross-domain tasks
+LLMs have general knowledge of languaage
+Other solutions are inefficient in many ways and require extra resources	
+
+Problem Statement
+3
+Figure out if prompt engineering techniques allow us to achive state of art performaances in cross-domain task(NER) and probably surpass current result in either quality or cost
+Main competitors are fine-tuned BERT
+
+Solving
+4
+Evaluation(Metrics and Benchamrks)
+Prompt engineering techniques
+Problems with LLMs specificity
+
+Prior results
+5
+Combination of techniques better
+Splitting superior
+Examples inefficient 

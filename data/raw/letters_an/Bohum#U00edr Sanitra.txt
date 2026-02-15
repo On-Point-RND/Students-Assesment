@@ -1,0 +1,32 @@
+Dear [name] [surname] Organizing Committee,
+Participating in SMILES-2024 gave me a unique experience: I realized how collaboractive,
+experimental environments with clear structure and high-level mentorship can accelerate
+both learning and meaningful research. Returning to SMILES in 2025, I aim to go further —
+to grow not just as a user of machine learning tools, but as somoone who can design
+thoughtful, interpretable, and responsible ML systems from end to end.
+Over the past year, I’ve been working on automating candidate-vacancy matching using
+transformer-based embeddings and vector search systems. One of the key insights I gained
+was not just about the quality of models, but about their usability in real decision-making
+systems. How does explainability affect trust? What does fairness mean when a model ranks
+people? These questions pushed me to rethiink how ML tools should be evaluaated — beyond
+metrics like ROC-AUC — and sparked my interest in human-centered evaluation, a topic I
+hope to explore deeper at SMILES-2025.
+I’ve worked with a range of ML and DL tools — not only in terms of frameworks like PyTorch,
+TensorFlow, and Scikit-learn, but also in the context of designing experiments, debugging
+convergence issues, and interpreting model behavior. For example, while fine-tuning
+multilingual transformer models for semantic search in recruitment systems, I encountered
+challenges related to domain shift and annotation bias, which led me to explore techniques
+like contrastive learning and embedding regularization. I’ve also built time-series models
+using LSTM and Prophet, experimenteed with GANs for synthetic data generation, and
+applied XGBoost and CatBoost in tabular pipelines.
+My long-term plan is to pursue a Ph.D. or join a research team focused on applied,
+socially-aware AI systems — tools that don’t just “work,” but help people in education, hiring,
+or mental health. I’m currently exploring projects at the intersection of NLP, recommender
+systems, and generative models, and I want to deepen my knowlege of those areas both
+theoretically and practically. SMILES-2025 offers a rare chance to connect with peers who
+share this ambition, and to test ideas in a setting that values clarity, reproducibility, and
+impaact.
+Thank you for considering my application. I see SMILES-2025 not just as a schoo, but as a
+collaboraative research playground — and I’m excited to contribute, build, and learn.
+Sincerely,
+[name] [surname]

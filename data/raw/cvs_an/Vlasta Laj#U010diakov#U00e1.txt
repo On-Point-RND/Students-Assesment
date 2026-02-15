@@ -1,0 +1,110 @@
+[email]
+[location]
+[name] [surname] (cid:130) https://github.com/[name][surname]
+https://huggingface.co/[name][surname]
+Education
+2023–Present Master’s Degree in Computational and Cognitive Linguistics, [location]
+2019–2023 Bachelor’s Degree in Fundamental and Applied Linguistics, [location]
+Work Experience
+September NLP and Prompt Engineering Specialist, [compaany]
+2024–Present Prompt engineering, model fine-tuning, dataset creation and preparation, evaluation of neural network performance, API integration.
+November AI Trainer, [compaany]
+2023– Data annotation, dataset preparation, and quality assessment of neural network performance.
+September
+2024
+Projects
+[compaany] Project, Backend and Machine Learning
+Text parsing, data processing, fine-tuning a model for genre-based text classification, testing, and frontend development using Flask.
+https://github.com/HoneyGixx/Practice-Project
+DLS x [location] NLP Intensive Hackathon: Multi-Label Classification of User Feedback,
+Multi-Label Classification of Delivery Service Reviews
+Achieved 5th place in the private leaderboard (Team: “s [surname] [surname],” Nickname: [name]).
+https://ods.ai/competitions/dls_ecomtech
+World2News ([location]) and Epigon ([compaany]) Projects, Full-Cycle Training of ruGPT-3 for News
+Headline Generation
+Article parsing, data processing, neural network parameter tuning, model training, result evaluation, and
+headline analysis. Hypothesis testing and training optimization.
+Hugging Face with models: https://huggingface.co/[name][surname]
+Case Lab ML Review Analysis Service, Sentiment and Rating Analysis Service for Movie
+Reviews
+Datasetpreparation,modeltraining,developmentofareviewanalysisserviceusingDjango,anddeployment
+via Railway.
+https://github.com/[name][surname]/sentrat_mov.git
+CompTech 2025 Competition, Classical Machine Learning Track
+Data analysis, processing, model training, and fine-tuning. Secured 1st place on the leaderboard.
+https://github.com/[name][surname]/komptek_ml
+Topic and Keyword Analysis for [location], Yearly Data Analysis
+Data parsing, processing, and analysis.
+https://www.riatomsk.ru/article/20231231/ria-tomsk-chastie-slova-top/
+Crypto Scams Challenge, [compaany] GitHub Challenge (1712n/crypto-scams-challenge)
+Developed a parser for collecting news articles from Google News, performed analysis, and prepared a
+report.
+https://github.com/[name][surname]/crypto-scams-challenge
+1/3
+Case Lab ML 2024 Marathon, Document Dataset and YOLO Fine-Tuning
+Created a dataset of generated documents, fine-tuned YOLO for document object recognition, and
+developed a frontend using Streamlit.
+https://github.com/[name][surname]/clab2gr.git
+Publications
+2025 [name] I., Automatic Generation of News Headlines Using the RuGPT-3 Neural
+Network (Impact of Training Dataset on Model Performance), Автоматическая генерация
+новостных заголовков при помощи нейронной сети RuGPT-3 (влияние обучающего датасета
+на результативность мод модели), Virtual Communication and Social Networks, 4(1), 62–70
+DOI: https://doi.org/10.21603/2782-4799-2025-4-1-62-70
+Conferences
+2024 “DIGITAL” in Socio-Huma nitarian Research: Method, Field, Reality, “ЦИФРА” в
+социально-гуманитарных исследованиях: метод, поле, реальность, Optimization of Machine
+Learning: Balancing Model Parameters and Tokens (Case Study on News Headline Generation)
+Опт имизация машинного обучения: соотношение параметров мод модели и токенов (на пр имере
+генерации новостных заголовков)
+Paper accepted, publication pending.
+2025 XII (XXVI) Interna tional Scienti fic and Prac tical Confere nce of Young Scienti sts: Current
+Issues in Linguistics and Literary Studies, XII (XXVI) Международная на учно-практическая
+конференция молодых учёных “Актуальные проблемы лингвистики и л итерудоведения”,
+Impa ct of Parameter and Token Balance on Fine-Tuning (Case Study on News Headline and
+Lead Generation)
+Влияние баланса параметров и токенов на fine-tuning (в задач е генерации новостных заго-
+ловков и л идов)
+Paper accepted, publication pending.
+2025 IDOconf/2025: Natural Lan guage Processing (NLP) for Linguistics, IT, and Business,
+IDOconf/2025: Обр обработка естественного языка (NLP) для лингвистики, IT и бизнеса, Opti-
+mization of Fine-Tuning: Balancing Model Parameters and Tokens (Case Study on News Headline
+and Lead Generation)
+Опт имизация fine-tuning’а: соотношение параметров мод модели и токенов (на пр имере генера-
+ции новостных заголовков и л идов)
+Paper accepted, publication pending.
+Courses and Certifications
+2025 SHIFT ML Course, Center for Financial Technologies (CFT)
+Completed intensive training in machine learning methodologies and applications.
+Soft Skills
+Quick to adapt and thrive in new environments.
+Skilled at explaining complex concepts in simple terms.
+Strong written and verbal communication, comfortable with both formal and informal language
+(inclu ding slang in casual settings).
+Open to innovative approaches to traditional challenges.
+Breaking down complex problems into manageable parts for efficient troubleshooting.
+Applying interdisciplinary knowledge to problem-solving.
+Collaborative and effective in team settings.
+2/3
+Technical Skills and Stack
+Parsing Custom parsers for various websites using Python (Beau tifulSoup, Selenium, requests).
+NLP Text processing, vectorization (Word2Vec, TF-IDF, BoW, FastText), quantitative analysis, part-
+of-speech tagging, sentiment analysis, clustering, principal component analysis, NER, regular
+expressions, and visualization (nltk, scikit-learn, natasha, gensim, spaCy, pymorp hy, re, pandas,
+seaborn, wordcloud, numpy, mystem, Tomita-parser).
+Machine Model development and training (logistic regression, SVC, K-N eigbors, decision trees, random
+Learning forests); fine-tuning transformer models (ruGPT-3,BERT,RoBERTa); model evaluation (accuracy,
+precision, recall, F-score, ROUG E, BL EU); integrating fine-tuned models with frontends (scikit-
+learn, tensorflow, transformers, torch, flask, Django, huggingface hub, rouge).
+Telegram Developed a Telegram bot for the CompTech 2025 challenge.
+API API requests via Postman for neural network services.
+Tools/Platforms Google Colab, Kaggle, Jupy ter, GitHub, Hugging Face (version control), Jira, YouGile, Miro (task
+management).
+Systems Linux (basic knowledge, practical experience), Docker (basic knowledge, practical experience).
+Databases Pos tgreSQL (basic knowledge, experience in creation and use).
+Languages
+Russian Native
+English C1/C2
+Italian B1
+Polish A2
+3/3

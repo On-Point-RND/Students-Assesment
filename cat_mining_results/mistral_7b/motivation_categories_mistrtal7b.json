@@ -1,0 +1,1062 @@
+{
+  "Specific Experience": {
+    "question": "How many relevant experiences does the candidate mention?",
+    "count": 1
+  },
+  "Future Research Plans": {
+    "question": "How clearly does the candidate describe their future research plans?",
+    "count": 5
+  },
+  "Program Alignment": {
+    "question": "How well does the candidate connect their interests to the program's topics?",
+    "count": 20
+  },
+  "Academic Background": {
+    "question": "How clearly does the candidate describe their academic background and current studies?",
+    "count": 1
+  },
+  "Research Experience": {
+    "question": "How much research experience does the candidate have?",
+    "count": 9
+  },
+  "Technical Skills": {
+    "question": "How well does the candidate demonstrate technical skills and knowledge relevant to the program?",
+    "count": 27
+  },
+  "Professional Experience": {
+    "question": "Does the candidate mention relevant professional experience?",
+    "count": 2
+  },
+  "Professionalism in tone": {
+    "question": "Does the candidate maintain a formal and professional tone throughout the letter?",
+    "count": 8
+  },
+  "Relevant experience": {
+    "question": "Does the candidate clearly describe relevant experience and achievements in the field of machine learning?",
+    "count": 9
+  },
+  "Specificity of goals": {
+    "question": "Does the candidate specify concrete, actionable goals related to the program?",
+    "count": 35
+  },
+  "Specific Research Interest": {
+    "question": "Does the candidate clearly state a specific research interest?",
+    "count": 16
+  },
+  "Long-term Goals": {
+    "question": "Does the candidate outline long-term professional goals?",
+    "count": 3
+  },
+  "Technical Detail": {
+    "question": "How many specific technical methods or tools does the candidate mention?",
+    "count": 12
+  },
+  "Program Specificity": {
+    "question": "How specifically does the candidate address the target program?",
+    "count": 21
+  },
+  "Technical Depth": {
+    "question": "How well does the candidate demonstrate in-depth technical knowledge and experience?",
+    "count": 18
+  },
+  "Future Goals Clarity": {
+    "question": "How clearly does the candidate articulate their long-term goals and how the program fits into them?",
+    "count": 44
+  },
+  "Professional Background": {
+    "question": "Does the candidate have significant professional experience in a relevant field?",
+    "count": 4
+  },
+  "Project Experience Detail": {
+    "question": "How clearly and specifically does the candidate describe their past project experiences and achievements?",
+    "count": 55
+  },
+  "Technical Proficiency": {
+    "question": "How proficient is the candidate in the technical skills required for the program?",
+    "count": 2
+  },
+  "Relevant Experience": {
+    "question": "How many years of relevant experience does the candidate have?",
+    "count": 5
+  },
+  "Project Diversity": {
+    "question": "How many distinct projects does the candidate describe?",
+    "count": 9
+  },
+  "Practical Experience": {
+    "question": "Can the candidate demonstrate practical applications of their skills in real-world projects?",
+    "count": 11
+  },
+  "Awards and Recognition": {
+    "question": "How many awards or recognitions has the candidate received for their projects?",
+    "count": 3
+  },
+  "Specificity of Program Interest": {
+    "question": "How specifically does the candidate mention the program's focus areas and how they align with their interests?",
+    "count": 17
+  },
+  "Mention of Personal Connections": {
+    "question": "Does the candidate mention any personal connections or influences related to the program or field?",
+    "count": 11
+  },
+  "Detailed Academic and Research Achievements": {
+    "question": "How thoroughly does the candidate list their academic and research achievements, including publications and awards?",
+    "count": 2
+  },
+  "Academic Level": {
+    "question": "What is the candidate's current academic level?",
+    "count": 41
+  },
+  "Specific Project Focus": {
+    "question": "Does the candidate clearly describe a specific project or dataset they are working on?",
+    "count": 9
+  },
+  "Technical Skills Listed": {
+    "question": "Does the candidate provide a detailed list of their technical skills and relevant experiences?",
+    "count": 11
+  },
+  "Interdisciplinary Alignment": {
+    "question": "Does the candidate explicitly discuss how their background aligns with the interdisciplinary focus of the target organization?",
+    "count": 1
+  },
+  "Technical Experience Detail": {
+    "question": "How thoroughly does the candidate describe their technical experience and achievements?",
+    "count": 5
+  },
+  "Language Proficiency Mention": {
+    "question": "Does the candidate mention their language proficiency and its relevance to the program?",
+    "count": 3
+  },
+  "Personal Interests and Cultural Engagement": {
+    "question": "Does the candidate discuss personal interests or cultural engagement related to the program location?",
+    "count": 2
+  },
+  "Specific Program Alignment": {
+    "question": "How well does the candidate's goals and interests align with the specific focus and objectives of the program?",
+    "count": 1
+  },
+  "International Exposure": {
+    "question": "How much international experience and collaboration does the candidate have, particularly in relevant academic or industry settings?",
+    "count": 5
+  },
+  "Career Progression": {
+    "question": "Can the candidate clearly outline their career progression and the evolution of their skills and responsibilities?",
+    "count": 6
+  },
+  "Specific Research Experience": {
+    "question": "Can the candidate describe specific research projects and their outcomes?",
+    "count": 13
+  },
+  "Structured Narrative Flow": {
+    "question": "Does the candidate present a well-structured, chronological narrative of their journey and achievements?",
+    "count": 2
+  },
+  "Document Type": {
+    "question": "Is the document a motivation letter?",
+    "count": 2
+  },
+  "Specificity of Experience": {
+    "question": "How specifically does the candidate describe their relevant experience?",
+    "count": 4
+  },
+  "Future Career Plans": {
+    "question": "How clearly does the candidate articulate their future career plans related to the program?",
+    "count": 8
+  },
+  "Engagement with Program Details": {
+    "question": "How well does the candidate demonstrate engagement with the specific details and opportunities offered by the program?",
+    "count": 6
+  },
+  "Project Collaboration": {
+    "question": "How many collaborative projects has the candidate worked on?",
+    "count": 1
+  },
+  "Project Impact": {
+    "question": "How significant and impactful are the candidate's past projects in the field of AI and machine learning?",
+    "count": 1
+  },
+  "Competition Experience": {
+    "question": "How many hackathons or similar competitions has the candidate participated in?",
+    "count": 3
+  },
+  "Collaboration Focus": {
+    "question": "How much does the candidate emphasize the importance of collaboration?",
+    "count": 6
+  },
+  "Specific AI Skills": {
+    "question": "How well does the candidate describe specific AI skills and experiences?",
+    "count": 1
+  },
+  "Networking Focus": {
+    "question": "Does the candidate emphasize the importance of networking with peers and mentors?",
+    "count": 2
+  },
+  "Career Trajectory": {
+    "question": "How clearly does the candidate articulate a specific career trajectory or goal?",
+    "count": 1
+  },
+  "Project Experience": {
+    "question": "How many significant projects has the candidate completed?",
+    "count": 9
+  },
+  "Event Focus": {
+    "question": "Is the candidate applying for a specific event or a general program?",
+    "count": 2
+  },
+  "Academic achievements": {
+    "question": "How well does the candidate describe their academic achievements and rankings?",
+    "count": 4
+  },
+  "Previous Participation": {
+    "question": "Has the candidate previously participated in a similar program?",
+    "count": 17
+  },
+  "Programming Experience": {
+    "question": "How much programming experience does the candidate have?",
+    "count": 4
+  },
+  "Clear Career Goals": {
+    "question": "How clearly does the candidate articulate their career goals and how the program will help achieve them?",
+    "count": 15
+  },
+  "Research Focus": {
+    "question": "How specifically does the candidate describe their current research?",
+    "count": 13
+  },
+  "Personal Background": {
+    "question": "How much does the candidate discuss their personal journey and early experiences related to their field?",
+    "count": 5
+  },
+  "Conference Presentations": {
+    "question": "How many conference presentations does the candidate mention?",
+    "count": 5
+  },
+  "Project Complexity": {
+    "question": "How complex are the projects the candidate has worked on?",
+    "count": 1
+  },
+  "Interdisciplinary Focus": {
+    "question": "How well does the candidate demonstrate an interdisciplinary approach and vision in their motivation letter?",
+    "count": 4
+  },
+  "Contact Information": {
+    "question": "Does the candidate provide multiple contact methods?",
+    "count": 3
+  },
+  "Detailed Background": {
+    "question": "Does the candidate provide a detailed background of their academic and professional journey?",
+    "count": 2
+  },
+  "Language Proficiency": {
+    "question": "How many languages does the candidate speak at a certified level?",
+    "count": 8
+  },
+  "Experience Type": {
+    "question": "What type of experience does the candidate primarily discuss?",
+    "count": 1
+  },
+  "Motivation Focus": {
+    "question": "What aspect of the program does the candidate emphasize as their primary motivation?",
+    "count": 1
+  },
+  "Personal Journey Narrative": {
+    "question": "Does the candidate provide a detailed personal journey narrative?",
+    "count": 1
+  },
+  "Specific Program Benefits": {
+    "question": "Does the candidate specify what they hope to gain from the program?",
+    "count": 8
+  },
+  "Technical Specialization": {
+    "question": "How specialized is the candidate in specific technical areas?",
+    "count": 1
+  },
+  "Program Familiarity": {
+    "question": "How familiar is the candidate with the specific program they are applying to?",
+    "count": 1
+  },
+  "Relevant Academic Background": {
+    "question": "Does the candidate have a relevant academic background in machine learning or artificial intelligence?",
+    "count": 3
+  },
+  "Research Experience Depth": {
+    "question": "How deeply does the candidate describe their current research experience?",
+    "count": 3
+  },
+  "Program Structure Engagement": {
+    "question": "How well does the candidate demonstrate understanding and enthusiasm for the specific structure and activities of the SMILES-2025 program?",
+    "count": 1
+  },
+  "Technical Skills Focus": {
+    "question": "How well does the candidate specify the technical skills they hope to gain or improve?",
+    "count": 1
+  },
+  "Academic Achievement Level": {
+    "question": "How many high-impact publications does the candidate have?",
+    "count": 2
+  },
+  "Educational Background": {
+    "question": "What is the highest degree the candidate has completed?",
+    "count": 3
+  },
+  "Publications": {
+    "question": "How many peer-reviewed publications does the candidate have?",
+    "count": 20
+  },
+  "Community Engagement": {
+    "question": "How clearly does the candidate express their desire to engage with the research community?",
+    "count": 8
+  },
+  "Future Growth": {
+    "question": "How well does the candidate articulate how this program will contribute to their future growth?",
+    "count": 2
+  },
+  "Project Impact Described": {
+    "question": "How well does the candidate describe the impact of their past projects?",
+    "count": 1
+  },
+  "Specific Program Details": {
+    "question": "How many specific details about the program does the candidate mention?",
+    "count": 17
+  },
+  "Grammar and Punctuation": {
+    "question": "How many grammar and punctuation errors does the candidate make?",
+    "count": 1
+  },
+  "Career Transition Clarity": {
+    "question": "How clearly does the candidate articulate their career transition plans?",
+    "count": 1
+  },
+  "Structured Format": {
+    "question": "How well does the candidate follow a structured, formal letter format?",
+    "count": 5
+  },
+  "Personal Background Relevance": {
+    "question": "How relevant is the candidate's personal background to the program?",
+    "count": 1
+  },
+  "Volunteer Intent": {
+    "question": "Does the candidate express a willingness to volunteer or contribute beyond just participation?",
+    "count": 2
+  },
+  "Specific Past Experience": {
+    "question": "Can the candidate describe specific past experiences related to the program's focus?",
+    "count": 1
+  },
+  "Research Collaboration": {
+    "question": "How well does the candidate demonstrate a history of research collaboration?",
+    "count": 1
+  },
+  "Academic Degrees": {
+    "question": "How many academic degrees does the candidate possess?",
+    "count": 3
+  },
+  "Early ML Exposure": {
+    "question": "How early did the candidate start studying machine learning?",
+    "count": 2
+  },
+  "Leadership Roles": {
+    "question": "How many leadership or team management roles has the candidate held?",
+    "count": 2
+  },
+  "Experience Level": {
+    "question": "How much practical experience does the candidate have with machine learning tools and techniques?",
+    "count": 5
+  },
+  "Ethical Considerations": {
+    "question": "How well does the candidate demonstrate an understanding of the ethical implications and responsibilities in machine learning?",
+    "count": 1
+  },
+  "Project Focus": {
+    "question": "How many projects has the candidate completed that are directly related to the program's focus?",
+    "count": 1
+  },
+  "AI Interest Evolution": {
+    "question": "Does the candidate describe a change in their interest or attitude towards AI?",
+    "count": 1
+  },
+  "Competition Focus": {
+    "question": "Does the candidate mention winning competitions related to their projects or studies?",
+    "count": 1
+  },
+  "Language Learning": {
+    "question": "Does the candidate mention learning or improving a specific language?",
+    "count": 1
+  },
+  "Specific Research Focus": {
+    "question": "How clearly does the candidate specify their current research focus and its relevance to the program?",
+    "count": 16
+  },
+  "Career Stage and Goals": {
+    "question": "How explicitly does the candidate discuss their current career stage and future goals in relation to the program?",
+    "count": 5
+  },
+  "Quantifiable Achievements": {
+    "question": "Does the candidate provide quantifiable achievements and specific results from their experiences?",
+    "count": 3
+  },
+  "Technical Skills Demonstration": {
+    "question": "How well does the candidate demonstrate practical ML engineering skills through specific projects?",
+    "count": 1
+  },
+  "Career Start Point": {
+    "question": "When did the candidate start their journey in the relevant field?",
+    "count": 1
+  },
+  "Research Presentation": {
+    "question": "Does the candidate mention a specific research project or paper they plan to present?",
+    "count": 2
+  },
+  "Relevant Coursework": {
+    "question": "How many relevant courses has the candidate completed?",
+    "count": 4
+  },
+  "Project Specificity": {
+    "question": "How specifically does the candidate's project relate to the program's focus?",
+    "count": 6
+  },
+  "Team Collaboration": {
+    "question": "Can the candidate provide concrete examples of team collaboration experience?",
+    "count": 1
+  },
+  "Program Benefits": {
+    "question": "How clearly does the candidate articulate the benefits of the program for their specific projects?",
+    "count": 2
+  },
+  "Structured and Detailed": {
+    "question": "How well does the candidate structure their letter and provide detailed examples of their work?",
+    "count": 1
+  },
+  "Specific ML Experience": {
+    "question": "How many specific machine learning projects has the candidate completed?",
+    "count": 4
+  },
+  "Personal Context": {
+    "question": "How much does the candidate mention personal context or non-academic factors?",
+    "count": 1
+  },
+  "Leadership Experience": {
+    "question": "Has the candidate demonstrated leadership experience in a team or project?",
+    "count": 1
+  },
+  "Industry Experience": {
+    "question": "How much relevant industry experience does the candidate have?",
+    "count": 9
+  },
+  "Teaching Experience": {
+    "question": "Does the candidate have experience in teaching or mentoring related to the program's subject matter?",
+    "count": 3
+  },
+  "Societal Impact Focus": {
+    "question": "How well does the candidate discuss the potential societal impact of their work in AI?",
+    "count": 1
+  },
+  "Academic Focus Area": {
+    "question": "Can the candidate clearly articulate their primary academic focus and its connection to the program?",
+    "count": 1
+  },
+  "Personal Growth Path": {
+    "question": "How clearly does the candidate describe their personal growth path in AI?",
+    "count": 1
+  },
+  "Academic Achievement Detail": {
+    "question": "How specifically does the candidate quantify their academic achievements?",
+    "count": 1
+  },
+  "Teaching Experience Clarity": {
+    "question": "How clearly does the candidate describe their teaching experience and its relevance?",
+    "count": 1
+  },
+  "Field Specialization Mentioned": {
+    "question": "Does the candidate specify particular subfields or technologies within machine learning?",
+    "count": 1
+  },
+  "Specific Program Engagement": {
+    "question": "How well does the candidate engage with specific aspects of the program?",
+    "count": 2
+  },
+  "Personal Projects": {
+    "question": "Does the candidate describe personal projects or hobbies related to the field?",
+    "count": 3
+  },
+  "Research Paper Mention": {
+    "question": "Does the candidate mention any co-authored research papers or publications?",
+    "count": 1
+  },
+  "Personal Narrative Style": {
+    "question": "Does the candidate use a personal narrative or anecdotal style to convey their motivations and journey?",
+    "count": 2
+  },
+  "Technical Breadth": {
+    "question": "How many different machine learning techniques and tools has the candidate worked with?",
+    "count": 2
+  },
+  "Social Impact Focus": {
+    "question": "Does the candidate explicitly discuss the social impact or ethical considerations of their machine learning work?",
+    "count": 1
+  },
+  "Cultural Integration": {
+    "question": "How well does the candidate integrate cultural aspects of the program's location?",
+    "count": 2
+  },
+  "Personal Growth Focus": {
+    "question": "How clearly does the candidate articulate their personal growth goals related to the program?",
+    "count": 2
+  },
+  "Specific Program Experience": {
+    "question": "Can the candidate describe specific experiences or projects that directly relate to the program's focus areas?",
+    "count": 1
+  },
+  "Community and Networking": {
+    "question": "How well does the candidate discuss the importance of the program's community and networking opportunities?",
+    "count": 1
+  },
+  "Personal Passions Mentioned": {
+    "question": "Does the candidate mention any personal passions or experiences that relate to the program?",
+    "count": 1
+  },
+  "Experience Description": {
+    "question": "How clearly and comprehensively does the candidate describe their relevant work and research experiences?",
+    "count": 1
+  },
+  "Engagement with Community": {
+    "question": "How well does the candidate show engagement with the machine learning community through events, competitions, or networking?",
+    "count": 1
+  },
+  "Programming Skills": {
+    "question": "Does the candidate have experience in writing production-quality code and deploying models?",
+    "count": 1
+  },
+  "Personal Story Integration": {
+    "question": "Does the candidate incorporate a personal story to illustrate their motivation?",
+    "count": 1
+  },
+  "Specific ML Interest": {
+    "question": "Does the candidate specify particular areas of machine learning they are interested in?",
+    "count": 1
+  },
+  "Specific Skills Gaps": {
+    "question": "Can the candidate clearly identify specific skills gaps in their current expertise?",
+    "count": 1
+  },
+  "Formal Greeting": {
+    "question": "Does the candidate use a formal greeting?",
+    "count": 1
+  },
+  "Detailed Experience": {
+    "question": "Does the candidate provide detailed descriptions of their relevant experiences?",
+    "count": 1
+  },
+  "Clear Motivation": {
+    "question": "Does the candidate clearly state their motivation for applying?",
+    "count": 2
+  },
+  "Program Focus": {
+    "question": "How clearly does the candidate specify the program's focus?",
+    "count": 1
+  },
+  "Project Leadership": {
+    "question": "Can the candidate provide examples of leading technical projects or teams?",
+    "count": 3
+  },
+  "Specific AI Experience": {
+    "question": "How much specific experience does the candidate have with advanced AI topics?",
+    "count": 2
+  },
+  "Competition Success": {
+    "question": "How many relevant competitions has the candidate participated in and what were their results?",
+    "count": 1
+  },
+  "Program Goals": {
+    "question": "How clearly does the candidate articulate their goals for the program?",
+    "count": 1
+  },
+  "Specific Interests": {
+    "question": "How specifically does the candidate express their interests in machine learning?",
+    "count": 1
+  },
+  "Personal Contributions": {
+    "question": "How clearly does the candidate outline specific contributions they can make to the program?",
+    "count": 1
+  },
+  "Career Goals": {
+    "question": "Does the candidate explicitly mention plans for a PhD and a career in AI R&D?",
+    "count": 1
+  },
+  "Specificity of ML Interest": {
+    "question": "How specifically does the candidate describe their interest in machine learning?",
+    "count": 1
+  },
+  "Career Goals Clarity": {
+    "question": "How clearly does the candidate articulate their short-term and long-term career goals?",
+    "count": 4
+  },
+  "Research Project Details": {
+    "question": "How specifically does the candidate describe their research projects?",
+    "count": 1
+  },
+  "Personal Motivation Story": {
+    "question": "Does the candidate share a personal story or journey that led them to their current interests?",
+    "count": 3
+  },
+  "Extracurricular Activities": {
+    "question": "How does the candidate highlight their participation in hackathons, courses, or other relevant extracurricular activities?",
+    "count": 2
+  },
+  "Program-Specific Motivation": {
+    "question": "How well does the candidate explain their motivation for applying to this specific program?",
+    "count": 2
+  },
+  "Community Building": {
+    "question": "Has the candidate built or contributed to communities or open-source projects?",
+    "count": 1
+  },
+  "Personal Anecdote": {
+    "question": "Does the candidate include a personal anecdote that illustrates their initial interest in the field?",
+    "count": 6
+  },
+  "Collaboration Experience": {
+    "question": "How well does the candidate describe their experience working collaboratively on projects?",
+    "count": 2
+  },
+  "Specific Technical Skills": {
+    "question": "Can the candidate provide specific examples of technical skills and tools they have used in their projects?",
+    "count": 2
+  },
+  "Personal Goals": {
+    "question": "How clearly does the candidate articulate their personal and professional goals related to the program?",
+    "count": 1
+  },
+  "Mentoring Experience": {
+    "question": "Does the candidate highlight any experience in mentoring or collaborative learning?",
+    "count": 1
+  },
+  "Competition Achievements": {
+    "question": "How many significant academic competitions has the candidate won or placed highly in?",
+    "count": 3
+  },
+  "Specific Research Details": {
+    "question": "How specifically does the candidate describe their research experience?",
+    "count": 2
+  },
+  "Clear Goals and Plans": {
+    "question": "How clearly does the candidate articulate their goals and plans for the program?",
+    "count": 2
+  },
+  "Specific program mention": {
+    "question": "Does the candidate mention the specific program by name?",
+    "count": 2
+  },
+  "Academic Status": {
+    "question": "Is the candidate currently a student or a graduate?",
+    "count": 4
+  },
+  "Language Skills": {
+    "question": "Does the candidate mention specific language skills?",
+    "count": 2
+  },
+  "Specific Experience Details": {
+    "question": "Does the candidate provide specific, detailed experiences related to the field?",
+    "count": 2
+  },
+  "Program Choice Clarity": {
+    "question": "How clearly does the candidate articulate their choice of program or institution?",
+    "count": 1
+  },
+  "Professional Growth Focus": {
+    "question": "How well does the candidate emphasize their desire for professional growth and development?",
+    "count": 1
+  },
+  "Specific Program Interest": {
+    "question": "How specifically does the candidate mention the program's offerings?",
+    "count": 6
+  },
+  "Application of Skills": {
+    "question": "How clearly does the candidate describe applying learned skills to their field?",
+    "count": 1
+  },
+  "Language Learning Effort": {
+    "question": "Has the candidate demonstrated significant effort in learning a new language?",
+    "count": 1
+  },
+  "Field of Study Focus": {
+    "question": "Does the candidate clearly state and elaborate on their specific field of study and its relevance to the program?",
+    "count": 1
+  },
+  "Professionalism in Writing": {
+    "question": "How well does the candidate demonstrate professionalism and attention to detail in their writing?",
+    "count": 1
+  },
+  "Industry vs Academic Focus": {
+    "question": "Does the candidate emphasize industry experience or academic research more?",
+    "count": 1
+  },
+  "Career Stage Focus": {
+    "question": "Does the candidate focus on their career stage or past experiences?",
+    "count": 2
+  },
+  "Specific AI Interests": {
+    "question": "How specifically does the candidate describe their AI interests and goals?",
+    "count": 1
+  },
+  "Current Project Relevance": {
+    "question": "Does the candidate describe a current project that is relevant to the program's focus?",
+    "count": 1
+  },
+  "Technical Detail Level": {
+    "question": "How detailed and specific are the candidate's technical achievements and projects?",
+    "count": 1
+  },
+  "Research Focus Clarity": {
+    "question": "How clearly does the candidate articulate their current research focus and goals?",
+    "count": 1
+  },
+  "Motivation for Program": {
+    "question": "How clearly does the candidate articulate their reasons for applying to the specific program or event?",
+    "count": 1
+  },
+  "Typographical Errors": {
+    "question": "How many typographical errors does the candidate make?",
+    "count": 1
+  },
+  "Specific Research Goals": {
+    "question": "How clearly does the candidate articulate specific research goals for the program?",
+    "count": 2
+  },
+  "Academic Progression": {
+    "question": "How clearly does the candidate describe their academic journey and transitions?",
+    "count": 1
+  },
+  "Career Aspirations Clarity": {
+    "question": "How clearly does the candidate articulate their specific career aspirations and how the program aligns with them?",
+    "count": 1
+  },
+  "Personal Experience": {
+    "question": "How much does the candidate reference specific, personal experiences or projects?",
+    "count": 1
+  },
+  "Technical Project Experience": {
+    "question": "How many technical projects has the candidate developed and implemented?",
+    "count": 1
+  },
+  "Personal Connection to Region": {
+    "question": "How does the candidate connect their personal background to the program's regional focus?",
+    "count": 1
+  },
+  "Hands-On Experience Emphasis": {
+    "question": "How much does the candidate emphasize the importance of hands-on learning and collaborative projects?",
+    "count": 1
+  },
+  "Industry Application": {
+    "question": "Does the candidate discuss the industry applications or implications of their research?",
+    "count": 1
+  },
+  "Program Relevance": {
+    "question": "How clearly does the candidate explain the relevance of the program to their professional goals?",
+    "count": 1
+  },
+  "Specific Projects": {
+    "question": "How many specific projects or achievements does the candidate mention?",
+    "count": 4
+  },
+  "Personal Research Connection": {
+    "question": "How clearly does the candidate connect the program to their own research and future goals?",
+    "count": 1
+  },
+  "Past Relevant Experience": {
+    "question": "How many relevant past experiences or achievements does the candidate mention?",
+    "count": 1
+  },
+  "Future Contributions": {
+    "question": "How well does the candidate describe potential contributions to the program or community?",
+    "count": 2
+  },
+  "Technical Focus": {
+    "question": "How specifically does the candidate's technical focus align with the program's objectives?",
+    "count": 1
+  },
+  "Specific AI Application": {
+    "question": "Can the candidate describe a specific AI application relevant to their field?",
+    "count": 1
+  },
+  "Personal Growth Narrative": {
+    "question": "Does the candidate provide a clear narrative of personal academic growth and adaptation?",
+    "count": 2
+  },
+  "Past Experience Relevance": {
+    "question": "How well does the candidate connect their past experiences and achievements to the goals and topics of SMILES?",
+    "count": 1
+  },
+  "Personal Traits Emphasis": {
+    "question": "How much does the candidate emphasize personal traits (e.g., curiosity, passion) over concrete skills or experiences?",
+    "count": 1
+  },
+  "Consistency of Interest": {
+    "question": "How consistently has the candidate pursued interests related to machine learning over time?",
+    "count": 1
+  },
+  "Language and Cultural Preparation": {
+    "question": "How well does the candidate demonstrate preparation for language and cultural aspects of the program?",
+    "count": 1
+  },
+  "Technical Skill Diversity": {
+    "question": "How many distinct technical skills or areas does the candidate mention having explored or mastered?",
+    "count": 1
+  },
+  "Relevance of Past Experience": {
+    "question": "How well does the candidate connect their past experiences to the program's goals?",
+    "count": 1
+  },
+  "Specific Program Aspects": {
+    "question": "How well does the candidate specify particular aspects of the program that appeal to them?",
+    "count": 1
+  },
+  "Program Uncertainty": {
+    "question": "Has the candidate already decided on the specific program they wish to apply to?",
+    "count": 1
+  },
+  "Field of Study": {
+    "question": "What is the candidate's primary field of study or research focus?",
+    "count": 2
+  },
+  "Competitive Activity Participation": {
+    "question": "Has the candidate participated in any competitive or academic activities?",
+    "count": 1
+  },
+  "Field of Interest Specificity": {
+    "question": "How specifically does the candidate describe their field of interest?",
+    "count": 1
+  },
+  "Specific Contributions": {
+    "question": "How well does the candidate specify what unique skills or perspectives they can bring to the school?",
+    "count": 1
+  },
+  "Specific AI topics": {
+    "question": "Does the candidate mention specific AI topics or areas of interest?",
+    "count": 1
+  },
+  "Community Involvement": {
+    "question": "How well does the candidate demonstrate involvement in the AI community?",
+    "count": 2
+  },
+  "Career Crossroads": {
+    "question": "Does the candidate mention being at a career crossroads and how this opportunity fits into their future plans?",
+    "count": 1
+  },
+  "Networking Motivation": {
+    "question": "How strongly does the candidate express interest in networking?",
+    "count": 1
+  },
+  "Current Academic Pursuits": {
+    "question": "What is the candidate's current academic or professional focus?",
+    "count": 1
+  },
+  "Motivation for Specific Topics": {
+    "question": "How clearly does the candidate express interest in specific topics or areas of study within the program?",
+    "count": 1
+  },
+  "Research Background Detail": {
+    "question": "How clearly and concisely does the candidate describe their current research or work experience?",
+    "count": 1
+  },
+  "Specific AI Focus": {
+    "question": "How specifically does the candidate mention their AI focus?",
+    "count": 1
+  },
+  "Cultural Adaptation": {
+    "question": "How does the candidate demonstrate experience or interest in adapting AI systems for different cultural contexts?",
+    "count": 1
+  },
+  "Program Fit Justification": {
+    "question": "How well does the candidate explain why the program fits their goals?",
+    "count": 2
+  },
+  "Specific Program Features": {
+    "question": "Does the candidate mention specific features or aspects of the program that attract them?",
+    "count": 1
+  },
+  "Project Independence": {
+    "question": "How independent are the candidate's projects and initiatives in machine learning?",
+    "count": 1
+  },
+  "Competition Results": {
+    "question": "Has the candidate achieved notable results in competitive events?",
+    "count": 1
+  },
+  "Experience with Generative Models": {
+    "question": "How extensively has the candidate worked with generative models in their research?",
+    "count": 1
+  },
+  "Specific AI Projects": {
+    "question": "Can the candidate describe specific AI projects they have worked on?",
+    "count": 2
+  },
+  "Future Contribution": {
+    "question": "Does the candidate specify a unique project or idea they plan to work on during the program?",
+    "count": 1
+  },
+  "Future Academic Plans": {
+    "question": "Does the candidate outline their future academic plans?",
+    "count": 1
+  },
+  "Structured Motivation": {
+    "question": "Does the candidate provide a structured explanation for their motivation?",
+    "count": 1
+  },
+  "Alternative Contribution Offer": {
+    "question": "Does the candidate offer an alternative way to contribute if not accepted?",
+    "count": 1
+  },
+  "Relevant Project Experience": {
+    "question": "Can the candidate provide concrete examples of projects that directly relate to the program's themes?",
+    "count": 1
+  },
+  "Academic vs Professional Experience": {
+    "question": "Does the candidate emphasize academic projects and research or professional work experience?",
+    "count": 1
+  },
+  "Personal Interests Mentioned": {
+    "question": "How many personal interests or extracurricular activities does the candidate mention?",
+    "count": 1
+  },
+  "Academic Experience Level": {
+    "question": "How many years of academic experience does the candidate have?",
+    "count": 1
+  },
+  "Future Plans": {
+    "question": "How many specific future projects or initiatives does the candidate outline?",
+    "count": 1
+  },
+  "Experience Discussion": {
+    "question": "Does the candidate discuss relevant experience or lack thereof?",
+    "count": 1
+  },
+  "Personal Motivation": {
+    "question": "How well does the candidate articulate their personal motivation and goals for participating in the program?",
+    "count": 1
+  },
+  "Research Application Domain": {
+    "question": "Does the candidate's research focus on a specific, unique application domain?",
+    "count": 1
+  },
+  "Publication Details": {
+    "question": "How specifically does the candidate describe their published work and its impact?",
+    "count": 1
+  },
+  "Research Experience Detail": {
+    "question": "How clearly does the candidate describe their research experience and its relevance?",
+    "count": 2
+  },
+  "Problem Identification": {
+    "question": "How well does the candidate identify and articulate specific problems in their field?",
+    "count": 1
+  },
+  "Cultural Exchange Interest": {
+    "question": "Does the candidate express interest in the cultural exchange and networking opportunities offered by the summer school?",
+    "count": 1
+  },
+  "Specific Industry Focus": {
+    "question": "Does the candidate clearly specify an industry or domain they are targeting with their research?",
+    "count": 1
+  },
+  "Research Engagement": {
+    "question": "How extensively does the candidate engage with current research topics?",
+    "count": 1
+  },
+  "Specific Technical Experience": {
+    "question": "How well does the candidate describe specific technical projects and tools?",
+    "count": 1
+  },
+  "Specific ML/DL Focus": {
+    "question": "Can the candidate clearly articulate a specific focus area within ML/DL?",
+    "count": 1
+  },
+  "Academic Consistency": {
+    "question": "Does the candidate demonstrate a consistent academic focus throughout their education?",
+    "count": 1
+  },
+  "Specific Technical Details": {
+    "question": "How well does the candidate describe specific technical details and projects?",
+    "count": 1
+  },
+  "Program and Research Focus": {
+    "question": "How clearly does the candidate specify the program and research focus they are applying for?",
+    "count": 1
+  },
+  "Professional Experience Relevance": {
+    "question": "How relevant is the candidate's professional experience to the program they are applying for?",
+    "count": 1
+  },
+  "Program Faculty": {
+    "question": "Does the candidate discuss the program's faculty or collaborators?",
+    "count": 1
+  },
+  "Coursework Specificity": {
+    "question": "How specifically does the candidate list relevant coursework?",
+    "count": 1
+  },
+  "Clear Program Benefits": {
+    "question": "Does the candidate explicitly state how the program will benefit their research and career?",
+    "count": 1
+  },
+  "Academic and Professional Background": {
+    "question": "How clearly does the candidate outline their academic and professional background related to the program?",
+    "count": 1
+  },
+  "Program Engagement and Goals": {
+    "question": "How well does the candidate articulate their engagement with the program and their specific goals for participation?",
+    "count": 1
+  },
+  "Experience Duration": {
+    "question": "How many years of experience does the candidate have in the relevant field?",
+    "count": 1
+  },
+  "Career Prospects Mentioned": {
+    "question": "Does the candidate mention specific career prospects?",
+    "count": 1
+  },
+  "Program Specialization": {
+    "question": "Does the candidate specify the exact program they are applying to?",
+    "count": 1
+  },
+  "Personal Connection to Field": {
+    "question": "Does the candidate describe a personal experience or passion that connects them to the field of study?",
+    "count": 1
+  },
+  "Relevance of Experience": {
+    "question": "How well does the candidate connect their past experiences to the program's focus?",
+    "count": 1
+  },
+  "Tone and Confidence": {
+    "question": "How confident and assertive is the candidate's tone in discussing their ambitions and qualifications?",
+    "count": 1
+  },
+  "Specificity of Research Experience": {
+    "question": "How specifically does the candidate describe their research experience?",
+    "count": 1
+  },
+  "Clarity of Program Alignment": {
+    "question": "How clearly does the candidate explain how the program aligns with their academic and research goals?",
+    "count": 1
+  },
+  "Coursework and Projects": {
+    "question": "How many specific coursework projects or academic projects does the candidate mention?",
+    "count": 1
+  },
+  "Future Plans Detail": {
+    "question": "How specifically does the candidate describe their plans to apply the knowledge gained from the program?",
+    "count": 1
+  },
+  "Location-Specific Motivation": {
+    "question": "Does the candidate express motivation based on the program's location?",
+    "count": 1
+  },
+  "Motivation for Participation": {
+    "question": "What specific reasons does the candidate give for wanting to participate in the program?",
+    "count": 1
+  },
+  "Conference Goals": {
+    "question": "How clearly does the candidate state their goals for attending the conference?",
+    "count": 1
+  }
+}

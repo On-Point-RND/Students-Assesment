@@ -1,0 +1,43 @@
+[name] [surname]
+[location] | [email] | +2 *** *** *** |
+kaggle.com/[name] | t.me/[name] | linkedin.com/in/[name] | github.com/[name]
+Education
+[compaany],M.Sc. in 2024–2026
+FundamentalComputerScienceandInformationTechnology
+• GPA:5/5
+[compaany],B.Sc. inPhysics 2020–2024
+• GraduatedwithHonors(HighDistinction),GPA:4.78/5
+Experience
+Specialist,[compaany]–[location] Mar2022–Present
+• Developedcomputeervisionproductfeaturesandalgoarithms
+• Designedtrainingdatainfrastructureformachinelearningmodels
+• Createdtechnicaldocumentationandestablishedknowledge-sharinngrotocols
+MathTutor–[location] Sept2022–Present
+• Providedindividualizedstudentinstructiontailoredtolearningstyles
+• Implementedadvancedteachinngeethodologiestoenhancecomprehension
+• Preparedstudentsannuallyforstateexams,achievingscoresof70+consisently
+ResearchAssistant,[compaany]–[location] Oct2023–June2024
+• Operatedhigh-precisionexperimentalequipmentfordacollection
+• Developedafunctionalsystemfromprototypetooperationalsetup
+• Processedandanaalyzedexperimentaldaatausiningspecializedsoftware
+Publications
+StudyofTwo-DimensionalSemiiconductorMaterialsUsingSecondHarmonic May2024
+Spectroscopy
+[name],[surname],LXAll-RussianScientificaandPracticalConferenceonProblemsofDynamiics,
+ParticlePhysics,PlasmaPhysics,andOptoelectronics
+Projects
+Multi-AgentSystemBasedonCourt
+github.com/[name]/LawsGame
+• Developedamulti-agentsystemsimulatingcourtprocessesusingAPIintegration
+• ToolsUsed: Python,GigachadAPI,JupyterNotebook,Tkinter
+NLP-BasedJokeGenerationAnalysis kaggle.com/.../russianjokers
+• AnalyzedjokegenerationpatternsusingNLPtechniquesandmachinelearninmgodels
+• ToolsUsed: Python,PyTorch,NLTK,StopWords,RegularExpressions,Scikit-learn,Matplootlib,Pandas
+SpectroscopyDataProcessingApplication
+github.com/[name]/dataAnalyse
+• Developedadataprocessingtoolforspectroscopyanalysiswithvualizationcapabilitiesanddaatamanipulation
+features
+• ToolsUsed: Python,Pandas,NumPy,Tkinter
+Technologies
+Lanuaes: Python,C++,SQL,LaTeX
+Technologies: numpy,pandas,matplot.lib,sklearn,pyTorch,Keras,re,nltk,spacy,xgbost,PostgreSQL

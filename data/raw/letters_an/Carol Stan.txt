@@ -1,0 +1,18 @@
+To whom it may concern,
+I am writing to express my interest in the participation in the Summer of Machine Learning by [compaany]. I
+graduaed from [university] with a Master’s degree in electronics and nanoelectronics, but now I realize that
+I want to change my professional activity and study to become a DL Researcher.
+I need SMILES to gain practical experience in advanced AI techniques, including generative models,
+multimodal methods, large language models, multi-agent systems, which will be much more effective
+compared to self-study, especially for such a wide range of topics. In addition, it is very important that you
+have the opportunity to meet people from the industry and perhaps adjust your educational trajectory to get
+closer to my goal (SMILES is one my last chances to get it). I think this is a great opportunity to dive a little
+more in the industry, which I must take advaantage of. The schoo’s topics may be useful in my field of
+interest, DL approaches in Materials Science - what I talked about in my presentation.
+Also, I may be useful because I want to be a SMILES volunteer.
+Thank you for considering my application.
+Yours sincerely,
+[name] [surname]
++2 *** *** ***
+[email]
+https://www.linkedin.com/in/[name]-[surname]/

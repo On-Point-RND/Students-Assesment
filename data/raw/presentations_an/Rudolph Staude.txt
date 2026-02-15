@@ -1,0 +1,127 @@
+Introduction 03
+Safetywashing 07
+Guaranteed Safe AI 12
+AI Safety for Everyone 17
+Conclusion 23
+Links 24
+Why Safe AI? (Problem Framing)
+Rapid adoption of LLMs and generative models in
+public and enterprise settings
+Examples of real-world harms: hallucinations,
+biased outputs, jailbreaks
+Lack of robust safeguards leads to trust issues
+and misuse
+“AI safety is not a choice — it’s a prerequisite.”
+Yoshua Bengio
+Not only existential risk — but also robustness, reliability, ethics, fairness
+3 Dimensions of AI Safety:
+Technical (robustness, interpretability, verifiability)
+Social (bias, accessibility, trust)
+Operational (deployment safety, user control, misuse prevention)
+Importance of bridging academic research and real-world
+implementation
+As an AI enablement expert in a major [compaany], safety is
+central to everything I do
+I work with non-technical professionals — safety is not
+optional for them
+I help build responsible AI usage culture
+SMILES-2025 is a unique opportunity to deepen my
+understanding of safety frameworks and apply them
+Coverage: each paper explores a different dimension of AI safety
+Paper 1: Evaluation & benchmarking
+Paper 2: Formal guarantees & verifiability
+Paper 3: Ethics & inclusion
+Diversity of methods: empirical critique, conceptual framework,
+literature review
+Leading voices: Bengio, Russell, Nature Machine Intelligence, NeurIPS
+
+Title: "Safetywashing: Do AI Safety Benchmarks Actually
+Measure Safety Progress?"
+Authors: Richard Ren, Steven Basart, Adam Khoja, et al.
+Venue: NeurIPS 2024
+Benchmarking ≠ Safety
+Introduces the term “safetywashing”
+02
+01 03 04
+Existing benchmarks are Better model → better Safety must be Calls for reform of
+flawed proxies scores → false sense of disentangled from evaluation culture
+safety capability
+Enterprise implication: we may be trusting tools based
+on misleading metrics
+What should we really measure?
+How did they measure the problem?
+Authors used correlational analysis across multiple
+benchmark datasets (e.g., TruthfulQA, HHH Alignment).
+They compared performance of different LLMs on
+these benchmarks to see if “safer” models just mean
+“better” models.
+They also conducted a metric dissection, identifying
+which benchmarks truly reflect safety and which
+reflect general competence.
+Some experiments involved holding safety constant
+while increasing model size — to isolate safety-specific
+changes.
+
+Title: "Towards Guaranteed Safe AI: A Framework for
+Ensuring Robust and Reliable AI Systems"
+Authors: David Dalrymple, Joar Skalse, Yoshua Bengio,
+Stuart Russell, et al.
+Venue: arXiv, 2024
+Goal: make safety formally verifiable, not probabilistic
+02
+01 03
+3 components: Inspired by software Challenges: scalability,
+1. World Model engineering practices model uncertainty
+2. Safety Specification (formal methods,
+3. Verifier constraints)
+Pros: clear structure, replicability
+Cons: high entry barrier for practitioners
+Relevance to enterprise: where regulated AI might
+demand formal safety proof
+Building a safety guarantee — not just hoping for one
+The authors propose a formal framework, combining
+methods from logic, control theory, and model verification.
+They define a Safety Specification Language (SSL) — a way
+to write what counts as “safe” behavior.
+Introduce model-checking techniques to verify if an agent
+adheres to that specification in all future states.
+Inspiration comes from software verification (e.g., used in
+aerospace or medical systems).
+This paper is theoretical — no experiments yet, but the
+math is well-grounded.
+
+Title: "AI Safety for Everyone"
+Authors: Bálint Gyevnár, Atoosa Kasirzadeh
+Journal: Nature Machine Intelligence, 2025
+Rethinks what we mean by “AI safety” — from society’s
+point of view
+02
+01 03
+Current focus too narrow Ignored aspects: Proposes pluralistic
+(existential threats, Fairness safety agenda
+technical constraints) Representation
+Inclusion of
+marginalized voices
+Resonates with your work: inclusion of non-technical
+professionals
+Adds “human lens” to technical discussion
+Raises question: who defines “safe”?
+Literature meets lived experience
+Authors used systematic literature review across
+safety, ethics, and HCI (Human-Computer Interaction).
+The method was interdisciplinary — combining
+sources from AI safety, philosophy, political theory.
+Used narrative synthesis — not just statistics, but
+storylines that connect concepts.
+Collected case studies of marginalized voices and
+underrepresented safety concerns.
+Their goal: expose blind spots in current AI safety
+research.
+No one-size-fits-all solution
+Combine formalism (paper 2) + social context (paper 3) + critical realism (paper 1)
+Idea: build hybrid benchmarks that measure robustness and value alignment
+Add user feedback loops to existing safety protocols
+AI safety is more than technical precision — it's a multidimensional challenge
+We must measure wisely, build responsibly, and listen broadly
+These papers help define a future where safe AI means aligned AI
+https://a rxiv.org/abs/2407.21792 https://a rxiv.org/abs/2407.21792 https://a rxiv.org/abs/2407.21792

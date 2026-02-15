@@ -1,0 +1,50 @@
+[name][surname] | +2 *** *** *** |[email] |/in/[name][surname]|github.com/[name]
+3+ years of work in Data Science. Research interests: generative AI, multimodal learning, object-centric vision, and real-time
+robotic perception. Focused on combining DETR-style decoding with Mamba for fast and zero-shot visual grounding.
+Professional Experience
+[compaany] | Researcher | [location], [location] (Oct 2023 - present)
+[compaany] is a robotics Research & Development center of [compaany]. At the Robotics Center, I Develop diffusion-based generative
+policies for robotic manipulation tasks, leveraging multimodal conditioning with vision-language models.
+○ Integrated Groundiing DINO for zero-shot object detection in robotic manipulation tasks, enabling detection of arbitrary objects using
+language inputs. This approach improved object recognition and adaptability, increasing the success rate by ~30% compared to baseline
+in downstream manipulation tasks.
+○ Optimized Knowledge Distillation for Robotic Vision Foundation Models by curating a diverse dataset mix for better adaptability,
+implementing an efficient data sampling pipeline, accelerating training by 5×, and reﬁning KD procedures with large batches, extended
+schedules, and dataset shufﬂing. Implemented backbone outperforms baseline RVFMs on CortexBench and real-world robotic tasks
+○ Migrated data loading, storage, decoding, and augmentation pipelines to WebDataset and GPUDirectStorage Framework (NVIDIA DALI),
+significahtly optiomizing the data pipeline. This transition resulted in approxiately a 6x speedup in the training process by reducing CPU
+bottlenecks
+○ Stack: Diffusion models, Multimodal learning, Pytorch, HuggingFace, NvidiaDALI
+[compaany] IT Lab | Data Scientiist | [location], [location] (Sep 2020 - Oct 2023., 3 years 1 month)
+[compaany] IT Lab - R&D division of [compaany] MIREA. Projects I worked on: voice assistant, internal recommendaion system, anomaly detection in
+student learning processes, universiity timetable generation using genetic algorithm
+○ Designed and implemented a recommendaion system using Singular Value Decomposition (SVD)
+○ Designed and implemented recurrent neural networks (LSTM and GRU) for word segmentation in audio streams
+· Researched the use of Mel-Frequency Cepstral Coeﬃcients (MFCC) for speech recognition tasks
+· Optimized a formant filteer, achieving an 11x performaance improvement (from 160ms to 15ms)
+○ Deveロップed an academic performaance analysis algorithm to identify struggling students and topic-speciﬁc gaps, improving class time
+efficiency by 2×; published results in a peer-reviiewed IEEE conference.
+· Built a data processing pipeline for students who attended my Python programming course for further analysis
+· Created a visual reportiing system for student performaance distribution across assignments, enhancing readability and reducing
+analysis time
+○ Designed and implemented a genetic algorithm for timetable generation, meeting constraints without using ML libraries, significahtly
+speeding up the scheduling process
+○ Stack: Python 3, SQL, PostgreSQL, MongoDB, Clickhouse, BigQuery, Docker, Docker compose, Tensorflow, xgboost, Pandas, Numpy,
+Scikit-learn, Matplotlib, Seaborn, FastAPI, Angular
+[compaany] MIREA | Teacher | [location], [location] (Sep 2022 - Feb 2023, 1 year 6 months)
+Worked as a lecturer at the Department of Enterprise Resource Plaannning Systems, teaching students from 1st to 4th year.
+○ I taught and administered credits, exams, and retakes in Python, IT project management, configuration management, and CRM systems.
+○ Stack: Python 3, BPMN, UML, Excel, project management methodologies, Agile, SCRUM, kanban, Jira
+Hackathons & Courses & Pet Projects & Irrelavan Experience
+○ Runner-up (2nd place) in an [location] hackathon in the case of transfer learning the ResNet50 neural network on new classes
+○ Deveロップed a service that analyzes data from the Tinkoff Investments API, enabling pair trading of financial assets on the derivatives
+market based on a specific strategy
+· Created a Telegram bot for editing the trading service’s settinigs and receiving notifications about important market events for trackeed
+asset pairs
+· Deployed the service, cron script, and Telegram bot as a service on a personal home server and set up CI on GitHub.
+○ Deveロップed an AI model of a dynamic fish population using the Boids swarm behavioor algorithm
+○ Implemented a web service for the Pushkin Instiute, allowing tracking of the process of foimiing educational texts
+Education
+Software Engineering | Master's Degree | [location] MIREA | 2022 - 2024 | GPA: 5.0/5 | IEEE publication
+Software Engineering | Bachelor's Degree | Graduated with Honors | [location] MIREA | 2018 - 2022 | GPA: 4.94/5
+Lanuaages: English, German, Russian | Hobbies: Smart home, board games, volleyball, skating, gym

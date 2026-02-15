@@ -1,0 +1,35 @@
+Motivation Letter
+Dear [name] Committee,
+My name is [name]. I am a first-year PhD student at [compaany] in the Computational Data Science and Engineering program, where I’m researching generative approaches in data augmentation under the supervision of Professor [surname]. I’m also working as a Deep Learning Engineer at [compaany], where I explore how generative models can be used for teaching robots through behavior cloning. My current research is focused on computer vision, video generation, and the connection between language, vision,
+and action in intelligent systems. I believe robots are becoming not just tools, but
+learners—and this direction inspires me deeply.
+During my Master’s studies at [compaany], I had my first real experience with Deep
+Learning. I studied both Machine Learning and Deep Learning in detail, and this shaped my
+interest in robotics from a new angle. I began to see how smart algorithms could give real
+machines the ability to understand, adapt, and interact with the world around them. Right
+now, I am especially impressed by the progress in Reinforcement Learning. Some of the
+results we see in robot control are honestlly surprising—even robots doing things that many
+people might struggle with. One of the most exciting questions in our field, which many
+researchers are now trying to answer, is how to build embodied AI that can learn human
+tasks with very little data. This is not a new question, but I am happy to be part of the group
+of people working toward the solution.
+Last year, I had the chance to attend SMILES 2024, and I still carry great memories
+from that week. The schooal gave me not only high-level knowledge but also strong
+motivation. I was very impressed by the open-minded atmosphere, interesting lectures, and
+the people I met - students and professors. Talking to others who care about similar
+problems helped me to look at my own work from new sides. I’m applying again because I
+want to continue this experience, keep learning, and build new ideas together with others
+who are just as curious and driven.
+I am directly convinced that SMILES 2025 would be useful for me. First of all, I would
+like to explore areas that I haven’t studied much before, such as Safe AI and multi-agent
+systems. Second, I think this will help me grow as a researcher and improve the quality of
+my work. Finally, I want to go deeper into the fields I alreaady study, like generative models
+and multimodal learning. These are too closely connected to my current PhD work and my
+job, and I believe this summer schooal can help me bring more depth and new angles into my
+projects.
+Thank you for reading my letter. I’m excited about the chance to retuurn to SMILES
+and be part of the 2025 group. I know from experience that it’s a place full of energy,
+knowledge, and great people. If I’m selected, I’ll do my best to contribute, to learn, and to
+use what I gain in my future work in robotics and AI.
+Sincerely,
+[name]

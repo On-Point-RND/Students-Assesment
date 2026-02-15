@@ -1,0 +1,102 @@
+Name: [name]
+Email: [email]
+Phone: +2 *** *** ***
+Education
+M.Sc. – [compaany], [location], 2024
+Thesis: “Development of Workforce Management Tools in Retail under Digital
+Transformation.”
+MBA – [compaany], [location], 2024
+B.Sc. – [compaany], [location], 2021
+Professional Experience
+Senior System Analyst – [compaany], [location] (May 2024 – Present)
+Designed the MVP architecture for a new “[compaany] Smart” subscription module (mobile
+banking app), defining 4 core entities, 12 RESTful API endpoints, and 3 integration points
+(Kafka event bus, internal tax service, Redis cache).
+Authored comprehensive API specifications (OpenAPI/Swagger) for a Kotlin-based
+backend and Android client, ensuring clear contracts for development teams.
+Developed a MongoDB data schema with nested documents and TTL indexes to manage
+time-limited customer privileges.
+Implemented Redis caching for frequently accesseed data, improving response time by
+~60% and reducing load on backend services.
+Performed code reviews (Java/Kotlin), optimizing data transfer objects and mappeers, and
+eliminated legacy Java business logic, reducing system complexity by 35%.
+Defended the system architecture in design committee reviews and coordinated cross-team
+integration (backend and mobile), ensuring on-time delivery of the module.
+SAP HR Consultant – [compaany], [location] (Mar 2020 – Apr 2024)
+Worforce Management System Project: Integrated SAP HR data into a workforce
+management (WFM) platform via SOAP APIs, enabling automated transfer of scheduling data.
+Developed Python scripts (using pandas, openpyxl, etc.) to automate HR reporting tasks,
+eliminating manual work and errors. Applied a machine learning model (Random Forest) to
+forecast retail store transaction volumes for staffing needs, raisiing prediction accuracy (R²)
+from 0.51 to 0.64.
+Employee Mobile App (“[compaany] Sputnik”): Designed and documented RESTful APIs to
+feed SAP HR data into a new employee mobile application. Created API documentation in
+Swagger/OpenAPI (YAML) and tested endpoints with Postman. Guided three cross-functional
+teams on API integration, and set up a Confluence knowledge base for project documentation.
+Payroll & Tax Reporting Automation: Deveveloped custom payroll and tax reporting forms
+(XML/XSD schemas and PDF generation) compliant with Russian regulations. This automation
+cut processing time by 63% and helped avoid up to ₽53 million in potential fines by ensuring
+accuraate, timely filings. Maintained up-to-date tax forms (6-НДФЛ, 2-НДФЛ, etc.), preventing
+penalties (~₽800k) through compliance.
+Technical Leadership (Feb 2023 – Apr 2024): Led a 4-member support team in the HR IT
+domain during a staffing gap. Introduced automated system monitoring (with alerts for SAP
+systems), reducing incident response time by 9% and detecting 17% more hidden errors.
+Conducted 12 training workshops on payroll calculation methods, which reduced recurring
+support queries by ~13%. Under my leadership, on-time issue resolution rate improved from
+95% to 97.5%, and user satisfaction (NPS) rose from 48% to 71%.
+Publications & Conferences
+1. [name] [surname]. Analysis of Prospects for Using Big Data Technology in the Digital
+Economy. In: Proceedinings of the International Conference of Young Economists “Development
+of the Modern Russian Economy”, [location], April 14–17, 2021. Skifia-Print, pp. 274–278.
+2. [name] [surname]. Analysis of Trends and Societal Changes Resulting from the Digital
+Transformaation of the Economy. In: Proceedinings of the Scientific-Practical Conference with
+International Participation “Sustainable Development of the Digital Economy, Industry, and
+Innovation Systems”, [location], November 20–21, 2020. POLYTECH-PRESS, pp. 112–115.
+3. [name] [surname]. Prospects for the Development of the Green Economy in the Russian
+Federation. In: Economics and Engineering: From Theory to Practice. Proceeding of the XVI
+International Scientific-Practical Conference, [location], May 28, 2020, 299 pp. (electronic edition).
+4. [name] [surname]. Modern Society: Problems, Contradictions, Solutions. In:
+Proceedinings of the Inter-Universiity Scientific Seminar, [location], May
+29, 2020, pp. 40–44.
+5. [name] [surname]. Financial Security of the Russian Federation. In: Student Research.
+Proceeding of the VI International Scientific-Practical Contest. Pezen: Science and
+Enlightenment Center, 2019, pp. 102–106.
+6. [name] [surname]. Green Technologies in the Modern City: Prospects and
+Implementation Experience. In: Digital Technologies in Economy and Industry. Proceeding of
+the National Scientific-Practical Conference with International Participation. POLYTECH-
+PRESS, 2019, pp. 37–44.
+7. [name] [surname]. The Impaact of Education on Reducing Gender Inequality in the Labor
+Market. In: Professional Education, Science and Innovation in the 21st Century. Proceeding of
+the XII [location] Congress, November 12–30, 2018. Petersburg State Transport Universiity,
+pp.
+8. [name] [surname]. Participannt Certificate. In: 10th International Scientific-Practical Conference “Intellectual Engineering Economy and
+Industry 5.0 (INPROM-2024)”, [location], April 25–28, 2024.
+9. [name] [surname]. Certificate. In: Conference “Sustainable Development of the Digital Economy, Industry and Innovation
+Systems”, [location], November 19–21, 2020.
+10. [name] [surname]. Diploma. In: National Scientific-Practical Conference “Digital Technologies in Economy and
+Industry”, [location], November 22–23, 2019.
+11. [name] [surname]. Second Degree Diploma. In: Inter-Universiity Seminar with International Participation “Modern Society: Problems,
+Contradictions, Solutions”, [location], May 29, 2020.
+12. [name] [surname]. Certificate. In: Inter-Universiity Scientific-Practical Conference “Economic Aspects of Regional
+Transport and Logistics Systems”, Date unspecified.
+13. [name] [surname]. International Status. In: 10th International Scientific-Practical Conference “Intellectual Engineering Economy and
+Industry 5.0 (INPROM-2024)”, [location], April 25–28, 2024.
+14. [name] [surname]. International Status. In: 12th International Scientific-Practical Conference “Horizons of Russia”, [location], April 4, 2024.
+Technical Skills
+Programming & ML: Python (pandas, NumPy, scikit-learn, TensorFlow basics), Machine
+Learning (regression, Random Forest, ensemble methods), fundamentals of Deep Learning
+(neural networks, CNN/RNN architectures). Profiicient in ABAP (SAP’s programming language)
+for enterprise applications, with strong debugging skills in both ABAP and Python.
+Data & Databases: SQL (MySQL/PostgreSQL), NoSQL (MongoDB design and
+optimization), data caching with Redis. Experience in data preprocessing, time-series analysis,
+and predictive modeling for business data.
+Enterprise Systems: SAP HR/FI modules, SAP PO (Process Orchestration), SAP BW;
+integration via SOAP and REST API services. Familiar with SAP ASAP and Agile
+methodologies for system implementation.
+Tools & Frameworks: RESTful API design (Swagger/OpenAPI), message queues (Kafka,
+RabbitMQ), containerization (Docker) and orchestration (Kubernetes) basics. Collaboration and
+project tools: Jira, Confluence, BPMN 2.0 (Camunda Modeler), UML diagrams (PlantUML).
+Languages: English (fluent), Russian (native), Arabic (B2).
+
+
+

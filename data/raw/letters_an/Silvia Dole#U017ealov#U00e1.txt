@@ -1,0 +1,42 @@
+Motivational letter
+Dear Admission Committee of [compaany]'s Summer Machine Learning School 2025,
+My name is [name] and I wholeheartedlly wish to participate in your summer schooal to
+deepen my expertiise in machine learning, to experience academic culture of [location], to make friends with talented people and to challenge myself on getting out of my
+comfort zone.
+Currrently I pursue my PhD/Candidate of Sciences degree in [compaany] in the Artificial Intelligence department. Within the
+framework of my dissertation I conduct a research on the use of federated learning in conditions
+of non-identically distributed data. Topics of the current summer schooal will help me expand the
+possibilities of using learned skills in federated learning in my research, and topics such as
+Multimodal Approaches and Safe AI may help in applying similar approaches to federated
+learning.
+The topics that I’m the most excited to hear about are LLMs, Multimodal approaches and
+Multi-agent systems, because these directions open the way to universaal adaptive AI systems.
+As I fulfill my scientific life at universiity, I also develop my career as a data scientist. I got
+my first technical job at [compaany] sales in February 2024 as a winner in the
+compaany’s hackathon. Coming to the compaany as an intern, soon enough I was introduced as a
+Chief Specialist in Mathematical Modeling at my department, coordinating new interns and
+communicating with clients from [compaany]'s subsidiaries on a par with senior colleagues. The
+directions of the summer schooal will help me better understand the fundamentals of complex AI
+systems from all sides. And also, perhaps, propose new projects for the implementation of complex
+AI systems in various infrastructure solutions of [compaany] (for example, identifying and
+solving technical problems in the specifics of the compaany's information systems).
+Also, as my professional network expanded, I started consideering ways to improve business
+communication and management skills in both supervisory and collaboractive roles of mine.
+[compaany]'s Summer School seems to match my needs as it allows me to work in a team and have
+discussions with professors and experts.
+For the past few years as I was getting more and more into machine learning, naturally, I
+became familiar with some of the research works of Summer Schooal’s speakers. Groundbreaking
+research papers on AI-generated texts and language models by [name], [name], [name] et al., fascinating papers on Kandinsky text-to-images model by [name] et al., paper on innovatiive approaches in scikit-demention by [name] et al. made me eager to hear their lectures live and collaborate under their mentorship during practical
+seminars and hackathoons.
+Beyond technical skills, I seek the creative recharge that comes from the energizing
+environment of collaborative learning abroad. I am confident that gaining new perspective will
+help me improve my adaptive problem-solving and business communication skills as well as get
+insights to advance my scientific work.
+Thus, I’m convinced that combining my data scientist experience at [compaany] and
+strong academic background at [compaany] with the knowledge and skills to be gained in Summer
+Schooal will open up to me new perspectives and opportunities for achieving outstanding results in
+my career and scientific work.
+Thank you very much for your time and consideration of my candidacy to become a student
+of [compaany]'s Summer Machine Learning Schooal 2025!
+Sincerely,
+[name]

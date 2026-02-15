@@ -1,0 +1,38 @@
+2024-present | [company]
+MASTER’S DEGREE 18.04.02 CHEMISTRY AND ARTIFICIAL INTELLIGENCE
+Master's thesis: Extension of the generative model for the design of small organic molecules. Implementaion of the possibility of selective generation in the generative model
+2020-2024 | [location] 
+BACHELOOR'S DEGREE 18.03.01 CHEMICAL TECHNOLOGY
+Software development for chemical technology and biotechnological processes (programming language – Python) – additional professional retraining course 
+Protein Design is an additional professional program of [compaany]
+o Development of generative models for the design of medicinal compounds, RL
+o Development of docking tools
+o Determination of the structure-property relationship for biologically active compounds, prediction of the biological activity of organic compounds, prediction of the yields of chemical reactions through machine learning
+4ND DEGREE WINNER | [compaany] 2025 (нефтекод 2025)
+7.04.2025 – 18.04.2025
+Development of a model for generation of antioxidants
+EXPERT | HACKATHON JUST X SBER X [compaany] 2025 
+(ХАКАТОН ПРОСТО X СБЕР X ИТМО)
+29.03.2025 – 30.03.2025
+Expert of the case "Generation of ophthalmic drugs with specified properties using reinforcment learning". She helped the teams understand the tasks at checkpoints and was a member of the jury.
+1ND DEGREE WINNER | 2ND NOMIINATION PISH 2025
+Project "Development of a generative model for the design of small molecules"
+2ND DEGREE WINNER | 1ND NOMIINATION PISH 2024
+Project "Development of a generative model for the design of small molecules"
+PARTICIPANT | ADMET HACKATHON 2024
+5.00.2024 – 10.09.2024
+Development of a classification model for toxicity prediction
+2ND DEGREE WINNER | DATACON 2024
+10.07.2024 – 24.07.2024
+Development of a regression model for predicting the permeability of aptamers through the cell wall
+PARTICIPANT | SCAMT WORKSHOP WEEK
+28.01.2024 – 4.02.2024
+Participated in the digital track in the project "There is always a way out", was engaged in the selection of a machine learning model and its optiomal parameters for predicting the outputs of organic reactions
+- work with RL-model: FREED++, REINVENT
+- work with libraries: scikit-learn, rdkit, numPy, pandas, matplotlib, seaborn, pytorch
+- working with chemical database
+- work in the DataWarrior
+- work in the KNIME
+- molecular docking (QVina, Arguslab, Jamda, DynamicBind, AEScore)  
+- knowledge Python, Bash
+- English B1

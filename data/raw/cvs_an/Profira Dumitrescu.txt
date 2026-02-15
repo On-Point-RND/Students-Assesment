@@ -1,0 +1,47 @@
+[name] [surname]
+Born: 23.04.2003 | [location], Remote
+GitHub | [email] | [email] | Telegram: @[username] |
+Education
+[location] Institute of Physics and Technology ([location] MIPT) Dolgoprudny, [location], 2021 – 2025
+Phystech School of Applied Mathematics and Computer Science Average Grade: 6.9/10; GPA: 3.3/4
+Bachelor’s in Applied Mathematics and Physics.
+Data Science Track: Advanced courses in Bayesian methods, causal inference, A/B testing, applied mathematical statistics, time series analysis, NLP, computer vision, generative models, reinforcement learning, and recommender systems (in collaboration with [company]).
+Tinkoff Financial Technologies Analytics Track: Coursework in mathematical statistics and experimental design.
+Technical Skills
+Programming: SQL, C/C++, Python, Docker, VLLM, Git, Linux, LaTeX, PyTorch, Pyro, LangChain, wandb, comet, FastAPI, Optuna, Poetry, UV, hydra, dvc, pytest.
+Languages: Russian (Native), English (C1, IELTs Academic 2025: 8 overall), Hebrew (A1).
+Experience
+Cognitive Modeling Center, [location] MIPT Dolgoprudny, [location] Region
+Intern – LLM Applications for Agent Behavior Planning Apr 2024 – Feb 2025, Feb 2025 – Present
+Staff – LLM Application Department
+• Developed a solution for the Visual-and-Language Navigation task with VLA task pretrain and Embodied Reasoning techniques.
+• Created a planning module for an embodied agent that uses scene graph information using microservice architecture. Presented findings at the Cognitive AI Systems AIRI Reading Club and the 67th National Scientific Conference of [location] MIPT, where was awarded in a scientific work competition.
+• Researched ambiguity detection by LLMs.
+[location] MIPT.Stats Data Science Track Dolgoprudny, [location] Region
+Python Developer, ML Engineer & Course Assistant September 2024 – Present
+• Worked as a teaching assistant at machine learning, applied mathematical statistics and data analysis courses.
+• Developed backend in Python for ThetaGrader, a system for automated .ipynb tasks grading. Implemented LLM into pipeline to provide reasoning behind the grades.
+School 1543 & Summer Mathematics School [location], [location]
+Teacher & Assistant August 2023 – Present
+• Delivered lectures on Olympiad-level mathematics and advanced topics for school grades 7–11.
+• Prepared lesson materials and served as a jury member for in-school mathematics Olympiads.
+Projects
+CRISPR-Cas9 off-target prediction engine | Git, Docker, Hydra, Python, UV, Wandb, dvc, ML Flow
+• Developed pipeline for existing ML off-target prediction methods using latest Python and Pytorch versions.
+• Studied performance of the solution using Bayesian Neural Networks for different set of layers and Siamese Neural Networks with different similarity functions.
+• Ongoing pet project with regular feature updates; Repository Link
+Steganography Research | Python, Torch, Torchvision, Numpy
+• Investigated robustness of encoded bits against noise in existing steganography methods.
+• Found patterns in encoded information amount dependent on bit position; Repository Link
+Publications & Preprints
+HELP: Hierarchical Embodied Language Planner for Household Tasks (In the process of reviewing)
+Preprint by [name] [surname], [name] [surname], [name] [surname], and [name] [surname].
+AmbK: Dataset of Ambiguous Tasks in Kitchen Environment
+Publication by [name] [surname], [name] [surname], [name] [surname], and [name] [surname].
+Application of Scene Graph for High-Level Planning of an Anthropomorphic Robot (In the process of reviewing)
+Preprint by D.A. Yudin, A.A. Kochetkova, A.A. Lazarev, [name] [surname], and A.K. Kovalev
+Activities
+• Was featured as speaker at [company] Robotics 2025 Robotic Operating Systems (ROS) meetup in the topic of Hierarchical LLM Planning Using Scene graph from visual perception
+• Participated in [location] HSE Bioinformatics Summer School 2024 and Winter Oceanology and Earth Sciences School 2025; hackathon on clustering northern polar vortex states.
+• Participated in Kaggle competitions, YandexCup 2024 (ML: Transportation Trajectory), and attended YSDA Computer Vision Week 2024.
+• Awarded in school Olympiads at [location] MIPT, [location] ITMO, and Rosatom in mathematics, programming, and physics; participated in [location] MIPT Olympiad schools.

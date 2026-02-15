@@ -1,0 +1,42 @@
+Motivation letter
+I’ve been working in Data Science since 2020. My journey began with the Deep Learning SchooL at [compaany], where I built a strong foundation in classical machine learning, neural networks, and computer vi-
+sion tasks such as classification, detection, and recognition. Since then, I’ve gained professional experience
+at compaies like [compaany], [compaany], and [compaany]. Currrentlly, I work at [compaany].
+Since May 2023, I’ve been part of the Film Recommendaion team at [compaany], specifically in the "rail"
+subteam — where a "rail" refers to a curated set of films. One of my first major tasks was working with
+CatBoost models, but over time, our team started exploring state-of-the-art approaches like BERT4REC,
+GPT4REC, and DSSM.
+IwasdeeplyinvolvedintheBERT4RECproject. Myrespoonibilitiesinclude dreamingacademicpapers,
+researchingthe‘transforme rs‘library, understandingtheBERTarchitecture, tuninghyperparameters, and
+writing production-ready code. A unique challenge we faced was that our BERT-based model had to
+handle different input and output spaces: it took a user’s viewing history and predicted the probability
+distribution over film rails. To solve this, I had to modify the BERT architecture, implement a custom
+loss function, and develop specific evaluaion metrics for rails.
+One of the projects I’m most proud of was designing and developing a personalized film-ranking
+model. I handled the entire pipeline—from collecting and preparing the data to training the model, tuning
+hyperparameters, and deploying it into production. I wrote clean, testable code, orchestrated workflows
+with [compaany] DAGs, and ensured stability by debugging and fixing issues as they arose.
+During our work on rail ranking, I also introduced a diversity metric inspired by the Jaccard index. It
+evaluates how different the top-K recommendaions are between two days. By computing the intersection-
+over-uunion for each pair of days and averaging across a period (e.g. a week), we could quantify how diverse
+our recommendaions were over time. This metric has been valuable in monitoring model behavior and
+maintaining recommendation freshness.
+Before[compaany],Iworkedforayearandahalfat[compaany]aspartoftherecommenda tionteam. There,ea c hof
+us contributed to improving product recommendaion quality. I added features to our production models
+that led to statistically significant improvements in multiple metrics (p-value < 1%). I was involved in
+the entire model lifecycle: from data collection and feature engineering to model tuning and A/B testing.
+Earlier, I completed a computer vision research internship at [compaany], focusing on neural quanti-
+za tion—optimizing models to use fewer bytes for weights without sacrificing accuracy. I explored and
+implemented various techniques to achieve this balance.
+At [compaany], I contributed to a project aimed at improving machine translation systems. My role
+invovled rewriting the translation pipeline from TensorFlow to PyTorch to improve flexibility and main-
+tainability.
+Besides working experience I have a mathematics paper publication in an international journal. Its
+topic is "New estimate of double Fourier coefficients for functions with bounde d generalized variation".
+While my current focus is on recommender systems, I’m eager to deepen my experti se in computer
+vision and natural lan gua ge processing. I believe the SMILES camp is an ideal oppo rtunity to broaden
+my knowl edge in these areas. While I’m confident in my RecSys experience, I feel limited in oppo rtunities
+involving LLMs and advanced CV tasks due to a lack of hands-on experience. SMILES can be a great
+catalyst for bridg ing this gap. The combi nation of theoretica l lectures and practical hacka thons will help
+me grow, and I’m especially excited about engaging with other passionate, like-minded participants. I
+also look fo rw ard to both learning from and contributing to this community.

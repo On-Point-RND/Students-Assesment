@@ -1,0 +1,91 @@
+Annual Progress Review:
+Robust AI Data Compression
+[name]
+Year of study:
+Supervisor: [name]
+Doctoral program: Computational and Data Science and Engineering
+Date (17-03-2024)
+Motivation
+Neural-network-based compression methods have been actively developed since 2018, catching up traditional approaches (JPEG, JPEG2000 and BPG) in just three years. Neural networks can convert images into a representation with less redundancy.
+[1] Bégaint, J., Racapé, F., Feltman, S., & Pushparaja, A. (2020). Compressai: a pytorch library and evaluation platform for end-to-end
+2
+compression research. arXiv preprint arXiv:2011.03029.
+Research background and problem statement
+AI Image Compression is vulnerable to Adversarial Attacks. We need to study their impact on different codecs and implement defense algorithms.
+Quantization
+• Medical Imaging
+(manipulated CT/MRI scans) Arithmetic Encoding
+• Security-sensitive
+applications
+(biometric authentication)
+Arithmetic Decoding
+• etc.
+The pipeline of AI Image Compression with Adversarial Attacks. The entropy estimator provides the
+probability estimation for both AE (Arithmetic Encoding) and AD (Arithmetic Decoding).
+3
+Methods Overview
+There are different methods to craft the adversarial noise to the image:
+1. Additive noise
+2. Nonlinear logexp noise
+after compression-
+3. Multiscale nonlinear logexp noise (Ours) decompression
+The goal is to create an attack where the adversarial image looks almost identical to the
+4
+original before compression, but becomes highly distorted after decompression.
+Description of approach (Multiscale Wavelet Decomposition)
+We employ a discrete wavelet transform to split
+Haar Decomposition
+the image x into one low-frequency component L
+and S scales of detail coefficients:
+We then learn noise noise patterns that are
+injected in a nonlinear manner:
+After this, we do the reconstruction and fed to a learned
+compression model:
+Goal: (PSNR, SSIM, or DIST, etc.)
+5
+Pipeline
+6
+Current Results
+Mean over 24 Kodak images
+Dataset. All experiments use the Kodak dataset (24
+uncompressed 768*512 images).
+Models. We evaluate our method using 3 widely used
+learned compression models at quality = 6:
+• Cheng2020-anchor (hyperprior-based Q-scheme)
+• Cheng2020-attn (uses attention modules)
+• LIC-TCM (a state-of-the-art Transformer-CNN
+Mixture model).
+Metrics. PSNR, SSIM, VIF (Visual Information
+Fidelity), and Bits-Per-Pixel (BPP).
+Our multiscale approach achieves significant reductions in PSNR (ai,ao). For example, Wavelet (S=2) brings
+this metric down to about 24.36 dB. Compared to the additive approach with PSNR(ai,ao) = 9.02 dB, this might
+seem less aggressive, however, the PSNR (ai,oi) is significantly higher at 53.19 dB versus 40.15 dB for the
+additive approach, indicating much better attack hiding.
+7
+Further Steps and Timeline
+1) Use the Max Entropy Mask before the attack in order to hide the adversarial
+noise better. Repeat the experiments.
+2) Study the different wavelet decompositions (Daubechies Wavelets,
+Biorthogonal Wavelets, Coiflets, etc.)
+3) Submit the paper to the Q1 journal devoted to “Breaking Robustness in
+Learned Image Compression: A Multiscale Adversarial Attack
+Framework” till May.
+8
+Publications
+1. [name], [name], [name], [name], and
+[name] “Suppressing Modulation Instability with Reinforcement”, Chaos,
+Solitons and Fractals, Q1 (published, Master’s).
+2. [name], [name], [name], [name], and [name], “UNGAN: Machine
+Unlearning Strategies through Membership Inference”. WAIT: Workshop on
+Artificial Intelligence Trustworthiness at conference AINL 2024, Q2
+(published, Master’s).
+3. PhD, in process.
+9
+Courses
+1. TA in course ”Convex Optimization” (2 term)
+2. History and Philosophy of Science. Candidate Exam (4 term, in process)
+3. Research Methodology: Computational and Data Science and Engineering (4
+term, in process)
+10
+Thank you!
+11

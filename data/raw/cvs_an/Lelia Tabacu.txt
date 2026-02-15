@@ -1,0 +1,70 @@
+[name] [surname]
+[email] fl LinkedIn (cid:135) Github
+[location]
+EXPERIENCE
+ResearchEngineer Research projects:
+Dec2023–Now
+[company]
+Adversarial Attacks for Sequential Data
+• Developed low-bit quantization techniques for generative models, Models[link] implemented automatic mixed-precision methods, and designed effective
+• Developed advanced regularization techniques for
+model compression strategies. Optimized data formats to improve
+adversarial attacks to enhance concealment and reduce
+computational efficiency and reduce memory usage.
+detection rates
+• Applied these advancements to both proprietary product models and
+open-source ones, bridging the theoretical research and real-world deployment to
+benchmark the effectiveness of different adversarial
+strategies across models and datasets
+Computer Vision Engineer
+May2023–Aug2023 • Used:ConvLSTM, TimesNet, FGSM, DeepFool
+[company]
+• Organized data annotation projects, trained object detection models, and implemented algorithms for precise object localization
+• Developed a MVP for real-time video analytics with object detection and
+localization using a robot-mounted camera, and validated the system in a
+warehouse environment
+Teaching Assistant in Probability Theory
+Dec2020–Jun2022
+NRUHSE, Faculty of Mathematics, Faculty of Computer Science
+• Authored a comprehensive article detailing the
+methodology, results, and comparison with existing
+approaches
+• Supported students’ understanding of complex concepts through targeted
+explanations and guidance
+• Coordinated teaching assistants and prepared methodological materials to
+support course delivery
+• Used: dtSNE, JEDI, tSNE, LLE, UMAP
+FakeNewsDetection[link]
+Olympiad Math Teacher
+Nov2018–Jun2022
+Phystech-Lyceum named after P.Kapitza, School 444, Math camps
+• Taught Olympiad-level math to high school students and organized math
+events and elective courses
+Entrepreneurship project:
+• Guided four students who went on to win the All-Russia Mathematical
+KidneyAI: Computer Vision Software for
+Human Kidney Histology
+• Developed image analysis workflows for kidney tissue
+samples to accurately detect, segment, and quantify
+Bowman’s capsules, contributing to the development of a
+diagnostic tool in a biomedical startup.
+Used: Segmentation Models PyTorch, OpenCV,
+Albumentations, Toloka
+EDUCATION
+Master of Machine Learning and Artificial Intelligence
+Skolkovo Institute of Science and Technology
+Thesis: Improving Graph Neural Networks with trainable topological
+features extraction.
+Bachelor of Mathematics
+NRU Higher School of Economics, Faculty of Mathematics
+Thesis: Alzheimer’s disease detection via Topological Data Analysis of EEG, based on properties of Persistent Laplacian
+Minor in Bioinformatics
+International Laboratory of Bioinformatics
+Genomics, Sequencing DA, Epigenomics
+SKILLS
+GPA:4.8/5
+CV NLP Python PyTorch Transformers
+[location]
+Skkit-Learn Numpy Pandas
+Linux Git LaTeX
+GPA:4.5/5

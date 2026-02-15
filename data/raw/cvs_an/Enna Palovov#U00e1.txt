@@ -1,0 +1,23 @@
+[name] [surname]
+[email]
+Education
+Bachelor’s in Artificial Intelligence (AI360: ML Native)
+[compaany], [location] | 2024 – Present (Expected: 2028)
+● Specialized track in Machine Learning.
+● Key coursework: Neural Networks, NLP, Computer Vision, Reinforcement Learning.
+Research and scientific work
+Project: Hallucination Detection in Large Language Models (LLMs)
+[compaany] & [compaany] | Feb 2024
+● Worked in a team under [name]’s supervision to develop methods for detecting hallucinations in LLMs.
+● Based on the paper "Hallucination Detection in LLMs via Topological Divergence on Attention Graphs".
+Research Interests
+● Trustworthy AI (Hallucination Detection).
+● NLP & LLMs (Fine-tuning, Control Problem, Multimodal Models).
+● Generative AI (GANs).
+Technical Skills
+● Programming: Python, Java, C++, Bash.
+● ML/DL Frameworks(libraries): PyTorch, Hugging Face, OpenCV, seaborn, NumPy, Pandas.
+● Other: Git, Docker, LaTeX, Jupyter.
+Achievements
+● Russian Olympiad of Math (final, participant)
+● Russian local Olympiads of Math (prizes)

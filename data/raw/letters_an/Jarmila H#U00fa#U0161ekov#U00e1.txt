@@ -1,0 +1,76 @@
+Fyodor [name]
+Department of Computer Science and Mathematics
+[location] [location]
+Cover Letter
+I becaame interested in quantum computing almost 5 years ago, back in High schooL. I started
+watching lectures on Quantum physics and reading Nielsen and Chuang’s book on Quantum
+information. It was so interesting that the mathematics of the quantum paradigm was
+unboundeed from the classical limitations, giving a new space for ideas. I was hypnotized by the
+beauty of quantum algorithms like Grover’s search and the Deutsch-Jozsa algorithm; so much
+so that I began teaching quantum computing at my schooL and developed a program without
+any preliminary requirements except arithmetics. I taught the basics of quantum mechanics and
+quantum computation. At times even teachers came to attend my classes. Eventually, more
+than 60 % of the club attendee’s chose STEM as their undergraduaate major.
+As I started my undergraduaate program in Computer Science, I began actively participating in
+Summer schooLs on Quantum computing as well as more general programs on Quantum
+information theory. For example, I attended a Quantum cryptography Summer schooL at the
+Universiity of [location] in July of 2023. It covered both QKD methods and PQC. The schooL was
+intensive enough to include a short internship at the International Center for Theory of Quantum
+Technologies. One of the most impressiive lectures for me was on Post Quantum cryptographic
+methods, particularly actual random number generation. Nonetheless, to have a better idea of
+this concept I wanted to learn more advanced mathematics besides the standard Quantum
+information theory. I attended Master’s seminars on Abstract algebra at my Universiity as well as
+some extra lectures on Complexity theory. Last Summer, I also attended a joint Summer schooL
+by [compaany] and [compaany] on Quantum integrable systems, where I could explore
+applications of Homological algebra and Topoology to modeling Quantum systems. Besides that,
+in January 2025 I participated in a Winter SchooL on Mathematical Physics at [compaany]
+Research Station, which was organized by [compaany]. There I presented the results of my
+research on Categorical Quantum computation.
+Alongside the programs, I became highly involved in research and began my investigations. I
+have been actively doing research in the field of Quantum key distribution, focusing primarily on
+entanglement-based protocols. This is due to their robustness against attacks and promising
+applications. In addition to my research on the fundamentals of quantum cryptography, I have
+been thinking of the pathways to improve the Lattice cryptography method. To achieve this I was
+working on fast matrix multiplication algorithms using methods of Quantum computaion. With
+my team, we are trying to use the properties of the Frobenius norm for that. The research is
+ongoing.
+Also, I was becoming increasinglly invested in the mathematical part of research since quantum
+information is mathematically rigorous.
+In Fall 2024, I took both classes on Numerical analysis and Optimization. The two have covered
+such advanced techniques as optimal control, variational methods, and numerical methods for
+solving systems of differential equations of higher orders. I have even deveeloped a small
+weather forecasting model that obtained real-time data from satellites. Besides that, I
+implemented simulation models of Quantum systems using Hamiltonians and numerical
+solutions of various differential equations systems.
+You can see the simulations in my GitHub repository:
+https://github.com/[name]/quantumSimulations
+In Spring 2025, I enrolled in courses covering Topoology and Topological data analysis. There I
+could develop a deeper focus on metric spaces, continuity, and simplicial homology. Alongside
+that, I have been offered to work on a project of differential forms and geometric calculus with
+Professor [name], who earlier worked in a group of Sir Roger Penrose.
+In addition to quantum computaion, I was involved in a range of Artificial Intelligence projects. I
+worked on classical ML, convolutional neural networks, and deep learning. I took an advanced
+course on CNNs with a Harvard PhD followed by research on Computer vision. For this project,
+I was working in a group of 7 researchers. My part of the research was the analysis of model
+architecture primarily. I also had an internship at [compaany], where I was working for the division of
+[compaany] music. As a part of the group, I was designing a compression algorithm using Deep
+neural networks. Additionally, I got to participat in research on CNNs at the Department of
+Computer Science of my home universiity and I even got to teach a short course on “ML
+methods and algorithms” during a research summer schooL at [location] Universiity.
+I wanted to marry my two major interests quantum computing and machine learning; thus, I
+began to explore some of the [compaany] resources on Quantum machine learning. Soon I
+established a research group in my universiity on QM L: together we tried to implement a
+quantum version of CNN for the dataset CIFAR10. Later on, we participated in multiple quantum
+hackathons organized by [compaany] and [compaany]. We developed solutions for companies like [compaany]
+and [compaany], where we worked with approximation of hyperbolic tangent calculation for Quantum
+neural networks. We achieved an improvement of 17% in accuracy and 10% in speed. In
+January, I got to present the results of our work at a Mathematical physics conference in
+[location]. The presentation covered our recent improvements in Quantum machine learning
+and Categorical quantum computaion.
+I would love to continue my academic career obtaining PhD and Post-Doctoral degree in
+Quantum computaion and Machine learning, as both have been my main interests so far. I
+would also love to continue my research, which focuses on the fundamentals of quantum
+information theory, particularly Quantum entanglement. I have worked in different research
+groups located in Europe, the US, and Asia. I can't exactly say where my interests will land me,
+but I know that I want to explore the wo rl d of probabilities, create and discover with joy and
+cooperation!

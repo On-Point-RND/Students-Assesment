@@ -1,0 +1,81 @@
+[name] dsasha0102@gmail.com
+@[name]
+[surname]
++2 *** *** ***
+GitHub, Kaggle, LeetCode
+Middle ML Engineer with 2+ years of hands‐on experience in
+developing and deploying computer vision, NLP, and scientific ML
+solutions, from data pipelines and model training to production
+inference and monitoring. Passionate about generative AI,
+multimodal systems, and MLOps best practices.
+CORE SKILLS PROFESSIONAL
+seaborn/matplotlib EXPERIENCE
+PyTorch, Keras, Transformers, OpenCV, PEFT,
+1 year Intern at [company]
+LangChain, scikit‐learn
+Fine‐tuned TaTR to localize and segment tables in
+Computer Vision
+scanned document images.
+NLP & LLMs
+Developed ML based CFD solver using SOTA PINN
+Mathematical analysis, probability theory and
+(physics informed neural network) model.
+mathematical statistics
+It was my bachelor's thesis.
+Basic Machine Learning Algorithms
+Stack: Pytorch, Numba
+ONNX Runtime, TensorRT, Triton, vLLM,
+6 mon Junior ML developer at [company]
+llama.cpp
+PSC
+Faiss, Chroma-DB, Sphinx
+Contributed to the RnD of ML and DL models for
+[compaany], Docker, REST/gRPS API
+the toxic SQL queries identification.
+SQL, Postgres, SQLite
+Stack: TF-IDF, BERT, GNN
+EDUCATION
+8 mon Python developer at [company]
+National Research Nuclear Universiity
+MEPhI ([location], [location])
+Developed ONNX models inference block for Java
+solver, RAG pipeline for a corporate technical‐docs
+2024 – present: chatbot
+M.Sc. in Applied Mathematics & Informatics,
+Department of Cybernetics,
+Profile,
+Computer Vision
+2020 – 2024:
+Built a recommendaation multimodal engine
+B.Sc. in Applied Mathematics & Physics,
+with collaboractive filteering to suggest
+Program: Supercomputer Technologies in
+visually and semantically similar points of
+Engineering‐Physical Modeling
+interest.
+Military Training Center, MEPhI,
+Moscow, [location]
+Winner of the “National
+Digital Faculty ML Track, Machine Learning
+Technological Olympiad” in
+Profile,
+Computer Vision
+2024 – present:
+Reserve Officer Training Program, Third‐place wiinner for buildiing an MVP
+LLM‐driven candidate‐screening application,
+streamlining resume analysis and job‐fit
+Yandex – ML Training scoring.
+Samsung - CV, NLP, Booxtamp
+Winner of the “SbierAI” Hackathon
+2024 – present:
+Courses
+Coursesra - ML, Python
+First‐place wiinner for buildiing an LoRA fine-
+Machine Learning Methods Course
+tuned LLM‐driven word cloud clustering
+Instructor
+Indeependently designed and delivered a
+MEPhi conference participant
+comprehensive “Machine Learning
+Methods” course
+Mentored students on individual projects
